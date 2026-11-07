@@ -1,5 +1,5 @@
 {
- "data_version": "9b23d470136b4cd4",
+ "data_version": "43ea072d5867e5e5",
  "format": 1,
  "faction": "imperial_agents",
  "codex": {
@@ -600,7 +600,14 @@
      "units": {
       "conditions": [
        {
-        "datasheet": "codex/imperial_agents/roster/watch_captain"
+        "any_of": [
+         {
+          "datasheet": "codex/imperial_agents/roster/watch_captain"
+         },
+         {
+          "datasheet": "codex/imperial_agents/roster/watch_captain_artemis"
+         }
+        ]
        }
       ],
       "min": 1
