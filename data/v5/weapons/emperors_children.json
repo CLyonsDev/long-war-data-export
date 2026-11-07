@@ -1,0 +1,739 @@
+{
+ "data_version": "cc01abdf61b0ac40",
+ "format": 1,
+ "faction": "emperors_children",
+ "weapons": [
+  {
+   "id": "dueling_blade",
+   "name": "Dueling Blade",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/dueling_blade/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rupture_lash",
+   "name": "Rupture Lash",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/rupture_lash/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blissblade",
+   "name": "Blissblade",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/blissblade/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bliss_spear",
+   "name": "Bliss Spear",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/bliss_spear/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      },
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "screamer_pistol",
+   "name": "Screamer Pistol",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/screamer_pistol/",
+   "profiles": [
+    {
+     "type": "Pistol 2",
+     "range": "12\"",
+     "strength": "5",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sonic_blaster",
+   "name": "Sonic Blaster",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/sonic_blaster/",
+   "profiles": [
+    {
+     "type": "Assault 3",
+     "range": "24\"",
+     "strength": "5",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_sonic_blaster",
+   "name": "Linked Sonic Blaster",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/linked_sonic_blaster/",
+   "profiles": [
+    {
+     "type": "Assault 3",
+     "range": "24\"",
+     "strength": "5",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blastmaster",
+   "name": "Blastmaster",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/blastmaster/",
+   "profiles": [
+    {
+     "type": "Assault 3",
+     "range": "36\"",
+     "strength": "7",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "doom_siren",
+   "name": "Doom Siren",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/doom_siren/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "18\"",
+     "strength": "6",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blades_of_excess",
+   "name": "Blades of Excess",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 18,
+   "url": "https://longwarindex.app/wargear/blades_of_excess/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      },
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bolts_of_ecstatic_vexation",
+   "name": "Bolts of Ecstatic Vexation",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/bolts_of_ecstatic_vexation/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Bolt Pistol, Bolt Gun or Combi Bolter for this relic for 5pts.",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/ignores_cover",
+       "name": "Ignores Cover",
+       "url": "https://longwarindex.app/special_rules/ignores_cover/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cruel_daemon_sword",
+   "name": "Cruel Daemon Sword",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/cruel_daemon_sword/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "distortion",
+   "name": "Distortion",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/distortion/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 20pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "*",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      },
+      {
+       "rule": "codex/emperors_children/special_rules/distorted_perfection",
+       "name": "Distorted Perfection",
+       "url": "https://longwarindex.app/special_rules/distorted_perfection/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "duellists_sword",
+   "name": "Duellist's Sword",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/duellists_sword/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "glory_aeterna",
+   "name": "Glory Aeterna",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/wargear/glory_aeterna/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "infernal_warp_bolters",
+   "name": "Infernal Warp Bolters",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/infernal_warp_bolters/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "8",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lash_of_torment",
+   "name": "Lash of Torment",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/lash_of_torment/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      },
+      {
+       "rule": "special_rules/swift_strike",
+       "name": "Swift Strike",
+       "url": "https://longwarindex.app/special_rules/swift_strike/"
+      },
+      {
+       "rule": "special_rules/arcing",
+       "name": "Arcing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/arcing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pain_whip",
+   "name": "Pain Whip",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 18,
+   "url": "https://longwarindex.app/wargear/pain_whip/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/arcing",
+       "name": "Arcing",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/arcing/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scything_tail",
+   "name": "Scything Tail",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 18,
+   "url": "https://longwarindex.app/wargear/scything_tail/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "3",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shriekwave",
+   "name": "Shriekwave",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/shriekwave/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Doom Siren for this relic for 10pts.",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "18\"",
+     "strength": "8",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spear_of_slaanesh",
+   "name": "Spear of Slaanesh",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 18,
+   "url": "https://longwarindex.app/wargear/spear_of_slaanesh/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_blissgiver",
+   "name": "The Blissgiver",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/the_blissgiver/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Rupture Lash for this relic for 20pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      },
+      {
+       "rule": "special_rules/swift_strike",
+       "name": "Swift Strike",
+       "url": "https://longwarindex.app/special_rules/swift_strike/"
+      },
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_soulsnare_lash",
+   "name": "The Soulsnare Lash",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_soulsnare_lash/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Rupture Lash for this relic for 10pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      },
+      {
+       "rule": "special_rules/swift_strike",
+       "name": "Swift Strike",
+       "url": "https://longwarindex.app/special_rules/swift_strike/"
+      },
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "param": "Infantry",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

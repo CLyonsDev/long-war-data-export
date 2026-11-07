@@ -1,0 +1,465 @@
+{
+ "data_version": "c7f8ad992565f5b3",
+ "format": 1,
+ "faction": "ultramarines",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/the_helm_of_censure/",
+   "offered_by": {
+    "allegiance": "codex/ultramarines/allegiances/allegiance_ultramarines"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "the_helm_of_censure",
+     "name": "The Helm of Censure",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_helm_of_censure"
+      }
+     ],
+     "page": 5,
+     "url": "https://longwarindex.app/wargear/the_helm_of_censure/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_soldiers_blade",
+     "name": "The Soldier's Blade",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_soldiers_blade"
+        }
+       ]
+      }
+     ],
+     "page": 5,
+     "url": "https://longwarindex.app/wargear/the_soldiers_blade/",
+     "pricing": "flat"
+    },
+    {
+     "id": "standard_of_macragge_inviolate",
+     "name": "Standard of Macragge Inviolate",
+     "points": 30,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "standard_of_macragge_inviolate"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/standard_of_macragge_inviolate/",
+     "pricing": "flat"
+    },
+    {
+     "id": "tarentian_cloak",
+     "name": "Tarentian Cloak",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "tarentian_cloak"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/tarentian_cloak/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_armour_of_konor",
+     "name": "The Armour of Konor",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword is equipped with Terminator Armour (any type) and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_armour_of_konor"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/the_armour_of_konor/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "wargear",
+         "id": "indomitus_terminator_armour",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "wargear",
+         "id": "cataphractii_terminator_armour",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "wargear",
+         "id": "tartaros_terminator_armour",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "the_sanctic_halo",
+     "name": "The Sanctic Halo",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_sanctic_halo"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/the_sanctic_halo/",
+     "pricing": "flat"
+    },
+    {
+     "id": "vengeance_of_ultramar",
+     "name": "Vengeance of Ultramar",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Storm Bolter for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "storm_bolter",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "vengeance_of_ultramar"
+        }
+       ]
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/vengeance_of_ultramar/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "Units with Allegiance: Ultramarines have access to the Warlord traits in this supplement. One Ultramarines unit in your army with the Character special rule in your army may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "Units with Allegiance: Ultramarines have access to the Warlord traits in this supplement. One Ultramarines unit in your army with the Character special rule in your army may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 7,
+   "url": "https://longwarindex.app/codex/ultramarines/warlord_traits/",
+   "offered_by": {
+    "allegiance": "codex/ultramarines/allegiances/allegiance_ultramarines"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "space_marines/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "adept_of_the_codex",
+     "name": "Adept of the Codex",
+     "page": 7,
+     "url": "https://longwarindex.app/warlord_traits/adept_of_the_codex/",
+     "text": "If your army includes a model with this Warlord trait, once per game, you may change which Doctrine is in effect from the Codex Doctrine special rule (see Allegiance Ultramarines).",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "calm_under_fire",
+     "name": "Calm under Fire",
+     "page": 7,
+     "url": "https://longwarindex.app/warlord_traits/calm_under_fire/",
+     "text": "A model with this warlord trait and his attached unit may always set to Overwatch even if they made a Shooting attack in the Shooting Phase. If the warlord and their attached unit conducted a Shooting Attack in the Shooting Phase, all Overwatch from the Warlord and their attached unit is resolved as if their equipped weapons had the Gets Hot! Special rule.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "master_of_logistics",
+     "name": "Master of Logistics",
+     "page": 7,
+     "url": "https://longwarindex.app/warlord_traits/master_of_logistics/",
+     "text": "Once per game during the Shooting Phase, your Warlord and any attached unit may conduct a second Shooting Attack, immediately after having conducted their previous Shooting Attack that phase.",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "armoury_first_company_relic",
+   "kind": "armoury",
+   "label": "Any Ultramarines Infantry, Bike or Walker unit may take a First Company Relic for 1pt per model in the unit.",
+   "printed": "Any Ultramarines Infantry, Bike or Walker unit may take a First Company Relic for 1pt per model in the unit.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_13th_legion/",
+   "offered_by": {
+    "allegiance": "codex/ultramarines/allegiances/allegiance_ultramarines"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Ultramarines"
+     },
+     {
+      "any_of": [
+       {
+        "unit_type": "Infantry"
+       },
+       {
+        "unit_type": "Bike"
+       },
+       {
+        "unit_type": "Walker"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "first_company_relic",
+     "name": "First Company Relic",
+     "points": 1,
+     "pricing": "per_model",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "first_company_relic"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_codex_astartes_copy",
+   "kind": "armoury",
+   "label": "Any Ultramarines unit with the Character special rule may take a Codex Astartes Copy for 10pts.",
+   "printed": "Any Ultramarines unit with the Character special rule may take a Codex Astartes Copy for 10pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_13th_legion/",
+   "offered_by": {
+    "allegiance": "codex/ultramarines/allegiances/allegiance_ultramarines"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Ultramarines"
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "codex_astartes_copy",
+     "name": "Codex Astartes Copy",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "codex_astartes_copy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_axe_of_ultramar",
+   "kind": "armoury",
+   "label": "Any Ultramarines Space Marine Captain or Space Marine Lieutenant model may exchange their equipped Power Axe for an Axe of Ultramar for 5pts.",
+   "printed": "Any Ultramarines Space Marine Captain or Space Marine Lieutenant model may exchange their equipped Power Axe for an Axe of Ultramar for 5pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_13th_legion/",
+   "offered_by": {
+    "allegiance": "codex/ultramarines/allegiances/allegiance_ultramarines"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Ultramarines"
+     },
+     {
+      "any_of": [
+       {
+        "datasheet": "codex/space_marines/roster/space_marine_captain"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/lieutenant"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "axe_of_ultramar",
+     "name": "Axe of Ultramar",
+     "points": 5,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_axe",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "axe_of_ultramar"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_belicos_pattern",
+   "kind": "armoury",
+   "label": "Any Ultramarines unit may exchange their equipped Boltgun or Heavy Boltgun for a:",
+   "printed": "Any Ultramarines unit may exchange their equipped Boltgun or Heavy Boltgun for a:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_13th_legion/",
+   "offered_by": {
+    "allegiance": "codex/ultramarines/allegiances/allegiance_ultramarines"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Ultramarines"
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "bellicos_pattern_boltgun",
+     "name": "Bellicos Pattern Boltgun",
+     "printed": "Belicos Pattern Boltgun for 1pt per model.",
+     "points": 1,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "bellicos_pattern_boltgun"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "bellicos_pattern_heavy_boltgun",
+     "name": "Bellicos Pattern Heavy Boltgun",
+     "printed": "Belicos Pattern Heavy Boltgun for 1pt per model.",
+     "points": 1,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "heavy_boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "bellicos_pattern_heavy_boltgun"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

@@ -1,0 +1,648 @@
+{
+ "data_version": "45e88902a5a1ec09",
+ "format": 1,
+ "faction": "sisters_of_battle",
+ "wargear": [
+  {
+   "id": "rosarius",
+   "name": "Rosarius",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/rosarius_sisters_of_battle/",
+   "text": "A model with a Rosarius has a 4+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "melta_bomb",
+   "name": "Melta Bomb",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "melta_bomb"
+    }
+   ],
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/melta_bomb_sisters_of_battle/",
+   "text": "In combat, a model with this wargear may forgo its attacks and instead make a single Strength 8, AP1 attack with the Melta Special rule at Initiative step 1."
+  },
+  {
+   "id": "combat_shields",
+   "name": "Combat Shields",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/combat_shields_sisters_of_battle/",
+   "text": "A model equipped with this wargear has a 6+ Invulnerable save. In addition, they gain +1 to their Armour Save Max 2+) in the Combat Phase.",
+   "effects": {
+    "invulnerable_save": "6+"
+   }
+  },
+  {
+   "id": "digital_weapons",
+   "name": "Digital Weapons",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/digital_weapons_sisters_of_battle/",
+   "text": "A model with Digital weapons gains +1 to their Attacks (A) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "A",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "chirurgeons_tools",
+   "name": "Chirurgeon's Tools",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/chirurgeons_tools/",
+   "text": "A model with this wargear and any attached unit gains the Feel no Pain (5+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "rod_of_office",
+   "name": "Rod of Office",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/rod_of_office/",
+   "text": "A model with this wargear and any attached unit re-roll Leadership tests."
+  },
+  {
+   "id": "simulacrum",
+   "name": "Simulacrum",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/simulacrum/",
+   "text": "Once per game, a unit equipped with this Wargear may perform a single Act of Faith (see Act of Faith section) for free without spending a Faith Point."
+  },
+  {
+   "id": "null_rod",
+   "name": "Null Rod",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/null_rod_sisters_of_battle/",
+   "text": "A model with this Wargear cannot be affected by Psychic Powers or targeted by Psychic Weapons. In addition, a model with this special rule gains the Bane (Psykers) on all Melee weapons it is equipped with.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/bane",
+      "name": "Bane",
+      "param": "Psykers",
+      "url": "https://longwarindex.app/special_rules/bane/",
+      "weapon_types": [
+       "Melee"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "incenser_cherubim",
+   "name": "Incenser Cherubim",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/incenser_cherubim/",
+   "text": "This model counts as a token for the purposes of being on the battlefield. You can spend the Incenser cherubim once per game and remove the token at any point in either player turn. The unit immediately performs the Emperor's Grace Faith Power (see Acts of Faith section)."
+  },
+  {
+   "id": "litany_deeds",
+   "name": "Litany Deeds",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/litany_deeds/",
+   "text": "Friendly Sisters of Battle units within 12\" of the Banner can re-roll Pinning and Panic tests. In addition, add 1 to the number of wounds caused for determining the winner of a combat for any combat this model is involved with."
+  },
+  {
+   "id": "sacred_banner",
+   "name": "Sacred Banner",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/sacred_banner/",
+   "text": "A unit with a model that is equipped with wargear automatically Rallies in the Movement Phase."
+  },
+  {
+   "id": "simulacrum_nullifactus",
+   "name": "Simulacrum Nullifactus",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/simulacrum_nullifactus/",
+   "text": "Once per game, a unit equipped with this Wargear ignores a Psychic Power or Psychic Weapon which may target them."
+  },
+  {
+   "id": "virge_of_admonition",
+   "name": "Virge of Admonition",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/virge_of_admonition/",
+   "text": "A unit that includes a model with this Wargear gains the Fear (1) special rule. In addition, enemy units gain -1 to Psychic Tests within 18\" of the equipped unit.",
+   "effects": {
+    "unit_rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "flak_armour",
+   "name": "Flak Armour",
+   "section": "Armours",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/flak_armour_sisters_of_battle/",
+   "text": "This basic armour is worn by many priests and zealots over or under robes. It provides a 5+ Armour save.",
+   "effects": {
+    "armour_save": "5+"
+   }
+  },
+  {
+   "id": "assassin_suit",
+   "name": "Assassin Suit",
+   "section": "Armours",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/assassin_suit_sisters_of_battle/",
+   "text": "A skintight and flexible suit used by assassins that allows unparalleled movement. It confers a 6+ Armour save and a 5+ Invulnerable save.",
+   "effects": {
+    "armour_save": "6+",
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "carapace_armour",
+   "name": "Carapace Armour",
+   "section": "Armours",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/carapace_armour_sisters_of_battle/",
+   "text": "A Heavy combat armour that provides great protection against most anti-personnel weaponry. It confers a 4+ Armour save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "penance_engine",
+   "name": "Penance Engine",
+   "section": "Armours",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/penance_engine_sisters_of_battle/",
+   "text": "This mechanical engine is a solid piece of war machine that is capable of withstanding incoming fire as it charges blindly towards foes. It confers a 4+ Armour save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "power_armour",
+   "name": "Power Armour",
+   "section": "Armours",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/power_armour_sisters_of_battle/",
+   "text": "Basic Power Armour used by most Sisters. It provides a 3+ Armour Save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "mortifactor_engine",
+   "name": "Mortifactor Engine",
+   "section": "Armours",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/mortifactor_engine/",
+   "text": "The armourer sarcophagus of this engine of penance provides protection to the pilot of this war machine. It confers a 3+ Armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "artificer_armour",
+   "name": "Artificer Armour",
+   "section": "Armours",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/artificer_armour_sisters_of_battle/",
+   "text": "An ornate power armour that provides greater protection. It confers a 2+ Armour save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "paragon_war_suit",
+   "name": "Paragon War Suit",
+   "section": "Armours",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/paragon_war_suit_sisters_of_battle/",
+   "text": "These ancient mechanical walker suits provide a high degree of protection to their pilot through various armour panels over the pilots standard Power armour and strong energy shields. It confers a 2+ Armour save and a 4+ Invulnerable save. The equipped model gains +1 Strength (S) and +2 to its Toughness (T) characteristic. The equipped model gains the Firing Protocols (2) and Relentless special rule.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "4+",
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": 1
+     },
+     {
+      "characteristic": "T",
+      "delta": 2
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/firing_protocols",
+      "name": "Firing Protocols",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+     },
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "jump_pack",
+   "name": "Jump Pack",
+   "section": "Mobility Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/jump_pack_sisters_of_battle/",
+   "text": "A unit that is equipped with a Jump Pack increases its Movement (M) characteristic to 12\". The equipped model gains the Hammer of Wrath (1), Fly and Deep Strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "smoke_launchers",
+   "name": "Smoke Launchers",
+   "section": "Vehicle Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/smoke_launchers_sisters_of_battle/",
+   "text": "A model equipped with this Wargear can set to smoke instead of Overwatching. Until the start of its next turn, the model gains a 4+ Cover Save."
+  },
+  {
+   "id": "searchlight",
+   "name": "Searchlight",
+   "section": "Vehicle Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/searchlight_sisters_of_battle/",
+   "text": "A model with this special rule gains the Night Vision special rule. Any unit that it targets in the Shooting Phase no longer gains the benefit of Night Fighting. Any attacks against this unit are not affected by Night Fighting.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/night_vision",
+      "name": "Night Vision",
+      "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "loud_hailers",
+   "name": "Loud Hailers",
+   "section": "Vehicle Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/loud_hailers/",
+   "text": "When a model with this wargear has the Fear (1) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_book_of_saint_lucius",
+   "name": "The Book of Saint Lucius",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_book_of_saint_lucius/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains the Faith (1) special rule. If the unit already has the Faith (x) special rule, increase the value of (x) by 1.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "codex/sisters_of_battle/special_rules/faith",
+      "name": "Faith",
+      "param": "1",
+      "url": "https://longwarindex.app/special_rules/faith/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_cloak_of_saint_aspira",
+   "name": "The Cloak of Saint Aspira",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_cloak_of_saint_aspira/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic may re-roll failed Invulnerable saves."
+  },
+  {
+   "id": "litanies_of_faith",
+   "name": "Litanies of Faith",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/litanies_of_faith/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic automatically passes the first Leadership Test per Shooting Phase when attempting to perform a Prayer with the Priest (x) special rule."
+  },
+  {
+   "id": "mantle_of_ophelia",
+   "name": "Mantle of Ophelia",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/mantle_of_ophelia/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic is immune to Instant Death and treats all Instant Death Wounds as normal Wounds."
+  },
+  {
+   "id": "desvalles_holy_circle",
+   "name": "Desvalle's Holy Circle",
+   "section": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/desvalles_holy_circle/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Enemy units may not arrive from Deep Strike or Outflank within 12\" of a model equipped with this Relic wargear. In addition, the equipped model gains a 4+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "skull_of_petronella_the_pious",
+   "name": "Skull of Petronella the Pious",
+   "section": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/skull_of_petronella_the_pious/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this Relic and any attached unit gains a 6+ Invulnerable save. If they already have an Invulnerable Save, improve the Invulnerable Save by +1 (Max 3+).",
+   "effects": {
+    "invulnerable_save_improve": {
+     "by": 1,
+     "max": "3+",
+     "otherwise": "6+"
+    }
+   }
+  },
+  {
+   "id": "wings",
+   "name": "Wings",
+   "section": "Datasheet",
+   "datasheet": "Saint Celestine & Geminae Superia",
+   "page": 33,
+   "url": "https://longwarindex.app/wargear/wings_sisters_of_battle/",
+   "text": "This model increases its Movement (M) characteristic to 12\". The equipped model gains the Hammer of Wrath (1), Fly and Deep Strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_armour_of_saint_katherine",
+   "name": "The Armour of Saint Katherine",
+   "section": "Datasheet",
+   "datasheet": "Saint Celestine & Geminae Superia",
+   "page": 33,
+   "url": "https://longwarindex.app/wargear/the_armour_of_saint_katherine/",
+   "text": "This wargear confers a 2+ Armour save and 4+ Invulnerable save.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "the_banner_of_sanctity",
+   "name": "The Banner of Sanctity",
+   "section": "Datasheet",
+   "datasheet": "Uriah Jacobus",
+   "page": 35,
+   "url": "https://longwarindex.app/wargear/the_banner_of_sanctity/",
+   "text": "All friendly Imperium units within 24\" of this model gain +1 to their Leadership (LD) characteristic."
+  },
+  {
+   "id": "pulpit_of_saint_hollines_basilica",
+   "name": "Pulpit of Saint Holline's Basilica",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "heavy_flamer"
+    }
+   ],
+   "section": "Datasheet",
+   "datasheet": "Junith Eruita",
+   "page": 37,
+   "url": "https://longwarindex.app/wargear/pulpit_of_saint_hollines_basilica/",
+   "text": "A model with this wargear has +1 to its Wounds (W) and Toughness (T) Characteristics. A model with this wargear has a Heavy Flamer. A model with this wargear gains the Relentless, Hammer of Wrath (1), Fly and Fade & Fire special rules. (This is included in the above profile).",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "W",
+      "delta": 1
+     },
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/fade_and_fire",
+      "name": "Fade & Fire",
+      "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+     }
+    ],
+    "only_when_purchased": true
+   }
+  },
+  {
+   "id": "throne_of_blame",
+   "name": "Throne of Blame",
+   "section": "Datasheet",
+   "datasheet": "Intranzia Fraye, Dogmata Superior",
+   "page": 38,
+   "url": "https://longwarindex.app/wargear/throne_of_blame/",
+   "text": "The unit is equipped with the Throne of Blame. The unit becomes a Walker type unit and gains all of the associated benefits. However, this unit cannot join Walker type units and may only attach to Infantry type units. The equipped unit gains +2 Toughness (T) & +1 Wounds (W) characteristics.",
+   "effects": {
+    "unit_type": "Walker",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 2
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "storm_shield",
+   "name": "Storm Shield",
+   "section": "Datasheet",
+   "datasheet": "Cult Delegation",
+   "page": 43,
+   "url": "https://longwarindex.app/wargear/storm_shield_sisters_of_battle/",
+   "text": "A model equipped with this wargear has a 4+ Invulnerable Save. A model equipped with this wargear gains the Battle-Hardened special rule.",
+   "effects": {
+    "invulnerable_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "auto_tapestry_of_the_emperors_judgement",
+   "name": "Auto-Tapestry of the Emperor's Judgement",
+   "section": "Datasheet",
+   "datasheet": "Astred Thurga & Agathae Dolan",
+   "page": 45,
+   "url": "https://longwarindex.app/wargear/auto_tapestry_of_the_emperors_judgement/",
+   "text": "All friendly units within 12\" of this unit may re-roll Pinning and Panic tests. In additional, all friendly units within 12\" count as scoring 1 additional Wound for the purposes of determining who won combat."
+  },
+  {
+   "id": "praesidium_protectiva",
+   "name": "Praesidium Protectiva",
+   "section": "Datasheet",
+   "datasheet": "The Triumph of Saint Katherine",
+   "page": 57,
+   "url": "https://longwarindex.app/wargear/praesidium_protectiva/",
+   "text": "A model with this wargear has a 4+ Invulnerable save. In addition, when this model is immune to Instant Death unless the Strength of the Attack is 11 or higher, or has the Blast (x) special rule.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "simulacrum_of_ebon_chalice",
+   "name": "Simulacrum of Ebon Chalice",
+   "section": "Datasheet",
+   "datasheet": "The Triumph of Saint Katherine",
+   "page": 57,
+   "url": "https://longwarindex.app/wargear/simulacrum_of_ebon_chalice/",
+   "text": "Once per game, this unit may use the Blinding Radiance Act of Faith without spending a Faith Point."
+  },
+  {
+   "id": "simulacrum_of_argent_shroud",
+   "name": "Simulacrum of Argent Shroud",
+   "section": "Datasheet",
+   "datasheet": "The Triumph of Saint Katherine",
+   "page": 57,
+   "url": "https://longwarindex.app/wargear/simulacrum_of_argent_shroud/",
+   "text": "Once per game, this unit may use Faith Inviolate Act of Faith without spending a Faith Point."
+  },
+  {
+   "id": "petals_of_the_bloody_rose",
+   "name": "Petals of The Bloody Rose",
+   "section": "Datasheet",
+   "datasheet": "The Triumph of Saint Katherine",
+   "page": 57,
+   "url": "https://longwarindex.app/wargear/petals_of_the_bloody_rose/",
+   "text": "A model with this wargear always hits on a 4+ in the Combat Phase unless the units Weapon Skill (WS) is greater than the targets Weapon Skill (WS) characteristic."
+  },
+  {
+   "id": "censor_of_the_sacred_rose",
+   "name": "Censor of the Sacred Rose",
+   "section": "Datasheet",
+   "datasheet": "The Triumph of Saint Katherine",
+   "page": 57,
+   "url": "https://longwarindex.app/wargear/censor_of_the_sacred_rose/",
+   "text": "This unit and any attached unit may always set to Overwatch, even if it made a Shooting Attack in the Shooting Phase. If the unit or its attached unit made an attack in the Shooting Phase, any Overwatch is resolved with Gets Hot! Special rule on all Shooting weapons the units are equipped with."
+  },
+  {
+   "id": "icon_of_the_valorous_heart",
+   "name": "Icon of the Valorous Heart",
+   "section": "Datasheet",
+   "datasheet": "The Triumph of Saint Katherine",
+   "page": 57,
+   "url": "https://longwarindex.app/wargear/icon_of_the_valorous_heart/",
+   "text": "Any unmodified hit roll of a 6 in the Shooting or Combat Phase from a model equipped with this wargear automatically wounds. Make saves as normal."
+  },
+  {
+   "id": "the_fiery_heart",
+   "name": "The Fiery Heart",
+   "section": "Datasheet",
+   "datasheet": "The Triumph of Saint Katherine",
+   "page": 57,
+   "url": "https://longwarindex.app/wargear/the_fiery_heart/",
+   "text": "All Adeptus Sororitas units which can draw visibility to this unit may use this units Leadership (LD) characteristic for Pinning and Panic Tests."
+  }
+ ]
+}

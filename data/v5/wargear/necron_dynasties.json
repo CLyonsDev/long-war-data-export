@@ -1,0 +1,433 @@
+{
+ "data_version": "846799a5c34cd01c",
+ "format": 1,
+ "faction": "necron_dynasties",
+ "wargear": [
+  {
+   "id": "phase_shifter",
+   "name": "Phase Shifter",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/phase_shifter/",
+   "text": "A model with this Wargear gains a 4+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "canoptek_control_node",
+   "name": "Canoptek Control Node",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/canoptek_control_node/",
+   "text": "A model with this wargear may join Swarm and Cavalry units with the Canoptek Keyword. Canoptek units that are attached to a unit with this special rule have the same Weapon Skill (WS) and Ballistic Skill (BS) characteristic as the model equipped with this wargear."
+  },
+  {
+   "id": "shadow_loom",
+   "name": "Shadow Loom",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/shadow_loom/",
+   "text": "A model with this wargear gains a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "fabricator_claw_array",
+   "name": "Fabricator Claw Array",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/fabricator_claw_array/",
+   "text": "At the start of your Movement Phase, select a single friendly Infantry, Swarm, Cavalry or Jetbike unit within 6\" of a model equipped with this wargear. 1 model in the target unit may Heal 1 Wound. If there are no eligible models, return 1 slain model to the unit with 1 Wound remaining within coherency of models which have not been returned to the unit this phase."
+  },
+  {
+   "id": "phylactery",
+   "name": "Phylactery",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/phylactery/",
+   "text": "Once per game, the first time a model with this wargear would be slain and removed from play, it is not. Instead, it remains on the battlefield with 1 wound remaining."
+  },
+  {
+   "id": "gloom_prism",
+   "name": "Gloom Prism",
+   "printed": {
+    "name": "Gloom prism"
+   },
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/gloom_prism/",
+   "text": "A model with this Wargear has the Deny the Witch and Adamantium Will special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/deny_the_witch",
+      "name": "Deny the Witch",
+      "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+     },
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "dispersion_shield",
+   "name": "Dispersion Shield",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/dispersion_shield/",
+   "text": "A unit with this Wargear has a 4+ Invulnerable save. In addition, any enemy unit that targets a unit equipped with this wargear is treated as having the Gets Hot! Special rule on any ranged weapons that target the equipped unit.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "nebuloscope",
+   "name": "Nebuloscope",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/nebuloscope/",
+   "text": "A unit equipped with this Wargear gains the Ignores Cover on all ranged weapons it is equipped with.",
+   "effects": {
+    "unit_weapon_rules": [
+     {
+      "rule": "special_rules/ignores_cover",
+      "name": "Ignores Cover",
+      "url": "https://longwarindex.app/special_rules/ignores_cover/",
+      "weapon_types": [
+       "Pistol",
+       "Rapid Fire",
+       "Assault",
+       "Heavy",
+       "Grenade"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "mindshackle_scarabs",
+   "name": "Mindshackle Scarabs",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/mindshackle_scarabs/",
+   "text": "Enemy units within 3\" of a model equipped with this wargear have -3 to their Leadership (LD) characteristic."
+  },
+  {
+   "id": "shield_vanes",
+   "name": "Shield Vanes",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/shield_vanes/",
+   "text": "A model with this Wargear gains +1 to its Armour Save (SV) characteristic when targeted by a weapon with the Blast (x) or Spray special rules.",
+   "effects": {
+    "conditional_armour_saves": [
+     {
+      "delta": -1,
+      "against_weapon_rules": [
+       {
+        "rule": "special_rules/blast",
+        "name": "Blast",
+        "param": "X",
+        "url": "https://longwarindex.app/special_rules/blast/"
+       },
+       {
+        "rule": "special_rules/spray",
+        "name": "Spray",
+        "url": "https://longwarindex.app/special_rules/spray/"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "translocation_shroud",
+   "name": "Translocation Shroud",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/translocation_shroud/",
+   "text": "A model with this wargear and any attached unit gain the Deep Strike special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "plasmacyte",
+   "name": "Plasmacyte",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/plasmacyte/",
+   "text": "This wargear is represented by a token. Once per game, a unit with this special rule may use the Plasmacyte. The unit gains the Rage special rule until the end of the phase but gains the Gets Hot! Special rule on Melee weapons the unit is equipped with until the end of the phase."
+  },
+  {
+   "id": "necrodermis",
+   "name": "Necrodermis",
+   "section": "Armour Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/necrodermis/",
+   "text": "The living skin of the Necrons. This confers a 4+ Armour Save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "reinforced_necrodermis",
+   "name": "Reinforced Necrodermis",
+   "section": "Armour Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/reinforced_necrodermis/",
+   "text": "A hardened living skin that is heavily reinforced for the most advanced constructs and nobility. This confers a 3+ Armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "jump_pack",
+   "name": "Jump Pack",
+   "section": "Mobility Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/jump_pack_necron_dynasties/",
+   "text": "A model equipped with this Wargear increases its Movement (M) characteristic to 12\". The equipped model gains the Hammer of Wrath (1), Fly and Deep strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "tomb_blade",
+   "name": "Tomb Blade",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "linked_gauss_blaster"
+    }
+   ],
+   "section": "Mobility Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/tomb_blade/",
+   "text": "A unit that is equipped with a Tomb Blade becomes a Jetbike type unit. In addition, it gains +1 to its Wounds (W) & Toughness (T) Characteristic. A Tomb Blade is equipped with a Linked Gauss Blaster.",
+   "effects": {
+    "unit_type": "Jetbike",
+    "stat_mods": [
+     {
+      "characteristic": "W",
+      "delta": 1
+     },
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_resurrection_orb",
+   "name": "The Resurrection Orb",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_resurrection_orb/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic and any attached unit gain the Feel no Pain (5+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_veil_of_darkness",
+   "name": "The Veil of Darkness",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_veil_of_darkness/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Once per game, in your Movement Phase a model with this relic and any attached unit may be removed from the Battlefield. Place the unit back down anywhere on the Battlefield more than 9\" away from any enemy models. This counts as a Normal Move for the units."
+  },
+  {
+   "id": "the_nightmare_shroud",
+   "name": "The Nightmare Shroud",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_nightmare_shroud/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic has a 2+ Armour Save. In addition, enemy units within 3\" of a model equipped with this Relic must make a Panic test at the end of the Combat Phase even if they did not lose combat.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "catacomb_command_barge",
+   "name": "Catacomb Command Barge",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "gauss_cannon"
+    }
+   ],
+   "section": "Datasheet",
+   "datasheet": "Necron Lord",
+   "page": 23,
+   "url": "https://longwarindex.app/wargear/catacomb_command_barge/",
+   "text": "A model with this wargear uses the Catacomb Command Barge Profile above and becomes a Cavalry type unit. The unit gains the Fly special rule. The unit gains a Gauss Cannon.",
+   "effects": {
+    "unit_type": "Cavalry",
+    "stat_mods": [
+     {
+      "characteristic": "M",
+      "delta": 6
+     },
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 2
+     },
+     {
+      "characteristic": "A",
+      "delta": 2
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "empyric_overcharger",
+   "name": "Empyric Overcharger",
+   "section": "Datasheet",
+   "datasheet": "Illuminor Szeras",
+   "page": 30,
+   "url": "https://longwarindex.app/wargear/empyric_overcharger/",
+   "text": "This unit and any attached unit may not be targeted by Psychic Powers or weapons with the Psychic Weapon Special rule."
+  },
+  {
+   "id": "sempiternal_weave",
+   "name": "Sempiternal Weave",
+   "section": "Datasheet",
+   "datasheet": "Kutlakh the World Killer",
+   "page": 33,
+   "url": "https://longwarindex.app/wargear/sempiternal_weave/",
+   "text": "A model equipped with this wargear has a 2+ Armour Save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "timesplinters_cloak",
+   "name": "Timesplinter's Cloak",
+   "section": "Datasheet",
+   "datasheet": "Toholk the Blinded",
+   "page": 34,
+   "url": "https://longwarindex.app/wargear/timesplinters_cloak/",
+   "text": "This unit has a 3+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "3+"
+   }
+  },
+  {
+   "id": "scarab_hive",
+   "name": "Scarab Hive",
+   "section": "Datasheet",
+   "datasheet": "Canoptek Spyder",
+   "page": 42,
+   "url": "https://longwarindex.app/wargear/scarab_hive/",
+   "text": "This unit may join Canoptek Scarab Swarm units as if it had the Character special rule. It may set to Spawn Scarabs in the shooting phase. It may set to perform this reaction even though it has the Slow & Purposeful special rule but cannot perform any other 8.1 - Reactions unless under the effects of the Command Protocols special rule. At the end of the Opponent's Charge Phase, you can return 1 model back to an attached Canoptek Scarab Swarm unit with all of its wounds remaining."
+  },
+  {
+   "id": "reanimation_beam",
+   "name": "Reanimation Beam",
+   "section": "Datasheet",
+   "datasheet": "Canoptek Reanimator",
+   "page": 43,
+   "url": "https://longwarindex.app/wargear/reanimation_beam/",
+   "text": "At the start of your Movement Phase, select 1 friendly Necron unit within 12\". Until the start of your next Shooting Phase, that unit adds +1 to its Living Metal Rolls."
+  },
+  {
+   "id": "transtemporal_force_field",
+   "name": "Transtemporal Force Field",
+   "section": "Datasheet",
+   "datasheet": "Tesseract Vault",
+   "page": 57,
+   "url": "https://longwarindex.app/wargear/transtemporal_force_field/",
+   "text": "This unit has a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "ctan_necrodermis",
+   "name": "C'tan Necrodermis",
+   "section": "Datasheet",
+   "datasheet": "Transcendent C'tan",
+   "page": 58,
+   "url": "https://longwarindex.app/wargear/ctan_necrodermis/",
+   "text": "A model with this wargear has a 3+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "3+"
+   }
+  },
+  {
+   "id": "containment_field",
+   "name": "Containment Field",
+   "section": "Datasheet",
+   "datasheet": "Seraptek Heavy Construct",
+   "page": 62,
+   "url": "https://longwarindex.app/wargear/containment_field/",
+   "text": "This unit has a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "grav_pulse",
+   "name": "Grav Pulse",
+   "section": "Datasheet",
+   "datasheet": "Obelisk",
+   "page": 63,
+   "url": "https://longwarindex.app/wargear/grav_pulse/",
+   "text": "All Terrain (including open Terrain) within 12\" of this model's base is treated as Difficult Terrain."
+  }
+ ]
+}

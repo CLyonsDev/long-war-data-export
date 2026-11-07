@@ -1,0 +1,253 @@
+{
+ "data_version": "f5060f946e1018e7",
+ "format": 1,
+ "faction": "imperial_fists",
+ "wargear": [
+  {
+   "id": "boarding_shield",
+   "name": "Boarding Shield",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/boarding_shield_imperial_fists/",
+   "text": "A model equipped with this wargear gains a 5+ Invulnerable save. If at least 3 models in a unit are equipped with Boarding Shields, all charges against the equipped unit are treated as Disordered Charges.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "auric_aquila",
+   "name": "Auric Aquila",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/auric_aquila/",
+   "text": "A model equipped with this wargear gains a 6+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "6+"
+   }
+  },
+  {
+   "id": "wardens_cuirass",
+   "name": "Wardens Cuirass",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/wardens_cuirass/",
+   "text": "A model with this wargear may re-roll 1 failed Armour save roll per Phase."
+  },
+  {
+   "id": "the_eye_of_hypnoth",
+   "name": "The Eye of Hypnoth",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/the_eye_of_hypnoth/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic and any attached unit gains the Sunder special rule on all equipped weapons.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/sunder",
+      "name": "Sunder",
+      "url": "https://longwarindex.app/special_rules/sunder/",
+      "weapon_types": [
+       "Pistol",
+       "Rapid Fire",
+       "Assault",
+       "Heavy",
+       "Grenade",
+       "Melee"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "icon_of_the_iron_cage",
+   "name": "Icon of the Iron Cage",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/icon_of_the_iron_cage/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic. A model with this Wargear and any attached unit gain the Stubborn special rule. In addition, the equipped model and any attached unit gain the Hatred (Iron Warriors) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     },
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "param": "Iron Warriors",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "indomitan_mantle",
+   "name": "Indomitan Mantle",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/indomitan_mantle/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic. A model with this Wargear gains +1 to their Armour Save (max 2+). In addition, improve the equipped models Invulnerable Save by +1 (to a max of 3+).",
+   "effects": {
+    "invulnerable_save_improve": {
+     "by": 1,
+     "max": "3+",
+     "otherwise": "6+"
+    },
+    "armour_save_improve": {
+     "by": 1,
+     "max": "2+"
+    }
+   }
+  },
+  {
+   "id": "armour_of_tyr",
+   "name": "Armour of Tyr",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/armour_of_tyr/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear and equipped with Terminator Armour may exchange their Terminator Armour for this Relic. A model with this Wargear has a 2+ Armour Save, 4+ Invulnerable save and the Relentless & Slow & Purposeful special rules. In addition, the equipped model gains +1 to their Toughness (T) characteristic.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "4+",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/slow_and_purposeful",
+      "name": "Slow and Purposeful",
+      "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_bones_of_osrak",
+   "name": "The Bones of Osrak",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_bones_of_osrak/",
+   "text": "One unit in your army with the Character & Psyker (x) special rules that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic may re-roll Psychic Tests."
+  },
+  {
+   "id": "dutys_end",
+   "name": "Duty's End",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/dutys_end/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic. A model with this Wargear gains a 3+ Invulnerable save and the Battle-Hardened special rule. The equipped model gains +1 to their Wounds (W) characteristic.",
+   "effects": {
+    "invulnerable_save": "3+",
+    "stat_mods": [
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "armoured_plate",
+   "name": "Armoured Plate",
+   "section": "Datasheet",
+   "datasheet": "Tarantula Battery",
+   "page": 19,
+   "url": "https://longwarindex.app/wargear/armoured_plate_imperial_fists/",
+   "text": "Heavy Armoured plating protects the armoured walking vehicles of the Guard. It confers a 3+ Armour save.",
+   "print_defect": "The book names this wargear on a datasheet but prints no rules text. This data gives the text of Codex Imperial Guard.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "grav_shute",
+   "name": "Grav-Shute",
+   "section": "Datasheet",
+   "datasheet": "Tarantula Battery",
+   "page": 19,
+   "url": "https://longwarindex.app/wargear/grav_shute/",
+   "text": "A model with a Grav Chute gains the Deep Strike Special rule.",
+   "print_defect": "The book names this wargear on a datasheet but prints no rules text. This data gives the text of the Grav Chute of Codex Space Marines.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "carapace_armour",
+   "name": "Carapace Armour",
+   "section": "Datasheet",
+   "datasheet": "Auric Auxilia Colonel",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/carapace_armour_imperial_fists/",
+   "text": "A model with this wargear has a 4+ Armour Save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "sensor_relay",
+   "name": "Sensor Relay",
+   "section": "Datasheet",
+   "datasheet": "Bastion",
+   "page": 21,
+   "url": "https://longwarindex.app/wargear/sensor_relay_imperial_fists/",
+   "text": "Enemy units may not arrive from Deep Strike within 9\" of a model equipped with this Wargear."
+  },
+  {
+   "id": "hidden_entrances",
+   "name": "Hidden Entrances",
+   "section": "Datasheet",
+   "datasheet": "Bastion",
+   "page": 21,
+   "url": "https://longwarindex.app/wargear/hidden_entrances_imperial_fists/",
+   "text": "When a unit with this special rule would be destroyed. Embarked units are not required to roll for models inside being slain (see Rule 10.2 in the core rules)."
+  },
+  {
+   "id": "air_defence_relay",
+   "name": "Air Defence Relay",
+   "section": "Datasheet",
+   "datasheet": "Tarantula Battery",
+   "page": 19,
+   "url": "https://longwarindex.app/wargear/air_defence_relay_imperial_fists/",
+   "text": "If a unit has a model equipped with this wargear, the entire unit gains the Skyfire special rule on all shooting weapons they are equipped with. In addition, this unit may always target enemy units with the Fly special rule even if it is not the closest visible unit in range.",
+   "effects": {
+    "unit_weapon_rules": [
+     {
+      "rule": "special_rules/skyfire",
+      "name": "Skyfire",
+      "url": "https://longwarindex.app/special_rules/skyfire/",
+      "weapon_types": [
+       "Pistol",
+       "Rapid Fire",
+       "Assault",
+       "Heavy",
+       "Grenade"
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

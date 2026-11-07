@@ -1,0 +1,649 @@
+{
+ "data_version": "2a63c125155b3e62",
+ "format": 1,
+ "faction": "word_bearers",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_malefic_tome/",
+   "offered_by": {
+    "allegiance": "codex/word_bearers/allegiances/allegiance_word_bearers"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "baleful_icon",
+     "name": "Baleful Icon",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "baleful_icon"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/baleful_icon/",
+     "pricing": "flat"
+    },
+    {
+     "id": "book_of_the_reviler",
+     "name": "Book of the Reviler",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "book_of_the_reviler"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/book_of_the_reviler/",
+     "pricing": "flat"
+    },
+    {
+     "id": "crown_of_the_blasphemer",
+     "name": "Crown of the Blasphemer",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "crown_of_the_blasphemer"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/crown_of_the_blasphemer/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_cursed_crozius",
+     "name": "The Cursed Crozius",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Maul for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_maul",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_cursed_crozius"
+        }
+       ]
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_cursed_crozius/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_malefic_tome",
+     "name": "The Malefic Tome",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_malefic_tome"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_malefic_tome/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_scripts_of_erebus",
+     "name": "The Scripts of Erebus",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_scripts_of_erebus"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_scripts_of_erebus/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_skull_of_monarchia",
+     "name": "The Skull of Monarchia",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_skull_of_monarchia"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_skull_of_monarchia/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "Units with Allegiance: Word Bearers have access to the Warlord traits in this supplement. One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "Units with Allegiance: Word Bearers have access to the Warlord traits in this supplement. One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 9,
+   "url": "https://longwarindex.app/codex/word_bearers/warlord_traits/",
+   "offered_by": {
+    "allegiance": "codex/word_bearers/allegiances/allegiance_word_bearers"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "keyword": "Word Bearers"
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "latent_powers",
+     "name": "Latent Powers",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/latent_powers/",
+     "text": "A Warlord with this Warlord trait gains the Psyker (x) special rule. If the Warlord already has the Psyker (x) special rule, increase the value of (x) by 1.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "1",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/",
+       "raise_by": 1
+      }
+     ]
+    },
+    {
+     "id": "the_voice_of_lorgar",
+     "name": "The Voice of Lorgar",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/the_voice_of_lorgar/",
+     "text": "All friendly units within 18\" of a model with this Warlord trait count as scoring 1 additional Wound for the purposes of Combat Resolution. In addition, friendly units within 18\" of a model with this Warlord Trait may re-roll Pinning and Panic tests.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "unbreakable_devotion",
+     "name": "Unbreakable Devotion",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/unbreakable_devotion/",
+     "text": "A Warlord with this trait gains the Indomitable Spirit (3+) special rule. In addition, the Warlord automatically passes all Pinning and Panic tests.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/indomitable_spirit",
+       "name": "Indomitable Spirit",
+       "param": "3+",
+       "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+      }
+     ],
+     "game_time": [
+      "In addition, the Warlord automatically passes all Pinning and Panic tests."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ectomancy_psychic_powers",
+   "kind": "psychic_powers",
+   "label": "Any Word Bearers Chaos Space Marine unit with the Psyker (x) special rule may purchase Psychic Powers from the following Discipline.",
+   "printed": "Any Word Bearers Chaos Space Marine unit with the Psyker (x) special rule may purchase Psychic Powers from the following Discipline.",
+   "page": 6,
+   "url": "https://longwarindex.app/codex/word_bearers/powers/",
+   "offered_by": {
+    "allegiance": "codex/word_bearers/allegiances/allegiance_word_bearers"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Word Bearers"
+     },
+     {
+      "keyword": "Chaos Space Marine"
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "coruscating_blaze",
+     "name": "Coruscating Blaze",
+     "page": 6,
+     "url": "https://longwarindex.app/powers/coruscating_blaze/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Coruscating Blaze",
+     "points": 5,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "coruscating_blaze"
+      }
+     ]
+    },
+    {
+     "id": "empyric_shield",
+     "name": "Empyric Shield",
+     "page": 6,
+     "url": "https://longwarindex.app/powers/empyric_shield/",
+     "text": "When this Psychic Power is cast, the Psyker gains a 3+ Invulnerable save until the start of your next Shooting Phase.",
+     "points": 20,
+     "pricing": "flat"
+    },
+    {
+     "id": "ghost_storm",
+     "name": "Ghost Storm",
+     "page": 6,
+     "url": "https://longwarindex.app/powers/ghost_storm/",
+     "text": "When this Psychic Power is cast, the Psyker and any attached unit immediately move 12\" and are treated as having the Fly special rule. The unit cannot charge in the Charge Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "warpshock",
+     "name": "Warpshock",
+     "page": 6,
+     "url": "https://longwarindex.app/powers/warpshock/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Warpshock",
+     "points": 5,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "warpshock"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chaos_champion_upgrades",
+   "kind": "upgrade",
+   "label": "A Word Bearers Chaos Champion may purchase the following upgrade in addition to the others available:",
+   "printed": "A Word Bearers Chaos Champion may purchase the following upgrade in addition to the others available:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_17th_legion/",
+   "offered_by": {
+    "allegiance": "codex/word_bearers/allegiances/allegiance_word_bearers"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Word Bearers"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_champion"
+     }
+    ]
+   },
+   "joins": {
+    "page": "codex/chaos_space_marines/roster/chaos_champion",
+    "group": "upgrades"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "vor_negreth",
+     "name": "Vor Negreth",
+     "printed": "Vor Negreth for 15pts.",
+     "points": 15,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/word_bearers/special_rules/vor_negreth",
+       "name": "Vor Negreth",
+       "url": "https://longwarindex.app/special_rules/vor_negreth/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hexagramatic_wards",
+   "kind": "armoury",
+   "label": "Any Word Bearers unit may purchase Hexagramatic Wards for 2pts per model.",
+   "printed": "Any Word Bearers unit may purchase Hexagramatic Wards for 2pts per model.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_17th_legion/",
+   "offered_by": {
+    "allegiance": "codex/word_bearers/allegiances/allegiance_word_bearers"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Word Bearers"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "hexagramatic_wards",
+     "name": "Hexagramatic Wards",
+     "printed": "Hexagramatic Wards for 2pts per model.",
+     "points": 2,
+     "pricing": "each",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "hexagramatic_wards"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chosen_weapon_exchange",
+   "kind": "armoury",
+   "label": "Any Word Bearers Chaos Lord or Chaos Champion may:",
+   "printed": "Any Word Bearers Chaos Lord or Chaos Champion may:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_17th_legion/",
+   "offered_by": {
+    "allegiance": "codex/word_bearers/allegiances/allegiance_word_bearers"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Word Bearers"
+     },
+     {
+      "any_of": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_lord"
+       },
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_champion"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "tainted_power_sword",
+     "name": "Tainted Power Sword",
+     "printed": "Exchange their equipped Power Sword for a Tainted Power Sword for 2pts.",
+     "points": 2,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "tainted_power_sword"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "tainted_power_maul",
+     "name": "Tainted Power Maul",
+     "printed": "Exchange their equipped Power Maul for a Tainted Power Maul for 2pts.",
+     "points": 2,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_maul",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "tainted_power_maul"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "warp_fire_weapons",
+   "kind": "armoury",
+   "label": "Any Word Bearers model may:",
+   "printed": "Any Word Bearers model may:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_17th_legion/",
+   "offered_by": {
+    "allegiance": "codex/word_bearers/allegiances/allegiance_word_bearers"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Word Bearers"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "warp_fire_pistol",
+     "name": "Warp Fire Pistol",
+     "printed": "Exchange their equipped Plasma Pistol for a Warp Fire Pistol for 2pts.",
+     "points": 2,
+     "pricing": "each",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "plasma_pistol",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "warp_fire_pistol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "warp_fire_gun",
+     "name": "Warp Fire Gun",
+     "printed": "Exchange their equipped Plasma Gun for a Warp Fire Gun for 2pts.",
+     "points": 2,
+     "pricing": "each",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "plasma_gun",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "warp_fire_gun"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "warp_fire_blaster",
+     "name": "Warp Fire Blaster",
+     "printed": "Exchange their equipped Plasma Blast Blaster for a Warp Fire Blaster for 2pts.",
+     "points": 2,
+     "pricing": "each",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "plasma_blaster",
+         "faction": "chaos_space_marines",
+         "printed": "Plasma Blast Blaster"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "warp_fire_blaster"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "warp_fire_cannon",
+     "name": "Warp Fire Cannon",
+     "printed": "Exchange their equipped Plasma Cannon for a Warp Fire Cannon for 2pts.",
+     "points": 2,
+     "pricing": "each",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "plasma_cannon",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "warp_fire_cannon"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "iconoclast_host_priest",
+   "kind": "upgrade",
+   "label": "Legionnaire Squads may purchase the Priest (1) special rule for 10pts.",
+   "printed": "Legionnaire Squads may purchase the Priest (1) special rule for 10pts.",
+   "page": 11,
+   "url": "https://longwarindex.app/rites_of_war/iconoclast_host/",
+   "offered_by": {
+    "rite": "codex/word_bearers/rites_of_war/iconoclast_host"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "datasheet": "codex/chaos_space_marines/roster/legionnaire_squad"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "priest",
+     "name": "Priest",
+     "printed": "Priest (1) for 10pts.",
+     "points": 10,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/priest",
+       "name": "Priest",
+       "param": "1",
+       "url": "https://longwarindex.app/universal_special_rules/priest/"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

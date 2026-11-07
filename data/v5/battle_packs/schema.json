@@ -1,0 +1,220 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://longwarindex.app/data/v5/battle_packs/schema.json",
+ "title": "Long War Index battle packs export (battle_packs/core.json)",
+ "description": "The battle packs. The pages of each pack are the source of the name, the force organisation charts, the points table and the Lords of War text. This data gives lord_of_war_minimum_points and unencoded. Missions, objectives, deployment maps and weather are not exported.",
+ "type": "object",
+ "required": [
+  "data_version",
+  "format",
+  "faction",
+  "battle_packs"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "data_version": {
+   "type": "string",
+   "description": "Hash of the file content. It changes only when the content changes."
+  },
+  "format": {
+   "const": 1
+  },
+  "faction": {
+   "const": "core"
+  },
+  "battle_packs": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/battle_pack"
+   }
+  }
+ },
+ "$defs": {
+  "battle_pack": {
+   "type": "object",
+   "required": [
+    "id",
+    "name",
+    "page",
+    "detachments",
+    "allied_detachments",
+    "points",
+    "points_page",
+    "lord_of_war_text"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^battle_packs/[a-z0-9_]+/[a-z0-9_]+$",
+     "description": "Permanent: never changed or reused. The landing page of the pack, for example battle_packs/crusade_battle_pack/crusade_battle_pack."
+    },
+    "name": {
+     "type": "string"
+    },
+    "page": {
+     "type": "integer",
+     "description": "The printed page number."
+    },
+    "url": {
+     "type": "string",
+     "format": "uri",
+     "description": "The page on the site."
+    },
+    "source": {
+     "type": "string",
+     "description": "The book, for example \"Core Rules\"."
+    },
+    "detachments": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/detachment"
+     },
+     "description": "The force organisation charts that the pack prints, in page order. A pack without allied detachments prints no allied chart."
+    },
+    "allied_detachments": {
+     "type": "object",
+     "required": [
+      "min",
+      "max"
+     ],
+     "additionalProperties": false,
+     "description": "How many allied detachments an army can have, as the armies page prints it.",
+     "properties": {
+      "min": {
+       "type": "integer",
+       "minimum": 0
+      },
+      "max": {
+       "type": "integer",
+       "minimum": 0
+      }
+     }
+    },
+    "points": {
+     "type": "array",
+     "description": "The game sizes of the points table, in page order.",
+     "items": {
+      "type": "object",
+      "required": [
+       "label",
+       "points"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "label": {
+        "type": "string",
+        "description": "The game size, for example \"Small\"."
+       },
+       "points": {
+        "type": "integer",
+        "description": "The maximum points of an army."
+       }
+      }
+     }
+    },
+    "points_page": {
+     "type": "integer",
+     "description": "The printed page number of the points table."
+    },
+    "points_url": {
+     "type": "string",
+     "format": "uri",
+     "description": "The site page that prints the points table. Cite this page for a points limit."
+    },
+    "lord_of_war_minimum_points": {
+     "type": "integer",
+     "description": "The smallest game size, in points, that permits Lords of War. Not present if the pack gives none. A pack that forbids Lords of War has a Lords of War slot of 0, 0 and 0."
+    },
+    "lord_of_war_text": {
+     "type": "string",
+     "description": "The Lords of War text of the points page (points_page, points_url), as printed. Quote it for a Lord of War that the pack does not permit."
+    },
+    "unencoded": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "Sentences of the text that state a list-building fact that the fields do not encode."
+    }
+   }
+  },
+  "detachment": {
+   "type": "object",
+   "required": [
+    "name",
+    "kind",
+    "page",
+    "slots"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "name": {
+     "type": "string",
+     "description": "The name of the chart, for example \"Crusade Detachment\"."
+    },
+    "kind": {
+     "enum": [
+      "primary",
+      "allied"
+     ]
+    },
+    "page": {
+     "type": "integer",
+     "description": "The printed page number of the chart."
+    },
+    "url": {
+     "type": "string",
+     "format": "uri",
+     "description": "The site page that prints the chart. Cite this page for a slot of the chart."
+    },
+    "slots": {
+     "type": "array",
+     "minItems": 8,
+     "maxItems": 8,
+     "items": {
+      "$ref": "#/$defs/slot"
+     },
+     "description": "One slot for each of the 8 chart roles, in chart order. Dedicated Transport is not a slot: §18.4 controls it."
+    }
+   }
+  },
+  "slot": {
+   "type": "object",
+   "required": [
+    "role",
+    "compulsory",
+    "min",
+    "max"
+   ],
+   "additionalProperties": false,
+   "description": "One role of the chart. compulsory and min are the count of black boxes (compulsory choices). max is the count of all boxes. A role that the chart does not print has 0, 0 and 0: the role is not a valid slot in this pack.",
+   "properties": {
+    "role": {
+     "enum": [
+      "HQ",
+      "Troops",
+      "Elites",
+      "Fast Attack",
+      "Heavy Support",
+      "Flyer",
+      "Fortification",
+      "Lords of War"
+     ]
+    },
+    "compulsory": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "min": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "max": {
+     "type": "integer",
+     "minimum": 0
+    }
+   }
+  }
+ }
+}

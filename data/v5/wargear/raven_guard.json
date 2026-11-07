@@ -1,0 +1,153 @@
+{
+ "data_version": "e47d5bba7af9a1ee",
+ "format": 1,
+ "faction": "raven_guard",
+ "wargear": [
+  {
+   "id": "shadow_masters_cloak",
+   "name": "Shadow Masters Cloak",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/shadow_masters_cloak/",
+   "text": "A model with this wargear gains a 4+ Cover save while benefiting from Light Cover."
+  },
+  {
+   "id": "shard_of_istvaan",
+   "name": "Shard of Istvaan",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/shard_of_istvaan/",
+   "text": "A model with this wargear may re-roll all hit rolls against units with the Chaos Space Marines Keyword."
+  },
+  {
+   "id": "corvia",
+   "name": "Corvia",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/corvia/",
+   "text": "A model with this wargear may re-roll Cover Save rolls."
+  },
+  {
+   "id": "infravisor",
+   "name": "Infravisor",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/infravisor/",
+   "text": "A model equipped with this wargear gains the Night Vision special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/night_vision",
+      "name": "Night Vision",
+      "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ravens_fury",
+   "name": "Raven's Fury",
+   "section": "Relics",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/ravens_fury/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Only models eligible to buy a Jump Pack may purchase this Relic. A model equipped with this Relic gains +2 to its Strength (S) characteristic for the purposes of resolving Hammer of Wrath (x) Attacks. In addition, they gain the benefits of a Jump Pack.",
+   "effects": {
+    "counts_as": [
+     {
+      "kind": "wargear",
+      "id": "jump_pack",
+      "faction": "space_marines"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_armor_of_shadows",
+   "name": "The Armor of Shadows",
+   "section": "Relics",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/the_armor_of_shadows/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains 2+ Armor Save. In addition, they can only be targeted by Shooting Attacks in your opponent's Shooting Phase if they are the closest visible enemy unit.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "the_raven_skull_of_korvaad",
+   "name": "The Raven Skull of Korvaad",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/the_raven_skull_of_korvaad/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this Relic gains +1 to their Leadership (LD) characteristic. If a model equipped with this Relic is still alive and on the battlefield at the end of the game, score 1 additional Victory Point. If the model equipped with this Relic is slain and removed from play, place an Objective Point Marker within 3\" of them before removing the model from play. The Objective Marker is now worth 1 Victory Point.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "blackwing_mantle",
+   "name": "Blackwing Mantle",
+   "section": "Datasheet",
+   "datasheet": "Master of Shadows, Aethon Shaan",
+   "page": 13,
+   "url": "https://longwarindex.app/wargear/blackwing_mantle/",
+   "text": "The Blackwing Mantle is a Jump Pack. It confers all the benefits of a Jump Pack. However, the unit's Movement (M) characteristic is increased to 18\" instead.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 18
+     }
+    ],
+    "counts_as": [
+     {
+      "kind": "wargear",
+      "id": "jump_pack",
+      "faction": "space_marines"
+     }
+    ]
+   }
+  },
+  {
+   "id": "helm_of_the_raven",
+   "name": "Helm of the Raven",
+   "section": "Datasheet",
+   "datasheet": "Shadow Captain Solaq",
+   "page": 15,
+   "url": "https://longwarindex.app/wargear/helm_of_the_raven/",
+   "text": "A model with this wargear has the Fear (3) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "3",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "rad_shroud_armour",
+   "name": "Rad Shroud Armour",
+   "section": "Datasheet",
+   "datasheet": "Dark Wing Storm Eagle Gunship",
+   "page": 19,
+   "url": "https://longwarindex.app/wargear/rad_shroud_armour/",
+   "text": "This unit always gains the benefit of Light Cover. If it is already benefiting from Light Cover, it gains the benefit of Heavy Cover instead."
+  },
+  {
+   "id": "quantum_field_repellers",
+   "name": "Quantum Field Repellers",
+   "section": "Datasheet",
+   "datasheet": "Dark Wing Storm Eagle Gunship",
+   "page": 19,
+   "url": "https://longwarindex.app/wargear/quantum_field_repellers/",
+   "text": "When this unit uses the Hover special rule and enter Hover mode, its Movement (M) characteristic becomes 15\" instead of 12\"."
+  }
+ ]
+}

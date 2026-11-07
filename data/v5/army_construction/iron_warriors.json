@@ -1,0 +1,858 @@
+{
+ "data_version": "2a7af6f3c3133e29",
+ "format": 1,
+ "faction": "iron_warriors",
+ "codex": {
+  "id": "codex/iron_warriors",
+  "name": "Iron Warriors",
+  "page": 3,
+  "url": "https://longwarindex.app/codex/iron_warriors/",
+  "parent": "chaos_space_marines",
+  "army_rules": [
+   {
+    "rule": "codex/iron_warriors/special_rules/armoury_of_the_4th_legion",
+    "name": "Armoury of the 4th Legion",
+    "url": "https://longwarindex.app/special_rules/armoury_of_the_4th_legion/"
+   }
+  ],
+  "allies": null,
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/iron_warriors/rites_of_war/olympic_grand_company",
+    "codex/iron_warriors/rites_of_war/obliterator_cult",
+    "codex/iron_warriors/rites_of_war/iron_nexus"
+   ],
+   "from_parent": [
+    "codex/chaos_space_marines/rites_of_war/engine_horde",
+    "codex/chaos_space_marines/rites_of_war/heavy_mechanized_assault",
+    "codex/chaos_space_marines/rites_of_war/chosen_host"
+   ],
+   "banned_from_parent": [
+    "codex/chaos_space_marines/rites_of_war/daemonkin_host",
+    "codex/chaos_space_marines/rites_of_war/raptor_assault"
+   ]
+  },
+  "unit_list": null,
+  "keyword_templates": [
+   {
+    "template": "<Legion>",
+    "printed": "This is replaced with Iron Warriors Keyword.",
+    "substitution": {
+     "value": "Iron Warriors"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/iron_warriors/allegiances/allegiance_iron_warriors",
+   "name": "Allegiance: Iron Warriors",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_iron_warriors/",
+   "offered_by": {
+    "codex": "chaos_space_marines"
+   },
+   "rule": {
+    "rule": "codex/iron_warriors/allegiances/allegiance_iron_warriors",
+    "name": "Allegiance: Iron Warriors",
+    "printed": "codex/iron_warriors/allegiances/allegiance_iron_warriors",
+    "url": "https://longwarindex.app/allegiances/allegiance_iron_warriors/"
+   },
+   "unit_list": {
+    "page": 13,
+    "url": "https://longwarindex.app/unit_list/iron_warriors_unit_list/",
+    "entries": [
+     {
+      "datasheet": "codex/chaos_space_marines/roster/daemon_prince",
+      "printed": "Daemon Prince",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_lord",
+      "printed": "Chaos Lord",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_champion",
+      "printed": "Chaos Champion",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/iron_warriors/roster/shontu",
+      "printed": "Shon'tu",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/iron_warriors/roster/honsou",
+      "printed": "Honsou",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/iron_warriors/roster/kravek_morne",
+      "printed": "Kravek Morne",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/inductii_squad",
+      "printed": "Inductii Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/legionnaire_squad",
+      "printed": "Legionnaire Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chosen",
+      "printed": "Chosen",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/possessed",
+      "printed": "Possessed",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/mutilators",
+      "printed": "Mutilators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/castraferrum_dreadnought",
+      "printed": "Castraferrum Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/contemptor_dreadnought",
+      "printed": "Contemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/venom_crawler",
+      "printed": "Venom Crawler",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/iron_warriors/roster/tyrant_siege_terminators",
+      "printed": "Tyrant Siege Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/iron_warriors/roster/earthshaker_carriage",
+      "printed": "Earthshaker Carriage",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/iron_warriors/roster/iron_legion_castellax_battle_automata",
+      "printed": "Iron Legion Castellax Battle Automata",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/rhino_apc",
+      "printed": "Rhino APC",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/land_raider",
+      "printed": "Land Raider",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/dreadclaw_drop_pod",
+      "printed": "Dreadclaw Drop Pod",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/kharybdis_assault_claw",
+      "printed": "Kharybdis Assault Claw",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/termite_assault_drill",
+      "printed": "Termite Assault Drill",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/heldrake",
+      "printed": "Heldrake",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/hell_blade",
+      "printed": "Hell Blade",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/hell_talon",
+      "printed": "Hell Talon",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/xiphon_interceptor",
+      "printed": "Xiphon Interceptor",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/storm_eagle_gunship",
+      "printed": "Storm Eagle Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_bike_squad",
+      "printed": "Chaos Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/raptors",
+      "printed": "Raptors",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/warp_talons",
+      "printed": "Warp Talons",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_spawn",
+      "printed": "Chaos Spawn",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/proteus_land_speeder",
+      "printed": "Proteus Land Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/javelin_attack_speeder",
+      "printed": "Javelin Attack Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/sabre_strike_tank",
+      "printed": "Sabre Strike Tank",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/obliterators",
+      "printed": "Obliterators",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/rapier_battery",
+      "printed": "Rapier Battery",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/fiend_pack",
+      "printed": "Fiend Pack",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/defiler",
+      "printed": "Defiler",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/predator_mbt",
+      "printed": "Predator MBT",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/vindicator_siege_tank",
+      "printed": "Vindicator Siege Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/arquitor_bombard",
+      "printed": "Arquitor Bombard",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/deredeo_dreadnought",
+      "printed": "Deredeo Dreadnought",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/fire_raptor_gunship",
+      "printed": "Fire Raptor Gunship",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/vindicator_laser_destroyer",
+      "printed": "Vindicator Laser Destroyer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/sicaran_heavy_tank",
+      "printed": "Sicaran Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/kratos_super_heavy_tank",
+      "printed": "Kratos Super Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/iron_warriors/roster/iron_havocs",
+      "printed": "Iron Havocs",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/iron_warriors/roster/legion_basilisk_artillery_gun",
+      "printed": "Legion Basilisk Artillery Gun",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/leviathan_dreadnought",
+      "printed": "Leviathan Dreadnought",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/spartan_assault_tank",
+      "printed": "Spartan Assault Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/cerberus",
+      "printed": "Cerberus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/falchion",
+      "printed": "Falchion",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/fellblade",
+      "printed": "Fellblade",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/mastodon",
+      "printed": "Mastodon",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/typhon_siege_tank",
+      "printed": "Typhon Siege Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/thunderhawk_gunship",
+      "printed": "Thunderhawk Gunship",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/hammerfall_bunker",
+      "printed": "Hammerfall Bunker",
+      "role": "Fortification"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/noctolith_crown",
+      "printed": "Noctolith Crown",
+      "role": "Fortification"
+     },
+     {
+      "datasheet": "codex/iron_warriors/roster/bastion",
+      "printed": "Bastion",
+      "role": "Fortification"
+     },
+     {
+      "datasheet": "codex/iron_warriors/roster/aegis_defence_line",
+      "printed": "Aegis Defence Line",
+      "role": "Fortification"
+     },
+     {
+      "datasheet": "codex/iron_warriors/roster/firestorm_redoubt",
+      "printed": "Firestorm Redoubt",
+      "role": "Fortification"
+     }
+    ]
+   },
+   "restrictions": [
+    {
+     "id": "rites_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/iron_warriors/",
+     "printed": "You must use the Rites of War presented in this Supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/chaos_space_marines/rites_of_war/daemonkin_host",
+      "codex/chaos_space_marines/rites_of_war/raptor_assault"
+     ]
+    },
+    {
+     "id": "own_warlord_traits_only",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/iron_warriors/",
+     "printed": "You must use the Warlord traits presented in this Supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "chaos_space_marines",
+        "group": "warlord_traits"
+       }
+      ]
+     }
+    },
+    {
+     "id": "unit_list_only",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/iron_warriors/",
+     "printed": "You may not field the units not listed on the Iron Warriors Unit list in this Codex Supplement.",
+     "scope": "detachment",
+     "unit_list": true
+    },
+    {
+     "id": "own_relics_only",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/iron_warriors/",
+     "printed": "You may not use the Relics from Codex Chaos Space Marines and must use the Relic Wargear presented in this supplement.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "chaos_space_marines",
+        "group": "relics"
+       }
+      ]
+     }
+    },
+    {
+     "id": "no_marks_unless_psyker",
+     "printed": "Iron Warriors units may not purchase any Marks of Chaos unless they have the Psyker (x) special rule.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "items": [
+       {
+        "kind": "wargear",
+        "id": "the_mark_of_khorne",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "wargear",
+        "id": "the_mark_of_nurgle",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "wargear",
+        "id": "the_mark_of_slaanesh",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "wargear",
+        "id": "the_mark_of_tzeentch",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "wargear",
+        "id": "the_mark_of_chaos_undivided",
+        "faction": "chaos_space_marines"
+       }
+      ],
+      "conditions": [
+       {
+        "not": {
+         "rule": {
+          "rule": "universal_special_rules/psyker",
+          "name": "Psyker",
+          "param": "x",
+          "url": "https://longwarindex.app/universal_special_rules/psyker/"
+         }
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "fortification_invulnerable_save",
+     "printed": "All Fortification type units in your army gain a 5+ Invulnerable save.",
+     "invulnerable_save": {
+      "conditions": [
+       {
+        "unit_type": "Fortification"
+       }
+      ],
+      "save": "5+"
+     }
+    }
+   ],
+   "game_time": [
+    "Iron Warriors may never select a unit to receive a Chaos Boon.",
+    "When engaging Imperial Fists, you must play 1 additional Battle Round of the Game, regardless of the Battlepack rules."
+   ],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/iron_warriors/rites_of_war/olympic_grand_company",
+   "name": "Olympic Grand Company",
+   "page": 10,
+   "url": "https://longwarindex.app/rites_of_war/olympic_grand_company/",
+   "offered_by": {
+    "allegiance": "codex/iron_warriors/allegiances/allegiance_iron_warriors"
+   },
+   "text": "Requirements\n\n- Your army must include at least 2 units of Inductii.\n- Your army must include at least 1 Chaos Lord.\n- All Legionnaire Squads in your army gain the Support Squad special rule.\n\nBenefits\n\n- Iron Havoc units may be fielded as Elites choices.\n- Inductii units in your army may re-roll 1 dice when making a Pinning test.\n- Rhino APC units in your army may be upgraded to Castellen Rhino APC's for 30pts. A unit with this upgrade gains +1 to its Armour values for its Front Armour (FA) and Side Armour (SA). In addition, the unit increases its Firing Ports (1) special rule to Firing Ports (2).",
+   "restrictions": [
+    {
+     "id": "inductii_units",
+     "printed": "Your army must include at least 2 units of Inductii.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/inductii_squad"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "chaos_lord_required",
+     "printed": "Your army must include at least 1 Chaos Lord.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_lord"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "iron_havocs_elites",
+     "printed": "Iron Havoc units may be fielded as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/iron_warriors/roster/iron_havocs"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "legionnaire_squads_support_squad",
+     "printed": "All Legionnaire Squads in your army gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/legionnaire_squad"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "castellan_rhino_apc_upgrade",
+     "printed": "Rhino APC units in your army may be upgraded to Castellen Rhino APC's for 30pts. A unit with this upgrade gains +1 to its Armour values for its Front Armour (FA) and Side Armour (SA). In addition, the unit increases its Firing Ports (1) special rule to Firing Ports (2).",
+     "options": [
+      {
+       "book_options": "iron_warriors",
+       "group": "castellan_rhino_apc_upgrade"
+      }
+     ]
+    }
+   ],
+   "game_time": [
+    "Inductii units in your army may re-roll 1 dice when making a Pinning test."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/iron_warriors/rites_of_war/obliterator_cult",
+   "name": "Obliterator Cult",
+   "page": 11,
+   "url": "https://longwarindex.app/rites_of_war/obliterator_cult/",
+   "offered_by": {
+    "allegiance": "codex/iron_warriors/allegiances/allegiance_iron_warriors"
+   },
+   "text": "Requirements\n\n- Your army must include at least 2 units of Obliterator.\n- Your army must include at least 1 Chaos Champion with no upgrades.\n- You must include 1 Chaos Champion upgraded to be a Warpsmith.\n\nBenefits\n\n- You may field Obliterator as Troops choices instead of Heavy Support choices, but they gain the Support Squad special rule.\n- You may field Mutilators as Troops choices instead of Elites choices, but they gain the Support Squad special rule.\n- All Heavy Bolters that an Obliterator unit is equipped with are exchanged for Shrapnel Cannons for 0pts.",
+   "restrictions": [
+    {
+     "id": "obliterator_units",
+     "printed": "Your army must include at least 2 units of Obliterator.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/obliterators"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "chaos_champion_no_upgrades",
+     "printed": "Your army must include at least 1 Chaos Champion with no upgrades.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_champion"
+       },
+       {
+        "not_choice": [
+         {
+          "page": "codex/chaos_space_marines/roster/chaos_champion",
+          "path": "upgrades/sorcerer"
+         },
+         {
+          "page": "codex/chaos_space_marines/roster/chaos_champion",
+          "path": "upgrades/dark_apostle"
+         },
+         {
+          "page": "codex/chaos_space_marines/roster/chaos_champion",
+          "path": "upgrades/warp_smith"
+         },
+         {
+          "page": "codex/chaos_space_marines/roster/chaos_champion",
+          "path": "upgrades/master_of_executions"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "warpsmith_chaos_champion_required",
+     "printed": "You must include 1 Chaos Champion upgraded to be a Warpsmith.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_champion"
+       },
+       {
+        "rule": {
+         "rule": "codex/chaos_space_marines/special_rules/warp_smith",
+         "name": "Warp Smith",
+         "url": "https://longwarindex.app/special_rules/warp_smith/"
+        }
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "obliterators_troops",
+     "printed": "You may field Obliterator as Troops choices instead of Heavy Support choices, but they gain the Support Squad special rule.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/obliterators"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "obliterators_support_squad",
+     "printed": "You may field Obliterator as Troops choices instead of Heavy Support choices, but they gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/obliterators"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "mutilators_troops",
+     "printed": "You may field Mutilators as Troops choices instead of Elites choices, but they gain the Support Squad special rule.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/mutilators"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "mutilators_support_squad",
+     "printed": "You may field Mutilators as Troops choices instead of Elites choices, but they gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/mutilators"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "obliterator_shrapnel_cannon",
+     "printed": "All Heavy Bolters that an Obliterator unit is equipped with are exchanged for Shrapnel Cannons for 0pts.",
+     "exchanges": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/obliterators"
+       }
+      ],
+      "exchanges": [
+       {
+        "remove": [
+         {
+          "kind": "weapon",
+          "id": "heavy_bolter",
+          "faction": "chaos_space_marines"
+         }
+        ],
+        "add": [
+         {
+          "kind": "weapon",
+          "id": "shrapnel_cannon"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/iron_warriors/rites_of_war/iron_nexus",
+   "name": "Iron Nexus",
+   "page": 12,
+   "url": "https://longwarindex.app/rites_of_war/iron_nexus/",
+   "offered_by": {
+    "allegiance": "codex/iron_warriors/allegiances/allegiance_iron_warriors"
+   },
+   "text": "Requirements\n\n- Your army must include at least 2 units Bastions.\n- Your army must include a Firestorm Redoubt.\n- Your army must include a Chaos Lord with the Warsmith upgrade.\n\nBenefits\n\n- You gain 1 additional Fortification Slot per 1,000pts.\n- You may field Bastions as Dedicated Transports.\n- You may field Aegis Defence Lines without taking up a Force Organization Slot.\n- All terrain, including open terrain within 6\" of a Bastion or Firestorm Redoubt in your army is treated as Dangerous Terrain.",
+   "restrictions": [
+    {
+     "id": "bastion_units",
+     "printed": "Your army must include at least 2 units Bastions.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/iron_warriors/roster/bastion"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "firestorm_redoubt_required",
+     "printed": "Your army must include a Firestorm Redoubt.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/iron_warriors/roster/firestorm_redoubt"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "warsmith_chaos_lord_required",
+     "printed": "Your army must include a Chaos Lord with the Warsmith upgrade.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_lord"
+       },
+       {
+        "rule": {
+         "rule": "codex/iron_warriors/special_rules/warsmith",
+         "name": "Warsmith",
+         "url": "https://longwarindex.app/special_rules/warsmith/"
+        }
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "fortification_slots",
+     "printed": "You gain 1 additional Fortification Slot per 1,000pts.",
+     "slots": {
+      "role": "Fortification",
+      "max_delta": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "bastions_dedicated_transports",
+     "printed": "You may field Bastions as Dedicated Transports.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/iron_warriors/roster/bastion"
+       }
+      ],
+      "role": "Dedicated Transport",
+      "instead": false
+     }
+    },
+    {
+     "id": "aegis_defence_lines_unslotted",
+     "printed": "You may field Aegis Defence Lines without taking up a Force Organization Slot.",
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/iron_warriors/roster/aegis_defence_line"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "All terrain, including open terrain within 6\" of a Bastion or Firestorm Redoubt in your army is treated as Dangerous Terrain."
+   ],
+   "unencoded": []
+  }
+ ]
+}

@@ -1,0 +1,620 @@
+{
+ "data_version": "ad0830763a720886",
+ "format": 1,
+ "faction": "dark_eldar",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_helm_of_spite/",
+   "offered_by": {
+    "codex": "dark_eldar"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "the_helm_of_spite",
+     "name": "The Helm of Spite",
+     "points": 30,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_helm_of_spite"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_helm_of_spite/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_archangel_of_pain",
+     "name": "The Archangel of Pain",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_archangel_of_pain"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_archangel_of_pain/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_armour_of_misery",
+     "name": "The Armour of Misery",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_armour_of_misery"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_armour_of_misery/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_animus_vitae",
+     "name": "The Animus Vitae",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic for 15pts.",
+     "items": [
+      {
+       "kind": "weapon",
+       "id": "the_animus_vitae"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/the_animus_vitae/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_parasites_kiss",
+     "name": "The Parasites' Kiss",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Splinter Pistol for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "splinter_pistol"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_parasites_kiss"
+        }
+       ]
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/the_parasites_kiss/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_djin_blade",
+     "name": "The Djin Blade",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword or Archite Glaive for this relic for 15pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "power_sword"
+        },
+        {
+         "kind": "weapon",
+         "id": "archite_glaive"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_djin_blade"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_djin_blade/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "kabal_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free. Kabal, Wych Cult and Coven keyword units may only select from their appropriate list of traits below.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free. Kabal, Wych Cult and Coven keyword units may only select from their appropriate list of traits below.",
+   "page": 15,
+   "url": "https://longwarindex.app/codex/dark_eldar/warlord_traits/",
+   "offered_by": {
+    "codex": "dark_eldar"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "not_keyword": "Wych Cult"
+     },
+     {
+      "not_keyword": "Coven"
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "dark_eldar/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "ancient_evil",
+     "name": "Ancient Evil",
+     "page": 15,
+     "url": "https://longwarindex.app/warlord_traits/ancient_evil/",
+     "text": "Enemy units within 3\" of the Warlord halve their Leadership (LD) characteristic. This stacks with the effects of the Fear (x) special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "Enemy units within 3\" of the Warlord halve their Leadership (LD) characteristic. This stacks with the effects of the Fear (x) special rule."
+     ]
+    },
+    {
+     "id": "hatred_eternal",
+     "name": "Hatred Eternal",
+     "page": 15,
+     "url": "https://longwarindex.app/warlord_traits/hatred_eternal/",
+     "text": "The Warlord and any attached unit gain the Hatred special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/hatred",
+       "name": "Hatred",
+       "url": "https://longwarindex.app/universal_special_rules/hatred/"
+      }
+     ]
+    },
+    {
+     "id": "soul_thirst",
+     "name": "Soul Thirst",
+     "page": 15,
+     "url": "https://longwarindex.app/warlord_traits/soul_thirst/",
+     "text": "The Warlord gains the Rage and Furious Charge special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/rage",
+       "name": "Rage",
+       "url": "https://longwarindex.app/universal_special_rules/rage/"
+      },
+      {
+       "rule": "universal_special_rules/furious_charge",
+       "name": "Furious Charge",
+       "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wych_cult_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free. Kabal, Wych Cult and Coven keyword units may only select from their appropriate list of traits below.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free. Kabal, Wych Cult and Coven keyword units may only select from their appropriate list of traits below.",
+   "page": 15,
+   "url": "https://longwarindex.app/codex/dark_eldar/warlord_traits/",
+   "offered_by": {
+    "codex": "dark_eldar"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "not_keyword": "Kabal"
+     },
+     {
+      "not_keyword": "Coven"
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "dark_eldar/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "quick_silver_fighter",
+     "name": "Quick Silver Fighter",
+     "page": 15,
+     "url": "https://longwarindex.app/warlord_traits/quick_silver_fighter/",
+     "text": "The Warlord gains the Sudden Strike and Hit & Run special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/sudden_strike",
+       "name": "Sudden Strike",
+       "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+      },
+      {
+       "rule": "universal_special_rules/hit_and_run",
+       "name": "Hit & Run",
+       "url": "https://longwarindex.app/universal_special_rules/hit_and_run/"
+      }
+     ]
+    },
+    {
+     "id": "precision_blows",
+     "name": "Precision Blows",
+     "page": 15,
+     "url": "https://longwarindex.app/warlord_traits/precision_blows/",
+     "text": "The Warlord gains the Precision Hits special rule on all Melee type weapons they are equipped with.",
+     "points": 0,
+     "pricing": "flat",
+     "weapon_rules": [
+      {
+       "rule": {
+        "rule": "special_rules/precision_hits",
+        "name": "Precision Hits",
+        "url": "https://longwarindex.app/special_rules/precision_hits/"
+       },
+       "weapon_types": [
+        "Melee"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stimm_addict",
+     "name": "Stimm Addict",
+     "page": 15,
+     "url": "https://longwarindex.app/warlord_traits/stimm_addict/",
+     "text": "The Warlord gains +1 to their Weapon Skill (WS) and Attacks (A) characteristics but gains the Frenzy special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/frenzy",
+       "name": "Frenzy",
+       "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+      }
+     ],
+     "stat_mods": [
+      {
+       "characteristic": "WS",
+       "delta": 1
+      },
+      {
+       "characteristic": "A",
+       "delta": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "coven_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free. Kabal, Wych Cult and Coven keyword units may only select from their appropriate list of traits below.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free. Kabal, Wych Cult and Coven keyword units may only select from their appropriate list of traits below.",
+   "page": 15,
+   "url": "https://longwarindex.app/codex/dark_eldar/warlord_traits/",
+   "offered_by": {
+    "codex": "dark_eldar"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "not_keyword": "Kabal"
+     },
+     {
+      "not_keyword": "Wych Cult"
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "dark_eldar/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "master_regenist",
+     "name": "Master Regenist",
+     "page": 15,
+     "url": "https://longwarindex.app/warlord_traits/master_regenist/",
+     "text": "The Warlord gains the Regeneration and Feel no Pain (5+) special rules. Additionally, the Warlord may re-roll the Dice for the Regeneration roll.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/regeneration",
+       "name": "Regeneration",
+       "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+      },
+      {
+       "rule": "universal_special_rules/feel_no_pain",
+       "name": "Feel No Pain",
+       "param": "5+",
+       "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+      }
+     ],
+     "game_time": [
+      "Additionally, the Warlord may re-roll the Dice for the Regeneration roll."
+     ]
+    },
+    {
+     "id": "master_nemesine",
+     "name": "Master Nemesine",
+     "page": 15,
+     "url": "https://longwarindex.app/warlord_traits/master_nemesine/",
+     "text": "The Warlord and any attached unit gain the Preferred Enemy special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/preferred_enemy",
+       "name": "Preferred Enemy",
+       "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+      }
+     ]
+    },
+    {
+     "id": "master_artisan",
+     "name": "Master Artisan",
+     "page": 15,
+     "url": "https://longwarindex.app/warlord_traits/master_artisan/",
+     "text": "The Warlord increases their Toughness (T) characteristic by 2 and gains the Battle-Hardened special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/battle_hardened",
+       "name": "Battle-Hardened",
+       "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+      }
+     ],
+     "stat_mods": [
+      {
+       "characteristic": "T",
+       "delta": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ynnari_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "Your army gains access to the Ynnari Warlord Traits.",
+   "printed": "Your army gains access to the Ynnari Warlord Traits.",
+   "page": 26,
+   "url": "https://longwarindex.app/rites_of_war/ynnari_sect_dark_eldar/",
+   "offered_by": {
+    "rite": "codex/dark_eldar/rites_of_war/ynnari_sect"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "dark_eldar/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "favoured_of_ynnead",
+     "name": "Favoured of Ynnead",
+     "page": 27,
+     "url": "https://longwarindex.app/warlord_traits/favoured_of_ynnead_dark_eldar/",
+     "text": "A unit with this Warlord Trait and any attached unit always count as gaining the benefit of the Strength from Death.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "A unit with this Warlord Trait and any attached unit always count as gaining the benefit of the Strength from Death."
+     ]
+    },
+    {
+     "id": "lord_of_rebirth",
+     "name": "Lord of Rebirth",
+     "page": 27,
+     "url": "https://longwarindex.app/warlord_traits/lord_of_rebirth_dark_eldar/",
+     "text": "A model with this trait gains the Regeneration and Feel No Pain (5+) special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/regeneration",
+       "name": "Regeneration",
+       "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+      },
+      {
+       "rule": "universal_special_rules/feel_no_pain",
+       "name": "Feel No Pain",
+       "param": "5+",
+       "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+      }
+     ]
+    },
+    {
+     "id": "master_of_death",
+     "name": "Master of Death",
+     "page": 27,
+     "url": "https://longwarindex.app/warlord_traits/master_of_death_dark_eldar/",
+     "text": "A model with this warlord trait gains the Murderous Strike (6+) on all weapons they are equipped with.",
+     "points": 0,
+     "pricing": "flat",
+     "weapon_rules": [
+      {
+       "rule": {
+        "rule": "special_rules/murderous_strike",
+        "name": "Murderous Strike",
+        "param": "6+",
+        "url": "https://longwarindex.app/special_rules/murderous_strike/"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "revenant_discipline",
+   "kind": "psychic_powers",
+   "label": "Any Eldar unit in your army which gains access to the Runes of Fate Psychic Discipline instead must purchase the Psychic Powers listed on the Revenant Discipline.",
+   "printed": "Any Eldar unit in your army which gains access to the Runes of Fate Psychic Discipline instead must purchase the Psychic Powers listed on the Revenant Discipline.",
+   "page": 26,
+   "url": "https://longwarindex.app/rites_of_war/ynnari_sect_dark_eldar/",
+   "offered_by": {
+    "rite": "codex/dark_eldar/rites_of_war/ynnari_sect"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Farseer"
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "ancestors_grace",
+     "name": "Ancestors Grace",
+     "page": 27,
+     "url": "https://longwarindex.app/powers/ancestors_grace_dark_eldar/",
+     "text": "When this power is cast, select a single friendly unit within 24\" of the Psyker. That unit counts as gaining the benefit of the Strength from Death special rule until the start of your next Shooting Phase even if no units were slain and removed from play this turn.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "shield_of_ynnead",
+     "name": "Shield of Ynnead",
+     "page": 27,
+     "url": "https://longwarindex.app/powers/shield_of_ynnead_dark_eldar/",
+     "text": "When this power is cast, the Psyker and any attached unit gain a 4+ Invulnerable save until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "storm_of_whispers",
+     "name": "Storm of Whispers",
+     "page": 27,
+     "url": "https://longwarindex.app/powers/storm_of_whispers_dark_eldar/",
+     "text": "A Psyker is equipped with the following Psychic weapon:\n\n- Storm of Whispers",
+     "points": 10,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "storm_of_whispers"
+      }
+     ]
+    },
+    {
+     "id": "word_of_the_phoenix",
+     "name": "Word of the Phoenix",
+     "page": 27,
+     "url": "https://longwarindex.app/powers/word_of_the_phoenix_dark_eldar/",
+     "text": "When this power is cast, select a single friendly Infantry, Automata or Monster unit within 24\" of the Psyker. One model in the target unit heals 1 wound. If the unit has no wounds to be healed, the unit regains 1 lost model with 1 wound remaining.",
+     "points": 10,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "the_prophets_of_flesh_hardened_chitin",
+   "kind": "upgrade",
+   "label": "Any Coven unit in your army may purchase Hardened Chitin for 3pts per model.",
+   "printed": "Any Coven unit in your army may purchase Hardened Chitin for 3pts per model.",
+   "page": 24,
+   "url": "https://longwarindex.app/rites_of_war/the_prophets_of_flesh/",
+   "offered_by": {
+    "rite": "codex/dark_eldar/rites_of_war/the_prophets_of_flesh"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Coven"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "hardened_chitin",
+     "name": "Hardened Chitin",
+     "points": 3,
+     "pricing": "per_model",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "hardened_chitin"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

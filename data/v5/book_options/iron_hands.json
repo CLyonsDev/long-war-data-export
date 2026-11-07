@@ -1,0 +1,1379 @@
+{
+ "data_version": "c5cd2b3b964320cb",
+ "format": 1,
+ "faction": "iron_hands",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_iron_stone/",
+   "offered_by": {
+    "allegiance": "codex/iron_hands/allegiances/allegiance_iron_hands"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "the_iron_stone",
+     "name": "The Iron Stone",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_iron_stone"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_iron_stone/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_gorgons_chain",
+     "name": "The Gorgon's Chain",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_gorgons_chain"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_gorgons_chain/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_tempered_helm",
+     "name": "The Tempered Helm",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_tempered_helm"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_tempered_helm/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_aegis_ferrum",
+     "name": "The Aegis Ferrum",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_aegis_ferrum"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_aegis_ferrum/",
+     "pricing": "flat"
+    },
+    {
+     "id": "betrayers_bane_bolt",
+     "name": "Betrayer's Bane (Bolt)",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Boltgun for this relic for 20pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "betrayers_bane_bolt"
+        }
+       ]
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/betrayers_bane/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_mindforge",
+     "name": "The Mindforge",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Force Sword, Force Axe or Force Stave for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "force_sword",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "force_axe",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "force_stave",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_mindforge"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_mindforge/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_axe_of_severance",
+     "name": "The Axe of Severance",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Axe or Omnissian Axe for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "power_axe",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "omnissian_axe",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_axe_of_severance"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_axe_of_severance/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_teeth_of_mars",
+     "name": "The Teeth of Mars",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Chainsword for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "chainsword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_teeth_of_mars"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_teeth_of_mars/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 11,
+   "url": "https://longwarindex.app/codex/iron_hands/warlord_traits/",
+   "offered_by": {
+    "allegiance": "codex/iron_hands/allegiances/allegiance_iron_hands"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "space_marines/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "adept_of_the_omnissiah",
+     "name": "Adept of the Omnissiah",
+     "page": 11,
+     "url": "https://longwarindex.app/warlord_traits/adept_of_the_omnissiah/",
+     "text": "The Warlord with this trait gains the Battle Smith (1) special rule. If they already have the Battle Smith (x) special rule, increase the value of (x) by 1.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/battle_smith",
+       "name": "Battle Smith",
+       "param": "1",
+       "url": "https://longwarindex.app/universal_special_rules/battle_smith/",
+       "raise_by": 1
+      }
+     ]
+    },
+    {
+     "id": "all_flesh_is_weakness",
+     "name": "All Flesh is Weakness",
+     "page": 11,
+     "url": "https://longwarindex.app/warlord_traits/all_flesh_is_weakness/",
+     "text": "The Warlord with this trait gains the Feel no Pain (4+) special rule. In addition, the Warlord gains the Battle-Hardened special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/feel_no_pain",
+       "name": "Feel No Pain",
+       "param": "4+",
+       "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+      },
+      {
+       "rule": "universal_special_rules/battle_hardened",
+       "name": "Battle-Hardened",
+       "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+      }
+     ]
+    },
+    {
+     "id": "targeting_protocols",
+     "name": "Targeting Protocols",
+     "page": 11,
+     "url": "https://longwarindex.app/warlord_traits/targeting_protocols/",
+     "text": "A Warlord with this trait and any attached unit always makes Snap Shots at Ballistic Skill (BS) 2 instead of 1. In addition, the Warlord and any attached unit gain +6\" to the range of all Shooting weapons they are equipped with except for Grenade type weapons.",
+     "points": 0,
+     "pricing": "flat",
+     "weapon_stat_mods": [
+      {
+       "weapons": {
+        "shooting": true,
+        "except_weapon_types": [
+         "Grenade"
+        ]
+       },
+       "mods": [
+        {
+         "characteristic": "Range",
+         "delta": 6
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "psychic_powers",
+   "kind": "psychic_powers",
+   "label": "An Iron Hands unit with the Psyker (x) special rule may purchase Psychic Powers from the following discipline:",
+   "printed": "An Iron Hands unit with the Psyker (x) special rule may purchase Psychic Powers from the following discipline:",
+   "page": 9,
+   "url": "https://longwarindex.app/codex/iron_hands/powers/",
+   "offered_by": {
+    "allegiance": "codex/iron_hands/allegiances/allegiance_iron_hands"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     },
+     {
+      "keyword": "Iron Hands"
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "blessing_of_the_machine",
+     "name": "Blessing of the Machine",
+     "page": 9,
+     "url": "https://longwarindex.app/powers/blessing_of_the_machine/",
+     "text": "When this Psychic Power is successfully cast, select a single friendly Vehicle or Aircraft unit within 24\" of the Psyker. That unit gains a 6+ Invulnerable Save until the start of your next Shooting Phase. If it already has an Invulnerable save, increase it by +1 to a max of 4+.",
+     "points": 5,
+     "pricing": "flat"
+    },
+    {
+     "id": "fury_of_mars",
+     "name": "Fury of Mars",
+     "page": 9,
+     "url": "https://longwarindex.app/powers/fury_of_mars/",
+     "text": "The Psyker gains the following Psychic Weapon:\n\n- Fury of Mars",
+     "points": 5,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "fury_of_mars"
+      }
+     ]
+    },
+    {
+     "id": "machine_curse",
+     "name": "Machine Curse",
+     "page": 9,
+     "url": "https://longwarindex.app/powers/machine_curse/",
+     "text": "When this Psychic Power is successfully cast, select a single enemy Vehicle or Aircraft unit within 12\" of the Psyker. All friendly Iron Hands units are treated as having the Tank Hunter special rule when resolving attacks against the targeted unit until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "reforge",
+     "name": "Reforge",
+     "page": 9,
+     "url": "https://longwarindex.app/powers/reforge/",
+     "text": "When this Psychic Power is successfully cast, select a single friendly Vehicle or Aircraft unit within 12\" of the Psyker. That unit gains the benefit of the Rite of Repair as if the Rite of Repair had been successfully performed on the target. (see Machine Rites)",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "warp_metal_armour",
+     "name": "Warp Metal Armour",
+     "page": 9,
+     "url": "https://longwarindex.app/powers/warp_metal_armour/",
+     "text": "When this Psychic Power is successfully cast, select a single enemy Vehicle, Walker or Aircraft unit within 12\" of the Psyker. The target unit gains +1 to its Armour Facings (AV) or Toughness (T) characteristic until the start of your next Shooting Phase.",
+     "points": 20,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "machine_rites",
+   "kind": "machine_rites",
+   "label": "Any Iron Hands unit with the Battle Smith (x) special rule knows the following Rites:",
+   "printed": "Any Iron Hands unit with the Battle Smith (x) special rule knows the following Rites:",
+   "page": 9,
+   "url": "https://longwarindex.app/codex/iron_hands/powers/",
+   "offered_by": {
+    "allegiance": "codex/iron_hands/allegiances/allegiance_iron_hands"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/battle_smith",
+       "name": "Battle Smith",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+      }
+     },
+     {
+      "keyword": "Iron Hands"
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/battle_smith",
+     "name": "Battle Smith",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "rite_of_repair",
+     "name": "Rite of Repair",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/rite_of_repair_space_marines/",
+     "text": "When this Rite is performed successfully, select one of the following effects:\n\n- Select 1 Walker or Automata unit either within 3\" or attached to the unit that is performing this rite. The target unit Heals 1 wound.\n- Select 1 Vehicle, Aircraft, Knight or Fortification either within 3\", attached to the unit performing this Rite or that this unit is embarked upon. Select 1 weapon that target unit is equipped with that has been destroyed. The chosen weapon is no longer destroyed.\n- Select 1 Vehicle or Knight either within 3\", attached to the unit performing this Rite or that this unit is embarked upon that is immobilized. That unit is no longer immobilized. If the unit has the Super Heavy (x) special rule and was Limping, it is no longer considered to be Limping.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_immolation",
+     "name": "Rite of Immolation",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/rite_of_immolation_space_marines/",
+     "text": "When this Rite is performed successfully, select 1 friendly Walker, Automata, Vehicle, Knight, Fortification or Aircraft unit within 6\" of the unit performing this Rite or the unit performing the Rite is embarked upon. That unit immediately suffers an Explodes result per the Vehicle Damage Chart, even if it would normally not.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_destruction",
+     "name": "Rite of Destruction",
+     "page": 10,
+     "url": "https://longwarindex.app/powers/rite_of_destruction_iron_hands/",
+     "text": "When this Rite is performed successfully, select 1 enemy Vehicle, Walker, Knight, Titan or Aircraft unit within 12\". The target unit takes D6, Strength 1, AP- automatic hits. These hits are resolved with the Haywire (4+) special rule. Only Invulnerable saves may be made against these attacks.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_locomotion",
+     "name": "Rite of Locomotion",
+     "page": 10,
+     "url": "https://longwarindex.app/powers/rite_of_locomotion_iron_hands/",
+     "text": "When this Rite is performed successfully, select a Vehicle, Automata, Walker or Aircraft unit within 3\" of the unit performing this Rite or a unit they embarked upon may immediately make a Normal Move. However, the selected unit may not Shoot in the Shooting Phase or Charge in the Charge Phase.",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "iron_father_upgrade",
+   "kind": "upgrade",
+   "label": "One Iron Hands Space Marine Captain in your army may be upgraded to an Iron Father for 55pts.",
+   "printed": "One Iron Hands Space Marine Captain in your army may be upgraded to an Iron Father for 55pts.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_10th_legion/",
+   "offered_by": {
+    "allegiance": "codex/iron_hands/allegiances/allegiance_iron_hands"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_captain"
+     },
+     {
+      "keyword": "Iron Hands"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "iron_father",
+     "name": "Iron Father",
+     "points": 55,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/iron_hands/special_rules/iron_father",
+       "name": "Iron Father",
+       "url": "https://longwarindex.app/special_rules/iron_father/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_automedicae_bionics",
+   "kind": "armoury",
+   "label": "Any Iron Hands unit with the Character special rule may purchase Automedicae Bionics for 10pts.",
+   "printed": "Any Iron Hands unit with the Character special rule may purchase Automedicae Bionics for 10pts.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_10th_legion/",
+   "offered_by": {
+    "allegiance": "codex/iron_hands/allegiances/allegiance_iron_hands"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Iron Hands"
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "automedicae_bionics",
+     "name": "Automedicae Bionics",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "automedicae_bionics"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_cyber_familiar",
+   "kind": "armoury",
+   "label": "Any Iron Hands unit with the Character special rule may purchase a Cyber Familiar for 10pts.",
+   "printed": "Any Iron Hands unit with the Character special rule may purchase a Cyber Familiar for 10pts.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_10th_legion/",
+   "offered_by": {
+    "allegiance": "codex/iron_hands/allegiances/allegiance_iron_hands"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Iron Hands"
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "cyber_familiar",
+     "name": "Cyber Familiar",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "cyber_familiar"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_enhanced_bionics",
+   "kind": "armoury",
+   "label": "Any Iron Hands unit with the Character special rule may purchase Enhanced Bionics for 5pts.",
+   "printed": "Any Iron Hands unit with the Character special rule may purchase Enhanced Bionics for 5pts.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_10th_legion/",
+   "offered_by": {
+    "allegiance": "codex/iron_hands/allegiances/allegiance_iron_hands"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Iron Hands"
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "enhanced_bionics",
+     "name": "Enhanced Bionics",
+     "points": 5,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "enhanced_bionics"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_blessed_autosimulacra",
+   "kind": "armoury",
+   "label": "Any Iron Hands Walker, Aircraft or Vehicle type may take Blessed Autosimulacra for 25pts.",
+   "printed": "Any Iron Hands Walker, Aircraft or Vehicle type may take Blessed Autosimulacra for 25pts.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_10th_legion/",
+   "offered_by": {
+    "allegiance": "codex/iron_hands/allegiances/allegiance_iron_hands"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Iron Hands"
+     },
+     {
+      "any_of": [
+       {
+        "unit_type": "Walker"
+       },
+       {
+        "unit_type": "Aircraft"
+       },
+       {
+        "unit_type": "Vehicle"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "blessed_autosimulacra",
+     "name": "Blessed Autosimulacra",
+     "points": 25,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "blessed_autosimulacra"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_gorgon_terminator_armour",
+   "kind": "armoury",
+   "label": "Any Iron Hands model equipped with Indomitus Terminator Armour may exchange it for Gorgon Terminator Armour for 5pts.",
+   "printed": "Any Iron Hands model equipped with Indomitus Terminator Armour may exchange it for Gorgon Terminator Armour for 5pts.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_10th_legion/",
+   "offered_by": {
+    "allegiance": "codex/iron_hands/allegiances/allegiance_iron_hands"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Iron Hands"
+     },
+     {
+      "holds": [
+       {
+        "kind": "wargear",
+        "id": "indomitus_terminator_armour",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "gorgon_terminator_armour",
+     "name": "Gorgon Terminator Armour",
+     "points": 5,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "wargear",
+         "id": "indomitus_terminator_armour",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "wargear",
+         "id": "gorgon_terminator_armour"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_boarding_shield",
+   "kind": "armoury",
+   "label": "Any Iron Hands 'Tactical Marine' or 'Sergeant' model in a Tactical Squad unit or 'Veteran Marine' or 'Veteran Sergeant' in a Veteran Squad may: Take a Boarding Shield for 3pts per model.",
+   "printed": "Any Iron Hands 'Tactical Marine' or 'Sergeant' model in a Tactical Squad unit or 'Veteran Marine' or 'Veteran Sergeant' in a Veteran Squad may: Take a Boarding Shield for 3pts per model.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_10th_legion/",
+   "offered_by": {
+    "allegiance": "codex/iron_hands/allegiances/allegiance_iron_hands"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Iron Hands"
+     },
+     {
+      "any_of": [
+       {
+        "datasheet": "codex/space_marines/roster/tactical_squad"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/veteran_squad"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "boarding_shield",
+     "name": "Boarding Shield",
+     "points": 3,
+     "pricing": "per_model",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "boarding_shield"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_graviton_shredder",
+   "kind": "armoury",
+   "label": "Any Iron Hands model may exchange their equipped Grav Gun for a Graviton Shredder for 1pts.",
+   "printed": "Any Iron Hands model may exchange their equipped Grav Gun for a Graviton Shredder for 1pts.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_10th_legion/",
+   "offered_by": {
+    "allegiance": "codex/iron_hands/allegiances/allegiance_iron_hands"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Iron Hands"
+     },
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "grav_gun",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "graviton_shredder",
+     "name": "Graviton Shredder",
+     "points": 1,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "grav_gun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "graviton_shredder"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_haywire_boltgun",
+   "kind": "armoury",
+   "label": "Any Iron Hands model in a Tactical Squad unit may exchange their equipped Boltgun for a Haywire Boltgun for 1pts per model.",
+   "printed": "Any Iron Hands model in a Tactical Squad unit may exchange their equipped Boltgun for a Haywire Boltgun for 1pts per model.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_10th_legion/",
+   "offered_by": {
+    "allegiance": "codex/iron_hands/allegiances/allegiance_iron_hands"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Iron Hands"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/tactical_squad"
+     },
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "boltgun",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "haywire_boltgun",
+     "name": "Haywire Boltgun",
+     "points": 1,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "haywire_boltgun"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_haywire_stormbolter",
+   "kind": "armoury",
+   "label": "Any Iron Hands model equipped with a Storm Bolter may exchange it for a Haywire Stormbolter for 1pt per model.",
+   "printed": "Any Iron Hands model equipped with a Storm Bolter may exchange it for a Haywire Stormbolter for 1pt per model.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_10th_legion/",
+   "offered_by": {
+    "allegiance": "codex/iron_hands/allegiances/allegiance_iron_hands"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Iron Hands"
+     },
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "storm_bolter",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "haywire_stormbolter",
+     "name": "Haywire Stormbolter",
+     "points": 1,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "storm_bolter",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "haywire_stormbolter"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "awakened_machine_spirit_upgrade",
+   "kind": "upgrade",
+   "label": "1 Vehicle unit in your army may purchase the Awakened Machine Spirit upgrade (see below) for 50pts.",
+   "printed": "1 Vehicle unit in your army may purchase the Awakened Machine Spirit upgrade (see below) for 50pts.",
+   "page": 14,
+   "url": "https://longwarindex.app/rites_of_war/super_heavy_assault/",
+   "offered_by": {
+    "rite": "codex/iron_hands/rites_of_war/super_heavy_assault"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "unit_type": "Vehicle"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "awakened_machine_spirit",
+     "name": "Awakened Machine Spirit",
+     "points": 50,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "awakened_machine_spirit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "super_heavy_assault_sergeant_terminator_armour",
+   "kind": "upgrade",
+   "label": "'Sergeant' models in your Iron Hands units may purchase Indomitus Terminator Armor for 10pts per model.",
+   "printed": "'Sergeant' models in your Iron Hands units may purchase Indomitus Terminator Armor for 10pts per model.",
+   "page": 14,
+   "url": "https://longwarindex.app/rites_of_war/super_heavy_assault/",
+   "offered_by": {
+    "rite": "codex/iron_hands/rites_of_war/super_heavy_assault"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Iron Hands"
+     },
+     {
+      "rows": [
+       {
+        "datasheet": "codex/space_marines/roster/assault_marine_squad",
+        "profile": "Assault Sergeant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/assault_terminators",
+        "profile": "Terminator Sergeant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/bike_squad",
+        "profile": "Bike Sergeant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/centurions",
+        "profile": "Centurion Sergeant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/devastator_squad",
+        "profile": "Devastator Sergeant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/eliminator_squad",
+        "profile": "Eliminator Sergeant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/gravis_support_squad",
+        "profile": "Gravis Sergeant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/inceptor_squad",
+        "profile": "Inceptor Sergeant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/incursor_squad",
+        "profile": "Incursor Sergeant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/infiltrator_squad",
+        "profile": "Infiltrator Sergeant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/reiver_squad",
+        "profile": "Reiver Sergeant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/scout_bike_squad",
+        "profile": "Scout Bike Sergeant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/scouts",
+        "profile": "Scout Sergeant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/suppressor_squad",
+        "profile": "Suppressor Sergeant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/tactical_squad",
+        "profile": "Tactical Sergeant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/tactical_squad",
+        "profile": "Gravis Sergeant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/tactical_terminators",
+        "profile": "Terminator Sergeant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/veteran_squad",
+        "profile": "Veteran Sergeant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/weapon_support_squad",
+        "profile": "Support Sergeant"
+       }
+      ]
+     },
+     {
+      "lacks": [
+       {
+        "kind": "wargear",
+        "id": "indomitus_terminator_armour",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "indomitus_terminator_armour",
+     "name": "Indomitus Terminator Armour",
+     "points": 10,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "wargear",
+         "id": "power_armour",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "wargear",
+         "id": "gravis_armour",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "wargear",
+         "id": "phobos_armour",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "wargear",
+         "id": "scout_armour",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "wargear",
+         "id": "centurion_armour",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "wargear",
+         "id": "artificer_armour",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "wargear",
+         "id": "cataphractii_terminator_armour",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "wargear",
+         "id": "tartaros_terminator_armour",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "wargear",
+         "id": "indomitus_terminator_armour",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_predator_autocannon_exchange",
+   "kind": "armoury",
+   "label": "Any Iron Hands Predator MBT can exchange its Autocannon (P) for one of the following:",
+   "printed": "Any Iron Hands Predator MBT can exchange its Autocannon (P) for one of the following:",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_10th_legion/",
+   "offered_by": {
+    "allegiance": "codex/iron_hands/allegiances/allegiance_iron_hands"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Iron Hands"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/predator_mbt"
+     },
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "autocannon",
+        "faction": "space_marines",
+        "mount": "primary"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "plasma_cannon",
+     "name": "Plasma Cannon (P)",
+     "printed": "A Plasma Cannon (P) for 10pts (see core codex).",
+     "points": 10,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "autocannon",
+         "faction": "space_marines",
+         "mount": "primary"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "plasma_cannon",
+         "faction": "space_marines",
+         "mount": "primary"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "grav_cannon",
+     "name": "Grav Cannon (P)",
+     "printed": "A Grav Cannon (P) for 0pts (see core codex).",
+     "points": 0,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "autocannon",
+         "faction": "space_marines",
+         "mount": "primary"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "grav_cannon",
+         "faction": "space_marines",
+         "mount": "primary"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "conversion_beamer",
+     "name": "Conversion Beamer (P)",
+     "printed": "A Conversion Beamer (P) for 10pts (see core codex).",
+     "points": 10,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "autocannon",
+         "faction": "space_marines",
+         "mount": "primary"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "conversion_beamer",
+         "faction": "space_marines",
+         "mount": "primary"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "melta_cannon",
+     "name": "Melta Cannon (P)",
+     "printed": "A Melta Cannon (P) for 25pts.",
+     "points": 25,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "autocannon",
+         "faction": "space_marines",
+         "mount": "primary"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "melta_cannon",
+         "mount": "primary"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "volkite_saker",
+     "name": "Volkite Saker (P)",
+     "printed": "A Volkite Saker (P) for 5pts.",
+     "points": 5,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "autocannon",
+         "faction": "space_marines",
+         "mount": "primary"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "volkite_saker",
+         "mount": "primary"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "neutron_blaster",
+     "name": "Neutron Blaster (P)",
+     "printed": "A Neutron Blaster (P) for 30pts.",
+     "points": 30,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "autocannon",
+         "faction": "space_marines",
+         "mount": "primary"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "neutron_blaster",
+         "mount": "primary"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

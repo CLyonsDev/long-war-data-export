@@ -1,0 +1,605 @@
+{
+ "data_version": "eb759d3189a1b416",
+ "format": 1,
+ "faction": "alpha_legion",
+ "weapons": [
+  {
+   "id": "banestrike_boltgun",
+   "name": "Banestrike Boltgun",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 4,
+   "url": "https://longwarindex.app/weapons/banestrike_boltgun/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "combi_banestrike_bolter",
+   "name": "Combi Banestrike Bolter",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 4,
+   "url": "https://longwarindex.app/weapons/combi_banestrike_bolter/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "banestrike_shotgun",
+   "name": "Banestrike Shotgun",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 4,
+   "url": "https://longwarindex.app/weapons/banestrike_shotgun/",
+   "profiles": [
+    {
+     "name": "Banestrike Shotgun (Slug)",
+     "type": "Assault 2",
+     "range": "18\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    },
+    {
+     "name": "Banestrike Shotgun (Scatter)",
+     "type": "Assault 1",
+     "range": "18\"",
+     "strength": "3",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "venom_blade",
+   "name": "Venom Blade",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/venom_blade_alpha_legion/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      },
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "venom_spear",
+   "name": "Venom Spear",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/venom_spear/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      },
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "venom_axe",
+   "name": "Venom Axe",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/venom_axe/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "venom_sphere",
+   "name": "Venom Sphere",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/venom_sphere/",
+   "profiles": [
+    {
+     "type": "Grenade 1",
+     "range": "12\"",
+     "strength": "1",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "2+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "power_dagger",
+   "name": "Power Dagger",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/power_dagger/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "-1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/swift_strike",
+       "name": "Swift Strike",
+       "url": "https://longwarindex.app/special_rules/swift_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "laspistol",
+   "name": "Laspistol",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/laspistol_alpha_legion/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "12\"",
+     "strength": "3",
+     "ap": "6",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "lasgun",
+   "name": "Lasgun",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/lasgun_alpha_legion/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "3",
+     "ap": "6",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "autopistol",
+   "name": "Autopistol",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/autopistol_alpha_legion/",
+   "profiles": [
+    {
+     "type": "Pistol 2",
+     "range": "12\"",
+     "strength": "3",
+     "ap": "6",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "autogun",
+   "name": "Autogun",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/autogun_alpha_legion/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "3",
+     "ap": "6",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "heavy_stubber",
+   "name": "Heavy Stubber",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/heavy_stubber_alpha_legion/",
+   "profiles": [
+    {
+     "type": "Heavy 4",
+     "range": "36\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "darkblade",
+   "name": "Darkblade",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/wargear/darkblade/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "2+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      },
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_pale_spear",
+   "name": "The Pale Spear",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/wargear/the_pale_spear/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      },
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      },
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      },
+      {
+       "rule": "special_rules/two_handed",
+       "name": "Two-Handed",
+       "url": "https://longwarindex.app/special_rules/two_handed/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_instrument",
+   "name": "The Instrument",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/the_instrument/",
+   "profiles": [
+    {
+     "name": "The Instrument (Rapid Shot)",
+     "type": "Assault 3",
+     "range": "24\"",
+     "strength": "7",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    },
+    {
+     "name": "The Instrument (Execution Shot)",
+     "type": "Heavy 1",
+     "range": "72\"",
+     "strength": "7",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      },
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mental_assault",
+   "name": "Mental Assault",
+   "section": "other",
+   "subtype": "Obfuscation Psychic Discipline",
+   "page": 6,
+   "url": "https://longwarindex.app/powers/mental_assault/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "24\"",
+     "strength": "6",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "param": "Infantry/Bikes/Cavalry/Monsters/Battlesuits/Beasts",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hydras_teeth",
+   "name": "Hydra's Teeth",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/hydras_teeth/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Boltgun for this relic for 10pts.",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "2+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      },
+      {
+       "rule": "special_rules/ignores_cover",
+       "name": "Ignores Cover",
+       "url": "https://longwarindex.app/special_rules/ignores_cover/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blade_of_the_hydra",
+   "name": "Blade of the Hydra",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/blade_of_the_hydra/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Chainsword for this relic for 5pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/arcing",
+       "name": "Arcing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/arcing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vipers_bite",
+   "name": "Viper's Bite",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/vipers_bite/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Boltgun for this relic for 5pts.",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "5",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

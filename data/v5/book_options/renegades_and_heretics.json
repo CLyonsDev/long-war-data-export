@@ -1,0 +1,983 @@
+{
+ "data_version": "d58f746ba04622b1",
+ "format": 1,
+ "faction": "renegades_and_heretics",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/book_of_the_occult/",
+   "offered_by": {
+    "codex": "renegades_and_heretics"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "book_of_the_occult",
+     "name": "Book of the Occult",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "book_of_the_occult"
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/book_of_the_occult/",
+     "pricing": "flat"
+    },
+    {
+     "id": "seed_of_corruption",
+     "name": "Seed of Corruption",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "seed_of_corruption"
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/seed_of_corruption/",
+     "pricing": "flat"
+    },
+    {
+     "id": "chalice_of_entropic_power",
+     "name": "Chalice of Entropic Power",
+     "points": 30,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique or Daemon keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "chalice_of_entropic_power"
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/chalice_of_entropic_power/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "not_keyword": "Unique"
+      },
+      {
+       "not_keyword": "Daemon"
+      }
+     ]
+    },
+    {
+     "id": "icon_of_sin",
+     "name": "Icon of Sin",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "icon_of_sin"
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/icon_of_sin/",
+     "pricing": "flat"
+    },
+    {
+     "id": "artifact_of_lost_xeno_heresy",
+     "name": "Artifact of Lost Xeno-Heresy",
+     "points": 25,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "artifact_of_lost_xeno_heresy"
+      }
+     ],
+     "page": 11,
+     "url": "https://longwarindex.app/wargear/artifact_of_lost_xeno_heresy/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_murder_sword",
+     "name": "The Murder Sword",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_murder_sword"
+        }
+       ]
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/the_murder_sword/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_blighted_bolter",
+     "name": "The Blighted Bolter",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Boltgun or Bolt Pistol for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "boltgun"
+        },
+        {
+         "kind": "weapon",
+         "id": "bolt_pistol"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_blighted_bolter"
+        }
+       ]
+      }
+     ],
+     "page": 11,
+     "url": "https://longwarindex.app/wargear/the_blighted_bolter/",
+     "pricing": "flat"
+    },
+    {
+     "id": "xeno_heretical_pistol",
+     "name": "Xeno-Heretical Pistol",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Las Pistol or Auto Pistol for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "laspistol"
+        },
+        {
+         "kind": "weapon",
+         "id": "autopistol"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "xeno_heretical_pistol"
+        }
+       ]
+      }
+     ],
+     "page": 11,
+     "url": "https://longwarindex.app/wargear/xeno_heretical_pistol/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_whispering_sword",
+     "name": "The Whispering Sword",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 20pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_whispering_sword"
+        }
+       ]
+      }
+     ],
+     "page": 11,
+     "url": "https://longwarindex.app/wargear/the_whispering_sword/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 19,
+   "url": "https://longwarindex.app/codex/renegades_and_heretics/warlord_traits/",
+   "offered_by": {
+    "codex": "renegades_and_heretics"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "renegades_and_heretics/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "brute",
+     "name": "Brute",
+     "page": 19,
+     "url": "https://longwarindex.app/warlord_traits/brute/",
+     "text": "The Warlord gains +1 to their Strength (S) and Toughness (T) characteristics. The Warlord gains the Hammer of Wrath (1) special rule. If the Warlord already has the Hammer of Wrath (x) special rule, increase the value of (X) by 1.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/hammer_of_wrath",
+       "name": "Hammer of Wrath",
+       "param": "1",
+       "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/",
+       "raise_by": 1
+      }
+     ],
+     "stat_mods": [
+      {
+       "characteristic": "S",
+       "delta": 1
+      },
+      {
+       "characteristic": "T",
+       "delta": 1
+      }
+     ]
+    },
+    {
+     "id": "charismatic_deceiver",
+     "name": "Charismatic Deceiver",
+     "page": 19,
+     "url": "https://longwarindex.app/warlord_traits/charismatic_deceiver/",
+     "text": "Any unit that can draw visibility to the Warlord or any attached unit may use the Warlords Leadership (LD) characteristic instead of their own when making Leadership Tests.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "dark_magister",
+     "name": "Dark Magister",
+     "page": 19,
+     "url": "https://longwarindex.app/warlord_traits/dark_magister/",
+     "text": "The Warlord becomes a Psyker. They gain the Psyker (1) special rule. If the Warlord already has the Psyker (x) special rule, increase the value of (x) by 1.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "1",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/",
+       "raise_by": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chaos_knight_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "You gain access to the Warlord traits below.",
+   "printed": "You gain access to the Warlord traits below.",
+   "page": 35,
+   "url": "https://longwarindex.app/rites_of_war/chaos_knight_dreadhold/",
+   "offered_by": {
+    "rite": "codex/renegades_and_heretics/rites_of_war/chaos_knight_dreadhold"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "unit_type": "Knight"
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "renegades_and_heretics/chaos_knight_warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "aura_of_dread",
+     "name": "Aura of Dread",
+     "page": 35,
+     "url": "https://longwarindex.app/warlord_traits/aura_of_dread/",
+     "text": "All enemy units that can visibility to a Warlord with this trait must re-roll Pinning and Panic tests.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "infernal_quest",
+     "name": "Infernal Quest",
+     "page": 35,
+     "url": "https://longwarindex.app/warlord_traits/infernal_quest/",
+     "text": "A model with this Warlord trait always counts as holding an Objective they are within 6\" regardless of the number of enemy models contesting the Objective marker.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "warp_haunted_hull",
+     "name": "Warp-Haunted Hull",
+     "page": 35,
+     "url": "https://longwarindex.app/warlord_traits/warp_haunted_hull/",
+     "text": "A model with this trait gains the Indomitable Spirit (2+) and Deny the Witch special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/indomitable_spirit",
+       "name": "Indomitable Spirit",
+       "param": "2+",
+       "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+      },
+      {
+       "rule": "universal_special_rules/deny_the_witch",
+       "name": "Deny the Witch",
+       "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lore_of_nurgle_psychic_powers",
+   "kind": "psychic_powers",
+   "label": "Any Chaos Space Marine unit with the Psyker (x) and Nurgle or Undivided keywords may purchase psychic powers from the following discipline:",
+   "printed": "Any Chaos Space Marine unit with the Psyker (x) and Nurgle or Undivided keywords may purchase psychic powers from the following discipline:",
+   "page": 20,
+   "url": "https://longwarindex.app/codex/renegades_and_heretics/powers/",
+   "offered_by": {
+    "codex": "renegades_and_heretics"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     },
+     {
+      "keyword": "Renegades & Heretics"
+     },
+     {
+      "any_of": [
+       {
+        "keyword": "Nurgle"
+       },
+       {
+        "keyword": "Undivided"
+       }
+      ]
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "blades_of_putrefaction",
+     "name": "Blades of Putrefaction",
+     "page": 20,
+     "url": "https://longwarindex.app/powers/blades_of_putrefaction_renegades_and_heretics/",
+     "text": "When this power is cast, the Psyker and any attached unit gain the Poison (4+) special rule on all Melee weapons they are equipped with until the start of your next Shooting Phase. If an effected model is equipped with a Melee type weapon with the Poison (x) special rule, it becomes Poison (2+) instead.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "curse_of_the_leper",
+     "name": "Curse of the Leper",
+     "page": 20,
+     "url": "https://longwarindex.app/powers/curse_of_the_leper_renegades_and_heretics/",
+     "text": "When this power is cast, target 1 enemy unit within 18\" of the Psyker. The target unit suffers -1 to its Strength (S) & Toughness (T) characteristic until the start of your next Shooting Phase.",
+     "points": 20,
+     "pricing": "flat"
+    },
+    {
+     "id": "fleshy_abundance",
+     "name": "Fleshy Abundance",
+     "page": 20,
+     "url": "https://longwarindex.app/powers/fleshy_abundance_renegades_and_heretics/",
+     "text": "When this power is cast, the Psyker or 1 friendly model within 24\" Heals 1 lost Wound.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "nurgles_rot",
+     "name": "Nurgle's Rot",
+     "page": 20,
+     "url": "https://longwarindex.app/powers/nurgles_rot_renegades_and_heretics/",
+     "text": "When this power is cast, target 1 enemy unit within 12\" of the Psyker. The target unit takes 2D6, Strength 2, AP-, automatic hits.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "plague_wind",
+     "name": "Plague Wind",
+     "page": 20,
+     "url": "https://longwarindex.app/powers/plague_wind_renegades_and_heretics/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Plague Wind",
+     "points": 5,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "plague_wind"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lore_of_slaanesh_psychic_powers",
+   "kind": "psychic_powers",
+   "label": "Any Chaos Space Marine unit with the Psyker (x) and Slaanesh or Undivided keywords may purchase Psychic Powers from the following Discipline:",
+   "printed": "Any Chaos Space Marine unit with the Psyker (x) and Slaanesh or Undivided keywords may purchase Psychic Powers from the following Discipline:",
+   "page": 20,
+   "url": "https://longwarindex.app/codex/renegades_and_heretics/powers/",
+   "offered_by": {
+    "codex": "renegades_and_heretics"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     },
+     {
+      "keyword": "Renegades & Heretics"
+     },
+     {
+      "any_of": [
+       {
+        "keyword": "Slaanesh"
+       },
+       {
+        "keyword": "Undivided"
+       }
+      ]
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "delightful_agonies",
+     "name": "Delightful Agonies",
+     "page": 21,
+     "url": "https://longwarindex.app/powers/delightful_agonies_renegades_and_heretics/",
+     "text": "When this power is cast, the Psyker and any attached unit gain the Feel no Pain (5+) special rule until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "hysterical_frenzy",
+     "name": "Hysterical Frenzy",
+     "page": 21,
+     "url": "https://longwarindex.app/powers/hysterical_frenzy_renegades_and_heretics/",
+     "text": "When this power is cast, the Psyker and any attached unit gain the Arcing (6+) special rule on all melee weapons they are equipped with until the start of your next Shooting Phase. If the unit already has Arcing (x), improve Arcing (x) by 1 to a max of 3+.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "sensory_overload",
+     "name": "Sensory Overload",
+     "page": 21,
+     "url": "https://longwarindex.app/powers/sensory_overload_renegades_and_heretics/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Sensory Overload",
+     "points": 15,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "sensory_overload"
+      }
+     ]
+    },
+    {
+     "id": "sonic_shockwave",
+     "name": "Sonic Shockwave",
+     "page": 21,
+     "url": "https://longwarindex.app/powers/sonic_shockwave_renegades_and_heretics/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Sonic Shockwave",
+     "points": 10,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "sonic_shockwave"
+      }
+     ]
+    },
+    {
+     "id": "symphony_of_pain",
+     "name": "Symphony of Pain",
+     "page": 21,
+     "url": "https://longwarindex.app/powers/symphony_of_pain_renegades_and_heretics/",
+     "text": "When this power is cast, target 1 enemy unit within 18\" of the Psyker. The target unit suffers -1 to their Weapon Skill (WS) and Ballistic Skill (BS) characteristic until the start of your next Shooting Phase.",
+     "points": 20,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "lore_of_tzeentch_psychic_powers",
+   "kind": "psychic_powers",
+   "label": "Any Chaos Space Marine unit with the Psyker (x) and Tzeentch or Undivided keywords may purchase Psychic Powers from the following Discipline:",
+   "printed": "Any Chaos Space Marine unit with the Psyker (x) and Tzeentch or Undivided keywords may purchase Psychic Powers from the following Discipline:",
+   "page": 20,
+   "url": "https://longwarindex.app/codex/renegades_and_heretics/powers/",
+   "offered_by": {
+    "codex": "renegades_and_heretics"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     },
+     {
+      "keyword": "Renegades & Heretics"
+     },
+     {
+      "any_of": [
+       {
+        "keyword": "Tzeentch"
+       },
+       {
+        "keyword": "Undivided"
+       }
+      ]
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "baleful_devolution",
+     "name": "Baleful Devolution",
+     "page": 22,
+     "url": "https://longwarindex.app/powers/baleful_devolution_renegades_and_heretics/",
+     "text": "When this power is cast, target 1 enemy unit within 18\" of the Psyker. The target unit takes 2D6, Strength 4, AP4 Automatic Hits. If any models are slain in the target unit as a result of wounds inflicted by this Psychic Power, immediately summon a Chaos Spawn more than 3\" away from the targeted enemy unit.",
+     "points": 30,
+     "pricing": "flat",
+     "reference_cards": [
+      "codex/renegades_and_heretics/roster/chaos_spawn"
+     ]
+    },
+    {
+     "id": "bolt_of_change",
+     "name": "Bolt of Change",
+     "page": 22,
+     "url": "https://longwarindex.app/powers/bolt_of_change_renegades_and_heretics/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Bolt of Change",
+     "points": 15,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "bolt_of_change"
+      }
+     ]
+    },
+    {
+     "id": "boon_of_change",
+     "name": "Boon of Change",
+     "page": 22,
+     "url": "https://longwarindex.app/powers/boon_of_change_renegades_and_heretics/",
+     "text": "When this power is cast, the Psyker and their attached unit must pick to gain one of the following until the start of your next Shooting Phase:\n\n- +1 to its Attack (A) characteristic.\n- +1 to its Strength (S) characteristic.\n- +1 to its Initiative (I) characteristic.\n\nThis power may be cast any number of times by a Psyker in the Shooting Phase if they can cast multiple times.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "siphon_magic",
+     "name": "Siphon Magic",
+     "page": 22,
+     "url": "https://longwarindex.app/powers/siphon_magic_renegades_and_heretics/",
+     "text": "When this power is cast, select 1 enemy unit with the Psyker (x) special rule within 18\" of the Psyker. The target unit may not cast any make any Psychic tests to cast Psychic Powers or Psychic Weapons until the start of your next Shooting Phase. In addition, if the target unit has any Psychic Powers or Psychic Weapons in effect, including Force, that effect is negated.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "treason_of_tzeentch",
+     "name": "Treason of Tzeentch",
+     "page": 22,
+     "url": "https://longwarindex.app/powers/treason_of_tzeentch_renegades_and_heretics/",
+     "text": "When this Power is cast, select 1 enemy unit within 24\" of the Psyker that is not an Automata or Drone Type. Immediately make a single Shooting Attack with the targeted unit as if it were your own. The unit is treated as your own for the purposes of determining friendly and enemy targets. The Shooting Attack by the controlled target unit are resolved as Snap Shots. The target unit is treated as an enemy unit immediately after its Shooting Attack is resolved.",
+     "points": 10,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "prayers",
+   "kind": "prayers",
+   "label": "Any Chaos Space marine unit with the Priest (x) special rule may purchase the following Prayers:",
+   "printed": "Any Chaos Space marine unit with the Priest (x) special rule may purchase the following Prayers:",
+   "page": 20,
+   "url": "https://longwarindex.app/codex/renegades_and_heretics/powers/",
+   "offered_by": {
+    "codex": "renegades_and_heretics"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/priest",
+       "name": "Priest",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/priest/"
+      }
+     },
+     {
+      "keyword": "Renegades & Heretics"
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/priest",
+     "name": "Priest",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/priest/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "benediction_of_darkness",
+     "name": "Benediction of Darkness",
+     "page": 23,
+     "url": "https://longwarindex.app/powers/benediction_of_darkness_renegades_and_heretics/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gain the benefits of Light Cover until the start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_despair",
+     "name": "Litany of Despair",
+     "page": 23,
+     "url": "https://longwarindex.app/powers/litany_of_despair_renegades_and_heretics/",
+     "text": "When this Prayer is performed, all enemy units within 3\" of the Priest and any attached unit suffer -1 to their Leadership (LD) characteristic until the start of your next Shooting Phase.",
+     "points": 5,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_hatred",
+     "name": "Litany of Hatred",
+     "page": 23,
+     "url": "https://longwarindex.app/powers/litany_of_hatred_renegades_and_heretics/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gain the Hatred special rule until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "plea_of_restoration",
+     "name": "Plea of Restoration",
+     "page": 23,
+     "url": "https://longwarindex.app/powers/plea_of_restoration_renegades_and_heretics/",
+     "text": "If this Prayer is answered, the Priest Heals 1 wound. If the Priest has no allocated wounds, you may heal 1 wound on an attached unit. If the attached unit has no allocated wounds but has slain models, you may return 1 model back to the unit with 1 wound remaining.",
+     "points": 10,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "machine_rites",
+   "kind": "machine_rites",
+   "label": "A Chaos Space Marine unit with the Battle Smith (x) special rules may purchase the following Machine Rites:",
+   "printed": "A Chaos Space Marine unit with the Battle Smith (x) special rules may purchase the following Machine Rites:",
+   "page": 20,
+   "url": "https://longwarindex.app/codex/renegades_and_heretics/powers/",
+   "offered_by": {
+    "codex": "renegades_and_heretics"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/battle_smith",
+       "name": "Battle Smith",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+      }
+     },
+     {
+      "keyword": "Renegades & Heretics"
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/battle_smith",
+     "name": "Battle Smith",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "rite_of_corruption",
+     "name": "Rite of Corruption",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/rite_of_corruption_renegades_and_heretics/",
+     "text": "When this Rite is performed successfully, select 1 enemy Vehicle, Aircraft, Automata, Drone, Battlesuit or Knight unit within 24\" of the unit performing this Rite. Select 1 weapon that unit is equipped with. It may only make Snap Shots with that weapon until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_iron_boons",
+     "name": "Rite of Iron Boons",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/rite_of_iron_boons_renegades_and_heretics/",
+     "text": "When this Rite is performed successfully, select 1 friendly Vehicle, Aircraft, Automata, or Knight unit within 3\" of the unit performing this Rite. The target unit gains +1 to its Ballistic Skill (BS) until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_repair",
+     "name": "Rite of Repair",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/rite_of_repair_renegades_and_heretics/",
+     "text": "When this Rite is performed successfully, select one of the following effects:\n\n- Select 1 Walker or Automata unit either within 3\" or attached to the unit that is performing this rite. The target unit Heals 1 wound.\n- Select 1 Vehicle, Aircraft, Knight or Fortification either within 3\", attached to the unit performing this Rite or that this unit is embarked upon. Select 1 weapon that target unit is equipped with that has been destroyed. The chosen weapon is no longer destroyed.\n- Select 1 Vehicle or Knight either within 3\", attached to the unit performing this Rite or that this unit is embarked upon that is immobilized. That unit is no longer immobilized. If the unit has the Super Heavy (x) special rule and was Limping, it is no longer considered to be Limping.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_scrap_code",
+     "name": "Rite of Scrap Code",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/rite_of_scrap_code_renegades_and_heretics/",
+     "text": "When this Rite is performed successfully, select 1 enemy Vehicle, Aircraft, Automata, Drone, Battlesuit or Knight unit within 12\" of the unit performing this Rite. That target unit takes D6, Strength 1, AP-, Haywire (5+) Automatic Hits.",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "enslaver_psychic_discipline",
+   "kind": "psychic_powers",
+   "label": "You gain access to the Enslaver Psychic Discipline (see below).",
+   "printed": "You gain access to the Enslaver Psychic Discipline (see below).",
+   "page": 32,
+   "url": "https://longwarindex.app/rites_of_war/enslaver_hive/",
+   "offered_by": {
+    "rite": "codex/renegades_and_heretics/rites_of_war/enslaver_hive"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "drain_will",
+     "name": "Drain Will",
+     "points": 0,
+     "text": "When this power is cast, select 1 enemy unit within 24\" of the Psyker. The target halves its Leadership (LD) characteristic until the end of the phase.",
+     "pricing": "flat"
+    },
+    {
+     "id": "psychic_shock",
+     "name": "Psychic Shock",
+     "points": 0,
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon.",
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "psychic_shock"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lost_and_the_damned_cultist_upgrades",
+   "kind": "upgrade",
+   "label": "Cultist Mob units in your army may purchase: Blasting Charges for 10pts for the whole unit. Frag Grenades for 5pts for the whole unit.",
+   "printed": "Cultist Mob units in your army may purchase: Blasting Charges for 10pts for the whole unit. Frag Grenades for 5pts for the whole unit.",
+   "page": 25,
+   "url": "https://longwarindex.app/rites_of_war/lost_and_the_damned/",
+   "offered_by": {
+    "rite": "codex/renegades_and_heretics/rites_of_war/lost_and_the_damned"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "datasheet": "codex/renegades_and_heretics/roster/cultist_mob"
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "blasting_charges",
+     "name": "Blasting Charges",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "weapon",
+       "id": "blasting_charge"
+      }
+     ]
+    },
+    {
+     "id": "frag_grenades",
+     "name": "Frag Grenades",
+     "points": 5,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chaos_legio_titanica_cohort_character",
+   "kind": "upgrade",
+   "label": "1 Titan in your army may be selected to gain the Character special rule.",
+   "printed": "1 Titan in your army may be selected to gain the Character special rule.",
+   "page": 41,
+   "url": "https://longwarindex.app/rites_of_war/chaos_legio_titanica_cohort/",
+   "offered_by": {
+    "rite": "codex/renegades_and_heretics/rites_of_war/chaos_legio_titanica_cohort"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "unit_type": "Titan"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "character",
+     "name": "Character",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

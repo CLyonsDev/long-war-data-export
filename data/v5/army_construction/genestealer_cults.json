@@ -1,0 +1,922 @@
+{
+ "data_version": "6ba9e87fd24632b2",
+ "format": 1,
+ "faction": "genestealer_cults",
+ "codex": {
+  "id": "codex/genestealer_cults",
+  "name": "Genestealer Cults",
+  "page": 1,
+  "url": "https://longwarindex.app/codex/genestealer_cults/",
+  "parent": null,
+  "army_rules": [
+   {
+    "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+    "name": "Cult Ambush",
+    "url": "https://longwarindex.app/special_rules/cult_ambush/"
+   },
+   {
+    "rule": "codex/genestealer_cults/special_rules/cult_specialists",
+    "name": "Cult Specialists",
+    "url": "https://longwarindex.app/special_rules/cult_specialists/"
+   },
+   {
+    "rule": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+    "name": "Return to the Shadows",
+    "url": "https://longwarindex.app/special_rules/return_to_the_shadows/"
+   }
+  ],
+  "allies": {
+   "printed": "The following factions listed in keywords may be taken as allies in an allied detachment if your battle plan allows the use of allied detachments:",
+   "page": 19,
+   "url": "https://longwarindex.app/allies/genestealer_cults_allies/",
+   "factions": [
+    {
+     "faction": "tyranids"
+    },
+    {
+     "faction": "imperial_guard"
+    },
+    {
+     "faction": "genestealer_cults"
+    }
+   ]
+  },
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [
+   {
+    "id": "cult_specialists_unslotted",
+    "page": 5,
+    "url": "https://longwarindex.app/special_rules/cult_specialists/",
+    "printed": "For each Neophyte Hybrid unit in your army, a unit with this special rule does not take up a Force Organization slot.",
+    "unslotted": {
+     "conditions": [
+      {
+       "rule": {
+        "rule": "codex/genestealer_cults/special_rules/cult_specialists",
+        "name": "Cult Specialists",
+        "url": "https://longwarindex.app/special_rules/cult_specialists/"
+       }
+      }
+     ],
+     "count": 1,
+     "per_unit": [
+      {
+       "datasheet": "codex/genestealer_cults/roster/neophyte_hybrids"
+      }
+     ]
+    }
+   }
+  ],
+  "rites_of_war": {
+   "own": [
+    "codex/genestealer_cults/rites_of_war/anointed_throng",
+    "codex/genestealer_cults/rites_of_war/jackal_pack",
+    "codex/genestealer_cults/rites_of_war/deliverance_blood_surge",
+    "codex/genestealer_cults/rites_of_war/heart_of_the_cult",
+    "codex/genestealer_cults/rites_of_war/warriors_of_the_star_god",
+    "codex/genestealer_cults/rites_of_war/brood_brother_revolution"
+   ],
+   "from_parent": [],
+   "banned_from_parent": []
+  },
+  "unit_list": {
+   "page": 19,
+   "url": "https://longwarindex.app/unit_list/genestealer_cults_unit_list/",
+   "entries": [
+    {
+     "datasheet": "codex/genestealer_cults/roster/magus",
+     "printed": "Magus",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/patriarch",
+     "printed": "Patriarch",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/primus",
+     "printed": "Primus",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/acolyte_hybrids",
+     "printed": "Acolyte Hybrids",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/neophyte_hybrids",
+     "printed": "Neophyte Hybrids",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/aberrants",
+     "printed": "Aberrants",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/abominant",
+     "printed": "Abominant",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/acolyte_iconward",
+     "printed": "Acolyte Iconward",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/benefictus",
+     "printed": "Benefictus",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/biophagus",
+     "printed": "Biophagus",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/clamavus",
+     "printed": "Clamavus",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/jackal_alphus",
+     "printed": "Jackal Alphus",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/kelermorph",
+     "printed": "Kelermorph",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/locus",
+     "printed": "Locus",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/metamorph_hybrids",
+     "printed": "Metamorph Hybrids",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/nexos",
+     "printed": "Nexos",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/purestrain_genestealer_brood",
+     "printed": "Purestrain Genestealer Brood",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/reductus_saboteur",
+     "printed": "Reductus Saboteur",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/sanctus",
+     "printed": "Sanctus",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/chimera_apc",
+     "printed": "Chimera APC",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/goliath_truck",
+     "printed": "Goliath Truck",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/achilles_ridge_runner",
+     "printed": "Achilles Ridge Runner",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/atalan_jackals",
+     "printed": "Atalan Jackals",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/hell_hound",
+     "printed": "Hell Hound Assault Tank",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/sentinel",
+     "printed": "Sentinel",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/basilisk_artillery_gun",
+     "printed": "Basilisk Artillery Gun",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/goliath_rock_grinder",
+     "printed": "Goliath Rock Grinder",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/hydra_flak_tank",
+     "printed": "Hydra Flak Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/leman_russ_battle_tank",
+     "printed": "Leman Russ Battle Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/malcador_annihilator_tank",
+     "printed": "Malcador Annihilator Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/malcador_assault_tank",
+     "printed": "Malcador Assault Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/malcador_defender_tank",
+     "printed": "Malcador Defender Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/neophyte_heavy_weapons_squad",
+     "printed": "Neophyte Heavy Weapons Squad",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/genestealer_cults/roster/wyvern_suppression_tank",
+     "printed": "Wyvern Suppression Tank",
+     "role": "Heavy Support"
+    }
+   ]
+  },
+  "keyword_templates": []
+ },
+ "allegiances": [],
+ "rites_of_war": [
+  {
+   "id": "codex/genestealer_cults/rites_of_war/anointed_throng",
+   "name": "Anointed Throng",
+   "page": 14,
+   "url": "https://longwarindex.app/rites_of_war/anointed_throng/",
+   "offered_by": {
+    "codex": "genestealer_cults"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Abominant who must be your warlord.\n- Your army must include at least 1 Biophagus.\n- Your army must include at least 2 units of Aberrants per 1000pts.\n\nBenefits\n\n- You may field Aberrant units as Troops choices.\n- You may field Abominants as HQ choices.\n- 1 Abominant in your army that is your Warlord gains +1 to their Strength (S), Toughness (T), Wounds (W) and Attacks (A) characteristics.",
+   "restrictions": [
+    {
+     "id": "anointed_throng_abominant_warlord",
+     "printed": "Your army must include at least 1 Abominant who must be your warlord.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/abominant"
+       }
+      ],
+      "min": 1
+     },
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/abominant"
+       }
+      ]
+     }
+    },
+    {
+     "id": "anointed_throng_biophagus",
+     "printed": "Your army must include at least 1 Biophagus.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/biophagus"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "anointed_throng_aberrants_per_1000",
+     "printed": "Your army must include at least 2 units of Aberrants per 1000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/aberrants"
+       }
+      ],
+      "min": 2,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "anointed_throng_aberrants_troops",
+     "printed": "You may field Aberrant units as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/aberrants"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "anointed_throng_abominants_hq",
+     "printed": "You may field Abominants as HQ choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/abominant"
+       }
+      ],
+      "role": "HQ",
+      "instead": false
+     }
+    },
+    {
+     "id": "anointed_throng_abominant_warlord_stat_mods",
+     "printed": "1 Abominant in your army that is your Warlord gains +1 to their Strength (S), Toughness (T), Wounds (W) and Attacks (A) characteristics.",
+     "stat_mods": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/abominant"
+       },
+       {
+        "warlord": true
+       }
+      ],
+      "mods": [
+       {
+        "characteristic": "S",
+        "delta": 1
+       },
+       {
+        "characteristic": "T",
+        "delta": 1
+       },
+       {
+        "characteristic": "W",
+        "delta": 1
+       },
+       {
+        "characteristic": "A",
+        "delta": 1
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/genestealer_cults/rites_of_war/jackal_pack",
+   "name": "Jackal Pack",
+   "page": 15,
+   "url": "https://longwarindex.app/rites_of_war/jackal_pack/",
+   "offered_by": {
+    "codex": "genestealer_cults"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Jackal Alphus.\n- Your army may only include units with the Bike, Cavalry or Vehicle Type.\n- Your army must include 2 Atalan Jackal units.\n\nBenefits\n\n- You may field Atalan Jackal units as Troops choices.\n- You may field Achilles Ridgerunners as Heavy Support choices.\n- You may field Jackal Alphus as HQ choices.\n- All Atalan Jackal units in your army may purchase Blasting Charges for 5pts per unit.",
+   "restrictions": [
+    {
+     "id": "jackal_pack_jackal_alphus",
+     "printed": "Your army must include at least 1 Jackal Alphus.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/jackal_alphus"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "jackal_pack_types_only",
+     "printed": "Your army may only include units with the Bike, Cavalry or Vehicle Type.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "any_of": [
+         {
+          "unit_type": "Bike"
+         },
+         {
+          "unit_type": "Cavalry"
+         },
+         {
+          "unit_type": "Vehicle"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "jackal_pack_atalan_jackals",
+     "printed": "Your army must include 2 Atalan Jackal units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/atalan_jackals"
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "jackal_pack_atalan_jackals_troops",
+     "printed": "You may field Atalan Jackal units as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/atalan_jackals"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "jackal_pack_achilles_ridgerunners_heavy_support",
+     "printed": "You may field Achilles Ridgerunners as Heavy Support choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/achilles_ridge_runner"
+       }
+      ],
+      "role": "Heavy Support",
+      "instead": false
+     }
+    },
+    {
+     "id": "jackal_pack_jackal_alphus_hq",
+     "printed": "You may field Jackal Alphus as HQ choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/jackal_alphus"
+       }
+      ],
+      "role": "HQ",
+      "instead": false
+     }
+    },
+    {
+     "id": "jackal_pack_atalan_jackals_blasting_charges",
+     "printed": "All Atalan Jackal units in your army may purchase Blasting Charges for 5pts per unit.",
+     "options": [
+      {
+       "book_options": "genestealer_cults",
+       "group": "jackal_pack_atalan_jackal_upgrades"
+      }
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/genestealer_cults/rites_of_war/deliverance_blood_surge",
+   "name": "Deliverance Blood Surge",
+   "page": 16,
+   "url": "https://longwarindex.app/rites_of_war/deliverance_blood_surge/",
+   "offered_by": {
+    "codex": "genestealer_cults"
+   },
+   "text": "Restrictions\n\n- All Infantry units in your army must begin the game in a Transport.\n- Your army must include 2 Neophyte Hybrid units.\n- Your army must include at least 2 Goliath Trucks.\n- Your army must include a Primus.\n\nBenefits\n\n- All Goliath Truck units in your army gain the Cult Ambush special rule.\n- All Vehicle and Walker type units in your army gain the Demo Caches for 5pts.\n- You may field Goliath Rock Grinders as Elites choices.",
+   "restrictions": [
+    {
+     "id": "deliverance_blood_surge_neophyte_hybrids",
+     "printed": "Your army must include 2 Neophyte Hybrid units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/neophyte_hybrids"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "deliverance_blood_surge_goliath_trucks",
+     "printed": "Your army must include at least 2 Goliath Trucks.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/goliath_truck"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "deliverance_blood_surge_primus",
+     "printed": "Your army must include a Primus.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/primus"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "deliverance_blood_surge_goliath_truck_cult_ambush",
+     "printed": "All Goliath Truck units in your army gain the Cult Ambush special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/goliath_truck"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+        "name": "Cult Ambush",
+        "url": "https://longwarindex.app/special_rules/cult_ambush/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "deliverance_blood_surge_vehicle_walker_demo_caches",
+     "printed": "All Vehicle and Walker type units in your army gain the Demo Caches for 5pts.",
+     "options": [
+      {
+       "book_options": "genestealer_cults",
+       "group": "deliverance_blood_surge_vehicle_upgrades"
+      }
+     ]
+    },
+    {
+     "id": "deliverance_blood_surge_goliath_rock_grinders_elites",
+     "printed": "You may field Goliath Rock Grinders as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/goliath_rock_grinder"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "All Infantry units in your army must begin the game in a Transport."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/genestealer_cults/rites_of_war/heart_of_the_cult",
+   "name": "Heart of the Cult",
+   "page": 13,
+   "url": "https://longwarindex.app/rites_of_war/heart_of_the_cult/",
+   "offered_by": {
+    "codex": "genestealer_cults"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Patriarch.\n- Your army must include 1 Magus.\n- Your army must include 1 Primus.\n- Your army must include at least 2 Purestrain Genestealer Brood units.\n\nBenefits\n\n- You may field Purestrain Genestealer Brood units as Troops choices.\n- Each Patriarch, Magus and Primus in your army may generate 1 Warlord Trait as if they were the Warlord.\n- 1 Purestrain Genestealer Brood unit in your army may purchase:\n    - Flesh Hooks for 5pts.\n    - Acid Maws for 10pts.",
+   "restrictions": [
+    {
+     "id": "heart_of_the_cult_patriarch",
+     "printed": "Your army must include at least 1 Patriarch.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/patriarch"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "heart_of_the_cult_magus",
+     "printed": "Your army must include 1 Magus.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/magus"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "heart_of_the_cult_primus",
+     "printed": "Your army must include 1 Primus.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/primus"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "heart_of_the_cult_purestrain_genestealer_brood",
+     "printed": "Your army must include at least 2 Purestrain Genestealer Brood units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/purestrain_genestealer_brood"
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "heart_of_the_cult_purestrain_genestealer_brood_troops",
+     "printed": "You may field Purestrain Genestealer Brood units as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/purestrain_genestealer_brood"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "heart_of_the_cult_purestrain_genestealer_brood_upgrades",
+     "printed": "1 Purestrain Genestealer Brood unit in your army may purchase:",
+     "options": [
+      {
+       "book_options": "genestealer_cults",
+       "group": "heart_of_the_cult_purestrain_genestealer_upgrades"
+      }
+     ]
+    },
+    {
+     "id": "heart_of_the_cult_warlord_traits",
+     "printed": "Each Patriarch, Magus and Primus in your army may generate 1 Warlord Trait as if they were the Warlord.",
+     "warlord_trait_access": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/genestealer_cults/roster/patriarch"
+         },
+         {
+          "datasheet": "codex/genestealer_cults/roster/magus"
+         },
+         {
+          "datasheet": "codex/genestealer_cults/roster/primus"
+         }
+        ]
+       }
+      ],
+      "count": 1,
+      "groups": [
+       {
+        "book_options": "genestealer_cults",
+        "group": "patriarch_warlord_traits"
+       },
+       {
+        "book_options": "genestealer_cults",
+        "group": "primus_warlord_traits"
+       },
+       {
+        "book_options": "genestealer_cults",
+        "group": "magus_warlord_traits"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/genestealer_cults/rites_of_war/warriors_of_the_star_god",
+   "name": "Warriors of the Star God",
+   "page": 17,
+   "url": "https://longwarindex.app/rites_of_war/warriors_of_the_star_god/",
+   "offered_by": {
+    "codex": "genestealer_cults"
+   },
+   "text": "Restrictions\n\n- Your army must contain at least 2 units from Codex – Tyranids.\n- Your army may not include Purestrain Genestealers.\n- Your army may not include a Patriarch.\n\nBenefits\n\n- You may field units from Codex – Tyranids as part of your primary detachment.\n- All Genestealer Cults units benefit from the Synapse special rule when in range of a unit with the special rule.\n- Metamorph Hybrids may be fielded as Troops choices but gain the Support Squad special rule.",
+   "restrictions": [
+    {
+     "id": "warriors_of_the_star_god_tyranids_units",
+     "printed": "Your army must contain at least 2 units from Codex – Tyranids.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "faction": "tyranids"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "warriors_of_the_star_god_no_purestrain_genestealers",
+     "printed": "Your army may not include Purestrain Genestealers.",
+     "scope": "detachment",
+     "forbidden_units": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/purestrain_genestealer_brood"
+       }
+      ]
+     }
+    },
+    {
+     "id": "warriors_of_the_star_god_no_patriarch",
+     "printed": "Your army may not include a Patriarch.",
+     "scope": "detachment",
+     "forbidden_units": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/patriarch"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "warriors_of_the_star_god_opens_tyranids",
+     "printed": "You may field units from Codex – Tyranids as part of your primary detachment.",
+     "opens": [
+      {
+       "faction": "tyranids"
+      }
+     ]
+    },
+    {
+     "id": "warriors_of_the_star_god_metamorph_hybrids_troops",
+     "printed": "Metamorph Hybrids may be fielded as Troops choices but gain the Support Squad special rule.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/metamorph_hybrids"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "warriors_of_the_star_god_metamorph_hybrids_support_squad",
+     "printed": "Metamorph Hybrids may be fielded as Troops choices but gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/metamorph_hybrids"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "All Genestealer Cults units benefit from the Synapse special rule when in range of a unit with the special rule."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/genestealer_cults/rites_of_war/brood_brother_revolution",
+   "name": "Brood Brother Revolution",
+   "page": 18,
+   "url": "https://longwarindex.app/rites_of_war/brood_brother_revolution/",
+   "offered_by": {
+    "codex": "genestealer_cults"
+   },
+   "text": "Restrictions\n\n- Your army must include 2 units from Codex – Imperial Guard.\n- Your army must include at least 1 unit of Purestrain Genestealers.\n- Your army must include a Magus.\n\nBenefits\n\n- You may field units from Codex – Imperial Guard in your Primary Detachment.\n- All Imperial Guard units in your army gain the Genestealer Cults keyword.\n- All Imperial Guard Psykers in your army gain access to the Broodmind Discipline. All Genestealer Cult Psykers units in your army gain access to the Psykana Psychic Discipline.",
+   "restrictions": [
+    {
+     "id": "brood_brother_revolution_imperial_guard_units",
+     "printed": "Your army must include 2 units from Codex – Imperial Guard.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "faction": "imperial_guard"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "brood_brother_revolution_purestrain_genestealers",
+     "printed": "Your army must include at least 1 unit of Purestrain Genestealers.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/purestrain_genestealer_brood"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "brood_brother_revolution_magus",
+     "printed": "Your army must include a Magus.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/magus"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "brood_brother_revolution_opens_imperial_guard",
+     "printed": "You may field units from Codex – Imperial Guard in your Primary Detachment.",
+     "opens": [
+      {
+       "faction": "imperial_guard"
+      }
+     ]
+    },
+    {
+     "id": "brood_brother_revolution_imperial_guard_keyword",
+     "printed": "All Imperial Guard units in your army gain the Genestealer Cults keyword.",
+     "keywords": {
+      "conditions": [
+       {
+        "faction": "imperial_guard"
+       }
+      ],
+      "add": [
+       "Genestealer Cults"
+      ]
+     }
+    },
+    {
+     "id": "brood_brother_revolution_imperial_guard_broodmind_discipline",
+     "printed": "All Imperial Guard Psykers in your army gain access to the Broodmind Discipline.",
+     "options": [
+      {
+       "book_options": "genestealer_cults",
+       "group": "brood_brother_revolution_broodmind_discipline"
+      }
+     ]
+    },
+    {
+     "id": "brood_brother_revolution_genestealer_cult_psykana_discipline",
+     "printed": "All Genestealer Cult Psykers units in your army gain access to the Psykana Psychic Discipline.",
+     "options": [
+      {
+       "book_options": "genestealer_cults",
+       "group": "brood_brother_revolution_psykana_discipline"
+      }
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

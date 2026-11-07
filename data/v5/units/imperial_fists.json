@@ -1,0 +1,2446 @@
+{
+ "data_version": "f9a9b305945ddc21",
+ "format": 1,
+ "faction": "imperial_fists",
+ "units": [
+  {
+   "id": "codex/imperial_fists/roster/aegis_defence_line",
+   "name": "Aegis Defence Line",
+   "page": 22,
+   "url": "https://longwarindex.app/roster/aegis_defence_line_imperial_fists/",
+   "source": "Codex Supplement: Imperial Fists",
+   "role": "Fortification",
+   "points": 0,
+   "unit_type": null,
+   "profiles": [],
+   "composition": [],
+   "rules": [],
+   "optional_rules": [],
+   "keywords": [],
+   "game_time": [
+    "If you are the defender in a scenario, you may deploy up to 3 Aegis Defence Line pieces in your deployment zone as part of prepared positions after determining who will be the attacker and who will be the defender. Aegis Defence Lines provide cover per the standard cover rules and provide no additional benefits."
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/imperial_fists/roster/auric_auxilia",
+   "name": "Auric Auxilia",
+   "page": 18,
+   "url": "https://longwarindex.app/roster/auric_auxilia/",
+   "source": "Codex Supplement: Imperial Fists",
+   "role": "Troops",
+   "points": 70,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "auric_auxilia",
+     "name": "Auric Auxilia",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "A": 1,
+      "I": 3,
+      "Ld": 6,
+      "Sv": "4+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "carapace_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "lasgun_auric_auxilia"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "auric_aquila"
+      }
+     ]
+    },
+    {
+     "id": "auxilia_sergeant",
+     "name": "Auxilia Sergeant",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "A": 2,
+      "I": 3,
+      "Ld": 7,
+      "Sv": "4+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "carapace_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "chainsword",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "laspistol_auric_auxilia"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "auric_aquila"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "auric_auxilia",
+     "count": 9
+    },
+    {
+     "profile": "auxilia_sergeant",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "universal_special_rules/support_squad",
+     "name": "Support Squad",
+     "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Auric Auxilia",
+    "M31"
+   ],
+   "size": {
+    "min": 10,
+    "max": 20
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_auric_auxilia",
+     "label": "The unit may include up to 10 additional Auric Auxilia models (+7pts each)",
+     "printed": "May include up to 10 additional Auric Auxilia models (+7pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "auric_auxilia",
+       "name": "Auric Auxilia",
+       "points": 7,
+       "pricing": "each",
+       "max": 10,
+       "add_model": {
+        "profile": "auric_auxilia",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "special_weapon",
+     "label": "2 in every 9 Auric Auxilia models may exchange their Lasgun for one of the following:",
+     "printed": "2 in every 9 Auric Auxilia models may exchange their Lasgun for one of the following:",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 2,
+       "per": 9,
+       "rounding": "down"
+      },
+      "profiles": [
+       "auric_auxilia"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "flamer",
+       "name": "Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "lasgun_auric_auxilia"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "plasma_gun",
+       "name": "Plasma Gun",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "lasgun_auric_auxilia"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_gun",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grav_gun",
+       "name": "Grav Gun",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "lasgun_auric_auxilia"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "grav_gun",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grenade_launcher",
+       "name": "Grenade Launcher",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "lasgun_auric_auxilia"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "grenade_launcher",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "meltagun",
+       "name": "Meltagun",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "lasgun_auric_auxilia"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "meltagun",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sidearm",
+     "label": "Any Auric Auxilia model may exchange their Lasgun for one of the following:",
+     "printed": "Any Auric Auxilia model may exchange their Lasgun for one of the following:",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "auric_auxilia"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "astartes_shotgun",
+       "name": "Astartes Shotgun",
+       "points": 2,
+       "pricing": "per_model",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "lasgun_auric_auxilia"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "astartes_shotgun",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "ferromag_shotgun",
+       "name": "Ferromag Shotgun",
+       "points": 4,
+       "pricing": "per_model",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "lasgun_auric_auxilia"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "ferromag_shotgun"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 10,
+       "pricing": "per_model",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "lasgun_auric_auxilia"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "single_model_wargear",
+     "label": "1 model in the unit may take a:",
+     "printed": "1 model in the unit may take a:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "auric_auxilia"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "chapter_banner",
+       "name": "Chapter Banner",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "chapter_banner",
+         "faction": "space_marines"
+        }
+       ]
+      },
+      {
+       "id": "narthecium",
+       "name": "Narthecium",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "narthecium",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sergeant_pistol",
+     "label": "The Auxilia Sergeant may exchange his Laspistol for one of the following:",
+     "printed": "The Auxilia Sergeant may exchange his Laspistol for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "auxilia_sergeant"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hand_flamer",
+       "name": "Hand Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "laspistol_auric_auxilia"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "hand_flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "laspistol_auric_auxilia"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grav_pistol",
+       "name": "Grav Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "laspistol_auric_auxilia"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "grav_pistol",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sergeant_melee",
+     "label": "The Auxilia Sergeant may exchange his Chainsword for one of the following:",
+     "printed": "The Auxilia Sergeant may exchange his Chainsword for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "auxilia_sergeant"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_sword",
+       "name": "Power Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sergeant_wargear",
+     "label": "The Auxilia Sergeant may take any of the following:",
+     "printed": "The Auxilia Sergeant may take any of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "auxilia_sergeant"
+      ]
+     },
+     "pick": {},
+     "choices": [
+      {
+       "id": "digital_weapons",
+       "name": "Digital Weapons",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "digital_weapons",
+         "faction": "space_marines"
+        }
+       ]
+      },
+      {
+       "id": "teleport_homer",
+       "name": "Teleport Homer",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "teleport_homer",
+         "faction": "space_marines"
+        }
+       ]
+      },
+      {
+       "id": "melta_bombs",
+       "name": "Melta Bombs",
+       "points": 5,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "melta_bomb",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/imperial_fists/roster/auric_auxilia_colonel",
+   "name": "Auric Auxilia Colonel",
+   "page": 17,
+   "url": "https://longwarindex.app/roster/auric_auxilia_colonel/",
+   "source": "Codex Supplement: Imperial Fists",
+   "role": "HQ",
+   "points": 35,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "auric_auxilia_colonel",
+     "name": "Auric Auxilia Colonel",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 3,
+      "T": 3,
+      "W": 2,
+      "A": 2,
+      "I": 3,
+      "Ld": 8,
+      "Sv": "4+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "carapace_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "chainsword",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "laspistol_auric_auxilia_colonel"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "refractor_field",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "wardens_cuirass"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "auric_auxilia_colonel",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "universal_special_rules/support_squad",
+     "name": "Support Squad",
+     "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Auric Auxilia",
+    "M31"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "pistol",
+     "label": "The Auxilia Colonel may exchange his Laspistol for one of the following:",
+     "printed": "The Auxilia Colonel may exchange his Laspistol for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hand_flamer",
+       "name": "Hand Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "laspistol_auric_auxilia_colonel"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "hand_flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "laspistol_auric_auxilia_colonel"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grav_pistol",
+       "name": "Grav Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "laspistol_auric_auxilia_colonel"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "grav_pistol",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "melee",
+     "label": "The Auxilia Colonel may exchange his Chainsword for one of the following:",
+     "printed": "The Auxilia Colonel may exchange his Chainsword for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_sword",
+       "name": "Power Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "wargear",
+     "label": "The Auxilia Colonel may take any of the following:",
+     "printed": "The Auxilia Colonel may take any of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {},
+     "choices": [
+      {
+       "id": "digital_weapons",
+       "name": "Digital Weapons",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "digital_weapons",
+         "faction": "space_marines"
+        }
+       ]
+      },
+      {
+       "id": "teleport_homer",
+       "name": "Teleport Homer",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "teleport_homer",
+         "faction": "space_marines"
+        }
+       ]
+      },
+      {
+       "id": "melta_bombs",
+       "name": "Melta Bombs",
+       "points": 5,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "melta_bomb",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/imperial_fists/roster/bastion",
+   "name": "Bastion",
+   "page": 21,
+   "url": "https://longwarindex.app/roster/bastion_imperial_fists/",
+   "source": "Codex Supplement: Imperial Fists",
+   "role": "Fortification",
+   "points": 120,
+   "unit_type": "Fortification",
+   "profiles": [
+    {
+     "id": "bastion",
+     "name": "Bastion",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "0\"",
+      "WS": 0,
+      "BS": 2,
+      "S": 8,
+      "Front": 13,
+      "Side": 13,
+      "Rear": 13,
+      "A": 0,
+      "I": 0,
+      "Ld": "-",
+      "Transport Capacity": 22
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "heavy_bolter",
+       "faction": "space_marines",
+       "count": 4,
+       "mount": "primary"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "bastion",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/imperial_fists/special_rules/garrison",
+     "name": "Garrison",
+     "url": "https://longwarindex.app/special_rules/garrison_imperial_fists/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "codex/imperial_fists/special_rules/icarus_defences",
+     "name": "Icarus Defences",
+     "url": "https://longwarindex.app/special_rules/icarus_defences_imperial_fists/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marines",
+    "Bastion",
+    "M31"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "hull_weapon",
+     "label": "The Bastion may take one of the following:",
+     "printed": "May take one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "linked_autocannon",
+       "name": "Linked Autocannon (P)",
+       "points": 15,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "linked_autocannon",
+         "faction": "space_marines",
+         "mount": "primary"
+        }
+       ]
+      },
+      {
+       "id": "linked_lascannon",
+       "name": "Linked Las Cannon (P)",
+       "points": 20,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "linked_lascannon",
+         "faction": "space_marines",
+         "mount": "primary"
+        }
+       ]
+      },
+      {
+       "id": "sensor_relay",
+       "name": "Sensor Relay (P)",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "sensor_relay",
+         "mount": "primary"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hidden_entrances",
+     "label": "The Bastion may take Hidden Entrances (+10pts)",
+     "printed": "May take Hidden Entrances (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hidden_entrances",
+       "name": "Hidden Entrances",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "hidden_entrances"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/imperial_fists/roster/captain_lysander",
+   "name": "Captain Lysander",
+   "page": 14,
+   "url": "https://longwarindex.app/roster/captain_lysander/",
+   "source": "Codex Supplement: Imperial Fists",
+   "role": "HQ",
+   "points": 130,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "captain_lysander",
+     "name": "Captain Lysander",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "indomitus_terminator_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "storm_shields",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "fist_of_dorn"
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "wardens_cuirass"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "captain_lysander",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/imperial_fists/allegiances/allegiance_imperial_fists",
+     "name": "Allegiance: Imperial Fists",
+     "url": "https://longwarindex.app/allegiances/allegiance_imperial_fists/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/adamantium_will",
+     "name": "Adamantium Will",
+     "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/imperial_fists/special_rules/hammer_strike",
+     "name": "Hammer Strike",
+     "url": "https://longwarindex.app/special_rules/hammer_strike/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Imperial Fists",
+    "Captain",
+    "Captain Lysander",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/imperial_fists/roster/chapter_arquitor_bombard",
+   "name": "Chapter Arquitor Bombard",
+   "page": 20,
+   "url": "https://longwarindex.app/roster/chapter_arquitor_bombard/",
+   "source": "Codex Supplement: Imperial Fists",
+   "role": "Heavy Support",
+   "points": 140,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "arquitor_bombard",
+     "name": "Arquitor Bombard",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 6,
+      "Front": 12,
+      "Side": 12,
+      "Rear": 10,
+      "A": 1,
+      "I": 4,
+      "Ld": 8,
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "combi_bolter",
+       "faction": "space_marines",
+       "count": 1,
+       "mount": "secondary"
+      },
+      {
+       "kind": "weapon",
+       "id": "morbus_bombard",
+       "count": 1,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_bolter",
+       "faction": "space_marines",
+       "count": 2,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "marine_crew_weapons",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "arquitor_bombard",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/imperial_fists/allegiances/allegiance_imperial_fists",
+     "name": "Allegiance: Imperial Fists",
+     "url": "https://longwarindex.app/allegiances/allegiance_imperial_fists/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "printed": "Firing Protocol (All)",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/super_heavy",
+     "name": "Super Heavy",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/super_heavy/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperial",
+    "Space Marine",
+    "Fire Support",
+    "Imperial Fists",
+    "Chapter Arquitor Bombard",
+    "Tank",
+    "M31"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "main_weapon",
+     "label": "The Arquitor may exchange its Morbus Bombard (P) for one of the following:",
+     "printed": "May exchange its Morbus Bombard (P) for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "graviton_charge_cannon",
+       "name": "Graviton Charge Cannon (P)",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "morbus_bombard",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "graviton_charge_cannon",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "spicula_rocket_system",
+       "name": "Spicula Rocket System (P)",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "morbus_bombard",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "spicula_rocket_system",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "secondary_weapons",
+     "label": "The Arquitor may exchange its 2 Heavy Bolters (P) for one of the following:",
+     "printed": "May exchange its 2 Heavy Bolters (P) for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_flamers",
+       "name": "2 Heavy Flamers (P)",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "faction": "space_marines",
+           "mount": "primary"
+          },
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "faction": "space_marines",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "faction": "space_marines",
+           "mount": "primary"
+          },
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "faction": "space_marines",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "autocannons",
+       "name": "2 Autocannons (P)",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "faction": "space_marines",
+           "mount": "primary"
+          },
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "faction": "space_marines",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "autocannon",
+           "faction": "space_marines",
+           "mount": "primary"
+          },
+          {
+           "kind": "weapon",
+           "id": "autocannon",
+           "faction": "space_marines",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lascannons",
+       "name": "2 Lascannons (P)",
+       "points": 25,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "faction": "space_marines",
+           "mount": "primary"
+          },
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "faction": "space_marines",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lascannon",
+           "faction": "space_marines",
+           "mount": "primary"
+          },
+          {
+           "kind": "weapon",
+           "id": "lascannon",
+           "faction": "space_marines",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hunter_killer_missile",
+     "label": "The Arquitor may be equipped with a Hunter-Killer Missile (S) (+3pts)",
+     "printed": "May be equipped with a Hunter-Killer Missile (S) (+3pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hunter_killer_missile",
+       "name": "Hunter-Killer Missile (S)",
+       "points": 3,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "hunter_killer_missile",
+         "faction": "space_marines",
+         "mount": "secondary"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "combi_weapon",
+     "label": "The Arquitor may exchange its Combi Bolter for one of the following:",
+     "printed": "May exchange its Combi Bolter for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "combi_flamer",
+       "name": "Combi Flamer (S)",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_flamer",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_plasma",
+       "name": "Combi Plasma (S)",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_plasma",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_melta",
+       "name": "Combi Melta (S)",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_melta",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "multi_melta",
+       "name": "Multi-Melta (S)",
+       "points": 25,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "multi_melta",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "heavy_flamer",
+       "name": "Heavy Flamer (S)",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "heavy_bolter",
+       "name": "Heavy Bolter (S)",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/imperial_fists/roster/firestorm_redoubt",
+   "name": "Firestorm Redoubt",
+   "page": 23,
+   "url": "https://longwarindex.app/roster/firestorm_redoubt_imperial_fists/",
+   "source": "Codex Supplement: Imperial Fists",
+   "role": "Fortification",
+   "points": 140,
+   "unit_type": "Fortification",
+   "profiles": [
+    {
+     "id": "firestorm_redoubt",
+     "name": "Firestorm Redoubt",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "0\"",
+      "WS": 0,
+      "BS": 2,
+      "S": 8,
+      "Front": 13,
+      "Side": 13,
+      "Rear": 13,
+      "A": 0,
+      "I": 0,
+      "Ld": "-",
+      "Transport Capacity": 42
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "quad_icarus_las_cannons",
+       "count": 2,
+       "mount": "primary"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "firestorm_redoubt",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/imperial_fists/special_rules/garrison_firestorm_redoubt",
+     "name": "Garrison (Firestorm Redoubt)",
+     "printed": "Garrison",
+     "url": "https://longwarindex.app/special_rules/garrison_firestorm_redoubt_imperial_fists/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marines",
+    "Firestorm Redoubt",
+    "M31"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/imperial_fists/roster/huscarl",
+   "name": "Huscarl",
+   "page": 16,
+   "url": "https://longwarindex.app/roster/huscarl/",
+   "source": "Codex Supplement: Imperial Fists",
+   "role": "HQ",
+   "points": 105,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "huscarl",
+     "name": "Huscarl",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "indomitus_terminator_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "storm_shields",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "fist_of_terra"
+      },
+      {
+       "kind": "wargear",
+       "id": "wardens_cuirass"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "huscarl",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/imperial_fists/allegiances/allegiance_imperial_fists",
+     "name": "Allegiance: Imperial Fists",
+     "url": "https://longwarindex.app/allegiances/allegiance_imperial_fists/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/sub_commander",
+     "name": "Sub Commander",
+     "url": "https://longwarindex.app/special_rules/sub_commander/"
+    },
+    {
+     "rule": "codex/imperial_fists/special_rules/shared_burden",
+     "name": "Shared Burden",
+     "url": "https://longwarindex.app/special_rules/shared_burden/"
+    },
+    {
+     "rule": "codex/imperial_fists/special_rules/wardens_of_knowledge",
+     "name": "Wardens of Knowledge",
+     "url": "https://longwarindex.app/special_rules/wardens_of_knowledge/"
+    },
+    {
+     "rule": "universal_special_rules/battle_hardened",
+     "name": "Battle-Hardened",
+     "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/support_squad",
+     "name": "Support Squad",
+     "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limited: 1 Per Detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Imperial Fists",
+    "Terminators",
+    "Huscarls",
+    "M31"
+   ],
+   "size": {
+    "min": 1,
+    "max": 3
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_huscarl",
+     "label": "You may include an additional 2 Huscarl models in this unit (+95pts each)",
+     "printed": "May include an additional 2 Huscarl models in this unit (+95pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "huscarl",
+       "name": "Huscarl",
+       "points": 95,
+       "pricing": "each",
+       "max": 2,
+       "add_model": {
+        "profile": "huscarl",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "heavy_weapon",
+     "label": "1 in every 3 Huscarls may exchange their Fist of Terra for one of the following:",
+     "printed": "1 in every 3 Huscarls may exchange their Fist of Terra for one of the following:",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 3,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_flamer",
+       "name": "Heavy Flamer & Close Combat Weapon",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "fist_of_terra"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "faction": "space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "assault_cannon",
+       "name": "Assault Cannon & Close Combat Weapon",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "fist_of_terra"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "assault_cannon",
+           "faction": "space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "thunder_hammer",
+     "label": "Any Huscarl may exchange their Fist of Terra for a Thunder Hammer (+0pts)",
+     "printed": "Any Huscarl may exchange their Fist of Terra for a Thunder Hammer (+0pts)",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "thunder_hammer",
+       "name": "Thunder Hammer",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "fist_of_terra"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "thunder_hammer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/imperial_fists/roster/tarantula_battery",
+   "name": "Tarantula Battery",
+   "page": 19,
+   "url": "https://longwarindex.app/roster/tarantula_battery_imperial_fists/",
+   "source": "Codex Supplement: Imperial Fists",
+   "role": "Heavy Support",
+   "points": 65,
+   "unit_type": "Automata",
+   "profiles": [
+    {
+     "id": "tarantula_gun",
+     "name": "Tarantula Gun",
+     "template": "unit",
+     "characteristics": {
+      "M": "0\"",
+      "WS": "-",
+      "BS": 3,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": "-",
+      "I": "-",
+      "Ld": "-",
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "armoured_plate"
+      },
+      {
+       "kind": "weapon",
+       "id": "multi_laser"
+      },
+      {
+       "kind": "wargear",
+       "id": "grav_shute"
+      }
+     ]
+    },
+    {
+     "id": "air_defence_tarantula_gun",
+     "name": "Air Defence Tarantula Gun",
+     "template": "unit",
+     "characteristics": {
+      "M": "0\"",
+      "WS": "-",
+      "BS": 3,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": "-",
+      "I": "-",
+      "Ld": "-",
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "armoured_plate"
+      },
+      {
+       "kind": "wargear",
+       "id": "grav_shute"
+      },
+      {
+       "kind": "wargear",
+       "id": "air_defence_relay"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "tarantula_gun",
+     "count": 3
+    }
+   ],
+   "rules": [
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/slow_and_purposeful",
+     "name": "Slow and Purposeful",
+     "printed": "Slow & Purposeful",
+     "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "codex/imperial_fists/special_rules/weapon_battery",
+     "name": "Weapon Battery",
+     "url": "https://longwarindex.app/special_rules/weapon_battery_imperial_fists/"
+    },
+    {
+     "rule": "codex/imperial_fists/special_rules/emplaced_automata",
+     "name": "Emplaced Automata",
+     "url": "https://longwarindex.app/special_rules/emplaced_automata_imperial_fists/"
+    },
+    {
+     "rule": "universal_special_rules/expendable",
+     "name": "Expendable",
+     "url": "https://longwarindex.app/universal_special_rules/expendable/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Tarantula Battery",
+    "M35"
+   ],
+   "size": {
+    "min": 3,
+    "max": 4
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "weapon_exchange",
+     "label": "Any model in the unit may exchange its Linked Heavy Bolter for one of the following:",
+     "printed": "Any model in the unit may exchange its Linked Heavy Bolter for one of the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "multi_melta",
+       "name": "Multi-Melta",
+       "points": 20,
+       "pricing": "per_model",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "linked_heavy_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "multi_melta",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "linked_lascannon",
+       "name": "Linked Las Cannon",
+       "points": 15,
+       "pricing": "per_model",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "linked_heavy_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "linked_lascannon",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "missile_launchers",
+       "name": "Missile Launchers",
+       "points": 25,
+       "pricing": "per_model",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "linked_heavy_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "missile_launcher",
+           "faction": "space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "missile_launcher",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "air_defence_tarantula",
+     "label": "You may include an Air Defence Tarantula Gun model in this unit (+12pts)",
+     "printed": "May include an Air Defence Tarantula Gun model in this unit (+12pts)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "air_defence_tarantula_gun",
+       "name": "Air Defence Tarantula Gun",
+       "points": 12,
+       "pricing": "flat",
+       "add_model": {
+        "profile": "air_defence_tarantula_gun",
+        "count": 1
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/imperial_fists/roster/tor_garadon",
+   "name": "Tor Garadon",
+   "page": 15,
+   "url": "https://longwarindex.app/roster/tor_garadon/",
+   "source": "Codex Supplement: Imperial Fists",
+   "role": "HQ",
+   "points": 140,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "tor_garadon",
+     "name": "Tor Garadon",
+     "template": "unit",
+     "characteristics": {
+      "M": "5\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 4,
+      "T": 5,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 9,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "gravis_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "grav_gun",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "hand_of_defiance"
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "auspex_scanner",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "wardens_cuirass"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "tor_garadon",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/imperial_fists/allegiances/allegiance_imperial_fists",
+     "name": "Allegiance: Imperial Fists",
+     "url": "https://longwarindex.app/allegiances/allegiance_imperial_fists/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/imperial_fists/special_rules/the_sentinels_of_terra",
+     "name": "The Sentinels of Terra",
+     "url": "https://longwarindex.app/special_rules/the_sentinels_of_terra/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Imperial Fists",
+    "Captain",
+    "Tor Garadon",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  }
+ ]
+}

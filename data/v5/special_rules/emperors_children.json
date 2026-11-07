@@ -1,0 +1,293 @@
+{
+ "data_version": "4fa7e6147ae3901c",
+ "format": 1,
+ "faction": "emperors_children",
+ "special_rules": [
+  {
+   "id": "codex/emperors_children/allegiances/allegiance_emperors_children",
+   "name": "Allegiance: Emperor's Children",
+   "kind": "allegiance",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_emperors_children/",
+   "references": [
+    "universal_special_rules/last_stand",
+    "universal_special_rules/sprint"
+   ],
+   "text": "All units with the Emperor's Children Keyword gain the Allegiance: Emperor's Children special rule. The Allegiance: Emperor's Children special rule consists of the following rules:\n\n- Thrill Seekers:\n    - Emperor's Children units gain:\n        - The Last Stand special rule.\n        - The Sprint (1) special rules.\n- Servants of Excess:\n    - All of your units must have the Mark of Slaanesh or Slaanesh Keyword (This is included in all Emperor's Children exclusive units' profiles).\n    - You may only include allied units from Codex Chaos Daemons that have the Slaanesh Keyword.\n    - If an Emperor's Children unit loses Combat in the Combat Phase, they suffer -1 to their Leadership (LD) characteristic when making a Panic test.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/last_stand",
+      "name": "Last Stand",
+      "url": "https://longwarindex.app/universal_special_rules/last_stand/"
+     },
+     {
+      "rule": "universal_special_rules/sprint",
+      "name": "Sprint",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/sprint/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/emperors_children/special_rules/armoury_of_the_3rd_legion",
+   "name": "Armoury of the 3rd Legion",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_3rd_legion/",
+   "references": [
+    "codex/emperors_children/allegiances/allegiance_emperors_children",
+    "codex/emperors_children/special_rules/lord_kakaphonist",
+    "universal_special_rules/character"
+   ],
+   "text": "Units with Allegiance: Emperor's Children have access to additional wargear presented in this supplement in addition to the Wargear presented in the core Codex Chaos Space Marines.\n\nChaos Lord Upgrades\n\nAn Emperor's Children Chaos Lord may purchase the following upgrade in addition to the others available:\n\n- Lord Kakaphonist for 20pts.\n\nWargear\n\nAny Emperor's Children unit with the Character special rule or 'Champion' model may:\n\n- Take a Sonic Shrieker for 10pts.\n\nAny Emperor's Children Vehicle or Aircraft may:\n\n- Take a Dirge Caster for 10pts.\n- Take a Warp Amplifier for 15pts.\n\nWeapons\n\nAny Emperor's Children Chaos Lord or Chaos Champion model may:\n\n- Exchange their equipped Power Sword for a Blissblade for 10pts.\n- Exchange their equipped Power Lance for a Bliss Spear for 10pts.\n\nAny Emperor's Children 'Champion' model or unit with the Character special rule may:\n\n- Exchange their Chainsword for a Rupture Lash for 10pts.\n\nAny Emperor's Children model may exchange their Chainsword for a Dueling Blade for 0pts.\n\nAny Emperor's Children 'Champion' model or unit with the Character special rule may:\n\n- Exchange their Bolt Pistol for a Screamer Pistol for 5pts."
+  },
+  {
+   "id": "codex/emperors_children/special_rules/distorted_perfection",
+   "name": "Distorted Perfection",
+   "kind": "weapon",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/distorted_perfection/",
+   "text": "The Strength of this weapon is equal to the equipped models Leadership (LD) characteristic.",
+   "effects": {
+    "weapon_values_from_bearer": {
+     "strength": "Ld"
+    }
+   }
+  },
+  {
+   "id": "codex/emperors_children/special_rules/enthralling_hypnosis",
+   "name": "Enthralling Hypnosis",
+   "kind": "datasheet",
+   "page": 18,
+   "url": "https://longwarindex.app/special_rules/enthralling_hypnosis/",
+   "text": "At the start of each Combat Phase in which Fulgrim is engaged, all enemy units in the unit must make a Leadership Test. If the test is passed, nothing happens. If the test is failed, that unit halves its Attacks (A) characteristic (min 1)."
+  },
+  {
+   "id": "codex/emperors_children/special_rules/euphoric_madness_of_pain",
+   "name": "Euphoric Madness of Pain",
+   "kind": "warlord_trait",
+   "page": 15,
+   "url": "https://longwarindex.app/special_rules/euphoric_madness_of_pain/",
+   "references": [
+    "universal_special_rules/feel_no_pain",
+    "codex/emperors_children/special_rules/perfect_form"
+   ],
+   "text": "if this model is your Warlord, they gain the Feel no Pain (4+) special rule. If this unit assumes the Perfect Guard stance when declaring a stance as part of the Perfect Form special rule, they may re-roll Feel no Pain rolls of 1.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/feel_no_pain",
+        "name": "Feel No Pain",
+        "param": "4+",
+        "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+       },
+       "quote": "if this model is your Warlord, they gain the Feel no Pain (4+) special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/emperors_children/special_rules/excess_of_speed",
+   "name": "Excess of Speed",
+   "kind": "datasheet",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/excess_of_speed/",
+   "references": [
+    "universal_special_rules/hit_and_run"
+   ],
+   "text": "This unit must always attempt to use the Hit & Run special rule. This unit can never remain Stationary and must always make a Movement Action in your Movement Phase (Move, Advance, Retreat)."
+  },
+  {
+   "id": "codex/emperors_children/special_rules/follow_the_doomrider",
+   "name": "Follow the DOOMRIDER",
+   "kind": "warlord_trait",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/follow_the_doomrider/",
+   "references": [
+    "universal_special_rules/hit_and_run"
+   ],
+   "text": "If this unit is your Warlord, all Chaos Biker Squads in your army gain the Hit & Run special rule.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "datasheet_names": [
+          "Chaos Bike Squad"
+         ]
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/hit_and_run",
+        "name": "Hit & Run",
+        "url": "https://longwarindex.app/universal_special_rules/hit_and_run/"
+       },
+       "quote": "If this unit is your Warlord, all Chaos Biker Squads in your army gain the Hit & Run special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/emperors_children/special_rules/lord_kakaphonist",
+   "name": "Lord Kakaphonist",
+   "kind": "datasheet",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/lord_kakaphonist/",
+   "text": "A Chaos Lord with this upgrade may not take a Bike, Terminator Armour or Jump Pack. The Chaos Lord gains a Doom Siren and Sonic Shrieker.\n\n- The Chaos Lord may exchange their Bolt Pistol for a Screamer Pistol for 5pts.\n- The Chaos Lord may exchange their Chainsword for a Screamer Pistol for 5pts.",
+   "effects": {
+    "items": [
+     {
+      "kind": "weapon",
+      "id": "doom_siren"
+     },
+     {
+      "kind": "wargear",
+      "id": "sonic_shrieker"
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "bolt_pistol",
+     "label": "The Chaos Lord may exchange their Bolt Pistol for a Screamer Pistol for 5pts.",
+     "printed": "The Chaos Lord may exchange their Bolt Pistol for a Screamer Pistol for 5pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "screamer_pistol",
+       "name": "Screamer Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "screamer_pistol"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "chainsword",
+     "label": "The Chaos Lord may exchange their Chainsword for a Screamer Pistol for 5pts.",
+     "printed": "The Chaos Lord may exchange their Chainsword for a Screamer Pistol for 5pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "screamer_pistol",
+       "name": "Screamer Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "screamer_pistol"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/emperors_children/special_rules/perfect_form",
+   "name": "Perfect Form",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/perfect_form/",
+   "references": [
+    "universal_special_rules/feel_no_pain",
+    "special_rules/precision_hits",
+    "special_rules/sweeping"
+   ],
+   "text": "At Initiative Step 10, a unit with this special rule must select one of the following stances to take until the end of the Phase:\n\n- The Perfect Guard: The unit gains the Feel no Pain (5+) special rule.\n- The Perfect Strike: The unit gains the Precision Hits special rule on all Melee weapons it is equipped.\n- Perfect Sweep: This unit gains the Sweeping (1) special rule on all Melee weapons it is equipped with."
+  },
+  {
+   "id": "codex/emperors_children/special_rules/primarch_of_the_iii",
+   "name": "Primarch of the III",
+   "kind": "warlord_trait",
+   "page": 18,
+   "url": "https://longwarindex.app/special_rules/primarch_of_the_iii/",
+   "references": [
+    "universal_special_rules/sprint"
+   ],
+   "text": "If this model is included in your army, it must be your Warlord. Friendly Emperor's Children units that can draw visibility to this unit may use this units Leadership (LD) characteristic. While this unit is alive and, on the Battlefield, Emperor's Children units in your army increase their Sprint (1) to Sprint (2).",
+   "effects": {
+    "list_building": {
+     "mandates_warlord": true
+    }
+   }
+  },
+  {
+   "id": "codex/emperors_children/special_rules/the_auric_hammer",
+   "name": "The Auric Hammer",
+   "kind": "datasheet",
+   "page": 15,
+   "url": "https://longwarindex.app/special_rules/the_auric_hammer/",
+   "text": "In the Combat Phase, at this models Initiative in the Initiative Steps, you can opt to make a single killing blow instead of attacking normally. When you opt to make a Killing Blow, select a single enemy model within 1\" of Eidolon. The target model takes 1 automatic hit and wound from the Glory Aeterna. Saves may be taken as normal. The wound inflicted when making a Killing Blow is treated as an Instant Death Wound."
+  },
+  {
+   "id": "codex/emperors_children/special_rules/the_perfect_swordsman",
+   "name": "The Perfect Swordsman",
+   "kind": "warlord_trait",
+   "page": 16,
+   "url": "https://longwarindex.app/special_rules/the_perfect_swordsman/",
+   "references": [
+    "codex/emperors_children/special_rules/perfect_form"
+   ],
+   "text": "If this unit is your Warlord, it gains the benefit of two stances each Combat Phase from the Perfect Form special rule."
+  },
+  {
+   "id": "codex/emperors_children/special_rules/trails_of_screaming_fire",
+   "name": "Trails of Screaming Fire",
+   "kind": "datasheet",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/trails_of_screaming_fire/",
+   "text": "In the Movement Phase, when this unit would move over an enemy unit as part any Movement Action, the enemy unit takes 2D6 Strength 3, AP6 automatic hits."
+  }
+ ]
+}

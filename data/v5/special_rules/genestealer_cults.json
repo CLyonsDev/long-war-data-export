@@ -1,0 +1,616 @@
+{
+ "data_version": "54b07b0fac80b183",
+ "format": 1,
+ "faction": "genestealer_cults",
+ "special_rules": [
+  {
+   "id": "codex/genestealer_cults/special_rules/adrenal_glands",
+   "name": "Adrenal Glands",
+   "kind": "datasheet",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/adrenal_glands/",
+   "references": [
+    "universal_special_rules/sprint"
+   ],
+   "text": "A unit with this upgrade gains the Sprint (1) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/sprint",
+      "name": "Sprint",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/sprint/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/binding",
+   "name": "Binding",
+   "kind": "weapon",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/binding_genestealer_cults/",
+   "references": [
+    "special_rules/pinning"
+   ],
+   "text": "When a weapon gets hit with this special rule, it must make a Toughness test. If the test is passed, nothing happens. If the test is failed, the unit that was hit by a weapon with this special rule is automatically Pinned. This does not affect Vehicles, Aircraft, Walker, Titan, or Knight type units."
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/bodyguard",
+   "name": "Bodyguard",
+   "kind": "datasheet",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/bodyguard/",
+   "references": [
+    "universal_special_rules/character"
+   ],
+   "text": "This unit does not take up a Force organization slot if your army includes a Magus. At the start of the game, select a single unit in your army with the Character special rule to be this unit's chosen ward. This unit and the chosen unit become 1 unit for the rest of the game and cannot be separated. Their combined unit may still join friendly units of the same type per the Character special rule.",
+   "effects": {
+    "list_building": {
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/locus"
+       }
+      ],
+      "count": 1,
+      "per_unit": [
+       {
+        "datasheet": "codex/genestealer_cults/roster/magus"
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/caustic_blood",
+   "name": "Caustic Blood",
+   "kind": "datasheet",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/caustic_blood/",
+   "text": "When a unit with this upgrade is slain and the last model in the unit is removed from play, before that model is removed, all enemy units within 6\" take D3+(x) automatic hits where (x) is the model's Wounds (W) characteristic. The Strength of the hit is equal to the removed unit's Toughness (T) characteristic. The AP is resolved at AP5."
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/chameleon_skin",
+   "name": "Chameleon Skin",
+   "kind": "datasheet",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/chameleon_skin/",
+   "text": "A unit with this upgrade may only be targeted in the Shooting Phase if it is the closest enemy model to the attacking unit. This does not confer to any attached units."
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/cult_ambush",
+   "name": "Cult Ambush",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/cult_ambush/",
+   "references": [
+    "universal_special_rules/scout",
+    "universal_special_rules/outflank"
+   ],
+   "text": "Units with this special rule gain the Scout and Outflank special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/scout",
+      "name": "Scout",
+      "url": "https://longwarindex.app/universal_special_rules/scout/"
+     },
+     {
+      "rule": "universal_special_rules/outflank",
+      "name": "Outflank",
+      "url": "https://longwarindex.app/universal_special_rules/outflank/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/cult_demagogue",
+   "name": "Cult Demagogue",
+   "kind": "datasheet",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/cult_demagogue/",
+   "references": [
+    "universal_special_rules/hatred"
+   ],
+   "text": "This unit and any attached unit gain the Hatred special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/cult_specialists",
+   "name": "Cult Specialists",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/cult_specialists/",
+   "text": "For each Neophyte Hybrid unit in your army, a unit with this special rule does not take up a Force Organization slot.\n\nDesigners note: This is a 1-to-1 ratio of Neophyte Hybrids per model with the Cult Specialist rule. You require 1 Neophyte Hybrid unit per model with this special rule. If you have 3 Neophyte Hybrid units and 4 units with the Cult Specialist special rule, 3 of the models with the Cult Specialist rule do not take up a Force Organization slot."
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/devoted_crew",
+   "name": "Devoted Crew",
+   "kind": "datasheet",
+   "page": 38,
+   "url": "https://longwarindex.app/special_rules/devoted_crew/",
+   "text": "A model with this upgrade may ignore the first Crew Injury Result suffered each Phase."
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/enhanced_musculature_augmentation",
+   "name": "Enhanced Musculature Augmentation",
+   "kind": "datasheet",
+   "page": 27,
+   "url": "https://longwarindex.app/special_rules/enhanced_musculature_augmentation/",
+   "text": "A unit with this upgrade gains +1 to their Strength (S) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/gestalt_warp_field",
+   "name": "Gestalt Warp Field",
+   "kind": "datasheet",
+   "page": 35,
+   "url": "https://longwarindex.app/special_rules/gestalt_warp_field/",
+   "text": "This unit has a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/gunslinger",
+   "name": "Gunslinger",
+   "kind": "datasheet",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/gunslinger/",
+   "text": "This unit's equipped Autopistols become Pistol 5.",
+   "effects": {
+    "weapon_stat_mods": [
+     {
+      "weapons": {
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "autopistol"
+        }
+       ]
+      },
+      "mods": [
+       {
+        "characteristic": "Type",
+        "value": "Pistol 5"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/hardened_exoskeleton_augmentation",
+   "name": "Hardened Exoskeleton Augmentation",
+   "kind": "datasheet",
+   "page": 27,
+   "url": "https://longwarindex.app/special_rules/hardened_exoskeleton_augmentation/",
+   "text": "A unit with this upgrade gains a 4+ Armour Save (SV) characteristic.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/heavy_arms_training",
+   "name": "Heavy Arms Training",
+   "kind": "datasheet",
+   "page": 42,
+   "url": "https://longwarindex.app/special_rules/heavy_arms_training/",
+   "text": "A unit with this special rule increases its Ballistic Skill (BS) by 1.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "BS",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/hive_fleet_trait",
+   "name": "Hive Fleet Trait",
+   "kind": "datasheet",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/hive_fleet_trait/",
+   "references": [
+    "universal_special_rules/rage",
+    "universal_special_rules/crusader",
+    "universal_special_rules/stubborn",
+    "universal_special_rules/deep_strike",
+    "special_rules/poison",
+    "special_rules/shred",
+    "universal_special_rules/indomitable_spirit"
+   ],
+   "text": "When this upgrade is purchased, select one of the following benefits to apply to this unit:\n\n- Behemoth: The Patriarch and any attached unit gain the Rage special rule.\n- Kraken: The Patriarch and any attached unit gain the Crusader special rule.\n- Leviathan: The Patriarch and any attached unit gain the Stubborn special rule.\n- Jormangandr: The Patriarch and any attached unit are treated as rolling a 6 on all Deep Strike rolls.\n- Hydra: The Patriarch and any attached unit gain +1 to their Weapon Skill (WS) while the Patriarch is attached to a unit.\n- Gorgon: The Patriarch and any attached unit gain the Poison (4+) special rule on any equipped Melee weapons. If an equipped weapon already has the Poison (x) special rule, it gains the Shred special rule.\n- Kronos: The Patriarch and any attached unit gain the Indomitable Spirit (4+) special rule.",
+   "options": [
+    {
+     "id": "hive_fleet_trait",
+     "label": "select one of the following benefits to apply to this unit:",
+     "printed": "When this upgrade is purchased, select one of the following benefits to apply to this unit:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "min": 1,
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "behemoth",
+       "name": "Behemoth",
+       "points": 0,
+       "pricing": "flat",
+       "print_defect": "The book prints no price for a Hive Fleet Trait choice. This data reads a choice as free.",
+       "rules": [
+        {
+         "rule": "universal_special_rules/rage",
+         "name": "Rage",
+         "url": "https://longwarindex.app/universal_special_rules/rage/"
+        }
+       ]
+      },
+      {
+       "id": "kraken",
+       "name": "Kraken",
+       "points": 0,
+       "pricing": "flat",
+       "print_defect": "The book prints no price for a Hive Fleet Trait choice. This data reads a choice as free.",
+       "rules": [
+        {
+         "rule": "universal_special_rules/crusader",
+         "name": "Crusader",
+         "url": "https://longwarindex.app/universal_special_rules/crusader/"
+        }
+       ]
+      },
+      {
+       "id": "leviathan",
+       "name": "Leviathan",
+       "points": 0,
+       "pricing": "flat",
+       "print_defect": "The book prints no price for a Hive Fleet Trait choice. This data reads a choice as free.",
+       "rules": [
+        {
+         "rule": "universal_special_rules/stubborn",
+         "name": "Stubborn",
+         "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+        }
+       ]
+      },
+      {
+       "id": "jormangandr",
+       "name": "Jormangandr",
+       "points": 0,
+       "pricing": "flat",
+       "print_defect": "The book prints no price for a Hive Fleet Trait choice. This data reads a choice as free."
+      },
+      {
+       "id": "hydra",
+       "name": "Hydra",
+       "points": 0,
+       "pricing": "flat",
+       "print_defect": "The book prints no price for a Hive Fleet Trait choice. This data reads a choice as free."
+      },
+      {
+       "id": "gorgon",
+       "name": "Gorgon",
+       "points": 0,
+       "pricing": "flat",
+       "print_defect": "The book prints no price for a Hive Fleet Trait choice. This data reads a choice as free.",
+       "weapon_rules": [
+        {
+         "rule": {
+          "rule": "special_rules/poison",
+          "name": "Poison",
+          "param": "4+",
+          "url": "https://longwarindex.app/special_rules/poison/"
+         },
+         "weapon_types": [
+          "Melee"
+         ],
+         "if_already_held": {
+          "rule": {
+           "rule": "special_rules/shred",
+           "name": "Shred",
+           "url": "https://longwarindex.app/special_rules/shred/"
+          }
+         }
+        }
+       ]
+      },
+      {
+       "id": "kronos",
+       "name": "Kronos",
+       "points": 0,
+       "pricing": "flat",
+       "print_defect": "The book prints no price for a Hive Fleet Trait choice. This data reads a choice as free.",
+       "rules": [
+        {
+         "rule": "universal_special_rules/indomitable_spirit",
+         "name": "Indomitable Spirit",
+         "param": "4+",
+         "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/hyper_aggression_augmentation",
+   "name": "Hyper Aggression Augmentation",
+   "kind": "datasheet",
+   "page": 27,
+   "url": "https://longwarindex.app/special_rules/hyper_aggression_augmentation/",
+   "references": [
+    "universal_special_rules/frenzy"
+   ],
+   "text": "A unit with this upgrade gains the Frenzy special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/frenzy",
+      "name": "Frenzy",
+      "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/lightning_fast_reaction",
+   "name": "Lightning-Fast Reaction",
+   "kind": "datasheet",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/lightning_fast_reaction_genestealer_cults/",
+   "text": "This unit has a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/marshal_forces",
+   "name": "Marshal Forces",
+   "kind": "datasheet",
+   "page": 30,
+   "url": "https://longwarindex.app/special_rules/marshal_forces/",
+   "text": "Instead of setting to 8.1.1 - Overwatch, this unit can set to Marshal forces instead. You can immediately select 1 friendly Neophyte Hybrid unit in your army on the battlefield. It regains D3 slain models. These returned models must be placed in coherency with models not returned to the unit this turn."
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/militant_training",
+   "name": "Militant Training",
+   "kind": "datasheet",
+   "page": 23,
+   "url": "https://longwarindex.app/special_rules/militant_training/",
+   "text": "A unit with this upgrade gains +1 to its Weapon Skill (WS) and Ballistic Skill (BS) characteristics.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "WS",
+      "delta": 1
+     },
+     {
+      "characteristic": "BS",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/necrotic_regeneration",
+   "name": "Necrotic Regeneration",
+   "kind": "datasheet",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/necrotic_regeneration/",
+   "references": [
+    "universal_special_rules/regeneration"
+   ],
+   "text": "This unit gains the Regeneration special rule. In addition, the first time this unit is slain, instead of removing it from play, it is not. Instead, the unit remains on the Battlefield and Heals D3 wounds.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/regeneration",
+      "name": "Regeneration",
+      "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/overburdened_engine",
+   "name": "Overburdened Engine",
+   "kind": "datasheet",
+   "page": 48,
+   "url": "https://longwarindex.app/special_rules/overburdened_engine_genestealer_cults/",
+   "text": "When this unit suffers a Crew Injured Result, instead of halving this model's Movement (M) characteristic, it is instead reduced to 2\"."
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/preternatural_reflexes",
+   "name": "Preternatural Reflexes",
+   "kind": "datasheet",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/preternatural_reflexes/",
+   "text": "This unit has a 3+ Invulnerable save in the Combat Phase.",
+   "effects": {
+    "conditional_invulnerable_saves": [
+     {
+      "save": "3+",
+      "phase": "Combat"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/prime_specimen",
+   "name": "Prime Specimen",
+   "kind": "datasheet",
+   "page": 28,
+   "url": "https://longwarindex.app/special_rules/prime_specimen/",
+   "references": [
+    "universal_special_rules/regeneration"
+   ],
+   "text": "A unit with this upgrade gains +1 to its Strength (S), Toughness (T), Wounds (W) and Leadership (LD) characteristics. In addition, the unit gains the Regeneration special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/regeneration",
+      "name": "Regeneration",
+      "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": 1
+     },
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     },
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ],
+    "list_building": {
+     "max_units_per_army": 1
+    }
+   }
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/remote_explosives",
+   "name": "Remote Explosives",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/remote_explosives/",
+   "text": "During deployment, if this model is in your army and not placed in reserves, you may place 3 Explosive markers. Once per game, when an enemy unit that is not the Aircraft type ends its movement within 6\" of an explosive marker, you may detonate the marker. When you detonate the marker, remove it from the board. Before the marker is removed, all units within 6\" of the marker take D6 Strength 5, AP 5 automatic hits."
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+   "name": "Return to the Shadows",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/return_to_the_shadows/",
+   "text": "A Cult unit in your army with this special rule may set to Return to the Shadows instead of Setting to 8.1.1 - Overwatch. A unit that Sets to Return to the Shadows, if there are no enemy units within 3\" of them at the end of your opponent's Charge Phase, may be removed from the board. The unit may immediately be placed back on the Battlefield anywhere outside of 7\" from any enemy models."
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/soul_sight",
+   "name": "Soul Sight",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/soul_sight/",
+   "text": "Each time this unit would make an attack in the Shooting or Combat Phase, it may declare that 1 of its attacks automatically hits and wounds. Do not make rolls for that attack. No special rules are triggered from this automatic hit. Any other attacks that model makes in that phase must be rolled normally."
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/timed_strategy",
+   "name": "Timed Strategy",
+   "kind": "datasheet",
+   "page": 30,
+   "url": "https://longwarindex.app/special_rules/timed_strategy/",
+   "references": [
+    "universal_special_rules/outflank"
+   ],
+   "text": "While this model is alive and on the battlefield, you may add 1 to the dice roll when rolling to determine if a unit will arrive from outflank."
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/toxin_sacs",
+   "name": "Toxin Sacs",
+   "kind": "datasheet",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/toxin_sacs/",
+   "references": [
+    "special_rules/poison"
+   ],
+   "text": "A unit with this upgrade gains the Poison (4+) special rule on all Melee type weapons it is equipped with.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/poison",
+      "name": "Poison",
+      "param": "4+",
+      "printed": "[[Poison (4+)]]",
+      "url": "https://longwarindex.app/special_rules/poison/",
+      "weapon_types": [
+       "Melee"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/transport_chimera_apc",
+   "name": "Transport",
+   "datasheet": "Chimera APC",
+   "kind": "datasheet",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/transport_chimera_apc_genestealer_cults/",
+   "text": "This model can transport 12 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/transport_goliath_rock_grinder",
+   "name": "Transport",
+   "datasheet": "Goliath Rock Grinder",
+   "kind": "datasheet",
+   "page": 44,
+   "url": "https://longwarindex.app/special_rules/transport_goliath_rock_grinder/",
+   "text": "This model can transport 6 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/genestealer_cults/special_rules/transport_goliath_truck",
+   "name": "Transport",
+   "datasheet": "Goliath Truck",
+   "kind": "datasheet",
+   "page": 37,
+   "url": "https://longwarindex.app/special_rules/transport_goliath_truck/",
+   "text": "This model can transport 15 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 15,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  }
+ ]
+}

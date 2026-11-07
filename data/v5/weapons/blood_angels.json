@@ -1,0 +1,1004 @@
+{
+ "data_version": "aa8bfc0333cc2d80",
+ "format": 1,
+ "faction": "blood_angels",
+ "weapons": [
+  {
+   "id": "blade_of_perdition",
+   "name": "Blade of Perdition",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 7,
+   "url": "https://longwarindex.app/weapons/blade_of_perdition/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      },
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "axe_of_perdition",
+   "name": "Axe of Perdition",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 7,
+   "url": "https://longwarindex.app/weapons/axe_of_perdition/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spear_of_perdition",
+   "name": "Spear of Perdition",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 7,
+   "url": "https://longwarindex.app/weapons/spear_of_perdition/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      },
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "maul_of_perdition",
+   "name": "Maul of Perdition",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 7,
+   "url": "https://longwarindex.app/weapons/maul_of_perdition/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fleshrender_grenades",
+   "name": "Fleshrender Grenades",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 7,
+   "url": "https://longwarindex.app/weapons/fleshrender_grenades/",
+   "profiles": [
+    {
+     "type": "Grenade 1",
+     "range": "12\"",
+     "strength": "3",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quakebolt_boltgun",
+   "name": "Quakebolt Boltgun",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 8,
+   "url": "https://longwarindex.app/weapons/quakebolt_boltgun/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "angelus_boltgun",
+   "name": "Angelus Boltgun",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 8,
+   "url": "https://longwarindex.app/weapons/angelus_boltgun/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "18\"",
+     "strength": "4",
+     "ap": "3",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "inferno_pistol",
+   "name": "Inferno Pistol",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 8,
+   "url": "https://longwarindex.app/weapons/inferno_pistol_blood_angels/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "8\"",
+     "strength": "8",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/melta",
+       "name": "Melta",
+       "url": "https://longwarindex.app/special_rules/melta/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eviscerator",
+   "name": "Eviscerator",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 8,
+   "url": "https://longwarindex.app/weapons/eviscerator_blood_angels/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/two_handed",
+       "name": "Two-Handed",
+       "url": "https://longwarindex.app/special_rules/two_handed/"
+      }
+     ],
+     "printed": {
+      "strength": "X2"
+     }
+    }
+   ]
+  },
+  {
+   "id": "encarmine_sword",
+   "name": "Encarmine Sword",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 8,
+   "url": "https://longwarindex.app/weapons/encarmine_sword/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      },
+      {
+       "rule": "codex/blood_angels/special_rules/masterwork",
+       "name": "Masterwork",
+       "url": "https://longwarindex.app/special_rules/masterwork/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "encarmine_axe",
+   "name": "Encarmine Axe",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 8,
+   "url": "https://longwarindex.app/weapons/encarmine_axe/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "codex/blood_angels/special_rules/masterwork",
+       "name": "Masterwork",
+       "url": "https://longwarindex.app/special_rules/masterwork/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "encarmine_spear",
+   "name": "Encarmine Spear",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 8,
+   "url": "https://longwarindex.app/weapons/encarmine_spear/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      },
+      {
+       "rule": "codex/blood_angels/special_rules/masterwork",
+       "name": "Masterwork",
+       "url": "https://longwarindex.app/special_rules/masterwork/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bloodfist",
+   "name": "Bloodfist",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 8,
+   "url": "https://longwarindex.app/weapons/bloodfist/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+4",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blood_talon",
+   "name": "Blood Talon",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 8,
+   "url": "https://longwarindex.app/weapons/blood_talon/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "force_halberd",
+   "name": "Force Halberd",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 9,
+   "url": "https://longwarindex.app/weapons/force_halberd_blood_angels/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      },
+      {
+       "rule": "special_rules/force",
+       "name": "Force",
+       "url": "https://longwarindex.app/special_rules/force/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "heavy_frag_cannon",
+   "name": "Heavy Frag Cannon",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 9,
+   "url": "https://longwarindex.app/weapons/heavy_frag_cannon/",
+   "profiles": [
+    {
+     "type": "Assault 6",
+     "range": "24\"",
+     "strength": "6",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "flamestorm_cannon",
+   "name": "Flamestorm Cannon",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 9,
+   "url": "https://longwarindex.app/weapons/flamestorm_cannon/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "18\"",
+     "strength": "6",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blood_lance",
+   "name": "Blood Lance",
+   "section": "other",
+   "subtype": "Psychic Powers",
+   "page": 13,
+   "url": "https://longwarindex.app/powers/blood_lance/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "8",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      },
+      {
+       "rule": "special_rules/lance",
+       "name": "Lance",
+       "url": "https://longwarindex.app/special_rules/lance/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "archangels_shard",
+   "name": "Archangel's Shard",
+   "printed": {
+    "name": "Valor's Edge"
+   },
+   "section": "other",
+   "subtype": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/archangels_shard/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 10pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/parry",
+       "name": "Parry",
+       "url": "https://longwarindex.app/special_rules/parry/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blood_reaver",
+   "name": "Blood Reaver",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/wargear/blood_reaver/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      }
+     ],
+     "printed": {
+      "strength": "X2"
+     }
+    }
+   ]
+  },
+  {
+   "id": "blood_song",
+   "name": "Blood Song",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/wargear/blood_song/",
+   "profiles": [
+    {
+     "name": "Blood Song (Boltgun)",
+     "type": "Rapid Fire 2",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/combi",
+       "name": "Combi",
+       "url": "https://longwarindex.app/special_rules/combi/"
+      }
+     ]
+    },
+    {
+     "name": "Blood Song (Melta)",
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "8",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/melta",
+       "name": "Melta",
+       "url": "https://longwarindex.app/special_rules/melta/"
+      },
+      {
+       "rule": "special_rules/ammo",
+       "name": "Ammo",
+       "param": "3",
+       "url": "https://longwarindex.app/special_rules/ammo/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dead_mans_hand",
+   "name": "Dead Man's Hand",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/wargear/dead_mans_hand/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "decimator",
+   "name": "Decimator",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 11,
+   "url": "https://longwarindex.app/wargear/decimator/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Boltgun, Storm Bolter or Heavy Boltgun for this relic for 5pts.",
+   "profiles": [
+    {
+     "type": "Rapid Fire 3",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "encarmine_broadsword",
+   "name": "Encarmine Broadsword",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 30,
+   "url": "https://longwarindex.app/wargear/encarmine_broadsword/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/two_handed",
+       "name": "Two-Handed",
+       "url": "https://longwarindex.app/special_rules/two_handed/"
+      },
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "exsanguinator",
+   "name": "Exsanguinator",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 26,
+   "url": "https://longwarindex.app/wargear/exsanguinator/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fury_of_baal",
+   "name": "Fury of Baal",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/fury_of_baal/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Plasma Pistol for this relic for 5pts.",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "12\"",
+     "strength": "7",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hammer_of_baal",
+   "name": "Hammer of Baal",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 22,
+   "url": "https://longwarindex.app/wargear/hammer_of_baal/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "10",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "heavens_teeth",
+   "name": "Heaven's Teeth",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 26,
+   "url": "https://longwarindex.app/wargear/heavens_teeth/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "perdition_pistol",
+   "name": "Perdition Pistol",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/wargear/perdition_pistol/",
+   "profiles": [
+    {
+     "type": "Pistol",
+     "range": "8\"",
+     "strength": "9",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/melta",
+       "name": "Melta",
+       "url": "https://longwarindex.app/special_rules/melta/"
+      }
+     ],
+     "print_defect": "The book prints the type Pistol without a shot count."
+    }
+   ]
+  },
+  {
+   "id": "the_axe_mortalis",
+   "name": "The Axe Mortalis",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/wargear/the_axe_mortalis/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_blood_crozius",
+   "name": "The Blood Crozius",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 23,
+   "url": "https://longwarindex.app/wargear/the_blood_crozius/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_executioners_axe",
+   "name": "The Executioners Axe",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 24,
+   "url": "https://longwarindex.app/wargear/the_executioners_axe_blood_angels/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/two_handed",
+       "name": "Two-Handed",
+       "url": "https://longwarindex.app/special_rules/two_handed/"
+      },
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "valors_edge",
+   "name": "Valor's Edge",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/valors_edge/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 15pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/blind",
+       "name": "Blind",
+       "url": "https://longwarindex.app/special_rules/blind/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vitarus",
+   "name": "Vitarus",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 25,
+   "url": "https://longwarindex.app/wargear/vitarus/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/force",
+       "name": "Force",
+       "url": "https://longwarindex.app/special_rules/force/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

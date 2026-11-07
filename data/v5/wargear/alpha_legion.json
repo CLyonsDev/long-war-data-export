@@ -1,0 +1,138 @@
+{
+ "data_version": "b78620e205410b1a",
+ "format": 1,
+ "faction": "alpha_legion",
+ "wargear": [
+  {
+   "id": "vox_caster",
+   "name": "Vox Caster",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/vox_caster_alpha_legion/",
+   "text": "A unit with this Wargear automatically Rallies at the start of its Movement phase."
+  },
+  {
+   "id": "med_kit",
+   "name": "Med-Kit",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/med_kit_alpha_legion/",
+   "text": "A model with this Wargear and their attached unit gain Feel No Pain (5+) Special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "flak_armour",
+   "name": "Flak Armour",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/flak_armour_alpha_legion/",
+   "text": "Basic Combat armour. It provides a 5+ Armour Save.",
+   "effects": {
+    "armour_save": "5+"
+   }
+  },
+  {
+   "id": "the_mindveil",
+   "name": "The Mindveil",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_mindveil/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic. In your Movement Phase, a model with this relic wargear may be removed from the Battlefield and placed back on the Battlefield anywhere within 3\" of another friendly Alpha Legion unit on the Battlefield. The model equipped with this Relic wargear may be placed within 3\" of enemy models."
+  },
+  {
+   "id": "the_icon_of_insurrection",
+   "name": "The Icon of Insurrection",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_icon_of_insurrection/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic. Friendly Allied Renegades & Heretics as well as Legion Operatives in your Primary Detachment gain +1 to their Leadership (LD) characteristic and the Zealot special rule.",
+   "effects": {
+    "while_fielded": {
+     "stat_grants": [
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Legion Operatives"
+         ],
+         "detachment": "primary"
+        }
+       ],
+       "characteristic": "Ld",
+       "delta": 1,
+       "quote": "Friendly Allied Renegades & Heretics as well as Legion Operatives in your Primary Detachment gain +1 to their Leadership (LD) characteristic and the Zealot special rule."
+      },
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Renegades & Heretics"
+         ],
+         "detachment": "allied"
+        }
+       ],
+       "characteristic": "Ld",
+       "delta": 1,
+       "quote": "Friendly Allied Renegades & Heretics as well as Legion Operatives in your Primary Detachment gain +1 to their Leadership (LD) characteristic and the Zealot special rule."
+      }
+     ],
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Legion Operatives"
+         ],
+         "detachment": "primary"
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/zealot",
+        "name": "Zealot",
+        "url": "https://longwarindex.app/universal_special_rules/zealot/"
+       },
+       "quote": "Friendly Allied Renegades & Heretics as well as Legion Operatives in your Primary Detachment gain +1 to their Leadership (LD) characteristic and the Zealot special rule."
+      },
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Renegades & Heretics"
+         ],
+         "detachment": "allied"
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/zealot",
+        "name": "Zealot",
+        "url": "https://longwarindex.app/universal_special_rules/zealot/"
+       },
+       "quote": "Friendly Allied Renegades & Heretics as well as Legion Operatives in your Primary Detachment gain +1 to their Leadership (LD) characteristic and the Zealot special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "the_drakescale_plate",
+   "name": "The Drakescale Plate",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_drakescale_plate/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic. A model with this Relic Wargear gains a 2+ Armour Save and gains a 3+ Invulnerable save against \"Flame\", \"Plasma\", \"Melta\", \"Fusion\", \"Acid\" and \"Bio-Plasma\" weapons.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "3+"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1886 @@
+{
+ "data_version": "37f4876faf7417db",
+ "format": 1,
+ "faction": "tyranids",
+ "weapons": [
+  {
+   "id": "spine_fists",
+   "name": "Spine Fists",
+   "section": "armoury",
+   "subtype": "Bio-Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/spine_fists/",
+   "profiles": [
+    {
+     "type": "Pistol X",
+     "range": "12\"",
+     "strength": "3",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "codex/tyranids/special_rules/spine_launcher",
+       "name": "Spine Launcher",
+       "url": "https://longwarindex.app/special_rules/spine_launcher/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fleshborer",
+   "name": "Fleshborer",
+   "section": "armoury",
+   "subtype": "Bio-Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/fleshborer/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "devourer",
+   "name": "Devourer",
+   "section": "armoury",
+   "subtype": "Bio-Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/devourer/",
+   "profiles": [
+    {
+     "type": "Assault 3",
+     "range": "18\"",
+     "strength": "4",
+     "ap": "6",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "deathspitter",
+   "name": "Deathspitter",
+   "section": "armoury",
+   "subtype": "Bio-Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/deathspitter/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "36\"",
+     "strength": "6",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spike_rifle",
+   "name": "Spike Rifle",
+   "section": "armoury",
+   "subtype": "Bio-Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/spike_rifle/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "3",
+     "ap": "-",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "shardlauncher",
+   "name": "Shardlauncher",
+   "section": "armoury",
+   "subtype": "Bio-Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/shardlauncher/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "18\"",
+     "strength": "3",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/indirect_fire",
+       "name": "Indirect Fire",
+       "url": "https://longwarindex.app/special_rules/indirect_fire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deathspitter_maggots",
+   "name": "Deathspitter with Slimer Maggots",
+   "printed": {
+    "name": "Deathspitters with Slimer Maggots"
+   },
+   "section": "armoury",
+   "subtype": "Bio-Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/deathspitter_maggots/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "24\"",
+     "strength": "7",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "devourers_brain_leech",
+   "name": "Devourers with Brain Leech Worms",
+   "section": "armoury",
+   "subtype": "Bio-Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/devourers_brain_leech/",
+   "profiles": [
+    {
+     "type": "Assault 3",
+     "range": "12\"",
+     "strength": "4",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stinger_salvo",
+   "name": "Stinger Salvo",
+   "section": "armoury",
+   "subtype": "Bio-Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/stinger_salvo/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "5",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "barblauncher",
+   "name": "Barblauncher",
+   "section": "armoury",
+   "subtype": "Bio-Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/barblauncher/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/indirect_fire",
+       "name": "Indirect Fire",
+       "url": "https://longwarindex.app/special_rules/indirect_fire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio_cannon",
+   "name": "Bio Cannon",
+   "section": "armoury",
+   "subtype": "Bio-Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/bio_cannon/",
+   "profiles": [
+    {
+     "type": "Heavy 2",
+     "range": "48\"",
+     "strength": "10",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/macro",
+       "name": "Macro",
+       "url": "https://longwarindex.app/special_rules/macro/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fleshborer_hive",
+   "name": "Fleshborer Hive",
+   "section": "armoury",
+   "subtype": "Bio-Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/fleshborer_hive/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 5",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "impaler_cannons",
+   "name": "Impaler Cannons",
+   "section": "armoury",
+   "subtype": "Bio-Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/impaler_cannons/",
+   "profiles": [
+    {
+     "type": "Heavy 2",
+     "range": "36\"",
+     "strength": "8",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/indirect_fire",
+       "name": "Indirect Fire",
+       "url": "https://longwarindex.app/special_rules/indirect_fire/"
+      },
+      {
+       "rule": "special_rules/ignores_cover",
+       "name": "Ignores Cover",
+       "url": "https://longwarindex.app/special_rules/ignores_cover/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tentaclids",
+   "name": "Tentaclids",
+   "section": "armoury",
+   "subtype": "Bio-Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/tentaclids/",
+   "profiles": [
+    {
+     "type": "Assault 4",
+     "range": "36\"",
+     "strength": "5",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/skyfire",
+       "name": "Skyfire",
+       "url": "https://longwarindex.app/special_rules/skyfire/"
+      },
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spore_mine_launcher",
+   "name": "Spore Mine Launcher",
+   "section": "armoury",
+   "subtype": "Bio-Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/spore_mine_launcher/",
+   "profiles": [
+    {
+     "name": "Spore Mine Launcher (Ground)",
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "6",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/indirect_fire",
+       "name": "Indirect Fire",
+       "url": "https://longwarindex.app/special_rules/indirect_fire/"
+      },
+      {
+       "rule": "special_rules/ignores_cover",
+       "name": "Ignores Cover",
+       "url": "https://longwarindex.app/special_rules/ignores_cover/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    },
+    {
+     "name": "Spore Mine Launcher (Air)",
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "6",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/skyfire",
+       "name": "Skyfire",
+       "url": "https://longwarindex.app/special_rules/skyfire/"
+      },
+      {
+       "rule": "special_rules/ignores_cover",
+       "name": "Ignores Cover",
+       "url": "https://longwarindex.app/special_rules/ignores_cover/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "venom_cannon",
+   "name": "Venom Cannon",
+   "section": "armoury",
+   "subtype": "Bio-Plasma Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/venom_cannon/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "36\"",
+     "strength": "7",
+     "ap": "2",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "heavy_venom_cannon",
+   "name": "Heavy Venom Cannon",
+   "section": "armoury",
+   "subtype": "Bio-Plasma Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/heavy_venom_cannon/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "36\"",
+     "strength": "8",
+     "ap": "2",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "bio_plasmic_cannon",
+   "name": "Bio-Plasmic Cannon",
+   "section": "armoury",
+   "subtype": "Bio-Plasma Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/bio_plasmic_cannon/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "36\"",
+     "strength": "7",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rupture_cannon",
+   "name": "Rupture Cannon",
+   "section": "armoury",
+   "subtype": "Bio-Plasma Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/rupture_cannon/",
+   "profiles": [
+    {
+     "type": "Heavy 2",
+     "range": "48\"",
+     "strength": "10",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stranglewebs",
+   "name": "Stranglewebs",
+   "section": "armoury",
+   "subtype": "Strangle Bio Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/stranglewebs/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "24\"",
+     "strength": "2",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "barbed_strangler",
+   "name": "Barbed Strangler",
+   "section": "armoury",
+   "subtype": "Strangle Bio Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/barbed_strangler/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "36\"",
+     "strength": "6",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stranglethorn_cannon",
+   "name": "Stranglethorn Cannon",
+   "section": "armoury",
+   "subtype": "Strangle Bio Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/stranglethorn_cannon/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "48\"",
+     "strength": "7",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "flamespurt",
+   "name": "Flamespurt",
+   "section": "armoury",
+   "subtype": "Acid Bio Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/flamespurt/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "drool_cannon",
+   "name": "Drool Cannon",
+   "section": "armoury",
+   "subtype": "Acid Bio Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/drool_cannon/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "6",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "acid_spray",
+   "name": "Acid Spray",
+   "section": "armoury",
+   "subtype": "Acid Bio Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/acid_spray/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "User",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      },
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "close_combat_weapon",
+   "name": "Close Combat Weapon",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/weapons/close_combat_weapon_tyranids/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "-",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "scything_talons",
+   "name": "Scything Talons",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/weapons/scything_talons_tyranids/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rending_claws",
+   "name": "Rending Claws",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/weapons/rending_claws_tyranids/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bonesword",
+   "name": "Bonesword",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/weapons/bonesword/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lash_whip",
+   "name": "Lash Whip",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/weapons/lash_whip_tyranids/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/swift_strike",
+       "name": "Swift Strike",
+       "url": "https://longwarindex.app/special_rules/swift_strike/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grasping_talons",
+   "name": "Grasping Talons",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/weapons/grasping_talons/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "crushing_claws",
+   "name": "Crushing Claws",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/weapons/crushing_claws/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "monstrous_scything_talons",
+   "name": "Monstrous Scything Talons",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/weapons/monstrous_scything_talons/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "monstrous_crushing_claws",
+   "name": "Monstrous Crushing Claws",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/weapons/monstrous_crushing_claws/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "monstrous_bonesword",
+   "name": "Monstrous Bonesword",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/weapons/monstrous_bonesword/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "monstrous_rending_claws",
+   "name": "Monstrous Rending Claws",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/weapons/monstrous_rending_claws_tyranids/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ravenous_maw",
+   "name": "Ravenous Maw",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/weapons/ravenous_maw/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/cumbersome",
+       "name": "Cumbersome",
+       "url": "https://longwarindex.app/special_rules/cumbersome/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shovelling_claws",
+   "name": "Shovelling Claws",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/weapons/shovelling_claws/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grasping_tongue",
+   "name": "Grasping Tongue",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/weapons/grasping_tongue/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      },
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hierodule_scything_talons",
+   "name": "Hierodule Scything Talons",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/weapons/hierodule_scything_talons/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bone_sabres",
+   "name": "Bone Sabres",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/weapons/bone_sabres/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/parry",
+       "name": "Parry",
+       "url": "https://longwarindex.app/special_rules/parry/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "powerful_limbs",
+   "name": "Powerful Limbs",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 21,
+   "url": "https://longwarindex.app/weapons/powerful_limbs/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "5",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "scything_wings",
+   "name": "Scything Wings",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 22,
+   "url": "https://longwarindex.app/weapons/scything_wings/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "4",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "distensible_jaw",
+   "name": "Distensible Jaw",
+   "section": "armoury",
+   "subtype": "Melee Bio Weapons",
+   "page": 22,
+   "url": "https://longwarindex.app/weapons/distensible_jaw/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      }
+     ],
+     "printed": {
+      "strength": "X2"
+     }
+    }
+   ]
+  },
+  {
+   "id": "prehensile_tail",
+   "name": "Prehensile Tail",
+   "section": "armoury",
+   "subtype": "Tail Bio Weapons",
+   "page": 22,
+   "url": "https://longwarindex.app/weapons/prehensile_tail/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "codex/tyranids/special_rules/tail_weapon",
+       "name": "Tail Weapon",
+       "url": "https://longwarindex.app/special_rules/tail_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grasping_tail",
+   "name": "Grasping Tail",
+   "section": "armoury",
+   "subtype": "Tail Bio Weapons",
+   "page": 22,
+   "url": "https://longwarindex.app/weapons/grasping_tail/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "3+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "codex/tyranids/special_rules/tail_weapon",
+       "name": "Tail Weapon",
+       "url": "https://longwarindex.app/special_rules/tail_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wicked_spur",
+   "name": "Wicked Spur",
+   "section": "armoury",
+   "subtype": "Tail Bio Weapons",
+   "page": 22,
+   "url": "https://longwarindex.app/weapons/wicked_spur/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "codex/tyranids/special_rules/tail_weapon",
+       "name": "Tail Weapon",
+       "url": "https://longwarindex.app/special_rules/tail_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "toxin_spike",
+   "name": "Toxin Spike",
+   "section": "armoury",
+   "subtype": "Tail Bio Weapons",
+   "page": 22,
+   "url": "https://longwarindex.app/weapons/toxin_spike/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "1",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "2+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      },
+      {
+       "rule": "codex/tyranids/special_rules/tail_weapon",
+       "name": "Tail Weapon",
+       "url": "https://longwarindex.app/special_rules/tail_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio_static_rattle",
+   "name": "Bio Static Rattle",
+   "section": "armoury",
+   "subtype": "Tail Bio Weapons",
+   "page": 22,
+   "url": "https://longwarindex.app/weapons/bio_static_rattle/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/arcing",
+       "name": "Arcing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/arcing/"
+      },
+      {
+       "rule": "codex/tyranids/special_rules/tail_weapon",
+       "name": "Tail Weapon",
+       "url": "https://longwarindex.app/special_rules/tail_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bone_mace",
+   "name": "Bone Mace",
+   "section": "armoury",
+   "subtype": "Tail Bio Weapons",
+   "page": 22,
+   "url": "https://longwarindex.app/weapons/bone_mace/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "codex/tyranids/special_rules/tail_weapon",
+       "name": "Tail Weapon",
+       "url": "https://longwarindex.app/special_rules/tail_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "thresher_scythe",
+   "name": "Thresher Scythe",
+   "section": "armoury",
+   "subtype": "Tail Bio Weapons",
+   "page": 22,
+   "url": "https://longwarindex.app/weapons/thresher_scythe/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      },
+      {
+       "rule": "codex/tyranids/special_rules/tail_weapon",
+       "name": "Tail Weapon",
+       "url": "https://longwarindex.app/special_rules/tail_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shock_cannons",
+   "name": "Shock Cannons",
+   "section": "armoury",
+   "subtype": "Bio Electric Weapons",
+   "page": 22,
+   "url": "https://longwarindex.app/weapons/shock_cannons/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "24\"",
+     "strength": "7",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "3+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bio_electric_pulse",
+   "name": "Bio Electric Pulse",
+   "section": "armoury",
+   "subtype": "Bio Electric Weapons",
+   "page": 22,
+   "url": "https://longwarindex.app/weapons/bio_electric_pulse/",
+   "profiles": [
+    {
+     "type": "Assault 6",
+     "range": "12\"",
+     "strength": "5",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/arcing",
+       "name": "Arcing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/arcing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "toxic_lashes",
+   "name": "Toxic Lashes",
+   "section": "armoury",
+   "subtype": "Bio Toxin Weapons",
+   "page": 22,
+   "url": "https://longwarindex.app/weapons/toxic_lashes/",
+   "profiles": [
+    {
+     "name": "Toxic Lashes (Shooting)",
+     "type": "Pistol 6",
+     "range": "6\"",
+     "strength": "User",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      }
+     ]
+    },
+    {
+     "name": "Toxic Lashes (Melee)",
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "choking_spores",
+   "name": "Choking Spores",
+   "section": "armoury",
+   "subtype": "Bio Toxin Weapons",
+   "page": 22,
+   "url": "https://longwarindex.app/weapons/choking_spores/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "3",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blinding_venom",
+   "name": "Blinding Venom",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 51,
+   "url": "https://longwarindex.app/wargear/blinding_venom/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "6\"",
+     "strength": "1",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      },
+      {
+       "rule": "special_rules/blind",
+       "name": "Blind",
+       "url": "https://longwarindex.app/special_rules/blind/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "impaling_tendrils",
+   "name": "Impaling Tendrils",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 66,
+   "url": "https://longwarindex.app/wargear/impaling_tendrils/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "6",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "injector_tail",
+   "name": "Injector Tail",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 29,
+   "url": "https://longwarindex.app/wargear/injector_tail/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "param": "Infantry",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "living_explosive_mucolid_spores",
+   "name": "Living Explosive",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 53,
+   "url": "https://longwarindex.app/wargear/living_explosive_mucolid_spores/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "6",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "codex/tyranids/special_rules/suicidal_explosive_mucolid_spores",
+       "name": "Suicidal Explosive (Mucolid Spores)",
+       "printed": "Suicidal explosion",
+       "url": "https://longwarindex.app/special_rules/suicidal_explosive_mucolid_spores/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "living_explosive_spore_mines",
+   "name": "Living Explosive",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 52,
+   "url": "https://longwarindex.app/wargear/living_explosive_spore_mines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "4",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "codex/tyranids/special_rules/suicidal_explosive_spore_mines",
+       "name": "Suicidal Explosive (Spore Mines)",
+       "printed": "Suicidal explosion",
+       "url": "https://longwarindex.app/special_rules/suicidal_explosive_spore_mines/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reaper_scythe",
+   "name": "Reaper Scythe",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 28,
+   "url": "https://longwarindex.app/wargear/reaper_scythe/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "codex/tyranids/special_rules/tail_weapon",
+       "name": "Tail Weapon",
+       "url": "https://longwarindex.app/special_rules/tail_weapon/"
+      },
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spinemaws",
+   "name": "Spinemaws",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 36,
+   "url": "https://longwarindex.app/wargear/spinemaws/",
+   "profiles": [
+    {
+     "type": "Pistol 4",
+     "range": "6\"",
+     "strength": "2",
+     "ap": "6",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "the_miasma_cannon",
+   "name": "The Miasma Cannon",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 18,
+   "url": "https://longwarindex.app/wargear/the_miasma_cannon/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Venom Cannon or Heavy Venom Cannon for this relic for 10pts.",
+   "profiles": [
+    {
+     "name": "The Miasma Cannon (Spray)",
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "7",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    },
+    {
+     "name": "The Miasma Cannon (Glob)",
+     "type": "Assault 1",
+     "range": "18\"",
+     "strength": "7",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_reaper_of_obliterax",
+   "name": "The Reaper of Obliterax",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 18,
+   "url": "https://longwarindex.app/wargear/the_reaper_of_obliterax/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Bonesword or Monstrous Bonesword for this relic for 15pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_scythes_of_tyran",
+   "name": "The Scythes of Tyran",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/the_scythes_of_tyran/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Scything Talons or Monstrous Scything Talons for this relic for 10pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "toxinjector_harpoon",
+   "name": "Toxinjector Harpoon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 64,
+   "url": "https://longwarindex.app/wargear/toxinjector_harpoon/",
+   "profiles": [
+    {
+     "name": "Toxinjector Harpoon (Shooting)",
+     "type": "Pistol 2",
+     "range": "24\"",
+     "strength": "7",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    },
+    {
+     "name": "Toxinjector Harpoon (Melee)",
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "warp_blast",
+   "name": "Warp Blast",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 27,
+   "url": "https://longwarindex.app/wargear/warp_blast/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "18\"",
+     "strength": "8",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/lance",
+       "name": "Lance",
+       "url": "https://longwarindex.app/special_rules/lance/"
+      },
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wrecker_claws_and_bio_flail",
+   "name": "Wrecker Claws & Bio Flail",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 57,
+   "url": "https://longwarindex.app/wargear/wrecker_claws_and_bio_flail/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

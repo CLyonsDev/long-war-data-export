@@ -1,0 +1,1504 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://longwarindex.app/data/v5/wargear/schema.json",
+ "title": "Long War Index wargear export: the wargear of one faction that is not a weapon (wargear/<faction>.json)",
+ "description": "The weapons are in weapons/<faction>.json. The book, edition and printing of the faction are in factions/index.json.",
+ "type": "object",
+ "required": [
+  "data_version",
+  "format",
+  "faction",
+  "wargear"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "data_version": {
+   "type": "string",
+   "description": "Hash of the file content. It changes only when the content changes."
+  },
+  "format": {
+   "const": 1
+  },
+  "faction": {
+   "type": "string",
+   "pattern": "^[a-z0-9_]+$",
+   "description": "Faction key. See factions/index.json."
+  },
+  "wargear": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/item"
+   }
+  }
+ },
+ "$defs": {
+  "item": {
+   "type": "object",
+   "required": [
+    "id",
+    "name",
+    "section",
+    "page",
+    "url"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$",
+     "description": "Permanent. Unique in the faction. Never changed or reused."
+    },
+    "name": {
+     "type": "string",
+     "description": "Corrected name. The book's text is in printed.name when it differs."
+    },
+    "printed": {
+     "$ref": "#/$defs/printed"
+    },
+    "parameter": {
+     "type": "object",
+     "required": [
+      "kind",
+      "description"
+     ],
+     "additionalProperties": false,
+     "description": "Present when the rule of the item takes a value, printed as (X). Each datasheet gives its own value. The name does not include \"(X)\".",
+     "properties": {
+      "kind": {
+       "enum": [
+        "count"
+       ],
+       "description": "count: a whole number."
+      },
+      "description": {
+       "type": "string",
+       "description": "What the value counts, for example \"the number of Void Shield Tokens\"."
+      }
+     }
+    },
+    "weapons": {
+     "type": "array",
+     "minItems": 1,
+     "description": "The weapons that a model with this item can use. Each weapon is in weapons/<faction>.json.",
+     "items": {
+      "type": "object",
+      "required": [
+       "kind",
+       "id"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "kind": {
+        "const": "weapon"
+       },
+       "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$"
+       },
+       "faction": {
+        "type": "string",
+        "pattern": "^[a-z0-9_]+$",
+        "description": "Present when the weapon is in the file of a parent faction."
+       }
+      }
+     }
+    },
+    "section": {
+     "type": "string",
+     "description": "The heading that the book prints, for example \"Wargear\", \"Armours\" or \"Relics\". \"Datasheet\" for an item that a datasheet prints."
+    },
+    "datasheet": {
+     "type": "string",
+     "description": "Present when section is \"Datasheet\": the unit, as the datasheet prints it."
+    },
+    "page": {
+     "type": "integer",
+     "description": "Printed page number in the book."
+    },
+    "url": {
+     "type": "string",
+     "format": "uri",
+     "description": "The page of the item on the site."
+    },
+    "text": {
+     "type": "string",
+     "description": "The rules text as plain text: no Markdown, no HTML, no links. Paragraphs are separated by one blank line. Each item of a list is a line that starts with \"- \". The flavour text is not included."
+    },
+    "print_defect": {
+     "type": "string",
+     "description": "A defect of the book that the data keeps as printed. An item without text has one."
+    },
+    "effects": {
+     "$ref": "#/$defs/effects"
+    },
+    "unencoded": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "Sentences of text that state a fact for the list or the statline that no property holds."
+    }
+   }
+  },
+  "printed": {
+   "type": "object",
+   "description": "The book's text of each field that the data corrects.",
+   "additionalProperties": {
+    "type": "string"
+   }
+  },
+  "characteristic": {
+   "enum": [
+    "M",
+    "WS",
+    "BS",
+    "S",
+    "T",
+    "W",
+    "A",
+    "I",
+    "Ld",
+    "Sv"
+   ]
+  },
+  "stat_mod": {
+   "type": "object",
+   "required": [
+    "characteristic",
+    "delta"
+   ],
+   "additionalProperties": false,
+   "description": "A change to a characteristic. M: inches. Sv: the number of the save, so -1 is better.",
+   "properties": {
+    "characteristic": {
+     "$ref": "#/$defs/characteristic"
+    },
+    "delta": {
+     "type": "integer"
+    }
+   }
+  },
+  "item_reference": {
+   "type": "object",
+   "required": [
+    "kind",
+    "id"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "kind": {
+     "enum": [
+      "wargear",
+      "weapon"
+     ]
+    },
+    "id": {
+     "type": "string",
+     "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$"
+    },
+    "faction": {
+     "type": "string",
+     "pattern": "^[a-z0-9_]+$",
+     "description": "Present when the item is in the file of another faction."
+    },
+    "profile": {
+     "type": "string",
+     "description": "weapon_rules only: the exact printed name of one profile of the weapon. The rule applies only to that profile, not to the whole weapon. Omit this property to apply the rule to the whole weapon."
+    }
+   }
+  },
+  "effect_rule": {
+   "type": "object",
+   "required": [
+    "rule",
+    "name",
+    "url"
+   ],
+   "additionalProperties": false,
+   "description": "A rule reference, as in the weapon export, with the same optional properties.",
+   "properties": {
+    "rule": {
+     "type": "string"
+    },
+    "name": {
+     "type": "string"
+    },
+    "param": {
+     "type": "string"
+    },
+    "printed": {
+     "type": "string"
+    },
+    "url": {
+     "type": "string",
+     "format": "uri",
+     "description": "The page of the rule on the site. Always present."
+    },
+    "mode": {
+     "enum": [
+      "set",
+      "raise_or_grant",
+      "at_least"
+     ],
+     "description": "raise_or_grant: a model that has the rule raises its value by `by` (to `max`). A model without the rule gains it with `param`."
+    },
+    "by": {
+     "type": [
+      "integer",
+      "string"
+     ],
+     "description": "An integer, or a dice text such as \"D3\"."
+    },
+    "max": {
+     "type": [
+      "integer",
+      "string"
+     ]
+    },
+    "if_already_held": {
+     "oneOf": [
+      {
+       "$ref": "#/$defs/stat_mod"
+      },
+      {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "rule"
+       ],
+       "properties": {
+        "rule": {
+         "$ref": "#/$defs/effect_rule"
+        }
+       }
+      }
+     ],
+     "description": "The model gets this in place of the rule, if it has the rule already: a stat change, or {rule}."
+    },
+    "requires_characteristic": {
+     "$ref": "#/$defs/characteristic",
+     "description": "The rule applies only to a model with this characteristic."
+    },
+    "if_held": {
+     "type": "boolean",
+     "description": "true: the rule applies only to a model that already has the named rule. It never gives the rule to a model that does not have it."
+    },
+    "weapon_types": {
+     "type": "array",
+     "items": {
+      "enum": [
+       "Pistol",
+       "Rapid Fire",
+       "Assault",
+       "Heavy",
+       "Grenade",
+       "Melee"
+      ]
+     }
+    },
+    "weapons": {
+     "type": "array",
+     "items": {
+      "anyOf": [
+       {
+        "$ref": "#/$defs/item_reference"
+       },
+       {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "name"
+        ],
+        "properties": {
+         "name": {
+          "type": "string"
+         }
+        },
+        "description": "A name-only kit item (no profile)."
+       }
+      ]
+     },
+     "description": "weapon_rules only: the rule applies to each of these weapons that the model holds."
+    },
+    "phase": {
+     "enum": [
+      "Movement",
+      "Psychic",
+      "Shooting",
+      "Charge",
+      "Combat"
+     ],
+     "description": "The rule applies only in this phase (Tarsus Buckler: Feel No Pain (5+) in the Combat Phase)."
+    },
+    "while_unit": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "$ref": "#/$defs/unit_filter"
+     },
+     "description": "The entry applies only while the unit matches every filter."
+    },
+    "better": {
+     "enum": [
+      "higher",
+      "lower"
+     ],
+     "description": "With mode at_least: the direction of a better value of the rule."
+    },
+    "weapons_with_rules": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/effect_rule"
+     },
+     "description": "The weapons that have one of these rules."
+    }
+   }
+  },
+  "unit_filter": {
+   "type": "object",
+   "minProperties": 1,
+   "additionalProperties": false,
+   "description": "A unit matches the filter if it matches each property. not: true reverses the result; a filter with not has one other property.",
+   "properties": {
+    "roles": {
+     "type": "array",
+     "items": {
+      "enum": [
+       "HQ",
+       "Troops",
+       "Elites",
+       "Fast Attack",
+       "Heavy Support",
+       "Dedicated Transport",
+       "Flyer",
+       "Lords of War",
+       "Fortification"
+      ]
+     }
+    },
+    "unit_types": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "keywords": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "All of these keywords, as the book prints them."
+    },
+    "any_keywords": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "datasheet_names": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "any_rules": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "Rule ids, as `rule` in a rule reference."
+    },
+    "wargear": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/item_reference"
+     }
+    },
+    "can_take": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/item_reference"
+     },
+     "description": "The model holds one of the items, or the model is a taker of an option group of its datasheet that has a choice that gives one of the items (in items, in the add of exchanges, or by counts_as of a given item). The count limits of the group and the choices already taken do not change the result."
+    },
+    "detachment": {
+     "enum": [
+      "primary",
+      "allied"
+     ],
+     "description": "primary: the unit is in the primary detachment of the army. allied: the unit is in an allied detachment of the army. Absent: any detachment."
+    },
+    "is_warlord": {
+     "type": "boolean"
+    },
+    "transport": {
+     "type": "boolean"
+    },
+    "not": {
+     "const": true
+    }
+   }
+  },
+  "effects": {
+   "type": "object",
+   "minProperties": 1,
+   "additionalProperties": false,
+   "description": "What the item does to a model, a unit or a list. An effect that acts only during the game has no property: it stays in text.",
+   "properties": {
+    "armour_save": {
+     "type": "string",
+     "pattern": "^[2-6]\\+$"
+    },
+    "invulnerable_save": {
+     "type": "string",
+     "pattern": "^[2-6]\\+$",
+     "description": "The Invulnerable save with no condition, as printed."
+    },
+    "cover_save": {
+     "type": "string",
+     "pattern": "^[2-6]\\+$",
+     "description": "The cover save that the item gives (Flare Launcher)."
+    },
+    "invulnerable_save_improve": {
+     "type": "object",
+     "required": [
+      "by"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "by": {
+       "type": "integer"
+      },
+      "max": {
+       "type": "string",
+       "pattern": "^[2-6]\\+$"
+      },
+      "otherwise": {
+       "type": "string",
+       "pattern": "^[2-6]\\+$"
+      }
+     }
+    },
+    "unit_type": {
+     "type": "string"
+    },
+    "keywords": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "stat_mods": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/stat_mod"
+     }
+    },
+    "stat_sets": {
+     "type": "array",
+     "description": "A characteristic that the item sets to a value, in place of the model's own value.",
+     "items": {
+      "type": "object",
+      "required": [
+       "characteristic",
+       "value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "characteristic": {
+        "$ref": "#/$defs/characteristic"
+       },
+       "value": {
+        "type": [
+         "integer",
+         "string"
+        ],
+        "description": "The printed value. M in inches. A range is a text without the inch mark: \"20-30\"."
+       }
+      }
+     }
+    },
+    "rules": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/effect_rule"
+     }
+    },
+    "weapon_rules": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/effect_rule"
+     },
+     "description": "Each entry has weapon_types or weapons, not both."
+    },
+    "unit_invulnerable_save": {
+     "type": "string",
+     "pattern": "^[2-6]\\+$",
+     "description": "The invulnerable save of each model of the unit that includes the model with the item. Guardian Shield: \"This model and any attached unit have a 5+ Invulnerable save.\" This data reads this as: the host unit has the save."
+    },
+    "drones_use_bearer_characteristic": {
+     "type": "object",
+     "required": [
+      "characteristics"
+     ],
+     "additionalProperties": false,
+     "description": "Each Drone type model of the unit that includes the model with the item may use the value of the model with the item for each named characteristic, in place of its own value. An army list program can show the better value. Drone Controller: \"Any Drones attached to a unit with this wargear may use the equipped models Ballistic Skill (BS) characteristic instead of their own.\" The drones of a unit are models of the unit.",
+     "properties": {
+      "characteristics": {
+       "type": "array",
+       "minItems": 1,
+       "items": {
+        "$ref": "#/$defs/characteristic"
+       }
+      }
+     }
+    },
+    "unit_rules": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/effect_rule"
+     },
+     "description": "Rules that the unit gains that includes the model when the player builds the list. An effect on an attached unit acts during the game and is not encoded."
+    },
+    "counts_as": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/item_reference"
+     }
+    },
+    "only_when_purchased": {
+     "const": true
+    },
+    "purchase_restriction": {
+     "type": "object",
+     "required": [
+      "exclude",
+      "quote"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "exclude": {
+       "$ref": "#/$defs/unit_filter",
+       "description": "The units that may not buy the item: each unit that matches this filter."
+      },
+      "quote": {
+       "type": "string"
+      }
+     }
+    },
+    "selects": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "what",
+      "count"
+     ],
+     "description": "A pick that the player makes when the army is mustered. own_weapon: weapons of the model (Armoury Relic). units: units of the army (Puretide Engram Neurochip).",
+     "properties": {
+      "what": {
+       "enum": [
+        "own_weapon",
+        "units"
+       ]
+      },
+      "count": {
+       "type": "integer"
+      },
+      "grants": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/effect_rule"
+       }
+      },
+      "grants_one_of": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/effect_rule"
+       }
+      },
+      "conditions": {
+       "type": "array",
+       "items": {
+        "type": "object"
+       },
+       "description": "The units that may be picked: unit conditions with page ids."
+      },
+      "stat_mods": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/stat_mod"
+       },
+       "description": "Stat changes of the picked units."
+      },
+      "unslotted": {
+       "const": true,
+       "description": "The picked units fill no Force Organization slot."
+      },
+      "weapons_with_rules": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/effect_rule"
+       },
+       "description": "With what: own_weapon, only a weapon that has one of these rules can be picked (Forge Master)."
+      }
+     }
+    },
+    "knows": {
+     "type": "array",
+     "description": "Powers or rites that the bearer knows, free of cost. Nothing is purchased.",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "page",
+       "name"
+      ],
+      "properties": {
+       "page": {
+        "type": "string"
+       },
+       "name": {
+        "type": "string"
+       },
+       "url": {
+        "type": "string",
+        "format": "uri"
+       }
+      }
+     }
+    },
+    "conditional_invulnerable_saves": {
+     "type": "array",
+     "minItems": 1,
+     "description": "Invulnerable saves that apply only on a condition: against weapons with one of the rules (against_weapon_rules), or in one phase (phase). An item can also have an invulnerable_save with no condition (Voidscale Cloak: 5+, and 3+ against Blast or Spray).",
+     "items": {
+      "oneOf": [
+       {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "save",
+         "against_weapon_rules"
+        ],
+        "properties": {
+         "save": {
+          "type": "string",
+          "pattern": "^[2-6]\\+$"
+         },
+         "against_weapon_rules": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+           "$ref": "#/$defs/effect_rule"
+          }
+         }
+        }
+       },
+       {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "save",
+         "phase"
+        ],
+        "properties": {
+         "save": {
+          "type": "string",
+          "pattern": "^[2-6]\\+$"
+         },
+         "phase": {
+          "enum": [
+           "Movement",
+           "Psychic",
+           "Shooting",
+           "Charge",
+           "Combat"
+          ]
+         }
+        }
+       },
+       {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "save",
+         "against"
+        ],
+        "properties": {
+         "save": {
+          "type": "string",
+          "pattern": "^[2-6]\\+$"
+         },
+         "against": {
+          "const": "shooting"
+         }
+        },
+        "description": "Against every shooting attack, Overwatch too."
+       },
+       {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "save",
+         "against_facings"
+        ],
+        "properties": {
+         "save": {
+          "type": "string",
+          "pattern": "^[2-6]\\+$"
+         },
+         "against_facings": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+           "enum": [
+            "Front",
+            "Side",
+            "Rear"
+           ]
+          },
+          "description": "Hits against these armour facings of a vehicle."
+         }
+        }
+       },
+       {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "save",
+         "against_weapon_subtypes"
+        ],
+        "properties": {
+         "save": {
+          "type": "string",
+          "pattern": "^[2-6]\\+$"
+         },
+         "against_weapon_subtypes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+           "type": "string",
+           "pattern": " Weapons$"
+          },
+          "description": "Attacks of the weapons whose subtype (the armoury table of the weapon) is one of these."
+         }
+        }
+       }
+      ]
+     }
+    },
+    "conditional_armour_saves": {
+     "type": "array",
+     "minItems": 1,
+     "description": "Changes to the armour save that apply only against weapons with one of the rules. delta as stat_mods: a negative delta improves the save (Shield Vanes: +1 to the Armour Save against Blast and Spray weapons is delta -1).",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "delta",
+       "against_weapon_rules"
+      ],
+      "properties": {
+       "delta": {
+        "type": "integer",
+        "not": {
+         "const": 0
+        }
+       },
+       "against_weapon_rules": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+         "$ref": "#/$defs/effect_rule"
+        }
+       }
+      }
+     }
+    },
+    "list_building": {
+     "type": "object",
+     "additionalProperties": false,
+     "minProperties": 1,
+     "description": "While a model holds the item (the special rules form).",
+     "properties": {
+      "opens": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/opens_entry"
+       },
+       "description": "The factions that the primary detachment may field."
+      }
+     }
+    },
+    "while_fielded": {
+     "type": "object",
+     "additionalProperties": false,
+     "minProperties": 1,
+     "description": "Effects while a model with the item is in the army (the special rules form, the item as the holder).",
+     "properties": {
+      "stat_grants": {
+       "type": "array",
+       "description": "Matching units change a characteristic.",
+       "items": {
+        "type": "object",
+        "required": [
+         "characteristic",
+         "delta",
+         "filters",
+         "quote"
+        ],
+        "additionalProperties": false,
+        "properties": {
+         "filters": {
+          "type": "array",
+          "items": {
+           "$ref": "#/$defs/unit_filter"
+          },
+          "description": "A unit matches if it matches every filter of the list. An empty list: every unit of the army."
+         },
+         "characteristic": {
+          "$ref": "#/$defs/characteristic"
+         },
+         "delta": {
+          "type": "integer"
+         },
+         "quote": {
+          "type": "string",
+          "description": "The sentence of the text that states the effect."
+         }
+        }
+       }
+      },
+      "rule_grants": {
+       "type": "array",
+       "description": "Matching units gain the rule.",
+       "items": {
+        "type": "object",
+        "required": [
+         "filters",
+         "quote",
+         "rule"
+        ],
+        "additionalProperties": false,
+        "properties": {
+         "filters": {
+          "type": "array",
+          "items": {
+           "$ref": "#/$defs/unit_filter"
+          },
+          "description": "A unit matches if it matches every filter of the list. An empty list: every unit of the army."
+         },
+         "rule": {
+          "$ref": "#/$defs/effect_rule"
+         },
+         "quote": {
+          "type": "string",
+          "description": "The sentence of the text that states the effect."
+         }
+        }
+       }
+      },
+      "rule_suppressions": {
+       "type": "array",
+       "description": "Matching units lose the rule.",
+       "items": {
+        "type": "object",
+        "required": [
+         "filters",
+         "quote",
+         "rule"
+        ],
+        "additionalProperties": false,
+        "properties": {
+         "filters": {
+          "type": "array",
+          "items": {
+           "$ref": "#/$defs/unit_filter"
+          },
+          "description": "A unit matches if it matches every filter of the list. An empty list: every unit of the army."
+         },
+         "rule": {
+          "$ref": "#/$defs/effect_rule"
+         },
+         "quote": {
+          "type": "string",
+          "description": "The sentence of the text that states the effect."
+         }
+        }
+       }
+      }
+     }
+    },
+    "powers_only_from": {
+     "type": "array",
+     "minItems": 1,
+     "description": "The holder may buy psychic powers only from these book option groups.",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "book_options",
+       "group"
+      ],
+      "properties": {
+       "book_options": {
+        "type": "string"
+       },
+       "group": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "weapon_stat_mods": {
+     "type": "array",
+     "description": "Changes of the profiles of the bearer's weapons.",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "weapons",
+       "mods"
+      ],
+      "properties": {
+       "weapons": {
+        "type": "object",
+        "additionalProperties": false,
+        "description": "Every key given must hold.",
+        "properties": {
+         "weapon_types": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "except_weapon_types": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "with_rule": {
+          "$ref": "#/$defs/effect_rule"
+         },
+         "shooting": {
+          "const": true,
+          "description": "A profile that is not Melee."
+         },
+         "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+           "$ref": "#/$defs/item_reference"
+          },
+          "description": "Weapon references (kind weapon). The weapon is one of these."
+         }
+        }
+       },
+       "mods": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "additionalProperties": false,
+         "required": [
+          "characteristic"
+         ],
+         "properties": {
+          "characteristic": {
+           "enum": [
+            "S",
+            "Range",
+            "AP",
+            "Type"
+           ]
+          },
+          "delta": {
+           "type": "integer"
+          },
+          "value": {
+           "type": [
+            "string",
+            "integer"
+           ]
+          }
+         },
+         "description": "S, Range or AP with delta (added) or value (replaces), or Type with value only: the printed type with its shots, for example \"Assault 1\"."
+        }
+       }
+      }
+     }
+    },
+    "unit_weapon_stat_mods": {
+     "type": "array",
+     "description": "Changes of the profiles of the weapons of each model of the unit that includes the bearer. Pulse Accelerator: \"Any unit that this model is attached to gains +6\" to the range of all Pulse weapons models in that unit are equipped with.\"",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "weapons",
+       "mods"
+      ],
+      "properties": {
+       "weapons": {
+        "type": "object",
+        "additionalProperties": false,
+        "description": "Every key given must hold.",
+        "properties": {
+         "weapon_types": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "except_weapon_types": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "with_rule": {
+          "$ref": "#/$defs/effect_rule"
+         },
+         "shooting": {
+          "const": true,
+          "description": "A profile that is not Melee."
+         },
+         "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+           "$ref": "#/$defs/item_reference"
+          },
+          "description": "Weapon references (kind weapon). The weapon is one of these."
+         }
+        }
+       },
+       "mods": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "additionalProperties": false,
+         "required": [
+          "characteristic"
+         ],
+         "properties": {
+          "characteristic": {
+           "enum": [
+            "S",
+            "Range",
+            "AP",
+            "Type"
+           ]
+          },
+          "delta": {
+           "type": "integer"
+          },
+          "value": {
+           "type": [
+            "string",
+            "integer"
+           ]
+          }
+         },
+         "description": "S, Range or AP with delta (added) or value (replaces), or Type with value only: the printed type with its shots, for example \"Assault 1\"."
+        }
+       }
+      }
+     }
+    },
+    "armour_save_improve": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "by"
+     ],
+     "properties": {
+      "by": {
+       "type": "integer"
+      },
+      "max": {
+       "type": "string",
+       "pattern": "^[2-6]\\+$"
+      },
+      "otherwise": {
+       "type": "string",
+       "pattern": "^[2-6]\\+$"
+      }
+     },
+     "description": "The invulnerable_save_improve form for the Armour save."
+    },
+    "unit_weapon_rules": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/effect_rule"
+     },
+     "description": "Weapon rules of every model of the unit that includes the bearer."
+    },
+    "transport_capacity": {
+     "type": "object",
+     "required": [
+      "type",
+      "replaces"
+     ],
+     "description": "The special rules form; replaces: true replaces the unit's capacity."
+    },
+    "armour_save_by_unit_type": {
+     "type": "array",
+     "description": "The Armour save for these unit types; armour_save is the default.",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "save",
+       "unit_types"
+      ],
+      "properties": {
+       "save": {
+        "type": "string",
+        "pattern": "^[2-6]\\+$"
+       },
+       "unit_types": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "opens_entry": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "faction"
+   ],
+   "properties": {
+    "faction": {
+     "type": "string",
+     "pattern": "^[a-z0-9_]+$"
+    },
+    "datasheets": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "names": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "Units of a book that this data does not hold yet, by their printed names."
+    },
+    "conditions": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/ac_condition"
+     }
+    },
+    "role": {
+     "enum": [
+      "HQ",
+      "Troops",
+      "Elites",
+      "Fast Attack",
+      "Heavy Support",
+      "Dedicated Transport",
+      "Flyer",
+      "Lords of War",
+      "Fortification"
+     ]
+    },
+    "max_units": {
+     "type": "integer"
+    },
+    "per_points": {
+     "$ref": "#/$defs/per_points"
+    }
+   },
+   "description": "A faction that the rule opens."
+  },
+  "ac_condition": {
+   "type": "object",
+   "additionalProperties": false,
+   "minProperties": 1,
+   "maxProperties": 1,
+   "properties": {
+    "warlord": {
+     "const": true,
+     "description": "The unit is the Warlord."
+    },
+    "rule": {
+     "$ref": "#/$defs/rule_entry",
+     "description": "The unit has the rule, any value."
+    },
+    "keyword": {
+     "type": "string",
+     "description": "A red name: the unit has the keyword."
+    },
+    "not_keyword": {
+     "type": "string"
+    },
+    "datasheet": {
+     "type": "string",
+     "description": "A blue name: the unit is of this datasheet (page id)."
+    },
+    "rows": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "datasheet",
+       "profile"
+      ],
+      "properties": {
+       "datasheet": {
+        "type": "string"
+       },
+       "profile": {
+        "type": "string"
+       }
+      }
+     },
+     "description": "A quoted role in no colour ('Sergeant' model): the rows that it names."
+    },
+    "unit_type": {
+     "type": "string",
+     "description": "A unit type of §17.0."
+    },
+    "holds": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/kit_item"
+     }
+    },
+    "lacks": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/kit_item"
+     }
+    },
+    "choice": {
+     "$ref": "#/$defs/ac_choice_path"
+    },
+    "not_choice": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/ac_choice_path"
+     }
+    },
+    "transport": {
+     "const": true,
+     "description": "The unit has a Transport rule."
+    },
+    "any_of": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/ac_condition"
+     }
+    },
+    "role": {
+     "enum": [
+      "HQ",
+      "Troops",
+      "Elites",
+      "Fast Attack",
+      "Heavy Support",
+      "Dedicated Transport",
+      "Flyer",
+      "Lords of War",
+      "Fortification"
+     ],
+     "description": "The unit fills this role, after any role grant."
+    },
+    "faction": {
+     "type": "string",
+     "pattern": "^[a-z0-9_]+$",
+     "description": "The unit is of this faction."
+    },
+    "allegiance": {
+     "type": "string",
+     "description": "The unit's detachment took this allegiance (page id)."
+    },
+    "not": {
+     "$ref": "#/$defs/ac_condition",
+     "description": "The condition does not hold."
+    },
+    "name": {
+     "type": "string",
+     "description": "A unit of a book that this data does not hold yet, by its printed name."
+    }
+   }
+  },
+  "per_points": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "per",
+    "exact"
+   ],
+   "properties": {
+    "per": {
+     "type": "integer"
+    },
+    "exact": {
+     "type": "boolean"
+    }
+   },
+   "description": "The count is for each \"per\" points of the army. exact: the count is exact, not a minimum. Rounding: the number of steps is the army points divided by \"per\", rounded up, and at least 1. Example with per 1000: 0-1000pts gives 1 step, 1001-2000pts gives 2 steps."
+  },
+  "ac_choice_path": {
+   "oneOf": [
+    {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "book_options",
+      "path"
+     ],
+     "properties": {
+      "book_options": {
+       "type": "string",
+       "pattern": "^[a-z0-9_]+$"
+      },
+      "path": {
+       "type": "string"
+      }
+     },
+     "description": "A choice of a book option list: \"<group id>/<choice id>\"."
+    },
+    {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "page",
+      "path"
+     ],
+     "properties": {
+      "page": {
+       "type": "string"
+      },
+      "path": {
+       "type": "string"
+      }
+     },
+     "description": "An option choice of a datasheet (units export) or a rule (special rules export): \"<group id>/<choice id>\"."
+    }
+   ]
+  },
+  "kit_item": {
+   "type": "object",
+   "additionalProperties": false,
+   "description": "An item reference of the weapon or wargear export, or {name} for an item that has no entry.",
+   "properties": {
+    "kind": {
+     "enum": [
+      "weapon",
+      "wargear"
+     ]
+    },
+    "id": {
+     "type": "string",
+     "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$"
+    },
+    "faction": {
+     "type": "string",
+     "description": "Present when the item is in the file of another faction."
+    },
+    "name": {
+     "type": "string",
+     "description": "Only for an item that has no weapon or wargear entry: the printed name."
+    },
+    "param": {
+     "type": "string",
+     "description": "The value of the item, for example \"3\" for Void Shields (3)."
+    },
+    "count": {
+     "type": "integer",
+     "minimum": 1,
+     "description": "The printed number. Not present means 1 (no number printed)."
+    },
+    "mount": {
+     "enum": [
+      "primary",
+      "secondary"
+     ],
+     "description": "(P) is a Primary weapon, (S) is a Secondary weapon (unit_types/vehicle.md)."
+    },
+    "note": {
+     "type": "string",
+     "description": "A printed note in brackets, for example \"This counts as two weapons\"."
+    },
+    "printed": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "The name that the book prints when it is another name than the item, for example \"Daemon Engine Plate\". null: the book does not print this item in this kit, but this data adds it."
+    }
+   },
+   "oneOf": [
+    {
+     "required": [
+      "kind",
+      "id"
+     ]
+    },
+    {
+     "required": [
+      "name"
+     ],
+     "not": {
+      "anyOf": [
+       {
+        "required": [
+         "kind"
+        ]
+       },
+       {
+        "required": [
+         "id"
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "rule_entry": {
+   "type": "object",
+   "additionalProperties": false,
+   "description": "A rule reference, as in the unit types export. A rule that has no rule page is {name} only.",
+   "required": [
+    "name"
+   ],
+   "properties": {
+    "rule": {
+     "type": "string",
+     "description": "The id of the rule in a special rules file."
+    },
+    "name": {
+     "type": "string"
+    },
+    "param": {
+     "type": "string"
+    },
+    "printed": {
+     "type": "string"
+    },
+    "url": {
+     "type": "string",
+     "format": "uri"
+    }
+   },
+   "dependentRequired": {
+    "rule": [
+     "url"
+    ]
+   }
+  }
+ }
+}

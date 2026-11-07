@@ -1,0 +1,126 @@
+{
+ "data_version": "b8d2df2366ebaaf9",
+ "format": 1,
+ "faction": "thousand_sons",
+ "wargear": [
+  {
+   "id": "scroll_of_power",
+   "name": "Scroll of Power",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/scroll_of_power/",
+   "text": "Once per game, a model equipped with this wargear can use this equipment when declaring that it will cast a Psychic Power in the Shooting Phase. The unit can roll an additional D6 for its Psychic test and discard 1 for determining if the test was successfully cast."
+  },
+  {
+   "id": "scroll_of_dispel",
+   "name": "Scroll of Dispel",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/scroll_of_dispel/",
+   "text": "Once per game, when an enemy unit within 24\" attempts to make a Psychic test, the unit attempting the test automatically fails and counts as having rolled a Perils of the Warp instead."
+  },
+  {
+   "id": "scroll_of_magic",
+   "name": "Scroll of Magic",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/scroll_of_magic/",
+   "text": "When this wargear is purchased, the model may immediately purchase 1 Psychic Power or Psychic Weapon from the Lore Tzeentch, Lore of Nurgle or Lore of Slaanesh. The purchased Psychic Power or Psychic Weapon can only be used once per game."
+  },
+  {
+   "id": "disc_of_tzeentch",
+   "name": "Disc of Tzeentch",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/disc_of_tzeentch_thousand_sons/",
+   "text": "A model equipped with this wargear increases its Movement (M) characteristic to 12\" and gains the Fly, Hammer of Wrath (1), Relentless, and Deep Strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_athenean_scrolls",
+   "name": "The Athenean Scrolls",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_athenean_scrolls/",
+   "text": "One unit in your army with the Character & Psyker (x) special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic. A model equipped with this relic wargear never suffers any modifiers on its Psychic Tests from Deny the Witch special rule and any attacks it makes with Psychic Weapons ignores the Adamantium Will special rule."
+  },
+  {
+   "id": "eye_of_the_warp",
+   "name": "Eye of the Warp",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/eye_of_the_warp/",
+   "text": "One unit in your army with the Character & Psyker (x) special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic. Once per turn, the model equipped with this relic may attempt to cast an additional Psychic Power or Psychic Weapon beyond its Psyker (x) allowed value. However, the Psyker suffers a Peril of the Warp on any result of a doubles on the Psychic Test."
+  },
+  {
+   "id": "the_chronus_tutorum",
+   "name": "The Chronus Tutorum",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_chronus_tutorum/",
+   "text": "One unit in your army with the Character & Psyker (x) special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic. Once per game, if the model with this wargear is your Warlord, or your Warlord has been slain, this model may become the Warlord and/or exchange its Warlord Trait for a new Warlord Trait (See Thousand Sons Warlord Traits)."
+  },
+  {
+   "id": "helm_of_the_third_eye",
+   "name": "Helm of the Third Eye",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/helm_of_the_third_eye/",
+   "text": "One unit in your army with the Character & Psyker (x) special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic. A model equipped with this Relic Wargear and any attached unit may Set to Overwatch even of they have the Slow & Purposeful special rule."
+  },
+  {
+   "id": "the_crown_of_the_crimson_king",
+   "name": "The Crown of the Crimson King",
+   "section": "Datasheet",
+   "datasheet": "Magnus the Red, Daemon Primarch of the Thousand Sons",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/the_crown_of_the_crimson_king/",
+   "text": "This wargear confers a 3+ Invulnerable save (The benefit from the Mark of Tzeentch is included in this). The unit equipped with this wargear does not suffer Perils of the Warp.",
+   "effects": {
+    "invulnerable_save": "3+"
+   }
+  },
+  {
+   "id": "heavy_battlehide",
+   "name": "Heavy Battlehide",
+   "section": "Datasheet",
+   "datasheet": "Castellax-Achae Automata",
+   "page": 23,
+   "url": "https://longwarindex.app/wargear/heavy_battlehide_thousand_sons/",
+   "text": "The armored battlehide of Automata is thick and powerful, able to withstand great force. It confers a 2+ Armour save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  }
+ ]
+}

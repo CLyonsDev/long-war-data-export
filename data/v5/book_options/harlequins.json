@@ -1,0 +1,556 @@
+{
+ "data_version": "42353714c70c9994",
+ "format": 1,
+ "faction": "harlequins",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/starmist_raiment/",
+   "offered_by": {
+    "codex": "harlequins"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "starmist_raiment",
+     "name": "Starmist Raiment",
+     "points": 30,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "starmist_raiment"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/starmist_raiment/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_laughing_gods_eye",
+     "name": "The Laughing God's Eye",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_laughing_gods_eye"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/the_laughing_gods_eye/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_mask_of_secrets",
+     "name": "The Mask of Secrets",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_mask_of_secrets"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_mask_of_secrets/",
+     "pricing": "flat"
+    },
+    {
+     "id": "cegorachs_rose",
+     "name": "Cegorach's Rose",
+     "points": 50,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Harlequins Kiss for this relic for 50pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "harlequins_kiss"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "cegorachs_rose"
+        }
+       ]
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/cegorachs_rose/",
+     "pricing": "flat"
+    },
+    {
+     "id": "crescendo",
+     "name": "Crescendo",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Shuriken Pistol for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "shuriken_pistol"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "crescendo"
+        }
+       ]
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/crescendo/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_storied_sword",
+     "name": "The Storied Sword",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_storied_sword"
+        }
+       ]
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_storied_sword/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "general_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 11,
+   "url": "https://longwarindex.app/codex/harlequins/warlord_traits/",
+   "offered_by": {
+    "codex": "harlequins"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "harlequins/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "a_foot_in_the_future",
+     "name": "A Foot in the Future",
+     "page": 11,
+     "url": "https://longwarindex.app/warlord_traits/a_foot_in_the_future/",
+     "text": "A Warlord with this trait and any attached unit gains the Sprint (3) special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/sprint",
+       "name": "Sprint",
+       "param": "3",
+       "url": "https://longwarindex.app/universal_special_rules/sprint/"
+      }
+     ]
+    },
+    {
+     "id": "fractal_storm",
+     "name": "Fractal Storm",
+     "page": 11,
+     "url": "https://longwarindex.app/warlord_traits/fractal_storm/",
+     "text": "A model with this Warlord trait has a 3+ Invulnerable save.",
+     "points": 0,
+     "pricing": "flat",
+     "invulnerable_save": "3+"
+    },
+    {
+     "id": "luck_of_the_laughing_god",
+     "name": "Luck of the Laughing God",
+     "page": 11,
+     "url": "https://longwarindex.app/warlord_traits/luck_of_the_laughing_god/",
+     "text": "A model with this Warlord trait may re-roll Hit Rolls and Save rolls of 1.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "A model with this Warlord trait may re-roll Hit Rolls and Save rolls of 1."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "light_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 11,
+   "url": "https://longwarindex.app/codex/harlequins/warlord_traits/",
+   "offered_by": {
+    "codex": "harlequins"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "choice": {
+       "page": "codex/harlequins/special_rules/casting_call",
+       "path": "role/light"
+      }
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "harlequins/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "a_heroes_call",
+     "name": "A Heroes Call",
+     "page": 11,
+     "url": "https://longwarindex.app/warlord_traits/a_heroes_call/",
+     "text": "A model with this Warlord trait and any attached unit gains the Scout special rule. In addition, gain +1 to the dice roll when determining who will take the first turn.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/scout",
+       "name": "Scout",
+       "url": "https://longwarindex.app/universal_special_rules/scout/"
+      }
+     ],
+     "game_time": [
+      "In addition, gain +1 to the dice roll when determining who will take the first turn."
+     ]
+    },
+    {
+     "id": "a_trick_of_light",
+     "name": "A Trick of Light",
+     "page": 11,
+     "url": "https://longwarindex.app/warlord_traits/a_trick_of_light/",
+     "text": "If your army includes a model with this Warlord Trait, after deployment but before the first Battle Round begins, you may re-deploy 3 units in your army.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "If your army includes a model with this Warlord Trait, after deployment but before the first Battle Round begins, you may re-deploy 3 units in your army."
+     ]
+    },
+    {
+     "id": "webway_walker",
+     "name": "Webway Walker",
+     "page": 11,
+     "url": "https://longwarindex.app/warlord_traits/webway_walker/",
+     "text": "If your army includes a model with this Warlord Trait, you can select up to D3 units in your army to gain the Deep Strike special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "If your army includes a model with this Warlord Trait, you can select up to D3 units in your army to gain the Deep Strike special rule."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "twilight_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 11,
+   "url": "https://longwarindex.app/codex/harlequins/warlord_traits/",
+   "offered_by": {
+    "codex": "harlequins"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "choice": {
+       "page": "codex/harlequins/special_rules/casting_call",
+       "path": "role/twilight"
+      }
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "harlequins/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "dance_of_infinite_mirrors",
+     "name": "Dance of Infinite Mirrors",
+     "page": 12,
+     "url": "https://longwarindex.app/warlord_traits/dance_of_infinite_mirrors/",
+     "text": "Once per game, in your Movement Phase, you may remove a model with this Warlord trait and any attached unit from the Battlefield. Place them back down on the Battlefield anywhere more than 9\" away from any enemy models. This counts as the units 6.1 - Normal Move that Phase.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "Once per game, in your Movement Phase, you may remove a model with this Warlord trait and any attached unit from the Battlefield. Place them back down on the Battlefield anywhere more than 9\" away from any enemy models. This counts as the units 6.1 - Normal Move that Phase."
+     ]
+    },
+    {
+     "id": "narrator_of_wars",
+     "name": "Narrator of Wars",
+     "page": 12,
+     "url": "https://longwarindex.app/warlord_traits/narrator_of_wars/",
+     "text": "If your army includes a model with this Warlord trait, and they are alive and on the Battlefield during Battle Round 4, you may declare that the battle ends or declare that the battle will be 6 Battle Rounds instead.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "If your army includes a model with this Warlord trait, and they are alive and on the Battlefield during Battle Round 4, you may declare that the battle ends or declare that the battle will be 6 Battle Rounds instead."
+     ]
+    },
+    {
+     "id": "the_steps_of_mortal_transition",
+     "name": "The Steps of Mortal Transition",
+     "page": 12,
+     "url": "https://longwarindex.app/warlord_traits/the_steps_of_mortal_transition/",
+     "text": "All Attacks by a model with this Warlord Trait are treated as having the Murderous Strike (6+) special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dark_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 11,
+   "url": "https://longwarindex.app/codex/harlequins/warlord_traits/",
+   "offered_by": {
+    "codex": "harlequins"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "choice": {
+       "page": "codex/harlequins/special_rules/casting_call",
+       "path": "role/dark"
+      }
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "harlequins/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "dance_of_nightmares_made_flesh",
+     "name": "Dance Of Nightmares Made Flesh",
+     "page": 12,
+     "url": "https://longwarindex.app/warlord_traits/dance_of_nightmares_made_flesh/",
+     "text": "Enemy units within 3\" of a model with this Warlord trait that must make a Panic test, before rolling their Panic test must subtract D6 from their Leadership (LD) characteristic.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "Enemy units within 3\" of a model with this Warlord trait that must make a Panic test, before rolling their Panic test must subtract D6 from their Leadership (LD) characteristic."
+     ]
+    },
+    {
+     "id": "the_final_joke",
+     "name": "The Final Joke",
+     "page": 12,
+     "url": "https://longwarindex.app/warlord_traits/the_final_joke/",
+     "text": "When this Warlord would be removed from play and slain, the unit that inflicted the final wound which resulted in the Warlord being slain is automatically removed from play and counts as Slain/Wrecked.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "When this Warlord would be removed from play and slain, the unit that inflicted the final wound which resulted in the Warlord being slain is automatically removed from play and counts as Slain/Wrecked."
+     ]
+    },
+    {
+     "id": "twisted_encore",
+     "name": "Twisted Encore",
+     "page": 12,
+     "url": "https://longwarindex.app/warlord_traits/twisted_encore/",
+     "text": "After the final Battle Round of a game has concluded, before any objectives are tallied or any further steps taken, a model with this Warlord trait that is alive and on the Battlefield may conduct an additional turn with a Movement, Shooting, Charge and Combat Phase. The battle then concludes and Victory Points are calculated.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "After the final Battle Round of a game has concluded, before any objectives are tallied or any further steps taken, a model with this Warlord trait that is alive and on the Battlefield may conduct an additional turn with a Movement, Shooting, Charge and Combat Phase. The battle then concludes and Victory Points are calculated."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "psychic_powers",
+   "kind": "psychic_powers",
+   "label": "An Eldar Harlequin may purchase Psychic Powers from the following Psychic Discipline:",
+   "printed": "An Eldar Harlequin may purchase Psychic Powers from the following Psychic Discipline:",
+   "page": 13,
+   "url": "https://longwarindex.app/codex/harlequins/powers/",
+   "offered_by": {
+    "codex": "harlequins"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Harlequin"
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "dance_of_shadows",
+     "name": "Dance of Shadows",
+     "page": 13,
+     "url": "https://longwarindex.app/powers/dance_of_shadows/",
+     "text": "When this power is cast, the Psyker and any attached unit gain the Feel no Pain (6+) special rule.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "fog_of_dreams",
+     "name": "Fog of Dreams",
+     "page": 13,
+     "url": "https://longwarindex.app/powers/fog_of_dreams/",
+     "text": "When this power is cast, select 1 enemy unit within 12\" of the Psyker and any attached unit. The target unit may only make 8.2.1 - Snap Shots in the Shooting Phase until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "mirror_of_minds",
+     "name": "Mirror of Minds",
+     "page": 13,
+     "url": "https://longwarindex.app/powers/mirror_of_minds/",
+     "text": "When this Psychic power is cast, select a single enemy model within 18\" of the Psyker. The target model must make a Leadership Test. On a pass, they take 1 Automatic Wound with no saves allowed. If they fail, they take D3+1 Automatic Wounds with no saves allowed.",
+     "points": 25,
+     "pricing": "flat"
+    },
+    {
+     "id": "peal_of_discord",
+     "name": "Peal of Discord",
+     "page": 13,
+     "url": "https://longwarindex.app/powers/peal_of_discord/",
+     "text": "A Psyker is equipped with the following Psychic weapon:\n\n- Peal of Discord",
+     "points": 5,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "peal_of_discord"
+      }
+     ]
+    },
+    {
+     "id": "shards_of_light",
+     "name": "Shards of Light",
+     "page": 13,
+     "url": "https://longwarindex.app/powers/shards_of_light/",
+     "text": "A Psyker is equipped with the following Psychic weapon:\n\n- Shards of Light",
+     "points": 5,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "shards_of_light"
+      }
+     ]
+    },
+    {
+     "id": "veil_of_tears",
+     "name": "Veil of Tears",
+     "page": 13,
+     "url": "https://longwarindex.app/powers/veil_of_tears/",
+     "text": "When this power is cast, select 1 enemy unit within 18\" of the Psyker and any attached unit. The target unit may not target the Psyker and their attached unit with Shooting Attacks in the Shooting Phase until the start of your next Shooting Phase.",
+     "points": 25,
+     "pricing": "flat"
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

@@ -1,0 +1,723 @@
+{
+ "data_version": "45b5239f4c243dd5",
+ "format": 1,
+ "faction": "adeptus_mechanicus",
+ "special_rules": [
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/arch_magos",
+   "name": "Arch Magos",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/arch_magos/",
+   "references": [
+    "universal_special_rules/battle_hardened",
+    "universal_special_rules/battle_smith"
+   ],
+   "text": "A unit with this upgrade gains the Battle-Hardened special rule and improves its Battle Smith (x) special rule by 1. In addition, improve the unit's Ballistic Skill (BS), Wounds (W), Attacks (A) and Leadership (LD) characteristics by 1.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     },
+     {
+      "rule": "universal_special_rules/battle_smith",
+      "name": "Battle Smith",
+      "param": "1",
+      "printed": "[[Battle Smith (1)]]",
+      "url": "https://longwarindex.app/universal_special_rules/battle_smith/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "BS",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     },
+     {
+      "characteristic": "A",
+      "delta": 1
+     },
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/beast_cortex",
+   "name": "Beast Cortex",
+   "kind": "datasheet",
+   "page": 67,
+   "url": "https://longwarindex.app/special_rules/beast_cortex/",
+   "references": [
+    "universal_special_rules/slow_and_purposeful"
+   ],
+   "text": "This unit has a Movement (M) characteristic of 10\" and is not subject to the Slow & Purposeful special rule.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 10
+     }
+    ],
+    "suppresses_rules": [
+     {
+      "rule": "universal_special_rules/slow_and_purposeful",
+      "name": "Slow and Purposeful",
+      "printed": "[[Slow and Purposeful|Slow & Purposeful]]",
+      "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/binaric_command",
+   "name": "Binaric Command",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/binaric_command/",
+   "text": "A model with this special rule may only be your Warlord if your army does not include a Tech-Priest Dominus unit.",
+   "effects": {
+    "list_building": {
+     "warlord_forbidden_while": {
+      "datasheet_names": [
+       "Tech-Priest Dominus"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/binaric_domination",
+   "name": "Binaric Domination",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/binaric_domination/",
+   "references": [
+    "special_rules/pinning"
+   ],
+   "text": "A unit with this special rule would fail a Panic test, instead of falling back, the unit is Pinned instead."
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/canticles_of_the_omnissiah",
+   "name": "Canticles of the Omnissiah",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/canticles_of_the_omnissiah/",
+   "references": [
+    "universal_special_rules/hammer_of_wrath",
+    "universal_special_rules/furious_charge",
+    "universal_special_rules/indomitable_spirit",
+    "universal_special_rules/last_stand"
+   ],
+   "text": "At the start of each Movement Phase, this unit may make a Leadership test. On a pass, you may select 1 of the following Canticles to be in effect. The selected Canticle affects all friendly Adeptus Mechanicum units on the Battlefield. On a fail, nothing happens. The selected Canticle remains in effect until a unit with this special rule makes another Leadership Test where on a pass, they may change the Canticle in effect:\n\n- Litany of the Electromancer: All Adeptus Mechanicus units in your army gain the Hammer of Wrath (1) special rule. If they already have the Hammer of Wrath special rule, increase the value of X by 1.\n- Shroud Psalm: All Adeptus Mechanicus units in your army gain the benefit of Light Cover. If they are already benefiting from Light Cover, they gain the benefit of Heavy Cover instead.\n- Chant of the Remorseless Fist: All Adeptus Mechanicus units in your army gain the Furious Charge special rule.\n- Incantation of the iron Soul: All Adeptus Mechanicus units in your army gain the Indomitable Spirit (4+) special rule.\n- Vengeance of the Machine Spirit: All Adeptus Mechanicus units in your army gain the Last Stand special rule."
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/conversion",
+   "name": "Conversion",
+   "kind": "weapon",
+   "page": 18,
+   "url": "https://longwarindex.app/special_rules/conversion_adeptus_mechanicus/",
+   "text": "If the target of this weapon is not within half of the weapons range when making an attack, the weapon gains +2 to its Strength characteristic."
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/djinn_sight",
+   "name": "Djinn-Sight",
+   "kind": "datasheet",
+   "page": 51,
+   "url": "https://longwarindex.app/special_rules/djinn_sight/",
+   "text": "A unit with this special rule ignores Light Cover in the Shooting Phase."
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/doctrina_imperative",
+   "name": "Doctrina Imperative",
+   "kind": "datasheet",
+   "page": 38,
+   "url": "https://longwarindex.app/special_rules/doctrina_imperative/",
+   "text": "At the start of each of your Movement Phases, you may select 1 friendly Skitarii unit within 12\" to gain 1 of the following effects:\n\n- Conqueror Imperative: The selected Skitarii unit gains +1 to its Weapon Skill (WS) characteristic.\n- Protector Imperative: The selected Skitarii unit gains +1 to its Ballistic Skill (BS) characteristic."
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/flank_speed",
+   "name": "Flank Speed",
+   "kind": "datasheet",
+   "page": 29,
+   "url": "https://longwarindex.app/special_rules/flank_speed_adeptus_mechanicus/",
+   "text": "When this unit performs an 6.3 - Advance move in the Movement Phase, it automatically adds 12\" to its Movement (M) characteristic."
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/galvanic_traction_drive",
+   "name": "Galvanic Traction Drive",
+   "kind": "datasheet",
+   "page": 56,
+   "url": "https://longwarindex.app/special_rules/galvanic_traction_drive/",
+   "references": [
+    "universal_special_rules/move_through_cover"
+   ],
+   "text": "This unit has a 5+ Invulnerable save against all hits against its Side and Rear Armour. This unit gains Move Through Cover.",
+   "effects": {
+    "conditional_invulnerable_saves": [
+     {
+      "save": "5+",
+      "against_facings": [
+       "Side",
+       "Rear"
+      ]
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/move_through_cover",
+      "name": "Move Through Cover",
+      "printed": "[[Move Through Cover]]",
+      "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/medkit",
+   "name": "Medkit",
+   "kind": "datasheet",
+   "page": 41,
+   "url": "https://longwarindex.app/special_rules/medkit/",
+   "references": [
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "A unit that includes a model with this special rule gains the Feel No Pain (5+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "printed": "[[Feel No Pain (5+)]]",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/ordo_cybernetica",
+   "name": "Ordo Cybernetica",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/ordo_cybernetica/",
+   "text": "This unit may join units with the Automata type. Attached Automata type units ignore the restrictions on targeting for Shooting and Charging while the unit with this upgrade is attached. In addition, the attached Automata unit uses this unit's Weapon Skill (WS) and Ballistic Skill (BS) characteristics."
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/ordo_genetor",
+   "name": "Ordo Genetor",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/ordo_genetor/",
+   "text": "In the Shooting Phase, instead of Shooting, a unit with this upgrade may select 1 Infantry type unit it is attached to. That unit Heals D3 Wounds or regains D3 slain models."
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/ordo_logi",
+   "name": "Ordo Logi",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/ordo_logi/",
+   "references": [
+    "special_rules/linked"
+   ],
+   "text": "This unit gains the Linked special rule on all Shooting Weapons it is equipped with.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/linked",
+      "name": "Linked",
+      "url": "https://longwarindex.app/special_rules/linked/",
+      "weapon_types": [
+       "Pistol",
+       "Rapid Fire",
+       "Assault",
+       "Heavy",
+       "Grenade"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/ordo_magi",
+   "name": "Ordo Magi",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/ordo_magi/",
+   "text": "A model with this upgrade always counts as controlling an Objective it is on, regardless of the number of enemy models attempting to contest the objective."
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/ordo_reductor",
+   "name": "Ordo Reductor",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/ordo_reductor/",
+   "references": [
+    "universal_special_rules/tank_hunters",
+    "universal_special_rules/siege_attackers"
+   ],
+   "text": "This unit and any attached unit gain the Tank Hunter and Siege Attacker special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/tank_hunters",
+      "name": "Tank Hunters",
+      "printed": "[[Tank Hunters|Tank Hunter]]",
+      "url": "https://longwarindex.app/universal_special_rules/tank_hunters/"
+     },
+     {
+      "rule": "universal_special_rules/siege_attackers",
+      "name": "Siege Attackers",
+      "printed": "[[Siege Attackers|Siege Attacker]]",
+      "url": "https://longwarindex.app/universal_special_rules/siege_attackers/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/paragon_of_metal",
+   "name": "Paragon of Metal",
+   "kind": "army",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/paragon_of_metal/",
+   "text": "A unit with this upgrade gains +1 to their Ballistic Skill (BS), Weapon Skill (WS) and Leadership (LD) characteristics. In addition, the upgraded unit ignores the normal targeting restrictions on Shooting and Charging for Automata type units.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "BS",
+      "delta": 1
+     },
+     {
+      "characteristic": "WS",
+      "delta": 1
+     },
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/prime_reductor",
+   "name": "Prime Reductor",
+   "kind": "warlord_trait",
+   "page": 40,
+   "url": "https://longwarindex.app/special_rules/prime_reductor/",
+   "references": [
+    "universal_special_rules/tank_hunters",
+    "universal_special_rules/siege_attackers"
+   ],
+   "text": "If this unit is your Warlord, all friendly Mechanicus units in your army gain the Tank Hunter and Siege Attacker special rules.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Adeptus Mechanicus"
+         ]
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/tank_hunters",
+        "name": "Tank Hunters",
+        "printed": "[[Tank Hunters|Tank Hunter]]",
+        "url": "https://longwarindex.app/universal_special_rules/tank_hunters/"
+       },
+       "quote": "If this unit is your Warlord, all friendly Mechanicus units in your army gain the Tank Hunter and Siege Attacker special rules."
+      },
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Adeptus Mechanicus"
+         ]
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/siege_attackers",
+        "name": "Siege Attackers",
+        "printed": "[[Siege Attackers|Siege Attacker]]",
+        "url": "https://longwarindex.app/universal_special_rules/siege_attackers/"
+       },
+       "quote": "If this unit is your Warlord, all friendly Mechanicus units in your army gain the Tank Hunter and Siege Attacker special rules."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/rad_phage",
+   "name": "Rad Phage",
+   "kind": "datasheet",
+   "page": 43,
+   "url": "https://longwarindex.app/special_rules/rad_phage/",
+   "text": "All units within 3\" of this unit in the Combat Phase suffer -1 to their Toughness (T) characteristic. This does not stack with other instances of the Rad Phage special rule."
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/secutarii_axiarch",
+   "name": "Secutarii Axiarch",
+   "kind": "datasheet",
+   "page": 38,
+   "url": "https://longwarindex.app/special_rules/secutarii_axiarch/",
+   "text": "A model with this upgrade increases their Armor Save (SV) to a 3+. It exchanges its Power Sword, Control Stave and Archeotech Pistol for Arc Maul and Radium Pistol. In addition, the model may re-roll save rolls of 1.\n\n- The model may exchange its Arc Maul with any of the following:\n    - Arc Lance (+5pts)\n    - Power Sword (+0pts)\n    - Power Lance (+0pts)\n    - Power Axe (+5pts)\n    - Power Fist (+10pts)\n- The model may exchange its Radium Pistol for a:\n    - Mag Inverter Shield (+5pts) (see Secutarii Hoplites)\n    - Arc Pistol (+5pts)\n    - Volkite Serpenta (+5pts)",
+   "effects": {
+    "armour_save": "3+",
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "power_sword"
+       },
+       {
+        "kind": "weapon",
+        "id": "control_stave"
+       },
+       {
+        "kind": "weapon",
+        "id": "archeotech_pistol"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "arc_maul"
+       },
+       {
+        "kind": "weapon",
+        "id": "radium_pistol"
+       }
+      ]
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "arc_maul_exchange",
+     "label": "The model may exchange its Arc Maul with any of the following:",
+     "printed": "The model may exchange its [[Arc Maul]] with any of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "arc_lance",
+       "name": "Arc Lance",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "arc_maul"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "arc_lance"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_sword",
+       "name": "Power Sword",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "arc_maul"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_lance",
+       "name": "Power Lance",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "arc_maul"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_lance"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "arc_maul"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "arc_maul"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "radium_pistol_exchange",
+     "label": "The model may exchange its Radium Pistol for a:",
+     "printed": "The model may exchange its [[Radium Pistol]] for a:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "mag_inverter_shield",
+       "name": "Mag Inverter Shield",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "radium_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "mag_inverter_shield"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "arc_pistol",
+       "name": "Arc Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "radium_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "arc_pistol"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "volkite_serpenta",
+       "name": "Volkite Serpenta",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "radium_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "volkite_serpenta"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/transport_archeopter_transvector",
+   "name": "Transport",
+   "datasheet": "Archeopter Transvector",
+   "kind": "datasheet",
+   "page": 57,
+   "url": "https://longwarindex.app/special_rules/transport_archeopter_transvector/",
+   "text": "This unit can transport 6 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/transport_skorpius_dunerider",
+   "name": "Transport",
+   "datasheet": "Skorpius Dunerider",
+   "kind": "datasheet",
+   "page": 55,
+   "url": "https://longwarindex.app/special_rules/transport_skorpius_dunerider/",
+   "text": "This unit can transport 12 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/adeptus_mechanicus/special_rules/transport_triaros_armoured_conveyor",
+   "name": "Transport",
+   "datasheet": "Triaros Armoured Conveyor",
+   "kind": "datasheet",
+   "page": 56,
+   "url": "https://longwarindex.app/special_rules/transport_triaros_armoured_conveyor/",
+   "text": "This unit can transport 22 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 22,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/adeptus_mechanicus/allegiances/agripinaa",
+   "name": "Allegiance: Agripinaa",
+   "kind": "allegiance",
+   "page": 31,
+   "url": "https://longwarindex.app/allegiances/agripinaa/",
+   "text": "All Adeptus Mechanicus units change their [Forge World] keyword to Agripinaa. All units with the Agripinaa Keyword gain the Allegiance: Agripinaa special rule. The Allegiance: Agripinaa special rule consists of the following rules:\n\n- Agripinaa Pattern Auto Weapons: Agripinaa units equipped with Auto Weapons gain +6\" to their range. For the purposes of this special rule, an Auto Weapon is any weapon listed under the 'Auto' category.\n- Servitor reserves: Your army must include at least 2 units of Kataphron Battle Servitors."
+  },
+  {
+   "id": "codex/adeptus_mechanicus/allegiances/graia",
+   "name": "Allegiance: Graia",
+   "kind": "allegiance",
+   "page": 31,
+   "url": "https://longwarindex.app/allegiances/graia/",
+   "references": [
+    "codex/adeptus_mechanicus/special_rules/binaric_domination"
+   ],
+   "text": "All Adeptus Mechanicus units change their [Forge World] keyword to Graia. All units with the Graia Keyword gain the Allegiance: Graia special rule. The Allegiance: Graia special rule consists of the following rules:\n\n- Graia Pattern Cerebral Implants: Graia Skitarii units gain the Binaric Domination special rule.\n- Presumed Victory Calculations: Graia units may not perform Retreat Moves in the Movement phase unless they are within 6\" of a Tech-Priest unit."
+  },
+  {
+   "id": "codex/adeptus_mechanicus/allegiances/lucius",
+   "name": "Allegiance: Lucius",
+   "kind": "allegiance",
+   "page": 31,
+   "url": "https://longwarindex.app/allegiances/lucius/",
+   "text": "All Adeptus Mechanicus units change their [Forge World] keyword to Lucius. All units with the Lucius Keyword gain the Allegiance: Lucius special rule. The Allegiance: Lucius special rule consists of the following rules:\n\n- Lucius Pattern Solar Armour: Lucius units in your army gain a 6+ Invulnerable save. If they already have an Invulnerable save, this is increased by 1 to a max of 4+.\n- Jealous Secrets: You may not include any allies or Allied detachment if your army is Lucius."
+  },
+  {
+   "id": "codex/adeptus_mechanicus/allegiances/mars",
+   "name": "Allegiance: Mars",
+   "kind": "allegiance",
+   "page": 31,
+   "url": "https://longwarindex.app/allegiances/mars/",
+   "references": [
+    "universal_special_rules/zealot"
+   ],
+   "text": "All Adeptus Mechanicus units change their [Forge World] keyword to Mars. All units with the Mars Keyword gain the Allegiance: Mars special rule. The Allegiance: Mars special rule consists of the following rules:\n\n- Cult of the Machine God: All Mars units in your army gain the Zealot special rule.\n- Orthodox Priesthood: Your army must include at least 1 Tech-Priest Dominus."
+  },
+  {
+   "id": "codex/adeptus_mechanicus/allegiances/ryza",
+   "name": "Allegiance: Ryza",
+   "kind": "allegiance",
+   "page": 31,
+   "url": "https://longwarindex.app/allegiances/ryza/",
+   "references": [
+    "special_rules/gets_hot"
+   ],
+   "text": "All Adeptus Mechanicus units change their [Forge World] keyword to Ryza. All units with the Ryza Keyword gain the Allegiance: Ryza special rule. The Allegiance: Ryza special rule consists of the following rules:\n\n- Ryza Pattern Plasma Weapons: Ryza units may re-roll Armour saves taken against wounds caused as a result of the Gets Hot! special rule.\n- Beset on all sides: Your army must include at least 1 Combat Servitor or Kataphron Battle Servitor unit per 1,000pts."
+  },
+  {
+   "id": "codex/adeptus_mechanicus/allegiances/stygies_viii",
+   "name": "Allegiance: Stygies VIII",
+   "kind": "allegiance",
+   "page": 31,
+   "url": "https://longwarindex.app/allegiances/stygies_viii/",
+   "text": "All Adeptus Mechanicus units change their [Forge World] keyword to Stygies. All units with the Stygies Keyword gain the Allegiance: Stygies special rule. The Allegiance: Stygies special rule consists of the following rules:\n\n- Stygies VIII Pattern Stealth Projectors: Stygies units in your army always gain the benefit of Light Cover. If the unit is already benefiting from Light Cover, it gains the benefit of Heavy Cover.\n- Suspected Tech Heresy: Stygies armies cannot take allies or allied detachments from Adeptus Mechanicus or Imperial Agent armies."
+  }
+ ]
+}

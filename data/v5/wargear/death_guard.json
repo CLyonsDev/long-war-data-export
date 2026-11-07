@@ -1,0 +1,98 @@
+{
+ "data_version": "7646651b4c32a31e",
+ "format": 1,
+ "faction": "death_guard",
+ "wargear": [
+  {
+   "id": "the_suppurating_plate",
+   "name": "The Suppurating Plate",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_suppurating_plate/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange their Warp Armour for this wargear. This wargear confers a 2+ Armour Save. In addition, all attacks in the combat phase made with Melee type weapons against a model or a unit which contains a model equipped with this wargear count as having the Gets Hot! Special rule.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "poxwalker_hive",
+   "name": "Poxwalker Hive",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/poxwalker_hive/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. At the start of each of your Movement Phases, you may summon a unit of Pox walkers from Codex – Renegades & Heretics wholly within 12\" of a model with this wargear."
+  },
+  {
+   "id": "dolorous_knell",
+   "name": "Dolorous Knell",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/dolorous_knell/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. All enemy units within 12\" of this unit suffer -1 to their Leadership (LD) characteristic and must perform all Pinning and Panic tests with 3D6."
+  },
+  {
+   "id": "fugaris_helm",
+   "name": "Fugaris' Helm",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/fugaris_helm/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. All friendly Nurgle units within 12\" gain +1 to their Leadership (LD) characteristic."
+  },
+  {
+   "id": "the_ague_stone",
+   "name": "The Ague Stone",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_ague_stone/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Enemy units within 3\" of a model equipped with this relic have -1 to their Strength (S) characteristic."
+  },
+  {
+   "id": "the_barbaran_plate",
+   "name": "The Barbaran Plate",
+   "section": "Datasheet",
+   "datasheet": "Mortarion, Daemon Primarch of the Death Guard",
+   "page": 21,
+   "url": "https://longwarindex.app/wargear/the_barbaran_plate/",
+   "text": "This wargear confers a 2+ Armour save and 4+ Invulnerable save. The unit equipped with this wargear re-rolls all saves (Armour & Invulnerable only) against weapons with the Poison or Spray special rules.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "rotor_jets",
+   "name": "Rotor Jets",
+   "section": "Datasheet",
+   "datasheet": "Foetid Bloat Drone",
+   "page": 26,
+   "url": "https://longwarindex.app/wargear/rotor_jets_death_guard/",
+   "text": "A model equipped with this Wargear increases its Movement (M) characteristic to 12\". The equipped model gains the Hammer of Wrath (1), Fly and Deep Strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  }
+ ]
+}

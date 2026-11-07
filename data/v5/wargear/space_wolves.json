@@ -1,0 +1,281 @@
+{
+ "data_version": "004f6a0d79922232",
+ "format": 1,
+ "faction": "space_wolves",
+ "wargear": [
+  {
+   "id": "blizzard_shield",
+   "name": "Blizzard Shield",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/blizzard_shield/",
+   "text": "A model equipped with this wargear has a 4+ Invulnerable save and gains the Battle-Hardened special rule.",
+   "effects": {
+    "invulnerable_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "belts_of_russ",
+   "name": "Belts of Russ",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/belts_of_russ/",
+   "text": "A model with this wargear has a 4+ Invulnerable Save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "wolf_tail_talisman",
+   "name": "Wolf Tail Talisman",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/wolf_tail_talisman/",
+   "text": "A model with this wargear gains the Indomitable Spirit (6+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/indomitable_spirit",
+      "name": "Indomitable Spirit",
+      "param": "6+",
+      "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "thunderwolf_cavalry",
+   "name": "Thunderwolf Cavalry",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "close_combat_weapon",
+     "faction": "space_marines"
+    }
+   ],
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/thunderwolf_cavalry/",
+   "text": "A model with this wargear becomes the Cavalry type. In addition, the equipped model gains +1 to their Strength (S), Toughness (T) and Wounds (W) characteristics. The equipped model also gains 1 additional Close Combat Weapon.",
+   "effects": {
+    "unit_type": "Cavalry",
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": 1
+     },
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "runic_armour",
+   "name": "Runic Armour",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/runic_armour/",
+   "text": "This wargear confers a 2+ Armour Save and the Indomitable Spirit (5+) special rule.",
+   "effects": {
+    "armour_save": "2+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/indomitable_spirit",
+      "name": "Indomitable Spirit",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_armour_of_russ",
+   "name": "The Armour of Russ",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_armour_of_russ/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains a 2+ Save. In addition, all enemy units within 3\" of a model equipped with this Relic in the Combat Phase suffer -1 to their Initiative (I) characteristic.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "the_helm_of_durfast",
+   "name": "The Helm of Durfast",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_helm_of_durfast/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains the Linked special rule on all equipped Shooting Weapons. In addition, the bearer and any attached unit gain the Ignores Cover special rule on their equipped Shooting Weapons.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/linked",
+      "name": "Linked",
+      "url": "https://longwarindex.app/special_rules/linked/",
+      "weapon_types": [
+       "Pistol",
+       "Rapid Fire",
+       "Assault",
+       "Heavy",
+       "Grenade"
+      ]
+     },
+     {
+      "rule": "special_rules/ignores_cover",
+      "name": "Ignores Cover",
+      "url": "https://longwarindex.app/special_rules/ignores_cover/",
+      "weapon_types": [
+       "Pistol",
+       "Rapid Fire",
+       "Assault",
+       "Heavy",
+       "Grenade"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_wulfen_stone",
+   "name": "The Wulfen Stone",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_wulfen_stone/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains the Curse of the Wulfen special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "codex/space_wolves/special_rules/curse_of_the_wulfen",
+      "name": "Curse of the Wulfen",
+      "url": "https://longwarindex.app/special_rules/curse_of_the_wulfen/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "pelt_of_the_balewolf",
+   "name": "Pelt of the Balewolf",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/pelt_of_the_balewolf/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains the Fear (3) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "3",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_mountain_breaker_helm",
+   "name": "The Mountain Breaker Helm",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_mountain_breaker_helm/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains the Hammer of Wrath (1) special rule. This does not stack with other Hammer of Wrath (x) special rules even when noted. However, the bearers Hammer of Wrath Attacks are resolved at Strength 10.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_storms_eye",
+   "name": "The Storm's Eye",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_storms_eye/",
+   "text": "One unit in your army with the Character & Psyker (x) special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic may re-roll 1 dice when making a Psychic Test."
+  },
+  {
+   "id": "storm_rider",
+   "name": "Storm Rider",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "close_combat_weapon",
+     "faction": "space_marines"
+    }
+   ],
+   "section": "Datasheet",
+   "datasheet": "Logan Grimnar, The Old Wolf",
+   "page": 21,
+   "url": "https://longwarindex.app/wargear/storm_rider/",
+   "text": "A model with this wargear becomes the Cavalry type. In addition, it gains a Close Combat Weapon.",
+   "effects": {
+    "unit_type": "Cavalry"
+   }
+  },
+  {
+   "id": "wolf_amulet",
+   "name": "Wolf Amulet",
+   "section": "Datasheet",
+   "datasheet": "Ulrik the Slayer",
+   "page": 29,
+   "url": "https://longwarindex.app/wargear/wolf_amulet/",
+   "text": "This model has a 4+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "wolf_helm_of_russ",
+   "name": "Wolf Helm of Russ",
+   "section": "Datasheet",
+   "datasheet": "Ulrik the Slayer",
+   "page": 29,
+   "url": "https://longwarindex.app/wargear/wolf_helm_of_russ/",
+   "text": "This unit and any attached unit automatically pass all Pinning and Panic tests. In addition, when calculating wounds for determining who won combat, if the unit equipped with this wargear took part in the combat, add 1 to the number of wounds inflicted by the space wolves for calculating who won combat."
+  },
+  {
+   "id": "healing_balms",
+   "name": "Healing Balms",
+   "section": "Datasheet",
+   "datasheet": "Ulrik the Slayer",
+   "page": 29,
+   "url": "https://longwarindex.app/wargear/healing_balms/",
+   "text": "A model with this wargear and any attached unit gain the Feel no Pain (6+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "6+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "pelt_of_the_doppelgangrel",
+   "name": "Pelt of the Doppelgangrel",
+   "section": "Datasheet",
+   "datasheet": "Lukas the Trickster",
+   "page": 39,
+   "url": "https://longwarindex.app/wargear/pelt_of_the_doppelgangrel/",
+   "text": "Enemy attacks in the Combat Phase have -1 to hit this unit. If this unit is attached to another unit, wounds cannot be allocated to this unit via the Precision Hits special rule."
+  }
+ ]
+}

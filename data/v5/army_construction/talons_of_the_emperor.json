@@ -1,0 +1,907 @@
+{
+ "data_version": "80cf81d763bae34f",
+ "format": 1,
+ "faction": "talons_of_the_emperor",
+ "codex": {
+  "id": "codex/talons_of_the_emperor",
+  "name": "Talons of the Emperor",
+  "page": 1,
+  "url": "https://longwarindex.app/codex/talons_of_the_emperor/",
+  "parent": null,
+  "army_rules": [
+   {
+    "rule": "codex/talons_of_the_emperor/special_rules/emperors_own",
+    "name": "Emperor's Own",
+    "url": "https://longwarindex.app/special_rules/emperors_own/"
+   },
+   {
+    "rule": "codex/talons_of_the_emperor/special_rules/the_sodality",
+    "name": "The Sodality",
+    "url": "https://longwarindex.app/special_rules/the_sodality/"
+   },
+   {
+    "rule": "codex/talons_of_the_emperor/special_rules/anathema",
+    "name": "Anathema",
+    "url": "https://longwarindex.app/special_rules/anathema/"
+   }
+  ],
+  "allies": {
+   "printed": "The following factions listed in keywords may be taken as allies in an allied detachment if your battle plan allows the use of allied detachments:",
+   "page": 23,
+   "url": "https://longwarindex.app/allies/talons_of_the_emperor_allies/",
+   "factions": [
+    {
+     "faction": "imperial_guard"
+    },
+    {
+     "faction": "sisters_of_battle"
+    },
+    {
+     "faction": "adeptus_mechanicus"
+    },
+    {
+     "faction": "imperial_agents"
+    },
+    {
+     "faction": "talons_of_the_emperor"
+    }
+   ]
+  },
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/talons_of_the_emperor/rites_of_war/the_hykanatoi",
+    "codex/talons_of_the_emperor/rites_of_war/the_tharantoi",
+    "codex/talons_of_the_emperor/rites_of_war/the_kataphraktoi",
+    "codex/talons_of_the_emperor/rites_of_war/chamber_of_oblivion",
+    "codex/talons_of_the_emperor/rites_of_war/chamber_of_vigilance",
+    "codex/talons_of_the_emperor/rites_of_war/chamber_of_judgement"
+   ],
+   "from_parent": [],
+   "banned_from_parent": []
+  },
+  "unit_list": {
+   "page": 22,
+   "url": "https://longwarindex.app/unit_list/talons_of_the_emperor_unit_list/",
+   "entries": [
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/captain_general_trajann_valoris",
+     "printed": "Captain General Trajann Valoris",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/knight_centura",
+     "printed": "Knight Centura",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/shield_captain",
+     "printed": "Shield Captain",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/silent_fury",
+     "printed": "Silent Fury",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/silent_judge",
+     "printed": "Silent Judge",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/custodian_guard",
+     "printed": "Custodian Guard",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/null_maidens",
+     "printed": "Null Maidens",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/sagittarum_guard",
+     "printed": "Sagittarum Guard",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/allarus_terminator_custodes",
+     "printed": "Allarus Terminator Custodes",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/aquilon_terminator_custodes",
+     "printed": "Aquilon Terminator Custodes",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/custodes_contemptor_dreadnought",
+     "printed": "Custodes Contemptor Dreadnought",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/eradicators",
+     "printed": "Eradicators",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/oblivion_knights",
+     "printed": "Oblivion Knights",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/sanctioners",
+     "printed": "Sanctioners",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/coronus_grav_carrier",
+     "printed": "Coronus Grav-Carrier",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/kharon_pattern_acquisitor",
+     "printed": "Kharon Pattern Acquisitor",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/null_maiden_rhino_apc",
+     "printed": "Null Maiden Rhino APC",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/agamatus_custodians",
+     "printed": "Agamatus Custodians",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/pallas_grav_attack",
+     "printed": "Pallas Grav-Attack",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/pursuers",
+     "printed": "Pursuers",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/subjugators",
+     "printed": "Subjugators",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/venatari_custodians",
+     "printed": "Venatari Custodians",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/vertus_praetors",
+     "printed": "Vertus Praetors",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/caladius_grav_tank",
+     "printed": "Caladius Grav-Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/expurgators",
+     "printed": "Expurgators",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/land_raider",
+     "printed": "Land Raider",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/telemon_heavy_dreadnought",
+     "printed": "Telemon Heavy Dreadnought",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/ares_gunship",
+     "printed": "Ares Gunship",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/talons_of_the_emperor/roster/orion_assault_dropship",
+     "printed": "Orion Assault Dropship",
+     "role": "Lords of War"
+    }
+   ]
+  },
+  "keyword_templates": []
+ },
+ "allegiances": [],
+ "rites_of_war": [
+  {
+   "id": "codex/talons_of_the_emperor/rites_of_war/the_hykanatoi",
+   "name": "The Hykanatoi",
+   "page": 15,
+   "url": "https://longwarindex.app/rites_of_war/the_hykanatoi/",
+   "offered_by": {
+    "codex": "talons_of_the_emperor"
+   },
+   "text": "Restrictions\n\n- Your Army must include 2 units of Custodian Guard.\n- Your Warlord must be a Shield Captain.\n- Your Shield Captain may not be equipped with a Dawn Eagle Jetbike or Allarus Terminator Armour.\n- For every Custodes unit in your army, you must include 1 Sisters of Silence unit.\n\nBenefits\n\n- You may select a second unit in your Army to be a Warlord that does not have the Custodes Keyword. Both units are considered to be your Warlord. The chosen second unit may generate a Warlord trait.\n- One unit of Custodian Guard in your army may be upgraded to be Heteron Guard for 10pts per model (see below).\n- Custodian Guard & Shield Captain units in your army may exchange their Guardian Spears for:\n    - An Adrasite Spear for 10pts (see below).\n    - A Pyrithite Spear for 15pts (see below).\n\nHeteron Guard: +10pts per model\n\nOne unit of Custodian Guard in your army may be upgraded to be Heteron Guard for 10pts per model in the unit. A unit of Heteron Guard increases their Weapon Skill (WS), Ballistic Skill (BS) and Initiative (I) characteristics by 1.",
+   "restrictions": [
+    {
+     "id": "the_hykanatoi_custodian_guard",
+     "printed": "Your Army must include 2 units of Custodian Guard.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/custodian_guard"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "the_hykanatoi_warlord_shield_captain",
+     "printed": "Your Warlord must be a Shield Captain.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/shield_captain"
+       }
+      ]
+     }
+    },
+    {
+     "id": "the_hykanatoi_shield_captain_no_jetbike_or_terminator_armour",
+     "printed": "Your Shield Captain may not be equipped with a Dawn Eagle Jetbike or Allarus Terminator Armour.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "items": [
+       {
+        "kind": "wargear",
+        "id": "dawn_eagle_jetbike"
+       },
+       {
+        "kind": "wargear",
+        "id": "allarus_terminator_armour"
+       }
+      ],
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/shield_captain"
+       }
+      ]
+     }
+    },
+    {
+     "id": "the_hykanatoi_sisters_of_silence_ratio",
+     "printed": "For every Custodes unit in your army, you must include 1 Sisters of Silence unit.",
+     "scope": "detachment",
+     "ratio": {
+      "limited": [
+       {
+        "keyword": "Sisters of Silence"
+       }
+      ],
+      "per": 1,
+      "of": [
+       {
+        "keyword": "Custodes"
+       }
+      ],
+      "minimum": true
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "the_hykanatoi_second_warlord",
+     "printed": "You may select a second unit in your Army to be a Warlord that does not have the Custodes Keyword.",
+     "additional_warlords": {
+      "conditions": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/character",
+         "name": "Character",
+         "url": "https://longwarindex.app/universal_special_rules/character/"
+        }
+       },
+       {
+        "not": {
+         "keyword": "Custodes"
+        }
+       }
+      ],
+      "count": 1
+     }
+    },
+    {
+     "id": "the_hykanatoi_heteron_guard",
+     "printed": "One unit of Custodian Guard in your army may be upgraded to be Heteron Guard for 10pts per model (see below).",
+     "options": [
+      {
+       "book_options": "talons_of_the_emperor",
+       "group": "hykanatoi_heteron_guard"
+      }
+     ]
+    },
+    {
+     "id": "the_hykanatoi_spear_exchange",
+     "printed": "Custodian Guard & Shield Captain units in your army may exchange their Guardian Spears for:",
+     "options": [
+      {
+       "book_options": "talons_of_the_emperor",
+       "group": "hykanatoi_spear_exchange"
+      }
+     ]
+    }
+   ],
+   "game_time": [
+    "Both units are considered to be your Warlord."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/talons_of_the_emperor/rites_of_war/the_tharantoi",
+   "name": "The Tharantoi",
+   "page": 16,
+   "url": "https://longwarindex.app/rites_of_war/the_tharantoi/",
+   "offered_by": {
+    "codex": "talons_of_the_emperor"
+   },
+   "text": "Restrictions\n\n- All units in your army must have the Custodes Keyword.\n- All Infantry units in your army must have the Terminator Keyword or be Sagittarum Guard.\n- You may not include any Jetbike type units or units with the Fly special rule.\n\nBenefits\n\n- You may field Sagittarum Guard units (see below).\n- You may ignore the Limited: 1 Per Detachment special rule on Allarus Terminator Custodes units in your army.\n- You may field Land Raiders as Dedicated Transports.",
+   "restrictions": [
+    {
+     "id": "the_tharantoi_custodes_keyword",
+     "printed": "All units in your army must have the Custodes Keyword.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "keyword": "Custodes"
+       }
+      ]
+     }
+    },
+    {
+     "id": "the_tharantoi_infantry_terminator_or_sagittarum",
+     "printed": "All Infantry units in your army must have the Terminator Keyword or be Sagittarum Guard.",
+     "scope": "detachment",
+     "every_unit": {
+      "of": [
+       {
+        "unit_type": "Infantry"
+       }
+      ],
+      "must": [
+       {
+        "any_of": [
+         {
+          "keyword": "Terminator"
+         },
+         {
+          "datasheet": "codex/talons_of_the_emperor/roster/sagittarum_guard"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "the_tharantoi_no_jetbike_or_fly",
+     "printed": "You may not include any Jetbike type units or units with the Fly special rule.",
+     "scope": "detachment",
+     "forbidden_units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "unit_type": "Jetbike"
+         },
+         {
+          "rule": {
+           "rule": "universal_special_rules/fly",
+           "name": "Fly",
+           "url": "https://longwarindex.app/universal_special_rules/fly/"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "the_tharantoi_sagittarum_guard_access",
+     "printed": "You may field Sagittarum Guard units (see below).",
+     "unlocks": [
+      "codex/talons_of_the_emperor/roster/sagittarum_guard"
+     ]
+    },
+    {
+     "id": "the_tharantoi_allarus_terminator_custodes_ignore_limited",
+     "printed": "You may ignore the Limited: 1 Per Detachment special rule on Allarus Terminator Custodes units in your army.",
+     "limit": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/allarus_terminator_custodes"
+       }
+      ],
+      "limit": null
+     }
+    },
+    {
+     "id": "the_tharantoi_land_raiders_dedicated_transport",
+     "printed": "You may field Land Raiders as Dedicated Transports.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/land_raider"
+       }
+      ],
+      "role": "Dedicated Transport",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/talons_of_the_emperor/rites_of_war/the_kataphraktoi",
+   "name": "The Kataphraktoi",
+   "page": 18,
+   "url": "https://longwarindex.app/rites_of_war/the_kataphraktoi/",
+   "offered_by": {
+    "codex": "talons_of_the_emperor"
+   },
+   "text": "Restrictions\n\n- Your army must have the Custodes Keyword.\n- Your army must include a Shield Captain equipped with a Dawn Eagle Jetbike.\n- Your army must include at least 2 units of Venatari Custodians.\n- All units in your army that do not have the Fly special rule must begin the game in Deep Strike or Embarked in a Transport with the Fly special rule.\n\nBenefits\n\n- You may field Venatari Custodians as Troops choices.\n- You may ignore the Limited: 1 Per Detachment special rule on Vertus Praetor units in your army.\n- You may field Ares Gunships as Heavy Support Choices.\n- You may field Orion Assault Dropships as Dedicated Transports.",
+   "restrictions": [
+    {
+     "id": "the_kataphraktoi_custodes_keyword",
+     "printed": "Your army must have the Custodes Keyword.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "keyword": "Custodes"
+       }
+      ]
+     }
+    },
+    {
+     "id": "the_kataphraktoi_shield_captain_dawn_eagle_jetbike",
+     "printed": "Your army must include a Shield Captain equipped with a Dawn Eagle Jetbike.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/shield_captain"
+       },
+       {
+        "holds": [
+         {
+          "kind": "wargear",
+          "id": "dawn_eagle_jetbike"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "the_kataphraktoi_venatari_custodians",
+     "printed": "Your army must include at least 2 units of Venatari Custodians.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/venatari_custodians"
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "the_kataphraktoi_venatari_custodians_troops",
+     "printed": "You may field Venatari Custodians as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/venatari_custodians"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "the_kataphraktoi_vertus_praetors_ignore_limited",
+     "printed": "You may ignore the Limited: 1 Per Detachment special rule on Vertus Praetor units in your army.",
+     "limit": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/vertus_praetors"
+       }
+      ],
+      "limit": null
+     }
+    },
+    {
+     "id": "the_kataphraktoi_ares_gunships_heavy_support",
+     "printed": "You may field Ares Gunships as Heavy Support Choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/ares_gunship"
+       }
+      ],
+      "role": "Heavy Support",
+      "instead": false
+     }
+    },
+    {
+     "id": "the_kataphraktoi_orion_assault_dropships_dedicated_transport",
+     "printed": "You may field Orion Assault Dropships as Dedicated Transports.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/orion_assault_dropship"
+       }
+      ],
+      "role": "Dedicated Transport",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "All units in your army that do not have the Fly special rule must begin the game in Deep Strike or Embarked in a Transport with the Fly special rule."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/talons_of_the_emperor/rites_of_war/chamber_of_oblivion",
+   "name": "Chamber of Oblivion",
+   "page": 19,
+   "url": "https://longwarindex.app/rites_of_war/chamber_of_oblivion/",
+   "offered_by": {
+    "codex": "talons_of_the_emperor"
+   },
+   "text": "Restrictions\n\n- Your Warlord must be a Knight Centura.\n- Your army must include at least 1 Oblivion Knight unit.\n- Your army may only include units with the Sisters of Silence Keyword.\n- You must include more Infantry than Jetbike units in your army.\n\nBenefits\n\n- For each Oblivion Knight unit in your army, you may field 1 Knight Centura unit in your army without taking up a Force Organization Slot.\n- You may ignore the Limited: 1 Per Detachment special rule on Oblivion Knight units in your army.\n- You may field Oblivion Knights as Troops choices.",
+   "restrictions": [
+    {
+     "id": "chamber_of_oblivion_warlord_knight_centura",
+     "printed": "Your Warlord must be a Knight Centura.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/knight_centura"
+       }
+      ]
+     }
+    },
+    {
+     "id": "chamber_of_oblivion_oblivion_knight",
+     "printed": "Your army must include at least 1 Oblivion Knight unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/oblivion_knights"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "chamber_of_oblivion_sisters_of_silence_only",
+     "printed": "Your army may only include units with the Sisters of Silence Keyword.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "keyword": "Sisters of Silence"
+       }
+      ]
+     }
+    },
+    {
+     "id": "chamber_of_oblivion_more_infantry_than_jetbike",
+     "printed": "You must include more Infantry than Jetbike units in your army.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "unit_type": "Infantry"
+       }
+      ],
+      "than": [
+       [
+        {
+         "unit_type": "Jetbike"
+        }
+       ]
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "chamber_of_oblivion_knight_centura_unslotted",
+     "printed": "For each Oblivion Knight unit in your army, you may field 1 Knight Centura unit in your army without taking up a Force Organization Slot.",
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/knight_centura"
+       }
+      ],
+      "count": 1,
+      "per_unit": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/oblivion_knights"
+       }
+      ]
+     }
+    },
+    {
+     "id": "chamber_of_oblivion_oblivion_knight_ignore_limited",
+     "printed": "You may ignore the Limited: 1 Per Detachment special rule on Oblivion Knight units in your army.",
+     "limit": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/oblivion_knights"
+       }
+      ],
+      "limit": null
+     }
+    },
+    {
+     "id": "chamber_of_oblivion_oblivion_knights_troops",
+     "printed": "You may field Oblivion Knights as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/oblivion_knights"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/talons_of_the_emperor/rites_of_war/chamber_of_vigilance",
+   "name": "Chamber of Vigilance",
+   "page": 20,
+   "url": "https://longwarindex.app/rites_of_war/chamber_of_vigilance/",
+   "offered_by": {
+    "codex": "talons_of_the_emperor"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 unit of Eradicators.\n- Your army must include at least 1 unit of Sanctioners.\n- You may not include Silent Furies in your army.\n- All units in your army must have the Sisters of Silence Keyword.\n\nBenefits\n\n- You may field Eradicators as Troops choices.\n- Kharon Pattern Acquisitors in your army gain the Outflank special rule.\n- Sanctioner units in your army may select 2 enemy units for the Marked for Death special rule.",
+   "restrictions": [
+    {
+     "id": "chamber_of_vigilance_eradicators",
+     "printed": "Your army must include at least 1 unit of Eradicators.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/eradicators"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "chamber_of_vigilance_sanctioners",
+     "printed": "Your army must include at least 1 unit of Sanctioners.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/sanctioners"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "chamber_of_vigilance_no_silent_furies",
+     "printed": "You may not include Silent Furies in your army.",
+     "scope": "detachment",
+     "forbidden_units": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/silent_fury"
+       }
+      ]
+     }
+    },
+    {
+     "id": "chamber_of_vigilance_sisters_of_silence_only",
+     "printed": "All units in your army must have the Sisters of Silence Keyword.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "keyword": "Sisters of Silence"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "chamber_of_vigilance_eradicators_troops",
+     "printed": "You may field Eradicators as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/eradicators"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "chamber_of_vigilance_kharon_pattern_acquisitor_outflank",
+     "printed": "Kharon Pattern Acquisitors in your army gain the Outflank special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/kharon_pattern_acquisitor"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/outflank",
+        "name": "Outflank",
+        "url": "https://longwarindex.app/universal_special_rules/outflank/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "Sanctioner units in your army may select 2 enemy units for the Marked for Death special rule."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/talons_of_the_emperor/rites_of_war/chamber_of_judgement",
+   "name": "Chamber of Judgement",
+   "page": 21,
+   "url": "https://longwarindex.app/rites_of_war/chamber_of_judgement/",
+   "offered_by": {
+    "codex": "talons_of_the_emperor"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Silent Judge.\n- Your army must include at least 1 Silent Fury.\n- Your army must include at least 2 units of Subjugators.\n- All units in your army must have the Sisters of Silence Keyword.\n\nBenefits\n\n- You may field Subjugators as Troops choices.\n- You may include 1 Silent Judge unit in your army for each Null Maiden unit in your army without taking up a Force Organization Slot.\n- You may select up to 2 different Sisters of Silence Characters in your army to be Warlords. Both units may generate a Free Warlord trait and purchase a Second Warlord trait for 15pts.",
+   "restrictions": [
+    {
+     "id": "chamber_of_judgement_silent_judge",
+     "printed": "Your army must include at least 1 Silent Judge.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/silent_judge"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "chamber_of_judgement_silent_fury",
+     "printed": "Your army must include at least 1 Silent Fury.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/silent_fury"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "chamber_of_judgement_subjugators",
+     "printed": "Your army must include at least 2 units of Subjugators.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/subjugators"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "chamber_of_judgement_sisters_of_silence_only",
+     "printed": "All units in your army must have the Sisters of Silence Keyword.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "keyword": "Sisters of Silence"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "chamber_of_judgement_subjugators_troops",
+     "printed": "You may field Subjugators as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/subjugators"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "chamber_of_judgement_silent_judge_unslotted",
+     "printed": "You may include 1 Silent Judge unit in your army for each Null Maiden unit in your army without taking up a Force Organization Slot.",
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/silent_judge"
+       }
+      ],
+      "count": 1,
+      "per_unit": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/null_maidens"
+       }
+      ]
+     }
+    },
+    {
+     "id": "chamber_of_judgement_second_warlord",
+     "printed": "You may select up to 2 different Sisters of Silence Characters in your army to be Warlords.",
+     "additional_warlords": {
+      "conditions": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/character",
+         "name": "Character",
+         "url": "https://longwarindex.app/universal_special_rules/character/"
+        }
+       },
+       {
+        "keyword": "Sisters of Silence"
+       }
+      ],
+      "count": 1
+     }
+    },
+    {
+     "id": "chamber_of_judgement_second_warlord_trait",
+     "printed": "Both units may generate a Free Warlord trait and purchase a Second Warlord trait for 15pts.",
+     "options": [
+      {
+       "book_options": "talons_of_the_emperor",
+       "group": "chamber_of_judgement_second_warlord_trait"
+      }
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

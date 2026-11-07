@@ -1,0 +1,78 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://longwarindex.app/data/v5/glossary/schema.json",
+ "title": "Long War Index glossary export (glossary/core.json)",
+ "description": "A glossary term is a term that the rules use and that no rule gives to a unit. The term page on the site is the source of the name, the page and the text.",
+ "type": "object",
+ "required": [
+  "data_version",
+  "format",
+  "faction",
+  "glossary"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "data_version": {
+   "type": "string",
+   "description": "Hash of the file content. It changes only when the content changes."
+  },
+  "format": {
+   "const": 1
+  },
+  "faction": {
+   "const": "core"
+  },
+  "glossary": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/term"
+   }
+  }
+ },
+ "$defs": {
+  "term": {
+   "type": "object",
+   "required": [
+    "id",
+    "name",
+    "page",
+    "text"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^[a-z0-9_]+(/[a-z0-9_]+)+$",
+     "description": "Permanent: never changed or reused. The path of the term page, for example shooting_phase/snap_shots."
+    },
+    "name": {
+     "type": "string"
+    },
+    "page": {
+     "type": "integer",
+     "description": "The printed page number."
+    },
+    "url": {
+     "type": "string",
+     "format": "uri",
+     "description": "The page on the site."
+    },
+    "source": {
+     "type": "string",
+     "description": "The book, for example \"Core Rules\"."
+    },
+    "text": {
+     "type": "string",
+     "description": "The text as plain text, in the form of the special rules export: no Markdown, no HTML and no wiki links. One blank line separates two paragraphs. Each list item is on its own line and starts with \"- \". Each row of a table is one line, with a tab character between two cells."
+    },
+    "other_spellings": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "Other spellings that the books print, for example \"Peril of the Warp\"."
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,952 @@
+{
+ "data_version": "5fba62036d62ce35",
+ "format": 1,
+ "faction": "death_guard",
+ "codex": {
+  "id": "codex/death_guard",
+  "name": "Death Guard",
+  "page": 3,
+  "url": "https://longwarindex.app/codex/death_guard/",
+  "parent": "chaos_space_marines",
+  "army_rules": [
+   {
+    "rule": "codex/death_guard/special_rules/armoury_of_the_14th_legion",
+    "name": "Armoury of the 14th Legion",
+    "url": "https://longwarindex.app/special_rules/armoury_of_the_14th_legion/"
+   }
+  ],
+  "allies": null,
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/death_guard/rites_of_war/harbingers_of_nurgle",
+    "codex/death_guard/rites_of_war/mortarions_chosen",
+    "codex/death_guard/rites_of_war/plaguekin_of_nurgle",
+    "codex/death_guard/rites_of_war/the_ferrymen"
+   ],
+   "from_parent": [
+    "codex/chaos_space_marines/rites_of_war/heavy_mechanized_assault"
+   ],
+   "banned_from_parent": [
+    "codex/chaos_space_marines/rites_of_war/chosen_host",
+    "codex/chaos_space_marines/rites_of_war/daemonkin_host",
+    "codex/chaos_space_marines/rites_of_war/engine_horde",
+    "codex/chaos_space_marines/rites_of_war/raptor_assault"
+   ]
+  },
+  "unit_list": null,
+  "keyword_templates": [
+   {
+    "template": "<Legion>",
+    "printed": "This is replaced with Death Guard Keyword.",
+    "substitution": {
+     "value": "Death Guard"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/death_guard/allegiances/allegiance_death_guard",
+   "name": "Allegiance: Death Guard",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_death_guard/",
+   "offered_by": {
+    "codex": "chaos_space_marines"
+   },
+   "rule": {
+    "rule": "codex/death_guard/allegiances/allegiance_death_guard",
+    "name": "Allegiance: Death Guard",
+    "printed": "codex/death_guard/allegiances/allegiance_death_guard",
+    "url": "https://longwarindex.app/allegiances/allegiance_death_guard/"
+   },
+   "unit_list": {
+    "page": 17,
+    "url": "https://longwarindex.app/unit_list/death_guard_unit_list/",
+    "entries": [
+     {
+      "datasheet": "codex/chaos_space_marines/roster/daemon_prince",
+      "printed": "Daemon Prince",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_lord",
+      "printed": "Chaos Lord",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_champion",
+      "printed": "Chaos Champion",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/death_guard/roster/typhus",
+      "printed": "Typhus",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/death_guard/roster/necrosius",
+      "printed": "Necrosius",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/death_guard/roster/mortarion_daemon_primarch_of_the_death_guard",
+      "printed": "Mortarion, Daemon Primarch of the Death Guard",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/inductii_squad",
+      "printed": "Inductii Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/death_guard/roster/plague_marines",
+      "printed": "Plague Marines",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/death_guard/roster/blightlord_terminators",
+      "printed": "Blightlord Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/possessed",
+      "printed": "Possessed",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/mutilators",
+      "printed": "Mutilators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/castraferrum_dreadnought",
+      "printed": "Castraferrum Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/contemptor_dreadnought",
+      "printed": "Contemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/death_guard/roster/myphitic_blight_hauler",
+      "printed": "Myphitic Blight Hauler",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/death_guard/roster/deathshroud_terminators",
+      "printed": "Deathshroud Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/rhino_apc",
+      "printed": "Rhino APC",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/land_raider",
+      "printed": "Land Raider",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/dreadclaw_drop_pod",
+      "printed": "Dreadclaw Drop Pod",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/kharybdis_assault_claw",
+      "printed": "Kharybdis Assault Claw",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/termite_assault_drill",
+      "printed": "Termite Assault Drill",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/heldrake",
+      "printed": "Heldrake",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/hell_blade",
+      "printed": "Hell Blade",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/hell_talon",
+      "printed": "Hell Talon",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/xiphon_interceptor",
+      "printed": "Xiphon Interceptor",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/storm_eagle_gunship",
+      "printed": "Storm Eagle Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_bike_squad",
+      "printed": "Chaos Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/death_guard/roster/foetid_bloat_drone",
+      "printed": "Foetid Bloat Drone",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_spawn",
+      "printed": "Chaos Spawn",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/proteus_land_speeder",
+      "printed": "Proteus Land Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/javelin_attack_speeder",
+      "printed": "Javelin Attack Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/sabre_strike_tank",
+      "printed": "Sabre Strike Tank",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/havocs",
+      "printed": "Havocs",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/obliterators",
+      "printed": "Obliterators",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/rapier_battery",
+      "printed": "Rapier Battery",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/fiend_pack",
+      "printed": "Fiend Pack",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/defiler",
+      "printed": "Defiler",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/predator_mbt",
+      "printed": "Predator MBT",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/vindicator_siege_tank",
+      "printed": "Vindicator Siege Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/arquitor_bombard",
+      "printed": "Arquitor Bombard",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/deredeo_dreadnought",
+      "printed": "Deredeo Dreadnought",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/fire_raptor_gunship",
+      "printed": "Fire Raptor Gunship",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/vindicator_laser_destroyer",
+      "printed": "Vindicator Laser Destroyer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/sicaran_heavy_tank",
+      "printed": "Sicaran Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/kratos_super_heavy_tank",
+      "printed": "Kratos Super Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/death_guard/roster/plague_burst_crawler",
+      "printed": "Plague Burst Crawler",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/leviathan_dreadnought",
+      "printed": "Leviathan Dreadnought",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/spartan_assault_tank",
+      "printed": "Spartan Assault Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/cerberus",
+      "printed": "Cerberus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/falchion",
+      "printed": "Falchion",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/fellblade",
+      "printed": "Fellblade",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/mastodon",
+      "printed": "Mastodon",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/typhon_siege_tank",
+      "printed": "Typhon Siege Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/thunderhawk_gunship",
+      "printed": "Thunderhawk Gunship",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/hammerfall_bunker",
+      "printed": "Hammerfall Bunker",
+      "role": "Fortification"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/noctolith_crown",
+      "printed": "Noctolith Crown",
+      "role": "Fortification"
+     }
+    ]
+   },
+   "restrictions": [
+    {
+     "id": "rites_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/death_guard/",
+     "printed": "You must use the Rites of War presented in this Supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/chaos_space_marines/rites_of_war/chosen_host",
+      "codex/chaos_space_marines/rites_of_war/daemonkin_host",
+      "codex/chaos_space_marines/rites_of_war/engine_horde",
+      "codex/chaos_space_marines/rites_of_war/raptor_assault"
+     ]
+    },
+    {
+     "id": "mark_of_nurgle",
+     "printed": "All of your units must have the Mark of Nurgle or Nurgle Keyword.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "any_of": [
+         {
+          "holds": [
+           {
+            "kind": "wargear",
+            "id": "the_mark_of_nurgle",
+            "faction": "chaos_space_marines"
+           }
+          ]
+         },
+         {
+          "keyword": "Nurgle"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "nurgle_daemon_allies",
+     "printed": "You may only include allied units from Codex Chaos Daemons that have the Nurgle Keyword.",
+     "scope": "detachment",
+     "allies": {
+      "factions": [
+       {
+        "faction": "chaos_daemons",
+        "conditions": [
+         {
+          "keyword": "Nurgle"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "chaos_lord_upgrade_bans",
+     "printed": "Death Guard Chaos Lords may not purchase the Sorcerer Lord, Master of Possessions or Lord Discordant upgrades.",
+     "scope": "detachment",
+     "excluded_choices": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_lord"
+       }
+      ],
+      "choices": [
+       {
+        "page": "codex/chaos_space_marines/roster/chaos_lord",
+        "path": "upgrades/sorcerer_lord"
+       },
+       {
+        "page": "codex/chaos_space_marines/roster/chaos_lord",
+        "path": "upgrades/master_of_possessions"
+       },
+       {
+        "page": "codex/chaos_space_marines/roster/chaos_lord",
+        "path": "upgrades/lord_discordant"
+       }
+      ]
+     }
+    },
+    {
+     "id": "chaos_champion_upgrade_bans",
+     "printed": "Death Guard Chaos Champions may not purchase the Dark Apostle or Master of Executions upgrades.",
+     "scope": "detachment",
+     "excluded_choices": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_champion"
+       }
+      ],
+      "choices": [
+       {
+        "page": "codex/chaos_space_marines/roster/chaos_champion",
+        "path": "upgrades/dark_apostle"
+       },
+       {
+        "page": "codex/chaos_space_marines/roster/chaos_champion",
+        "path": "upgrades/master_of_executions"
+       }
+      ]
+     }
+    },
+    {
+     "id": "nurgle_discipline_only",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/death_guard/",
+     "printed": "You must use the Nurgle Discipline from the core Codex: Chaos Space Marines.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "chaos_space_marines",
+        "group": "lore_of_slaanesh_psychic_powers"
+       },
+       {
+        "book_options": "chaos_space_marines",
+        "group": "lore_of_tzeentch_psychic_powers"
+       }
+      ]
+     }
+    },
+    {
+     "id": "own_warlord_traits_only",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/death_guard/",
+     "printed": "You must use the Warlord traits presented in this Supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "chaos_space_marines",
+        "group": "warlord_traits"
+       }
+      ]
+     }
+    },
+    {
+     "id": "unit_list_only",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/death_guard/",
+     "printed": "You may not field the units not listed on the Death Guard Unit list in this Codex Supplement.",
+     "scope": "detachment",
+     "unit_list": true
+    },
+    {
+     "id": "own_relics_only",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/death_guard/",
+     "printed": "You may not use the Relic wargear in Codex Chaos Space Marines and may only purchase Relic wargear from this supplement.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "chaos_space_marines",
+        "group": "relics"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [],
+   "game_time": [],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/death_guard/rites_of_war/harbingers_of_nurgle",
+   "name": "Harbingers of Nurgle",
+   "page": 13,
+   "url": "https://longwarindex.app/rites_of_war/harbingers_of_nurgle/",
+   "offered_by": {
+    "allegiance": "codex/death_guard/allegiances/allegiance_death_guard"
+   },
+   "text": "Requirements\n\n- If your army contains Typhus, he must be your Warlord.\n- Your army must include at least 3 units of Pox Walkers.\n- Your army may not include Mortarion, Daemon Primarch of the Death Guard.\n\nBenefits\n\n- You may field Pox Walkers from Codex – Renegades & Heretics as Troops choices but they gain the Support Squad special rule.\n- You may field Plague Ogryns from Codex – Renegades & Heretics as Elites choices.\n- Pox Walker units in your army gain the Deep Strike special rule.",
+   "restrictions": [
+    {
+     "id": "typhus_warlord",
+     "printed": "If your army contains Typhus, he must be your Warlord.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/death_guard/roster/typhus"
+       }
+      ],
+      "if_present": true
+     }
+    },
+    {
+     "id": "pox_walkers",
+     "printed": "Your army must include at least 3 units of Pox Walkers.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/renegades_and_heretics/roster/pox_walker_mob"
+       }
+      ],
+      "min": 3
+     }
+    },
+    {
+     "id": "no_mortarion",
+     "printed": "Your army may not include Mortarion, Daemon Primarch of the Death Guard.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/death_guard/roster/mortarion_daemon_primarch_of_the_death_guard"
+       }
+      ],
+      "max": 0
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "pox_walkers_troops",
+     "printed": "You may field Pox Walkers from Codex – Renegades & Heretics as Troops choices but they gain the Support Squad special rule.",
+     "opens": [
+      {
+       "faction": "renegades_and_heretics",
+       "datasheets": [
+        "codex/renegades_and_heretics/roster/pox_walker_mob"
+       ],
+       "role": "Troops"
+      }
+     ]
+    },
+    {
+     "id": "pox_walkers_support_squad",
+     "printed": "You may field Pox Walkers from Codex – Renegades & Heretics as Troops choices but they gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/renegades_and_heretics/roster/pox_walker_mob"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "plague_ogryns_elites",
+     "printed": "You may field Plague Ogryns from Codex – Renegades & Heretics as Elites choices.",
+     "opens": [
+      {
+       "faction": "renegades_and_heretics",
+       "datasheets": [
+        "codex/renegades_and_heretics/roster/plague_ogryns"
+       ],
+       "role": "Elites"
+      }
+     ]
+    },
+    {
+     "id": "pox_walkers_deep_strike",
+     "printed": "Pox Walker units in your army gain the Deep Strike special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/renegades_and_heretics/roster/pox_walker_mob"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/deep_strike",
+        "name": "Deep Strike",
+        "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/death_guard/rites_of_war/mortarions_chosen",
+   "name": "Mortarion's Chosen",
+   "page": 15,
+   "url": "https://longwarindex.app/rites_of_war/mortarions_chosen/",
+   "offered_by": {
+    "allegiance": "codex/death_guard/allegiances/allegiance_death_guard"
+   },
+   "text": "Requirements\n\n- Your Army must include 1 unit of Deathshroud Terminators.\n- If Mortarion, Daemon Primarch of the Death Guard is in your army, he must be your Warlord.\n- Your army must include at least 2 Chaos Champions.\n\nBenefits\n\n- You may field Chaos Champions as Elites choices.\n- You may field Deathshroud Terminators as Troops choices.\n- All Spray weapons that Death Guard units in your army are equipped with gain +1 to their Strength characteristic.",
+   "restrictions": [
+    {
+     "id": "deathshroud_unit",
+     "printed": "Your Army must include 1 unit of Deathshroud Terminators.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/death_guard/roster/deathshroud_terminators"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "mortarion_warlord",
+     "printed": "If Mortarion, Daemon Primarch of the Death Guard is in your army, he must be your Warlord.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/death_guard/roster/mortarion_daemon_primarch_of_the_death_guard"
+       }
+      ],
+      "if_present": true
+     }
+    },
+    {
+     "id": "chaos_champion_units",
+     "printed": "Your army must include at least 2 Chaos Champions.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_champion"
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "chaos_champions_elites",
+     "printed": "You may field Chaos Champions as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_champion"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "deathshroud_troops",
+     "printed": "You may field Deathshroud Terminators as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/death_guard/roster/deathshroud_terminators"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "spray_weapons_strength",
+     "printed": "All Spray weapons that Death Guard units in your army are equipped with gain +1 to their Strength characteristic.",
+     "weapon_stat_mods": {
+      "conditions": [
+       {
+        "keyword": "Death Guard"
+       }
+      ],
+      "weapons": {
+       "rule": {
+        "rule": "special_rules/spray",
+        "name": "Spray",
+        "url": "https://longwarindex.app/special_rules/spray/"
+       }
+      },
+      "mods": [
+       {
+        "characteristic": "S",
+        "delta": 1
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/death_guard/rites_of_war/plaguekin_of_nurgle",
+   "name": "Plaguekin of Nurgle",
+   "page": 16,
+   "url": "https://longwarindex.app/rites_of_war/plaguekin_of_nurgle/",
+   "offered_by": {
+    "allegiance": "codex/death_guard/allegiances/allegiance_death_guard"
+   },
+   "text": "Requirements\n\n- Your army must include at least 1 unit with the Daemon special rule.\n- Your army must include at least 1 Daemon Prince or Great Unclean One unit.\n\nBenefits\n\n- You may field units with the Nurgle Keyword from Codex – Chaos Daemons as part of your Primary Detachment.\n- You may field units with the Nurgle Keyword from Codex – Renegades & Heretics as part of your Primary Detachment.",
+   "restrictions": [
+    {
+     "id": "daemon_unit",
+     "printed": "Your army must include at least 1 unit with the Daemon special rule.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "rule": {
+           "rule": "codex/chaos_space_marines/special_rules/daemon",
+           "name": "Daemon",
+           "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+          }
+         },
+         {
+          "rule": {
+           "rule": "codex/chaos_daemons/special_rules/daemon",
+           "name": "Daemon",
+           "url": "https://longwarindex.app/special_rules/daemon_chaos_daemons/"
+          }
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "daemon_prince_or_great_unclean_one",
+     "printed": "Your army must include at least 1 Daemon Prince or Great Unclean One unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/chaos_space_marines/roster/daemon_prince"
+         },
+         {
+          "datasheet": "codex/chaos_daemons/roster/great_unclean_one"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "nurgle_daemons_primary",
+     "printed": "You may field units with the Nurgle Keyword from Codex – Chaos Daemons as part of your Primary Detachment.",
+     "opens": [
+      {
+       "faction": "chaos_daemons",
+       "conditions": [
+        {
+         "keyword": "Nurgle"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "nurgle_renegades_primary",
+     "printed": "You may field units with the Nurgle Keyword from Codex – Renegades & Heretics as part of your Primary Detachment.",
+     "opens": [
+      {
+       "faction": "renegades_and_heretics",
+       "conditions": [
+        {
+         "keyword": "Nurgle"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/death_guard/rites_of_war/the_ferrymen",
+   "name": "The Ferrymen",
+   "page": 14,
+   "url": "https://longwarindex.app/rites_of_war/the_ferrymen/",
+   "offered_by": {
+    "allegiance": "codex/death_guard/allegiances/allegiance_death_guard"
+   },
+   "text": "Requirements\n\n- Your army must include at least 2 Blightlord Terminator units.\n- Your army must include a Chaos Lord equipped with Terminator Armour.\n- Your army may not contain more Vehicles, Bikes or Monsters than Infantry type units.\n\nBenefits\n\n- You may field Blightlords Terminator units as Troops choices.\n- You may field Foetid Bloat Drones as Elites choices instead of Fast Attack choices.\n- During the first Battle Round, all friendly Death Guard units gain the benefit of Heavy Cover.",
+   "restrictions": [
+    {
+     "id": "blightlord_units",
+     "printed": "Your army must include at least 2 Blightlord Terminator units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/death_guard/roster/blightlord_terminators"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "chaos_lord_terminator_armour",
+     "printed": "Your army must include a Chaos Lord equipped with Terminator Armour.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_lord"
+       },
+       {
+        "holds": [
+         {
+          "kind": "wargear",
+          "id": "indomitus_terminator_armour",
+          "faction": "chaos_space_marines"
+         },
+         {
+          "kind": "wargear",
+          "id": "cataphractii_terminator_armour",
+          "faction": "chaos_space_marines"
+         },
+         {
+          "kind": "wargear",
+          "id": "tartaros_terminator_armour",
+          "faction": "chaos_space_marines"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "infantry_at_least_vehicles_bikes_monsters",
+     "printed": "Your army may not contain more Vehicles, Bikes or Monsters than Infantry type units.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "unit_type": "Infantry"
+       }
+      ],
+      "than": [
+       [
+        {
+         "unit_type": "Vehicle"
+        }
+       ],
+       [
+        {
+         "unit_type": "Bike"
+        }
+       ],
+       [
+        {
+         "unit_type": "Monster"
+        }
+       ]
+      ],
+      "each": true,
+      "or_equal": true
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "blightlords_troops",
+     "printed": "You may field Blightlords Terminator units as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/death_guard/roster/blightlord_terminators"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "foetid_bloat_drones_elites",
+     "printed": "You may field Foetid Bloat Drones as Elites choices instead of Fast Attack choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/death_guard/roster/foetid_bloat_drone"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "During the first Battle Round, all friendly Death Guard units gain the benefit of Heavy Cover."
+   ],
+   "unencoded": []
+  }
+ ]
+}

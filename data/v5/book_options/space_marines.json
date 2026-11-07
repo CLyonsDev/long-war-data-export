@@ -1,0 +1,658 @@
+{
+ "data_version": "ac75412ccabc6fa5",
+ "format": 1,
+ "faction": "space_marines",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/armour_indomitus/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "armour_indomitus",
+     "name": "Armour Indomitus",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "armour_indomitus"
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/armour_indomitus/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_teeth_of_terra",
+     "name": "Teeth of Terra",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model may exchange their Chainsword for this Relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "chainsword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_teeth_of_terra"
+        }
+       ]
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/the_teeth_of_terra/",
+     "pricing": "flat"
+    },
+    {
+     "id": "honours_vehement",
+     "name": "Honours Vehement",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "honours_vehement"
+      }
+     ],
+     "page": 11,
+     "url": "https://longwarindex.app/wargear/honours_vehement/",
+     "pricing": "flat"
+    },
+    {
+     "id": "standard_of_the_emperor_ascendant",
+     "name": "Standard of the Emperor Ascendant",
+     "points": 25,
+     "printed": "One unit in your army with the Character special rule and equipped with a Chapter Banner that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "standard_of_the_emperor_ascendant"
+      }
+     ],
+     "page": 11,
+     "url": "https://longwarindex.app/wargear/standard_of_the_emperor_ascendant/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "wargear",
+         "id": "chapter_banner"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "the_burning_blade",
+     "name": "The Burning Blade",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model may exchange their Power Sword for this Relic for 15pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_burning_blade"
+        }
+       ]
+      }
+     ],
+     "page": 11,
+     "url": "https://longwarindex.app/wargear/the_burning_blade/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_primarchs_wrath",
+     "name": "Primarch's Wrath",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model may exchange their Boltgun or Storm Bolter for this Relic for 5pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "boltgun"
+        },
+        {
+         "kind": "weapon",
+         "id": "storm_bolter"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_primarchs_wrath"
+        }
+       ]
+      }
+     ],
+     "page": 11,
+     "url": "https://longwarindex.app/wargear/the_primarchs_wrath/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 23,
+   "url": "https://longwarindex.app/codex/space_marines/warlord_traits/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1,
+    "pool": "space_marines/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "rites_of_battle",
+     "name": "Rites of Battle",
+     "page": 23,
+     "url": "https://longwarindex.app/warlord_traits/rites_of_battle/",
+     "text": "If your Warlord has this trait, you can increase the number of Elite Slots, Fast Attack Slots or Heavy Support slots in your army by 1.",
+     "points": 0,
+     "pricing": "flat",
+     "slot_changes": {
+      "one_of": [
+       "Elites",
+       "Fast Attack",
+       "Heavy Support"
+      ],
+      "max": 1
+     }
+    },
+    {
+     "id": "storm_of_fire",
+     "name": "Storm of Fire",
+     "page": 23,
+     "url": "https://longwarindex.app/warlord_traits/storm_of_fire/",
+     "text": "Once per game during the shooting phase, your Warlord and any unit they are attached to gains the Rending (5+) special rule on all of their shooting weapons until the end of that shooting phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "the_imperiums_sword",
+     "name": "The Imperium's Sword",
+     "page": 23,
+     "url": "https://longwarindex.app/warlord_traits/the_imperiums_sword/",
+     "text": "The Warlord gains +1 to its Strength (S) and Attacks (A) Characteristics.",
+     "points": 0,
+     "pricing": "flat",
+     "stat_mods": [
+      {
+       "characteristic": "S",
+       "delta": 1
+      },
+      {
+       "characteristic": "A",
+       "delta": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "psychic_powers",
+   "kind": "psychic_powers",
+   "label": "Any Space marine unit with the Psyker (x) special rule may purchase Psychic Powers from the following Discipline:",
+   "printed": "Any Space marine unit with the Pysker (x) special rule may purchase Psychic Powers from the following Discipline:",
+   "page": 24,
+   "url": "https://longwarindex.app/codex/space_marines/powers/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     },
+     {
+      "keyword": "Space marine"
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "iron_arm",
+     "name": "Iron Arm",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/iron_arm/",
+     "text": "When this power is cast, the Psyker gains +2 to its Strength (S) Characteristic until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "null_zone",
+     "name": "Null Zone",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/null_zone/",
+     "text": "When this power is cast, enemy units within 12\" of the Psyker may not make Invulnerable Saves until the start of your next Shooting Phase.",
+     "points": 20,
+     "pricing": "flat"
+    },
+    {
+     "id": "psychic_fortress",
+     "name": "Psychic Fortress",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/psychic_fortress/",
+     "text": "When this power is cast, the Psyker and all friendly units within 12\" of them gain a 6+ Invulnerable Save until the start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "smite",
+     "name": "Smite",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/smite/",
+     "text": "The Psyker gains the following Psychic Weapon:\n\n- Smite",
+     "points": 10,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "smite"
+      }
+     ]
+    },
+    {
+     "id": "veil_of_time",
+     "name": "Veil of Time",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/veil_of_time/",
+     "text": "When this power is cast, the Psyker and any attached unit gain +1 to their Charge Rolls and Initiative (I) characteristic until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "prayers",
+   "kind": "prayers",
+   "label": "Any Space marine unit with the Priest (x) special rule may purchase the following Prayers:",
+   "printed": "Any Space marine unit with the Priest (x) special rule may purchase the following Prayers:",
+   "page": 24,
+   "url": "https://longwarindex.app/codex/space_marines/powers/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/priest",
+       "name": "Priest",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/priest/"
+      }
+     },
+     {
+      "keyword": "Space marine"
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/priest",
+     "name": "Priest",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/priest/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "litany_of_focus",
+     "name": "Litany of Focus",
+     "page": 25,
+     "url": "https://longwarindex.app/powers/litany_of_focus_space_marines/",
+     "text": "When this Prayer is performed, the Priest and any attached unit has the Indomitable Spirit (4+) special rule until the start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_hatred",
+     "name": "Litany of Hatred",
+     "page": 25,
+     "url": "https://longwarindex.app/powers/litany_of_hatred_space_marines/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gain the Hatred special rule until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_rage",
+     "name": "Litany of Rage",
+     "page": 25,
+     "url": "https://longwarindex.app/powers/litany_of_rage_space_marines/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gain the Fear (1) special rule until the start of your next Shooting Phase.",
+     "points": 5,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_strength",
+     "name": "Litany of Strength",
+     "page": 25,
+     "url": "https://longwarindex.app/powers/litany_of_strength_space_marines/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gain +1 to their Strength (S) characteristic until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "machine_rites",
+   "kind": "machine_rites",
+   "label": "Any Space marine unit with the Battle Smith (x) special rule may purchase the following Machine Rites:",
+   "printed": "Any Space marine unit with the Battle Smith (x) special rule may purchase the following Machine Rites:",
+   "page": 24,
+   "url": "https://longwarindex.app/codex/space_marines/powers/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/battle_smith",
+       "name": "Battle Smith",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+      }
+     },
+     {
+      "keyword": "Space marine"
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/battle_smith",
+     "name": "Battle Smith",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "rite_of_consecration",
+     "name": "Rite of Consecration",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/rite_of_consecration_space_marines/",
+     "text": "When this Rite is performed successfully, select 1 friendly Walker, Automata, Vehicle, Knight, Fortification or Aircraft unit within 6\" of the unit performing this Rite or the unit performing the Rite is embarked upon. That unit gains the Indomitable Spirit (6+) special rule until the start of your next Shooting Phase.",
+     "points": 5,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_immolation",
+     "name": "Rite of Immolation",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/rite_of_immolation_space_marines/",
+     "text": "When this Rite is performed successfully, select 1 friendly Walker, Automata, Vehicle, Knight, Fortification or Aircraft unit within 6\" of the unit performing this Rite or the unit performing the Rite is embarked upon. That unit immediately suffers an Explodes result per the Vehicle Damage Chart, even if it would normally not.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_reloading",
+     "name": "Rite of Reloading",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/rite_of_reloading_space_marines/",
+     "text": "When this Rite is performed successfully, select 1 friendly Walker, Automata, Vehicle, Knight, Fortification or Aircraft unit within 6\" of the unit performing this Rite or the unit performing the Rite is embarked upon. That unit immediately makes a Shooting Attack with 1 weapon it is equipped with.",
+     "points": 20,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_repair",
+     "name": "Rite of Repair",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/rite_of_repair_space_marines/",
+     "text": "When this Rite is performed successfully, select one of the following effects:\n\n- Select 1 Walker or Automata unit either within 3\" or attached to the unit that is performing this rite. The target unit Heals 1 wound.\n- Select 1 Vehicle, Aircraft, Knight or Fortification either within 3\", attached to the unit performing this Rite or that this unit is embarked upon. Select 1 weapon that target unit is equipped with that has been destroyed. The chosen weapon is no longer destroyed.\n- Select 1 Vehicle or Knight either within 3\", attached to the unit performing this Rite or that this unit is embarked upon that is immobilized. That unit is no longer immobilized. If the unit has the Super Heavy (x) special rule and was Limping, it is no longer considered to be Limping.",
+     "points": 10,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "armoured_support_tank_commander",
+   "kind": "upgrade",
+   "label": "You may select 1 Predator Tank or Gladiator Tank in your army to be upgraded to a Tank Commander. That Tank Commander gains +1 to its Ballistic Skill (BS), Attacks (A) and Leadership (LD) characteristics. The Tank Commander must be your Warlord. It gains the Character Keyword.",
+   "printed": "You may select 1 Predator Tank or Gladiator Tank in your army to be upgraded to a Tank Commander. That Tank Commander gains +1 to its Ballistic Skill (BS), Attacks (A) and Leadership (LD) characteristics. The Tank Commander must be your Warlord. It gains the Character Keyword.",
+   "page": 28,
+   "url": "https://longwarindex.app/rites_of_war/armoured_support/",
+   "offered_by": {
+    "rite": "codex/space_marines/rites_of_war/armoured_support"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "any_of": [
+       {
+        "datasheet": "codex/space_marines/roster/predator_mbt"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/gladiator_assault_tank"
+       }
+      ]
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "tank_commander",
+     "name": "Tank Commander",
+     "points": 0,
+     "pricing": "flat",
+     "keywords": [
+      "Character"
+     ],
+     "stat_mods": [
+      {
+       "characteristic": "BS",
+       "delta": 1
+      },
+      {
+       "characteristic": "A",
+       "delta": 1
+      },
+      {
+       "characteristic": "Ld",
+       "delta": 1
+      }
+     ],
+     "mandates_warlord": true
+    }
+   ]
+  },
+  {
+   "id": "pride_of_the_chapter_veteran",
+   "kind": "upgrade",
+   "label": "You may select one Space Marine Infantry or Bike unit that does not have the Veteran keyword to include in your army. It gains the Veteran keyword.",
+   "printed": "You may select one Space Marine Infantry or Bike unit that does not have the Veteran keyword to include in your army. It gains the Veteran keyword.",
+   "page": 32,
+   "url": "https://longwarindex.app/rites_of_war/pride_of_the_chapter/",
+   "offered_by": {
+    "rite": "codex/space_marines/rites_of_war/pride_of_the_chapter"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Space Marine"
+     },
+     {
+      "any_of": [
+       {
+        "unit_type": "Infantry"
+       },
+       {
+        "unit_type": "Bike"
+       }
+      ]
+     },
+     {
+      "not_keyword": "Veteran"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "veteran",
+     "name": "Veteran",
+     "points": 0,
+     "pricing": "flat",
+     "keywords": [
+      "Veteran"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red_scorpions_purity_of_purpose",
+   "kind": "upgrade",
+   "label": "Purity of Purpose: All Red Scorpion Lieutenants models in your army not equipped with Scout Armour or otherwise upgraded to a Chaplain, Librarian or Tech-Marine may purchase a Narthecium for 10pts.",
+   "printed": "Purity of Purpose: All Red Scorpion Lieutenants models in your army not equipped with Scout Armour or otherwise upgraded to a Chaplain, Librarian or Tech-Marine may purchase a Narthecium for 10pts.",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/red_scorpions/",
+   "offered_by": {
+    "allegiance": "codex/space_marines/allegiances/red_scorpions"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Red Scorpion"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/lieutenant"
+     },
+     {
+      "lacks": [
+       {
+        "kind": "wargear",
+        "id": "scout_armour"
+       }
+      ]
+     },
+     {
+      "not_choice": [
+       {
+        "page": "codex/space_marines/roster/lieutenant",
+        "path": "upgrades/chaplain"
+       },
+       {
+        "page": "codex/space_marines/roster/lieutenant",
+        "path": "upgrades/librarian"
+       },
+       {
+        "page": "codex/space_marines/roster/lieutenant",
+        "path": "upgrades/tech_marine"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "narthecium",
+     "name": "Narthecium",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "narthecium"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

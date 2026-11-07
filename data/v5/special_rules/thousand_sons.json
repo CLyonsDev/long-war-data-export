@@ -1,0 +1,168 @@
+{
+ "data_version": "d79e9f1d0654b10d",
+ "format": 1,
+ "faction": "thousand_sons",
+ "special_rules": [
+  {
+   "id": "codex/thousand_sons/allegiances/allegiance_thousand_sons",
+   "name": "Allegiance: Thousand Sons",
+   "kind": "allegiance",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_thousand_sons/",
+   "references": [
+    "universal_special_rules/character",
+    "universal_special_rules/psyker",
+    "codex/chaos_space_marines/special_rules/master_of_possessions",
+    "codex/chaos_space_marines/special_rules/lord_discordant",
+    "codex/chaos_space_marines/special_rules/dark_apostle",
+    "codex/chaos_space_marines/special_rules/master_of_executions",
+    "codex/chaos_space_marines/special_rules/warp_smith"
+   ],
+   "text": "All units with the Thousand Sons Keyword gain the Allegiance: Thousand Sons special rule. The Allegiance: Thousand Sons special rule consists of the following rules:\n\n- Brotherhood of Sorcerers: Thousand Sons units gain the following benefits:\n    - Thousand Sons units can re-roll 1 dice when making a Psychic Test per phase.\n    - Thousand Sons units gain +6\" to the range of all Psychic Powers they know. (This is included by default in the Psychic Powers present in this Supplement.)\n- Servants of Fate:\n    - All of your units must have the Mark of Tzeentch or Tzeentch Keyword. (This is included in all Thousand Sons exclusive units' profiles)\n    - You may only include allied units that have the Tzeentch Keyword.\n    - All units in your army with the Character special rule must have the Psyker (x) special rule.\n    - Chaos Lords in your army may not purchase the Master of Possessions or Lord Discordant upgrades.\n    - Chaos Champions in your army may not purchase the Dark Apostle, Master of Executions or Warp Smith upgrades."
+  },
+  {
+   "id": "codex/thousand_sons/special_rules/all_is_dust",
+   "name": "All is Dust",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/all_is_dust/",
+   "references": [
+    "universal_special_rules/character",
+    "special_rules/psychic_weapon",
+    "universal_special_rules/psyker",
+    "universal_special_rules/firing_protocols"
+   ],
+   "text": "A unit with this special rule ignores the restrictions on Automata unit having to Shoot and Charge at the closest enemy units so long as the Aspiring Sorcerer model in the unit is alive or a Thousand Sons unit with the Character special rule is attached. In addition, the unit may only cast Psychic Powers and make attacks with Psychic Weapons while the Aspiring Sorcerer model in the unit is alive. The Psychic Weapons are always considered to be equipped by the Aspiring Sorcerer model only and all measurements and visibility are drawn from the Aspiring Sorcerer model. If the Aspiring Sorcerer model in the unit is slain, the unit can no longer cast Psychic Powers and is no longer considered a Psyker with the Psychic (x) special rule. Infantry type units may join units with this special rule even if they do not have the Automata type. The Automata unit does not have the Firing Protocol (x) special rule normally provided to the Automata type but counts as Infantry type for the purposes of Transport special rule.",
+   "effects": {
+    "suppresses_rules": [
+     {
+      "rule": "universal_special_rules/firing_protocols",
+      "name": "Firing Protocols",
+      "param": "x",
+      "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/thousand_sons/special_rules/armoury_of_the_15th_legion",
+   "name": "Armoury of the 15th Legion",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_15th_legion/",
+   "references": [
+    "codex/thousand_sons/allegiances/allegiance_thousand_sons",
+    "universal_special_rules/character"
+   ],
+   "text": "Units with Allegiance: Thousand Sons have access to additional wargear presented in this supplement in addition to the war gear presented in the core Codex Chaos Space Marines.\n\nWargear\n\nAny Thousand Sons unit with the Character special rule may purchase:\n\n- A Scroll of Power for 10pts.\n- A Scroll of Dispel for 15pts.\n- A Scroll of Magic for 5pts.\n- A Disc of Tzeentch for 10pts.\n\nWeapons\n\nAny Thousand Sons Chaos Lord or Chaos Champion may:\n\n- Exchange their equipped Power Sword or Force Sword for a Force Kopesh for 5pts.\n\nAny Thousand Sons model may:\n\n- Exchange their Bolt Pistol for an Inferno Bolt Pistol for 3pts.\n- Exchange their Boltgun for an Inferno Boltgun for 3pts."
+  },
+  {
+   "id": "codex/thousand_sons/special_rules/firestorm_of_tzeentch",
+   "name": "Firestorm of Tzeentch",
+   "kind": "datasheet",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/firestorm_of_tzeentch/",
+   "text": "Each time a Psychic Test is passed by this unit, all enemy units within 12\" take D6, Strength 5, AP4 Automatic hits."
+  },
+  {
+   "id": "codex/thousand_sons/special_rules/inferno_shells",
+   "name": "Inferno Shells",
+   "kind": "weapon",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/inferno_shells/",
+   "text": "A unit equipped with a weapon that has this special rule, may perform a Psychic Test in your Shooting Phase instead of Casting a Psychic Power. If the Test is failed, nothing happens. If the Test is passed, all weapons the unit are equipped with that have this special rule are treated as AP3 until the start of your next Shooting Phase."
+  },
+  {
+   "id": "codex/thousand_sons/special_rules/knowledge_seeker",
+   "name": "Knowledge Seeker",
+   "kind": "datasheet",
+   "page": 16,
+   "url": "https://longwarindex.app/special_rules/knowledge_seeker/",
+   "text": "This unit knows all of the Psychic Powers from the Lore of Tzeentch in Codex Chaos Space Marines.",
+   "effects": {
+    "knows": [
+     {
+      "page": "codex/chaos_space_marines/powers/baleful_devolution",
+      "name": "Baleful Devolution",
+      "url": "https://longwarindex.app/powers/baleful_devolution_chaos_space_marines/"
+     },
+     {
+      "page": "codex/chaos_space_marines/powers/bolt_of_change",
+      "name": "Bolt of Change",
+      "url": "https://longwarindex.app/powers/bolt_of_change_chaos_space_marines/"
+     },
+     {
+      "page": "codex/chaos_space_marines/powers/boon_of_change",
+      "name": "Boon of Change",
+      "url": "https://longwarindex.app/powers/boon_of_change_chaos_space_marines/"
+     },
+     {
+      "page": "codex/chaos_space_marines/powers/siphon_magic",
+      "name": "Siphon Magic",
+      "url": "https://longwarindex.app/powers/siphon_magic_chaos_space_marines/"
+     },
+     {
+      "page": "codex/chaos_space_marines/powers/treason_of_tzeentch",
+      "name": "Treason of Tzeentch",
+      "url": "https://longwarindex.app/powers/treason_of_tzeentch_chaos_space_marines/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/thousand_sons/special_rules/primarch_of_the_xv",
+   "name": "Primarch of the XV",
+   "kind": "warlord_trait",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/primarch_of_the_xv/",
+   "text": "Friendly Thousand Sons units that can draw visibility to this unit may use this units Leadership (LD) characteristic. While This unit is alive and, on the Battlefield, all Thousand Sons units may re-roll failed Psychic Tests."
+  },
+  {
+   "id": "codex/thousand_sons/special_rules/psi_control_matrix",
+   "name": "Psi-Control Matrix",
+   "kind": "datasheet",
+   "page": 23,
+   "url": "https://longwarindex.app/special_rules/psi_control_matrix/",
+   "text": "A friendly Thousand Sons Psyker unit in the Shooting and Charge Phase can opt to control this unit. A unit that does so may not cast any Psychic Powers that Phase. However, this unit ignores the targeting restrictions for Shooting and Charging until the end of a Phase in which they are controlled."
+  },
+  {
+   "id": "codex/thousand_sons/special_rules/psychic_anchor_point",
+   "name": "Psychic Anchor Point",
+   "kind": "datasheet",
+   "page": 23,
+   "url": "https://longwarindex.app/special_rules/psychic_anchor_point/",
+   "text": "When a friendly Psyker unit within 12\" suffers a Perils of the Warp, any wounds inflicted to the Psyker or Instant Death result which would be suffered by the Psyker, may instead be allocated to this unit."
+  },
+  {
+   "id": "codex/thousand_sons/special_rules/rubric_of_ahriman",
+   "name": "Rubric of Ahriman",
+   "kind": "warlord_trait",
+   "page": 16,
+   "url": "https://longwarindex.app/special_rules/rubric_of_ahriman/",
+   "text": "Friendly Thousand Sons Automata units within 12\" may ignore the restrictions on Shooting and Charging the closest enemy unit."
+  },
+  {
+   "id": "codex/thousand_sons/special_rules/runes_of_obfuscation",
+   "name": "Runes of Obfuscation",
+   "kind": "datasheet",
+   "page": 22,
+   "url": "https://longwarindex.app/special_rules/runes_of_obfuscation/",
+   "references": [
+    "universal_special_rules/character",
+    "universal_special_rules/infiltrate"
+   ],
+   "text": "If a unit with this special rule is not joined by a unit with the Character special rule during deployment, it gains the Infiltrate special rule. This unit may be joined by Infantry units with the Character special rule."
+  },
+  {
+   "id": "codex/thousand_sons/special_rules/soulburn",
+   "name": "Soulburn",
+   "kind": "weapon",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/soulburn/",
+   "references": [
+    "special_rules/shred"
+   ],
+   "text": "A unit equipped with a weapon that has this special rule, may perform a Psychic Test in your Shooting Phase instead of Casting a Psychic Power. If the Test is failed, nothing happens. If the Test is passed, all weapons the unit are equipped with that have this special rule gain the Shred special rule until the start of your next Shooting Phase."
+  }
+ ]
+}

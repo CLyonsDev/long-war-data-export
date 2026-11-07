@@ -1,0 +1,767 @@
+{
+ "data_version": "fabf6364213aa5db",
+ "format": 1,
+ "faction": "imperial_fists",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/the_eye_of_hypnoth/",
+   "offered_by": {
+    "allegiance": "codex/imperial_fists/allegiances/allegiance_imperial_fists"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "the_eye_of_hypnoth",
+     "name": "The Eye of Hypnoth",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_eye_of_hypnoth"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/the_eye_of_hypnoth/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_spartean",
+     "name": "The Spartean",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Bolt Pistol for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "bolt_pistol",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_spartean"
+        }
+       ]
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/the_spartean/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_angel_of_sacrifice",
+     "name": "The Angel of Sacrifice",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Maul for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_maul",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_angel_of_sacrifice"
+        }
+       ]
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/the_angel_of_sacrifice/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_bones_of_osrak",
+     "name": "The Bones of Osrak",
+     "points": 10,
+     "printed": "One unit in your army with the Character & Psyker (x) special rules that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_bones_of_osrak"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_bones_of_osrak/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "rule": {
+        "rule": "universal_special_rules/psyker",
+        "name": "Psyker",
+        "url": "https://longwarindex.app/universal_special_rules/psyker/"
+       }
+      }
+     ]
+    },
+    {
+     "id": "dutys_end",
+     "name": "Duty's End",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "dutys_end"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/dutys_end/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_fangs_of_dorn",
+     "name": "The Fangs of Dorn",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_fangs_of_dorn"
+        }
+       ]
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_fangs_of_dorn/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_sword_of_sebastus",
+     "name": "The Sword of Sebastus",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 20pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_sword_of_sebastus"
+        }
+       ]
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_sword_of_sebastus/",
+     "pricing": "flat"
+    },
+    {
+     "id": "icon_of_the_iron_cage",
+     "name": "Icon of the Iron Cage",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "icon_of_the_iron_cage"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/icon_of_the_iron_cage/",
+     "pricing": "flat"
+    },
+    {
+     "id": "indomitan_mantle",
+     "name": "Indomitan Mantle",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "indomitan_mantle"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/indomitan_mantle/",
+     "pricing": "flat"
+    },
+    {
+     "id": "armour_of_tyr",
+     "name": "Armour of Tyr",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear and equipped with Terminator Armour may exchange their Terminator Armour for this Relic.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "armour_of_tyr"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/armour_of_tyr/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "wargear",
+         "id": "indomitus_terminator_armour",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "wargear",
+         "id": "cataphractii_terminator_armour",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "wargear",
+         "id": "tartaros_terminator_armour",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 9,
+   "url": "https://longwarindex.app/codex/imperial_fists/warlord_traits/",
+   "offered_by": {
+    "allegiance": "codex/imperial_fists/allegiances/allegiance_imperial_fists"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "space_marines/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "stubborn_heroism",
+     "name": "Stubborn Heroism",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/stubborn_heroism/",
+     "text": "The Warlord and any attached unit gain the Stubborn and Counter-Attack special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/stubborn",
+       "name": "Stubborn",
+       "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+      },
+      {
+       "rule": "universal_special_rules/counter_attack",
+       "name": "Counter Attack",
+       "printed": "Counter-Attack",
+       "url": "https://longwarindex.app/universal_special_rules/counter_attack/"
+      }
+     ]
+    },
+    {
+     "id": "superior_architect",
+     "name": "Superior Architect",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/superior_architect/",
+     "text": "All Fortification type units in your army gain a 5+ Invulnerable Save. In addition, you may include 1 additional Fortification slot in your army per 500pts.",
+     "points": 0,
+     "pricing": "flat",
+     "list_building": {
+      "benefits": [
+       {
+        "id": "fortifications_invulnerable",
+        "printed": "All Fortification type units in your army gain a 5+ Invulnerable Save.",
+        "invulnerable_save": {
+         "conditions": [
+          {
+           "unit_type": "Fortification"
+          }
+         ],
+         "save": "5+"
+        }
+       },
+       {
+        "id": "fortification_slot_per_500pts",
+        "printed": "In addition, you may include 1 additional Fortification slot in your army per 500pts.",
+        "slots": {
+         "role": "Fortification",
+         "max_delta": 1,
+         "per_points": {
+          "per": 500,
+          "exact": false
+         }
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "indomitable",
+     "name": "Indomitable",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/indomitable/",
+     "text": "A Warlord with this trait and any attached unit gains the Crusader special rule. In addition, any combat they are involved in which would be lost is considered a tied combat instead.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/crusader",
+       "name": "Crusader",
+       "url": "https://longwarindex.app/universal_special_rules/crusader/"
+      }
+     ],
+     "game_time": [
+      "In addition, any combat they are involved in which would be lost is considered a tied combat instead."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_terror_scouts",
+   "kind": "armoury",
+   "label": "Any Imperial Fists Scout Squad may be upgraded to a Terror Scout Squad for 15pts.",
+   "printed": "Any Imperial Fists Scout Squad may be upgraded to a Terror Scout Squad for 15pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_7th_legion/",
+   "offered_by": {
+    "allegiance": "codex/imperial_fists/allegiances/allegiance_imperial_fists"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Imperial Fists"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/scouts"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "terror_scouts",
+     "name": "Terror Scout Squad",
+     "printed": "Terror Scout Squad for 15pts.",
+     "points": 15,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/imperial_fists/special_rules/terror_scouts",
+       "name": "Terror Scouts",
+       "url": "https://longwarindex.app/special_rules/terror_scouts/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_boarding_shield",
+   "kind": "armoury",
+   "label": "Any Imperial Fists 'Tactical Marine' or 'Sergeant' model in a Tactical Squad unit may take a Boarding Shield for 3pts per model.",
+   "printed": "Any Imperial Fists 'Tactical Marine' or 'Sergeant' model in a Tactical Squad unit may take a Boarding Shield for 3pts per model.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_7th_legion/",
+   "offered_by": {
+    "allegiance": "codex/imperial_fists/allegiances/allegiance_imperial_fists"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Imperial Fists"
+     },
+     {
+      "rows": [
+       {
+        "datasheet": "codex/space_marines/roster/tactical_squad",
+        "profile": "tactical_marine"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/tactical_squad",
+        "profile": "tactical_sergeant"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "boarding_shield",
+     "name": "Boarding Shield",
+     "points": 3,
+     "pricing": "per_model",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "boarding_shield"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_auric_aquila",
+   "kind": "armoury",
+   "label": "Any Imperial Fists Infantry, Bike or Walker unit may take an Auric Aquila for 1pt per model in the unit.",
+   "printed": "Any Imperial Fists Infantry, Bike or Walker unit may take an Auric Aquila for 1pt per model in the unit.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_7th_legion/",
+   "offered_by": {
+    "allegiance": "codex/imperial_fists/allegiances/allegiance_imperial_fists"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Imperial Fists"
+     },
+     {
+      "any_of": [
+       {
+        "unit_type": "Infantry"
+       },
+       {
+        "unit_type": "Bike"
+       },
+       {
+        "unit_type": "Walker"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "auric_aquila",
+     "name": "Auric Aquila",
+     "points": 1,
+     "pricing": "per_model",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "auric_aquila"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_wardens_cuirass",
+   "kind": "armoury",
+   "label": "Any Imperial Fists unit with the Character special rule may take Wardens Cuirass for 10pts.",
+   "printed": "Any Imperial Fists unit with the Character special rule may take Wardens Cuirass for 10pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_7th_legion/",
+   "offered_by": {
+    "allegiance": "codex/imperial_fists/allegiances/allegiance_imperial_fists"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Imperial Fists"
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "wardens_cuirass",
+     "name": "Wardens Cuirass",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "wardens_cuirass"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_fist_of_terra",
+   "kind": "armoury",
+   "label": "Any Imperial Fists Space Marine Captain or Space Marine Lieutenant model may exchange their equipped Power Fist for a Fist of Terra for 6pts.",
+   "printed": "Any Imperial Fists Space Marine Captain or Space Marine Lieutenant model may exchange their equipped Power Fist for a Fist of Terra for 6pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_7th_legion/",
+   "offered_by": {
+    "allegiance": "codex/imperial_fists/allegiances/allegiance_imperial_fists"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Imperial Fists"
+     },
+     {
+      "any_of": [
+       {
+        "datasheet": "codex/space_marines/roster/space_marine_captain"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/lieutenant"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "fist_of_terra",
+     "name": "Fist of Terra",
+     "points": 6,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_fist",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "fist_of_terra"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_ferromag_shotgun",
+   "kind": "armoury",
+   "label": "Any Imperial Fists model may exchange their equipped Boltgun or Astartes Shotgun for a Ferromag Shotgun for 3pts.",
+   "printed": "Any Imperial Fists model may exchange their equipped Boltgun or Astartes Shotgun for a Ferromag Shotgun for 3pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_7th_legion/",
+   "offered_by": {
+    "allegiance": "codex/imperial_fists/allegiances/allegiance_imperial_fists"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Imperial Fists"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "ferromag_shotgun",
+     "name": "Ferromag Shotgun",
+     "points": 3,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "astartes_shotgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "ferromag_shotgun"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_gatebreaker_boltgun",
+   "kind": "armoury",
+   "label": "Any Imperial Fists 'Tactical Marine', 'Veteran', 'Sergeant' or 'Veteran Sergeant' model in a Tactical Squad or Veterans Squad unit may exchange their equipped Boltgun for a Gatebreaker Boltgun for 2pts per model, or exchange their equipped Dragonfire Boltgun for a Gatebreaker Boltgun for 1pts per model.",
+   "printed": "Any Imperial Fists 'Tactical Marine', 'Veteran', 'Sergeant' or 'Veteran Sergeant' model in a Tactical Squad or Veterans Squad unit may exchange their equipped Boltgun for a Gatebreaker Boltgun for 2pts per model, or exchange their equipped Dragonfire Boltgun for a Gatebreaker Boltgun for 1pts per model.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_7th_legion/",
+   "offered_by": {
+    "allegiance": "codex/imperial_fists/allegiances/allegiance_imperial_fists"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Imperial Fists"
+     },
+     {
+      "any_of": [
+       {
+        "datasheet": "codex/space_marines/roster/tactical_squad"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/veteran_squad"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "gatebreaker_boltgun_from_boltgun",
+     "name": "Gatebreaker Boltgun",
+     "printed": "Exchange their equipped Boltgun for a Gatebreaker Boltgun for 2pts per model.",
+     "points": 2,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "gatebreaker_boltgun"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gatebreaker_boltgun_from_dragonfire_boltgun",
+     "name": "Gatebreaker Boltgun",
+     "printed": "Exchange their equipped Dragonfire Boltgun for a Gatebreaker Boltgun for 1pts per model.",
+     "points": 1,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "dragonfire_boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "gatebreaker_boltgun"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "dragonfire_boltgun",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

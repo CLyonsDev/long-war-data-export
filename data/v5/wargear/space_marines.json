@@ -1,0 +1,785 @@
+{
+ "data_version": "01d8a8d6290cb223",
+ "format": 1,
+ "faction": "space_marines",
+ "wargear": [
+  {
+   "id": "auspex_scanner",
+   "name": "Auspex Scanner",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/auspex_scanner_space_marines/",
+   "text": "Enemy units may not Infiltrate within 18\" of a model equipped with this wargear."
+  },
+  {
+   "id": "melta_bomb",
+   "name": "Melta Bomb",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "melta_bomb"
+    }
+   ],
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/melta_bomb_space_marines/",
+   "text": "In combat, a model with this wargear may forgo its attacks and instead make a single Strength 8, AP1 attack with the Melta Special rule at Initiative step 1."
+  },
+  {
+   "id": "iron_halo",
+   "name": "Iron Halo",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/iron_halo_space_marines/",
+   "text": "A model with an Iron Halo has a 4+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "teleport_homer",
+   "name": "Teleport Homer",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/teleport_homer_space_marines/",
+   "text": "A unit that arrives on the battlefield via Deep Strike within 12\" of a unit with this wargear does not scatter."
+  },
+  {
+   "id": "storm_shields",
+   "name": "Storm Shields",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/storm_shields_space_marines/",
+   "text": "Storm Shields provide the model equipped with the Storm Shield a 4+ Invulnerable save. A model with this wargear gains the Battle-Hardened special rule.",
+   "effects": {
+    "invulnerable_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "psychic_hood",
+   "name": "Psychic Hood",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/psychic_hood_space_marines/",
+   "text": "The equipped model gains the Deny the Witch special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/deny_the_witch",
+      "name": "Deny the Witch",
+      "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "refractor_field",
+   "name": "Refractor Field",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/refractor_field_space_marines/",
+   "text": "A model with a refractor Field has a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "narthecium",
+   "name": "Narthecium",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/narthecium_space_marines/",
+   "text": "A model with this Wargear and their attached unit gain Feel No Pain (5+) Special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "rosarius",
+   "name": "Rosarius",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/rosarius_space_marines/",
+   "text": "A model with a Rosarius has a 4+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "digital_weapons",
+   "name": "Digital Weapons",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/digital_weapons_space_marines/",
+   "text": "A model with Digital weapons gains +1 to their Attacks (A) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "A",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "relic_shield",
+   "name": "Relic Shield",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/relic_shield/",
+   "text": "A Model with a Relic Shield has a 4+ Invulnerable save and gains the Adamantium Will and Indomitable Spirit (3+) special rule.",
+   "effects": {
+    "invulnerable_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     },
+     {
+      "rule": "universal_special_rules/indomitable_spirit",
+      "name": "Indomitable Spirit",
+      "param": "3+",
+      "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "omni_scrambler",
+   "name": "Omni-Scrambler",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/omni_scrambler/",
+   "text": "Enemy units may not arrive from reserves by any means within 18\" of a model equipped with this wargear."
+  },
+  {
+   "id": "bionics",
+   "name": "Bionics",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/bionics_space_marines/",
+   "text": "A model with this wargear gains the Feel no Pain (6+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "6+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "grav_chute",
+   "name": "Grav Chute",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/grav_chute_space_marines/",
+   "text": "A model with a Grav Chute gains the Deep Strike Special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "camo_cloaks",
+   "name": "Camo Cloaks",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/camo_cloaks_space_marines/",
+   "text": "A Model with a Camo Cloak gains the benefit of Light Cover even if they would not normally do so. In addition, if they are already benefiting from Light Cover, they receive heavy Cover instead. A model with this wargear gains a 4+ Cover save if it is already receiving the benefit of Heavy cover."
+  },
+  {
+   "id": "combat_shields",
+   "name": "Combat Shields",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/combat_shields_space_marines/",
+   "text": "A model equipped with this wargear has a 6+ Invulnerable save. In addition, they gain +1 to their Armour Save (Max 2+) in the Combat Phase.",
+   "effects": {
+    "invulnerable_save": "6+"
+   }
+  },
+  {
+   "id": "chapter_banner",
+   "name": "Chapter Banner",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/chapter_banner_space_marines/",
+   "text": "Friendly Space Marines units within 12\" of the Banner can re-roll Pinning and Panic tests. In addition, when calculating the number of wounds caused in a combat for the purpose of determining if a unit within 12\" of a model with this wargear has won or lost a combat, add 1 to the number of wounds caused by friendly Space Marine units within 12\" of a model with this wargear."
+  },
+  {
+   "id": "grapple_hooks",
+   "name": "Grapple Hooks",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/grapple_hooks/",
+   "text": "A model with a Grapple Hook ignores vertical distances when moving as if they had the Fly Special Rule."
+  },
+  {
+   "id": "tempormortis",
+   "name": "Tempormortis",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/tempormortis/",
+   "text": "At the start of the combat phase, enemy units in combat with a model equipped with this wargear have their Initiative reduced by 1."
+  },
+  {
+   "id": "grenade_harness",
+   "name": "Grenade Harness",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/grenade_harness_space_marines/",
+   "text": "A unit which includes a model with this wargear does not suffer the penalties of a Disordered Charge for Charging through Difficult Terrain."
+  },
+  {
+   "id": "power_armour",
+   "name": "Power Armour",
+   "section": "Armours",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/power_armour_space_marines/",
+   "text": "Basic Power Armour used by most Astartes. It provides a 3+ Armour Save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "artificer_armour",
+   "name": "Artificer Armour",
+   "section": "Armours",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/artificer_armour_space_marines/",
+   "text": "Master work Armour issued to veterans and champions. It provides a 2+ Armour Save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "scout_armour",
+   "name": "Scout Armour",
+   "section": "Armours",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/scout_armour/",
+   "text": "Basic Armour used by Space Marine Scout forces. It's lightweight and easy to move in. It provides a 4+ Armour save and gives the wearer the Scout, Outflank and Skirmisher special rules.",
+   "effects": {
+    "armour_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/scout",
+      "name": "Scout",
+      "url": "https://longwarindex.app/universal_special_rules/scout/"
+     },
+     {
+      "rule": "universal_special_rules/outflank",
+      "name": "Outflank",
+      "url": "https://longwarindex.app/universal_special_rules/outflank/"
+     },
+     {
+      "rule": "universal_special_rules/skirmisher",
+      "name": "Skirmisher",
+      "url": "https://longwarindex.app/universal_special_rules/skirmisher/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "phobos_armour",
+   "name": "Phobos Armour",
+   "section": "Armours",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/phobos_armour_space_marines/",
+   "text": "A Stealth designed version of the standard power Armour for infiltration. It provides a 3+ Armour save and grants the wearer the Infiltrate special rule.",
+   "effects": {
+    "armour_save": "3+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/infiltrate",
+      "name": "Infiltrate",
+      "url": "https://longwarindex.app/universal_special_rules/infiltrate/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "indomitus_terminator_armour",
+   "name": "Indomitus Terminator Armour",
+   "section": "Armours",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/indomitus_terminator_armour_space_marines/",
+   "text": "The Standard Terminator Armour used by most Astartes forces. It provides a 2+ Armour Save and a 5+ Invulnerable Save. The wearer gains the Relentless, Bulky (2) and Deep Strike special rule. Models equipped with this Armour may not perform Sweeping Advances. It grants the Terminator Keyword.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "5+",
+    "keywords": [
+     "Terminator"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cataphractii_terminator_armour",
+   "name": "Cataphractii Terminator Armour",
+   "section": "Armours",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/cataphractii_terminator_armour_space_marines/",
+   "text": "An ancient heavier pattern of Terminator Armour rarely used. It provides a 2+ Armour save and a 4+ Invulnerable save. The Wearer gains the Relentless, Bulky (2) and Slow & Purposeful special rules. The wearers Movement (M) Characteristic is decreased by 1\". It grants the Terminator Keyword.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "4+",
+    "keywords": [
+     "Terminator"
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "M",
+      "delta": -1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/slow_and_purposeful",
+      "name": "Slow and Purposeful",
+      "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "dreadnought_plate",
+   "name": "Dreadnought Plate",
+   "section": "Armours",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/dreadnought_plate_space_marines/",
+   "text": "These ancient and powerful mechanised war suit encompasses a sarcophagus where an ancient warrior lay entombed. When combined, the warrior may take to the field again with a new body. It confers a 2+ Armour save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "tartaros_terminator_armour",
+   "name": "Tartaros Terminator Armour",
+   "section": "Armours",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/tartaros_terminator_armour_space_marines/",
+   "text": "A more mobile ancient pattern of Terminator Armour rarely used. It provides a 2+ Armour Save and a 5+ Invulnerable save. The Wearer gains Relentless, Bulky (2), and Sprint (1) special rules. It grants the Terminator Keyword.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "5+",
+    "keywords": [
+     "Terminator"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/sprint",
+      "name": "Sprint",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/sprint/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gravis_armour",
+   "name": "Gravis Armour",
+   "section": "Armours",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/gravis_armour_space_marines/",
+   "text": "Gravis Armour is a bulk multi-layered heavy assault Armour for Primaris. It provides a 3+ Armour save and grants the wearer +1 to their Toughness (T) characteristic. The wearers Movement (M) Characteristic is decreased by 1\". The model gains the Bulky (2) special rule. If a model wearing Gravis Armour is hit by a weapon with the Blast or Large Blast special rule, decrease the AP of the weapon by 1 (e.g 3 becomes 4) for the purposes of resolving that hit. The model gains the Relentless Special rule.",
+   "effects": {
+    "armour_save": "3+",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "M",
+      "delta": -1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "centurion_armour",
+   "name": "Centurion Armour",
+   "section": "Armours",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/centurion_armour/",
+   "text": "Centurion Armour is a massive, powered suit of Armour worn over normal power Armour. It provides a 2+ Armour save. In addition, it grants the wearer +1 to their Wound (W), Strength (S) and Toughness (T) characteristics, as well as the Relentless, Bulky (3) and Slow & Purposeful special rules. The wearers Movement (M) Characteristic is decreased by 2\".",
+   "effects": {
+    "armour_save": "2+",
+    "stat_mods": [
+     {
+      "characteristic": "W",
+      "delta": 1
+     },
+     {
+      "characteristic": "S",
+      "delta": 1
+     },
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "M",
+      "delta": -2
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "3",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/slow_and_purposeful",
+      "name": "Slow and Purposeful",
+      "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "jump_pack",
+   "name": "Jump Pack",
+   "section": "Mobility Wargear",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/jump_pack_space_marines/",
+   "text": "A unit that is equipped with a Jump Pack increases its Movement (M) characteristic to 12\". The model gains the Hammer of Wrath (1), Bulky (2), Fly and Deep Strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bike",
+   "name": "Bike",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "linked_boltgun"
+    }
+   ],
+   "section": "Mobility Wargear",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/bike_space_marines/",
+   "text": "A unit that is equipped with a Bike becomes a Bike type unit. In addition, it gains +1 Toughness (T) Characteristics. A Space marine Bike is equipped with a Linked Boltgun.",
+   "effects": {
+    "unit_type": "Bike",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "assault_launchers",
+   "name": "Assault Launchers",
+   "section": "Vehicle Wargear",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/assault_launchers_space_marines/",
+   "text": "A model equipped with this Wargear can make 1 additional Hammer of Wrath Attack.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "smoke_launchers",
+   "name": "Smoke Launchers",
+   "section": "Vehicle Wargear",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/smoke_launchers_space_marines/",
+   "text": "A model equipped with this Wargear can set to smoke instead of Overwatching. Until the start of its next turn, the model gains a 4+ Cover Save."
+  },
+  {
+   "id": "searchlight",
+   "name": "Searchlight",
+   "section": "Vehicle Wargear",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/searchlight_space_marines/",
+   "text": "A model with this special rule gains the Night Vision special rule. Any unit that it targets in the Shooting Phase no longer gains the benefit of Night Fighting. Any attacks against this unit are not affected by Night Fighting.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/night_vision",
+      "name": "Night Vision",
+      "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "armour_indomitus",
+   "name": "Armour Indomitus",
+   "section": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/armour_indomitus/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this relic wargear gains a 2+ Armour save and a 4+ Invulnerable save. In addition, the equipped model may re-roll 1 Failed Save (Armour or Invul) per phase.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "honours_vehement",
+   "name": "Honours Vehement",
+   "section": "Relics",
+   "page": 11,
+   "url": "https://longwarindex.app/wargear/honours_vehement/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this relic wargear and any attached unit gain +1 to their Attacks (A) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "A",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "standard_of_the_emperor_ascendant",
+   "name": "Standard of the Emperor Ascendant",
+   "section": "Relics",
+   "page": 11,
+   "url": "https://longwarindex.app/wargear/standard_of_the_emperor_ascendant/",
+   "text": "One unit in your army with the Character special rule and equipped with a Chapter Banner that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this relic wargear counts as being equipped with a Chapter Banner. In addition, the equipped model and any attached unit gain the Last Stand special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/last_stand",
+      "name": "Last Stand",
+      "url": "https://longwarindex.app/universal_special_rules/last_stand/"
+     }
+    ],
+    "counts_as": [
+     {
+      "kind": "wargear",
+      "id": "chapter_banner"
+     }
+    ]
+   }
+  },
+  {
+   "id": "atomantic_shielding",
+   "name": "Atomantic Shielding",
+   "section": "Datasheet",
+   "datasheet": "Carab Culln, the Risen",
+   "page": 46,
+   "url": "https://longwarindex.app/wargear/atomantic_shielding_space_marines/",
+   "text": "This confers a 5+ Invulnerable save. When a model with this wargear is slain and removed from play, the model suffers an Explodes result per the Vehicle damage chart before it is removed from play.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "armour_of_selket",
+   "name": "Armour of Selket",
+   "section": "Datasheet",
+   "datasheet": "Sevrin Loth",
+   "page": 47,
+   "url": "https://longwarindex.app/wargear/armour_of_selket/",
+   "text": "The Phase in which this unit successfully casts a Psychic Power that is not a Psychic Weapon, this unit gains a 3+ Invulnerable save until the end of the Phase."
+  },
+  {
+   "id": "vexilla_imperialis_standard",
+   "name": "Vexilla Imperialis Standard",
+   "section": "Datasheet",
+   "datasheet": "Captains Casan Sabius & Sirae Karagon",
+   "page": 48,
+   "url": "https://longwarindex.app/wargear/vexilla_imperialis_standard/",
+   "text": "Friendly Space Marines units within 12\" of the Banner can re-roll Pinning and Panic tests. In addition, when calculating the number of wounds caused in a combat for the purpose of determining if a unit within 12\" of a model with this wargear has won or lost a combat, add 2 to the number of wounds caused by friendly Space Marine units within 12\" of a model with this wargear."
+  },
+  {
+   "id": "hexagramatic_wards",
+   "name": "Hexagramatic Wards",
+   "section": "Datasheet",
+   "datasheet": "Captain Silas Alberec",
+   "page": 53,
+   "url": "https://longwarindex.app/wargear/hexagramatic_wards_space_marines/",
+   "text": "This unit and any attached unit may never be targeted by Psychic Powers."
+  },
+  {
+   "id": "omni_scope",
+   "name": "Omni-scope",
+   "section": "Datasheet",
+   "datasheet": "Centurions",
+   "page": 61,
+   "url": "https://longwarindex.app/wargear/omni_scope/",
+   "text": "A model equipped with this wargear ignores covers."
+  },
+  {
+   "id": "infernum_halo_launcher",
+   "name": "Infernum Halo Launcher",
+   "section": "Datasheet",
+   "datasheet": "Stormhawk Interceptor",
+   "page": 74,
+   "url": "https://longwarindex.app/wargear/infernum_halo_launcher_space_marines/",
+   "text": "Instead of setting to Overwatch, this unit may set to Deploy Chaff. When this unit deploys Chaff, all attacks against this unit have -1 to all hit rolls until the start of this units next Shooting Phase."
+  },
+  {
+   "id": "divinator_auspex_array",
+   "name": "Divinator Auspex Array",
+   "section": "Datasheet",
+   "datasheet": "Incursor Squad",
+   "page": 83,
+   "url": "https://longwarindex.app/wargear/divinator_auspex_array/",
+   "text": "A model with this wargear gains the Precision Hits special rule on all Boltgun weapons it is equipped with.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/precision_hits",
+      "name": "Precision Hits",
+      "url": "https://longwarindex.app/special_rules/precision_hits/",
+      "weapons": [
+       {
+        "kind": "weapon",
+        "id": "boltgun"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "dozer_blades",
+   "name": "Dozer Blades",
+   "section": "Datasheet",
+   "datasheet": "Vindicator Siege Tank",
+   "page": 96,
+   "url": "https://longwarindex.app/wargear/dozer_blades/",
+   "text": "A model with this wargear ignores Difficult and Dangerous Terrain."
+  },
+  {
+   "id": "void_shields",
+   "name": "Void Shields",
+   "parameter": {
+    "kind": "count",
+    "description": "the number of Void Shield Tokens"
+   },
+   "section": "Datasheet",
+   "datasheet": "Astraeus",
+   "page": 113,
+   "url": "https://longwarindex.app/wargear/void_shields_space_marines/",
+   "text": "A unit with this wargear gains a number of Void Shield Tokens equal to the value of (x). Each time this unit takes a Penetrating Hit, if it has a Void Shield Token, you spend a token to ignore that Penetrating Hit. At the start of each Battle Round, you regain 1 spent Void Shield Token. Instead of setting to Overwatch, you can set to Recharge Voids. A unit that Recharges Voids, regains all of its Void Shield Tokens."
+  }
+ ]
+}

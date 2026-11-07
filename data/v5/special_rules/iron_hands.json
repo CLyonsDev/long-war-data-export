@@ -1,0 +1,374 @@
+{
+ "data_version": "997d59b1097ec580",
+ "format": 1,
+ "faction": "iron_hands",
+ "special_rules": [
+  {
+   "id": "codex/iron_hands/allegiances/allegiance_iron_hands",
+   "name": "Allegiance: Iron Hands",
+   "kind": "allegiance",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_iron_hands/",
+   "references": [
+    "universal_special_rules/feel_no_pain",
+    "battlefield_roles/limited",
+    "codex/space_marines/special_rules/chapter_master",
+    "codex/space_marines/special_rules/chaplain"
+   ],
+   "text": "All units with the Iron Hands Keyword gain the Allegiance: Iron Hands special rule. The Allegiance: Iron Hands special rule consists of the following rules:\n\n- Flesh is Weak: All Iron Hands units in your army gain the following benefits:\n    - All Infantry, Bike, Walker and Cavalry type units gain the Bionics Wargear (which confers the Feel no Pain (6+) special rule).\n    - All Vehicle, Aircraft type units ignore any results of Crew Injury on the Vehicle damage table and treat it as a Superficial damage result instead.\n- Bitter History:\n    - An Iron Hands army gains the Limited: 1 per army special rule on the following units:\n        - Tactical Terminators.\n        - Assault Terminators.\n    - Iron Hands Space Marine Captains may not purchase the Chapter Master upgrade.\n    - Iron Hands Space Marine Lieutenants may not purchase the Chaplain upgrade."
+  },
+  {
+   "id": "codex/iron_hands/special_rules/armoury_of_the_10th_legion",
+   "name": "Armoury of the 10th Legion",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_10th_legion/",
+   "references": [
+    "codex/iron_hands/allegiances/allegiance_iron_hands",
+    "codex/iron_hands/special_rules/iron_father",
+    "universal_special_rules/character"
+   ],
+   "text": "Units with Allegiance: Iron Hands have access to additional wargear presented in this supplement in addition to the war gear presented in the core Codex Space Marines.\n\nSpace Marine Captain Upgrades\n\nOne Iron Hands Space Marine Captain in your army may be upgraded to an Iron Father for 55pts.\n\nWargear\n\nAny Iron Hands unit with the Character special rule may purchase:\n\n- Automedicae Bionics for 10pts.\n- Cyber Familiar for 10pts.\n- Enhanced Bionics for 5pts.\n\nAny Iron Hands Walker, Aircraft or Vehicle type may take Blessed Autosimulacra for 25pts.\n\nAny Iron Hands model equipped with Indomitus Terminator Armour may exchange it for Gorgon Terminator Armour for 5pts.\n\nAny Iron Hands 'Tactical Marine' or 'Sergeant' model in a Tactical Squad unit or 'Veteran Marine' or 'Veteran Sergeant' in a Veteran Squad may:\n\n- Take a Boarding Shield for 3pts per model.\n\nWeapons\n\nAny Iron Hands model may:\n\n- Exchange their equipped Grav Gun for a Graviton Shredder for 1pts.\n\nAny Iron Hands model in a Tactical Squad unit may:\n\n- Exchange their equipped Boltgun for a Haywire Boltgun for 1pts per model.\n\nAny Iron Hands model equipped with a Storm Bolter may exchange it for a Haywire Stormbolter for 1pt per model.\n\nAny Iron Hands Predator MBT can exchange its Autocannon (P) for one of the following:\n\n- A Plasma Cannon (P) for 10pts (see core codex).\n- A Grav Cannon (P) for 0pts (see core codex).\n- A Conversion Beamer (P) for 10pts (see core codex).\n- A Melta Cannon (P) for 25pts.\n- A Volkite Saker (P) for 5pts.\n- A Neutron Blaster (P) for 30pts."
+  },
+  {
+   "id": "codex/iron_hands/special_rules/broad_spectrum_data_tether",
+   "name": "Broad Spectrum Data Tether",
+   "kind": "datasheet",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/broad_spectrum_data_tether/",
+   "text": "A unit with this wargear and all friendly Iron Hands units within 12\" may re-roll Panic tests."
+  },
+  {
+   "id": "codex/iron_hands/special_rules/cold_belief_in_firepower",
+   "name": "Cold Belief in Firepower",
+   "kind": "warlord_trait",
+   "page": 18,
+   "url": "https://longwarindex.app/special_rules/cold_belief_in_firepower/",
+   "text": "If this unit is your Warlord, you may field Razorbacks IFV's as Elite choices. In addition, any Transport that this unit is Embarked upon may use this units Ballistic Skill (BS) and Weapon Skill (WS) characteristics.",
+   "effects": {
+    "list_building": {
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/iron_hands/roster/iron_father_kardan_stronos"
+       }
+      }
+     ],
+     "benefits": [
+      {
+       "id": "razorback_elites",
+       "printed": "If this unit is your Warlord, you may field Razorbacks IFV's as Elite choices.",
+       "role": {
+        "conditions": [
+         {
+          "datasheet": "codex/space_marines/roster/razorback_ifv"
+         }
+        ],
+        "role": "Elites",
+        "instead": false
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/iron_hands/special_rules/custodians_of_the_iron_council",
+   "name": "Custodians of the Iron Council",
+   "kind": "datasheet",
+   "page": 23,
+   "url": "https://longwarindex.app/special_rules/custodians_of_the_iron_council/",
+   "references": [
+    "universal_special_rules/character",
+    "codex/iron_hands/special_rules/iron_father"
+   ],
+   "text": "This unit may be joined by Iron Hands units with the Character special rule even if they are not Automata type. While an Infantry type character is attached to this unit, they ignore the standard rules for Automata targeting for Shooting and Charging. This unit does not take up a Force Organization slot if your army includes a Space Marine Captain upgraded to an Iron Father.",
+   "effects": {
+    "list_building": {
+     "while": [
+      {
+       "army_includes": [
+        {
+         "choice": {
+          "book_options": "iron_hands",
+          "path": "iron_father_upgrade/iron_father"
+         }
+        }
+       ]
+      }
+     ],
+     "benefits": [
+      {
+       "id": "helfathers_unslotted",
+       "printed": "This unit does not take up a Force Organization slot if your army includes a Space Marine Captain upgraded to an Iron Father.",
+       "unslotted": {
+        "conditions": [
+         {
+          "datasheet": "codex/iron_hands/roster/helfathers"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/iron_hands/special_rules/gravis_honour",
+   "name": "Gravis Honour",
+   "kind": "datasheet",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/gravis_honour/",
+   "text": "This unit may exchange its Gorgon Terminator Armor for Gravis Armor for 0pts.",
+   "options": [
+    {
+     "id": "gravis_armour",
+     "label": "This unit may exchange its Gorgon Terminator Armor for Gravis Armor for 0pts.",
+     "printed": "This unit may exchange its Gorgon Terminator Armor for Gravis Armor for 0pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "gravis_armour",
+       "name": "Gravis Armour",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "gorgon_terminator_armour"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "gravis_armour",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/iron_hands/special_rules/iron_captain_of_clan_avernii",
+   "name": "Iron Captain of Clan Avernii",
+   "kind": "warlord_trait",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/iron_captain_of_clan_avernii/",
+   "text": "If this unit is your Warlord, all Veteran Keyword units exchange their Bionics for Enhanced Bionics.",
+   "effects": {
+    "list_building": {
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/iron_hands/roster/iron_captain_caanok_var"
+       }
+      }
+     ],
+     "benefits": [
+      {
+       "id": "veteran_enhanced_bionics",
+       "printed": "If this unit is your Warlord, all Veteran Keyword units exchange their Bionics for Enhanced Bionics.",
+       "exchanges": {
+        "conditions": [
+         {
+          "keyword": "Veteran"
+         }
+        ],
+        "exchanges": [
+         {
+          "remove": [
+           {
+            "kind": "wargear",
+            "id": "bionics",
+            "faction": "space_marines"
+           }
+          ],
+          "add": [
+           {
+            "kind": "wargear",
+            "id": "enhanced_bionics"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/iron_hands/special_rules/iron_father",
+   "name": "Iron Father",
+   "kind": "datasheet",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/iron_father/",
+   "references": [
+    "universal_special_rules/battle_smith",
+    "universal_special_rules/priest",
+    "universal_special_rules/hatred",
+    "universal_special_rules/stubborn",
+    "universal_special_rules/zealot",
+    "codex/space_marines/special_rules/master_of_command"
+   ],
+   "text": "A unit with this upgrade gains +1 to their Ballistic Skill (BS), Weapon Skill (WS), Wounds (W), Attacks (A) and Leadership (LD) characteristics. The unit gains a Servo Arm. Additionally, the unit gains the Battle Smith (1), Priest (1), Hatred, Stubborn, Zealot and Master of Command special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_smith",
+      "name": "Battle Smith",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+     },
+     {
+      "rule": "universal_special_rules/priest",
+      "name": "Priest",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/priest/"
+     },
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     },
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     },
+     {
+      "rule": "universal_special_rules/zealot",
+      "name": "Zealot",
+      "url": "https://longwarindex.app/universal_special_rules/zealot/"
+     },
+     {
+      "rule": "codex/space_marines/special_rules/master_of_command",
+      "name": "Master of Command",
+      "url": "https://longwarindex.app/special_rules/master_of_command_space_marines/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "BS",
+      "delta": 1
+     },
+     {
+      "characteristic": "WS",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     },
+     {
+      "characteristic": "A",
+      "delta": 1
+     },
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ],
+    "items": [
+     {
+      "kind": "weapon",
+      "id": "servo_arm",
+      "faction": "space_marines"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/iron_hands/special_rules/iron_father_of_clan_atropos",
+   "name": "Iron Father of Clan Atropos",
+   "kind": "warlord_trait",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/iron_father_of_clan_atropos/",
+   "text": "If this unit is your Warlord, Tactical Terminator and Assault Terminator units in your army ignore the Limited: x special rule.",
+   "effects": {
+    "list_building": {
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/iron_hands/roster/iron_father_vaylund_cal"
+       }
+      }
+     ],
+     "benefits": [
+      {
+       "id": "terminators_no_limit",
+       "printed": "If this unit is your Warlord, Tactical Terminator and Assault Terminator units in your army ignore the Limited: x special rule.",
+       "limit": {
+        "conditions": [
+         {
+          "any_of": [
+           {
+            "datasheet": "codex/space_marines/roster/tactical_terminators"
+           },
+           {
+            "datasheet": "codex/space_marines/roster/assault_terminators"
+           }
+          ]
+         }
+        ],
+        "limit": null
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/iron_hands/special_rules/iron_father_of_clan_rukaan",
+   "name": "Iron Father of Clan Rukaan",
+   "kind": "warlord_trait",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/iron_father_of_clan_rukaan/",
+   "text": "If this unit is your Warlord, you may field Castraferrum Dreadnoughts and Redemptor Dreadnoughts as Heavy Support choices.",
+   "effects": {
+    "list_building": {
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/iron_hands/roster/iron_father_malkaan_ferrios"
+       }
+      }
+     ],
+     "benefits": [
+      {
+       "id": "dreadnoughts_heavy_support",
+       "printed": "If this unit is your Warlord, you may field Castraferrum Dreadnoughts and Redemptor Dreadnoughts as Heavy Support choices.",
+       "role": {
+        "conditions": [
+         {
+          "any_of": [
+           {
+            "datasheet": "codex/space_marines/roster/castraferrum_dreadnought"
+           },
+           {
+            "datasheet": "codex/space_marines/roster/redemptor_dreadnought"
+           }
+          ]
+         }
+        ],
+        "role": "Heavy Support",
+        "instead": false
+       }
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

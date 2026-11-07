@@ -1,0 +1,847 @@
+{
+ "data_version": "2a046572b333edfa",
+ "format": 1,
+ "faction": "thousand_sons",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character & Psyker (x) special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic.",
+   "printed": "One unit in your army with the Character & Psyker (x) special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic.",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_athenean_scrolls/",
+   "offered_by": {
+    "allegiance": "codex/thousand_sons/allegiances/allegiance_thousand_sons"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "coruscator",
+     "name": "Coruscator",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Bolt Pistol or Inferno Bolt Pistol for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "bolt_pistol",
+         "faction": "chaos_space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "inferno_bolt_pistol"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "coruscator"
+        }
+       ]
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/coruscator/",
+     "pricing": "flat"
+    },
+    {
+     "id": "eye_of_the_warp",
+     "name": "Eye of the Warp",
+     "points": 20,
+     "printed": "One unit in your army with the Character & Psyker (x) special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "eye_of_the_warp"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/eye_of_the_warp/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "rule": {
+        "rule": "universal_special_rules/psyker",
+        "name": "Psyker",
+        "url": "https://longwarindex.app/universal_special_rules/psyker/"
+       }
+      }
+     ]
+    },
+    {
+     "id": "helm_of_the_third_eye",
+     "name": "Helm of the Third Eye",
+     "points": 15,
+     "printed": "One unit in your army with the Character & Psyker (x) special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "helm_of_the_third_eye"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/helm_of_the_third_eye/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "rule": {
+        "rule": "universal_special_rules/psyker",
+        "name": "Psyker",
+        "url": "https://longwarindex.app/universal_special_rules/psyker/"
+       }
+      }
+     ]
+    },
+    {
+     "id": "the_stave_abominus",
+     "name": "Stave Abominus",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Force Stave for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "force_stave",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_stave_abominus"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_stave_abominus/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_athenean_scrolls",
+     "name": "The Athenean Scrolls",
+     "points": 10,
+     "printed": "One unit in your army with the Character & Psyker (x) special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_athenean_scrolls"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_athenean_scrolls/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "rule": {
+        "rule": "universal_special_rules/psyker",
+        "name": "Psyker",
+        "url": "https://longwarindex.app/universal_special_rules/psyker/"
+       }
+      }
+     ]
+    },
+    {
+     "id": "the_chronus_tutorum",
+     "name": "The Chronus Tutorum",
+     "points": 30,
+     "printed": "One unit in your army with the Character & Psyker (x) special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_chronus_tutorum"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_chronus_tutorum/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "rule": {
+        "rule": "universal_special_rules/psyker",
+        "name": "Psyker",
+        "url": "https://longwarindex.app/universal_special_rules/psyker/"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "Units with Allegiance: Thousand Sons have access to the Warlord traits in this supplement. One Thousand Sons unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "Units with Allegiance: Thousand Sons have access to the Warlord traits in this supplement. One Thousand Sons unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 9,
+   "url": "https://longwarindex.app/codex/thousand_sons/warlord_traits/",
+   "offered_by": {
+    "allegiance": "codex/thousand_sons/allegiances/allegiance_thousand_sons"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "keyword": "Thousand Sons"
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "chaos_space_marines/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "lord_of_flux",
+     "name": "Lord of Flux",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/lord_of_flux/",
+     "text": "All terrain within 18\" of the Warlord is treated as Dangerous and Difficult Terrain by enemy units. This affects open terrain as well.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "lord_of_forbidden_lore",
+     "name": "Lord of Forbidden Lore",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/lord_of_forbidden_lore/",
+     "text": "Your Warlord knows all of the Psychic Powers from the Lore of Tzeentch in Codex Chaos Space Marines in addition to powers purchased from the Arcana Psychic Discipline Powers (see Armoury of the 15th).",
+     "points": 0,
+     "pricing": "flat",
+     "knows": [
+      {
+       "page": "codex/chaos_space_marines/powers/baleful_devolution",
+       "name": "Baleful Devolution",
+       "url": "https://longwarindex.app/powers/baleful_devolution_chaos_space_marines/"
+      },
+      {
+       "page": "codex/chaos_space_marines/powers/bolt_of_change",
+       "name": "Bolt of Change",
+       "url": "https://longwarindex.app/powers/bolt_of_change_chaos_space_marines/"
+      },
+      {
+       "page": "codex/chaos_space_marines/powers/boon_of_change",
+       "name": "Boon of Change",
+       "url": "https://longwarindex.app/powers/boon_of_change_chaos_space_marines/"
+      },
+      {
+       "page": "codex/chaos_space_marines/powers/siphon_magic",
+       "name": "Siphon Magic",
+       "url": "https://longwarindex.app/powers/siphon_magic_chaos_space_marines/"
+      },
+      {
+       "page": "codex/chaos_space_marines/powers/treason_of_tzeentch",
+       "name": "Treason of Tzeentch",
+       "url": "https://longwarindex.app/powers/treason_of_tzeentch_chaos_space_marines/"
+      }
+     ]
+    },
+    {
+     "id": "undying_form",
+     "name": "Undying Form",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/undying_form/",
+     "text": "A Warlord with this trait gains the Battle-Hardened and Feel no Pain (5+) special rules. In addition, they can re-roll 1 Invulnerable save per phase.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/battle_hardened",
+       "name": "Battle-Hardened",
+       "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+      },
+      {
+       "rule": "universal_special_rules/feel_no_pain",
+       "name": "Feel No Pain",
+       "param": "5+",
+       "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "arcana_psychic_powers",
+   "kind": "psychic_powers",
+   "label": "All Thousand Sons units with the Psyker (x) special rule may purchase Psychic Powers from the following Discipline.",
+   "printed": "All Thousand Sons units with the Psyker (x) special rule may purchase Psychic Powers from the following Discipline.",
+   "page": 6,
+   "url": "https://longwarindex.app/codex/thousand_sons/powers/",
+   "offered_by": {
+    "allegiance": "codex/thousand_sons/allegiances/allegiance_thousand_sons"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Thousand Sons"
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "divine_shot",
+     "name": "Divine Shot",
+     "page": 6,
+     "url": "https://longwarindex.app/powers/divine_shot/",
+     "text": "When this power is successfully cast, the Psyker and any attached unit gain the Precision Hits special rule on all Shooting Weapons they are equipped with until the start of your next Shooting Phase.",
+     "points": 25,
+     "pricing": "flat"
+    },
+    {
+     "id": "hallucination",
+     "name": "Hallucination",
+     "page": 6,
+     "url": "https://longwarindex.app/powers/hallucination/",
+     "text": "When this power is successfully cast, select a single enemy unit within 12\" of the Psyker. The target unit immediately Panics and performs a Fall Back Move. If the unit is still on the battlefield at the start of your next Shooting Phase, the target unit automatically rallies. The target of this Psychic Power cannot flee off the board and if their movement would take them off the board, they instead stop 1\" away from the battlefield edge and rally.",
+     "points": 20,
+     "pricing": "flat"
+    },
+    {
+     "id": "levitation",
+     "name": "Levitation",
+     "page": 6,
+     "url": "https://longwarindex.app/powers/levitation/",
+     "text": "When this power is successfully cast, the Psyker and any attached unit gain the Fly special rule until the start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "tainted_battlefield",
+     "name": "Tainted Battlefield",
+     "page": 6,
+     "url": "https://longwarindex.app/powers/tainted_battlefield/",
+     "text": "When this power is successfully cast, all enemy units within 12\" of the Psyker and any attached unit treat all terrain, including open terrain as Difficult Terrain and Dangerous Terrain.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "telekinetic_throw",
+     "name": "Telekinetic Throw",
+     "page": 6,
+     "url": "https://longwarindex.app/powers/telekinetic_throw/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Telekinetic Throw",
+     "points": 10,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "telekinetic_throw"
+      }
+     ]
+    },
+    {
+     "id": "temporal_manipulation",
+     "name": "Temporal Manipulation",
+     "page": 6,
+     "url": "https://longwarindex.app/powers/temporal_manipulation/",
+     "text": "When this power is successfully cast, all enemy units within 3\" of the Psyker and any attached unit suffer -1 to their Initiative (I) characteristic until the start of your next Shooting Phase.",
+     "points": 5,
+     "pricing": "flat"
+    },
+    {
+     "id": "twist_of_fate",
+     "name": "Twist of Fate",
+     "page": 6,
+     "url": "https://longwarindex.app/powers/twist_of_fate/",
+     "text": "When this power is successfully cast, target 1 enemy unit within 18\" of the Psyker. The target unit must re-roll all successful Save rolls (Armor, Cover, Invulnerable) until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "character_wargear",
+   "kind": "armoury",
+   "label": "Any Thousand Sons unit with the Character special rule may purchase:",
+   "printed": "Any Thousand Sons unit with the Character special rule may purchase:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_15th_legion/",
+   "offered_by": {
+    "allegiance": "codex/thousand_sons/allegiances/allegiance_thousand_sons"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Thousand Sons"
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "scroll_of_power",
+     "name": "Scroll of Power",
+     "printed": "A Scroll of Power for 10pts.",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "scroll_of_power"
+      }
+     ],
+     "max": 1
+    },
+    {
+     "id": "scroll_of_dispel",
+     "name": "Scroll of Dispel",
+     "printed": "A Scroll of Dispel for 15pts.",
+     "points": 15,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "scroll_of_dispel"
+      }
+     ],
+     "max": 1
+    },
+    {
+     "id": "scroll_of_magic",
+     "name": "Scroll of Magic",
+     "printed": "A Scroll of Magic for 5pts.",
+     "points": 5,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "scroll_of_magic"
+      }
+     ],
+     "max": 1
+    },
+    {
+     "id": "disc_of_tzeentch",
+     "name": "Disc of Tzeentch",
+     "printed": "A Disc of Tzeentch for 10pts.",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "disc_of_tzeentch"
+      }
+     ],
+     "max": 1
+    }
+   ]
+  },
+  {
+   "id": "force_kopesh",
+   "kind": "armoury",
+   "label": "Any Thousand Sons Chaos Lord or Chaos Champion may:",
+   "printed": "Any Thousand Sons Chaos Lord or Chaos Champion may:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_15th_legion/",
+   "offered_by": {
+    "allegiance": "codex/thousand_sons/allegiances/allegiance_thousand_sons"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Thousand Sons"
+     },
+     {
+      "any_of": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_lord"
+       },
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_champion"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "force_kopesh",
+     "name": "Force Kopesh",
+     "printed": "Exchange their equipped Power Sword or Force Sword for a Force Kopesh for 5pts.",
+     "points": 5,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "chaos_space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "force_sword",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "force_kopesh"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "inferno_bolt_weapons",
+   "kind": "armoury",
+   "label": "Any Thousand Sons model may:",
+   "printed": "Any Thousand Sons model may:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_15th_legion/",
+   "offered_by": {
+    "allegiance": "codex/thousand_sons/allegiances/allegiance_thousand_sons"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Thousand Sons"
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "inferno_bolt_pistol",
+     "name": "Inferno Bolt Pistol",
+     "printed": "Exchange their Bolt Pistol for an Inferno Bolt Pistol for 3pts.",
+     "points": 3,
+     "pricing": "each",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "bolt_pistol",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "inferno_bolt_pistol"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "inferno_boltgun",
+     "name": "Inferno Boltgun",
+     "printed": "Exchange their Boltgun for an Inferno Boltgun for 3pts.",
+     "points": 3,
+     "pricing": "each",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "inferno_boltgun"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sekhmet_terminators",
+   "kind": "upgrade",
+   "label": "You may select 1 Scarab Occult unit in your army to become Sekhmet Terminators. The chosen unit gains +1 to their Weapon Skill (WS) characteristic.",
+   "printed": "You may select 1 Scarab Occult unit in your army to become Sekhmet Terminators. The chosen unit gains +1 to their Weapon Skill (WS) characteristic.",
+   "page": 12,
+   "url": "https://longwarindex.app/rites_of_war/guard_of_the_crimson_king/",
+   "offered_by": {
+    "rite": "codex/thousand_sons/rites_of_war/guard_of_the_crimson_king"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "datasheet": "codex/thousand_sons/roster/scarab_occult"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "sekhmet_terminators",
+     "name": "Sekhmet Terminators",
+     "points": 0,
+     "pricing": "flat",
+     "stat_mods": [
+      {
+       "characteristic": "WS",
+       "delta": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scroll_of_magic_powers",
+   "kind": "psychic_powers",
+   "label": "When this wargear is purchased, the model may immediately purchase 1 Psychic Power or Psychic Weapon from the Lore Tzeentch, Lore of Nurgle or Lore of Slaanesh.",
+   "printed": "When this wargear is purchased, the model may immediately purchase 1 Psychic Power or Psychic Weapon from the Lore Tzeentch, Lore of Nurgle or Lore of Slaanesh.",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/scroll_of_magic/",
+   "offered_by": {
+    "allegiance": "codex/thousand_sons/allegiances/allegiance_thousand_sons"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "choice": "character_wargear/scroll_of_magic"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "baleful_devolution",
+     "name": "Baleful Devolution",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/baleful_devolution_chaos_space_marines/",
+     "text": "When this power is cast, target 1 enemy unit within 18\" of the Psyker. The target unit takes 2D6, Strength 4, AP4 Automatic Hits. If any models are slain in the target unit as a result of wounds inflicted by this Psychic Power, immediately summon a Chaos Spawn more than 3\" away from the targeted enemy unit.",
+     "points": 30,
+     "pricing": "flat",
+     "reference_cards": [
+      "codex/chaos_space_marines/roster/chaos_spawn"
+     ]
+    },
+    {
+     "id": "bolt_of_change",
+     "name": "Bolt of Change",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/bolt_of_change_chaos_space_marines/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Bolt of Change",
+     "points": 15,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "bolt_of_change",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    },
+    {
+     "id": "boon_of_change",
+     "name": "Boon of Change",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/boon_of_change_chaos_space_marines/",
+     "text": "When this power is cast, the Psyker and their attached unit must pick to gain one of the following until the start of your next Shooting Phase:\n\n- +1 to its Attack (A) characteristic.\n- +1 to its Strength (S) characteristic.\n- +1 to its Initiative (I) characteristic.\n\nThis power may be cast any number of times by a Psyker in the Shooting Phase if they can cast multiple times.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "siphon_magic",
+     "name": "Siphon Magic",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/siphon_magic_chaos_space_marines/",
+     "text": "When this power is cast, select 1 enemy unit with the Psyker (x) special rule within 18\" of the Psyker. The target unit may not cast any make any Psychic tests to cast Psychic Powers or Psychic Weapons until the start of your next Shooting Phase. In addition, if the target unit has any Psychic Powers or Psychic Weapons in effect, including Force, that effect is negated.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "treason_of_tzeentch",
+     "name": "Treason of Tzeentch",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/treason_of_tzeentch_chaos_space_marines/",
+     "text": "When this Power is cast, select 1 enemy unit within 24\" of the Psyker that is not an Automata or Drone Type. Immediately make a single Shooting Attack with the targeted unit as if it were your own. The unit is treated as your own for the purposes of determining friendly and enemy targets. The Shooting Attack by the controlled target unit are resolved as Snap Shots. The target unit is treated as an enemy unit immediately after its Shooting Attack is resolved.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "blades_of_putrefaction",
+     "name": "Blades of Putrefaction",
+     "page": 22,
+     "url": "https://longwarindex.app/powers/blades_of_putrefaction_chaos_space_marines/",
+     "text": "When this power is cast, the Psyker and any attached unit gain the Poison (4+) special rule on all Melee weapons they are equipped with until the start of your next Shooting Phase. If an effected model is equipped with a Melee type weapon with the Poison (x) special rule, it becomes Poison (2+) instead.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "curse_of_the_leper",
+     "name": "Curse of the Leper",
+     "page": 22,
+     "url": "https://longwarindex.app/powers/curse_of_the_leper_chaos_space_marines/",
+     "text": "When this power is cast, target 1 enemy unit within 18\" of the Psyker. The target unit suffers -1 to its Strength (S) & Toughness (T) characteristic until the start of your next Shooting Phase.",
+     "points": 20,
+     "pricing": "flat"
+    },
+    {
+     "id": "fleshy_abundance",
+     "name": "Fleshy Abundance",
+     "page": 22,
+     "url": "https://longwarindex.app/powers/fleshy_abundance_chaos_space_marines/",
+     "text": "When this power is cast, the Psyker or 1 friendly model within 24\" Heals 1 lost Wound.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "nurgles_rot",
+     "name": "Nurgle's Rot",
+     "page": 22,
+     "url": "https://longwarindex.app/powers/nurgles_rot_chaos_space_marines/",
+     "text": "When this power is cast, target 1 enemy unit within 12\" of the Psyker. The target unit takes 2D6, Strength 2, AP-, automatic hits.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "plague_wind",
+     "name": "Plague Wind",
+     "page": 22,
+     "url": "https://longwarindex.app/powers/plague_wind_chaos_space_marines/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Plague Wind",
+     "points": 5,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "plague_wind",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    },
+    {
+     "id": "delightful_agonies",
+     "name": "Delightful Agonies",
+     "page": 23,
+     "url": "https://longwarindex.app/powers/delightful_agonies_chaos_space_marines/",
+     "text": "When this power is cast, the Psyker and any attached unit gain the Feel no Pain (5+) special rule until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "hysterical_frenzy",
+     "name": "Hysterical Frenzy",
+     "page": 23,
+     "url": "https://longwarindex.app/powers/hysterical_frenzy_chaos_space_marines/",
+     "text": "When this power is cast, the Psyker and any attached unit gain the Arcing (6+) special rule on all melee weapons they are equipped with until the start of your next Shooting Phase. If the unit already has Arcing (x), improve Arcing (x) by 1 to a max of 3+.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "sensory_overload",
+     "name": "Sensory Overload",
+     "page": 23,
+     "url": "https://longwarindex.app/powers/sensory_overload_chaos_space_marines/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Sensory Overload",
+     "points": 15,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "sensory_overload",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    },
+    {
+     "id": "sonic_shockwave",
+     "name": "Sonic Shockwave",
+     "page": 23,
+     "url": "https://longwarindex.app/powers/sonic_shockwave_chaos_space_marines/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Sonic Shockwave",
+     "points": 10,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "sonic_shockwave",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    },
+    {
+     "id": "symphony_of_pain",
+     "name": "Symphony of Pain",
+     "page": 23,
+     "url": "https://longwarindex.app/powers/symphony_of_pain_chaos_space_marines/",
+     "text": "When this power is cast, target 1 enemy unit within 18\" of the Psyker. The target unit suffers -1 to their Weapon Skill (WS) and Ballistic Skill (BS) characteristic until the start of your next Shooting Phase.",
+     "points": 20,
+     "pricing": "flat"
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

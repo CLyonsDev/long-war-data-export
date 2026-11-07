@@ -1,0 +1,613 @@
+{
+ "data_version": "ceefdcce53140b97",
+ "format": 1,
+ "faction": "dark_eldar",
+ "special_rules": [
+  {
+   "id": "codex/dark_eldar/special_rules/agonizing_thorns",
+   "name": "Agonizing Thorns",
+   "kind": "weapon",
+   "page": 9,
+   "url": "https://longwarindex.app/special_rules/agonizing_thorns/",
+   "text": "A unit which is hit by a weapon with this special rule gains a Thorn marker. A unit with a Thorn Marker halves its Movement (M) characteristic until the end of the Battle."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/arena_beasts",
+   "name": "Arena Beasts",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/arena_beasts/",
+   "text": "For each Beast Master unit in your army, you may field a unit with this special rule without taking up a Force Organization Slot.",
+   "effects": {
+    "list_building": {
+     "unslotted": {
+      "conditions": [
+       {
+        "rule": {
+         "rule": "codex/dark_eldar/special_rules/arena_beasts",
+         "name": "Arena Beasts",
+         "url": "https://longwarindex.app/special_rules/arena_beasts/"
+        }
+       }
+      ],
+      "count": 1,
+      "per_unit": [
+       {
+        "datasheet": "codex/dark_eldar/roster/beast_master"
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/avatar_of_ynnead",
+   "name": "Avatar of Ynnead",
+   "kind": "warlord_trait",
+   "page": 30,
+   "url": "https://longwarindex.app/special_rules/avatar_of_ynnead/",
+   "text": "Ynnari Eldar units which can draw visibility to this model may use its Leadership (LD) characteristic instead of their own. In addition, the unit gains the Gaze of Ynnead Psychic Weapon.",
+   "effects": {
+    "while_warlord": {
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "gaze_of_ynnead"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/beast_tamer",
+   "name": "Beast Tamer",
+   "kind": "datasheet",
+   "page": 47,
+   "url": "https://longwarindex.app/special_rules/beast_tamer/",
+   "text": "This unit can only join units with the Gladiator Beast keyword. This unit may join regardless of the unit even though it does not have the Beast type."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/bodyguard_muscle",
+   "name": "Bodyguard Muscle",
+   "kind": "datasheet",
+   "page": 46,
+   "url": "https://longwarindex.app/special_rules/bodyguard_muscle/",
+   "text": "While a Sslyth model is in this unit, wounds allocated to the unit must be allocated to Sslyth models first."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/contempt_for_death",
+   "name": "Contempt for Death",
+   "kind": "datasheet",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/contempt_for_death/",
+   "text": "The first time this unit would be slain and removed from play, it is not. Instead, this unit remains on the Battlefield and Heals all lost wounds."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/daemon",
+   "name": "Daemon",
+   "kind": "datasheet",
+   "page": 30,
+   "url": "https://longwarindex.app/special_rules/daemon_dark_eldar/",
+   "references": [
+    "universal_special_rules/fear"
+   ],
+   "text": "A unit with this rule gains the Daemon Keyword. The Daemon unit has a 5+ Invulnerable save and the Fear (1) special rule. Daemon units have +1\" to their Movement (M) characteristic. (this is included in the above profile)",
+   "effects": {
+    "keywords": [
+     "Daemon"
+    ],
+    "invulnerable_save": "5+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "printed": "[[Fear (1)]]",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/deadly_arms",
+   "name": "Deadly Arms",
+   "kind": "datasheet",
+   "page": 35,
+   "url": "https://longwarindex.app/special_rules/deadly_arms/",
+   "references": [
+    "special_rules/rending"
+   ],
+   "text": "This unit gains the Rending (6+) special rule on all Melee weapons it is equipped with.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/rending",
+      "name": "Rending",
+      "param": "6+",
+      "printed": "[[Rending (6+)]]",
+      "url": "https://longwarindex.app/special_rules/rending/",
+      "weapon_types": [
+       "Melee"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/diabolical_sooth_sayer",
+   "name": "Diabolical Sooth Sayer",
+   "kind": "warlord_trait",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/diabolical_sooth_sayer/",
+   "text": "If Urien is your Warlord, he may re-roll 1 failed to hit, to wound or save roll per phase."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/dodge",
+   "name": "Dodge",
+   "kind": "datasheet",
+   "page": 28,
+   "url": "https://longwarindex.app/special_rules/dodge_dark_eldar/",
+   "references": [
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "This unit has a 4+ Feel No Pain when engaged in Combat.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "4+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/",
+      "phase": "Combat"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/driving_lash",
+   "name": "Driving Lash",
+   "kind": "datasheet",
+   "page": 47,
+   "url": "https://longwarindex.app/special_rules/driving_lash/",
+   "text": "Any attached Gladiator Beast unit gains +2 to its Attacks (A) characteristic."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/gate_from_beyond",
+   "name": "Gate from Beyond",
+   "kind": "datasheet",
+   "page": 64,
+   "url": "https://longwarindex.app/special_rules/gate_from_beyond_dark_eldar/",
+   "references": [
+    "universal_special_rules/outflank"
+   ],
+   "text": "When Eldar units arrive via Outflank, they may be placed wholly within 12\" of a Webway gate piece so long as they are more than 3\" from any enemy models."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/haemonculus_ancient",
+   "name": "Haemonculus Ancient",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/haemonculus_ancient/",
+   "references": [
+    "universal_special_rules/battle_hardened"
+   ],
+   "text": "A unit with this upgrade gains +1 to its Weapon Skill (WS), Toughness (T), Wounds (W) and Attacks (A) characteristics. The unit also gains the Battle-Hardened special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "printed": "[[Battle-Hardened]]",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/herald_of_ynnead",
+   "name": "Herald of Ynnead",
+   "kind": "datasheet",
+   "page": 28,
+   "url": "https://longwarindex.app/special_rules/herald_of_ynnead_dark_eldar/",
+   "references": [
+    "codex/dark_eldar/special_rules/strength_from_death"
+   ],
+   "text": "When this unit benefits from the Strength from Death special rule, it gains +1 to its Weapon Skill (WS) characteristic in addition to other bonuses."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/hidden_webways",
+   "name": "Hidden Webways",
+   "kind": "datasheet",
+   "page": 64,
+   "url": "https://longwarindex.app/special_rules/hidden_webways_dark_eldar/",
+   "text": "The Webway Gate model is made of 2 pieces. During deployment, you may place both pieces together in contact in your deployment zone or you can place 1 in your deployment zone and the other anywhere on the board, more than 9\" away from any enemy models."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/hunter_of_heads",
+   "name": "Hunter of Heads",
+   "kind": "warlord_trait",
+   "page": 37,
+   "url": "https://longwarindex.app/special_rules/hunter_of_heads/",
+   "references": [
+    "universal_special_rules/character"
+   ],
+   "text": "If this unit is your Warlord, at the start of the game, select a single enemy unit with the Character special rule in the enemy army. This unit may re-roll all hit & wound rolls against the designated unit."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/inevitable_death",
+   "name": "Inevitable Death",
+   "kind": "datasheet",
+   "page": 30,
+   "url": "https://longwarindex.app/special_rules/inevitable_death_dark_eldar/",
+   "text": "Once per Battle Round, when any unit on the Battlefield would be slain and removed from play or become a wreck, before removing the model, you may remove the Yncarne from the battlefield. Place the Yncarne back on the Battlefield anywhere within 6\" of the slain/wrecked model and then remove any slain models."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/killing_beasts",
+   "name": "Killing Beasts",
+   "kind": "datasheet",
+   "page": 46,
+   "url": "https://longwarindex.app/special_rules/killing_beasts/",
+   "references": [
+    "universal_special_rules/frenzy"
+   ],
+   "text": "Ur-Ghul models have the Frenzy special rule. If Frenzy from an Ur-Ghul model is triggered, the entire unit gains the benefit of the Frenzy special rule."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/leagues_apart",
+   "name": "Leagues Apart",
+   "kind": "warlord_trait",
+   "page": 35,
+   "url": "https://longwarindex.app/special_rules/leagues_apart/",
+   "text": "A model with this special rule gains a number of bonus attacks each Combat Phase equal to the difference between this model's Weapon Skill (WS) characteristic and the highest Weapon Skill (WS) characteristic in the target unit."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/linked_gates",
+   "name": "Linked Gates",
+   "kind": "datasheet",
+   "page": 64,
+   "url": "https://longwarindex.app/special_rules/linked_gates_dark_eldar/",
+   "text": "If, during deployment you opted to deploy your gate as 2 separate gates, they are considered Linked. During the Movement Phase, friendly Eldar models may embark on this model. The Eldar models may disembark per normal from any Webway gate piece on the board. There is no limit to the number of types of models that may embark on a Webway Gate."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/lord_hellion",
+   "name": "Lord Hellion",
+   "kind": "warlord_trait",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/lord_hellion/",
+   "references": [
+    "universal_special_rules/stubborn"
+   ],
+   "text": "If this unit is your Warlord, all Hellion units in your army gain the Stubborn special rule.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "datasheet_names": [
+          "Helions"
+         ]
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/stubborn",
+        "name": "Stubborn",
+        "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+       },
+       "quote": "If this unit is your Warlord, all Hellion units in your army gain the Stubborn special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/low_orbit_raid",
+   "name": "Low Orbit Raid",
+   "kind": "warlord_trait",
+   "page": 22,
+   "url": "https://longwarindex.app/special_rules/low_orbit_raid/",
+   "references": [
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "If this unit is in your army and your Warlord, units that Deep Strike may re-roll the result when determining if they arrive."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/master_of_pain",
+   "name": "Master of Pain",
+   "kind": "datasheet",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/master_of_pain/",
+   "references": [
+    "codex/dark_eldar/special_rules/power_from_pain"
+   ],
+   "text": "If this unit is in your army, whenever you earn a Pain Token (see Power from Pain special rule), you gain 2 Pain Tokens instead."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/master_of_the_dark_city",
+   "name": "Master of the Dark City",
+   "kind": "warlord_trait",
+   "page": 18,
+   "url": "https://longwarindex.app/special_rules/master_of_the_dark_city/",
+   "text": "If this unit is in your army and your Warlord, when determining who will take the first turn, you may roll 2D6 and take the highest result. At the start of the First Battle round, before the first turn begins, if you are going second, before the first turn begins, you may roll 2D6. If either dice is a 5 or 6, you may take the first turn instead."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/mercenary_blade",
+   "name": "Mercenary Blade",
+   "kind": "datasheet",
+   "page": 38,
+   "url": "https://longwarindex.app/special_rules/mercenary_blade/",
+   "text": "This unit may not be your Warlord.",
+   "effects": {
+    "list_building": {
+     "warlord_forbidden": true
+    }
+   }
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/netted",
+   "name": "Netted",
+   "kind": "weapon",
+   "page": 12,
+   "url": "https://longwarindex.app/special_rules/netted/",
+   "text": "At the start of the combat phase, select a single enemy model in Melee range. Halve its Weapon Skill (WS) characteristic until the end of the phase."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/otherworldly",
+   "name": "Otherworldly",
+   "kind": "datasheet",
+   "page": 58,
+   "url": "https://longwarindex.app/special_rules/otherworldly/",
+   "text": "Models in this unit have a 4+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/overlords_court",
+   "name": "Overlords Court",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/overlords_court/",
+   "text": "For every unit with this special rule, you may include 1 Court of the Archon without taking up a force organisation slot.",
+   "effects": {
+    "list_building": {
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/dark_eldar/roster/court_of_the_archon"
+       }
+      ],
+      "count": 1,
+      "per_unit": [
+       {
+        "rule": {
+         "rule": "codex/dark_eldar/special_rules/overlords_court",
+         "name": "Overlords Court",
+         "url": "https://longwarindex.app/special_rules/overlords_court/"
+        }
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/pain_leech",
+   "name": "Pain Leech",
+   "kind": "weapon",
+   "page": 9,
+   "url": "https://longwarindex.app/special_rules/pain_leech/",
+   "text": "Each time an enemy unit is hit by a weapon with this special rule, the model equipped with this weapon Heals 1 wound."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/parasite_engine",
+   "name": "Parasite Engine",
+   "kind": "datasheet",
+   "page": 63,
+   "url": "https://longwarindex.app/special_rules/parasite_engine/",
+   "text": "This unit may join Infantry type units even though it does not have the Infantry type."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/power_from_pain",
+   "name": "Power from Pain",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/power_from_pain/",
+   "references": [
+    "universal_special_rules/feel_no_pain",
+    "universal_special_rules/fleet",
+    "universal_special_rules/stubborn"
+   ],
+   "text": "When any unit (friend or foe) is slain/wrecked, 1 unit with this special rule within 12\" of the slain/wrecked can gain 1 Pain Token. You may also instead opt to bank the Pain Token in your pool. At the start of each of your Movement Phases, you can allocate any number of Pain Tokens in your pool to units in your army with this special rule. A unit gains the following benefits based on how many Pain Tokens it has. The effects of all Tokens are cumulative:\n\n- 1 Pain Token: A unit with 1 Pain Token gains the Feel no Pain (5+) special rule.\n- 2 Pain Tokens: A unit with 2 Pain Tokens gains the Fleet special rule.\n- 3 Pain Tokens: A unit with 3 Pain Tokens gains +1 to its Attacks (A) characteristic.\n- 4 Pain Tokens: A unit with 4 Pain Tokens gains the Stubborn special rule."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/precognisant",
+   "name": "Precognisant",
+   "kind": "warlord_trait",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/precognisant/",
+   "text": "This unit has a 4+ Invulnerable save. If this unit is in your army, you may re-deploy 3 units in your army at the start of the game before the first turn begins as if it were the deployment step.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/reservoir_of_pain",
+   "name": "Reservoir of Pain",
+   "kind": "datasheet",
+   "page": 63,
+   "url": "https://longwarindex.app/special_rules/reservoir_of_pain/",
+   "text": "This unit and any attached unit always count as having at least 1 Pain Token."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/sculptor_of_torments",
+   "name": "Sculptor of Torments",
+   "kind": "datasheet",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/sculptor_of_torments/",
+   "text": "Any attached Grotesque unit gains +1 to the Strength (S) and Toughness (T) characteristics."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/she_who_thirsts",
+   "name": "She Who Thirsts",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/she_who_thirsts_dark_eldar/",
+   "references": [
+    "universal_special_rules/hatred"
+   ],
+   "text": "Eldar units with this special rule have the Hatred (Slaanesh) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "param": "Slaanesh",
+      "printed": "[[Hatred (Slaanesh)]]",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/silence",
+   "name": "Silence",
+   "kind": "weapon",
+   "page": 29,
+   "url": "https://longwarindex.app/special_rules/silence_dark_eldar/",
+   "references": [
+    "universal_special_rules/stubborn"
+   ],
+   "text": "A unit which suffers 1 or more hits from a weapon with this special rule halves their Leadership (LD) characteristic until the end of the Phase. In addition, units hit by this weapon do not gain the benefit of the Stubborn special rule."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/sorrow",
+   "name": "Sorrow",
+   "kind": "weapon",
+   "page": 28,
+   "url": "https://longwarindex.app/special_rules/sorrow_dark_eldar/",
+   "text": "If a unit suffers an un-saved wound inflicted by this weapon, it must make a Panic Test regardless of whether the target unit's side won the Combat."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/soul_leach",
+   "name": "Soul Leach",
+   "kind": "weapon",
+   "page": 8,
+   "url": "https://longwarindex.app/special_rules/soul_leach/",
+   "references": [
+    "special_rules/gets_hot"
+   ],
+   "text": "At the start of the Combat Phase, you can opt to Leech the equipped model's soul. This weapon gains +1 to its Strength characteristic but gains the Gets Hot! special rule."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/strength_from_death",
+   "name": "Strength from Death",
+   "kind": "army",
+   "page": 27,
+   "url": "https://longwarindex.app/special_rules/strength_from_death_dark_eldar/",
+   "text": "The Ynnari grow stronger the more death occurs around them. The souls of the departed Eldar are drawn to them, becoming one with them guiding them with their skills and knowledge as they are avenged. The Eldar of the Ynnari even make use of the souls of dead enemies to empower themselves through their god of death.\n\nIn a turn in which any unit dies (friend or foe), a unit with this special rule gains +1 to their Strength (S) and Toughness (T) characteristics until the start of the next turn."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/the_serpents_venom",
+   "name": "The Serpent's Venom",
+   "kind": "datasheet",
+   "page": 22,
+   "url": "https://longwarindex.app/special_rules/the_serpents_venom/",
+   "references": [
+    "special_rules/poison"
+   ],
+   "text": "If Duke Sliscus is in your army, all weapons with the Poison (x) special rule re-roll wound rolls of 1."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/warden_of_yvraine",
+   "name": "Warden of Yvraine",
+   "kind": "datasheet",
+   "page": 29,
+   "url": "https://longwarindex.app/special_rules/warden_of_yvraine_dark_eldar/",
+   "text": "During deployment, if Yvraine, Herald of Ynnead is in your army, you may permanently attach this unit to Yvraine, Herald of Ynnead. The two are now treated as 1 unit. This does not prevent the unit from Attaching to other eligible units during Deployment or the battle."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/winged_hunter",
+   "name": "Winged Hunter",
+   "kind": "datasheet",
+   "page": 53,
+   "url": "https://longwarindex.app/special_rules/winged_hunter/",
+   "references": [
+    "special_rules/skyfire"
+   ],
+   "text": "This unit gains the Skyfire special rule on all equipped shooting weapons when targeting enemy Aircraft type units."
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/transport_asdrubael_vect_on_dias_of_destruction",
+   "name": "Transport",
+   "datasheet": "Asdrubael Vect on Dias of Destruction",
+   "kind": "datasheet",
+   "page": 18,
+   "url": "https://longwarindex.app/special_rules/transport_asdrubael_vect_on_dias_of_destruction/",
+   "text": "This unit can transport 5 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 5,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/transport_raider",
+   "name": "Transport",
+   "datasheet": "Raider",
+   "kind": "datasheet",
+   "page": 51,
+   "url": "https://longwarindex.app/special_rules/transport_raider/",
+   "text": "This model can transport 12 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/transport_tantalus",
+   "name": "Transport",
+   "datasheet": "Tantalus",
+   "kind": "datasheet",
+   "page": 52,
+   "url": "https://longwarindex.app/special_rules/transport_tantalus/",
+   "text": "This model can transport 24 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 24,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/dark_eldar/special_rules/transport_venom",
+   "name": "Transport",
+   "datasheet": "Venom",
+   "kind": "datasheet",
+   "page": 50,
+   "url": "https://longwarindex.app/special_rules/transport_venom/",
+   "text": "This unit can transport 6 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  }
+ ]
+}

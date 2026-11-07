@@ -1,0 +1,650 @@
+{
+ "data_version": "2bee1a482534e5fe",
+ "format": 1,
+ "faction": "death_guard",
+ "special_rules": [
+  {
+   "id": "codex/death_guard/allegiances/allegiance_death_guard",
+   "name": "Allegiance: Death Guard",
+   "kind": "allegiance",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_death_guard/",
+   "references": [
+    "special_rules/poison",
+    "universal_special_rules/move_through_cover",
+    "universal_special_rules/slow_and_purposeful",
+    "codex/chaos_space_marines/special_rules/sorcerer_lord",
+    "codex/chaos_space_marines/special_rules/master_of_possessions",
+    "codex/chaos_space_marines/special_rules/lord_discordant",
+    "codex/chaos_space_marines/special_rules/dark_apostle",
+    "codex/chaos_space_marines/special_rules/master_of_executions"
+   ],
+   "text": "All units with the Death Guard Keyword gain the Allegiance: Death Guard special rule. The Allegiance: Death Guard special rule consists of the following rules:\n\n- Inexorable: All Death Guard units gain the following benefits:\n    - All weapons with the Poison (x) special rule have -1 to the value of (x) for determining to wound rolls against Death Guard units.\n    - Death Guard units gain the Move Through Cover special rule.\n- Plague Fathers Chosen:\n    - Death Guard units gain the Slow & Purposeful special rule.\n    - All of your units must have the Mark of Nurgle or Nurgle Keyword.\n    - You may only include allied units from Codex Chaos Daemons that have the Nurgle Keyword. (This is included in all Death Guard exclusive units' profiles)\n    - Death Guard Chaos Lords may not purchase the Sorcerer Lord, Master of Possessions or Lord Discordant upgrades.\n    - Death Guard Chaos Champions may not purchase the Dark Apostle or Master of Executions upgrades.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/move_through_cover",
+      "name": "Move Through Cover",
+      "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+     },
+     {
+      "rule": "universal_special_rules/slow_and_purposeful",
+      "name": "Slow and Purposeful",
+      "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/death_guard/special_rules/armoury_of_the_14th_legion",
+   "name": "Armoury of the 14th Legion",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_14th_legion/",
+   "references": [
+    "codex/death_guard/allegiances/allegiance_death_guard",
+    "codex/death_guard/special_rules/lord_of_contagion",
+    "codex/death_guard/special_rules/lord_of_poxes",
+    "codex/death_guard/special_rules/lord_of_virulence",
+    "codex/death_guard/special_rules/noxious_blightbringer",
+    "codex/death_guard/special_rules/plague_surgeon",
+    "codex/death_guard/special_rules/foul_blightspawn",
+    "codex/death_guard/special_rules/biologus_putrifier",
+    "codex/death_guard/special_rules/tallyman"
+   ],
+   "text": "Units with Allegiance: Death Guard have access to additional wargear presented in this supplement in addition to the war gear presented in the core Codex Chaos Space Marines.\n\nChaos Lord Upgrades\n\nA Death Guard Chaos Lord may purchase the following upgrade in addition to the others available:\n\n- Lord of Contagion for 25pts.\n- Lord of Poxes for 20pts.\n- Lord of Virulence for 25pts.\n\nChaos Champion Upgrades\n\nA Death Guard Chaos Champion may purchase the following upgrades in addition to the others available:\n\n- Noxious Blightbringer for 30pts.\n- Plague Surgeon for 10pts.\n- Foul Blightspawn for 15pts.\n- Biologus Putrifier for 15pts.\n- Tallyman for 55pts.\n\nWeapons\n\nAny Death Guard model may exchange their equipped close combat weapon for a Plague Knife for 0pts.\n\nAny Death Guard Chaos Lord or Chaos Champion may:\n\n- Exchange their equipped Power Lance for a Manreaper for 3pts.\n\nAny Death Guard model may exchange their equipped Frag Grenades for Blight Grenades for 0pts."
+  },
+  {
+   "id": "codex/death_guard/special_rules/aura_of_entropy",
+   "name": "Aura of Entropy",
+   "kind": "datasheet",
+   "page": 23,
+   "url": "https://longwarindex.app/special_rules/aura_of_entropy/",
+   "text": "All enemy units within 3\" of this unit suffer -1 to their Armour Save (SV) characteristics."
+  },
+  {
+   "id": "codex/death_guard/special_rules/biologus_putrifier",
+   "name": "Biologus Putrifier",
+   "kind": "datasheet",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/biologus_putrifier/",
+   "references": [
+    "special_rules/poison"
+   ],
+   "text": "A Chaos Champion with this upgrade exchanges their Chainsword, Boltgun, Bolt Pistol & Frag Grenades for Injector Pistol and Blight Grenades. In addition, the Chaos Champion and any attached unit increase the value of Poison (x) on all equipped Blight Grenades by 1 (to a max of (2+)).",
+   "effects": {
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "chainsword",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "boltgun",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "bolt_pistol",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "frag_grenades",
+        "faction": "chaos_space_marines"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "injector_pistol"
+       },
+       {
+        "kind": "weapon",
+        "id": "blight_grenades"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/death_guard/special_rules/foul_blightspawn",
+   "name": "Foul Blightspawn",
+   "kind": "datasheet",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/foul_blightspawn/",
+   "text": "A Chaos Champion with this upgrade exchanges their Chainsword, Boltgun and Bolt Pistol for a Plague Spewer and Unholy Deaths Head Grenade.",
+   "effects": {
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "chainsword",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "boltgun",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "bolt_pistol",
+        "faction": "chaos_space_marines"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "plague_spewer"
+       },
+       {
+        "kind": "weapon",
+        "id": "unholy_deaths_head_grenade"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/death_guard/special_rules/host_of_plagues",
+   "name": "Host of Plagues",
+   "kind": "datasheet",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/host_of_plagues/",
+   "text": "At the end of the Combat Phase, this unit counts as having inflicted D3 additional wounds for the purposes of Combat Resolution and determining who won Combat."
+  },
+  {
+   "id": "codex/death_guard/special_rules/lord_of_contagion",
+   "name": "Lord of Contagion",
+   "kind": "datasheet",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/lord_of_contagion/",
+   "references": [
+    "special_rules/deflagrate"
+   ],
+   "text": "A Chaos Lord with this upgrade exchanges their Warp Armour, Chainsword, Bolt Pistol, Chainsword, Frag Grenades and Krak Grenades for Cataphractii Terminator Armour & Manreaper. The Chaos Lord gains the Deflagrate special rule on all equipped Melee weapons.\n\n- The Lord of Contagion may take a Blight Grenades for 0pts.\n- The Lord of Contagion may exchange their Manreaper for a Plaguereaper for 10pts.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/deflagrate",
+      "name": "Deflagrate",
+      "url": "https://longwarindex.app/special_rules/deflagrate/",
+      "weapon_types": [
+       "Melee"
+      ]
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "wargear",
+        "id": "warp_armour",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "chainsword",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "bolt_pistol",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "boltgun",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "frag_grenades",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "krak_grenade",
+        "faction": "chaos_space_marines"
+       }
+      ],
+      "add": [
+       {
+        "kind": "wargear",
+        "id": "cataphractii_terminator_armour",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "manreaper"
+       }
+      ]
+     }
+    ]
+   },
+   "printed": {
+    "exchanges": "A Chaos Lord with this upgrade exchanges their Warp Armour, Chainsword, Bolt Pistol, Chainsword, Frag Grenades and Krak Grenades for"
+   },
+   "print_defect": "The exchange names the Chainsword twice and does not name the Boltgun of the Chaos Lord. This data reads the second Chainsword as the Boltgun.",
+   "options": [
+    {
+     "id": "blight_grenades",
+     "label": "The Lord of Contagion may take a Blight Grenades for 0pts.",
+     "printed": "The Lord of Contagion may take a Blight Grenades for 0pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "blight_grenades",
+       "name": "Blight Grenades",
+       "points": 0,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "blight_grenades"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "plaguereaper",
+     "label": "The Lord of Contagion may exchange their Manreaper for a Plaguereaper for 10pts.",
+     "printed": "The Lord of Contagion may exchange their Manreaper for a Plaguereaper for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plaguereaper",
+       "name": "Plaguereaper",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "manreaper"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plaguereaper"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/death_guard/special_rules/lord_of_poxes",
+   "name": "Lord of Poxes",
+   "kind": "datasheet",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/lord_of_poxes/",
+   "references": [
+    "special_rules/poison"
+   ],
+   "text": "A Chaos Lord with this upgrade exchanges their Chainsword, Boltgun and Bolt Pistol for a Great Plague Sword and Plasma Pistol. The Chaos Lord gains a Miasmic Turbine but may not purchase Jump Packs, a Bike or Daemonic Steed. The Chaos Lord may not also exchange their Armour for any option. At the end of your Shooting Phase, all enemy units within 12\" of the Chaos Lord take D6+2, Strength 1, AP- Poison (4+) automatic hits.",
+   "effects": {
+    "items": [
+     {
+      "name": "Miasmic Turbine"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "chainsword",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "boltgun",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "bolt_pistol",
+        "faction": "chaos_space_marines"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "great_plague_blade"
+       },
+       {
+        "kind": "weapon",
+        "id": "plasma_pistol",
+        "faction": "chaos_space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "print_defect": "The book names a Great Plague Sword, which it does not define. This data reads it as the Great Plague Blade. No page defines the Miasmic Turbine."
+  },
+  {
+   "id": "codex/death_guard/special_rules/lord_of_virulence",
+   "name": "Lord of Virulence",
+   "kind": "datasheet",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/lord_of_virulence/",
+   "references": [
+    "special_rules/blast"
+   ],
+   "text": "A Chaos Lord with this upgrade exchanges their Warp Armour, Chainsword, Bolt Pistol, Chainsword, Frag Grenades and Krak Grenades for Indomitus Terminator Armour, Power Fist and Plague Spewer. In addition, any friendly Blast (x) weapons that would place their Blast Marker within 12\" of the Chaos Lord may re-roll the distance when determining scatter.",
+   "effects": {
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "wargear",
+        "id": "warp_armour",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "chainsword",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "bolt_pistol",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "boltgun",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "frag_grenades",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "krak_grenade",
+        "faction": "chaos_space_marines"
+       }
+      ],
+      "add": [
+       {
+        "kind": "wargear",
+        "id": "indomitus_terminator_armour",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "power_fist",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "plague_spewer"
+       }
+      ]
+     }
+    ]
+   },
+   "printed": {
+    "exchanges": "A Chaos Lord with this upgrade exchanges their Warp Armour, Chainsword, Bolt Pistol, Chainsword, Frag Grenades and Krak Grenades for"
+   },
+   "print_defect": "The exchange names the Chainsword twice and does not name the Boltgun of the Chaos Lord. This data reads the second Chainsword as the Boltgun."
+  },
+  {
+   "id": "codex/death_guard/special_rules/master_of_the_living_dead",
+   "name": "Master of the Living Dead",
+   "kind": "warlord_trait",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/master_of_the_living_dead/",
+   "text": "If this unit is your Warlord, you may include 1 Pox Walker unit from Codex – Renegades & Heretics in your army without taking up a Force Organization Slot as part of your Primary Detachment. That unit can only join Typhus.",
+   "effects": {
+    "list_building": {
+     "opens": [
+      {
+       "faction": "renegades_and_heretics",
+       "datasheets": [
+        "codex/renegades_and_heretics/roster/pox_walker_mob"
+       ],
+       "max_units": 1
+      }
+     ],
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/death_guard/roster/typhus"
+       }
+      }
+     ],
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/renegades_and_heretics/roster/pox_walker_mob"
+       }
+      ],
+      "count": 1
+     }
+    }
+   }
+  },
+  {
+   "id": "codex/death_guard/special_rules/necromantic_power",
+   "name": "Necromantic Power",
+   "kind": "datasheet",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/necromantic_power/",
+   "text": "Cast this power in your Movement Phase. When this power is successfully cast, you may summon 1 Pox Walker unit from Codex – Renegades & Heretics wholly within 12\" of this unit."
+  },
+  {
+   "id": "codex/death_guard/special_rules/noxious_blightbringer",
+   "name": "Noxious Blightbringer",
+   "kind": "datasheet",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/noxious_blightbringer/",
+   "references": [
+    "universal_special_rules/deny_the_witch",
+    "universal_special_rules/fear",
+    "universal_special_rules/slow_and_purposeful"
+   ],
+   "text": "A Chaos Champion with this upgrade exchanges their Chainsword, Boltgun, Bolt Pistol for a Plasma Pistol. The Chaos Champion gains the Deny the Witch & Fear (1) special rules. In addition, the Chaos Champion and any attached Nurgle unit ignore the Slow & Purposeful special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/deny_the_witch",
+      "name": "Deny the Witch",
+      "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+     },
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "chainsword",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "boltgun",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "bolt_pistol",
+        "faction": "chaos_space_marines"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "plasma_pistol",
+        "faction": "chaos_space_marines"
+       }
+      ]
+     }
+    ],
+    "suppresses_rules": [
+     {
+      "rule": "universal_special_rules/slow_and_purposeful",
+      "name": "Slow and Purposeful",
+      "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/death_guard/special_rules/plague_surgeon",
+   "name": "Plague Surgeon",
+   "kind": "datasheet",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/plague_surgeon/",
+   "references": [
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "A Chaos Champion with this upgrade exchanges their Chainsword and Boltgun for a Power Sword. In addition, the Chaos Champion and any attached unit may re-roll Feel no Pain rolls of 1.",
+   "effects": {
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "chainsword",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "boltgun",
+        "faction": "chaos_space_marines"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "power_sword",
+        "faction": "chaos_space_marines"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/death_guard/special_rules/primarch_of_the_xiv",
+   "name": "Primarch of the XIV",
+   "kind": "warlord_trait",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/primarch_of_the_xiv/",
+   "references": [
+    "special_rules/pinning"
+   ],
+   "text": "Friendly Death Guard units that can draw visibility to this unit may use this units Leadership (LD) characteristic for Pinning and Panic tests. While This unit is alive and, on the Battlefield, all Death Guard units ignore the effects of Pinning."
+  },
+  {
+   "id": "codex/death_guard/special_rules/shadow_of_death",
+   "name": "Shadow of Death",
+   "kind": "datasheet",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/shadow_of_death/",
+   "text": "Once per game, this unit may be removed from the board in your Movement Phase and placed back on the Battlefield more than 9\" away from any enemy models. The turn this ability is used, Mortarion may not declare a Charge in the Charge Phase."
+  },
+  {
+   "id": "codex/death_guard/special_rules/tallyman",
+   "name": "Tallyman",
+   "kind": "datasheet",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/tallyman/",
+   "references": [
+    "universal_special_rules/hatred",
+    "universal_special_rules/stubborn",
+    "universal_special_rules/zealot",
+    "universal_special_rules/priest",
+    "universal_special_rules/preferred_enemy"
+   ],
+   "text": "A Chaos Champion with this upgrade exchanges their Chainsword, Boltgun and Bolt Pistol for a Plasma Pistol. The Chaos Champion gains the Hatred, Stubborn, Zealot & Priest (1) special rules. In addition, any attached unit gains the Preferred Enemy special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     },
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     },
+     {
+      "rule": "universal_special_rules/zealot",
+      "name": "Zealot",
+      "url": "https://longwarindex.app/universal_special_rules/zealot/"
+     },
+     {
+      "rule": "universal_special_rules/priest",
+      "name": "Priest",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/priest/"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "chainsword",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "boltgun",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "bolt_pistol",
+        "faction": "chaos_space_marines"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "plasma_pistol",
+        "faction": "chaos_space_marines"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

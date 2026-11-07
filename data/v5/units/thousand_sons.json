@@ -1,0 +1,2609 @@
+{
+ "data_version": "1994dfa8a10fd184",
+ "format": 1,
+ "faction": "thousand_sons",
+ "units": [
+  {
+   "id": "codex/thousand_sons/roster/ahriman",
+   "name": "Ahriman",
+   "page": 16,
+   "url": "https://longwarindex.app/roster/ahriman/",
+   "source": "Codex Supplement: Thousand Sons",
+   "role": "HQ",
+   "points": 140,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "ahriman",
+     "name": "Ahriman",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "inferno_bolt_pistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "the_black_staff_of_ahriman"
+      },
+      {
+       "kind": "wargear",
+       "id": "chaos_sigil",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "scroll_of_power"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_tzeentch",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "ahriman",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/thousand_sons/allegiances/allegiance_thousand_sons",
+     "name": "Allegiance: Thousand Sons",
+     "url": "https://longwarindex.app/allegiances/allegiance_thousand_sons/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "universal_special_rules/deny_the_witch",
+     "name": "Deny the Witch",
+     "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+    },
+    {
+     "rule": "codex/thousand_sons/special_rules/knowledge_seeker",
+     "name": "Knowledge Seeker",
+     "url": "https://longwarindex.app/special_rules/knowledge_seeker/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/thousand_sons/special_rules/rubric_of_ahriman",
+     "name": "Rubric of Ahriman",
+     "url": "https://longwarindex.app/special_rules/rubric_of_ahriman/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Thousand Sons",
+    "Chaos Lord",
+    "Ahriman",
+    "Psyker",
+    "Unique",
+    "Tzeentch",
+    "M31"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "disc_of_tzeentch",
+     "label": "This unit may purchase a Disc of Tzeentch (+15pts)",
+     "printed": "This unit may purchase a Disc of Tzeentch for 15pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "disc_of_tzeentch",
+       "name": "Disc of Tzeentch",
+       "points": 15,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "disc_of_tzeentch"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/thousand_sons/roster/castellax_achae_automata",
+   "name": "Castellax-Achae Automata",
+   "page": 23,
+   "url": "https://longwarindex.app/roster/castellax_achae_automata/",
+   "source": "Codex Supplement: Thousand Sons",
+   "role": "Elites",
+   "points": 130,
+   "unit_type": "Automata",
+   "profiles": [
+    {
+     "id": "castellax_achae_automata",
+     "name": "Castellax-Achae Automata",
+     "template": "unit",
+     "characteristics": {
+      "M": "5\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 7,
+      "T": 6,
+      "W": 4,
+      "A": 3,
+      "I": 3,
+      "Ld": 5,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "heavy_battlehide"
+      },
+      {
+       "kind": "weapon",
+       "id": "lightning_claws",
+       "faction": "chaos_space_marines",
+       "count": 2
+      },
+      {
+       "kind": "weapon",
+       "id": "inferno_boltgun",
+       "count": 2
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_cannon",
+       "count": 1
+      },
+      {
+       "kind": "wargear",
+       "id": "atomantic_shielding",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_tzeentch",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "castellax_achae_automata",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/thousand_sons/allegiances/allegiance_thousand_sons",
+     "name": "Allegiance: Thousand Sons",
+     "url": "https://longwarindex.app/allegiances/allegiance_thousand_sons/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/slow_and_purposeful",
+     "name": "Slow and Purposeful",
+     "printed": "Slow & Purposeful",
+     "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "codex/thousand_sons/special_rules/psi_control_matrix",
+     "name": "Psi-Control Matrix",
+     "url": "https://longwarindex.app/special_rules/psi_control_matrix/"
+    },
+    {
+     "rule": "codex/thousand_sons/special_rules/psychic_anchor_point",
+     "name": "Psychic Anchor Point",
+     "url": "https://longwarindex.app/special_rules/psychic_anchor_point/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Thousand Sons",
+    "Castellax-Achae Automata",
+    "Tzeentch",
+    "M31"
+   ],
+   "printed": {
+    "keywords": [
+     "Imperium",
+     "Adeptus Mechanicus",
+     "[Forge World]",
+     "Cybernetica",
+     "Castellax-Achae Automata",
+     "M31"
+    ]
+   },
+   "size": {
+    "min": 1,
+    "max": 2
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 1 Castellax Battle Automata models in this unit (+95pts each)",
+     "printed": "You may include an additional 1 Castellax Battle Automata models in this unit for 95pts each.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "castellax_battle_automata",
+       "name": "Castellax Battle Automata",
+       "points": 95,
+       "pricing": "each",
+       "max": 1,
+       "add_model": {
+        "profile": "castellax_achae_automata",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "warpflamers",
+     "label": "Any model in the unit may exchange its 2 Inferno Boltguns for 2 Warpflamers (+10pts)",
+     "printed": "Any model in the unit may exchange its 2 Inferno Boltguns for 2 Warpflamers for 10pts.",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "warpflamers",
+       "name": "2 Warpflamers",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "inferno_boltgun",
+           "count": 2
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "warpflamer",
+           "count": 2
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "bolt_cannon",
+     "label": "Any model in the unit may exchange its Bolt Cannon for one of the following:",
+     "printed": "Any model in the unit may exchange its Bolt Cannon for one of the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "multi_melta",
+       "name": "A Multi-Melta",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_cannon"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "multi_melta",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "aether_flame_cannon",
+       "name": "A Aether Flame Cannon",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_cannon"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "aether_flame_cannon"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/thousand_sons/roster/khenetai_occult",
+   "name": "Khenetai Occult",
+   "page": 20,
+   "url": "https://longwarindex.app/roster/khenetai_occult/",
+   "source": "Codex Supplement: Thousand Sons",
+   "role": "Elites",
+   "points": 165,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "khenetai_occult",
+     "name": "Khenetai Occult",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "force_kopesh",
+       "count": 2
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_tzeentch",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    },
+    {
+     "id": "aspiring_sorcerer",
+     "name": "Aspiring Sorcerer",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 3,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "force_kopesh",
+       "count": 2
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_tzeentch",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "khenetai_occult",
+     "count": 2
+    },
+    {
+     "profile": "aspiring_sorcerer",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/thousand_sons/allegiances/allegiance_thousand_sons",
+     "name": "Allegiance: Thousand Sons",
+     "url": "https://longwarindex.app/allegiances/allegiance_thousand_sons/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Thousand Sons",
+    "Khenetai Occult",
+    "Psyker",
+    "Veterans",
+    "Tzeentch",
+    "M31"
+   ],
+   "size": {
+    "min": 3,
+    "max": 6
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 3 Khenetai Occult models in this unit (+53pts each)",
+     "printed": "You may include an additional 3 Khenetai Occult models in this unit for 53pts each.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "khenetai_occult",
+       "name": "Khenetai Occult",
+       "points": 53,
+       "pricing": "each",
+       "max": 3,
+       "add_model": {
+        "profile": "khenetai_occult",
+        "count": 1
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/thousand_sons/roster/magnus_the_red_daemon_primarch_of_the_thousand_sons",
+   "name": "Magnus the Red, Daemon Primarch of the Thousand Sons",
+   "page": 17,
+   "url": "https://longwarindex.app/roster/magnus_the_red_daemon_primarch_of_the_thousand_sons/",
+   "source": "Codex Supplement: Thousand Sons",
+   "role": "HQ",
+   "points": 340,
+   "unit_type": "Primarch",
+   "profiles": [
+    {
+     "id": "magnus_the_red_daemon_primarch_of_the_thousand_sons",
+     "name": "Magnus the Red, Daemon Primarch of the Thousand Sons",
+     "template": "unit",
+     "characteristics": {
+      "M": "13\"",
+      "WS": 6,
+      "BS": 6,
+      "S": 8,
+      "T": 7,
+      "W": 6,
+      "A": 5,
+      "I": 6,
+      "Ld": 10,
+      "Sv": "-"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "the_crown_of_the_crimson_king"
+      },
+      {
+       "kind": "weapon",
+       "id": "the_blade_of_magnus"
+      },
+      {
+       "kind": "wargear",
+       "id": "wings",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_tzeentch",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "gaze_of_magnus"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "magnus_the_red_daemon_primarch_of_the_thousand_sons",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/thousand_sons/allegiances/allegiance_thousand_sons",
+     "name": "Allegiance: Thousand Sons",
+     "url": "https://longwarindex.app/allegiances/allegiance_thousand_sons/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "printed": "Master of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "4",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/battle_hardened",
+     "name": "Battle-Hardened",
+     "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/daemon",
+     "name": "Daemon",
+     "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "universal_special_rules/deny_the_witch",
+     "name": "Deny the Witch",
+     "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+    },
+    {
+     "rule": "codex/thousand_sons/special_rules/firestorm_of_tzeentch",
+     "name": "Firestorm of Tzeentch",
+     "url": "https://longwarindex.app/special_rules/firestorm_of_tzeentch/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/thousand_sons/special_rules/primarch_of_the_xv",
+     "name": "Primarch of the XV",
+     "url": "https://longwarindex.app/special_rules/primarch_of_the_xv/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Thousand Sons",
+    "Daemon Prince",
+    "Daemon",
+    "Magnus the Red, Daemon Primarch of the Thousand Sons",
+    "Primarch",
+    "Fly",
+    "Psyker",
+    "Character",
+    "Unique",
+    "Tzeentch",
+    "M31"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/thousand_sons/roster/osirin_contemptor_dreadnought",
+   "name": "Osirin Contemptor Dreadnought",
+   "page": 24,
+   "url": "https://longwarindex.app/roster/osirin_contemptor_dreadnought/",
+   "source": "Codex Supplement: Thousand Sons",
+   "role": "Elites",
+   "points": 135,
+   "unit_type": "Walker",
+   "profiles": [
+    {
+     "id": "osirin_contemptor_dreadnought",
+     "name": "Osirin Contemptor Dreadnought",
+     "template": "unit",
+     "characteristics": {
+      "M": "8\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 6,
+      "T": 7,
+      "W": 4,
+      "A": 3,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "dreadnought_close_combat_weapon",
+       "faction": "chaos_space_marines",
+       "count": 1
+      },
+      {
+       "kind": "weapon",
+       "id": "inferno_combi_bolter",
+       "count": 1
+      },
+      {
+       "kind": "weapon",
+       "id": "force_blade"
+      },
+      {
+       "kind": "wargear",
+       "id": "atomantic_shielding",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "dreadnought_plate",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_tzeentch",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "osirin_contemptor_dreadnought",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/thousand_sons/allegiances/allegiance_thousand_sons",
+     "name": "Allegiance: Thousand Sons",
+     "url": "https://longwarindex.app/allegiances/allegiance_thousand_sons/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "6+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limit: 1 Per detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Veteran",
+    "[Legion]",
+    "Dreadnought",
+    "Psyker",
+    "Contemptor",
+    "Tzeentch",
+    "M31"
+   ],
+   "stocks": [
+    {
+     "item": {
+      "kind": "weapon",
+      "id": "inferno_combi_bolter"
+     },
+     "count": 1,
+     "groups": [
+      "warpflamer",
+      "arm",
+      "combi_bolter"
+     ]
+    }
+   ],
+   "options": [
+    {
+     "id": "warpflamer",
+     "label": "A Dreadnought may exchange any of its Inferno Combi Bolters for warpflamers (+5pts)",
+     "printed": "A Dreadnought may exchange any of its Inferno Combi Bolters for warpflamers for 5pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "warpflamer",
+       "name": "warpflamers",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "inferno_combi_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "warpflamer"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "inferno_combi_bolter"
+        },
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "arm",
+     "label": "A Dreadnought may exchange either of its Dreadnought Close Combat weapons & Inferno Combi Bolter for one of the following:",
+     "printed": "A Dreadnought may exchange either of its Dreadnought Close Combat weapons & Inferno Combi Bolter for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "assault_cannon",
+       "name": "An Assault Cannon",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "inferno_combi_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "assault_cannon",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "inferno_combi_bolter"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "multi_melta",
+       "name": "A Multi-Melta",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "inferno_combi_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "multi_melta",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "inferno_combi_bolter"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "missile_launcher",
+       "name": "A Missile Launcher",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "inferno_combi_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "missile_launcher",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "inferno_combi_bolter"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "linked_lascannon",
+       "name": "A Linked Lascannon",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "inferno_combi_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "linked_lascannon",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "inferno_combi_bolter"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "plasma_cannon",
+       "name": "A Plasma Cannon",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "inferno_combi_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_cannon",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "inferno_combi_bolter"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "linked_autocannon",
+       "name": "A Linked Auto Cannon",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "inferno_combi_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "linked_autocannon",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "inferno_combi_bolter"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "inferno_linked_heavy_bolter",
+       "name": "A Inferno Linked Heavy Bolter",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "inferno_combi_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "inferno_linked_heavy_bolter"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "inferno_combi_bolter"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "heavy_warpflamer",
+       "name": "A Heavy Warpflamer",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "inferno_combi_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_warpflamer"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "inferno_combi_bolter"
+        },
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "combi_bolter",
+     "label": "A model with a Dreadnought Close Combat Weapon may exchange its Combi Bolter for one of the following:",
+     "printed": "A model with a Dreadnought Close Combat Weapon may exchange its Combi Bolter for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "dreadnought_close_combat_weapon",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      }
+     ],
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_blaster",
+       "name": "Plasma Blaster",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "inferno_combi_bolter",
+           "printed": "Combi Bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_blaster",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "inferno_combi_bolter"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "heavy_flamer",
+       "name": "Heavy Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "inferno_combi_bolter",
+           "printed": "Combi Bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "inferno_combi_bolter"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "meltagun",
+       "name": "Melta Gun",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "inferno_combi_bolter",
+           "printed": "Combi Bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "meltagun",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "inferno_combi_bolter"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "grav_gun",
+       "name": "Grav Gun",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "inferno_combi_bolter",
+           "printed": "Combi Bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "grav_gun",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "inferno_combi_bolter"
+        },
+        "count": 1
+       }
+      }
+     ],
+     "print_defect": "The book prints \"its Combi Bolter\". The model holds an Inferno Combi Bolter and no Combi Bolter. This data reads this as an exchange of the Inferno Combi Bolter."
+    },
+    {
+     "id": "havoc_launcher",
+     "label": "The unit may take a Havoc Launcher (+10pts)",
+     "printed": "The unit may take a Havoc Launcher for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "havoc_launcher",
+       "name": "Havoc Launcher",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "havoc_launcher",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "chainfist",
+     "label": "A model may exchange its Dreadnought Close Combat Weapon for a Chainfist (+10pts)",
+     "printed": "A model may exchange its Dreadnmought Close Combat Weapon for a Chainfist for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "chainfist",
+       "name": "Chainfist",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chainfist",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/thousand_sons/roster/rubric_marines",
+   "name": "Rubric Marines",
+   "page": 18,
+   "url": "https://longwarindex.app/roster/rubric_marines/",
+   "source": "Codex Supplement: Thousand Sons",
+   "role": "Troops",
+   "points": 110,
+   "unit_type": "Automata",
+   "profiles": [
+    {
+     "id": "rubric_marine",
+     "name": "Rubric Marine",
+     "template": "unit",
+     "characteristics": {
+      "M": "5\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 1,
+      "A": 1,
+      "I": 2,
+      "Ld": 5,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "inferno_boltgun"
+      },
+      {
+       "kind": "weapon",
+       "id": "inferno_bolt_pistol"
+      },
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_tzeentch",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    },
+    {
+     "id": "aspiring_sorcerer",
+     "name": "Aspiring Sorcerer",
+     "template": "unit",
+     "characteristics": {
+      "M": "5\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 1,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "inferno_bolt_pistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "force_sword",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_tzeentch",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "rubric_marine",
+     "count": 4
+    },
+    {
+     "profile": "aspiring_sorcerer",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/thousand_sons/allegiances/allegiance_thousand_sons",
+     "name": "Allegiance: Thousand Sons",
+     "url": "https://longwarindex.app/allegiances/allegiance_thousand_sons/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "universal_special_rules/slow_and_purposeful",
+     "name": "Slow and Purposeful",
+     "printed": "Slow & Purposeful",
+     "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "codex/thousand_sons/special_rules/all_is_dust",
+     "name": "All is Dust",
+     "url": "https://longwarindex.app/special_rules/all_is_dust/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Despoiler",
+    "Thousand Sons",
+    "Rubric Marines",
+    "Psyker",
+    "Tzeentch",
+    "M31"
+   ],
+   "size": {
+    "min": 5,
+    "max": 15
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 10 Rubric Marine models in this unit (+18pts each)",
+     "printed": "You may include an additional 10 Rubric Marine models in this unit for 18pts each.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "rubric_marine",
+       "name": "Rubric Marine",
+       "points": 18,
+       "pricing": "each",
+       "max": 10,
+       "add_model": {
+        "profile": "rubric_marine",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "soulreaper_cannon",
+     "label": "1 in every 4 Rubric Marine models may exchange their Inferno Boltgun for a Soulreaper Cannon (+10pts)",
+     "printed": "1 in every 4 Rubric Marine models may exchange their Inferno Boltgun for a Soulreaper Cannon for 10pts.",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 4,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "soulreaper_cannon",
+       "name": "Soulreaper Cannon",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "inferno_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "soulreaper_cannon"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "warpflamer",
+     "label": "Any Rubric Model may exchange their Inferno Boltgun for a Warpflamer (+5pts each)",
+     "printed": "Any Rubric Model may exchange their Inferno Boltgun for a Warpflamer for 5pts each.",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "rubric_marine"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "warpflamer",
+       "name": "Warpflamer",
+       "points": 5,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "inferno_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "warpflamer"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "icon_of_chaos",
+     "label": "One model in the unit may take an Icon of Chaos (+10pts)",
+     "printed": "One model in the unit may take an Icon of Chaos for 10pts.",
+     "takers": {
+      "scope": "models",
+      "max": 1
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "icon_of_chaos",
+       "name": "Icon of Chaos",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "icon_of_chaos",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "champion_inferno_bolt_pistol",
+     "label": "The Champion may exchange their Inferno Bolt Pistol for one of the following:",
+     "printed": "The Champion may exchange their Inferno Bolt Pistol for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "aspiring_sorcerer"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "inferno_bolt_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "warpflame_pistol",
+       "name": "Warpflame Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "inferno_bolt_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "warpflame_pistol"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "champion_force_sword",
+     "label": "The Champion may exchange their Force Sword for one of the following:",
+     "printed": "The Champion may exchange their Force Sword for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "aspiring_sorcerer"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "force_axe",
+       "name": "Force Axe",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "force_sword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_axe",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "force_stave",
+       "name": "Force Stave",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "force_sword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_stave",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/thousand_sons/roster/scarab_occult",
+   "name": "Scarab Occult",
+   "page": 19,
+   "url": "https://longwarindex.app/roster/scarab_occult/",
+   "source": "Codex Supplement: Thousand Sons",
+   "role": "Elites",
+   "points": 320,
+   "unit_type": "Automata",
+   "profiles": [
+    {
+     "id": "scarab_terminator",
+     "name": "Scarab Terminator",
+     "template": "unit",
+     "characteristics": {
+      "M": "5\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 5,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "tartaros_terminator_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "inferno_combi_bolter"
+      },
+      {
+       "kind": "weapon",
+       "id": "force_kopesh"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_tzeentch",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "name": "Wisping Bolts"
+      }
+     ]
+    },
+    {
+     "id": "aspiring_sorcerer",
+     "name": "Aspiring Sorcerer",
+     "template": "unit",
+     "characteristics": {
+      "M": "5\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 3,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "tartaros_terminator_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "inferno_combi_bolter"
+      },
+      {
+       "kind": "weapon",
+       "id": "force_sword",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_tzeentch",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "inferno_bolt_pistol",
+       "printed": null
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "scarab_terminator",
+     "count": 4
+    },
+    {
+     "profile": "aspiring_sorcerer",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/thousand_sons/allegiances/allegiance_thousand_sons",
+     "name": "Allegiance: Thousand Sons",
+     "url": "https://longwarindex.app/allegiances/allegiance_thousand_sons/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/thousand_sons/special_rules/all_is_dust",
+     "name": "All is Dust",
+     "url": "https://longwarindex.app/special_rules/all_is_dust/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/sprint",
+     "name": "Sprint",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/sprint/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/slow_and_purposeful",
+     "name": "Slow and Purposeful",
+     "printed": "Slow & Purposeful",
+     "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Thousand Sons",
+    "Scarab Occult",
+    "Psyker",
+    "Veterans",
+    "Terminators",
+    "Tzeentch",
+    "M31"
+   ],
+   "size": {
+    "min": 5,
+    "max": 10
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 5 Scarab Occult models in his unit (+52pts each)",
+     "printed": "You may include an additional 5 Scarab Occult models in his unit for 52pts each.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "scarab_terminator",
+       "name": "Scarab Occult",
+       "points": 52,
+       "pricing": "each",
+       "max": 5,
+       "add_model": {
+        "profile": "scarab_terminator",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "helfyre_missiles",
+     "label": "1 in every 4 Scarab Occult models may take Helfyre Missiles (+15pts)",
+     "printed": "1 in every 4 Scarab Occult models may take Helfyre Missiles for 15pts.",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 4,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "helfyre_missiles",
+       "name": "Helfyre Missiles",
+       "points": 15,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "helfyre_missiles"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "heavy_weapon",
+     "label": "1 in every 4 Scarab Occult models may exchange their Inferno Combi-Bolter for one of the following:",
+     "printed": "1 in every 4 Scarab Occult models may exchange their Inferno Combi-Bolter for one of the following:",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 4,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "soulreaper_cannon",
+       "name": "Soulreaper Cannon",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "inferno_combi_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "soulreaper_cannon"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "heavy_warpflamer",
+       "name": "Heavy Warpflamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "inferno_combi_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_warpflamer"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sorcerer_inferno_bolt_pistol",
+     "label": "The Aspiring Sorcerer may exchange their Inferno Bolt Pistol for one of the following:",
+     "printed": "The Aspiring Sorcerer may exchange their Inferno Bolt Pistol for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "aspiring_sorcerer"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "inferno_bolt_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "warpflame_pistol",
+       "name": "Warpflame Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "inferno_bolt_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "warpflame_pistol"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sorcerer_force_sword",
+     "label": "The Aspiring Sorcerer may exchange their Force Sword for one of the following:",
+     "printed": "The Aspiring Sorcerer may exchange their Force Sword for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "aspiring_sorcerer"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "force_stave",
+       "name": "A Force Stave",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "force_sword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_stave",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "force_axe",
+       "name": "A Force Axe",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "force_sword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_axe",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "force_kopesh",
+       "name": "A Force Kopesh",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "force_sword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_kopesh"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/thousand_sons/roster/sekhetar_automata",
+   "name": "Sekhetar Automata",
+   "page": 22,
+   "url": "https://longwarindex.app/roster/sekhetar_automata/",
+   "source": "Codex Supplement: Thousand Sons",
+   "role": "Elites",
+   "points": 165,
+   "unit_type": "Automata",
+   "profiles": [
+    {
+     "id": "sekhetar_automata",
+     "name": "Sekhetar Automata",
+     "template": "unit",
+     "characteristics": {
+      "M": "5\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 5,
+      "T": 6,
+      "W": 3,
+      "A": 3,
+      "I": 2,
+      "Ld": 5,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "dreadnought_plate",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "helfyre_missiles"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_warpflamer"
+      },
+      {
+       "kind": "weapon",
+       "id": "lightning_claws",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_tzeentch",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "sekhetar_automata",
+     "count": 2
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/thousand_sons/allegiances/allegiance_thousand_sons",
+     "name": "Allegiance: Thousand Sons",
+     "url": "https://longwarindex.app/allegiances/allegiance_thousand_sons/"
+    },
+    {
+     "rule": "codex/thousand_sons/special_rules/runes_of_obfuscation",
+     "name": "Runes of Obfuscation",
+     "url": "https://longwarindex.app/special_rules/runes_of_obfuscation/"
+    },
+    {
+     "rule": "universal_special_rules/slow_and_purposeful",
+     "name": "Slow and Purposeful",
+     "printed": "Slow & Purposeful",
+     "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Thousand Sons",
+    "Sekhetar Automata",
+    "Tzeentch",
+    "M32"
+   ],
+   "size": {
+    "min": 2,
+    "max": 4
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 2 Sekhetar Automata models in this unit (+67pts)",
+     "printed": "You may include an additional 2 Sekhatar Automata models in this unit for 67pts.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "sekhetar_automata",
+       "name": "Sekhatar Automata",
+       "points": 67,
+       "pricing": "each",
+       "max": 2,
+       "add_model": {
+        "profile": "sekhetar_automata",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "meltagun",
+     "label": "Any model in the unit may exchange its Lightning Claw for a Melta Gun (+5pts)",
+     "printed": "Any model in the unit may exchange its Lightning Claw for a Melta Gun for 5pts.",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "meltagun",
+       "name": "Melta Gun",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "meltagun",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/thousand_sons/roster/sorcerer_disciples",
+   "name": "Sorcerer Disciples",
+   "page": 21,
+   "url": "https://longwarindex.app/roster/sorcerer_disciples/",
+   "source": "Codex Supplement: Thousand Sons",
+   "role": "Elites",
+   "points": 60,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "sorcerer_disciples",
+     "name": "Sorcerer Disciples",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 2,
+      "BS": 2,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "A": 1,
+      "I": 3,
+      "Ld": 6,
+      "Sv": "-"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "stub_pistols"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "sorcerer_disciples",
+     "count": 5
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/thousand_sons/allegiances/allegiance_thousand_sons",
+     "name": "Allegiance: Thousand Sons",
+     "url": "https://longwarindex.app/allegiances/allegiance_thousand_sons/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Thousand Sons",
+    "Sorcerer Disciples",
+    "Psyker",
+    "Tzeentch",
+    "M32+"
+   ],
+   "size": {
+    "min": 5,
+    "max": 10
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 5 Sorcerer Disciples models in this unit (+12pts each)",
+     "printed": "You may include an additional 5 Sorcerer Disciples models in this unit for 12pts each.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "sorcerer_disciples",
+       "name": "Sorcerer Disciples",
+       "points": 12,
+       "pricing": "each",
+       "max": 5,
+       "add_model": {
+        "profile": "sorcerer_disciples",
+        "count": 1
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

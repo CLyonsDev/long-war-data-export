@@ -1,0 +1,1393 @@
+{
+ "data_version": "327debee270a640d",
+ "format": 1,
+ "core": {
+  "special_rules": {
+   "file": "/data/v5/special_rules/core.json",
+   "data_version": "491f543c38ef1064",
+   "count": 92
+  },
+  "weapon_types": {
+   "file": "/data/v5/weapon_types/core.json",
+   "data_version": "824763ffddd15fd9",
+   "count": 6
+  },
+  "unit_types": {
+   "file": "/data/v5/unit_types/core.json",
+   "data_version": "b888a83f53fb80c7",
+   "count": 17
+  },
+  "glossary": {
+   "file": "/data/v5/glossary/core.json",
+   "data_version": "09a112e3584c2c09",
+   "count": 2
+  },
+  "battle_packs": {
+   "file": "/data/v5/battle_packs/core.json",
+   "data_version": "a106c331286cfb67",
+   "count": 6
+  }
+ },
+ "factions": [
+  {
+   "faction": "adeptus_mechanicus",
+   "faction_name": "Adeptus Mechanicus",
+   "parent_faction": null,
+   "source": "Codex: Adeptus Mechanicus",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/adeptus_mechanicus.json",
+    "data_version": "bb1832155443a8e2",
+    "count": 125
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/adeptus_mechanicus.json",
+    "data_version": "082ebe32c0c2fd4a",
+    "count": 54
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/adeptus_mechanicus.json",
+    "data_version": "45b5239f4c243dd5",
+    "count": 29
+   },
+   "units": {
+    "file": "/data/v5/units/adeptus_mechanicus.json",
+    "data_version": "0179a070408c87e1",
+    "count": 42
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/adeptus_mechanicus.json",
+    "data_version": "075bdc38cd901692",
+    "count": 5
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/adeptus_mechanicus.json",
+    "data_version": "b0dc4440d6799b21",
+    "count": 12
+   }
+  },
+  {
+   "faction": "alpha_legion",
+   "faction_name": "Alpha Legion",
+   "parent_faction": "chaos_space_marines",
+   "source": "Codex Supplement: Alpha Legion",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/alpha_legion.json",
+    "data_version": "eb759d3189a1b416",
+    "count": 20
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/alpha_legion.json",
+    "data_version": "b78620e205410b1a",
+    "count": 6
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/alpha_legion.json",
+    "data_version": "d2ced1e638188663",
+    "count": 11
+   },
+   "units": {
+    "file": "/data/v5/units/alpha_legion.json",
+    "data_version": "6484d738608506d4",
+    "count": 7
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/alpha_legion.json",
+    "data_version": "c5fea18870dc3585",
+    "count": 7
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/alpha_legion.json",
+    "data_version": "021d79ca07bf88a3",
+    "count": 2
+   }
+  },
+  {
+   "faction": "black_templars",
+   "faction_name": "Black Templars",
+   "parent_faction": "space_marines",
+   "source": "Codex Supplement: Black Templars",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/black_templars.json",
+    "data_version": "676b6c20c1fdaaf3",
+    "count": 11
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/black_templars.json",
+    "data_version": "00fbe1a851fd560f",
+    "count": 18
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/black_templars.json",
+    "data_version": "c3008e2ae2895ab2",
+    "count": 10
+   },
+   "units": {
+    "file": "/data/v5/units/black_templars.json",
+    "data_version": "ce1e9a2ada5d27ba",
+    "count": 8
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/black_templars.json",
+    "data_version": "2384611d40e87242",
+    "count": 8
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/black_templars.json",
+    "data_version": "5db0a8f203c8ce1f",
+    "count": 3
+   }
+  },
+  {
+   "faction": "blood_angels",
+   "faction_name": "Blood Angels",
+   "parent_faction": "space_marines",
+   "source": "Codex Supplement: Blood Angels",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/blood_angels.json",
+    "data_version": "aa8bfc0333cc2d80",
+    "count": 34
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/blood_angels.json",
+    "data_version": "53c5f3a78618256c",
+    "count": 12
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/blood_angels.json",
+    "data_version": "679a53f998e64871",
+    "count": 19
+   },
+   "units": {
+    "file": "/data/v5/units/blood_angels.json",
+    "data_version": "fd71e1a2a6b7f460",
+    "count": 12
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/blood_angels.json",
+    "data_version": "a3608381288adb8b",
+    "count": 13
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/blood_angels.json",
+    "data_version": "a904dc684008cdcc",
+    "count": 3
+   }
+  },
+  {
+   "faction": "chaos_daemons",
+   "faction_name": "Chaos Daemons",
+   "parent_faction": null,
+   "source": "Codex: Chaos Daemons",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/chaos_daemons.json",
+    "data_version": "12bc7e8c5b0d01bd",
+    "count": 68
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/chaos_daemons.json",
+    "data_version": "c04d85a3005e24e2",
+    "count": 25
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/chaos_daemons.json",
+    "data_version": "b2fbfcdae244e203",
+    "count": 41
+   },
+   "units": {
+    "file": "/data/v5/units/chaos_daemons.json",
+    "data_version": "29f067169e3b5c25",
+    "count": 46
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/chaos_daemons.json",
+    "data_version": "421711b5d7d732f0",
+    "count": 5
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/chaos_daemons.json",
+    "data_version": "9c344a197d5afbe6",
+    "count": 5
+   }
+  },
+  {
+   "faction": "chaos_space_marines",
+   "faction_name": "Chaos Space Marines",
+   "parent_faction": null,
+   "source": "Codex: Chaos Space Marines",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/chaos_space_marines.json",
+    "data_version": "eb6ec435f4f86feb",
+    "count": 150
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/chaos_space_marines.json",
+    "data_version": "33608d281fad734b",
+    "count": 39
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/chaos_space_marines.json",
+    "data_version": "9a31ecdd555ef6fe",
+    "count": 46
+   },
+   "units": {
+    "file": "/data/v5/units/chaos_space_marines.json",
+    "data_version": "a16087ddf64f41f0",
+    "count": 56
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/chaos_space_marines.json",
+    "data_version": "7e1e6870ad1b9ca1",
+    "count": 8
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/chaos_space_marines.json",
+    "data_version": "f9faa9d567a13e7e",
+    "count": 8
+   }
+  },
+  {
+   "faction": "craftworld_eldar",
+   "faction_name": "Craftworld Eldar",
+   "parent_faction": null,
+   "source": "Codex: Craftworld Eldar",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/craftworld_eldar.json",
+    "data_version": "19d505e082147408",
+    "count": 110
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/craftworld_eldar.json",
+    "data_version": "040674d7f001767f",
+    "count": 40
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/craftworld_eldar.json",
+    "data_version": "ee184325556d0039",
+    "count": 45
+   },
+   "units": {
+    "file": "/data/v5/units/craftworld_eldar.json",
+    "data_version": "cea6efea8ce40dce",
+    "count": 56
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/craftworld_eldar.json",
+    "data_version": "bb0848d48d1c2f39",
+    "count": 6
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/craftworld_eldar.json",
+    "data_version": "97fa17b73f61c7ab",
+    "count": 11
+   }
+  },
+  {
+   "faction": "dark_angels",
+   "faction_name": "Dark Angels",
+   "parent_faction": "space_marines",
+   "source": "Codex Supplement: Dark Angels",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/dark_angels.json",
+    "data_version": "8cbab5d1a5fb0e3d",
+    "count": 31
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/dark_angels.json",
+    "data_version": "3bdded05bfe366cf",
+    "count": 10
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/dark_angels.json",
+    "data_version": "5c4334c9d226a90e",
+    "count": 21
+   },
+   "units": {
+    "file": "/data/v5/units/dark_angels.json",
+    "data_version": "32006a1404794e5d",
+    "count": 18
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/dark_angels.json",
+    "data_version": "0e868be28319c9b0",
+    "count": 13
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/dark_angels.json",
+    "data_version": "ac2dd7dfbd893c10",
+    "count": 3
+   }
+  },
+  {
+   "faction": "dark_eldar",
+   "faction_name": "Dark Eldar",
+   "parent_faction": null,
+   "source": "Codex: Dark Eldar",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/dark_eldar.json",
+    "data_version": "a7dd93dd803f95c3",
+    "count": 77
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/dark_eldar.json",
+    "data_version": "692f3f9338095435",
+    "count": 40
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/dark_eldar.json",
+    "data_version": "ceefdcce53140b97",
+    "count": 46
+   },
+   "units": {
+    "file": "/data/v5/units/dark_eldar.json",
+    "data_version": "8dbaa5267394cfce",
+    "count": 41
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/dark_eldar.json",
+    "data_version": "ad0830763a720886",
+    "count": 7
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/dark_eldar.json",
+    "data_version": "74727507583d8d41",
+    "count": 7
+   }
+  },
+  {
+   "faction": "death_guard",
+   "faction_name": "Death Guard",
+   "parent_faction": "chaos_space_marines",
+   "source": "Codex Supplement: Death Guard",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/death_guard.json",
+    "data_version": "e5a0120f6f90ccf0",
+    "count": 28
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/death_guard.json",
+    "data_version": "7646651b4c32a31e",
+    "count": 7
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/death_guard.json",
+    "data_version": "2bee1a482534e5fe",
+    "count": 16
+   },
+   "units": {
+    "file": "/data/v5/units/death_guard.json",
+    "data_version": "4255a8128deae242",
+    "count": 9
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/death_guard.json",
+    "data_version": "b92ee733a24d6a84",
+    "count": 7
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/death_guard.json",
+    "data_version": "5fba62036d62ce35",
+    "count": 5
+   }
+  },
+  {
+   "faction": "emperors_children",
+   "faction_name": "Emperor's Children",
+   "parent_faction": "chaos_space_marines",
+   "source": "Codex Supplement: Emperor's Children",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/emperors_children.json",
+    "data_version": "cc01abdf61b0ac40",
+    "count": 23
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/emperors_children.json",
+    "data_version": "9c5865a9f7d0ebb6",
+    "count": 10
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/emperors_children.json",
+    "data_version": "4fa7e6147ae3901c",
+    "count": 13
+   },
+   "units": {
+    "file": "/data/v5/units/emperors_children.json",
+    "data_version": "bfb5dd17c519753f",
+    "count": 7
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/emperors_children.json",
+    "data_version": "db13d4980990fd13",
+    "count": 14
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/emperors_children.json",
+    "data_version": "c4f92defe3fed8cd",
+    "count": 3
+   }
+  },
+  {
+   "faction": "genestealer_cults",
+   "faction_name": "Genestealer Cults",
+   "parent_faction": null,
+   "source": "Codex: Genestealer Cults",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/genestealer_cults.json",
+    "data_version": "f855f695cb27f7da",
+    "count": 88
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/genestealer_cults.json",
+    "data_version": "9f478d8c1532cbf2",
+    "count": 34
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/genestealer_cults.json",
+    "data_version": "54b07b0fac80b183",
+    "count": 31
+   },
+   "units": {
+    "file": "/data/v5/units/genestealer_cults.json",
+    "data_version": "a6e0c8b081844568",
+    "count": 34
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/genestealer_cults.json",
+    "data_version": "396119a9853ad619",
+    "count": 10
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/genestealer_cults.json",
+    "data_version": "6ba9e87fd24632b2",
+    "count": 6
+   }
+  },
+  {
+   "faction": "harlequins",
+   "faction_name": "Harlequins",
+   "parent_faction": null,
+   "source": "Codex: Harlequins",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/harlequins.json",
+    "data_version": "375e8bb1250238c1",
+    "count": 29
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/harlequins.json",
+    "data_version": "d8109d1aa168b402",
+    "count": 14
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/harlequins.json",
+    "data_version": "4dbf355c3e85b778",
+    "count": 30
+   },
+   "units": {
+    "file": "/data/v5/units/harlequins.json",
+    "data_version": "8c7f09290d0dc3d4",
+    "count": 13
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/harlequins.json",
+    "data_version": "42353714c70c9994",
+    "count": 6
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/harlequins.json",
+    "data_version": "a65c06a2b02039ea",
+    "count": 12
+   }
+  },
+  {
+   "faction": "imperial_agents",
+   "faction_name": "Imperial Agents",
+   "parent_faction": null,
+   "source": "Codex: Imperial Agents",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/imperial_agents.json",
+    "data_version": "76e7a0b5923016f6",
+    "count": 194
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/imperial_agents.json",
+    "data_version": "cd040880fad148ed",
+    "count": 57
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/imperial_agents.json",
+    "data_version": "46db9ef2cfcdfcb0",
+    "count": 77
+   },
+   "units": {
+    "file": "/data/v5/units/imperial_agents.json",
+    "data_version": "92478719ffd86275",
+    "count": 59
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/imperial_agents.json",
+    "data_version": "df5ffc63060771e1",
+    "count": 13
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/imperial_agents.json",
+    "data_version": "9b23d470136b4cd4",
+    "count": 7
+   }
+  },
+  {
+   "faction": "imperial_fists",
+   "faction_name": "Imperial Fists",
+   "parent_faction": "space_marines",
+   "source": "Codex Supplement: Imperial Fists",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/imperial_fists.json",
+    "data_version": "6ba07fb5f47ff5eb",
+    "count": 17
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/imperial_fists.json",
+    "data_version": "f5060f946e1018e7",
+    "count": 15
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/imperial_fists.json",
+    "data_version": "2bb05b8362589ba0",
+    "count": 13
+   },
+   "units": {
+    "file": "/data/v5/units/imperial_fists.json",
+    "data_version": "f9a9b305945ddc21",
+    "count": 10
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/imperial_fists.json",
+    "data_version": "fabf6364213aa5db",
+    "count": 9
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/imperial_fists.json",
+    "data_version": "978310f650055d94",
+    "count": 2
+   }
+  },
+  {
+   "faction": "imperial_guard",
+   "faction_name": "Imperial Guard",
+   "parent_faction": null,
+   "source": "Codex: Imperial Guard",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/imperial_guard.json",
+    "data_version": "8ff70585d59f9e16",
+    "count": 123
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/imperial_guard.json",
+    "data_version": "10d6bf3b4a30cadf",
+    "count": 31
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/imperial_guard.json",
+    "data_version": "18e37b7c2bb7cdc5",
+    "count": 79
+   },
+   "units": {
+    "file": "/data/v5/units/imperial_guard.json",
+    "data_version": "ea7610487aab31e1",
+    "count": 100
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/imperial_guard.json",
+    "data_version": "f559a3a397c7d730",
+    "count": 9
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/imperial_guard.json",
+    "data_version": "596777d4c9d20186",
+    "count": 19
+   }
+  },
+  {
+   "faction": "iron_hands",
+   "faction_name": "Iron Hands",
+   "parent_faction": "space_marines",
+   "source": "Codex Supplement: Iron Hands",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/iron_hands.json",
+    "data_version": "a0767d297e853c92",
+    "count": 16
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/iron_hands.json",
+    "data_version": "75a1581668f4975c",
+    "count": 12
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/iron_hands.json",
+    "data_version": "997d59b1097ec580",
+    "count": 10
+   },
+   "units": {
+    "file": "/data/v5/units/iron_hands.json",
+    "data_version": "1d7d858413ddb493",
+    "count": 6
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/iron_hands.json",
+    "data_version": "c5cd2b3b964320cb",
+    "count": 17
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/iron_hands.json",
+    "data_version": "9c3a26b5d422b9fd",
+    "count": 3
+   }
+  },
+  {
+   "faction": "iron_warriors",
+   "faction_name": "Iron Warriors",
+   "parent_faction": "chaos_space_marines",
+   "source": "Codex Supplement: Iron Warriors",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/iron_warriors.json",
+    "data_version": "883e7c9529abc3e2",
+    "count": 16
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/iron_warriors.json",
+    "data_version": "de3eef1e17b546ff",
+    "count": 12
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/iron_warriors.json",
+    "data_version": "3bd245418a368d7d",
+    "count": 12
+   },
+   "units": {
+    "file": "/data/v5/units/iron_warriors.json",
+    "data_version": "83218530804a8cd6",
+    "count": 11
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/iron_warriors.json",
+    "data_version": "ed86877d47c767fc",
+    "count": 9
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/iron_warriors.json",
+    "data_version": "2a7af6f3c3133e29",
+    "count": 4
+   }
+  },
+  {
+   "faction": "leagues_of_votann",
+   "faction_name": "Leagues of Votann",
+   "parent_faction": null,
+   "source": "Codex: Leagues of Votann",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/leagues_of_votann.json",
+    "data_version": "92c2cd7609944dbd",
+    "count": 63
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/leagues_of_votann.json",
+    "data_version": "c49473ef403ca49d",
+    "count": 31
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/leagues_of_votann.json",
+    "data_version": "c8daf5f1e091ad7a",
+    "count": 22
+   },
+   "units": {
+    "file": "/data/v5/units/leagues_of_votann.json",
+    "data_version": "167e48ae2f2647a0",
+    "count": 23
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/leagues_of_votann.json",
+    "data_version": "5c84456c48ac5c0e",
+    "count": 4
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/leagues_of_votann.json",
+    "data_version": "8152e3717fca51db",
+    "count": 9
+   }
+  },
+  {
+   "faction": "necron_dynasties",
+   "faction_name": "Necron Dynasties",
+   "parent_faction": null,
+   "source": "Codex: Necron Dynasties",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/necron_dynasties.json",
+    "data_version": "e5a9f0a6a6490c8e",
+    "count": 82
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/necron_dynasties.json",
+    "data_version": "846799a5c34cd01c",
+    "count": 29
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/necron_dynasties.json",
+    "data_version": "e917d36d7f872552",
+    "count": 66
+   },
+   "units": {
+    "file": "/data/v5/units/necron_dynasties.json",
+    "data_version": "c2d254772970e11d",
+    "count": 54
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/necron_dynasties.json",
+    "data_version": "cc566751d9f11e22",
+    "count": 3
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/necron_dynasties.json",
+    "data_version": "e14e7bc35ae9bdc6",
+    "count": 12
+   }
+  },
+  {
+   "faction": "night_lords",
+   "faction_name": "Night Lords",
+   "parent_faction": "chaos_space_marines",
+   "source": "Codex Supplement: Night Lords",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/night_lords.json",
+    "data_version": "94fcbca3a4b798eb",
+    "count": 9
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/night_lords.json",
+    "data_version": "ea1e89ae9639100e",
+    "count": 9
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/night_lords.json",
+    "data_version": "7060e1aa3baa15a3",
+    "count": 14
+   },
+   "units": {
+    "file": "/data/v5/units/night_lords.json",
+    "data_version": "2c04ca75caef72fe",
+    "count": 7
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/night_lords.json",
+    "data_version": "27963ec3a1369f7b",
+    "count": 11
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/night_lords.json",
+    "data_version": "b9f8065f7b9f63f1",
+    "count": 4
+   }
+  },
+  {
+   "faction": "orks",
+   "faction_name": "Orks",
+   "parent_faction": null,
+   "source": "Codex: Orks",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/orks.json",
+    "data_version": "5d81d288acadf4d6",
+    "count": 108
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/orks.json",
+    "data_version": "ecabfd87caf79b20",
+    "count": 37
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/orks.json",
+    "data_version": "c6731b6f55841033",
+    "count": 52
+   },
+   "units": {
+    "file": "/data/v5/units/orks.json",
+    "data_version": "73eb7c2ae4869c64",
+    "count": 56
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/orks.json",
+    "data_version": "3d122ca0024d4c20",
+    "count": 4
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/orks.json",
+    "data_version": "05242fd9fce675a5",
+    "count": 14
+   }
+  },
+  {
+   "faction": "raven_guard",
+   "faction_name": "Raven Guard",
+   "parent_faction": "space_marines",
+   "source": "Codex Supplement: Raven Guard",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/raven_guard.json",
+    "data_version": "8c3abe6f40664906",
+    "count": 12
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/raven_guard.json",
+    "data_version": "e47d5bba7af9a1ee",
+    "count": 11
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/raven_guard.json",
+    "data_version": "af865c103dda2e65",
+    "count": 10
+   },
+   "units": {
+    "file": "/data/v5/units/raven_guard.json",
+    "data_version": "a7e556f74de93350",
+    "count": 7
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/raven_guard.json",
+    "data_version": "af155336c9ec5e21",
+    "count": 8
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/raven_guard.json",
+    "data_version": "2b8bf2f431b0139d",
+    "count": 3
+   }
+  },
+  {
+   "faction": "renegades_and_heretics",
+   "faction_name": "Renegades & Heretics",
+   "parent_faction": null,
+   "source": "Codex: Renegades & Heretics",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/renegades_and_heretics.json",
+    "data_version": "1245d68649722ec2",
+    "count": 170
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/renegades_and_heretics.json",
+    "data_version": "cc2f68831edd72e2",
+    "count": 48
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/renegades_and_heretics.json",
+    "data_version": "3e4bbe2080cec1d4",
+    "count": 61
+   },
+   "units": {
+    "file": "/data/v5/units/renegades_and_heretics.json",
+    "data_version": "ca30e4e5a9b2eb89",
+    "count": 65
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/renegades_and_heretics.json",
+    "data_version": "d58f746ba04622b1",
+    "count": 11
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/renegades_and_heretics.json",
+    "data_version": "81a17c7f5f546e90",
+    "count": 6
+   }
+  },
+  {
+   "faction": "salamanders",
+   "faction_name": "Salamanders",
+   "parent_faction": "space_marines",
+   "source": "Codex Supplement: Salamanders",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/salamanders.json",
+    "data_version": "a968078716aa8423",
+    "count": 21
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/salamanders.json",
+    "data_version": "aa80929d56d7867d",
+    "count": 10
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/salamanders.json",
+    "data_version": "a2d990fc01ab64ea",
+    "count": 12
+   },
+   "units": {
+    "file": "/data/v5/units/salamanders.json",
+    "data_version": "396c383776678a1c",
+    "count": 8
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/salamanders.json",
+    "data_version": "05cb37674f708d96",
+    "count": 12
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/salamanders.json",
+    "data_version": "b906dc29f330795c",
+    "count": 3
+   }
+  },
+  {
+   "faction": "sisters_of_battle",
+   "faction_name": "Sisters of Battle",
+   "parent_faction": null,
+   "source": "Codex: Sisters of Battle",
+   "version": "5.0",
+   "printing": "2026-09-30",
+   "weapons": {
+    "file": "/data/v5/weapons/sisters_of_battle.json",
+    "data_version": "bf15f25893fd4a01",
+    "count": 76
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/sisters_of_battle.json",
+    "data_version": "45e88902a5a1ec09",
+    "count": 45
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/sisters_of_battle.json",
+    "data_version": "0e5a1287c8620e8b",
+    "count": 31
+   },
+   "units": {
+    "file": "/data/v5/units/sisters_of_battle.json",
+    "data_version": "5a8c6ad14ce6338f",
+    "count": 32
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/sisters_of_battle.json",
+    "data_version": "4354d8488ab45d38",
+    "count": 4
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/sisters_of_battle.json",
+    "data_version": "7175f5e9ca4aa49c",
+    "count": 12
+   }
+  },
+  {
+   "faction": "space_marines",
+   "faction_name": "Space Marines",
+   "parent_faction": null,
+   "source": "Codex: Space Marines",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/space_marines.json",
+    "data_version": "1f8484d45c8a8cca",
+    "count": 163
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/space_marines.json",
+    "data_version": "01d8a8d6290cb223",
+    "count": 47
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/space_marines.json",
+    "data_version": "5b7b9ef9ae44e885",
+    "count": 60
+   },
+   "units": {
+    "file": "/data/v5/units/space_marines.json",
+    "data_version": "d9184bb19bf5c79e",
+    "count": 79
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/space_marines.json",
+    "data_version": "ac75412ccabc6fa5",
+    "count": 8
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/space_marines.json",
+    "data_version": "737c0f5a0065bb89",
+    "count": 13
+   }
+  },
+  {
+   "faction": "space_wolves",
+   "faction_name": "Space Wolves",
+   "parent_faction": "space_marines",
+   "source": "Codex Supplement: Space Wolves",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/space_wolves.json",
+    "data_version": "09dc42875330f372",
+    "count": 31
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/space_wolves.json",
+    "data_version": "004f6a0d79922232",
+    "count": 16
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/space_wolves.json",
+    "data_version": "20bd6f419f3b8b30",
+    "count": 32
+   },
+   "units": {
+    "file": "/data/v5/units/space_wolves.json",
+    "data_version": "3e2b6594602bd312",
+    "count": 26
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/space_wolves.json",
+    "data_version": "068d0f9fdea80ef9",
+    "count": 15
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/space_wolves.json",
+    "data_version": "841f96188c6704e7",
+    "count": 4
+   }
+  },
+  {
+   "faction": "talons_of_the_emperor",
+   "faction_name": "Talons of the Emperor",
+   "parent_faction": null,
+   "source": "Codex: Talons of the Emperor",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/talons_of_the_emperor.json",
+    "data_version": "f989dba51a210b15",
+    "count": 83
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/talons_of_the_emperor.json",
+    "data_version": "110c5697e0218c33",
+    "count": 31
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/talons_of_the_emperor.json",
+    "data_version": "8c5f1473c829f27a",
+    "count": 23
+   },
+   "units": {
+    "file": "/data/v5/units/talons_of_the_emperor.json",
+    "data_version": "1553afd5553114d9",
+    "count": 29
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/talons_of_the_emperor.json",
+    "data_version": "dcebcaffc5bc9746",
+    "count": 5
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/talons_of_the_emperor.json",
+    "data_version": "80cf81d763bae34f",
+    "count": 6
+   }
+  },
+  {
+   "faction": "tau_empire",
+   "faction_name": "T'au Empire",
+   "parent_faction": null,
+   "source": "Codex: T'au Empire",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/tau_empire.json",
+    "data_version": "5efc40b885ace6ef",
+    "count": 96
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/tau_empire.json",
+    "data_version": "cde6009fc38b9902",
+    "count": 46
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/tau_empire.json",
+    "data_version": "56e68bb15bf7a45f",
+    "count": 31
+   },
+   "units": {
+    "file": "/data/v5/units/tau_empire.json",
+    "data_version": "782ccbd4462d2f74",
+    "count": 73
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/tau_empire.json",
+    "data_version": "6efc0fd25c9cf6c0",
+    "count": 6
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/tau_empire.json",
+    "data_version": "65184c16beb46123",
+    "count": 6
+   }
+  },
+  {
+   "faction": "thousand_sons",
+   "faction_name": "Thousand Sons",
+   "parent_faction": "chaos_space_marines",
+   "source": "Codex Supplement: Thousand Sons",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/thousand_sons.json",
+    "data_version": "d0a1f1c3dde32333",
+    "count": 21
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/thousand_sons.json",
+    "data_version": "b8d2df2366ebaaf9",
+    "count": 10
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/thousand_sons.json",
+    "data_version": "d79e9f1d0654b10d",
+    "count": 12
+   },
+   "units": {
+    "file": "/data/v5/units/thousand_sons.json",
+    "data_version": "1994dfa8a10fd184",
+    "count": 9
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/thousand_sons.json",
+    "data_version": "2a046572b333edfa",
+    "count": 8
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/thousand_sons.json",
+    "data_version": "a57d0f4a401ecd5b",
+    "count": 4
+   }
+  },
+  {
+   "faction": "tyranids",
+   "faction_name": "Tyranids",
+   "parent_faction": null,
+   "source": "Codex: Tyranids",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/tyranids.json",
+    "data_version": "37f4876faf7417db",
+    "count": 68
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/tyranids.json",
+    "data_version": "808e3188f87ba179",
+    "count": 22
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/tyranids.json",
+    "data_version": "9e3f0e0b8f8961f5",
+    "count": 66
+   },
+   "units": {
+    "file": "/data/v5/units/tyranids.json",
+    "data_version": "62aa05b72589d286",
+    "count": 50
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/tyranids.json",
+    "data_version": "26eae49965ab51d6",
+    "count": 3
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/tyranids.json",
+    "data_version": "bedf53b193507dad",
+    "count": 14
+   }
+  },
+  {
+   "faction": "ultramarines",
+   "faction_name": "Ultramarines",
+   "parent_faction": "space_marines",
+   "source": "Codex Supplement: Ultramarines",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/ultramarines.json",
+    "data_version": "b24855593e9ddf89",
+    "count": 18
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/ultramarines.json",
+    "data_version": "f528d1ac095cc6b2",
+    "count": 15
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/ultramarines.json",
+    "data_version": "c2ea130b198ab756",
+    "count": 17
+   },
+   "units": {
+    "file": "/data/v5/units/ultramarines.json",
+    "data_version": "5f793d2947a24b1f",
+    "count": 11
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/ultramarines.json",
+    "data_version": "c7f8ad992565f5b3",
+    "count": 6
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/ultramarines.json",
+    "data_version": "71abe4644a353e45",
+    "count": 1
+   }
+  },
+  {
+   "faction": "white_scars",
+   "faction_name": "White Scars",
+   "parent_faction": "space_marines",
+   "source": "Codex Supplement: White Scars",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/white_scars.json",
+    "data_version": "41341b2e516fe8f2",
+    "count": 14
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/white_scars.json",
+    "data_version": "aae9b3b83b64dff7",
+    "count": 9
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/white_scars.json",
+    "data_version": "cbda2b30e2dcbb31",
+    "count": 9
+   },
+   "units": {
+    "file": "/data/v5/units/white_scars.json",
+    "data_version": "d7663d756edf733e",
+    "count": 7
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/white_scars.json",
+    "data_version": "20059fb0cfb9b35e",
+    "count": 13
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/white_scars.json",
+    "data_version": "f383923d8e56428e",
+    "count": 3
+   }
+  },
+  {
+   "faction": "word_bearers",
+   "faction_name": "Word Bearers",
+   "parent_faction": "chaos_space_marines",
+   "source": "Codex Supplement: Word Bearers",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/word_bearers.json",
+    "data_version": "821c61fb38303b8a",
+    "count": 12
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/word_bearers.json",
+    "data_version": "30e5f04e744b9ae9",
+    "count": 9
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/word_bearers.json",
+    "data_version": "c4100d0157d99a4a",
+    "count": 8
+   },
+   "units": {
+    "file": "/data/v5/units/word_bearers.json",
+    "data_version": "114b05b7f2f596f4",
+    "count": 5
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/word_bearers.json",
+    "data_version": "2a63c125155b3e62",
+    "count": 8
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/word_bearers.json",
+    "data_version": "4f3f96cbfa6d5068",
+    "count": 2
+   }
+  },
+  {
+   "faction": "world_eaters",
+   "faction_name": "World Eaters",
+   "parent_faction": "chaos_space_marines",
+   "source": "Codex Supplement: World Eaters",
+   "version": "5.0",
+   "weapons": {
+    "file": "/data/v5/weapons/world_eaters.json",
+    "data_version": "c1f25052b4025db4",
+    "count": 27
+   },
+   "wargear": {
+    "file": "/data/v5/wargear/world_eaters.json",
+    "data_version": "d43ee5d2ce1d7e7b",
+    "count": 3
+   },
+   "special_rules": {
+    "file": "/data/v5/special_rules/world_eaters.json",
+    "data_version": "e7b9190a0b8e098c",
+    "count": 18
+   },
+   "units": {
+    "file": "/data/v5/units/world_eaters.json",
+    "data_version": "8459a42a704b99b8",
+    "count": 12
+   },
+   "book_options": {
+    "file": "/data/v5/book_options/world_eaters.json",
+    "data_version": "a0fe979afa4860c8",
+    "count": 6
+   },
+   "army_construction": {
+    "file": "/data/v5/army_construction/world_eaters.json",
+    "data_version": "19783c2a7fd2b075",
+    "count": 3
+   }
+  }
+ ],
+ "all_factions": {
+  "page": 10,
+  "url": "https://longwarindex.app/core_concepts/factions/",
+  "names": [
+   "Adeptus Mechanicus",
+   "Chaos Daemons",
+   "Chaos Space Marines",
+   "Craftworld Eldar",
+   "Dark Eldar",
+   "Genestealer Cults",
+   "Imperial Agents",
+   "Imperial Guard",
+   "Leagues of Votann",
+   "Necron Dynasties",
+   "Orks",
+   "Renegades & Heretics",
+   "Sisters of Battle",
+   "Space Marines",
+   "T'au Empire",
+   "Talons of the Emperor",
+   "Tyranids",
+   "Ynnari"
+  ],
+  "other_names": [
+   "Harlequins"
+  ]
+ }
+}

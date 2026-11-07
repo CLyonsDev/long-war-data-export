@@ -1,0 +1,963 @@
+{
+ "data_version": "9c344a197d5afbe6",
+ "format": 1,
+ "faction": "chaos_daemons",
+ "codex": {
+  "id": "codex/chaos_daemons",
+  "name": "Chaos Daemons",
+  "page": 5,
+  "url": "https://longwarindex.app/codex/chaos_daemons/",
+  "parent": null,
+  "army_rules": [
+   {
+    "rule": "codex/chaos_daemons/special_rules/daemonic_instability",
+    "name": "Daemonic Instability",
+    "url": "https://longwarindex.app/special_rules/daemonic_instability/"
+   },
+   {
+    "rule": "codex/chaos_daemons/special_rules/daemon",
+    "name": "Daemon",
+    "url": "https://longwarindex.app/special_rules/daemon_chaos_daemons/"
+   },
+   {
+    "rule": "codex/chaos_daemons/special_rules/greater_daemon",
+    "name": "Greater Daemon",
+    "url": "https://longwarindex.app/special_rules/greater_daemon/"
+   },
+   {
+    "rule": "codex/chaos_daemons/special_rules/warp_surge",
+    "name": "Warp Surge",
+    "url": "https://longwarindex.app/special_rules/warp_surge/"
+   }
+  ],
+  "allies": {
+   "printed": "The following factions listed in keywords may be taken as allies in an allied detachment if your battle plan allows the use of allied detachments:",
+   "page": 27,
+   "url": "https://longwarindex.app/allies/chaos_daemon_allies/",
+   "factions": [
+    {
+     "faction": "chaos_daemons"
+    },
+    {
+     "faction": "chaos_space_marines"
+    },
+    {
+     "faction": "renegades_and_heretics"
+    }
+   ]
+  },
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/chaos_daemons/rites_of_war/warp_incursion",
+    "codex/chaos_daemons/rites_of_war/brass_stampede",
+    "codex/chaos_daemons/rites_of_war/tallyband",
+    "codex/chaos_daemons/rites_of_war/court_of_excess",
+    "codex/chaos_daemons/rites_of_war/warp_flux_conclave"
+   ],
+   "from_parent": [],
+   "banned_from_parent": []
+  },
+  "unit_list": {
+   "page": 26,
+   "url": "https://longwarindex.app/unit_list/chaos_daemon_unit_list/",
+   "entries": [
+    {
+     "datasheet": "codex/chaos_daemons/roster/belakor",
+     "printed": "Be'lakor",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/bloodthirster",
+     "printed": "Bloodthirster",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/corbax_utterblight",
+     "printed": "Cor'bax Utterblight",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/daemon_prince",
+     "printed": "Daemon Prince",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/epidemius",
+     "printed": "Epidemius",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/great_unclean_one",
+     "printed": "Great Unclean One",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/herald_of_khorne",
+     "printed": "Herald of Khorne",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/herald_of_nurgle",
+     "printed": "Herald of Nurgle",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/herald_of_slaanesh",
+     "printed": "Herald of Slaanesh",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/herald_of_tzeentch",
+     "printed": "Herald of Tzeentch",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/kairos_fateweaver",
+     "printed": "Kairos Fateweaver",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/keeper_of_secrets",
+     "printed": "Keeper of Secrets",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/lord_of_change",
+     "printed": "Lord of Change",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/masque_of_slaanesh",
+     "printed": "Masque of Slaanesh",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/rotigus_rain_father",
+     "printed": "Rotigus Rain Father",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/samus",
+     "printed": "Samus",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/shelaxi_hellbane",
+     "printed": "Shelaxi Hellbane",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/skarbrand",
+     "printed": "Skarbrand",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/skulltaker",
+     "printed": "Skulltaker",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/the_changeling",
+     "printed": "The Changeling",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/uraka_the_warfiend",
+     "printed": "Uraka the Warfiend",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/bloodletters",
+     "printed": "Bloodletters",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/daemonettes",
+     "printed": "Daemonettes",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/furies",
+     "printed": "Furies",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/nurglings",
+     "printed": "Nurglings",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/pink_horrors",
+     "printed": "Pink Horrors",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/plaguebearers",
+     "printed": "Plaguebearers",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/blood_crushers",
+     "printed": "Blood Crushers",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/contorted_epitome",
+     "printed": "Contorted Epitome",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/daemon_brutes",
+     "printed": "Daemon Brutes",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/flamers_of_tzeentch",
+     "printed": "Flamers of Tzeentch",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/horticulous_slimux",
+     "printed": "Horticulous Slimux",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/karanak",
+     "printed": "Karanak",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/plague_drones",
+     "printed": "Plague Drones",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/seekers_of_slaanesh",
+     "printed": "Seekers of Slaanesh",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/the_blue_scribes",
+     "printed": "The Blue Scribes",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/beasts_of_nurgle",
+     "printed": "Beasts of Nurgle",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/fiends_of_slaanesh",
+     "printed": "Fiends of Slaanesh",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/flesh_hounds",
+     "printed": "Flesh Hounds",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/screamers_of_tzeentch",
+     "printed": "Screamers of Tzeentch",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/seeker_chariot",
+     "printed": "Seeker Chariot",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/burning_chariot",
+     "printed": "Burning Chariot",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/hellflayer_chariot",
+     "printed": "Hellflayer Chariot",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/skull_cannon",
+     "printed": "Skull Cannon",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/soul_grinder",
+     "printed": "Soul Grinder",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/chaos_daemons/roster/nexus_of_power",
+     "printed": "Nexus of Power",
+     "role": "Fortification"
+    }
+   ]
+  },
+  "keyword_templates": []
+ },
+ "allegiances": [],
+ "rites_of_war": [
+  {
+   "id": "codex/chaos_daemons/rites_of_war/warp_incursion",
+   "name": "Warp Incursion",
+   "page": 21,
+   "url": "https://longwarindex.app/rites_of_war/warp_incursion/",
+   "offered_by": {
+    "codex": "chaos_daemons"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Herald unit.\n- Your army must include at least 1 Greater Daemon unit.\n- Either a Greater Daemon, Daemon Prince or a Herald must be your Warlord.\n\nBenefit\n\n- Place on the board 3 Warp Portal Markers during deployment. Daemon units that arrive via Deep Strike wholly within 12\" of a Warp Portal Marker never scatter.\n- You may include 1 additional HQ, Troops, Fast Attack, Elites and Heavy Support choice for every 1000pts.\n- You may field Daemon Brutes as Troops choices.",
+   "restrictions": [
+    {
+     "id": "herald_unit",
+     "printed": "Your army must include at least 1 Herald unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "keyword": "Herald of Khorne"
+         },
+         {
+          "keyword": "Herald of Nurgle"
+         },
+         {
+          "keyword": "Herald of Slaanesh"
+         },
+         {
+          "keyword": "Herald of Tzeentch"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "greater_daemon_unit",
+     "printed": "Your army must include at least 1 Greater Daemon unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Greater Daemon"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "warlord_choice",
+     "printed": "Either a Greater Daemon, Daemon Prince or a Herald must be your Warlord.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "keyword": "Greater Daemon"
+         },
+         {
+          "keyword": "Daemon Prince"
+         },
+         {
+          "any_of": [
+           {
+            "keyword": "Herald of Khorne"
+           },
+           {
+            "keyword": "Herald of Nurgle"
+           },
+           {
+            "keyword": "Herald of Slaanesh"
+           },
+           {
+            "keyword": "Herald of Tzeentch"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "extra_hq_slot",
+     "printed": "You may include 1 additional HQ, Troops, Fast Attack, Elites and Heavy Support choice for every 1000pts.",
+     "slots": {
+      "role": "HQ",
+      "max_delta": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "extra_troops_slot",
+     "printed": "You may include 1 additional HQ, Troops, Fast Attack, Elites and Heavy Support choice for every 1000pts.",
+     "slots": {
+      "role": "Troops",
+      "max_delta": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "extra_fast_attack_slot",
+     "printed": "You may include 1 additional HQ, Troops, Fast Attack, Elites and Heavy Support choice for every 1000pts.",
+     "slots": {
+      "role": "Fast Attack",
+      "max_delta": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "extra_elites_slot",
+     "printed": "You may include 1 additional HQ, Troops, Fast Attack, Elites and Heavy Support choice for every 1000pts.",
+     "slots": {
+      "role": "Elites",
+      "max_delta": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "extra_heavy_support_slot",
+     "printed": "You may include 1 additional HQ, Troops, Fast Attack, Elites and Heavy Support choice for every 1000pts.",
+     "slots": {
+      "role": "Heavy Support",
+      "max_delta": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "daemon_brutes_troops",
+     "printed": "You may field Daemon Brutes as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_daemons/roster/daemon_brutes"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "Place on the board 3 Warp Portal Markers during deployment. Daemon units that arrive via Deep Strike wholly within 12\" of a Warp Portal Marker never scatter."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/chaos_daemons/rites_of_war/brass_stampede",
+   "name": "Brass Stampede",
+   "page": 22,
+   "url": "https://longwarindex.app/rites_of_war/brass_stampede/",
+   "offered_by": {
+    "codex": "chaos_daemons"
+   },
+   "text": "Restrictions\n\n- Your army may only include units with the Khorne keyword.\n- Your army must include at least 1 unit of Bloodcrushers.\n- Your army must include at least 1 Herald or Greater Daemon.\n\nBenefit\n\n- You may field Bloodcrushers as Troops choices.\n- Bloodthirsters are now Limit: 3 per Detachment instead of 1.\n- You may include 1 additional Troops, Fast Attack, and Elite slot per 1000pts.",
+   "restrictions": [
+    {
+     "id": "only_khorne",
+     "printed": "Your army may only include units with the Khorne keyword.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "keyword": "Khorne"
+       }
+      ]
+     }
+    },
+    {
+     "id": "bloodcrushers_min",
+     "printed": "Your army must include at least 1 unit of Bloodcrushers.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_daemons/roster/blood_crushers"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "herald_or_greater_daemon",
+     "printed": "Your army must include at least 1 Herald or Greater Daemon.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "keyword": "Herald of Khorne"
+         },
+         {
+          "keyword": "Herald of Nurgle"
+         },
+         {
+          "keyword": "Herald of Slaanesh"
+         },
+         {
+          "keyword": "Herald of Tzeentch"
+         },
+         {
+          "keyword": "Greater Daemon"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "bloodcrushers_troops",
+     "printed": "You may field Bloodcrushers as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_daemons/roster/blood_crushers"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "bloodthirsters_limit",
+     "printed": "Bloodthirsters are now Limit: 3 per Detachment instead of 1.",
+     "limit": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_daemons/roster/bloodthirster"
+       }
+      ],
+      "limit": 3,
+      "scope": "detachment"
+     }
+    },
+    {
+     "id": "extra_troops_slot",
+     "printed": "You may include 1 additional Troops, Fast Attack, and Elite slot per 1000pts.",
+     "slots": {
+      "role": "Troops",
+      "max_delta": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "extra_fast_attack_slot",
+     "printed": "You may include 1 additional Troops, Fast Attack, and Elite slot per 1000pts.",
+     "slots": {
+      "role": "Fast Attack",
+      "max_delta": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "extra_elites_slot",
+     "printed": "You may include 1 additional Troops, Fast Attack, and Elite slot per 1000pts.",
+     "slots": {
+      "role": "Elites",
+      "max_delta": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/chaos_daemons/rites_of_war/tallyband",
+   "name": "Tallyband",
+   "page": 23,
+   "url": "https://longwarindex.app/rites_of_war/tallyband/",
+   "offered_by": {
+    "codex": "chaos_daemons"
+   },
+   "text": "Restrictions\n\n- Your army may only include units with the Nurgle Keyword.\n- Your army must include either Epidemius or a Spoilpox Scrivener.\n- Your army must include at least 1 Herald or Greater Daemon.\n\nBenefit\n\n- You may field Plague Drones as Troops choices.\n- Great Unclean Ones are Limited: 3 per detachment instead of 1.\n- You may include 1 additional Troops, Fast Attack and Elites slot per 1000pts.",
+   "restrictions": [
+    {
+     "id": "only_nurgle",
+     "printed": "Your army may only include units with the Nurgle Keyword.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "keyword": "Nurgle"
+       }
+      ]
+     }
+    },
+    {
+     "id": "epidemius_or_spoilpox",
+     "printed": "Your army must include either Epidemius or a Spoilpox Scrivener.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/chaos_daemons/roster/epidemius"
+         },
+         {
+          "choice": {
+           "page": "codex/chaos_daemons/roster/herald_of_nurgle",
+           "path": "upgrade/spoilpox_scribbler"
+          }
+         }
+        ]
+       }
+      ],
+      "min": 1
+     },
+     "print_defect": "The book names \"Spoilpox Scrivener\". The matching upgrade of the Herald of Nurgle has the name Spoilpox Scribbler."
+    },
+    {
+     "id": "herald_or_greater_daemon",
+     "printed": "Your army must include at least 1 Herald or Greater Daemon.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "keyword": "Herald of Khorne"
+         },
+         {
+          "keyword": "Herald of Nurgle"
+         },
+         {
+          "keyword": "Herald of Slaanesh"
+         },
+         {
+          "keyword": "Herald of Tzeentch"
+         },
+         {
+          "keyword": "Greater Daemon"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "plague_drones_troops",
+     "printed": "You may field Plague Drones as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_daemons/roster/plague_drones"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "great_unclean_ones_limit",
+     "printed": "Great Unclean Ones are Limited: 3 per detachment instead of 1.",
+     "limit": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_daemons/roster/great_unclean_one"
+       }
+      ],
+      "limit": 3,
+      "scope": "detachment"
+     }
+    },
+    {
+     "id": "extra_troops_slot",
+     "printed": "You may include 1 additional Troops, Fast Attack and Elites slot per 1000pts.",
+     "slots": {
+      "role": "Troops",
+      "max_delta": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "extra_fast_attack_slot",
+     "printed": "You may include 1 additional Troops, Fast Attack and Elites slot per 1000pts.",
+     "slots": {
+      "role": "Fast Attack",
+      "max_delta": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "extra_elites_slot",
+     "printed": "You may include 1 additional Troops, Fast Attack and Elites slot per 1000pts.",
+     "slots": {
+      "role": "Elites",
+      "max_delta": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/chaos_daemons/rites_of_war/court_of_excess",
+   "name": "Court of Excess",
+   "page": 24,
+   "url": "https://longwarindex.app/rites_of_war/court_of_excess/",
+   "offered_by": {
+    "codex": "chaos_daemons"
+   },
+   "text": "Restrictions\n\n- Your army may only include units with the Slaanesh Keyword.\n- Your army must include at least 1 Greater Daemon.\n- Your army must not include Soul Grinders or Chaos Spawn.\n\nBenefit\n\n- You may field Hellflayer Chariots units as Heavy Support choices.\n- Keepers of Secrets are now Limited: 3 instead of 1.\n- You may field Seekers as Troop choices.",
+   "restrictions": [
+    {
+     "id": "only_slaanesh",
+     "printed": "Your army may only include units with the Slaanesh Keyword.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "keyword": "Slaanesh"
+       }
+      ]
+     }
+    },
+    {
+     "id": "greater_daemon_min",
+     "printed": "Your army must include at least 1 Greater Daemon.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Greater Daemon"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "no_soul_grinders_or_chaos_spawn",
+     "printed": "Your army must not include Soul Grinders or Chaos Spawn.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/chaos_daemons/roster/soul_grinder"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/chaos_spawn"
+         }
+        ]
+       }
+      ],
+      "max": 0
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "hellflayer_chariots_heavy_support",
+     "printed": "You may field Hellflayer Chariots units as Heavy Support choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_daemons/roster/hellflayer_chariot"
+       }
+      ],
+      "role": "Heavy Support",
+      "instead": false
+     }
+    },
+    {
+     "id": "keepers_of_secrets_limit",
+     "printed": "Keepers of Secrets are now Limited: 3 instead of 1.",
+     "limit": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_daemons/roster/keeper_of_secrets"
+       }
+      ],
+      "limit": 3,
+      "scope": "detachment"
+     }
+    },
+    {
+     "id": "seekers_troops",
+     "printed": "You may field Seekers as Troop choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_daemons/roster/seekers_of_slaanesh"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/chaos_daemons/rites_of_war/warp_flux_conclave",
+   "name": "Warp Flux Conclave",
+   "page": 25,
+   "url": "https://longwarindex.app/rites_of_war/warp_flux_conclave/",
+   "offered_by": {
+    "codex": "chaos_daemons"
+   },
+   "text": "Restrictions\n\n- Your army may only include units with the Tzeentch Keyword.\n- Your army must include at least 2 units of Pink Horrors.\n- Your army must include at least 1 unit of Screamers of Tzeentch.\n\nBenefit\n\n- You may field Screamers of Tzeentch as Troops choices.\n- Lord of Change are now Limited: 3 per detachment instead of 1.\n- You may include 1 additional Troopers, Fast Attack and Elites slot in your army per 1000pts.",
+   "restrictions": [
+    {
+     "id": "only_tzeentch",
+     "printed": "Your army may only include units with the Tzeentch Keyword.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "keyword": "Tzeentch"
+       }
+      ]
+     }
+    },
+    {
+     "id": "pink_horrors_min",
+     "printed": "Your army must include at least 2 units of Pink Horrors.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_daemons/roster/pink_horrors"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "screamers_min",
+     "printed": "Your army must include at least 1 unit of Screamers of Tzeentch.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_daemons/roster/screamers_of_tzeentch"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "screamers_troops",
+     "printed": "You may field Screamers of Tzeentch as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_daemons/roster/screamers_of_tzeentch"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "lord_of_change_limit",
+     "printed": "Lord of Change are now Limited: 3 per detachment instead of 1.",
+     "limit": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_daemons/roster/lord_of_change"
+       }
+      ],
+      "limit": 3,
+      "scope": "detachment"
+     }
+    },
+    {
+     "id": "extra_troops_slot",
+     "printed": "You may include 1 additional Troopers, Fast Attack and Elites slot in your army per 1000pts.",
+     "slots": {
+      "role": "Troops",
+      "max_delta": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     },
+     "print_defect": "The book prints \"Troopers\". This data reads this as Troops."
+    },
+    {
+     "id": "extra_fast_attack_slot",
+     "printed": "You may include 1 additional Troopers, Fast Attack and Elites slot in your army per 1000pts.",
+     "slots": {
+      "role": "Fast Attack",
+      "max_delta": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     },
+     "print_defect": "The book prints \"Troopers\". This data reads this as Troops."
+    },
+    {
+     "id": "extra_elites_slot",
+     "printed": "You may include 1 additional Troopers, Fast Attack and Elites slot in your army per 1000pts.",
+     "slots": {
+      "role": "Elites",
+      "max_delta": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     },
+     "print_defect": "The book prints \"Troopers\". This data reads this as Troops."
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

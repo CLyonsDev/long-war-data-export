@@ -1,0 +1,764 @@
+{
+ "data_version": "5db0a8f203c8ce1f",
+ "format": 1,
+ "faction": "black_templars",
+ "codex": {
+  "id": "codex/black_templars",
+  "name": "Black Templars",
+  "page": 3,
+  "url": "https://longwarindex.app/codex/black_templars/",
+  "parent": "space_marines",
+  "army_rules": [
+   {
+    "rule": "codex/black_templars/special_rules/armoury_of_the_eternal_crusade",
+    "name": "Armoury of the Eternal Crusade",
+    "url": "https://longwarindex.app/special_rules/armoury_of_the_eternal_crusade/"
+   },
+   {
+    "rule": "codex/black_templars/special_rules/martial_feats",
+    "name": "Martial Feats",
+    "url": "https://longwarindex.app/special_rules/martial_feats/"
+   }
+  ],
+  "allies": null,
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/black_templars/rites_of_war/the_endless_crusade",
+    "codex/black_templars/rites_of_war/the_sons_of_grimaldus"
+   ],
+   "from_parent": [
+    "codex/space_marines/rites_of_war/drop_pod_assault",
+    "codex/space_marines/rites_of_war/armoured_support",
+    "codex/space_marines/rites_of_war/mechanised_assault"
+   ],
+   "banned_from_parent": [
+    "codex/space_marines/rites_of_war/pride_of_the_chapter",
+    "codex/space_marines/rites_of_war/grey_shields",
+    "codex/space_marines/rites_of_war/vanguard_support"
+   ]
+  },
+  "unit_list": null,
+  "keyword_templates": [
+   {
+    "template": "<Chapter>",
+    "printed": "All units have the <Chapter> keyword. This is replaced with Black Templars Keyword.",
+    "substitution": {
+     "value": "Black Templars"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/black_templars/allegiances/allegiance_black_templars",
+   "name": "Allegiance: Black Templars",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_black_templars/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "keyword_substitution": {
+    "template": "<Chapter>",
+    "value": "Black Templars"
+   },
+   "rule": {
+    "rule": "codex/black_templars/allegiances/allegiance_black_templars",
+    "name": "Allegiance: Black Templars",
+    "printed": "codex/black_templars/allegiances/allegiance_black_templars",
+    "url": "https://longwarindex.app/allegiances/allegiance_black_templars/"
+   },
+   "unit_list": {
+    "page": 14,
+    "url": "https://longwarindex.app/unit_list/black_templars_unit_list/",
+    "entries": [
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_captain",
+      "printed": "Space Marine Captain",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/lieutenant",
+      "printed": "Lieutenant",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_command_squad",
+      "printed": "Space Marine Command Squad",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/damocles_command_rhino",
+      "printed": "Damocles Command Rhino",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/black_templars/roster/high_marshal_helbrecht",
+      "printed": "High Marshal Helbrecht",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/black_templars/roster/chaplain_grimaldus",
+      "printed": "Chaplain Grimaldus",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/black_templars/roster/the_emperors_champion",
+      "printed": "The Emperor's Champion",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/black_templars/roster/crusader_squad",
+      "printed": "Crusader Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/black_templars/roster/sword_brethren",
+      "printed": "Sword Brethren",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/black_templars/roster/sword_brethren_terminators",
+      "printed": "Sword Brethren Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/black_templars/roster/centurions",
+      "printed": "Centurions",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/castraferrum_dreadnought",
+      "printed": "Castraferrum Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/contemptor_dreadnought",
+      "printed": "Contemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/redemptor_dreadnought",
+      "printed": "Redemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invictor_tactical_warsuit",
+      "printed": "Invictor Tactical Warsuit",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/rhino_apc",
+      "printed": "Rhino APC",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/razorback_ifv",
+      "printed": "Razorback IFV",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/drop_pod",
+      "printed": "Drop Pod",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/impulsor",
+      "printed": "Impulsor",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormhawk_interceptor",
+      "printed": "Stormhawk Interceptor",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormtalon_gunship",
+      "printed": "Stormtalon Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormraven_gunship",
+      "printed": "Stormraven Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_eagle_gunship",
+      "printed": "Storm Eagle Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/black_templars/roster/crusader_bike_cavalry",
+      "printed": "Crusader Bike Cavalry",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/attack_bike_squad",
+      "printed": "Attack Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/assault_marine_squad",
+      "printed": "Assault Marine Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/reiver_squad",
+      "printed": "Reiver Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/incursor_squad",
+      "printed": "Incursor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/inceptor_squad",
+      "printed": "Inceptor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invader_atv",
+      "printed": "Invader ATV",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder",
+      "printed": "Land Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_speeder",
+      "printed": "Storm Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/javelin_attack_speeder",
+      "printed": "Javelin Attack Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sabre_strike_tank",
+      "printed": "Sabre Strike Tank",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/weapon_support_squad",
+      "printed": "Weapon Support Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gravis_support_squad",
+      "printed": "Gravis Support Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/firestrike_servo_turret",
+      "printed": "Firestrike Servo Turret",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/predator_mbt",
+      "printed": "Predator MBT",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_siege_tank",
+      "printed": "Vindicator Siege Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/whirlwind_artillery_tank",
+      "printed": "Whirlwind Artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hunter_artillery_tank",
+      "printed": "Hunter Artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stalker_aa_tank",
+      "printed": "Stalker AA Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gladiator_assault_tank",
+      "printed": "Gladiator Assault Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider",
+      "printed": "Land Raider",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_redeemer",
+      "printed": "Land Raider Redeemer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_crusader",
+      "printed": "Land Raider Crusader",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_hifv",
+      "printed": "Repulsor HIFV",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_executioner",
+      "printed": "Repulsor Executioner",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/deredeo_dreadnought",
+      "printed": "Deredeo Dreadnought",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fire_raptor_gunship",
+      "printed": "Fire Raptor Gunship",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_laser_destroyer",
+      "printed": "Vindicator Laser Destroyer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sicaran_heavy_tank",
+      "printed": "Sicaran Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/kratos_super_heavy_tank",
+      "printed": "Kratos Super Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/leviathan_dreadnought",
+      "printed": "Leviathan Dreadnought",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/spartan_assault_tank",
+      "printed": "Spartan Assault Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/astraeus",
+      "printed": "Astraeus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/cerberus",
+      "printed": "Cerberus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/falchion",
+      "printed": "Falchion",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fellblade",
+      "printed": "Fellblade",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/mastodon",
+      "printed": "Mastodon",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/typhon_siege_tank",
+      "printed": "Typhon Siege Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/thunderhawk_gunship",
+      "printed": "Thunderhawk Gunship",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hammerfall_bunker",
+      "printed": "Hammerfall Bunker",
+      "role": "Fortification"
+     }
+    ]
+   },
+   "restrictions": [
+    {
+     "id": "no_indomitus_discipline",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/black_templars/",
+     "printed": "You may not use the core Codex Space Marines Indomitus Psyker Discipline.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "psychic_powers"
+       }
+      ]
+     }
+    },
+    {
+     "id": "relics_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/black_templars/",
+     "printed": "You may not use the Relics from Codex Space Marines and must use the Relic Wargear presented in this supplement.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "relics"
+       }
+      ]
+     }
+    },
+    {
+     "id": "no_psyker_units",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/black_templars/",
+     "printed": "Your army may not include any units with the Psyker keyword except as part of an Allied detachment.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/psyker",
+         "name": "Psyker",
+         "param": "x",
+         "url": "https://longwarindex.app/universal_special_rules/psyker/"
+        }
+       }
+      ],
+      "max": 0
+     }
+    },
+    {
+     "id": "litanies_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/black_templars/",
+     "printed": "Your army must use the Litanies of Faith presented in this Supplement instead of the Core Codex.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "prayers"
+       }
+      ]
+     }
+    },
+    {
+     "id": "rites_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/black_templars/",
+     "printed": "Your army must use the Rites of War presented in this Supplement instead of the Core Codex.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/space_marines/rites_of_war/pride_of_the_chapter",
+      "codex/space_marines/rites_of_war/grey_shields",
+      "codex/space_marines/rites_of_war/vanguard_support"
+     ]
+    },
+    {
+     "id": "warlord_traits_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/black_templars/",
+     "printed": "You must use the Warlord traits presented in this Supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "warlord_traits"
+       }
+      ]
+     }
+    },
+    {
+     "id": "unit_list_only",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/black_templars/",
+     "printed": "You may not field the units not listed on the Black Templars Unit list in this Codex Supplement.",
+     "scope": "detachment",
+     "unit_list": true
+    },
+    {
+     "id": "crusader_squad_minimum",
+     "printed": "A Black Templars army must contain at least 1 unit of Crusader Squad for every 1000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/black_templars/roster/crusader_squad"
+       }
+      ],
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "lieutenant_no_librarian",
+     "printed": "Black Templars Space Marines Lieutenant may not purchase the Librarian option and no Black Templar unit in your army may have the Psyker (x) special rule.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "choices": [
+       {
+        "page": "codex/space_marines/roster/lieutenant",
+        "path": "upgrades/librarian"
+       }
+      ]
+     }
+    },
+    {
+     "id": "no_chapter_master",
+     "printed": "Black Templars Space Marines Captains may not purchase the Chapter Master option.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "choices": [
+       {
+        "page": "codex/space_marines/roster/space_marine_captain",
+        "path": "chapter_master/chapter_master"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [],
+   "game_time": [
+    "A Black Templars army must select 2 of the following Vows at the beginning of the Game, after deployment but before the first turn begins:",
+    "\"Suffer not the Unclean to live\": All Black Templars gain the Crusader special rule.",
+    "\"Uphold the honour of the Emperor\": All Black Templars gain the Stubborn special rule.",
+    "\"Abhor the Witch, Deny the Witch\": All Black Templars gain the Indomitable Spirit (5+) special rule.",
+    "\"Accept any challenge, no matter the odds\": All Black Templars gain the Zealot special rule.",
+    "Black Templars units may never voluntarily Go to Ground."
+   ],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/black_templars/rites_of_war/the_endless_crusade",
+   "name": "The Endless Crusade",
+   "page": 12,
+   "url": "https://longwarindex.app/rites_of_war/the_endless_crusade/",
+   "offered_by": {
+    "allegiance": "codex/black_templars/allegiances/allegiance_black_templars"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 The Emperor's Champion unit.\n- A Captain must be your Warlord.\n- Your army must include at least 2 Crusader squads.\n\nBenefits\n\n- Once per game, at the start of your Movement Phase, you can swap 1 Vow which you selected during Deployment to be active for a different Vow you did not select during Deployment.\n- You may field 1 Sword Brethren unit as a Troops Choices with the Support Squad special rule.\n- The Emperor's Champion does not take up a Force Organization Slot.",
+   "restrictions": [
+    {
+     "id": "emperors_champion_unit",
+     "printed": "Your army must include at least 1 The Emperor's Champion unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/black_templars/roster/the_emperors_champion"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "captain_warlord",
+     "printed": "A Captain must be your Warlord.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "keyword": "Captain"
+       }
+      ]
+     }
+    },
+    {
+     "id": "crusader_squad_minimum",
+     "printed": "Your army must include at least 2 Crusader squads.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/black_templars/roster/crusader_squad"
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "sword_brethren_troops",
+     "printed": "You may field 1 Sword Brethren unit as a Troops Choices with the Support Squad special rule.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/black_templars/roster/sword_brethren"
+       }
+      ],
+      "role": "Troops",
+      "instead": false,
+      "max_units": 1
+     }
+    },
+    {
+     "id": "sword_brethren_support_squad",
+     "printed": "You may field 1 Sword Brethren unit as a Troops Choices with the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/black_templars/roster/sword_brethren"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "emperors_champion_no_slot",
+     "printed": "The Emperor's Champion does not take up a Force Organization Slot.",
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/black_templars/roster/the_emperors_champion"
+       }
+      ],
+      "count": 1
+     }
+    }
+   ],
+   "game_time": [
+    "Once per game, at the start of your Movement Phase, you can swap 1 Vow which you selected during Deployment to be active for a different Vow you did not select during Deployment."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/black_templars/rites_of_war/the_sons_of_grimaldus",
+   "name": "The Sons of Grimaldus",
+   "page": 13,
+   "url": "https://longwarindex.app/rites_of_war/the_sons_of_grimaldus/",
+   "offered_by": {
+    "allegiance": "codex/black_templars/allegiances/allegiance_black_templars"
+   },
+   "text": "Restrictions\n\n- Your Army must include Chaplain Grimaldus.\n- Chaplain Grimaldus must be your Warlord.\n- Your army may not include a Space Marine Captain.\n- Your army must include 1 Space Marine Command Squad.\n\nBenefits\n\n- All Black Templars units in your army gain the Last Stand special rule.\n- You may field Space Marine Command Squads without taking up a Force Organization Slot.\n- You may field Sword Brethren as Troops choices.",
+   "restrictions": [
+    {
+     "id": "chaplain_grimaldus_unit",
+     "printed": "Your Army must include Chaplain Grimaldus.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/black_templars/roster/chaplain_grimaldus"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "chaplain_grimaldus_warlord",
+     "printed": "Chaplain Grimaldus must be your Warlord.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/black_templars/roster/chaplain_grimaldus"
+       }
+      ]
+     }
+    },
+    {
+     "id": "no_space_marine_captain",
+     "printed": "Your army may not include a Space Marine Captain.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/space_marine_captain"
+       }
+      ],
+      "max": 0
+     }
+    },
+    {
+     "id": "command_squad_minimum",
+     "printed": "Your army must include 1 Space Marine Command Squad.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/space_marine_command_squad"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "last_stand_grant",
+     "printed": "All Black Templars units in your army gain the Last Stand special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Black Templars"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/last_stand",
+        "name": "Last Stand",
+        "url": "https://longwarindex.app/universal_special_rules/last_stand/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "command_squad_no_slot",
+     "printed": "You may field Space Marine Command Squads without taking up a Force Organization Slot.",
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/space_marine_command_squad"
+       }
+      ]
+     }
+    },
+    {
+     "id": "sword_brethren_troops",
+     "printed": "You may field Sword Brethren as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/black_templars/roster/sword_brethren"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

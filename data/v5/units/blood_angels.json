@@ -1,0 +1,2041 @@
+{
+ "data_version": "fd71e1a2a6b7f460",
+ "format": 1,
+ "faction": "blood_angels",
+ "units": [
+  {
+   "id": "codex/blood_angels/roster/baal_predator",
+   "name": "Baal Predator",
+   "page": 29,
+   "url": "https://longwarindex.app/roster/baal_predator/",
+   "source": "Codex Supplement: Blood Angels",
+   "role": "Fast Attack",
+   "points": 95,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "baal_predator",
+     "name": "Baal Predator",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 7,
+      "Front": 13,
+      "Side": 11,
+      "Rear": 10,
+      "A": 3,
+      "I": 4,
+      "Ld": 8,
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "storm_bolter",
+       "faction": "space_marines",
+       "count": 1,
+       "mount": "secondary"
+      },
+      {
+       "kind": "weapon",
+       "id": "linked_assault_cannon",
+       "faction": "space_marines",
+       "count": 1,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "marine_crew_weapons",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "baal_predator",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/blood_angels/allegiances/allegiance_blood_angels",
+     "name": "Allegiance: Blood Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_blood_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/scout",
+     "name": "Scout",
+     "url": "https://longwarindex.app/universal_special_rules/scout/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Fire Support",
+    "[Chapter]",
+    "Predator Tank",
+    "Tank",
+    "M31"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "linked_assault_cannon",
+     "label": "The Baal Predator may exchange its Linked Assault Cannon (P) for one of the following:",
+     "printed": "The Baal Predator may exchange its Linked Assault Cannon (P) for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "flamestorm_cannon",
+       "name": "A Flamestorm Cannon (P)",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "linked_assault_cannon",
+           "faction": "space_marines",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "flamestorm_cannon",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pintle_weapons",
+     "label": "The Baal Predator may take one of the following:",
+     "printed": "The Baal Predator may take one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_bolters",
+       "name": "2 Heavy Bolters (P)",
+       "points": 20,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "heavy_bolter",
+         "faction": "space_marines",
+         "count": 2,
+         "mount": "primary"
+        }
+       ]
+      },
+      {
+       "id": "heavy_flamers",
+       "name": "2 Heavy Flamers (P)",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "heavy_flamer",
+         "faction": "space_marines",
+         "count": 2,
+         "mount": "primary"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hunter_killer_missile",
+     "label": "The Baal Predator may be equipped with a Hunter Killer Missile (S) (+3pts)",
+     "printed": "The Baal Predator may be equipped with a Hunter Killer Missile (S) for 3pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hunter_killer_missile",
+       "name": "Hunter Killer Missile (S)",
+       "points": 3,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "hunter_killer_missile",
+         "faction": "space_marines",
+         "mount": "secondary"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/blood_angels/roster/captain_karlaen",
+   "name": "Captain Karlaen",
+   "page": 22,
+   "url": "https://longwarindex.app/roster/captain_karlaen/",
+   "source": "Codex Supplement: Blood Angels",
+   "role": "HQ",
+   "points": 115,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "captain_karlaen",
+     "name": "Captain Karlaen",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "indomitus_terminator_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "storm_bolter",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "hammer_of_baal"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "captain_karlaen",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/blood_angels/allegiances/allegiance_blood_angels",
+     "name": "Allegiance: Blood Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_blood_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/last_stand",
+     "name": "Last Stand",
+     "url": "https://longwarindex.app/universal_special_rules/last_stand/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/blood_angels/special_rules/captain_of_the_1st_company",
+     "name": "Captain of the 1st Company",
+     "url": "https://longwarindex.app/special_rules/captain_of_the_1st_company/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Blood Angels",
+    "Captain",
+    "Captain Karlaen",
+    "Character",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/blood_angels/roster/captain_tycho",
+   "name": "Captain Tycho",
+   "page": 21,
+   "url": "https://longwarindex.app/roster/captain_tycho/",
+   "source": "Codex Supplement: Blood Angels",
+   "role": "HQ",
+   "points": 110,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "captain_tycho",
+     "name": "Captain Tycho",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 6,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 5,
+      "I": 5,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "digital_weapons",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "blood_song"
+      },
+      {
+       "kind": "weapon",
+       "id": "dead_mans_hand"
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "captain_tycho",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/blood_angels/allegiances/allegiance_blood_angels",
+     "name": "Allegiance: Blood Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_blood_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/blood_angels/special_rules/tycho_the_lost",
+     "name": "Tycho the Lost",
+     "url": "https://longwarindex.app/special_rules/tycho_the_lost/"
+    },
+    {
+     "rule": "universal_special_rules/hatred",
+     "name": "Hatred",
+     "param": "Orks",
+     "url": "https://longwarindex.app/universal_special_rules/hatred/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/blood_angels/special_rules/falling_angel",
+     "name": "Falling Angel",
+     "url": "https://longwarindex.app/special_rules/falling_angel/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Blood Angels",
+    "Captain",
+    "Captain Tycho",
+    "Character",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/blood_angels/roster/chapter_master_gabriel_seth",
+   "name": "Chapter Master Gabriel Seth",
+   "page": 20,
+   "url": "https://longwarindex.app/roster/chapter_master_gabriel_seth/",
+   "source": "Codex Supplement: Blood Angels",
+   "role": "HQ",
+   "points": 130,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "chapter_master_gabriel_seth",
+     "name": "Chapter Master Gabriel Seth",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "blood_reaver"
+      },
+      {
+       "kind": "wargear",
+       "id": "halo_of_thorns"
+      },
+      {
+       "kind": "wargear",
+       "id": "blood_mantle"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "chapter_master_gabriel_seth",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/blood_angels/allegiances/allegiance_blood_angels",
+     "name": "Allegiance: Blood Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_blood_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/master_of_command",
+     "name": "Master of Command",
+     "url": "https://longwarindex.app/special_rules/master_of_command_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/battle_hardened",
+     "name": "Battle-Hardened",
+     "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/blood_angels/special_rules/flesh_tearers",
+     "name": "Flesh Tearers",
+     "url": "https://longwarindex.app/special_rules/flesh_tearers/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Blood Angels",
+    "Captain",
+    "Gabriel Seth",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/blood_angels/roster/chief_librarian_mephiston",
+   "name": "Chief Librarian Mephiston",
+   "page": 25,
+   "url": "https://longwarindex.app/roster/chief_librarian_mephiston/",
+   "source": "Codex Supplement: Blood Angels",
+   "role": "HQ",
+   "points": 95,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "chief_librarian_mephiston",
+     "name": "Chief Librarian Mephiston",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 3,
+      "A": 3,
+      "I": 5,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "vitarus"
+      },
+      {
+       "kind": "weapon",
+       "id": "plasma_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "psychic_hood",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_quickening"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "chief_librarian_mephiston",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/blood_angels/allegiances/allegiance_blood_angels",
+     "name": "Allegiance: Blood Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_blood_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/sub_commander",
+     "name": "Sub Commander",
+     "url": "https://longwarindex.app/special_rules/sub_commander/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/blood_angels/special_rules/lord_of_death",
+     "name": "Lord of Death",
+     "url": "https://longwarindex.app/special_rules/lord_of_death/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Blood Angels",
+    "Lieutenant",
+    "Psyker",
+    "Chief Librarian Mephiston",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/blood_angels/roster/erelim",
+   "name": "Erelim",
+   "page": 28,
+   "url": "https://longwarindex.app/roster/erelim/",
+   "source": "Codex Supplement: Blood Angels",
+   "role": "Elites",
+   "points": 285,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "erelim",
+     "name": "Erelim",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "rosarius",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "maul_of_perdition"
+      },
+      {
+       "kind": "weapon",
+       "id": "fleshrender_grenades"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "jump_pack",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "erelim",
+     "count": 5
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/blood_angels/allegiances/allegiance_blood_angels",
+     "name": "Allegiance: Blood Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_blood_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "codex/blood_angels/special_rules/angelic_visage",
+     "name": "Angelic Visage",
+     "url": "https://longwarindex.app/special_rules/angelic_visage/"
+    },
+    {
+     "rule": "universal_special_rules/priest",
+     "name": "Priest",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/priest/"
+    },
+    {
+     "rule": "universal_special_rules/zealot",
+     "name": "Zealot",
+     "url": "https://longwarindex.app/universal_special_rules/zealot/"
+    },
+    {
+     "rule": "universal_special_rules/hatred",
+     "name": "Hatred",
+     "url": "https://longwarindex.app/universal_special_rules/hatred/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "codex/blood_angels/special_rules/the_guardians_of_the_high_chaplain",
+     "name": "The Guardians of the High Chaplain",
+     "printed": "Guardians of the High Chaplain",
+     "url": "https://longwarindex.app/special_rules/the_guardians_of_the_high_chaplain/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Blood Angels",
+    "Erelim",
+    "Priest",
+    "Veterans",
+    "M31"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/blood_angels/roster/high_chaplain_astorath_the_redeemer",
+   "name": "High Chaplain Astorath, The Redeemer",
+   "page": 24,
+   "url": "https://longwarindex.app/roster/high_chaplain_astorath_the_redeemer/",
+   "source": "Codex Supplement: Blood Angels",
+   "role": "HQ",
+   "points": 100,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "high_chaplain_astorath_the_redeemer",
+     "name": "High Chaplain Astorath, the Redeemer",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 3,
+      "A": 3,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "rosarius",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "the_executioners_axe"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "jump_pack",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "high_chaplain_astorath_the_redeemer",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/blood_angels/allegiances/allegiance_blood_angels",
+     "name": "Allegiance: Blood Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_blood_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/sub_commander",
+     "name": "Sub Commander",
+     "url": "https://longwarindex.app/special_rules/sub_commander/"
+    },
+    {
+     "rule": "universal_special_rules/preferred_enemy",
+     "name": "Preferred Enemy",
+     "param": "Blood Angels",
+     "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+    },
+    {
+     "rule": "universal_special_rules/priest",
+     "name": "Priest",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/priest/"
+    },
+    {
+     "rule": "universal_special_rules/hatred",
+     "name": "Hatred",
+     "url": "https://longwarindex.app/universal_special_rules/hatred/"
+    },
+    {
+     "rule": "universal_special_rules/zealot",
+     "name": "Zealot",
+     "url": "https://longwarindex.app/universal_special_rules/zealot/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/blood_angels/special_rules/the_redeemer",
+     "name": "The Redeemer",
+     "url": "https://longwarindex.app/special_rules/the_redeemer/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Blood Angels",
+    "Lieutenant",
+    "Priest",
+    "Astorath",
+    "Unique",
+    "Death Company",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/blood_angels/roster/high_priest_corbulo",
+   "name": "High Priest Corbulo",
+   "page": 26,
+   "url": "https://longwarindex.app/roster/high_priest_corbulo/",
+   "source": "Codex Supplement: Blood Angels",
+   "role": "HQ",
+   "points": 100,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "high_priest_corbulo",
+     "name": "High Priest Corbulo",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 3,
+      "A": 3,
+      "I": 5,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavens_teeth"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "narthecium",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_red_grail"
+      },
+      {
+       "kind": "weapon",
+       "id": "exsanguinator"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "high_priest_corbulo",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/blood_angels/allegiances/allegiance_blood_angels",
+     "name": "Allegiance: Blood Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_blood_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/sub_commander",
+     "name": "Sub Commander",
+     "url": "https://longwarindex.app/special_rules/sub_commander/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "codex/blood_angels/special_rules/foresight",
+     "name": "Foresight",
+     "url": "https://longwarindex.app/special_rules/foresight_blood_angels/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/blood_angels/special_rules/high_medicae",
+     "name": "High Medicae",
+     "url": "https://longwarindex.app/special_rules/high_medicae/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Blood Angels",
+    "Lieutenant",
+    "High Priest Corbulo",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/blood_angels/roster/lemartes_guardian_of_the_lost",
+   "name": "Lemartes, Guardian of the Lost",
+   "page": 23,
+   "url": "https://longwarindex.app/roster/lemartes_guardian_of_the_lost/",
+   "source": "Codex Supplement: Blood Angels",
+   "role": "HQ",
+   "points": 90,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "lemartes_guardian_of_the_lost",
+     "name": "Lemartes, Guardian of the Lost",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 3,
+      "A": 3,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "jump_pack",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "rosarius",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "the_blood_crozius"
+      },
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "lemartes_guardian_of_the_lost",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/blood_angels/allegiances/allegiance_blood_angels",
+     "name": "Allegiance: Blood Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_blood_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/sub_commander",
+     "name": "Sub Commander",
+     "url": "https://longwarindex.app/special_rules/sub_commander/"
+    },
+    {
+     "rule": "codex/blood_angels/special_rules/death_company",
+     "name": "Death Company",
+     "url": "https://longwarindex.app/special_rules/death_company/"
+    },
+    {
+     "rule": "universal_special_rules/priest",
+     "name": "Priest",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/priest/"
+    },
+    {
+     "rule": "universal_special_rules/hatred",
+     "name": "Hatred",
+     "url": "https://longwarindex.app/universal_special_rules/hatred/"
+    },
+    {
+     "rule": "universal_special_rules/zealot",
+     "name": "Zealot",
+     "url": "https://longwarindex.app/universal_special_rules/zealot/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/blood_angels/warlord_traits/soul_warden",
+     "name": "Soul Warden",
+     "url": "https://longwarindex.app/warlord_traits/soul_warden/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Blood Angels",
+    "Lieutenant",
+    "Priest",
+    "Lemartes",
+    "Unique",
+    "Death Company",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/blood_angels/roster/lord_commander_dante",
+   "name": "Lord Commander Dante",
+   "page": 19,
+   "url": "https://longwarindex.app/roster/lord_commander_dante/",
+   "source": "Codex Supplement: Blood Angels",
+   "role": "HQ",
+   "points": 135,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "lord_commander_dante",
+     "name": "Lord Commander Dante",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 6,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "jump_pack",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "perdition_pistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "the_axe_mortalis"
+      },
+      {
+       "kind": "wargear",
+       "id": "death_mask_of_sanguinius"
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "lord_commander_dante",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/blood_angels/allegiances/allegiance_blood_angels",
+     "name": "Allegiance: Blood Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_blood_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/master_of_command",
+     "name": "Master of Command",
+     "url": "https://longwarindex.app/special_rules/master_of_command_space_marines/"
+    },
+    {
+     "rule": "codex/blood_angels/special_rules/angelic_visage",
+     "name": "Angelic Visage",
+     "url": "https://longwarindex.app/special_rules/angelic_visage/"
+    },
+    {
+     "rule": "universal_special_rules/battle_hardened",
+     "name": "Battle-Hardened",
+     "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/blood_angels/special_rules/heroic_bearing",
+     "name": "Heroic Bearing",
+     "url": "https://longwarindex.app/special_rules/heroic_bearing/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Blood Angels",
+    "Captain",
+    "Lord Commander Dante",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/blood_angels/roster/sanguinary_guard",
+   "name": "Sanguinary Guard",
+   "page": 27,
+   "url": "https://longwarindex.app/roster/sanguinary_guard/",
+   "source": "Codex Supplement: Blood Angels",
+   "role": "Elites",
+   "points": 195,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "sanguinary_guard",
+     "name": "Sanguinary Guard",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "death_mask"
+      },
+      {
+       "kind": "weapon",
+       "id": "angelus_boltgun"
+      },
+      {
+       "kind": "weapon",
+       "id": "encarmine_sword"
+      },
+      {
+       "kind": "weapon",
+       "id": "fleshrender_grenades"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "jump_pack",
+       "faction": "space_marines"
+      }
+     ]
+    },
+    {
+     "id": "sanguinary_ancient",
+     "name": "Sanguinary Ancient",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "death_mask"
+      },
+      {
+       "kind": "wargear",
+       "id": "chapter_banner",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "encarmine_sword"
+      },
+      {
+       "kind": "weapon",
+       "id": "fleshrender_grenades"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "jump_pack",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "sanguinary_guard",
+     "count": 5
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/blood_angels/allegiances/allegiance_blood_angels",
+     "name": "Allegiance: Blood Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_blood_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/fear",
+     "name": "Fear",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/fear/"
+    },
+    {
+     "rule": "codex/blood_angels/special_rules/angelic_visage",
+     "name": "Angelic Visage",
+     "url": "https://longwarindex.app/special_rules/angelic_visage/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Blood Angels",
+    "Sanguinary Guard",
+    "Veterans",
+    "M31"
+   ],
+   "size": {
+    "min": 5,
+    "max": 10
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 5 Sanguinary Guard models in this unit (+35pts each)",
+     "printed": "You may include an additional 5 Sanguinary Guard models in this unit for 35pts each.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "sanguinary_guard",
+       "name": "Sanguinary Guard",
+       "points": 35,
+       "pricing": "each",
+       "max": 5,
+       "add_model": {
+        "profile": "sanguinary_guard",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "angelus_boltgun",
+     "label": "Any model in the unit may exchange their Angelus Boltgun for one of the following:",
+     "printed": "Any model in the unit may exchange their Angelus Boltgun for one of the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "angelus_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "inferno_pistol",
+       "name": "Inferno Pistol",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "angelus_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "inferno_pistol"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "encarmine_sword",
+     "label": "Any model in the unit may exchange their Encarmine Sword for one of the following:",
+     "printed": "Any model in the unit may exchange their Encarmine Sword for one of the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "encarmine_axe",
+       "name": "Encarmine Axe",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "encarmine_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "encarmine_axe"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "encarmine_spear",
+       "name": "Encarmine Spear",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "encarmine_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "encarmine_spear"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "encarmine_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sanguinary_ancient",
+     "label": "1 Sanguinary Guard model in the unit may be exchanged for a Sanguinary Ancient model (+10pts)",
+     "printed": "1 Sanguinary Guard model in the unit may be exchanged for a Sanguinary Ancient model for 10pts.",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "sanguinary_guard"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "sanguinary_ancient",
+       "name": "Sanguinary Ancient model",
+       "points": 10,
+       "pricing": "flat",
+       "profile": "sanguinary_ancient"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/blood_angels/roster/the_sanguinor_exemplar_of_the_host",
+   "name": "The Sanguinor, Exemplar of the Host",
+   "page": 30,
+   "url": "https://longwarindex.app/roster/the_sanguinor_exemplar_of_the_host/",
+   "source": "Codex Supplement: Blood Angels",
+   "role": "Lords of War",
+   "points": 150,
+   "unit_type": "Primarch",
+   "profiles": [
+    {
+     "id": "the_sanguinor_exemplar_of_the_host",
+     "name": "The Sanguinor, Exemplar of the Host",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 7,
+      "BS": 6,
+      "S": 5,
+      "T": 5,
+      "W": 4,
+      "A": 4,
+      "I": 6,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "jump_pack",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "encarmine_broadsword"
+      },
+      {
+       "kind": "wargear",
+       "id": "death_mask_of_sanguinius"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "the_sanguinor_exemplar_of_the_host",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/blood_angels/allegiances/allegiance_blood_angels",
+     "name": "Allegiance: Blood Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_blood_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "4",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/battle_hardened",
+     "name": "Battle-Hardened",
+     "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "codex/blood_angels/special_rules/angelic_visage",
+     "name": "Angelic Visage",
+     "url": "https://longwarindex.app/special_rules/angelic_visage/"
+    },
+    {
+     "rule": "codex/blood_angels/special_rules/aid_from_beyond",
+     "name": "Aid from Beyond",
+     "url": "https://longwarindex.app/special_rules/aid_from_beyond/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/blood_angels/special_rules/avenging_angel",
+     "name": "Avenging Angel",
+     "url": "https://longwarindex.app/special_rules/avenging_angel/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Blood Angels",
+    "The Sanguinor, Exemplar of the Host",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  }
+ ]
+}

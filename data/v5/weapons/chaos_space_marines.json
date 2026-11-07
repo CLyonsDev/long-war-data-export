@@ -1,0 +1,4294 @@
+{
+ "data_version": "eb6ec435f4f86feb",
+ "format": 1,
+ "faction": "chaos_space_marines",
+ "weapons": [
+  {
+   "id": "bolt_pistol",
+   "name": "Bolt Pistol",
+   "section": "armoury",
+   "subtype": "Bolt Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/bolt_pistol_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "12\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "boltgun",
+   "name": "Boltgun",
+   "section": "armoury",
+   "subtype": "Bolt Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/boltgun_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "combi_bolter",
+   "name": "Combi Bolter",
+   "section": "armoury",
+   "subtype": "Bolt Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/combi_bolter_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "heavy_bolter",
+   "name": "Heavy Bolter",
+   "section": "armoury",
+   "subtype": "Bolt Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/heavy_bolter_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "36\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_heavy_bolter",
+   "name": "Linked Heavy Bolter",
+   "section": "armoury",
+   "subtype": "Bolt Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/linked_heavy_bolter_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "36\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_boltgun",
+   "name": "Linked Boltgun",
+   "section": "armoury",
+   "subtype": "Bolt Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/linked_boltgun_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hand_flamer",
+   "name": "Hand Flamer",
+   "section": "armoury",
+   "subtype": "Flamer Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/hand_flamer_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "8\"",
+     "strength": "3",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "flamer",
+   "name": "Flamer",
+   "section": "armoury",
+   "subtype": "Flamer Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/flamer_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "8\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "heavy_flamer",
+   "name": "Heavy Flamer",
+   "section": "armoury",
+   "subtype": "Flamer Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/heavy_flamer_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_heavy_flamer",
+   "name": "Linked Heavy Flamer",
+   "section": "armoury",
+   "subtype": "Flamer Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/linked_heavy_flamer_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "meltagun",
+   "name": "Meltagun",
+   "section": "armoury",
+   "subtype": "Melta Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/meltagun_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "8",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/melta",
+       "name": "Melta",
+       "url": "https://longwarindex.app/special_rules/melta/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "multi_melta",
+   "name": "Multi-Melta",
+   "section": "armoury",
+   "subtype": "Melta Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/multi_melta_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 2",
+     "range": "24\"",
+     "strength": "8",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/melta",
+       "name": "Melta",
+       "url": "https://longwarindex.app/special_rules/melta/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "magma_cutter",
+   "name": "Magma Cutter",
+   "section": "armoury",
+   "subtype": "Melta Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/magma_cutter/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "6\"",
+     "strength": "8",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/melta",
+       "name": "Melta",
+       "url": "https://longwarindex.app/special_rules/melta/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "autocannon",
+   "name": "Autocannon",
+   "section": "armoury",
+   "subtype": "Auto Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/autocannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "36\"",
+     "strength": "7",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reaper_autocannon",
+   "name": "Reaper Autocannon",
+   "section": "armoury",
+   "subtype": "Auto Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/reaper_autocannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "24\"",
+     "strength": "7",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reaper_chain_cannon",
+   "name": "Reaper Chain Cannon",
+   "section": "armoury",
+   "subtype": "Auto Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/reaper_chain_cannon/",
+   "profiles": [
+    {
+     "type": "Heavy 5",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "assault_cannon",
+   "name": "Assault Cannon",
+   "section": "armoury",
+   "subtype": "Auto Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/assault_cannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 5",
+     "range": "24\"",
+     "strength": "6",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_autocannon",
+   "name": "Linked Autocannon",
+   "section": "armoury",
+   "subtype": "Auto Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/linked_autocannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "36\"",
+     "strength": "7",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "missile_launcher",
+   "name": "Missile Launcher",
+   "section": "armoury",
+   "subtype": "Missile Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/missile_launcher_chaos_space_marines/",
+   "profiles": [
+    {
+     "name": "Missile Launcher (Frag)",
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    },
+    {
+     "name": "Missile Launcher (Krak)",
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyclone_missile_launcher",
+   "name": "Cyclone Missile Launcher",
+   "section": "armoury",
+   "subtype": "Missile Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/cyclone_missile_launcher_chaos_space_marines/",
+   "profiles": [
+    {
+     "name": "Cyclone Missile Launcher (Frag)",
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/barrage",
+       "name": "Barrage",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/barrage/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    },
+    {
+     "name": "Cyclone Missile Launcher (Krak)",
+     "type": "Heavy 2",
+     "range": "48\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hunter_killer_missile",
+   "name": "Hunter-Killer Missile",
+   "section": "armoury",
+   "subtype": "Missile Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/hunter_killer_missile_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "10",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/ammo",
+       "name": "Ammo",
+       "param": "1",
+       "url": "https://longwarindex.app/special_rules/ammo/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "typhoon_missile_launcher",
+   "name": "Typhoon Missile Launcher",
+   "section": "armoury",
+   "subtype": "Missile Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/typhoon_missile_launcher_chaos_space_marines/",
+   "profiles": [
+    {
+     "name": "Typhoon Missile Launcher (Frag)",
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/barrage",
+       "name": "Barrage",
+       "param": "3",
+       "url": "https://longwarindex.app/special_rules/barrage/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    },
+    {
+     "name": "Typhoon Missile Launcher (Krak)",
+     "type": "Heavy 3",
+     "range": "48\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lascannon",
+   "name": "Lascannon",
+   "section": "armoury",
+   "subtype": "Las Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/lascannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "9",
+     "ap": "2",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "linked_lascannon",
+   "name": "Linked Lascannon",
+   "section": "armoury",
+   "subtype": "Las Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/linked_lascannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "9",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lascannon_array",
+   "name": "Lascannon Array",
+   "section": "armoury",
+   "subtype": "Las Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/lascannon_array_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 2",
+     "range": "48\"",
+     "strength": "9",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "laser_destroyer",
+   "name": "Laser Destroyer",
+   "section": "armoury",
+   "subtype": "Las Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/laser_destroyer_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "72\"",
+     "strength": "10",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grav_pistol",
+   "name": "Grav Pistol",
+   "section": "armoury",
+   "subtype": "Grav Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/grav_pistol_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "12\"",
+     "strength": "5",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grav_gun",
+   "name": "Grav Gun",
+   "section": "armoury",
+   "subtype": "Grav Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/grav_gun_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "5",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grav_cannon",
+   "name": "Grav Cannon",
+   "section": "armoury",
+   "subtype": "Grav Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/grav_cannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "30\"",
+     "strength": "5",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "volkite_pistol",
+   "name": "Volkite Pistol",
+   "section": "armoury",
+   "subtype": "Volkite Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/volkite_pistol/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "12\"",
+     "strength": "5",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "volkite_charger",
+   "name": "Volkite Charger",
+   "section": "armoury",
+   "subtype": "Volkite Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/volkite_charger_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "24\"",
+     "strength": "5",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "volkite_calivers",
+   "name": "Volkite Calivers",
+   "section": "armoury",
+   "subtype": "Volkite Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/volkite_calivers_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "15\"",
+     "strength": "5",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "volkite_culverin",
+   "name": "Volkite Culverin",
+   "section": "armoury",
+   "subtype": "Volkite Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/volkite_culverin_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "30\"",
+     "strength": "6",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plasma_pistol",
+   "name": "Plasma Pistol",
+   "section": "armoury",
+   "subtype": "Plasma Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/plasma_pistol_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "12\"",
+     "strength": "7",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plasma_gun",
+   "name": "Plasma Gun",
+   "section": "armoury",
+   "subtype": "Plasma Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/plasma_gun_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "7",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plasma_blaster",
+   "name": "Plasma Blaster",
+   "section": "armoury",
+   "subtype": "Plasma Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/plasma_blaster_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "24\"",
+     "strength": "7",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plasma_cannon",
+   "name": "Plasma Cannon",
+   "section": "armoury",
+   "subtype": "Plasma Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/plasma_cannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "36\"",
+     "strength": "7",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quad_launcher",
+   "name": "Quad Launcher",
+   "section": "armoury",
+   "subtype": "Artillery Weapons",
+   "page": 16,
+   "url": "https://longwarindex.app/weapons/quad_launcher/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "36\"",
+     "strength": "5",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/barrage",
+       "name": "Barrage",
+       "param": "3",
+       "url": "https://longwarindex.app/special_rules/barrage/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "demolisher_cannon",
+   "name": "Demolisher Cannon",
+   "section": "armoury",
+   "subtype": "Artillery Weapons",
+   "page": 16,
+   "url": "https://longwarindex.app/weapons/demolisher_cannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "36\"",
+     "strength": "10",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/ordnance",
+       "name": "Ordnance",
+       "url": "https://longwarindex.app/special_rules/ordnance/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lightning_claws",
+   "name": "Lightning Claws",
+   "section": "armoury",
+   "subtype": "Power Weapons",
+   "page": 16,
+   "url": "https://longwarindex.app/weapons/lightning_claws_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "power_sword",
+   "name": "Power Sword",
+   "section": "armoury",
+   "subtype": "Power Weapons",
+   "page": 16,
+   "url": "https://longwarindex.app/weapons/power_sword_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "power_axe",
+   "name": "Power Axe",
+   "section": "armoury",
+   "subtype": "Power Weapons",
+   "page": 16,
+   "url": "https://longwarindex.app/weapons/power_axe_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "power_maul",
+   "name": "Power Maul",
+   "section": "armoury",
+   "subtype": "Power Weapons",
+   "page": 16,
+   "url": "https://longwarindex.app/weapons/power_maul_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "power_lance",
+   "name": "Power Lance",
+   "section": "armoury",
+   "subtype": "Power Weapons",
+   "page": 16,
+   "url": "https://longwarindex.app/weapons/power_lance_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "power_fist",
+   "name": "Power Fist",
+   "section": "armoury",
+   "subtype": "Power Weapons",
+   "page": 16,
+   "url": "https://longwarindex.app/weapons/power_fist_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "thunder_hammer",
+   "name": "Thunder Hammer",
+   "section": "armoury",
+   "subtype": "Power Weapons",
+   "page": 16,
+   "url": "https://longwarindex.app/weapons/thunder_hammer_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "power_scourge",
+   "name": "Power Scourge",
+   "section": "armoury",
+   "subtype": "Power Weapons",
+   "page": 16,
+   "url": "https://longwarindex.app/weapons/power_scourge/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "3",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "headsmen_axe",
+   "name": "Headsmen Axe",
+   "section": "armoury",
+   "subtype": "Power Weapons",
+   "page": 16,
+   "url": "https://longwarindex.app/weapons/headsmen_axe/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/two_handed",
+       "name": "Two-Handed",
+       "url": "https://longwarindex.app/special_rules/two_handed/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "close_combat_weapon",
+   "name": "Close Combat Weapon",
+   "section": "armoury",
+   "subtype": "General Melee Weapons",
+   "page": 17,
+   "url": "https://longwarindex.app/weapons/close_combat_weapon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "-",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "marine_crew_weapons",
+   "name": "Marine Crew Weapons",
+   "section": "armoury",
+   "subtype": "General Melee Weapons",
+   "page": 17,
+   "url": "https://longwarindex.app/weapons/marine_crew_weapons_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "4",
+     "ap": "-",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "dreadnought_close_combat_weapon",
+   "name": "Dreadnought Close Combat Weapon",
+   "section": "armoury",
+   "subtype": "General Melee Weapons",
+   "page": 17,
+   "url": "https://longwarindex.app/weapons/dreadnought_close_combat_weapon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "force_sword",
+   "name": "Force Sword",
+   "section": "armoury",
+   "subtype": "Force Weapons",
+   "page": 17,
+   "url": "https://longwarindex.app/weapons/force_sword_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/force",
+       "name": "Force",
+       "url": "https://longwarindex.app/special_rules/force/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "force_axe",
+   "name": "Force Axe",
+   "section": "armoury",
+   "subtype": "Force Weapons",
+   "page": 17,
+   "url": "https://longwarindex.app/weapons/force_axe_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/force",
+       "name": "Force",
+       "url": "https://longwarindex.app/special_rules/force/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "force_stave",
+   "name": "Force Stave",
+   "section": "armoury",
+   "subtype": "Force Weapons",
+   "page": 17,
+   "url": "https://longwarindex.app/weapons/force_stave_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/force",
+       "name": "Force",
+       "url": "https://longwarindex.app/special_rules/force/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chainsword",
+   "name": "Chainsword",
+   "section": "armoury",
+   "subtype": "Chain Weapons",
+   "page": 17,
+   "url": "https://longwarindex.app/weapons/chainsword_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chainfist",
+   "name": "Chainfist",
+   "section": "armoury",
+   "subtype": "Chain Weapons",
+   "page": 17,
+   "url": "https://longwarindex.app/weapons/chainfist_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chain_glaive",
+   "name": "Chain Glaive",
+   "section": "armoury",
+   "subtype": "Chain Weapons",
+   "page": 17,
+   "url": "https://longwarindex.app/weapons/chain_glaive/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "frag_grenades",
+   "name": "Frag Grenades",
+   "section": "armoury",
+   "subtype": "Grenade Weapons",
+   "page": 18,
+   "url": "https://longwarindex.app/weapons/frag_grenades_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Grenade 1",
+     "range": "12\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "krak_grenade",
+   "name": "Krak Grenade",
+   "section": "armoury",
+   "subtype": "Grenade Weapons",
+   "page": 18,
+   "url": "https://longwarindex.app/weapons/krak_grenade_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Grenade 1",
+     "range": "12\"",
+     "strength": "6",
+     "ap": "3",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "havoc_launcher",
+   "name": "Havoc Launcher",
+   "section": "armoury",
+   "subtype": "Grenade Weapons",
+   "page": 18,
+   "url": "https://longwarindex.app/weapons/havoc_launcher_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "24\"",
+     "strength": "5",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "astartes_shotgun",
+   "name": "Astartes Shotgun",
+   "section": "armoury",
+   "subtype": "Kinetic Weapons",
+   "page": 18,
+   "url": "https://longwarindex.app/weapons/astartes_shotgun_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "18\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sniper_rifle",
+   "name": "Sniper Rifle",
+   "section": "armoury",
+   "subtype": "Kinetic Weapons",
+   "page": 18,
+   "url": "https://longwarindex.app/weapons/sniper_rifle_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "battle_cannon",
+   "name": "Battle Cannon",
+   "section": "armoury",
+   "subtype": "Kinetic Weapons",
+   "page": 18,
+   "url": "https://longwarindex.app/weapons/battle_cannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "72\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "servo_arm",
+   "name": "Servo Arm",
+   "section": "armoury",
+   "subtype": "Exotic Melee Weapons",
+   "page": 18,
+   "url": "https://longwarindex.app/weapons/servo_arm_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/cumbersome",
+       "name": "Cumbersome",
+       "url": "https://longwarindex.app/special_rules/cumbersome/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "conversion_beamer",
+   "name": "Conversion Beamer",
+   "section": "armoury",
+   "subtype": "Exotic Melee Weapons",
+   "page": 18,
+   "url": "https://longwarindex.app/weapons/conversion_beamer_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "8",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "codex/chaos_space_marines/special_rules/conversion",
+       "name": "Conversion",
+       "url": "https://longwarindex.app/special_rules/conversion_chaos_space_marines/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "combi_flamer",
+   "name": "Combi Flamer",
+   "section": "armoury",
+   "subtype": "Combi Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/combi_flamer_chaos_space_marines/",
+   "profiles": [
+    {
+     "name": "Combi Flamer (Boltgun)",
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/combi",
+       "name": "Combi",
+       "url": "https://longwarindex.app/special_rules/combi/"
+      }
+     ]
+    },
+    {
+     "name": "Combi Flamer (Flamer)",
+     "type": "Assault",
+     "range": "12\"",
+     "strength": "4",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      },
+      {
+       "rule": "special_rules/ammo",
+       "name": "Ammo",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/ammo/"
+      }
+     ],
+     "print_defect": "The book prints the type Assault without a shot count."
+    }
+   ]
+  },
+  {
+   "id": "combi_plasma",
+   "name": "Combi Plasma",
+   "section": "armoury",
+   "subtype": "Combi Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/combi_plasma_chaos_space_marines/",
+   "profiles": [
+    {
+     "name": "Combi Plasma (Boltgun)",
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/combi",
+       "name": "Combi",
+       "url": "https://longwarindex.app/special_rules/combi/"
+      }
+     ]
+    },
+    {
+     "name": "Combi Plasma (Plasma)",
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "7",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      },
+      {
+       "rule": "special_rules/ammo",
+       "name": "Ammo",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/ammo/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "combi_melta",
+   "name": "Combi Melta",
+   "section": "armoury",
+   "subtype": "Combi Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/combi_melta_chaos_space_marines/",
+   "profiles": [
+    {
+     "name": "Combi Melta (Boltgun)",
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/combi",
+       "name": "Combi",
+       "url": "https://longwarindex.app/special_rules/combi/"
+      }
+     ]
+    },
+    {
+     "name": "Combi Melta (Meltagun)",
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "8",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/melta",
+       "name": "Melta",
+       "url": "https://longwarindex.app/special_rules/melta/"
+      },
+      {
+       "rule": "special_rules/ammo",
+       "name": "Ammo",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/ammo/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "combi_grav",
+   "name": "Combi Grav",
+   "section": "armoury",
+   "subtype": "Combi Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/combi_grav_chaos_space_marines/",
+   "profiles": [
+    {
+     "name": "Combi Grav (Boltgun)",
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/combi",
+       "name": "Combi",
+       "url": "https://longwarindex.app/special_rules/combi/"
+      }
+     ]
+    },
+    {
+     "name": "Combi Grav (Grav)",
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "5",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      },
+      {
+       "rule": "special_rules/ammo",
+       "name": "Ammo",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/ammo/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "daemon_weapon_of_undivided",
+   "name": "Daemon Weapon of Undivided",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/daemon_weapon_of_undivided/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      },
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "daemon_weapon_of_tzeentch",
+   "name": "Daemon Weapon of Tzeentch",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/daemon_weapon_of_tzeentch/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      },
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "daemon_weapon_of_nurgle",
+   "name": "Daemon Weapon of Nurgle",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/daemon_weapon_of_nurgle/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "2+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      },
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "daemon_weapon_of_khorne",
+   "name": "Daemon Weapon of Khorne",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/daemon_weapon_of_khorne/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/parry",
+       "name": "Parry",
+       "url": "https://longwarindex.app/special_rules/parry/"
+      },
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "daemon_weapon_of_slaanesh",
+   "name": "Daemon Weapon of Slaanesh",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/daemon_weapon_of_slaanesh/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/swift_strike",
+       "name": "Swift Strike",
+       "url": "https://longwarindex.app/special_rules/swift_strike/"
+      },
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hideous_mutations",
+   "name": "Hideous Mutations",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/hideous_mutations_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rift_barb",
+   "name": "Rift Barb",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/rift_barb_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "18\"",
+     "strength": "User",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hell_flame",
+   "name": "Hell Flame",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/hell_flame_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "8\"",
+     "strength": "User",
+     "ap": "5",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "spine_volley",
+   "name": "Spine Volley",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/spine_volley_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Assault 4",
+     "range": "12\"",
+     "strength": "User",
+     "ap": "6",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "daemonic_great_weapon",
+   "name": "Daemonic Great Weapon",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/daemonic_great_weapon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/two_handed",
+       "name": "Two-Handed",
+       "url": "https://longwarindex.app/special_rules/two_handed/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hellfire",
+   "name": "Hellfire",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/hellfire_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "malefic_talons",
+   "name": "Malefic Talons",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/malefic_talons_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "warp_bolter",
+   "name": "Warp Bolter",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/warp_bolter_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "4",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "excruciator_cannons",
+   "name": "Excruciator Cannons",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/excruciator_cannons/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "6",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      },
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eviscerating_claws",
+   "name": "Eviscerating Claws",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/eviscerating_claws/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "iron_claws",
+   "name": "Iron Claws",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/weapons/iron_claws_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+4",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bolt_of_change",
+   "name": "Bolt of Change",
+   "section": "other",
+   "subtype": "Lore of Tzeentch Psychic Powers",
+   "page": 24,
+   "url": "https://longwarindex.app/powers/bolt_of_change_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "18\"",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plague_wind",
+   "name": "Plague Wind",
+   "section": "other",
+   "subtype": "Lore of Nurgle Psychic Powers",
+   "page": 22,
+   "url": "https://longwarindex.app/powers/plague_wind_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "18\"",
+     "strength": "1",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      },
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      },
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sensory_overload",
+   "name": "Sensory Overload",
+   "section": "other",
+   "subtype": "Lore of Slaanesh Psychic Powers",
+   "page": 23,
+   "url": "https://longwarindex.app/powers/sensory_overload_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Assault 4",
+     "range": "24\"",
+     "strength": "2",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/blind",
+       "name": "Blind",
+       "url": "https://longwarindex.app/special_rules/blind/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sonic_shockwave",
+   "name": "Sonic Shockwave",
+   "section": "other",
+   "subtype": "Lore of Slaanesh Psychic Powers",
+   "page": 23,
+   "url": "https://longwarindex.app/powers/sonic_shockwave_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Assault D6+2",
+     "range": "12\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/ignores_cover",
+       "name": "Ignores Cover",
+       "url": "https://longwarindex.app/special_rules/ignores_cover/"
+      },
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "accelerator_cannon",
+   "name": "Accelerator Cannon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 95,
+   "url": "https://longwarindex.app/wargear/accelerator_cannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "72\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      },
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aiolos_missile_launcher",
+   "name": "Aiolos Missile Launcher",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 84,
+   "url": "https://longwarindex.app/wargear/aiolos_missile_launcher_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "6",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/barrage",
+       "name": "Barrage",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/barrage/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "anvilus_autocannon_battery",
+   "name": "Anvilus Autocannon Battery",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 84,
+   "url": "https://longwarindex.app/wargear/anvilus_autocannon_battery_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 6",
+     "range": "36\"",
+     "strength": "7",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      },
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "arachnus_heavy_lascannon_battery",
+   "name": "Arachnus Heavy Lascannon Battery",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 84,
+   "url": "https://longwarindex.app/wargear/arachnus_heavy_lascannon_battery_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 4",
+     "range": "48\"",
+     "strength": "9",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "arcus_launchers",
+   "name": "Arcus Launchers",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 88,
+   "url": "https://longwarindex.app/wargear/arcus_launchers_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 2",
+     "range": "48\"",
+     "strength": "7",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/indirect_fire",
+       "name": "Indirect Fire",
+       "url": "https://longwarindex.app/special_rules/indirect_fire/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/barrage",
+       "name": "Barrage",
+       "param": "1",
+       "url": "https://longwarindex.app/special_rules/barrage/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "boreas_air_defence_missiles",
+   "name": "Boreas Air Defence Missiles",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 84,
+   "url": "https://longwarindex.app/wargear/boreas_air_defence_missiles_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "9",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/skyfire",
+       "name": "Skyfire",
+       "url": "https://longwarindex.app/special_rules/skyfire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cyclonic_melta_lance",
+   "name": "Cyclonic Melta Lance",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 91,
+   "url": "https://longwarindex.app/wargear/cyclonic_melta_lance_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "18\"",
+     "strength": "8",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/melta",
+       "name": "Melta",
+       "url": "https://longwarindex.app/special_rules/melta/"
+      },
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "drachnyen",
+   "name": "Drach'nyen",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 41,
+   "url": "https://longwarindex.app/wargear/drachnyen/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      },
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dreadhammer_siege_cannon",
+   "name": "Dreadhammer Siege Cannon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 97,
+   "url": "https://longwarindex.app/wargear/dreadhammer_siege_cannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "24\"",
+     "strength": "10",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/ordnance",
+       "name": "Ordnance",
+       "url": "https://longwarindex.app/special_rules/ordnance/"
+      },
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      },
+      {
+       "rule": "special_rules/macro",
+       "name": "Macro",
+       "url": "https://longwarindex.app/special_rules/macro/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fire_sweep",
+   "name": "Fire Sweep",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 59,
+   "url": "https://longwarindex.app/wargear/fire_sweep/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "Bombing Run",
+     "strength": "6",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/bombing_run",
+       "name": "Bombing Run",
+       "url": "https://longwarindex.app/special_rules/bombing_run/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "printed": "Large Blast",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/ignores_cover",
+       "name": "Ignores Cover",
+       "url": "https://longwarindex.app/special_rules/ignores_cover/"
+      },
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grav_flux_bombard",
+   "name": "Grav Flux Bombard",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 91,
+   "url": "https://longwarindex.app/wargear/grav_flux_bombard_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "24\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "graviton_charge_cannon",
+   "name": "Graviton Charge Cannon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 83,
+   "url": "https://longwarindex.app/wargear/graviton_charge_cannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "24\"",
+     "strength": "5",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/ordnance",
+       "name": "Ordnance",
+       "url": "https://longwarindex.app/special_rules/ordnance/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "heavy_bolter_array",
+   "name": "Heavy Bolter Array",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 78,
+   "url": "https://longwarindex.app/wargear/heavy_bolter_array/",
+   "profiles": [
+    {
+     "type": "Heavy 6",
+     "range": "36\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hellfire_plasma_carronade",
+   "name": "Hellfire Plasma Carronade",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 84,
+   "url": "https://longwarindex.app/wargear/hellfire_plasma_carronade_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 6",
+     "range": "36\"",
+     "strength": "7",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hellstrike_missile_battery",
+   "name": "Hellstrike Missile Battery",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 98,
+   "url": "https://longwarindex.app/wargear/hellstrike_missile_battery_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 4",
+     "range": "72\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "helspear",
+   "name": "Helspear",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 40,
+   "url": "https://longwarindex.app/wargear/helspear/",
+   "profiles": [
+    {
+     "name": "Helspear (Shooting)",
+     "type": "Assault 1",
+     "range": "24\"",
+     "strength": "7",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      }
+     ]
+    },
+    {
+     "name": "Helspear (Melee)",
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "herakles_pattern_autocannon",
+   "name": "Herakles Pattern Autocannon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 88,
+   "url": "https://longwarindex.app/wargear/herakles_pattern_autocannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 6",
+     "range": "48\"",
+     "strength": "7",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/skyfire",
+       "name": "Skyfire",
+       "url": "https://longwarindex.app/special_rules/skyfire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "heralds_talon",
+   "name": "Herald's Talon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 40,
+   "url": "https://longwarindex.app/wargear/heralds_talon/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "infernal_bombs",
+   "name": "Infernal Bombs",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 64,
+   "url": "https://longwarindex.app/wargear/infernal_bombs/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "Bombing Run",
+     "strength": "5",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/bombing_run",
+       "name": "Bombing Run",
+       "url": "https://longwarindex.app/special_rules/bombing_run/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kratos_battle_cannon",
+   "name": "Kratos Battle Cannon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 90,
+   "url": "https://longwarindex.app/wargear/kratos_battle_cannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "9",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "laser_volley_cannon",
+   "name": "Laser Volley Cannon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 87,
+   "url": "https://longwarindex.app/wargear/laser_volley_cannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 4",
+     "range": "36\"",
+     "strength": "9",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/ordnance",
+       "name": "Ordnance",
+       "url": "https://longwarindex.app/special_rules/ordnance/"
+      },
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      },
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "laspistol",
+   "name": "Laspistol",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 43,
+   "url": "https://longwarindex.app/wargear/laspistol/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "12\"",
+     "strength": "3",
+     "ap": "6",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "leviathan_siege_claw",
+   "name": "Leviathan Siege Claw",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 91,
+   "url": "https://longwarindex.app/wargear/leviathan_siege_claw_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "leviathan_siege_drill",
+   "name": "Leviathan Siege Drill",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 91,
+   "url": "https://longwarindex.app/wargear/leviathan_siege_drill_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_anvilus_stub_autocannon",
+   "name": "Linked Anvilus Stub Autocannon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 74,
+   "url": "https://longwarindex.app/wargear/linked_anvilus_stub_autocannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Assault 3",
+     "range": "24\"",
+     "strength": "7",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_avenger_mega_bolter",
+   "name": "Linked Avenger Mega Bolter",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 86,
+   "url": "https://longwarindex.app/wargear/linked_avenger_mega_bolter_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 6",
+     "range": "36\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_hellstrike_launcher",
+   "name": "Linked Hellstrike Launcher",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 66,
+   "url": "https://longwarindex.app/wargear/linked_hellstrike_launcher_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 2",
+     "range": "72\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_hellstrike_launcher_fire_raptor_gunship",
+   "name": "Linked Hellstrike Launcher",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 86,
+   "url": "https://longwarindex.app/wargear/linked_hellstrike_launcher_fire_raptor_gunship_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 2",
+     "range": "72\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_volcano_cannon",
+   "name": "Linked Volcano Cannon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 94,
+   "url": "https://longwarindex.app/wargear/linked_volcano_cannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "120\"",
+     "strength": "18",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/ordnance",
+       "name": "Ordnance",
+       "url": "https://longwarindex.app/special_rules/ordnance/"
+      },
+      {
+       "rule": "special_rules/macro",
+       "name": "Macro",
+       "url": "https://longwarindex.app/special_rules/macro/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_volkite_caliver",
+   "name": "Linked Volkite Caliver",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 91,
+   "url": "https://longwarindex.app/wargear/linked_volkite_caliver_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "30\"",
+     "strength": "5",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "melta_blast_gun",
+   "name": "Melta Blast-Gun",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 90,
+   "url": "https://longwarindex.app/wargear/melta_blast_gun_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "36\"",
+     "strength": "8",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/melta",
+       "name": "Melta",
+       "url": "https://longwarindex.app/special_rules/melta/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "melta_bomb",
+   "name": "Melta Bomb",
+   "section": "other",
+   "subtype": null,
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/melta_bomb_chaos_space_marines/",
+   "print_defect": "The book gives this attack in the text of the wargear Melta Bomb. It prints no weapon profile.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "8",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/melta",
+       "name": "Melta",
+       "url": "https://longwarindex.app/special_rules/melta/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "melta_cannon",
+   "name": "Melta Cannon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 81,
+   "url": "https://longwarindex.app/wargear/melta_cannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "24\"",
+     "strength": "8",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/melta",
+       "name": "Melta",
+       "url": "https://longwarindex.app/special_rules/melta/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "morbus_bombard",
+   "name": "Morbus Bombard",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 83,
+   "url": "https://longwarindex.app/wargear/morbus_bombard_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "12-36\"",
+     "strength": "10",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/indirect_fire",
+       "name": "Indirect Fire",
+       "url": "https://longwarindex.app/special_rules/indirect_fire/"
+      },
+      {
+       "rule": "special_rules/ordnance",
+       "name": "Ordnance",
+       "url": "https://longwarindex.app/special_rules/ordnance/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "neutron_blaster",
+   "name": "Neutron Blaster",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 74,
+   "url": "https://longwarindex.app/wargear/neutron_blaster_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "24\"",
+     "strength": "10",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "neutron_pulse_array",
+   "name": "Neutron Pulse Array",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 93,
+   "url": "https://longwarindex.app/wargear/neutron_pulse_array_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 2",
+     "range": "48\"",
+     "strength": "14",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/macro",
+       "name": "Macro",
+       "url": "https://longwarindex.app/special_rules/macro/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "omera_plasma_array",
+   "name": "Omera Plasma Array",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 88,
+   "url": "https://longwarindex.app/wargear/omera_plasma_array_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 2",
+     "range": "36\"",
+     "strength": "7",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "orbital_bombardment",
+   "name": "Orbital Bombardment",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 43,
+   "url": "https://longwarindex.app/wargear/orbital_bombardment/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "72\"",
+     "strength": "12",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/ammo",
+       "name": "Ammo",
+       "param": "1",
+       "url": "https://longwarindex.app/special_rules/ammo/"
+      },
+      {
+       "rule": "special_rules/ordnance",
+       "name": "Ordnance",
+       "url": "https://longwarindex.app/special_rules/ordnance/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "printed": "Large Blast",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "punisher_rotary_cannon",
+   "name": "Punisher Rotary Cannon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 88,
+   "url": "https://longwarindex.app/wargear/punisher_rotary_cannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 10",
+     "range": "36\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quad_heavy_bolter",
+   "name": "Quad Heavy Bolter",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 86,
+   "url": "https://longwarindex.app/wargear/quad_heavy_bolter_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 6",
+     "range": "36\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rod_of_torment",
+   "name": "Rod of Torment",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 44,
+   "url": "https://longwarindex.app/wargear/rod_of_torment/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "param": "Infantry",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rotary_missile_launcher",
+   "name": "Rotary Missile Launcher",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 65,
+   "url": "https://longwarindex.app/wargear/rotary_missile_launcher/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "60\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/ignores_cover",
+       "name": "Ignores Cover",
+       "url": "https://longwarindex.app/special_rules/ignores_cover/"
+      },
+      {
+       "rule": "special_rules/skyfire",
+       "name": "Skyfire",
+       "url": "https://longwarindex.app/special_rules/skyfire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sabre_missiles",
+   "name": "Sabre Missiles",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 74,
+   "url": "https://longwarindex.app/wargear/sabre_missiles_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "36\"",
+     "strength": "7",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/ammo",
+       "name": "Ammo",
+       "param": "4",
+       "url": "https://longwarindex.app/special_rules/ammo/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sicaran_laser_cannon",
+   "name": "Sicaran Laser Cannon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 88,
+   "url": "https://longwarindex.app/wargear/sicaran_laser_cannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "10",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "siege_melta_array",
+   "name": "Siege Melta Array",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 96,
+   "url": "https://longwarindex.app/wargear/siege_melta_array_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "12\"",
+     "strength": "10",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/melta",
+       "name": "Melta",
+       "url": "https://longwarindex.app/special_rules/melta/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "skyreaper_battery",
+   "name": "Skyreaper Battery",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 96,
+   "url": "https://longwarindex.app/wargear/skyreaper_battery_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 10",
+     "range": "36\"",
+     "strength": "6",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/skyfire",
+       "name": "Skyfire",
+       "url": "https://longwarindex.app/special_rules/skyfire/"
+      },
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spicula_rocket_system",
+   "name": "Spicula Rocket System",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 83,
+   "url": "https://longwarindex.app/wargear/spicula_rocket_system_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "12-72\"",
+     "strength": "7",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/ordnance",
+       "name": "Ordnance",
+       "url": "https://longwarindex.app/special_rules/ordnance/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/barrage",
+       "name": "Barrage",
+       "param": "D6",
+       "url": "https://longwarindex.app/special_rules/barrage/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "storm_cannon",
+   "name": "Storm Cannon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 91,
+   "url": "https://longwarindex.app/wargear/storm_cannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 6",
+     "range": "36\"",
+     "strength": "7",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "talon_of_horus",
+   "name": "Talon of Horus",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 41,
+   "url": "https://longwarindex.app/wargear/talon_of_horus/",
+   "profiles": [
+    {
+     "name": "Talon of Horus (Shooting)",
+     "type": "Pistol 2",
+     "range": "24\"",
+     "strength": "5",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    },
+    {
+     "name": "Talon of Horus (Melee)",
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_black_mace",
+   "name": "The Black Mace",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/the_black_mace/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model may exchange their Power Maul or Daemonic Great Weapon for this Relic for 10pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+3",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_blade_of_the_relentless",
+   "name": "The Blade of the Relentless",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 11,
+   "url": "https://longwarindex.app/wargear/the_blade_of_the_relentless/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model may exchange their Power Sword for this Relic for 10pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      },
+      {
+       "rule": "special_rules/parry",
+       "name": "Parry",
+       "url": "https://longwarindex.app/special_rules/parry/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_warps_malice",
+   "name": "The Warp's Malice",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 11,
+   "url": "https://longwarindex.app/wargear/the_warps_malice/",
+   "print_defect": "The heading prints +5pts and the text prints 10pts. This data gives the price of the heading.",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model may exchange their Bolt Pistol for this Relic for 10pts.",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "12\"",
+     "strength": "6",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "thunderhawk_cannon",
+   "name": "Thunderhawk Cannon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 98,
+   "url": "https://longwarindex.app/wargear/thunderhawk_cannon_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "8",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/ordnance",
+       "name": "Ordnance",
+       "url": "https://longwarindex.app/special_rules/ordnance/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "thunderhawk_cluster_bombs",
+   "name": "Thunderhawk Cluster Bombs",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 98,
+   "url": "https://longwarindex.app/wargear/thunderhawk_cluster_bombs_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "Bombing Run",
+     "strength": "7",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/bombing_run",
+       "name": "Bombing Run",
+       "url": "https://longwarindex.app/special_rules/bombing_run/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "turbo_laser_destructor",
+   "name": "Turbo Laser Destructor",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 98,
+   "url": "https://longwarindex.app/wargear/turbo_laser_destructor_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 2",
+     "range": "72\"",
+     "strength": "16",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      },
+      {
+       "rule": "special_rules/ordnance",
+       "name": "Ordnance",
+       "url": "https://longwarindex.app/special_rules/ordnance/"
+      },
+      {
+       "rule": "special_rules/macro",
+       "name": "Macro",
+       "url": "https://longwarindex.app/special_rules/macro/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tyrants_claw",
+   "name": "Tyrant's Claw",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 43,
+   "url": "https://longwarindex.app/wargear/tyrants_claw/",
+   "profiles": [
+    {
+     "name": "Tyrant's Claw (Shooting)",
+     "type": "Assault 2",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      }
+     ]
+    },
+    {
+     "name": "Tyrant's Claw (Melee)",
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vengeance_launcher",
+   "name": "Vengeance Launcher",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 66,
+   "url": "https://longwarindex.app/wargear/vengeance_launcher_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "6",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "printed": "Large Blast",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/barrage",
+       "name": "Barrage",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/barrage/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "volkite_cardenelle",
+   "name": "Volkite Cardenelle",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 90,
+   "url": "https://longwarindex.app/wargear/volkite_cardenelle_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 8",
+     "range": "45\"",
+     "strength": "7",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "volkite_falconet_battery",
+   "name": "Volkite Falconet Battery",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 84,
+   "url": "https://longwarindex.app/wargear/volkite_falconet_battery_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 6",
+     "range": "36\"",
+     "strength": "7",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "volkite_saker",
+   "name": "Volkite Saker",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 74,
+   "url": "https://longwarindex.app/wargear/volkite_saker_chaos_space_marines/",
+   "profiles": [
+    {
+     "type": "Heavy 6",
+     "range": "36\"",
+     "strength": "6",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "xyclos_needler",
+   "name": "Xyclos Needler",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 44,
+   "url": "https://longwarindex.app/wargear/xyclos_needler/",
+   "profiles": [
+    {
+     "type": "Pistol 3",
+     "range": "12\"",
+     "strength": "2",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "2+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

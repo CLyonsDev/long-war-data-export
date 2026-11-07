@@ -1,0 +1,911 @@
+{
+ "data_version": "9e3f0e0b8f8961f5",
+ "format": 1,
+ "faction": "tyranids",
+ "special_rules": [
+  {
+   "id": "codex/tyranids/adaptive_physiology/adaptive_physiology",
+   "name": "Adaptive Physiology",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/codex/tyranids/adaptive_physiology/",
+   "text": "During army building when mustering your force, you may pick 1 of the below Adaptations. All units with the Adaptive Physiology Special rule gain the benefit of that Adaptation for the rest of the game:"
+  },
+  {
+   "id": "codex/tyranids/special_rules/brood_cluster",
+   "name": "Brood Cluster",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/brood_cluster/",
+   "text": "During deployment, each model in a unit with this special rule is treated as an individual unit for all purposes."
+  },
+  {
+   "id": "codex/tyranids/special_rules/synapse",
+   "name": "Synapse",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/synapse/",
+   "references": [
+    "universal_special_rules/stubborn",
+    "universal_special_rules/frenzy",
+    "universal_special_rules/deny_the_witch",
+    "universal_special_rules/adamantium_will"
+   ],
+   "text": "This special rule confers the following effects:\n- Friendly Tyranid units within 12\" of a Tyranid unit with this special rule have the Stubborn special rule and change their Leadership (LD) Characteristic to 10 unless higher.\n- Friendly Tyranid Units within Synapse automatically Rally at the start of their movement phase.\n- Tyranid Units that are not within Synapse range of a model with this special rule have the Frenzy Special Rule instead and use their base Leadership (LD) Characteristic.\n- The unit with this special rule gains the Synapse keyword.\n- Tyranid units with this rule gain the benefits of the Deny the Witch and Adamantium Will special rules.",
+   "effects": {
+    "keywords": [
+     "Synapse"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/deny_the_witch",
+      "name": "Deny the Witch",
+      "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+     },
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/tyranids/special_rules/tail_weapon",
+   "name": "Tail Weapon",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/tail_weapon/",
+   "text": "A weapon with this special rule makes 1 Attack at initiative step 0 of the Combat Phase before resolving combat and determining who won combat. Wounds inflicted by this weapon count for combat resolution."
+  },
+  {
+   "id": "codex/tyranids/special_rules/the_swarm_descends",
+   "name": "The Swarm Descends",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/the_swarm_descends/",
+   "text": "Units instead of setting to Overwatch, may set to Counter charge. At the end of your opponent's Charge Phase, after all charges have been declared and resolved. Any unit that set to Counter charge may attempt to charge as if it were your charge phase but with -2 to the Charge roll."
+  },
+  {
+   "id": "codex/tyranids/allegiances/behemoth",
+   "name": "Allegiance: Behemoth",
+   "kind": "allegiance",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/behemoth/",
+   "references": [
+    "universal_special_rules/rage"
+   ],
+   "text": "All Tyranid units change their [Hive Fleet] keyword to Behemoth. All units with the Behemoth Keyword gain the Allegiance: Behemoth special rule. The Allegiance: Behemoth special rule consists of the following rules:\n\n- Hyper Aggression: Behemoth units gain the Rage special rule.\n- Overwhelming Ferocity: A Behemoth Army must have at least 1 Heavy Support choice for every 1000pts.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/rage",
+      "name": "Rage",
+      "url": "https://longwarindex.app/universal_special_rules/rage/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/tyranids/allegiances/gorgon",
+   "name": "Allegiance: Gorgon",
+   "kind": "allegiance",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/gorgon/",
+   "references": [
+    "codex/tyranids/adaptive_physiology/adaptive_physiology"
+   ],
+   "text": "All Tyranid units change their [Hive Fleet] keyword to Gorgon. All units with the Gorgon Keyword gain the Allegiance: Gorgon special rule. The Allegiance: Gorgon special rule consists of the following rules:\n\n- Hyper Adaptive Biology: Once per game, at the start of the Battle Round, you may change which Adaptive Physiology your army benefits from (see army special rules).\n- Sustainable Consumption: If a Gorgon army does not slay more units than the opponent by the end of the game, you lose 1VP."
+  },
+  {
+   "id": "codex/tyranids/allegiances/hydra",
+   "name": "Allegiance: Hydra",
+   "kind": "allegiance",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/hydra/",
+   "text": "All Tyranid units change their [Hive Fleet] keyword to Hydra. All units with the Hydra Keyword gain the Allegiance: Hydra special rule. The Allegiance: Hydra special rule consists of the following rules:\n\n- The Swarm: At the start of combat, at initiative step 10, if a Hydra Hormagaunt Brood, Ripper Swarm, or Termagant Brood unit has more models in its unit than enemy models in all engaged units, they gain +1 to their Weapon Skill (WS) characteristic. Ripper Swarms models count as 4 models for this special rule.\n- The Many Headed Beast: A Hydra army must have 3 Troops choices for every 1000pts."
+  },
+  {
+   "id": "codex/tyranids/allegiances/jormangandr",
+   "name": "Allegiance: Jormangandr",
+   "kind": "allegiance",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/jormangandr/",
+   "references": [
+    "universal_special_rules/deep_strike",
+    "universal_special_rules/sudden_strike"
+   ],
+   "text": "All Tyranid units change their [Hive Fleet] keyword to Jourmangandr. All units with the Jourmangandr Keyword gain the Allegiance: Jourmangandr special rule. The Allegiance: Jourmangandr special rule consists of the following rules:\n\n- Burrow Ambush: Jourmangandr Monster & Infantry units that are not equipped with Wings gain the Deep Strike special rule. The turn a Jourmangandr unit without Wings arrives from Deep Strike, it gains the Sudden Strike special rule.\n- The Enemy Below: A Jourmangandr army must have more Elite choices than Heavy Support choices."
+  },
+  {
+   "id": "codex/tyranids/allegiances/kraken",
+   "name": "Allegiance: Kraken",
+   "kind": "allegiance",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/kraken/",
+   "references": [
+    "universal_special_rules/crusader"
+   ],
+   "text": "All Tyranid units change their [Hive Fleet] keyword to Kraken. All units with the Kraken Keyword gain the Allegiance: Kraken special rule. The Allegiance: Kraken special rule consists of the following rules:\n\n- Questing Tendrils: Kraken units gain the Crusader special rule.\n- Speedy Consumption: A Kraken army must include more Fast Attack Choices than Heavy Support choices.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/crusader",
+      "name": "Crusader",
+      "url": "https://longwarindex.app/universal_special_rules/crusader/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/tyranids/allegiances/kronos",
+   "name": "Allegiance: Kronos",
+   "kind": "allegiance",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/kronos/",
+   "references": [
+    "universal_special_rules/adamantium_will",
+    "universal_special_rules/indomitable_spirit",
+    "universal_special_rules/psyker"
+   ],
+   "text": "All Tyranid units change their [Hive Fleet] keyword to Kronos. All units with the Kronos Keyword gain the Allegiance: Kronos special rule. The Allegiance: Kronos special rule consists of the following rules:\n\n- The Deepest Shadow: Kronos units gain the Adamantium Will and Indomitable Spirit (4+) special rules.\n- The Shadow Hunt: Kronos units must attempt to charge any units with the Psyker (x) rule or units with models with the Psyker (x) rule in them if they are eligible to charge in the charge Phase unless another unit is closer.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     },
+     {
+      "rule": "universal_special_rules/indomitable_spirit",
+      "name": "Indomitable Spirit",
+      "param": "4+",
+      "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/tyranids/allegiances/leviathan",
+   "name": "Allegiance: Leviathan",
+   "kind": "allegiance",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/leviathan/",
+   "references": [
+    "codex/tyranids/special_rules/synapse",
+    "universal_special_rules/preferred_enemy",
+    "special_rules/pinning"
+   ],
+   "text": "All Tyranid units change their [Hive Fleet] keyword to Leviathan. All units with the Leviathan Keyword gain the Allegiance: Leviathan special rule. The Allegiance: Leviathan special rule consists of the following rules:\n\n- Synaptic Focus: Leviathan units in Synapse gain the Preferred Enemy special rule.\n- Synaptic Chain: If a Leviathan unit with the Synapse special rule is slain, and removed from play, any Leviathan unit within 6\" of the slain unit not currently effected by Synapse must immediately make a Pinning test."
+  },
+  {
+   "id": "codex/tyranids/special_rules/spine_launcher",
+   "name": "Spine Launcher",
+   "kind": "weapon",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/spine_launcher/",
+   "text": "The number of attacks this weapon has under X is equal to the Attack (A) characteristic of the equipped model.",
+   "effects": {
+    "weapon_values_from_bearer": {
+     "attacks": "A"
+    }
+   }
+  },
+  {
+   "id": "codex/tyranids/special_rules/brood_guard",
+   "name": "Brood Guard",
+   "kind": "datasheet",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/brood_guard/",
+   "text": "This unit may join units of Tyrant Guard even though they do not have the Monster type. If this unit is equipped with Wings, it may not join Tyrant Guard units but may join units of Gargoyles instead."
+  },
+  {
+   "id": "codex/tyranids/special_rules/psychic_barrier",
+   "name": "Psychic Barrier",
+   "kind": "datasheet",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/psychic_barrier/",
+   "text": "This unit has a 4+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "codex/tyranids/special_rules/swarmlord",
+   "name": "Swarmlord",
+   "kind": "datasheet",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/swarmlord/",
+   "references": [
+    "universal_special_rules/psyker",
+    "universal_special_rules/battle_hardened"
+   ],
+   "text": "A Hive Tyrant with this upgrade becomes the Swarmlord. The unit increases its Psyker (x) special rule by 1 and exchanges its 2 Monstrous Scything Talons for 2 Bone Sabres. The unit gains the Battle-Hardened special rule and +1 to its Wounds (W) and Attacks (A) characteristics. The Swarmlord gains the Unique Keyword (cannot take Relics or Warlord Traits).",
+   "effects": {
+    "keywords": [
+     "Unique"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/",
+      "mode": "raise_or_grant",
+      "by": 1
+     },
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "W",
+      "delta": 1
+     },
+     {
+      "characteristic": "A",
+      "delta": 1
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "monstrous_scything_talons"
+       },
+       {
+        "kind": "weapon",
+        "id": "monstrous_scything_talons"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "bone_sabres"
+       },
+       {
+        "kind": "weapon",
+        "id": "bone_sabres"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/tyranids/special_rules/brood_telepathy",
+   "name": "Brood Telepathy",
+   "kind": "datasheet",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/brood_telepathy/",
+   "text": "This unit can only join units of Genestealer Broods."
+  },
+  {
+   "id": "codex/tyranids/special_rules/lightning_fast_reaction",
+   "name": "Lightning-Fast Reaction",
+   "kind": "datasheet",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/lightning_fast_reaction_tyranids/",
+   "text": "This unit has a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "codex/tyranids/special_rules/brood_progenitor",
+   "name": "Brood Progenitor",
+   "kind": "datasheet",
+   "page": 22,
+   "url": "https://longwarindex.app/special_rules/brood_progenitor/",
+   "text": "This unit may join units of Termagants even though it does not have the Infantry type."
+  },
+  {
+   "id": "codex/tyranids/special_rules/spawn_termagants",
+   "name": "Spawn Termagants",
+   "kind": "datasheet",
+   "page": 22,
+   "url": "https://longwarindex.app/special_rules/spawn_termagants/",
+   "text": "At the start of each of your Movement Phases, an attached unit of Termagants regains D3+1 models. Instead of setting to Overwatch, the Tervigon may set to spawn instead. At the end of your opponent's next charge phase, you may select 1 Termagant unit within 12\" or attached to this unit. The target unit regains an additional D3+1 Termagant models."
+  },
+  {
+   "id": "codex/tyranids/special_rules/hyper_warp_field",
+   "name": "Hyper Warp Field",
+   "kind": "datasheet",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/hyper_warp_field_tyranids/",
+   "text": "This unit has a 3+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "3+"
+   }
+  },
+  {
+   "id": "codex/tyranids/special_rules/synapse_conduit",
+   "name": "Synapse Conduit",
+   "kind": "datasheet",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/synapse_conduit/",
+   "references": [
+    "codex/tyranids/special_rules/synapse"
+   ],
+   "text": "This unit has a Synapse range of 18\" instead of 12\"."
+  },
+  {
+   "id": "codex/tyranids/special_rules/synapse_nodes",
+   "name": "Synapse Nodes",
+   "kind": "datasheet",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/synapse_nodes/",
+   "text": "Each time this unit suffers a Perils of the Warp, you may remove a Neuroloid model from this unit instead. Neuroloids cannot cast Psychic Powers. The Nueroloids do not count for majority Weapon Skill (WS) and Toughness (T) characteristic for this unit."
+  },
+  {
+   "id": "codex/tyranids/special_rules/bio_titan_leader",
+   "name": "Bio Titan Leader",
+   "kind": "datasheet",
+   "page": 26,
+   "url": "https://longwarindex.app/special_rules/bio_titan_leader/",
+   "text": "Friendly Tyranid Behemoth Monsters within 12\" of this unit can re-roll hit rolls of a 1."
+  },
+  {
+   "id": "codex/tyranids/special_rules/horrific_knight",
+   "name": "Horrific Knight",
+   "kind": "warlord_trait",
+   "page": 26,
+   "url": "https://longwarindex.app/special_rules/horrific_knight/",
+   "references": [
+    "codex/tyranids/special_rules/synapse"
+   ],
+   "text": "If this unit is in your army and is your Warlord, its Synapse special rule affects the entire battlefield."
+  },
+  {
+   "id": "codex/tyranids/special_rules/psychic_absorption",
+   "name": "Psychic Absorption",
+   "kind": "warlord_trait",
+   "page": 27,
+   "url": "https://longwarindex.app/special_rules/psychic_absorption/",
+   "references": [
+    "codex/tyranids/special_rules/spirit_leech",
+    "special_rules/psychic_weapon"
+   ],
+   "text": "If this unit is your Warlord, each time this unit kills any enemy models with a Psychic Power, it heals 1 wound. This stacks with Spirit Leech. If this unit kills a Psyker, it learns all Psychic Powers and Psychic Weapons known by the enemy Psyker."
+  },
+  {
+   "id": "codex/tyranids/special_rules/spirit_leech",
+   "name": "Spirit Leech",
+   "kind": "datasheet",
+   "page": 27,
+   "url": "https://longwarindex.app/special_rules/spirit_leech/",
+   "references": [
+    "special_rules/psychic_weapon"
+   ],
+   "text": "If this unit slays an enemy model with a psychic power or Psychic weapon, select a single friendly Tyranid model within 18\" to heal 1 wound. This ability can only be used to heal 1 wound per Phase."
+  },
+  {
+   "id": "codex/tyranids/special_rules/warp_siphon",
+   "name": "Warp Siphon",
+   "kind": "datasheet",
+   "page": 27,
+   "url": "https://longwarindex.app/special_rules/warp_siphon/",
+   "references": [
+    "universal_special_rules/psyker",
+    "special_rules/psychic_weapon"
+   ],
+   "text": "This unit can select 1 friendly Tyranid unit within 18\" at the start of the Shooting Phase that has the Psyker (x) special rule. The target unit may not cast any Psychic Powers or Psychic weapons this Shooting Phase. This unit gains +6\" to the range of its Warp Blast Psychic Weapon and +2 to its Warp Blasts Strength Characteristic."
+  },
+  {
+   "id": "codex/tyranids/special_rules/alpha_creature",
+   "name": "Alpha Creature",
+   "kind": "datasheet",
+   "page": 28,
+   "url": "https://longwarindex.app/special_rules/alpha_creature/",
+   "text": "Even if this unit is not your Warlord, it may take 1 Warlord trait from the Warlord traits section. This unit has no set Warlord trait if it is your Warlord."
+  },
+  {
+   "id": "codex/tyranids/special_rules/the_parasite",
+   "name": "The Parasite",
+   "kind": "datasheet",
+   "page": 29,
+   "url": "https://longwarindex.app/special_rules/the_parasite/",
+   "text": "Each time this unit attacks in the combat phase, after resolving all of this unit's attacks, if it inflicted at least 1 wound, you may summon 1 unit of Ripper Swarms within 3\" of this unit. In addition, once per game, at the start of your movement phase, this unit may summon 1 unit of Ripper Swarms within 3\" of it and more than 3\" away from any enemy models."
+  },
+  {
+   "id": "codex/tyranids/special_rules/chameleonic",
+   "name": "Chameleonic",
+   "kind": "datasheet",
+   "page": 30,
+   "url": "https://longwarindex.app/special_rules/chameleonic_tyranids/",
+   "text": "Enemy units may not target a model with this special rule in the Shooting Phase unless it is closest enemy unit."
+  },
+  {
+   "id": "codex/tyranids/special_rules/invisible_stalker",
+   "name": "Invisible Stalker",
+   "kind": "warlord_trait",
+   "page": 30,
+   "url": "https://longwarindex.app/special_rules/invisible_stalker/",
+   "text": "If this unit is your Warlord, all attacks made against the Deathleaper are made at Ballistic Skill (BS) and Weapon Skill (WS) 1."
+  },
+  {
+   "id": "codex/tyranids/special_rules/pheromone_trail",
+   "name": "Pheromone Trail",
+   "kind": "datasheet",
+   "page": 30,
+   "url": "https://longwarindex.app/special_rules/pheromone_trail/",
+   "references": [
+    "universal_special_rules/outflank"
+   ],
+   "text": "While this unit is on the board, any Tyranid units placed in reserves via Outflank have +1 to the roll to determine if a unit will arrive."
+  },
+  {
+   "id": "codex/tyranids/special_rules/swallow_whole",
+   "name": "Swallow Whole",
+   "kind": "datasheet",
+   "page": 31,
+   "url": "https://longwarindex.app/special_rules/swallow_whole/",
+   "text": "At initiative step 0, you can select a single enemy Infantry model within 1\" of a Red Terror model in this unit. It makes a toughness test. Roll a Dice. If the result is higher than the target's Toughness (T) Characteristic, it is slain and removed from play. If the result is lower than the target's Toughness characteristic, nothing happens. This counts as an Instant Death Wound."
+  },
+  {
+   "id": "codex/tyranids/special_rules/terror_from_the_deep",
+   "name": "Terror from the Deep",
+   "kind": "datasheet",
+   "page": 31,
+   "url": "https://longwarindex.app/special_rules/terror_from_the_deep/",
+   "references": [
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "This unit does not Scatter when arriving via Deep Strike."
+  },
+  {
+   "id": "codex/tyranids/special_rules/tunnelling_horror",
+   "name": "Tunnelling Horror",
+   "kind": "datasheet",
+   "page": 31,
+   "url": "https://longwarindex.app/special_rules/tunnelling_horror/",
+   "references": [
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "At the end of your movement phase, if this unit is on the board, you may remove it from play and place it in Deep Strike Reserves. The unit may not leave the battlefield the same turn it arrives."
+  },
+  {
+   "id": "codex/tyranids/special_rules/neurogaunts",
+   "name": "Neurogaunts",
+   "kind": "datasheet",
+   "page": 32,
+   "url": "https://longwarindex.app/special_rules/neurogaunts/",
+   "references": [
+    "codex/tyranids/special_rules/synapse"
+   ],
+   "text": "A unit that is upgraded to be Neurogaunts gain the Synapse special rule. Additionally, the unit has -1 to its Strength (S) and Toughness (T) characteristics.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "codex/tyranids/special_rules/synapse",
+      "name": "Synapse",
+      "url": "https://longwarindex.app/special_rules/synapse/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": -1
+     },
+     {
+      "characteristic": "T",
+      "delta": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/tyranids/special_rules/felltalon_strain",
+   "name": "Felltalon Strain",
+   "kind": "datasheet",
+   "page": 35,
+   "url": "https://longwarindex.app/special_rules/felltalon_strain/",
+   "references": [
+    "special_rules/poison"
+   ],
+   "text": "A model upgraded to a Felltaln Strain gains the Poison (4+) special rule on all equipped Melee weapons.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/poison",
+      "name": "Poison",
+      "param": "4+",
+      "url": "https://longwarindex.app/special_rules/poison/",
+      "weapon_types": [
+       "Melee"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/tyranids/special_rules/tremorscythe_strain",
+   "name": "Tremorscythe Strain",
+   "kind": "datasheet",
+   "page": 35,
+   "url": "https://longwarindex.app/special_rules/tremorscythe_strain/",
+   "text": "Enemy units may not arrive from reserves within 12\" of a model with this upgrade."
+  },
+  {
+   "id": "codex/tyranids/special_rules/venomspitter_strain",
+   "name": "Venomspitter Strain",
+   "kind": "datasheet",
+   "page": 35,
+   "url": "https://longwarindex.app/special_rules/venomspitter_strain/",
+   "text": "A model with this upgrade gains the Choking Spores weapon.",
+   "effects": {
+    "items": [
+     {
+      "kind": "weapon",
+      "id": "choking_spores"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/tyranids/special_rules/wrecker_strain",
+   "name": "Wrecker Strain",
+   "kind": "datasheet",
+   "page": 35,
+   "url": "https://longwarindex.app/special_rules/wrecker_strain/",
+   "text": "A model with this upgrade has a 3+ Armour Save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "codex/tyranids/special_rules/extended_carapace",
+   "name": "Extended Carapace",
+   "kind": "datasheet",
+   "page": 37,
+   "url": "https://longwarindex.app/special_rules/extended_carapace/",
+   "text": "A model with extended Carapace has a 4+ Armour save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "codex/tyranids/special_rules/neurothrope",
+   "name": "Neurothrope",
+   "kind": "datasheet",
+   "page": 38,
+   "url": "https://longwarindex.app/special_rules/neurothrope/",
+   "references": [
+    "codex/tyranids/special_rules/spirit_leech",
+    "codex/tyranids/special_rules/warp_siphon"
+   ],
+   "text": "A model with this upgrade gains +1 to its Strength (S) and Toughness (T) characteristics. In addition, the model gains the Spirit Leech and Warp Siphon Special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "codex/tyranids/special_rules/spirit_leech",
+      "name": "Spirit Leech",
+      "url": "https://longwarindex.app/special_rules/spirit_leech/"
+     },
+     {
+      "rule": "codex/tyranids/special_rules/warp_siphon",
+      "name": "Warp Siphon",
+      "url": "https://longwarindex.app/special_rules/warp_siphon/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": 1
+     },
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/tyranids/special_rules/neuro_lictor",
+   "name": "Neuro-Lictor",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/neuro_lictor/",
+   "references": [
+    "universal_special_rules/psyker",
+    "universal_special_rules/deny_the_witch",
+    "universal_special_rules/indomitable_spirit"
+   ],
+   "text": "A model with this upgrade gains the Psyker (1), Deny the Witch and Indomitable Spirit (5+) special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/"
+     },
+     {
+      "rule": "universal_special_rules/deny_the_witch",
+      "name": "Deny the Witch",
+      "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+     },
+     {
+      "rule": "universal_special_rules/indomitable_spirit",
+      "name": "Indomitable Spirit",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/tyranids/special_rules/shrouding_spores",
+   "name": "Shrouding Spores",
+   "kind": "datasheet",
+   "page": 41,
+   "url": "https://longwarindex.app/special_rules/shrouding_spores/",
+   "text": "This unit and any unit within 12\" gain the benefits of Light Cover. If a unit is already gaining the benefit of Light Cover, they gain the benefit of Heavy Cover instead."
+  },
+  {
+   "id": "codex/tyranids/special_rules/toxic_miasma",
+   "name": "Toxic Miasma",
+   "kind": "datasheet",
+   "page": 41,
+   "url": "https://longwarindex.app/special_rules/toxic_miasma/",
+   "text": "Enemy units within 3\" of this unit reduce their Toughness (T) characteristic by 1."
+  },
+  {
+   "id": "codex/tyranids/special_rules/blind_rampage",
+   "name": "Blind Rampage",
+   "kind": "datasheet",
+   "page": 45,
+   "url": "https://longwarindex.app/special_rules/blind_rampage/",
+   "references": [
+    "universal_special_rules/rage"
+   ],
+   "text": "If a friendly Hive Tyrant in your army is slain, this unit must attempt to always charge the nearest target for the rest of the game. In addition, this unit gains the Rage special rule."
+  },
+  {
+   "id": "codex/tyranids/special_rules/transport",
+   "name": "Transport",
+   "datasheet": "Tyrannocyte",
+   "kind": "datasheet",
+   "page": 48,
+   "url": "https://longwarindex.app/special_rules/transport/",
+   "references": [
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "This unit can transport 20 Infantry models. Alternatively, this unit can Transport 1 Monster type unit that does not have the Fly keyword or a Wounds (W) characteristic of 5 or more. If the Monster unit has a special rule that allows you to take multiple models in the unit that would separate upon deployment, all the models from that unit may be placed in this Transport during deployment and separate to become individual units once they Disembark. Models may not Embark on this unit after Deployment is completed. When this unit arrives via Deep Strike, units Embarked must Disembark. It may not transport Hierophant Bio Titans or Hierodule Broods.",
+   "effects": {
+    "transport_capacity": {
+     "type": "alternatives",
+     "options": [
+      {
+       "n": 20,
+       "unit_types": [
+        "Infantry"
+       ]
+      },
+      {
+       "n": 1,
+       "counts": "units",
+       "unit_types": [
+        "Monster"
+       ],
+       "filters": [
+        {
+         "not": true,
+         "keywords": [
+          "Fly"
+         ]
+        },
+        {
+         "characteristic": "W",
+         "max": 4
+        },
+        {
+         "not": true,
+         "datasheet_names": [
+          "Hierophant Bio-Titan",
+          "Hierodule Brood"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/tyranids/special_rules/sonic_screech",
+   "name": "Sonic Screech",
+   "kind": "datasheet",
+   "page": 49,
+   "url": "https://longwarindex.app/special_rules/sonic_screech/",
+   "text": "At the start of the Fight Sequence, roll a dice. On a 3+, all enemy units in the combat are reduced to Initiative 1."
+  },
+  {
+   "id": "codex/tyranids/special_rules/spore_mine_cysts",
+   "name": "Spore Mine Cysts",
+   "kind": "datasheet",
+   "page": 49,
+   "url": "https://longwarindex.app/special_rules/spore_mine_cysts/",
+   "text": "Once per game, at the start of the shooting phase, this unit can summon 1 unit of Spore Mines within 12\" of it."
+  },
+  {
+   "id": "codex/tyranids/special_rules/living_ammunition",
+   "name": "Living Ammunition",
+   "kind": "datasheet",
+   "page": 52,
+   "url": "https://longwarindex.app/special_rules/living_ammunition/",
+   "text": "This unit cannot contest objectives or count for scoring VP. Models in this unit have a 3\" Movement (M) characteristic.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/tyranids/special_rules/suicidal_explosive_spore_mines",
+   "name": "Suicidal Explosive",
+   "datasheet": "Spore Mines",
+   "kind": "weapon",
+   "page": 52,
+   "url": "https://longwarindex.app/special_rules/suicidal_explosive_spore_mines/",
+   "text": "When you attack with this weapon, place a Blast marker over this attacking model. The attack automatically scores a hit for each model within 2\" of this model. After resolving the attack, remove the equipped model. It is slain."
+  },
+  {
+   "id": "codex/tyranids/special_rules/suicidal_explosive_mucolid_spores",
+   "name": "Suicidal Explosive",
+   "datasheet": "Mucolid Spores",
+   "kind": "weapon",
+   "page": 53,
+   "url": "https://longwarindex.app/special_rules/suicidal_explosive_mucolid_spores/",
+   "text": "When you attack with this weapon, place a Blast marker over this attacking model. The attack automatically scores a hit for each model within 3\" of this model. After resolving the attack, remove the equipped model. It is slain."
+  },
+  {
+   "id": "codex/tyranids/special_rules/trygon_prime",
+   "name": "Trygon Prime",
+   "kind": "datasheet",
+   "page": 54,
+   "url": "https://longwarindex.app/special_rules/trygon_prime/",
+   "references": [
+    "codex/tyranids/special_rules/synapse"
+   ],
+   "text": "A model with this upgrade gains the Synapse special rule and a 5+ Invulnerable Save.",
+   "effects": {
+    "invulnerable_save": "5+",
+    "rules": [
+     {
+      "rule": "codex/tyranids/special_rules/synapse",
+      "name": "Synapse",
+      "url": "https://longwarindex.app/special_rules/synapse/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/tyranids/special_rules/symbiotic_targeting",
+   "name": "Symbiotic Targeting",
+   "kind": "datasheet",
+   "page": 58,
+   "url": "https://longwarindex.app/special_rules/symbiotic_targeting/",
+   "text": "If this unit remained stationary in the previous movement phase, improve its Ballistic Skill (BS) characteristic by 1 (to 4) in the following shooting phase."
+  },
+  {
+   "id": "codex/tyranids/special_rules/hyper_toxic_miasma",
+   "name": "Hyper Toxic Miasma",
+   "kind": "datasheet",
+   "page": 59,
+   "url": "https://longwarindex.app/special_rules/hyper_toxic_miasma/",
+   "text": "Enemy units within 3\" of this unit reduce their Toughness (T) characteristic by 1. In addition, at the end of each Charge Phase, each enemy unit within 12\" takes D6 Automatic Wounds. Saves may be taken as normal against these wounds (except Cover Saves)."
+  },
+  {
+   "id": "codex/tyranids/special_rules/singular_purpose",
+   "name": "Singular Purpose",
+   "kind": "datasheet",
+   "page": 63,
+   "url": "https://longwarindex.app/special_rules/singular_purpose/",
+   "text": "This unit may re-roll failed hit rolls of 1 against the enemy Warlord. If the Enemy Warlord is slain by this unit, you gain 1 Victory Point. If this unit is slain, you lose 1 Victory Point."
+  },
+  {
+   "id": "codex/tyranids/special_rules/will_of_the_hive_mind",
+   "name": "Will of the Hive Mind",
+   "kind": "datasheet",
+   "page": 63,
+   "url": "https://longwarindex.app/special_rules/will_of_the_hive_mind/",
+   "references": [
+    "special_rules/pinning"
+   ],
+   "text": "Friendly Tyranid units that can draw visibility to this unit can re-roll failed Pinning and Panic tests."
+  },
+  {
+   "id": "codex/tyranids/special_rules/prey_grasp",
+   "name": "Prey Grasp",
+   "kind": "datasheet",
+   "page": 64,
+   "url": "https://longwarindex.app/special_rules/prey_grasp/",
+   "text": "Enemy units within 3\" of a unit equipped with this special rule may not make Retreat moves in the Movement phase. If a unit in combat with this unit would fail a Panic test at the end of the Combat phase, the unit does not move and instead, simply takes 1 automatic wound. When a unit with this special rule attempts to charge a unit hit by this model's Toxinjector Harpoon, this unit has +1 to its Charge roll."
+  },
+  {
+   "id": "codex/tyranids/special_rules/gargantuan",
+   "name": "Gargantuan",
+   "kind": "datasheet",
+   "page": 66,
+   "url": "https://longwarindex.app/special_rules/gargantuan_tyranids/",
+   "references": [
+    "special_rules/force"
+   ],
+   "text": "If this unit suffers a wound from a Weapon with the Force special rule that is an Instant Death wound, this unit instead takes 3 wounds."
+  },
+  {
+   "id": "codex/tyranids/special_rules/shrouding_spores_hierophant_bio_titan",
+   "name": "Shrouding Spores",
+   "datasheet": "Hierophant Bio-Titan",
+   "kind": "datasheet",
+   "page": 66,
+   "url": "https://longwarindex.app/special_rules/shrouding_spores_hierophant_bio_titan/",
+   "text": "Enemy attacks have -1 to hit this unit in the shooting phase."
+  },
+  {
+   "id": "codex/tyranids/special_rules/soft_underbelly",
+   "name": "Soft Underbelly",
+   "kind": "datasheet",
+   "page": 66,
+   "url": "https://longwarindex.app/special_rules/soft_underbelly/",
+   "references": [
+    "codex/tyranids/special_rules/titanic_strides"
+   ],
+   "text": "If a unit directly under the Bio Titan makes an attack either in shooting or being declared an engaged target per the Titanic Strides special rule, so long as the attacking model is directly under the Bio Titan, any attacks against the Bio Titan are resolved as if the Bio Titan had an armour save of '–'."
+  },
+  {
+   "id": "codex/tyranids/special_rules/titanic_strides",
+   "name": "Titanic Strides",
+   "kind": "datasheet",
+   "page": 66,
+   "url": "https://longwarindex.app/special_rules/titanic_strides/",
+   "text": "The unit may Retreat in the Movement Phase and still shoot and charge in the Shooting and Charge Phases at full Ballistic Skill (BS). This unit counts as being engaged if enemy units are within 3\" of any of its legs. Units directly under it do not count as being engaged unless the controlling player of this unit wishes them to be. This unit may move over enemy units during the Movement Phase."
+  },
+  {
+   "id": "codex/tyranids/special_rules/circling_span",
+   "name": "Circling Span",
+   "kind": "datasheet",
+   "page": 67,
+   "url": "https://longwarindex.app/special_rules/circling_span/",
+   "text": "The Harridan unit may Retreat in the Movement Phase and Charge in the Charge Phase."
+  },
+  {
+   "id": "codex/tyranids/special_rules/transport_harridan",
+   "name": "Transport",
+   "datasheet": "Harridan",
+   "kind": "datasheet",
+   "page": 67,
+   "url": "https://longwarindex.app/special_rules/transport_harridan/",
+   "text": "This unit can transport 20 Gargoyle models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 20,
+     "filters": [
+      {
+       "datasheet_names": [
+        "Gargoyle Brood"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/tyranids/special_rules/burrowed_bio_form",
+   "name": "Burrowed Bio Form",
+   "kind": "datasheet",
+   "page": 68,
+   "url": "https://longwarindex.app/special_rules/burrowed_bio_form/",
+   "text": "Models in this unit cannot perform Movement actions in the Movement Phase and may not declare Charges in the Charge Phase. The Sporocyst cannot Panic from losing combat and perform Fall Back moves."
+  }
+ ]
+}

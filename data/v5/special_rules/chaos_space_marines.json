@@ -1,0 +1,1223 @@
+{
+ "data_version": "9a31ecdd555ef6fe",
+ "format": 1,
+ "faction": "chaos_space_marines",
+ "special_rules": [
+  {
+   "id": "codex/chaos_space_marines/allegiances/black_legion",
+   "name": "Allegiance: Black Legion",
+   "kind": "allegiance",
+   "page": 32,
+   "url": "https://longwarindex.app/allegiances/black_legion/",
+   "references": [
+    "universal_special_rules/hatred",
+    "universal_special_rules/deep_strike",
+    "special_rules/linked"
+   ],
+   "text": "All Space Marine units change their [Legion] keyword to Black Legion. All units with the Black Legion Keyword gain the Allegiance: Black Legion special rule. The Allegiance: Black Legion special rule consists of the following rules:\n\n- Black Crusaders: Black Legion units gain the Hatred (Imperium) special rule. In addition, all Black Legion units which arrive via Deep Strike, gain the Linked special rule on all equipped Shooting weapons they have until the start of their next turn.\n- 10,000 Years of Hatred: A Black Legion army must play 1 additional Battle Round when fighting an Imperium Keyword army. If Abaddon, the Despoiler is in your army, he must be your Warlord.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "param": "Imperium",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/allegiances/creations_of_bile",
+   "name": "Allegiance: Creations of Bile",
+   "kind": "allegiance",
+   "page": 32,
+   "url": "https://longwarindex.app/allegiances/creations_of_bile/",
+   "references": [
+    "universal_special_rules/hammer_of_wrath"
+   ],
+   "text": "All Space Marine units change their [Legion] keyword to Creations of Bile. All units with the Creations of Bile Keyword gain the Allegiance: Creations of Bile special rule. The Allegiance: Creations of Bile special rule consists of the following rules:\n\n- Genomic Perfection: All Creations of Bile gain Hammer of Wrath (1). If the unit already has the Hammer of Wrath (X) special rule, it increases the value of X by 1.\n- Faith is for fools: Creations of Bile armies cannot take units with the Daemon Keyword and may not have any Marks of Chaos. If Fabius Bile is in your army, he must be your Warlord.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/allegiances/red_corsairs",
+   "name": "Allegiance: Red Corsairs",
+   "kind": "allegiance",
+   "page": 32,
+   "url": "https://longwarindex.app/allegiances/red_corsairs/",
+   "references": [
+    "universal_special_rules/sprint"
+   ],
+   "text": "All Space Marine units change their [Legion] keyword to Red Corsairs. All units with the Red Corsairs Keyword gain the Allegiance: Red Corsairs special rule. The Allegiance: Red Corsairs special rule consists of the following rules:\n\n- Piratical Raiders: Red Corsairs units gain the Sprint (1) special rule. If they already have the Sprint (x) special rule, increase the value of (x) by 1.\n- Tyrants of Badab: A Red Corsair army may not take Rapier Battery or Arquitor Bombards. If Huron Blackheart is in your army, he must be your Warlord.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/sprint",
+      "name": "Sprint",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/sprint/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/air_superiority_craft",
+   "name": "Air Superiority Craft",
+   "kind": "datasheet",
+   "page": 65,
+   "url": "https://longwarindex.app/special_rules/air_superiority_craft/",
+   "references": [
+    "special_rules/skyfire"
+   ],
+   "text": "All weapons this unit is equipped with gain the Skyfire special rule.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/skyfire",
+      "name": "Skyfire",
+      "url": "https://longwarindex.app/special_rules/skyfire/",
+      "weapon_types": [
+       "Pistol",
+       "Rapid Fire",
+       "Assault",
+       "Heavy",
+       "Grenade",
+       "Melee"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/assault_claw_drop_pod_assault",
+   "name": "Assault Claw Drop Pod Assault",
+   "kind": "datasheet",
+   "page": 60,
+   "url": "https://longwarindex.app/special_rules/assault_claw_drop_pod_assault/",
+   "references": [
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "Up to half the number of Assault Claw Drop pods in your army can be deployed during the first turn. When arriving from Deep Strike, Assault Claw Drop Pods never scatter. A unit embarked on Assault Claw Drop Pod must disembark the turn an Assault Claw Drop Pod arrives. An Assault Claw Drop Pod may not be garrisoned after it has arrived on the Battlefield."
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/aura_of_chaos",
+   "name": "Aura of Chaos",
+   "kind": "datasheet",
+   "page": 100,
+   "url": "https://longwarindex.app/special_rules/aura_of_chaos_chaos_space_marines/",
+   "text": "Friendly Chaos models within 12\" gain a 6+ Invulnerable save."
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/chaos_boons",
+   "name": "Chaos Boons",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/chaos_boons/",
+   "references": [
+    "universal_special_rules/sprint",
+    "universal_special_rules/furious_charge",
+    "universal_special_rules/indomitable_spirit",
+    "codex/chaos_space_marines/special_rules/daemon"
+   ],
+   "text": "At the start of each Battle Round, you may select 1 Chaos Space Marine unit with this special rule. That unit may roll 2D6 on the Chaos Boon table below. That unit gains the listed benefit for the rest of the game. All effects stack if applicable:\n\n2D6\tResult\n2\tWarp Surge: The chosen unit gains +1 to its Movement (M) characteristic.\n3\tThird Eye: The chosen unit gains +1 to its Ballistic Skill (BS) characteristic.\n4\tPrecognition: The chosen unit gains +1 to its Weapon Skill (WS) characteristic.\n5\tIron Muscles: The chosen unit gains +1 to its Strength (S) characteristic.\n6\tLoping Grace: The chosen unit gains the Sprint (1) special rule. If they already have the Sprint (x) special rule, increase the value of X by 1.\n7\tUnnatural Resilience: The chosen unit gains +1 to its Toughness (T) characteristic.\n8\tBlood Rage: The chosen unit gains the Furious Charge special rule. If the unit already has the Furious Charge special rule, they instead gain +1 to their Attacks (A) characteristic.\n9\tMind Fortress: The chosen unit gains the Indomitable Spirit (3+) special rule.\n10\tHyper Reflexes: The chosen unit gains +1 to Initiative (I) characteristic.\n11\tPossession: The chosen unit gains the Daemon Special rule.\n12\tChampion of Chaos: The chosen unit may select which of the Chaos Boons above they receive."
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/conversion",
+   "name": "Conversion",
+   "kind": "weapon",
+   "page": 18,
+   "url": "https://longwarindex.app/special_rules/conversion_chaos_space_marines/",
+   "text": "If the target of this weapon is not within half of the weapons range when making an attack, the weapon gains +2 to its Strength characteristic."
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/daemon",
+   "name": "Daemon",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/",
+   "references": [
+    "universal_special_rules/fear"
+   ],
+   "text": "A unit with this rule gains the Daemon Keyword. The Daemon unit has a 5+ Invulnerable save and the Fear (1) special rule. Daemon units have +1\" to their Movement (M) characteristic. (This is included in unit data sheets that have the Daemon special rule by default).",
+   "effects": {
+    "keywords": [
+     "Daemon"
+    ],
+    "invulnerable_save": "5+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/dark_apostle",
+   "name": "Dark Apostle",
+   "kind": "datasheet",
+   "page": 38,
+   "url": "https://longwarindex.app/special_rules/dark_apostle/",
+   "references": [
+    "universal_special_rules/priest",
+    "universal_special_rules/hatred",
+    "universal_special_rules/stubborn"
+   ],
+   "text": "The Chaos Champion gains the Priest (1), Hatred and Stubborn special rules. In addition, the Chaos Champion exchanges their Chainsword for a Power Maul.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/priest",
+      "name": "Priest",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/priest/"
+     },
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     },
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "chainsword"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "power_maul"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/dreadclaw_drop_pod_assault",
+   "name": "Dreadclaw Drop Pod Assault",
+   "kind": "datasheet",
+   "page": 59,
+   "url": "https://longwarindex.app/special_rules/dreadclaw_drop_pod_assault/",
+   "references": [
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "Up to half the number of Dreadclaw Drop pods in your army can be deployed during the first turn. When arriving from Deep Strike, Dreadclaw Drop Pods never scatter. A unit embarked on Dreadclaw Drop Pod must disembark the turn a Dreadclaw Drop Pod arrives. A Dreadclaw Drop Pod may not be garrisoned after it has arrived on the Battlefield."
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/escape",
+   "name": "Escape",
+   "kind": "datasheet",
+   "page": 45,
+   "url": "https://longwarindex.app/special_rules/escape/",
+   "text": "When this model would be slain and removed from play, it does not count for scoring any objectives or Victory Points."
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/grim_headsmen",
+   "name": "Grim Headsmen",
+   "kind": "datasheet",
+   "page": 43,
+   "url": "https://longwarindex.app/special_rules/grim_headsmen/",
+   "text": "If this unit includes Katar Garrix, the unit always counts as scoring 3 additional Wounds for the purpose of determining who won combat while the model is alive and on the battlefield."
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/gun_fighter",
+   "name": "Gun Fighter",
+   "kind": "datasheet",
+   "page": 45,
+   "url": "https://longwarindex.app/special_rules/gun_fighter/",
+   "references": [
+    "special_rules/gets_hot"
+   ],
+   "text": "At the start of the Shooting Phase, this unit may declare that it will chain fire its Pistols. Until the end of the Phase, each Pistol type weapon this model equipped with is treated as Pistol 5 but the unit gains the Gets Hot! Special rule on all equipped Pistol type weapons."
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/heat_blast",
+   "name": "Heat Blast",
+   "kind": "datasheet",
+   "page": 59,
+   "url": "https://longwarindex.app/special_rules/heat_blast/",
+   "references": [
+    "universal_special_rules/deep_strike",
+    "special_rules/ignores_cover"
+   ],
+   "text": "This unit gains +4\" to its Movement (M) characteristic. When this model arrives from Deep Strike, after its final position is determined, measure 6\" from the model's hull, then all units take hits equal to the number of models in range. These hits are resolved at Strength 6 AP 5 with Ignores Cover. The hits count as being a Flamer category weapon.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "M",
+      "delta": 4
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/hellbrute",
+   "name": "Hellbrute",
+   "kind": "datasheet",
+   "page": 53,
+   "url": "https://longwarindex.app/special_rules/hellbrute/",
+   "references": [
+    "universal_special_rules/regeneration",
+    "universal_special_rules/frenzy"
+   ],
+   "text": "A Dreadnought upgraded to a Hellbrute gains the Regeneration and Frenzy special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/regeneration",
+      "name": "Regeneration",
+      "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+     },
+     {
+      "rule": "universal_special_rules/frenzy",
+      "name": "Frenzy",
+      "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+   "name": "Let the Galaxy Burn",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/",
+   "references": [
+    "universal_special_rules/sprint",
+    "special_rules/pinning",
+    "special_rules/blind",
+    "special_rules/concussive",
+    "universal_special_rules/bulky"
+   ],
+   "text": "Chaos Space Marine unit with this rule gain +1 to the charge roll in the Charge Phase against a Charge Target for each of the following conditions met (to a max of +4. This is not cumulative with bonuses from the Sprint (x) special rule):\n\n- The Charge Target is Pinned.\n- The Charge Target is affected by Blind.\n- The Charge Target is affected by Concussive.\n- The Charge Target is Falling Back after failing a Panic test.\n- The Charge Target has a lower Leadership (LD) characteristic than the charging Chaos Space Marine unit.\n- The Charging Chaos Space Marine unit has more models in their unit than the Charge Target.\n\n(Bulky (x) units count as X number of models each for determining this bonus)."
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/lord_discordant",
+   "name": "Lord Discordant",
+   "kind": "datasheet",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/lord_discordant/",
+   "references": [
+    "universal_special_rules/battle_smith",
+    "universal_special_rules/tank_hunters"
+   ],
+   "text": "The Chaos Lord gains a Daemonic Steed and Heavy Flamer. Additionally, the Chaos Lord exchanges their Chainsword for a Chain Glaive. The Chaos Lord gains the Battle Smith (1) and Tank Hunter special rules.\n\n- The Lord Discordant may exchange their Heavy Flamer for an Autocannon for 5pts.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_smith",
+      "name": "Battle Smith",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+     },
+     {
+      "rule": "universal_special_rules/tank_hunters",
+      "name": "Tank Hunters",
+      "url": "https://longwarindex.app/universal_special_rules/tank_hunters/"
+     }
+    ],
+    "items": [
+     {
+      "kind": "wargear",
+      "id": "daemonic_steed"
+     },
+     {
+      "kind": "weapon",
+      "id": "heavy_flamer"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "chainsword"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "chain_glaive"
+       }
+      ]
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "autocannon",
+     "label": "The Lord Discordant may exchange their Heavy Flamer for an Autocannon for 5pts.",
+     "printed": "The Lord Discordant may exchange their Heavy Flamer for an Autocannon for 5pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "autocannon",
+       "name": "Autocannon",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "autocannon"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+   "name": "Lord of Damnation",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/lord_of_damnation/",
+   "text": "You may only field 1 model in your army with this special rule. If your army includes a model with this special rule, they must be your Warlord.",
+   "effects": {
+    "list_building": {
+     "max_units_per_army": 1,
+     "mandates_warlord": true
+    }
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/machine_spirit",
+   "name": "Machine Spirit",
+   "kind": "datasheet",
+   "page": 57,
+   "url": "https://longwarindex.app/special_rules/machine_spirit_chaos_space_marines/",
+   "text": "This unit may always set to Overwatch, even if it made a shooting attack in the Shooting phase. However, it may only perform the attack with one weapon it is equipped with if it did so."
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/master_churgen",
+   "name": "Master Churgen",
+   "kind": "datasheet",
+   "page": 44,
+   "url": "https://longwarindex.app/special_rules/master_churgen/",
+   "references": [
+    "universal_special_rules/feel_no_pain",
+    "universal_special_rules/regeneration"
+   ],
+   "text": "Fabius Bile may re-roll Feel No Pain and Regeneration rolls of 1 for himself and any attached unit."
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/master_of_executions",
+   "name": "Master of Executions",
+   "kind": "datasheet",
+   "page": 38,
+   "url": "https://longwarindex.app/special_rules/master_of_executions/",
+   "references": [
+    "universal_special_rules/preferred_enemy"
+   ],
+   "text": "The Chaos Champion exchanges their Chainsword for a Headsmen Axe and gains the Preferred Enemy (Infantry) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/preferred_enemy",
+      "name": "Preferred Enemy",
+      "param": "Infantry",
+      "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "chainsword"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "headsmen_axe"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/master_of_fleets",
+   "name": "Master of Fleets",
+   "kind": "datasheet",
+   "page": 43,
+   "url": "https://longwarindex.app/special_rules/master_of_fleets/",
+   "references": [
+    "universal_special_rules/outflank",
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "If this unit includes Captain Sargotta, all units in your army may re-roll the dice roll for Outflank and Deep Strike rolls while the model is alive and on the battlefield."
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/master_of_possessions",
+   "name": "Master of Possessions",
+   "kind": "datasheet",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/master_of_possessions/",
+   "references": [
+    "universal_special_rules/psyker",
+    "universal_special_rules/priest",
+    "codex/chaos_space_marines/special_rules/daemon"
+   ],
+   "text": "The Chaos Lord gains the Psyker (1) and Priest (1) special rules. In addition, any attached Chaos Space Marine unit gains the Daemon special rule.\n\n- The Master of Possessions may exchange their Chainsword/Power Sword for a Force Stave for 5pts.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/"
+     },
+     {
+      "rule": "universal_special_rules/priest",
+      "name": "Priest",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/priest/"
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "force_stave",
+     "label": "The Master of Possessions may exchange their Chainsword/Power Sword for a Force Stave for 5pts.",
+     "printed": "The Master of Possessions may exchange their Chainsword/Power Sword for a Force Stave for 5pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "force_stave",
+       "name": "Force Stave",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove_one_of": [
+          {
+           "kind": "weapon",
+           "id": "chainsword"
+          },
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_stave"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/mysterious_protection",
+   "name": "Mysterious Protection",
+   "kind": "datasheet",
+   "page": 45,
+   "url": "https://longwarindex.app/special_rules/mysterious_protection/",
+   "text": "This unit has a 3+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "3+"
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/reliable_machine_spirit",
+   "name": "Reliable Machine Spirit",
+   "kind": "datasheet",
+   "page": 56,
+   "url": "https://longwarindex.app/special_rules/reliable_machine_spirit_chaos_space_marines/",
+   "text": "When a unit with this special rule would be destroyed. Embarked units are not required to roll for models inside being slain (see Rule 10.2 in the core rules)."
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/renegade_master",
+   "name": "Renegade Master",
+   "kind": "datasheet",
+   "page": 42,
+   "url": "https://longwarindex.app/special_rules/renegade_master/",
+   "text": "You may include 1 unit of Cultist Mob per 1,000pts from Codex - Renegades & Heretics in your army if it includes Huron Blackheart.",
+   "effects": {
+    "list_building": {
+     "opens": [
+      {
+       "faction": "renegades_and_heretics",
+       "datasheets": [
+        "codex/renegades_and_heretics/roster/cultist_mob"
+       ],
+       "max_units": 1,
+       "per_points": {
+        "per": 1000,
+        "exact": false
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/rogue_agent",
+   "name": "Rogue Agent",
+   "kind": "datasheet",
+   "page": 45,
+   "url": "https://longwarindex.app/special_rules/rogue_agent/",
+   "text": "This unit may not be your Warlord.",
+   "effects": {
+    "list_building": {
+     "warlord_forbidden": true
+    }
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/sky_predator",
+   "name": "Sky Predator",
+   "kind": "datasheet",
+   "page": 63,
+   "url": "https://longwarindex.app/special_rules/sky_predator/",
+   "references": [
+    "special_rules/skyfire"
+   ],
+   "text": "The Hell Blade gains the Skyfire special rule on all weapons it is equipped with.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/skyfire",
+      "name": "Skyfire",
+      "url": "https://longwarindex.app/special_rules/skyfire/",
+      "weapon_types": [
+       "Pistol",
+       "Rapid Fire",
+       "Assault",
+       "Heavy",
+       "Grenade",
+       "Melee"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/sorcerer",
+   "name": "Sorcerer",
+   "kind": "datasheet",
+   "page": 38,
+   "url": "https://longwarindex.app/special_rules/sorcerer/",
+   "references": [
+    "universal_special_rules/psyker",
+    "universal_special_rules/deny_the_witch"
+   ],
+   "text": "The Chaos Champion gains the Psyker (1) and Deny the Witch special rules.\n\n- The Sorcerer may exchange their Chainsword for a Force Sword, Force Axe or Force Stave for 5pts.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/"
+     },
+     {
+      "rule": "universal_special_rules/deny_the_witch",
+      "name": "Deny the Witch",
+      "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "force_weapon",
+     "label": "The Sorcerer may exchange their Chainsword for a Force Sword, Force Axe or Force Stave for 5pts.",
+     "printed": "The Sorcerer may exchange their Chainsword for a Force Sword, Force Axe or Force Stave for 5pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "force_sword",
+       "name": "Force Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_sword"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "force_axe",
+       "name": "Force Axe",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_axe"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "force_stave",
+       "name": "Force Stave",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_stave"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/sorcerer_lord",
+   "name": "Sorcerer Lord",
+   "kind": "datasheet",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/sorcerer_lord/",
+   "references": [
+    "universal_special_rules/psyker",
+    "universal_special_rules/deny_the_witch"
+   ],
+   "text": "The Chaos Lord gains the Psyker (1) and Deny the Witch special rules.\n\n- The Sorcerer Lord may gain Psyker (2) for 10pts.\n- The Sorcerer Lord may exchange their Chainsword/Power Sword for a Force Sword, Force Axe or Force Stave for 5pts.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/"
+     },
+     {
+      "rule": "universal_special_rules/deny_the_witch",
+      "name": "Deny the Witch",
+      "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "psyker_2",
+     "label": "The Sorcerer Lord may gain Psyker (2) for 10pts.",
+     "printed": "The Sorcerer Lord may gain Psyker (2) for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "psyker_2",
+       "name": "Psyker (2)",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/psyker",
+         "name": "Psyker",
+         "param": "2",
+         "url": "https://longwarindex.app/universal_special_rules/psyker/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "force_weapon",
+     "label": "The Sorcerer Lord may exchange their Chainsword/Power Sword for a Force Sword, Force Axe or Force Stave for 5pts.",
+     "printed": "The Sorcerer Lord may exchange their Chainsword/Power Sword for a Force Sword, Force Axe or Force Stave for 5pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "force_sword",
+       "name": "Force Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove_one_of": [
+          {
+           "kind": "weapon",
+           "id": "chainsword"
+          },
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_sword"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "force_axe",
+       "name": "Force Axe",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove_one_of": [
+          {
+           "kind": "weapon",
+           "id": "chainsword"
+          },
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_axe"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "force_stave",
+       "name": "Force Stave",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove_one_of": [
+          {
+           "kind": "weapon",
+           "id": "chainsword"
+          },
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_stave"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/the_bringers_of_despair",
+   "name": "The Bringers of Despair",
+   "kind": "datasheet",
+   "page": 41,
+   "url": "https://longwarindex.app/special_rules/the_bringers_of_despair/",
+   "text": "If this unit is in your army, you can select 1 unit of Chosen in your army with the Terminator Keyword to be the Bringers of Despair. That unit gains +1 to their Weapon Skill (WS) and Leadership (LD) characteristics. In addition, the unit no longer takes up a Force Organization Slot.",
+   "effects": {
+    "selects": {
+     "what": "units",
+     "count": 1,
+     "conditions": [
+      {
+       "datasheet": "codex/chaos_space_marines/roster/chosen"
+      },
+      {
+       "keyword": "Terminator"
+      }
+     ],
+     "stat_mods": [
+      {
+       "characteristic": "WS",
+       "delta": 1
+      },
+      {
+       "characteristic": "Ld",
+       "delta": 1
+      }
+     ],
+     "unslotted": true
+    }
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/the_favoured_of_the_gods",
+   "name": "The Favoured of the Gods",
+   "kind": "warlord_trait",
+   "page": 41,
+   "url": "https://longwarindex.app/special_rules/the_favoured_of_the_gods/",
+   "references": [
+    "codex/chaos_space_marines/special_rules/chaos_boons"
+   ],
+   "text": "At the start of each Battle Round, this unit can select 1 Boon from the Chaos Boon table (see Chaos Boons special rule) to gain until the end of that Battle Round except for Possession."
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/the_soul_eater",
+   "name": "The Soul Eater",
+   "kind": "datasheet",
+   "page": 43,
+   "url": "https://longwarindex.app/special_rules/the_soul_eater/",
+   "references": [
+    "universal_special_rules/psyker"
+   ],
+   "text": "If this unit includes Garlon the Soul Eater, it gains the Psyker (2) special rule while the model is alive and on the battlefield. The unit is considered to have the Mark of Chaos Undivided for purpose of purchasing Psychic Powers.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/"
+     }
+    ],
+    "while_unit_has_profile": "Garlon Soul Eater"
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/transport_dreadclaw_drop_pod",
+   "name": "Transport",
+   "datasheet": "Dreadclaw Drop Pod",
+   "kind": "datasheet",
+   "page": 59,
+   "url": "https://longwarindex.app/special_rules/transport_dreadclaw_drop_pod/",
+   "text": "This model can transport 12 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/transport_kharybdis_assault_claw",
+   "name": "Transport",
+   "datasheet": "Kharybdis Assault Claw",
+   "kind": "datasheet",
+   "page": 60,
+   "url": "https://longwarindex.app/special_rules/transport_kharybdis_assault_claw/",
+   "text": "This model can transport 22 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 22,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/transport_land_raider",
+   "name": "Transport",
+   "datasheet": "Land Raider",
+   "kind": "datasheet",
+   "page": 57,
+   "url": "https://longwarindex.app/special_rules/transport_land_raider_chaos_space_marines/",
+   "text": "This model can transport 10 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 10,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/transport_mastodon",
+   "name": "Transport",
+   "datasheet": "Mastodon",
+   "kind": "datasheet",
+   "page": 96,
+   "url": "https://longwarindex.app/special_rules/transport_mastodon_chaos_space_marines/",
+   "text": "This model can transport 40 Infantry models or 4 Walker models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "alternatives",
+     "options": [
+      {
+       "n": 40,
+       "unit_types": [
+        "Infantry"
+       ]
+      },
+      {
+       "n": 4,
+       "unit_types": [
+        "Walker"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/transport_rhino_apc",
+   "name": "Transport",
+   "datasheet": "Rhino APC",
+   "kind": "datasheet",
+   "page": 56,
+   "url": "https://longwarindex.app/special_rules/transport_rhino_apc_chaos_space_marines/",
+   "references": [
+    "universal_special_rules/bulky"
+   ],
+   "text": "This unit can transport 11 Infantry models. It may not transport models with the Bulky (x) special rule.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 11,
+     "unit_types": [
+      "Infantry"
+     ],
+     "filters": [
+      {
+       "not": true,
+       "any_rules": [
+        "universal_special_rules/bulky"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/transport_spartan_assault_tank",
+   "name": "Transport",
+   "datasheet": "Spartan Assault Tank",
+   "kind": "datasheet",
+   "page": 92,
+   "url": "https://longwarindex.app/special_rules/transport_spartan_assault_tank_chaos_space_marines/",
+   "text": "This model can transport 25 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 25,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/transport_termite_assault_drill",
+   "name": "Transport",
+   "datasheet": "Termite Assault Drill",
+   "kind": "datasheet",
+   "page": 61,
+   "url": "https://longwarindex.app/special_rules/transport_termite_assault_drill/",
+   "references": [
+    "universal_special_rules/bulky"
+   ],
+   "text": "This model can transport 12 Infantry models that do not have the Bulky (x) special rule.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ],
+     "filters": [
+      {
+       "not": true,
+       "any_rules": [
+        "universal_special_rules/bulky"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/transport_thunderhawk_gunship",
+   "name": "Transport",
+   "datasheet": "Thunderhawk Gunship",
+   "kind": "datasheet",
+   "page": 98,
+   "url": "https://longwarindex.app/special_rules/transport_thunderhawk_gunship_chaos_space_marines/",
+   "text": "This model can transport 30 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 30,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/tyrant_of_badab",
+   "name": "Tyrant of Badab",
+   "kind": "warlord_trait",
+   "page": 43,
+   "url": "https://longwarindex.app/special_rules/tyrant_of_badab/",
+   "references": [
+    "universal_special_rules/outflank"
+   ],
+   "text": "Once per game, at the start of your Movement Phase, you may summon a unit of Inductii. This unit arrives via Outflank and arrives automatically."
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/war_master_of_chaos",
+   "name": "War Master of Chaos",
+   "kind": "datasheet",
+   "page": 41,
+   "url": "https://longwarindex.app/special_rules/war_master_of_chaos/",
+   "references": [
+    "special_rules/pinning"
+   ],
+   "text": "All friendly Chaos Space Marines which can draw visibility to this model may re-roll Pinning and Panic tests."
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/warp_flame_assault",
+   "name": "Warp Flame Assault",
+   "kind": "datasheet",
+   "page": 70,
+   "url": "https://longwarindex.app/special_rules/warp_flame_assault/",
+   "references": [
+    "special_rules/blind"
+   ],
+   "text": "The turn this unit successfully performs a charge, it gains the Blind Special Rule on all Melee attacks in the following Combat Phase."
+  },
+  {
+   "id": "codex/chaos_space_marines/special_rules/warp_smith",
+   "name": "Warp Smith",
+   "kind": "datasheet",
+   "page": 38,
+   "url": "https://longwarindex.app/special_rules/warp_smith/",
+   "references": [
+    "universal_special_rules/battle_smith"
+   ],
+   "text": "The Chaos Champion gains the Battle Smith (1) special rule, Bionics and Servo Arm. In addition, the Chaos Champion exchanges their Chainsword for a Power Axe.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_smith",
+      "name": "Battle Smith",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+     }
+    ],
+    "items": [
+     {
+      "kind": "wargear",
+      "id": "bionics"
+     },
+     {
+      "kind": "weapon",
+      "id": "servo_arm"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "chainsword"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "power_axe"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

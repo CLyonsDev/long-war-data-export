@@ -1,0 +1,445 @@
+{
+ "data_version": "26eae49965ab51d6",
+ "format": 1,
+ "faction": "tyranids",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/the_maw_claws_of_thyrax/",
+   "offered_by": {
+    "codex": "tyranids"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "the_maw_claws_of_thyrax",
+     "name": "The Maw-Claws of Thyrax",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_maw_claws_of_thyrax"
+      }
+     ],
+     "page": 17,
+     "url": "https://longwarindex.app/wargear/the_maw_claws_of_thyrax/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_norn_crown",
+     "name": "The Norn Crown",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_norn_crown"
+      }
+     ],
+     "page": 17,
+     "url": "https://longwarindex.app/wargear/the_norn_crown/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_resonance_barb",
+     "name": "The Resonance Barb",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_resonance_barb"
+      }
+     ],
+     "page": 17,
+     "url": "https://longwarindex.app/wargear/the_resonance_barb/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_scythes_of_tyran",
+     "name": "The Scythes of Tyran",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Scything Talons or Monstrous Scything Talons for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "scything_talons"
+        },
+        {
+         "kind": "weapon",
+         "id": "monstrous_scything_talons"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_scythes_of_tyran"
+        }
+       ]
+      }
+     ],
+     "page": 17,
+     "url": "https://longwarindex.app/wargear/the_scythes_of_tyran/",
+     "pricing": "flat"
+    },
+    {
+     "id": "gestation_sac",
+     "name": "Gestation Sac",
+     "points": 30,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "gestation_sac"
+      }
+     ],
+     "page": 18,
+     "url": "https://longwarindex.app/wargear/gestation_sac/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_miasma_cannon",
+     "name": "The Miasma Cannon",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Venom Cannon or Heavy Venom Cannon for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "venom_cannon"
+        },
+        {
+         "kind": "weapon",
+         "id": "heavy_venom_cannon"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_miasma_cannon"
+        }
+       ]
+      }
+     ],
+     "page": 18,
+     "url": "https://longwarindex.app/wargear/the_miasma_cannon/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_reaper_of_obliterax",
+     "name": "The Reaper of Obliterax",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Bone Sword or Monstrous Bone Sword for this relic for 15pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "bonesword"
+        },
+        {
+         "kind": "weapon",
+         "id": "monstrous_bonesword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_reaper_of_obliterax"
+        }
+       ]
+      }
+     ],
+     "page": 18,
+     "url": "https://longwarindex.app/wargear/the_reaper_of_obliterax/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule in your army may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule in your army may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 23,
+   "url": "https://longwarindex.app/codex/tyranids/warlord_traits/",
+   "offered_by": {
+    "codex": "tyranids"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "any_of": [
+       {
+        "warlord": true
+       },
+       {
+        "rule": {
+         "rule": "codex/tyranids/special_rules/alpha_creature",
+         "name": "Alpha Creature",
+         "url": "https://longwarindex.app/special_rules/alpha_creature/"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "tyranids/warlord_traits"
+   },
+   "listed_by": [
+    {
+     "rule": "codex/tyranids/special_rules/alpha_creature",
+     "name": "Alpha Creature",
+     "url": "https://longwarindex.app/special_rules/alpha_creature/"
+    }
+   ],
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "alien_cunning",
+     "name": "Alien Cunning",
+     "page": 23,
+     "url": "https://longwarindex.app/warlord_traits/alien_cunning/",
+     "text": "If your army includes a model with this warlord trait, you can select up to 2 friendly Tyranid units in your army before deployment. They gain the Scout Special rule.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "heightened_senses",
+     "name": "Heightened Senses",
+     "page": 23,
+     "url": "https://longwarindex.app/warlord_traits/heightened_senses/",
+     "text": "A model with this Warlord trait can always set to Overwatch, even if it makes shooting attacks in the shooting phase. In addition, the unit gains the Night Vision special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/night_vision",
+       "name": "Night Vision",
+       "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+      }
+     ]
+    },
+    {
+     "id": "synaptic_linchpin",
+     "name": "Synaptic Linchpin",
+     "page": 23,
+     "url": "https://longwarindex.app/warlord_traits/synaptic_linchpin/",
+     "text": "Extend the range of the Synapse rule a model with this Warlord Trait by +6\". If they do not have the Synapse rule, they gain the Synapse special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/tyranids/special_rules/synapse",
+       "name": "Synapse",
+       "url": "https://longwarindex.app/special_rules/synapse/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "psychic_powers",
+   "kind": "psychic_powers",
+   "label": "Tyranid units with the Psyker (x) special rule may purchase Psychic Powers from the following Discipline:",
+   "printed": "Tyranid units with the Psyker (x) special rule may purchase Psychic Powers from the following Discipline:",
+   "page": 7,
+   "url": "https://longwarindex.app/codex/tyranids/powers/",
+   "offered_by": {
+    "codex": "tyranids"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     },
+     {
+      "keyword": "Tyranid"
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "catalyst",
+     "name": "Catalyst",
+     "page": 7,
+     "url": "https://longwarindex.app/powers/catalyst/",
+     "text": "When this power is cast, select a single friendly unit within 24\" of the Psyker, it gains the Feel No Pain (5+) special rule until the start of your next Shooting Phase.",
+     "points": 25,
+     "pricing": "flat"
+    },
+    {
+     "id": "dominion",
+     "name": "Dominion",
+     "page": 7,
+     "url": "https://longwarindex.app/powers/dominion/",
+     "text": "When this power is cast, All Tyranids on the battlefield count as being in Synapse for the purposes of the Synapse special rule until the Start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "onslaught",
+     "name": "Onslaught",
+     "page": 7,
+     "url": "https://longwarindex.app/powers/onslaught/",
+     "text": "When this power is cast, select a single friendly unit within 12\" of the Psyker. The target unit may Advance in the Movement Phase and Shoot its weapons in the Shooting Phase with -1 to hit rolls.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "paroxysm",
+     "name": "Paroxysm",
+     "page": 7,
+     "url": "https://longwarindex.app/powers/paroxysm/",
+     "text": "When this power is cast, select a single enemy unit within 18\" of the Psyker. That unit halves its Initiative (I) Characteristic until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "psychic_scream",
+     "name": "Psychic Scream",
+     "page": 7,
+     "url": "https://longwarindex.app/powers/psychic_scream/",
+     "text": "When this power is cast, each enemy units within 12\" of the Psyker take D6 Strength User, AP 5 Pinning automatic hits.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "the_horror",
+     "name": "The Horror",
+     "page": 7,
+     "url": "https://longwarindex.app/powers/the_horror/",
+     "text": "When this power is cast, select a single enemy unit within 18\" of the Psyker. That unit immediately makes a Pinning Test with -2 to its Leadership (LD) characteristic.",
+     "points": 5,
+     "pricing": "flat"
+    }
+   ]
+  }
+ ],
+ "army_settings": [
+  {
+   "id": "adaptive_physiology",
+   "name": "Adaptive Physiology",
+   "printed": "During army building when mustering your force, you may pick 1 of the below Adaptations. All units with the Adaptive Physiology Special rule gain the benefit of that Adaptation for the rest of the game:",
+   "page": 7,
+   "url": "https://longwarindex.app/codex/tyranids/adaptive_physiology/",
+   "offered_by": {
+    "codex": "tyranids"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "codex/tyranids/adaptive_physiology/adaptive_physiology",
+       "name": "Adaptive Physiology",
+       "url": "https://longwarindex.app/codex/tyranids/adaptive_physiology/"
+      }
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "options": [
+    {
+     "id": "adrenal_glands",
+     "name": "Adrenal Glands",
+     "page": 7,
+     "url": "https://longwarindex.app/adaptive_physiology/adrenal_glands/",
+     "text": "A unit with this Adaptation gains the Sprint (1) special rule. Units that already have the Sprint (x) special rule increase the value of (x) by 1.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/sprint",
+       "name": "Sprint",
+       "param": "1",
+       "url": "https://longwarindex.app/universal_special_rules/sprint/",
+       "raise_by": 1
+      }
+     ]
+    },
+    {
+     "id": "toxin_sacs",
+     "name": "Toxin Sacs",
+     "page": 7,
+     "url": "https://longwarindex.app/adaptive_physiology/toxin_sacs/",
+     "text": "All units with this Adaptation gain the Poison (4+) special rule on all weapons they are equipped with. If the unit already has the Poison (x) special rule this is increased by 1 to a max of Poison (3+).",
+     "points": 0,
+     "pricing": "flat",
+     "weapon_rules": [
+      {
+       "rule": {
+        "rule": "special_rules/poison",
+        "name": "Poison",
+        "param": "4+",
+        "url": "https://longwarindex.app/special_rules/poison/",
+        "raise_by": 1,
+        "max": "3+"
+       }
+      }
+     ]
+    },
+    {
+     "id": "caustic_blood",
+     "name": "Caustic Blood",
+     "page": 7,
+     "url": "https://longwarindex.app/adaptive_physiology/caustic_blood/",
+     "text": "When a unit with this adaptation is slain and the last model in the unit is removed from play, before that model is removed, all enemy units within 6\" take D3+(x) automatic hits where (x) is the models Wounds (W) characteristic. The Strength of the hit is equal to the removed units Toughness (T) characteristic. The AP is resolved at AP5.",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,833 @@
+{
+ "data_version": "375e8bb1250238c1",
+ "format": 1,
+ "faction": "harlequins",
+ "weapons": [
+  {
+   "id": "shuriken_pistol",
+   "name": "Shuriken Pistol",
+   "section": "armoury",
+   "subtype": "Shuriken Weapons",
+   "page": 8,
+   "url": "https://longwarindex.app/weapons/shuriken_pistol_harlequins/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "12\"",
+     "strength": "4",
+     "ap": "6",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "shuriken_catapult",
+   "name": "Shuriken Catapult",
+   "section": "armoury",
+   "subtype": "Shuriken Weapons",
+   "page": 8,
+   "url": "https://longwarindex.app/weapons/shuriken_catapult_harlequins/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "12\"",
+     "strength": "4",
+     "ap": "6",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "linked_shuriken_catapult",
+   "name": "Linked Shuriken Catapult",
+   "section": "armoury",
+   "subtype": "Shuriken Weapons",
+   "page": 8,
+   "url": "https://longwarindex.app/weapons/linked_shuriken_catapult_harlequins/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "12\"",
+     "strength": "4",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shuriken_cannon",
+   "name": "Shuriken Cannon",
+   "section": "armoury",
+   "subtype": "Shuriken Weapons",
+   "page": 8,
+   "url": "https://longwarindex.app/weapons/shuriken_cannon_harlequins/",
+   "profiles": [
+    {
+     "type": "Assault 3",
+     "range": "24\"",
+     "strength": "6",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shrieker_cannon",
+   "name": "Shrieker Cannon",
+   "section": "armoury",
+   "subtype": "Shuriken Weapons",
+   "page": 8,
+   "url": "https://longwarindex.app/weapons/shrieker_cannon/",
+   "profiles": [
+    {
+     "name": "Shrieker Cannon (Shuriken)",
+     "type": "Assault 3",
+     "range": "24\"",
+     "strength": "6",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    },
+    {
+     "name": "Shrieker Cannon (Shrieker)",
+     "type": "Assault 1",
+     "range": "24\"",
+     "strength": "6",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      },
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "2+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fusion_pistol",
+   "name": "Fusion Pistol",
+   "section": "armoury",
+   "subtype": "Fusion Weapons",
+   "page": 8,
+   "url": "https://longwarindex.app/weapons/fusion_pistol_harlequins/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "12\"",
+     "strength": "8",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/melta",
+       "name": "Melta",
+       "url": "https://longwarindex.app/special_rules/melta/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prismatic_cannon",
+   "name": "Prismatic Cannon",
+   "section": "armoury",
+   "subtype": "Laser Weapons",
+   "page": 8,
+   "url": "https://longwarindex.app/weapons/prismatic_cannon/",
+   "profiles": [
+    {
+     "name": "Prismatic Cannon (Dispersed)",
+     "type": "Heavy 1",
+     "range": "30\"",
+     "strength": "6",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    },
+    {
+     "name": "Prismatic Cannon (Focussed)",
+     "type": "Heavy 1",
+     "range": "30\"",
+     "strength": "8",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "phantasm_grenade",
+   "name": "Phantasm Grenade",
+   "section": "armoury",
+   "subtype": "Grenade Weapons",
+   "page": 9,
+   "url": "https://longwarindex.app/weapons/phantasm_grenade_harlequins/",
+   "profiles": [
+    {
+     "type": "Grenade 1",
+     "range": "12\"",
+     "strength": "-",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "haywire_grenade",
+   "name": "Haywire Grenade",
+   "section": "armoury",
+   "subtype": "Grenade Weapons",
+   "page": 9,
+   "url": "https://longwarindex.app/weapons/haywire_grenade_harlequins/",
+   "profiles": [
+    {
+     "type": "Grenade 1",
+     "range": "12\"",
+     "strength": "0",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "star_bolas",
+   "name": "Star Bolas",
+   "section": "armoury",
+   "subtype": "Grenade Weapons",
+   "page": 9,
+   "url": "https://longwarindex.app/weapons/star_bolas/",
+   "profiles": [
+    {
+     "type": "Grenade 1",
+     "range": "12\"",
+     "strength": "6",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "harlequins_embrace",
+   "name": "Harlequins Embrace",
+   "section": "armoury",
+   "subtype": "Monofilament Weapons",
+   "page": 9,
+   "url": "https://longwarindex.app/weapons/harlequins_embrace/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "codex/harlequins/special_rules/monofilament",
+       "name": "Monofilament",
+       "url": "https://longwarindex.app/special_rules/monofilament_harlequins/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "harlequins_kiss",
+   "name": "Harlequins Kiss",
+   "section": "armoury",
+   "subtype": "Monofilament Weapons",
+   "page": 9,
+   "url": "https://longwarindex.app/weapons/harlequins_kiss/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "codex/harlequins/special_rules/monofilament",
+       "name": "Monofilament",
+       "url": "https://longwarindex.app/special_rules/monofilament_harlequins/"
+      },
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "close_combat_weapon",
+   "name": "Close Combat Weapon",
+   "printed": {
+    "name": "Close Combat weapon"
+   },
+   "section": "armoury",
+   "subtype": "General Melee Weapons",
+   "page": 9,
+   "url": "https://longwarindex.app/weapons/close_combat_weapon_harlequins/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "-",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "eldar_crew_weapon",
+   "name": "Eldar Crew Weapon",
+   "printed": {
+    "name": "Eldar Crew weapon"
+   },
+   "section": "armoury",
+   "subtype": "General Melee Weapons",
+   "page": 9,
+   "url": "https://longwarindex.app/weapons/eldar_crew_weapon_harlequins/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "3",
+     "ap": "-",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "mist_stave",
+   "name": "Mist Stave",
+   "printed": {
+    "name": "Mist stave"
+   },
+   "section": "armoury",
+   "subtype": "General Melee Weapons",
+   "page": 9,
+   "url": "https://longwarindex.app/weapons/mist_stave/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/force",
+       "name": "Force",
+       "url": "https://longwarindex.app/special_rules/force/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "power_sword",
+   "name": "Power Sword",
+   "section": "armoury",
+   "subtype": "Power Weapons",
+   "page": 9,
+   "url": "https://longwarindex.app/weapons/power_sword_harlequins/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "harlequins_caress",
+   "name": "Harlequins Caress",
+   "section": "armoury",
+   "subtype": "Power Weapons",
+   "page": 9,
+   "url": "https://longwarindex.app/weapons/harlequins_caress/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zephyr_glaive",
+   "name": "Zephyr Glaive",
+   "section": "armoury",
+   "subtype": "Power Weapons",
+   "page": 9,
+   "url": "https://longwarindex.app/weapons/zephyr_glaive/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/two_handed",
+       "name": "Two-Handed",
+       "printed": "Two Handed",
+       "url": "https://longwarindex.app/special_rules/two_handed/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ghost_glaive",
+   "name": "Ghost Glaive",
+   "section": "armoury",
+   "subtype": "Power Weapons",
+   "page": 9,
+   "url": "https://longwarindex.app/weapons/ghost_glaive_harlequins/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "haywire_cannon",
+   "name": "Haywire Cannon",
+   "printed": {
+    "name": "Haywire cannon"
+   },
+   "section": "armoury",
+   "subtype": "Haywire Weapons",
+   "page": 10,
+   "url": "https://longwarindex.app/weapons/haywire_cannon_harlequins/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "24\"",
+     "strength": "6",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "neuro_disruptor",
+   "name": "Neuro Disruptor",
+   "section": "armoury",
+   "subtype": "Exotic Weapons",
+   "page": 10,
+   "url": "https://longwarindex.app/weapons/neuro_disruptor_harlequins/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "12\"",
+     "strength": "6",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "flamer",
+   "name": "Flamer",
+   "section": "armoury",
+   "subtype": "Flamer Weapons",
+   "page": 10,
+   "url": "https://longwarindex.app/weapons/flamer_harlequins/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "8\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aeldari_missile_launcher",
+   "name": "Aeldari Missile Launcher",
+   "section": "armoury",
+   "subtype": "Missile Weapons",
+   "page": 10,
+   "url": "https://longwarindex.app/weapons/aeldari_missile_launcher/",
+   "profiles": [
+    {
+     "name": "Aeldari Missile Launcher (Sunburst)",
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    },
+    {
+     "name": "Aeldari Missile Launcher (Starshot)",
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "melta_bomb",
+   "name": "Melta Bomb",
+   "section": "other",
+   "subtype": null,
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/melta_bomb_harlequins/",
+   "print_defect": "The book gives this attack in the text of the wargear Melta Bomb. It prints no weapon profile.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "8",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/melta",
+       "name": "Melta",
+       "url": "https://longwarindex.app/special_rules/melta/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cegorachs_rose",
+   "name": "Cegorach's Rose",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/cegorachs_rose/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Harlequins Kiss for this relic for 50pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "codex/harlequins/special_rules/monofilament",
+       "name": "Monofilament",
+       "printed": "Monofilament (See Monofilament)",
+       "url": "https://longwarindex.app/special_rules/monofilament_harlequins/"
+      },
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "2+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      },
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "crescendo",
+   "name": "Crescendo",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/crescendo/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Shuriken Pistol for this relic for 5pts.",
+   "profiles": [
+    {
+     "type": "Pistol 4",
+     "range": "12\"",
+     "strength": "4",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_storied_sword",
+   "name": "The Storied Sword",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_storied_sword/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 10pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/parry",
+       "name": "Parry",
+       "url": "https://longwarindex.app/special_rules/parry/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shards_of_light",
+   "name": "Shards of Light",
+   "section": "other",
+   "subtype": "Psychic Powers",
+   "page": 13,
+   "url": "https://longwarindex.app/powers/shards_of_light/",
+   "profiles": [
+    {
+     "type": "Assault 3D6",
+     "range": "18\"",
+     "strength": "3",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/blind",
+       "name": "Blind",
+       "url": "https://longwarindex.app/special_rules/blind/"
+      },
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "peal_of_discord",
+   "name": "Peal of Discord",
+   "section": "other",
+   "subtype": "Psychic Powers",
+   "page": 13,
+   "url": "https://longwarindex.app/powers/peal_of_discord/",
+   "profiles": [
+    {
+     "type": "Assault 2D6",
+     "range": "9\"",
+     "strength": "4",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

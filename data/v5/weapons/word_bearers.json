@@ -1,0 +1,325 @@
+{
+ "data_version": "821c61fb38303b8a",
+ "format": 1,
+ "faction": "word_bearers",
+ "weapons": [
+  {
+   "id": "tainted_power_sword",
+   "name": "Tainted Power Sword",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 4,
+   "url": "https://longwarindex.app/weapons/tainted_power_sword/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tainted_power_maul",
+   "name": "Tainted Power Maul",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 4,
+   "url": "https://longwarindex.app/weapons/tainted_power_maul/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "warp_fire_pistol",
+   "name": "Warp Fire Pistol",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 4,
+   "url": "https://longwarindex.app/weapons/warp_fire_pistol/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "12\"",
+     "strength": "6",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "warp_fire_gun",
+   "name": "Warp Fire Gun",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 4,
+   "url": "https://longwarindex.app/weapons/warp_fire_gun/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "6",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "warp_fire_blaster",
+   "name": "Warp Fire Blaster",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 4,
+   "url": "https://longwarindex.app/weapons/warp_fire_blaster/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "24\"",
+     "strength": "6",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "warp_fire_cannon",
+   "name": "Warp Fire Cannon",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 4,
+   "url": "https://longwarindex.app/weapons/warp_fire_cannon/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "36\"",
+     "strength": "6",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "axe_rake",
+   "name": "Axe-Rake",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 4,
+   "url": "https://longwarindex.app/weapons/axe_rake/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "warpshock",
+   "name": "Warpshock",
+   "section": "other",
+   "subtype": "Psychic Powers",
+   "page": 6,
+   "url": "https://longwarindex.app/powers/warpshock/",
+   "profiles": [
+    {
+     "type": "Assault 6",
+     "range": "18\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "coruscating_blaze",
+   "name": "Coruscating Blaze",
+   "section": "other",
+   "subtype": "Psychic Powers",
+   "page": 6,
+   "url": "https://longwarindex.app/powers/coruscating_blaze/",
+   "profiles": [
+    {
+     "type": "Assault D6",
+     "range": "18\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      },
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_cursed_crozius",
+   "name": "The Cursed Crozius",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_cursed_crozius/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Maul for this relic for 10pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "param": "Imperium",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "athame_dagger",
+   "name": "Athame Dagger",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/wargear/athame_dagger/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "digi_flamer",
+   "name": "Digi Flamer",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/wargear/digi_flamer/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "6\"",
+     "strength": "3",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

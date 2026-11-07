@@ -1,0 +1,2945 @@
+{
+ "data_version": "8c7f09290d0dc3d4",
+ "format": 1,
+ "faction": "harlequins",
+ "units": [
+  {
+   "id": "codex/harlequins/roster/death_jester",
+   "name": "Death Jester",
+   "page": 25,
+   "url": "https://longwarindex.app/roster/death_jester/",
+   "source": "Codex: Harlequins",
+   "role": "Elites",
+   "points": 75,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "death_jester",
+     "name": "Death Jester",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 6,
+      "S": 3,
+      "T": 3,
+      "W": 2,
+      "A": 2,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "-"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "holo_field"
+      },
+      {
+       "kind": "wargear",
+       "id": "flip_belt"
+      },
+      {
+       "kind": "wargear",
+       "id": "mirage_mask"
+      },
+      {
+       "kind": "weapon",
+       "id": "shuriken_pistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon"
+      },
+      {
+       "kind": "weapon",
+       "id": "shrieker_cannon"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "death_jester",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/harlequins/special_rules/rising_crescendo",
+     "name": "Rising Crescendo",
+     "url": "https://longwarindex.app/special_rules/rising_crescendo/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/she_who_thirsts",
+     "name": "She Who Thirsts",
+     "url": "https://longwarindex.app/special_rules/she_who_thirsts_harlequins/"
+    },
+    {
+     "rule": "universal_special_rules/fear",
+     "name": "Fear",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/fear/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/constant_performance",
+     "name": "Constant Performance",
+     "url": "https://longwarindex.app/special_rules/constant_performance/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/casting_call",
+     "name": "Casting Call",
+     "param": "X",
+     "url": "https://longwarindex.app/special_rules/casting_call/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/shadow_and_light",
+     "name": "Shadow & Light",
+     "url": "https://longwarindex.app/special_rules/shadow_and_light/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/soloist",
+     "name": "Soloist",
+     "url": "https://longwarindex.app/special_rules/soloist/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Eldar",
+    "Harlequin",
+    "Death Jester",
+    "[Masque]"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "upgrade",
+     "label": "A Death Jester may purchase one of the following:",
+     "printed": "A Death Jester may purchase one of the following:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "harvester_of_souls",
+       "name": "Harvester of Souls",
+       "points": 5,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/harlequins/special_rules/harvester_of_souls",
+         "name": "Harvester of Souls",
+         "url": "https://longwarindex.app/special_rules/harvester_of_souls/"
+        }
+       ]
+      },
+      {
+       "id": "rift_ghoul",
+       "name": "Rift Ghoul",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/harlequins/special_rules/rift_ghoul",
+         "name": "Rift Ghoul",
+         "url": "https://longwarindex.app/special_rules/rift_ghoul/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/harlequins/roster/harlequin_troupe",
+   "name": "Harlequin Troupe",
+   "page": 23,
+   "url": "https://longwarindex.app/roster/harlequin_troupe/",
+   "source": "Codex: Harlequins",
+   "role": "Troops",
+   "points": 215,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "trouper",
+     "name": "Trouper",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 3,
+      "T": 3,
+      "W": 2,
+      "A": 2,
+      "I": 5,
+      "Ld": 8,
+      "Sv": "-"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "holo_field"
+      },
+      {
+       "kind": "wargear",
+       "id": "flip_belt"
+      },
+      {
+       "kind": "wargear",
+       "id": "mirage_mask"
+      },
+      {
+       "kind": "weapon",
+       "id": "shuriken_pistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_sword"
+      },
+      {
+       "kind": "weapon",
+       "id": "haywire_grenade"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "trouper",
+     "count": 5
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/harlequins/special_rules/rising_crescendo",
+     "name": "Rising Crescendo",
+     "url": "https://longwarindex.app/special_rules/rising_crescendo/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/she_who_thirsts",
+     "name": "She Who Thirsts",
+     "url": "https://longwarindex.app/special_rules/she_who_thirsts_harlequins/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/casting_call",
+     "name": "Casting Call",
+     "param": "x",
+     "url": "https://longwarindex.app/special_rules/casting_call/"
+    },
+    {
+     "rule": "universal_special_rules/fear",
+     "name": "Fear",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/fear/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Eldar",
+    "Harlequin",
+    "Harlequin Troupe",
+    "[Masque]"
+   ],
+   "size": {
+    "min": 5,
+    "max": 10
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 5 Trouper models in this unit (+43pts each)",
+     "printed": "You may include an additional 5 Trouper models in this unit (+43pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "trouper",
+       "name": "Trouper",
+       "points": 43,
+       "pricing": "each",
+       "max": 5,
+       "add_model": {
+        "profile": "trouper",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "shuriken_pistol",
+     "label": "Any Trouper model may exchange its Shuriken Pistol for a:",
+     "printed": "Any Trouper model may exchange its [[Shuriken Pistol]] for a:",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "trouper"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "fusion_pistol",
+       "name": "Fusion Pistol",
+       "points": 15,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shuriken_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "fusion_pistol"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "neuro_disruptor",
+       "name": "Neuro Disruptor",
+       "points": 10,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shuriken_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "neuro_disruptor"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "power_sword",
+     "label": "One in every 5 Trouper models may exchange its Power Sword for one of the following:",
+     "printed": "One in every 5 Trouper models may exchange its [[Power Sword]] for one of the following:",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 5,
+       "rounding": "down"
+      },
+      "profiles": [
+       "trouper"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "harlequins_kiss",
+       "name": "Harlequins Kiss",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "harlequins_kiss"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "harlequins_embrace",
+       "name": "Harlequins Embrace",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "harlequins_embrace"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/harlequins/roster/harlequins_wraith_lord",
+   "name": "Harlequins Wraith Lord",
+   "page": 27,
+   "url": "https://longwarindex.app/roster/harlequins_wraith_lord/",
+   "source": "Codex: Harlequins",
+   "role": "Elites",
+   "points": 115,
+   "unit_type": "Automata",
+   "profiles": [
+    {
+     "id": "wraith_lord",
+     "name": "Wraith Lord",
+     "template": "unit",
+     "characteristics": {
+      "M": "5\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 6,
+      "T": 7,
+      "W": 4,
+      "A": 3,
+      "I": 4,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "wraithbone_plate"
+      },
+      {
+       "kind": "wargear",
+       "id": "holo_field"
+      },
+      {
+       "kind": "wargear",
+       "id": "flip_belt"
+      },
+      {
+       "kind": "wargear",
+       "id": "mirage_mask"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "count": 2
+      },
+      {
+       "kind": "weapon",
+       "id": "shuriken_catapult",
+       "count": 2
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "wraith_lord",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/harlequins/special_rules/rising_crescendo",
+     "name": "Rising Crescendo",
+     "url": "https://longwarindex.app/special_rules/rising_crescendo/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/she_who_thirsts",
+     "name": "She Who Thirsts",
+     "url": "https://longwarindex.app/special_rules/she_who_thirsts_harlequins/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/slow_and_purposeful",
+     "name": "Slow and Purposeful",
+     "printed": "Slow & Purposeful",
+     "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/fear",
+     "name": "Fear",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/fear/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/casting_call",
+     "name": "Casting Call",
+     "param": "Light",
+     "url": "https://longwarindex.app/special_rules/casting_call/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Eldar",
+    "Harlequin",
+    "Harlequin Wraith Lord",
+    "Wraith",
+    "[Masque]"
+   ],
+   "stocks": [
+    {
+     "item": {
+      "kind": "weapon",
+      "id": "shuriken_catapult"
+     },
+     "count": 2,
+     "groups": [
+      "shuriken_catapult"
+     ]
+    }
+   ],
+   "options": [
+    {
+     "id": "shuriken_catapult",
+     "label": "You may exchange any of the unit's equipped Shuriken Catapults for:",
+     "printed": "You may exchange any of the unit's equipped [[Shuriken Catapult|Shuriken Catapults]] for:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 2
+     },
+     "choices": [
+      {
+       "id": "flamer",
+       "name": "Flamers",
+       "points": 5,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shuriken_catapult"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "flamer"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "shuriken_catapult"
+        },
+        "count": 1
+       },
+       "max": 2
+      },
+      {
+       "id": "harlequins_kiss",
+       "name": "Harlequins Kiss",
+       "points": 15,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shuriken_catapult"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "harlequins_kiss"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "shuriken_catapult"
+        },
+        "count": 1
+       },
+       "max": 2
+      },
+      {
+       "id": "harlequins_embrace",
+       "name": "Harlequins Embrace",
+       "points": 10,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shuriken_catapult"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "harlequins_embrace"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "shuriken_catapult"
+        },
+        "count": 1
+       },
+       "max": 2
+      }
+     ]
+    },
+    {
+     "id": "ghost_glaive",
+     "label": "This unit may take a Ghost Glaive (+20pts)",
+     "printed": "This unit may take a [[Ghost Glaive]] (+20pts)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "ghost_glaive",
+       "name": "Ghost Glaive",
+       "points": 20,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "ghost_glaive"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "heavy_weapon",
+     "label": "This unit may take up to 2 of the following options:",
+     "printed": "This unit may take up to 2 of the following options:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 2
+     },
+     "choices": [
+      {
+       "id": "shuriken_cannon",
+       "name": "Shuriken Cannon",
+       "points": 10,
+       "pricing": "each",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "shuriken_cannon"
+        }
+       ],
+       "max": 2
+      },
+      {
+       "id": "haywire_cannon",
+       "name": "Haywire Cannon",
+       "points": 15,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "haywire_cannon"
+        }
+       ],
+       "max": 1
+      },
+      {
+       "id": "aeldari_missile_launcher",
+       "name": "Eldar Missile Launcher",
+       "points": 20,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "aeldari_missile_launcher",
+         "printed": "Eldar Missile Launcher"
+        }
+       ],
+       "max": 1
+      },
+      {
+       "id": "prismatic_cannon",
+       "name": "Prismatic Cannon",
+       "points": 25,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "prismatic_cannon"
+        }
+       ],
+       "max": 1
+      }
+     ]
+    },
+    {
+     "id": "psyker",
+     "label": "The unit may purchase the Psyker (1) & Deny the Witch special rules (+20pts)",
+     "printed": "The unit may purchase the [[Psyker (1)]] & [[Deny the Witch]] special rules (+20pts)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "psyker",
+       "name": "Psyker (1) & Deny the Witch",
+       "points": 20,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/psyker",
+         "name": "Psyker",
+         "param": "1",
+         "url": "https://longwarindex.app/universal_special_rules/psyker/"
+        },
+        {
+         "rule": "universal_special_rules/deny_the_witch",
+         "name": "Deny the Witch",
+         "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/harlequins/roster/mimes",
+   "name": "Mimes",
+   "page": 24,
+   "url": "https://longwarindex.app/roster/mimes/",
+   "source": "Codex: Harlequins",
+   "role": "Troops",
+   "points": 80,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "mimes",
+     "name": "Mimes",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "A": 1,
+      "I": 5,
+      "Ld": 7,
+      "Sv": "-"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "holo_field"
+      },
+      {
+       "kind": "wargear",
+       "id": "flip_belt"
+      },
+      {
+       "kind": "wargear",
+       "id": "mirage_mask"
+      },
+      {
+       "kind": "weapon",
+       "id": "shuriken_pistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon"
+      },
+      {
+       "kind": "weapon",
+       "id": "haywire_grenade"
+      },
+      {
+       "kind": "weapon",
+       "id": "phantasm_grenade"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "mimes",
+     "count": 3
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/harlequins/special_rules/rising_crescendo",
+     "name": "Rising Crescendo",
+     "url": "https://longwarindex.app/special_rules/rising_crescendo/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/she_who_thirsts",
+     "name": "She Who Thirsts",
+     "url": "https://longwarindex.app/special_rules/she_who_thirsts_harlequins/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/casting_call",
+     "name": "Casting Call",
+     "param": "x",
+     "url": "https://longwarindex.app/special_rules/casting_call/"
+    },
+    {
+     "rule": "universal_special_rules/fear",
+     "name": "Fear",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/fear/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/infiltrate",
+     "name": "Infiltrate",
+     "url": "https://longwarindex.app/universal_special_rules/infiltrate/"
+    },
+    {
+     "rule": "universal_special_rules/support_squad",
+     "name": "Support Squad",
+     "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Eldar",
+    "Harlequin",
+    "Harlequin Troupe",
+    "[Masque]"
+   ],
+   "size": {
+    "min": 3,
+    "max": 9
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 6 Mime models in this unit (+22pts each)",
+     "printed": "You may include an additional 6 Mime models in this unit (+22pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "mimes",
+       "name": "Mimes",
+       "points": 22,
+       "pricing": "each",
+       "max": 6,
+       "add_model": {
+        "profile": "mimes",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "shuriken_pistol",
+     "label": "Any Mime model may exchange its Shuriken Pistol for a:",
+     "printed": "Any Mime model may exchange its [[Shuriken Pistol]] for a:",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "mimes"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "fusion_pistol",
+       "name": "Fusion Pistol",
+       "points": 15,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shuriken_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "fusion_pistol"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "neuro_disruptor",
+       "name": "Neuro Disruptor",
+       "points": 10,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shuriken_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "neuro_disruptor"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "close_combat_weapon",
+     "label": "One in every 3 Mime models may exchange its Close Combat Weapon for one of the following:",
+     "printed": "One in every 3 Mime models may exchange its [[Close Combat Weapon]] for one of the following:",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 3,
+       "rounding": "down"
+      },
+      "profiles": [
+       "mimes"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "harlequins_kiss",
+       "name": "Harlequins Kiss",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "harlequins_kiss"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "harlequins_embrace",
+       "name": "Harlequins Embrace",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "harlequins_embrace"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/harlequins/roster/shadowseer",
+   "name": "Shadowseer",
+   "page": 22,
+   "url": "https://longwarindex.app/roster/shadowseer/",
+   "source": "Codex: Harlequins",
+   "role": "HQ",
+   "points": 85,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "shadowseer",
+     "name": "Shadowseer",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 6,
+      "S": 3,
+      "T": 3,
+      "W": 2,
+      "A": 2,
+      "I": 5,
+      "Ld": 9,
+      "Sv": "-"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "holo_field"
+      },
+      {
+       "kind": "wargear",
+       "id": "flip_belt"
+      },
+      {
+       "kind": "wargear",
+       "id": "mirage_mask"
+      },
+      {
+       "kind": "weapon",
+       "id": "shuriken_pistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "mist_stave"
+      },
+      {
+       "kind": "weapon",
+       "id": "phantasm_grenade"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "shadowseer",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/harlequins/special_rules/rising_crescendo",
+     "name": "Rising Crescendo",
+     "url": "https://longwarindex.app/special_rules/rising_crescendo/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/she_who_thirsts",
+     "name": "She Who Thirsts",
+     "url": "https://longwarindex.app/special_rules/she_who_thirsts_harlequins/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "universal_special_rules/deny_the_witch",
+     "name": "Deny the Witch",
+     "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+    },
+    {
+     "rule": "universal_special_rules/fear",
+     "name": "Fear",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/fear/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/shadow_and_light",
+     "name": "Shadow & Light",
+     "url": "https://longwarindex.app/special_rules/shadow_and_light/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/casting_call",
+     "name": "Casting Call",
+     "param": "X",
+     "url": "https://longwarindex.app/special_rules/casting_call/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Eldar",
+    "Harlequin",
+    "Psyker",
+    "Shadowseer",
+    "Character",
+    "[Masque]"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "shuriken_pistol",
+     "label": "The Shadowseer may exchange its Shuriken Pistol for a:",
+     "printed": "The Shadowseer may exchange its [[Shuriken Pistol]] for a:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "fusion_pistol",
+       "name": "Fusion Pistol",
+       "points": 15,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shuriken_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "fusion_pistol"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "neuro_disruptor",
+       "name": "Neuro Disruptor",
+       "points": 10,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shuriken_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "neuro_disruptor"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "upgrade",
+     "label": "The Shadowseer may purchase one of the following:",
+     "printed": "The Shadowseer may purchase one of the following:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "agent_of_pandemonium",
+       "name": "Agent of Pandemonium",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/harlequins/special_rules/agent_of_pandemonium",
+         "name": "Agent of Pandemonium",
+         "url": "https://longwarindex.app/special_rules/agent_of_pandemonium/"
+        }
+       ]
+      },
+      {
+       "id": "gloomspider",
+       "name": "Gloomspider",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/harlequins/special_rules/gloomspider",
+         "name": "Gloomspider",
+         "url": "https://longwarindex.app/special_rules/gloomspider/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/harlequins/roster/sky_spinners",
+   "name": "Sky Spinners",
+   "page": 31,
+   "url": "https://longwarindex.app/roster/sky_spinners/",
+   "source": "Codex: Harlequins",
+   "role": "Fast Attack",
+   "points": 160,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "sky_spinner",
+     "name": "Sky Spinner",
+     "template": "unit",
+     "characteristics": {
+      "M": "14\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 3,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 5,
+      "Ld": 8,
+      "Sv": "-"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "holo_field"
+      },
+      {
+       "kind": "wargear",
+       "id": "flip_belt"
+      },
+      {
+       "kind": "wargear",
+       "id": "mirage_mask"
+      },
+      {
+       "kind": "weapon",
+       "id": "shuriken_pistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_sword"
+      },
+      {
+       "kind": "weapon",
+       "id": "haywire_grenade"
+      },
+      {
+       "kind": "wargear",
+       "id": "jetbike"
+      },
+      {
+       "kind": "weapon",
+       "id": "linked_shuriken_catapult"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "sky_spinner",
+     "count": 3
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/harlequins/special_rules/rising_crescendo",
+     "name": "Rising Crescendo",
+     "url": "https://longwarindex.app/special_rules/rising_crescendo/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/she_who_thirsts",
+     "name": "She Who Thirsts",
+     "url": "https://longwarindex.app/special_rules/she_who_thirsts_harlequins/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/casting_call",
+     "name": "Casting Call",
+     "param": "x",
+     "url": "https://longwarindex.app/special_rules/casting_call/"
+    },
+    {
+     "rule": "universal_special_rules/hit_and_run",
+     "name": "Hit & Run",
+     "url": "https://longwarindex.app/universal_special_rules/hit_and_run/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Eldar",
+    "Harlequin",
+    "Harlequin Troupe",
+    "[Masque]"
+   ],
+   "size": {
+    "min": 3,
+    "max": 6
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 3 Sky Spinner models in this unit (+53pts each)",
+     "printed": "You may include an additional 3 Sky Spinner models in this unit (+53pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "sky_spinner",
+       "name": "Sky Spinner",
+       "points": 53,
+       "pricing": "each",
+       "max": 3,
+       "add_model": {
+        "profile": "sky_spinner",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "shuriken_pistol",
+     "label": "Any Sky Spinner model may exchange its Shuriken Pistol for a:",
+     "printed": "Any Sky Spinner model may exchange its [[Shuriken Pistol]] for a:",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "sky_spinner"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "fusion_pistol",
+       "name": "Fusion Pistol",
+       "points": 15,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shuriken_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "fusion_pistol"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "neuro_disruptor",
+       "name": "Neuro Disruptor",
+       "points": 10,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shuriken_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "neuro_disruptor"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "power_sword",
+     "label": "One in every 3 Sky Spinner models may exchange its Power Sword for one of the following:",
+     "printed": "One in every 3 Sky Spinner models may exchange its [[Power Sword]] for one of the following:",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 3,
+       "rounding": "down"
+      },
+      "profiles": [
+       "sky_spinner"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "harlequins_kiss",
+       "name": "Harlequins Kiss",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "harlequins_kiss"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "harlequins_embrace",
+       "name": "Harlequins Embrace",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "harlequins_embrace"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/harlequins/roster/sky_weavers",
+   "name": "Sky Weavers",
+   "page": 30,
+   "url": "https://longwarindex.app/roster/sky_weavers/",
+   "source": "Codex: Harlequins",
+   "role": "Fast Attack",
+   "points": 205,
+   "unit_type": "Jetbike",
+   "profiles": [
+    {
+     "id": "sky_weavers",
+     "name": "Sky Weavers",
+     "template": "unit",
+     "characteristics": {
+      "M": "14\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 3,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 8,
+      "Sv": "-"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon"
+      },
+      {
+       "kind": "wargear",
+       "id": "skyweaver_jetbike"
+      },
+      {
+       "kind": "weapon",
+       "id": "shuriken_cannon"
+      },
+      {
+       "kind": "weapon",
+       "id": "star_bolas"
+      },
+      {
+       "kind": "wargear",
+       "id": "holo_field"
+      },
+      {
+       "kind": "wargear",
+       "id": "mirage_mask"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "sky_weavers",
+     "count": 3
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/harlequins/special_rules/rising_crescendo",
+     "name": "Rising Crescendo",
+     "url": "https://longwarindex.app/special_rules/rising_crescendo/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/she_who_thirsts",
+     "name": "She Who Thirsts",
+     "url": "https://longwarindex.app/special_rules/she_who_thirsts_harlequins/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/hit_and_run",
+     "name": "Hit & Run",
+     "url": "https://longwarindex.app/universal_special_rules/hit_and_run/"
+    },
+    {
+     "rule": "universal_special_rules/fear",
+     "name": "Fear",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/fear/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/casting_call",
+     "name": "Casting Call",
+     "param": "x",
+     "url": "https://longwarindex.app/special_rules/casting_call/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Eldar",
+    "Harlequin",
+    "Sky Weavers",
+    "[Masque]"
+   ],
+   "size": {
+    "min": 3,
+    "max": 9
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 6 Sky Weaver models in this unit (+68pts each)",
+     "printed": "You may include an additional 6 Sky Weaver models in this unit (+68pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "sky_weavers",
+       "name": "Sky Weavers",
+       "points": 68,
+       "pricing": "each",
+       "max": 6,
+       "add_model": {
+        "profile": "sky_weavers",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "shuriken_cannon",
+     "label": "Any model in the unit may exchange its Shuriken Cannon for a Haywire Cannon (+5pts)",
+     "printed": "Any model in the unit may exchange its [[Shuriken Cannon]] for a [[Haywire Cannon]] (+5pts)",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "haywire_cannon",
+       "name": "Haywire Cannon",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shuriken_cannon"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "haywire_cannon"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "star_bolas",
+     "label": "Any model in the unit may exchange its Star Bolas for a Zephyr Glaive (+5pts)",
+     "printed": "Any model in the unit may exchange its [[Star Bolas]] for a [[Zephyr Glaive]] (+5pts)",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "zephyr_glaive",
+       "name": "Zephyr Glaive",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "star_bolas"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "zephyr_glaive"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/harlequins/roster/solitaire",
+   "name": "Solitaire",
+   "page": 28,
+   "url": "https://longwarindex.app/roster/solitaire/",
+   "source": "Codex: Harlequins",
+   "role": "Elites",
+   "points": 160,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "solitaire",
+     "name": "Solitaire",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 8,
+      "BS": 6,
+      "S": 3,
+      "T": 3,
+      "W": 3,
+      "A": 3,
+      "I": 6,
+      "Ld": 10,
+      "Sv": "-"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "holo_field"
+      },
+      {
+       "kind": "wargear",
+       "id": "flip_belt"
+      },
+      {
+       "kind": "wargear",
+       "id": "mirage_mask"
+      },
+      {
+       "kind": "weapon",
+       "id": "harlequins_kiss"
+      },
+      {
+       "kind": "weapon",
+       "id": "harlequins_caress"
+      },
+      {
+       "kind": "weapon",
+       "id": "haywire_grenade"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "solitaire",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/harlequins/special_rules/rising_crescendo",
+     "name": "Rising Crescendo",
+     "url": "https://longwarindex.app/special_rules/rising_crescendo/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/she_who_thirsts",
+     "name": "She Who Thirsts",
+     "url": "https://longwarindex.app/special_rules/she_who_thirsts_harlequins/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/blitz",
+     "name": "Blitz",
+     "url": "https://longwarindex.app/special_rules/blitz/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/casting_call",
+     "name": "Casting Call",
+     "param": "Dark",
+     "url": "https://longwarindex.app/special_rules/casting_call/"
+    },
+    {
+     "rule": "universal_special_rules/fear",
+     "name": "Fear",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/fear/"
+    },
+    {
+     "rule": "universal_special_rules/deny_the_witch",
+     "name": "Deny the Witch",
+     "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/soloist",
+     "name": "Soloist",
+     "url": "https://longwarindex.app/special_rules/soloist/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limited: 1 per Detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Eldar",
+    "Harlequin",
+    "Solitaire",
+    "[Masque]"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "upgrade",
+     "label": "The Solitaire may purchase one of the following:",
+     "printed": "The Solitaire may purchase one of the following:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "prince_of_sins",
+       "name": "Prince of Sins",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/harlequins/special_rules/prince_of_sins",
+         "name": "Prince of Sins",
+         "url": "https://longwarindex.app/special_rules/prince_of_sins/"
+        }
+       ]
+      },
+      {
+       "id": "spectre_of_despair",
+       "name": "Spectre of Despair",
+       "points": 35,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/harlequins/special_rules/spectre_of_despair",
+         "name": "Spectre of Despair",
+         "url": "https://longwarindex.app/special_rules/spectre_of_despair/"
+        }
+       ]
+      },
+      {
+       "id": "thirsting_darkness",
+       "name": "Thirsting Darkness",
+       "points": 20,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/harlequins/special_rules/thirsting_darkness",
+         "name": "Thirsting Darkness",
+         "url": "https://longwarindex.app/special_rules/thirsting_darkness/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/harlequins/roster/star_weaver",
+   "name": "Star Weaver",
+   "page": 29,
+   "url": "https://longwarindex.app/roster/star_weaver/",
+   "source": "Codex: Harlequins",
+   "role": "Dedicated Transport",
+   "points": 75,
+   "unit_type": "Cavalry",
+   "profiles": [
+    {
+     "id": "star_weaver",
+     "name": "Star Weaver",
+     "template": "transport",
+     "characteristics": {
+      "M": "14\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 5,
+      "T": 5,
+      "W": 4,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+",
+      "Transport Capacity": 6
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "light_weight_plating"
+      },
+      {
+       "kind": "weapon",
+       "id": "shuriken_cannon",
+       "count": 2
+      },
+      {
+       "kind": "wargear",
+       "id": "holo_field"
+      },
+      {
+       "kind": "weapon",
+       "id": "eldar_crew_weapon"
+      },
+      {
+       "kind": "wargear",
+       "id": "vectored_engines"
+      },
+      {
+       "kind": "wargear",
+       "id": "star_engines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "star_weaver",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/harlequins/special_rules/she_who_thirsts",
+     "name": "She Who Thirsts",
+     "url": "https://longwarindex.app/special_rules/she_who_thirsts_harlequins/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/transport_star_weaver",
+     "name": "Transport (Star Weaver)",
+     "printed": "Transport",
+     "url": "https://longwarindex.app/special_rules/transport_star_weaver/"
+    },
+    {
+     "rule": "universal_special_rules/assault_vehicle",
+     "name": "Assault Vehicle",
+     "url": "https://longwarindex.app/universal_special_rules/assault_vehicle/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Eldar",
+    "Harlequin",
+    "Star Weaver",
+    "Transport",
+    "[Masque]"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/harlequins/roster/troupe_master",
+   "name": "Troupe Master",
+   "page": 21,
+   "url": "https://longwarindex.app/roster/troupe_master/",
+   "source": "Codex: Harlequins",
+   "role": "HQ",
+   "points": 70,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "troupe_master",
+     "name": "Troupe Master",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 7,
+      "BS": 7,
+      "S": 3,
+      "T": 3,
+      "W": 3,
+      "A": 3,
+      "I": 6,
+      "Ld": 10,
+      "Sv": "-"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "holo_field"
+      },
+      {
+       "kind": "wargear",
+       "id": "flip_belt"
+      },
+      {
+       "kind": "wargear",
+       "id": "mirage_mask"
+      },
+      {
+       "kind": "weapon",
+       "id": "shuriken_pistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_sword"
+      },
+      {
+       "kind": "weapon",
+       "id": "haywire_grenade"
+      }
+     ]
+    },
+    {
+     "id": "troupe_master_on_jetbike",
+     "name": "Troupe Master on Jetbike",
+     "template": "unit",
+     "characteristics": {
+      "M": "14\"",
+      "WS": 7,
+      "BS": 7,
+      "S": 3,
+      "T": 4,
+      "W": 3,
+      "A": 3,
+      "I": 6,
+      "Ld": 10,
+      "Sv": "-"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "holo_field"
+      },
+      {
+       "kind": "wargear",
+       "id": "flip_belt"
+      },
+      {
+       "kind": "wargear",
+       "id": "mirage_mask"
+      },
+      {
+       "kind": "weapon",
+       "id": "shuriken_pistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_sword"
+      },
+      {
+       "kind": "weapon",
+       "id": "haywire_grenade"
+      }
+     ],
+     "counts_items": [
+      {
+       "kind": "wargear",
+       "id": "jetbike"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "troupe_master",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/harlequins/special_rules/rising_crescendo",
+     "name": "Rising Crescendo",
+     "url": "https://longwarindex.app/special_rules/rising_crescendo/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/she_who_thirsts",
+     "name": "She Who Thirsts",
+     "url": "https://longwarindex.app/special_rules/she_who_thirsts_harlequins/"
+    },
+    {
+     "rule": "universal_special_rules/fear",
+     "name": "Fear",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/fear/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/casting_call",
+     "name": "Casting Call",
+     "param": "x",
+     "url": "https://longwarindex.app/special_rules/casting_call/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limit: 1 Per Detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Eldar",
+    "Harlequin",
+    "Troupe Master",
+    "[Masque]"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "shuriken_pistol",
+     "label": "The Troupe Master may exchange its Shuriken Pistol for a:",
+     "printed": "The Troupe Master may exchange its [[Shuriken Pistol]] for a:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "fusion_pistol",
+       "name": "Fusion Pistol",
+       "points": 15,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shuriken_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "fusion_pistol"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "neuro_disruptor",
+       "name": "Neuro Disruptor",
+       "points": 10,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shuriken_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "neuro_disruptor"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "power_sword",
+     "label": "The Troupe Master may exchange its Power Sword for any of the following:",
+     "printed": "The Troupe Master may exchange its [[Power Sword]] for any of the following:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "harlequins_kiss",
+       "name": "Harlequins Kiss",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "harlequins_kiss"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "harlequins_embrace",
+       "name": "Harlequins Embrace",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "harlequins_embrace"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "zephyr_glaive",
+       "name": "Zephyr Glaive",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "zephyr_glaive"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "jetbike",
+     "label": "The Troupe Master may take a Jetbike (+10pts)",
+     "printed": "The Troupe Master may take a [[Jetbike]] (+10pts)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "jetbike",
+       "name": "Jetbike",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "jetbike"
+        }
+       ],
+       "profile": "troupe_master_on_jetbike"
+      }
+     ]
+    },
+    {
+     "id": "upgrade",
+     "label": "The Troupe Master may be upgraded to be one of the following:",
+     "printed": "The Troupe Master may be upgraded to be one of the following:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "the_prince_of_light",
+       "name": "The Prince of Light",
+       "points": 15,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/harlequins/special_rules/the_prince_of_light",
+         "name": "The Prince of Light",
+         "url": "https://longwarindex.app/special_rules/the_prince_of_light/"
+        }
+       ]
+      },
+      {
+       "id": "the_queen_of_shards",
+       "name": "The Queen of Shards",
+       "points": 5,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/harlequins/special_rules/the_queen_of_shards",
+         "name": "The Queen of Shards",
+         "url": "https://longwarindex.app/special_rules/the_queen_of_shards/"
+        }
+       ]
+      },
+      {
+       "id": "the_veiled_king",
+       "name": "The Veiled King",
+       "points": 20,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/harlequins/special_rules/the_veiled_king",
+         "name": "The Veiled King",
+         "url": "https://longwarindex.app/special_rules/the_veiled_king/"
+        }
+       ]
+      },
+      {
+       "id": "the_great_harlequin",
+       "name": "The Great Harlequin",
+       "points": 20,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/harlequins/special_rules/the_great_harlequin",
+         "name": "The Great Harlequin",
+         "url": "https://longwarindex.app/special_rules/the_great_harlequin/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/harlequins/roster/void_weaver",
+   "name": "Void Weaver",
+   "page": 32,
+   "url": "https://longwarindex.app/roster/void_weaver/",
+   "source": "Codex: Harlequins",
+   "role": "Heavy Support",
+   "points": 85,
+   "unit_type": "Cavalry",
+   "profiles": [
+    {
+     "id": "void_weaver",
+     "name": "Void Weaver",
+     "template": "transport",
+     "characteristics": {
+      "M": "14\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 5,
+      "T": 5,
+      "W": 4,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+",
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "light_weight_plating"
+      },
+      {
+       "kind": "weapon",
+       "id": "shuriken_cannon",
+       "count": 2
+      },
+      {
+       "kind": "weapon",
+       "id": "haywire_cannon",
+       "count": 1
+      },
+      {
+       "kind": "wargear",
+       "id": "holo_field"
+      },
+      {
+       "kind": "weapon",
+       "id": "eldar_crew_weapon"
+      },
+      {
+       "kind": "wargear",
+       "id": "vectored_engines"
+      },
+      {
+       "kind": "wargear",
+       "id": "star_engines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "void_weaver",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "name": "Allegiance: Harlequins"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/she_who_thirsts",
+     "name": "She Who Thirsts",
+     "url": "https://longwarindex.app/special_rules/she_who_thirsts_harlequins/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Eldar",
+    "Harlequin",
+    "Void Weaver",
+    "Transport",
+    "[Masque]"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "haywire_cannon",
+     "label": "This unit may exchange its Haywire Cannon for a Prismatic Cannon (+15pts)",
+     "printed": "This unit may exchange its [[Haywire Cannon]] for a [[Prismatic Cannon]] (+15pts)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "prismatic_cannon",
+       "name": "Prismatic Cannon",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "haywire_cannon"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "prismatic_cannon"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/harlequins/roster/war_weaver",
+   "name": "War Weaver",
+   "page": 26,
+   "url": "https://longwarindex.app/roster/war_weaver/",
+   "source": "Codex: Harlequins",
+   "role": "Elites",
+   "points": 90,
+   "unit_type": "Walker",
+   "profiles": [
+    {
+     "id": "war_walker",
+     "name": "War Walker",
+     "template": "unit",
+     "characteristics": {
+      "M": "8\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 5,
+      "T": 5,
+      "W": 4,
+      "A": 3,
+      "I": 5,
+      "Ld": 6,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "light_weight_plating"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon"
+      },
+      {
+       "kind": "wargear",
+       "id": "holo_field"
+      },
+      {
+       "kind": "weapon",
+       "id": "shuriken_cannon",
+       "count": 2
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "war_walker",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/harlequins/special_rules/rising_crescendo",
+     "name": "Rising Crescendo",
+     "url": "https://longwarindex.app/special_rules/rising_crescendo/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/she_who_thirsts",
+     "name": "She Who Thirsts",
+     "url": "https://longwarindex.app/special_rules/she_who_thirsts_harlequins/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/scout",
+     "name": "Scout",
+     "url": "https://longwarindex.app/universal_special_rules/scout/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/casting_call",
+     "name": "Casting Call",
+     "param": "x",
+     "url": "https://longwarindex.app/special_rules/casting_call/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Eldar",
+    "Harlequins",
+    "War Weaver",
+    "[Masque]"
+   ],
+   "stocks": [
+    {
+     "item": {
+      "kind": "weapon",
+      "id": "shuriken_cannon"
+     },
+     "count": 2,
+     "groups": [
+      "shuriken_cannon"
+     ]
+    }
+   ],
+   "options": [
+    {
+     "id": "shuriken_cannon",
+     "label": "This unit may exchange any of its Shuriken Cannon for one of the following:",
+     "printed": "This unit may exchange any of its [[Shuriken Cannon|Shuriken Cannons]] for one of the following:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 2
+     },
+     "choices": [
+      {
+       "id": "haywire_cannon",
+       "name": "Haywire Cannon",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shuriken_cannon"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "haywire_cannon"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "shuriken_cannon"
+        },
+        "count": 1
+       },
+       "max": 2
+      },
+      {
+       "id": "aeldari_missile_launcher",
+       "name": "Eldar Missile Launcher",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shuriken_cannon"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "aeldari_missile_launcher",
+           "printed": "Eldar Missile Launcher"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "shuriken_cannon"
+        },
+        "count": 1
+       },
+       "max": 2
+      },
+      {
+       "id": "prismatic_cannon",
+       "name": "Prismatic Cannon",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shuriken_cannon"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "prismatic_cannon"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "shuriken_cannon"
+        },
+        "count": 1
+       },
+       "max": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/harlequins/roster/webway_gate",
+   "name": "Webway Gate",
+   "page": 33,
+   "url": "https://longwarindex.app/roster/webway_gate_harlequins/",
+   "source": "Codex: Harlequins",
+   "role": "Fortification",
+   "points": 45,
+   "unit_type": "Fortification",
+   "profiles": [
+    {
+     "id": "webway_gate",
+     "name": "Webway Gate",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "0\"",
+      "WS": 0,
+      "BS": 0,
+      "S": 6,
+      "Front": 10,
+      "Side": 10,
+      "Rear": 10,
+      "A": 0,
+      "I": 0,
+      "Ld": 0,
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "mirage_field"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "webway_gate",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/harlequins/special_rules/hidden_webways",
+     "name": "Hidden Webways",
+     "url": "https://longwarindex.app/special_rules/hidden_webways_harlequins/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/linked_gates",
+     "name": "Linked Gates",
+     "url": "https://longwarindex.app/special_rules/linked_gates_harlequins/"
+    },
+    {
+     "rule": "codex/harlequins/special_rules/gate_from_beyond",
+     "name": "Gate from Beyond",
+     "url": "https://longwarindex.app/special_rules/gate_from_beyond_harlequins/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Eldar",
+    "Craftworld Eldar",
+    "Mercenary",
+    "Webway Gate"
+   ],
+   "stocks": [],
+   "options": []
+  }
+ ]
+}

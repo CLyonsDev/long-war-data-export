@@ -1,0 +1,166 @@
+{
+ "data_version": "d2ced1e638188663",
+ "format": 1,
+ "faction": "alpha_legion",
+ "special_rules": [
+  {
+   "id": "codex/alpha_legion/allegiances/allegiance_alpha_legion",
+   "name": "Allegiance: Alpha Legion",
+   "kind": "allegiance",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_alpha_legion/",
+   "references": [
+    "universal_special_rules/bulky",
+    "universal_special_rules/infiltrate",
+    "universal_special_rules/character"
+   ],
+   "text": "All units with the Alpha Legion Keyword gain the Allegiance: Alpha Legion special rule. The Allegiance: Alpha Legion special rule consists of the following rules:\n\n- We are Legion:\n    - Legionnaire Squads, Chosen Squads, Chaos Champions and Chaos Lords that do not have the Bulky (x) special rule, Bike type, Cavalry type or Terminator keyword gain the Infiltrate special rule.\n    - When an Alpha Legion Warlord would be slain, immediately select another unit in your army with the Character special rule to become your Warlord. The new Warlord immediately generates a new Warlord Trait. You do not count as having your Warlord slain unless all eligible Alpha Legion units in your army have been slain.\n- Shadow Operations:\n    - Alpha Legion units in your army may not take Marks of Chaos.\n    - An Alpha Legion army must include more Infantry type units than Vehicle type units."
+  },
+  {
+   "id": "codex/alpha_legion/special_rules/armoury_of_the_20th_legion",
+   "name": "Armoury of the 20th Legion",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_20th_legion/",
+   "references": [
+    "codex/alpha_legion/allegiances/allegiance_alpha_legion"
+   ],
+   "text": "Units with Allegiance: Alpha Legion have access to additional wargear presented in this supplement in addition to the war gear presented in the core Codex Chaos Space Marines.\n\nWargear\n\n- Vox Caster.\n- Med-Kit.\n- Flak Armour.\n- Carapace Armour.\n\nWeapons\n\nAny Alpha Legion model may:\n\n- Exchange their equipped Boltgun for a Banestrike Boltgun for 3pts.\n- Exchange their equipped Combi-Bolter for a Combi Banestrike Bolter for 3pts.\n\nAny Alpha Legion model may:\n\n- Exchange their equipped Power Sword for a Venom Blade for 3pts.\n- Exchange their equipped Power Lance for a Venom Lance for 3pts.\n- Exchange their equipped Power Axe for a Venom Axe for 3pts.\n\nAny Alpha Legion model may exchange their equipped Frag Grenades for Venom Spheres for 0pts.\n\nAny Alpha Legion model may exchange their Close Combat Weapon for a Power Dagger for 5pts."
+  },
+  {
+   "id": "codex/alpha_legion/special_rules/assassins_eye",
+   "name": "Assassin's Eye",
+   "kind": "datasheet",
+   "page": 16,
+   "url": "https://longwarindex.app/special_rules/assassins_eye/",
+   "text": "This model is never affected by any modifiers to its Shooting Attacks. This includes 8.2.1 - Snap Shots and Psychic Powers or special rules which would otherwise modify the hit roll of this model."
+  },
+  {
+   "id": "codex/alpha_legion/special_rules/cult_harbinger",
+   "name": "Cult Harbinger",
+   "kind": "warlord_trait",
+   "page": 14,
+   "url": "https://longwarindex.app/special_rules/cult_harbinger/",
+   "text": "If Arkos, the Faithless is your Warlord, you may include units from Codex - Renegades & Heretics in your Primary Detachment.",
+   "effects": {
+    "list_building": {
+     "opens": [
+      {
+       "faction": "renegades_and_heretics"
+      }
+     ],
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/alpha_legion/roster/lord_arkos_the_faithless"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/alpha_legion/special_rules/forward_agent",
+   "name": "Forward Agent",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/forward_agent/",
+   "text": "A model with this special rule may be deployed anywhere on the Battlefield outside of 3\" of any enemy models. This unit cannot be targeted by enemy attacks in any phase, may not be targeted for Psychic Powers and cannot be declared the target of a Charge until it has made a Shooting Attack or a Charge for the first time in the battle. After this unit has performed its first Shooting Attack or declared a Charge against an enemy unit for the first time it may be targeted as normal."
+  },
+  {
+   "id": "codex/alpha_legion/special_rules/harrowmaster_of_the_ghost_legion",
+   "name": "Harrowmaster of the Ghost Legion",
+   "kind": "warlord_trait",
+   "page": 15,
+   "url": "https://longwarindex.app/special_rules/harrowmaster_of_the_ghost_legion/",
+   "text": "If Solomon Akurra is your Warlord, you may include units from Codex - Imperial Agents in your Primary Detachment that do not have the Space Marine keyword.",
+   "effects": {
+    "list_building": {
+     "opens": [
+      {
+       "faction": "imperial_agents",
+       "conditions": [
+        {
+         "not": {
+          "keyword": "Space Marine"
+         }
+        }
+       ]
+      }
+     ],
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/alpha_legion/roster/solomon_akurra"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/alpha_legion/special_rules/lone_killer",
+   "name": "Lone Killer",
+   "kind": "datasheet",
+   "page": 16,
+   "url": "https://longwarindex.app/special_rules/lone_killer/",
+   "references": [
+    "universal_special_rules/character"
+   ],
+   "text": "This unit may not be your Warlord unless there are no other units with the Character special rule in your army. This unit may not join units. This unit may not be targeted for Shooting Attacks unless it is the closest visible enemy model in the Shooting Phase.",
+   "effects": {
+    "list_building": {
+     "warlord_forbidden_while": {
+      "any_rules": [
+       "universal_special_rules/character"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "codex/alpha_legion/special_rules/poisoned_rations",
+   "name": "Poisoned Rations",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/poisoned_rations/",
+   "text": "When this Sabotage Action is successfully performed, select a single enemy unit within 12\" of the model performing the Sabotage Action. The target enemy unit suffers -1 to its Strength (S) characteristic until the start of your next Shooting Phase."
+  },
+  {
+   "id": "codex/alpha_legion/special_rules/sabotage",
+   "name": "Sabotage",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/sabotage/",
+   "parameter": {
+    "kind": "count",
+    "description": "the number of Sabotage Actions the model can attempt in the Shooting Phase"
+   },
+   "references": [
+    "codex/alpha_legion/special_rules/vox_disruption",
+    "codex/alpha_legion/special_rules/sabotaged_munitions",
+    "codex/alpha_legion/special_rules/poisoned_rations"
+   ],
+   "text": "In the Shooting Phase, a model with this special rule can attempt to perform a number of Sabotage Actions equal to the value of (x). To perform a Sabotage Action, the model makes a Leadership Test. If the test is failed, the Sabotage Action is not performed. If the test is successful, the Sabotage Action selected is performed and takes effect.\n\nThe Sabotage Actions are Vox Disruption, Sabotaged Munitions and Poisoned Rations."
+  },
+  {
+   "id": "codex/alpha_legion/special_rules/sabotaged_munitions",
+   "name": "Sabotaged Munitions",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/sabotaged_munitions/",
+   "references": [
+    "special_rules/gets_hot"
+   ],
+   "text": "When this Sabotage Action is successfully performed, select a single enemy unit within 12\" of the model performing the Sabotage Action. The target enemy unit gains the Gets Hot! special rule on all equipped Shooting Weapons until the start of your next Shooting Phase."
+  },
+  {
+   "id": "codex/alpha_legion/special_rules/vox_disruption",
+   "name": "Vox Disruption",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/vox_disruption/",
+   "text": "When this Sabotage Action is successfully performed, select a single enemy unit within 12\" of the model performing the Sabotage Action. Until the start of your next Shooting Phase, each time the affected enemy unit attempts to take act in the Movement Phase, Shooting Phase or Charge Phase, it must successfully pass a Leadership Test. On a failed Leadership Test, the affected enemy unit may not perform an action that Phase."
+  }
+ ]
+}

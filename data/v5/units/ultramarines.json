@@ -1,0 +1,2875 @@
+{
+ "data_version": "5f793d2947a24b1f",
+ "format": 1,
+ "faction": "ultramarines",
+ "units": [
+  {
+   "id": "codex/ultramarines/roster/captain_cato_sicarius",
+   "name": "Captain Cato Sicarius",
+   "page": 14,
+   "url": "https://longwarindex.app/roster/captain_cato_sicarius/",
+   "source": "Codex Supplement: Ultramarines",
+   "role": "HQ",
+   "points": 110,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "cato_sicarius",
+     "name": "Cato Sicarius",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 6,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "plasma_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "the_talassarian_tempest_blade"
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "cato_sicarius",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/ultramarines/allegiances/allegiance_ultramarines",
+     "name": "Allegiance: Ultramarines",
+     "url": "https://longwarindex.app/allegiances/allegiance_ultramarines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/ultramarines/special_rules/captain_of_the_victrix_guard",
+     "name": "Captain of the Victrix Guard",
+     "url": "https://longwarindex.app/special_rules/captain_of_the_victrix_guard/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/ultramarines/special_rules/paragon_of_war",
+     "name": "Paragon of War",
+     "url": "https://longwarindex.app/special_rules/paragon_of_war/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Ultramarines",
+    "Captain",
+    "Cato Sicarius",
+    "Unique",
+    "M42+"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/ultramarines/roster/captain_titus_master_of_the_watch",
+   "name": "Captain Titus, Master of the Watch",
+   "page": 17,
+   "url": "https://longwarindex.app/roster/captain_titus_master_of_the_watch/",
+   "source": "Codex Supplement: Ultramarines",
+   "role": "HQ",
+   "points": 130,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "captain_titus_master_of_the_watch",
+     "name": "Captain Titus, Master of the Watch",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 6,
+      "Ld": 10,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "boltgun",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "chainsword",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "captain_titus_master_of_the_watch",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/ultramarines/allegiances/allegiance_ultramarines",
+     "name": "Allegiance: Ultramarines",
+     "url": "https://longwarindex.app/allegiances/allegiance_ultramarines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/master_of_command",
+     "name": "Master of Command",
+     "url": "https://longwarindex.app/special_rules/master_of_command_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/adamantium_will",
+     "name": "Adamantium Will",
+     "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+    },
+    {
+     "rule": "universal_special_rules/deny_the_witch",
+     "name": "Deny the Witch",
+     "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+    },
+    {
+     "rule": "universal_special_rules/battle_hardened",
+     "name": "Battle-Hardened",
+     "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+    },
+    {
+     "rule": "codex/ultramarines/special_rules/righteous_fury",
+     "name": "Righteous Fury",
+     "url": "https://longwarindex.app/special_rules/righteous_fury/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/ultramarines/warlord_traits/calm_under_fire",
+     "name": "Calm under Fire",
+     "url": "https://longwarindex.app/warlord_traits/calm_under_fire/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Ultramarines",
+    "Captain",
+    "Captain Titus",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/ultramarines/roster/chaplain_cassius",
+   "name": "Chaplain Cassius",
+   "page": 13,
+   "url": "https://longwarindex.app/roster/chaplain_cassius/",
+   "source": "Codex Supplement: Ultramarines",
+   "role": "HQ",
+   "points": 95,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "chaplain_cassius",
+     "name": "Chaplain Cassius",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 3,
+      "A": 3,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_maul",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "infernus"
+      },
+      {
+       "kind": "wargear",
+       "id": "rosarius",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "chaplain_cassius",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/ultramarines/allegiances/allegiance_ultramarines",
+     "name": "Allegiance: Ultramarines",
+     "url": "https://longwarindex.app/allegiances/allegiance_ultramarines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/sub_commander",
+     "name": "Sub Commander",
+     "url": "https://longwarindex.app/special_rules/sub_commander/"
+    },
+    {
+     "rule": "universal_special_rules/priest",
+     "name": "Priest",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/priest/"
+    },
+    {
+     "rule": "universal_special_rules/hatred",
+     "name": "Hatred",
+     "url": "https://longwarindex.app/universal_special_rules/hatred/"
+    },
+    {
+     "rule": "universal_special_rules/zealot",
+     "name": "Zealot",
+     "url": "https://longwarindex.app/universal_special_rules/zealot/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/ultramarines/special_rules/inspired_retribution",
+     "name": "Inspired Retribution",
+     "url": "https://longwarindex.app/special_rules/inspired_retribution/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Ultramarines",
+    "Lieutenant",
+    "Chaplain Cassius",
+    "Priest",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/ultramarines/roster/chief_librarian_tigurius",
+   "name": "Chief Librarian Tigurius",
+   "page": 12,
+   "url": "https://longwarindex.app/roster/chief_librarian_tigurius/",
+   "source": "Codex Supplement: Ultramarines",
+   "role": "HQ",
+   "points": 90,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "chief_librarian_tigurius",
+     "name": "Chief Librarian Tigurius",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 3,
+      "A": 3,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "staff_of_tigurius"
+      },
+      {
+       "kind": "wargear",
+       "id": "hellfire_hood"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "chief_librarian_tigurius",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/ultramarines/allegiances/allegiance_ultramarines",
+     "name": "Allegiance: Ultramarines",
+     "url": "https://longwarindex.app/allegiances/allegiance_ultramarines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/sub_commander",
+     "name": "Sub Commander",
+     "url": "https://longwarindex.app/special_rules/sub_commander/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "universal_special_rules/deny_the_witch",
+     "name": "Deny the Witch",
+     "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+    },
+    {
+     "rule": "universal_special_rules/indomitable_spirit",
+     "name": "Indomitable Spirit",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/ultramarines/special_rules/waking_premonition",
+     "name": "Waking Premonition",
+     "url": "https://longwarindex.app/special_rules/waking_premonition/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Ultramarines",
+    "Lieutenant",
+    "Chief Librarian Tigurius",
+    "Psyker",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/ultramarines/roster/marneus_calgar",
+   "name": "Marneus Calgar",
+   "page": 11,
+   "url": "https://longwarindex.app/roster/marneus_calgar/",
+   "source": "Codex Supplement: Ultramarines",
+   "role": "HQ",
+   "points": 125,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "marneus_calgar_in_artificer_armour",
+     "name": "Marneus Calgar in Artificer Armour",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "gauntlets_of_ultramar",
+       "count": 2
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      }
+     ]
+    },
+    {
+     "id": "marneus_calgar_in_armour_of_heraclus",
+     "name": "Marneus Calgar in Armour of Heraclus",
+     "template": "unit",
+     "characteristics": {
+      "M": "5\"",
+      "WS": 6,
+      "BS": 5,
+      "S": 4,
+      "T": 5,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "armour_of_heraclus"
+      },
+      {
+       "kind": "weapon",
+       "id": "gauntlets_of_ultramar",
+       "count": 2
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      }
+     ]
+    },
+    {
+     "id": "marneus_calgar_in_armour_of_antilochus",
+     "name": "Marneus Calgar in Armour of Antilochus",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "armour_of_antilochus",
+       "printed": "Armour Antilochus"
+      },
+      {
+       "kind": "weapon",
+       "id": "gauntlets_of_ultramar",
+       "count": 2
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "marneus_calgar_in_artificer_armour",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/ultramarines/allegiances/allegiance_ultramarines",
+     "name": "Allegiance: Ultramarines",
+     "url": "https://longwarindex.app/allegiances/allegiance_ultramarines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/master_of_command",
+     "name": "Master of Command",
+     "url": "https://longwarindex.app/special_rules/master_of_command_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/battle_hardened",
+     "name": "Battle-Hardened",
+     "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/ultramarines/special_rules/master_tactician",
+     "name": "Master Tactician",
+     "url": "https://longwarindex.app/special_rules/master_tactician/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Ultramarines",
+    "Captain",
+    "Marneus Calgar",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "armour_antilochus",
+     "label": "Marneus Calgar may exchange his Artificer Armour for the Armour Antilochus (+10pts)",
+     "printed": "Marnues Calgar may exchange his Artificer Armour for the Armour Antilochus for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "armour_antilochus",
+       "name": "the Armour Antilochus",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "artificer_armour",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "armour_of_antilochus",
+           "printed": "Armour Antilochus"
+          }
+         ]
+        }
+       ],
+       "profile": "marneus_calgar_in_armour_of_antilochus"
+      }
+     ]
+    },
+    {
+     "id": "armour_heraclus",
+     "label": "Marneus Calgar may exchange his Artificer Armour for the Armour of Heraclus (+5pts)",
+     "printed": "Marnues Calgar may exchange his Artificer Armour for the Armour of Heraclus for 5pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "armour_heraclus",
+       "name": "the Armour of Heraclus",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "artificer_armour",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "armour_of_heraclus"
+          }
+         ]
+        }
+       ],
+       "profile": "marneus_calgar_in_armour_of_heraclus"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/ultramarines/roster/roboute_guilliman_primarch_of_the_ultramarines",
+   "name": "Roboute Guilliman, Primarch of the Ultramarines",
+   "page": 20,
+   "url": "https://longwarindex.app/roster/roboute_guilliman_primarch_of_the_ultramarines/",
+   "source": "Codex Supplement: Ultramarines",
+   "role": "HQ",
+   "points": 265,
+   "unit_type": "Primarch",
+   "profiles": [
+    {
+     "id": "roboute_guilliman_primarch_of_the_ultramarines",
+     "name": "Roboute Guilliman, Primarch of the Ultramarines",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 6,
+      "S": 6,
+      "T": 6,
+      "W": 5,
+      "A": 5,
+      "I": 6,
+      "Ld": 11,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "the_armour_of_fate"
+      },
+      {
+       "kind": "weapon",
+       "id": "sword_of_the_emperor"
+      },
+      {
+       "kind": "weapon",
+       "id": "the_hand_of_dominion"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "roboute_guilliman_primarch_of_the_ultramarines",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/ultramarines/allegiances/allegiance_ultramarines",
+     "name": "Allegiance: Ultramarines",
+     "url": "https://longwarindex.app/allegiances/allegiance_ultramarines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/master_of_command",
+     "name": "Master of Command",
+     "url": "https://longwarindex.app/special_rules/master_of_command_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "4",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/battle_hardened",
+     "name": "Battle-Hardened",
+     "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "codex/ultramarines/special_rules/primarch_of_the_xviii",
+     "name": "Primarch of the XVIII",
+     "url": "https://longwarindex.app/special_rules/primarch_of_the_xviii/"
+    },
+    {
+     "rule": "codex/ultramarines/special_rules/hyper_logistician",
+     "name": "Hyper Logistician",
+     "url": "https://longwarindex.app/special_rules/hyper_logistician/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Ultramarines",
+    "Captain",
+    "Roboute Guilliman, Primarch of the Ultramarines",
+    "Primarch",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/ultramarines/roster/sergeant_chronus",
+   "name": "Sergeant Chronus",
+   "page": 16,
+   "url": "https://longwarindex.app/roster/sergeant_chronus/",
+   "source": "Codex Supplement: Ultramarines",
+   "role": "HQ",
+   "points": 120,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "sergeant_chronus_in_predator_mbt",
+     "name": "Sergeant Chronus in Predator MBT",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "10\"",
+      "WS": 4,
+      "BS": 5,
+      "S": 7,
+      "Front": 13,
+      "Side": 11,
+      "Rear": 10,
+      "A": 4,
+      "I": 4,
+      "Ld": 9,
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "storm_bolter",
+       "faction": "space_marines",
+       "count": 1,
+       "mount": "secondary"
+      },
+      {
+       "kind": "weapon",
+       "id": "autocannon",
+       "faction": "space_marines",
+       "count": 1,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_bolter",
+       "faction": "space_marines",
+       "count": 2,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "marine_crew_weapons",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "sergeant_chronus_in_predator_mbt",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/ultramarines/allegiances/allegiance_ultramarines",
+     "name": "Allegiance: Ultramarines",
+     "url": "https://longwarindex.app/allegiances/allegiance_ultramarines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/tank_hunters",
+     "name": "Tank Hunters",
+     "printed": "Tank Hunter",
+     "url": "https://longwarindex.app/universal_special_rules/tank_hunters/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/ultramarines/warlord_traits/calm_under_fire",
+     "name": "Calm under Fire",
+     "url": "https://longwarindex.app/warlord_traits/calm_under_fire/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Fire Support",
+    "Ultramarines",
+    "Sergeant Chronus",
+    "Unique",
+    "Tank",
+    "M31"
+   ],
+   "stocks": [
+    {
+     "item": {
+      "kind": "weapon",
+      "id": "heavy_bolter",
+      "faction": "space_marines",
+      "mount": "primary"
+     },
+     "count": 2,
+     "groups": [
+      "heavy_bolters"
+     ]
+    }
+   ],
+   "options": [
+    {
+     "id": "autocannon",
+     "label": "Chronus may exchange his Autocannon for one of the following:",
+     "printed": "Chronus may exchange his Autocannon for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "linked_lascannon",
+       "name": "A Linked Lascannon (P)",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autocannon",
+           "faction": "space_marines",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "linked_lascannon",
+           "faction": "space_marines",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "heavy_bolters",
+     "label": "Chronus may exchange his 2 Heavy Bolters for:",
+     "printed": "Chronus may exchange his 2 of its Heavy Bolters for:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "lascannon",
+       "name": "2 Las Cannons (P)",
+       "points": 15,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "faction": "space_marines",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lascannon",
+           "faction": "space_marines",
+           "mount": "primary"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "heavy_bolter",
+         "faction": "space_marines",
+         "mount": "primary"
+        },
+        "count": 1
+       },
+       "max": 2
+      }
+     ]
+    },
+    {
+     "id": "hunter_killer_missile",
+     "label": "Chronus may be equipped with a Hunter Killer Missile (S) (+3pts)",
+     "printed": "Chronus may be equipped with a Hunter Killer Missile (S) for 3pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hunter_killer_missile",
+       "name": "Hunter Killer Missile (S)",
+       "points": 3,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "hunter_killer_missile",
+         "faction": "space_marines",
+         "mount": "secondary"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/ultramarines/roster/sergeant_telion",
+   "name": "Sergeant Telion",
+   "page": 15,
+   "url": "https://longwarindex.app/roster/sergeant_telion/",
+   "source": "Codex Supplement: Ultramarines",
+   "role": "HQ",
+   "points": 55,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "sergeant_telion",
+     "name": "Sergeant Telion",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 6,
+      "S": 4,
+      "T": 4,
+      "W": 3,
+      "A": 3,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "4+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "scout_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "camo_cloaks",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "quietus"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "sergeant_telion",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/ultramarines/allegiances/allegiance_ultramarines",
+     "name": "Allegiance: Ultramarines",
+     "url": "https://longwarindex.app/allegiances/allegiance_ultramarines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/sub_commander",
+     "name": "Sub Commander",
+     "url": "https://longwarindex.app/special_rules/sub_commander/"
+    },
+    {
+     "rule": "universal_special_rules/scout",
+     "name": "Scout",
+     "url": "https://longwarindex.app/universal_special_rules/scout/"
+    },
+    {
+     "rule": "universal_special_rules/infiltrate",
+     "name": "Infiltrate",
+     "url": "https://longwarindex.app/universal_special_rules/infiltrate/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/ultramarines/special_rules/teacher_of_heroes",
+     "name": "Teacher of Heroes",
+     "url": "https://longwarindex.app/special_rules/teacher_of_heroes/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Ultramarines",
+    "Lieutenant",
+    "Sergeant Telion",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/ultramarines/roster/tyrannic_war_veterans",
+   "name": "Tyrannic War Veterans",
+   "page": 22,
+   "url": "https://longwarindex.app/roster/tyrannic_war_veterans/",
+   "source": "Codex Supplement: Ultramarines",
+   "role": "Elites",
+   "points": 125,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "tyrannic_war_veteran",
+     "name": "Tyrannic War Veteran",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "hellfury_boltgun"
+      },
+      {
+       "kind": "weapon",
+       "id": "hellfury_bolt_pistol"
+      },
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "tyrannic_war_veteran",
+     "count": 4
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/combat_squads",
+     "name": "Combat Squads",
+     "url": "https://longwarindex.app/special_rules/combat_squads/"
+    },
+    {
+     "rule": "universal_special_rules/hatred",
+     "name": "Hatred",
+     "param": "Tyranids",
+     "url": "https://longwarindex.app/universal_special_rules/hatred/"
+    },
+    {
+     "rule": "universal_special_rules/preferred_enemy",
+     "name": "Preferred Enemy",
+     "param": "Tyranids",
+     "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Ultramarines",
+    "Tyrannic War Veterans",
+    "Veterans",
+    "M31"
+   ],
+   "size": {
+    "min": 4,
+    "max": 10
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "The unit may include up to 6 more Tyrannic War Veteran models (+27pts each)",
+     "printed": "The unit may include up to 6 more Tyrannic War Veteran models for 27pts each.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "tyrannic_war_veteran",
+       "name": "Tyrannic War Veteran",
+       "points": 27,
+       "pricing": "each",
+       "max": 6,
+       "add_model": {
+        "profile": "tyrannic_war_veteran",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "jump_packs",
+     "label": "The entire unit may take Jump Packs (+3pts per model)",
+     "printed": "The entire unit may take Jump Packs for 3pts per model.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "jump_packs",
+       "name": "Jump Packs",
+       "points": 3,
+       "pricing": "per_model",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "jump_pack",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hellfury_boltgun",
+     "label": "Any Tyrannic War Veteran model in the unit may exchange their Hellfury Boltgun for a:",
+     "printed": "Any Tyrannic War Veteran model in the unit may exchange their Hellfury Boltgun for a:",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "tyrannic_war_veteran"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "flamer",
+       "name": "Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "plasma_gun",
+       "name": "Plasma Gun",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_gun",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "meltagun",
+       "name": "Meltagun",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "meltagun",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grav_gun",
+       "name": "Grav Gun",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "grav_gun",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "storm_bolter",
+       "name": "Storm Bolter",
+       "points": 1,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_flamer",
+       "name": "Combi-Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_plasma",
+       "name": "Combi-Plasma",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_plasma",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_melta",
+       "name": "Combi Melta",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_melta",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_grav",
+       "name": "Combi Grav",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_grav",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_sword",
+       "name": "Power Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_maul",
+       "name": "Power Maul",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_maul",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_lance",
+       "name": "Power Lance",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_lance",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "thunder_hammer",
+       "name": "Thunder Hammer",
+       "points": 25,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "thunder_hammer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lightning_claw",
+       "name": "Lightning Claw",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "close_combat_weapon",
+     "label": "Any models in the unit may exchange their Close Combat Weapon for a:",
+     "printed": "Any models in the unit may exchange their Close Combat Weapon for a:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_sword",
+       "name": "Power Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_maul",
+       "name": "Power Maul",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_maul",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_lance",
+       "name": "Power Lance",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_lance",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "thunder_hammer",
+       "name": "Thunder Hammer",
+       "points": 25,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "thunder_hammer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "heavy_weapon",
+     "label": "1 in every 4 Tyrannic War Veteran models not equipped with a Jump Pack in the unit may exchange their Dragonfire Boltgun for a:",
+     "printed": "1 in every 4 Tyrannic War Veteran models not equipped with a Jump Pack in the unit may exchange their Dragonfire Boltgun for a:",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 4,
+       "rounding": "down"
+      }
+     },
+     "requires": [
+      {
+       "lacks": [
+        {
+         "kind": "wargear",
+         "id": "jump_pack",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ],
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_flamer",
+       "name": "Heavy Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun",
+           "printed": "Dragonfire Boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "heavy_bolter",
+       "name": "Heavy Bolter",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun",
+           "printed": "Dragonfire Boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "missile_launcher",
+       "name": "Missile Launcher",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun",
+           "printed": "Dragonfire Boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "missile_launcher",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lascannon",
+       "name": "Lascannon",
+       "points": 25,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun",
+           "printed": "Dragonfire Boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lascannon",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "multi_melta",
+       "name": "Multi-Melta",
+       "points": 25,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun",
+           "printed": "Dragonfire Boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "multi_melta",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grav_cannon",
+       "name": "Grav Cannon",
+       "points": 25,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun",
+           "printed": "Dragonfire Boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "grav_cannon",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "lightning_claws",
+     "label": "Any Tyrannic War Veteran model may exchange both its Hellfury Boltgun and Close Combat Weapon for 2 Lightning Claws (+20pts)",
+     "printed": "Any Tyrannic War Veteran model may exchange both its Hellfury Boltgun and Close Combat Weapon for 2 Lightning Claws for 20pts.",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "tyrannic_war_veteran"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "lightning_claws",
+       "name": "2 Lightning Claws",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hellfury_boltgun"
+          },
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines",
+           "count": 2
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/ultramarines/roster/victrix_honour_guard",
+   "name": "Victrix Honour Guard",
+   "page": 21,
+   "url": "https://longwarindex.app/roster/victrix_honour_guard/",
+   "source": "Codex Supplement: Ultramarines",
+   "role": "Elites",
+   "points": 155,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "victrix_honour_guard",
+     "name": "Victrix Honour Guard",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "axe_of_ultramar"
+      },
+      {
+       "kind": "weapon",
+       "id": "boltgun",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    },
+    {
+     "id": "honour_guard_ancient",
+     "name": "Honour Guard Ancient",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_sword",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "banner_of_macragge"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    },
+    {
+     "id": "honour_guard_champion",
+     "name": "Honour Guard Champion",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 3,
+      "I": 5,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "honour_blades"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "victrix_honour_guard",
+     "count": 3
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/ultramarines/allegiances/allegiance_ultramarines",
+     "name": "Allegiance: Ultramarines",
+     "url": "https://longwarindex.app/allegiances/allegiance_ultramarines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/battle_hardened",
+     "name": "Battle-Hardened",
+     "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Ultramarines",
+    "Victrix Honour Guard",
+    "Veterans",
+    "M31"
+   ],
+   "size": {
+    "min": 3,
+    "max": 9
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "The unit may include up to 6 more Victrix Honour Guard models (+48pts each)",
+     "printed": "The unit may include up to 6 more Victrix Honour Guard models for 48pts each.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "victrix_honour_guard",
+       "name": "Victrix Honour Guard",
+       "points": 48,
+       "pricing": "each",
+       "max": 6,
+       "add_model": {
+        "profile": "victrix_honour_guard",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "power_sword_shield",
+     "label": "Any Victrix Honour Guard model in the unit may exchange their Axe of Ultramar and Boltgun for a Power Sword and Agyrum Pattern Boarding Shield (+15pts)",
+     "printed": "Any Victrix Honour Guard model in the unit may exchange their Axe of Ultramar and Boltgun for a Power Sword and Agyrum Pattern Boarding Shield for 15pts.",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "victrix_honour_guard"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_sword_shield",
+       "name": "Power Sword and Agyrum Pattern Boarding Shield",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "axe_of_ultramar"
+          },
+          {
+           "kind": "weapon",
+           "id": "boltgun",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "space_marines"
+          },
+          {
+           "kind": "wargear",
+           "id": "agyrum_boarding_shield",
+           "printed": "Agyrum Pattern Boarding Shield"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "honour_guard_ancient",
+     "label": "1 Victrix Honour Guard model in the unit may be upgraded to an Honour Guard Ancient (+30pts)",
+     "printed": "1 Victrix Honour Guard model in the unit may be upgraded to an Honour Guard Ancient for 30pts.",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "victrix_honour_guard"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "honour_guard_ancient",
+       "name": "Honour Guard Ancient",
+       "points": 30,
+       "pricing": "flat",
+       "profile": "honour_guard_ancient"
+      }
+     ]
+    },
+    {
+     "id": "honour_guard_champion",
+     "label": "1 Victrix Honour Guard model in the unit may be upgraded to an Honour Guard Champion (+20pts)",
+     "printed": "1 Victrix Honour Guard model in the unit may be upgraded to an Honour Guard Champion for 20pts.",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "victrix_honour_guard"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "honour_guard_champion",
+       "name": "Honour Guard Champion",
+       "points": 20,
+       "pricing": "flat",
+       "profile": "honour_guard_champion"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/ultramarines/roster/wardens_of_ultramar",
+   "name": "Wardens of Ultramar",
+   "page": 18,
+   "url": "https://longwarindex.app/roster/wardens_of_ultramar/",
+   "source": "Codex Supplement: Ultramarines",
+   "role": "HQ",
+   "points": 185,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "ancient_gadriel",
+     "name": "Ancient Gadriel",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "chapter_banner",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "boltgun",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    },
+    {
+     "id": "veteran_sergeant_metarus",
+     "name": "Veteran Sergeant Metarus",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "storm_shields",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_sword",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    },
+    {
+     "id": "gaius_silva",
+     "name": "Gaius Silva",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "A": 1,
+      "I": 3,
+      "Ld": 7,
+      "Sv": "4+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "flak_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_sword",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      }
+     ]
+    },
+    {
+     "id": "amelia_minervas",
+     "name": "Amelia Minervas",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "A": 1,
+      "I": 3,
+      "Ld": 7,
+      "Sv": "4+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "carapace_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_sword",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "refractor_field",
+       "faction": "space_marines"
+      }
+     ]
+    },
+    {
+     "id": "lucia_vestha",
+     "name": "Lucia Vestha",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "A": 1,
+      "I": 3,
+      "Ld": 7,
+      "Sv": "4+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "flak_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      }
+     ]
+    },
+    {
+     "id": "dainal_kornelius",
+     "name": "Dainal Kornelius",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "A": 1,
+      "I": 3,
+      "Ld": 7,
+      "Sv": "4+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "carapace_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "force_stave",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "ancient_gadriel",
+     "count": 1
+    },
+    {
+     "profile": "veteran_sergeant_metarus",
+     "count": 1
+    },
+    {
+     "profile": "gaius_silva",
+     "count": 1
+    },
+    {
+     "profile": "amelia_minervas",
+     "count": 1
+    },
+    {
+     "profile": "lucia_vestha",
+     "count": 1
+    },
+    {
+     "profile": "dainal_kornelius",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/ultramarines/allegiances/allegiance_ultramarines",
+     "name": "Allegiance: Ultramarines",
+     "url": "https://longwarindex.app/allegiances/allegiance_ultramarines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/ultramarines/special_rules/command_of_titus",
+     "name": "Command of Titus",
+     "url": "https://longwarindex.app/special_rules/command_of_titus/"
+    },
+    {
+     "rule": "codex/ultramarines/special_rules/bound_astropath",
+     "name": "Bound Astropath",
+     "url": "https://longwarindex.app/special_rules/bound_astropath/"
+    },
+    {
+     "rule": "codex/ultramarines/special_rules/fleet_command",
+     "name": "Fleet Command",
+     "url": "https://longwarindex.app/special_rules/fleet_command/"
+    },
+    {
+     "rule": "codex/ultramarines/special_rules/auxilia_legate",
+     "name": "Auxilia Legate",
+     "url": "https://longwarindex.app/special_rules/auxilia_legate/"
+    },
+    {
+     "rule": "codex/ultramarines/special_rules/practiced_diplomacy",
+     "name": "Practiced Diplomacy",
+     "url": "https://longwarindex.app/special_rules/practiced_diplomacy/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Ultramarines",
+    "Lieutenant",
+    "Lieutenant Titus",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  }
+ ]
+}

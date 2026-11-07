@@ -1,0 +1,92 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://longwarindex.app/data/v5/weapon_types/schema.json",
+ "title": "Long War Index weapon types export (weapon_types/core.json)",
+ "description": "The weapon types of §8.4.1, and Melee. The page on the site is the source of the name, the page and the text. This data gives the parameter. The type of a weapon profile in weapons/<faction>.json is the name of a weapon type, with the number of shots for a type with a parameter: \"Rapid Fire 2\".",
+ "type": "object",
+ "required": [
+  "data_version",
+  "format",
+  "weapon_types"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "data_version": {
+   "type": "string",
+   "description": "Hash of the file content. It changes only when the content changes."
+  },
+  "format": {
+   "const": 1
+  },
+  "weapon_types": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/weapon_type"
+   }
+  }
+ },
+ "$defs": {
+  "weapon_type": {
+   "type": "object",
+   "required": [
+    "id",
+    "name"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^weapon_types/[a-z0-9_]+$",
+     "description": "Permanent: never changed or reused. For example weapon_types/rapid_fire."
+    },
+    "name": {
+     "type": "string",
+     "description": "The name as the weapon tables print it, without \"(X)\"."
+    },
+    "page": {
+     "type": "integer",
+     "description": "The printed page number. Not present for a type that the book does not define."
+    },
+    "url": {
+     "type": "string",
+     "format": "uri",
+     "description": "The page of the type on the site. Not present for a type that the book does not define."
+    },
+    "parameter": {
+     "type": "object",
+     "required": [
+      "kind",
+      "description"
+     ],
+     "additionalProperties": false,
+     "description": "Present when the type takes a value, printed as (X).",
+     "properties": {
+      "kind": {
+       "const": "count",
+       "description": "count: a number."
+      },
+      "description": {
+       "type": "string",
+       "description": "What the value means: the number of shots."
+      }
+     }
+    },
+    "printed": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "string"
+     },
+     "description": "The book's text where the export corrects it. Mechanical differences only."
+    },
+    "text": {
+     "type": "string",
+     "description": "The text of the type as plain text, in the form of special_rules/schema.json. Not present for a type that the book does not define."
+    },
+    "note": {
+     "type": "string",
+     "description": "Present for a type that the book does not define. It says why the type has no text."
+    }
+   }
+  }
+ }
+}

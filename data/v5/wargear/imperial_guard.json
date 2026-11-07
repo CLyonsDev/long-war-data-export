@@ -1,0 +1,418 @@
+{
+ "data_version": "10d6bf3b4a30cadf",
+ "format": 1,
+ "faction": "imperial_guard",
+ "wargear": [
+  {
+   "id": "refractor_field",
+   "name": "Refractor Field",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/refractor_field_imperial_guard/",
+   "text": "A model with a refractor Field has a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "melta_bomb",
+   "name": "Melta Bomb",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "melta_bomb"
+    }
+   ],
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/melta_bomb_imperial_guard/",
+   "text": "In combat, a model with this wargear may forgo its attacks and instead make a single Strength 8, AP1 attack with the Melta Special rule at Initiative step 1.",
+   "print_defect": "The book gives this attack in the text of the wargear Melta Bomb. It prints no weapon profile."
+  },
+  {
+   "id": "bionics",
+   "name": "Bionics",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/bionics_imperial_guard/",
+   "text": "A model with this wargear gains the Feel no Pain (6+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "6+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "vox_caster",
+   "name": "Vox Caster",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/vox_caster_imperial_guard/",
+   "text": "A unit with this Wargear automatically Rallies at the start of its Movement phase. In addition, the unit may receive an Order from any unit with the Character special rule that is also equipped with, or its attached unit is also equipped with a Vox Caster."
+  },
+  {
+   "id": "med_kit",
+   "name": "Med Kit",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/med_kit_imperial_guard/",
+   "text": "A model with this Wargear and their attached unit gain Feel No Pain (5+) Special rule."
+  },
+  {
+   "id": "command_rod",
+   "name": "Command Rod",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/command_rod/",
+   "text": "A model with this wargear and any attached unit re-roll Panic tests."
+  },
+  {
+   "id": "camo_cloaks",
+   "name": "Camo Cloaks",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/camo_cloaks_imperial_guard/",
+   "text": "A Model with a Camo Cloak gains the benefit of Light Cover even if they would not normally do so. In addition, if they are already benefiting from Light Cover, they receive Heavy Cover instead. A model with this wargear gains a 4+ Cover save if it is already receiving the benefit of Heavy Cover."
+  },
+  {
+   "id": "platoon_standard",
+   "name": "Platoon Standard",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/platoon_standard/",
+   "text": "Friendly imperial Guard units within 18\" of a model equipped with this wargear may re-roll Pinning and Panic tests. In addition, friendly Imperial Guard units within 18\" count as having scored 1 additional wound in combat for the purposes of determining who won combat."
+  },
+  {
+   "id": "slab_shield",
+   "name": "Slab Shield",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/slab_shield/",
+   "text": "A model with this Wargear has a 2+ Armour save if they remained stationary in the movement phase. In addition, any charges against a unit which contains 2 or more models with this wargear is considered a Disordered Charge."
+  },
+  {
+   "id": "grav_chute",
+   "name": "Grav-Chute",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/grav_chute_imperial_guard/",
+   "text": "A model with a Grav-Chute gains the Deep Strike Special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "brute_shield",
+   "name": "Brute Shield",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/brute_shield/",
+   "text": "A model with this wargear has a 4+ Invulnerable save. A model equipped with this wargear gains the Battle-Hardened special rule.",
+   "effects": {
+    "invulnerable_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "artificer_refractor_helm",
+   "name": "Artificer Refractor Helm",
+   "section": "Wargear",
+   "page": 40,
+   "url": "https://longwarindex.app/wargear/artificer_refractor_helm/",
+   "text": "A model with this wargear has a 3+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "3+"
+   }
+  },
+  {
+   "id": "flak_armour",
+   "name": "Flak Armour",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/flak_armour_imperial_guard/",
+   "text": "Basic Combat armour. It provides a 5+ Armour Save.",
+   "effects": {
+    "armour_save": "5+"
+   }
+  },
+  {
+   "id": "carapace_armour",
+   "name": "Carapace Armour",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/carapace_armour_imperial_guard/",
+   "text": "Heavy Combat Armour. It confers a 4+ Armour save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "artificer_armour",
+   "name": "Artificer Armour",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/artificer_armour_imperial_guard/",
+   "text": "Artifice Power Armour. It confers a 2+ Armour save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "bullgryn_plate",
+   "name": "Bullgryn Plate",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/bullgryn_plate/",
+   "text": "Heavy Plate worn by Bullgryn Assault Troops. This confers a 3+ Armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "armoured_plate",
+   "name": "Armoured Plate",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/armoured_plate_imperial_guard/",
+   "text": "Heavy Armoured plating protects the armoured walking vehicles of the Guard. It confers a 3+ Armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "mount",
+   "name": "Mount",
+   "section": "Mobility",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/mount_imperial_guard/",
+   "text": "A unit that is equipped with a Mount becomes the Cavalry type. In addition, the model gains +1 to its Wounds (W) characteristic. A mount is equipped with close combat weapons.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "smoke_launchers",
+   "name": "Smoke Launchers",
+   "section": "Vehicle",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/smoke_launchers_imperial_guard/",
+   "text": "A model equipped with this Wargear can set to smoke instead of Overwatching. Until the start of its next turn, the model gains a 4+ Cover Save."
+  },
+  {
+   "id": "searchlight",
+   "name": "Searchlight",
+   "section": "Vehicle",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/searchlight_imperial_guard/",
+   "text": "A model with this special rule gains the Night Vision special rule. Any unit that it targets in the Shooting Phase no longer gains the benefit of Night Fighting. Any attacks against this unit are not affected by Night Fighting.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/night_vision",
+      "name": "Night Vision",
+      "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_deathmask_of_ollanius",
+   "name": "The Deathmask of Ollanius",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_deathmask_of_ollanius/",
+   "text": "One unit in your army with the Character special rule and Infantry type that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this relic wargear gains a 4+ Invulnerable save and the Feel no Pain (5+) and Battle-Hardened special rules.",
+   "effects": {
+    "invulnerable_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     },
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "re_breather_mask",
+   "name": "Re-Breather Mask",
+   "section": "Datasheet",
+   "datasheet": "Armageddon Storm Troopers",
+   "page": 60,
+   "url": "https://longwarindex.app/wargear/re_breather_mask/",
+   "text": "A model with this wargear may re-roll save rolls (Armour only) against wounds caused by weapons with the Poison (x) special rule."
+  },
+  {
+   "id": "carcass_shells",
+   "name": "Carcass Shells",
+   "section": "Datasheet",
+   "datasheet": "Krieg Combat Engineer Squad",
+   "page": 63,
+   "url": "https://longwarindex.app/wargear/carcass_shells/",
+   "text": "A unit with this upgrade gains the Poison (2+) special rule on all equipped Shotguns.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/poison",
+      "name": "Poison",
+      "param": "2+",
+      "url": "https://longwarindex.app/special_rules/poison/",
+      "weapons": [
+       {
+        "kind": "weapon",
+        "id": "shotgun",
+        "faction": "imperial_guard"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "shield_plate",
+   "name": "Shield Plate",
+   "section": "Datasheet",
+   "datasheet": "Field Battery",
+   "page": 78,
+   "url": "https://longwarindex.app/wargear/shield_plate/",
+   "text": "A model with this wargear has a 4+ Armour save. A model with this wargear may re-roll all save rolls (Armour saves only) against weapons with the Blast, Large Blast and Spray special rules.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "trip_wire_traps",
+   "name": "Trip Wire Traps",
+   "section": "Datasheet",
+   "datasheet": "Ratling Squad",
+   "page": 75,
+   "url": "https://longwarindex.app/wargear/trip_wire_traps/",
+   "text": "A unit that includes a model equipped with this wargear treats all charges against this unit as Disordered Charges."
+  },
+  {
+   "id": "lasgun_array",
+   "name": "Las Gun Array",
+   "section": "Datasheet",
+   "datasheet": "Chimera APC",
+   "page": 83,
+   "url": "https://longwarindex.app/wargear/lasgun_array_imperial_guard/",
+   "text": "If this unit is transporting Embarked models, it may make an additional 6 Attacks in the Combat Phase at its normal initiative with its Guard Crew Weapons."
+  },
+  {
+   "id": "jump_pack",
+   "name": "Jump Pack",
+   "section": "Datasheet",
+   "datasheet": "Tempestus Scion Aquilon Squad",
+   "page": 101,
+   "url": "https://longwarindex.app/wargear/jump_pack_imperial_guard/",
+   "text": "A unit that is equipped with a Jump Pack increases its Movement (M) characteristic to 12\". The model gains the Hammer of Wrath (1), Bulky (2), Fly, and Deep Strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "galvanic_generator",
+   "name": "Galvanic Generator",
+   "section": "Datasheet",
+   "datasheet": "Tauros",
+   "page": 102,
+   "url": "https://longwarindex.app/wargear/galvanic_generator/",
+   "text": "A model with this wargear has a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "target_finder",
+   "name": "Target Finder",
+   "section": "Datasheet",
+   "datasheet": "Baneblade Super Heavy Tank",
+   "page": 123,
+   "url": "https://longwarindex.app/wargear/target_finder_imperial_guard/",
+   "text": "A model equipped with this wargear gains +1 to their Ballistic Skill (BS) characteristic. Per the core rules, multiple of this effect do not stack.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "BS",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sensor_relay",
+   "name": "Sensor Relay",
+   "section": "Datasheet",
+   "datasheet": "Bastion",
+   "page": 127,
+   "url": "https://longwarindex.app/wargear/sensor_relay_imperial_guard/",
+   "text": "Enemy units may not arrive from Deep Strike within 9\" of a model equipped with this Wargear."
+  },
+  {
+   "id": "air_defence_relay",
+   "name": "Air Defence Relay",
+   "section": "Datasheet",
+   "datasheet": "Tarantula Battery",
+   "page": 121,
+   "url": "https://longwarindex.app/wargear/air_defence_relay_imperial_guard/",
+   "text": "If a unit has a model equipped with this wargear, the entire unit gains the Skyfire special rule on all shooting weapons they are equipped with. In addition, this unit may always target enemy units with the Fly special rule even if it is not the closest visible unit in range."
+  }
+ ]
+}

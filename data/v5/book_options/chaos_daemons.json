@@ -1,0 +1,866 @@
+{
+ "data_version": "421711b5d7d732f0",
+ "format": 1,
+ "faction": "chaos_daemons",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/argath_king_of_blades/",
+   "offered_by": {
+    "codex": "chaos_daemons"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "argath_king_of_blades",
+     "name": "A'rgath, King of Blades",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule and Khorne Keyword that does not have the Unique keyword and no other Relic Wargear may exchange its Hellblade, Daemonic Great Weapon or Axe of Khorne for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "hellblade"
+        },
+        {
+         "kind": "weapon",
+         "id": "daemonic_great_weapon"
+        },
+        {
+         "kind": "weapon",
+         "id": "axe_of_khorne"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "argath_king_of_blades"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/argath_king_of_blades/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Khorne"
+      }
+     ]
+    },
+    {
+     "id": "rift_bringer",
+     "name": "Rift Bringer",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "rift_bringer"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/rift_bringer/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_armour_of_scorn",
+     "name": "The Armour of Scorn",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule and Khorne Keyword that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_armour_of_scorn"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_armour_of_scorn/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Khorne"
+      }
+     ]
+    },
+    {
+     "id": "warp_reserve",
+     "name": "Warp Reserve",
+     "points": 30,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "warp_reserve"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/warp_reserve/",
+     "pricing": "flat"
+    },
+    {
+     "id": "grotti_the_nurgling",
+     "name": "Grotti the Nurgling",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule and Nurgle Keyword that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "grotti_the_nurgling"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/grotti_the_nurgling/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Nurgle"
+      }
+     ]
+    },
+    {
+     "id": "silvershard",
+     "name": "Silvershard",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule and Slaanesh Keyword that does not have the Unique keyword and no other Relic Wargear may exchange its Daemonic Great Weapon or Witstealer Sword for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "daemonic_great_weapon"
+        },
+        {
+         "kind": "weapon",
+         "id": "witstealer_sword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "silvershard"
+        }
+       ]
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/silvershard/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Slaanesh"
+      }
+     ]
+    },
+    {
+     "id": "the_doomsday_bell",
+     "name": "The Doomsday Bell",
+     "points": 30,
+     "printed": "One unit in your army with the Character special rule and Nurgle Keyword that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_doomsday_bell"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/the_doomsday_bell/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Nurgle"
+      }
+     ]
+    },
+    {
+     "id": "the_slothful_claw",
+     "name": "The Slothful Claw",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule and Slaanesh Keyword that does not have the Unique keyword and no other Relic Wargear may exchange its Malefic Talon, Piercing Claws or Snapping Claws for this relic for 15pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "malefic_talons"
+        },
+        {
+         "kind": "weapon",
+         "id": "piercing_claws"
+        },
+        {
+         "kind": "weapon",
+         "id": "snapping_claws"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_slothful_claw"
+        }
+       ]
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/the_slothful_claw/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Slaanesh"
+      }
+     ]
+    },
+    {
+     "id": "the_endless_grimoire",
+     "name": "The Endless Grimoire",
+     "points": 50,
+     "printed": "One unit in your army with the Character special rule and Tzeentch Keyword that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_endless_grimoire"
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/the_endless_grimoire/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Tzeentch"
+      }
+     ]
+    },
+    {
+     "id": "the_impossible_robe",
+     "name": "The Impossible Robe",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule and Tzeentch Keyword that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_impossible_robe"
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/the_impossible_robe/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Tzeentch"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 16,
+   "url": "https://longwarindex.app/codex/chaos_daemons/warlord_traits/",
+   "offered_by": {
+    "codex": "chaos_daemons"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "chaos_daemons/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "bewitching_aura",
+     "name": "Bewitching Aura",
+     "page": 16,
+     "url": "https://longwarindex.app/warlord_traits/bewitching_aura/",
+     "text": "At the start of each Combat Phase, select a single enemy model within 3\" of the model with this Warlord trait. The target unit must make a Leadership (LD) test. On a pass, nothing happens. On a fail, the unit is reduced to Initiative (I) 1 this Combat Phase.",
+     "printed": "Slaanesh Warlord Traits",
+     "points": 0,
+     "pricing": "flat",
+     "severity": "warning",
+     "requires": [
+      {
+       "keyword": "Slaanesh"
+      }
+     ]
+    },
+    {
+     "id": "blessed_with_corpulence",
+     "name": "Blessed with Corpulence",
+     "page": 16,
+     "url": "https://longwarindex.app/warlord_traits/blessed_with_corpulence/",
+     "text": "A model with this Warlord trait increases its Wounds (W) characteristic by 1.",
+     "printed": "Nurgle Warlord Traits",
+     "points": 0,
+     "pricing": "flat",
+     "stat_mods": [
+      {
+       "characteristic": "W",
+       "delta": 1
+      }
+     ],
+     "severity": "warning",
+     "requires": [
+      {
+       "keyword": "Nurgle"
+      }
+     ]
+    },
+    {
+     "id": "celerity_of_slaanesh",
+     "name": "Celerity of Slaanesh",
+     "page": 16,
+     "url": "https://longwarindex.app/warlord_traits/celerity_of_slaanesh/",
+     "text": "A model with this Warlord Trait increases its Movement (M) characteristic by 6\".",
+     "printed": "Slaanesh Warlord Traits",
+     "points": 0,
+     "pricing": "flat",
+     "stat_mods": [
+      {
+       "characteristic": "M",
+       "delta": 6
+      }
+     ],
+     "severity": "warning",
+     "requires": [
+      {
+       "keyword": "Slaanesh"
+      }
+     ]
+    },
+    {
+     "id": "devastating_blow",
+     "name": "Devastating Blow",
+     "page": 16,
+     "url": "https://longwarindex.app/warlord_traits/devastating_blow/",
+     "text": "Any to wound roll of an unmodified 6 with a melee weapon this Warlord is equipped with is treated as an Instant Death Wound even if the Strength of the attackers weapon is not double the Toughness (T) characteristic of the target.",
+     "printed": "Khorne Warlord Traits",
+     "points": 0,
+     "pricing": "flat",
+     "severity": "warning",
+     "requires": [
+      {
+       "keyword": "Khorne"
+      }
+     ]
+    },
+    {
+     "id": "oblivious_to_pain",
+     "name": "Oblivious to Pain",
+     "page": 16,
+     "url": "https://longwarindex.app/warlord_traits/oblivious_to_pain/",
+     "text": "A model with this Warlord trait gains the Feel no Pain (6+) special rule and may re-roll Regeneration rolls of 1.",
+     "printed": "Khorne Warlord Traits",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/feel_no_pain",
+       "name": "Feel No Pain",
+       "param": "6+",
+       "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+      }
+     ],
+     "severity": "warning",
+     "requires": [
+      {
+       "keyword": "Khorne"
+      }
+     ]
+    },
+    {
+     "id": "plaguefly_hive",
+     "name": "Plaguefly Hive",
+     "page": 16,
+     "url": "https://longwarindex.app/warlord_traits/plaguefly_hive/",
+     "text": "Enemy units engaged in combat with a model with this Warlord trait suffer -1 to their Initiative (I) and Weapon Skill (WS) characteristics.",
+     "printed": "Nurgle Warlord Traits",
+     "points": 0,
+     "pricing": "flat",
+     "severity": "warning",
+     "requires": [
+      {
+       "keyword": "Nurgle"
+      }
+     ]
+    },
+    {
+     "id": "quicksilver_duellist",
+     "name": "Quicksilver Duellist",
+     "page": 16,
+     "url": "https://longwarindex.app/warlord_traits/quicksilver_duellist/",
+     "text": "A Warlord with this trait gains the Preferred Enemy (Infantry) special rule and Precision Hits special on all Melee weapons it is equipped with.",
+     "printed": "Slaanesh Warlord Traits",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/preferred_enemy",
+       "name": "Preferred Enemy",
+       "param": "Infantry",
+       "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+      }
+     ],
+     "weapon_rules": [
+      {
+       "rule": {
+        "rule": "special_rules/precision_hits",
+        "name": "Precision Hits",
+        "url": "https://longwarindex.app/special_rules/precision_hits/"
+       },
+       "weapon_types": [
+        "Melee"
+       ]
+      }
+     ],
+     "severity": "warning",
+     "requires": [
+      {
+       "keyword": "Slaanesh"
+      }
+     ]
+    },
+    {
+     "id": "rage_incarnate",
+     "name": "Rage Incarnate",
+     "page": 16,
+     "url": "https://longwarindex.app/warlord_traits/rage_incarnate/",
+     "text": "Friendly Khorne Daemon units attached to a model with this warlord trait or within 12\" of a Greater Daemon model with this Warlord trait gain the Frenzy special rule.",
+     "printed": "Khorne Warlord Traits",
+     "points": 0,
+     "pricing": "flat",
+     "severity": "warning",
+     "requires": [
+      {
+       "keyword": "Khorne"
+      }
+     ]
+    },
+    {
+     "id": "virulent_touch",
+     "name": "Virulent Touch",
+     "page": 16,
+     "url": "https://longwarindex.app/warlord_traits/virulent_touch/",
+     "text": "A model with this Warlord trait gains the Shred special rule on any weapons it is equipped with that have the Poison (x) special rule.",
+     "printed": "Nurgle Warlord Traits",
+     "points": 0,
+     "pricing": "flat",
+     "weapon_rules": [
+      {
+       "rule": {
+        "rule": "special_rules/shred",
+        "name": "Shred",
+        "url": "https://longwarindex.app/special_rules/shred/"
+       },
+       "with_rule": {
+        "rule": "special_rules/poison",
+        "name": "Poison",
+        "param": "x",
+        "url": "https://longwarindex.app/special_rules/poison/"
+       }
+      }
+     ],
+     "severity": "warning",
+     "requires": [
+      {
+       "keyword": "Nurgle"
+      }
+     ]
+    },
+    {
+     "id": "born_of_sorcery",
+     "name": "Born of Sorcery",
+     "page": 17,
+     "url": "https://longwarindex.app/warlord_traits/born_of_sorcery/",
+     "text": "When a model with this Warlord trait would suffer a Perils of the Warp, do not roll on the table. The result is always treated as if you rolled 5.",
+     "printed": "Tzeentch Warlord Traits",
+     "points": 0,
+     "pricing": "flat",
+     "severity": "warning",
+     "requires": [
+      {
+       "keyword": "Tzeentch"
+      }
+     ]
+    },
+    {
+     "id": "lorekeeper_of_tzeentch",
+     "name": "Lorekeeper of Tzeentch",
+     "page": 17,
+     "url": "https://longwarindex.app/warlord_traits/lorekeeper_of_tzeentch/",
+     "text": "A model with this Warlord trait may roll 3D6 when attempting to cast a Psychic Power and take any result they wish. The Warlord gains the Firing Protocols (2) special rule.",
+     "printed": "Tzeentch Warlord Traits",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/firing_protocols",
+       "name": "Firing Protocols",
+       "param": "2",
+       "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+      }
+     ],
+     "severity": "warning",
+     "requires": [
+      {
+       "keyword": "Tzeentch"
+      }
+     ]
+    },
+    {
+     "id": "warp_tether",
+     "name": "Warp Tether",
+     "page": 17,
+     "url": "https://longwarindex.app/warlord_traits/warp_tether/",
+     "text": "Friendly Daemon units wholly within 12\" of a model with this Warlord trait can re-roll failed Pinning and Panic tests.",
+     "printed": "Tzeentch Warlord Traits",
+     "points": 0,
+     "pricing": "flat",
+     "severity": "warning",
+     "requires": [
+      {
+       "keyword": "Tzeentch"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lore_of_nurgle_psychic_powers",
+   "kind": "psychic_powers",
+   "label": "Any Chaos Space Marine unit with the Psyker (x) and Nurgle or Undivided keywords may purchase psychic powers from the following discipline:",
+   "printed": "Any Chaos Space Marine unit with the Psyker (x) and Nurgle or Undivided keywords may purchase psychic powers from the following discipline:",
+   "page": 18,
+   "url": "https://longwarindex.app/codex/chaos_daemons/powers/",
+   "offered_by": {
+    "codex": "chaos_daemons"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     },
+     {
+      "any_of": [
+       {
+        "keyword": "Nurgle"
+       },
+       {
+        "keyword": "Undivided"
+       }
+      ]
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "blades_of_putrefaction",
+     "name": "Blades of Putrefaction",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/blades_of_putrefaction_chaos_daemons/",
+     "text": "When this power is cast, the Psyker and any attached unit gain the Poison (4+) special rule on all Melee weapons they are equipped with until the start of your next Shooting Phase. If an effected model is equipped with a Melee type weapon with the Poison (x) special rule, it becomes Poison (2+) instead.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "curse_of_the_leper",
+     "name": "Curse of the Leper",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/curse_of_the_leper_chaos_daemons/",
+     "text": "When this power is cast, target 1 enemy unit within 18\" of the Psyker. The target unit suffers -1 to its Strength (S) & Toughness (T) characteristic until the start of your next Shooting Phase.",
+     "points": 20,
+     "pricing": "flat"
+    },
+    {
+     "id": "fleshy_abundance",
+     "name": "Fleshy Abundance",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/fleshy_abundance_chaos_daemons/",
+     "text": "When this power is cast, the Psyker or 1 friendly model within 24\" Heals 1 lost Wound.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "nurgles_rot",
+     "name": "Nurgle's Rot",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/nurgles_rot_chaos_daemons/",
+     "text": "When this power is cast, target 1 enemy unit within 12\" of the Psyker. The target unit takes 2D6, Strength 2, AP-, automatic hits.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "plague_wind",
+     "name": "Plague Wind",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/plague_wind_chaos_daemons/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Plague Wind",
+     "points": 5,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "plague_wind"
+      }
+     ]
+    }
+   ],
+   "print_defect": "The book prints \"Any Chaos Space Marine unit\". This data reads this as a misprint. The lore is open to the Chaos Daemons Psykers that have the keyword of the god or the Undivided keyword."
+  },
+  {
+   "id": "lore_of_slaanesh_psychic_powers",
+   "kind": "psychic_powers",
+   "label": "Any Chaos Space Marine unit with the Psyker (x) and Slaanesh or Undivided keywords may purchase Psychic Powers from the following Discipline:",
+   "printed": "Any Chaos Space Marine unit with the Psyker (x) and Slaanesh or Undivided keywords may purchase Psychic Powers from the following Discipline:",
+   "page": 19,
+   "url": "https://longwarindex.app/codex/chaos_daemons/powers/",
+   "offered_by": {
+    "codex": "chaos_daemons"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     },
+     {
+      "any_of": [
+       {
+        "keyword": "Slaanesh"
+       },
+       {
+        "keyword": "Undivided"
+       }
+      ]
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "delightful_agonies",
+     "name": "Delightful Agonies",
+     "page": 19,
+     "url": "https://longwarindex.app/powers/delightful_agonies_chaos_daemons/",
+     "text": "When this power is cast, the Psyker and any attached unit gain the Feel no Pain (5+) special rule until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "hysterical_frenzy",
+     "name": "Hysterical Frenzy",
+     "page": 19,
+     "url": "https://longwarindex.app/powers/hysterical_frenzy_chaos_daemons/",
+     "text": "When this power is cast, the Psyker and any attached unit gain the Arcing (6+) special rule on all melee weapons they are equipped with until the start of your next Shooting Phase. If the unit already has Arcing (x), improve Arcing (x) by 1 to a max of 3+.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "sensory_overload",
+     "name": "Sensory Overload",
+     "page": 19,
+     "url": "https://longwarindex.app/powers/sensory_overload_chaos_daemons/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Sensory Overload",
+     "points": 15,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "sensory_overload"
+      }
+     ]
+    },
+    {
+     "id": "sonic_shockwave",
+     "name": "Sonic Shockwave",
+     "page": 19,
+     "url": "https://longwarindex.app/powers/sonic_shockwave_chaos_daemons/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Sonic Shockwave",
+     "points": 10,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "sonic_shockwave"
+      }
+     ]
+    },
+    {
+     "id": "symphony_of_pain",
+     "name": "Symphony of Pain",
+     "page": 19,
+     "url": "https://longwarindex.app/powers/symphony_of_pain_chaos_daemons/",
+     "text": "When this power is cast, target 1 enemy unit within 18\" of the Psyker. The target unit suffers -1 to their Weapon Skill (WS) and Ballistic Skill (BS) characteristic until the start of your next Shooting Phase.",
+     "points": 20,
+     "pricing": "flat"
+    }
+   ],
+   "print_defect": "The book prints \"Any Chaos Space Marine unit\". This data reads this as a misprint. The lore is open to the Chaos Daemons Psykers that have the keyword of the god or the Undivided keyword."
+  },
+  {
+   "id": "lore_of_tzeentch_psychic_powers",
+   "kind": "psychic_powers",
+   "label": "Any Chaos Space Marine unit with the Psyker (x) and Tzeentch or Undivided keywords may purchase Psychic Powers from the following Discipline:",
+   "printed": "Any Chaos Space Marine unit with the Psyker (x) and Tzeentch or Undivided keywords may purchase Psychic Powers from the following Discipline:",
+   "page": 20,
+   "url": "https://longwarindex.app/codex/chaos_daemons/powers/",
+   "offered_by": {
+    "codex": "chaos_daemons"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     },
+     {
+      "any_of": [
+       {
+        "keyword": "Tzeentch"
+       },
+       {
+        "keyword": "Undivided"
+       }
+      ]
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "baleful_devolution",
+     "name": "Baleful Devolution",
+     "page": 20,
+     "url": "https://longwarindex.app/powers/baleful_devolution_chaos_daemons/",
+     "text": "When this power is cast, target 1 enemy unit within 18\" of the Psyker. The target unit takes 2D6, Strength 4, AP4 Automatic Hits. If any models are slain in the target unit as a result of wounds inflicted by this Psychic Power, immediately summon a Chaos Spawn more than 3\" away from the targeted enemy unit.",
+     "points": 30,
+     "pricing": "flat",
+     "reference_cards": [
+      "codex/chaos_space_marines/roster/chaos_spawn"
+     ]
+    },
+    {
+     "id": "bolt_of_change",
+     "name": "Bolt of Change",
+     "page": 20,
+     "url": "https://longwarindex.app/powers/bolt_of_change_chaos_daemons/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Bolt of Change",
+     "points": 15,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "bolt_of_change"
+      }
+     ]
+    },
+    {
+     "id": "boon_of_change",
+     "name": "Boon of Change",
+     "page": 20,
+     "url": "https://longwarindex.app/powers/boon_of_change_chaos_daemons/",
+     "text": "When this power is cast, the Psyker and their attached unit must pick to gain one of the following until the start of your next Shooting Phase:\n\n- +1 to its Attack (A) characteristic.\n- +1 to its Strength (S) characteristic.\n- +1 to its Initiative (I) characteristic.\n\nThis power may be cast any number of times by a Psyker in the Shooting Phase if they can cast multiple times.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "siphon_magic",
+     "name": "Siphon Magic",
+     "page": 20,
+     "url": "https://longwarindex.app/powers/siphon_magic_chaos_daemons/",
+     "text": "When this power is cast, select 1 enemy unit with the Psyker (x) special rule within 18\" of the Psyker. The target unit may not cast any make any Psychic tests to cast Psychic Powers or Psychic Weapons until the start of your next Shooting Phase. In addition, if the target unit has any Psychic Powers or Psychic Weapons in effect, including Force, that effect is negated.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "treason_of_tzeentch",
+     "name": "Treason of Tzeentch",
+     "page": 20,
+     "url": "https://longwarindex.app/powers/treason_of_tzeentch_chaos_daemons/",
+     "text": "When this Power is cast, select 1 enemy unit within 24\" of the Psyker that is not an Automata or Drone Type. Immediately make a single Shooting Attack with the targeted unit as if it were your own. The unit is treated as your own for the purposes of determining friendly and enemy targets. The Shooting Attack by the controlled target unit are resolved as Snap Shots. The target unit is treated as an enemy unit immediately after its Shooting Attack is resolved.",
+     "points": 10,
+     "pricing": "flat"
+    }
+   ],
+   "print_defect": "The book prints \"Any Chaos Space Marine unit\". This data reads this as a misprint. The lore is open to the Chaos Daemons Psykers that have the keyword of the god or the Undivided keyword."
+  }
+ ],
+ "army_settings": []
+}

@@ -1,0 +1,488 @@
+{
+ "data_version": "883e7c9529abc3e2",
+ "format": 1,
+ "faction": "iron_warriors",
+ "weapons": [
+  {
+   "id": "graviton_mace",
+   "name": "Graviton Mace",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/graviton_mace/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "siege_breaker_mace",
+   "name": "Siege Breaker Mace",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/siege_breaker_mace/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shrapnel_pistol",
+   "name": "Shrapnel Pistol",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/shrapnel_pistol/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "12\"",
+     "strength": "3",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shrapnel_boltgun",
+   "name": "Shrapnel Boltgun",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/shrapnel_boltgun/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "3",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_shrapnel_boltgun",
+   "name": "Linked Shrapnel Boltgun",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/linked_shrapnel_boltgun/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "3",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shrapnel_cannon",
+   "name": "Shrapnel Cannon",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/shrapnel_cannon/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "36\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_shrapnel_cannon",
+   "name": "Linked Shrapnel Cannon",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/linked_shrapnel_cannon/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "36\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "disemboweler",
+   "name": "Disemboweler",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/wargear/disemboweler/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "last_argument",
+   "name": "Last Argument",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/last_argument/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "10",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/two_handed",
+       "name": "Two-Handed",
+       "url": "https://longwarindex.app/special_rules/two_handed/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "demolisher_cannon",
+   "name": "Demolisher Cannon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/wargear/demolisher_cannon/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "36\"",
+     "strength": "10",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/ordnance",
+       "name": "Ordnance",
+       "url": "https://longwarindex.app/special_rules/ordnance/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "earthshaker_cannon",
+   "name": "Earthshaker Cannon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/wargear/earthshaker_cannon/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "98\"",
+     "strength": "9",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/ordnance",
+       "name": "Ordnance",
+       "url": "https://longwarindex.app/special_rules/ordnance/"
+      },
+      {
+       "rule": "special_rules/indirect_fire",
+       "name": "Indirect Fire",
+       "url": "https://longwarindex.app/special_rules/indirect_fire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dark_fire_cannon",
+   "name": "Dark Fire Cannon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/wargear/dark_fire_cannon/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "24\"",
+     "strength": "8",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/lance",
+       "name": "Lance",
+       "url": "https://longwarindex.app/special_rules/lance/"
+      },
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "power_saw",
+   "name": "Power Saw",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/wargear/power_saw/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      },
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quad_icarus_lascannons",
+   "name": "Quad Icarus Lascannons",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 26,
+   "url": "https://longwarindex.app/wargear/quad_icarus_lascannons/",
+   "profiles": [
+    {
+     "type": "Heavy 2",
+     "range": "48\"",
+     "strength": "9",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/skyfire",
+       "name": "Skyfire",
+       "url": "https://longwarindex.app/special_rules/skyfire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spite_spitter",
+   "name": "Spite Spitter",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/spite_spitter/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Boltgun for this relic for 5pts.",
+   "profiles": [
+    {
+     "type": "Rapid Fire 2",
+     "range": "30\"",
+     "strength": "5",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_axe_of_the_forgemaster",
+   "name": "The Axe of the Forgemaster",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_axe_of_the_forgemaster/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Axe for this relic for 5pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "2+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

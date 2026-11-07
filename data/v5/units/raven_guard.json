@@ -1,0 +1,2045 @@
+{
+ "data_version": "a7e556f74de93350",
+ "format": 1,
+ "faction": "raven_guard",
+ "units": [
+  {
+   "id": "codex/raven_guard/roster/dark_furies",
+   "name": "Dark Furies",
+   "page": 17,
+   "url": "https://longwarindex.app/roster/dark_furies/",
+   "source": "Codex Supplement: Raven Guard",
+   "role": "Elites",
+   "points": 240,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "dark_fury",
+     "name": "Dark Fury",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "lightning_claws",
+       "faction": "space_marines",
+       "count": 2
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    },
+    {
+     "id": "dark_fury_sergeant",
+     "name": "Dark Fury Sergeant",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 3,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "lightning_claws",
+       "faction": "space_marines",
+       "count": 2
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "dark_fury",
+     "count": 4
+    },
+    {
+     "profile": "dark_fury_sergeant",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/raven_guard/allegiances/allegiance_raven_guard",
+     "name": "Allegiance: Raven Guard",
+     "url": "https://longwarindex.app/allegiances/allegiance_raven_guard/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/combat_squads",
+     "name": "Combat Squads",
+     "url": "https://longwarindex.app/special_rules/combat_squads/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/sudden_strike",
+     "name": "Sudden Strike",
+     "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+    },
+    {
+     "rule": "universal_special_rules/scout",
+     "name": "Scout",
+     "url": "https://longwarindex.app/universal_special_rules/scout/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Raven Guard",
+    "Dark Furies",
+    "Veterans",
+    "M31"
+   ],
+   "size": {
+    "min": 5,
+    "max": 10
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_dark_furies",
+     "label": "The unit may include up to 5 more Dark Fury models (+45pts each)",
+     "printed": "May include up to 5 more Dark Fury models (+45pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "dark_fury",
+       "name": "Dark Fury",
+       "points": 45,
+       "pricing": "each",
+       "max": 5,
+       "add_model": {
+        "profile": "dark_fury",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "sergeant_melee_weapon",
+     "label": "The Squad Sergeant may exchange one of their Lightning Claws for one of the following:",
+     "printed": "The Squad Sergeant may exchange one of their Lightning Claws for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "dark_fury_sergeant"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_sword",
+       "name": "A Power sword",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_axe",
+       "name": "A Power axe",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_lance",
+       "name": "A Power Lance",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_lance",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "A Power Fist",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "thunder_hammer",
+       "name": "A Thunder Hammer",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "thunder_hammer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sergeant_pistol",
+     "label": "A Squad Sergeant may exchange one of its Lightning Claws for a:",
+     "printed": "A Squad Sergeant may exchange one of its Lightning Claws for a:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "dark_fury_sergeant"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistol",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "hand_flamer",
+       "name": "Hand Flamer",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "hand_flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grav_pistol",
+       "name": "Grav Pistol",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "grav_pistol",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sergeant_extras",
+     "label": "A Squad Sergeant may take any number of the following:",
+     "printed": "A Squad Sergeant may take any number of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "dark_fury_sergeant"
+      ]
+     },
+     "pick": {},
+     "choices": [
+      {
+       "id": "melta_bomb",
+       "name": "A Melta Bomb",
+       "points": 5,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "melta_bomb",
+         "faction": "space_marines"
+        }
+       ]
+      },
+      {
+       "id": "auspex_scanner",
+       "name": "An Auspex Scanner",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "auspex_scanner",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/raven_guard/roster/dark_wing_storm_eagle_gunship",
+   "name": "Dark Wing Storm Eagle Gunship",
+   "page": 19,
+   "url": "https://longwarindex.app/roster/dark_wing_storm_eagle_gunship/",
+   "source": "Codex Supplement: Raven Guard",
+   "role": "Heavy Support",
+   "points": 195,
+   "unit_type": "Aircraft",
+   "profiles": [
+    {
+     "id": "dark_wing_storm_eagle",
+     "name": "Dark Wing Storm Eagle",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "15-30\"",
+      "WS": 1,
+      "BS": 5,
+      "S": 7,
+      "Front": 12,
+      "Side": 12,
+      "Rear": 12,
+      "A": 0,
+      "I": 1,
+      "Ld": 8,
+      "Transport Capacity": 22
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "linked_heavy_bolter",
+       "faction": "space_marines",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "linked_hell_strike_launcher",
+       "count": 2,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "vengeance_launcher",
+       "mount": "primary"
+      },
+      {
+       "kind": "wargear",
+       "id": "rad_shroud_armour"
+      },
+      {
+       "kind": "wargear",
+       "id": "quantum_field_repellers"
+      },
+      {
+       "kind": "wargear",
+       "id": "infravisor"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "dark_wing_storm_eagle",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/raven_guard/allegiances/allegiance_raven_guard",
+     "name": "Allegiance: Raven Guard",
+     "url": "https://longwarindex.app/allegiances/allegiance_raven_guard/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/hover",
+     "name": "Hover",
+     "url": "https://longwarindex.app/universal_special_rules/hover/"
+    },
+    {
+     "rule": "codex/raven_guard/special_rules/transport_dark_wing_storm_eagle_gunship",
+     "name": "Transport (Dark Wing Storm Eagle Gunship)",
+     "printed": "Transport",
+     "url": "https://longwarindex.app/special_rules/transport_dark_wing_storm_eagle_gunship/"
+    },
+    {
+     "rule": "universal_special_rules/skilled_rider",
+     "name": "Skilled Rider",
+     "url": "https://longwarindex.app/universal_special_rules/skilled_rider/"
+    },
+    {
+     "rule": "codex/raven_guard/special_rules/shadow_bird_pilot",
+     "name": "Shadow Bird Pilot",
+     "url": "https://longwarindex.app/special_rules/shadow_bird_pilot/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Transport",
+    "Raven Guard",
+    "Dark Wing Storm Eagle Gunship",
+    "M31"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "heavy_bolter_exchange",
+     "label": "The unit may exchange its Linked Heavy Bolter for a:",
+     "printed": "May exchange its Linked Heavy Bolter for a:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "linked_lascannon",
+       "name": "Linked Las Cannon (P)",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "linked_heavy_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "linked_lascannon",
+           "faction": "space_marines",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "linked_multi_melta",
+       "name": "Linked Multi-Melta (P)",
+       "points": 25,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "linked_heavy_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "linked_multi_melta",
+           "faction": "space_marines",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "typhoon_missile_launcher",
+       "name": "Typhhon Missile Launcher (P)",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "linked_heavy_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "typhoon_missile_launcher",
+           "faction": "space_marines",
+           "printed": "Typhhon Missile Launcher",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hell_strike_to_lascannon",
+     "label": "The unit may exchange its 2 Linked Hell Strike Launchers (P) for 2 Linked Lascannons (P) (+10pts)",
+     "printed": "May exchange its 2 Linked Hell Strike Launchers (P) for 2 Linked Lascannons (P) (+10pts)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "linked_lascannons",
+       "name": "2 Linked Lascannons (P)",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "linked_hell_strike_launcher",
+           "count": 2,
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "linked_lascannon",
+           "faction": "space_marines",
+           "count": 2,
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/raven_guard/roster/kayvaan_shrike",
+   "name": "Kayvaan Shrike",
+   "page": 14,
+   "url": "https://longwarindex.app/roster/kayvaan_shrike/",
+   "source": "Codex Supplement: Raven Guard",
+   "role": "HQ",
+   "points": 120,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "kayvaan_shrike",
+     "name": "Kayvaan Shrike",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "jump_pack",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "ravens_talons",
+       "count": 2
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "corvia"
+      },
+      {
+       "kind": "wargear",
+       "id": "infravisor"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "kayvaan_shrike",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/raven_guard/allegiances/allegiance_raven_guard",
+     "name": "Allegiance: Raven Guard",
+     "url": "https://longwarindex.app/allegiances/allegiance_raven_guard/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/raven_guard/special_rules/shadow_master",
+     "name": "Shadow Master",
+     "url": "https://longwarindex.app/special_rules/shadow_master/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/night_vision",
+     "name": "Night Vision",
+     "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/raven_guard/special_rules/master_of_ambush",
+     "name": "Master of Ambush",
+     "url": "https://longwarindex.app/special_rules/master_of_ambush/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Raven Guard",
+    "Captain",
+    "Kayvaan Shrike",
+    "Unique",
+    "M42+"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "phobos_armour_and_blackout",
+     "label": "This model may exchange its Power Armour for Phobos Armour and Blackout (+5pts)",
+     "printed": "May exchange its Power Armour for Phobos Armour and Blackout (+5pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "phobos_armour_and_blackout",
+       "name": "Phobos Armour and Blackout",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "power_armour",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "name": "Phobos Armour"
+          },
+          {
+           "kind": "weapon",
+           "id": "blackout"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/raven_guard/roster/master_of_shadows_aethon_shaan",
+   "name": "Master of Shadows, Aethon Shaan",
+   "page": 13,
+   "url": "https://longwarindex.app/roster/master_of_shadows_aethon_shaan/",
+   "source": "Codex Supplement: Raven Guard",
+   "role": "HQ",
+   "points": 145,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "aethon_shaan",
+     "name": "Aethon Shaan",
+     "template": "unit",
+     "characteristics": {
+      "M": "18\"",
+      "WS": 6,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "blackwing_mantle"
+      },
+      {
+       "kind": "weapon",
+       "id": "claws_of_severax"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines",
+       "count": 2
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "corvia"
+      },
+      {
+       "kind": "wargear",
+       "id": "infravisor"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "aethon_shaan",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/raven_guard/allegiances/allegiance_raven_guard",
+     "name": "Allegiance: Raven Guard",
+     "url": "https://longwarindex.app/allegiances/allegiance_raven_guard/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/master_of_command",
+     "name": "Master of Command",
+     "url": "https://longwarindex.app/special_rules/master_of_command_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/night_vision",
+     "name": "Night Vision",
+     "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/raven_guard/special_rules/master_of_the_tri_fold_path",
+     "name": "Master of the Tri-Fold Path",
+     "url": "https://longwarindex.app/special_rules/master_of_the_tri_fold_path/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Raven Guard",
+    "Captain",
+    "Chapter Master",
+    "Aethon Shaan",
+    "Unique",
+    "M42+"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/raven_guard/roster/mor_daythean_shadow_master",
+   "name": "Mor Daythean Shadow Master",
+   "page": 18,
+   "url": "https://longwarindex.app/roster/mor_daythean_shadow_master/",
+   "source": "Codex Supplement: Raven Guard",
+   "role": "Elites",
+   "points": 100,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "mor_daythean_shadow_master",
+     "name": "Mor Daythean Shadow Master",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 6,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 3,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "sniper_rifle",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "silentus_bolt_pistol"
+      },
+      {
+       "kind": "wargear",
+       "id": "shadow_masters_cloak"
+      },
+      {
+       "kind": "wargear",
+       "id": "corvia"
+      },
+      {
+       "kind": "wargear",
+       "id": "infravisor"
+      },
+      {
+       "kind": "wargear",
+       "id": "melta_bomb",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "digital_weapons",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "auspex_scanner",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "mor_daythean_shadow_master",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/raven_guard/allegiances/allegiance_raven_guard",
+     "name": "Allegiance: Raven Guard",
+     "url": "https://longwarindex.app/allegiances/allegiance_raven_guard/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/raven_guard/special_rules/shadow_master",
+     "name": "Shadow Master",
+     "url": "https://longwarindex.app/special_rules/shadow_master/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "codex/raven_guard/special_rules/presence_unheeded",
+     "name": "Presence Unheeded",
+     "url": "https://longwarindex.app/special_rules/presence_unheeded/"
+    },
+    {
+     "rule": "universal_special_rules/night_vision",
+     "name": "Night Vision",
+     "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+    },
+    {
+     "rule": "universal_special_rules/scout",
+     "name": "Scout",
+     "url": "https://longwarindex.app/universal_special_rules/scout/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "3 Per Detachment",
+     "printed": "Limited: 3 per Detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Raven Guard",
+    "Mor Daythean Shadow Master",
+    "Veterans",
+    "M31"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "phobos_armour",
+     "label": "The Shadow Master may exchange their Power Armour for Phobos Armour (+5pts)",
+     "printed": "May exchange their Power Armour for Phobos Armour (+5pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "phobos_armour",
+       "name": "Phobos Armour",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "power_armour",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "name": "Phobos Armour"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "jump_pack",
+     "label": "The Shadow Master may exchange their Shadow Masters Cloak for a Jump Pack (+5pts)",
+     "printed": "May exchange their Shadow Masters Cloak for a Jump Pack (+5pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "jump_pack",
+       "name": "Jump Pack",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "shadow_masters_cloak"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "jump_pack",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sniper_rifle_exchange",
+     "label": "The Shadow Master may exchange its Sniper Rifle for one of the following:",
+     "printed": "May exchange its Sniper Rifle for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "astartes_shotgun",
+       "name": "Astartes Shotgun",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "sniper_rifle",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "astartes_shotgun",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "korvedari_boltgun",
+       "name": "Korvidari Boltgun",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "sniper_rifle",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "korvedari_boltgun",
+           "printed": "Korvidari Boltgun"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_flamer",
+       "name": "Combi-Flamer",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "sniper_rifle",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_plasma",
+       "name": "Combi-Plasma",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "sniper_rifle",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_plasma",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_melta",
+       "name": "Combi-Melta",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "sniper_rifle",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_melta",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_grav",
+       "name": "Combi-Grav",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "sniper_rifle",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_grav",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "astartes_grenade_launcher",
+       "name": "Astartes Grenade Launcher",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "sniper_rifle",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "astartes_grenade_launcher",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "volkite_caliver",
+       "name": "Volkite Caliver",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "sniper_rifle",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "volkite_calivers",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "plasma_gun",
+       "name": "Plasma Gun",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "sniper_rifle",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_gun",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "melta_gun",
+       "name": "Melta Gun",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "sniper_rifle",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "meltagun",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grav_gun",
+       "name": "Grav Gun",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "sniper_rifle",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "grav_gun",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "flamer",
+       "name": "Flamer",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "sniper_rifle",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pistol_exchange",
+     "label": "The Shadow Master may exchange their Silentus Bolt Pistol for one of the following:",
+     "printed": "May exchange their Silentus Bolt Pistol for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "neo_volkite_pistol",
+       "name": "Neo Volkite Pistol",
+       "points": 2,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "silentus_bolt_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "neo_volkite_pistol",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "silentus_bolt_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "hand_flamer",
+       "name": "Hand Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "silentus_bolt_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "hand_flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grav_pistol",
+       "name": "Grav Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "silentus_bolt_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "grav_pistol",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "melee_weapon_exchange",
+     "label": "The Shadow Master may exchange their Close Combat Weapon for one of the following:",
+     "printed": "May exchange their Close Combat Weapon for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "chainsword",
+       "name": "Chainsword",
+       "points": 1,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_sword",
+       "name": "Power Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/raven_guard/roster/shadow_captain_solaq",
+   "name": "Shadow Captain Solaq",
+   "page": 15,
+   "url": "https://longwarindex.app/roster/shadow_captain_solaq/",
+   "source": "Codex Supplement: Raven Guard",
+   "role": "HQ",
+   "points": 115,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "shadow_captain_solaq",
+     "name": "Shadow Captain Solaq",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_sword",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "plasma_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "helm_of_the_raven"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "corvia"
+      },
+      {
+       "kind": "wargear",
+       "id": "shadow_masters_cloak"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "shadow_captain_solaq",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/raven_guard/allegiances/allegiance_raven_guard",
+     "name": "Allegiance: Raven Guard",
+     "url": "https://longwarindex.app/allegiances/allegiance_raven_guard/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/raven_guard/special_rules/bloodied_hunter",
+     "name": "Bloodied Hunter",
+     "url": "https://longwarindex.app/special_rules/bloodied_hunter/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Raven Guard",
+    "Captain",
+    "Shadow Captain Solaq",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/raven_guard/roster/shadow_master_korvydae",
+   "name": "Shadow Master Korvydae",
+   "page": 16,
+   "url": "https://longwarindex.app/roster/shadow_master_korvydae/",
+   "source": "Codex Supplement: Raven Guard",
+   "role": "HQ",
+   "points": 120,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "shadow_master_korvydae",
+     "name": "Shadow Master Korvydae",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 5,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "jump_pack",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "thunder_hammer",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "melta_bomb",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "digital_weapons",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "silentus_bolt_pistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "shadow_master_korvydae",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/raven_guard/allegiances/allegiance_raven_guard",
+     "name": "Allegiance: Raven Guard",
+     "url": "https://longwarindex.app/allegiances/allegiance_raven_guard/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/raven_guard/special_rules/shadow_master",
+     "name": "Shadow Master",
+     "url": "https://longwarindex.app/special_rules/shadow_master/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/raven_guard/special_rules/initial_sabotage",
+     "name": "Initial Sabotage",
+     "url": "https://longwarindex.app/special_rules/initial_sabotage/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Raven Guard",
+    "Captain",
+    "Shadow Master Korvydae",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "data_version": "aae9b3b83b64dff7",
+ "format": 1,
+ "faction": "white_scars",
+ "wargear": [
+  {
+   "id": "head_taker_trophies",
+   "name": "Head Taker Trophies",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/head_taker_trophies/",
+   "text": "A model with this wargear gains the Fear (1) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cyber_eagle",
+   "name": "Cyber Eagle",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/cyber_eagle/",
+   "text": "Once per game, at the start of the Shooting Phase, a model with this wargear may mark an enemy unit within 18\". The equipped model and any attached unit gain the Preferred Enemy special rule and +1 to Charge rolls when targeting the marked unit until the start of your next Shooting Phase."
+  },
+  {
+   "id": "chogorian_pattern_engine",
+   "name": "Chogorian Pattern Engine",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/chogorian_pattern_engine/",
+   "text": "A model with this wargear gains +2\" to its Movement (M) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "M",
+      "delta": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "plume_of_the_plainsrunner",
+   "name": "Plume of the Plainsrunner",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/plume_of_the_plainsrunner/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic and any attached unit gains the Sprint (2) special rule. If the unit already has the Sprint (x) special rule, increase the value of (x) by +2.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/sprint",
+      "name": "Sprint",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/sprint/",
+      "mode": "raise_or_grant",
+      "by": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "mantle_of_the_stormseer",
+   "name": "Mantle of the Stormseer",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/mantle_of_the_stormseer/",
+   "text": "One unit in your army with the Character & Psyker (x) special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Enemy units within 18\" suffer an additional -1 to their Leadership (LD) characteristic when making a psychic test. In addition, enemy units within 18\" that fail a Psychic test are immediately moved back D6\" in a direction of this unit's controlling player."
+  },
+  {
+   "id": "the_hunters_eye",
+   "name": "The Hunter's Eye",
+   "printed": {
+    "name": "The Hunters Eye"
+   },
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/the_hunters_eye/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this Relic and any attached unit gains the Ignores Cover special rule on all shooting weapons they are equipped with.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "special_rules/ignores_cover",
+      "name": "Ignores Cover",
+      "url": "https://longwarindex.app/special_rules/ignores_cover/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_wrath_of_heavens",
+   "name": "The Wrath of Heavens",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_wrath_of_heavens/",
+   "text": "One unit in your army with the Character special rule, equipped with a Bike that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this Relic gains the Fly special rule. In addition, when the unit makes a Run move in the Movement Phase, instead of Moving a flat 6\" per the normal Bike type rules, they move an additional +12\". The equipped model also improves the value of (x) by 1 for their Hammer of Wrath special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_banner_of_the_eagle",
+   "name": "The Banner of the Eagle",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_banner_of_the_eagle/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this Relic and all friendly White Scars units within 18\" gain the Furious Charge special rule. In addition, all friendly White Scars units within 18\" count as scoring 1 additional Wound for the purposes of determining who won combat.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/furious_charge",
+      "name": "Furious Charge",
+      "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "grav_bike",
+   "name": "Grav Bike",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "assault_cannon",
+     "faction": "space_marines"
+    }
+   ],
+   "section": "Datasheet",
+   "datasheet": "Suboden Khan",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/grav_bike/",
+   "text": "A model equipped with the Grav Bike becomes the Jetbike type and gains all the benefits of the Jetbike type (included in the profile above). In addition, the model is equipped with an Assault Cannon."
+  }
+ ]
+}

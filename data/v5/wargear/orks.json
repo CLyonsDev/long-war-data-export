@@ -1,0 +1,635 @@
+{
+ "data_version": "ecabfd87caf79b20",
+ "format": 1,
+ "faction": "orks",
+ "wargear": [
+  {
+   "id": "kustom_force_field",
+   "name": "Kustom Force Field",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/kustom_force_field/",
+   "text": "A model with this Wargear and any attached unit have a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "attack_squig",
+   "name": "Attack Squig",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/attack_squig/",
+   "text": "A model with this Wargear has +1 to its Attacks (A) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "A",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "force_field",
+   "name": "Force Field",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/force_field_orks/",
+   "text": "A unit with this Wargear has a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "ammo_runt",
+   "name": "Ammo Runt",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/ammo_runt/",
+   "text": "Once per game, in the Shooting Phase a model equipped with this wargear gains the Linked special rule on all Pistol, Assault and Rapid Fire weapons it is equipped with until the end of the Phase."
+  },
+  {
+   "id": "cybork_body",
+   "name": "Cybork Body",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/cybork_body/",
+   "text": "A model with this Wargear gains the Feel no Pain (6+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "6+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "grot_oiler",
+   "name": "Grot Oiler",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/grot_oiler/",
+   "text": "Once per game, in your Movement Phase a model equipped with this wargear may immediately attempt to perform the \"I Can Fix It!\" Machine Rite (see Machine Rites) as if it had the Battle-Smith (x) special rule."
+  },
+  {
+   "id": "fightin_juice",
+   "name": "Fightin Juice",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/fightin_juice/",
+   "text": "A model with this wargear and any attached unit gains the Feel No Pain (5+) special rule.",
+   "effects": {
+    "unit_rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "grot_orderly",
+   "name": "Grot Orderly",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/grot_orderly/",
+   "text": "Once per game in either the Shooting Phase or Combat Phase, a model equipped with this wargear may re-roll Feel no Pain rolls until the end of the current phase in which this effect is declared."
+  },
+  {
+   "id": "shokk_boosta",
+   "name": "Shokk-Boosta",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/shokk_boosta/",
+   "text": "A model with this wargear and any attached unit gains the Deep Strike special rule.",
+   "effects": {
+    "unit_rules": [
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "distraction_grot",
+   "name": "Distraction Grot",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/distraction_grot/",
+   "text": "Once per game, a model equipped with this wargear may ignore 1 wound allocated to it by a weapon that does not have the Spray, Blast (x) special rules."
+  },
+  {
+   "id": "scrap_armour",
+   "name": "Scrap Armour",
+   "section": "Armour",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/scrap_armour_orks/",
+   "text": "This confers a 6+ Armour Save.",
+   "effects": {
+    "armour_save": "6+"
+   }
+  },
+  {
+   "id": "mega_armour",
+   "name": "Mega Armour",
+   "section": "Armour",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/mega_armour/",
+   "text": "This confers a 2+ Armour Save and 6+ Invulnerable Save. The model equipped with this Wargear gains the Relentless, Bulky (2) and Slow & Purposeful Special Rules.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "6+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/slow_and_purposeful",
+      "name": "Slow and Purposeful",
+      "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "heavy_armour",
+   "name": "He'avy Armour",
+   "section": "Armour",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/heavy_armour/",
+   "text": "This confers a 4+ Armour save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "thick_armour",
+   "name": "Thick Armour",
+   "section": "Armour",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/thick_armour/",
+   "text": "This confers a 3+ Armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "rokkit_pack",
+   "name": "Rokkit Pack",
+   "section": "Mobility",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/rokkit_pack/",
+   "text": "A model equipped with this Wargear increases its Movement (M) characteristic to 12\". The equipped model gains the Hammer of Wrath (1), Fly, and Deep Strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "deff_kopta",
+   "name": "Deff Kopta",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "linked_rokkits"
+    }
+   ],
+   "section": "Mobility",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/deff_kopta/",
+   "text": "A unit that is equipped with a Deff Kopta becomes a Jetbike type unit and gains all associated benefits. In addition, it gains +1 to its Toughness (T) and Wounds (w) Characteristics. A Deff Kopta is equipped with a Linked Rokkit. The unit gains the Fly special rule.",
+   "effects": {
+    "unit_type": "Jetbike",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "war_bike",
+   "name": "War Bike",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "linked_big_shoota"
+    }
+   ],
+   "section": "Mobility",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/war_bike/",
+   "text": "A unit that is equipped with a Bike becomes a Bike type unit and gains all associated benefits. In addition, it gains +1 to its Toughness (T) Characteristics. A War Bike is equipped with Linked Big Shoota.",
+   "effects": {
+    "unit_type": "Bike",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "squigasaur",
+   "name": "Squigasaur",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "close_combat_weapons"
+    }
+   ],
+   "section": "Mobility",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/squigasaur/",
+   "text": "A unit that is equipped with a Squigasaur becomes a Cavalry type unit and gains all associated benefits. In addition, it gains +1 to its Strength (S) and Toughness (T) Characteristics. A Squigasaur is equipped with a Close Combat Weapon.",
+   "effects": {
+    "unit_type": "Cavalry",
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": 1
+     },
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "wartrike",
+   "name": "Wartrike",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "burna"
+    }
+   ],
+   "section": "Mobility",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/wartrike/",
+   "text": "A unit that is equipped with a Wartrike becomes a Bike type unit and gains all associated benefits. In addition, it gains +1 to its Toughness (T) and Wounds (W) Characteristics. A Wartrike is equipped with a Burna.",
+   "effects": {
+    "unit_type": "Bike",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "squighog",
+   "name": "Squighog",
+   "section": "Mobility",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/squighog/",
+   "text": "A unit that is equipped with a Squighog becomes a Cavalry type unit and gains all associated benefits. In addition, it gains +1 to its Toughness (T) Characteristics. A Squighog resolves Hammer of Wrath (x) attacks at AP4.",
+   "effects": {
+    "unit_type": "Cavalry",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "dakkarig",
+   "name": "Dakkarig",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "rokkits"
+    },
+    {
+     "kind": "weapon",
+     "id": "deffgun"
+    }
+   ],
+   "section": "Mobility",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/dakkarig/",
+   "text": "A unit that is equipped with a Dakkarig becomes a Walker type unit and gains all associated benefits. In addition, it gains +2 to its Toughness (T) and Wounds (W) Characteristics. A Dakkarig is equipped with a Kustom Force Field, Rokkits and a Deffgun.",
+   "effects": {
+    "unit_type": "Walker",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 2
+     },
+     {
+      "characteristic": "W",
+      "delta": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "squig_hide_tires",
+   "name": "Squig-hide Tires",
+   "section": "Vehicle",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/squig_hide_tires/",
+   "text": "A unit with this wargear may re-roll Dangerous Terrain tests."
+  },
+  {
+   "id": "dirty_gubbinz",
+   "name": "Dirty Gubbinz",
+   "section": "Vehicle",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/dirty_gubbinz/",
+   "text": "A model equipped with this Wargear can set to smoke instead of Overwatching. Until the start of its next turn, the model gains a 4+ Cover Save."
+  },
+  {
+   "id": "stompamatic_pistons",
+   "name": "Stompamatic Pistons",
+   "section": "Vehicle",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/stompamatic_pistons/",
+   "text": "A unit with this wargear gains the Sprint (1) special rule.",
+   "effects": {
+    "unit_rules": [
+     {
+      "rule": "universal_special_rules/sprint",
+      "name": "Sprint",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/sprint/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "shokka_hull",
+   "name": "Shokka Hull",
+   "section": "Vehicle",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/shokka_hull/",
+   "text": "A unit with this wargear increases their Hammer of Wrath (x) value by 1.",
+   "effects": {
+    "unit_rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_super_cybork_body",
+   "name": "The Super Cybork Body",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_super_cybork_body/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains the Feel no Pain (4+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "4+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "da_fixer_upperz",
+   "name": "Da Fixer Upperz",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/da_fixer_upperz/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains the Battle-Smith (1) special rule and knows the I Can Fix It! Machine Rite. If the bearer already has the Battle-Smith (x) special rule, increase the value of (x) by 1.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_smith",
+      "name": "Battle Smith",
+      "param": "1",
+      "printed": "Battle-Smith (1)",
+      "url": "https://longwarindex.app/universal_special_rules/battle_smith/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ],
+    "knows": [
+     {
+      "page": "codex/orks/powers/i_can_fix_that",
+      "name": "I Can Fix That!",
+      "url": "https://longwarindex.app/powers/i_can_fix_that/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "da_lucky_stikk",
+   "name": "Da Lucky Stikk",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/da_lucky_stikk/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic may re-roll 1 Hit Roll, Wound Roll, Penetration Roll or Save Roll per Phase."
+  },
+  {
+   "id": "da_krushin_armour",
+   "name": "Da Krushin Armour",
+   "section": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/da_krushin_armour/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains the Hammer of Wrath (3) special rule and a 2+ Armour Save. Once per game, a model with this Relic can re-roll a failed Charge roll.",
+   "effects": {
+    "armour_save": "2+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "3",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bad_moons_banner",
+   "name": "Bad Moons Banner",
+   "section": "Datasheet",
+   "datasheet": "Nazdreg Ug Urdgrub",
+   "page": 47,
+   "url": "https://longwarindex.app/wargear/bad_moons_banner/",
+   "text": "All Bad Moons units within 12\" may re-roll Pinning and Panic tests."
+  },
+  {
+   "id": "nazdregs_know_wats",
+   "name": "Nazdreg's Know-Wats",
+   "section": "Datasheet",
+   "datasheet": "Nazdreg Ug Urdgrub",
+   "page": 47,
+   "url": "https://longwarindex.app/wargear/nazdregs_know_wats/",
+   "text": "This unit and any attached unit gain the Deep Strike special rule.",
+   "effects": {
+    "unit_rules": [
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "big_revva",
+   "name": "Big Revva",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "psyko_gatler"
+    }
+   ],
+   "section": "Datasheet",
+   "datasheet": "Wazdekka Gutsmek",
+   "page": 48,
+   "url": "https://longwarindex.app/wargear/big_revva/",
+   "text": "This counts as a Bike and gains all associated benefits (included above). The unit gains +1 to your units Toughness (T) characteristics. The unit is equipped with Psyko-Gatler.",
+   "effects": {
+    "unit_type": "Bike",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "lash",
+   "name": "Lash",
+   "section": "Datasheet",
+   "datasheet": "Gretchin Mob",
+   "page": 52,
+   "url": "https://longwarindex.app/wargear/lash/",
+   "text": "A unit that includes a model with this wargear gains the Sprint (1) special rule.",
+   "effects": {
+    "unit_rules": [
+     {
+      "rule": "universal_special_rules/sprint",
+      "name": "Sprint",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/sprint/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "squig_hound",
+   "name": "Squig Hound",
+   "section": "Datasheet",
+   "datasheet": "Gretchin Mob",
+   "page": 52,
+   "url": "https://longwarindex.app/wargear/squig_hound/",
+   "text": "A unit that includes a model with this wargear gains the Breaking Heads special rule.",
+   "effects": {
+    "unit_rules": [
+     {
+      "rule": "codex/orks/special_rules/breaking_heads",
+      "name": "Breaking Heads",
+      "url": "https://longwarindex.app/special_rules/breaking_heads/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gold_toof_armour",
+   "name": "Gold Toof Armour",
+   "section": "Datasheet",
+   "datasheet": "Kaptain Badrukk",
+   "page": 28,
+   "url": "https://longwarindex.app/wargear/gold_toof_armour/",
+   "text": "A model with this wargear has a 3+ Armour save and a 4+ Invulnerable save.",
+   "effects": {
+    "armour_save": "3+",
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "da_red_koat",
+   "name": "Da Red Koat",
+   "section": "Datasheet",
+   "datasheet": "Da Red Gobbo",
+   "page": 33,
+   "url": "https://longwarindex.app/wargear/da_red_koat/",
+   "text": "A model with this wargear has a 3+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "3+"
+   }
+  },
+  {
+   "id": "da_kap_of_da_revolushun",
+   "name": "Da Kap of Da Revolushun",
+   "section": "Datasheet",
+   "datasheet": "Da Red Gobbo",
+   "page": 33,
+   "url": "https://longwarindex.app/wargear/da_kap_of_da_revolushun/",
+   "text": "All units with the Grot Mob Special rule which can draw visibility to this model count as Leadership (LD) 10."
+  }
+ ]
+}

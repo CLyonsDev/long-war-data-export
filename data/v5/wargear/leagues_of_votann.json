@@ -1,0 +1,455 @@
+{
+ "data_version": "c49473ef403ca49d",
+ "format": 1,
+ "faction": "leagues_of_votann",
+ "wargear": [
+  {
+   "id": "weavefield_crest",
+   "name": "Weavefield Crest",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/weavefield_crest/",
+   "text": "A model with an Weavefield Crest has a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "rampart_crest",
+   "name": "Rampart Crest",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/rampart_crest/",
+   "text": "A model with a Rampart Crest and any attached unit has a 5+ Invulnerable save against Shooting attacks.",
+   "effects": {
+    "conditional_invulnerable_saves": [
+     {
+      "save": "5+",
+      "against": "shooting"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ancestral_ward_crest",
+   "name": "Ancestral Ward Crest",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/ancestral_ward_crest/",
+   "text": "A model with an Ancestral Ward Crest has a 4+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "teleport_crest",
+   "name": "Teleport Crest",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/teleport_crest/",
+   "text": "A model with a Teleport Crest gains the Deep Strike special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "medipack",
+   "name": "Medipack",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/medipack/",
+   "text": "A model with this Wargear and their unit gain Feel No Pain (5+) Special rule.",
+   "effects": {
+    "unit_rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "huntr_module",
+   "name": "HunTR Module",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/huntr_module/",
+   "text": "A model equipped with this wargear gains the Linked special rule on all Ranged weapons they are equipped with when targeting an enemy unit with a Grudge Token."
+  },
+  {
+   "id": "bionics",
+   "name": "Bionics",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/bionics_leagues_of_votann/",
+   "text": "A model with this wargear gains the Feel no Pain (6+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "6+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "melta_bomb",
+   "name": "Melta Bomb",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "melta_bomb"
+    }
+   ],
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/melta_bomb_leagues_of_votann/",
+   "text": "In combat, a model with this wargear may forgo its attacks and instead make a single Strength 8, AP1 attack with the Melta Special rule at Initiative step 1.",
+   "print_defect": "The book gives this attack only in the wargear text. It prints no weapon profile."
+  },
+  {
+   "id": "auspex_scanner",
+   "name": "Auspex Scanner",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/auspex_scanner_leagues_of_votann/",
+   "text": "Enemy units may not Infiltrate within 18\" of a model equipped with this wargear."
+  },
+  {
+   "id": "digital_weapons",
+   "name": "Digital Weapons",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/digital_weapons_leagues_of_votann/",
+   "text": "A model with this wargear gains +1 to the Attacks (A) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "A",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "multiweave_comms_array",
+   "name": "Multiweave Comms Array",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/multiweave_comms_array/",
+   "text": "A model with this Wargear and their unit automatically Rally at the start of the Movement Phase."
+  },
+  {
+   "id": "pan_spectral_scanner",
+   "name": "Pan Spectral Scanner",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/pan_spectral_scanner/",
+   "text": "Enemy units may not arrive from reserves within 12\" of a model equipped with this wargear."
+  },
+  {
+   "id": "omni_vizors",
+   "name": "Omni-Vizors",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/omni_vizors/",
+   "text": "A model with this wargear gains the Night Vision special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/night_vision",
+      "name": "Night Vision",
+      "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "void_hardened_armour",
+   "name": "Void Hardened Armour",
+   "section": "Armours",
+   "page": 2,
+   "url": "https://longwarindex.app/wargear/void_hardened_armour/",
+   "text": "Basic Combat armour for void combat. It provides a 4+ Armour Save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "artifice_void_hardened_armour",
+   "name": "Artifice Void Hardened Armour",
+   "section": "Armours",
+   "page": 2,
+   "url": "https://longwarindex.app/wargear/artifice_void_hardened_armour/",
+   "text": "Master Crafted Combat armour for void combat. It provides a 3+ Armour Save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "void_plate",
+   "name": "Void Plate",
+   "section": "Armours",
+   "page": 2,
+   "url": "https://longwarindex.app/wargear/void_plate/",
+   "text": "Lighter armour plate. This confers a 5+ Armour save.",
+   "effects": {
+    "armour_save": "5+"
+   }
+  },
+  {
+   "id": "ironkin_cladding",
+   "name": "Ironkin Cladding",
+   "section": "Armours",
+   "page": 2,
+   "url": "https://longwarindex.app/wargear/ironkin_cladding/",
+   "text": "The Heavy plating of Ironkin provides excellent protection. It confers a 3+ Armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "exo_armour",
+   "name": "Exo-Armour",
+   "section": "Armours",
+   "page": 2,
+   "url": "https://longwarindex.app/wargear/exo_armour/",
+   "text": "Super Heavy Combat armour used by the Votann. It provides a 2+ Armour save. The equipped model gains the Bulky (2) & Relentless special rule. The equipped model gains +1 to its Strength (S), Toughness (T) characteristics.",
+   "effects": {
+    "armour_save": "2+",
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": 1
+     },
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "exo_frame",
+   "name": "Exo-Frame",
+   "section": "Armours",
+   "page": 2,
+   "url": "https://longwarindex.app/wargear/exo_frame/",
+   "text": "A large reinforced powered frame. This confers a 3+ Armour save. A model equipped with this wargear gains the Bulky (3), Relentless and Slow & Purposeful special rules. A model with this wargear gains +1 to its Toughness (T) and Wounds (W) characteristic.",
+   "effects": {
+    "armour_save": "3+",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "3",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/slow_and_purposeful",
+      "name": "Slow and Purposeful",
+      "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "trike",
+   "name": "Trike",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "heavy_stubber"
+    }
+   ],
+   "section": "Mobility Wargear",
+   "page": 2,
+   "url": "https://longwarindex.app/wargear/trike/",
+   "text": "A model that is equipped with a Trike becomes the Bike type. In addition, the model gains +1 to its Toughness (T) characteristic. A Trike is equipped with a Heavy Stubber.",
+   "effects": {
+    "unit_type": "Bike",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "smoke_launchers",
+   "name": "Smoke Launchers",
+   "section": "Vehicle Wargear",
+   "page": 2,
+   "url": "https://longwarindex.app/wargear/smoke_launchers_leagues_of_votann/",
+   "text": "A model equipped with this Wargear can set to smoke instead of Overwatching. Until the start of its next turn, the model gains a 4+ Cover Save."
+  },
+  {
+   "id": "searchlight",
+   "name": "Searchlight",
+   "section": "Vehicle Wargear",
+   "page": 2,
+   "url": "https://longwarindex.app/wargear/searchlight_leagues_of_votann/",
+   "text": "A model with this special rule gains the Night Vision special rule. Any unit that it targets in the Shooting Phase no longer gains the benefit of Night Fighting. Any attacks against this unit are not affected by Night Fighting.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/night_vision",
+      "name": "Night Vision",
+      "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "aktols_fortress",
+   "name": "Aktol's Fortress",
+   "section": "Relics",
+   "page": 3,
+   "url": "https://longwarindex.app/wargear/aktols_fortress/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Enemy units within 3\" of a model equipped with this Relic are treated as Initiative (I) 1."
+  },
+  {
+   "id": "the_grey_crest",
+   "name": "The Grey Crest",
+   "section": "Relics",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/the_grey_crest/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic and any attached unit may only be targeted for Shooting Attacks in the Shooting Phase if they are the closest visible enemy unit."
+  },
+  {
+   "id": "thyrikite_plate",
+   "name": "Thyrikite Plate",
+   "section": "Relics",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/thyrikite_plate/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic has a 2+ Armour Save and a Movement (M) characteristic of 6\".",
+   "effects": {
+    "armour_save": "2+",
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 6
+     }
+    ]
+   }
+  },
+  {
+   "id": "mass_driver_system",
+   "name": "Mass Driver System",
+   "section": "Datasheet",
+   "datasheet": "Einhyr Champion",
+   "page": 20,
+   "url": "https://longwarindex.app/wargear/mass_driver_system/",
+   "text": "A model with this wargear has the Fleet and Hammer of Wrath (3) special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fleet",
+      "name": "Fleet",
+      "url": "https://longwarindex.app/universal_special_rules/fleet/"
+     },
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "3",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "multi_spectral_vizor",
+   "name": "Multi-Spectral Vizor",
+   "section": "Datasheet",
+   "datasheet": "Brokhyr Iron-Master",
+   "page": 21,
+   "url": "https://longwarindex.app/wargear/multi_spectral_vizor/",
+   "text": "Instead of Setting to 8.1.1 - Overwatch, this unit may set to Scanning Sweep. When this unit sets to do a Scanning Sweep, you may select a single friendly Leagues of Votann unit within 6\". That unit gains +1 to its Ballistic Skill (BS) Characteristic until the end of the phase. A unit may set to this Reaction even if it has the Slow & Purposeful special rule."
+  },
+  {
+   "id": "enhanced_bionics",
+   "name": "Enhanced Bionics",
+   "section": "Datasheet",
+   "datasheet": "Berehk Stornbrow",
+   "page": 24,
+   "url": "https://longwarindex.app/wargear/enhanced_bionics_leagues_of_votann/",
+   "text": "A model equipped with this wargear gains the Feel no Pain (5+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "preymark_crest",
+   "name": "Preymark Crest",
+   "section": "Datasheet",
+   "datasheet": "Ironkin Steeljacks",
+   "page": 27,
+   "url": "https://longwarindex.app/wargear/preymark_crest/",
+   "text": "A unit with this wargear must select a single enemy unit during Deployment, this unit gains the Preferred Enemy special rule when targeting the selected unit."
+  },
+  {
+   "id": "he_mine",
+   "name": "H.E Mine",
+   "section": "Datasheet",
+   "datasheet": "Hernkyn Yaegirs",
+   "page": 29,
+   "url": "https://longwarindex.app/wargear/he_mine/",
+   "text": "Instead of setting to Overwatch, a unit that includes a model with this wargear may Set to Plant Mines. When a unit Sets to Plant Mines, place a Mine marker within 3\" of this unit at the end of the Shooting phase. Any enemy unit that ends its Movement Phase within 6\" of a Mine Marker takes D6+1, Strength 4, AP5 Automatic hits. Wounds and saves are made as normal."
+  },
+  {
+   "id": "kognitaar_mantle",
+   "name": "Kognitâar Mantle",
+   "section": "Datasheet",
+   "datasheet": "Memnyr Strategist",
+   "page": 32,
+   "url": "https://longwarindex.app/wargear/kognitaar_mantle/",
+   "text": "This unit and any attached unit may immediately Set to Overwatch at the end of the Shooting Phase."
+  }
+ ]
+}

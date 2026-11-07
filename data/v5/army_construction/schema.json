@@ -1,0 +1,2521 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://longwarindex.app/data/v5/army_construction/schema.json",
+ "title": "Long War Index: army construction of one faction",
+ "description": "The codex block, the allegiances, the Rites of War and the unit lists of one book (units export, part 3b). Every object is strict.",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "data_version",
+  "format",
+  "faction",
+  "codex",
+  "allegiances",
+  "rites_of_war"
+ ],
+ "properties": {
+  "data_version": {
+   "type": "string"
+  },
+  "format": {
+   "const": 1
+  },
+  "faction": {
+   "type": "string",
+   "pattern": "^[a-z0-9_]+$"
+  },
+  "codex": {
+   "oneOf": [
+    {
+     "type": "null"
+    },
+    {
+     "$ref": "#/$defs/codex"
+    }
+   ]
+  },
+  "allegiances": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/allegiance"
+   }
+  },
+  "rites_of_war": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/rite"
+   }
+  }
+ },
+ "$defs": {
+  "codex": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "name",
+    "parent",
+    "army_rules",
+    "allies",
+    "starting_pool",
+    "restrictions",
+    "benefits",
+    "rites_of_war",
+    "unit_list",
+    "keyword_templates"
+   ],
+   "properties": {
+    "id": {
+     "type": "string"
+    },
+    "name": {
+     "type": "string"
+    },
+    "page": {
+     "type": [
+      "integer",
+      "null"
+     ]
+    },
+    "url": {
+     "type": "string",
+     "format": "uri"
+    },
+    "parent": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "army_rules": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/rule_entry"
+     }
+    },
+    "allies": {
+     "oneOf": [
+      {
+       "type": "null"
+      },
+      {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "printed",
+        "page",
+        "factions"
+       ],
+       "properties": {
+        "printed": {
+         "type": "string"
+        },
+        "page": {
+         "type": "integer"
+        },
+        "url": {
+         "type": "string",
+         "format": "uri"
+        },
+        "factions": {
+         "type": "array",
+         "items": {
+          "$ref": "#/$defs/faction_entry"
+         }
+        }
+       }
+      }
+     ]
+    },
+    "starting_pool": {
+     "oneOf": [
+      {
+       "type": "null"
+      },
+      {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "rule",
+        "printed"
+       ],
+       "properties": {
+        "rule": {
+         "$ref": "#/$defs/rule_entry"
+        },
+        "printed": {
+         "type": "string"
+        }
+       }
+      }
+     ]
+    },
+    "restrictions": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/restriction"
+     }
+    },
+    "benefits": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/benefit"
+     }
+    },
+    "rites_of_war": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "own",
+      "from_parent",
+      "banned_from_parent"
+     ],
+     "properties": {
+      "own": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "from_parent": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "banned_from_parent": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "unit_list": {
+     "oneOf": [
+      {
+       "type": "null"
+      },
+      {
+       "$ref": "#/$defs/unit_list"
+      }
+     ]
+    },
+    "keyword_templates": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "template",
+       "substitution"
+      ],
+      "properties": {
+       "template": {
+        "type": "string"
+       },
+       "printed": {
+        "type": "string"
+       },
+       "substitution": {
+        "oneOf": [
+         {
+          "type": "null"
+         },
+         {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "by"
+          ],
+          "properties": {
+           "by": {
+            "const": "allegiance"
+           }
+          }
+         },
+         {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "value"
+          ],
+          "properties": {
+           "value": {
+            "type": "string"
+           }
+          }
+         }
+        ]
+       }
+      }
+     }
+    }
+   },
+   "description": "The codex block."
+  },
+  "allegiance": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "name",
+    "page",
+    "offered_by",
+    "unit_list",
+    "restrictions",
+    "benefits",
+    "game_time",
+    "unencoded"
+   ],
+   "properties": {
+    "id": {
+     "type": "string"
+    },
+    "name": {
+     "type": "string"
+    },
+    "page": {
+     "type": "integer"
+    },
+    "url": {
+     "type": "string",
+     "format": "uri"
+    },
+    "offered_by": {
+     "oneOf": [
+      {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "codex"
+       ],
+       "properties": {
+        "codex": {
+         "type": "string"
+        }
+       }
+      },
+      {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "allegiance"
+       ],
+       "properties": {
+        "allegiance": {
+         "type": "string"
+        }
+       }
+      }
+     ]
+    },
+    "restrictions": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/restriction"
+     }
+    },
+    "benefits": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/benefit"
+     }
+    },
+    "game_time": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "Each sentence that acts in play, as text."
+    },
+    "unencoded": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "Each list-building or display sentence that the format cannot hold."
+    },
+    "print_defect": {
+     "type": "string"
+    },
+    "keyword_substitution": {
+     "oneOf": [
+      {
+       "type": "null"
+      },
+      {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "template",
+        "value"
+       ],
+       "properties": {
+        "template": {
+         "type": "string"
+        },
+        "value": {
+         "type": "string"
+        }
+       }
+      }
+     ]
+    },
+    "rule": {
+     "$ref": "#/$defs/rule_entry"
+    },
+    "preset": {
+     "const": true
+    },
+    "unit_list": {
+     "oneOf": [
+      {
+       "type": "null"
+      },
+      {
+       "$ref": "#/$defs/unit_list"
+      }
+     ]
+    },
+    "admits_other_regiments": {
+     "type": "boolean",
+     "description": "Units with another [Regiment] keyword may join."
+    },
+    "admitted_gain_allegiance_rule": {
+     "type": "boolean",
+     "description": "The admitted units gain their own allegiance rule."
+    },
+    "allies": {
+     "type": "object",
+     "additionalProperties": false,
+     "properties": {
+      "add": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       },
+       "description": "Each faction that this allegiance adds to the army's normal ally-faction list."
+      },
+      "remove": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       },
+       "description": "Each faction that this allegiance removes from the army's normal ally-faction list."
+      },
+      "printed": {
+       "type": "string",
+       "description": "The sentence that states the change, as printed text."
+      }
+     },
+     "description": "A change that this allegiance makes to the army's normal ally-faction list."
+    }
+   },
+   "description": "An allegiance."
+  },
+  "rite": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "name",
+    "page",
+    "offered_by",
+    "text",
+    "restrictions",
+    "benefits",
+    "game_time",
+    "unencoded"
+   ],
+   "properties": {
+    "id": {
+     "type": "string"
+    },
+    "name": {
+     "type": "string"
+    },
+    "page": {
+     "type": "integer"
+    },
+    "url": {
+     "type": "string",
+     "format": "uri"
+    },
+    "offered_by": {
+     "oneOf": [
+      {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "codex"
+       ],
+       "properties": {
+        "codex": {
+         "type": "string"
+        }
+       }
+      },
+      {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "allegiance"
+       ],
+       "properties": {
+        "allegiance": {
+         "type": "string"
+        }
+       }
+      }
+     ]
+    },
+    "restrictions": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/restriction"
+     }
+    },
+    "benefits": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/benefit"
+     }
+    },
+    "game_time": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "Each sentence that acts in play, as text."
+    },
+    "unencoded": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "Each list-building or display sentence that the format cannot hold."
+    },
+    "print_defect": {
+     "type": "string"
+    },
+    "text": {
+     "type": "string"
+    },
+    "keyword_templates": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "template",
+       "substitution"
+      ],
+      "properties": {
+       "template": {
+        "type": "string"
+       },
+       "printed": {
+        "type": "string"
+       },
+       "substitution": {
+        "oneOf": [
+         {
+          "type": "null"
+         },
+         {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "by"
+          ],
+          "properties": {
+           "by": {
+            "const": "allegiance"
+           }
+          }
+         },
+         {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "value"
+          ],
+          "properties": {
+           "value": {
+            "type": "string"
+           }
+          }
+         }
+        ]
+       }
+      }
+     },
+     "description": "How the Rite resolves a keyword template. substitution null: the units lose the template keyword."
+    }
+   },
+   "description": "A Rite of War."
+  },
+  "restriction": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "printed",
+    "scope"
+   ],
+   "properties": {
+    "id": {
+     "type": "string"
+    },
+    "printed": {
+     "type": "string"
+    },
+    "page": {
+     "type": "integer"
+    },
+    "url": {
+     "type": "string",
+     "format": "uri"
+    },
+    "print_defect": {
+     "type": "string"
+    },
+    "scope": {
+     "enum": [
+      "detachment",
+      "army"
+     ]
+    },
+    "units": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions"
+     ],
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "min": {
+       "type": "integer"
+      },
+      "max": {
+       "type": "integer"
+      },
+      "per_points": {
+       "$ref": "#/$defs/per_points"
+      }
+     }
+    },
+    "compare": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "more",
+      "than"
+     ],
+     "properties": {
+      "more": {
+       "type": "array",
+       "description": "A unit counts when it matches all the conditions. Use any_of to count units of two types together.",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "than": {
+       "type": "array",
+       "items": {
+        "type": "array",
+        "items": {
+         "$ref": "#/$defs/condition"
+        }
+       }
+      },
+      "each": {
+       "type": "boolean"
+      },
+      "or_equal": {
+       "type": "boolean"
+      }
+     }
+    },
+    "ratio": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "limited",
+      "per",
+      "of"
+     ],
+     "properties": {
+      "limited": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "count": {
+       "type": "integer",
+       "description": "The number of limited units for every per units. Absent: 1."
+      },
+      "per": {
+       "type": "integer"
+      },
+      "of": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "round": {
+       "const": "down"
+      },
+      "exempt": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "minimum": {
+       "type": "boolean",
+       "description": "true: at least count (default 1) limited units for every per units. Absent or false: at most count."
+      },
+      "imposed_by": {
+       "$ref": "#/$defs/rule_entry",
+       "description": "The rule that imposes the ratio. Only a unit in which the rule is in force counts."
+      }
+     }
+    },
+    "every_unit": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "must"
+     ],
+     "properties": {
+      "of": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "must": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "except": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      }
+     }
+    },
+    "warlord": {
+     "type": "object",
+     "additionalProperties": false,
+     "description": "The Warlord must match the conditions. When the army has more than one Warlord (additional_warlords), the restriction is met when one of the Warlords matches. Two restrictions that each name a different unit make both units Warlords.",
+     "required": [
+      "conditions"
+     ],
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "if_present": {
+       "type": "boolean"
+      },
+      "unless_army_includes": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       },
+       "description": "The restriction does not apply while the army includes a unit that matches these conditions."
+      }
+     }
+    },
+    "unit_list": {
+     "const": true
+    },
+    "units_listed": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "entries"
+     ],
+     "properties": {
+      "entries": {
+       "type": "array",
+       "items": {
+        "oneOf": [
+         {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "datasheet",
+           "printed"
+          ],
+          "properties": {
+           "datasheet": {
+            "type": "string"
+           },
+           "printed": {
+            "type": "string"
+           },
+           "role": {
+            "enum": [
+             "HQ",
+             "Troops",
+             "Elites",
+             "Fast Attack",
+             "Heavy Support",
+             "Dedicated Transport",
+             "Flyer",
+             "Lords of War",
+             "Fortification"
+            ]
+           },
+           "appendix": {
+            "const": true
+           },
+           "points": {
+            "type": "integer"
+           }
+          }
+         },
+         {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "name",
+           "printed"
+          ],
+          "properties": {
+           "name": {
+            "type": "string"
+           },
+           "printed": {
+            "type": "string"
+           },
+           "role": {
+            "enum": [
+             "HQ",
+             "Troops",
+             "Elites",
+             "Fast Attack",
+             "Heavy Support",
+             "Dedicated Transport",
+             "Flyer",
+             "Lords of War",
+             "Fortification"
+            ]
+           }
+          },
+          "description": "A name that no datasheet of this data has."
+         }
+        ]
+       }
+      }
+     }
+    },
+    "forbidden_rites": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "forbidden_options": {
+     "type": "object",
+     "additionalProperties": false,
+     "properties": {
+      "groups": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/group_ref"
+       }
+      },
+      "choices": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/choice_path"
+       }
+      },
+      "items": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/kit_item"
+       }
+      },
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       },
+       "description": "The ban binds only the units that match all conditions. No conditions: every unit of the army."
+      }
+     }
+    },
+    "excluded_choices": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions",
+      "choices"
+     ],
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "choices": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/choice_path"
+       }
+      }
+     }
+    },
+    "no_allegiance": {
+     "const": true
+    },
+    "no_allied_detachment": {
+     "const": true
+    },
+    "allies": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "factions"
+     ],
+     "properties": {
+      "factions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/faction_entry"
+       }
+      },
+      "only": {
+       "type": "boolean",
+       "description": "true: the army may take allies of these factions only."
+      }
+     }
+    },
+    "forbidden_units": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions"
+     ],
+     "description": "The army may not include a unit that matches one of the conditions.",
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      }
+     }
+    },
+    "majority": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "unit_type"
+     ],
+     "description": "The army includes more units of this unit type than of any other unit type.",
+     "properties": {
+      "unit_type": {
+       "type": "string"
+      }
+     }
+    },
+    "suppress_rite_benefits": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "except_rites",
+      "benefits"
+     ],
+     "properties": {
+      "except_rites": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "benefits": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "rite",
+         "ids"
+        ],
+        "properties": {
+         "rite": {
+          "type": "string"
+         },
+         "ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+           "type": "string"
+          }
+         }
+        }
+       }
+      }
+     },
+     "description": "While the army uses a Rite that benefits names, the army does not gain the named benefit entries of that Rite. Every Rite that the codex offers is in except_rites or in benefits."
+    }
+   },
+   "description": "A restriction. It has one or more forms.",
+   "anyOf": [
+    {
+     "required": [
+      "units"
+     ]
+    },
+    {
+     "required": [
+      "compare"
+     ]
+    },
+    {
+     "required": [
+      "ratio"
+     ]
+    },
+    {
+     "required": [
+      "every_unit"
+     ]
+    },
+    {
+     "required": [
+      "warlord"
+     ]
+    },
+    {
+     "required": [
+      "unit_list"
+     ]
+    },
+    {
+     "required": [
+      "units_listed"
+     ]
+    },
+    {
+     "required": [
+      "forbidden_rites"
+     ]
+    },
+    {
+     "required": [
+      "forbidden_options"
+     ]
+    },
+    {
+     "required": [
+      "excluded_choices"
+     ]
+    },
+    {
+     "required": [
+      "no_allegiance"
+     ]
+    },
+    {
+     "required": [
+      "no_allied_detachment"
+     ]
+    },
+    {
+     "required": [
+      "allies"
+     ]
+    },
+    {
+     "required": [
+      "forbidden_units"
+     ]
+    },
+    {
+     "required": [
+      "majority"
+     ]
+    },
+    {
+     "required": [
+      "suppress_rite_benefits"
+     ]
+    }
+   ]
+  },
+  "benefit": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "printed"
+   ],
+   "properties": {
+    "id": {
+     "type": "string"
+    },
+    "printed": {
+     "type": "string"
+    },
+    "page": {
+     "type": "integer"
+    },
+    "url": {
+     "type": "string",
+     "format": "uri"
+    },
+    "print_defect": {
+     "type": "string"
+    },
+    "role": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions",
+      "role"
+     ],
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "role": {
+       "enum": [
+        "HQ",
+        "Troops",
+        "Elites",
+        "Fast Attack",
+        "Heavy Support",
+        "Dedicated Transport",
+        "Flyer",
+        "Lords of War",
+        "Fortification"
+       ]
+      },
+      "instead": {
+       "type": "boolean"
+      },
+      "max_units": {
+       "type": "integer"
+      },
+      "requires": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "not_compulsory": {
+       "type": "boolean",
+       "description": "true: the units fill a slot of the role but do not count towards its compulsory minimum."
+      }
+     }
+    },
+    "slots": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "role"
+     ],
+     "properties": {
+      "role": {
+       "enum": [
+        "HQ",
+        "Troops",
+        "Elites",
+        "Fast Attack",
+        "Heavy Support",
+        "Dedicated Transport",
+        "Flyer",
+        "Lords of War",
+        "Fortification"
+       ]
+      },
+      "min_delta": {
+       "type": "integer"
+      },
+      "max_delta": {
+       "type": "integer"
+      },
+      "per_points": {
+       "$ref": "#/$defs/per_points"
+      }
+     }
+    },
+    "unslotted": {
+     "$ref": "#/$defs/unslotted"
+    },
+    "rules": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions",
+      "rules"
+     ],
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "rules": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/rule_entry"
+       }
+      }
+     }
+    },
+    "keywords": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "add"
+     ],
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "add": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "applies_to": {
+       "const": "army",
+       "description": "Every unit of the army (in place of conditions)."
+      }
+     },
+     "oneOf": [
+      {
+       "required": [
+        "conditions"
+       ]
+      },
+      {
+       "required": [
+        "applies_to"
+       ]
+      }
+     ]
+    },
+    "suppress_rules": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions",
+      "rules"
+     ],
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "rules": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/rule_entry"
+       }
+      }
+     }
+    },
+    "stat_mods": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions",
+      "mods"
+     ],
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "mods": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "characteristic",
+         "delta"
+        ],
+        "properties": {
+         "characteristic": {
+          "enum": [
+           "M",
+           "WS",
+           "BS",
+           "S",
+           "T",
+           "W",
+           "A",
+           "I",
+           "Ld",
+           "Sv"
+          ]
+         },
+         "delta": {
+          "type": "integer"
+         }
+        }
+       }
+      }
+     }
+    },
+    "weapon_stat_mods": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "weapons",
+      "mods"
+     ],
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "weapons": {
+       "oneOf": [
+        {
+         "type": "object",
+         "additionalProperties": false,
+         "required": [
+          "subtype"
+         ],
+         "properties": {
+          "subtype": {
+           "type": "string"
+          }
+         }
+        },
+        {
+         "type": "object",
+         "additionalProperties": false,
+         "required": [
+          "rule"
+         ],
+         "properties": {
+          "rule": {
+           "$ref": "#/$defs/rule_entry"
+          }
+         }
+        },
+        {
+         "type": "object",
+         "additionalProperties": false,
+         "required": [
+          "items"
+         ],
+         "properties": {
+          "items": {
+           "type": "array",
+           "minItems": 1,
+           "items": {
+            "$ref": "#/$defs/kit_item"
+           }
+          }
+         },
+         "description": "Named weapons."
+        },
+        {
+         "type": "object",
+         "additionalProperties": false,
+         "required": [
+          "shooting"
+         ],
+         "properties": {
+          "shooting": {
+           "const": true,
+           "description": "Every weapon profile that is not Melee (\"all Shooting weapons\")."
+          }
+         }
+        }
+       ],
+       "description": "{subtype: <weapon table>}, {rule: <rule>} or {items: [<weapon>]}."
+      },
+      "mods": {
+       "type": "array",
+       "minItems": 1,
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "characteristic"
+        ],
+        "properties": {
+         "characteristic": {
+          "enum": [
+           "S",
+           "Range",
+           "AP",
+           "Type"
+          ]
+         },
+         "delta": {
+          "type": "integer"
+         },
+         "value": {
+          "type": [
+           "string",
+           "integer"
+          ]
+         }
+        },
+        "description": "S, Range or AP with delta (added) or value (replaces), or Type with value only: the printed type with its shots, for example \"Assault 1\"."
+       }
+      }
+     }
+    },
+    "invulnerable_save": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions",
+      "save"
+     ],
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "save": {
+       "type": "string"
+      }
+     }
+    },
+    "hq_slot_sharing": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions",
+      "units_per_slot"
+     ],
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "units_per_slot": {
+       "type": "integer"
+      }
+     }
+    },
+    "limit": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions",
+      "limit"
+     ],
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "limit": {
+       "type": [
+        "integer",
+        "null"
+       ]
+      },
+      "scope": {
+       "enum": [
+        "detachment",
+        "army"
+       ]
+      }
+     }
+    },
+    "transports": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions"
+     ],
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "per_unit": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      }
+     }
+    },
+    "ratio_change": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "restriction"
+     ],
+     "properties": {
+      "restriction": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "id"
+       ],
+       "properties": {
+        "page": {
+         "type": "string"
+        },
+        "id": {
+         "type": "string"
+        }
+       }
+      },
+      "per": {
+       "type": "integer"
+      },
+      "removed": {
+       "const": true,
+       "description": "The ratio does not bind while the Rite or allegiance is in force. A ratio_change has per or removed, not both."
+      }
+     },
+     "oneOf": [
+      {
+       "required": [
+        "per"
+       ]
+      },
+      {
+       "required": [
+        "removed"
+       ]
+      }
+     ]
+    },
+    "starting_pool": {
+     "type": "object",
+     "additionalProperties": false,
+     "properties": {
+      "add": {
+       "type": "integer"
+      },
+      "from_wargear_only": {
+       "type": "boolean"
+      }
+     }
+    },
+    "unlocks": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "Datasheet page ids that the record offers."
+    },
+    "opens": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/opens_entry"
+     }
+    },
+    "options": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/group_ref"
+     },
+     "description": "The book option groups that the record offers."
+    },
+    "weapons": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "weapons"
+     ],
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "weapons": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/kit_item"
+       }
+      }
+     }
+    },
+    "section_substitution": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "section",
+      "replace",
+      "with"
+     ],
+     "description": "The army may replace a member datasheet of a Section with another datasheet.",
+     "properties": {
+      "section": {
+       "type": "string",
+       "description": "A datasheet page id."
+      },
+      "replace": {
+       "type": "string",
+       "description": "A datasheet page id."
+      },
+      "with": {
+       "type": "string",
+       "description": "A datasheet page id."
+      }
+     }
+    },
+    "warlord_trait_access": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions",
+      "count",
+      "groups"
+     ],
+     "description": "Units that are not the Warlord may take this number of choices of these Warlord Trait groups.",
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "count": {
+       "type": "integer",
+       "minimum": 1
+      },
+      "groups": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/group_ref"
+       }
+      },
+      "max_units": {
+       "type": "integer",
+       "minimum": 1,
+       "description": "At most this number of such units."
+      }
+     }
+    },
+    "exchanges": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions",
+      "exchanges"
+     ],
+     "description": "An automatic exchange at 0pts. It is not a choice. Each model of each unit that matches all conditions exchanges each copy of each remove item that it holds, also items from options. A model with two copies exchanges the two copies. A model that holds no remove item does not change.",
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "exchanges": {
+       "type": "array",
+       "minItems": 1,
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "remove",
+         "add"
+        ],
+        "properties": {
+         "remove": {
+          "type": "array",
+          "items": {
+           "$ref": "#/$defs/kit_item"
+          }
+         },
+         "add": {
+          "type": "array",
+          "items": {
+           "$ref": "#/$defs/kit_item"
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "forces_choice": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions",
+      "choice"
+     ],
+     "description": "Each unit that matches the conditions must take this choice of a special rule's options group (\"All eligible Frozen Stars units with the Casting Call (x) special rule must select Casting Call (Dark)\": Harlequins).",
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "choice": {
+       "$ref": "#/$defs/choice_path"
+      }
+     }
+    },
+    "extra_warlord_trait": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions",
+      "count"
+     ],
+     "description": "A Warlord that matches the conditions may take this number of Warlord Traits in addition to the normal one.",
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "count": {
+       "type": "integer",
+       "minimum": 1
+      }
+     }
+    },
+    "unit_size": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions",
+      "max"
+     ],
+     "description": "A unit that matches the conditions may include up to this number of models, an increase to the unit's normal maximum unit size.",
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "max": {
+       "type": "integer",
+       "minimum": 1
+      }
+     }
+    },
+    "additional_warlords": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions"
+     ],
+     "description": "This number of further units that match the conditions may also be selected as the Warlord, in addition to the normal one Warlord choice. Each one generates its own Warlord Trait. No count: every unit that matches the conditions counts as the Warlord, with no choice, for every rule that names the Warlord. A unit that may not be the Warlord (warlord_forbidden in its special rules) does not count.",
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "count": {
+       "type": "integer",
+       "minimum": 1
+      }
+     }
+    },
+    "weapon_rules": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions",
+      "rules"
+     ],
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "rules": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/rule_entry"
+       }
+      },
+      "weapons": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/kit_item"
+       },
+       "description": "Only these weapons of a matching model get the rules."
+      }
+     },
+     "description": "Each model that matches the conditions has the rules on all weapons that it holds, or only on the weapons that `weapons` names."
+    },
+    "price_override": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions",
+      "points"
+     ],
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "points": {
+       "type": "integer"
+      }
+     },
+     "description": "Each unit of the datasheets that the conditions name costs points instead of its printed base cost. Its options keep their prices."
+    },
+    "invulnerable_save_improve": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "conditions",
+      "by"
+     ],
+     "description": "The matching units improve a held invulnerable save by `by`, to at most `max`; a unit with none gets `otherwise`.",
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/condition"
+       }
+      },
+      "by": {
+       "type": "integer",
+       "minimum": 1
+      },
+      "max": {
+       "type": "string",
+       "pattern": "^[2-6]\\+$"
+      },
+      "otherwise": {
+       "type": "string",
+       "pattern": "^[2-6]\\+$"
+      }
+     }
+    }
+   },
+   "description": "A benefit. It has one form.",
+   "oneOf": [
+    {
+     "required": [
+      "role"
+     ]
+    },
+    {
+     "required": [
+      "slots"
+     ]
+    },
+    {
+     "required": [
+      "unslotted"
+     ]
+    },
+    {
+     "required": [
+      "rules"
+     ]
+    },
+    {
+     "required": [
+      "keywords"
+     ]
+    },
+    {
+     "required": [
+      "suppress_rules"
+     ]
+    },
+    {
+     "required": [
+      "stat_mods"
+     ]
+    },
+    {
+     "required": [
+      "weapon_stat_mods"
+     ]
+    },
+    {
+     "required": [
+      "invulnerable_save"
+     ]
+    },
+    {
+     "required": [
+      "hq_slot_sharing"
+     ]
+    },
+    {
+     "required": [
+      "limit"
+     ]
+    },
+    {
+     "required": [
+      "transports"
+     ]
+    },
+    {
+     "required": [
+      "ratio_change"
+     ]
+    },
+    {
+     "required": [
+      "starting_pool"
+     ]
+    },
+    {
+     "required": [
+      "unlocks"
+     ]
+    },
+    {
+     "required": [
+      "opens"
+     ]
+    },
+    {
+     "required": [
+      "options"
+     ]
+    },
+    {
+     "required": [
+      "weapons"
+     ]
+    },
+    {
+     "required": [
+      "section_substitution"
+     ]
+    },
+    {
+     "required": [
+      "warlord_trait_access"
+     ]
+    },
+    {
+     "required": [
+      "exchanges"
+     ]
+    },
+    {
+     "required": [
+      "forces_choice"
+     ]
+    },
+    {
+     "required": [
+      "extra_warlord_trait"
+     ]
+    },
+    {
+     "required": [
+      "unit_size"
+     ]
+    },
+    {
+     "required": [
+      "additional_warlords"
+     ]
+    },
+    {
+     "required": [
+      "weapon_rules"
+     ]
+    },
+    {
+     "required": [
+      "price_override"
+     ]
+    },
+    {
+     "required": [
+      "invulnerable_save_improve"
+     ]
+    }
+   ]
+  },
+  "unit_list": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "page",
+    "entries"
+   ],
+   "properties": {
+    "page": {
+     "type": "integer"
+    },
+    "url": {
+     "type": "string",
+     "format": "uri"
+    },
+    "entries": {
+     "type": "array",
+     "items": {
+      "oneOf": [
+       {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "datasheet",
+         "printed"
+        ],
+        "properties": {
+         "datasheet": {
+          "type": "string"
+         },
+         "printed": {
+          "type": "string"
+         },
+         "role": {
+          "enum": [
+           "HQ",
+           "Troops",
+           "Elites",
+           "Fast Attack",
+           "Heavy Support",
+           "Dedicated Transport",
+           "Flyer",
+           "Lords of War",
+           "Fortification"
+          ]
+         },
+         "appendix": {
+          "const": true
+         },
+         "points": {
+          "type": "integer"
+         }
+        }
+       },
+       {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "name",
+         "printed"
+        ],
+        "properties": {
+         "name": {
+          "type": "string"
+         },
+         "printed": {
+          "type": "string"
+         },
+         "role": {
+          "enum": [
+           "HQ",
+           "Troops",
+           "Elites",
+           "Fast Attack",
+           "Heavy Support",
+           "Dedicated Transport",
+           "Flyer",
+           "Lords of War",
+           "Fortification"
+          ]
+         }
+        },
+        "description": "A name that no datasheet of this data has."
+       }
+      ]
+     }
+    }
+   },
+   "description": "A unit list."
+  },
+  "unslotted": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "conditions"
+   ],
+   "properties": {
+    "conditions": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/condition"
+     }
+    },
+    "count": {
+     "type": "integer",
+     "description": "At most this number of units fill no slot (for each per_role choice or per_unit unit, when given). No count: every unit that matches the conditions fills no slot."
+    },
+    "per_role": {
+     "enum": [
+      "HQ",
+      "Troops",
+      "Elites",
+      "Fast Attack",
+      "Heavy Support",
+      "Dedicated Transport",
+      "Flyer",
+      "Lords of War",
+      "Fortification"
+     ]
+    },
+    "per_unit": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/condition"
+     }
+    },
+    "exempt_from_limit": {
+     "type": "boolean",
+     "description": "true: the units that fill no slot also do not count towards their Limited: 1 Per Detachment rule. Not present: they count."
+    }
+   },
+   "description": "Units that fill no slot of the chart."
+  },
+  "faction_entry": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "faction"
+   ],
+   "properties": {
+    "faction": {
+     "type": "string",
+     "pattern": "^[a-z0-9_]+$"
+    },
+    "conditions": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/condition"
+     },
+     "description": "A keyword limit on the units of that faction."
+    }
+   }
+  },
+  "opens_entry": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "faction"
+   ],
+   "properties": {
+    "faction": {
+     "type": "string",
+     "pattern": "^[a-z0-9_]+$"
+    },
+    "datasheets": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "names": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "Units of a book that this data does not hold yet, by their printed names."
+    },
+    "conditions": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/condition"
+     }
+    },
+    "role": {
+     "enum": [
+      "HQ",
+      "Troops",
+      "Elites",
+      "Fast Attack",
+      "Heavy Support",
+      "Dedicated Transport",
+      "Flyer",
+      "Lords of War",
+      "Fortification"
+     ]
+    },
+    "max_units": {
+     "type": "integer"
+    },
+    "per_points": {
+     "$ref": "#/$defs/per_points"
+    }
+   },
+   "description": "A faction that the rule opens."
+  },
+  "per_points": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "per",
+    "exact"
+   ],
+   "properties": {
+    "per": {
+     "type": "integer"
+    },
+    "exact": {
+     "type": "boolean"
+    }
+   },
+   "description": "The count is for each \"per\" points of the army. exact: the count is exact, not a minimum. Rounding: the number of steps is the army points divided by \"per\", rounded up, and at least 1. Example with per 1000: 0-1000pts gives 1 step, 1001-2000pts gives 2 steps."
+  },
+  "condition": {
+   "type": "object",
+   "additionalProperties": false,
+   "minProperties": 1,
+   "maxProperties": 1,
+   "properties": {
+    "warlord": {
+     "const": true,
+     "description": "The unit is the Warlord."
+    },
+    "rule": {
+     "$ref": "#/$defs/rule_entry",
+     "description": "The unit has the rule, any value."
+    },
+    "keyword": {
+     "type": "string",
+     "description": "A red name: the unit has the keyword."
+    },
+    "not_keyword": {
+     "type": "string"
+    },
+    "datasheet": {
+     "type": "string",
+     "description": "A blue name: the unit is of this datasheet (page id)."
+    },
+    "rows": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "datasheet",
+       "profile"
+      ],
+      "properties": {
+       "datasheet": {
+        "type": "string"
+       },
+       "profile": {
+        "type": "string"
+       }
+      }
+     },
+     "description": "A quoted role in no colour ('Sergeant' model): the rows that it names."
+    },
+    "unit_type": {
+     "type": "string",
+     "description": "A unit type of §17.0."
+    },
+    "holds": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/kit_item"
+     }
+    },
+    "lacks": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/kit_item"
+     }
+    },
+    "choice": {
+     "$ref": "#/$defs/choice_path"
+    },
+    "not_choice": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/choice_path"
+     }
+    },
+    "transport": {
+     "const": true,
+     "description": "The unit has a Transport rule of any name or datasheet: a rule with effects.transport_capacity in special_rules."
+    },
+    "min_models": {
+     "type": "integer",
+     "minimum": 1,
+     "description": "The unit has at least this number of models (\"which contains 10 or more models\")."
+    },
+    "any_of": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/condition"
+     }
+    },
+    "role": {
+     "enum": [
+      "HQ",
+      "Troops",
+      "Elites",
+      "Fast Attack",
+      "Heavy Support",
+      "Dedicated Transport",
+      "Flyer",
+      "Lords of War",
+      "Fortification"
+     ],
+     "description": "The unit fills this role, after any role grant."
+    },
+    "faction": {
+     "type": "string",
+     "pattern": "^[a-z0-9_]+$",
+     "description": "The unit is of this faction."
+    },
+    "allegiance": {
+     "type": "string",
+     "description": "The unit's detachment took this allegiance (page id)."
+    },
+    "not": {
+     "$ref": "#/$defs/condition",
+     "description": "The condition does not hold."
+    },
+    "name": {
+     "type": "string",
+     "description": "A unit of a book that this data does not hold yet, by its printed name."
+    },
+    "rite": {
+     "type": "string",
+     "description": "The army uses this Rite of War (page id)."
+    },
+    "max_models": {
+     "type": "integer",
+     "minimum": 1,
+     "description": "The unit has at most this number of models (\"which contains only 1 model\")."
+    }
+   }
+  },
+  "choice_path": {
+   "oneOf": [
+    {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "book_options",
+      "path"
+     ],
+     "properties": {
+      "book_options": {
+       "type": "string",
+       "pattern": "^[a-z0-9_]+$"
+      },
+      "path": {
+       "type": "string"
+      }
+     },
+     "description": "A choice of a book option list: \"<group id>/<choice id>\"."
+    },
+    {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "page",
+      "path"
+     ],
+     "properties": {
+      "page": {
+       "type": "string"
+      },
+      "path": {
+       "type": "string"
+      }
+     },
+     "description": "An option choice of a datasheet (units export) or a rule (special rules export): \"<group id>/<choice id>\"."
+    }
+   ]
+  },
+  "group_ref": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "book_options",
+    "group"
+   ],
+   "properties": {
+    "book_options": {
+     "type": "string",
+     "pattern": "^[a-z0-9_]+$"
+    },
+    "group": {
+     "type": "string"
+    }
+   },
+   "description": "A group of a book option list."
+  },
+  "kit_item": {
+   "type": "object",
+   "additionalProperties": false,
+   "description": "An item reference of the weapon or wargear export, or {name} for an item that has no entry.",
+   "properties": {
+    "kind": {
+     "enum": [
+      "weapon",
+      "wargear"
+     ]
+    },
+    "id": {
+     "type": "string",
+     "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$"
+    },
+    "faction": {
+     "type": "string",
+     "description": "Present when the item is in the file of another faction."
+    },
+    "name": {
+     "type": "string",
+     "description": "Only for an item that has no weapon or wargear entry: the printed name."
+    },
+    "param": {
+     "type": "string",
+     "description": "The value of the item, for example \"3\" for Void Shields (3)."
+    },
+    "count": {
+     "type": "integer",
+     "minimum": 1,
+     "description": "The printed number. Not present means 1 (no number printed)."
+    },
+    "mount": {
+     "enum": [
+      "primary",
+      "secondary"
+     ],
+     "description": "(P) is a Primary weapon, (S) is a Secondary weapon (unit_types/vehicle.md)."
+    },
+    "note": {
+     "type": "string",
+     "description": "A printed note in brackets, for example \"This counts as two weapons\"."
+    },
+    "printed": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "The name that the book prints when it is another name than the item, for example \"Daemon Engine Plate\". null: the book does not print this item in this kit, but this data adds it."
+    }
+   },
+   "oneOf": [
+    {
+     "required": [
+      "kind",
+      "id"
+     ]
+    },
+    {
+     "required": [
+      "name"
+     ],
+     "not": {
+      "anyOf": [
+       {
+        "required": [
+         "kind"
+        ]
+       },
+       {
+        "required": [
+         "id"
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "rule_entry": {
+   "type": "object",
+   "additionalProperties": false,
+   "description": "A rule reference, as in the unit types export. A rule that has no rule page is {name} only.",
+   "required": [
+    "name"
+   ],
+   "properties": {
+    "rule": {
+     "type": "string",
+     "description": "The id of the rule in a special rules file."
+    },
+    "name": {
+     "type": "string"
+    },
+    "param": {
+     "type": "string"
+    },
+    "printed": {
+     "type": "string"
+    },
+    "url": {
+     "type": "string",
+     "format": "uri"
+    },
+    "raise_by": {
+     "type": "integer",
+     "description": "A unit that has the rule raises its value by this."
+    },
+    "max": {
+     "type": [
+      "integer",
+      "string"
+     ]
+    }
+   },
+   "dependentRequired": {
+    "rule": [
+     "url"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,797 @@
+{
+ "data_version": "cc2f68831edd72e2",
+ "format": 1,
+ "faction": "renegades_and_heretics",
+ "wargear": [
+  {
+   "id": "chaos_runes",
+   "name": "Chaos Runes",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/chaos_runes_renegades_and_heretics/",
+   "text": "A model with this wargear has a 6+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "6+"
+   }
+  },
+  {
+   "id": "chaos_familiar",
+   "name": "Chaos Familiar",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/chaos_familiar_renegades_and_heretics/",
+   "text": "A model with Chaos Familiar gains +1 to their Attacks (A) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "A",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "aura_of_dark_glory",
+   "name": "Aura of Dark Glory",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/aura_of_dark_glory_renegades_and_heretics/",
+   "text": "A model with an Aura of Dark Glory has a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "melta_bomb",
+   "name": "Melta Bomb",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "melta_bomb"
+    }
+   ],
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/melta_bomb_renegades_and_heretics/",
+   "text": "In combat, a model with this wargear may forgo its attacks and instead make a single Strength 8, AP1 attack with the Melta Special rule at Initiative step 1."
+  },
+  {
+   "id": "chaos_sigil",
+   "name": "Chaos Sigil",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/chaos_sigil_renegades_and_heretics/",
+   "text": "A model with a Chaos Sigil has a 4+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "chemical_rebreather",
+   "name": "Chemical Rebreather",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/chemical_rebreather/",
+   "text": "A model equipped with this wargear may re-roll Armor save rolls against weapons with the Poison (x) special rule."
+  },
+  {
+   "id": "bionics",
+   "name": "Bionics",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/bionics_renegades_and_heretics/",
+   "text": "A model with this wargear gains the Feel no Pain (6+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "6+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "vox_caster",
+   "name": "Vox Caster",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/vox_caster_renegades_and_heretics/",
+   "text": "A unit with this Wargear automatically Rallies at the start of its Movement phase."
+  },
+  {
+   "id": "med_kit",
+   "name": "Med-Kit",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/med_kit_renegades_and_heretics/",
+   "text": "A model with this Wargear and their attached unit gain Feel No Pain (5+) Special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "banner_of_the_apostate",
+   "name": "Banner of the Apostate",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/banner_of_the_apostate/",
+   "text": "A unit that includes a model with this wargear gains +1 to their Leadership (LD) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "drug_injector",
+   "name": "Drug Injector",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/drug_injector/",
+   "text": "A model with this wargear can opt to inject combat Drugs at the start of the turn. Until the start of your next turn, the equipped model gains the Sprint (1), Furious Charge and Frenzy special rules. However, all weapons the model is equipped with gain the Gets Hot! special rule."
+  },
+  {
+   "id": "icon_of_chaos",
+   "name": "Icon of Chaos",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/icon_of_chaos_renegades_and_heretics/",
+   "text": "A unit that includes a model equipped with the Icon of Chaos always counts as scoring 1 additional Wound for the purposes of Combat resolution. Additionally, a unit that arrives on the battlefield via Deep Strike within 12\" of a unit with this wargear does not scatter. Finally, when a unit which includes a model with this special rule would conduct a Fall Back Move which would cause it to move off the table, the unit instead stops 1\" away from the table edge and automatically rallies in your next Movement Phase."
+  },
+  {
+   "id": "power_armour",
+   "name": "Power Armour",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/power_armour_renegades_and_heretics/",
+   "text": "Basic Power Armour. It provides a 3+ Armour Save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "warp_armour",
+   "name": "Warp Armour",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/warp_armour_renegades_and_heretics/",
+   "text": "Master work Armour issued to veterans and champions. It provides a 2+ Armour Save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "scrap_armour",
+   "name": "Scrap Armour",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/scrap_armour_renegades_and_heretics/",
+   "text": "Improvised Armour. It provides a 6+ Armour save.",
+   "effects": {
+    "armour_save": "6+"
+   }
+  },
+  {
+   "id": "flak_armour",
+   "name": "Flak Armour",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/flak_armour_renegades_and_heretics/",
+   "text": "Basic Combat armour. It provides a 5+ Armour Save.",
+   "effects": {
+    "armour_save": "5+"
+   }
+  },
+  {
+   "id": "carapace_armour",
+   "name": "Carapace Armour",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/carapace_armour_renegades_and_heretics/",
+   "text": "Heavy Combat Armour. It confers a 4+ Armour save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "plate_armour",
+   "name": "Plate Armour",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/plate_armour_renegades_and_heretics/",
+   "text": "This armour is comprised of a single heavy front plate with additional padding around. It provides a 3+ Armor Save but the equipped model cannot perform Sweeping Advances.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "armoured_plate",
+   "name": "Armoured Plate",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/armoured_plate_renegades_and_heretics/",
+   "text": "Heavy Armoured plating protects the armoured walking vehicles of the Guard. It confers a 3+ Armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "daemon_engine_armour",
+   "name": "Daemon Engine Armour",
+   "printed": {
+    "name": "Dameon Engine Armour"
+   },
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/daemon_engine_armour_renegades_and_heretics/",
+   "text": "The living armoured skin of the Dameon engines crafted by Chaos artifice. It confers a 3+ armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "wings_jump_pack",
+   "name": "Wings/Jump Pack",
+   "section": "Mobility",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/wings_jump_pack/",
+   "text": "A model with this wargear increases their Movement (M) characteristic to 12\". It gains the Hammer of Wrath (1), Fly and Deep Strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "mount",
+   "name": "Mount",
+   "section": "Mobility",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/mount_renegades_and_heretics/",
+   "text": "A unit that is equipped with a Mount becomes the Cavalry type. In addition, the model gains +1 to its Wounds (W) characteristic. A mount is equipped with close combat weapons.",
+   "effects": {
+    "unit_type": "Cavalry",
+    "stat_mods": [
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "daemonic_steed",
+   "name": "Daemonic Steed",
+   "section": "Mobility",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/daemonic_steed_renegades_and_heretics/",
+   "text": "A unit that is equipped with a Daemonic Steed becomes a Cavalry type unit. In addition, it gains +1 Strength (S), Toughness (T) and Wounds (W) Characteristics.",
+   "effects": {
+    "unit_type": "Cavalry",
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": 1
+     },
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "hunting_rig",
+   "name": "Hunting Rig",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "lightning_claws"
+    },
+    {
+     "kind": "weapon",
+     "id": "storm_bolter"
+    }
+   ],
+   "section": "Mobility",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/hunting_rig/",
+   "text": "A model equipped with a Hunting Rig has a 3+ Armor save. In addition, the Hunting Rig is equipped with 2 Lightning Claws and 2 Storm Bolters. The Equipped model increases its Strength (S) & Toughness (T) characteristics by 2 and its Wounds (W) Characteristics by 1. The Equipped model gains the Sprint (1), Fleet, Firing Protocols (2), Regeneration and Relentless special rules.",
+   "effects": {
+    "armour_save": "3+",
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": 2
+     },
+     {
+      "characteristic": "T",
+      "delta": 2
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/sprint",
+      "name": "Sprint",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/sprint/"
+     },
+     {
+      "rule": "universal_special_rules/fleet",
+      "name": "Fleet",
+      "url": "https://longwarindex.app/universal_special_rules/fleet/"
+     },
+     {
+      "rule": "universal_special_rules/firing_protocols",
+      "name": "Firing Protocols",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+     },
+     {
+      "rule": "universal_special_rules/regeneration",
+      "name": "Regeneration",
+      "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+     },
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "smoke_launchers",
+   "name": "Smoke Launchers",
+   "section": "Vehicle",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/smoke_launchers_renegades_and_heretics/",
+   "text": "A model equipped with this Wargear can set to smoke instead of Overwatching. Until the start of its next turn, the model gains a 4+ Cover Save."
+  },
+  {
+   "id": "searchlight",
+   "name": "Searchlight",
+   "section": "Vehicle",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/searchlight_renegades_and_heretics/",
+   "text": "A model with this special rule gains the Night Vision special rule. Any unit that it targets in the Shooting Phase no longer gains the benefit of Night Fighting. Any attacks against this unit are not affected by Night Fighting.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/night_vision",
+      "name": "Night Vision",
+      "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_mark_of_chaos_undivided",
+   "name": "The Mark of Chaos Undivided",
+   "section": "Chaos Marks",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_mark_of_chaos_undivided_renegades_and_heretics/",
+   "text": "- A unit with this Mark gains the Undivided Keyword and may only be joined by units with the Undivided, Khorne, Tzeentch, Nurgle or Slaanesh keywords.\n- A unit with this Mark gains the Fear (1) special rule. If the unit already has the Fear (x) special rule, increase the value of X by 1.\n- In addition, if the unit would fail a Panic test, instead of Falling Back, the unit takes D3 wounds with no saves or mitigation rolls allowed.\n- A unit with this wargear gains access to the Lore of Slaanesh, Nurgle and Tzeentch Psychic Powers if they have the Psyker (x) special rule.",
+   "effects": {
+    "keywords": [
+     "Undivided"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ],
+    "counts_as": [
+     {
+      "kind": "wargear",
+      "id": "the_mark_of_chaos_undivided",
+      "faction": "chaos_space_marines"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_mark_of_khorne",
+   "name": "The Mark of Khorne",
+   "section": "Chaos Marks",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_mark_of_khorne_renegades_and_heretics/",
+   "text": "- A unit with this Mark gains the Khorne Keyword and may only join or be joined by units with the Khorne or Undivided Keywords.\n- A unit with this mark gains the Furious Charge special rule. If the unit already has the Furious Charge special rule it gains +1 to its Attack (A) characteristic.\n- A unit with the Psyker (x) special rule may not purchase this wargear.",
+   "effects": {
+    "keywords": [
+     "Khorne"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/furious_charge",
+      "name": "Furious Charge",
+      "url": "https://longwarindex.app/universal_special_rules/furious_charge/",
+      "if_already_held": {
+       "characteristic": "A",
+       "delta": 1
+      }
+     }
+    ],
+    "counts_as": [
+     {
+      "kind": "wargear",
+      "id": "the_mark_of_khorne",
+      "faction": "chaos_space_marines"
+     }
+    ],
+    "purchase_restriction": {
+     "exclude": {
+      "any_rules": [
+       "universal_special_rules/psyker"
+      ]
+     },
+     "quote": "A unit with the Psyker (x) special rule may not purchase this wargear."
+    }
+   }
+  },
+  {
+   "id": "the_mark_of_tzeentch",
+   "name": "The Mark of Tzeentch",
+   "section": "Chaos Marks",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_mark_of_tzeentch_renegades_and_heretics/",
+   "text": "- A unit with this Mark gains the Tzeentch Keyword and may only join or be joined by units with the Tzeentch or Undivided Keywords.\n- A unit with this mark gains +1 to their Invulnerable saves (to a max of 3+). If they do not have an Invulnerable save, they gain a 6+ Invulnerable save.\n- In addition, A unit with this wargear and the Psyker (x) special rule may re-roll 1 dice when making a Psychic Test.\n- A unit with this wargear gains access to the Tzeentch Psychic Powers if they have the Psyker (x) special rule.",
+   "effects": {
+    "invulnerable_save_improve": {
+     "by": 1,
+     "max": "3+",
+     "otherwise": "6+"
+    },
+    "keywords": [
+     "Tzeentch"
+    ],
+    "counts_as": [
+     {
+      "kind": "wargear",
+      "id": "the_mark_of_tzeentch",
+      "faction": "chaos_space_marines"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_mark_of_nurgle",
+   "name": "The Mark of Nurgle",
+   "section": "Chaos Marks",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_mark_of_nurgle_renegades_and_heretics/",
+   "text": "- A unit with this Mark gains the Nurgle Keyword and may only join or be joined by units with the Nurgle or Undivided Keywords.\n- A unit with this mark gains the Feel no Pain (5+) special rule. If the unit does not have a Wounds (W) characteristic, it instead always gains the Benefits of Heavy Cover.\n- A unit with this wargear gains access to the Lore of Nurgle Psychic Powers if they have the Psyker (x) special rule.",
+   "effects": {
+    "keywords": [
+     "Nurgle"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/",
+      "requires_characteristic": "W"
+     }
+    ],
+    "counts_as": [
+     {
+      "kind": "wargear",
+      "id": "the_mark_of_nurgle",
+      "faction": "chaos_space_marines"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_mark_of_slaanesh",
+   "name": "The Mark of Slaanesh",
+   "section": "Chaos Marks",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_mark_of_slaanesh_renegades_and_heretics/",
+   "text": "- A unit with this Mark gains the Slaanesh Keyword and may only join or be joined by units with the Slaanesh or Undivided Keywords.\n- A unit with this mark gains +1 to their Initiative (I) characteristic.\n- A unit with this Mark gains the Sudden Strike special rule.\n- A unit with this wargear gains access to the Lore of Slaanesh Psychic Powers if they have the Psyker (x) special rule.",
+   "effects": {
+    "keywords": [
+     "Slaanesh"
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "I",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/sudden_strike",
+      "name": "Sudden Strike",
+      "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+     }
+    ],
+    "counts_as": [
+     {
+      "kind": "wargear",
+      "id": "the_mark_of_slaanesh",
+      "faction": "chaos_space_marines"
+     }
+    ]
+   }
+  },
+  {
+   "id": "book_of_the_occult",
+   "name": "Book of the Occult",
+   "section": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/book_of_the_occult/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Once per game, a model with this Relic Wargear, at the start of your Movement Phase, may summon 1 Bloodletter, Daemonette, Plaguebearers, Nurglings or Pink Horrors from Codex – Chaos Daemons within wholly within 12\" of the model with this relic and more than 3\" away from any enemy models."
+  },
+  {
+   "id": "seed_of_corruption",
+   "name": "Seed of Corruption",
+   "section": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/seed_of_corruption/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Once per game, when a model with this wargear would be slain, before they are removed from play, immediately summon 1 unit of Poxwalkers wholly within 12\" of the bearer of the relic. This unit may be placed within 3\" of enemy units."
+  },
+  {
+   "id": "chalice_of_entropic_power",
+   "name": "Chalice of Entropic Power",
+   "section": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/chalice_of_entropic_power/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique or Daemon keyword and no other Relic Wargear may purchase this wargear. At the start of each of your turns, a model with this relic must drink from the chalice, roll a D3.\n\n1. Empowered: The bearer gains +1 to their Strength (S) characteristic.\n2. Inured: The bearer gains +1 to their Toughness (T) characteristic.\n3. Swollen: The bearer gains +1 to the Wounds (W) characteristic.\n\nAll effects are cumulative, stack and last until the end of the game."
+  },
+  {
+   "id": "icon_of_sin",
+   "name": "Icon of Sin",
+   "section": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/icon_of_sin/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this Relic gains the Fear (2) special rules. If they already have the Fear (x) special rules, improve the value of (x) by 1. Imperium units gain the Hatred special rule when attacking the bearer of this Relic and their attached unit. The bearer and their attached unit can re-roll Invulnerable save rolls of 1."
+  },
+  {
+   "id": "artifact_of_lost_xeno_heresy",
+   "name": "Artifact of Lost Xeno-Heresy",
+   "section": "Relics",
+   "page": 11,
+   "url": "https://longwarindex.app/wargear/artifact_of_lost_xeno_heresy/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this wargear gains a 3+ Invulnerable Save. In addition, once per game, they can gain the Arcing (6+) special rule on all weapons they are equipped with until the end of the current turn.",
+   "effects": {
+    "invulnerable_save": "3+"
+   }
+  },
+  {
+   "id": "the_blood_armour",
+   "name": "The Blood Armour",
+   "section": "Datasheet",
+   "datasheet": "Archon Urlock Gaur",
+   "page": 56,
+   "url": "https://longwarindex.app/wargear/the_blood_armour/",
+   "text": "This wargear grants a 2+ Armour save. Enemy units which make attacks against this unit in the Combat Phase while it is not attached to a friendly unit gain the Gets Hot! special rule on all Melee weapons they are equipped with.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "void_shields",
+   "name": "Void Shields",
+   "parameter": {
+    "kind": "count",
+    "description": "the number of Void Shield Tokens"
+   },
+   "section": "Datasheet",
+   "datasheet": "Warhound Scout Titan",
+   "page": 42,
+   "url": "https://longwarindex.app/wargear/void_shields_renegades_and_heretics/",
+   "text": "A unit with this wargear gains a number of Void Shield Tokens equal to the value of (x). Each time this unit takes a Penetrating Hit, if it has a Void Shield Token, you spend a token to ignore that Penetrating Hit. At the start of each Battle Round, you regain 1 spent Void Shield Token. Instead of setting to Overwatch, you can set to Recharge Voids. A unit that Recharges Voids regains all of its Void Shield Tokens."
+  },
+  {
+   "id": "ion_shield_gauntlet",
+   "name": "Ion Shield Gauntlet",
+   "section": "Datasheet",
+   "datasheet": "Knight Cerastus",
+   "page": 38,
+   "url": "https://longwarindex.app/wargear/ion_shield_gauntlet/",
+   "text": "A model with this wargear has a 5+ Invulnerable save. If the model has the Daemon special rule, increase it to a 4+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "icon_of_corruption",
+   "name": "Icon of Corruption",
+   "section": "Datasheet",
+   "datasheet": "Iconarch",
+   "page": 49,
+   "url": "https://longwarindex.app/wargear/icon_of_corruption/",
+   "text": "All friendly Renegades & Heretics units within 12\" of this model may re-roll Pinning and Panic tests. All friendly Renegades & Heretics units within 12\" count as having inflicted 1 additional wound for the purposes of combat resolution when determining who won combat."
+  },
+  {
+   "id": "disc_of_tzeentch",
+   "name": "Disc of Tzeentch",
+   "section": "Datasheet",
+   "datasheet": "Tzaangor Shaman",
+   "page": 54,
+   "url": "https://longwarindex.app/wargear/disc_of_tzeentch_renegades_and_heretics/",
+   "text": "A model with this wargear increases their Movement (M) characteristic to 12\". It gains the Hammer of Wrath (1), Fly and Deep Strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chaos_hound",
+   "name": "Chaos Hound",
+   "section": "Datasheet",
+   "datasheet": "Cultist Mob",
+   "page": 58,
+   "url": "https://longwarindex.app/wargear/chaos_hound/",
+   "text": "A model with this wargear gains the Hammer of Wrath (1) and Furious Charge special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/furious_charge",
+      "name": "Furious Charge",
+      "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "infravision_goggles",
+   "name": "Infravision Goggles",
+   "section": "Datasheet",
+   "datasheet": "Cultist Mob",
+   "page": 58,
+   "url": "https://longwarindex.app/wargear/infravision_goggles/",
+   "text": "A model equipped with this wargear gains the Night Vision special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/night_vision",
+      "name": "Night Vision",
+      "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "voltaghiest_field",
+   "name": "Voltaghiest Field",
+   "section": "Datasheet",
+   "datasheet": "Negavolt Cultists",
+   "page": 74,
+   "url": "https://longwarindex.app/wargear/voltaghiest_field_renegades_and_heretics/",
+   "text": "A model with this wargear has a 5+ Invulnerable save. A model with this special rule gains the Hammer of Wrath (1) special rule. The first time this unit would win Combat in the Combat Phase when calculating Combat Resolution, this unit's Invulnerable save increases to 4+ for the rest of the battle.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "lasgun_array",
+   "name": "Lasgun Array",
+   "section": "Datasheet",
+   "datasheet": "Chimera APC",
+   "page": 77,
+   "url": "https://longwarindex.app/wargear/lasgun_array_renegades_and_heretics/",
+   "text": "If this unit is transporting Embarked models, it may make an additional 6 Attacks in the Combat Phase at its normal initiative with its Cult Crew Weapons."
+  },
+  {
+   "id": "digital_weapons",
+   "name": "Digital Weapons",
+   "section": "Datasheet",
+   "datasheet": "Apostate Preacher",
+   "page": 71,
+   "url": "https://longwarindex.app/wargear/digital_weapons_renegades_and_heretics/",
+   "text": "A model with Digital weapons gains +1 to their Attacks (A) characteristic.",
+   "print_defect": "The book names this wargear on a datasheet but prints no rules text. This data gives the text of Codex Space Marines.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "A",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "target_finder",
+   "name": "Target Finder",
+   "section": "Datasheet",
+   "datasheet": "Baneblade Super Heavy Tank",
+   "page": 97,
+   "url": "https://longwarindex.app/wargear/target_finder_renegades_and_heretics/",
+   "text": "A model equipped with this wargear gains +1 to their Ballistic Skill (BS) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "BS",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sensor_relay",
+   "name": "Sensor Relay",
+   "section": "Datasheet",
+   "datasheet": "Chaos Bastion",
+   "page": 104,
+   "url": "https://longwarindex.app/wargear/sensor_relay_renegades_and_heretics/",
+   "text": "Enemy units may not arrive from Deep Strike within 9\" of a model equipped with this Wargear."
+  }
+ ]
+}

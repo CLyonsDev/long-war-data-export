@@ -1,0 +1,695 @@
+{
+ "data_version": "a106c331286cfb67",
+ "format": 1,
+ "faction": "core",
+ "battle_packs": [
+  {
+   "id": "battle_packs/crusade_battle_pack/crusade_battle_pack",
+   "name": "Crusade",
+   "page": 54,
+   "url": "https://longwarindex.app/crusade_battle_pack/",
+   "source": "Core Rules",
+   "detachments": [
+    {
+     "name": "Crusade Detachment",
+     "kind": "primary",
+     "page": 54,
+     "url": "https://longwarindex.app/crusade_battle_pack/crusade_armies/",
+     "slots": [
+      {
+       "role": "HQ",
+       "compulsory": 1,
+       "min": 1,
+       "max": 3
+      },
+      {
+       "role": "Troops",
+       "compulsory": 2,
+       "min": 2,
+       "max": 6
+      },
+      {
+       "role": "Elites",
+       "compulsory": 0,
+       "min": 0,
+       "max": 4
+      },
+      {
+       "role": "Fast Attack",
+       "compulsory": 0,
+       "min": 0,
+       "max": 3
+      },
+      {
+       "role": "Heavy Support",
+       "compulsory": 0,
+       "min": 0,
+       "max": 3
+      },
+      {
+       "role": "Flyer",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      },
+      {
+       "role": "Fortification",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      },
+      {
+       "role": "Lords of War",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      }
+     ]
+    },
+    {
+     "name": "Allied Detachment",
+     "kind": "allied",
+     "page": 54,
+     "url": "https://longwarindex.app/crusade_battle_pack/crusade_armies/",
+     "slots": [
+      {
+       "role": "HQ",
+       "compulsory": 1,
+       "min": 1,
+       "max": 1
+      },
+      {
+       "role": "Troops",
+       "compulsory": 1,
+       "min": 1,
+       "max": 3
+      },
+      {
+       "role": "Elites",
+       "compulsory": 0,
+       "min": 0,
+       "max": 2
+      },
+      {
+       "role": "Fast Attack",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      },
+      {
+       "role": "Heavy Support",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      },
+      {
+       "role": "Flyer",
+       "compulsory": 0,
+       "min": 0,
+       "max": 0
+      },
+      {
+       "role": "Fortification",
+       "compulsory": 0,
+       "min": 0,
+       "max": 0
+      },
+      {
+       "role": "Lords of War",
+       "compulsory": 0,
+       "min": 0,
+       "max": 0
+      }
+     ]
+    }
+   ],
+   "allied_detachments": {
+    "min": 0,
+    "max": 1
+   },
+   "points": [
+    {
+     "label": "Small",
+     "points": 1000
+    },
+    {
+     "label": "Average",
+     "points": 1500
+    },
+    {
+     "label": "Large",
+     "points": 2000
+    }
+   ],
+   "points_page": 54,
+   "points_url": "https://longwarindex.app/crusade_battle_pack/points/",
+   "lord_of_war_minimum_points": 2000,
+   "lord_of_war_text": "Players may only include Lords of War in Large sized games (2,000pts and above)."
+  },
+  {
+   "id": "battle_packs/crucible_battle_pack/crucible_battle_pack",
+   "name": "Crucible",
+   "page": 3,
+   "url": "https://longwarindex.app/crucible_battle_pack/",
+   "source": "Crucible Battle Pack",
+   "detachments": [
+    {
+     "name": "Crucible Detachment",
+     "kind": "primary",
+     "page": 3,
+     "url": "https://longwarindex.app/crucible_battle_pack/crucible_armies/",
+     "slots": [
+      {
+       "role": "HQ",
+       "compulsory": 1,
+       "min": 1,
+       "max": 3
+      },
+      {
+       "role": "Troops",
+       "compulsory": 2,
+       "min": 2,
+       "max": 6
+      },
+      {
+       "role": "Elites",
+       "compulsory": 0,
+       "min": 0,
+       "max": 4
+      },
+      {
+       "role": "Fast Attack",
+       "compulsory": 0,
+       "min": 0,
+       "max": 3
+      },
+      {
+       "role": "Heavy Support",
+       "compulsory": 0,
+       "min": 0,
+       "max": 3
+      },
+      {
+       "role": "Flyer",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      },
+      {
+       "role": "Fortification",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      },
+      {
+       "role": "Lords of War",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      }
+     ]
+    }
+   ],
+   "allied_detachments": {
+    "min": 0,
+    "max": 0
+   },
+   "points": [
+    {
+     "label": "Small",
+     "points": 1000
+    },
+    {
+     "label": "Average",
+     "points": 1500
+    },
+    {
+     "label": "Large",
+     "points": 2000
+    }
+   ],
+   "points_page": 3,
+   "points_url": "https://longwarindex.app/crucible_battle_pack/points/",
+   "lord_of_war_minimum_points": 1000,
+   "lord_of_war_text": "Players cannot include Lords of War in any games under 1,000 points."
+  },
+  {
+   "id": "battle_packs/maelstrom_of_war_battle_pack/maelstrom_of_war_battle_pack",
+   "name": "Maelstrom of War",
+   "page": 3,
+   "url": "https://longwarindex.app/maelstrom_of_war_battle_pack/",
+   "source": "Maelstrom of War Battle Pack",
+   "detachments": [
+    {
+     "name": "Maelstrom Detachment",
+     "kind": "primary",
+     "page": 3,
+     "url": "https://longwarindex.app/maelstrom_of_war_battle_pack/maelstrom_games_armies/",
+     "slots": [
+      {
+       "role": "HQ",
+       "compulsory": 1,
+       "min": 1,
+       "max": 3
+      },
+      {
+       "role": "Troops",
+       "compulsory": 2,
+       "min": 2,
+       "max": 6
+      },
+      {
+       "role": "Elites",
+       "compulsory": 0,
+       "min": 0,
+       "max": 4
+      },
+      {
+       "role": "Fast Attack",
+       "compulsory": 0,
+       "min": 0,
+       "max": 3
+      },
+      {
+       "role": "Heavy Support",
+       "compulsory": 0,
+       "min": 0,
+       "max": 3
+      },
+      {
+       "role": "Flyer",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      },
+      {
+       "role": "Fortification",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      },
+      {
+       "role": "Lords of War",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      }
+     ]
+    },
+    {
+     "name": "Allied Detachment",
+     "kind": "allied",
+     "page": 3,
+     "url": "https://longwarindex.app/maelstrom_of_war_battle_pack/maelstrom_games_armies/",
+     "slots": [
+      {
+       "role": "HQ",
+       "compulsory": 1,
+       "min": 1,
+       "max": 1
+      },
+      {
+       "role": "Troops",
+       "compulsory": 1,
+       "min": 1,
+       "max": 3
+      },
+      {
+       "role": "Elites",
+       "compulsory": 0,
+       "min": 0,
+       "max": 2
+      },
+      {
+       "role": "Fast Attack",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      },
+      {
+       "role": "Heavy Support",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      },
+      {
+       "role": "Flyer",
+       "compulsory": 0,
+       "min": 0,
+       "max": 0
+      },
+      {
+       "role": "Fortification",
+       "compulsory": 0,
+       "min": 0,
+       "max": 0
+      },
+      {
+       "role": "Lords of War",
+       "compulsory": 0,
+       "min": 0,
+       "max": 0
+      }
+     ]
+    }
+   ],
+   "allied_detachments": {
+    "min": 1,
+    "max": 1
+   },
+   "points": [
+    {
+     "label": "Small",
+     "points": 1000
+    },
+    {
+     "label": "Average",
+     "points": 1500
+    },
+    {
+     "label": "Large",
+     "points": 2000
+    }
+   ],
+   "points_page": 3,
+   "points_url": "https://longwarindex.app/maelstrom_of_war_battle_pack/points/",
+   "lord_of_war_minimum_points": 2000,
+   "lord_of_war_text": "Players may only include Lords of War in Large sized games (2,000pts and above)."
+  },
+  {
+   "id": "battle_packs/shadow_war_battle_pack/shadow_war_battle_pack",
+   "name": "Shadow War",
+   "page": 3,
+   "url": "https://longwarindex.app/shadow_war_battle_pack/",
+   "source": "Shadow War Battle Pack",
+   "detachments": [
+    {
+     "name": "Shadow Detachment",
+     "kind": "primary",
+     "page": 3,
+     "url": "https://longwarindex.app/shadow_war_battle_pack/shadow_of_war_armies/",
+     "slots": [
+      {
+       "role": "HQ",
+       "compulsory": 1,
+       "min": 1,
+       "max": 3
+      },
+      {
+       "role": "Troops",
+       "compulsory": 2,
+       "min": 2,
+       "max": 6
+      },
+      {
+       "role": "Elites",
+       "compulsory": 0,
+       "min": 0,
+       "max": 4
+      },
+      {
+       "role": "Fast Attack",
+       "compulsory": 0,
+       "min": 0,
+       "max": 3
+      },
+      {
+       "role": "Heavy Support",
+       "compulsory": 0,
+       "min": 0,
+       "max": 3
+      },
+      {
+       "role": "Flyer",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      },
+      {
+       "role": "Fortification",
+       "compulsory": 0,
+       "min": 0,
+       "max": 0
+      },
+      {
+       "role": "Lords of War",
+       "compulsory": 0,
+       "min": 0,
+       "max": 0
+      }
+     ]
+    }
+   ],
+   "allied_detachments": {
+    "min": 0,
+    "max": 0
+   },
+   "points": [
+    {
+     "label": "Small",
+     "points": 800
+    },
+    {
+     "label": "Average",
+     "points": 1000
+    },
+    {
+     "label": "Large",
+     "points": 1500
+    }
+   ],
+   "points_page": 3,
+   "points_url": "https://longwarindex.app/shadow_war_battle_pack/points/",
+   "lord_of_war_text": "Players cannot include Lords of War in any Shadow of War games."
+  },
+  {
+   "id": "battle_packs/void_war_battle_pack/void_war_battle_pack",
+   "name": "Void War",
+   "page": 3,
+   "url": "https://longwarindex.app/void_war_battle_pack/",
+   "source": "Void War Battle Pack",
+   "detachments": [
+    {
+     "name": "Void Detachment",
+     "kind": "primary",
+     "page": 3,
+     "url": "https://longwarindex.app/void_war_battle_pack/void_armies/",
+     "slots": [
+      {
+       "role": "HQ",
+       "compulsory": 1,
+       "min": 1,
+       "max": 3
+      },
+      {
+       "role": "Troops",
+       "compulsory": 2,
+       "min": 2,
+       "max": 6
+      },
+      {
+       "role": "Elites",
+       "compulsory": 0,
+       "min": 0,
+       "max": 4
+      },
+      {
+       "role": "Fast Attack",
+       "compulsory": 0,
+       "min": 0,
+       "max": 3
+      },
+      {
+       "role": "Heavy Support",
+       "compulsory": 0,
+       "min": 0,
+       "max": 3
+      },
+      {
+       "role": "Flyer",
+       "compulsory": 0,
+       "min": 0,
+       "max": 0
+      },
+      {
+       "role": "Fortification",
+       "compulsory": 0,
+       "min": 0,
+       "max": 0
+      },
+      {
+       "role": "Lords of War",
+       "compulsory": 0,
+       "min": 0,
+       "max": 0
+      }
+     ]
+    },
+    {
+     "name": "Allied Detachment",
+     "kind": "allied",
+     "page": 3,
+     "url": "https://longwarindex.app/void_war_battle_pack/void_armies/",
+     "slots": [
+      {
+       "role": "HQ",
+       "compulsory": 1,
+       "min": 1,
+       "max": 1
+      },
+      {
+       "role": "Troops",
+       "compulsory": 1,
+       "min": 1,
+       "max": 3
+      },
+      {
+       "role": "Elites",
+       "compulsory": 0,
+       "min": 0,
+       "max": 2
+      },
+      {
+       "role": "Fast Attack",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      },
+      {
+       "role": "Heavy Support",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      },
+      {
+       "role": "Flyer",
+       "compulsory": 0,
+       "min": 0,
+       "max": 0
+      },
+      {
+       "role": "Fortification",
+       "compulsory": 0,
+       "min": 0,
+       "max": 0
+      },
+      {
+       "role": "Lords of War",
+       "compulsory": 0,
+       "min": 0,
+       "max": 0
+      }
+     ]
+    }
+   ],
+   "allied_detachments": {
+    "min": 0,
+    "max": 1
+   },
+   "points": [
+    {
+     "label": "Small",
+     "points": 1000
+    },
+    {
+     "label": "Average",
+     "points": 1500
+    },
+    {
+     "label": "Large",
+     "points": 2000
+    }
+   ],
+   "points_page": 3,
+   "points_url": "https://longwarindex.app/void_war_battle_pack/points/",
+   "lord_of_war_text": "Players cannot include Lords of War in any Void War Missions."
+  },
+  {
+   "id": "battle_packs/war_games_battle_pack/war_games_battle_pack",
+   "name": "War Games",
+   "page": 3,
+   "url": "https://longwarindex.app/war_games_battle_pack/",
+   "source": "War Games Battle Pack",
+   "detachments": [
+    {
+     "name": "War Games Detachment",
+     "kind": "primary",
+     "page": 3,
+     "url": "https://longwarindex.app/war_games_battle_pack/war_games_armies/",
+     "slots": [
+      {
+       "role": "HQ",
+       "compulsory": 1,
+       "min": 1,
+       "max": 3
+      },
+      {
+       "role": "Troops",
+       "compulsory": 2,
+       "min": 2,
+       "max": 6
+      },
+      {
+       "role": "Elites",
+       "compulsory": 0,
+       "min": 0,
+       "max": 4
+      },
+      {
+       "role": "Fast Attack",
+       "compulsory": 0,
+       "min": 0,
+       "max": 3
+      },
+      {
+       "role": "Heavy Support",
+       "compulsory": 0,
+       "min": 0,
+       "max": 3
+      },
+      {
+       "role": "Flyer",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      },
+      {
+       "role": "Fortification",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      },
+      {
+       "role": "Lords of War",
+       "compulsory": 0,
+       "min": 0,
+       "max": 1
+      }
+     ]
+    }
+   ],
+   "allied_detachments": {
+    "min": 0,
+    "max": 0
+   },
+   "points": [
+    {
+     "label": "Small",
+     "points": 1000
+    },
+    {
+     "label": "Average",
+     "points": 1500
+    },
+    {
+     "label": "Large",
+     "points": 2000
+    }
+   ],
+   "points_page": 3,
+   "points_url": "https://longwarindex.app/war_games_battle_pack/points/",
+   "lord_of_war_minimum_points": 2000,
+   "lord_of_war_text": "Players may only include Lords of War in Large sized games (2,000pts and above)."
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "data_version": "9c5865a9f7d0ebb6",
+ "format": 1,
+ "faction": "emperors_children",
+ "wargear": [
+  {
+   "id": "sonic_shrieker",
+   "name": "Sonic Shrieker",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/sonic_shrieker/",
+   "text": "All enemy units engaged by this model's unit have their Initiative (I) characteristic reduced to 1."
+  },
+  {
+   "id": "dirge_caster",
+   "name": "Dirge Caster",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/dirge_caster/",
+   "text": "Enemy units have -1 to all hit rolls in the Combat Phase against a model that is equipped with a Dirge Caster."
+  },
+  {
+   "id": "warp_amplifier",
+   "name": "Warp Amplifier",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/warp_amplifier/",
+   "text": "All enemy units within 18\" of a unit with this wargear suffer -1 to their Leadership (LD) characteristics."
+  },
+  {
+   "id": "combat_drugs",
+   "name": "Combat Drugs",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/combat_drugs_emperors_children/",
+   "text": "A model with this wargear gains +1 to their Strength (S) characteristic and the Frenzy special rule.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/frenzy",
+      "name": "Frenzy",
+      "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "intoxicating_elixir",
+   "name": "Intoxicating Elixir",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/intoxicating_elixir/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains +1 to their Strength (S), Attacks (A) and Leadership (LD) characteristics. In addition, they gain the Frenzy special rule.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": 1
+     },
+     {
+      "characteristic": "A",
+      "delta": 1
+     },
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/frenzy",
+      "name": "Frenzy",
+      "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_endless_grin",
+   "name": "The Endless Grin",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/the_endless_grin/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains the Fear (1) special rule, if they already have the Fear (x) special rule, increase the value of (x) by 1.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "tears_of_the_phoenix",
+   "name": "Tears of the Phoenix",
+   "printed": {
+    "name": "Tears of the Pheonix"
+   },
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/tears_of_the_phoenix/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic doubles their Weapon Skill (WS) characteristic when attacks are resolved against them or their attached unit."
+  },
+  {
+   "id": "armour_of_shrieking_souls",
+   "name": "Armour of Shrieking Souls",
+   "section": "Datasheet",
+   "datasheet": "Lucius The Eternal",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/armour_of_shrieking_souls/",
+   "text": "This confers a 2+ Armour save. The first time this model is slain and removed from play, it is not and instead remains on the battlefield with no wounds allocated to it.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "daemonic_bike",
+   "name": "Daemonic Bike",
+   "section": "Datasheet",
+   "datasheet": "The DOOMRIDER",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/daemonic_bike/",
+   "text": "This unit is equipped with a Bike and is the Bike type, gaining all associated benefits. However, this units Hammer of Wrath Attacks are resolved at AP2. In addition, this unit gains the Fly special rule.",
+   "effects": {
+    "unit_type": "Bike",
+    "rules": [
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     }
+    ],
+    "counts_as": [
+     {
+      "kind": "wargear",
+      "id": "bike",
+      "faction": "chaos_space_marines"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_gilded_panoply",
+   "name": "The Gilded Panoply",
+   "section": "Datasheet",
+   "datasheet": "Fulgrim, Daemon Primarch of the Emperor's Children",
+   "page": 18,
+   "url": "https://longwarindex.app/wargear/the_gilded_panoply/",
+   "text": "This wargear confers a 2+ Armour save. It grants a 4+ Invulnerable save in the Combat Phase.",
+   "effects": {
+    "armour_save": "2+",
+    "conditional_invulnerable_saves": [
+     {
+      "save": "4+",
+      "phase": "Combat"
+     }
+    ]
+   }
+  }
+ ]
+}

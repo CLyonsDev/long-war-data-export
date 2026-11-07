@@ -1,0 +1,1538 @@
+{
+ "data_version": "737c0f5a0065bb89",
+ "format": 1,
+ "faction": "space_marines",
+ "codex": {
+  "id": "codex/space_marines",
+  "name": "Space Marines",
+  "page": 6,
+  "url": "https://longwarindex.app/codex/space_marines/",
+  "parent": null,
+  "army_rules": [
+   {
+    "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+    "name": "And They Shall Know No Fear",
+    "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+   },
+   {
+    "rule": "codex/space_marines/special_rules/master_of_command",
+    "name": "Master of Command",
+    "url": "https://longwarindex.app/special_rules/master_of_command_space_marines/"
+   },
+   {
+    "rule": "codex/space_marines/special_rules/combat_squads",
+    "name": "Combat Squads",
+    "url": "https://longwarindex.app/special_rules/combat_squads/"
+   }
+  ],
+  "allies": {
+   "printed": "The following factions listed in keywords may be taken as allies in an allied detachment if your battle plan allows the use of allied detachments:",
+   "page": 36,
+   "url": "https://longwarindex.app/allies/space_marine_allies/",
+   "factions": [
+    {
+     "faction": "imperial_guard"
+    },
+    {
+     "faction": "sisters_of_battle"
+    },
+    {
+     "faction": "adeptus_mechanicus"
+    },
+    {
+     "faction": "imperial_agents"
+    },
+    {
+     "faction": "talons_of_the_emperor"
+    }
+   ]
+  },
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/space_marines/rites_of_war/drop_pod_assault",
+    "codex/space_marines/rites_of_war/armoured_support",
+    "codex/space_marines/rites_of_war/mechanised_assault",
+    "codex/space_marines/rites_of_war/vanguard_support",
+    "codex/space_marines/rites_of_war/pride_of_the_chapter",
+    "codex/space_marines/rites_of_war/grey_shields"
+   ],
+   "from_parent": [],
+   "banned_from_parent": []
+  },
+  "unit_list": {
+   "page": 35,
+   "url": "https://longwarindex.app/unit_list/space_marine_unit_list/",
+   "entries": [
+    {
+     "datasheet": "codex/space_marines/roster/asterion_moloc",
+     "printed": "Asterion Moloc",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/captain_silas_alberec",
+     "printed": "Captain Silas Alberec",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/captains_casan_sabius_and_sirae_karagon",
+     "printed": "Captains Casan Sabius & Sirae Karagon",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/carab_culln",
+     "printed": "Carab Culln",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/carab_culln_the_risen",
+     "printed": "Carab Culln, the Risen",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/damocles_command_rhino",
+     "printed": "Damocles Command Rhino",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/gabriel_angelos_chapter_master_of_the_blood_ravens",
+     "printed": "Gabriel Angelos, Chapter Master of the Blood Ravens",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/lias_issodon",
+     "printed": "Lias Issodon",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/lieutenant",
+     "printed": "Lieutenant",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/pedro_kantor",
+     "printed": "Pedro Kantor",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/sevrin_loth",
+     "printed": "Sevrin Loth",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/space_marine_captain",
+     "printed": "Space Marine Captain",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/space_marine_command_squad",
+     "printed": "Space Marine Command Squad",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/tyberos_the_red_wake",
+     "printed": "Tyberos, The Red Wake",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/infiltrator_squad",
+     "printed": "Infiltrator Squad",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/scouts",
+     "printed": "Scouts",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/tactical_squad",
+     "printed": "Tactical Squad",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/assault_terminators",
+     "printed": "Assault Terminators",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/castraferrum_dreadnought",
+     "printed": "Castraferrum Dreadnought",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/centurions",
+     "printed": "Centurions",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/contemptor_dreadnought",
+     "printed": "Contemptor Dreadnought",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/eliminator_squad",
+     "printed": "Eliminator Squad",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/invictor_tactical_warsuit",
+     "printed": "Invictor Tactical Warsuit",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/redemptor_dreadnought",
+     "printed": "Redemptor Dreadnought",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/relic_terminators",
+     "printed": "Relic Terminators",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/tactical_terminators",
+     "printed": "Tactical Terminators",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/veteran_squad",
+     "printed": "Veteran Squad",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/drop_pod",
+     "printed": "Drop Pod",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/impulsor",
+     "printed": "Impulsor",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/land_speeder_storm",
+     "printed": "Land Speeder Storm",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/razorback_ifv",
+     "printed": "Razorback IFV",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/rhino_apc",
+     "printed": "Rhino APC",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/storm_eagle_gunship",
+     "printed": "Storm Eagle Gunship",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/stormhawk_interceptor",
+     "printed": "Stormhawk Interceptor",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/stormraven_gunship",
+     "printed": "Stormraven Gunship",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/stormtalon_gunship",
+     "printed": "Stormtalon Gunship",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/assault_marine_squad",
+     "printed": "Assault Marine Squad",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/attack_bike_squad",
+     "printed": "Attack Bike Squad",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/bike_squad",
+     "printed": "Bike Squad",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/inceptor_squad",
+     "printed": "Inceptor Squad",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/incursor_squad",
+     "printed": "Incursor Squad",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/invader_atv",
+     "printed": "Invader ATV",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/javelin_attack_speeder",
+     "printed": "Javelin Attack Speeder",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/land_speeder",
+     "printed": "Land Speeder",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/reiver_squad",
+     "printed": "Reiver Squad",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/sabre_strike_tank",
+     "printed": "Sabre Strike Tank",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/scout_bike_squad",
+     "printed": "Scout Bike Squad",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/storm_speeder",
+     "printed": "Storm Speeder",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/suppressor_squad",
+     "printed": "Suppressor Squad",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/deredeo_dreadnought",
+     "printed": "Deredeo Dreadnought",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/devastator_squad",
+     "printed": "Devastator Squad",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/fire_raptor_gunship",
+     "printed": "Fire Raptor Gunship",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/firestrike_servo_turret",
+     "printed": "Firestrike Servo Turret",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/gladiator_assault_tank",
+     "printed": "Gladiator Assault Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/gravis_support_squad",
+     "printed": "Gravis Support Squad",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/hunter_artillery_tank",
+     "printed": "Hunter Artillery Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/kratos_super_heavy_tank",
+     "printed": "Kratos Super Heavy Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/land_raider",
+     "printed": "Land Raider",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/land_raider_crusader",
+     "printed": "Land Raider Crusader",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/land_raider_redeemer",
+     "printed": "Land Raider Redeemer",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/predator_mbt",
+     "printed": "Predator MBT",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/repulsor_executioner",
+     "printed": "Repulsor Executioner",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/repulsor_hifv",
+     "printed": "Repulsor HIFV",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/sicaran_heavy_tank",
+     "printed": "Sicaran Heavy Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/stalker_aa_tank",
+     "printed": "Stalker AA Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/vindicator_laser_destroyer",
+     "printed": "Vindicator Laser Destroyer",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/vindicator_siege_tank",
+     "printed": "Vindicator Siege Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/weapon_support_squad",
+     "printed": "Weapon Support Squad",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/whirlwind_artillery_tank",
+     "printed": "Whirlwind Artillery Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/astraeus",
+     "printed": "Astraeus",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/cerberus",
+     "printed": "Cerberus",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/falchion",
+     "printed": "Falchion",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/fellblade",
+     "printed": "Fellblade",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/leviathan_dreadnought",
+     "printed": "Leviathan Dreadnought",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/mastodon",
+     "printed": "Mastodon",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/spartan_assault_tank",
+     "printed": "Spartan Assault Tank",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/thunderhawk_gunship",
+     "printed": "Thunderhawk Gunship",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/typhon_siege_tank",
+     "printed": "Typhon Siege Tank",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/space_marines/roster/hammerfall_bunker",
+     "printed": "Hammerfall Bunker",
+     "role": "Fortification"
+    }
+   ]
+  },
+  "keyword_templates": [
+   {
+    "template": "[Chapter]",
+    "substitution": {
+     "by": "allegiance"
+    }
+   },
+   {
+    "template": "<Chapter>",
+    "substitution": {
+     "by": "allegiance"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/space_marines/allegiances/blood_ravens",
+   "name": "Allegiance: Blood Ravens",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/blood_ravens/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "keyword_substitution": {
+    "template": "[Chapter]",
+    "value": "Blood Ravens"
+   },
+   "rule": {
+    "rule": "codex/space_marines/allegiances/blood_ravens",
+    "name": "Blood Ravens",
+    "printed": "codex/space_marines/allegiances/blood_ravens",
+    "url": "https://longwarindex.app/allegiances/blood_ravens/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "psyker_mutation",
+     "printed": "Blood Ravens armies must include at least 1 Lieutenant model upgraded to be a Librarian.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/lieutenant"
+       },
+       {
+        "choice": {
+         "page": "codex/space_marines/roster/lieutenant",
+         "path": "upgrades/librarian"
+        }
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/space_marines/allegiances/carcharodon",
+   "name": "Allegiance: Carcharodon",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/carcharodon/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "keyword_substitution": {
+    "template": "[Chapter]",
+    "value": "Carcharodon"
+   },
+   "rule": {
+    "rule": "codex/space_marines/allegiances/carcharodon",
+    "name": "Carcharodon",
+    "printed": "codex/space_marines/allegiances/carcharodon",
+    "url": "https://longwarindex.app/allegiances/carcharodon/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [],
+   "game_time": [
+    "Carcharodon units are considered to have Furious Charge special rules when declaring a Charge against an enemy unit that has suffered an unsaved wound or casualty.",
+    "A Carcharodon army gains the Expendable Keyword on all units at the start of the fifth battle round."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/space_marines/allegiances/crimson_fists",
+   "name": "Allegiance: Crimson Fists",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/crimson_fists/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "keyword_substitution": {
+    "template": "[Chapter]",
+    "value": "Crimson Fists"
+   },
+   "rule": {
+    "rule": "codex/space_marines/allegiances/crimson_fists",
+    "name": "Crimson Fists",
+    "printed": "codex/space_marines/allegiances/crimson_fists",
+    "url": "https://longwarindex.app/allegiances/crimson_fists/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [
+    {
+     "id": "an_army_of_heroes",
+     "printed": "You may field 2 Lieutenant units in every HQ slot instead of 1.",
+     "hq_slot_sharing": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/lieutenant"
+       }
+      ],
+      "units_per_slot": 2
+     }
+    }
+   ],
+   "game_time": [
+    "Crimson Fist units may not Retreat in the Movement Phase."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/space_marines/allegiances/exorcists",
+   "name": "Allegiance: Exorcists",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/exorcists/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "keyword_substitution": {
+    "template": "[Chapter]",
+    "value": "Exorcists"
+   },
+   "rule": {
+    "rule": "codex/space_marines/allegiances/exorcists",
+    "name": "Exorcists",
+    "printed": "codex/space_marines/allegiances/exorcists",
+    "url": "https://longwarindex.app/allegiances/exorcists/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "twelve_companies",
+     "printed": "An Exorcists army must include at least 2 units of Scout Marines or Scout Bikes.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/space_marines/roster/scouts"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/scout_bike_squad"
+         }
+        ]
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "orisons_occult",
+     "printed": "Exorcists units with the exception of Scout Squads and Scout Bikes gain the Preferred Enemy (Daemons) and Indomitable Spirit (5+) special rules.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Exorcists"
+       },
+       {
+        "not": {
+         "any_of": [
+          {
+           "datasheet": "codex/space_marines/roster/scouts"
+          },
+          {
+           "datasheet": "codex/space_marines/roster/scout_bike_squad"
+          }
+         ]
+        }
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/preferred_enemy",
+        "name": "Preferred Enemy",
+        "param": "Daemons",
+        "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+       },
+       {
+        "rule": "universal_special_rules/indomitable_spirit",
+        "name": "Indomitable Spirit",
+        "param": "5+",
+        "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/space_marines/allegiances/minotaur",
+   "name": "Allegiance: Minotaur",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/minotaur/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "keyword_substitution": {
+    "template": "[Chapter]",
+    "value": "Minotaur"
+   },
+   "rule": {
+    "rule": "codex/space_marines/allegiances/minotaur",
+    "name": "Minotaur",
+    "printed": "codex/space_marines/allegiances/minotaur",
+    "url": "https://longwarindex.app/allegiances/minotaur/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "forever_apart",
+     "printed": "Minotaur armies may not take any Allied Detachments except for Allies from Codex – Imperial Agents.",
+     "scope": "detachment",
+     "allies": {
+      "factions": [
+       {
+        "faction": "imperial_agents"
+       }
+      ],
+      "only": true
+     }
+    }
+   ],
+   "benefits": [],
+   "game_time": [
+    "Enemy units engaged in combat with a Minotaur unit may not make Retreat Moves in the Movement Phase."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/space_marines/allegiances/raptor",
+   "name": "Allegiance: Raptor",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/raptor/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "keyword_substitution": {
+    "template": "[Chapter]",
+    "value": "Raptor"
+   },
+   "rule": {
+    "rule": "codex/space_marines/allegiances/raptor",
+    "name": "Raptor",
+    "printed": "codex/space_marines/allegiances/raptor",
+    "url": "https://longwarindex.app/allegiances/raptor/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "solitary_hunters",
+     "printed": "A Raptor army may not use the Pride of the Chapter Rite of War.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/space_marines/rites_of_war/pride_of_the_chapter"
+     ]
+    }
+   ],
+   "benefits": [
+    {
+     "id": "raptor_hunt_bs",
+     "printed": "Raptor Vanguard units gain +1 to their Ballistic Skill (BS) Characteristic.",
+     "stat_mods": {
+      "conditions": [
+       {
+        "keyword": "Raptor"
+       },
+       {
+        "keyword": "Vanguard"
+       }
+      ],
+      "mods": [
+       {
+        "characteristic": "BS",
+        "delta": 1
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "Raptor units in your army when performing a Retreat Move in the Movement Phase, move an additional 3\"."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/space_marines/allegiances/red_scorpions",
+   "name": "Allegiance: Red Scorpions",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/red_scorpions/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "keyword_substitution": {
+    "template": "[Chapter]",
+    "value": "Red Scorpions"
+   },
+   "rule": {
+    "rule": "codex/space_marines/allegiances/red_scorpions",
+    "name": "Red Scorpions",
+    "printed": "codex/space_marines/allegiances/red_scorpions",
+    "url": "https://longwarindex.app/allegiances/red_scorpions/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "codex_dogma_captain",
+     "printed": "A Red Scorpions army must include 1 Captain Keyword unit and then 3 Tactical Squads, 1 Assault Marine squad and 1 Devastator or Weapon Support Squad.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Captain"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "codex_dogma_tactical",
+     "printed": "A Red Scorpions army must include 1 Captain Keyword unit and then 3 Tactical Squads, 1 Assault Marine squad and 1 Devastator or Weapon Support Squad.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/tactical_squad"
+       }
+      ],
+      "min": 3
+     }
+    },
+    {
+     "id": "codex_dogma_assault",
+     "printed": "A Red Scorpions army must include 1 Captain Keyword unit and then 3 Tactical Squads, 1 Assault Marine squad and 1 Devastator or Weapon Support Squad.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/assault_marine_squad"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "codex_dogma_devastator",
+     "printed": "A Red Scorpions army must include 1 Captain Keyword unit and then 3 Tactical Squads, 1 Assault Marine squad and 1 Devastator or Weapon Support Squad.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/space_marines/roster/devastator_squad"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/weapon_support_squad"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [],
+   "game_time": [],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/space_marines/rites_of_war/drop_pod_assault",
+   "name": "Drop Pod Assault",
+   "page": 27,
+   "url": "https://longwarindex.app/rites_of_war/drop_pod_assault/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "text": "Requirements\n\n- All units in this force must begin deployment in a Drop Pod Dedicated Transports unless they have the Deep Strike or Infiltrate special rule.\n- Your army may not include Vehicles type units with the Fire Support or Close Support keywords.\n- Your army must include more Infantry units with the Battle Line and Close Support Keyword than the Fire Support Keyword.\n\nBenefits\n\n- You may place more than 50% of your army in reserves.\n- You may field Assault Marines as Troops choices instead of Fast Attack choices.\n- Drop Pod units in your army may always set to Overwatch.",
+   "restrictions": [
+    {
+     "id": "no_vehicle_roles",
+     "printed": "Your army may not include Vehicles type units with the Fire Support or Close Support keywords.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "unit_type": "Vehicle"
+       },
+       {
+        "any_of": [
+         {
+          "keyword": "Fire Support"
+         },
+         {
+          "keyword": "Close Support"
+         }
+        ]
+       }
+      ],
+      "max": 0
+     }
+    },
+    {
+     "id": "more_battle_line_close_support",
+     "printed": "Your army must include more Infantry units with the Battle Line and Close Support Keyword than the Fire Support Keyword.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "unit_type": "Infantry"
+       },
+       {
+        "any_of": [
+         {
+          "keyword": "Battle Line"
+         },
+         {
+          "keyword": "Close Support"
+         }
+        ]
+       }
+      ],
+      "than": [
+       [
+        {
+         "unit_type": "Infantry"
+        },
+        {
+         "keyword": "Fire Support"
+        }
+       ]
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "assault_marines_troops",
+     "printed": "You may field Assault Marines as Troops choices instead of Fast Attack choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/assault_marine_squad"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "All units in this force must begin deployment in a Drop Pod Dedicated Transports unless they have the Deep Strike or Infiltrate special rule.",
+    "You may place more than 50% of your army in reserves.",
+    "Drop Pod units in your army may always set to Overwatch."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/space_marines/rites_of_war/armoured_support",
+   "name": "Armoured Support",
+   "page": 28,
+   "url": "https://longwarindex.app/rites_of_war/armoured_support/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "text": "Requirements\n\n- Your army must include more Vehicle type units with the Fire Support keyword than Vehicle type units with the Close Support Keyword.\n- Your army must include at least 2 Vehicle type unit per 1000pts.\n- Your army must include 1 unit with the Tech-Priest Keyword per 1000pts.\n\nBenefits\n\n- You may field Predator Tanks as Elites choices instead of Heavy Support choices.\n- You may field Stalker AA Tanks as Elites choices.\n- You may select 1 Predator Tank or Gladiator Tank in your army to be upgraded to a Tank Commander. That Tank Commander gains +1 to its Ballistic Skill (BS), Attacks (A) and Leadership (LD) characteristics. The Tank Commander must be your Warlord. It gains the Character Keyword.",
+   "restrictions": [
+    {
+     "id": "more_fire_support_vehicles",
+     "printed": "Your army must include more Vehicle type units with the Fire Support keyword than Vehicle type units with the Close Support Keyword.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "unit_type": "Vehicle"
+       },
+       {
+        "keyword": "Fire Support"
+       }
+      ],
+      "than": [
+       [
+        {
+         "unit_type": "Vehicle"
+        },
+        {
+         "keyword": "Close Support"
+        }
+       ]
+      ]
+     }
+    },
+    {
+     "id": "vehicles_per_1000",
+     "printed": "Your army must include at least 2 Vehicle type unit per 1000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "unit_type": "Vehicle"
+       }
+      ],
+      "min": 2,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "tech_priest_per_1000",
+     "printed": "Your army must include 1 unit with the Tech-Priest Keyword per 1000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "choice": {
+         "page": "codex/space_marines/roster/lieutenant",
+         "path": "upgrades/tech_marine"
+        }
+       }
+      ],
+      "min": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     },
+     "print_defect": "No unit of the book has the Tech-Priest keyword. This data reads this as a Lieutenant with the Tech-Marine upgrade."
+    }
+   ],
+   "benefits": [
+    {
+     "id": "predator_elites",
+     "printed": "You may field Predator Tanks as Elites choices instead of Heavy Support choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/predator_mbt"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "stalker_elites",
+     "printed": "You may field Stalker AA Tanks as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/stalker_aa_tank"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "tank_commander",
+     "printed": "You may select 1 Predator Tank or Gladiator Tank in your army to be upgraded to a Tank Commander. That Tank Commander gains +1 to its Ballistic Skill (BS), Attacks (A) and Leadership (LD) characteristics. The Tank Commander must be your Warlord. It gains the Character Keyword.",
+     "options": [
+      {
+       "book_options": "space_marines",
+       "group": "armoured_support_tank_commander"
+      }
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/space_marines/rites_of_war/mechanised_assault",
+   "name": "Mechanised Assault",
+   "page": 29,
+   "url": "https://longwarindex.app/rites_of_war/mechanised_assault/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "text": "Requirements\n\n- All Infantry units in your army must begin the game embarked in a Transport.\n- For every Infantry type unit in your army with the Battle Line keyword, you must include 1 unit with the Transport keyword.\n- Your army may not contain any Dreadnought units.\n\nBenefits\n\n- You may take 1 Rhino APC per unit instead of per 1 Troops or Elites choice.\n- Rhino APC's in your army gain Firing Ports (2).\n- Razorback IFV and Impulsor units in your army gain the Outflank special rule.",
+   "restrictions": [
+    {
+     "id": "battle_line_transport",
+     "printed": "For every Infantry type unit in your army with the Battle Line keyword, you must include 1 unit with the Transport keyword.",
+     "scope": "detachment",
+     "ratio": {
+      "limited": [
+       {
+        "keyword": "Transport"
+       }
+      ],
+      "per": 1,
+      "of": [
+       {
+        "unit_type": "Infantry"
+       },
+       {
+        "keyword": "Battle Line"
+       }
+      ],
+      "minimum": true
+     }
+    },
+    {
+     "id": "no_dreadnoughts",
+     "printed": "Your army may not contain any Dreadnought units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Dreadnought"
+       }
+      ],
+      "max": 0
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "rhino_per_unit",
+     "printed": "You may take 1 Rhino APC per unit instead of per 1 Troops or Elites choice.",
+     "transports": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/rhino_apc"
+       }
+      ]
+     }
+    },
+    {
+     "id": "rhino_firing_ports",
+     "printed": "Rhino APC's in your army gain Firing Ports (2).",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/rhino_apc"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/fire_points",
+        "name": "Fire Points",
+        "param": "2",
+        "printed": "Firing Ports (2)",
+        "url": "https://longwarindex.app/universal_special_rules/fire_points/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "razorback_impulsor_outflank",
+     "printed": "Razorback IFV and Impulsor units in your army gain the Outflank special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/space_marines/roster/razorback_ifv"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/impulsor"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/outflank",
+        "name": "Outflank",
+        "url": "https://longwarindex.app/universal_special_rules/outflank/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "All Infantry units in your army must begin the game embarked in a Transport."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/space_marines/rites_of_war/vanguard_support",
+   "name": "Vanguard Support",
+   "page": 30,
+   "url": "https://longwarindex.app/rites_of_war/vanguard_support/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "text": "Requirements\n\n- Your army may not include Infantry units that are not equipped with either Phobos or Scout Armour except for Suppressor Squads.\n- Your army may not include any Vehicle or Walker units that do not have the Scout, Outflank or Infiltrate special rules.\n- Your army must include at least 2 units of Infiltrators per 1,000pts.\n\nBenefits\n\n- You may field Incursors as an Elites choice.\n- You may field the Invictor Tactical Warsuit as a Heavy Support choice.\n- Infiltrators ignore the Support Squad special rule in your army.",
+   "restrictions": [
+    {
+     "id": "infantry_phobos_or_scout",
+     "printed": "Your army may not include Infantry units that are not equipped with either Phobos or Scout Armour except for Suppressor Squads.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "unit_type": "Infantry"
+       },
+       {
+        "not": {
+         "any_of": [
+          {
+           "holds": [
+            {
+             "kind": "wargear",
+             "id": "phobos_armour"
+            }
+           ]
+          },
+          {
+           "holds": [
+            {
+             "kind": "wargear",
+             "id": "scout_armour"
+            }
+           ]
+          }
+         ]
+        }
+       },
+       {
+        "not": {
+         "datasheet": "codex/space_marines/roster/suppressor_squad"
+        }
+       }
+      ],
+      "max": 0
+     }
+    },
+    {
+     "id": "vehicle_walker_scout_outflank_infiltrate",
+     "printed": "Your army may not include any Vehicle or Walker units that do not have the Scout, Outflank or Infiltrate special rules.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "unit_type": "Vehicle"
+         },
+         {
+          "unit_type": "Walker"
+         }
+        ]
+       },
+       {
+        "not": {
+         "any_of": [
+          {
+           "rule": {
+            "rule": "universal_special_rules/scout",
+            "name": "Scout",
+            "url": "https://longwarindex.app/universal_special_rules/scout/"
+           }
+          },
+          {
+           "rule": {
+            "rule": "universal_special_rules/outflank",
+            "name": "Outflank",
+            "url": "https://longwarindex.app/universal_special_rules/outflank/"
+           }
+          },
+          {
+           "rule": {
+            "rule": "universal_special_rules/infiltrate",
+            "name": "Infiltrate",
+            "url": "https://longwarindex.app/universal_special_rules/infiltrate/"
+           }
+          }
+         ]
+        }
+       }
+      ],
+      "max": 0
+     }
+    },
+    {
+     "id": "infiltrators_per_1000",
+     "printed": "Your army must include at least 2 units of Infiltrators per 1,000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/infiltrator_squad"
+       }
+      ],
+      "min": 2,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "incursors_elites",
+     "printed": "You may field Incursors as an Elites choice.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/incursor_squad"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "invictor_heavy_support",
+     "printed": "You may field the Invictor Tactical Warsuit as a Heavy Support choice.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/invictor_tactical_warsuit"
+       }
+      ],
+      "role": "Heavy Support",
+      "instead": false
+     }
+    },
+    {
+     "id": "infiltrators_ignore_support_squad",
+     "printed": "Infiltrators ignore the Support Squad special rule in your army.",
+     "suppress_rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/infiltrator_squad"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/space_marines/rites_of_war/pride_of_the_chapter",
+   "name": "Pride of the Chapter",
+   "page": 32,
+   "url": "https://longwarindex.app/rites_of_war/pride_of_the_chapter/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 2 Veteran Squad units.\n- All Troops choices in your army must have the Terminator or Veteran keyword.\n- If your Warlord is slain, you lose D3 Victory Points at the end of the game.\n\nBenefits\n\n- Any unit with the Terminator or Veteran Keywords may be taken as Troops choices instead of as their regular choice.\n- You may select one Space Marine Infantry or Bike unit that does not have the Veteran keyword to include in your army. It gains the Veteran keyword.\n- Any unit that can draw visibility to your warlord or their attached unit may use the Warlord's Leadership (LD) characteristic instead of their own for Pinning and Panic tests.",
+   "restrictions": [
+    {
+     "id": "veteran_squads",
+     "printed": "Your army must include at least 2 Veteran Squad units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/veteran_squad"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "troops_terminator_or_veteran",
+     "printed": "All Troops choices in your army must have the Terminator or Veteran keyword.",
+     "scope": "detachment",
+     "every_unit": {
+      "of": [
+       {
+        "role": "Troops"
+       }
+      ],
+      "must": [
+       {
+        "any_of": [
+         {
+          "keyword": "Terminator"
+         },
+         {
+          "keyword": "Veteran"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "terminator_veteran_troops",
+     "printed": "Any unit with the Terminator or Veteran Keywords may be taken as Troops choices instead of as their regular choice.",
+     "role": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "keyword": "Terminator"
+         },
+         {
+          "keyword": "Veteran"
+         }
+        ]
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "grant_veteran",
+     "printed": "You may select one Space Marine Infantry or Bike unit that does not have the Veteran keyword to include in your army. It gains the Veteran keyword.",
+     "options": [
+      {
+       "book_options": "space_marines",
+       "group": "pride_of_the_chapter_veteran"
+      }
+     ]
+    }
+   ],
+   "game_time": [
+    "If your Warlord is slain, you lose D3 Victory Points at the end of the game.",
+    "Any unit that can draw visibility to your warlord or their attached unit may use the Warlord's Leadership (LD) characteristic instead of their own for Pinning and Panic tests."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/space_marines/rites_of_war/grey_shields",
+   "name": "Grey Shields",
+   "page": 33,
+   "url": "https://longwarindex.app/rites_of_war/grey_shields/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "text": "Restrictions\n\n- Your army may not select an Allegiance.\n- Your army must may only include the following units:\n    - Space Marine Captain.\n    - Space Marine Lieutenant.\n    - Tactical Squad.\n    - Veteran Squad.\n    - Redemptor Dreadnought.\n    - Drop Pod.\n    - Impulsor.\n    - Bike Squad.\n    - Reiver Squad.\n    - Invader ATV.\n    - Inceptor Squad.\n    - Storm Speeder.\n    - Suppressor Squad.\n    - Firestrike Servo Turret.\n    - Weapon Support Squad.\n    - Gravis Support Squad.\n    - Gladiator Assault Tank.\n    - Repulsor.\n    - Repulsor Executioner.\n    - Hammerfall Bunker.\n\nBenefits\n\n- At the beginning of each Battle Round, you may select one of the following benefits. A different benefit must be selected each Round:\n    - All Space Marine units gain Hatred (Infantry).\n    - All Space Marine units gain the Night Vision special rule.\n    - All Space Marine units may re-roll hit rolls of 1 with 'Chain' and 'Bolt' Weapons.\n    - All Space Marine units gain the Hammer of Wrath (1) special rule. If they already have the Hammer of Wrath (x) special rule, they increase the value of X by 1.\n    - All Space Marine units gain the Sprint (2) special rule.\n    - All 'Flame', 'Melta', 'Plasma', 'Bio-Plasma', 'Las' weapons have -1 to Wound rolls against Space Marine units.",
+   "restrictions": [
+    {
+     "id": "no_allegiance",
+     "printed": "Your army may not select an Allegiance.",
+     "scope": "detachment",
+     "no_allegiance": true
+    },
+    {
+     "id": "only_listed_units",
+     "printed": "Your army must may only include the following units:",
+     "scope": "detachment",
+     "units_listed": {
+      "entries": [
+       {
+        "datasheet": "codex/space_marines/roster/space_marine_captain",
+        "printed": "Space Marine Captain"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/lieutenant",
+        "printed": "Space Marine Lieutenant"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/tactical_squad",
+        "printed": "Tactical Squad"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/veteran_squad",
+        "printed": "Veteran Squad"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/redemptor_dreadnought",
+        "printed": "Redemptor Dreadnought"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/drop_pod",
+        "printed": "Drop Pod"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/impulsor",
+        "printed": "Impulsor"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/bike_squad",
+        "printed": "Bike Squad"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/reiver_squad",
+        "printed": "Reiver Squad"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/invader_atv",
+        "printed": "Invader ATV"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/inceptor_squad",
+        "printed": "Inceptor Squad"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/storm_speeder",
+        "printed": "Storm Speeder"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/suppressor_squad",
+        "printed": "Suppressor Squad"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/firestrike_servo_turret",
+        "printed": "Firestrike Servo Turret"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/weapon_support_squad",
+        "printed": "Weapon Support Squad"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/gravis_support_squad",
+        "printed": "Gravis Support Squad"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/gladiator_assault_tank",
+        "printed": "Gladiator Assault Tank"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/repulsor_hifv",
+        "printed": "Repulsor"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/repulsor_executioner",
+        "printed": "Repulsor Executioner"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/hammerfall_bunker",
+        "printed": "Hammerfall Bunker"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [],
+   "game_time": [
+    "At the beginning of each Battle Round, you may select one of the following benefits. A different benefit must be selected each Round:",
+    "All Space Marine units gain Hatred (Infantry).",
+    "All Space Marine units gain the Night Vision special rule.",
+    "All Space Marine units may re-roll hit rolls of 1 with 'Chain' and 'Bolt' Weapons.",
+    "All Space Marine units gain the Hammer of Wrath (1) special rule. If they already have the Hammer of Wrath (x) special rule, they increase the value of X by 1.",
+    "All Space Marine units gain the Sprint (2) special rule.",
+    "All 'Flame', 'Melta', 'Plasma', 'Bio-Plasma', 'Las' weapons have -1 to Wound rolls against Space Marine units."
+   ],
+   "unencoded": []
+  }
+ ]
+}

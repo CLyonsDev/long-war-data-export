@@ -1,0 +1,1155 @@
+{
+ "data_version": "18e37b7c2bb7cdc5",
+ "format": 1,
+ "faction": "imperial_guard",
+ "special_rules": [
+  {
+   "id": "codex/imperial_guard/special_rules/auxiliary_troops",
+   "name": "Auxiliary Troops",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/auxiliary_troops/",
+   "text": "You may only include 1 unit with this special rule for every 3 other units in your army that do not have this special rule."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/burrowing_assault",
+   "name": "Burrowing Assault",
+   "kind": "datasheet",
+   "page": 88,
+   "url": "https://longwarindex.app/special_rules/burrowing_assault/",
+   "references": [
+    "universal_special_rules/deep_strike",
+    "codex/imperial_guard/allegiances/death_korp_of_krieg"
+   ],
+   "text": "When this unit is placed in Deep Strike deployment, a single friendly Krieg Infantry unit in your army may be placed in Deep Strike with this unit. When this unit arrives on the field, the unit that was placed with it must be placed wholly within 6\" of this unit's final position."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/catachan_poison",
+   "name": "Catachan Poison",
+   "kind": "weapon",
+   "page": 125,
+   "url": "https://longwarindex.app/special_rules/catachan_poison/",
+   "text": "Wounds from this weapon are treated as Instant Death Wounds."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/combat_orders",
+   "name": "Combat Orders",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/combat_orders/",
+   "references": [
+    "codex/imperial_guard/special_rules/officer",
+    "universal_special_rules/character",
+    "codex/imperial_guard/special_rules/move_move_move",
+    "codex/imperial_guard/special_rules/fix_bayonet",
+    "codex/imperial_guard/special_rules/first_rank_fire_second_rank_fire",
+    "codex/imperial_guard/special_rules/incoming"
+   ],
+   "text": "At the beginning of each Battle Round, an Imperial Guard army generates 1 Command Point (CP) plus a number of Command Points (CP) equal to the total value of (X) from all units in your army with the Officer special rule. This includes units which are not on the battlefield, either in reserves or in Transports. These command points may be spent at various times during either player turn. At the end the battle round, any unspent Command Points are lost.\n\nTo issue an order, you must select 1 unit with the Character special rule in your army to issue an order. You must then select 1 unit wholly within 18\" of the Character capable of receiving that Order. Each time a character successfully issues an order, subtract 1 from your available pool of CP. A unit can only receive 1 Order per phase. Models with 'Sergeant' in their name may also issue orders but may only issue orders to the unit that they are part of. Each order specifies when and how it is to be used.\n\nMove! Move! Move!\n\nFix Bayonet!\n\nFirst Rank Fire! Second Rank Fire!\n\nIncoming!"
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/combined_fire",
+   "name": "Combined Fire",
+   "kind": "army",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/combined_fire/",
+   "text": "(Shooting Phase)\n\nIssue this order to one Imperial Guard Infantry or Transport unit when it declares a Shooting Attack in the Shooting Phase. That unit may re-roll hit rolls of 1 if the target of its attack was previously attacked that shooting phase by a friendly Imperial Guard Infantry or Transport unit."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/communications_vehicle",
+   "name": "Communications Vehicle",
+   "kind": "datasheet",
+   "page": 84,
+   "url": "https://longwarindex.app/special_rules/communications_vehicle/",
+   "references": [
+    "codex/imperial_guard/special_rules/transport_armageddon_pattern_centaur_rsv"
+   ],
+   "text": "This unit loses the Transport special rule. Instead, all friendly Imperial Guard units within 12\" and all friendly Imperial Guard units equipped with Vox Casters on the battlefield gain +1 to their Leadership (LD) characteristic.",
+   "effects": {
+    "loses_rules": [
+     {
+      "rule": "codex/imperial_guard/special_rules/transport_armageddon_pattern_centaur_rsv",
+      "name": "Transport (Armageddon Pattern Centaur RSV)",
+      "url": "https://longwarindex.app/special_rules/transport_armageddon_pattern_centaur_rsv/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/compact",
+   "name": "Compact",
+   "kind": "datasheet",
+   "page": 100,
+   "url": "https://longwarindex.app/special_rules/compact_imperial_guard/",
+   "references": [
+    "universal_special_rules/bulky"
+   ],
+   "text": "This unit can be Transported by a Valkyrie Dropship. For the purposes of being transported and embarked, it has the Bulky (2) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/conscript_training",
+   "name": "Conscript Training",
+   "kind": "datasheet",
+   "page": 58,
+   "url": "https://longwarindex.app/special_rules/conscript_training/",
+   "references": [
+    "codex/imperial_guard/special_rules/combat_orders"
+   ],
+   "text": "This unit may only be issued Orders (see Combat Orders) if it has an attached Character unit."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/drill_platform",
+   "name": "Drill Platform",
+   "kind": "datasheet",
+   "page": 88,
+   "url": "https://longwarindex.app/special_rules/drill_platform/",
+   "text": "This unit may not make any attacks in the Combat Phase unless there is a friendly Infantry unit within 3\" of this unit."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/drop_marker",
+   "name": "Drop Marker",
+   "kind": "datasheet",
+   "page": 82,
+   "url": "https://longwarindex.app/special_rules/drop_marker/",
+   "text": "Friendly Elysian Drop Troopers units that arrive from Deep Strike wholly within 12\" of a unit with this special rule do not scatter and automatically arrive on target."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/emplaced_automata",
+   "name": "Emplaced Automata",
+   "kind": "datasheet",
+   "page": 121,
+   "url": "https://longwarindex.app/special_rules/emplaced_automata_imperial_guard/",
+   "references": [
+    "special_rules/pinning"
+   ],
+   "text": "This unit automatically passes all Pinning and Panic tests. Its Movement (M) characteristic is reduced to 0\".",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 0
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/execution",
+   "name": "Execution",
+   "kind": "datasheet",
+   "page": 70,
+   "url": "https://longwarindex.app/special_rules/execution_imperial_guard/",
+   "references": [
+    "special_rules/pinning"
+   ],
+   "text": "When any attached unit would fail a Pinning or Panic test, you can opt to slay 1 friendly model from the attached unit. That is considered to have passed the Pinning and Panic test."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/explosive_failure",
+   "name": "Explosive Failure",
+   "kind": "datasheet",
+   "page": 65,
+   "url": "https://longwarindex.app/special_rules/explosive_failure/",
+   "text": "If this unit fails a Panic test, it suffers D3 wound with no saves allowed. It is then considered to have passed the Panic test."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/faithful_jurgen",
+   "name": "Faithful Jurgen",
+   "kind": "datasheet",
+   "page": 50,
+   "url": "https://longwarindex.app/special_rules/faithful_jurgen/",
+   "text": "While Jurgen is alive and part of the unit, the unit gains the following benefits:\n\n- The unit cannot be targeted by Psychic Powers or Psychic weapons.\n- Daemon and Psyker units within 12\" may not make Invulnerable saves."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/field_ambulance",
+   "name": "Field Ambulance",
+   "kind": "datasheet",
+   "page": 84,
+   "url": "https://longwarindex.app/special_rules/field_ambulance/",
+   "references": [
+    "codex/imperial_guard/special_rules/transport_armageddon_pattern_centaur_rsv",
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "This loses the Transport special rule. Instead, all friendly Imperial Guard Infantry units within 6\" gain the Feel no Pain (6+) special rule. In addition, once per turn at the start of your Movement Phase, you may select 1 friendly Imperial Guard Infantry unit within 6\" of this unit. It regains D3 lost models which must be placed in coherency with models that have not been returned this way this turn. This ability may not affect Ratlings or Orgyns.",
+   "effects": {
+    "loses_rules": [
+     {
+      "rule": "codex/imperial_guard/special_rules/transport_armageddon_pattern_centaur_rsv",
+      "name": "Transport (Armageddon Pattern Centaur RSV)",
+      "url": "https://longwarindex.app/special_rules/transport_armageddon_pattern_centaur_rsv/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/field_piece",
+   "name": "Field Piece",
+   "kind": "datasheet",
+   "page": 78,
+   "url": "https://longwarindex.app/special_rules/field_piece_imperial_guard/",
+   "text": "This unit may only embark on the Centaur Light Carrier and may only do so if the unit size is 1 model."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/fighting_a_shadow",
+   "name": "Fighting a Shadow",
+   "kind": "datasheet",
+   "page": 125,
+   "url": "https://longwarindex.app/special_rules/fighting_a_shadow/",
+   "text": "At the end of your Opponent's Charge Phase, if there are no enemy units within 3\" of this model, you may remove it and place it anywhere on the board more than 6\" away from any enemy units."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/firing_deck",
+   "name": "Firing Deck",
+   "kind": "datasheet",
+   "page": 123,
+   "url": "https://longwarindex.app/special_rules/firing_deck_imperial_guard/",
+   "references": [
+    "universal_special_rules/assault_vehicle"
+   ],
+   "text": "This unit may transport up to 20 Infantry type models and gains the Transport Keyword. The unit gains the Assault Vehicle special rule.",
+   "effects": {
+    "keywords": [
+     "Transport"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/assault_vehicle",
+      "name": "Assault Vehicle",
+      "url": "https://longwarindex.app/universal_special_rules/assault_vehicle/"
+     }
+    ],
+    "transport_capacity": {
+     "type": "shared",
+     "n": 20,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/first_rank_fire_second_rank_fire",
+   "name": "First Rank Fire! Second Rank Fire!",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/first_rank_fire_second_rank_fire/",
+   "text": "(Shooting Phase)\n\nIssue this order to one Imperial Guard Infantry unit that has not yet made a shooting attack in your Shooting Phase. All Las Guns, Hot-Shot Las Guns, Autoguns and Shotguns the unit is equipped with become Assault 3 until the end of the phase. A unit that performs this Order cannot perform a Charge in the turn it receives it."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/fix_bayonet",
+   "name": "Fix Bayonet!",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/fix_bayonet/",
+   "text": "(Combat Phase)\n\nIssue this order to one Imperial Guard unit in the Combat Phase that has not fought yet this phase. That unit increases its Weapon Skill (WS) characteristic by 1 until the end of the phase."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/garrison_bastion",
+   "name": "Garrison",
+   "datasheet": "Bastion",
+   "kind": "datasheet",
+   "page": 127,
+   "url": "https://longwarindex.app/special_rules/garrison_bastion/",
+   "text": "This model can garrison up to 22 Infantry models embarked within it. Models embarked within this Fortification may shoot in the shooting phase as normal, drawing all visibility and range from this unit's hull.",
+   "effects": {
+    "garrison_capacity": {
+     "n": 22,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/garrison_firestorm_redoubt",
+   "name": "Garrison",
+   "datasheet": "Firestorm Redoubt",
+   "kind": "datasheet",
+   "page": 130,
+   "url": "https://longwarindex.app/special_rules/garrison_firestorm_redoubt_imperial_guard/",
+   "text": "This model can garrison up to 42 Infantry models embarked within it. Models embarked within this Fortification may shoot in the shooting phase as normal, drawing all visibility and range from this unit's hull.",
+   "effects": {
+    "garrison_capacity": {
+     "n": 42,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/hero_of_the_imperium",
+   "name": "Hero of the Imperium",
+   "kind": "datasheet",
+   "page": 50,
+   "url": "https://longwarindex.app/special_rules/hero_of_the_imperium/",
+   "text": "At the start of your Movement Phase, if no other friendly units in your army can draw visibility to this unit, it must conduct a Fall Back Movement as if it failed a Panic test. The unit automatically rallies if any friendly units can draw visibility to it. If this unit flees from the battlefield, you score 1 VP. This unit may never be your Warlord.",
+   "effects": {
+    "list_building": {
+     "warlord_forbidden": true
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/hidden_entrances",
+   "name": "Hidden Entrances",
+   "kind": "datasheet",
+   "page": 127,
+   "url": "https://longwarindex.app/special_rules/hidden_entrances_imperial_guard/",
+   "text": "When a unit with this special rule would be destroyed. Embarked units are not required to roll for models inside being slain (see Rule 10.2 in the core rules)."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/icarus_defences",
+   "name": "Icarus Defences",
+   "kind": "datasheet",
+   "page": 127,
+   "url": "https://longwarindex.app/special_rules/icarus_defences_imperial_guard/",
+   "references": [
+    "special_rules/skyfire"
+   ],
+   "text": "Any Linked Autocannon or Linked Lascannon that the Bastion is equipped with gains the Skyfire special rule.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/skyfire",
+      "name": "Skyfire",
+      "url": "https://longwarindex.app/special_rules/skyfire/",
+      "weapons": [
+       {
+        "kind": "weapon",
+        "id": "linked_autocannon"
+       },
+       {
+        "kind": "weapon",
+        "id": "linked_lascannon"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/incoming",
+   "name": "Incoming!",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/incoming/",
+   "references": [
+    "special_rules/gets_hot"
+   ],
+   "text": "(Charge Phase)\n\nIssue this order to one Imperial Guard unit when it is declared as the target of a charge. That unit may Overwatch even if it has not set to Overwatch. If the unit made a shooting attack in its previous shooting phase, all Overwatch attacks are resolved with the Gets Hot! Special rule."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/inspiring_presence",
+   "name": "Inspiring Presence",
+   "kind": "datasheet",
+   "page": 53,
+   "url": "https://longwarindex.app/special_rules/inspiring_presence/",
+   "text": "All friendly Imperial Guard units within 12\" may re-roll 1 dice when making a Pinning or Panic test."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/just_okay_at_the_sword",
+   "name": "Just okay at the Sword",
+   "kind": "datasheet",
+   "page": 50,
+   "url": "https://longwarindex.app/special_rules/just_okay_at_the_sword/",
+   "references": [
+    "special_rules/rending"
+   ],
+   "text": "Commissar Ciaphas Cain gains the Rending (5+) special rule on his Chainsword."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/lord_commander_solar",
+   "name": "Lord Commander Solar",
+   "kind": "warlord_trait",
+   "page": 40,
+   "url": "https://longwarindex.app/special_rules/lord_commander_solar/",
+   "text": "This unit does not have a set Warlord Trait. Instead, this unit may choose a Warlord trait from the Imperial Guard Warlord trait section at the beginning of each Battle Round."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/morale_officer",
+   "name": "Morale Officer",
+   "kind": "datasheet",
+   "page": 70,
+   "url": "https://longwarindex.app/special_rules/morale_officer_imperial_guard/",
+   "references": [
+    "universal_special_rules/stubborn"
+   ],
+   "text": "This unit and any attached unit have the Stubborn special rule. This unit and any attached unit count as scoring 1 additional wound in the Combat Phase when determining who won combat.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/motive_engine",
+   "name": "Motive Engine",
+   "kind": "datasheet",
+   "page": 96,
+   "url": "https://longwarindex.app/special_rules/motive_engine/",
+   "text": "This unit has +2\" to its Movement (M) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "M",
+      "delta": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/move_move_move",
+   "name": "Move! Move! Move!",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/move_move_move/",
+   "text": "(Movement Phase)\n\nIssue this order to one Imperial Guard Infantry unit when it declares it will make an Advance Move. The unit automatically adds 6\" to its Movement (M) characteristic instead of its Initiative (I) characteristic."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/nork_deddog",
+   "name": "Nork Deddog",
+   "kind": "datasheet",
+   "page": 32,
+   "url": "https://longwarindex.app/special_rules/nork_deddog/",
+   "text": "A unit with this upgrade replaces their Ogryn Bodyguard with Nork Deddog. The Nork Deddog model gains +1 to its Weapon Skill (WS), Wounds (W), Attacks and Leadership (LD) characteristics."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/not_while_one_man_lives",
+   "name": "Not While One Man Lives!",
+   "kind": "datasheet",
+   "page": 64,
+   "url": "https://longwarindex.app/special_rules/not_while_one_man_lives/",
+   "text": "All models in this count as being equipped with a Standard.",
+   "effects": {
+    "items": [
+     {
+      "kind": "wargear",
+      "id": "platoon_standard"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/officer",
+   "name": "Officer",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/officer/",
+   "parameter": {
+    "kind": "count",
+    "description": "the number of Command Points the unit generates at the start of each Battle Round"
+   },
+   "text": "A unit with this special rule generates a number Command Points equal to the value of (X) at the start of each Battle Round, if the unit has not been slain. The unit does not need to be on the Battlefield and may be within a Transport unit."
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/armageddon_steel_legion",
+   "name": "Allegiance: Armageddon Steel Legion",
+   "kind": "allegiance",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/armageddon_steel_legion/",
+   "references": [
+    "special_rules/linked"
+   ],
+   "text": "All Imperial Guard units in your army replace the [Regiment] keyword with the Armageddon Steel Legion keyword. Units with the Armageddon Steel Legion keyword in your army gain the following special rules:\n\n- Armoured Raiders: Armageddon Steel Legion Infantry units gain the Linked special rule during the turn they Disembark from a Transport. This does not apply to Emergency Disembarkation as a result of the Transport being destroyed.\n- Preferred Doctrine: If your army is not using the Mechanized Company Rite of War (See Rites of War section) you do not gain the first listed benefit under the Rite of War. You may not take the Tempestus Drop Force Rite of War."
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/attilan_rough_riders",
+   "name": "Allegiance: Attilan Rough Riders",
+   "kind": "allegiance",
+   "page": 28,
+   "url": "https://longwarindex.app/allegiances/attilan_rough_riders/",
+   "references": [
+    "universal_special_rules/sudden_strike"
+   ],
+   "text": "All Imperial Guard units in your army replace the [Regiment] keyword with the Attilan Rough Riders keyword. Units with the Attilan Rough Riders keyword in your army gain the following special rules:\n\n- Light Horsemen: All Attilan Rough Rider Cavalry units gain the Sudden Strike special rules.\n- Mounted Regiment: Your army must include at least 3 Cavalry units."
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/cadian_shock_troopers",
+   "name": "Allegiance: Cadian Shock Troopers",
+   "kind": "allegiance",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/cadian_shock_troopers/",
+   "references": [
+    "universal_special_rules/preferred_enemy"
+   ],
+   "text": "All Imperial Guard units in your army replace the [Regiment] keyword with the Cadian Shock Troopers keyword. Units with the Cadian Shock Troopers keyword in your army gain the following special rules:\n\n- Disciplined Reserves: Cadian Shock Trooper Conscript Squads gain +1 to their Ballistic Skill (BS), Weapon Skill (WS), and Leadership (LD) characteristics. In addition, they gain the Preferred Enemy (Chaos) special rule.\n- Cadia Stands!: If your opponent has any units with the Black Legion keyword in their army, you must play 1 additional battle round of the battle, regardless of scenario rules within the battle pack you are playing."
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/catachan_jungle_fighters",
+   "name": "Allegiance: Catachan Jungle Fighters",
+   "kind": "allegiance",
+   "page": 27,
+   "url": "https://longwarindex.app/allegiances/catachan_jungle_fighters/",
+   "text": "All Imperial Guard units in your army replace the [Regiment] keyword with the Catachan Jungle Fighters keyword. Units with the Catachan Jungle Fighters keyword in your army gain the following special rules:\n\n- Trap Makers: During deployment, you may place D3 Trap Markers on the board anywhere outside of your opponent's Deployment Zone. All Terrain, including open Terrain within 6\" of the Trap Marker is treated as Dangerous Terrain.\n- Preferred Doctrine: If your army is not using the Infantry Company Rite of War (See Rites of War section) you do not gain the first listed benefit under the Rite of War. You may not take the Tempestus Drop Force Rite of War."
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/death_korp_of_krieg",
+   "name": "Allegiance: Death Korp of Krieg",
+   "kind": "allegiance",
+   "page": 27,
+   "url": "https://longwarindex.app/allegiances/death_korp_of_krieg/",
+   "references": [
+    "universal_special_rules/zealot"
+   ],
+   "text": "All Imperial Guard units in your army replace the [Regiment] keyword with the Death Korp of Krieg keyword. Units with the Death Korp of Krieg keyword in your army gain the following special rules:\n\n- Suicidal Determination: Death Korp of Krieg Infantry & Cavalry units gain the Zealot special rules.\n- Preferred Doctrine: If your army is not using the Artillery Company Rite of War (See Rites of War section) you do not gain the first listed benefit under the Rite of War. You may not take the Tempestus Drop Force Rite of War."
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/elysian_drop_troops",
+   "name": "Allegiance: Elysian Drop Troops",
+   "kind": "allegiance",
+   "page": 27,
+   "url": "https://longwarindex.app/allegiances/elysian_drop_troops/",
+   "text": "All Imperial Guard units in your army replace the [Regiment] keyword with the Elysian Drop Troops keyword. Units with the Elysian Drop Troops keyword in your army gain the following special rules:\n\n- Screened Drop: During the first battle round, all Elysian Drop Troops Infantry units gain a 4+ Cover Save. In addition, half of your units in reserve that have the Elysian Drop Troops Keyword may arrive during the first battle round.\n- Preferred Doctrine: If your army is not using the Airborne Company Rite of War (See Rites of War section) you do not gain the first listed benefit under the Rite of War. You may not take the Tempestus Drop Force Rite of War."
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/mordian_iron_guard",
+   "name": "Allegiance: Mordian Iron Guard",
+   "kind": "allegiance",
+   "page": 27,
+   "url": "https://longwarindex.app/allegiances/mordian_iron_guard/",
+   "references": [
+    "universal_special_rules/stubborn"
+   ],
+   "text": "All Imperial Guard units in your army replace the [Regiment] keyword with the Mordian Iron Guard keyword. Units with the Mordian Iron Guard keyword in your army gain the following special rules:\n\n- Parade Discipline: Mordian Iron Guard Infantry units that have all models in the unit in base contact with each other, gain the Stubborn special rule.\n- Pride of Mordian: Your army must include at least 1 unit of Mordian Honour Guard."
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/savlar_chem_dogs",
+   "name": "Allegiance: Savlar Chem Dogs",
+   "kind": "allegiance",
+   "page": 28,
+   "url": "https://longwarindex.app/allegiances/savlar_chem_dogs/",
+   "text": "All Imperial Guard units in your army replace the [Regiment] keyword with the Savlar Chem Dogs keyword. Units with the Savlar Chem Dogs keyword in your army gain the following special rules:\n\n- Chemical Mental Boosters: Savlar Chem Dogs units only make Panic tests in the Shooting Phase after suffering 50% casualties.\n- Penal Battalions: All units in your army gain the Expendable Keyword. Your army must include at least 2 units of Penal Squads."
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/tallarn_desert_fighters",
+   "name": "Allegiance: Tallarn Desert Fighters",
+   "kind": "allegiance",
+   "page": 27,
+   "url": "https://longwarindex.app/allegiances/tallarn_desert_fighters/",
+   "references": [
+    "universal_special_rules/hit_and_run"
+   ],
+   "text": "All Imperial Guard units in your army replace the [Regiment] keyword with the Tallarn Desert Fighters keyword. Units with the Tallarn Desert Fighters keyword in your army gain the following special rules:\n\n- Armoured Fighters: Tallarn Desert Fighter Vehicle and Walker units gain the Hit & Run special rule.\n- Preferred Doctrine: If your army is not using the Armoured Company Rite of War (See Rites of War section) you do not gain the first listed benefit under the Rite of War. You may not take the Tempestus Drop Force Rite of War."
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/tanith_first_and_only",
+   "name": "Allegiance: Tanith First & Only",
+   "kind": "allegiance",
+   "page": 28,
+   "url": "https://longwarindex.app/allegiances/tanith_first_and_only/",
+   "references": [
+    "universal_special_rules/skirmisher"
+   ],
+   "text": "All Imperial Guard units in your army replace the [Regiment] keyword with the Tanith First & Only keyword. Units with the Tanith First & Only keyword in your army gain the following special rules:\n\n- Light Infantry Tactics: All Tanith First & Only Infantry and Walker units gain the Skirmisher special rule.\n- Preferred Doctrine: If your army is not using the Infantry Company Rite of War (See Rites of War section) you do not gain the first listed benefit under the Rite of War. You may not take the Tempestus Drop Force Rite of War."
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/unremembered_regiment",
+   "name": "Allegiance: Unremembered Regiment",
+   "kind": "allegiance",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/unremembered_regiment/",
+   "references": [
+    "universal_special_rules/scout",
+    "universal_special_rules/sprint",
+    "universal_special_rules/battle_smith",
+    "codex/imperial_guard/special_rules/officer",
+    "codex/imperial_guard/special_rules/combat_orders"
+   ],
+   "text": "All Imperial Guard units in your army replace the [Regiment] keyword with the Unremembered keyword. Units with the Unremembered keyword in your army gain the following special rules:\n\n- Regimental Training: Unremembered armies may include units that have a different [Regiment] Keyword. These units do not gain their appropriate Allegiance trait as normal. In addition, select one of the following Training Doctrines for your army to gain:\n    - Blitzkrieg: Vehicle, Bike and Cavalry units in your army gain the Scout special rule. Infantry units gain the Sprint (1) special rule. Infantry units within 6\" of a friendly Vehicle type unit gain the Sprint (2) special rule instead.\n    - Buzzsaw: Units in your army make 1 extra attack with Heavy Stubbers, Linked Heavy Stubbers, Punisher Gatling Cannons, Heavy Bolters and Linked Heavy Bolters they are equipped with.\n    - Jury Rig: Vehicle units in army gain the Battle Smith (1) special rule however, these units may only perform the Rite of Repair on themselves.\n    - Wave Tactics: At the start of the Movement Phase, you can spend 1 Command Point to rally Conscripts around a squad. Select 1 Conscript Squad within 18\" of a unit with the Officer special rule or as if issuing a Combat Order. The target unit regains D3 slain Conscript models. A Conscript Squad unit may not be targeted by this effect more than once per turn.\n- Unfavourable Deployment: During the first Battle Round, your army does not generate any Command Points."
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/valhallan_ice_warriors",
+   "name": "Allegiance: Valhallan Ice Warriors",
+   "kind": "allegiance",
+   "page": 28,
+   "url": "https://longwarindex.app/allegiances/valhallan_ice_warriors/",
+   "references": [
+    "special_rules/pinning",
+    "universal_special_rules/preferred_enemy"
+   ],
+   "text": "All Imperial Guard units in your army replace the [Regiment] keyword with the Valhallan Ice Warriors keyword. Units with the Valhallan Ice Warriors keyword in your army gain the following special rules:\n\n- Against the Odds: Valhallan Ice Warrior units do not suffer Movement Penalties in their next Movement Phase from Going to Ground or being Pinned. In addition, they gain the Preferred Enemy (Orks) special rule.\n- Preferred Doctrine: If your army is not using the Artillery Company Rite of War (See Rites of War section) you do not gain the first listed benefit under the Rite of War. You may not take the Tempestus Drop Force Rite of War."
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/vostroyan_first_born",
+   "name": "Allegiance: Vostroyan First Born",
+   "kind": "allegiance",
+   "page": 28,
+   "url": "https://longwarindex.app/allegiances/vostroyan_first_born/",
+   "references": [
+    "codex/imperial_guard/special_rules/officer"
+   ],
+   "text": "All Imperial Guard units in your army replace the [Regiment] keyword with the Vostroyan First Born keyword. Units with the Vostroyan First Born keyword in your army gain the following special rules:\n\n- Heirloom Weapons: All Vostroyan First Born units increase the Strength of their Las Guns and Las Pistols by 1.\n- Classist Soldiery: During the first battle round, units with the Officer special rule do not generate any Command Points."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/overburdened_engine",
+   "name": "Overburdened Engine",
+   "kind": "datasheet",
+   "page": 112,
+   "url": "https://longwarindex.app/special_rules/overburdened_engine_imperial_guard/",
+   "text": "When this unit suffers a Crew Injured Result, instead of halving this models Movement (M) characteristic, it is instead reduced to 2\"."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/psyker_attache_company_command_squad",
+   "name": "Psyker Attache",
+   "datasheet": "Company Command Squad",
+   "kind": "datasheet",
+   "page": 32,
+   "url": "https://longwarindex.app/special_rules/psyker_attache_company_command_squad/",
+   "references": [
+    "universal_special_rules/psyker"
+   ],
+   "text": "A unit that includes an Astropath gains the Psyker (1) special rule so long as the Astropath is alive and on the Battlefield."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/psyker_attache_scion_command_squad",
+   "name": "Psyker Attache",
+   "datasheet": "Scion Command Squad",
+   "kind": "datasheet",
+   "page": 35,
+   "url": "https://longwarindex.app/special_rules/psyker_attache_scion_command_squad/",
+   "references": [
+    "universal_special_rules/psyker"
+   ],
+   "text": "A unit that includes an Astropath gains the Psyker (1) special rule and Psyker Keyword so long as the Astropath is alive and on the Battlefield."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/regimental_adjustments_artillery_section",
+   "name": "Regimental Adjustments",
+   "datasheet": "Artillery Section",
+   "kind": "datasheet",
+   "page": 68,
+   "url": "https://longwarindex.app/special_rules/regimental_adjustments_artillery_section/",
+   "text": "The following adjustments apply based on the Regiment selected under the Allegiance section.\n\nDeath Corp of Krieg:\n\n- You may replace Field Battery with Krieg Field Battery."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/regimental_adjustments_command_section",
+   "name": "Regimental Adjustments",
+   "datasheet": "Command Section",
+   "kind": "datasheet",
+   "page": 31,
+   "url": "https://longwarindex.app/special_rules/regimental_adjustments_command_section/",
+   "references": [
+    "codex/imperial_guard/allegiances/cadian_shock_troopers",
+    "codex/imperial_guard/allegiances/armageddon_steel_legion",
+    "codex/imperial_guard/allegiances/catachan_jungle_fighters",
+    "codex/imperial_guard/allegiances/mordian_iron_guard",
+    "codex/imperial_guard/allegiances/death_korp_of_krieg",
+    "codex/imperial_guard/allegiances/attilan_rough_riders"
+   ],
+   "text": "The following adjustments apply based on the Regiment selected under the Allegiance section.\n\nCadian Shock Troops:\n\n- Replace Veteran Squad with Kasrkin Shock Troopers.\n\nArmageddon Steel Legion:\n\n- Replace Veteran Squad with Armageddon Storm Troopers\n\nCatachan Jungle Fighters:\n\n- Replace Veteran Squad with Catachan Devils.\n\nMordian Iron Guard:\n\n- Replace Veteran Squad with Mordian Honour Guard.\n\nDeath Corp of Krieg:\n\n- Replace the Company Command Squad with Death Rider Command Squad. Replace Veteran Squad with Krieg Grenadier Squads. You may include a Krieg Quarter Master for 30pts.\n\nAttilan Rough Riders:\n\n- Replace the Company Command Squad with Rough Rider Command Squad. Replace Veteran Squad with Attilan Rough Riders."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/regimental_adjustments_infantry_section",
+   "name": "Regimental Adjustments",
+   "datasheet": "Infantry Section",
+   "kind": "datasheet",
+   "page": 54,
+   "url": "https://longwarindex.app/special_rules/regimental_adjustments_infantry_section/",
+   "text": "The following adjustments apply based on the Regiment selected under the Allegiance section.\n\nDeath Corp of Krieg:\n\n- Replace Guardsmen Squads with Krieg Grenadier Squads.\n- Replace Special Weapons Squads with Krieg Combat Engineer Squad.\n\nSavlar Chem Dogs:\n\n- Replace Guardsmen Squads with Penal Squads.\n\nAttilan Rough Riders:\n\n- Replace Guardsmen Squads with Attilan Rough Riders."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/regimental_adjustments_recon_section",
+   "name": "Regimental Adjustments",
+   "datasheet": "Recon Section",
+   "kind": "datasheet",
+   "page": 93,
+   "url": "https://longwarindex.app/special_rules/regimental_adjustments_recon_section/",
+   "references": [
+    "codex/imperial_guard/allegiances/elysian_drop_troops",
+    "codex/imperial_guard/allegiances/death_korp_of_krieg",
+    "codex/imperial_guard/allegiances/tallarn_desert_fighters"
+   ],
+   "text": "The following adjustments apply based on the Regiment selected under the Allegiance section.\n\nElysian Drop Troopers:\n\n- Replace the Salamander Scout Tanks with Tauros.\n- Replace Hell Hound Assault Tank with Cyclops Demolition Vehicles.\n- You may not take Griffon Mortar Carriers.\n\nDeath Korp of Krieg:\n\n- Replace Rough Rider Squad with Death Riders.\n\nTallarn Desert Fighters:\n\n- Replace Rough Rider Squad with Mukaali Riders."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/salamander_command",
+   "name": "Salamander Command",
+   "kind": "datasheet",
+   "page": 96,
+   "url": "https://longwarindex.app/special_rules/salamander_command/",
+   "references": [
+    "codex/imperial_guard/special_rules/officer"
+   ],
+   "text": "A Salamander Scout Tank model may be upgraded to a Salamander Command Tank model. A Salamander Command Tank removes its Autocannon (P) but gains the Officer (1) special rule."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/scholar_drilled",
+   "name": "Scholar Drilled",
+   "kind": "datasheet",
+   "page": 76,
+   "url": "https://longwarindex.app/special_rules/scholar_drilled/",
+   "references": [
+    "codex/imperial_guard/special_rules/combat_orders"
+   ],
+   "text": "A Tempestor model counts as Sergeant for the purposes of issuing Combat Orders. A unit with this special rule may issue Orders (see Combat Orders) to itself even if it does not have a Tempestor model."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/section",
+   "name": "Section",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/section/",
+   "text": "An Imperial Guard unit with this special rule is made up of multiple individual units. Units purchased as part of a section count as a single choice in the Force Organization chart, taking a combined single slot and as a single unit for deployment but act as individual units for all other purposes as normal after deployed. When purchasing units as part of a section, all wargear and upgrades are purchased individually on a unit-by-unit basis."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/self_driving_targeting",
+   "name": "Self-Driving Targeting",
+   "kind": "datasheet",
+   "page": 100,
+   "url": "https://longwarindex.app/special_rules/self_driving_targeting_imperial_guard/",
+   "text": "After deployment, each model in this unit is treated as its own separate unit. A unit with this special rule may never contest or hold an objective. This unit does not count for scoring objectives when it is slain and removed from play."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/sergeant_harker",
+   "name": "Sergeant Harker",
+   "kind": "datasheet",
+   "page": 61,
+   "url": "https://longwarindex.app/special_rules/sergeant_harker/",
+   "text": "A unit which upgrades its Sergeant to be Sergeant Harker exchanges their Shotgun and Chainsword for a Heavy Bolter, Close Combat Weapon and Bionics. The units Sergeant model gains +1 to its Weapon Skill (WS), Ballistic Skill (BS), Strength (S), Wounds (W) and Leadership (LD) characteristics."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/stalling_machine_spirit",
+   "name": "Stalling Machine Spirit",
+   "kind": "datasheet",
+   "page": 116,
+   "url": "https://longwarindex.app/special_rules/stalling_machine_spirit/",
+   "text": "Each time this unit attempts to perform a Retreat Move in the Movement Phase, it must perform a Leadership test. If the test is failed, the unit may not perform the move and must remain stationary that Movement Phase. If the test is passed, the unit may perform the Retreat Move as normal."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/suicide_unit",
+   "name": "Suicide Unit",
+   "kind": "datasheet",
+   "page": 100,
+   "url": "https://longwarindex.app/special_rules/suicide_unit_imperial_guard/",
+   "text": "All attacks from this unit in the Combat Phase, automatically hit. After a model with this special rule has made all of its attacks in the Combat Phase, it is removed from play. When this unit would be slain and removed in play in the Shooting Phase or Charge Phase, all units within 6\" of this model are hit with 6 automatic hits resolved using the Cyclops Demolitions weapon."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/supreme_commander",
+   "name": "Supreme Commander",
+   "kind": "datasheet",
+   "page": 40,
+   "url": "https://longwarindex.app/special_rules/supreme_commander/",
+   "text": "If this unit is slain, your opponent gains 1 Victory Point. This unit can be included in any Imperial Guard army regardless of Allegiance.",
+   "effects": {
+    "list_building": {
+     "ignores_allegiance": true
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/sworn_protector",
+   "name": "Sworn Protector",
+   "kind": "datasheet",
+   "page": 41,
+   "url": "https://longwarindex.app/special_rules/sworn_protector/",
+   "references": [
+    "special_rules/precision_hits"
+   ],
+   "text": "When allocating wounds to this unit, all wounds must be assigned to Colour Sergeant Kell first even if the weapon that caused the wound has the Precision Hits special rule."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/take_aim",
+   "name": "Take Aim!",
+   "kind": "army",
+   "page": 23,
+   "url": "https://longwarindex.app/special_rules/take_aim/",
+   "references": [
+    "universal_special_rules/tank_hunters"
+   ],
+   "text": "(Shooting Phase)\n\nIssue this order to one Imperial Guard Vehicle or Walker unit when it declares a Shooting Attack in the Shooting Phase. The unit that receives this order gains the Tank Hunter special rule until the end of the phase."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/the_legend_of_sly_marbo",
+   "name": "The Legend of Sly Marbo",
+   "kind": "datasheet",
+   "page": 125,
+   "url": "https://longwarindex.app/special_rules/the_legend_of_sly_marbo/",
+   "text": "This unit automatically passes Pinning and Panic tests. This unit has a 4+ Invulnerable save. This unit cannot attach to any units.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/the_right_hand",
+   "name": "The Right Hand",
+   "kind": "datasheet",
+   "page": 52,
+   "url": "https://longwarindex.app/special_rules/the_right_hand/",
+   "references": [
+    "universal_special_rules/furious_charge",
+    "universal_special_rules/hatred",
+    "universal_special_rules/character"
+   ],
+   "text": "Any Company Command Squad or Platoon Command Squad can be declared as the Right Hand. Thenia Graves is attached to that unit during deployment. This unit and its attached unit gain the Furious Charge and Hatred special rules. However, both Thenia and the command squad lose the Character special rule."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/tight_quarters",
+   "name": "Tight Quarters",
+   "kind": "datasheet",
+   "page": 32,
+   "url": "https://longwarindex.app/special_rules/tight_quarters/",
+   "text": "A unit that includes an Ogryn Bodyguard model may not embark on Transports."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/tracked_automata",
+   "name": "Tracked Automata",
+   "kind": "datasheet",
+   "page": 100,
+   "url": "https://longwarindex.app/special_rules/tracked_automata_imperial_guard/",
+   "references": [
+    "special_rules/pinning"
+   ],
+   "text": "This model increases its Movement (M) Characteristic to 12\". In addition, this unit automatically passes all Pinning and Panic tests.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/transport_armageddon_pattern_centaur_rsv",
+   "name": "Transport",
+   "datasheet": "Armageddon Pattern Centaur RSV",
+   "kind": "datasheet",
+   "page": 84,
+   "url": "https://longwarindex.app/special_rules/transport_armageddon_pattern_centaur_rsv/",
+   "text": "This model can transport 12 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/transport_centaur_light_carrier",
+   "name": "Transport",
+   "datasheet": "Centaur Light Carrier",
+   "kind": "datasheet",
+   "page": 86,
+   "url": "https://longwarindex.app/special_rules/transport_centaur_light_carrier_imperial_guard/",
+   "text": "This model can transport 6 Infantry models within it or 1 Field Battery / Krieg Field Battery / Earthshaker Carriage model.",
+   "effects": {
+    "transport_capacity": {
+     "type": "alternatives",
+     "options": [
+      {
+       "n": 6,
+       "unit_types": [
+        "Infantry"
+       ]
+      },
+      {
+       "n": 1,
+       "filters": [
+        {
+         "datasheet_names": [
+          "Field Battery",
+          "Krieg Field Battery",
+          "Earthshaker Carriage"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/transport_chimera_apc",
+   "name": "Transport",
+   "datasheet": "Chimera APC",
+   "kind": "datasheet",
+   "page": 83,
+   "url": "https://longwarindex.app/special_rules/transport_chimera_apc_imperial_guard/",
+   "text": "This model can transport 12 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/transport_gorgon_transport",
+   "name": "Transport",
+   "datasheet": "Gorgon Transport",
+   "kind": "datasheet",
+   "page": 87,
+   "url": "https://longwarindex.app/special_rules/transport_gorgon_transport/",
+   "text": "This model can transport 32 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 32,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/transport_taurox_armoured_car",
+   "name": "Transport",
+   "datasheet": "Taurox Armoured Car",
+   "kind": "datasheet",
+   "page": 85,
+   "url": "https://longwarindex.app/special_rules/transport_taurox_armoured_car_imperial_guard/",
+   "text": "This model can transport 6 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/transport_taurox_prime_armoured_car",
+   "name": "Transport",
+   "datasheet": "Taurox Prime Armoured Car",
+   "kind": "datasheet",
+   "page": 77,
+   "url": "https://longwarindex.app/special_rules/transport_taurox_prime_armoured_car_imperial_guard/",
+   "text": "This model can transport 6 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/transport_valkyrie_dropship",
+   "name": "Transport",
+   "datasheet": "Valkyrie Dropship",
+   "kind": "datasheet",
+   "page": 90,
+   "url": "https://longwarindex.app/special_rules/transport_valkyrie_dropship_imperial_guard/",
+   "text": "This model can transport 12 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/unluckiest_man_in_the_imperium",
+   "name": "(Un)luckiest man in the Imperium",
+   "kind": "datasheet",
+   "page": 50,
+   "url": "https://longwarindex.app/special_rules/unluckiest_man_in_the_imperium/",
+   "text": "Commissar Ciaphas Cain has a 2+ Invulnerable save in the Charge & Combat Phase. Sadly, Jurgen doesn't."
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/veteran_training",
+   "name": "Veteran Training",
+   "kind": "datasheet",
+   "page": 56,
+   "url": "https://longwarindex.app/special_rules/veteran_training/",
+   "references": [
+    "codex/imperial_guard/special_rules/combat_orders",
+    "special_rules/precision_hits",
+    "special_rules/rending",
+    "universal_special_rules/infiltrate",
+    "universal_special_rules/siege_attackers",
+    "universal_special_rules/move_through_cover",
+    "universal_special_rules/skirmisher",
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "A unit with this special rule may issue Orders (see Combat Orders) to itself even if it does not have a Sergeant model.\n\nIn addition, when mustering your army, each Veteran Squad in your army must select one of the following Veteran Skills:\n\n- Marksmen: A unit with this Veteran Skill gains the Precision Hits & Rending (6+) special rule on all Las Guns they are equipped with.\n- Grenadiers: All models in a unit with this Veteran Skill gains the Krak Grenade wargear and exchanges their Flak Armour for Carapace Armour.\n- Sappers: All models in a unit with this Veteran Skill gain the Melta Bomb wargear. The unit gains the Infiltrate and Siege Attacker special rules.\n- Survivalists: All models in a unit with this Veteran Skill gain the Move Through Cover, Skirmisher and Feel No Pain (6+) special rules.",
+   "options": [
+    {
+     "id": "veteran_skill",
+     "label": "each Veteran Squad in your army must select one of the following Veteran Skills:",
+     "printed": "In addition, when mustering your army, each Veteran Squad in your army must select one of the following Veteran Skills:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "min": 1,
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "marksmen",
+       "name": "Marksmen",
+       "points": 0,
+       "pricing": "flat",
+       "print_defect": "The book prints no price for a Veteran Skill. This data reads a skill as free.",
+       "weapon_rules": [
+        {
+         "rule": {
+          "rule": "special_rules/precision_hits",
+          "name": "Precision Hits",
+          "url": "https://longwarindex.app/special_rules/precision_hits/"
+         },
+         "weapons": [
+          {
+           "kind": "weapon",
+           "id": "las_gun"
+          }
+         ]
+        },
+        {
+         "rule": {
+          "rule": "special_rules/rending",
+          "name": "Rending",
+          "param": "6+",
+          "url": "https://longwarindex.app/special_rules/rending/"
+         },
+         "weapons": [
+          {
+           "kind": "weapon",
+           "id": "las_gun"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grenadiers",
+       "name": "Grenadiers",
+       "points": 0,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "krak_grenade"
+        }
+       ],
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "flak_armour"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "carapace_armour"
+          }
+         ]
+        }
+       ],
+       "print_defect": "The book prints no price for a Veteran Skill. This data reads a skill as free."
+      },
+      {
+       "id": "sappers",
+       "name": "Sappers",
+       "points": 0,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "melta_bomb"
+        }
+       ],
+       "print_defect": "The book prints no price for a Veteran Skill. This data reads a skill as free.",
+       "rules": [
+        {
+         "rule": "universal_special_rules/infiltrate",
+         "name": "Infiltrate",
+         "url": "https://longwarindex.app/universal_special_rules/infiltrate/"
+        },
+        {
+         "rule": "universal_special_rules/siege_attackers",
+         "name": "Siege Attackers",
+         "url": "https://longwarindex.app/universal_special_rules/siege_attackers/"
+        }
+       ]
+      },
+      {
+       "id": "survivalists",
+       "name": "Survivalists",
+       "points": 0,
+       "pricing": "flat",
+       "print_defect": "The book prints no price for a Veteran Skill. This data reads a skill as free.",
+       "rules": [
+        {
+         "rule": "universal_special_rules/move_through_cover",
+         "name": "Move Through Cover",
+         "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+        },
+        {
+         "rule": "universal_special_rules/skirmisher",
+         "name": "Skirmisher",
+         "url": "https://longwarindex.app/universal_special_rules/skirmisher/"
+        },
+        {
+         "rule": "universal_special_rules/feel_no_pain",
+         "name": "Feel No Pain",
+         "param": "6+",
+         "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/imperial_guard/special_rules/weapon_battery",
+   "name": "Weapon Battery",
+   "kind": "datasheet",
+   "page": 121,
+   "url": "https://longwarindex.app/special_rules/weapon_battery_imperial_guard/",
+   "text": "For each unit in your army with this special rule, you may include 2 additional units with the Tarantula Battery keyword in your army without taking up a Force Organization Slot.",
+   "effects": {
+    "list_building": {
+     "unslotted": {
+      "conditions": [
+       {
+        "keyword": "Tarantula Battery"
+       }
+      ],
+      "count": 2,
+      "per_unit": [
+       {
+        "rule": {
+         "rule": "codex/imperial_guard/special_rules/weapon_battery",
+         "name": "Weapon Battery",
+         "url": "https://longwarindex.app/special_rules/weapon_battery_imperial_guard/"
+        }
+       }
+      ]
+     }
+    }
+   }
+  }
+ ]
+}

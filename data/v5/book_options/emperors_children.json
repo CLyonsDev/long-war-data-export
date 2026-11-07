@@ -1,0 +1,1079 @@
+{
+ "data_version": "db13d4980990fd13",
+ "format": 1,
+ "faction": "emperors_children",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/the_blissgiver/",
+   "offered_by": {
+    "allegiance": "codex/emperors_children/allegiances/allegiance_emperors_children"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "bolts_of_ecstatic_vexation",
+     "name": "Bolts of Ecstatic Vexation",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Bolt Pistol, Bolt Gun or Combi Bolter for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "bolt_pistol",
+         "faction": "chaos_space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "chaos_space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "combi_bolter",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "bolts_of_ecstatic_vexation"
+        }
+       ]
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/bolts_of_ecstatic_vexation/",
+     "pricing": "flat"
+    },
+    {
+     "id": "distortion",
+     "name": "Distortion",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 20pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "distortion"
+        }
+       ]
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/distortion/",
+     "pricing": "flat"
+    },
+    {
+     "id": "intoxicating_elixir",
+     "name": "Intoxicating Elixir",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "intoxicating_elixir"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/intoxicating_elixir/",
+     "pricing": "flat"
+    },
+    {
+     "id": "shriekwave",
+     "name": "Shriekwave",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Doom Siren for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "doom_siren"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "shriekwave"
+        }
+       ]
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/shriekwave/",
+     "pricing": "flat"
+    },
+    {
+     "id": "tears_of_the_phoenix",
+     "name": "Tears of the Phoenix",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "tears_of_the_phoenix"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/tears_of_the_phoenix/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_blissgiver",
+     "name": "The Blissgiver",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Rupture Lash for this relic for 20pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "rupture_lash"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_blissgiver"
+        }
+       ]
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/the_blissgiver/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_endless_grin",
+     "name": "The Endless Grin",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_endless_grin"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/the_endless_grin/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_soulsnare_lash",
+     "name": "The Soulsnare Lash",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Rupture Lash for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "rupture_lash"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_soulsnare_lash"
+        }
+       ]
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_soulsnare_lash/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "Units with Allegiance: Emperor's Children have access to the Warlord traits in this supplement. One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "Units with Allegiance: Emperor's Children have access to the Warlord traits in this supplement. One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 9,
+   "url": "https://longwarindex.app/codex/emperors_children/warlord_traits/",
+   "offered_by": {
+    "allegiance": "codex/emperors_children/allegiances/allegiance_emperors_children"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "chaos_space_marines/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "glutton_for_punishment",
+     "name": "Glutton for Punishment",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/glutton_for_punishment/",
+     "text": "A model with this warlord trait gains the Feel no Pain (5+) and Regeneration special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/feel_no_pain",
+       "name": "Feel No Pain",
+       "param": "5+",
+       "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+      },
+      {
+       "rule": "universal_special_rules/regeneration",
+       "name": "Regeneration",
+       "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+      }
+     ]
+    },
+    {
+     "id": "idol_of_mindless_devotion",
+     "name": "Idol of Mindless Devotion",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/idol_of_mindless_devotion/",
+     "text": "While a Warlord with this trait is attached to a unit, it may not have wounds assigned to it, even if the weapon which caused the wound has the Precision Hits special rule. In addition, all friendly units that can draw visibility to your Warlord gain +1 to their Leadership (LD) characteristic.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "stimulated_by_pain",
+     "name": "Stimulated by Pain",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/stimulated_by_pain/",
+     "text": "For each unsaved Wound that this Warlord has suffered which was not ignored, they gain +1 to their Attacks (A) characteristic.",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "chaos_lord_upgrades",
+   "kind": "armoury",
+   "label": "An Emperor's Children Chaos Lord may purchase the following upgrade in addition to the others available:",
+   "printed": "An Emperor's Children Chaos Lord may purchase the following upgrade in addition to the others available:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_3rd_legion/",
+   "offered_by": {
+    "allegiance": "codex/emperors_children/allegiances/allegiance_emperors_children"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Emperor's Children"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_lord"
+     }
+    ]
+   },
+   "joins": {
+    "page": "codex/chaos_space_marines/roster/chaos_lord",
+    "group": "upgrades"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "lord_kakaphonist",
+     "name": "Lord Kakaphonist",
+     "printed": "Lord Kakaphonist for 20pts.",
+     "points": 20,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/emperors_children/special_rules/lord_kakaphonist",
+       "name": "Lord Kakaphonist",
+       "url": "https://longwarindex.app/special_rules/lord_kakaphonist/"
+      }
+     ],
+     "requires": [
+      {
+       "not_choice": [
+        {
+         "page": "codex/chaos_space_marines/roster/chaos_lord",
+         "path": "mobility/jump_pack"
+        },
+        {
+         "page": "codex/chaos_space_marines/roster/chaos_lord",
+         "path": "mobility/bike"
+        },
+        {
+         "page": "codex/chaos_space_marines/roster/chaos_lord",
+         "path": "terminator_armour/indomitus_terminator_armour"
+        },
+        {
+         "page": "codex/chaos_space_marines/roster/chaos_lord",
+         "path": "terminator_armour/cataphractii_terminator_armour"
+        },
+        {
+         "page": "codex/chaos_space_marines/roster/chaos_lord",
+         "path": "terminator_armour/tartaros_terminator_armour"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sonic_shrieker",
+   "kind": "armoury",
+   "label": "Any Emperor's Children unit with the Character special rule or 'Champion' model may:",
+   "printed": "Any Emperor's Children unit with the Character special rule or 'Champion' model may:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_3rd_legion/",
+   "offered_by": {
+    "allegiance": "codex/emperors_children/allegiances/allegiance_emperors_children"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Emperor's Children"
+     },
+     {
+      "any_of": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/character",
+         "name": "Character",
+         "url": "https://longwarindex.app/universal_special_rules/character/"
+        }
+       },
+       {
+        "rows": [
+         {
+          "datasheet": "codex/chaos_space_marines/roster/chaos_champion",
+          "profile": "Chaos Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/inductii_squad",
+          "profile": "Inducti Aspiring Champion"
+         },
+         {
+          "datasheet": "codex/emperors_children/roster/noise_marines",
+          "profile": "Aspiring Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/chosen",
+          "profile": "Chosen Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/possessed",
+          "profile": "Possessed Champion"
+         },
+         {
+          "datasheet": "codex/emperors_children/roster/flawless_blades",
+          "profile": "Flawless Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/chaos_bike_squad",
+          "profile": "Aspiring Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/raptors",
+          "profile": "Aspiring Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/warp_talons",
+          "profile": "Talon Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/havocs",
+          "profile": "Aspiring Champion"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "sonic_shrieker",
+     "name": "Sonic Shrieker",
+     "printed": "Take a Sonic Shrieker for 10pts.",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "sonic_shrieker"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vehicle_wargear",
+   "kind": "armoury",
+   "label": "Any Emperor's Children Vehicle or Aircraft may:",
+   "printed": "Any Emperor's Children Vehicle or Aircraft may:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_3rd_legion/",
+   "offered_by": {
+    "allegiance": "codex/emperors_children/allegiances/allegiance_emperors_children"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Emperor's Children"
+     },
+     {
+      "any_of": [
+       {
+        "unit_type": "Vehicle"
+       },
+       {
+        "unit_type": "Aircraft"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "dirge_caster",
+     "name": "Dirge Caster",
+     "printed": "Take a Dirge Caster for 10pts.",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "dirge_caster"
+      }
+     ],
+     "max": 1
+    },
+    {
+     "id": "warp_amplifier",
+     "name": "Warp Amplifier",
+     "printed": "Take a Warp Amplifier for 15pts.",
+     "points": 15,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "warp_amplifier"
+      }
+     ],
+     "max": 1
+    }
+   ]
+  },
+  {
+   "id": "lord_and_champion_weapons",
+   "kind": "armoury",
+   "label": "Any Emperor's Children Chaos Lord or Chaos Champion model may:",
+   "printed": "Any Emperor's Children Chaos Lord or Chaos Champion model may:",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_3rd_legion/",
+   "offered_by": {
+    "allegiance": "codex/emperors_children/allegiances/allegiance_emperors_children"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Emperor's Children"
+     },
+     {
+      "any_of": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_lord"
+       },
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_champion"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "blissblade",
+     "name": "Blissblade",
+     "printed": "Exchange their equipped Power Sword for a Blissblade for 10pts.",
+     "points": 10,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "blissblade"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "bliss_spear",
+     "name": "Bliss Spear",
+     "printed": "Exchange their equipped Power Lance for a Bliss Spear for 10pts.",
+     "points": 10,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_lance",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "bliss_spear"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rupture_lash",
+   "kind": "armoury",
+   "label": "Any Emperor's Children 'Champion' model or unit with the Character special rule may:",
+   "printed": "Any Emperor's Children 'Champion' model or unit with the Character special rule may:",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_3rd_legion/",
+   "offered_by": {
+    "allegiance": "codex/emperors_children/allegiances/allegiance_emperors_children"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Emperor's Children"
+     },
+     {
+      "any_of": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/character",
+         "name": "Character",
+         "url": "https://longwarindex.app/universal_special_rules/character/"
+        }
+       },
+       {
+        "rows": [
+         {
+          "datasheet": "codex/chaos_space_marines/roster/chaos_champion",
+          "profile": "Chaos Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/inductii_squad",
+          "profile": "Inducti Aspiring Champion"
+         },
+         {
+          "datasheet": "codex/emperors_children/roster/noise_marines",
+          "profile": "Aspiring Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/chosen",
+          "profile": "Chosen Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/possessed",
+          "profile": "Possessed Champion"
+         },
+         {
+          "datasheet": "codex/emperors_children/roster/flawless_blades",
+          "profile": "Flawless Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/chaos_bike_squad",
+          "profile": "Aspiring Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/raptors",
+          "profile": "Aspiring Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/warp_talons",
+          "profile": "Talon Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/havocs",
+          "profile": "Aspiring Champion"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "rupture_lash",
+     "name": "Rupture Lash",
+     "printed": "Exchange their Chainsword for a Rupture Lash for 10pts.",
+     "points": 10,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "chainsword",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "rupture_lash"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dueling_blade",
+   "kind": "armoury",
+   "label": "Any Emperor's Children model may exchange their Chainsword for a Dueling Blade for 0pts.",
+   "printed": "Any Emperor's Children model may exchange their Chainsword for a Dueling Blade for 0pts.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_3rd_legion/",
+   "offered_by": {
+    "allegiance": "codex/emperors_children/allegiances/allegiance_emperors_children"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Emperor's Children"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "dueling_blade",
+     "name": "Dueling Blade",
+     "points": 0,
+     "pricing": "each",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "chainsword",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "dueling_blade"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "screamer_pistol",
+   "kind": "armoury",
+   "label": "Any Emperor's Children 'Champion' model or unit with the Character special rule may:",
+   "printed": "Any Emperor's Children 'Champion' model or unit with the Character special rule may:",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_3rd_legion/",
+   "offered_by": {
+    "allegiance": "codex/emperors_children/allegiances/allegiance_emperors_children"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Emperor's Children"
+     },
+     {
+      "any_of": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/character",
+         "name": "Character",
+         "url": "https://longwarindex.app/universal_special_rules/character/"
+        }
+       },
+       {
+        "rows": [
+         {
+          "datasheet": "codex/chaos_space_marines/roster/chaos_champion",
+          "profile": "Chaos Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/inductii_squad",
+          "profile": "Inducti Aspiring Champion"
+         },
+         {
+          "datasheet": "codex/emperors_children/roster/noise_marines",
+          "profile": "Aspiring Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/chosen",
+          "profile": "Chosen Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/possessed",
+          "profile": "Possessed Champion"
+         },
+         {
+          "datasheet": "codex/emperors_children/roster/flawless_blades",
+          "profile": "Flawless Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/chaos_bike_squad",
+          "profile": "Aspiring Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/raptors",
+          "profile": "Aspiring Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/warp_talons",
+          "profile": "Talon Champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/havocs",
+          "profile": "Aspiring Champion"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "screamer_pistol",
+     "name": "Screamer Pistol",
+     "printed": "Exchange their Bolt Pistol for a Screamer Pistol for 5pts.",
+     "points": 5,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "bolt_pistol",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "screamer_pistol"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cacophonic_orchestra_sonic_blaster",
+   "kind": "upgrade",
+   "label": "Any model in your army equipped with a Boltgun, Combi-Bolter or Linked Boltgun may exchange it for a Sonic Blaster for 1pts per model.",
+   "printed": "Any model in your army equipped with a Boltgun, Combi-Bolter or Linked Boltgun may exchange it for a Sonic Blaster for 1pts per model.",
+   "page": 11,
+   "url": "https://longwarindex.app/rites_of_war/cacophonic_orchestra/",
+   "offered_by": {
+    "rite": "codex/emperors_children/rites_of_war/cacophonic_orchestra"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": []
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "sonic_blaster",
+     "name": "Sonic Blaster",
+     "points": 1,
+     "pricing": "each",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "chaos_space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "combi_bolter",
+         "faction": "chaos_space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "linked_boltgun",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "sonic_blaster"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cacophonic_orchestra_screamer_pistol",
+   "kind": "upgrade",
+   "label": "Any model in your army equipped with a Boltpistol may exchange it for a Screamer Pistol for 5pts per model.",
+   "printed": "Any model in your army equipped with a Boltpistol may exchange it for a Screamer Pistol for 5pts per model.",
+   "page": 11,
+   "url": "https://longwarindex.app/rites_of_war/cacophonic_orchestra/",
+   "offered_by": {
+    "rite": "codex/emperors_children/rites_of_war/cacophonic_orchestra"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": []
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "screamer_pistol",
+     "name": "Screamer Pistol",
+     "points": 5,
+     "pricing": "each",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "bolt_pistol",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "screamer_pistol"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cacophonic_orchestra_linked_sonic_blaster",
+   "kind": "upgrade",
+   "label": "Any model in your army may exchange their equipped Heavy Bolter or Linked Heavy Bolter for a Linked Sonic Blaster for 0pts.",
+   "printed": "Any model in your army may exchange their equipped Heavy Bolter or Linked Heavy Bolter for a Linked Sonic Blaster for 0pts.",
+   "page": 11,
+   "url": "https://longwarindex.app/rites_of_war/cacophonic_orchestra/",
+   "offered_by": {
+    "rite": "codex/emperors_children/rites_of_war/cacophonic_orchestra"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": []
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "linked_sonic_blaster",
+     "name": "Linked Sonic Blaster",
+     "points": 0,
+     "pricing": "each",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "heavy_bolter",
+         "faction": "chaos_space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "linked_heavy_bolter",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "linked_sonic_blaster"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cacophonic_orchestra_blastmaster",
+   "kind": "upgrade",
+   "label": "Any model in your army may exchange an Autocannon they are equipped with for a Blastmaster for 0pts.",
+   "printed": "Any model in your army may exchange an Autocannon they are equipped with for a Blastmaster for 0pts.",
+   "page": 11,
+   "url": "https://longwarindex.app/rites_of_war/cacophonic_orchestra/",
+   "offered_by": {
+    "rite": "codex/emperors_children/rites_of_war/cacophonic_orchestra"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": []
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "blastmaster",
+     "name": "Blastmaster",
+     "points": 0,
+     "pricing": "each",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "autocannon",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "blastmaster"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pleasurekin_combat_drugs",
+   "kind": "upgrade",
+   "label": "Any Emperor's Children unit with the Character special rule may purchase Combat Drugs (see Wargear) for 10pts.",
+   "printed": "Any Emperor's Children unit with the Character special rule may purchase Combat Drugs (see Wargear) for 10pts.",
+   "page": 12,
+   "url": "https://longwarindex.app/rites_of_war/pleasurekin_of_slaanesh/",
+   "offered_by": {
+    "rite": "codex/emperors_children/rites_of_war/pleasurekin_of_slaanesh"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Emperor's Children"
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "combat_drugs",
+     "name": "Combat Drugs",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "combat_drugs"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

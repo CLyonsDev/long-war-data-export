@@ -1,0 +1,288 @@
+{
+ "data_version": "e7b9190a0b8e098c",
+ "format": 1,
+ "faction": "world_eaters",
+ "special_rules": [
+  {
+   "id": "codex/world_eaters/allegiances/allegiance_world_eaters",
+   "name": "Allegiance: World Eaters",
+   "kind": "allegiance",
+   "page": 4,
+   "url": "https://longwarindex.app/allegiances/allegiance_world_eaters/",
+   "references": [
+    "universal_special_rules/frenzy"
+   ],
+   "text": "All units with the World Eaters Keyword gain the Allegiance: World Eaters special rule. The Allegiance: World Eaters special rule consists of the following rules:\n\n- The Butchers Nails:\n    - World Eaters units do not take Panic Tests in the Combat Phase. All Panic tests taken in the Combat Phase are assumed to have automatically been passed.\n    - World Eaters units gain the Frenzy special rule.\n- Servants of Slaughter:\n    - All of your units must have the Mark of Khorne or Khorne Keyword. (This is included in all World Eaters exclusive units' profiles)\n    - You may only include allied units from Codex Chaos Daemons and Codex Renegades & Heretics that have the Khorne Keyword.\n    - Your army may not include units with the Psyker keyword in any detachment.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/frenzy",
+      "name": "Frenzy",
+      "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/world_eaters/special_rules/armoury_of_the_12th_legion",
+   "name": "Armoury of the 12th Legion",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_12th_legion/",
+   "references": [
+    "codex/world_eaters/allegiances/allegiance_world_eaters",
+    "codex/world_eaters/special_rules/berserker_surgeon",
+    "codex/world_eaters/special_rules/sage_of_slaughter"
+   ],
+   "text": "Units with Allegiance: World Eaters have access to additional wargear presented in this supplement in addition to the war gear presented in the core Codex Chaos Space Marines.\n\nChaos Champion Upgrades\n\nA World Eaters Chaos Champion may purchase the following upgrade in addition to the others available:\n\n- Berserker Surgeon for 15pts.\n- Sage of Slaughter for 25pts.\n\nWeapons\n\nAny World Eaters model may exchange their equipped Chainsword for a Chain Axe for 2pts.\n\nAny World Eaters Chaos Lord or Chaos Champion may:\n\n- Exchange their equipped Power Axe for a Excoraitor Chainaxe for 3pts.\n- Exchange their equipped Power Fist for a Eviscerator for 10pts."
+  },
+  {
+   "id": "codex/world_eaters/special_rules/berserker_surgeon",
+   "name": "Berserker Surgeon",
+   "kind": "datasheet",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/berserker_surgeon/",
+   "references": [
+    "universal_special_rules/feel_no_pain",
+    "universal_special_rules/hatred"
+   ],
+   "text": "A Chaos Champion with this upgrade and any attached unit gain the Feel no Pain (5+) and Hatred (Space Marines) special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     },
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "param": "Space Marines",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/world_eaters/special_rules/blood_hungry",
+   "name": "Blood Hungry",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/blood_hungry/",
+   "references": [
+    "universal_special_rules/frenzy",
+    "universal_special_rules/sprint"
+   ],
+   "text": "While a unit with this special rule is affected by the Frenzy special rule, it gain the Sprint (1) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/sprint",
+      "name": "Sprint",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/sprint/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/world_eaters/special_rules/blood_hungry_bloodfeeder",
+   "name": "Blood Hungry",
+   "datasheet": "Bloodfeeder",
+   "kind": "weapon",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/blood_hungry_bloodfeeder/",
+   "text": "Instead of using the equipped models Attack (A) characteristic, make 2D6 Attacks when Attacking with this weapon. Bonus Attacks may be applied as normal."
+  },
+  {
+   "id": "codex/world_eaters/special_rules/endless_rage",
+   "name": "Endless Rage",
+   "kind": "weapon",
+   "page": 8,
+   "url": "https://longwarindex.app/special_rules/endless_rage/",
+   "references": [
+    "universal_special_rules/feel_no_pain",
+    "universal_special_rules/rage"
+   ],
+   "text": "A model equipped with a weapon that has this special rule gains the Feel no Pain (6+) and Rage special rules.",
+   "effects": {
+    "bearer_rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "6+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     },
+     {
+      "rule": "universal_special_rules/rage",
+      "name": "Rage",
+      "url": "https://longwarindex.app/universal_special_rules/rage/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/world_eaters/special_rules/exalted_eightbound",
+   "name": "Exalted Eightbound",
+   "kind": "datasheet",
+   "page": 22,
+   "url": "https://longwarindex.app/special_rules/exalted_eightbound/",
+   "references": [
+    "universal_special_rules/battle_hardened"
+   ],
+   "text": "A unit of Eightbound upgraded to be Exalted Eightbound gain the Battle-Hardened special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/world_eaters/special_rules/indiscriminate_rage",
+   "name": "Indiscriminate Rage",
+   "kind": "warlord_trait",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/indiscriminate_rage/",
+   "references": [
+    "universal_special_rules/rage"
+   ],
+   "text": "If this model is your Warlord, they gain the Rage special rule. When this unit would activate the Rage special rule, they gain +3 Attacks instead of +1.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/rage",
+        "name": "Rage",
+        "url": "https://longwarindex.app/universal_special_rules/rage/"
+       },
+       "quote": "If this model is your Warlord, they gain the Rage special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/world_eaters/special_rules/no_survivors",
+   "name": "No Survivors",
+   "kind": "datasheet",
+   "page": 23,
+   "url": "https://longwarindex.app/special_rules/no_survivors/",
+   "text": "If a unit with this special rule has not been slain at the end of the 4th Battle Round then during the 5th Battle Round, this unit is treated as an enemy unit and is placed under the control of your opponent. The unit does not count as a friendly unit for any army rules and no units can be attached to a unit with this special rule."
+  },
+  {
+   "id": "codex/world_eaters/special_rules/primarch_of_the_xii",
+   "name": "Primarch of the XII",
+   "kind": "warlord_trait",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/primarch_of_the_xii/",
+   "text": "Friendly World Eaters units that can draw visibility to this unit may use this units Leadership (LD) characteristic. While This unit is alive and, on the Battlefield, all World Eaters units gain +1\" to all Sweeping Advance rolls."
+  },
+  {
+   "id": "codex/world_eaters/special_rules/raving_madmen",
+   "name": "Raving Madmen",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/raving_madmen/",
+   "references": [
+    "universal_special_rules/last_stand"
+   ],
+   "text": "A unit with this special rule may not make Reactions. A unit with this special rule gains the following benefits:\n\n- They gain the Last Stand Special rule.\n- When this unit attacks at its initiative step in the Combat Phase, increase its Weapon Skill (WS) characteristic by 1.\n- During all other initiative steps in the Combat Phase, decrease this units Weapon Skill (WS) characteristic by 1.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/last_stand",
+      "name": "Last Stand",
+      "url": "https://longwarindex.app/universal_special_rules/last_stand/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/world_eaters/special_rules/red_wake",
+   "name": "Red Wake",
+   "kind": "warlord_trait",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/red_wake/",
+   "references": [
+    "universal_special_rules/fleet"
+   ],
+   "text": "In a turn in which this unit successfully performs a Charge Move, all other friendly Khorne units gain +1 to their Charge rolls. In addition, Once per game, this unit can declare a tide of blood in your Movement Phase. All friendly Khorne units which can draw line of sight to Lord Invocatus gain the Fleet special rule until the end of your Movement Phase."
+  },
+  {
+   "id": "codex/world_eaters/special_rules/sage_of_slaughter",
+   "name": "Sage of Slaughter",
+   "kind": "datasheet",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/sage_of_slaughter/",
+   "references": [
+    "universal_special_rules/frenzy"
+   ],
+   "text": "A Chaos Champion with this upgrade gains +1 bonus Attack from the Frenzy special rule but is not subject to any other part of the Frenzy special rule and may freely declare charges as they wish. This confers to any attached unit. In addition, the Sage of Slaughter gains +1 to their Leadership (LD) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/world_eaters/special_rules/skewered",
+   "name": "Skewered",
+   "kind": "weapon",
+   "page": 24,
+   "url": "https://longwarindex.app/special_rules/skewered_world_eaters/",
+   "text": "After resolving a Shooting Attack with a weapon that has this special rule, the model equipped with this weapon may move D6\" towards the target (and may enter Engagement Range, ignoring the normal restrictions for ending a move within 3\" of a target). In addition, Monster, Walker, Automata, Knight and Titan units that suffer an unsaved wound from this unit may not make Retreat Moves in their next Movement Phase."
+  },
+  {
+   "id": "codex/world_eaters/special_rules/storming_charge",
+   "name": "Storming Charge",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/storming_charge/",
+   "references": [
+    "universal_special_rules/hammer_of_wrath"
+   ],
+   "text": "This unit can make D3 additional Hammer of Wrath Attack from the Hammer of Wrath Special rule at Initiative step 10 (This is included above)."
+  },
+  {
+   "id": "codex/world_eaters/special_rules/the_betrayer",
+   "name": "The Betrayer",
+   "kind": "datasheet",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/the_betrayer/",
+   "references": [
+    "special_rules/gets_hot"
+   ],
+   "text": "When this model suffers a wound as a result of the Gets Hot! Special rule, that wound can be allocated to any friendly World Eaters unit within 3\" of this model. No saves or mitigation is made against this wound."
+  },
+  {
+   "id": "codex/world_eaters/special_rules/the_red_angel",
+   "name": "The Red Angel",
+   "kind": "datasheet",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/the_red_angel/",
+   "text": "Once Per game, when this unit would be slain and removed from play, it is not. It instead remains in play with 3 wounds remaining and ignores all further wounds allocated to it that Phase."
+  },
+  {
+   "id": "codex/world_eaters/special_rules/too_angry_to_die",
+   "name": "Too Angry to Die",
+   "kind": "datasheet",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/too_angry_to_die/",
+   "text": "When this unit is slain and would be removed from play, select 1 enemy unit within 3\" to take D6+4 Strength 5, AP3 automatic hits."
+  }
+ ]
+}

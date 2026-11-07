@@ -1,0 +1,387 @@
+{
+ "data_version": "5c84456c48ac5c0e",
+ "format": 1,
+ "faction": "leagues_of_votann",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 3,
+   "url": "https://longwarindex.app/wargear/aktols_fortress/",
+   "offered_by": {
+    "codex": "leagues_of_votann"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "aktols_fortress",
+     "name": "Aktol's Fortress",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "aktols_fortress"
+      }
+     ],
+     "page": 3,
+     "url": "https://longwarindex.app/wargear/aktols_fortress/",
+     "pricing": "flat"
+    },
+    {
+     "id": "flayre",
+     "name": "Flâyre",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Darkstar Axe or Plasma Axe for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "darkstar_axe"
+        },
+        {
+         "kind": "weapon",
+         "id": "plasma_axe"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "flayre"
+        }
+       ]
+      }
+     ],
+     "page": 3,
+     "url": "https://longwarindex.app/wargear/flayre/",
+     "pricing": "flat"
+    },
+    {
+     "id": "exactor",
+     "name": "Exactor",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Hammer for this relic for 20pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_hammer"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "exactor"
+        }
+       ]
+      }
+     ],
+     "page": 3,
+     "url": "https://longwarindex.app/wargear/exactor/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_hearthfist",
+     "name": "The Hearthfist",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Fist for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_fist"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_hearthfist"
+        }
+       ]
+      }
+     ],
+     "page": 3,
+     "url": "https://longwarindex.app/wargear/the_hearthfist/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_grey_crest",
+     "name": "The Grey Crest",
+     "points": 25,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_grey_crest"
+      }
+     ],
+     "page": 4,
+     "url": "https://longwarindex.app/wargear/the_grey_crest/",
+     "pricing": "flat"
+    },
+    {
+     "id": "thyrikite_plate",
+     "name": "Thyrikite Plate",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "thyrikite_plate"
+      }
+     ],
+     "page": 4,
+     "url": "https://longwarindex.app/wargear/thyrikite_plate/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected to be your Warlord. Your Warlord may select one of the following Warlord traits for free.",
+   "printed": "One unit in your army with the Character special rule may be selected to be your Warlord. Your Warlord may select one of the following Warlord traits for free.",
+   "page": 10,
+   "url": "https://longwarindex.app/codex/leagues_of_votann/warlord_traits/",
+   "offered_by": {
+    "codex": "leagues_of_votann"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "unrelenting_toil",
+     "name": "Unrelenting Toil",
+     "page": 10,
+     "url": "https://longwarindex.app/warlord_traits/unrelenting_toil/",
+     "text": "A unit with this Warlord trait and any attached unit automatically pass Pinning Tests and Panic tests.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "guild_connections",
+     "name": "Guild Connections",
+     "page": 10,
+     "url": "https://longwarindex.app/warlord_traits/guild_connections/",
+     "text": "A model with this Warlord Trait gains the Master-Crafted special rule on all Weapons they are equipped with.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      }
+     ]
+    },
+    {
+     "id": "a_long_list",
+     "name": "A Long List",
+     "page": 10,
+     "url": "https://longwarindex.app/warlord_traits/a_long_list/",
+     "text": "Once per phase, while your warlord is alive and on the battlefield, when a unit with a Grudge Token is destroyed and removed from play, you move their Grudge Token to another enemy unit on the battlefield within 12\" of the destroyed units last remaining model before it was removed from play, slain or wrecked.",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "skienwrought_psychic_powers",
+   "kind": "psychic_powers",
+   "label": "A Leagues of Votann unit with the Psyker (1) special rule may purchase the following Psychic Powers:",
+   "printed": "A Leagues of Votann unit with the Psyker (1) special rule may purchase the following Psychic Powers:",
+   "page": 11,
+   "url": "https://longwarindex.app/codex/leagues_of_votann/powers/",
+   "offered_by": {
+    "codex": "leagues_of_votann"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "1",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "fortify",
+     "name": "Fortify",
+     "page": 11,
+     "url": "https://longwarindex.app/powers/fortify/",
+     "text": "When this power is cast, the Psyker and any attached unit gain +1 to their Toughness (T) characteristic until the start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "grudgepyre",
+     "name": "Grudgepyre",
+     "page": 11,
+     "url": "https://longwarindex.app/powers/grudgepyre/",
+     "text": "When this power is cast, target 1 enemy unit within 18\" of the Psyker. That target unit takes D6, Strength 3, AP- Automatic Hits. If the target has a Grudge Token on it, it instead takes 2D6, Strength 5, AP4 Automatic Hits.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "crushing_contempt",
+     "name": "Crushing Contempt",
+     "page": 11,
+     "url": "https://longwarindex.app/powers/crushing_contempt/",
+     "text": "When this power is cast, target 1 enemy unit within 24\" of the Psyker. That target unit may not make any Movement actions in its next Movement Phase and may not declare Charges in its next Charge Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "null_vortex",
+     "name": "Null Vortex",
+     "page": 11,
+     "url": "https://longwarindex.app/powers/null_vortex/",
+     "text": "When this power is cast, select a single enemy unit within 12\" of the Psyker. That unit may not make Invulnerable saves until the start of your next Shooting Phase.",
+     "points": 20,
+     "pricing": "flat"
+    },
+    {
+     "id": "ancestral_wrath",
+     "name": "Ancestral Wrath",
+     "page": 11,
+     "url": "https://longwarindex.app/powers/ancestral_wrath/",
+     "text": "The Psyker gains access to the following Psychic weapon:\n\n- Ancestral Wrath",
+     "points": 15,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "ancestral_wrath"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "machine_rites",
+   "kind": "machine_rites",
+   "label": "A Leagues of Votann unit with the Battle-Smith (1) special rule may purchase the following Rites:",
+   "printed": "A Leagues of Votann unit with the Battle-Smith (1) special rule may purchase the following Rites:",
+   "page": 12,
+   "url": "https://longwarindex.app/codex/leagues_of_votann/powers/",
+   "offered_by": {
+    "codex": "leagues_of_votann"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/battle_smith",
+       "name": "Battle Smith",
+       "param": "1",
+       "printed": "Battle-Smith (1)",
+       "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/battle_smith",
+     "name": "Battle Smith",
+     "param": "1",
+     "printed": "Battle-Smith (1)",
+     "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "self_destruct",
+     "name": "Self Destruct",
+     "page": 12,
+     "url": "https://longwarindex.app/powers/self_destruct/",
+     "text": "When this Rite is performed successfully, select a Vehicle, Automata, Walker or Aircraft unit within 3\" of the unit performing this Rite or a unit they embarked upon. The target unit immediately Explodes per the Vehicle Damage Chart.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "target_lock",
+     "name": "Target Lock",
+     "page": 12,
+     "url": "https://longwarindex.app/powers/target_lock/",
+     "text": "When this Rite is performed successfully, select a Vehicle, Automata, Walker or Aircraft unit within 3\" of the unit performing this Rite or a unit they embarked upon. The unit gains +1 Attack with 1 Shooting weapon it is equipped with until the start of your next Shooting Phase.",
+     "points": 5,
+     "pricing": "flat"
+    },
+    {
+     "id": "galvanic_overcharge",
+     "name": "Galvanic Overcharge",
+     "page": 12,
+     "url": "https://longwarindex.app/powers/galvanic_overcharge/",
+     "text": "When this Rite is performed successfully, select a Vehicle, Automata, Walker or Aircraft unit within 3\" of the unit performing this Rite or a unit they embarked upon may immediately make a Normal Move. However, the selected unit may not Shoot in the Shooting Phase or Charge in the Charge Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "repair_procedures",
+     "name": "Repair Procedures",
+     "page": 12,
+     "url": "https://longwarindex.app/powers/repair_procedures/",
+     "text": "When this Rite is performed successfully, select one of the following effects:\n\n- Select 1 Walker or Automata unit either within 3\" or attached to the unit that is performing this rite. The target unit Heals 1 wound.\n- Select 1 Vehicle, Aircraft, Knight or Fortification either within 3\", attached to the unit performing this Rite or that this unit is embarked upon. Select 1 weapon that target unit is equipped with that has been destroyed. The chosen weapon is no longer destroyed.\n- Select 1 Vehicle or Knight either within 3\", attached to the unit performing this Rite or that this unit is embarked upon that is immobilized. That unit is no longer immobilized. If the unit has the Super Heavy (x) special rule and was Limping, it is no longer considered to be Limping.",
+     "points": 10,
+     "pricing": "flat"
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

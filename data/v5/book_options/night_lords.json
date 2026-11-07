@@ -1,0 +1,691 @@
+{
+ "data_version": "27963ec3a1369f7b",
+ "format": 1,
+ "faction": "night_lords",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/the_stormbolt_plate/",
+   "offered_by": {
+    "allegiance": "codex/night_lords/allegiances/allegiance_night_lords"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "claw_of_the_stygian_count",
+     "name": "Claw of the Stygian Count",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its 1 Lightning Claw for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "lightning_claws",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "claw_of_the_stygian_count"
+        }
+       ]
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/claw_of_the_stygian_count/",
+     "pricing": "flat"
+    },
+    {
+     "id": "curzes_orb",
+     "name": "Curze's Orb",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "curzes_orb"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/curzes_orb/",
+     "pricing": "flat"
+    },
+    {
+     "id": "misery_of_the_meek",
+     "name": "Misery of the Meek",
+     "points": 25,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "misery_of_the_meek"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/misery_of_the_meek/",
+     "pricing": "flat"
+    },
+    {
+     "id": "scourging_chains",
+     "name": "Scourging Chains",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "scourging_chains"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/scourging_chains/",
+     "pricing": "flat"
+    },
+    {
+     "id": "talons_of_the_night_terror",
+     "name": "Talons of the Night Terror",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "talons_of_the_night_terror"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/talons_of_the_night_terror/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_claws_of_the_black_hunt",
+     "name": "The Claws of the Black Hunt",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its 2 Lightning Claws for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "lightning_claws",
+         "faction": "chaos_space_marines",
+         "count": 2
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_claws_of_the_black_hunt"
+        }
+       ]
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/the_claws_of_the_black_hunt/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_stormbolt_plate",
+     "name": "The Stormbolt Plate",
+     "points": 25,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_stormbolt_plate"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/the_stormbolt_plate/",
+     "pricing": "flat"
+    },
+    {
+     "id": "vox_daemonicus",
+     "name": "Vox Daemonicus",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "vox_daemonicus"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/vox_daemonicus/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "Units with Allegiance Night Lords have access to the Warlord traits in this supplement. One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "Units with Allegiance Night Lords have access to the Warlord traits in this supplement. One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 8,
+   "url": "https://longwarindex.app/codex/night_lords/warlord_traits/",
+   "offered_by": {
+    "allegiance": "codex/night_lords/allegiances/allegiance_night_lords"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "chaos_space_marines/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "dirty_fighter",
+     "name": "Dirty Fighter",
+     "page": 8,
+     "url": "https://longwarindex.app/warlord_traits/dirty_fighter/",
+     "text": "This Warlord and any attached unit gain the Prey on the Weak special rule. In addition, all Attacks resolved against the Warlord and his attached unit in the Combat Phase are resolved as if they have Gets Hot! Special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/night_lords/special_rules/prey_on_the_weak",
+       "name": "Prey on the Weak",
+       "url": "https://longwarindex.app/special_rules/prey_on_the_weak/"
+      }
+     ]
+    },
+    {
+     "id": "night_haunters_curse",
+     "name": "Night Haunter's Curse",
+     "page": 8,
+     "url": "https://longwarindex.app/warlord_traits/night_haunters_curse/",
+     "text": "A Warlord with this trait may always set to Overwatch even if they shot in the Shooting Phase. In addition, a Warlord with this trait can re-roll 1 failed Save (Invulnerable, Cover or Armour) per phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "one_piece_at_a_time",
+     "name": "One Piece at a Time",
+     "page": 8,
+     "url": "https://longwarindex.app/warlord_traits/one_piece_at_a_time/",
+     "text": "A Warlord with this trait gains the Hit & Run and Furious Charge special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/hit_and_run",
+       "name": "Hit & Run",
+       "url": "https://longwarindex.app/universal_special_rules/hit_and_run/"
+      },
+      {
+       "rule": "universal_special_rules/furious_charge",
+       "name": "Furious Charge",
+       "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chaos_lord_upgrades",
+   "kind": "armoury",
+   "label": "A Night Lords Chaos Lord may purchase the following upgrade in addition to the others available:",
+   "printed": "A Night Lords Chaos Lord may purchase the following upgrade in addition to the others available:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_8th_legion/",
+   "offered_by": {
+    "allegiance": "codex/night_lords/allegiances/allegiance_night_lords"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Night Lords"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_lord"
+     }
+    ]
+   },
+   "joins": {
+    "page": "codex/chaos_space_marines/roster/chaos_lord",
+    "group": "upgrades"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "nostromo_nobility",
+     "name": "Nostromo Nobility",
+     "printed": "Nostromo Nobility for 25pts.",
+     "points": 25,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/night_lords/special_rules/nostromo_nobility",
+       "name": "Nostromo Nobility",
+       "url": "https://longwarindex.app/special_rules/nostromo_nobility/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "anguish_engine",
+   "kind": "armoury",
+   "label": "Any Night Lords Aircraft type unit may purchase an Anguish Engine for 10pts.",
+   "printed": "Any Night Lords Aircraft type unit may purchase an Anguish Engine for 10pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_8th_legion/",
+   "offered_by": {
+    "allegiance": "codex/night_lords/allegiances/allegiance_night_lords"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Night Lords"
+     },
+     {
+      "unit_type": "Aircraft"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "anguish_engine",
+     "name": "Anguish Engine",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "anguish_engine"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trophies_of_judgement",
+   "kind": "armoury",
+   "label": "Any Night Lords unit with the Character special rule may take Trophies of Judgement for 15pts.",
+   "printed": "Any Night Lords unit with the Character special rule may take Trophies of Judgement for 15pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_8th_legion/",
+   "offered_by": {
+    "allegiance": "codex/night_lords/allegiances/allegiance_night_lords"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Night Lords"
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "trophies_of_judgement",
+     "name": "Trophies of Judgement",
+     "points": 15,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "trophies_of_judgement"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lord_and_champion_weapons",
+   "kind": "armoury",
+   "label": "Any Night Lords Chaos Lord or Chaos Champion model may:",
+   "printed": "Any Night Lords Chaos Lord or Chaos Champion model may:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_8th_legion/",
+   "offered_by": {
+    "allegiance": "codex/night_lords/allegiances/allegiance_night_lords"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Night Lords"
+     },
+     {
+      "any_of": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_lord"
+       },
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_champion"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "chainblade",
+     "name": "Chainblade",
+     "printed": "Exchange their equipped Power Sword for a Chainblade for 2pts.",
+     "points": 2,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "chainblade"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "flay_whip",
+     "name": "Flay-Whip",
+     "printed": "Exchange their equipped Power Lance for a Flay-Whip for 2pts.",
+     "points": 2,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_lance",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "flay_whip"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lord_escaton_power_claw",
+   "kind": "armoury",
+   "label": "Any Night Lords Chaos Lord model may exchange its Power Fist for a Escaton Power Claw for 5pts.",
+   "printed": "Any Night Lords Chaos Lord model may exchange its Power Fist for a Escaton Power Claw for 5pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_8th_legion/",
+   "offered_by": {
+    "allegiance": "codex/night_lords/allegiances/allegiance_night_lords"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Night Lords"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_lord"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "escaton_power_claw",
+     "name": "Escaton Power Claw",
+     "points": 5,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_fist",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "escaton_power_claw"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "print_defect": "After this sentence, the book prints the two bullets of the lord_and_champion_weapons group a second time. The bullets are Power Sword for a Chainblade and Power Lance for a Flay-Whip. This group holds only the Escaton Power Claw exchange. The repeated bullets are a print defect. They are not a second choice of this group."
+  },
+  {
+   "id": "missile_launcher",
+   "kind": "armoury",
+   "label": "Any Night Lords model equipped with a Missile Launcher may exchange it for a Nostromon Missile Launcher for 10pts.",
+   "printed": "Any Night Lords model equipped with a Missile Launcher may exchange it for a Nostromon Missile Launcher for 10pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_8th_legion/",
+   "offered_by": {
+    "allegiance": "codex/night_lords/allegiances/allegiance_night_lords"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Night Lords"
+     },
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "missile_launcher",
+        "faction": "chaos_space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "nostromon_missile_launcher",
+     "name": "Nostromon Missile Launcher",
+     "points": 10,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "missile_launcher",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "nostromon_missile_launcher"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "claw_company_trophies_of_judgement",
+   "kind": "armoury",
+   "label": "Any Infantry unit in your army which contains 10 or more models may purchase Trophies of Judgement for 15pts.",
+   "printed": "Any Infantry unit in your army which contains 10 or more models may purchase Trophies of Judgement for 15pts.",
+   "page": 10,
+   "url": "https://longwarindex.app/rites_of_war/night_lords_claw_company/",
+   "offered_by": {
+    "rite": "codex/night_lords/rites_of_war/night_lords_claw_company"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "unit_type": "Infantry"
+     },
+     {
+      "min_models": 10
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "trophies_of_judgement",
+     "name": "Trophies of Judgement",
+     "points": 15,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "trophies_of_judgement"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nostromo_nobility_remnants_of_old_nostromo",
+   "kind": "armoury",
+   "label": "Any unit in your army except for Inductii may purchase the Nostromo Nobility upgrade for 25pts.",
+   "printed": "Any unit in your army except for Inductii may purchase the Nostromo Nobility upgrade for 25pts.",
+   "page": 11,
+   "url": "https://longwarindex.app/rites_of_war/remnants_of_old_nostromo/",
+   "offered_by": {
+    "rite": "codex/night_lords/rites_of_war/remnants_of_old_nostromo"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Night Lords"
+     },
+     {
+      "not_keyword": "Inductii"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "nostromo_nobility",
+     "name": "Nostromo Nobility",
+     "points": 25,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/night_lords/special_rules/nostromo_nobility",
+       "name": "Nostromo Nobility",
+       "url": "https://longwarindex.app/special_rules/nostromo_nobility/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "remnants_contemptor_trophies_of_judgement",
+   "kind": "armoury",
+   "label": "Contemptor Dreadnoughts may purchase Trophies of Judgement for 15pts.",
+   "printed": "Contemptor Dreadnoughts may purchase Trophies of Judgement for 15pts.",
+   "page": 11,
+   "url": "https://longwarindex.app/rites_of_war/remnants_of_old_nostromo/",
+   "offered_by": {
+    "rite": "codex/night_lords/rites_of_war/remnants_of_old_nostromo"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "datasheet": "codex/chaos_space_marines/roster/contemptor_dreadnought"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "trophies_of_judgement",
+     "name": "Trophies of Judgement",
+     "points": 15,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "trophies_of_judgement"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

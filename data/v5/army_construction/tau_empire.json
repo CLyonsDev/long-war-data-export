@@ -1,0 +1,1033 @@
+{
+ "data_version": "65184c16beb46123",
+ "format": 1,
+ "faction": "tau_empire",
+ "codex": {
+  "id": "codex/tau_empire",
+  "name": "T'au Empire",
+  "page": 6,
+  "url": "https://longwarindex.app/codex/tau_empire/",
+  "parent": null,
+  "army_rules": [
+   {
+    "rule": "codex/tau_empire/special_rules/bonding_knife_ritual",
+    "name": "Bonding Knife Ritual",
+    "url": "https://longwarindex.app/special_rules/bonding_knife_ritual/"
+   },
+   {
+    "rule": "codex/tau_empire/special_rules/devour_grow_stronger",
+    "name": "Devour, Grow Stronger",
+    "url": "https://longwarindex.app/special_rules/devour_grow_stronger/"
+   },
+   {
+    "rule": "codex/tau_empire/special_rules/drone_port",
+    "name": "Drone Port",
+    "url": "https://longwarindex.app/special_rules/drone_port/"
+   },
+   {
+    "rule": "codex/tau_empire/special_rules/multi_spectral_eyes",
+    "name": "Multi Spectral Eyes",
+    "url": "https://longwarindex.app/special_rules/multi_spectral_eyes/"
+   },
+   {
+    "rule": "codex/tau_empire/special_rules/supporting_fire",
+    "name": "Supporting Fire",
+    "url": "https://longwarindex.app/special_rules/supporting_fire/"
+   }
+  ],
+  "allies": {
+   "printed": "The T'au may take the following armies as allies:",
+   "page": 29,
+   "url": "https://longwarindex.app/allies/tau_allies/",
+   "factions": [
+    {
+     "faction": "tau_empire"
+    },
+    {
+     "faction": "leagues_of_votann"
+    }
+   ]
+  },
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/tau_empire/rites_of_war/armoured_interdiction_cadre",
+    "codex/tau_empire/rites_of_war/farsight_enclaves",
+    "codex/tau_empire/rites_of_war/hunter_cadre",
+    "codex/tau_empire/rites_of_war/kroot_hunting_pack",
+    "codex/tau_empire/rites_of_war/stealth_cadre",
+    "codex/tau_empire/rites_of_war/vespid_swarm"
+   ],
+   "from_parent": [],
+   "banned_from_parent": []
+  },
+  "unit_list": {
+   "page": 28,
+   "url": "https://longwarindex.app/unit_list/tau_unit_list/",
+   "entries": [
+    {
+     "datasheet": "codex/tau_empire/roster/aunshi",
+     "printed": "Aun'shi",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/aunva",
+     "printed": "Aun'va",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/cadre_fireblade",
+     "printed": "Cadre Fireblade",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/commander_shadowsun",
+     "printed": "Commander Shadowsun",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/crisis_suit_commander",
+     "printed": "Crisis Suit Commander",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/dark_strider",
+     "printed": "Dark Strider",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/ethereal",
+     "printed": "Ethereal",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/kroot_shaper",
+     "printed": "Kroot Shaper",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/longstrike",
+     "printed": "Longstrike",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/shaso_ralai",
+     "printed": "Shas'o R'alai",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/shaso_rmyr",
+     "printed": "Shas'o R'myr",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/the_twin_lance",
+     "printed": "The Twin Lance",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/vespid_strain_leader",
+     "printed": "Vespid Strain Leader",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/fire_warrior_team",
+     "printed": "Fire Warrior Team",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/kroot_carnivores",
+     "printed": "Kroot Carnivores",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/pathfinder_team",
+     "printed": "Pathfinder Team",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/firesight_marksman",
+     "printed": "Firesight Marksman",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/krootox_rampagers",
+     "printed": "Krootox Rampagers",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/krootox_rider",
+     "printed": "Krootox Rider",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/xv2515_stealth_suit_team",
+     "printed": "XV25/15 Stealth Suit Team",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/xv8_crisis_suit_team",
+     "printed": "XV8 Crisis Suit Team",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/xv95_ghostkeel_suit",
+     "printed": "XV95 Ghostkeel Suit",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/devilfish_apc",
+     "printed": "Devilfish APC",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/ax_1_0_tiger_shark",
+     "printed": "AX-1-0 Tiger Shark",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/ax_5_2_barracuda",
+     "printed": "AX-5-2 Barracuda",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/dx_6_remora_stealth_drones",
+     "printed": "DX-6 Remora Stealth Drones",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/razor_shark_strike_fighter",
+     "printed": "Razor Shark Strike Fighter",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/sun_shark_bomber",
+     "printed": "Sun Shark Bomber",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/tiger_shark",
+     "printed": "Tiger Shark",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/kroot_hounds",
+     "printed": "Kroot Hounds",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/kroot_lone_spears",
+     "printed": "Kroot Lone Spears",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/piranhas",
+     "printed": "Piranhas",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/tactical_drones",
+     "printed": "Tactical Drones",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/tetras",
+     "printed": "Tetras",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/tx_42_piranhas",
+     "printed": "TX-42 Piranhas",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/vespid_stingwings",
+     "printed": "Vespid Stingwings",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/xv9_hazard_suit",
+     "printed": "XV9 Hazard Suit",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/hammerhead_gunship",
+     "printed": "Hammerhead Gunship",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/kroot_greater_knarloc",
+     "printed": "Kroot Greater Knarloc",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/skyray_gunship",
+     "printed": "Skyray Gunship",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/xv104_riptide_suit",
+     "printed": "XV104 Riptide Suit",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/xv107_rvarna_suit",
+     "printed": "XV107 R'varna Suit",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/xv109_yvahra_suit",
+     "printed": "XV109 Y'vahra Suit",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/xv88_broadside_suits",
+     "printed": "XV88 Broadside Suits",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/kv128_storm_surge_ballistic_suit",
+     "printed": "KV128 Storm Surge Ballistic Suit",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/kx139_taunar_supremacy_armour",
+     "printed": "KX139 Ta'unar Supremacy Armour",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/drone_sentry_turret",
+     "printed": "Drone Sentry Turret",
+     "role": "Fortification"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/ds8_tactical_support_turret",
+     "printed": "DS8 Tactical Support Turret",
+     "role": "Fortification"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/sensor_tower",
+     "printed": "Sensor Tower",
+     "role": "Fortification"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/tidewall_droneport",
+     "printed": "Tidewall Droneport",
+     "role": "Fortification"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/tidewall_gunrig",
+     "printed": "Tidewall Gunrig",
+     "role": "Fortification"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/tidewall_shieldline",
+     "printed": "Tidewall Shieldline",
+     "role": "Fortification"
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/commander_farsight",
+     "printed": "Commander Farsight",
+     "role": "HQ",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/kroot_cold_bloods",
+     "printed": "Kroot Cold Bloods",
+     "role": "Elites",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/kroot_greater_knarloc_riders",
+     "printed": "Kroot Greater Knarloc Riders",
+     "role": "Heavy Support",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/kroot_knarloc_rider",
+     "printed": "Kroot Knarloc Rider",
+     "role": "Fast Attack",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/kroot_skin_cutters",
+     "printed": "Kroot Skin Cutters",
+     "role": "Elites",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/vespid_shade_strain",
+     "printed": "Vespid Shade Strain",
+     "role": "Elites",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/tau_empire/roster/vespid_swarmguard",
+     "printed": "Vespid Swarmguard",
+     "role": "Elites",
+     "appendix": true
+    }
+   ]
+  },
+  "keyword_templates": [
+   {
+    "template": "[Sept]",
+    "substitution": null
+   },
+   {
+    "template": "[Greater T'au Empire]",
+    "substitution": null
+   },
+   {
+    "template": "[Farsight Enclave]",
+    "substitution": null
+   }
+  ]
+ },
+ "allegiances": [],
+ "rites_of_war": [
+  {
+   "id": "codex/tau_empire/rites_of_war/armoured_interdiction_cadre",
+   "name": "Armoured Interdiction Cadre",
+   "page": 28,
+   "url": "https://longwarindex.app/rites_of_war/armoured_interdiction_cadre/",
+   "offered_by": {
+    "codex": "tau_empire"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 2 Hammerhead Gunship units.\n- Your army must include at least 1 Skyray Gunship unit.\n- Your army must include more Vehicle units than Infantry or Battlesuit units.\n\nBenefits\n\n- You may field Hammerhead Gunships as Elite choices instead of Heavy Support.\n- You may field Piranhas as Troops choices instead of Fast Attack choices.\n- You may select a single Hammerhead Gunship in your army to be your Warlord. That unit may take a Warlord trait. It gains the Character special rule and +1 to its Ballistic Skill (BS), Attacks (A) and Leadership (LD) characteristics. If you do so, you do not require a HQ slot for your army.",
+   "restrictions": [
+    {
+     "id": "hammerhead_gunships",
+     "printed": "Your army must include at least 2 Hammerhead Gunship units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/hammerhead_gunship"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "skyray_gunship",
+     "printed": "Your army must include at least 1 Skyray Gunship unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/skyray_gunship"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "more_vehicles_than_infantry_or_battlesuit",
+     "printed": "Your army must include more Vehicle units than Infantry or Battlesuit units.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "unit_type": "Vehicle"
+       }
+      ],
+      "than": [
+       [
+        {
+         "unit_type": "Infantry"
+        }
+       ],
+       [
+        {
+         "unit_type": "Battlesuit"
+        }
+       ]
+      ],
+      "each": true
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "hammerhead_elites",
+     "printed": "You may field Hammerhead Gunships as Elite choices instead of Heavy Support.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/hammerhead_gunship"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "piranhas_troops",
+     "printed": "You may field Piranhas as Troops choices instead of Fast Attack choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/piranhas"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "hammerhead_warlord",
+     "printed": "You may select a single Hammerhead Gunship in your army to be your Warlord. That unit may take a Warlord trait. It gains the Character special rule and +1 to its Ballistic Skill (BS), Attacks (A) and Leadership (LD) characteristics. If you do so, you do not require a HQ slot for your army.",
+     "options": [
+      {
+       "book_options": "tau_empire",
+       "group": "armoured_interdiction_cadre_warlord"
+      }
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/tau_empire/rites_of_war/farsight_enclaves",
+   "name": "Farsight Enclaves",
+   "page": 27,
+   "url": "https://longwarindex.app/rites_of_war/farsight_enclaves/",
+   "offered_by": {
+    "codex": "tau_empire"
+   },
+   "text": "Restrictions\n\n- You may not include the following units in your Army:\n    - Ethereal.\n    - Aun'va.\n    - Aun'shi.\n    - XV95 Ghostkeel Suit.\n    - XV107 R'varna suit.\n    - XV109 Y'vahra suit\n    - KV128 Storm surge.\n    - KX139 Ta'unar Supremacy Armour.\n    - XV9 Hazard Suit.\n- Your army must include 2 units of XV8 Crisis Suit Teams.\n\nBenefits\n\n- You may field up to 2 units of XV8 Crisis Suit Teams as Troops choices instead of Elites Choices.\n- You gain access to Commander Farsight (see below).\n- Crisis Suit Commanders remove the Limited: 1 per detachment special rule from their profile.",
+   "restrictions": [
+    {
+     "id": "forbidden_units",
+     "printed": "You may not include the following units in your Army:",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/tau_empire/roster/ethereal"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/aunva"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/aunshi"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/xv95_ghostkeel_suit"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/xv107_rvarna_suit"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/xv109_yvahra_suit"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/kv128_storm_surge_ballistic_suit"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/kx139_taunar_supremacy_armour"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/xv9_hazard_suit"
+         }
+        ]
+       }
+      ],
+      "max": 0
+     },
+     "print_defect": "The book prints \"XV1XV95 Ghostkeel Suit\". This data reads it as the XV95 Ghostkeel Suit."
+    },
+    {
+     "id": "crisis_suit_teams",
+     "printed": "Your army must include 2 units of XV8 Crisis Suit Teams.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/xv8_crisis_suit_team"
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "crisis_suit_teams_troops",
+     "printed": "You may field up to 2 units of XV8 Crisis Suit Teams as Troops choices instead of Elites Choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/xv8_crisis_suit_team"
+       }
+      ],
+      "role": "Troops",
+      "instead": false,
+      "max_units": 2
+     }
+    },
+    {
+     "id": "commander_farsight_unit",
+     "printed": "You gain access to Commander Farsight (see below).",
+     "unlocks": [
+      "codex/tau_empire/roster/commander_farsight"
+     ]
+    },
+    {
+     "id": "crisis_suit_commanders_no_limit",
+     "printed": "Crisis Suit Commanders remove the Limited: 1 per detachment special rule from their profile.",
+     "limit": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/crisis_suit_commander"
+       }
+      ],
+      "limit": null
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/tau_empire/rites_of_war/hunter_cadre",
+   "name": "Hunter Cadre",
+   "page": 28,
+   "url": "https://longwarindex.app/rites_of_war/hunter_cadre/",
+   "offered_by": {
+    "codex": "tau_empire"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 unit of Fire Warrior Team, 1 Crisis Suit Team, and 1 Pathfinder team.\n- For every 3 Fire Warrior Teams in your army, you must include at least 1 Cadre Fireblade unit.\n- You can only include 1 Auxiliary unit for every 3 other units in your army.\n\nBenefits\n\n- You may field 1 Crisis Suit Team without taking up a Force Organization Slot.\n- Night Fighting is always in effect even if your Battle Pack does not contain the Night Fighting special rule. You may select whether Dawn or Dusk is active. If both players would force night fighting. Roll off to determine which Night Fighting is active.\n- Pathfinder team units in your army gain the Hit & Run special rule.",
+   "restrictions": [
+    {
+     "id": "fire_warrior_team_required",
+     "printed": "Your army must include at least 1 unit of Fire Warrior Team, 1 Crisis Suit Team, and 1 Pathfinder team.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/fire_warrior_team"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "crisis_suit_team_required",
+     "printed": "Your army must include at least 1 unit of Fire Warrior Team, 1 Crisis Suit Team, and 1 Pathfinder team.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/xv8_crisis_suit_team"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "pathfinder_team_required",
+     "printed": "Your army must include at least 1 unit of Fire Warrior Team, 1 Crisis Suit Team, and 1 Pathfinder team.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/pathfinder_team"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "cadre_fireblade_ratio",
+     "printed": "For every 3 Fire Warrior Teams in your army, you must include at least 1 Cadre Fireblade unit.",
+     "scope": "detachment",
+     "ratio": {
+      "limited": [
+       {
+        "datasheet": "codex/tau_empire/roster/cadre_fireblade"
+       }
+      ],
+      "per": 3,
+      "of": [
+       {
+        "datasheet": "codex/tau_empire/roster/fire_warrior_team"
+       }
+      ],
+      "round": "down",
+      "minimum": true
+     }
+    },
+    {
+     "id": "auxiliary_ratio",
+     "printed": "You can only include 1 Auxiliary unit for every 3 other units in your army.",
+     "scope": "detachment",
+     "ratio": {
+      "limited": [
+       {
+        "keyword": "Auxiliary"
+       }
+      ],
+      "per": 3,
+      "of": [
+       {
+        "not": {
+         "keyword": "Auxiliary"
+        }
+       }
+      ],
+      "round": "down"
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "crisis_suit_team_unslotted",
+     "printed": "You may field 1 Crisis Suit Team without taking up a Force Organization Slot.",
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/xv8_crisis_suit_team"
+       }
+      ],
+      "count": 1
+     }
+    },
+    {
+     "id": "pathfinder_hit_and_run",
+     "printed": "Pathfinder team units in your army gain the Hit & Run special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/pathfinder_team"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/hit_and_run",
+        "name": "Hit & Run",
+        "url": "https://longwarindex.app/universal_special_rules/hit_and_run/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "Night Fighting is always in effect even if your Battle Pack does not contain the Night Fighting special rule. You may select whether Dawn or Dusk is active. If both players would force night fighting. Roll off to determine which Night Fighting is active."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/tau_empire/rites_of_war/kroot_hunting_pack",
+   "name": "Kroot Hunting Pack",
+   "page": 28,
+   "url": "https://longwarindex.app/rites_of_war/kroot_hunting_pack/",
+   "offered_by": {
+    "codex": "tau_empire"
+   },
+   "text": "Restrictions\n\n- Your army can only include units with the Kroot keyword.\n- Your army must include 3 units of Kroot Carnivores.\n\nBenefits\n\n- All units with the Kroot keyword ignore the Expendable and Support Squad special rule.\n- Night Fighting is always in effect even if your Battle Pack does not contain the Night Fighting special rule. You may select whether Dawn or Dusk is active. If both players would force night fighting. Roll off to determine which Night Fighting is active.\n- You gain access to the Kroot Warlord traits below.\n- You gain access to the following units:\n    - Kroot Skin Cutters.\n    - Kroot Cold Bloods.\n    - Kroot Knarloc Riders.\n    - Kroot Greater Knarloc Riders.\n\nWarlord Traits\n\n- Flesh Hunger\n- Master of the Hunt\n- Strange Blessings",
+   "restrictions": [
+    {
+     "id": "only_kroot",
+     "printed": "Your army can only include units with the Kroot keyword.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "keyword": "Kroot"
+       }
+      ]
+     }
+    },
+    {
+     "id": "kroot_carnivores",
+     "printed": "Your army must include 3 units of Kroot Carnivores.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/kroot_carnivores"
+       }
+      ],
+      "min": 3
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "kroot_suppress_rules",
+     "printed": "All units with the Kroot keyword ignore the Expendable and Support Squad special rule.",
+     "suppress_rules": {
+      "conditions": [
+       {
+        "keyword": "Kroot"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/expendable",
+        "name": "Expendable",
+        "url": "https://longwarindex.app/universal_special_rules/expendable/"
+       },
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "kroot_warlord_traits",
+     "printed": "You gain access to the Kroot Warlord traits below.",
+     "options": [
+      {
+       "book_options": "tau_empire",
+       "group": "kroot_warlord_traits"
+      }
+     ]
+    },
+    {
+     "id": "kroot_units",
+     "printed": "You gain access to the following units:",
+     "unlocks": [
+      "codex/tau_empire/roster/kroot_skin_cutters",
+      "codex/tau_empire/roster/kroot_cold_bloods",
+      "codex/tau_empire/roster/kroot_knarloc_rider",
+      "codex/tau_empire/roster/kroot_greater_knarloc_riders"
+     ]
+    }
+   ],
+   "game_time": [
+    "Night Fighting is always in effect even if your Battle Pack does not contain the Night Fighting special rule. You may select whether Dawn or Dusk is active. If both players would force night fighting. Roll off to determine which Night Fighting is active."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/tau_empire/rites_of_war/stealth_cadre",
+   "name": "Stealth Cadre",
+   "page": 28,
+   "url": "https://longwarindex.app/rites_of_war/stealth_cadre/",
+   "offered_by": {
+    "codex": "tau_empire"
+   },
+   "text": "Restrictions\n\n- You cannot include the following units in your army.\n    - Ethereal.\n    - Aun'va.\n    - Aun'shi.\n    - XV104 Riptide suit.\n    - XV107 R'varna suit.\n    - XV109 Y'vahra suit\n    - XV88 Broadside suit.\n    - Skyray Gunship.\n    - Hammerhead Gunship.\n    - KV128 Storm surge.\n- Your army cannot include any Fortifications.\n- Your army must include at least 2 units of XV25/XV15 Stealth Suit Teams.\n\nBenefits\n\n- XV25/15 Stealth Suit teams may be fielded as Troops Choices.\n- DX-6 Remora Stealth Drone may be fielded as Fast Attack choices.\n- XV95 Ghostkeel Stealth Suits become Limited: 3 per detachment instead of Limited: 1 per Detachment.",
+   "restrictions": [
+    {
+     "id": "forbidden_units",
+     "printed": "You cannot include the following units in your army.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/tau_empire/roster/ethereal"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/aunva"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/aunshi"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/xv104_riptide_suit"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/xv107_rvarna_suit"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/xv109_yvahra_suit"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/xv88_broadside_suits"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/skyray_gunship"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/hammerhead_gunship"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/kv128_storm_surge_ballistic_suit"
+         }
+        ]
+       }
+      ],
+      "max": 0
+     }
+    },
+    {
+     "id": "no_fortifications",
+     "printed": "Your army cannot include any Fortifications.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "role": "Fortification"
+       }
+      ],
+      "max": 0
+     }
+    },
+    {
+     "id": "stealth_suit_teams",
+     "printed": "Your army must include at least 2 units of XV25/XV15 Stealth Suit Teams.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/xv2515_stealth_suit_team"
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "stealth_suit_teams_troops",
+     "printed": "XV25/15 Stealth Suit teams may be fielded as Troops Choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/xv2515_stealth_suit_team"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "remora_fast_attack",
+     "printed": "DX-6 Remora Stealth Drone may be fielded as Fast Attack choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/dx_6_remora_stealth_drones"
+       }
+      ],
+      "role": "Fast Attack",
+      "instead": false
+     }
+    },
+    {
+     "id": "ghostkeel_limit",
+     "printed": "XV95 Ghostkeel Stealth Suits become Limited: 3 per detachment instead of Limited: 1 per Detachment.",
+     "limit": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/xv95_ghostkeel_suit"
+       }
+      ],
+      "limit": 3,
+      "scope": "detachment"
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/tau_empire/rites_of_war/vespid_swarm",
+   "name": "Vespid Swarm",
+   "page": 27,
+   "url": "https://longwarindex.app/rites_of_war/vespid_swarm/",
+   "offered_by": {
+    "codex": "tau_empire"
+   },
+   "text": "Restrictions\n\n- Every unit in your army must have the Vespid keyword.\n- Your army must include 3 Vespid Stingwing units.\n\nBenefits\n\n- All units with the Vespid keyword ignore the Expendable and Support Squad special rule.\n- You may field Vespid Stingwings as Troops choices.\n- You gain access to the Vespid Warlord Traits below.\n- You can access the following units:\n    - Vespid Swarmguard.\n    - Vespid Shade Strain.\n\nWarlord Traits\n\n- Blood Wing\n- Communion Vector\n- Swarm Caller",
+   "restrictions": [
+    {
+     "id": "only_vespid",
+     "printed": "Every unit in your army must have the Vespid keyword.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "keyword": "Vespid"
+       }
+      ]
+     }
+    },
+    {
+     "id": "vespid_stingwings",
+     "printed": "Your army must include 3 Vespid Stingwing units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/vespid_stingwings"
+       }
+      ],
+      "min": 3
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "vespid_suppress_rules",
+     "printed": "All units with the Vespid keyword ignore the Expendable and Support Squad special rule.",
+     "suppress_rules": {
+      "conditions": [
+       {
+        "keyword": "Vespid"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/expendable",
+        "name": "Expendable",
+        "url": "https://longwarindex.app/universal_special_rules/expendable/"
+       },
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "vespid_stingwings_troops",
+     "printed": "You may field Vespid Stingwings as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/vespid_stingwings"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "vespid_warlord_traits",
+     "printed": "You gain access to the Vespid Warlord Traits below.",
+     "options": [
+      {
+       "book_options": "tau_empire",
+       "group": "vespid_warlord_traits"
+      }
+     ]
+    },
+    {
+     "id": "vespid_units",
+     "printed": "You can access the following units:",
+     "unlocks": [
+      "codex/tau_empire/roster/vespid_swarmguard",
+      "codex/tau_empire/roster/vespid_shade_strain"
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

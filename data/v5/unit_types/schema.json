@@ -1,0 +1,113 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://longwarindex.app/data/v5/unit_types/schema.json",
+ "title": "Long War Index unit types export (unit_types/core.json)",
+ "description": "The unit types of §17.0. Each unit type page on the site is one item. The page is the source of all values.",
+ "type": "object",
+ "required": [
+  "data_version",
+  "format",
+  "faction",
+  "unit_types"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "data_version": {
+   "type": "string",
+   "description": "Hash of the file content. It changes only when the content changes."
+  },
+  "format": {
+   "const": 1
+  },
+  "faction": {
+   "const": "core"
+  },
+  "unit_types": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/unit_type"
+   }
+  }
+ },
+ "$defs": {
+  "unit_type": {
+   "type": "object",
+   "required": [
+    "id",
+    "name",
+    "page",
+    "rules",
+    "text"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^unit_types/[a-z0-9_]+$",
+     "description": "Permanent: never changed or reused. For example unit_types/bike."
+    },
+    "name": {
+     "type": "string"
+    },
+    "page": {
+     "type": "integer",
+     "description": "The printed page number."
+    },
+    "url": {
+     "type": "string",
+     "format": "uri",
+     "description": "The page on the site."
+    },
+    "source": {
+     "type": "string",
+     "description": "The book, for example \"Core Rules\"."
+    },
+    "movement": {
+     "type": "string",
+     "description": "The base Movement (M) characteristic, as printed: \"12\\\"\" or \"20-30\\\"\". Not present if the page gives none."
+    },
+    "rules": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/rule_reference"
+     },
+     "description": "The special rules that the type gives, in page order. Empty if the type gives none."
+    },
+    "text": {
+     "type": "string",
+     "description": "The text as plain text, in the form of the special rules export: no Markdown, no HTML and no wiki links. One blank line separates two paragraphs. Each list item is on its own line and starts with \"- \". Each row of a table is one line, with a tab character between two cells."
+    }
+   }
+  },
+  "rule_reference": {
+   "type": "object",
+   "required": [
+    "rule",
+    "name",
+    "url"
+   ],
+   "additionalProperties": false,
+   "description": "A rule reference, as in the effects of the special rules export.",
+   "properties": {
+    "rule": {
+     "type": "string",
+     "description": "The id of the rule in special_rules/core.json."
+    },
+    "name": {
+     "type": "string"
+    },
+    "param": {
+     "type": "string",
+     "description": "The value of the rule, for example \"1\" for Hammer of Wrath (1)."
+    },
+    "printed": {
+     "type": "string"
+    },
+    "url": {
+     "type": "string",
+     "format": "uri"
+    }
+   }
+  }
+ }
+}

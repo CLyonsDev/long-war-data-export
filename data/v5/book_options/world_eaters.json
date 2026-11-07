@@ -1,0 +1,534 @@
+{
+ "data_version": "a0fe979afa4860c8",
+ "format": 1,
+ "faction": "world_eaters",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_talisman_of_burning_blood/",
+   "offered_by": {
+    "allegiance": "codex/world_eaters/allegiances/allegiance_world_eaters"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "bloodfeeder",
+     "name": "Bloodfeeder",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Axe for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_axe",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "bloodfeeder"
+        }
+       ]
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/bloodfeeder/",
+     "pricing": "flat"
+    },
+    {
+     "id": "brass_collar_of_borghaster",
+     "name": "Brass Collar of Borghaster",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "brass_collar_of_borghaster"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/brass_collar_of_borghaster/",
+     "pricing": "flat"
+    },
+    {
+     "id": "gorefather",
+     "name": "Gorefather",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Chain Axe for this relic for 20pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "chain_axe"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "gorefather"
+        }
+       ]
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/gorefather/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_berserker_glaive",
+     "name": "The Berserker Glaive",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Eviscerator, Heavy Chain Glaive, for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "eviscerator"
+        },
+        {
+         "kind": "weapon",
+         "id": "heavy_chain_glaive"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_berserker_glaive"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_berserker_glaive/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_crimson_killer",
+     "name": "The Crimson Killer",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Plasma Pistol for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "plasma_pistol",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_crimson_killer"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_crimson_killer/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_talisman_of_burning_blood",
+     "name": "The Talisman of Burning Blood",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_talisman_of_burning_blood"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_talisman_of_burning_blood/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free and may purchase an additional secondary Warlord trait for 15pts.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free and may purchase an additional secondary Warlord trait for 15pts.",
+   "page": 9,
+   "url": "https://longwarindex.app/codex/world_eaters/warlord_traits/",
+   "offered_by": {
+    "allegiance": "codex/world_eaters/allegiances/allegiance_world_eaters"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "chaos_space_marines/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "arch_slaughterer",
+     "name": "Arch Slaughterer",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/arch_slaughterer/",
+     "text": "At the start of each Combat Phase, a model with this Warlord trait gains +D3 to their Attacks (A) characteristic until the end of the Combat Phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "true_berzerker",
+     "name": "True Berzerker",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/true_berzerker/",
+     "text": "A model with this Warlord trait gains the Feel no Pain (6+) and Raving Madman special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/feel_no_pain",
+       "name": "Feel No Pain",
+       "param": "6+",
+       "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+      },
+      {
+       "rule": "codex/world_eaters/special_rules/raving_madmen",
+       "name": "Raving Madmen",
+       "url": "https://longwarindex.app/special_rules/raving_madmen/"
+      }
+     ]
+    },
+    {
+     "id": "violent_urgency",
+     "name": "Violent Urgency",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/violent_urgency/",
+     "text": "A Warlord with this trait and any attached unit may re-roll all Charge rolls in the Charge Phase.",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "secondary_warlord_trait",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free and may purchase an additional secondary Warlord trait for 15pts.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free and may purchase an additional secondary Warlord trait for 15pts.",
+   "page": 9,
+   "url": "https://longwarindex.app/codex/world_eaters/warlord_traits/",
+   "offered_by": {
+    "allegiance": "codex/world_eaters/allegiances/allegiance_world_eaters"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "any_of": [
+       {
+        "choice": "warlord_traits/arch_slaughterer"
+       },
+       {
+        "choice": "warlord_traits/true_berzerker"
+       },
+       {
+        "choice": "warlord_traits/violent_urgency"
+       }
+      ]
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "arch_slaughterer",
+     "name": "Arch Slaughterer",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/arch_slaughterer/",
+     "text": "At the start of each Combat Phase, a model with this Warlord trait gains +D3 to their Attacks (A) characteristic until the end of the Combat Phase.",
+     "points": 15,
+     "pricing": "flat",
+     "requires": [
+      {
+       "not_choice": [
+        "warlord_traits/arch_slaughterer"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "true_berzerker",
+     "name": "True Berzerker",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/true_berzerker/",
+     "text": "A model with this Warlord trait gains the Feel no Pain (6+) and Raving Madman special rules.",
+     "points": 15,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/feel_no_pain",
+       "name": "Feel No Pain",
+       "param": "6+",
+       "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+      },
+      {
+       "rule": "codex/world_eaters/special_rules/raving_madmen",
+       "name": "Raving Madmen",
+       "url": "https://longwarindex.app/special_rules/raving_madmen/"
+      }
+     ],
+     "requires": [
+      {
+       "not_choice": [
+        "warlord_traits/true_berzerker"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "violent_urgency",
+     "name": "Violent Urgency",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/violent_urgency/",
+     "text": "A Warlord with this trait and any attached unit may re-roll all Charge rolls in the Charge Phase.",
+     "points": 15,
+     "pricing": "flat",
+     "requires": [
+      {
+       "not_choice": [
+        "warlord_traits/violent_urgency"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chaos_champion_upgrades",
+   "kind": "armoury",
+   "label": "A World Eaters Chaos Champion may purchase the following upgrade in addition to the others available:",
+   "printed": "A World Eaters Chaos Champion may purchase the following upgrade in addition to the others available:",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_12th_legion/",
+   "offered_by": {
+    "allegiance": "codex/world_eaters/allegiances/allegiance_world_eaters"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "World Eaters"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_champion"
+     }
+    ]
+   },
+   "joins": {
+    "page": "codex/chaos_space_marines/roster/chaos_champion",
+    "group": "upgrades"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "berserker_surgeon",
+     "name": "Berserker Surgeon",
+     "printed": "Berserker Surgeon for 15pts.",
+     "points": 15,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/world_eaters/special_rules/berserker_surgeon",
+       "name": "Berserker Surgeon",
+       "url": "https://longwarindex.app/special_rules/berserker_surgeon/"
+      }
+     ]
+    },
+    {
+     "id": "sage_of_slaughter",
+     "name": "Sage of Slaughter",
+     "printed": "Sage of Slaughter for 25pts.",
+     "points": 25,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/world_eaters/special_rules/sage_of_slaughter",
+       "name": "Sage of Slaughter",
+       "url": "https://longwarindex.app/special_rules/sage_of_slaughter/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chain_axe",
+   "kind": "armoury",
+   "label": "Any World Eaters model may exchange their equipped Chainsword for a Chain Axe for 2pts.",
+   "printed": "Any World Eaters model may exchange their equipped Chainsword for a Chain Axe for 2pts.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_12th_legion/",
+   "offered_by": {
+    "allegiance": "codex/world_eaters/allegiances/allegiance_world_eaters"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "World Eaters"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "chain_axe",
+     "name": "Chain Axe",
+     "points": 2,
+     "pricing": "each",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "chainsword",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "chain_axe"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lord_and_champion_weapons",
+   "kind": "armoury",
+   "label": "Any World Eaters Chaos Lord or Chaos Champion may:",
+   "printed": "Any World Eaters Chaos Lord or Chaos Champion may:",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_12th_legion/",
+   "offered_by": {
+    "allegiance": "codex/world_eaters/allegiances/allegiance_world_eaters"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "World Eaters"
+     },
+     {
+      "any_of": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_lord"
+       },
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_champion"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "excoraitor_chainaxe",
+     "name": "Excoraitor Chainaxe",
+     "printed": "Exchange their equipped Power Axe for a Excoraitor Chainaxe for 3pts.",
+     "points": 3,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_axe",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "excoraitor_chainaxe"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "eviscerator",
+     "name": "Eviscerator",
+     "printed": "Exchange their equipped Power Fist for a Eviscerator for 10pts.",
+     "points": 10,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_fist",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "eviscerator"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

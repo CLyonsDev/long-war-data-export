@@ -1,0 +1,316 @@
+{
+ "data_version": "7060e1aa3baa15a3",
+ "format": 1,
+ "faction": "night_lords",
+ "special_rules": [
+  {
+   "id": "codex/night_lords/allegiances/allegiance_night_lords",
+   "name": "Allegiance: Night Lords",
+   "kind": "allegiance",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_night_lords/",
+   "references": [
+    "universal_special_rules/fear",
+    "codex/chaos_space_marines/special_rules/daemon",
+    "universal_special_rules/night_vision",
+    "special_rules/pinning"
+   ],
+   "text": "All units with the Night Lords Keyword gain the Allegiance: Night Lords special rule. The Allegiance: Night Lords special rule consists of the following rules:\n\n- In Midnight Clad: A Night Lords army gains the following benefits: All Night Lords units gain the Fear (1) special rule. If the unit would gain the Fear (x) special rule from the Daemon special rule or Mark of Chaos Undivided wargear, increase the value of x by 1 to a max of 4. Each of these are cumulative. All Night Lords units gain the Night Vision special rule.\n- Marauding Cowards: A Night Lords army has the following penalties: Night Lords units must roll 3D6 for any Pinning or Panic tests they must make. Night Lords units move an additional +1\" when performing a Fall Back move. Night Lords units in your army may not take Marks of Chaos unless it is Mark of Chaos Undivided.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     },
+     {
+      "rule": "universal_special_rules/night_vision",
+      "name": "Night Vision",
+      "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+     },
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/",
+      "mode": "raise_or_grant",
+      "by": 1,
+      "max": 4,
+      "while_unit": [
+       {
+        "any_rules": [
+         "codex/chaos_space_marines/special_rules/daemon"
+        ]
+       }
+      ]
+     },
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/",
+      "mode": "raise_or_grant",
+      "by": 1,
+      "max": 4,
+      "while_unit": [
+       {
+        "wargear": [
+         {
+          "kind": "wargear",
+          "id": "the_mark_of_chaos_undivided",
+          "faction": "chaos_space_marines"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/night_lords/special_rules/armoury_of_the_8th_legion",
+   "name": "Armoury of the 8th Legion",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_8th_legion/",
+   "references": [
+    "codex/night_lords/allegiances/allegiance_night_lords",
+    "codex/night_lords/special_rules/nostromo_nobility",
+    "universal_special_rules/character"
+   ],
+   "text": "Units with Allegiance: Night Lords have access to additional wargear presented in this supplement in addition to the war gear presented in the core Codex Chaos Space Marines.\n\nChaos Lord Upgrades\n\nAn Night Lords Chaos Lord may purchase the following upgrade in addition to the others available:\n\n- Nostromo Nobility for 25pts.\n\nWargear\n\nAny Night Lords Aircraft type unit may purchase an Anguish Engine for 10pts.\n\nAny Night Lords unit with the Character special rule may take Trophies of Judgement for 15pts.\n\nWeapons\n\nAny Night Lords Chaos Lord or Chaos Champion model may:\n\n- Exchange their equipped Power Sword for a Chainblade for 2pts.\n- Exchange their equipped Power Lance for a Flay-Whip for 2pts.\n\nAny Night Lords Chaos Lord model may exchange its Power Fist for a Escaton Power Claw for 5pts:\n\n- Exchange their equipped Power Sword for a Chainblade for 2pts.\n- Exchange their equipped Power Lance for a Flay-Whip for 2pts.\n\nAny Night Lords model equipped with a Missile Launcher may exchange it for a Nostromon Missile Launcher for 10pts."
+  },
+  {
+   "id": "codex/night_lords/special_rules/daemonic_strength",
+   "name": "Daemonic Strength",
+   "kind": "warlord_trait",
+   "page": 16,
+   "url": "https://longwarindex.app/special_rules/daemonic_strength/",
+   "text": "If this unit is your Warlord, it may invoke its Daemonic Strength once per game in the Combat Phase. Until the end of the Phase, this unit is treated as Strength 8."
+  },
+  {
+   "id": "codex/night_lords/special_rules/disregard_of_the_primarchs_vision",
+   "name": "Disregard of the Primarch's Vision",
+   "kind": "datasheet",
+   "page": 16,
+   "url": "https://longwarindex.app/special_rules/disregard_of_the_primarchs_vision/",
+   "text": "If this unit is included in your army, all friendly Night Lords units suffer -1 to their Leadership (Ld) characteristic.",
+   "effects": {
+    "while_fielded": {
+     "stat_grants": [
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Night Lords"
+         ]
+        }
+       ],
+       "characteristic": "Ld",
+       "delta": -1,
+       "quote": "If this unit is included in your army, all friendly Night Lords units suffer -1 to their Leadership (Ld) characteristic."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/night_lords/special_rules/former_apothecary",
+   "name": "Former Apothecary",
+   "kind": "datasheet",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/former_apothecary/",
+   "references": [
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "This unit and any attached unit have the Feel no Pain (6+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "6+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/night_lords/special_rules/mercenary_lords",
+   "name": "Mercenary Lords",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/mercenary_lords/",
+   "references": [
+    "codex/night_lords/special_rules/nostromo_nobility",
+    "special_rules/pinning"
+   ],
+   "text": "This unit may only be joined by units with the Blood of Old Nostromo upgrade. This does not roll an additional D6 and discard the lowest dice when making Pinning and Panic tests."
+  },
+  {
+   "id": "codex/night_lords/special_rules/nostromo_nobility",
+   "name": "Nostromo Nobility",
+   "kind": "datasheet",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/nostromo_nobility/",
+   "references": [
+    "codex/night_lords/special_rules/prey_on_the_weak",
+    "special_rules/pinning"
+   ],
+   "text": "A Chaos Lord with this upgrade gains +1 to their Leadership (Ld) characteristic and the Prey on the Weak special rule. In addition, they do not roll 3D6 for Pinning and Panic tests. A unit with this upgrade may join Contekar Terminators.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "codex/night_lords/special_rules/prey_on_the_weak",
+      "name": "Prey on the Weak",
+      "url": "https://longwarindex.app/special_rules/prey_on_the_weak/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/night_lords/special_rules/prey_on_the_weak",
+   "name": "Prey on the Weak",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/prey_on_the_weak/",
+   "text": "When a unit with this special rule wins combat, the unit that lost combat takes D6 automatic wounds before performing a Fall Back Move. Saves may be taken against these wounds as normal."
+  },
+  {
+   "id": "codex/night_lords/special_rules/prophet_of_night",
+   "name": "Prophet of Night",
+   "kind": "datasheet",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/prophet_of_night/",
+   "references": [
+    "universal_special_rules/psyker"
+   ],
+   "text": "When this Psychic Power would be cast, select one of the following effects which last until the start of your next Shooting Phase. The Psyker (1) and any attached unit gain the selected effect:\n\n- Re-roll all failed to Hit Rolls but re-roll all successful to Wound Rolls.\n- Re-roll all failed to save rolls (Armour only) but re-roll all successful to hit rolls."
+  },
+  {
+   "id": "codex/night_lords/special_rules/prophet_of_the_8th_legion",
+   "name": "Prophet of the 8th Legion",
+   "kind": "warlord_trait",
+   "page": 18,
+   "url": "https://longwarindex.app/special_rules/prophet_of_the_8th_legion/",
+   "references": [
+    "special_rules/pinning"
+   ],
+   "text": "If this unit is your Warlord, all friendly Night Lords units in your Army may re-roll all failed Pinning and Panic tests."
+  },
+  {
+   "id": "codex/night_lords/special_rules/shadow_of_the_self",
+   "name": "Shadow of the Self",
+   "kind": "datasheet",
+   "page": 16,
+   "url": "https://longwarindex.app/special_rules/shadow_of_the_self/",
+   "references": [
+    "universal_special_rules/indomitable_spirit"
+   ],
+   "text": "At the start of each Battle Round, this unit must make a Leadership Test. If the test is passed, Vandred regains control from the Daemon and gains the Indomitable Spirit (4+) special rule. If the test is failed, the Daemon keeps control and gains counts as being equipped with a Daemon Weapon of Tzeentch."
+  },
+  {
+   "id": "codex/night_lords/special_rules/terror",
+   "name": "Terror",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/terror/",
+   "text": "A unit with this special rule has the following effects:\n\n- Enemy units within 3\" of a unit with this special rule must always make a Panic test at the end of the Combat Phase even if they won combat.\n- When an Enemy unit declares a unit with this special rule a target of a Charge, the Enemy unit must successfully pass a Leadership Test to attempt the Charge against this unit."
+  },
+  {
+   "id": "codex/night_lords/special_rules/the_axemaster",
+   "name": "The Axemaster",
+   "kind": "warlord_trait",
+   "page": 15,
+   "url": "https://longwarindex.app/special_rules/the_axemaster/",
+   "references": [
+    "special_rules/pinning",
+    "universal_special_rules/preferred_enemy",
+    "special_rules/master_crafted"
+   ],
+   "text": "If this unit is your Warlord, he does not suffer the penalty of rolling an additional D6 on Pinning and Panic Tests. In addition, Krieg Acerbus gains the Preferred Enemy (Characters / Night Lords). Krieg Acerbus also gains the Master-Crafted special rule on his equipped Headsmen Axe.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/preferred_enemy",
+        "name": "Preferred Enemy",
+        "param": "Characters / Night Lords",
+        "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+       },
+       "quote": "In addition, Krieg Acerbus gains the Preferred Enemy (Characters / Night Lords)."
+      }
+     ],
+     "weapon_rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/",
+       "weapons": [
+        {
+         "kind": "weapon",
+         "id": "headsmen_axe",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/night_lords/special_rules/the_soul_hunter",
+   "name": "The Soul Hunter",
+   "kind": "warlord_trait",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/the_soul_hunter/",
+   "references": [
+    "universal_special_rules/hatred",
+    "universal_special_rules/crusader"
+   ],
+   "text": "This unit and all units in your army gain the Hatred (Imperium) special rule. In addition, the Talos and any attached unit gain the Crusader special rule.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [],
+       "rule": {
+        "rule": "universal_special_rules/hatred",
+        "name": "Hatred",
+        "param": "Imperium",
+        "url": "https://longwarindex.app/universal_special_rules/hatred/"
+       },
+       "quote": "This unit and all units in your army gain the Hatred (Imperium) special rule."
+      },
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/crusader",
+        "name": "Crusader",
+        "url": "https://longwarindex.app/universal_special_rules/crusader/"
+       },
+       "quote": "In addition, the Talos and any attached unit gain the Crusader special rule."
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

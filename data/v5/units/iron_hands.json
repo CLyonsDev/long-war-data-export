@@ -1,0 +1,1805 @@
+{
+ "data_version": "1d7d858413ddb493",
+ "format": 1,
+ "faction": "iron_hands",
+ "units": [
+  {
+   "id": "codex/iron_hands/roster/helfathers",
+   "name": "Helfathers",
+   "page": 23,
+   "url": "https://longwarindex.app/roster/helfathers/",
+   "source": "Codex Supplement: Iron Hands",
+   "role": "Elites",
+   "points": 130,
+   "unit_type": "Automata",
+   "profiles": [
+    {
+     "id": "helfathers",
+     "name": "Helfathers",
+     "template": "unit",
+     "characteristics": {
+      "M": "5\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 5,
+      "T": 5,
+      "W": 3,
+      "A": 2,
+      "I": 3,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "indomitus_terminator_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "storm_bolter",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "enhanced_bionics"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_axe",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "cyber_familiar"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "helfathers",
+     "count": 2
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/iron_hands/allegiances/allegiance_iron_hands",
+     "name": "Allegiance: Iron Hands",
+     "url": "https://longwarindex.app/allegiances/allegiance_iron_hands/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    },
+    {
+     "rule": "codex/iron_hands/special_rules/custodians_of_the_iron_council",
+     "name": "Custodians of the Iron Council",
+     "url": "https://longwarindex.app/special_rules/custodians_of_the_iron_council/"
+    },
+    {
+     "rule": "universal_special_rules/expendable",
+     "name": "Expendable",
+     "url": "https://longwarindex.app/universal_special_rules/expendable/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limited: 1 Per Detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Iron Hands",
+    "Morlocks",
+    "M31"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "terminator_armour_exchange",
+     "label": "Any Helfather model may exchange its Indomitus Terminator Armour for:",
+     "printed": "Any Helfather model may exchange its Indomitus Terminator Armour for:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "gorgon_terminator_armour",
+       "name": "Gorgon Terminator Armour",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "indomitus_terminator_armour",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "gorgon_terminator_armour"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "power_axe_exchange",
+     "label": "Any Helfather may exchange its Power Axe for one of the following:",
+     "printed": "Any Helfather may exchange its Power Axe for one of the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_maul",
+       "name": "Power Maul",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_maul",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "thunder_hammer",
+       "name": "Thunder Hammer",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "thunder_hammer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "chainfist",
+       "name": "Chainfist",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chainfist",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "storm_bolter_exchange",
+     "label": "Any Helfather may exchange its Storm Bolter for one of the following:",
+     "printed": "Any Helfather may exchange its Storm Bolter for one of the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "combi_grav",
+       "name": "Combi-Grav",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_grav",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_plasma",
+       "name": "Combi-Plasma",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_plasma",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_flamer",
+       "name": "Combi-Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_melta",
+       "name": "Combi-Melta",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_melta",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grav_gun",
+       "name": "Grav Gun",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "grav_gun",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grav_shredder",
+       "name": "Grav Shredder",
+       "points": 11,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "graviton_shredder",
+           "printed": "Grav Shredder"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "volkite_charger",
+       "name": "Volkite Charger",
+       "points": 2,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "volkite_charger",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/iron_hands/roster/iron_captain_caanok_var",
+   "name": "Iron Captain Caanok Var",
+   "page": 20,
+   "url": "https://longwarindex.app/roster/iron_captain_caanok_var/",
+   "source": "Codex Supplement: Iron Hands",
+   "role": "HQ",
+   "points": 115,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "iron_captain_caanok_var",
+     "name": "Iron Captain Caanok Var",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "indomitus_terminator_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "storm_bolter",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_tetsubo"
+      },
+      {
+       "kind": "wargear",
+       "id": "broad_spectrum_enhanced_bionics"
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "enhanced_bionics"
+      },
+      {
+       "kind": "wargear",
+       "id": "cyber_familiar"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "iron_captain_caanok_var",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/iron_hands/allegiances/allegiance_iron_hands",
+     "name": "Allegiance: Iron Hands",
+     "url": "https://longwarindex.app/allegiances/allegiance_iron_hands/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/rage",
+     "name": "Rage",
+     "url": "https://longwarindex.app/universal_special_rules/rage/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/iron_hands/special_rules/broad_spectrum_data_tether",
+     "name": "Broad Spectrum Data Tether",
+     "url": "https://longwarindex.app/special_rules/broad_spectrum_data_tether/"
+    },
+    {
+     "rule": "codex/iron_hands/special_rules/iron_captain_of_clan_avernii",
+     "name": "Iron Captain of Clan Avernii",
+     "url": "https://longwarindex.app/special_rules/iron_captain_of_clan_avernii/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Iron Hands",
+    "Captain",
+    "Iron Captain Caanok Var",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/iron_hands/roster/iron_father_kardan_stronos",
+   "name": "Iron Father Kardan Stronos",
+   "page": 18,
+   "url": "https://longwarindex.app/roster/iron_father_kardan_stronos/",
+   "source": "Codex Supplement: Iron Hands",
+   "role": "HQ",
+   "points": 155,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "iron_father_kardan_stronos",
+     "name": "Iron Father Kardan Stronos",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 6,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 6,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "axe_of_medusa"
+      },
+      {
+       "kind": "weapon",
+       "id": "boltgun",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "flamer",
+       "faction": "space_marines",
+       "count": 1
+      },
+      {
+       "kind": "weapon",
+       "id": "plasma_pistol",
+       "faction": "space_marines",
+       "count": 1
+      },
+      {
+       "kind": "weapon",
+       "id": "servo_arm",
+       "count": 2
+      },
+      {
+       "kind": "wargear",
+       "id": "bionics",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "automedicae_bionics"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "iron_father_kardan_stronos",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/iron_hands/allegiances/allegiance_iron_hands",
+     "name": "Allegiance: Iron Hands",
+     "url": "https://longwarindex.app/allegiances/allegiance_iron_hands/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/master_of_command",
+     "name": "Master of Command",
+     "url": "https://longwarindex.app/special_rules/master_of_command_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/battle_smith",
+     "name": "Battle Smith",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+    },
+    {
+     "rule": "universal_special_rules/priest",
+     "name": "Priest",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/priest/"
+    },
+    {
+     "rule": "universal_special_rules/hatred",
+     "name": "Hatred",
+     "url": "https://longwarindex.app/universal_special_rules/hatred/"
+    },
+    {
+     "rule": "universal_special_rules/zealot",
+     "name": "Zealot",
+     "url": "https://longwarindex.app/universal_special_rules/zealot/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "universal_special_rules/rage",
+     "name": "Rage",
+     "url": "https://longwarindex.app/universal_special_rules/rage/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/iron_hands/special_rules/cold_belief_in_firepower",
+     "name": "Cold Belief in Firepower",
+     "url": "https://longwarindex.app/special_rules/cold_belief_in_firepower/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Iron Hands",
+    "Captain",
+    "Iron Father Kardan Stronos",
+    "Iron Father",
+    "Priest",
+    "Tech-Priest",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/iron_hands/roster/iron_father_malkaan_ferrios",
+   "name": "Iron Father Malkaan Ferrios",
+   "page": 19,
+   "url": "https://longwarindex.app/roster/iron_father_malkaan_ferrios/",
+   "source": "Codex Supplement: Iron Hands",
+   "role": "HQ",
+   "points": 150,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "iron_father_malkaan_ferrios",
+     "name": "Iron Father Malkaan Ferrios",
+     "template": "unit",
+     "characteristics": {
+      "M": "5\"",
+      "WS": 6,
+      "BS": 6,
+      "S": 4,
+      "T": 5,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "gravis_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "gorgons_wrath"
+      },
+      {
+       "kind": "weapon",
+       "id": "harrowhand"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "servo_arm",
+       "count": 1
+      },
+      {
+       "kind": "wargear",
+       "id": "bionics",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "iron_father_malkaan_ferrios",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/iron_hands/allegiances/allegiance_iron_hands",
+     "name": "Allegiance: Iron Hands",
+     "url": "https://longwarindex.app/allegiances/allegiance_iron_hands/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/master_of_command",
+     "name": "Master of Command",
+     "url": "https://longwarindex.app/special_rules/master_of_command_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/battle_smith",
+     "name": "Battle Smith",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+    },
+    {
+     "rule": "universal_special_rules/priest",
+     "name": "Priest",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/priest/"
+    },
+    {
+     "rule": "universal_special_rules/hatred",
+     "name": "Hatred",
+     "url": "https://longwarindex.app/universal_special_rules/hatred/"
+    },
+    {
+     "rule": "universal_special_rules/zealot",
+     "name": "Zealot",
+     "url": "https://longwarindex.app/universal_special_rules/zealot/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "6+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/iron_hands/special_rules/iron_father_of_clan_rukaan",
+     "name": "Iron Father of Clan Rukaan",
+     "url": "https://longwarindex.app/special_rules/iron_father_of_clan_rukaan/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Iron Hands",
+    "Captain",
+    "Iron Father Malkaan Ferrios",
+    "Iron Father",
+    "Priest",
+    "Tech-Priest",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/iron_hands/roster/iron_father_vaylund_cal",
+   "name": "Iron Father Vaylund Cal",
+   "page": 21,
+   "url": "https://longwarindex.app/roster/iron_father_vaylund_cal/",
+   "source": "Codex Supplement: Iron Hands",
+   "role": "HQ",
+   "points": 165,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "iron_father_vaylund_cal",
+     "name": "Iron Father Vaylund Cal",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 6,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "gorgon_terminator_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "flamer",
+       "faction": "space_marines",
+       "count": 1
+      },
+      {
+       "kind": "weapon",
+       "id": "plasma_pistol",
+       "faction": "space_marines",
+       "count": 1
+      },
+      {
+       "kind": "weapon",
+       "id": "servo_arm",
+       "count": 2
+      },
+      {
+       "kind": "weapon",
+       "id": "thunder_hammer",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "bionics",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "iron_father_vaylund_cal",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/iron_hands/allegiances/allegiance_iron_hands",
+     "name": "Allegiance: Iron Hands",
+     "url": "https://longwarindex.app/allegiances/allegiance_iron_hands/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/master_of_command",
+     "name": "Master of Command",
+     "url": "https://longwarindex.app/special_rules/master_of_command_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/battle_smith",
+     "name": "Battle Smith",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+    },
+    {
+     "rule": "universal_special_rules/priest",
+     "name": "Priest",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/priest/"
+    },
+    {
+     "rule": "universal_special_rules/hatred",
+     "name": "Hatred",
+     "url": "https://longwarindex.app/universal_special_rules/hatred/"
+    },
+    {
+     "rule": "universal_special_rules/zealot",
+     "name": "Zealot",
+     "url": "https://longwarindex.app/universal_special_rules/zealot/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "6+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    },
+    {
+     "rule": "codex/iron_hands/special_rules/gravis_honour",
+     "name": "Gravis Honour",
+     "printed": "Gravis Honours",
+     "url": "https://longwarindex.app/special_rules/gravis_honour/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/iron_hands/special_rules/iron_father_of_clan_atropos",
+     "name": "Iron Father of Clan Atropos",
+     "url": "https://longwarindex.app/special_rules/iron_father_of_clan_atropos/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Iron Hands/Sons of Medusa",
+    "Captain",
+    "Vaylund Cal",
+    "Priest",
+    "Tech-Priest",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/iron_hands/roster/morlocks",
+   "name": "Morlocks",
+   "page": 22,
+   "url": "https://longwarindex.app/roster/morlocks/",
+   "source": "Codex Supplement: Iron Hands",
+   "role": "Elites",
+   "points": 240,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "morlocks",
+     "name": "Morlocks",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "indomitus_terminator_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "storm_bolter",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "enhanced_bionics"
+      },
+      {
+       "kind": "wargear",
+       "id": "automedicae_bionics"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_fist",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "morlocks",
+     "count": 5
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/iron_hands/allegiances/allegiance_iron_hands",
+     "name": "Allegiance: Iron Hands",
+     "url": "https://longwarindex.app/allegiances/allegiance_iron_hands/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/combat_squads",
+     "name": "Combat Squads",
+     "url": "https://longwarindex.app/special_rules/combat_squads/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limited: 1 Per Detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Iron Hands",
+    "Morlocks",
+    "M31"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "terminator_armour_exchange",
+     "label": "Any Morlock model may exchange its Indomitus Terminator Armour for:",
+     "printed": "Any Morlock model may exchange its Indomitus Terminator Armour for:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "tartaros_terminator_armour",
+       "name": "Tartaros Terminator Armour",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "indomitus_terminator_armour",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "tartaros_terminator_armour",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "gorgon_terminator_armour",
+       "name": "Gorgon Terminator Armour",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "indomitus_terminator_armour",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "gorgon_terminator_armour"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "cataphractii_terminator_armour",
+       "name": "Cataphractii Terminator Armour",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "indomitus_terminator_armour",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "cataphractii_terminator_armour",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "power_fist_exchange",
+     "label": "Any Morlock may exchange its Power Fist for one of the following:",
+     "printed": "Any Morlock may exchange its Power Fist for one of the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "chainfist",
+       "name": "Chainfist",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chainfist",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lightning_claw",
+       "name": "Lightning Claw",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "thunder_hammer",
+       "name": "Thunder Hammer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "thunder_hammer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "storm_bolter_exchange",
+     "label": "Any Morlock may exchange its Storm Bolter for one of the following:",
+     "printed": "Any Morlock may exchange its Storm Bolter for one of the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "combi_grav",
+       "name": "Combi-Grav",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_grav",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_plasma",
+       "name": "Combi-Plasma",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_plasma",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_flamer",
+       "name": "Combi-Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_melta",
+       "name": "Combi-Melta",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_melta",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lightning_claw",
+       "name": "Lightning Claw",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grav_gun",
+       "name": "Grav Gun",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "grav_gun",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grav_shredder",
+       "name": "Grav Shredder",
+       "points": 11,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "graviton_shredder",
+           "printed": "Grav Shredder"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "volkite_charger",
+       "name": "Volkite Charger",
+       "points": 2,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "volkite_charger",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "heavy_weapon_ratio",
+     "label": "1 in every 3 Morlocks may exchange their Storm Bolter for one of the following:",
+     "printed": "1 in every 3 Morlocks may exchange their Storm Bolter for one of the following:",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 3,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_flamer",
+       "name": "Heavy Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "autocannon",
+       "name": "Auto Cannon",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "autocannon",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "plasma_gun",
+       "name": "Plasma Gun",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_gun",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grav_gun",
+       "name": "Grav Gun",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "grav_gun",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grav_shredder",
+       "name": "Grav Shredder",
+       "points": 11,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "graviton_shredder",
+           "printed": "Grav Shredder"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "volkite_culverin",
+       "name": "Volkite Culverin",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "volkite_culverin",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

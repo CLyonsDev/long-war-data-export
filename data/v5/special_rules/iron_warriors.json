@@ -1,0 +1,296 @@
+{
+ "data_version": "3bd245418a368d7d",
+ "format": 1,
+ "faction": "iron_warriors",
+ "special_rules": [
+  {
+   "id": "codex/iron_warriors/allegiances/allegiance_iron_warriors",
+   "name": "Allegiance: Iron Warriors",
+   "kind": "allegiance",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_iron_warriors/",
+   "references": [
+    "universal_special_rules/tank_hunters",
+    "codex/chaos_space_marines/special_rules/chaos_boons",
+    "universal_special_rules/psyker"
+   ],
+   "text": "All units with the Iron Warriors Keyword gain the Allegiance: Iron Warriors special rule. The Allegiance: Iron Warriors special rule consists of the following rules:\n\n- Iron Within, Iron Without:\n    - All Iron Warriors units gain the Tank Hunter special rule.\n    - All Fortification type units in your army gain a 5+ Invulnerable save.\n- Abhor Mutation:\n    - Iron Warriors may never select a unit to receive a Chaos Boon.\n    - Iron Warriors units may not purchase any Marks of Chaos unless they have the Psyker (x) special rule.\n    - When engaging Imperial Fists, you must play 1 additional Battle Round of the Game, regardless of the Battlepack rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/tank_hunters",
+      "name": "Tank Hunters",
+      "url": "https://longwarindex.app/universal_special_rules/tank_hunters/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/iron_warriors/special_rules/armoury_of_the_4th_legion",
+   "name": "Armoury of the 4th Legion",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_4th_legion/",
+   "references": [
+    "codex/iron_warriors/allegiances/allegiance_iron_warriors",
+    "codex/iron_warriors/special_rules/warsmith",
+    "codex/iron_warriors/special_rules/daemonsmith",
+    "universal_special_rules/character"
+   ],
+   "text": "Units with Allegiance: Iron Warriors have access to additional wargear presented in this supplement in addition to the war gear presented in the core Codex Chaos Space Marines.\n\nChaos Lord Upgrades\n\nAn Iron Warriors Chaos Lord may purchase the following upgrade in addition to the others available:\n\n- Warsmith for 35pts.\n- Daemonsmith for 40pts.\n\nWargear\n\nAny Iron Warriors 'Legionnaire' or 'Aspiring Champion' model in a Legionnaire Squad unit may:\n\n- Take a Boarding Shield for 3pts per model.\n\nAny Iron Warriors unit with the Character special rule may:\n\n- Take Enhanced Bionics for 10pts.\n- Take Techno-Venomous Mechatendrils for 5pts.\n- Take a Nest of Mechaserpents for 10pts.\n\nWeapons\n\nAny Iron Warriors Chaos Lord or Chaos Champion model may:\n\n- Exchange their equipped Power Maul for a Graviton Mace for 2pts.\n\nAny Iron Warriors 'Chosen' or 'Aspiring Champion' model in a Chosen unit may:\n\n- Exchange their Close Combat Weapon for a Siege Breaker Mace for 20pts.\n\nAll Iron Warriors models in a unit may:\n\n- Exchange their Bolt Pistol for a Shrapnel Pistol for 2pts per model.\n- Exchange their Boltgun for a Shrapnel Boltgun for 2pts model.\n- Exchange their Linked Boltgun or Combi-Bolter for a Linked Shrapnel Boltgun for 2pts per model.\n- Exchange their Heavy Bolter for a Shrapnel Cannon for 2pts per model.\n- Exchange their Linked Heavy Bolter for a Linked Shrapnel Cannon for 2pts per model."
+  },
+  {
+   "id": "codex/iron_warriors/special_rules/calculated_victory",
+   "name": "Calculated Victory",
+   "kind": "warlord_trait",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/calculated_victory/",
+   "references": [
+    "universal_special_rules/outflank"
+   ],
+   "text": "If this unit is your Warlord, once per game, you may return 1 slain Inductii unit that was destroyed earlier battle to the field as a summoned unit. This unit enters play via the Outflank special rule but must be placed within your deployment zone."
+  },
+  {
+   "id": "codex/iron_warriors/special_rules/daemonsmith",
+   "name": "Daemonsmith",
+   "kind": "datasheet",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/daemonsmith/",
+   "references": [
+    "universal_special_rules/battle_smith"
+   ],
+   "text": "A Chaos Lord with this upgrade may not take a Jump Pack. The Chaos Lord exchanges their Chainsword for a Graviton Mace and a Servo Arm. In addition, the Chaos Lord gains the Battle Smith (1) special rule. Further, the Chaos Lord can target Daemon Engine units with the Rite of Repair, Healing 1 Wound with each use.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_smith",
+      "name": "Battle Smith",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "chainsword",
+        "faction": "chaos_space_marines"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "graviton_mace"
+       },
+       {
+        "kind": "weapon",
+        "id": "servo_arm",
+        "faction": "chaos_space_marines"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/iron_warriors/special_rules/field_piece",
+   "name": "Field Piece",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/field_piece_iron_warriors/",
+   "text": "This unit may only embark on the Centaur Light Carrier and may only do so if the unit size is 1 model."
+  },
+  {
+   "id": "codex/iron_warriors/special_rules/garrison",
+   "name": "Garrison",
+   "kind": "datasheet",
+   "page": 24,
+   "url": "https://longwarindex.app/special_rules/garrison_iron_warriors/",
+   "text": "This model can garrison up to 22 Infantry models embarked within it. Models embarked within this Fortification may shoot in the shooting phase as normal, drawing all visibility and range from this unit's hull.",
+   "effects": {
+    "garrison_capacity": {
+     "n": 22,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/iron_warriors/special_rules/garrison_firestorm_redoubt",
+   "name": "Garrison",
+   "datasheet": "Firestorm Redoubt",
+   "kind": "datasheet",
+   "page": 26,
+   "url": "https://longwarindex.app/special_rules/garrison_firestorm_redoubt_iron_warriors/",
+   "text": "This model can garrison up to 42 Infantry models embarked within it. Models embarked within this Fortification may shoot in the shooting phase as normal, drawing all visibility and range from this unit's hull.",
+   "effects": {
+    "garrison_capacity": {
+     "n": 42,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/iron_warriors/special_rules/grand_tyrant",
+   "name": "Grand Tyrant",
+   "kind": "datasheet",
+   "page": 15,
+   "url": "https://longwarindex.app/special_rules/grand_tyrant/",
+   "references": [
+    "special_rules/pinning"
+   ],
+   "text": "This unit and any attached unit may re-roll 1 dice when making a Pinning Test in the Shooting Phase."
+  },
+  {
+   "id": "codex/iron_warriors/special_rules/hybrid_heritage",
+   "name": "Hybrid Heritage",
+   "kind": "warlord_trait",
+   "page": 16,
+   "url": "https://longwarindex.app/special_rules/hybrid_heritage/",
+   "references": [
+    "universal_special_rules/siege_attackers",
+    "universal_special_rules/hatred"
+   ],
+   "text": "If this unit is your Warlord, they gain the Siege Attacker special rule. In addition, this unit can re-roll all to hit rolls of 1 with its Shrapnel Pistol. This unit also gains the Hatred (Imperial Fists) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/siege_attackers",
+      "name": "Siege Attackers",
+      "url": "https://longwarindex.app/universal_special_rules/siege_attackers/"
+     },
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "param": "Imperial Fists",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/iron_warriors/special_rules/icarus_defences",
+   "name": "Icarus Defences",
+   "kind": "datasheet",
+   "page": 24,
+   "url": "https://longwarindex.app/special_rules/icarus_defences_iron_warriors/",
+   "references": [
+    "special_rules/skyfire"
+   ],
+   "text": "Any Linked Autocannon or Linked Lascannon that the Bastion is equipped with gains the Skyfire special rule.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/skyfire",
+      "name": "Skyfire",
+      "url": "https://longwarindex.app/special_rules/skyfire/",
+      "weapons": [
+       {
+        "kind": "weapon",
+        "id": "linked_autocannon",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "linked_lascannon",
+        "faction": "chaos_space_marines"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/iron_warriors/special_rules/shontu_lives",
+   "name": "Shon'tu Lives!",
+   "kind": "warlord_trait",
+   "page": 15,
+   "url": "https://longwarindex.app/special_rules/shontu_lives/",
+   "text": "The first time this unit would be slain and removed from play, it is not. Instead, the unit remains on the Battlefield with all of its Wounds remaining."
+  },
+  {
+   "id": "codex/iron_warriors/special_rules/warsmith",
+   "name": "Warsmith",
+   "kind": "datasheet",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/warsmith/",
+   "references": [
+    "universal_special_rules/siege_attackers"
+   ],
+   "text": "A Chaos Lord with this upgrade may not take a Jump Pack. The Chaos Lord exchanges their Chainsword for a Siege Breaker Mace and Servo Arm. In addition, the Chaos Lord and any attached unit gain the Siege Attacker special rule.\n\n- The Warsmith may exchange its Siege Breaker Mace for a Chainfist for 0pts.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/siege_attackers",
+      "name": "Siege Attackers",
+      "url": "https://longwarindex.app/universal_special_rules/siege_attackers/"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "chainsword",
+        "faction": "chaos_space_marines"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "siege_breaker_mace"
+       },
+       {
+        "kind": "weapon",
+        "id": "servo_arm",
+        "faction": "chaos_space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "chainfist",
+     "label": "The Warsmith may exchange its Siege Breaker Mace for a Chainfist for 0pts.",
+     "printed": "The Warsmith may exchange its Siege Breaker Mace for a Chainfist for 0pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "chainfist",
+       "name": "Chainfist",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "siege_breaker_mace"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chainfist",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

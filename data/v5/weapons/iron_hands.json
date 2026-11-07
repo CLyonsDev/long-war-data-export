@@ -1,0 +1,520 @@
+{
+ "data_version": "a0767d297e853c92",
+ "format": 1,
+ "faction": "iron_hands",
+ "weapons": [
+  {
+   "id": "graviton_shredder",
+   "name": "Graviton Shredder",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 6,
+   "url": "https://longwarindex.app/weapons/graviton_shredder/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "18\"",
+     "strength": "5",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "haywire_boltgun",
+   "name": "Haywire Boltgun",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 6,
+   "url": "https://longwarindex.app/weapons/haywire_boltgun/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "haywire_stormbolter",
+   "name": "Haywire Stormbolter",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 6,
+   "url": "https://longwarindex.app/weapons/haywire_stormbolter/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "volkite_saker",
+   "name": "Volkite Saker",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 6,
+   "url": "https://longwarindex.app/weapons/volkite_saker/",
+   "profiles": [
+    {
+     "type": "Heavy 6",
+     "range": "36\"",
+     "strength": "6",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "neutron_blaster",
+   "name": "Neutron Blaster",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 6,
+   "url": "https://longwarindex.app/weapons/neutron_blaster_iron_hands/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "24\"",
+     "strength": "10",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "melta_cannon",
+   "name": "Melta Cannon",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 6,
+   "url": "https://longwarindex.app/weapons/melta_cannon_iron_hands/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "24\"",
+     "strength": "8",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/melta",
+       "name": "Melta",
+       "url": "https://longwarindex.app/special_rules/melta/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "betrayers_bane_bolt",
+   "name": "Betrayer's Bane (Bolt)",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/betrayers_bane/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Boltgun for this relic for 20pts.",
+   "profiles": [
+    {
+     "name": "Betrayer's Bane (Bolt)",
+     "type": "Rapid Fire 2",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/combi",
+       "name": "Combi",
+       "url": "https://longwarindex.app/special_rules/combi/"
+      }
+     ]
+    },
+    {
+     "name": "Betrayer's Bane (Melta)",
+     "type": "Assault 2",
+     "range": "12\"",
+     "strength": "8",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/combi",
+       "name": "Combi",
+       "url": "https://longwarindex.app/special_rules/combi/"
+      },
+      {
+       "rule": "special_rules/melta",
+       "name": "Melta",
+       "url": "https://longwarindex.app/special_rules/melta/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_mindforge",
+   "name": "The Mindforge",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_mindforge/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Force Sword, Force Axe or Force Stave for this relic for 10pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/force",
+       "name": "Force",
+       "url": "https://longwarindex.app/special_rules/force/"
+      }
+     ],
+     "printed": {
+      "strength": "X2"
+     }
+    }
+   ]
+  },
+  {
+   "id": "the_axe_of_severance",
+   "name": "The Axe of Severance",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_axe_of_severance/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Axe or Omnissian Axe for this relic for 10pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+4",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "param": "Infantry",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      },
+      {
+       "rule": "special_rules/two_handed",
+       "name": "Two-Handed",
+       "url": "https://longwarindex.app/special_rules/two_handed/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_teeth_of_mars",
+   "name": "The Teeth of Mars",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_teeth_of_mars/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Chainsword for this relic for 5pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fury_of_mars",
+   "name": "Fury of Mars",
+   "section": "other",
+   "subtype": "Psychic Powers",
+   "page": 9,
+   "url": "https://longwarindex.app/powers/fury_of_mars/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "18\"",
+     "strength": "1",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      },
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "2+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "axe_of_medusa",
+   "name": "Axe of Medusa",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 18,
+   "url": "https://longwarindex.app/wargear/axe_of_medusa/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/two_handed",
+       "name": "Two-Handed",
+       "url": "https://longwarindex.app/special_rules/two_handed/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gorgons_wrath",
+   "name": "Gorgons Wrath",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/wargear/gorgons_wrath/",
+   "profiles": [
+    {
+     "type": "Assault 3",
+     "range": "36\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "harrowhand",
+   "name": "Harrowhand",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/wargear/harrowhand/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/two_handed",
+       "name": "Two-Handed",
+       "url": "https://longwarindex.app/special_rules/two_handed/"
+      },
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "servo_arm",
+   "name": "Servo Arm",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 18,
+   "url": "https://longwarindex.app/wargear/servo_arm/",
+   "print_defect": "The book names this weapon on datasheets but prints no profile. This data gives the profile of Codex Space Marines.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/cumbersome",
+       "name": "Cumbersome",
+       "url": "https://longwarindex.app/special_rules/cumbersome/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "power_tetsubo",
+   "name": "Power Tetsubo",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 20,
+   "url": "https://longwarindex.app/wargear/power_tetsubo/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

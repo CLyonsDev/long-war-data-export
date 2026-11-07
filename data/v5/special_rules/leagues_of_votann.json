@@ -1,0 +1,412 @@
+{
+ "data_version": "c8daf5f1e091ad7a",
+ "format": 1,
+ "faction": "leagues_of_votann",
+ "special_rules": [
+  {
+   "id": "codex/leagues_of_votann/allegiances/greater_thurian_league",
+   "name": "Allegiance: Greater Thurian League",
+   "kind": "allegiance",
+   "page": 17,
+   "url": "https://longwarindex.app/allegiances/greater_thurian_league/",
+   "references": [
+    "universal_special_rules/slow_and_purposeful"
+   ],
+   "text": "All Votann units change their [League] keyword to Greater Thurian. All units with the Greater Thurian Keyword gain the Allegiance: Greater Thurian special rule. The Allegiance: Greater Thurian special rule consists of the following rules:\n\n- Ruthless Efficiency: Greater Thurian units always count as controlling an objective regardless of how many models are contesting the objective.\n- Grim & Methodical: Greater Thurian units in your army have the Slow & Purposeful special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/slow_and_purposeful",
+      "name": "Slow and Purposeful",
+      "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/leagues_of_votann/allegiances/kronus_hegemony",
+   "name": "Allegiance: Kronus Hegemony",
+   "kind": "allegiance",
+   "page": 17,
+   "url": "https://longwarindex.app/allegiances/kronus_hegemony/",
+   "references": [
+    "universal_special_rules/furious_charge"
+   ],
+   "text": "All Votann units change their [League] keyword to Kronus Hegemony. All units with the Kronus Hegemony Keyword gain the Allegiance: Kronus Hegemony special rule. The Allegiance: Kronus Hegemony special rule consists of the following rules:\n\n- Violent Disposition: Kronus Hegemony units gain the Furious Charge special rules.\n- Bloody Expectation: Kronus Hegemony units must attempt to charge in the Charge Phase if there are any eligible units in Charge range.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/furious_charge",
+      "name": "Furious Charge",
+      "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/leagues_of_votann/allegiances/trans_hyperian_alliance",
+   "name": "Allegiance: Trans-Hyperian Alliance",
+   "kind": "allegiance",
+   "page": 17,
+   "url": "https://longwarindex.app/allegiances/trans_hyperian_alliance/",
+   "references": [
+    "universal_special_rules/zealot",
+    "special_rules/pinning"
+   ],
+   "text": "All Votann units change their [League] keyword to Trans-Hyperian. All units with the Trans-Hyperian Keyword gain the Allegiance: Trans-Hyperian special rule. The Allegiance: Trans-Hyperian special rule consists of the following rules:\n\n- Cult of Veneration: All Trans-Hyperian units gain the Zealot special rule.\n- Nomad Warriors: Trans-Hyperian units must re-roll all successful Pinning and Panic tests.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/zealot",
+      "name": "Zealot",
+      "url": "https://longwarindex.app/universal_special_rules/zealot/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/leagues_of_votann/allegiances/urani_surtr_regulates",
+   "name": "Allegiance: Urani-Surtr Regulates",
+   "kind": "allegiance",
+   "page": 17,
+   "url": "https://longwarindex.app/allegiances/urani_surtr_regulates/",
+   "references": [
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "All Votann units change their [League] keyword to URSR. All units with the URSR Keyword gain the Allegiance: URSR special rule. The Allegiance: URSR special rule consists of the following rules:\n\n- Dour Survivalists: All URSR units gain the Feel no Pain (6+) special rule.\n- Inflexible determination: URSR units in your army may not perform Retreat Moves in the Movement Phase. In addition, when a URSR unit would lose combat and Panic, it does not perform a move and instead simply remains in locked in combat.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "6+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/leagues_of_votann/allegiances/ymyr_conglomerate",
+   "name": "Allegiance: YMYR Conglomerate",
+   "kind": "allegiance",
+   "page": 17,
+   "url": "https://longwarindex.app/allegiances/ymyr_conglomerate/",
+   "references": [
+    "universal_special_rules/night_vision",
+    "universal_special_rules/expendable"
+   ],
+   "text": "All Votann units change their [League] keyword to YMYR Conglomerate. All units with the YMYR Conglomerate Keyword gain the Allegiance: YMYR Conglomerate special rule. The Allegiance: YMYR Conglomerate special rule consists of the following rules:\n\n- Wealth is Power: A YMYR Conglomerate units gain the Night Vision special rule.\n- Cost Benefit Ratio: YMYR Conglomerate Hearthkyn Warrior units gain the Expendable special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/night_vision",
+      "name": "Night Vision",
+      "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/leagues_of_votann/special_rules/appraising_glare_kahl",
+   "name": "Appraising Glare",
+   "datasheet": "Kâhl",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/appraising_glare_kahl/",
+   "references": [
+    "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+    "universal_special_rules/slow_and_purposeful"
+   ],
+   "text": "Instead of Setting to 8.1.1 - Overwatch, this unit may set to appraise. When this unit sets to Appraise, place 1 Grudge Token on an enemy unit that is visible to this unit. A unit may set to this Reaction even if it has the Slow & Purposeful special rule."
+  },
+  {
+   "id": "codex/leagues_of_votann/special_rules/appraising_glare_kahl_uthar_the_destined",
+   "name": "Appraising Glare",
+   "datasheet": "Kâhl Uthar the Destined",
+   "kind": "datasheet",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/appraising_glare_kahl_uthar_the_destined/",
+   "references": [
+    "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+    "universal_special_rules/slow_and_purposeful"
+   ],
+   "text": "Instead of Setting to 8.1.1 - Overwatch, this unit may set to appraise. When this unit sets to Appraise, place 2 Grudge Tokens on two different enemy units that are visible to this unit. A unit may set to this Reaction even if it has the Slow & Purposeful special rule."
+  },
+  {
+   "id": "codex/leagues_of_votann/special_rules/bastion_running",
+   "name": "Bastion Running",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/bastion_running/",
+   "text": "Instead of Setting to Overwatch, this unit may set to Bastion Run. When a unit sets to Bastion Run it gains a +1 to its Front Armour (FA), Side Armour (SA) and Rear Armour (RA) characteristics until the start of your next Shooting Phase."
+  },
+  {
+   "id": "codex/leagues_of_votann/special_rules/conversion",
+   "name": "Conversion",
+   "kind": "weapon",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/conversion_leagues_of_votann/",
+   "text": "If the target of this weapon is not within half of the weapons range when making an attack, the weapon gains +2 to its Strength characteristic."
+  },
+  {
+   "id": "codex/leagues_of_votann/special_rules/e_cog",
+   "name": "E-Cog",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/e_cog/",
+   "text": "Units or models with this special rule may always join Votann Infantry units even though they do not have the Infantry type."
+  },
+  {
+   "id": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+   "name": "Eye of the Ancestors",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/",
+   "references": [
+    "universal_special_rules/character",
+    "universal_special_rules/hatred"
+   ],
+   "text": "Each time a Votann unit with this special rule would be destroyed and its last model remaining removed from play from being slain or wrecked, the enemy unit that inflicted the last wound or penetrating hit allocated to that unit has a Grudge Token placed on it. Any attached unit with the Character special rule retains the Grudge Token should its attached unit be slain. If a unit with the Character special rule join a new unit during the battle, the entire unit is conferred a Grudge token. Votann units gain the Hatred special rule when targeting a unit with a Grudge token as part of an attack in the Shooting or Combat Phase."
+  },
+  {
+   "id": "codex/leagues_of_votann/special_rules/for_science",
+   "name": "For Science!",
+   "kind": "datasheet",
+   "page": 31,
+   "url": "https://longwarindex.app/special_rules/for_science/",
+   "text": "During deployment, select a single unit type in the game to field test this unit's weapon against. This unit gains the Bane (x) special rule where x is the chosen type."
+  },
+  {
+   "id": "codex/leagues_of_votann/special_rules/hero_of_the_oathband",
+   "name": "Hero of the Oathband",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/hero_of_the_oathband/",
+   "text": "You may only include 1 model in your army with this special rule.",
+   "effects": {
+    "list_building": {
+     "max_units_per_army": 1
+    }
+   }
+  },
+  {
+   "id": "codex/leagues_of_votann/special_rules/high_kahl",
+   "name": "High Kâhl",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/high_kahl/",
+   "references": [
+    "codex/leagues_of_votann/special_rules/appraising_glare_kahl",
+    "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+    "universal_special_rules/battle_hardened"
+   ],
+   "text": "A unit with this upgrade gains +1 to its Weapon Skill (WS), Wounds (W), Attacks (A) and Leadership (LD) characteristics. In addition, when using the Appraising Glare Reaction, you may select 2 enemy units to gain a Grudge Token. The unit further gains the Battle-Hardened special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "WS",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     },
+     {
+      "characteristic": "A",
+      "delta": 1
+     },
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/leagues_of_votann/special_rules/master_of_strategy",
+   "name": "Master of Strategy",
+   "kind": "datasheet",
+   "page": 32,
+   "url": "https://longwarindex.app/special_rules/master_of_strategy/",
+   "references": [
+    "universal_special_rules/outflank",
+    "universal_special_rules/tank_hunters",
+    "universal_special_rules/scout",
+    "universal_special_rules/monster_hunter",
+    "universal_special_rules/skirmisher"
+   ],
+   "text": "During Deployment, select one of the following effects for this unit and any attached unit to gain:\n\n- The units gain the Outflank special rule.\n- The units gain the Tank Hunter special rule.\n- The units gain the Scout special rule.\n- The units gain the Monster Hunter special rule.\n- The units gain the Skirmisher special rule."
+  },
+  {
+   "id": "codex/leagues_of_votann/special_rules/the_destined",
+   "name": "The Destined",
+   "kind": "warlord_trait",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/the_destined/",
+   "text": "If this unit is your Warlord, when this unit would be slain and removed from play, do not. Instead, it remains on the battlefield with D3 wound remaining."
+  },
+  {
+   "id": "codex/leagues_of_votann/special_rules/the_waaghbreaker",
+   "name": "The Waaghbreaker",
+   "kind": "warlord_trait",
+   "page": 24,
+   "url": "https://longwarindex.app/special_rules/the_waaghbreaker/",
+   "references": [
+    "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+    "universal_special_rules/rage"
+   ],
+   "text": "If this unit is your Warlord, all Orks in your opponents army count as having a Grudge Token. In addition, this unit and any Cthonian Beserk unit it is attached to gain +1 to their Attacks (A) characteristic when using the Rage special rule."
+  },
+  {
+   "id": "codex/leagues_of_votann/special_rules/thrice_slain",
+   "name": "Thrice Slain",
+   "kind": "warlord_trait",
+   "page": 23,
+   "url": "https://longwarindex.app/special_rules/thrice_slain/",
+   "references": [
+    "universal_special_rules/feel_no_pain",
+    "universal_special_rules/regeneration"
+   ],
+   "text": "If this unit is your Warlord, it has the Feel no Pain (4+) special rule and may re-roll Regeneration Rolls.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/feel_no_pain",
+        "name": "Feel No Pain",
+        "param": "4+",
+        "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+       },
+       "quote": "If this unit is your Warlord, it has the Feel no Pain (4+) special rule and may re-roll Regeneration Rolls."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/leagues_of_votann/special_rules/transport_hekaton_land_fortress",
+   "name": "Transport",
+   "datasheet": "Hekaton Land Fortress",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/transport_hekaton_land_fortress/",
+   "text": "This model can transport 12 Infantry & 6 Drone models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "per_unit_type",
+     "limits": [
+      {
+       "n": 12,
+       "unit_types": [
+        "Infantry"
+       ]
+      },
+      {
+       "n": 6,
+       "unit_types": [
+        "Drone"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/leagues_of_votann/special_rules/transport_kapricus_carrier",
+   "name": "Transport",
+   "datasheet": "Kapricus Carrier",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/transport_kapricus_carrier/",
+   "text": "This model can transport 5 Infantry & 2 Drone models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "per_unit_type",
+     "limits": [
+      {
+       "n": 5,
+       "unit_types": [
+        "Infantry"
+       ]
+      },
+      {
+       "n": 2,
+       "unit_types": [
+        "Drone"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/leagues_of_votann/special_rules/transport_kapricus_defender",
+   "name": "Transport",
+   "datasheet": "Kapricus Defender",
+   "kind": "datasheet",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/transport_kapricus_defender/",
+   "text": "This model can transport 5 Infantry & 2 Drone models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "per_unit_type",
+     "limits": [
+      {
+       "n": 5,
+       "unit_types": [
+        "Infantry"
+       ]
+      },
+      {
+       "n": 2,
+       "unit_types": [
+        "Drone"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/leagues_of_votann/special_rules/transport_sagutar_atv",
+   "name": "Transport",
+   "datasheet": "Sagutar ATV",
+   "kind": "datasheet",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/transport_sagutar_atv/",
+   "text": "This model can transport 6 Infantry & 4 Drone models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "per_unit_type",
+     "limits": [
+      {
+       "n": 6,
+       "unit_types": [
+        "Infantry"
+       ]
+      },
+      {
+       "n": 4,
+       "unit_types": [
+        "Drone"
+       ]
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

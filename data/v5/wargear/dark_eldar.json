@@ -1,0 +1,604 @@
+{
+ "data_version": "692f3f9338095435",
+ "format": 1,
+ "faction": "dark_eldar",
+ "wargear": [
+  {
+   "id": "force_field",
+   "name": "Force Field",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/force_field_dark_eldar/",
+   "text": "This wargear confers a 4+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "clone_field",
+   "name": "Clone Field",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/clone_field/",
+   "text": "A model with this wargear rolls at the start of each Player turn, roll a D3. The equipped model may ignore that many wounds allocated to it this turn."
+  },
+  {
+   "id": "shadow_field",
+   "name": "Shadow Field",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/shadow_field/",
+   "text": "This wargear confers a 2+ Invulnerable save. The first time a model with this wargear would fail an Invulnerable save using the Shadow Field, they may not use the Shadow Field for the rest of the game.",
+   "effects": {
+    "invulnerable_save": "2+"
+   }
+  },
+  {
+   "id": "soul_trap",
+   "name": "Soul Trap",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/soul_trap/",
+   "text": "A model equipped with this wargear gains the Regeneration special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/regeneration",
+      "name": "Regeneration",
+      "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cluster_caltrops",
+   "name": "Cluster Caltrops",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/cluster_caltrops/",
+   "text": "All Charges against a unit which includes a model with this wargear are treated as Disordered Charges."
+  },
+  {
+   "id": "grav_talon",
+   "name": "Grav Talon",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/grav_talon/",
+   "text": "A model equipped with this wargear gains the Haywire (4+) special rule on its Hammer of Wrath Attacks."
+  },
+  {
+   "id": "combat_drugs",
+   "name": "Combat Drugs",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/combat_drugs_dark_eldar/",
+   "text": "A model with this wargear may opt to gain +1 to their Strength (S) characteristic and the Frenzy special rule until the start of your next Combat Phase."
+  },
+  {
+   "id": "dark_trophies",
+   "name": "Dark Trophies",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/dark_trophies/",
+   "text": "A model with this wargear gains the Fear (1) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "hardened_chitin",
+   "name": "Hardened Chitin",
+   "section": "Wargear",
+   "page": 24,
+   "url": "https://longwarindex.app/wargear/hardened_chitin_dark_eldar/",
+   "text": "It confers a 4+ Armour Save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "kabalite_armour",
+   "name": "Kabalite Armour",
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/kabalite_armour/",
+   "text": "A light body suit with segmented plates and barbs. It confers a 5+ Armour save.",
+   "effects": {
+    "armour_save": "5+"
+   }
+  },
+  {
+   "id": "incubus_warsuit",
+   "name": "Incubus Warsuit",
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/incubus_warsuit/",
+   "text": "This heavy traditional Warsuit is fitted with various interlocking plates. This confers a 3+ save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "wych_suit",
+   "name": "Wych Suit",
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/wych_suit/",
+   "text": "A tight fitting and flexible with one armoured side based on the wearers fighting posture. It confers a 6+ armour save. The equipped model has a 4+ Invulnerable save in the Combat Phase.",
+   "effects": {
+    "armour_save": "6+",
+    "conditional_invulnerable_saves": [
+     {
+      "save": "4+",
+      "phase": "Combat"
+     }
+    ]
+   }
+  },
+  {
+   "id": "armoured_carapace",
+   "name": "Armoured Carapace",
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/armoured_carapace/",
+   "text": "Engines of pain are often clad in finely wrought armoured shells. This confers a 3+ armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "gnarl_skin",
+   "name": "Gnarl Skin",
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/gnarl_skin/",
+   "text": "A toughened hardened skin protects most flesh constructs and coven members. It confers a 6+ save.",
+   "effects": {
+    "armour_save": "6+"
+   }
+  },
+  {
+   "id": "light_weight_plating",
+   "name": "Light Weight Plating",
+   "printed": {
+    "name": "Light Weight plating"
+   },
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/light_weight_plating_dark_eldar/",
+   "text": "Light Weight Plating used in many Dark Eldar vehicles. It confers a 3+ Armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "ghost_plate",
+   "name": "Ghost Plate",
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/ghost_plate/",
+   "text": "A high protection but high mobility suit. Confers a 4+ armour save and 5+ invulnerable save.",
+   "effects": {
+    "armour_save": "4+",
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "wings",
+   "name": "Wings",
+   "section": "Mobility Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/wings_dark_eldar/",
+   "text": "A model that is equipped with Wings increases its Movement (M) characteristic to 12\". The equipped unit gains the Hammer of Wrath (1), Fly, and Deep Strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "sky_board",
+   "name": "Sky Board",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "splinter_pods"
+    }
+   ],
+   "section": "Mobility Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/sky_board/",
+   "text": "A model equipped with a Skyboard increase their Movement (M) characteristic to 12\". In addition, the model gains the Hammer of Wrath (1), Fly and Deep Strike special rules. Sky Boards are equipped with Splinter Pods.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "reaver_jetbike",
+   "name": "Reaver Jetbike",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "blade_vanes"
+    },
+    {
+     "kind": "weapon",
+     "id": "splinter_rifle"
+    }
+   ],
+   "section": "Mobility Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/reaver_jetbike/",
+   "text": "A model that is equipped with Reaver Jetbike becomes the Jetbike type. The Reaver Jetbike increases the models Toughness (T) and Wounds (W) characteristic by 1. This wargear confers a 4+ Armour save. The Reaver Jetbike is equipped with Blade Vanes and a Splinter Rifle.",
+   "effects": {
+    "armour_save": "4+",
+    "unit_type": "Jetbike",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "enhanced_ether_sails",
+   "name": "Enhanced Ether Sails",
+   "printed": {
+    "name": "Enhanced Either Sails"
+   },
+   "section": "Vehicle Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/enhanced_ether_sails/",
+   "text": "A model equipped with this Wargear gains +4\" to its Movement (M) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "M",
+      "delta": 4
+     }
+    ]
+   }
+  },
+  {
+   "id": "splinter_racks",
+   "name": "Splinter Racks",
+   "section": "Vehicle Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/splinter_racks/",
+   "text": "A unit with this Wargear and any embarked units gain the Linked special rule on all Splinter weapons they are equipped with. For the purposes of this special rule, a 'Splinter weapon' is any weapon listed under the 'Splinter Weapon' section of the wargear.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/linked",
+      "name": "Linked",
+      "url": "https://longwarindex.app/special_rules/linked/",
+      "weapons": [
+       {
+        "kind": "weapon",
+        "id": "splinter_pistol"
+       },
+       {
+        "kind": "weapon",
+        "id": "splinter_rifle"
+       },
+       {
+        "kind": "weapon",
+        "id": "splinter_cannon"
+       },
+       {
+        "kind": "weapon",
+        "id": "splinter_pods"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "retro_fire_jets",
+   "name": "Retro Fire Jets",
+   "section": "Vehicle Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/retro_fire_jets/",
+   "text": "Grants the equipped model the Deep Strike special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "night_shields",
+   "name": "Night Shields",
+   "section": "Vehicle Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/night_shields/",
+   "text": "A model equipped with this Wargear cannot be targeted for an attack in the Shooting Phase if it is more than 18\" away."
+  },
+  {
+   "id": "shock_prow",
+   "name": "Shock Prow",
+   "section": "Vehicle Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/shock_prow/",
+   "text": "A model with this Wargear gains +1 to its Hammer of Wrath (x) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/",
+      "mode": "raise_or_grant",
+      "by": 1,
+      "if_held": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "chain_snares",
+   "name": "Chain Snares",
+   "section": "Vehicle Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/chain_snares/",
+   "text": "A model equipped with this Wargear gains the Furious Charge special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/furious_charge",
+      "name": "Furious Charge",
+      "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "flicker_fields",
+   "name": "Flicker Fields",
+   "section": "Vehicle Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/flicker_fields/",
+   "text": "A model with this wargear has a 5+ Invulnerable save against Shooting attacks.",
+   "effects": {
+    "conditional_invulnerable_saves": [
+     {
+      "save": "5+",
+      "against": "shooting"
+     }
+    ]
+   }
+  },
+  {
+   "id": "grisly_trophies",
+   "name": "Grisly Trophies",
+   "section": "Vehicle Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/grisly_trophies/",
+   "text": "A model equipped with this Wargear gains the Fear (2) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_helm_of_spite",
+   "name": "The Helm of Spite",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_helm_of_spite/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. The equipped model gains the Adamantium Will, Deny the Witch and Indomitable Spirit (2+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     },
+     {
+      "rule": "universal_special_rules/deny_the_witch",
+      "name": "Deny the Witch",
+      "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+     },
+     {
+      "rule": "universal_special_rules/indomitable_spirit",
+      "name": "Indomitable Spirit",
+      "param": "2+",
+      "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_archangel_of_pain",
+   "name": "The Archangel of Pain",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_archangel_of_pain/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Once per game, a model with this relic may declare its use in your Shooting Phase. Each enemy unit within 12\" of the model equipped with this Relic takes D3+3, Strength 5, AP1, Automatic hits."
+  },
+  {
+   "id": "the_armour_of_misery",
+   "name": "The Armour of Misery",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_armour_of_misery/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic has a 3+ Armour Save. In addition, all enemy units within 3\" of the bearer suffer -2 to their Leadership (LD) characteristic.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "the_crystal_heart",
+   "name": "The Crystal Heart",
+   "section": "Datasheet",
+   "datasheet": "Lady Malys",
+   "page": 20,
+   "url": "https://longwarindex.app/wargear/the_crystal_heart/",
+   "text": "A model with this wargear is never affected by Psychic Powers and may not be targeted by attacks from Psychic Weapons."
+  },
+  {
+   "id": "runesuit",
+   "name": "Runesuit",
+   "section": "Datasheet",
+   "datasheet": "Yvraine, Herald of Ynnead",
+   "page": 28,
+   "url": "https://longwarindex.app/wargear/runesuit_dark_eldar/",
+   "text": "A model equipped with this wargear has a 4+ Invulnerable Save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "gyrinx_familiar",
+   "name": "Gyrinx Familiar",
+   "section": "Datasheet",
+   "datasheet": "Yvraine, Herald of Ynnead",
+   "page": 28,
+   "url": "https://longwarindex.app/wargear/gyrinx_familiar_dark_eldar/",
+   "text": "Once per Battle Round, when this unit would suffer a Peril of the Warp, the Peril result is treated as having rolled a 1 on the chart."
+  },
+  {
+   "id": "ancient_warsuit",
+   "name": "Ancient Warsuit",
+   "section": "Datasheet",
+   "datasheet": "Visarch",
+   "page": 29,
+   "url": "https://longwarindex.app/wargear/ancient_warsuit_dark_eldar/",
+   "text": "A model equipped with this wargear has a 2+ Armour save and a 4+ Invulnerable Save.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "spirit_storm",
+   "name": "Spirit Storm",
+   "section": "Datasheet",
+   "datasheet": "The Yncarne, Avatar of Ynnead",
+   "page": 30,
+   "url": "https://longwarindex.app/wargear/spirit_storm_dark_eldar/",
+   "text": "This model has a 3+ Armour Save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "twilight_shroud",
+   "name": "Twilight Shroud",
+   "section": "Datasheet",
+   "datasheet": "Baron Sathonyx",
+   "page": 36,
+   "url": "https://longwarindex.app/wargear/twilight_shroud/",
+   "text": "This unit and any attached unit gain the benefit of Heavy Cover, even if they would not normally gain the benefits of Cover."
+  },
+  {
+   "id": "bones_of_the_seer",
+   "name": "Bones of the Seer",
+   "section": "Datasheet",
+   "datasheet": "Baron Sathonyx",
+   "page": 36,
+   "url": "https://longwarindex.app/wargear/bones_of_the_seer/",
+   "text": "If this unit is in your army, you may re-deploy up to 2 units in your army after deployment has finished and before the first turn begins."
+  },
+  {
+   "id": "armoured_scales",
+   "name": "Armoured Scales",
+   "section": "Datasheet",
+   "datasheet": "Court of the Archon",
+   "page": 46,
+   "url": "https://longwarindex.app/wargear/armoured_scales/",
+   "text": "A model with this wargear has a 4+ Armour save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "beast_hide",
+   "name": "Beast Hide",
+   "section": "Datasheet",
+   "datasheet": "Clawed Fiend Pack",
+   "page": 59,
+   "url": "https://longwarindex.app/wargear/beast_hide/",
+   "text": "Models in this unit have a 5+ Armour save.",
+   "effects": {
+    "armour_save": "5+"
+   }
+  },
+  {
+   "id": "mirage_field",
+   "name": "Mirage Field",
+   "section": "Datasheet",
+   "datasheet": "Webway Gate",
+   "page": 64,
+   "url": "https://longwarindex.app/wargear/mirage_field_dark_eldar/",
+   "text": "This model may not be targeted for attacks unless the attacking model is within 6\". In addition, friendly Eldar units within 12\" of the Webway Gate receive the benefit of Light Cover. If they are already benefiting from Light Cover, they gain the Benefit of Heavy Cover instead."
+  }
+ ]
+}

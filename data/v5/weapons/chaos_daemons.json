@@ -1,0 +1,1870 @@
+{
+ "data_version": "12bc7e8c5b0d01bd",
+ "format": 1,
+ "faction": "chaos_daemons",
+ "weapons": [
+  {
+   "id": "rift_barb",
+   "name": "Rift Barb",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/rift_barb_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "18\"",
+     "strength": "User",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hell_flame",
+   "name": "Hell Flame",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/hell_flame_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "8\"",
+     "strength": "User",
+     "ap": "5",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "spine_volley",
+   "name": "Spine Volley",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/spine_volley_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Assault 4",
+     "range": "12\"",
+     "strength": "User",
+     "ap": "6",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "close_combat_weapon",
+   "name": "Close Combat Weapon",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/close_combat_weapon_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "-",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "daemonic_great_weapon",
+   "name": "Daemonic Great Weapon",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/daemonic_great_weapon_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/two_handed",
+       "name": "Two-Handed",
+       "url": "https://longwarindex.app/special_rules/two_handed/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "harvester_cannon",
+   "name": "Harvester Cannon",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/harvester_cannon_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "48\"",
+     "strength": "7",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "phlegm_bombardment",
+   "name": "Phlegm Bombardment",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/phlegm_bombardment_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "36\"",
+     "strength": "8",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "iron_claws",
+   "name": "Iron Claws",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/iron_claws_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+4",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "warp_sword",
+   "name": "Warp Sword",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/warp_sword_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "warp_claw",
+   "name": "Warp Claw",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/warp_claw_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+4",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/force",
+       "name": "Force",
+       "url": "https://longwarindex.app/special_rules/force/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hellfire",
+   "name": "Hellfire",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/hellfire_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "malefic_talons",
+   "name": "Malefic Talons",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/malefic_talons_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "warp_bolter",
+   "name": "Warp Bolter",
+   "section": "armoury",
+   "subtype": "Warp Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/warp_bolter_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "4",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "great_axe_of_khorne",
+   "name": "Great Axe of Khorne",
+   "section": "armoury",
+   "subtype": "Khornate Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/great_axe_of_khorne/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/two_handed",
+       "name": "Two-Handed",
+       "url": "https://longwarindex.app/special_rules/two_handed/"
+      },
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "axe_of_khorne",
+   "name": "Axe of Khorne",
+   "section": "armoury",
+   "subtype": "Khornate Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/axe_of_khorne/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lash_of_khorne",
+   "name": "Lash of Khorne",
+   "section": "armoury",
+   "subtype": "Khornate Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/lash_of_khorne/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/swift_strike",
+       "name": "Swift Strike",
+       "url": "https://longwarindex.app/special_rules/swift_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blood_flail",
+   "name": "Blood Flail",
+   "section": "armoury",
+   "subtype": "Khornate Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/blood_flail/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      }
+     ],
+     "printed": {
+      "strength": "X2"
+     }
+    }
+   ]
+  },
+  {
+   "id": "hellblade",
+   "name": "Hellblade",
+   "section": "armoury",
+   "subtype": "Khornate Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/hellblade/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "skull_cannon",
+   "name": "Skull Cannon",
+   "section": "armoury",
+   "subtype": "Khornate Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/skull_cannon/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "8",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bile_blade",
+   "name": "Bile Blade",
+   "section": "armoury",
+   "subtype": "Nurglite Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/bile_blade/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "3+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      },
+      {
+       "rule": "codex/chaos_daemons/special_rules/sacrificial",
+       "name": "Sacrificial",
+       "url": "https://longwarindex.app/special_rules/sacrificial/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bilesword",
+   "name": "Bilesword",
+   "section": "armoury",
+   "subtype": "Nurglite Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/bilesword/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "3+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "doomsday_bell",
+   "name": "Doomsday Bell",
+   "section": "armoury",
+   "subtype": "Nurglite Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/doomsday_bell/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plague_flail",
+   "name": "Plague Flail",
+   "section": "armoury",
+   "subtype": "Nurglite Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/plague_flail/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      }
+     ],
+     "printed": {
+      "strength": "X2"
+     }
+    }
+   ]
+  },
+  {
+   "id": "bale_sword",
+   "name": "Bale Sword",
+   "section": "armoury",
+   "subtype": "Nurglite Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/bale_sword/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plaguesword",
+   "name": "Plaguesword",
+   "section": "armoury",
+   "subtype": "Nurglite Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/plaguesword/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "putrid_appendages",
+   "name": "Putrid Appendages",
+   "section": "armoury",
+   "subtype": "Nurglite Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/putrid_appendages/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prehensile_proboscis",
+   "name": "Prehensile Proboscis",
+   "section": "armoury",
+   "subtype": "Nurglite Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/prehensile_proboscis/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      },
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "death_heads",
+   "name": "Death Heads",
+   "section": "armoury",
+   "subtype": "Nurglite Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/death_heads/",
+   "profiles": [
+    {
+     "type": "Grenade 1",
+     "range": "12\"",
+     "strength": "1",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ritual_knife",
+   "name": "Ritual Knife",
+   "section": "armoury",
+   "subtype": "Slaaneshi Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/ritual_knife/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "codex/chaos_daemons/special_rules/sacrificial",
+       "name": "Sacrificial",
+       "url": "https://longwarindex.app/special_rules/sacrificial/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "witstealer_sword",
+   "name": "Witstealer Sword",
+   "section": "armoury",
+   "subtype": "Slaaneshi Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/witstealer_sword/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      },
+      {
+       "rule": "special_rules/parry",
+       "name": "Parry",
+       "url": "https://longwarindex.app/special_rules/parry/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "snapping_claws",
+   "name": "Snapping Claws",
+   "section": "armoury",
+   "subtype": "Slaaneshi Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/snapping_claws/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "living_whip",
+   "name": "Living Whip",
+   "section": "armoury",
+   "subtype": "Slaaneshi Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/living_whip/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/swift_strike",
+       "name": "Swift Strike",
+       "url": "https://longwarindex.app/special_rules/swift_strike/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "piercing_claws",
+   "name": "Piercing Claws",
+   "section": "armoury",
+   "subtype": "Slaaneshi Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/piercing_claws/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lashes_of_torment",
+   "name": "Lashes of Torment",
+   "section": "armoury",
+   "subtype": "Slaaneshi Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/lashes_of_torment/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/blind",
+       "name": "Blind",
+       "url": "https://longwarindex.app/special_rules/blind/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dissecting_claws",
+   "name": "Dissecting Claws",
+   "section": "armoury",
+   "subtype": "Slaaneshi Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/dissecting_claws/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "barbed_tail",
+   "name": "Barbed Tail",
+   "section": "armoury",
+   "subtype": "Slaaneshi Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/barbed_tail/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "heartstring_lyre",
+   "name": "Heartstring Lyre",
+   "section": "armoury",
+   "subtype": "Slaaneshi Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/heartstring_lyre/",
+   "profiles": [
+    {
+     "name": "Heartstring Lyre (Cacophonous Melody)",
+     "type": "Heavy 6",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      },
+      {
+       "rule": "special_rules/ignores_cover",
+       "name": "Ignores Cover",
+       "url": "https://longwarindex.app/special_rules/ignores_cover/"
+      }
+     ]
+    },
+    {
+     "name": "Heartstring Lyre (Euphonic Blast)",
+     "type": "Heavy 1",
+     "range": "30\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/barrage",
+       "name": "Barrage",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/barrage/"
+      },
+      {
+       "rule": "special_rules/ignores_cover",
+       "name": "Ignores Cover",
+       "url": "https://longwarindex.app/special_rules/ignores_cover/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "coiled_tentacles",
+   "name": "Coiled Tentacles",
+   "printed": {
+    "name": "Coiled Tenacles"
+   },
+   "section": "armoury",
+   "subtype": "Slaaneshi Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/coiled_tentacles/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bladed_axle",
+   "name": "Bladed Axle",
+   "section": "armoury",
+   "subtype": "Slaaneshi Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/bladed_axle/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      },
+      {
+       "rule": "special_rules/piercing",
+       "name": "Piercing",
+       "url": "https://longwarindex.app/special_rules/piercing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "staff_of_tzeentch",
+   "name": "Staff of Tzeentch",
+   "section": "armoury",
+   "subtype": "Tzeentchian Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/staff_of_tzeentch/",
+   "profiles": [
+    {
+     "name": "Staff of Tzeentch (Melee)",
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/force",
+       "name": "Force",
+       "url": "https://longwarindex.app/special_rules/force/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "baleful_sword",
+   "name": "Baleful Sword",
+   "section": "armoury",
+   "subtype": "Tzeentchian Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/baleful_sword/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/force",
+       "name": "Force",
+       "url": "https://longwarindex.app/special_rules/force/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rod_of_sorcery",
+   "name": "Rod of Sorcery",
+   "section": "armoury",
+   "subtype": "Tzeentchian Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/rod_of_sorcery/",
+   "profiles": [
+    {
+     "type": "Assault 3",
+     "range": "30\"",
+     "strength": "6",
+     "ap": "3",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "coruscating_flames",
+   "name": "Coruscating Flames",
+   "section": "armoury",
+   "subtype": "Tzeentchian Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/coruscating_flames/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "18\"",
+     "strength": "User",
+     "ap": "5",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "staff_of_change",
+   "name": "Staff of Change",
+   "section": "armoury",
+   "subtype": "Tzeentchian Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/staff_of_change/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/force",
+       "name": "Force",
+       "url": "https://longwarindex.app/special_rules/force/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lamprey_bites",
+   "name": "Lamprey Bites",
+   "section": "armoury",
+   "subtype": "Tzeentchian Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/lamprey_bites/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "4",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "flickering_flames",
+   "name": "Flickering Flames",
+   "section": "armoury",
+   "subtype": "Tzeentchian Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/flickering_flames/",
+   "profiles": [
+    {
+     "name": "Flickering Flames (Shooting)",
+     "type": "Assault 1",
+     "range": "8\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      }
+     ]
+    },
+    {
+     "name": "Flickering Flames (Melee)",
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fire_of_tzeentch",
+   "name": "Fire of Tzeentch",
+   "section": "armoury",
+   "subtype": "Tzeentchian Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/fire_of_tzeentch/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "18\"",
+     "strength": "8",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/melta",
+       "name": "Melta",
+       "url": "https://longwarindex.app/special_rules/melta/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bolt_of_change",
+   "name": "Bolt of Change",
+   "section": "other",
+   "subtype": "Lore of Tzeentch Psychic Powers",
+   "page": 20,
+   "url": "https://longwarindex.app/powers/bolt_of_change_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "18\"",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plague_wind",
+   "name": "Plague Wind",
+   "section": "other",
+   "subtype": "Lore of Nurgle Psychic Powers",
+   "page": 18,
+   "url": "https://longwarindex.app/powers/plague_wind_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "18\"",
+     "strength": "1",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      },
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      },
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sensory_overload",
+   "name": "Sensory Overload",
+   "section": "other",
+   "subtype": "Lore of Slaanesh Psychic Powers",
+   "page": 19,
+   "url": "https://longwarindex.app/powers/sensory_overload_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Assault 4",
+     "range": "24\"",
+     "strength": "2",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/blind",
+       "name": "Blind",
+       "url": "https://longwarindex.app/special_rules/blind/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sonic_shockwave",
+   "name": "Sonic Shockwave",
+   "section": "other",
+   "subtype": "Lore of Slaanesh Psychic Powers",
+   "page": 19,
+   "url": "https://longwarindex.app/powers/sonic_shockwave_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Assault D6+2",
+     "range": "12\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/ignores_cover",
+       "name": "Ignores Cover",
+       "url": "https://longwarindex.app/special_rules/ignores_cover/"
+      },
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "argath_king_of_blades",
+   "name": "A'rgath, King of Blades",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/argath_king_of_blades/",
+   "text": "One unit in your army with the Character special rule and Khorne Keyword that does not have the Unique keyword and no other Relic Wargear may exchange its Hellblade, Daemonic Great Weapon or Axe of Khorne for this relic for 10pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/swift_strike",
+       "name": "Swift Strike",
+       "url": "https://longwarindex.app/special_rules/swift_strike/"
+      },
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      },
+      {
+       "rule": "special_rules/parry",
+       "name": "Parry",
+       "url": "https://longwarindex.app/special_rules/parry/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gaping_maw",
+   "name": "Gaping Maw",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 44,
+   "url": "https://longwarindex.app/wargear/gaping_maw/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gnarlrod",
+   "name": "Gnarlrod",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 38,
+   "url": "https://longwarindex.app/wargear/gnarlrod/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/force",
+       "name": "Force",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/force/"
+      },
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lopping_sheers",
+   "name": "Lopping Sheers",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 62,
+   "url": "https://longwarindex.app/wargear/lopping_sheers/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "printed": "Precision Strikes",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      },
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mulchs_acid_maw",
+   "name": "Mulch's Acid Maw",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 62,
+   "url": "https://longwarindex.app/wargear/mulchs_acid_maw/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "silvershard",
+   "name": "Silvershard",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/silvershard/",
+   "text": "One unit in your army with the Character special rule and Slaanesh Keyword that does not have the Unique keyword and no other Relic Wargear may exchange its Daemonic Great Weapon or Witstealer Sword for this relic for 10pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/swift_strike",
+       "name": "Swift Strike",
+       "url": "https://longwarindex.app/special_rules/swift_strike/"
+      },
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      },
+      {
+       "rule": "special_rules/parry",
+       "name": "Parry",
+       "url": "https://longwarindex.app/special_rules/parry/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slaughter_and_carnage",
+   "name": "Slaughter & Carnage",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 37,
+   "url": "https://longwarindex.app/wargear/slaughter_and_carnage/",
+   "note": "This counts as two weapons.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      },
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slaughtering_blade",
+   "name": "Slaughtering Blade",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 42,
+   "url": "https://longwarindex.app/wargear/slaughtering_blade/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/arcing",
+       "name": "Arcing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/arcing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "soul_piercer",
+   "name": "Soul Piercer",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 39,
+   "url": "https://longwarindex.app/wargear/soul_piercer/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "soul_rending_claws",
+   "name": "Soul Rending Claws",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 61,
+   "url": "https://longwarindex.app/wargear/soul_rending_claws/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "staff_of_tomorrow",
+   "name": "Staff of Tomorrow",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 40,
+   "url": "https://longwarindex.app/wargear/staff_of_tomorrow_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/force",
+       "name": "Force",
+       "url": "https://longwarindex.app/special_rules/force/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "streams_of_brackish_filth",
+   "name": "Streams of Brackish Filth",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 38,
+   "url": "https://longwarindex.app/wargear/streams_of_brackish_filth/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "3",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      },
+      {
+       "rule": "special_rules/poison",
+       "name": "Poison",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/poison/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_blade_of_shadows",
+   "name": "The Blade of Shadows",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 41,
+   "url": "https://longwarindex.app/wargear/the_blade_of_shadows/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_executioners_axe",
+   "name": "The Executioners Axe",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 43,
+   "url": "https://longwarindex.app/wargear/the_executioners_axe_chaos_daemons/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_slayer_sword",
+   "name": "The Slayer Sword",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 45,
+   "url": "https://longwarindex.app/wargear/the_slayer_sword/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      },
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      },
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_slothful_claw",
+   "name": "The Slothful Claw",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_slothful_claw/",
+   "text": "One unit in your army with the Character special rule and Slaanesh Keyword that does not have the Unique keyword and no other Relic Wargear may exchange its Malefic Talon, Piercing Claws or Snapping Claws for this relic for 15pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_tricksters_staff",
+   "name": "The Tricksters Staff",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 48,
+   "url": "https://longwarindex.app/wargear/the_tricksters_staff/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "*",
+     "ap": "*",
+     "rules": [
+      {
+       "rule": "codex/chaos_daemons/special_rules/morphing_form",
+       "name": "Morphing Form",
+       "url": "https://longwarindex.app/special_rules/morphing_form/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

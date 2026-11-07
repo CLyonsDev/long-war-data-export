@@ -1,0 +1,1039 @@
+{
+ "data_version": "20059fb0cfb9b35e",
+ "format": 1,
+ "faction": "white_scars",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/plume_of_the_plainsrunner/",
+   "offered_by": {
+    "allegiance": "codex/white_scars/allegiances/allegiance_white_scars"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "plume_of_the_plainsrunner",
+     "name": "Plume of the Plainsrunner",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "plume_of_the_plainsrunner"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/plume_of_the_plainsrunner/",
+     "pricing": "flat"
+    },
+    {
+     "id": "mantle_of_the_stormseer",
+     "name": "Mantle of the Stormseer",
+     "points": 15,
+     "printed": "One unit in your army with the Character & Psyker (x) special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "mantle_of_the_stormseer"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/mantle_of_the_stormseer/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "rule": {
+        "rule": "universal_special_rules/psyker",
+        "name": "Psyker",
+        "url": "https://longwarindex.app/universal_special_rules/psyker/"
+       }
+      }
+     ]
+    },
+    {
+     "id": "the_hunters_eye",
+     "name": "The Hunter's Eye",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_hunters_eye"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/the_hunters_eye/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_wrath_of_heavens",
+     "name": "The Wrath of Heavens",
+     "points": 30,
+     "printed": "One unit in your army with the Character special rule, equipped with a Bike that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_wrath_of_heavens"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_wrath_of_heavens/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "wargear",
+         "id": "bike",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "the_banner_of_the_eagle",
+     "name": "The Banner of the Eagle",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_banner_of_the_eagle"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_banner_of_the_eagle/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_glaive_of_vengeance",
+     "name": "The Glaive of Vengeance",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Axe for this relic for 15pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_axe",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_glaive_of_vengeance"
+        }
+       ]
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/the_glaive_of_vengeance/",
+     "pricing": "flat"
+    },
+    {
+     "id": "scimitar_of_the_great_khan",
+     "name": "Scimitar of the Great Khan",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 15pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "scimitar_of_the_great_khan"
+        }
+       ]
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/scimitar_of_the_great_khan/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One White Scars unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One White Scars unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 9,
+   "url": "https://longwarindex.app/codex/white_scars/warlord_traits/",
+   "offered_by": {
+    "allegiance": "codex/white_scars/allegiances/allegiance_white_scars"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "space_marines/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "hammer_of_the_khan",
+     "name": "Hammer of the Khan",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/hammer_of_the_khan/",
+     "text": "If your Warlord has this trait, they gain the Hammer of Wrath (3) special rule. If the unit already has the Hammer of Wrath (x) special rule, increase the value of X by +3.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/hammer_of_wrath",
+       "name": "Hammer of Wrath",
+       "param": "3",
+       "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/",
+       "raise_by": 3
+      }
+     ]
+    },
+    {
+     "id": "master_rider",
+     "name": "Master Rider",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/master_rider/",
+     "text": "A model with this warlord trait and any attached unit gains the Move Through Cover special rule. In addition, the Warlord may re-roll the dice for its Initiative Test for the Hit & Run special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/move_through_cover",
+       "name": "Move Through Cover",
+       "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+      }
+     ]
+    },
+    {
+     "id": "snares_of_the_hunter",
+     "name": "Snares of the Hunter",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/snares_of_the_hunter/",
+     "text": "If your army includes a model with this warlord trait, during the Deployment Step, place D3 Trap Markers anywhere on the board that is not within your opponent's deployment zone. All terrain, including open terrain within 6\" of a Trap Marker is treated as Dangerous Terrain.",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "psychic_powers",
+   "kind": "psychic_powers",
+   "label": "All White Scars units with the Psyker (x) special rule may purchase Psychic Powers from the following discipline.",
+   "printed": "All White Scars units with the Psyker (x) special rule may purchase Psychic Powers from the following discipline.",
+   "page": 8,
+   "url": "https://longwarindex.app/codex/white_scars/powers/",
+   "offered_by": {
+    "allegiance": "codex/white_scars/allegiances/allegiance_white_scars"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     },
+     {
+      "keyword": "White Scars"
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "blasting_gale",
+     "name": "Blasting Gale",
+     "page": 8,
+     "url": "https://longwarindex.app/powers/blasting_gale/",
+     "text": "When this psychic power is successfully cast, select a single enemy unit within 24\" of the Psyker. The target unit halves its Movement (M) characteristic until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "call_lightning",
+     "name": "Call Lightning",
+     "page": 8,
+     "url": "https://longwarindex.app/powers/call_lightning/",
+     "text": "A Psyker with this Psychic Power is equipped with the following weapon:\n\n- Call Lightning",
+     "points": 20,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "call_lightning",
+       "faction": "white_scars"
+      }
+     ]
+    },
+    {
+     "id": "eye_of_the_storm",
+     "name": "Eye of the Storm",
+     "page": 8,
+     "url": "https://longwarindex.app/powers/eye_of_the_storm/",
+     "text": "When this psychic power is successfully cast, all enemy units within 12\" of the Psyker take D6+2, Strength 3, AP- automatic hits.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "ride_the_winds",
+     "name": "Ride the Winds",
+     "page": 8,
+     "url": "https://longwarindex.app/powers/ride_the_winds/",
+     "text": "When this psychic power is successfully cast, the Psyker and any attached unit immediately make a 6\" normal Move.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "storm_wreathed",
+     "name": "Storm-Wreathed",
+     "page": 8,
+     "url": "https://longwarindex.app/powers/storm_wreathed/",
+     "text": "When this psychic power is successfully cast, the Psyker and any attached unit gain the Arcing (6+) special rule on all Melee weapons they are equipped with until the start of your next Shooting Phase.",
+     "points": 5,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "armoury_stormseer",
+   "kind": "armoury",
+   "label": "A White Scars Space Marine Lieutenant may purchase the following upgrade in addition to the others available.",
+   "printed": "A White Scars Space Marine Lieutenant may purchase the following upgrade in addition to the others available.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_5th_legion/",
+   "offered_by": {
+    "allegiance": "codex/white_scars/allegiances/allegiance_white_scars"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "White Scars"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/lieutenant"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "stormseer",
+     "name": "Stormseer",
+     "printed": "Stormseer for 40pts.",
+     "points": 40,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/white_scars/special_rules/stormseer",
+       "name": "Stormseer",
+       "url": "https://longwarindex.app/special_rules/stormseer/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_head_taker_trophies",
+   "kind": "armoury",
+   "label": "Any White Scars Space Marine Captain or Space Marine Lieutenant unit may take Head Taker Trophies for 5pts.",
+   "printed": "Any White Scars Space Marine Captain or Space Marine Lieutenant unit may take Head Taker Trophies for 5pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_5th_legion/",
+   "offered_by": {
+    "allegiance": "codex/white_scars/allegiances/allegiance_white_scars"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "White Scars"
+     },
+     {
+      "any_of": [
+       {
+        "keyword": "Captain"
+       },
+       {
+        "keyword": "Lieutenant"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "head_taker_trophies",
+     "name": "Head Taker Trophies",
+     "points": 5,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "head_taker_trophies"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_cyber_eagle",
+   "kind": "armoury",
+   "label": "Any White Scars Space Marine Captain or Space Marine Lieutenant unit may take a Cyber Eagle for 20pts.",
+   "printed": "Any White Scars Space Marine Captain or Space Marine Lieutenant unit may take a Cyber Eagle for 20pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_5th_legion/",
+   "offered_by": {
+    "allegiance": "codex/white_scars/allegiances/allegiance_white_scars"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "White Scars"
+     },
+     {
+      "any_of": [
+       {
+        "keyword": "Captain"
+       },
+       {
+        "keyword": "Lieutenant"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "cyber_eagle",
+     "name": "Cyber Eagle",
+     "points": 20,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "cyber_eagle"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_chogorian_pattern_engine",
+   "kind": "armoury",
+   "label": "Any White Scars Vehicle, Bike or Aircraft unit may take a Chogorian Pattern Engine for 2pts per model in the unit.",
+   "printed": "Any White Scars Vehicle, Bike or Aircraft unit may take a Chogorian Pattern Engine for 2pts per model in the unit.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_5th_legion/",
+   "offered_by": {
+    "allegiance": "codex/white_scars/allegiances/allegiance_white_scars"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "White Scars"
+     },
+     {
+      "any_of": [
+       {
+        "unit_type": "Vehicle"
+       },
+       {
+        "unit_type": "Bike"
+       },
+       {
+        "unit_type": "Aircraft"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "chogorian_pattern_engine",
+     "name": "Chogorian Pattern Engine",
+     "points": 2,
+     "pricing": "per_model",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "chogorian_pattern_engine"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_power_axe_glaive",
+   "kind": "armoury",
+   "label": "Any White Scars model with a Power Axe may exchange it for a Chogorian Power Glaive for 10pts.",
+   "printed": "Any White Scars model with a Power Axe may exchange it for a Chogorian Power Glaive for 10pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_5th_legion/",
+   "offered_by": {
+    "allegiance": "codex/white_scars/allegiances/allegiance_white_scars"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "White Scars"
+     },
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "power_axe",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "chogorian_power_glaive",
+     "name": "Chogorian Power Glaive",
+     "points": 10,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_axe",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "chogorian_power_glaive"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_equis_bolt_pistol",
+   "kind": "armoury",
+   "label": "Any White Scars model may exchange their Bolt Pistol for an Equis Bolt Pistol for 1pt per model.",
+   "printed": "Any White Scars model may exchange their Bolt Pistol for an Equis Bolt Pistol for 1pt per model.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_5th_legion/",
+   "offered_by": {
+    "allegiance": "codex/white_scars/allegiances/allegiance_white_scars"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "White Scars"
+     },
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "bolt_pistol",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "equis_bolt_pistol",
+     "name": "Equis Bolt Pistol",
+     "points": 1,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "bolt_pistol",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "equis_bolt_pistol"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_stormwrath_boltguns",
+   "kind": "armoury",
+   "label": "All models in a White Scars unit may exchange their Boltgun, Storm Bolter, Linked Boltgun, Heavy Boltgun or Heavy Bolter for a Stormwrath weapon for 2pts per model.",
+   "printed": "All models in a White Scars unit may exchange their Boltgun, Storm Bolter, Linked Boltgun, Heavy Boltgun or Heavy Bolter for a Stormwrath weapon for 2pts per model.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_5th_legion/",
+   "offered_by": {
+    "allegiance": "codex/white_scars/allegiances/allegiance_white_scars"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "White Scars"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "stormwrath_boltgun",
+     "name": "Stormwrath Boltgun",
+     "printed": "Stormwrath Boltgun for 2pts per model.",
+     "points": 2,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "stormwrath_boltgun"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stormwrath_storm_bolter",
+     "name": "Stormwrath Storm Bolter",
+     "printed": "Stormwrath Storm Bolter for 2pts per model.",
+     "points": 2,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "storm_bolter",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "stormwrath_storm_bolter"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "storm_bolter",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "linked_stormwrath_boltgun",
+     "name": "Linked Stormwrath Boltgun",
+     "printed": "Linked Stormwrath Boltgun for 2pts per model.",
+     "points": 2,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "linked_boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "linked_stormwrath_boltgun"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "linked_boltgun",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "heavy_stormwrath_boltgun",
+     "name": "Heavy Stormwrath Boltgun",
+     "printed": "Heavy Stormwrath Boltgun for 2pts per model.",
+     "points": 2,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "heavy_boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "heavy_stormwrath_boltgun"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "heavy_boltgun",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "linked_heavy_stormwrath_bolter",
+     "name": "Linked Stormwrath Heavy Bolter",
+     "printed": "Linked Stormwrath Heavy Bolter for 2pts per model.",
+     "points": 2,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "linked_heavy_bolter",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "linked_heavy_stormwrath_bolter",
+         "printed": "Linked Stormwrath Heavy Bolter"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "linked_heavy_bolter",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "heavy_stormwrath_bolter",
+     "name": "Stormwrath Heavy Bolter",
+     "printed": "Stormwrath Heavy Bolter for 2pts per model.",
+     "points": 2,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "heavy_bolter",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "heavy_stormwrath_bolter",
+         "printed": "Stormwrath Heavy Bolter"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "heavy_bolter",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "general_upgrades_kharash",
+   "kind": "armoury",
+   "label": "Any White Scars Infantry or Bike unit in your army may be part of the Kharash for 10pts. The unit gains the Kharash special rule.",
+   "printed": "Any White Scars Infantry or Bike unit in your army may be part of the Kharash for 10pts. The unit gains the Kharash special rule.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_5th_legion/",
+   "offered_by": {
+    "allegiance": "codex/white_scars/allegiances/allegiance_white_scars"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "White Scars"
+     },
+     {
+      "any_of": [
+       {
+        "unit_type": "Infantry"
+       },
+       {
+        "unit_type": "Bike"
+       }
+      ]
+     },
+     {
+      "not": {
+       "rule": {
+        "rule": "codex/white_scars/special_rules/kharash",
+        "name": "Kharash",
+        "url": "https://longwarindex.app/special_rules/kharash/"
+       }
+      }
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "kharash",
+     "name": "Kharash",
+     "points": 10,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/white_scars/special_rules/kharash",
+       "name": "Kharash",
+       "url": "https://longwarindex.app/special_rules/kharash/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "veteran_squad_bikes",
+   "kind": "upgrade",
+   "label": "Veteran Squad units in your army instead of purchasing Jump Packs may purchase Bikes for 5pts per model.",
+   "printed": "Veteran Squad units in your army instead of purchasing Jump Packs may purchase Bikes for 5pts per model.",
+   "page": 12,
+   "url": "https://longwarindex.app/rites_of_war/chogorian_brotherhood/",
+   "offered_by": {
+    "rite": "codex/white_scars/rites_of_war/chogorian_brotherhood"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "datasheet": "codex/space_marines/roster/veteran_squad"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "bikes",
+     "name": "Bikes",
+     "points": 5,
+     "pricing": "per_model",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "bike",
+       "faction": "space_marines"
+      }
+     ],
+     "instead_of": [
+      {
+       "page": "codex/space_marines/roster/veteran_squad",
+       "path": "jump_packs/jump_packs"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sagyar_mazan_kharash",
+   "kind": "upgrade",
+   "label": "Any Infantry, Bike, Jetbike or Cavalry unit in your army may purchase the Kharash special rule for 10pts per unit.",
+   "printed": "Any Infantry, Bike, Jetbike or Cavalry unit in your army may purchase the Kharash special rule for 10pts per unit.",
+   "page": 13,
+   "url": "https://longwarindex.app/rites_of_war/the_sagyar_mazan/",
+   "offered_by": {
+    "rite": "codex/white_scars/rites_of_war/the_sagyar_mazan"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "any_of": [
+       {
+        "unit_type": "Infantry"
+       },
+       {
+        "unit_type": "Bike"
+       },
+       {
+        "unit_type": "Jetbike"
+       },
+       {
+        "unit_type": "Cavalry"
+       }
+      ]
+     },
+     {
+      "not": {
+       "rule": {
+        "rule": "codex/white_scars/special_rules/kharash",
+        "name": "Kharash",
+        "url": "https://longwarindex.app/special_rules/kharash/"
+       }
+      }
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "kharash",
+     "name": "Kharash",
+     "points": 10,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/white_scars/special_rules/kharash",
+       "name": "Kharash",
+       "url": "https://longwarindex.app/special_rules/kharash/"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

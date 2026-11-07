@@ -1,0 +1,829 @@
+{
+ "data_version": "a904dc684008cdcc",
+ "format": 1,
+ "faction": "blood_angels",
+ "codex": {
+  "id": "codex/blood_angels",
+  "name": "Blood Angels",
+  "page": 4,
+  "url": "https://longwarindex.app/codex/blood_angels/",
+  "parent": "space_marines",
+  "army_rules": [
+   {
+    "rule": "codex/blood_angels/special_rules/angelic_visage",
+    "name": "Angelic Visage",
+    "url": "https://longwarindex.app/special_rules/angelic_visage/"
+   },
+   {
+    "rule": "codex/blood_angels/special_rules/death_company",
+    "name": "Death Company",
+    "url": "https://longwarindex.app/special_rules/death_company/"
+   },
+   {
+    "rule": "codex/blood_angels/special_rules/armoury_of_the_9th_legion",
+    "name": "Armoury of the 9th Legion",
+    "url": "https://longwarindex.app/special_rules/armoury_of_the_9th_legion/"
+   }
+  ],
+  "allies": null,
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/blood_angels/rites_of_war/airborne_assault",
+    "codex/blood_angels/rites_of_war/the_death_company"
+   ],
+   "from_parent": [
+    "codex/space_marines/rites_of_war/drop_pod_assault",
+    "codex/space_marines/rites_of_war/armoured_support",
+    "codex/space_marines/rites_of_war/mechanised_assault",
+    "codex/space_marines/rites_of_war/vanguard_support",
+    "codex/space_marines/rites_of_war/pride_of_the_chapter"
+   ],
+   "banned_from_parent": [
+    "codex/space_marines/rites_of_war/grey_shields"
+   ]
+  },
+  "unit_list": null,
+  "keyword_templates": [
+   {
+    "template": "<Chapter>",
+    "printed": "All units have the <Chapter> keyword. This is replaced with Blood Angels Keyword.",
+    "substitution": {
+     "value": "Blood Angels"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/blood_angels/allegiances/allegiance_blood_angels",
+   "name": "Allegiance: Blood Angels",
+   "page": 4,
+   "url": "https://longwarindex.app/allegiances/allegiance_blood_angels/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "keyword_substitution": {
+    "template": "<Chapter>",
+    "value": "Blood Angels"
+   },
+   "rule": {
+    "rule": "codex/blood_angels/allegiances/allegiance_blood_angels",
+    "name": "Allegiance: Blood Angels",
+    "printed": "codex/blood_angels/allegiances/allegiance_blood_angels",
+    "url": "https://longwarindex.app/allegiances/allegiance_blood_angels/"
+   },
+   "unit_list": {
+    "page": 17,
+    "url": "https://longwarindex.app/unit_list/blood_angels_unit_list/",
+    "entries": [
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_captain",
+      "printed": "Space Marine Captain",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/lieutenant",
+      "printed": "Lieutenant",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_command_squad",
+      "printed": "Space Marine Command Squad",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/damocles_command_rhino",
+      "printed": "Damocles Command Rhino",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/blood_angels/roster/lord_commander_dante",
+      "printed": "Lord Commander Dante",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/blood_angels/roster/chapter_master_gabriel_seth",
+      "printed": "Chapter Master Gabriel Seth",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/blood_angels/roster/captain_karlaen",
+      "printed": "Captain Karlaen",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/blood_angels/roster/captain_tycho",
+      "printed": "Captain Tycho",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/blood_angels/roster/lemartes_guardian_of_the_lost",
+      "printed": "Lemartes, Guardian of the Lost",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/blood_angels/roster/high_chaplain_astorath_the_redeemer",
+      "printed": "High Chaplain Astorath, the Redeemer",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/blood_angels/roster/chief_librarian_mephiston",
+      "printed": "Chief Librarian Mephiston",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/blood_angels/roster/high_priest_corbulo",
+      "printed": "High Priest Corbulo",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/scouts",
+      "printed": "Scouts",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/tactical_squad",
+      "printed": "Tactical Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/infiltrator_squad",
+      "printed": "Infiltrator Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/veteran_squad",
+      "printed": "Veteran Squad",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/eliminator_squad",
+      "printed": "Eliminator Squad",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/centurions",
+      "printed": "Centurions",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/tactical_terminators",
+      "printed": "Tactical Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/assault_terminators",
+      "printed": "Assault Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/castraferrum_dreadnought",
+      "printed": "Castraferrum Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/contemptor_dreadnought",
+      "printed": "Contemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/redemptor_dreadnought",
+      "printed": "Redemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invictor_tactical_warsuit",
+      "printed": "Invictor Tactical Warsuit",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/blood_angels/roster/sanguinary_guard",
+      "printed": "Sanguinary Guard",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/blood_angels/roster/erelim",
+      "printed": "Erelim",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/rhino_apc",
+      "printed": "Rhino APC",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/razorback_ifv",
+      "printed": "Razorback IFV",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder_storm",
+      "printed": "Land Speeder Storm",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/drop_pod",
+      "printed": "Drop Pod",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/impulsor",
+      "printed": "Impulsor",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormhawk_interceptor",
+      "printed": "Stormhawk Interceptor",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormtalon_gunship",
+      "printed": "Stormtalon Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormraven_gunship",
+      "printed": "Stormraven Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_eagle_gunship",
+      "printed": "Storm Eagle Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/bike_squad",
+      "printed": "Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/scout_bike_squad",
+      "printed": "Scout Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/attack_bike_squad",
+      "printed": "Attack Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/assault_marine_squad",
+      "printed": "Assault Marine Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/reiver_squad",
+      "printed": "Reiver Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/incursor_squad",
+      "printed": "Incursor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/inceptor_squad",
+      "printed": "Inceptor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/suppressor_squad",
+      "printed": "Suppressor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invader_atv",
+      "printed": "Invader ATV",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder",
+      "printed": "Land Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_speeder",
+      "printed": "Storm Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/javelin_attack_speeder",
+      "printed": "Javelin Attack Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sabre_strike_tank",
+      "printed": "Sabre Strike Tank",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/blood_angels/roster/baal_predator",
+      "printed": "Baal Predator",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/devastator_squad",
+      "printed": "Devastator Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/weapon_support_squad",
+      "printed": "Weapon Support Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gravis_support_squad",
+      "printed": "Gravis Support Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/firestrike_servo_turret",
+      "printed": "Firestrike Servo Turret",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/predator_mbt",
+      "printed": "Predator MBT",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_siege_tank",
+      "printed": "Vindicator Siege Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/whirlwind_artillery_tank",
+      "printed": "Whirlwind artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hunter_artillery_tank",
+      "printed": "Hunter Artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stalker_aa_tank",
+      "printed": "Stalker AA Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gladiator_assault_tank",
+      "printed": "Gladiator Assault Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider",
+      "printed": "Land Raider",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_redeemer",
+      "printed": "Land Raider Redeemer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_crusader",
+      "printed": "Land Raider Crusader",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_hifv",
+      "printed": "Repulsor HIFV",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_executioner",
+      "printed": "Repulsor Executioner",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/deredeo_dreadnought",
+      "printed": "Deredeo Dreadnought",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fire_raptor_gunship",
+      "printed": "Fire Raptor Gunship",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_laser_destroyer",
+      "printed": "Vindicator Laser Destroyer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sicaran_heavy_tank",
+      "printed": "Sicaran Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/kratos_super_heavy_tank",
+      "printed": "Kratos Super Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/leviathan_dreadnought",
+      "printed": "Leviathan Dreadnought",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/spartan_assault_tank",
+      "printed": "Spartan Assault Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/astraeus",
+      "printed": "Astraeus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/cerberus",
+      "printed": "Cerberus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/falchion",
+      "printed": "Falchion",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fellblade",
+      "printed": "Fellblade",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/mastodon",
+      "printed": "Mastodon",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/typhon_siege_tank",
+      "printed": "Typhon Siege Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/thunderhawk_gunship",
+      "printed": "Thunderhawk Gunship",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/blood_angels/roster/the_sanguinor_exemplar_of_the_host",
+      "printed": "The Sanguinor, Exemplar of the Host",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hammerfall_bunker",
+      "printed": "Hammerfall Bunker",
+      "role": "Fortification"
+     }
+    ]
+   },
+   "restrictions": [
+    {
+     "id": "rites_instead_of_core",
+     "page": 4,
+     "url": "https://longwarindex.app/codex/blood_angels/",
+     "printed": "You must use the Rites of War listed in this supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/space_marines/rites_of_war/grey_shields"
+     ]
+    },
+    {
+     "id": "blood_angels_warlord_traits",
+     "page": 4,
+     "url": "https://longwarindex.app/codex/blood_angels/",
+     "printed": "You must use the Warlord traits presented in this supplement instead of the those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "warlord_traits"
+       }
+      ]
+     }
+    },
+    {
+     "id": "blood_angels_relics",
+     "page": 4,
+     "url": "https://longwarindex.app/codex/blood_angels/",
+     "printed": "You may not use the Relics from Codex Space Marines and must use the Relic Wargear presented in this supplement.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "relics"
+       }
+      ]
+     }
+    },
+    {
+     "id": "blood_angels_unit_list_only",
+     "page": 4,
+     "url": "https://longwarindex.app/codex/blood_angels/",
+     "printed": "You may not field the units not listed on the Blood Angels Unit list in this Codex Supplement.",
+     "scope": "detachment",
+     "unit_list": true
+    },
+    {
+     "id": "blood_angels_psychic_discipline",
+     "page": 4,
+     "url": "https://longwarindex.app/codex/blood_angels/",
+     "printed": "You must use the Psychic Discipline presented in this Supplement instead of the Indomitus Psychic Discipline found in the Core Codex Space Marines.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "psychic_powers"
+       }
+      ]
+     }
+    },
+    {
+     "id": "black_rage_per_1000",
+     "printed": "A Blood Angels army must include at least 1 Death Company unit for every 1000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Death Company"
+       }
+      ],
+      "min": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "no_chapter_master",
+     "printed": "Blood Angels Space Marine Captains may not purchase the Chapter Master upgrade.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "choices": [
+       {
+        "page": "codex/space_marines/roster/space_marine_captain",
+        "path": "chapter_master/chapter_master"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "red_thirst_rage",
+     "printed": "Blood Angels Infantry, Bike, Cavalry and Walker type units gain the Rage special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Blood Angels"
+       },
+       {
+        "any_of": [
+         {
+          "unit_type": "Infantry"
+         },
+         {
+          "unit_type": "Bike"
+         },
+         {
+          "unit_type": "Cavalry"
+         },
+         {
+          "unit_type": "Walker"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/rage",
+        "name": "Rage",
+        "url": "https://longwarindex.app/universal_special_rules/rage/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "the_black_rage",
+     "printed": "When mustering your army, you must select 1 Blood Angels Infantry or Walker type unit that does not have the Veteran Keyword per 1,000pts to gain the Death Company special rule.",
+     "options": [
+      {
+       "book_options": "blood_angels",
+       "group": "the_black_rage"
+      }
+     ]
+    }
+   ],
+   "game_time": [
+    "All Blood Angels units in your army must make a Leadership test at the start of each of Combat Phase if they are engaged with an enemy unit:",
+    "If the Leadership test is passed, the Blood Angels unit automatically pass all Panic tests they would be required to make that phase.",
+    "If the Blood Angels unit fails the Leadership test, the Blood Angels unit gains +1 to its Strength (S) characteristic until the end of the Phase."
+   ],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/blood_angels/rites_of_war/airborne_assault",
+   "name": "Airborne Assault",
+   "page": 15,
+   "url": "https://longwarindex.app/rites_of_war/airborne_assault/",
+   "offered_by": {
+    "allegiance": "codex/blood_angels/allegiances/allegiance_blood_angels"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 2 Aircraft type units.\n- Infantry, Bike or Cavalry type units that do not have the Fly or Infiltrate special rule must begin the game in Reserves or Embarked on a Transport.\n- Vehicle type units in your army must begin the game in Reserves.\n- Walker type units in your army that do not have the Infiltrate special rule must begin the game in Reserves or Embarked on a Transport.\n\nBenefits\n\n- You may field Stormtalon Gunships as Heavy Support choices.\n- You may field Stormraven Gunships as Dedicated Transports.\n- You may field Assault Marines as Troops choices.\n- All units in your army that do not have the Fly or Infiltrate special rule may be placed in reserves. They may arrive via the Outflank special rule but may only enter on the board within your deployment zone.",
+   "restrictions": [
+    {
+     "id": "aircraft_min",
+     "printed": "Your army must include at least 2 Aircraft type units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "unit_type": "Aircraft"
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "stormtalon_heavy_support",
+     "printed": "You may field Stormtalon Gunships as Heavy Support choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/stormtalon_gunship"
+       }
+      ],
+      "role": "Heavy Support",
+      "instead": false
+     }
+    },
+    {
+     "id": "stormraven_transport",
+     "printed": "You may field Stormraven Gunships as Dedicated Transports.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/stormraven_gunship"
+       }
+      ],
+      "role": "Dedicated Transport",
+      "instead": false
+     }
+    },
+    {
+     "id": "assault_marines_troops",
+     "printed": "You may field Assault Marines as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/assault_marine_squad"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "Infantry, Bike or Cavalry type units that do not have the Fly or Infiltrate special rule must begin the game in Reserves or Embarked on a Transport.",
+    "Vehicle type units in your army must begin the game in Reserves.",
+    "Walker type units in your army that do not have the Infiltrate special rule must begin the game in Reserves or Embarked on a Transport.",
+    "All units in your army that do not have the Fly or Infiltrate special rule may be placed in reserves. They may arrive via the Outflank special rule but may only enter on the board within your deployment zone."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/blood_angels/rites_of_war/the_death_company",
+   "name": "The Death Company",
+   "page": 16,
+   "url": "https://longwarindex.app/rites_of_war/the_death_company/",
+   "offered_by": {
+    "allegiance": "codex/blood_angels/allegiances/allegiance_blood_angels"
+   },
+   "text": "Restrictions\n\n- All units in your army must have the Death Company Keyword unless they are the vehicle type.\n- You may not include a Space Marine Captain in your army.\n- Your Warlord must be a Space Marine Lieutenant upgraded to a Chaplain, or Lemartes.\n\nBenefits\n\n- Any Infantry or Walker type units in your army that do not have the Veteran Keyword may be upgraded to have the Death Company special rule for 0pts.\n- All Blood Angels units with the Character special rule gain the Death Company Keyword.\n- All units with the Death Company special rule and their attached units gain the Scout special rule.",
+   "restrictions": [
+    {
+     "id": "death_company_keyword",
+     "printed": "All units in your army must have the Death Company Keyword unless they are the vehicle type.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "keyword": "Death Company"
+       }
+      ],
+      "except": [
+       {
+        "unit_type": "Vehicle"
+       }
+      ]
+     }
+    },
+    {
+     "id": "no_space_marine_captain",
+     "printed": "You may not include a Space Marine Captain in your army.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/space_marine_captain"
+       }
+      ],
+      "max": 0
+     }
+    },
+    {
+     "id": "warlord_chaplain_or_lemartes",
+     "printed": "Your Warlord must be a Space Marine Lieutenant upgraded to a Chaplain, or Lemartes.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "choice": {
+           "page": "codex/space_marines/roster/lieutenant",
+           "path": "upgrades/chaplain"
+          }
+         },
+         {
+          "datasheet": "codex/blood_angels/roster/lemartes_guardian_of_the_lost"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "death_company_free_upgrade",
+     "printed": "Any Infantry or Walker type units in your army that do not have the Veteran Keyword may be upgraded to have the Death Company special rule for 0pts.",
+     "options": [
+      {
+       "book_options": "blood_angels",
+       "group": "the_death_company"
+      }
+     ]
+    },
+    {
+     "id": "character_death_company_keyword",
+     "printed": "All Blood Angels units with the Character special rule gain the Death Company Keyword.",
+     "keywords": {
+      "conditions": [
+       {
+        "keyword": "Blood Angels"
+       },
+       {
+        "rule": {
+         "rule": "universal_special_rules/character",
+         "name": "Character",
+         "url": "https://longwarindex.app/universal_special_rules/character/"
+        }
+       }
+      ],
+      "add": [
+       "Death Company"
+      ]
+     }
+    },
+    {
+     "id": "death_company_scout",
+     "printed": "All units with the Death Company special rule and their attached units gain the Scout special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "rule": {
+         "rule": "codex/blood_angels/special_rules/death_company",
+         "name": "Death Company",
+         "url": "https://longwarindex.app/special_rules/death_company/"
+        }
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/scout",
+        "name": "Scout",
+        "url": "https://longwarindex.app/universal_special_rules/scout/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

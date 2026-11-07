@@ -1,0 +1,177 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://longwarindex.app/data/v5/factions/schema.json",
+ "title": "Long War Index factions file (factions/index.json)",
+ "description": "One record per faction: its book and the data file of each kind of data. Each kind of data is a property: weapons, wargear, special_rules. A later kind (units) adds a property like these. The property core gives the files that belong to no faction.",
+ "type": "object",
+ "required": [
+  "data_version",
+  "format",
+  "factions"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "data_version": {
+   "type": "string",
+   "description": "Hash of the file content. It changes when any faction file changes."
+  },
+  "format": {
+   "const": 1
+  },
+  "core": {
+   "type": "object",
+   "additionalProperties": false,
+   "description": "The files that belong to no faction.",
+   "properties": {
+    "special_rules": {
+     "$ref": "#/$defs/data_file",
+     "description": "The core special rules: special_rules/core.json."
+    },
+    "weapon_types": {
+     "$ref": "#/$defs/data_file",
+     "description": "The weapon types: weapon_types/core.json."
+    },
+    "unit_types": {
+     "$ref": "#/$defs/data_file",
+     "description": "The unit types of §17.0: unit_types/core.json."
+    },
+    "glossary": {
+     "$ref": "#/$defs/data_file",
+     "description": "The glossary terms: glossary/core.json."
+    },
+    "battle_packs": {
+     "$ref": "#/$defs/data_file",
+     "description": "The battle packs: battle_packs/core.json."
+    }
+   }
+  },
+  "all_factions": {
+   "type": "object",
+   "required": [
+    "page",
+    "names"
+   ],
+   "additionalProperties": false,
+   "description": "The closed list of the factions: the factions of §1.4.1 and the other exported factions. A faction that is in neither list is a data error. names includes the factions that have no export yet.",
+   "properties": {
+    "page": {
+     "type": "integer",
+     "description": "The printed page number of §1.4.1."
+    },
+    "url": {
+     "type": "string",
+     "format": "uri",
+     "description": "The page of §1.4.1 on the site."
+    },
+    "names": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "The faction names as §1.4.1 prints them."
+    },
+    "other_names": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "The exported factions with no parent faction that §1.4.1 does not list (for example \"Harlequins\"), as their faction_name. Not present if there are none. A supplement (a faction with a parent faction) is never in this list."
+    }
+   }
+  },
+  "factions": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/faction"
+   }
+  }
+ },
+ "$defs": {
+  "faction": {
+   "type": "object",
+   "required": [
+    "faction",
+    "faction_name",
+    "parent_faction",
+    "source",
+    "version",
+    "weapons"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "faction": {
+     "type": "string",
+     "pattern": "^[a-z0-9_]+$",
+     "description": "Faction key."
+    },
+    "faction_name": {
+     "type": "string"
+    },
+    "parent_faction": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "Key of the faction whose codex a supplement needs: blood_angels -> space_marines."
+    },
+    "source": {
+     "type": "string",
+     "description": "The book, for example \"Codex: Tyranids\"."
+    },
+    "version": {
+     "type": "string",
+     "description": "Edition of the book, for example \"5.0\"."
+    },
+    "printing": {
+     "type": "string",
+     "description": "Date of a revised printing of that edition (YYYY-MM-DD)."
+    },
+    "weapons": {
+     "$ref": "#/$defs/data_file"
+    },
+    "wargear": {
+     "$ref": "#/$defs/data_file"
+    },
+    "special_rules": {
+     "$ref": "#/$defs/data_file"
+    },
+    "units": {
+     "$ref": "#/$defs/data_file",
+     "description": "The datasheets of the faction, without the options: units/<faction>.json."
+    },
+    "book_options": {
+     "$ref": "#/$defs/data_file",
+     "description": "The book-wide option lists of the faction: book_options/<faction>.json."
+    },
+    "army_construction": {
+     "$ref": "#/$defs/data_file",
+     "description": "The army construction rules of the faction: army_construction/<faction>.json. count: the allegiances and the Rites of War."
+    }
+   }
+  },
+  "data_file": {
+   "type": "object",
+   "required": [
+    "file",
+    "data_version",
+    "count"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "file": {
+     "type": "string",
+     "pattern": "^/data/v[0-9]+/[a-z_]+/[a-z0-9_]+\\.json$",
+     "description": "Path on the site, for example /data/v5/weapons/tyranids.json."
+    },
+    "data_version": {
+     "type": "string",
+     "description": "data_version of that file."
+    },
+    "count": {
+     "type": "integer",
+     "description": "Number of entries in that file."
+    }
+   }
+  }
+ }
+}

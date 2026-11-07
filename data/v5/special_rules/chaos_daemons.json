@@ -1,0 +1,593 @@
+{
+ "data_version": "b2fbfcdae244e203",
+ "format": 1,
+ "faction": "chaos_daemons",
+ "special_rules": [
+  {
+   "id": "codex/chaos_daemons/special_rules/daemon",
+   "name": "Daemon",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/daemon_chaos_daemons/",
+   "references": [
+    "universal_special_rules/fear"
+   ],
+   "text": "A unit with this rule gains the Daemon Keyword. The Daemon unit has a 5+ Invulnerable save and the Fear (1) special rule. Daemon units have +1\" to their Movement (M) characteristic. (This is included in unit data sheets that have the Daemon special rule by default)",
+   "effects": {
+    "keywords": [
+     "Daemon"
+    ],
+    "invulnerable_save": "5+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/daemonic_instability",
+   "name": "Daemonic Instability",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/daemonic_instability/",
+   "text": "When a unit with this special rule fails a Panic test, instead of falling back the unit begins to flicker out of existence. Instead of Falling Back, the unit suffers D3 wounds with no saves of any kind which cannot be ignored. The unit then continues as normal as if it passed the Panic test."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/greater_daemon",
+   "name": "Greater Daemon",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/greater_daemon/",
+   "references": [
+    "universal_special_rules/battle_hardened"
+   ],
+   "text": "A unit with this special rule gains the Greater Daemon Keyword. A unit with this special rule has a 4+ Invulnerable save and gains the Battle-Hardened special rule.",
+   "effects": {
+    "keywords": [
+     "Greater Daemon"
+    ],
+    "invulnerable_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/warp_surge",
+   "name": "Warp Surge",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/warp_surge/",
+   "references": [
+    "universal_special_rules/deep_strike",
+    "universal_special_rules/character",
+    "universal_special_rules/fleet",
+    "special_rules/linked",
+    "special_rules/blast"
+   ],
+   "text": "At the start of each Battle round, roll 2D6 and consult the chart below. If your Army includes at least 1 unit with the Greater Daemon keyword. After rolling on the Warp Surge table, you may modify the result by 1. Apply any benefits listed as affecting friendly units with this special rule.\n\n2D6\tResult\n2\tFlickering tides: All Daemon units in your army worsen their Invulnerable Saves by 1 until the end of the battle round.\n3\tUnexpected tide: immediately summon 1 Flesh Hounds, Fiends of Slaanesh, Beast of Nurgle or Screamers of Tzeentch unit anywhere on the battlefield wholly within 9\" of a friendly Daemon character. The summoned unit arrives Deep Strike and arrives automatically. This result has no effect if you have no units with the Character special rule alive and on the Battlefield.\n4\tAnchoring Tide: All Daemon units improve their Invulnerable saves by 1 until the end of the battle round (to a max of 3+).\n5\tStrengthening Tide: All Daemon units gain +1 to their Strength (S) characteristic until the end of the battle round.\n6\tDark Prince Ascendant: All Daemon units gain +1 to their Movement (M) characteristic in addition until the end of the round. In addition, all Slaanesh Daemon units gain the Fleet special rule until the end of the Battle Round.\n7\tPlague Father Ascendant: All Daemon units gain +1 to their Toughness (T) characteristic until the end of the battle round. All Nurgle Daemon units immediately Heal 1 lost wound when this result is rolled.\n8\tBlood God Ascendant: All Daemon units gain +1 to their Attacks (A) characteristic until the end of the battle round. All Khorne Daemon units gain +1 to their Weapon Skill (WS) characteristic until the end of the battle round.\n9\tChanger of Fate Ascendant: All Daemon gain +1 to their Ballistic Skill (BS) characteristic until the end of the phase. All Tzeentch Daemon units gain the Linked special rule on each Ranged & Psychic weapons they are equipped with until the end of the phase.\n10\tHellfire Rain: Immediately make D3 attacks anywhere on the board with a strength 6, AP4, Blast (Large) weapon that hits on a 4+.\n11\tWarp Rift: Immediately select 1 Daemon unit on the battlefield. Remove it from play and place it back on the board anywhere on the battlefield more than 9\" away from any enemy models.\n12\tGreat Incursion: Immediately summon 1 Bloodletter, Daemonettes, Plague Bearer or Pink Horror unit anywhere on the battlefield wholly within 9\" of a friendly Daemon character. The summoned unit arrives via Deep Strike and arrives automatically. This result has no effect if you have no units with the Character special rule alive and on the Battlefield."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/sacrificial",
+   "name": "Sacrificial",
+   "kind": "weapon",
+   "page": 13,
+   "url": "https://longwarindex.app/special_rules/sacrificial/",
+   "references": [
+    "special_rules/psychic_weapon"
+   ],
+   "text": "When attempting to cast a Psychic Power or Psychic Weapon, a model equipped with this weapon may inflict 1 wound to itself. After allocating the wound and rolling to see if its ignored, the model may re-roll 1 dice when attempting to cast a Psychic Power."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/exalted_daemon",
+   "name": "Exalted Daemon",
+   "kind": "datasheet",
+   "page": 29,
+   "url": "https://longwarindex.app/special_rules/exalted_daemon/",
+   "text": "The unit gains +1 to its Weapon Skill (WS), Strength (S), Toughness (T), Attacks (A), and Leadership (LD) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "WS",
+      "delta": 1
+     },
+     {
+      "characteristic": "S",
+      "delta": 1
+     },
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "A",
+      "delta": 1
+     },
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/locus_of_khorne",
+   "name": "Locus of Khorne",
+   "kind": "datasheet",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/locus_of_khorne/",
+   "references": [
+    "codex/chaos_daemons/special_rules/warp_surge"
+   ],
+   "text": "After rolling the on the Warp Surge table at the start of the battle round for the Warp Surge special rule, if a model with this special rule is on the battlefield and alive, you may change the result to an 8."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/locus_of_nurgle",
+   "name": "Locus of Nurgle",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/locus_of_nurgle/",
+   "references": [
+    "codex/chaos_daemons/special_rules/warp_surge"
+   ],
+   "text": "After rolling the on the Warp Surge table at the start of the battle round for the Warp Surge special rule, if a model with this special rule is on the battlefield and alive, you may change the result to a 7."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/sloppity_bilepiper",
+   "name": "Sloppity Bilepiper",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/sloppity_bilepiper/",
+   "references": [
+    "universal_special_rules/crusader",
+    "universal_special_rules/psyker"
+   ],
+   "text": "A unit with this upgrade exchanges its Bale Sword for a Close Combat Weapon. The Sloppity Bilepiper and any attached unit gains the Crusader special rules. The unit loses the Psyker (1) special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/crusader",
+      "name": "Crusader",
+      "url": "https://longwarindex.app/universal_special_rules/crusader/"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "bale_sword"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "close_combat_weapon"
+       }
+      ]
+     }
+    ],
+    "loses_rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/spoilpox_scribbler",
+   "name": "Spoilpox Scribbler",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/spoilpox_scribbler/",
+   "references": [
+    "universal_special_rules/zealot",
+    "universal_special_rules/psyker"
+   ],
+   "text": "A unit with this upgrade exchanges its Bale Sword for a Close Combat Weapon. The Spoilpox Scribbler and any attached unit gains the Zealot special rules. The unit loses the Psyker (1) special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/zealot",
+      "name": "Zealot",
+      "url": "https://longwarindex.app/universal_special_rules/zealot/"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "bale_sword"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "close_combat_weapon"
+       }
+      ]
+     }
+    ],
+    "loses_rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/infernal_enrapturess",
+   "name": "Infernal Enrapturess",
+   "kind": "datasheet",
+   "page": 35,
+   "url": "https://longwarindex.app/special_rules/infernal_enrapturess/",
+   "text": "A unit with this upgrade gains the Heartstring Lyre.",
+   "effects": {
+    "items": [
+     {
+      "kind": "weapon",
+      "id": "heartstring_lyre"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/locus_of_slaanesh",
+   "name": "Locus of Slaanesh",
+   "kind": "datasheet",
+   "page": 35,
+   "url": "https://longwarindex.app/special_rules/locus_of_slaanesh/",
+   "references": [
+    "codex/chaos_daemons/special_rules/warp_surge"
+   ],
+   "text": "After rolling the on the Warp Surge table at the start of the battle round for the Warp Surge special rule, if a model with this special rule is on the battlefield and alive, you may change the result to a 6."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/locus_of_tzeentch",
+   "name": "Locus of Tzeentch",
+   "kind": "datasheet",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/locus_of_tzeentch/",
+   "references": [
+    "codex/chaos_daemons/special_rules/warp_surge"
+   ],
+   "text": "After rolling the on the Warp Surge table at the start of the battle round for the Warp Surge special rule, if a model with this special rule is on the battlefield and alive, you may change the result to a 9."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/burning_rage",
+   "name": "Burning Rage",
+   "kind": "warlord_trait",
+   "page": 37,
+   "url": "https://longwarindex.app/special_rules/burning_rage/",
+   "references": [
+    "universal_special_rules/frenzy",
+    "special_rules/macro"
+   ],
+   "text": "When Skarbrand suffers the effects of Frenzy, he gains +3 additional bonus Attacks in the Combat Phase on the turn he completes a charge. In addition, while Skarbrand is under the effects of Frenzy he gains the Macro special rule on all Melee weapons he is equipped with."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/deluge_of_nurgle",
+   "name": "Deluge of Nurgle",
+   "kind": "warlord_trait",
+   "page": 38,
+   "url": "https://longwarindex.app/special_rules/deluge_of_nurgle/",
+   "text": "All terrain within 12\" of Rotigus Rain Father are considered Difficult Terrain, including open terrain. In addition, each time Rotigus casts a Psychic Power, all units on the Battlefield that do not have the Nurgle Keyword suffer -1 to their Leadership (LD) characteristic."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/fanged_maw",
+   "name": "Fanged Maw",
+   "kind": "datasheet",
+   "page": 38,
+   "url": "https://longwarindex.app/special_rules/fanged_maw/",
+   "text": "At Initiative Step 1 of a Combat in the Combat Phase that this unit is engaged in, you may select a single enemy model with 4 or less wounds. The model must roll a D6. If the result is lower than the models unmodified Strength (S) characteristic, nothing happens. If the result is higher, the model is slain and removed from play."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/challenge_of_the_duel",
+   "name": "Challenge of the Duel",
+   "kind": "warlord_trait",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/challenge_of_the_duel/",
+   "references": [
+    "universal_special_rules/preferred_enemy",
+    "universal_special_rules/hit_and_run"
+   ],
+   "text": "In the Combat Phase, Shelaxi Hellbane can issue a challenge. A single enemy model may accept the challenge. If so, move these models to be within 1\" of each other. During the combat, wounds inflicted by Shelaxi and the model which accepts the challenge may only allocate wounds to each other from their attacks. While in a Challenge, Shelaxi gains the Preferred Enemy special rule. If no Challenge is accepted, Shelaxi gains the Hit & Run special rule."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/foresight",
+   "name": "Foresight",
+   "kind": "datasheet",
+   "page": 40,
+   "url": "https://longwarindex.app/special_rules/foresight_chaos_daemons/",
+   "text": "While this unit is alive and, on the battlefield, you may re-roll any 2 dice rolls each battle round."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/past_and_future_at_once",
+   "name": "Past and Future at Once",
+   "kind": "warlord_trait",
+   "page": 40,
+   "url": "https://longwarindex.app/special_rules/past_and_future_at_once/",
+   "references": [
+    "codex/chaos_daemons/special_rules/warp_surge"
+   ],
+   "text": "Kairos Fateweaver and any attached unit may always set to Overwatch, even if he made a Shooting Attack in the Shooting Phase. In addition, while Kairos Fateweaver is your Warlord, you may may declare your Warp Surge result at the beginning of each Battle Round instead of rolling."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/shadow_form",
+   "name": "Shadow Form",
+   "kind": "datasheet",
+   "page": 41,
+   "url": "https://longwarindex.app/special_rules/shadow_form/",
+   "text": "Instead of Setting to Overwatch, this unit may set to become Shadow. At the end of your opponent's Charge phase, if no enemy units are within 3\" of this model, you may remove it from the battlefield and place it into ongoing reserves."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/the_first_favoured",
+   "name": "The First Favoured",
+   "kind": "warlord_trait",
+   "page": 41,
+   "url": "https://longwarindex.app/special_rules/the_first_favoured/",
+   "text": "If Be'lakor is your Warlord, at the start of each Battle Round, you may opt to exchange your current Mark (see wargear) for a Different Mark of Chaos."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/prince_of_the_ruinstorm",
+   "name": "Prince of the Ruinstorm",
+   "kind": "datasheet",
+   "page": 42,
+   "url": "https://longwarindex.app/special_rules/prince_of_the_ruinstorm/",
+   "text": "during deployment, you may place down 1 Rift Marker (See Incursion Rite of War) anywhere on the battlefield."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/whispers_of_madness",
+   "name": "Whispers of Madness",
+   "kind": "warlord_trait",
+   "page": 42,
+   "url": "https://longwarindex.app/special_rules/whispers_of_madness/",
+   "references": [
+    "universal_special_rules/fear"
+   ],
+   "text": "Enemy units within 3\" of Samus while he is your Warlord, halve their Leadership (LD) characteristic. This stacks with the effects of the Fear (x) special rule."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/the_warfiend",
+   "name": "The Warfiend",
+   "kind": "warlord_trait",
+   "page": 43,
+   "url": "https://longwarindex.app/special_rules/the_warfiend/",
+   "text": "If this unit is your Warlord, it and any attached unit always hits on a 3+ in the Combat Phase unless the target units Weapon Skill (WS) characteristic is double this units."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/tide_of_flesh",
+   "name": "Tide of Flesh",
+   "kind": "datasheet",
+   "page": 44,
+   "url": "https://longwarindex.app/special_rules/tide_of_flesh/",
+   "references": [
+    "universal_special_rules/regeneration"
+   ],
+   "text": "When this unit makes a Regeneration roll (see Regeneration Special rule), this unit may roll 2D6."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/worthy_trophies",
+   "name": "Worthy Trophies",
+   "kind": "warlord_trait",
+   "page": 45,
+   "url": "https://longwarindex.app/special_rules/worthy_trophies/",
+   "references": [
+    "universal_special_rules/preferred_enemy"
+   ],
+   "text": "If Skulltaker is your Warlord, he and any attached unit gain the Preferred Enemy (Infantry) special rule. In addition, each time an enemy unit is slain as a result of wounds inflicted by Skulltaker, rolls a D6. On a 1, Skulltaker does not find a worthy skull and nothing happens. On a 6, a worthy Trophy is found and Skulltaker and his attached unit gain the Preferred Enemy special rule for the rest of the game.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/preferred_enemy",
+        "name": "Preferred Enemy",
+        "param": "Infantry",
+        "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+       },
+       "quote": "If Skulltaker is your Warlord, he and any attached unit gain the Preferred Enemy (Infantry) special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/tally_of_pestilence",
+   "name": "Tally of Pestilence",
+   "kind": "warlord_trait",
+   "page": 46,
+   "url": "https://longwarindex.app/special_rules/tally_of_pestilence/",
+   "references": [
+    "special_rules/arcing",
+    "special_rules/shred",
+    "special_rules/poison"
+   ],
+   "text": "If this unit is your Warlord, Epidemius and any attached unit gain the Arcing (6+) special rule. In addition, they gain the Shred special rule on all weapons they are equipped with that have the Poison (x) special rule.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "special_rules/arcing",
+        "name": "Arcing",
+        "param": "6+",
+        "url": "https://longwarindex.app/special_rules/arcing/"
+       },
+       "quote": "If this unit is your Warlord, Epidemius and any attached unit gain the Arcing (6+) special rule."
+      }
+     ],
+     "weapon_rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/",
+       "weapons_with_rules": [
+        {
+         "rule": "special_rules/poison",
+         "name": "Poison",
+         "param": "x",
+         "url": "https://longwarindex.app/special_rules/poison/"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/graceful_acrobatics",
+   "name": "Graceful Acrobatics",
+   "kind": "datasheet",
+   "page": 47,
+   "url": "https://longwarindex.app/special_rules/graceful_acrobatics/",
+   "text": "While this unit is within 3\" of an enemy unit it gains a 4+ Invulnerable save."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/the_eternal_dance",
+   "name": "The Eternal Dance",
+   "kind": "warlord_trait",
+   "page": 47,
+   "url": "https://longwarindex.app/special_rules/the_eternal_dance/",
+   "text": "This units Movement (M) characteristic can never be modified negatively."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/morphing_form",
+   "name": "Morphing Form",
+   "kind": "weapon",
+   "page": 48,
+   "url": "https://longwarindex.app/special_rules/morphing_form/",
+   "text": "The stats of this weapon are equal to one weapon on an enemy model whose unit is engaged with this unit."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/the_master_of_illusions",
+   "name": "The Master of Illusions",
+   "kind": "datasheet",
+   "page": 48,
+   "url": "https://longwarindex.app/special_rules/the_master_of_illusions/",
+   "text": "This unit may opt to join and attach enemy units that do not already have an attached Character model. All of the normal rules for being attached apply and when targeted for attacks, the enemy unit may allocate attacks to the Changeling who may take saves as normal. An enemy unit that the Changeling is attached to suffers -1 to its Weapon Skill (WS), Ballistic Skill (BS), Attacks (A), Initiative (I), and Leadership (LD) characteristics. In addition, the enemy unit cannot contest or control objectives. While attached, the Changeling cannot attack the attached unit in any phase and must leave the attached unit before it can declare movements or charges."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/splitting_horrors",
+   "name": "Splitting Horrors",
+   "kind": "datasheet",
+   "page": 54,
+   "url": "https://longwarindex.app/special_rules/splitting_horrors/",
+   "text": "At the end of each Shooting Phase or Combat Phase, add 2 Blue Horror models to the unit for each Pink Horror model from the unit that was slain and removed from play that phase. Add 1 Brimstone Horror to the unit for each Blue Horror slain and removed from play that phase. Newly placed models must be placed within coherency of a model that was not added to the unit that phase. If all models in the unit were slain in the phase, you do not place any Blue or Brimstone Horrors on the board."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/gift_of_power",
+   "name": "Gift of Power",
+   "kind": "datasheet",
+   "page": 59,
+   "url": "https://longwarindex.app/special_rules/gift_of_power/",
+   "text": "In the Shooting Phase, instead of making a shooting attack, you can select a single Psyker on the Battlefield within 18\" of this model. That unit immediately suffers a Peril of the Warp."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/swallow_energy",
+   "name": "Swallow Energy",
+   "kind": "datasheet",
+   "page": 59,
+   "url": "https://longwarindex.app/special_rules/swallow_energy/",
+   "text": "Instead of Casting a Psychic Power, this unit may attempt to absorb energy instead. Make a Leadership test. If the test is passed, this unit and any attached unit gain +1 to their Strength (S) characteristic. On a fail, the unit suffers a Peril of the Warp."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/roar_of_the_hunter",
+   "name": "Roar of the Hunter",
+   "kind": "datasheet",
+   "page": 61,
+   "url": "https://longwarindex.app/special_rules/roar_of_the_hunter/",
+   "text": "At the beginning of the Combat Phase, roll 3D6. If the total result is higher than an engaged units Leadership (LD) characteristic, they suffer -1 to their Initiative (I) characteristic until the end of the Phase."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/gardener_of_nurgle",
+   "name": "Gardener of Nurgle",
+   "kind": "datasheet",
+   "page": 62,
+   "url": "https://longwarindex.app/special_rules/gardener_of_nurgle/",
+   "text": "Once per game, in the Movement phase instead of performing a Movement action, Horticulus may spawn a Nexus of Power within 3\" of him. This must be placed more than 9\" away from any enemy models."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/slime_trail_of_nurgle",
+   "name": "Slime Trail of Nurgle",
+   "kind": "datasheet",
+   "page": 62,
+   "url": "https://longwarindex.app/special_rules/slime_trail_of_nurgle/",
+   "text": "This unit has +1 to the dice roll when rolling for Sweeping Advances."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/arcane_magic_unleashed",
+   "name": "Arcane Magic Unleashed",
+   "kind": "datasheet",
+   "page": 63,
+   "url": "https://longwarindex.app/special_rules/arcane_magic_unleashed/",
+   "text": "This unit knows all Psychic Powers from all armies on the Battlefield if they have their own Psychic Discipline."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/soporific_musk",
+   "name": "Soporific Musk",
+   "kind": "datasheet",
+   "page": 66,
+   "url": "https://longwarindex.app/special_rules/soporific_musk/",
+   "text": "Enemy Infantry, Bike, Jetbike, Cavalry, Beast, and Monster type units engaged in Combat with this unit suffer -1 to the Weapon Skill (WS) characteristic."
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/exalted_chariot",
+   "name": "Exalted Chariot",
+   "kind": "datasheet",
+   "page": 67,
+   "url": "https://longwarindex.app/special_rules/exalted_chariot/",
+   "references": [
+    "universal_special_rules/hammer_of_wrath"
+   ],
+   "text": "An Exalted Chariot increases its Hammer of Wrath (1) special rule to Hammer of Wrath (2).",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/chaos_daemons/special_rules/focal_point",
+   "name": "Focal Point",
+   "kind": "datasheet",
+   "page": 73,
+   "url": "https://longwarindex.app/special_rules/focal_point/",
+   "references": [
+    "universal_special_rules/deep_strike",
+    "special_rules/pinning"
+   ],
+   "text": "Friendly Daemon units which arrive via Deep Strike do not Scatter and arrive on target if they arrive within 12\" of this model. In addition, friendly Daemon units within 12\" of this model may re-roll all Leadership Tests for Pinning, Panic and Casting Psychic powers."
+  }
+ ]
+}

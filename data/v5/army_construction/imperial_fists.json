@@ -1,0 +1,653 @@
+{
+ "data_version": "978310f650055d94",
+ "format": 1,
+ "faction": "imperial_fists",
+ "codex": {
+  "id": "codex/imperial_fists",
+  "name": "Imperial Fists",
+  "page": 3,
+  "url": "https://longwarindex.app/codex/imperial_fists/",
+  "parent": "space_marines",
+  "army_rules": [
+   {
+    "rule": "codex/imperial_fists/special_rules/armoury_of_the_7th_legion",
+    "name": "Armoury of the 7th Legion",
+    "url": "https://longwarindex.app/special_rules/armoury_of_the_7th_legion/"
+   }
+  ],
+  "allies": null,
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/imperial_fists/rites_of_war/siege_assault"
+   ],
+   "from_parent": [
+    "codex/space_marines/rites_of_war/drop_pod_assault",
+    "codex/space_marines/rites_of_war/armoured_support",
+    "codex/space_marines/rites_of_war/mechanised_assault",
+    "codex/space_marines/rites_of_war/vanguard_support",
+    "codex/space_marines/rites_of_war/pride_of_the_chapter"
+   ],
+   "banned_from_parent": [
+    "codex/space_marines/rites_of_war/grey_shields"
+   ]
+  },
+  "unit_list": null,
+  "keyword_templates": [
+   {
+    "template": "<Chapter>",
+    "printed": "All units have the <Chapter> keyword. This is replaced with Imperial Fists Keyword.",
+    "substitution": {
+     "value": "Imperial Fists"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/imperial_fists/allegiances/allegiance_imperial_fists",
+   "name": "Allegiance: Imperial Fists",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_imperial_fists/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "keyword_substitution": {
+    "template": "<Chapter>",
+    "value": "Imperial Fists"
+   },
+   "rule": {
+    "rule": "codex/imperial_fists/allegiances/allegiance_imperial_fists",
+    "name": "Allegiance: Imperial Fists",
+    "printed": "codex/imperial_fists/allegiances/allegiance_imperial_fists",
+    "url": "https://longwarindex.app/allegiances/allegiance_imperial_fists/"
+   },
+   "unit_list": {
+    "page": 12,
+    "url": "https://longwarindex.app/unit_list/imperial_fists_unit_list/",
+    "entries": [
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_captain",
+      "printed": "Space Marine Captain",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/lieutenant",
+      "printed": "Lieutenant",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_command_squad",
+      "printed": "Space Marine Command Squad",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/damocles_command_rhino",
+      "printed": "Damocles Command Rhino",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/imperial_fists/roster/captain_lysander",
+      "printed": "Captain Lysander",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/imperial_fists/roster/tor_garadon",
+      "printed": "Tor Garadon",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/imperial_fists/roster/huscarl",
+      "printed": "Huscarl",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/imperial_fists/roster/auric_auxilia_colonel",
+      "printed": "Auric Auxilia Colonel",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/scouts",
+      "printed": "Scouts",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/tactical_squad",
+      "printed": "Tactical Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/infiltrator_squad",
+      "printed": "Infiltrator Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/imperial_fists/roster/auric_auxilia",
+      "printed": "Auric Auxilia",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/veteran_squad",
+      "printed": "Veteran Squad",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/eliminator_squad",
+      "printed": "Eliminator Squad",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/centurions",
+      "printed": "Centurions",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/tactical_terminators",
+      "printed": "Tactical Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/assault_terminators",
+      "printed": "Assault Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/relic_terminators",
+      "printed": "Relic Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/castraferrum_dreadnought",
+      "printed": "Castraferrum Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/contemptor_dreadnought",
+      "printed": "Contemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/redemptor_dreadnought",
+      "printed": "Redemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invictor_tactical_warsuit",
+      "printed": "Invictor Tactical Warsuit",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/rhino_apc",
+      "printed": "Rhino APC",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/razorback_ifv",
+      "printed": "Razorback IFV",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder_storm",
+      "printed": "Land Speeder Storm",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/drop_pod",
+      "printed": "Drop Pod",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/impulsor",
+      "printed": "Impulsor",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormhawk_interceptor",
+      "printed": "Stormhawk Interceptor",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormtalon_gunship",
+      "printed": "Stormtalon Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormraven_gunship",
+      "printed": "Stormraven Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_eagle_gunship",
+      "printed": "Storm Eagle Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/bike_squad",
+      "printed": "Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/scout_bike_squad",
+      "printed": "Scout Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/attack_bike_squad",
+      "printed": "Attack Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/assault_marine_squad",
+      "printed": "Assault Marine Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/reiver_squad",
+      "printed": "Reiver Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/incursor_squad",
+      "printed": "Incursor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/inceptor_squad",
+      "printed": "Inceptor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/suppressor_squad",
+      "printed": "Suppressor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invader_atv",
+      "printed": "Invader ATV",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder",
+      "printed": "Land Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_speeder",
+      "printed": "Storm Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/javelin_attack_speeder",
+      "printed": "Javelin Attack Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sabre_strike_tank",
+      "printed": "Sabre Strike Tank",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/devastator_squad",
+      "printed": "Devastator Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/weapon_support_squad",
+      "printed": "Weapon Support Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gravis_support_squad",
+      "printed": "Gravis Support Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/firestrike_servo_turret",
+      "printed": "Firestrike Servo Turret",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/predator_mbt",
+      "printed": "Predator MBT",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_siege_tank",
+      "printed": "Vindicator Siege Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/whirlwind_artillery_tank",
+      "printed": "Whirlwind artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hunter_artillery_tank",
+      "printed": "Hunter Artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stalker_aa_tank",
+      "printed": "Stalker AA Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gladiator_assault_tank",
+      "printed": "Gladiator Assault Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider",
+      "printed": "Land Raider",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_redeemer",
+      "printed": "Land Raider Redeemer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_crusader",
+      "printed": "Land Raider Crusader",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_hifv",
+      "printed": "Repulsor HIFV",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_executioner",
+      "printed": "Repulsor Executioner",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/deredeo_dreadnought",
+      "printed": "Deredeo Dreadnought",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fire_raptor_gunship",
+      "printed": "Fire Raptor Gunship",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_laser_destroyer",
+      "printed": "Vindicator Laser Destroyer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sicaran_heavy_tank",
+      "printed": "Sicaran Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/kratos_super_heavy_tank",
+      "printed": "Kratos Super Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/imperial_fists/roster/tarantula_battery",
+      "printed": "Tarantula Battery",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/imperial_fists/roster/chapter_arquitor_bombard",
+      "printed": "Chapter Arquitor Bombard",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/leviathan_dreadnought",
+      "printed": "Leviathan Dreadnought",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/spartan_assault_tank",
+      "printed": "Spartan Assault Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/astraeus",
+      "printed": "Astraeus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/cerberus",
+      "printed": "Cerberus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/falchion",
+      "printed": "Falchion",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fellblade",
+      "printed": "Fellblade",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/mastodon",
+      "printed": "Mastodon",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/typhon_siege_tank",
+      "printed": "Typhon Siege Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/thunderhawk_gunship",
+      "printed": "Thunderhawk Gunship",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hammerfall_bunker",
+      "printed": "Hammerfall Bunker",
+      "role": "Fortification"
+     },
+     {
+      "datasheet": "codex/imperial_fists/roster/bastion",
+      "printed": "Bastion",
+      "role": "Fortification"
+     },
+     {
+      "datasheet": "codex/imperial_fists/roster/aegis_defence_line",
+      "printed": "Aegis Defence Line",
+      "role": "Fortification"
+     },
+     {
+      "datasheet": "codex/imperial_fists/roster/firestorm_redoubt",
+      "printed": "Firestorm Redoubt",
+      "role": "Fortification"
+     }
+    ]
+   },
+   "restrictions": [
+    {
+     "id": "warlord_traits_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/imperial_fists/",
+     "printed": "You must use the Warlord traits presented in this supplement instead of the those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "warlord_traits"
+       }
+      ]
+     }
+    },
+    {
+     "id": "rites_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/imperial_fists/",
+     "printed": "You must use the Rites of War presented in this supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/space_marines/rites_of_war/grey_shields"
+     ]
+    },
+    {
+     "id": "unit_list_only",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/imperial_fists/",
+     "printed": "You may not field the units not listed on the Imperial Fists Unit list in this Codex Supplement.",
+     "scope": "detachment",
+     "unit_list": true
+    },
+    {
+     "id": "relics_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/imperial_fists/",
+     "printed": "You may not use the Relics from Codex Space Marines and must use the Relic Wargear presented in this supplement.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "relics"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "siege_attacker_grant",
+     "printed": "Imperial Fists units gain the Siege Attacker special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Imperial Fists"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/siege_attackers",
+        "name": "Siege Attackers",
+        "printed": "Siege Attacker",
+        "url": "https://longwarindex.app/universal_special_rules/siege_attackers/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "Imperial Fists units re-roll all to hit rolls of 1 with Bolt Pistol, Boltguns, Heavy Boltguns, Heavy Bolters, Linked Boltguns, Linked Heavy Bolters, Gatebreaker Boltguns and Chainswords.",
+    "All Imperial Fists army must re-roll successful Feel No Pain rolls made using the Feel No Pain Special rule.",
+    "If your opponent is Iron Warriors, you must play 1 additional Battle Round of the battle regardless of the battlepack rules."
+   ],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/imperial_fists/rites_of_war/siege_assault",
+   "name": "Siege Assault",
+   "page": 11,
+   "url": "https://longwarindex.app/rites_of_war/siege_assault/",
+   "offered_by": {
+    "allegiance": "codex/imperial_fists/allegiances/allegiance_imperial_fists"
+   },
+   "text": "Restrictions:\n\n- Your army must include at least 1 Tactical Squads unit.\n- Your army must include at least 1 Vindicator Tank.\n- Your army must include at least 1 Centurion unit.\n\nBenefits:\n\n- You may field Centurion units as Troops choices, but they gain the Support Squad special rule.\n- You may field Vindicator Tanks as Elites choices.\n- Units in your army may re-roll all to Hit rolls with Melta Bombs.",
+   "restrictions": [
+    {
+     "id": "tactical_squad_unit",
+     "printed": "Your army must include at least 1 Tactical Squads unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/tactical_squad"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "vindicator_tank_unit",
+     "printed": "Your army must include at least 1 Vindicator Tank.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/vindicator_siege_tank"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "centurion_unit",
+     "printed": "Your army must include at least 1 Centurion unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/centurions"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "centurions_troops",
+     "printed": "You may field Centurion units as Troops choices, but they gain the Support Squad special rule.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/centurions"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "centurions_support_squad",
+     "printed": "You may field Centurion units as Troops choices, but they gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/centurions"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "vindicator_tanks_elites",
+     "printed": "You may field Vindicator Tanks as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/vindicator_siege_tank"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "Units in your army may re-roll all to Hit rolls with Melta Bombs."
+   ],
+   "unencoded": []
+  }
+ ]
+}

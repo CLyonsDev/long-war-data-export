@@ -1,0 +1,705 @@
+{
+ "data_version": "33608d281fad734b",
+ "format": 1,
+ "faction": "chaos_space_marines",
+ "wargear": [
+  {
+   "id": "auspex_scanner",
+   "name": "Auspex Scanner",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/auspex_scanner_chaos_space_marines/",
+   "text": "Enemy units may not Infiltrate within 18\" of a model equipped with this wargear."
+  },
+  {
+   "id": "melta_bomb",
+   "name": "Melta Bomb",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "melta_bomb"
+    }
+   ],
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/melta_bomb_chaos_space_marines/",
+   "text": "In combat, a model with this wargear may forgo its attacks and instead make a single Strength 8, AP1 attack with the Melta Special rule at Initiative step 1."
+  },
+  {
+   "id": "chaos_sigil",
+   "name": "Chaos Sigil",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/chaos_sigil_chaos_space_marines/",
+   "text": "A model with a Chaos Sigil has a 4+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "narthecium",
+   "name": "Narthecium",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/narthecium_chaos_space_marines/",
+   "text": "A model with this Wargear and their attached unit gain Feel No Pain (5+) Special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "aura_of_dark_glory",
+   "name": "Aura of Dark Glory",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/aura_of_dark_glory_chaos_space_marines/",
+   "text": "A model with a Aura of Dark Glory has a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "chaos_familiar",
+   "name": "Chaos Familiar",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/chaos_familiar_chaos_space_marines/",
+   "text": "A model with Chaos Familiar gains +1 to their Attacks (A) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "A",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "chaos_runes",
+   "name": "Chaos Runes",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/chaos_runes_chaos_space_marines/",
+   "text": "A model with a Chaos Runes has a 6+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "6+"
+   }
+  },
+  {
+   "id": "grenade_harness",
+   "name": "Grenade Harness",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/grenade_harness_chaos_space_marines/",
+   "text": "A unit which includes a model with this wargear does not suffer the penalties of a Disordered Charge for Charging through Difficult Terrain."
+  },
+  {
+   "id": "bionics",
+   "name": "Bionics",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/bionics_chaos_space_marines/",
+   "text": "A model with this wargear gains the Feel no Pain (6+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "6+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "icon_of_chaos",
+   "name": "Icon of Chaos",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/icon_of_chaos_chaos_space_marines/",
+   "text": "A unit that includes a model equipped with the Icon of Chaos always counts as scoring 1 additional Wound for the purposes of Combat resolution. Additionally, a unit that arrives on the battlefield via Deep Strike within 12\" of a unit with this wargear does not scatter. Finally, when a unit which includes a model with this special rule would conduct a Fall Back Move which would cause it to move off the table, the unit instead stops 1\" away from the table edge and automatically rallies in your next Movement Phase."
+  },
+  {
+   "id": "power_armour",
+   "name": "Power Armour",
+   "section": "Armours",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/power_armour_chaos_space_marines/",
+   "text": "Basic Power Armour used by most Astartes. It provides a 3+ Armour Save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "warp_armour",
+   "name": "Warp Armour",
+   "section": "Armours",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/warp_armour_chaos_space_marines/",
+   "text": "Daemonic infused Armour issued to veterans and champions. It provides a 2+ Armour Save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "indomitus_terminator_armour",
+   "name": "Indomitus Terminator Armour",
+   "section": "Armours",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/indomitus_terminator_armour_chaos_space_marines/",
+   "text": "The Standard Terminator Armour used by most Astartes forces. It provides a 2+ Armour Save and a 5+ Invulnerable Save. The wearer gains the Relentless, Bulky (2) and Deep Strike special rule. Models equipped with this Armour may not perform Sweeping Advances. It grants the Terminator Keyword.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "5+",
+    "keywords": [
+     "Terminator"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "dreadnought_plate",
+   "name": "Dreadnought Plate",
+   "section": "Armours",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/dreadnought_plate_chaos_space_marines/",
+   "text": "These ancient and powerful mechanised war suit encompasses a sarcophagus where an ancient warrior lay entombed. When combined, the warrior may take to the field again with a new body. It confers a 2+ Armour save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "cataphractii_terminator_armour",
+   "name": "Cataphractii Terminator Armour",
+   "section": "Armours",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/cataphractii_terminator_armour_chaos_space_marines/",
+   "text": "An ancient heavier pattern of Terminator Armour rarely used. It provides a 2+ Armour save and a 4+ Invulnerable save. The Wearer gains the Relentless, Bulky (2) and Slow & Purposeful special rules. The wearers Movement (M) Characteristic is decreased by 1\". It grants the Terminator Keyword.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "4+",
+    "keywords": [
+     "Terminator"
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "M",
+      "delta": -1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/slow_and_purposeful",
+      "name": "Slow and Purposeful",
+      "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "daemon_engine_armour",
+   "name": "Daemon Engine Armour",
+   "section": "Armours",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/daemon_engine_armour_chaos_space_marines/",
+   "text": "The living armoured skin of the Daemon engines crafted by Chaos artifice. It confers a 3+ armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "tartaros_terminator_armour",
+   "name": "Tartaros Terminator Armour",
+   "section": "Armours",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/tartaros_terminator_armour_chaos_space_marines/",
+   "text": "A more mobile ancient pattern of Terminator Armour rarely used. It provides a 2+ Armour Save and a 5+ Invulnerable save. The Wearer gains Relentless, Bulky (2) and Sprint (1) special rules. It grants the Terminator Keyword.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "5+",
+    "keywords": [
+     "Terminator"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/sprint",
+      "name": "Sprint",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/sprint/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "jump_pack",
+   "name": "Jump Pack",
+   "section": "Mobility Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/jump_pack_chaos_space_marines/",
+   "text": "A unit that is equipped with a Jump Pack increases its Movement (M) characteristic to 12\". The model gains the Hammer of Wrath (1), Fly, and Deep Strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bike",
+   "name": "Bike",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "linked_boltgun"
+    }
+   ],
+   "section": "Mobility Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/bike_chaos_space_marines/",
+   "text": "A unit that is equipped with a Bike becomes a Bike type unit. In addition, it gains +1 Toughness (T) Characteristics. A Space marine Bike is equipped with a Linked Boltgun.",
+   "effects": {
+    "unit_type": "Bike",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "wings",
+   "name": "Wings",
+   "section": "Mobility Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/wings_chaos_space_marines/",
+   "text": "A unit that is equipped with Wings increases its Movement (M) characteristic to 12\". The model gains the Hammer of Wrath (1), Fly, and Deep strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "daemonic_steed",
+   "name": "Daemonic Steed",
+   "section": "Mobility Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/daemonic_steed_chaos_space_marines/",
+   "text": "A unit that is equipped with a Daemonic Steed becomes a Cavalry type unit. In addition, it gains +1 Strength (S), Toughness (T) and Wounds (W) Characteristics.",
+   "effects": {
+    "unit_type": "Cavalry",
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": 1
+     },
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "assault_launchers",
+   "name": "Assault Launchers",
+   "section": "Vehicle Wargear",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/assault_launchers_chaos_space_marines/",
+   "text": "A model equipped with this Wargear can make 1 additional Hammer of Wrath Attack.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "smoke_launchers",
+   "name": "Smoke Launchers",
+   "section": "Vehicle Wargear",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/smoke_launchers_chaos_space_marines/",
+   "text": "A model equipped with this Wargear can set to smoke instead of Overwatching. Until the start of its next turn, the model gains a 4+ Cover Save."
+  },
+  {
+   "id": "searchlight",
+   "name": "Searchlight",
+   "section": "Vehicle Wargear",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/searchlight_chaos_space_marines/",
+   "text": "A model with this special rule gains the Night Vision special rule. Any unit that it targets in the Shooting Phase no longer gains the benefit of Night Fighting. Any attacks against this unit are not affected by Night Fighting.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/night_vision",
+      "name": "Night Vision",
+      "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_mark_of_chaos_undivided",
+   "name": "The Mark of Chaos Undivided",
+   "section": "Chaos Marks",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_mark_of_chaos_undivided_chaos_space_marines/",
+   "text": "- A unit with this Mark gains the Undivided Keyword and may only be joined by units with the Undivided, Khorne, Tzeentch, Nurgle or Slaanesh keywords.\n- A unit with this Mark gains the Fear (1) special rule. If the unit already has the Fear (x) special rule, increase the value of X by 1.\n- In addition, if the unit would fail a Panic test, instead of Falling Back, the unit takes D3 wounds with no saves or mitigation rolls allowed.\n- A unit with this wargear gains access to the Lore of Slaanesh, Nurgle and Tzeentch Psychic Powers if they have the Psyker (x) special rule.",
+   "effects": {
+    "keywords": [
+     "Undivided"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_mark_of_khorne",
+   "name": "The Mark of Khorne",
+   "section": "Chaos Marks",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_mark_of_khorne_chaos_space_marines/",
+   "text": "- A unit with this Mark gains the Khorne Keyword and may only join or be joined by units with the Khorne or Undivided Keywords.\n- A unit with this mark gains the Furious Charge special rule. If the unit already has the Furious Charge special rule it gains +1 to its Attack (A) characteristic.\n- A unit with the Psyker (x) special rule may not purchase this wargear.",
+   "effects": {
+    "keywords": [
+     "Khorne"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/furious_charge",
+      "name": "Furious Charge",
+      "url": "https://longwarindex.app/universal_special_rules/furious_charge/",
+      "if_already_held": {
+       "characteristic": "A",
+       "delta": 1
+      }
+     }
+    ],
+    "purchase_restriction": {
+     "exclude": {
+      "any_rules": [
+       "universal_special_rules/psyker"
+      ]
+     },
+     "quote": "A unit with the Psyker (x) special rule may not purchase this wargear."
+    }
+   }
+  },
+  {
+   "id": "the_mark_of_tzeentch",
+   "name": "The Mark of Tzeentch",
+   "section": "Chaos Marks",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_mark_of_tzeentch_chaos_space_marines/",
+   "text": "- A unit with this Mark gains the Tzeentch Keyword and may only join or be joined by units with the Tzeentch or Undivided Keywords.\n- A unit with this mark gains +1 to their Invulnerable saves (to a max of 3+). If they do not have an Invulnerable save, they gain a 6+ Invulnerable save.\n- In addition, A unit with this wargear and the Psyker (x) special rule may re-roll 1 dice when making a Psychic Test.\n- A unit with this wargear gains access to the Tzeentch Psychic Powers if they have the Psyker (x) special rule.",
+   "effects": {
+    "invulnerable_save_improve": {
+     "by": 1,
+     "max": "3+",
+     "otherwise": "6+"
+    },
+    "keywords": [
+     "Tzeentch"
+    ]
+   }
+  },
+  {
+   "id": "the_mark_of_nurgle",
+   "name": "The Mark of Nurgle",
+   "section": "Chaos Marks",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_mark_of_nurgle_chaos_space_marines/",
+   "text": "- A unit with this Mark gains the Nurgle Keyword and may only join or be joined by units with the Nurgle or Undivided Keywords.\n- A unit with this mark gains the Feel no Pain (5+) special rule. If the unit does not have a Wounds (W) characteristic, it instead always gains the Benefits of Heavy Cover.\n- A unit with this wargear gains access to the Lore of Nurgle Psychic Powers if they have the Psyker (x) special rule.",
+   "effects": {
+    "keywords": [
+     "Nurgle"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/",
+      "requires_characteristic": "W"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_mark_of_slaanesh",
+   "name": "The Mark of Slaanesh",
+   "section": "Chaos Marks",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_mark_of_slaanesh_chaos_space_marines/",
+   "text": "- A unit with this Mark gains the Slaanesh Keyword and may only join or be joined by units with the Slaanesh or Undivided Keywords.\n- A unit with this mark gains +1 to their Initiative (I) characteristic.\n- A unit with this Mark gains the Sudden Strike special rule.\n- A unit with this wargear gains access to the Lore of Slaanesh Psychic Powers if they have the Psyker (x) special rule.",
+   "effects": {
+    "keywords": [
+     "Slaanesh"
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "I",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/sudden_strike",
+      "name": "Sudden Strike",
+      "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gorget_of_eternal_hate",
+   "name": "Gorget of Eternal Hate",
+   "section": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/gorget_of_eternal_hate/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this relic wargear gains a 4+ Invulnerable save and the Last Stand special rule.",
+   "effects": {
+    "invulnerable_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/last_stand",
+      "name": "Last Stand",
+      "url": "https://longwarindex.app/universal_special_rules/last_stand/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "scrolls_of_magnus",
+   "name": "Scrolls of Magnus",
+   "section": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/scrolls_of_magnus/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Once per game, a model with this relic may automatically cast 1 Psychic Power or Psychic Weapon from the Lore of Tzeentch automatically even if they do not have the Psyker (x) special rule or Tzeentch Keyword."
+  },
+  {
+   "id": "dimensional_key",
+   "name": "Dimensional Key",
+   "section": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/dimensional_key/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Friendly units which arrive via Deep Strike wholly within 12\" of a model equipped with this wargear do not roll for scatter and automatically arrive with a Perfect Landing."
+  },
+  {
+   "id": "hamadrya",
+   "name": "Hamadrya",
+   "section": "Datasheet",
+   "datasheet": "Huron Blackheart",
+   "page": 42,
+   "url": "https://longwarindex.app/wargear/hamadrya/",
+   "text": "Up to twice per game, each time an enemy unit would attempt to cast a Psychic Power within 18\" and visibility of Huron Blackheart, you can pick 1 dice rolled for their Psychic Test. The selected dice must be re-rolled."
+  },
+  {
+   "id": "narthecium_huron_blackheart",
+   "name": "Narthecium (Huron Blackheart)",
+   "section": "Datasheet",
+   "datasheet": "Huron Blackheart",
+   "page": 42,
+   "url": "https://longwarindex.app/wargear/narthecium_huron_blackheart/",
+   "text": "A unit that includes a model equipped with this wargear gains the Feel no Pain (5+) special rule.",
+   "effects": {
+    "unit_rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "carapace_armour",
+   "name": "Carapace Armour",
+   "section": "Datasheet",
+   "datasheet": "Huron Blackheart",
+   "page": 42,
+   "url": "https://longwarindex.app/wargear/carapace_armour_chaos_space_marines/",
+   "text": "A model with this wargear has a 4+ Armour Save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "plate_armour",
+   "name": "Plate Armour",
+   "section": "Datasheet",
+   "datasheet": "Huron Blackheart",
+   "page": 42,
+   "url": "https://longwarindex.app/wargear/plate_armour_chaos_space_marines/",
+   "text": "A model with this wargear has a 3+ Armour Save but their Movement (M) characteristic is reduced by 1\".",
+   "effects": {
+    "armour_save": "3+",
+    "stat_mods": [
+     {
+      "characteristic": "M",
+      "delta": -1
+     }
+    ]
+   }
+  },
+  {
+   "id": "atomantic_shielding",
+   "name": "Atomantic Shielding",
+   "section": "Datasheet",
+   "datasheet": "Contemptor Dreadnought",
+   "page": 54,
+   "url": "https://longwarindex.app/wargear/atomantic_shielding_chaos_space_marines/",
+   "text": "This confers a 5+ Invulnerable save. When a model with this wargear is slain and removed from play, the model suffers an Explodes result per the Vehicle damage chart before it is removed from play.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "explorator_augury_web",
+   "name": "Explorator Augury Web",
+   "section": "Datasheet",
+   "datasheet": "Land Raider",
+   "page": 57,
+   "url": "https://longwarindex.app/wargear/explorator_augury_web/",
+   "text": "The Transport capacity of this unit is reduced to 6 Infantry models. This unit gains the Scout special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/scout",
+      "name": "Scout",
+      "url": "https://longwarindex.app/universal_special_rules/scout/"
+     }
+    ],
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ],
+     "replaces": true
+    }
+   }
+  },
+  {
+   "id": "void_shields",
+   "name": "Void Shields",
+   "parameter": {
+    "kind": "count",
+    "description": "the number of Void Shield Tokens"
+   },
+   "section": "Datasheet",
+   "datasheet": "Mastodon",
+   "page": 96,
+   "url": "https://longwarindex.app/wargear/void_shields_chaos_space_marines/",
+   "text": "A unit with this wargear gains a number of Void Shield Tokens equal to the value of (x). Each time this unit takes a Penetrating Hit, if it has a Void Shield Token, you spend a token to ignore that Penetrating Hit. At the start of each Battle Round, you regain 1 spent Void Shield Token. Instead of setting to Overwatch, you can set to Recharge Voids. A unit that Recharges Voids, regains all of its Void Shield Tokens."
+  }
+ ]
+}

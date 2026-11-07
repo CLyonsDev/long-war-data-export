@@ -1,0 +1,1041 @@
+{
+ "data_version": "e917d36d7f872552",
+ "format": 1,
+ "faction": "necron_dynasties",
+ "special_rules": [
+  {
+   "id": "codex/necron_dynasties/special_rules/ancient_collector_tesseracts",
+   "name": "Ancient Collector Tesseracts",
+   "kind": "warlord_trait",
+   "page": 29,
+   "url": "https://longwarindex.app/special_rules/ancient_collector_tesseracts/",
+   "text": "Once per game, if this unit is your Warlord, you may summon one of the following units: Space Marine Tactical Squad (See Codex Space Marines), Kroot Carnivores (See Codex T'au Empire), Ork Boyz (See Codex Orks). This unit is considered an allied unit and gains the Expendable Keyword. The Summoned unit is placed within 12\" of Trazyn and more than 3\" away from any enemy models."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/chronomancer",
+   "name": "Chronomancer",
+   "kind": "datasheet",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/chronomancer/",
+   "text": "A unit with this upgrade and any attached unit gains a 5+ Invulnerable save and +1 to their Initiative (I) characteristic.",
+   "effects": {
+    "invulnerable_save": "5+",
+    "stat_mods": [
+     {
+      "characteristic": "I",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/chronometron",
+   "name": "Chronometron",
+   "kind": "datasheet",
+   "page": 32,
+   "url": "https://longwarindex.app/special_rules/chronometron/",
+   "text": "A model with this special rule and any attached unit gain a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/command_protocols",
+   "name": "Command Protocols",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/command_protocols/",
+   "references": [
+    "universal_special_rules/character",
+    "universal_special_rules/slow_and_purposeful"
+   ],
+   "text": "Any Necron Character unit with this special rule and any attached unit ignores the Slow & Purposeful special rule.",
+   "effects": {
+    "suppresses_rules": [
+     {
+      "rule": "universal_special_rules/slow_and_purposeful",
+      "name": "Slow and Purposeful",
+      "printed": "[[Slow and Purposeful|Slow & Purposeful]]",
+      "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/cryptek_retinue",
+   "name": "Cryptek Retinue",
+   "kind": "datasheet",
+   "page": 41,
+   "url": "https://longwarindex.app/special_rules/cryptek_retinue/",
+   "text": "If your army includes a Cryptek, you may include a unit with this special rule in your army without taking up a Force Organization slot.",
+   "effects": {
+    "list_building": {
+     "while": [
+      {
+       "army_includes": [
+        {
+         "datasheet": "codex/necron_dynasties/roster/cryptek"
+        }
+       ]
+      }
+     ],
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/cryptothralls"
+       }
+      ],
+      "count": 1
+     }
+    }
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/destroyer_cult",
+   "name": "Destroyer Cult",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/destroyer_cult/",
+   "references": [
+    "universal_special_rules/hatred",
+    "universal_special_rules/character"
+   ],
+   "text": "Units with this special rule have the Hatred special rule. You may not include more units with Destroyer Cult keyword in your army than units with the Dynasty Keyword. Destroyer Cult units may only be joined by Destroyer Cult Characters.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "printed": "[[Hatred]]",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/eternal_engines",
+   "name": "Eternal Engines",
+   "kind": "warlord_trait",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/eternal_engines/",
+   "text": "If Toholk the Blinded is your Warlord, friendly Necron Vehicle and Aircraft type units in your army gain +1 to their Ballistic Skill (BS) characteristic.",
+   "effects": {
+    "list_building": {
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/necron_dynasties/roster/toholk_the_blinded"
+       }
+      }
+     ]
+    },
+    "while_warlord": {
+     "stat_grants": [
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Necron"
+         ],
+         "unit_types": [
+          "Vehicle",
+          "Aircraft"
+         ]
+        }
+       ],
+       "characteristic": "BS",
+       "delta": 1,
+       "quote": "If Toholk the Blinded is your Warlord, friendly Necron Vehicle and Aircraft type units in your army gain +1 to their Ballistic Skill (BS) characteristic."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/eternal_madness",
+   "name": "Eternal Madness",
+   "kind": "datasheet",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/eternal_madness/",
+   "text": "This unit may never be selected to be your Warlord.",
+   "effects": {
+    "list_building": {
+     "warlord_forbidden": true
+    }
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/eternity_gate",
+   "name": "Eternity Gate",
+   "kind": "datasheet",
+   "page": 56,
+   "url": "https://longwarindex.app/special_rules/eternity_gate/",
+   "references": [
+    "universal_special_rules/outflank",
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "Friendly Necron units that would arrive via Outflank or Deep Strike may be placed within 12\" of this model when arriving. If the unit is placed within 12\" of the Monolith, it does not scatter and automatically arrives from Outflank/Deep Strike without any rolls required."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/exiled",
+   "name": "Exiled",
+   "kind": "weapon",
+   "page": 12,
+   "url": "https://longwarindex.app/special_rules/exiled/",
+   "text": "Wounds from this weapon are always treated as Instant Death regardless of the target's Toughness (T) Characteristic."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/gauss",
+   "name": "Gauss",
+   "kind": "weapon",
+   "page": 9,
+   "url": "https://longwarindex.app/special_rules/gauss/",
+   "text": "This weapon always Penetrates on a roll of a 6 regardless of the Armour Value of the target. Any roll made on the Damage chart from a weapon with this rule has -1 to the roll unless the weapon has an AP of 2 or better."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/geomancer",
+   "name": "Geomancer",
+   "kind": "datasheet",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/geomancer/",
+   "text": "A unit with this upgrade grants Heavy Cover to any attached unit. If the unit is already benefiting from Heavy Cover, it gains 4+ Cover save."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/grand_illusion",
+   "name": "Grand Illusion",
+   "kind": "datasheet",
+   "page": 59,
+   "url": "https://longwarindex.app/special_rules/grand_illusion/",
+   "text": "After deployment has finished but before the first turn begins. If this model is part of your army, you re-deploy your entire army as if it were the deployment step. This includes any infiltrators and any models placed in reserves."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/hexmark",
+   "name": "Hexmark",
+   "kind": "datasheet",
+   "page": 43,
+   "url": "https://longwarindex.app/special_rules/hexmark/",
+   "references": [
+    "special_rules/precision_hits"
+   ],
+   "text": "A model with this special rule has the Precision Hits special rule on all weapons the model is equipped with.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/precision_hits",
+      "name": "Precision Hits",
+      "printed": "[[Precision Hits]]",
+      "url": "https://longwarindex.app/special_rules/precision_hits/",
+      "weapon_types": [
+       "Pistol",
+       "Rapid Fire",
+       "Assault",
+       "Heavy",
+       "Grenade",
+       "Melee"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/immune_to_natural_law",
+   "name": "Immune to Natural Law",
+   "kind": "datasheet",
+   "page": 58,
+   "url": "https://longwarindex.app/special_rules/immune_to_natural_law/",
+   "text": "This model is never subject to Instant Death."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/immune_to_natural_law_void_dragon",
+   "name": "Immune to Natural Law",
+   "datasheet": "C'tan Shard of the Void Dragon",
+   "kind": "datasheet",
+   "page": 61,
+   "url": "https://longwarindex.app/special_rules/immune_to_natural_law_void_dragon/",
+   "text": "This model is never subject to Instant Death. If this model would suffer an Instant Death Wound, it loses D3 wounds instead."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/infectious_murder_madness",
+   "name": "Infectious Murder-Madness",
+   "kind": "datasheet",
+   "page": 31,
+   "url": "https://longwarindex.app/special_rules/infectious_murder_madness/",
+   "references": [
+    "universal_special_rules/hatred"
+   ],
+   "text": "A model with this special rule and any attached unit that have the Hatred special rule, re-roll all Hit rolls instead of Hit-Rolls of 1."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/living_metal",
+   "name": "Living Metal",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/living_metal/",
+   "references": [
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "Each time a Necron model with this special rule suffers a wound or a penetrating hit, roll a D6. On a 6, that Wound or Penetrating Hit is ignored. Living Metal does not stack with the Feel no Pain (x) special rule. If a unit has both Living Metal and Feel no Pain (x), the controlling player determines which is used for the damage mitigation roll."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/lord_of_the_oblivion_court",
+   "name": "Lord of the Oblivion Court",
+   "kind": "warlord_trait",
+   "page": 31,
+   "url": "https://longwarindex.app/special_rules/lord_of_the_oblivion_court/",
+   "references": [
+    "codex/necron_dynasties/special_rules/command_protocols"
+   ],
+   "text": "If this model is your Warlord, it gains the Command Protocols special rule. In addition, Cryptek units are considered to have the Destroyer Cult keyword.",
+   "effects": {
+    "list_building": {
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/necron_dynasties/roster/nekrosor_ammentar"
+       }
+      }
+     ],
+     "benefits": [
+      {
+       "id": "lord_of_the_oblivion_court_cryptek_destroyer_cult",
+       "printed": "In addition, Cryptek units are considered to have the Destroyer Cult keyword.",
+       "keywords": {
+        "conditions": [
+         {
+          "datasheet": "codex/necron_dynasties/roster/cryptek"
+         }
+        ],
+        "add": [
+         "Destroyer Cult"
+        ]
+       }
+      }
+     ]
+    },
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "codex/necron_dynasties/special_rules/command_protocols",
+        "name": "Command Protocols",
+        "printed": "[[Command Protocols]]",
+        "url": "https://longwarindex.app/special_rules/command_protocols/"
+       },
+       "quote": "If this model is your Warlord, it gains the Command Protocols special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/lord_of_the_pyrrhian_legions",
+   "name": "Lord of the Pyrrhian Legions",
+   "kind": "warlord_trait",
+   "page": 28,
+   "url": "https://longwarindex.app/special_rules/lord_of_the_pyrrhian_legions/",
+   "text": "If this model is your Warlord, you may field Necron Immortals as Troops choices. In addition, Necron Immortals units in your army gain +1 Ballistic Skill (BS).",
+   "effects": {
+    "list_building": {
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/necron_dynasties/roster/anrakyr_the_traveller"
+       }
+      }
+     ],
+     "benefits": [
+      {
+       "id": "lord_of_the_pyrrhian_legions_immortals_troops",
+       "printed": "If this model is your Warlord, you may field Necron Immortals as Troops choices.",
+       "role": {
+        "conditions": [
+         {
+          "datasheet": "codex/necron_dynasties/roster/necron_immortals"
+         }
+        ],
+        "role": "Troops",
+        "instead": false
+       }
+      },
+      {
+       "id": "lord_of_the_pyrrhian_legions_immortals_bs",
+       "printed": "In addition, Necron Immortals units in your army gain +1 Ballistic Skill (BS).",
+       "stat_mods": {
+        "conditions": [
+         {
+          "datasheet": "codex/necron_dynasties/roster/necron_immortals"
+         }
+        ],
+        "mods": [
+         {
+          "characteristic": "BS",
+          "delta": 1
+         }
+        ]
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/lord_of_the_storm",
+   "name": "Lord of the Storm",
+   "kind": "warlord_trait",
+   "page": 35,
+   "url": "https://longwarindex.app/special_rules/lord_of_the_storm/",
+   "text": "During the first battle round, before the first turn begins. Select a single enemy unit on the battlefield. It takes D6+2 Strength 6, AP6 automatic hits. Wound and Save rolls are taken as normal against these hits."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/matter_absorption",
+   "name": "Matter Absorption",
+   "kind": "datasheet",
+   "page": 61,
+   "url": "https://longwarindex.app/special_rules/matter_absorption/",
+   "references": [
+    "universal_special_rules/regeneration"
+   ],
+   "text": "In a turn in which any units (friend or foe) were slain and removed from play, this unit can re-roll the dice for the Regeneration special rule."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/mechanical_augmentation",
+   "name": "Mechanical Augmentation",
+   "kind": "warlord_trait",
+   "page": 30,
+   "url": "https://longwarindex.app/special_rules/mechanical_augmentation/",
+   "references": [
+    "universal_special_rules/battle_hardened"
+   ],
+   "text": "This unit and any unit attached to this unit while it's your Warlord gains +1 to their Strength (S) and Toughness (T) characteristic. In addition, this unit gains the Battle-Hardened special rule.",
+   "effects": {
+    "while_warlord": {
+     "stat_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "characteristic": "S",
+       "delta": 1,
+       "quote": "This unit and any unit attached to this unit while it's your Warlord gains +1 to their Strength (S) and Toughness (T) characteristic."
+      },
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "characteristic": "T",
+       "delta": 1,
+       "quote": "This unit and any unit attached to this unit while it's your Warlord gains +1 to their Strength (S) and Toughness (T) characteristic."
+      }
+     ],
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/battle_hardened",
+        "name": "Battle-Hardened",
+        "printed": "[[Battle-Hardened]]",
+        "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+       },
+       "quote": "In addition, this unit gains the Battle-Hardened special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/mind_of_the_machine",
+   "name": "Mind of the Machine",
+   "kind": "datasheet",
+   "page": 28,
+   "url": "https://longwarindex.app/special_rules/mind_of_the_machine/",
+   "text": "In the Shooting Phase, instead of making a shooting attack, you may select a single enemy Vehicle, Walker, Aircraft or Automata type unit within 18\" that is visible to this model. That unit may only make Snap Shots until the start of your next Shooting Phase."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/misdirection",
+   "name": "Misdirection",
+   "kind": "datasheet",
+   "page": 59,
+   "url": "https://longwarindex.app/special_rules/misdirection/",
+   "text": "Any attacks against this model in the Shooting Phase are resolved as Snap Shots. In addition, any attacks against this model in the Combat Phase are made at Weapon Skill (WS) 1."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/necron_command_codes",
+   "name": "Necron Command Codes",
+   "kind": "warlord_trait",
+   "page": 37,
+   "url": "https://longwarindex.app/special_rules/necron_command_codes/",
+   "references": [
+    "codex/necron_dynasties/allegiances/szarekhan",
+    "codex/necron_dynasties/special_rules/command_protocols"
+   ],
+   "text": "This unit may be included in any Necron army but must be the Warlord when included in any army. If included in an army that is not Szarekhan, it does not gain the benefit of the Allegiance: Szarekhan special rule. In addition, all Necron units in your army count as being under the effects of the Command Protocols special rule.",
+   "effects": {
+    "list_building": {
+     "mandates_warlord": true,
+     "ignores_allegiance": true
+    },
+    "while_fielded": {
+     "rule_grants": [
+      {
+       "filters": [],
+       "rule": {
+        "rule": "codex/necron_dynasties/special_rules/command_protocols",
+        "name": "Command Protocols",
+        "printed": "[[Command Protocols]]",
+        "url": "https://longwarindex.app/special_rules/command_protocols/"
+       },
+       "quote": "In addition, all Necron units in your army count as being under the effects of the Command Protocols special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/necron_overlord",
+   "name": "Necron Overlord",
+   "kind": "datasheet",
+   "page": 23,
+   "url": "https://longwarindex.app/special_rules/necron_overlord/",
+   "references": [
+    "universal_special_rules/battle_hardened"
+   ],
+   "text": "A model with this upgrade gains +1 to their Weapon Skill (WS), Wounds (W), Attacks (A), and Leadership (LD) characteristics. In addition, the model gains a Tachyon Arrow. The unit also gains the Battle-Hardened special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "printed": "[[Battle-Hardened]]",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "WS",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     },
+     {
+      "characteristic": "A",
+      "delta": 1
+     },
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ],
+    "items": [
+     {
+      "kind": "weapon",
+      "id": "tachyon_arrow"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/nekrosors_crusaders",
+   "name": "Nekrosor's Crusaders",
+   "kind": "datasheet",
+   "page": 31,
+   "url": "https://longwarindex.app/special_rules/nekrosors_crusaders/",
+   "text": "This unit may join other units with the Destroyer Cult Keyword even if they are not an eligible unit type that this unit would normally be allowed to join."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/phaeron_of_the_blades",
+   "name": "Phaeron of the Blades",
+   "kind": "datasheet",
+   "page": 37,
+   "url": "https://longwarindex.app/special_rules/phaeron_of_the_blades/",
+   "text": "Each Combat Phase at Initiative step 1, the Silent King model may make up to 3 additional attacks with the Scythe of Dust. When the Silent King model only has 4 or fewer wounds, it may not make any attacks with the Scythe of Dust."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/phaeron_of_the_stars",
+   "name": "Phaeron of the Stars",
+   "kind": "datasheet",
+   "page": 37,
+   "url": "https://longwarindex.app/special_rules/phaeron_of_the_stars/",
+   "text": "Each Combat Phase at Initiative step 2, the Silent King model may make up to 3 additional attacks with the Staff of Stars. When the Silent King model only has 5 or fewer wounds, it may not make any attacks with the Staff of Stars."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/phasing_monster",
+   "name": "Phasing Monster",
+   "kind": "datasheet",
+   "page": 31,
+   "url": "https://longwarindex.app/special_rules/phasing_monster/",
+   "references": [
+    "universal_special_rules/move_through_cover"
+   ],
+   "text": "This unit has a 4+ Invulnerable Save and the Move Through Cover special rule.",
+   "effects": {
+    "invulnerable_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/move_through_cover",
+      "name": "Move Through Cover",
+      "printed": "[[Move Through Cover]]",
+      "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/plasmancer",
+   "name": "Plasmancer",
+   "kind": "datasheet",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/plasmancer/",
+   "text": "A unit with this upgrade gains the Living Lightning wargear.",
+   "effects": {
+    "items": [
+     {
+      "kind": "weapon",
+      "id": "living_lightning"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/powered",
+   "name": "Powered",
+   "kind": "weapon",
+   "page": 11,
+   "url": "https://longwarindex.app/special_rules/powered/",
+   "text": "If a model equipped with this special rule remained stationary in its previous movement phase, it may opt to fire the High Powered version of this weapon's profile. However, it may not fire with any other weapons."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/prescient_strikes",
+   "name": "Prescient Strikes",
+   "kind": "datasheet",
+   "page": 32,
+   "url": "https://longwarindex.app/special_rules/prescient_strikes/",
+   "references": [
+    "special_rules/precision_hits"
+   ],
+   "text": "This unit and all models in the attached unit gain the Precision Hits special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "special_rules/precision_hits",
+      "name": "Precision Hits",
+      "printed": "[[Precision Hits]]",
+      "url": "https://longwarindex.app/special_rules/precision_hits/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/psychomancer",
+   "name": "Psychomancer",
+   "kind": "datasheet",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/psychomancer/",
+   "references": [
+    "universal_special_rules/fear"
+   ],
+   "text": "A unit with this upgrade has the Fear (4) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "4",
+      "printed": "[[Fear (4)]]",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/quake",
+   "name": "Quake",
+   "kind": "weapon",
+   "page": 55,
+   "url": "https://longwarindex.app/special_rules/quake/",
+   "text": "A unit hit by a weapon with this special rule halves its Movement (M) characteristic until the start of this unit's next Shooting Phase."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/quantum_shielding",
+   "name": "Quantum Shielding",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/quantum_shielding/",
+   "references": [
+    "universal_special_rules/super_heavy"
+   ],
+   "text": "All Penetrating Hits against a model with this special rule are resolved with -1 to the Roll when Rolling on the Vehicle Damage Chart to determine the Penetrating Hits result. This is increased to -2 if the unit with this special rule also has the Super Heavy (x) special rule."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/reality_unravels",
+   "name": "Reality Unravels",
+   "kind": "datasheet",
+   "page": 58,
+   "url": "https://longwarindex.app/special_rules/reality_unravels/",
+   "text": "When this model would be slain, before it is removed from play, all units within 6\" take D6 Strength 8, AP1 automatic hits."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/reanimation_nodes",
+   "name": "Reanimation Nodes",
+   "kind": "datasheet",
+   "page": 66,
+   "url": "https://longwarindex.app/special_rules/reanimation_nodes/",
+   "references": [
+    "universal_special_rules/regeneration"
+   ],
+   "text": "At the start of your Movement Phase, friendly Necron units within 12\" of a model in this unit can either:\n\n- Heal 1 additional wound.\n- Re-Roll Regeneration Rolls.\n- Return 1 additional model to a unit with 1 Wound remaining."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/reanimation_protocols",
+   "name": "Reanimation Protocols",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/reanimation_protocols/",
+   "references": [
+    "universal_special_rules/character",
+    "universal_special_rules/regeneration"
+   ],
+   "text": "Each Necron unit with this special rule gains one of the following benefits:\n\n- At the start of each of your Movement Phases, a Necron Infantry, Jetbike, Swarm & Cavalry type unit that does not have the Character special rule in your army may return 1 slain model to the unit. The returned model returns with 1 wound remaining if it has a Wounds (W) characteristic of greater than 1. If the unit does not have any Slain models to return, 1 model in the unit may Heal 1 wound if eligible. All returned models must be placed in coherency with models that have not been returned to the unit this Phase.\n- At the start of each of your Movement Phases, Necron units with the Character special rule Heal 1 Wound.\n- Necron Automata and Walker type units gain the Regeneration special rule.\n- Necron Monster type units with this special rule may re-roll the result when rolling for the Regeneration as part of the Regeneration special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/regeneration",
+      "name": "Regeneration",
+      "printed": "[[Regeneration]]",
+      "url": "https://longwarindex.app/universal_special_rules/regeneration/",
+      "while_unit": [
+       {
+        "unit_types": [
+         "Automata",
+         "Walker"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/rites_of_reanimation",
+   "name": "Rites of Reanimation",
+   "kind": "datasheet",
+   "page": 30,
+   "url": "https://longwarindex.app/special_rules/rites_of_reanimation/",
+   "references": [
+    "codex/necron_dynasties/special_rules/reanimation_protocols"
+   ],
+   "text": "You may return D3 Infantry models instead of 1 to an Infantry unit with a Wounds (W) characteristic of 1 with the Reanimation Protocols special rule that is attached to a model with this special rule."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/royal_retainers",
+   "name": "Royal Retainers",
+   "kind": "datasheet",
+   "page": 24,
+   "url": "https://longwarindex.app/special_rules/royal_retainers/",
+   "text": "For each Necron Lord in your army, you may include 1 Royal Warden unit without taking up a Force Organization Slot.",
+   "effects": {
+    "list_building": {
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/royal_warden"
+       }
+      ],
+      "count": 1,
+      "per_unit": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/necron_lord"
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/sepulchral_matrix",
+   "name": "Sepulchral Matrix",
+   "kind": "datasheet",
+   "page": 64,
+   "url": "https://longwarindex.app/special_rules/sepulchral_matrix/",
+   "text": "At the start of each of your Movement Phases, if this unit has not suffered a Critical Result on the vehicle damage chart which would destroy it, all damage taken to the unit is ignored and repaired."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/splinter_of_madness",
+   "name": "Splinter of Madness",
+   "kind": "warlord_trait",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/splinter_of_madness/",
+   "references": [
+    "special_rules/pinning"
+   ],
+   "text": "This unit and any attached unit automatically pass Pinning and Panic tests. During the Combat Phase, roll a D6. On a roll of a 5+, this unit and any attached unit gain +1 to their Attacks (A) characteristic."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/surrogate_hosts",
+   "name": "Surrogate Hosts",
+   "kind": "datasheet",
+   "page": 29,
+   "url": "https://longwarindex.app/special_rules/surrogate_hosts/",
+   "text": "Each time this model is slain and would be removed from play, instead of removing this model from play, select a single Necron Infantry model anywhere in your army. Remove the target model from play and place Trazyn anywhere within 1\" of where that friendly Necron Infantry model was. If Trazyn is your Warlord, the Warlord is not considered slain unless all Necron Infantry models are slain or Trazyn is otherwise not on the battlefield at the end of the game."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/technomancer",
+   "name": "Technomancer",
+   "kind": "datasheet",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/technomancer/",
+   "text": "A unit with this upgrade gains a Jump Pack. Additionally, at the start of each of your Movement Phase, you may select 1 attached unit to Heal 1 Wound. If there are no eligible models, return 1 slain model to the unit with 1 Wound remaining within coherency of models which have not been returned to the unit this phase.",
+   "effects": {
+    "items": [
+     {
+      "kind": "wargear",
+      "id": "jump_pack"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/teleportation_matrix",
+   "name": "Teleportation Matrix",
+   "kind": "datasheet",
+   "page": 64,
+   "url": "https://longwarindex.app/special_rules/teleportation_matrix/",
+   "text": "In the Shooting Phase, this unit instead of Shooting may be removed from the Battlefield and redeployed anywhere on the board more than 9\" away from any enemy models."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/tesseract_explosion",
+   "name": "Tesseract Explosion",
+   "kind": "datasheet",
+   "page": 55,
+   "url": "https://longwarindex.app/special_rules/tesseract_explosion/",
+   "text": "When the Tesseract Ark suffers an explodes result from rolling on the Vehicle damage chart, the explosion is 3D6\" in size and resolved at Strength 10, AP1."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/tesseract_field",
+   "name": "Tesseract Field",
+   "kind": "datasheet",
+   "page": 55,
+   "url": "https://longwarindex.app/special_rules/tesseract_field/",
+   "text": "The unit has a 5+ Invulnerable save. In addition, all Charges against this unit are resolved as Disordered Charges. All terrain, including open terrain within 6\" of this unit is treated as Difficult Terrain.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/the_stars_are_right",
+   "name": "The Stars Are Right",
+   "kind": "warlord_trait",
+   "page": 32,
+   "url": "https://longwarindex.app/special_rules/the_stars_are_right/",
+   "text": "From turn 2 onwards, Orikan may become empowered if he is your Warlord. To become Empowered, Orikan must roll 3D6 at the start of each of your Movement phases. If any of the Dice are a 5+, Orikan becomes Empowered for the rest of the game. Empowered Orikan improves its Weapon Skill (WS), Ballistic Skill (BS), Attacks (A) and Initiative (I) characteristics to 7."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/the_vargards_duty",
+   "name": "The Vargard's Duty",
+   "kind": "datasheet",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/the_vargards_duty/",
+   "references": [
+    "codex/necron_dynasties/special_rules/transient_madness"
+   ],
+   "text": "While Vargard Obyron is alive and part of this unit, you may add 1 to the dice roll when determining if the Madness of Zahndrekh will be lifted (see Transient Madness special rule)."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/thrall_guards",
+   "name": "Thrall Guards",
+   "kind": "datasheet",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/thrall_guards/",
+   "text": "This unit may always join units of Cryptothralls in your army even though it is not an Automata type."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/transient_madness",
+   "name": "Transient Madness",
+   "kind": "datasheet",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/transient_madness/",
+   "references": [
+    "universal_special_rules/last_stand",
+    "universal_special_rules/stubborn",
+    "universal_special_rules/outflank"
+   ],
+   "text": "At the start of each Battle Round, roll 1 D6 to determine if the madness of time lifts to reveal the genius of Zahndrekh. On a roll of a 6, the madness lifts and all Sautekh units in your army gain the Last Stand and Stubborn Special rules until the end of the battle round. In addition, all Sautekh units in your army may re-roll Charge rolls and rolls to determine if units arrive via Outflank until the end of the Round."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/translocation_protocols",
+   "name": "Translocation Protocols",
+   "kind": "datasheet",
+   "page": 66,
+   "url": "https://longwarindex.app/special_rules/translocation_protocols/",
+   "text": "If this unit is within 3\" of a friendly Cryptek at the end of your Shooting Phase, this unit may be removed from the battlefield. Place this unit back down on the battlefield anywhere more than 3\" away from any enemy models."
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/transport_ghost_ark",
+   "name": "Transport",
+   "datasheet": "Ghost Ark",
+   "kind": "datasheet",
+   "page": 45,
+   "url": "https://longwarindex.app/special_rules/transport_ghost_ark/",
+   "text": "This model can transport 12 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/transport_monolith",
+   "name": "Transport",
+   "datasheet": "Monolith",
+   "kind": "datasheet",
+   "page": 56,
+   "url": "https://longwarindex.app/special_rules/transport_monolith/",
+   "text": "This model may transport 20 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 20,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/transport_night_scythe",
+   "name": "Transport",
+   "datasheet": "Night Scythe",
+   "kind": "datasheet",
+   "page": 46,
+   "url": "https://longwarindex.app/special_rules/transport_night_scythe/",
+   "text": "This model can transport 15 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 15,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/undying_necrodermis",
+   "name": "Undying Necrodermis",
+   "kind": "army",
+   "page": 18,
+   "url": "https://longwarindex.app/special_rules/undying_necrodermis/",
+   "text": "Undying Necrodermis grants the equipped model a 2+ Save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "codex/necron_dynasties/special_rules/writhing_worldscape",
+   "name": "Writhing Worldscape",
+   "kind": "datasheet",
+   "page": 58,
+   "url": "https://longwarindex.app/special_rules/writhing_worldscape/",
+   "text": "Any charge against this model always counts as a disordered charge."
+  },
+  {
+   "id": "codex/necron_dynasties/allegiances/maynarkh",
+   "name": "Allegiance: Maynarkh",
+   "kind": "allegiance",
+   "page": 20,
+   "url": "https://longwarindex.app/allegiances/maynarkh/",
+   "references": [
+    "universal_special_rules/rage",
+    "universal_special_rules/frenzy"
+   ],
+   "text": "All Necron units change their [Dynasty] keyword to Maynarkh. All units with the Maynarkh Keyword gain the Allegiance: Maynarkh special rule. The Allegiance: Maynarkh special rule consists of the following rules:\n\n- Blood Madness: All Maynarkh units gain the Rage and Frenzy special rules.\n- Curse of the Flayer: Your army must include at least 1 unit of Flayed Ones per 1000pts."
+  },
+  {
+   "id": "codex/necron_dynasties/allegiances/mephrit",
+   "name": "Allegiance: Mephrit",
+   "kind": "allegiance",
+   "page": 20,
+   "url": "https://longwarindex.app/allegiances/mephrit/",
+   "text": "All Necron units change their [Dynasty] keyword to Mephrit. All units with the Mephrit Keyword gain the Allegiance: Mephrit special rule. The Allegiance: Mephrit special rule consists of the following rules:\n\n- Unleashed Solar Fury: All Mephrit units increase the range of all Shooting weapons they are equipped with by 6\".\n- Star Destroyers: Your army must include more Heavy Support choices than Fast Attack choices."
+  },
+  {
+   "id": "codex/necron_dynasties/allegiances/nepherkh",
+   "name": "Allegiance: Nepherkh",
+   "kind": "allegiance",
+   "page": 20,
+   "url": "https://longwarindex.app/allegiances/nepherkh/",
+   "references": [
+    "universal_special_rules/character",
+    "special_rules/blast",
+    "special_rules/spray"
+   ],
+   "text": "All Necron units change their [Dynasty] keyword to Nepherkh. All units with the Nepherkh Keyword gain the Allegiance: Nepherkh special rule. The Allegiance: Nepherkh special rule consists of the following rules:\n\n- Skins of living Gold: Nepherkh units with the Character special rule improve their Armour Save from Reinforced Necrodermis to a 2+ Armour Save (SV) Characteristic. All other Nepherkh units may re-roll save rolls of 1 against Blast (x) and Spray weapons.\n- The Light of the Stars: Your army must include more Fast Attack choices than Heavy Support choices."
+  },
+  {
+   "id": "codex/necron_dynasties/allegiances/nihilakh",
+   "name": "Allegiance: Nihilakh",
+   "kind": "allegiance",
+   "page": 20,
+   "url": "https://longwarindex.app/allegiances/nihilakh/",
+   "references": [
+    "universal_special_rules/character",
+    "special_rules/master_crafted"
+   ],
+   "text": "All Necron units change their [Dynasty] keyword to Nihilakh. All units with the Nihilakh Keyword gain the Allegiance: Nihilakh special rule. The Allegiance: Nihilakh special rule consists of the following rules:\n\n- Treasures of Opulence: All Nihilakh units with the Character special rule gain the Master-Crafted special rule on all weapons they are equipped with. All other Nihilakh units may re-roll Hit rolls of 1.\n- Arrogant and Proud: Nihilakh units with the Character special rule and their attached unit in your army may not make a Retreat move in the movement phase."
+  },
+  {
+   "id": "codex/necron_dynasties/allegiances/novokh",
+   "name": "Allegiance: Novokh",
+   "kind": "allegiance",
+   "page": 20,
+   "url": "https://longwarindex.app/allegiances/novokh/",
+   "references": [
+    "universal_special_rules/character"
+   ],
+   "text": "All Necron units change their [Dynasty] keyword to Novokh. All units with the Novokh Keyword gain the Allegiance: Novokh special rule. The Allegiance: Novokh special rule consists of the following rules:\n\n- Martial Heritage: Novokh units gain +1 to their Weapon Skill (WS) Characteristic.\n- Codes of Combat: During deployment, select a single enemy unit with the Character special rule. If the chosen unit is not slain in the Combat Phase by the end of the game, the Necron player loses 1 Victory Point."
+  },
+  {
+   "id": "codex/necron_dynasties/allegiances/sautekh",
+   "name": "Allegiance: Sautekh",
+   "kind": "allegiance",
+   "page": 20,
+   "url": "https://longwarindex.app/allegiances/sautekh/",
+   "references": [
+    "universal_special_rules/fear",
+    "codex/necron_dynasties/special_rules/living_metal",
+    "universal_special_rules/character"
+   ],
+   "text": "All Necron units change their [Dynasty] keyword to Sautekh. All units with the Sautekh Keyword gain the Allegiance: Sautekh special rule. The Allegiance: Sautekh special rule consists of the following rules:\n\n- Terror of the Storm: Sautekh units gain the Fear (1) special rule and may re-roll Living Metal rolls of 1.\n- The Storm Lord's Host: If Imotekh the Stormlord is in your army, he must be your Warlord. In addition, Sautekh units in your army with the Character special rule must declare a charge if there are any enemy units within charge range at the start of the Charge Phase."
+  },
+  {
+   "id": "codex/necron_dynasties/allegiances/szarekhan",
+   "name": "Allegiance: Szarekhan",
+   "kind": "allegiance",
+   "page": 20,
+   "url": "https://longwarindex.app/allegiances/szarekhan/",
+   "references": [
+    "universal_special_rules/adamantium_will",
+    "universal_special_rules/indomitable_spirit"
+   ],
+   "text": "All Necron units change their [Dynasty] keyword to Szarekhan. All units with the Szarekhan Keyword gain the Allegiance: Szarekhan special rule. The Allegiance: Szarekhan special rule consists of the following rules:\n\n- Under a Veil of Silence: Szarekhan units gain the Adamantium Will and Indomitable Spirit (5+) special rules.\n- Dynasty of the Silent King: If your army includes the Silent King, he must be your Warlord. All Szarekhan units in your army have the Hatred (Tyranids)."
+  }
+ ]
+}

@@ -1,0 +1,3522 @@
+{
+ "data_version": "8459a42a704b99b8",
+ "format": 1,
+ "faction": "world_eaters",
+ "units": [
+  {
+   "id": "codex/world_eaters/roster/angron_daemon_primarch_of_the_world_eaters",
+   "name": "Angron, Daemon Primarch of the World Eaters",
+   "page": 20,
+   "url": "https://longwarindex.app/roster/angron_daemon_primarch_of_the_world_eaters/",
+   "source": "Codex Supplement: World Eaters",
+   "role": "HQ",
+   "points": 310,
+   "unit_type": "Primarch",
+   "profiles": [
+    {
+     "id": "angron_daemon_primarch_of_the_world_eaters",
+     "name": "Angron, Daemon Primarch of the World Eaters",
+     "template": "unit",
+     "characteristics": {
+      "M": "13\"",
+      "WS": 7,
+      "BS": 6,
+      "S": 7,
+      "T": 7,
+      "W": 6,
+      "A": 8,
+      "I": 6,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "the_armour_of_khorne"
+      },
+      {
+       "kind": "weapon",
+       "id": "spinegrinder"
+      },
+      {
+       "kind": "weapon",
+       "id": "sanmniarius"
+      },
+      {
+       "kind": "wargear",
+       "id": "wings",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_khorne",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "angron_daemon_primarch_of_the_world_eaters",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/world_eaters/allegiances/allegiance_world_eaters",
+     "name": "Allegiance: World Eaters",
+     "url": "https://longwarindex.app/allegiances/allegiance_world_eaters/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "printed": "Master of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "4",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/battle_hardened",
+     "name": "Battle-Hardened",
+     "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "codex/world_eaters/special_rules/blood_hungry",
+     "name": "Blood Hungry",
+     "url": "https://longwarindex.app/special_rules/blood_hungry/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/daemon",
+     "name": "Daemon",
+     "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/furious_charge",
+     "name": "Furious Charge",
+     "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+    },
+    {
+     "rule": "codex/world_eaters/special_rules/the_red_angel",
+     "name": "The Red Angel",
+     "url": "https://longwarindex.app/special_rules/the_red_angel/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/world_eaters/special_rules/primarch_of_the_xii",
+     "name": "Primarch of the XII",
+     "url": "https://longwarindex.app/special_rules/primarch_of_the_xii/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "World Eaters",
+    "Daemon Prince",
+    "Daemon",
+    "Angron, Daemon Primarch of the World Eaters",
+    "Primarch",
+    "Unique",
+    "Khorne",
+    "M31"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/world_eaters/roster/berzerker_chargers",
+   "name": "Berzerker Chargers",
+   "page": 25,
+   "url": "https://longwarindex.app/roster/berzerker_chargers/",
+   "source": "Codex Supplement: World Eaters",
+   "role": "Fast Attack",
+   "points": 90,
+   "unit_type": "Cavalry",
+   "profiles": [
+    {
+     "id": "berzerker_chargers",
+     "name": "Berzerker Chargers",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 5,
+      "T": 5,
+      "W": 2,
+      "A": 1,
+      "I": 4,
+      "Ld": 7,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "daemonic_steed",
+       "faction": "chaos_space_marines",
+       "printed": "Daemonic Mount"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "chainsword",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_khorne",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    },
+    {
+     "id": "aspiring_champion",
+     "name": "Aspiring Champion",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 5,
+      "T": 5,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "daemonic_steed",
+       "faction": "chaos_space_marines",
+       "printed": "Daemonic Mount"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "chainsword",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_khorne",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "berzerker_chargers",
+     "count": 2
+    },
+    {
+     "profile": "aspiring_champion",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/world_eaters/allegiances/allegiance_world_eaters",
+     "name": "Allegiance: World Eaters",
+     "url": "https://longwarindex.app/allegiances/allegiance_world_eaters/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "universal_special_rules/furious_charge",
+     "name": "Furious Charge",
+     "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Despoiler",
+    "World Eaters",
+    "Khorne Berserkers",
+    "Khorne",
+    "M31"
+   ],
+   "printed": {
+    "unit_type": "Infantry"
+   },
+   "size": {
+    "min": 3,
+    "max": 9
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 6 Berzerker Chargers models in this unit (+30pts)",
+     "printed": "You may include an additional 6 Berzerker Chargers models in this unit for 30pts.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "berzerker_charger",
+       "name": "Berzerker Chargers",
+       "points": 30,
+       "pricing": "each",
+       "max": 6,
+       "add_model": {
+        "profile": "berzerker_chargers",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "raving_madmen",
+     "label": "This unit may purchase the Raving Madman special rule (+15pts)",
+     "printed": "This unit may purchase the Raving Madman special rule for 15pts.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "raving_madmen",
+       "name": "Raving Madman",
+       "points": 15,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/world_eaters/special_rules/raving_madmen",
+         "name": "Raving Madmen",
+         "printed": "Raving Madman",
+         "url": "https://longwarindex.app/special_rules/raving_madmen/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "melee_weapon",
+     "label": "Any Berzerker model may exchange their Chainsword for:",
+     "printed": "Any Berzerker model may exchange their Chainsword for:",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "berzerker_chargers"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "chain_axe",
+       "name": "Chain Axe",
+       "points": 2,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chain_axe"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "falax_blade",
+       "name": "Falax Blade",
+       "points": 1,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "falax_blade"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "meteor_hammer",
+       "name": "Meteor Hammer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "meteor_hammer"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "barb_hook_lash",
+       "name": "Barb-Hook Lash",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "barb_hook_lash"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "falax_blade",
+     "label": "Any Berzerker model may exchange their Bolt Pistol for a Falax Blade (+1pts)",
+     "printed": "Any Berzerker model may exchange their Bolt Pistol for a Falax Blade for 1pts.",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "berzerker_chargers"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "falax_blade",
+       "name": "Falax Blade",
+       "points": 1,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "falax_blade"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "plasma_pistol",
+     "label": "One in every 2 Berzerker models may exchange their Bolt Pistol for a Plasma Pistol (+5pts)",
+     "printed": "One in every 2 Berzerker models may exchange their Bolt Pistol for a Plasma Pistol for 5pts.",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 2,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "two_handed_weapon",
+     "label": "One in every 2 Berzerker models may exchange their Bolt Pistol and Chainsword for one of the following:",
+     "printed": "One in every 2 Berzerker models may exchange their Bolt Pistol and Chainsword for one of the following:",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 2,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "eviscerator",
+       "name": "Eviscerator",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "eviscerator"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "excoraitor_chainaxe",
+       "name": "Excoraitor Chainaxe",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "excoraitor_chainaxe"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "icon_of_chaos",
+     "label": "One Berzerker model may take an Icon of Chaos (+10pts)",
+     "printed": "One Berzerker model may take an Icon of Chaos for 10pts.",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "berzerker_chargers"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "icon_of_chaos",
+       "name": "Icon of Chaos",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "icon_of_chaos",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "champion_bolt_pistol",
+     "label": "The Aspiring Champion may exchange its Bolt Pistol for a:",
+     "printed": "The Aspiring Champion may exchange its Bolt Pistol for a:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "aspiring_champion"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "falax_blade",
+       "name": "Falax Blade",
+       "points": 1,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "falax_blade"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "champion_chainsword",
+     "label": "The Aspiring Champion may exchange its Chainsword for one of the following:",
+     "printed": "The Aspiring Champion may exchange its Chainsword for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "aspiring_champion"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "chain_axe",
+       "name": "Chain Axe",
+       "points": 2,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chain_axe"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "falax_blade",
+       "name": "Falax Blade",
+       "points": 1,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "falax_blade"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "meteor_hammer",
+       "name": "Meteor Hammer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "meteor_hammer"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "barb_hook_lash",
+       "name": "Barb-Hook Lash",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "barb_hook_lash"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_sword",
+       "name": "Power Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_maul",
+       "name": "Power Maul",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_maul",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lightning_claws",
+       "name": "Lightning Claw",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/world_eaters/roster/blood_slaughterer",
+   "name": "Blood Slaughterer",
+   "page": 24,
+   "url": "https://longwarindex.app/roster/blood_slaughterer/",
+   "source": "Codex Supplement: World Eaters",
+   "role": "Fast Attack",
+   "points": 110,
+   "unit_type": "Monster",
+   "profiles": [
+    {
+     "id": "blood_slaughterer",
+     "name": "Blood Slaughterer",
+     "template": "unit",
+     "characteristics": {
+      "M": "7\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 6,
+      "T": 6,
+      "W": 4,
+      "A": 3,
+      "I": 4,
+      "Ld": 10,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "daemon_engine_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "harpoon"
+      },
+      {
+       "kind": "weapon",
+       "id": "slaughter_blade"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_khorne",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "blood_slaughterer",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/daemon",
+     "name": "Daemon",
+     "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/furious_charge",
+     "name": "Furious Charge",
+     "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "World Eaters",
+    "Blood Slaughterer",
+    "Khorne",
+    "M31"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "slaughter_blade",
+     "label": "The Blood Slaughterer may exchange its Harpoon for a Slaughter Blade (+5pts)",
+     "printed": "The Blood Slaughterer may exchange its Harpoon for a Slaughter Blade for 5pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "slaughter_blade",
+       "name": "Slaughter Blade",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "harpoon"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "slaughter_blade"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/world_eaters/roster/eightbound",
+   "name": "Eightbound",
+   "page": 22,
+   "url": "https://longwarindex.app/roster/eightbound/",
+   "source": "Codex Supplement: World Eaters",
+   "role": "Elites",
+   "points": 190,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "eightbound",
+     "name": "Eightbound",
+     "template": "unit",
+     "characteristics": {
+      "M": "7\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 5,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 10,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "eviscerator",
+       "count": 2
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_khorne",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    },
+    {
+     "id": "exalted_eightbound",
+     "name": "Exalted Eightbound",
+     "template": "unit",
+     "characteristics": {
+      "M": "7\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 5,
+      "T": 5,
+      "W": 2,
+      "A": 2,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "3+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "eviscerator",
+       "count": 2
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_khorne",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "eightbound",
+     "count": 3
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/world_eaters/allegiances/allegiance_world_eaters",
+     "name": "Allegiance: World Eaters",
+     "url": "https://longwarindex.app/allegiances/allegiance_world_eaters/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/daemon",
+     "name": "Daemon",
+     "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+    },
+    {
+     "rule": "codex/world_eaters/special_rules/blood_hungry",
+     "name": "Blood Hungry",
+     "url": "https://longwarindex.app/special_rules/blood_hungry/"
+    },
+    {
+     "rule": "universal_special_rules/furious_charge",
+     "name": "Furious Charge",
+     "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limit: 1 Per Detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/world_eaters/special_rules/exalted_eightbound",
+     "name": "Exalted Eightbound",
+     "url": "https://longwarindex.app/special_rules/exalted_eightbound/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "World Eaters",
+    "Eightbound",
+    "Khorne",
+    "Veterans",
+    "Daemons",
+    "M31"
+   ],
+   "size": {
+    "min": 3,
+    "max": 6
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 3 Eightbound models in this unit (+55pts each)",
+     "printed": "You may include an additional 3 Eightbound models in this unit for 55pts each.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "eightbound",
+       "name": "Eightbound",
+       "points": 55,
+       "pricing": "each",
+       "max": 3,
+       "add_model": {
+        "profile": "eightbound",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "exalted_eightbound",
+     "label": "The entire unit may be upgraded to Exalted Eightbound (+7pts per model)",
+     "printed": "The entire unit may be upgraded to Exalted Eightbound for 7pts per model.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "exalted_eightbound",
+       "name": "Exalted Eightbound",
+       "points": 7,
+       "pricing": "per_model",
+       "profile": {
+        "eightbound": "exalted_eightbound"
+       },
+       "rules": [
+        {
+         "rule": "codex/world_eaters/special_rules/exalted_eightbound",
+         "name": "Exalted Eightbound",
+         "url": "https://longwarindex.app/special_rules/exalted_eightbound/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "eviscerators",
+     "label": "Any Eightbound or Exalted Eightbound can exchange their 2 Eviscerator for one of the following:",
+     "printed": "Any Eightbound or Exalted Eightbound can exchange their 2 Eviscerator for one of the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "eviscerator_chainfist",
+       "name": "1 Eviscerator and 1 Chainfist",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "eviscerator",
+           "count": 2
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "eviscerator",
+           "count": 1
+          },
+          {
+           "kind": "weapon",
+           "id": "chainfist",
+           "faction": "chaos_space_marines",
+           "count": 1
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "chainfists",
+       "name": "2 Chainfists",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "eviscerator",
+           "count": 2
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chainfist",
+           "faction": "chaos_space_marines",
+           "count": 2
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "heavy_chain_glaive",
+       "name": "1 Heavy Chain Glaive",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "eviscerator",
+           "count": 2
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_chain_glaive",
+           "count": 1
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/world_eaters/roster/greater_brass_scorpion",
+   "name": "Greater Brass Scorpion",
+   "page": 27,
+   "url": "https://longwarindex.app/roster/greater_brass_scorpion_world_eaters/",
+   "source": "Codex Supplement: World Eaters",
+   "role": "Lords of War",
+   "points": 350,
+   "unit_type": "Monster",
+   "profiles": [
+    {
+     "id": "greater_brass_scorpion",
+     "name": "Greater Brass Scorpion",
+     "template": "unit",
+     "characteristics": {
+      "M": "9\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 8,
+      "T": 8,
+      "W": 10,
+      "A": 3,
+      "I": 4,
+      "Ld": 10,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "daemon_engine_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_flamer",
+       "faction": "chaos_space_marines",
+       "count": 2
+      },
+      {
+       "kind": "weapon",
+       "id": "scorpion_cannon"
+      },
+      {
+       "kind": "weapon",
+       "id": "demolisher_cannon",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "hell_crusher_claws"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_khorne",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "greater_brass_scorpion",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/chaos_space_marines/special_rules/daemon",
+     "name": "Daemon",
+     "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/frenzy",
+     "name": "Frenzy",
+     "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+    },
+    {
+     "rule": "universal_special_rules/furious_charge",
+     "name": "Furious Charge",
+     "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+    },
+    {
+     "rule": "universal_special_rules/adamantium_will",
+     "name": "Adamantium Will",
+     "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "4",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marines",
+    "World Eaters",
+    "Daemon",
+    "Daemon Engine",
+    "Greater Brass Scorpion"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/world_eaters/roster/kharn_the_betrayer",
+   "name": "Kharn, The Betrayer",
+   "page": 17,
+   "url": "https://longwarindex.app/roster/kharn_the_betrayer/",
+   "source": "Codex Supplement: World Eaters",
+   "role": "HQ",
+   "points": 120,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "kharn_the_betrayer",
+     "name": "Kharn, The Betrayer",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 9,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "plasma_pistol",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "gore_child"
+      },
+      {
+       "kind": "wargear",
+       "id": "chaos_sigil",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_khorne",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "kharn_the_betrayer",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/world_eaters/allegiances/allegiance_world_eaters",
+     "name": "Allegiance: World Eaters",
+     "url": "https://longwarindex.app/allegiances/allegiance_world_eaters/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "universal_special_rules/battle_hardened",
+     "name": "Battle-Hardened",
+     "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+    },
+    {
+     "rule": "universal_special_rules/furious_charge",
+     "name": "Furious Charge",
+     "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+    },
+    {
+     "rule": "codex/world_eaters/special_rules/the_betrayer",
+     "name": "The Betrayer",
+     "url": "https://longwarindex.app/special_rules/the_betrayer/"
+    },
+    {
+     "rule": "codex/world_eaters/special_rules/raving_madmen",
+     "name": "Raving Madmen",
+     "url": "https://longwarindex.app/special_rules/raving_madmen/"
+    },
+    {
+     "rule": "codex/world_eaters/special_rules/too_angry_to_die",
+     "name": "Too Angry to Die",
+     "url": "https://longwarindex.app/special_rules/too_angry_to_die/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/world_eaters/special_rules/indiscriminate_rage",
+     "name": "Indiscriminate Rage",
+     "url": "https://longwarindex.app/special_rules/indiscriminate_rage/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "World Eaters",
+    "Chaos Lord",
+    "Kharn, The Betrayer",
+    "Unique",
+    "Khorne",
+    "M31"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/world_eaters/roster/khorne_berzerkers",
+   "name": "Khorne Berzerkers",
+   "page": 21,
+   "url": "https://longwarindex.app/roster/khorne_berzerkers/",
+   "source": "Codex Supplement: World Eaters",
+   "role": "Troops",
+   "points": 85,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "khorne_berzerkers",
+     "name": "Khorne Berzerkers",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 1,
+      "A": 1,
+      "I": 4,
+      "Ld": 7,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "chainsword",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_khorne",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    },
+    {
+     "id": "aspiring_champion",
+     "name": "Aspiring Champion",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 1,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "chainsword",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_khorne",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "khorne_berzerkers",
+     "count": 4
+    },
+    {
+     "profile": "aspiring_champion",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/world_eaters/allegiances/allegiance_world_eaters",
+     "name": "Allegiance: World Eaters",
+     "url": "https://longwarindex.app/allegiances/allegiance_world_eaters/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "universal_special_rules/furious_charge",
+     "name": "Furious Charge",
+     "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Despoiler",
+    "World Eaters",
+    "Khorne Berserkers",
+    "Khorne",
+    "M31"
+   ],
+   "size": {
+    "min": 5,
+    "max": 20
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 15 Khorne Berzerker models in this unit (+15pts)",
+     "printed": "You may include an additional 15 Khorne Berzerker models in this unit for 15pts.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "khorne_berzerker",
+       "name": "Khorne Berzerker",
+       "points": 15,
+       "pricing": "each",
+       "max": 15,
+       "add_model": {
+        "profile": "khorne_berzerkers",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "raving_madmen",
+     "label": "This unit may purchase the Raving Madman special rule (+15pts)",
+     "printed": "This unit may purchase the Raving Madman special rule for 15pts.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "raving_madmen",
+       "name": "Raving Madman",
+       "points": 15,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/world_eaters/special_rules/raving_madmen",
+         "name": "Raving Madmen",
+         "printed": "Raving Madman",
+         "url": "https://longwarindex.app/special_rules/raving_madmen/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "melee_weapon",
+     "label": "Any Khorne Berzerker model may exchange their Chainsword or Bolt Pistol for:",
+     "printed": "Any Khorne Berzerker model may exchange their Chainsword or Bolt Pistol for:",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "khorne_berzerkers"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "chainsword",
+       "name": "Chainsword",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove_one_of": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "chain_axe",
+       "name": "Chain Axe",
+       "points": 2,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove_one_of": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chain_axe"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "falax_blade",
+       "name": "Falax Blade",
+       "points": 1,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove_one_of": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "falax_blade"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "meteor_hammer",
+       "name": "Meteor Hammer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove_one_of": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "meteor_hammer"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "barb_hook_lash",
+       "name": "Barb-Hook Lash",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove_one_of": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "barb_hook_lash"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "falax_blade",
+     "label": "Any Khorne Berzerker model may exchange their Bolt Pistol for a Falax Blade (+1pts)",
+     "printed": "Any Khorne Berzerker model may exchange their Bolt Pistol for a Falax Blade for 1pts.",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "khorne_berzerkers"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "falax_blade",
+       "name": "Falax Blade",
+       "points": 1,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "falax_blade"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "plasma_pistol",
+     "label": "One in every 4 Khorne Berzerker models may exchange their Bolt Pistol for a Plasma Pistol (+5pts)",
+     "printed": "One in every 4 Khorne Berzerker models may exchange their Bolt Pistol for a Plasma Pistol for 5pts.",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 4,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "two_handed_weapon",
+     "label": "One in every 4 Khorne Berzerker models may exchange their Bolt Pistol and Chainsword for one of the following:",
+     "printed": "One in every 4 Khorne Berzerker models may exchange their Bolt Pistol and Chainsword for one of the following:",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 4,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "eviscerator",
+       "name": "Eviscerator",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "eviscerator"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "excoraitor_chainaxe",
+       "name": "Excoraitor Chainaxe",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "excoraitor_chainaxe"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "icon_of_chaos",
+     "label": "One Khorne Berzerker model may take an Icon of Chaos (+10pts)",
+     "printed": "One Khorne Berzerker model may take an Icon of Chaos for 10pts.",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "khorne_berzerkers"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "icon_of_chaos",
+       "name": "Icon of Chaos",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "icon_of_chaos",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "champion_bolt_pistol",
+     "label": "The Aspiring Champion may exchange its Bolt Pistol for a:",
+     "printed": "The Aspiring Champion may exchange its Bolt Pistol for a:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "aspiring_champion"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "falax_blade",
+       "name": "Falax Blade",
+       "points": 1,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "falax_blade"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "chainsword",
+       "name": "Chainsword",
+       "points": 1,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "champion_chainsword",
+     "label": "The Aspiring Champion may exchange its Chainsword for one of the following:",
+     "printed": "The Aspiring Champion may exchange its Chainsword for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "aspiring_champion"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "chain_axe",
+       "name": "Chain Axe",
+       "points": 2,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chain_axe"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "falax_blade",
+       "name": "Falax Blade",
+       "points": 1,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "falax_blade"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "meteor_hammer",
+       "name": "Meteor Hammer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "meteor_hammer"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "barb_hook_lash",
+       "name": "Barb-Hook Lash",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "barb_hook_lash"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_sword",
+       "name": "Power Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_maul",
+       "name": "Power Maul",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_maul",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lightning_claws",
+       "name": "Lightning Claw",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/world_eaters/roster/lord_invocatus",
+   "name": "Lord Invocatus",
+   "page": 19,
+   "url": "https://longwarindex.app/roster/lord_invocatus/",
+   "source": "Codex Supplement: World Eaters",
+   "role": "HQ",
+   "points": 120,
+   "unit_type": "Cavalry",
+   "profiles": [
+    {
+     "id": "lord_invocatus",
+     "name": "Lord Invocatus",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 5,
+      "S": 5,
+      "T": 5,
+      "W": 5,
+      "A": 4,
+      "I": 5,
+      "Ld": 9,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_axe",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "skull_crusher_horn"
+      },
+      {
+       "kind": "wargear",
+       "id": "chaos_sigil",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_khorne",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "lord_invocatus",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/world_eaters/allegiances/allegiance_world_eaters",
+     "name": "Allegiance: World Eaters",
+     "url": "https://longwarindex.app/allegiances/allegiance_world_eaters/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1+D3",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/furious_charge",
+     "name": "Furious Charge",
+     "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "codex/world_eaters/special_rules/storming_charge",
+     "name": "Storming Charge",
+     "url": "https://longwarindex.app/special_rules/storming_charge/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/world_eaters/special_rules/red_wake",
+     "name": "Red Wake",
+     "url": "https://longwarindex.app/special_rules/red_wake/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "World Eaters",
+    "Chaos Lord",
+    "Lord Invocatus",
+    "Unique",
+    "Khorne",
+    "M31"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/world_eaters/roster/lord_of_skulls",
+   "name": "Lord of Skulls",
+   "page": 26,
+   "url": "https://longwarindex.app/roster/lord_of_skulls_world_eaters/",
+   "source": "Codex Supplement: World Eaters",
+   "role": "Lords of War",
+   "points": 315,
+   "unit_type": "Knight",
+   "profiles": [
+    {
+     "id": "lord_of_skulls",
+     "name": "Lord of Skulls",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "11\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 8,
+      "Front": 13,
+      "Side": 13,
+      "Rear": 12,
+      "A": 3,
+      "I": 3,
+      "Ld": 10,
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "great_cleaver_of_khorne",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "gorestorm_cannon",
+       "mount": "secondary"
+      },
+      {
+       "kind": "weapon",
+       "id": "hades_gatling_cannon",
+       "mount": "primary"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_khorne",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "lord_of_skulls",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "universal_special_rules/super_heavy",
+     "name": "Super Heavy",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/super_heavy/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/daemon",
+     "name": "Daemon",
+     "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/frenzy",
+     "name": "Frenzy",
+     "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space marines",
+    "World Eaters",
+    "Daemon",
+    "Daemon Engine",
+    "Lord of Skulls"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "gorestorm_cannon",
+     "label": "The Lord of Skulls may exchange its Gorestorm Cannon (S) for one of the following:",
+     "printed": "The Lord of Skulls may exchange its Gorestorm Cannon (S) for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "daemongore_cannon",
+       "name": "Daemongore Cannon (S)",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "gorestorm_cannon",
+           "mount": "secondary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "daemongore_cannon",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "ichor_cannon",
+       "name": "Ichor Cannon (S)",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "gorestorm_cannon",
+           "mount": "secondary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "ichor_cannon",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "skull_hurler",
+     "label": "The Lord of Skulls may exchange its Hades Gatling Cannon (P) for a Skull hurler (P) (+15pts)",
+     "printed": "The Lord of Skulls may exchange its Hades Gatling Cannon (P) for a Skull hurler (P) for 15pts",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "skull_hurler",
+       "name": "Skull hurler (P)",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "hades_gatling_cannon",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "skull_hurler",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/world_eaters/roster/red_butchers",
+   "name": "Red Butchers",
+   "page": 23,
+   "url": "https://longwarindex.app/roster/red_butchers/",
+   "source": "Codex Supplement: World Eaters",
+   "role": "Elites",
+   "points": 255,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "red_butchers",
+     "name": "Red Butchers",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "indomitus_terminator_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_axe",
+       "faction": "chaos_space_marines",
+       "count": 2
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_khorne",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "red_butchers",
+     "count": 5
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/world_eaters/allegiances/allegiance_world_eaters",
+     "name": "Allegiance: World Eaters",
+     "url": "https://longwarindex.app/allegiances/allegiance_world_eaters/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "universal_special_rules/furious_charge",
+     "name": "Furious Charge",
+     "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "codex/world_eaters/special_rules/raving_madmen",
+     "name": "Raving Madmen",
+     "url": "https://longwarindex.app/special_rules/raving_madmen/"
+    },
+    {
+     "rule": "codex/world_eaters/special_rules/blood_hungry",
+     "name": "Blood Hungry",
+     "url": "https://longwarindex.app/special_rules/blood_hungry/"
+    },
+    {
+     "rule": "codex/world_eaters/special_rules/no_survivors",
+     "name": "No Survivors",
+     "url": "https://longwarindex.app/special_rules/no_survivors/"
+    },
+    {
+     "rule": "universal_special_rules/expendable",
+     "name": "Expendable",
+     "url": "https://longwarindex.app/universal_special_rules/expendable/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "World Eaters",
+    "Red Butchers",
+    "Khorne",
+    "M31"
+   ],
+   "stocks": [
+    {
+     "item": {
+      "kind": "weapon",
+      "id": "power_axe",
+      "faction": "chaos_space_marines"
+     },
+     "count": 2,
+     "groups": [
+      "power_axes"
+     ]
+    }
+   ],
+   "options": [
+    {
+     "id": "terminator_armour",
+     "label": "The entire unit may exchange their Indomitus Terminator Armour for:",
+     "printed": "The entire unit may exchange their Indomitus Terminator Armour for:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "cataphractii_terminator_armour",
+       "name": "Cataphractii Terminator Armour",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "indomitus_terminator_armour",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "cataphractii_terminator_armour",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "tartaros_terminator_armour",
+       "name": "Tartaros Terminator Armour",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "indomitus_terminator_armour",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "tartaros_terminator_armour",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "power_axes",
+     "label": "Any Red Butcher model in the unit may exchange any number of its Power Axes with the following:",
+     "printed": "Any Red Butcher model in the unit may exchange any number of its Power Axes with the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {},
+     "choices": [
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "power_axe",
+         "faction": "chaos_space_marines"
+        },
+        "count": 1
+       },
+       "max": 2
+      },
+      {
+       "id": "power_maul",
+       "name": "Power Maul",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_maul",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "power_axe",
+         "faction": "chaos_space_marines"
+        },
+        "count": 1
+       },
+       "max": 2
+      },
+      {
+       "id": "lightning_claws",
+       "name": "Lightning Claw",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "power_axe",
+         "faction": "chaos_space_marines"
+        },
+        "count": 1
+       },
+       "max": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/world_eaters/roster/slaughterbound",
+   "name": "Slaughterbound",
+   "page": 16,
+   "url": "https://longwarindex.app/roster/slaughterbound/",
+   "source": "Codex Supplement: World Eaters",
+   "role": "HQ",
+   "points": 135,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "slaughterbound",
+     "name": "Slaughterbound",
+     "template": "unit",
+     "characteristics": {
+      "M": "7\"",
+      "WS": 6,
+      "BS": 4,
+      "S": 6,
+      "T": 6,
+      "W": 3,
+      "A": 3,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "warp_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "eviscerator",
+       "count": 1
+      },
+      {
+       "kind": "weapon",
+       "id": "hideous_mutations",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_khorne",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "slaughterbound",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/world_eaters/allegiances/allegiance_world_eaters",
+     "name": "Allegiance: World Eaters",
+     "url": "https://longwarindex.app/allegiances/allegiance_world_eaters/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/daemon",
+     "name": "Daemon",
+     "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/furious_charge",
+     "name": "Furious Charge",
+     "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+    },
+    {
+     "rule": "codex/world_eaters/special_rules/blood_hungry",
+     "name": "Blood Hungry",
+     "url": "https://longwarindex.app/special_rules/blood_hungry/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limit: 1 Per Detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "World Eaters",
+    "Slaughterbound",
+    "Khorne",
+    "Daemon",
+    "M31"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/world_eaters/roster/zhufor_the_impaler",
+   "name": "Zhufor, The Impaler",
+   "page": 18,
+   "url": "https://longwarindex.app/roster/zhufor_the_impaler/",
+   "source": "Codex Supplement: World Eaters",
+   "role": "HQ",
+   "points": 95,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "zhufor_the_impaler",
+     "name": "Zhufor, the Impaler",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 5,
+      "T": 5,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "indomitus_terminator_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "combi_bolter",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "claw_of_demnos"
+      },
+      {
+       "kind": "weapon",
+       "id": "skulltaker_axe"
+      },
+      {
+       "kind": "wargear",
+       "id": "chaos_sigil",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_khorne",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "zhufor_the_impaler",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/world_eaters/allegiances/allegiance_world_eaters",
+     "name": "Allegiance: World Eaters",
+     "url": "https://longwarindex.app/allegiances/allegiance_world_eaters/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "universal_special_rules/furious_charge",
+     "name": "Furious Charge",
+     "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/world_eaters/warlord_traits/arch_slaughterer",
+     "name": "Arch Slaughterer",
+     "url": "https://longwarindex.app/warlord_traits/arch_slaughterer/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "World Eaters",
+    "Chaos Lord",
+    "Terminator",
+    "Zhufor, the Impaler",
+    "Unique",
+    "Khorne",
+    "M31"
+   ],
+   "stocks": [],
+   "options": []
+  }
+ ]
+}

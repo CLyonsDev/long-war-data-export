@@ -1,0 +1,725 @@
+{
+ "data_version": "cde6009fc38b9902",
+ "format": 1,
+ "faction": "tau_empire",
+ "wargear": [
+  {
+   "id": "blacksun_filter",
+   "name": "Blacksun Filter",
+   "section": "Support Systems",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/blacksun_filter/",
+   "text": "A model equipped with this wargear gains the Night vision special rule and is not affected by the Blind Special Rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/night_vision",
+      "name": "Night Vision",
+      "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "advanced_targeting_system",
+   "name": "Advanced Targeting System",
+   "section": "Support Systems",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/advanced_targeting_system/",
+   "text": "A model with this wargear has the Firing Protocol (3) special rule on all of their ranged weapons.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/firing_protocols",
+      "name": "Firing Protocols",
+      "param": "3",
+      "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "velocity_tracker",
+   "name": "Velocity Tracker",
+   "section": "Support Systems",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/velocity_tracker/",
+   "text": "A model equipped with this wargear, may treat all Shooting Weapons it is equipped with as having the Skyfire special rule when targeting Aircraft type units."
+  },
+  {
+   "id": "drone_controller",
+   "name": "Drone Controller",
+   "section": "Support Systems",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/drone_controller/",
+   "text": "Any Drones attached to a unit with this wargear may use the equipped models Ballistic Skill (BS) characteristic instead of their own.",
+   "effects": {
+    "drones_use_bearer_characteristic": {
+     "characteristics": [
+      "BS"
+     ]
+    }
+   }
+  },
+  {
+   "id": "shield_generator",
+   "name": "Shield Generator",
+   "section": "Support Systems",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/shield_generator/",
+   "text": "A model equipped with this support system gains a 4+ invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "stealth_field",
+   "name": "Stealth Field",
+   "section": "Support Systems",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/stealth_field/",
+   "text": "A unit which includes a model with this special rule always counts as gaining the benefits of Light Cover. If the unit is already benefiting from Light Cover, it gains the benefit of Heavy Cover instead."
+  },
+  {
+   "id": "combat_armour",
+   "name": "Combat Armour",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/combat_armour/",
+   "text": "This lightweight high performance combat armour integrating advanced systems is the standard of the Fire Warriors. This confers a 4+ Armour save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "kroot_hide",
+   "name": "Kroot Hide",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/kroot_hide/",
+   "text": "Kroot hide is noted to be very leathery. It confers a 6+ Armour save. Or confers a 5+ Armour save if the unit is the Beast or Cavalry and a 4+ Armour save if the unit is a Monster type.",
+   "effects": {
+    "armour_save": "6+",
+    "armour_save_by_unit_type": [
+     {
+      "save": "5+",
+      "unit_types": [
+       "Beast",
+       "Cavalry"
+      ]
+     },
+     {
+      "save": "4+",
+      "unit_types": [
+       "Monster"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "heavy_plate",
+   "name": "Heavy Plate",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/heavy_plate_tau_empire/",
+   "text": "Hardened armour found on Battlesuits and light skimmer vehicles. It confers a 3+ Armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "recon_armour",
+   "name": "Recon Armour",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/recon_armour/",
+   "text": "This stripped-down version of the main combat armour is designed for increased mobility and typically issued to Pathfinders at the cost of protection. This confers a 5+ Armour save.",
+   "effects": {
+    "armour_save": "5+"
+   }
+  },
+  {
+   "id": "vespid_carapace",
+   "name": "Vespid Carapace",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/vespid_carapace/",
+   "text": "The Vespid insect carapace is hardened like natural armour. It confers a 4+ Armour save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "super_heavy_plate",
+   "name": "Super Heavy Plate",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/super_heavy_plate/",
+   "text": "Hardened armour found on large Battlesuits. It confers a 2+ Armour save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "decoy_launchers",
+   "name": "Decoy Launchers",
+   "section": "Vehicle Systems",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/decoy_launchers/",
+   "text": "A model equipped with this Wargear can set to Deploy Decoys instead of setting to Overwatch. Until the start of its next turn, the model gains a 4+ Cover Save."
+  },
+  {
+   "id": "disruption_pods",
+   "name": "Disruption Pods",
+   "section": "Vehicle Systems",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/disruption_pods/",
+   "text": "A model with this wargear always gains the benefit of Light Cover even if it would not normally benefit from Cover. If the unit is already benefitting from Light Cover, it gains the benefit of Heavy Cover instead."
+  },
+  {
+   "id": "flechette_launchers",
+   "name": "Flechette Launchers",
+   "section": "Vehicle Systems",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/flechette_launchers/",
+   "text": "A model with this wargear increases the number of Hammer of Wrath attacks it makes when it attacks by 1.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "sensor_spines",
+   "name": "Sensor Spines",
+   "section": "Vehicle Systems",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/sensor_spines/",
+   "text": "This unit gains the Move Through Cover special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/move_through_cover",
+      "name": "Move Through Cover",
+      "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "puretide_engram_neurochip",
+   "name": "Puretide Engram Neurochip",
+   "section": "Relics",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/puretide_engram_neurochip/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. If your army includes a model with this Relic wargear, you can select 2 units in your army to gain either the Outflank, Scout or Infiltrate special rules.",
+   "effects": {
+    "selects": {
+     "what": "units",
+     "count": 2,
+     "grants_one_of": [
+      {
+       "rule": "universal_special_rules/outflank",
+       "name": "Outflank",
+       "url": "https://longwarindex.app/universal_special_rules/outflank/"
+      },
+      {
+       "rule": "universal_special_rules/scout",
+       "name": "Scout",
+       "url": "https://longwarindex.app/universal_special_rules/scout/"
+      },
+      {
+       "rule": "universal_special_rules/infiltrate",
+       "name": "Infiltrate",
+       "url": "https://longwarindex.app/universal_special_rules/infiltrate/"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "repulsor_impact_field",
+   "name": "Repulsor Impact Field",
+   "section": "Relics",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/repulsor_impact_field/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this Relic may always make its Hammer of Wrath (x) attacks at initiative step 10, even if the equipped model did not perform a Charge that Phase."
+  },
+  {
+   "id": "failsafe_detonator",
+   "name": "Failsafe Detonator",
+   "section": "Relics",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/failsafe_detonator/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. When a model with this relic is slain and removed from play, all units within 5\" of the equipped model before it is removed from play take 2D6, Strength 5, AP- automatic hits."
+  },
+  {
+   "id": "guardian_shield",
+   "name": "Guardian Shield",
+   "section": "Datasheet",
+   "datasheet": "Guardian Drone",
+   "page": 25,
+   "url": "https://longwarindex.app/wargear/guardian_shield/",
+   "text": "This model and any attached unit have a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+",
+    "unit_invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "homing_beacon",
+   "name": "Homing Beacon",
+   "section": "Datasheet",
+   "datasheet": "MB3 Recon Drone",
+   "page": 26,
+   "url": "https://longwarindex.app/wargear/homing_beacon/",
+   "text": "Friendly Tau units that Deep Strike within 12\" of this unit do not roll to scatter and arrive on target."
+  },
+  {
+   "id": "grav_pulse_wave",
+   "name": "Grav Pulse Wave",
+   "section": "Datasheet",
+   "datasheet": "Mv33 Grav-Inhibitor Drone",
+   "page": 26,
+   "url": "https://longwarindex.app/wargear/grav_pulse_wave/",
+   "text": "Enemy units have -2 to charge rolls when attempting to charge a unit with this model."
+  },
+  {
+   "id": "pulse_accelerator",
+   "name": "Pulse Accelerator",
+   "section": "Datasheet",
+   "datasheet": "Mv31 Pulse Accelerator Drone",
+   "page": 27,
+   "url": "https://longwarindex.app/wargear/pulse_accelerator/",
+   "text": "Any unit that this model is attached to gains +6\" to the range of all Pulse weapons models in that unit are equipped with. 'Pulse' weapons are any weapons with 'Pulse' in its name or listed under the 'Pulse' category in the wargear section.",
+   "effects": {
+    "unit_weapon_stat_mods": [
+     {
+      "weapons": {
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "pulse_pistol"
+        },
+        {
+         "kind": "weapon",
+         "id": "pulse_rifle"
+        },
+        {
+         "kind": "weapon",
+         "id": "pulse_carbine"
+        },
+        {
+         "kind": "weapon",
+         "id": "pulse_blaster"
+        },
+        {
+         "kind": "weapon",
+         "id": "longshot_pulse_rifle"
+        },
+        {
+         "kind": "weapon",
+         "id": "linked_pulse_carbine"
+        },
+        {
+         "kind": "weapon",
+         "id": "linked_pulse_rifle"
+        },
+        {
+         "kind": "weapon",
+         "id": "burst_cannon"
+        },
+        {
+         "kind": "weapon",
+         "id": "heavy_burst_cannon"
+        },
+        {
+         "kind": "weapon",
+         "id": "pulse_driver_cannon"
+        },
+        {
+         "kind": "weapon",
+         "id": "pulse_blastcannon"
+        },
+        {
+         "kind": "weapon",
+         "id": "hazard_burst_cannon"
+        },
+        {
+         "kind": "weapon",
+         "id": "pulse_submunitions_cannons"
+        },
+        {
+         "kind": "weapon",
+         "id": "pulse_bomb_generator"
+        },
+        {
+         "kind": "weapon",
+         "id": "pulse_ordinance_multi_driver"
+        }
+       ]
+      },
+      "mods": [
+       {
+        "characteristic": "Range",
+        "delta": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "wings",
+   "name": "Wings",
+   "section": "Datasheet",
+   "datasheet": "Vespid Swarmguard",
+   "page": 27,
+   "url": "https://longwarindex.app/wargear/wings_tau_empire/",
+   "text": "This unit has a Movement (M) characteristic of 12\". It gains the Hammer of Wrath (1), Fly and Deep Strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "command_uplink",
+   "name": "Command Uplink",
+   "section": "Datasheet",
+   "datasheet": "Command Uplink Drone",
+   "page": 28,
+   "url": "https://longwarindex.app/wargear/command_uplink/",
+   "text": "While this model is alive and, on the battlefield, you may select 1 friendly Tau unit on the battlefield that is fleeing at the start of your movement phase. That unit automatically rallies."
+  },
+  {
+   "id": "repair_tool",
+   "name": "Repair Tool",
+   "section": "Datasheet",
+   "datasheet": "DX-4 Technical Drone",
+   "page": 28,
+   "url": "https://longwarindex.app/wargear/repair_tool/",
+   "text": "At the start of the Movement Phase, you can select 1 friendly Battlesuit or Vehicle type unit on the battlefield within 3\" of a unit containing this model. Roll 1 D6 for each Technical Drone model in the unit. If one of the dice results are a 5+, the target Battlesuit Heals 1 wounds. If the target is a Vehicle, you may repair a Primary weapon that has been destroyed or the vehicle ceases to be immobilized."
+  },
+  {
+   "id": "hover_drone",
+   "name": "Hover Drone",
+   "section": "Datasheet",
+   "datasheet": "Ethereal",
+   "page": 32,
+   "url": "https://longwarindex.app/wargear/hover_drone/",
+   "text": "A model equipped with this wargear has a Movement (M) characteristic of 8\" and gain the Fly special rule.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 8
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "prey_hook",
+   "name": "Prey Hook",
+   "section": "Datasheet",
+   "datasheet": "Kroot Shaper",
+   "page": 34,
+   "url": "https://longwarindex.app/wargear/prey_hook/",
+   "text": "A unit with this wargear and any attached unit gain the Crusader special rule.",
+   "effects": {
+    "unit_rules": [
+     {
+      "rule": "universal_special_rules/crusader",
+      "name": "Crusader",
+      "url": "https://longwarindex.app/universal_special_rules/crusader/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "tri_blade",
+   "name": "Tri Blade",
+   "section": "Datasheet",
+   "datasheet": "Kroot Shaper",
+   "page": 34,
+   "url": "https://longwarindex.app/wargear/tri_blade/",
+   "text": "A model with this wargear gains the Hammer of Wrath (3) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "3",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "wings_vespid_strain_leader",
+   "name": "Wings (Vespid Strain Leader)",
+   "section": "Datasheet",
+   "datasheet": "Vespid Strain Leader",
+   "page": 35,
+   "url": "https://longwarindex.app/wargear/wings_vespid_strain_leader/",
+   "text": "This unit has the Fly special rule and a Movement (M) characteristic of 12\". It gains the Hammer of Wrath (1), Fly and Deep Strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "duality_of_paradox",
+   "name": "Duality of Paradox",
+   "section": "Datasheet",
+   "datasheet": "Aun'va",
+   "page": 36,
+   "url": "https://longwarindex.app/wargear/duality_of_paradox/",
+   "text": "Aun'va has an Invulnerable save equal to the AP of the weapon that inflicted the wound. Example, if an AP 1 weapon inflicts a wound, Aun'va has a 1+ Invulnerable save. If the wound was dealt by an AP4 weapon, he has a 4+ Invulnerable save against it."
+  },
+  {
+   "id": "neocapacitor_shield",
+   "name": "Neocapacitor Shield",
+   "section": "Datasheet",
+   "datasheet": "The Twin Lance",
+   "page": 39,
+   "url": "https://longwarindex.app/wargear/neocapacitor_shield/",
+   "text": "A model with this wargear gains a 4+ Invulnerable save. In addition, all enemy units resolve Shooting Attacks against a unit which includes a model with this wargear as having the Gets Hot! special rule on all Shooting Weapons they are equipped with that target the equipped unit.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "structural_analyzer",
+   "name": "Structural Analyzer",
+   "section": "Datasheet",
+   "datasheet": "Dark Strider",
+   "page": 40,
+   "url": "https://longwarindex.app/wargear/structural_analyzer/",
+   "text": "This unit and any attached unit gain the Siege Attacker and Tank Hunter special rules.",
+   "effects": {
+    "unit_rules": [
+     {
+      "rule": "universal_special_rules/siege_attackers",
+      "name": "Siege Attackers",
+      "url": "https://longwarindex.app/universal_special_rules/siege_attackers/"
+     },
+     {
+      "rule": "universal_special_rules/tank_hunters",
+      "name": "Tank Hunters",
+      "url": "https://longwarindex.app/universal_special_rules/tank_hunters/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "photon_casters",
+   "name": "Photon Casters",
+   "section": "Datasheet",
+   "datasheet": "Shas'o R'alai",
+   "page": 42,
+   "url": "https://longwarindex.app/wargear/photon_casters/",
+   "text": "At the start of the Combat Phase, you can roll a D6. On a 5+, all enemy units Engaged with this unit are Blinded."
+  },
+  {
+   "id": "eclipse_shield_generator",
+   "name": "Eclipse Shield Generator",
+   "section": "Datasheet",
+   "datasheet": "Shas'o R'alai",
+   "page": 42,
+   "url": "https://longwarindex.app/wargear/eclipse_shield_generator/",
+   "text": "This unit gains a 4+ Cover save.",
+   "effects": {
+    "cover_save": "4+"
+   }
+  },
+  {
+   "id": "heavy_shield_generator",
+   "name": "Heavy Shield Generator",
+   "section": "Datasheet",
+   "datasheet": "Shas'o R'myr",
+   "page": 43,
+   "url": "https://longwarindex.app/wargear/heavy_shield_generator/",
+   "text": "This unit gains a 3+ Invulnerable Save.",
+   "effects": {
+    "invulnerable_save": "3+"
+   }
+  },
+  {
+   "id": "grenade_launcher",
+   "name": "Grenade Launcher",
+   "section": "Datasheet",
+   "datasheet": "Pathfinder Team",
+   "page": 45,
+   "url": "https://longwarindex.app/wargear/grenade_launcher_tau_empire/",
+   "text": "In the shooting phase, when the model equipped with this Wargear makes an attack with a Grenade Type weapon. The Grenade weapon has a range of 20\" instead of its normal range.",
+   "effects": {
+    "weapon_stat_mods": [
+     {
+      "weapons": {
+       "weapon_types": [
+        "Grenade"
+       ]
+      },
+      "mods": [
+       {
+        "characteristic": "Range",
+        "value": "20\""
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "neuroweb_system_jammer",
+   "name": "Neuroweb System Jammer",
+   "section": "Datasheet",
+   "datasheet": "Pathfinder Team",
+   "page": 45,
+   "url": "https://longwarindex.app/wargear/neuroweb_system_jammer/",
+   "text": "once per game, a unit with a model equipped with this wargear can declare they will activate the Jammer in the shooting phase. This unit has -1 to wound it in the shooting phase."
+  },
+  {
+   "id": "homing_beacon_xv2515_stealth_suit_team",
+   "name": "Homing Beacon (XV25/15 Stealth Suit Team)",
+   "section": "Datasheet",
+   "datasheet": "XV25/15 Stealth Suit Team",
+   "page": 47,
+   "url": "https://longwarindex.app/wargear/homing_beacon_xv2515_stealth_suit_team/",
+   "text": "Friendly T'au units that Deep Strike wholly within 12\" of this model do not scatter."
+  },
+  {
+   "id": "ghostkeel_electronic_warfare_suite",
+   "name": "Ghostkeel Electronic Warfare Suite",
+   "section": "Datasheet",
+   "datasheet": "XV95 Ghostkeel Suit",
+   "page": 49,
+   "url": "https://longwarindex.app/wargear/ghostkeel_electronic_warfare_suite/",
+   "text": "While this unit is on the board, enemy units have -1 to their reserve rolls when rolling to see if they come on via Outflank and Deep Strike."
+  },
+  {
+   "id": "stealth_field_firesight_marksman",
+   "name": "Stealth Field (Firesight Marksman)",
+   "section": "Datasheet",
+   "datasheet": "Firesight Marksman",
+   "page": 50,
+   "url": "https://longwarindex.app/wargear/stealth_field_firesight_marksman/",
+   "text": "Any models that are part of this model's unit except Drones gain the benefit of Light Cover, even if they normally would not. If the model is already benefiting from Light Cover, it gains the benefit of Heavy Cover instead."
+  },
+  {
+   "id": "advanced_thrusters",
+   "name": "Advanced Thrusters",
+   "section": "Datasheet",
+   "datasheet": "DX-6 Remora Stealth Drones",
+   "page": 54,
+   "url": "https://longwarindex.app/wargear/advanced_thrusters/",
+   "text": "This model has a Movement (M) characteristic of 20-30\". Enemy attacks in the Shooting Phase are resolved as Snap Shots against a model with this special rule.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": "20-30"
+     }
+    ]
+   }
+  },
+  {
+   "id": "riptide_shield_generator",
+   "name": "Riptide Shield Generator",
+   "section": "Datasheet",
+   "datasheet": "XV104 Riptide Suit",
+   "page": 68,
+   "url": "https://longwarindex.app/wargear/riptide_shield_generator/",
+   "text": "This unit has a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "vigilus_defense_system",
+   "name": "Vigilus Defense System",
+   "section": "Datasheet",
+   "datasheet": "KX139 Ta'unar Supremacy Armour",
+   "page": 76,
+   "url": "https://longwarindex.app/wargear/vigilus_defense_system/",
+   "text": "This unit may always set to Overwatch even if it made a Shooting Attack in its Shooting Phase. However, it may only make Overwatch attacks with its equipped Smart Missile Systems and Linked Burst Cannons."
+  },
+  {
+   "id": "homing_beacon_sensor_tower",
+   "name": "Homing Beacon (Sensor Tower)",
+   "section": "Datasheet",
+   "datasheet": "Sensor Tower",
+   "page": 78,
+   "url": "https://longwarindex.app/wargear/homing_beacon_sensor_tower/",
+   "text": "Friendly T'au units that Deep Strike wholly within 12\" of this model do not scatter."
+  },
+  {
+   "id": "sensor_relay",
+   "name": "Sensor Relay",
+   "section": "Datasheet",
+   "datasheet": "Sensor Tower",
+   "page": 78,
+   "url": "https://longwarindex.app/wargear/sensor_relay_tau_empire/",
+   "text": "Enemy units may not arrive within 18\" of this unit from Outflank or Deep Strike."
+  }
+ ]
+}

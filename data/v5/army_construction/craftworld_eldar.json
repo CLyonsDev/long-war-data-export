@@ -1,0 +1,1390 @@
+{
+ "data_version": "97fa17b73f61c7ab",
+ "format": 1,
+ "faction": "craftworld_eldar",
+ "codex": {
+  "id": "codex/craftworld_eldar",
+  "name": "Craftworld Eldar",
+  "page": 1,
+  "url": "https://longwarindex.app/codex/craftworld_eldar/",
+  "parent": null,
+  "army_rules": [
+   {
+    "rule": "codex/craftworld_eldar/special_rules/battle_focus",
+    "name": "Battle Focus",
+    "url": "https://longwarindex.app/special_rules/battle_focus/"
+   },
+   {
+    "rule": "codex/craftworld_eldar/special_rules/she_who_thirsts",
+    "name": "She Who Thirsts",
+    "url": "https://longwarindex.app/special_rules/she_who_thirsts_craftworld_eldar/"
+   },
+   {
+    "rule": "codex/craftworld_eldar/special_rules/seer_council",
+    "name": "Seer Council",
+    "url": "https://longwarindex.app/special_rules/seer_council/"
+   },
+   {
+    "rule": "codex/craftworld_eldar/special_rules/phoenix_lord",
+    "name": "Phoenix Lord",
+    "url": "https://longwarindex.app/special_rules/phoenix_lord/"
+   },
+   {
+    "rule": "codex/craftworld_eldar/special_rules/strength_from_death",
+    "name": "Strength from Death",
+    "url": "https://longwarindex.app/special_rules/strength_from_death_craftworld_eldar/"
+   }
+  ],
+  "allies": {
+   "printed": "Craftworld Eldar may take Allies from the following armies:",
+   "page": 39,
+   "url": "https://longwarindex.app/allies/craftworld_eldar_allies/",
+   "factions": [
+    {
+     "faction": "craftworld_eldar"
+    },
+    {
+     "faction": "dark_eldar"
+    },
+    {
+     "faction": "harlequins"
+    }
+   ]
+  },
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/craftworld_eldar/rites_of_war/war_host",
+    "codex/craftworld_eldar/rites_of_war/windrider_host",
+    "codex/craftworld_eldar/rites_of_war/shrine_host",
+    "codex/craftworld_eldar/rites_of_war/wraith_host",
+    "codex/craftworld_eldar/rites_of_war/ynnari_sect"
+   ],
+   "from_parent": [],
+   "banned_from_parent": []
+  },
+  "unit_list": {
+   "page": 38,
+   "url": "https://longwarindex.app/unit_list/craftworld_eldar_unit_list/",
+   "entries": [
+    {
+     "datasheet": "codex/craftworld_eldar/roster/asurmen",
+     "printed": "Asurmen",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/autarch",
+     "printed": "Autarch",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/baharroth",
+     "printed": "Baharroth",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/eldrad_ulthran",
+     "printed": "Eldrad Ulthran",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/farseer",
+     "printed": "Farseer",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/fuegan",
+     "printed": "Fuegan",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/illic_nightspear",
+     "printed": "Illic Nightspear",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/irilyth",
+     "printed": "Irilyth",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/jain_zar",
+     "printed": "Jain Zar",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/karandras",
+     "printed": "Karandras",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/lhykis",
+     "printed": "Lhykis",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/maugan_ra",
+     "printed": "Maugan Ra",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/prince_yriel",
+     "printed": "Prince Yriel",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/warlock",
+     "printed": "Warlock",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/dire_avengers",
+     "printed": "Dire Avengers",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/guardians",
+     "printed": "Guardians",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/rangers",
+     "printed": "Rangers",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/storm_guardians",
+     "printed": "Storm Guardians",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/fire_dragons",
+     "printed": "Fire Dragons",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/howling_banshee",
+     "printed": "Howling Banshee",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/striking_scorpion",
+     "printed": "Striking Scorpion",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/war_walker",
+     "printed": "War Walker",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/wraith_blades",
+     "printed": "Wraith Blades",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/wraith_guard",
+     "printed": "Wraith Guard",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/wraith_lord",
+     "printed": "Wraith Lord",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/wraith_seer",
+     "printed": "Wraith Seer",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/wave_serpent",
+     "printed": "Wave Serpent",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/crimson_hunter",
+     "printed": "Crimson Hunter",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/hemlock_wraithfighter",
+     "printed": "Hemlock Wraithfighter",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/hornet",
+     "printed": "Hornet",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/shadow_spectres",
+     "printed": "Shadow Spectres",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/shining_spears",
+     "printed": "Shining Spears",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/shroud_runners",
+     "printed": "Shroud Runners",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/swooping_hawks",
+     "printed": "Swooping Hawks",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/vyper",
+     "printed": "Vyper",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/warp_spiders",
+     "printed": "Warp Spiders",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/wind_riders",
+     "printed": "Wind Riders",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/dark_reapers",
+     "printed": "Dark Reapers",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/falcon_grav_tank",
+     "printed": "Falcon Grav Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/fire_prism_grav_tank",
+     "printed": "Fire Prism Grav Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/firestorm_grav_tank",
+     "printed": "Firestorm Grav Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/lynx_grav_tank",
+     "printed": "Lynx Grav Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/night_spinner_grav_tank",
+     "printed": "Night Spinner Grav Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/support_weapons",
+     "printed": "Support Weapons",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/warp_hunter_grav_tank",
+     "printed": "Warp Hunter Grav Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/cobra_heavy_grav_tank",
+     "printed": "Cobra Heavy Grav Tank",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/phantom_titan",
+     "printed": "Phantom Titan",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/revenant_titan",
+     "printed": "Revenant Titan",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/scorpion_heavy_grav_tank",
+     "printed": "Scorpion Heavy Grav Tank",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/the_avatar_of_khaine",
+     "printed": "The Avatar of Khaine",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/vampire_raider",
+     "printed": "Vampire Raider",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/wraithknight",
+     "printed": "Wraithknight",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/webway_gate",
+     "printed": "Webway Gate",
+     "role": "Fortification"
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/the_yncarne_avatar_of_ynnead",
+     "printed": "The Yncarne, Avatar of Ynnead",
+     "role": "Lords of War",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/visarch",
+     "printed": "Visarch",
+     "role": "HQ",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/craftworld_eldar/roster/yvraine_herald_of_ynnead",
+     "printed": "Yvraine, Herald of Ynnead",
+     "role": "HQ",
+     "appendix": true
+    }
+   ]
+  },
+  "keyword_templates": [
+   {
+    "template": "[Craftworld]",
+    "substitution": {
+     "by": "allegiance"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/craftworld_eldar/allegiances/alaitoc",
+   "name": "Allegiance: Alaitoc",
+   "page": 37,
+   "url": "https://longwarindex.app/allegiances/alaitoc/",
+   "offered_by": {
+    "codex": "craftworld_eldar"
+   },
+   "keyword_substitution": {
+    "template": "[Craftworld]",
+    "value": "Alaitoc"
+   },
+   "rule": {
+    "rule": "codex/craftworld_eldar/allegiances/alaitoc",
+    "name": "Alaitoc",
+    "printed": "codex/craftworld_eldar/allegiances/alaitoc",
+    "url": "https://longwarindex.app/allegiances/alaitoc/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "alaitoc_outcast_minimum",
+     "printed": "Your army must include at least 1 Outcast unit per 1000pts unless restricted by a Rite of War.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Outcast"
+       }
+      ],
+      "min": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    }
+   ],
+   "benefits": [],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/craftworld_eldar/allegiances/biel_tan",
+   "name": "Allegiance: Biel-Tan",
+   "page": 37,
+   "url": "https://longwarindex.app/allegiances/biel_tan/",
+   "offered_by": {
+    "codex": "craftworld_eldar"
+   },
+   "keyword_substitution": {
+    "template": "[Craftworld]",
+    "value": "Biel-Tan"
+   },
+   "rule": {
+    "rule": "codex/craftworld_eldar/allegiances/biel_tan",
+    "name": "Biel-Tan",
+    "printed": "codex/craftworld_eldar/allegiances/biel_tan",
+    "url": "https://longwarindex.app/allegiances/biel_tan/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "biel_tan_preferred_hosts",
+     "printed": "Preferred Hosts: If your army is using a Rite of War other than the Shrine Host, you do not gain the first listed Benefit of the Rite of War.",
+     "scope": "detachment",
+     "suppress_rite_benefits": {
+      "except_rites": [
+       "codex/craftworld_eldar/rites_of_war/shrine_host"
+      ],
+      "benefits": [
+       {
+        "rite": "codex/craftworld_eldar/rites_of_war/war_host",
+        "ids": [
+         "war_host_troops_slot"
+        ]
+       },
+       {
+        "rite": "codex/craftworld_eldar/rites_of_war/windrider_host",
+        "ids": [
+         "windrider_host_wind_riders_troops"
+        ]
+       },
+       {
+        "rite": "codex/craftworld_eldar/rites_of_war/wraith_host",
+        "ids": [
+         "wraith_host_wraith_guard_troops"
+        ]
+       },
+       {
+        "rite": "codex/craftworld_eldar/rites_of_war/ynnari_sect",
+        "ids": [
+         "ynnari_sect_opens_dark_eldar"
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/craftworld_eldar/allegiances/iyanden",
+   "name": "Allegiance: Iyanden",
+   "page": 37,
+   "url": "https://longwarindex.app/allegiances/iyanden/",
+   "offered_by": {
+    "codex": "craftworld_eldar"
+   },
+   "keyword_substitution": {
+    "template": "[Craftworld]",
+    "value": "Iyanden"
+   },
+   "rule": {
+    "rule": "codex/craftworld_eldar/allegiances/iyanden",
+    "name": "Iyanden",
+    "printed": "codex/craftworld_eldar/allegiances/iyanden",
+    "url": "https://longwarindex.app/allegiances/iyanden/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "iyanden_preferred_hosts",
+     "printed": "Preferred Hosts: If your army is using a Rite of War other than the Wraith Host, you do not gain the first listed Benefit of the Rite of War.",
+     "scope": "detachment",
+     "suppress_rite_benefits": {
+      "except_rites": [
+       "codex/craftworld_eldar/rites_of_war/wraith_host"
+      ],
+      "benefits": [
+       {
+        "rite": "codex/craftworld_eldar/rites_of_war/war_host",
+        "ids": [
+         "war_host_troops_slot"
+        ]
+       },
+       {
+        "rite": "codex/craftworld_eldar/rites_of_war/windrider_host",
+        "ids": [
+         "windrider_host_wind_riders_troops"
+        ]
+       },
+       {
+        "rite": "codex/craftworld_eldar/rites_of_war/shrine_host",
+        "ids": [
+         "shrine_host_howling_banshee_troops"
+        ]
+       },
+       {
+        "rite": "codex/craftworld_eldar/rites_of_war/ynnari_sect",
+        "ids": [
+         "ynnari_sect_opens_dark_eldar"
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/craftworld_eldar/allegiances/mymeara",
+   "name": "Allegiance: Mymeara",
+   "page": 37,
+   "url": "https://longwarindex.app/allegiances/mymeara/",
+   "offered_by": {
+    "codex": "craftworld_eldar"
+   },
+   "keyword_substitution": {
+    "template": "[Craftworld]",
+    "value": "Mymeara"
+   },
+   "rule": {
+    "rule": "codex/craftworld_eldar/allegiances/mymeara",
+    "name": "Mymeara",
+    "printed": "codex/craftworld_eldar/allegiances/mymeara",
+    "url": "https://longwarindex.app/allegiances/mymeara/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "mymeara_shadow_spectre_minimum",
+     "printed": "Your army must include at least 1 unit of Shadow Spectres per 1000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/craftworld_eldar/roster/shadow_spectres"
+       }
+      ],
+      "min": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    }
+   ],
+   "benefits": [],
+   "game_time": [
+    "During the first Battle Round, all friendly Mymeara units gain the benefit of Heavy Cover. In addition, all Mymeara Aircraft units always gain the benefit of Light Cover, even if they would normally not."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/craftworld_eldar/allegiances/saim_hann",
+   "name": "Allegiance: Saim-Hann",
+   "page": 37,
+   "url": "https://longwarindex.app/allegiances/saim_hann/",
+   "offered_by": {
+    "codex": "craftworld_eldar"
+   },
+   "keyword_substitution": {
+    "template": "[Craftworld]",
+    "value": "Saim-Hann"
+   },
+   "rule": {
+    "rule": "codex/craftworld_eldar/allegiances/saim_hann",
+    "name": "Saim-Hann",
+    "printed": "codex/craftworld_eldar/allegiances/saim_hann",
+    "url": "https://longwarindex.app/allegiances/saim_hann/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "saim_hann_preferred_hosts",
+     "printed": "Preferred Hosts: If your army is using a Rite of War other than the Wind Rider Host, you do not gain the first listed Benefit of the Rite of War.",
+     "scope": "detachment",
+     "suppress_rite_benefits": {
+      "except_rites": [
+       "codex/craftworld_eldar/rites_of_war/windrider_host"
+      ],
+      "benefits": [
+       {
+        "rite": "codex/craftworld_eldar/rites_of_war/war_host",
+        "ids": [
+         "war_host_troops_slot"
+        ]
+       },
+       {
+        "rite": "codex/craftworld_eldar/rites_of_war/shrine_host",
+        "ids": [
+         "shrine_host_howling_banshee_troops"
+        ]
+       },
+       {
+        "rite": "codex/craftworld_eldar/rites_of_war/wraith_host",
+        "ids": [
+         "wraith_host_wraith_guard_troops"
+        ]
+       },
+       {
+        "rite": "codex/craftworld_eldar/rites_of_war/ynnari_sect",
+        "ids": [
+         "ynnari_sect_opens_dark_eldar"
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/craftworld_eldar/allegiances/ulthwe",
+   "name": "Allegiance: Ulthwe",
+   "page": 37,
+   "url": "https://longwarindex.app/allegiances/ulthwe/",
+   "offered_by": {
+    "codex": "craftworld_eldar"
+   },
+   "keyword_substitution": {
+    "template": "[Craftworld]",
+    "value": "Ulthwe"
+   },
+   "rule": {
+    "rule": "codex/craftworld_eldar/allegiances/ulthwe",
+    "name": "Ulthwe",
+    "printed": "codex/craftworld_eldar/allegiances/ulthwe",
+    "url": "https://longwarindex.app/allegiances/ulthwe/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "ulthwe_militia_minimum",
+     "printed": "An Ulthwe army must include at least 2 Militia units per 1000pts unless restricted by a Rite of War.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Militia"
+       }
+      ],
+      "min": 2,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    }
+   ],
+   "benefits": [],
+   "game_time": [
+    "After deployment is complete but before the first turn begins, you may select 1 Ulthwe unit in your army per 500pts to re-deploy as if it were the Deployment Step."
+   ],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/craftworld_eldar/rites_of_war/war_host",
+   "name": "War Host",
+   "page": 28,
+   "url": "https://longwarindex.app/rites_of_war/war_host/",
+   "offered_by": {
+    "codex": "craftworld_eldar"
+   },
+   "text": "Restrictions:\n\n- Your army must include 1 Autarch or Farseer.\n- A Farseer or Autarch in your army must be your Warlord.\n- Your army must include at least 1 Militia or Engine of Vaul unit for every Aspect Warrior unit in your army.\n\nBenefits:\n\n- You may include an additional Troops slot in your army for every 1000pts.\n- You may field Falcon Grav Tanks as Dedicated Transports.\n- At the start of the first turn, but before any player takes any actions, you may select 3 units in your Army and Re-deploy that unit as if it were the Deployment step of the battle.",
+   "restrictions": [
+    {
+     "id": "war_host_autarch_or_farseer",
+     "printed": "Your army must include 1 Autarch or Farseer.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/craftworld_eldar/roster/autarch"
+         },
+         {
+          "datasheet": "codex/craftworld_eldar/roster/farseer"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "war_host_warlord",
+     "printed": "A Farseer or Autarch in your army must be your Warlord.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/craftworld_eldar/roster/farseer"
+         },
+         {
+          "datasheet": "codex/craftworld_eldar/roster/autarch"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "war_host_militia_ratio",
+     "printed": "Your army must include at least 1 Militia or Engine of Vaul unit for every Aspect Warrior unit in your army.",
+     "scope": "detachment",
+     "ratio": {
+      "limited": [
+       {
+        "any_of": [
+         {
+          "keyword": "Militia"
+         },
+         {
+          "keyword": "Engine of Vaul"
+         }
+        ]
+       }
+      ],
+      "per": 1,
+      "of": [
+       {
+        "keyword": "Aspect Warrior"
+       }
+      ],
+      "minimum": true
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "war_host_troops_slot",
+     "printed": "You may include an additional Troops slot in your army for every 1000pts.",
+     "slots": {
+      "role": "Troops",
+      "max_delta": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "war_host_falcon_dedicated_transport",
+     "printed": "You may field Falcon Grav Tanks as Dedicated Transports.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/craftworld_eldar/roster/falcon_grav_tank"
+       }
+      ],
+      "role": "Dedicated Transport",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "At the start of the first turn, but before any player takes any actions, you may select 3 units in your Army and Re-deploy that unit as if it were the Deployment step of the battle."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/craftworld_eldar/rites_of_war/windrider_host",
+   "name": "Windrider Host",
+   "page": 29,
+   "url": "https://longwarindex.app/rites_of_war/windrider_host/",
+   "offered_by": {
+    "codex": "craftworld_eldar"
+   },
+   "text": "Restrictions:\n\n- All units in your army must be the Jetbike, Vehicle or Aircraft type.\n- Your army must include at least 1 Farseer or Autarch unit.\n- Your army must include at least 2 Wind Rider units.\n\nBenefits:\n\n- You may field Wind Rider units as Troops choices.\n- You may field Vyper units as Elites choices.\n- All Jetbike type units gain the Scout special rule.",
+   "restrictions": [
+    {
+     "id": "windrider_host_unit_types",
+     "printed": "All units in your army must be the Jetbike, Vehicle or Aircraft type.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "any_of": [
+         {
+          "unit_type": "Jetbike"
+         },
+         {
+          "unit_type": "Vehicle"
+         },
+         {
+          "unit_type": "Aircraft"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "windrider_host_autarch_or_farseer",
+     "printed": "Your army must include at least 1 Farseer or Autarch unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/craftworld_eldar/roster/farseer"
+         },
+         {
+          "datasheet": "codex/craftworld_eldar/roster/autarch"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "windrider_host_wind_riders",
+     "printed": "Your army must include at least 2 Wind Rider units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/craftworld_eldar/roster/wind_riders"
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "windrider_host_wind_riders_troops",
+     "printed": "You may field Wind Rider units as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/craftworld_eldar/roster/wind_riders"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "windrider_host_vyper_elites",
+     "printed": "You may field Vyper units as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/craftworld_eldar/roster/vyper"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "windrider_host_jetbike_scout",
+     "printed": "All Jetbike type units gain the Scout special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "unit_type": "Jetbike"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/scout",
+        "name": "Scout",
+        "url": "https://longwarindex.app/universal_special_rules/scout/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/craftworld_eldar/rites_of_war/shrine_host",
+   "name": "Shrine Host",
+   "page": 30,
+   "url": "https://longwarindex.app/rites_of_war/shrine_host/",
+   "offered_by": {
+    "codex": "craftworld_eldar"
+   },
+   "text": "Restrictions:\n\n- Your army must include 1 Autarch.\n- Your army may only include units with the Aspect Warrior Keywords.\n- If your army includes a Phoenix Lord or Avatar of Khaine, it must be your Warlord. If your army includes multiple Phoenix Lords, select 1 to be your warlord.\n\nBenefits:\n\n- You may field Howling Banshee units as Troops choices.\n- You may field Swooping Hawks units as Troops choices.\n- Wave Serpent units gain the Aspect Warrior keyword.",
+   "restrictions": [
+    {
+     "id": "shrine_host_autarch",
+     "printed": "Your army must include 1 Autarch.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/craftworld_eldar/roster/autarch"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "shrine_host_aspect_warrior_only",
+     "printed": "Your army may only include units with the Aspect Warrior Keywords.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "keyword": "Aspect Warrior"
+       }
+      ],
+      "except": [
+       {
+        "datasheet": "codex/craftworld_eldar/roster/autarch"
+       }
+      ]
+     }
+    },
+    {
+     "id": "shrine_host_warlord",
+     "printed": "If your army includes a Phoenix Lord or Avatar of Khaine, it must be your Warlord. If your army includes multiple Phoenix Lords, select 1 to be your warlord.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "rule": {
+           "rule": "codex/craftworld_eldar/special_rules/phoenix_lord",
+           "name": "Phoenix Lord",
+           "url": "https://longwarindex.app/special_rules/phoenix_lord/"
+          }
+         },
+         {
+          "datasheet": "codex/craftworld_eldar/roster/the_avatar_of_khaine"
+         }
+        ]
+       }
+      ],
+      "if_present": true
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "shrine_host_howling_banshee_troops",
+     "printed": "You may field Howling Banshee units as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/craftworld_eldar/roster/howling_banshee"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "shrine_host_swooping_hawks_troops",
+     "printed": "You may field Swooping Hawks units as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/craftworld_eldar/roster/swooping_hawks"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "shrine_host_wave_serpent_aspect_warrior",
+     "printed": "Wave Serpent units gain the Aspect Warrior keyword.",
+     "keywords": {
+      "conditions": [
+       {
+        "datasheet": "codex/craftworld_eldar/roster/wave_serpent"
+       }
+      ],
+      "add": [
+       "Aspect Warrior"
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/craftworld_eldar/rites_of_war/wraith_host",
+   "name": "Wraith Host",
+   "page": 31,
+   "url": "https://longwarindex.app/rites_of_war/wraith_host/",
+   "offered_by": {
+    "codex": "craftworld_eldar"
+   },
+   "text": "Restrictions:\n\n- Your army must include at least 1 Warlock with the Spiritseer upgrade.\n- Your army must include at least 2 Wraith Guard or Wraith Blade units.\n- Your army must include at least 1 Psyker unit for every 3 Wraith keyword units in your army.\n\nBenefits:\n\n- You may field Wraith Guard as Troops choices.\n- You may field Wraith Blades as Troops choices.\n- You may field 1 Wraith Lord as a HQ choice. This Wraith Lord may be your Warlord and gains +1 to its Weapon Skill (WS) and Ballistic Skill (BS) characteristics if it is selected to be your Warlord. It gains the Character special rule and may generate a Warlord trait as per normal.",
+   "restrictions": [
+    {
+     "id": "wraith_host_spiritseer",
+     "printed": "Your army must include at least 1 Warlock with the Spiritseer upgrade.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/craftworld_eldar/roster/warlock"
+       },
+       {
+        "choice": {
+         "page": "codex/craftworld_eldar/roster/warlock",
+         "path": "spirit_seers/spirit_seers"
+        }
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "wraith_host_wraith_guard_blades",
+     "printed": "Your army must include at least 2 Wraith Guard or Wraith Blade units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/craftworld_eldar/roster/wraith_guard"
+         },
+         {
+          "datasheet": "codex/craftworld_eldar/roster/wraith_blades"
+         }
+        ]
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "wraith_host_psyker_ratio",
+     "printed": "Your army must include at least 1 Psyker unit for every 3 Wraith keyword units in your army.",
+     "scope": "detachment",
+     "ratio": {
+      "limited": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/psyker",
+         "name": "Psyker",
+         "param": "x",
+         "url": "https://longwarindex.app/universal_special_rules/psyker/"
+        }
+       }
+      ],
+      "per": 3,
+      "of": [
+       {
+        "keyword": "Wraith"
+       }
+      ],
+      "minimum": true
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "wraith_host_wraith_guard_troops",
+     "printed": "You may field Wraith Guard as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/craftworld_eldar/roster/wraith_guard"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "wraith_host_wraith_blades_troops",
+     "printed": "You may field Wraith Blades as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/craftworld_eldar/roster/wraith_blades"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "wraith_host_wraith_lord_hq",
+     "printed": "You may field 1 Wraith Lord as a HQ choice.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/craftworld_eldar/roster/wraith_lord"
+       }
+      ],
+      "role": "HQ",
+      "instead": false,
+      "max_units": 1
+     }
+    },
+    {
+     "id": "wraith_host_wraith_lord_stat_mods",
+     "printed": "This Wraith Lord may be your Warlord and gains +1 to its Weapon Skill (WS) and Ballistic Skill (BS) characteristics if it is selected to be your Warlord.",
+     "stat_mods": {
+      "conditions": [
+       {
+        "datasheet": "codex/craftworld_eldar/roster/wraith_lord"
+       },
+       {
+        "role": "HQ"
+       },
+       {
+        "warlord": true
+       }
+      ],
+      "mods": [
+       {
+        "characteristic": "WS",
+        "delta": 1
+       },
+       {
+        "characteristic": "BS",
+        "delta": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "wraith_host_wraith_lord_character",
+     "printed": "It gains the Character special rule and may generate a Warlord trait as per normal.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/craftworld_eldar/roster/wraith_lord"
+       },
+       {
+        "role": "HQ"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/character",
+        "name": "Character",
+        "url": "https://longwarindex.app/universal_special_rules/character/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/craftworld_eldar/rites_of_war/ynnari_sect",
+   "name": "Ynnari Sect",
+   "page": 32,
+   "url": "https://longwarindex.app/rites_of_war/ynnari_sect_craftworld_eldar/",
+   "offered_by": {
+    "codex": "craftworld_eldar"
+   },
+   "text": "Restrictions\n\n- Your Army may not take Relic Wargear.\n- You may not take Warlord Traits except for those granted by this Rite of War. Unique Characters still gain the benefit of their listed Warlord trait if selected as your Warlord. You may not purchase a second Warlord trait for any models.\n- Your Army may not include the following units:\n    - Avatar of Khaine.\n    - Coven Keyword units.\n    - Mandrakes.\n    - Drazhar.\n    - Kheradruakh 'The Decapitator'.\n    - Asdrubael Vect on Dias of Destruction.\n    - Baron Sathonyx.\n    - Duke Sliscus.\n    - Asurmen.\n    - Baharroth.\n    - Fuegan.\n    - Karandras.\n    - Maugan Ra.\n    - Irilyth.\n    - Lhykis.\n\nBenefits\n\n- Your Primary Detachment may include units from Codex: Craftworlds, Codex: Dark Eldar, Codex Supplement: Corsairs & Codex Supplement: Exodites.\n- All units in your army gain the Ynnari Keyword.\n- All Ynnari units in your army replace the Battle Focus, Unbound Arrogance, Power from Pain and Word Spirit special rules with Strength from Death (see below).\n- Any Eldar unit in your army which gains access to the Runes of Fate Psychic Discipline instead must purchase the Psychic Powers listed on the Revenant Discipline (see below).\n- Your army gains access to the Ynnari Warlord Traits (see below).\n- You gain access to the following units (see below):\n    - Yvraine, Herald of Ynnead.\n    - Visarch.\n    - Yncarne, Avatar of Ynnead.\n\nYnnari Warlord Traits\n\n- Favoured of Ynnead\n- Lord of Rebirth\n- Master of Death\n\nRevenant Discipline",
+   "restrictions": [
+    {
+     "id": "ynnari_sect_no_relics",
+     "printed": "Your Army may not take Relic Wargear.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "craftworld_eldar",
+        "group": "relics"
+       }
+      ]
+     }
+    },
+    {
+     "id": "ynnari_sect_no_general_traits",
+     "printed": "You may not take Warlord Traits except for those granted by this Rite of War.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "craftworld_eldar",
+        "group": "general_warlord_traits"
+       }
+      ]
+     }
+    },
+    {
+     "id": "ynnari_sect_no_runes_of_fate",
+     "printed": "Any Eldar unit in your army which gains access to the Runes of Fate Psychic Discipline instead must purchase the Psychic Powers listed on the Revenant Discipline (see below).",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "craftworld_eldar",
+        "group": "runes_of_fate_psychic_powers"
+       }
+      ],
+      "conditions": [
+       {
+        "keyword": "Eldar"
+       }
+      ]
+     }
+    },
+    {
+     "id": "ynnari_sect_forbidden_units",
+     "printed": "Your Army may not include the following units:",
+     "scope": "detachment",
+     "forbidden_units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/craftworld_eldar/roster/the_avatar_of_khaine"
+         },
+         {
+          "keyword": "Coven"
+         },
+         {
+          "datasheet": "codex/dark_eldar/roster/mandrakes"
+         },
+         {
+          "datasheet": "codex/dark_eldar/roster/drazhar"
+         },
+         {
+          "datasheet": "codex/dark_eldar/roster/kheradruakh_the_decapitator"
+         },
+         {
+          "datasheet": "codex/dark_eldar/roster/asdrubael_vect_on_dias_of_destruction"
+         },
+         {
+          "datasheet": "codex/dark_eldar/roster/baron_sathonyx"
+         },
+         {
+          "datasheet": "codex/dark_eldar/roster/duke_sliscus"
+         },
+         {
+          "datasheet": "codex/craftworld_eldar/roster/asurmen"
+         },
+         {
+          "datasheet": "codex/craftworld_eldar/roster/baharroth"
+         },
+         {
+          "datasheet": "codex/craftworld_eldar/roster/fuegan"
+         },
+         {
+          "datasheet": "codex/craftworld_eldar/roster/karandras"
+         },
+         {
+          "datasheet": "codex/craftworld_eldar/roster/maugan_ra"
+         },
+         {
+          "datasheet": "codex/craftworld_eldar/roster/irilyth"
+         },
+         {
+          "datasheet": "codex/craftworld_eldar/roster/lhykis"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "ynnari_sect_opens_dark_eldar",
+     "printed": "Your Primary Detachment may include units from Codex: Craftworlds, Codex: Dark Eldar, Codex Supplement: Corsairs & Codex Supplement: Exodites.",
+     "opens": [
+      {
+       "faction": "dark_eldar"
+      }
+     ]
+    },
+    {
+     "id": "ynnari_sect_keyword",
+     "printed": "All units in your army gain the Ynnari Keyword.",
+     "keywords": {
+      "applies_to": "army",
+      "add": [
+       "Ynnari"
+      ]
+     }
+    },
+    {
+     "id": "ynnari_sect_suppress_rules",
+     "printed": "All Ynnari units in your army replace the Battle Focus, Unbound Arrogance, Power from Pain and Word Spirit special rules with Strength from Death (see below).",
+     "suppress_rules": {
+      "conditions": [
+       {
+        "keyword": "Ynnari"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "codex/craftworld_eldar/special_rules/battle_focus",
+        "name": "Battle Focus",
+        "url": "https://longwarindex.app/special_rules/battle_focus/"
+       },
+       {
+        "rule": "codex/dark_eldar/special_rules/power_from_pain",
+        "name": "Power from Pain",
+        "url": "https://longwarindex.app/special_rules/power_from_pain/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "ynnari_sect_strength_from_death",
+     "printed": "All Ynnari units in your army replace the Battle Focus, Unbound Arrogance, Power from Pain and Word Spirit special rules with Strength from Death (see below).",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Ynnari"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "codex/craftworld_eldar/special_rules/strength_from_death",
+        "name": "Strength from Death",
+        "url": "https://longwarindex.app/special_rules/strength_from_death_craftworld_eldar/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "ynnari_sect_revenant_discipline",
+     "printed": "Any Eldar unit in your army which gains access to the Runes of Fate Psychic Discipline instead must purchase the Psychic Powers listed on the Revenant Discipline (see below).",
+     "options": [
+      {
+       "book_options": "craftworld_eldar",
+       "group": "revenant_discipline"
+      }
+     ]
+    },
+    {
+     "id": "ynnari_sect_warlord_trait_access",
+     "printed": "Your army gains access to the Ynnari Warlord Traits (see below).",
+     "options": [
+      {
+       "book_options": "craftworld_eldar",
+       "group": "ynnari_warlord_traits"
+      }
+     ]
+    },
+    {
+     "id": "ynnari_sect_units",
+     "printed": "You gain access to the following units (see below):",
+     "unlocks": [
+      "codex/craftworld_eldar/roster/yvraine_herald_of_ynnead",
+      "codex/craftworld_eldar/roster/visarch",
+      "codex/craftworld_eldar/roster/the_yncarne_avatar_of_ynnead"
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

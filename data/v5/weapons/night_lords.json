@@ -1,0 +1,320 @@
+{
+ "data_version": "94fcbca3a4b798eb",
+ "format": 1,
+ "faction": "night_lords",
+ "weapons": [
+  {
+   "id": "chainblade",
+   "name": "Chainblade",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/chainblade/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "flay_whip",
+   "name": "Flay-Whip",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/flay_whip/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      },
+      {
+       "rule": "special_rules/swift_strike",
+       "name": "Swift Strike",
+       "url": "https://longwarindex.app/special_rules/swift_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "escaton_power_claw",
+   "name": "Escaton Power Claw",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/escaton_power_claw/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nostromon_missile_launcher",
+   "name": "Nostromon Missile Launcher",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/nostromon_missile_launcher/",
+   "profiles": [
+    {
+     "name": "Nostromon Missile Launcher (Frag)",
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    },
+    {
+     "name": "Nostromon Missile Launcher (Krak)",
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    },
+    {
+     "name": "Nostromon Missile Launcher (Flak)",
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/skyfire",
+       "name": "Skyfire",
+       "url": "https://longwarindex.app/special_rules/skyfire/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    },
+    {
+     "name": "Nostromon Missile Launcher (Dread)",
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "volkite_cavitor",
+   "name": "Volkite Cavitor",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/volkite_cavitor/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "15\"",
+     "strength": "6",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aurum",
+   "name": "Aurum",
+   "section": "other",
+   "subtype": null,
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/aurum/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/swift_strike",
+       "name": "Swift Strike",
+       "url": "https://longwarindex.app/special_rules/swift_strike/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "night_lords_storm_bolter",
+   "name": "Storm Bolter",
+   "section": "other",
+   "subtype": null,
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/night_lords_storm_bolter/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "the_claws_of_the_black_hunt",
+   "name": "The Claws of the Black Hunt",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/the_claws_of_the_black_hunt/",
+   "print_defect": "The book prints two costs: +10pts in the heading and 5pts in the text. This data reads this as the cost of the heading.",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its 2 Lightning Claws for this relic for 5pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "claw_of_the_stygian_count",
+   "name": "Claw of the Stygian Count",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/claw_of_the_stygian_count/",
+   "print_defect": "The book prints two costs: +10pts in the heading and 5pts in the text. This data reads this as the cost of the heading.",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its 1 Lightning Claw for this relic for 5pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "param": "Infantry",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

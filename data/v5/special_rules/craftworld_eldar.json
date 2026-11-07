@@ -1,0 +1,936 @@
+{
+ "data_version": "ee184325556d0039",
+ "format": 1,
+ "faction": "craftworld_eldar",
+ "special_rules": [
+  {
+   "id": "codex/craftworld_eldar/special_rules/battle_focus",
+   "name": "Battle Focus",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/battle_focus/",
+   "text": "Units with this special rule are treated as having performed a Normal Move in the Movement Phase even if they Advanced in the Movement Phase for the purposes of Shooting."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/phoenix_lord",
+   "name": "Phoenix Lord",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/phoenix_lord/",
+   "text": "You may include 1 unit in your army with this special rule.",
+   "effects": {
+    "list_building": {
+     "max_units_per_army": 1
+    }
+   }
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/seer_council",
+   "name": "Seer Council",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/seer_council/",
+   "references": [
+    "universal_special_rules/character"
+   ],
+   "text": "During Deployment, a unit with this special rule may be fielded as 1 unit or instead may be broken up. If the unit is fielded as 1 unit, it loses the Character special rule. If the unit is broken up, all models in the unit are now treated as individual units with the Character special rule for the rest of the battle. The unit must be 1 shared type to be fielded as a single unit."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/she_who_thirsts",
+   "name": "She Who Thirsts",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/she_who_thirsts_craftworld_eldar/",
+   "references": [
+    "universal_special_rules/hatred"
+   ],
+   "text": "Eldar units with this special rule have the Hatred (Slaanesh) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "param": "Slaanesh",
+      "printed": "[[Hatred (Slaanesh)]]",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/monofilament",
+   "name": "Monofilament",
+   "kind": "weapon",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/monofilament_craftworld_eldar/",
+   "text": "When rolling to wound or penetrate against a target with this weapon, instead of using the targets Toughness (T) characteristic roll to wound by comparing the targets Initiative (I) characteristic to the weapons Strength (S) characteristic on the wound chart. Monofilament weapons are resolved against the AV of Vehicles, Fortifications, Titans, Knights and Aircraft type units as normal. For Instant Death, the weapon is Instant Death if its Strength (S) characteristic is double the targets Initiative (I) characteristic."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/strength_from_death",
+   "name": "Strength from Death",
+   "kind": "army",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/strength_from_death_craftworld_eldar/",
+   "text": "The Ynnari grow stronger the more death occurs around them. The souls of the departed Eldar are drawn to them, becoming one with them guiding them with their skills and knowledge as they are avenged. The Eldar of the Ynnari even make use of the souls of dead enemies to empower themselves through their god of death.\n\nIn a turn in which any unit dies (friend or foe), a unit with this special rule gains +1 to their Strength (S) and Toughness (T) characteristics until the start of the next turn."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/dodge",
+   "name": "Dodge",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/dodge_craftworld_eldar/",
+   "references": [
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "This unit has a 4+ Feel no Pain when engaged in Combat.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "4+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/",
+      "phase": "Combat"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/herald_of_ynnead",
+   "name": "Herald of Ynnead",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/herald_of_ynnead_craftworld_eldar/",
+   "references": [
+    "codex/craftworld_eldar/special_rules/strength_from_death"
+   ],
+   "text": "When this unit benefits from the Strength from Death special rule, it gains +1 to its Weapon Skill (WS) characteristic in addition to other bonuses."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/sorrow",
+   "name": "Sorrow",
+   "kind": "weapon",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/sorrow_craftworld_eldar/",
+   "text": "If a unit suffers an un-saved wound inflicted by this weapon, it must make a Panic Test regardless of whether the target unit's side won the Combat."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/silence",
+   "name": "Silence",
+   "kind": "weapon",
+   "page": 35,
+   "url": "https://longwarindex.app/special_rules/silence_craftworld_eldar/",
+   "references": [
+    "universal_special_rules/stubborn"
+   ],
+   "text": "A unit which suffers 1 or more hits from a weapon with this special rule halves their Leadership (LD) characteristic until the end of the Phase. In addition, units hit by this weapon do not gain the benefit of the Stubborn special rule."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/warden_of_yvraine",
+   "name": "Warden of Yvraine",
+   "kind": "datasheet",
+   "page": 35,
+   "url": "https://longwarindex.app/special_rules/warden_of_yvraine_craftworld_eldar/",
+   "text": "During deployment, if Yvraine, the Herald of Ynnead is in your army, you may permanently attach this unit to Yvraine, Herald of Ynnead. The two are now treated as 1 unit. This does not prevent the unit from Attaching to other eligible units during Deployment or the battle."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/daemon",
+   "name": "Daemon",
+   "kind": "datasheet",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/daemon_craftworld_eldar/",
+   "references": [
+    "universal_special_rules/fear"
+   ],
+   "text": "A unit with this rule gains the Daemon Keyword. The Daemon unit has a 5+ Invulnerable save and the Fear (1) special rule. Daemon units have +1\" to their Movement (M) characteristic. (This is included in the above profile).",
+   "effects": {
+    "keywords": [
+     "Daemon"
+    ],
+    "invulnerable_save": "5+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "printed": "[[Fear (1)]]",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/inevitable_death",
+   "name": "Inevitable Death",
+   "kind": "datasheet",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/inevitable_death_craftworld_eldar/",
+   "text": "Once per Battle Round, when any unit on the Battlefield would be slain and removed from play or become a wreck, before removing the model, you may remove the Yncarne from the battlefield. Place the Yncarne back on the Battlefield anywhere within 6\" of the slain/wrecked model and then remove any slain models."
+  },
+  {
+   "id": "codex/craftworld_eldar/warlord_traits/avatar_of_ynnead",
+   "name": "Avatar of Ynnead",
+   "kind": "warlord_trait",
+   "page": 36,
+   "url": "https://longwarindex.app/warlord_traits/avatar_of_ynnead/",
+   "text": "Ynnari Eldar units which can draw visibility to this model may use its Leadership (LD) characteristic instead of their own. In addition, the unit gains the Gaze of Ynnead Psychic Weapon.",
+   "effects": {
+    "while_warlord": {
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "gaze_of_ynnead"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/consummate_commander",
+   "name": "Consummate Commander",
+   "kind": "datasheet",
+   "page": 40,
+   "url": "https://longwarindex.app/special_rules/consummate_commander/",
+   "references": [
+    "universal_special_rules/outflank",
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "While this unit is either on the battlefield, in reserves or embarked in a transport, you may re-roll rolls when determining if a unit will arrive via Outflank or Deep Strike."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/walker_of_many_paths",
+   "name": "Walker of Many Paths",
+   "kind": "datasheet",
+   "page": 40,
+   "url": "https://longwarindex.app/special_rules/walker_of_many_paths/",
+   "references": [
+    "universal_special_rules/last_stand",
+    "universal_special_rules/fleet",
+    "universal_special_rules/infiltrate",
+    "universal_special_rules/relentless",
+    "universal_special_rules/sprint",
+    "universal_special_rules/hit_and_run",
+    "special_rules/precision_hits",
+    "universal_special_rules/tank_hunters",
+    "universal_special_rules/skilled_rider",
+    "universal_special_rules/skirmisher"
+   ],
+   "text": "When mustering your army, the Autarch must select 3 of the following Aspects:\n\n- Aspect of Dire Avenger: The unit gains the Last Stand special rule.\n- Aspect of the Howling Banshee: The unit gains the Fleet special rule.\n- Aspect of the Striking Scorpion: The unit gains the Infiltrate special rule.\n- Aspect of the Dark Reaper: The unit gains the Relentless special rule.\n- Aspect of the Swooping Hawk: The unit gains the Sprint (2) special rule.\n- Aspect of the Warp Spider: The unit gains the Hit & Run special rule.\n- Aspect of the Crimson Hunter: The unit gains the Precision Hits special rule on all weapons they are equipped with.\n- Aspect of the Fire Dragon: The unit gains the Tank Hunter special rule.\n- Aspect of the Shining Spear: The unit gains the Skilled Rider special rule.\n- Aspect of the Shadow Spectre: The unit gains the Skirmisher special rule.",
+   "options": [
+    {
+     "id": "aspect",
+     "label": "the Autarch must select 3 of the following Aspects:",
+     "printed": "When mustering your army, the Autarch must select 3 of the following Aspects:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "min": 3,
+      "max": 3
+     },
+     "choices": [
+      {
+       "id": "dire_avenger",
+       "name": "Aspect of Dire Avenger",
+       "points": 0,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/last_stand",
+         "name": "Last Stand",
+         "url": "https://longwarindex.app/universal_special_rules/last_stand/"
+        }
+       ]
+      },
+      {
+       "id": "howling_banshee",
+       "name": "Aspect of the Howling Banshee",
+       "points": 0,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/fleet",
+         "name": "Fleet",
+         "url": "https://longwarindex.app/universal_special_rules/fleet/"
+        }
+       ]
+      },
+      {
+       "id": "striking_scorpion",
+       "name": "Aspect of the Striking Scorpion",
+       "points": 0,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/infiltrate",
+         "name": "Infiltrate",
+         "url": "https://longwarindex.app/universal_special_rules/infiltrate/"
+        }
+       ]
+      },
+      {
+       "id": "dark_reaper",
+       "name": "Aspect of the Dark Reaper",
+       "points": 0,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/relentless",
+         "name": "Relentless",
+         "url": "https://longwarindex.app/universal_special_rules/relentless/"
+        }
+       ]
+      },
+      {
+       "id": "swooping_hawk",
+       "name": "Aspect of the Swooping Hawk",
+       "points": 0,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/sprint",
+         "name": "Sprint",
+         "param": "2",
+         "url": "https://longwarindex.app/universal_special_rules/sprint/"
+        }
+       ]
+      },
+      {
+       "id": "warp_spider",
+       "name": "Aspect of the Warp Spider",
+       "points": 0,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/hit_and_run",
+         "name": "Hit & Run",
+         "url": "https://longwarindex.app/universal_special_rules/hit_and_run/"
+        }
+       ]
+      },
+      {
+       "id": "crimson_hunter",
+       "name": "Aspect of the Crimson Hunter",
+       "points": 0,
+       "pricing": "flat",
+       "weapon_rules": [
+        {
+         "rule": {
+          "rule": "special_rules/precision_hits",
+          "name": "Precision Hits",
+          "url": "https://longwarindex.app/special_rules/precision_hits/"
+         },
+         "weapon_types": [
+          "Pistol",
+          "Rapid Fire",
+          "Assault",
+          "Heavy",
+          "Grenade",
+          "Melee"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "fire_dragon",
+       "name": "Aspect of the Fire Dragon",
+       "points": 0,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/tank_hunters",
+         "name": "Tank Hunters",
+         "printed": "Tank Hunter",
+         "url": "https://longwarindex.app/universal_special_rules/tank_hunters/"
+        }
+       ]
+      },
+      {
+       "id": "shining_spear",
+       "name": "Aspect of the Shining Spear",
+       "points": 0,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/skilled_rider",
+         "name": "Skilled Rider",
+         "url": "https://longwarindex.app/universal_special_rules/skilled_rider/"
+        }
+       ]
+      },
+      {
+       "id": "shadow_spectre",
+       "name": "Aspect of the Shadow Spectre",
+       "points": 0,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/skirmisher",
+         "name": "Skirmisher",
+         "url": "https://longwarindex.app/universal_special_rules/skirmisher/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/spirit_seers",
+   "name": "Spirit Seers",
+   "kind": "datasheet",
+   "page": 43,
+   "url": "https://longwarindex.app/special_rules/spirit_seers/",
+   "text": "A model with this upgrade may join Automata type units. If this unit is attached to an Automata type unit, improve the Weapon Skill (WS) and Ballistic Skill (BS) of the attached unit by 1."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/spiders_lair",
+   "name": "Spider's Lair",
+   "kind": "datasheet",
+   "page": 50,
+   "url": "https://longwarindex.app/special_rules/spiders_lair/",
+   "text": "All enemy units that conduct a charge against this unit must make a dangerous terrain test. All charges against this unit are Disordered Charges."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/ghost_light",
+   "name": "Ghost Light",
+   "kind": "datasheet",
+   "page": 51,
+   "url": "https://longwarindex.app/special_rules/ghost_light/",
+   "references": [
+    "special_rules/sunder"
+   ],
+   "text": "If all models in the unit target the same enemy unit in the Shooting Phase, the unit gains the Sunder special rule on all Shooting Weapons they are equipped with that are not Grenade type."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/true_sight",
+   "name": "True Sight",
+   "kind": "warlord_trait",
+   "page": 52,
+   "url": "https://longwarindex.app/special_rules/true_sight/",
+   "references": [
+    "special_rules/ignores_cover"
+   ],
+   "text": "If this model is your warlord, when it would cast the Guide Psychic Power, the affected target unit gains the Ignores Cover special rule on all weapons they are equipped with."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/hunger_of_twilight",
+   "name": "Hunger of Twilight",
+   "kind": "warlord_trait",
+   "page": 54,
+   "url": "https://longwarindex.app/special_rules/hunger_of_twilight/",
+   "references": [
+    "special_rules/gets_hot"
+   ],
+   "text": "In the Combat Phase, this unit may declare that it will draw on the Spear of Twilight, sacrificing its life. The unit loses 1 Wound with no saves allowed. However, in exchange the Spear of Twilight loses the Gets Hot! special rule this Phase. The Warlord then gains +2 to its Attacks (A) characteristic until the end of the phase."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/black_guardians",
+   "name": "Black Guardians",
+   "kind": "datasheet",
+   "page": 55,
+   "url": "https://longwarindex.app/special_rules/black_guardians/",
+   "text": "A unit of Black Guardians gains +1 to their Weapon Skill (WS), Ballistic Skill (BS) and Leadership (Ld) characteristics.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "WS",
+      "delta": 1
+     },
+     {
+      "characteristic": "BS",
+      "delta": 1
+     },
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/pathfinders",
+   "name": "Pathfinders",
+   "kind": "datasheet",
+   "page": 57,
+   "url": "https://longwarindex.app/special_rules/pathfinders/",
+   "text": "A unit upgraded to be Pathfinders gains +1 to their Ballistic Skill (BS) characteristic and treat their Ranger Long Rifles as Assault 1 instead of Heavy 1 weapons.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "BS",
+      "delta": 1
+     }
+    ],
+    "weapon_stat_mods": [
+     {
+      "weapons": {
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "ranger_long_rifle"
+        }
+       ]
+      },
+      "mods": [
+       {
+        "characteristic": "Type",
+        "value": "Assault 1"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/wraith_seer_rule",
+   "name": "Wraith Seer",
+   "datasheet": "Wraith Seer",
+   "kind": "datasheet",
+   "page": 66,
+   "url": "https://longwarindex.app/special_rules/wraith_seer_rule/",
+   "text": "This unit knows all Psychic powers from the Runes of Battle Psychic Discipline.",
+   "effects": {
+    "knows": [
+     {
+      "page": "codex/craftworld_eldar/powers/conceal",
+      "name": "Conceal",
+      "url": "https://longwarindex.app/powers/conceal/"
+     },
+     {
+      "page": "codex/craftworld_eldar/powers/destructor",
+      "name": "Destructor",
+      "url": "https://longwarindex.app/powers/destructor/"
+     },
+     {
+      "page": "codex/craftworld_eldar/powers/drain",
+      "name": "Drain",
+      "url": "https://longwarindex.app/powers/drain/"
+     },
+     {
+      "page": "codex/craftworld_eldar/powers/embolden",
+      "name": "Embolden",
+      "url": "https://longwarindex.app/powers/embolden/"
+     },
+     {
+      "page": "codex/craftworld_eldar/powers/empower",
+      "name": "Empower",
+      "url": "https://longwarindex.app/powers/empower/"
+     },
+     {
+      "page": "codex/craftworld_eldar/powers/enervate",
+      "name": "Enervate",
+      "url": "https://longwarindex.app/powers/enervate/"
+     },
+     {
+      "page": "codex/craftworld_eldar/powers/enhance",
+      "name": "Enhance",
+      "url": "https://longwarindex.app/powers/enhance/"
+     },
+     {
+      "page": "codex/craftworld_eldar/powers/horrify",
+      "name": "Horrify",
+      "url": "https://longwarindex.app/powers/horrify/"
+     },
+     {
+      "page": "codex/craftworld_eldar/powers/reveal",
+      "name": "Reveal",
+      "url": "https://longwarindex.app/powers/reveal/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/transport_wave_serpent",
+   "name": "Transport",
+   "datasheet": "Wave Serpent",
+   "kind": "datasheet",
+   "page": 67,
+   "url": "https://longwarindex.app/special_rules/transport_wave_serpent/",
+   "text": "This model can transport 12 Infantry or Wraith Blade/Wraith Guard models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "alternatives",
+     "options": [
+      {
+       "n": 12,
+       "unit_types": [
+        "Infantry"
+       ]
+      },
+      {
+       "n": 12,
+       "filters": [
+        {
+         "datasheet_names": [
+          "Wraith Blades",
+          "Wraith Guard"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/wings_of_khaine",
+   "name": "Wings of Khaine",
+   "kind": "datasheet",
+   "page": 68,
+   "url": "https://longwarindex.app/special_rules/wings_of_khaine/",
+   "references": [
+    "special_rules/skyfire"
+   ],
+   "text": "This model has the Skyfire special rule on all Ranged weapons it is equipped with.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/skyfire",
+      "name": "Skyfire",
+      "printed": "[[Skyfire]]",
+      "url": "https://longwarindex.app/special_rules/skyfire/",
+      "weapon_types": [
+       "Pistol",
+       "Rapid Fire",
+       "Assault",
+       "Heavy",
+       "Grenade"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/sky_leap",
+   "name": "Sky Leap",
+   "kind": "datasheet",
+   "page": 70,
+   "url": "https://longwarindex.app/special_rules/sky_leap/",
+   "references": [
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "Instead of setting to Overwatch, this unit may set to Skyleap instead. If a unit sets to Skyleap, it may be removed from the board and placed in reserves at the end of the Charge Phase. It may arrive again later in the game via the Deep Strike special rule. The unit scatters as normal but is never treated as having rolled a Mishap on the Deep Strike Table. If a Mishap result is rolled, treat it as Minimal Deviation roll instead."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/clan_kinsmen",
+   "name": "Clan Kinsmen",
+   "kind": "datasheet",
+   "page": 74,
+   "url": "https://longwarindex.app/special_rules/clan_kinsmen/",
+   "text": "A model with this special rule gains +1 to its Weapon Skill (WS) and Attacks (A) characteristics. In addition, the model gains a Chainsword.\n\n- The model may exchange the Chainsword for a Power Sword for 5pts.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "WS",
+      "delta": 1
+     },
+     {
+      "characteristic": "A",
+      "delta": 1
+     }
+    ],
+    "items": [
+     {
+      "kind": "weapon",
+      "id": "chainsword"
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "power_sword",
+     "label": "The model may exchange the Chainsword for a Power Sword for 5pts.",
+     "printed": "The model may exchange the Chainsword for a Power Sword for 5pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_sword",
+       "name": "Power Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/shroud_of_wind",
+   "name": "Shroud of Wind",
+   "kind": "datasheet",
+   "page": 76,
+   "url": "https://longwarindex.app/special_rules/shroud_of_wind/",
+   "text": "This unit does not gain the benefits of its Camo Cloaks during a turn in which it made any Movement Action in the Movement Phase."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/transport_falcon_grav_tank",
+   "name": "Transport",
+   "datasheet": "Falcon Grav Tank",
+   "kind": "datasheet",
+   "page": 79,
+   "url": "https://longwarindex.app/special_rules/transport_falcon_grav_tank/",
+   "text": "This model can transport 6 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/avatar_of_war",
+   "name": "Avatar of War",
+   "kind": "warlord_trait",
+   "page": 87,
+   "url": "https://longwarindex.app/special_rules/avatar_of_war/",
+   "references": [
+    "special_rules/pinning",
+    "universal_special_rules/rage"
+   ],
+   "text": "All Eldar units that draw visibility to this unit automatically pass Pinning and Panic tests. Friendly Eldar units within 12\" of this unit gain the Rage special rule. This unit counts as your Warlord even if they are not selected as your warlord and generates this trait as even if not selected.",
+   "effects": {
+    "list_building": {
+     "mandates_warlord": true
+    }
+   }
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/khaela_mensha_khaine",
+   "name": "Khaela Mensha Khaine",
+   "kind": "datasheet",
+   "page": 87,
+   "url": "https://longwarindex.app/special_rules/khaela_mensha_khaine/",
+   "text": "This unit automatically passes all Pinning and Panic tests."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/the_bloody_hand",
+   "name": "The Bloody Hand",
+   "kind": "datasheet",
+   "page": 87,
+   "url": "https://longwarindex.app/special_rules/the_bloody_hand/",
+   "text": "Each time this unit inflicts a wound that is allocated to an enemy unit and not ignored, this unit heals 1 wound to a max of 2 wounds per Combat Phase. Instant death wounds only count as 1 wound."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/hunter_configuration",
+   "name": "Hunter Configuration",
+   "kind": "datasheet",
+   "page": 90,
+   "url": "https://longwarindex.app/special_rules/hunter_configuration/",
+   "text": "This model may exchange its Transport Capacity and Transport 0 models for 2 Eldar Missile Launchers (P).",
+   "options": [
+    {
+     "id": "eldar_missile_launchers",
+     "label": "This model may exchange its Transport Capacity and Transport 0 models for 2 Eldar Missile Launchers (P).",
+     "printed": "This model may exchange its Transport Capacity and Transport 0 models for 2 Eldar Missile Launchers (P).",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "eldar_missile_launchers",
+       "name": "2 Eldar Missile Launchers",
+       "points": 0,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "eldar_missile_launcher",
+         "count": 2,
+         "mount": "primary"
+        }
+       ],
+       "loses_rules": [
+        {
+         "rule": "codex/craftworld_eldar/special_rules/transport_vampire_raider",
+         "name": "Transport (Vampire Raider)",
+         "printed": "Transport",
+         "url": "https://longwarindex.app/special_rules/transport_vampire_raider/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/transport_vampire_raider",
+   "name": "Transport",
+   "datasheet": "Vampire Raider",
+   "kind": "datasheet",
+   "page": 90,
+   "url": "https://longwarindex.app/special_rules/transport_vampire_raider/",
+   "text": "This model may transport 20 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 20,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/flank_speed",
+   "name": "Flank Speed",
+   "kind": "datasheet",
+   "page": 91,
+   "url": "https://longwarindex.app/special_rules/flank_speed_craftworld_eldar/",
+   "text": "When this unit performs an Advance move in the Movement Phase, it automatically adds 12\" to its Movement (M) characteristic."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/gate_from_beyond",
+   "name": "Gate from Beyond",
+   "kind": "datasheet",
+   "page": 93,
+   "url": "https://longwarindex.app/special_rules/gate_from_beyond_craftworld_eldar/",
+   "references": [
+    "universal_special_rules/outflank"
+   ],
+   "text": "When Eldar units arrive via Outflank, they may be placed wholly within 12\" of a Webway Gate piece so long as they are more than 3\" from any enemy models."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/hidden_webways",
+   "name": "Hidden Webways",
+   "kind": "datasheet",
+   "page": 93,
+   "url": "https://longwarindex.app/special_rules/hidden_webways_craftworld_eldar/",
+   "text": "The Webway Gate model is made of 2 pieces. During deployment, you may place both pieces together in contact in your deployment zone or you can place 1 in your deployment zone and the other anywhere on the board, more than 9\" away from any enemy models."
+  },
+  {
+   "id": "codex/craftworld_eldar/special_rules/linked_gates",
+   "name": "Linked Gates",
+   "kind": "datasheet",
+   "page": 93,
+   "url": "https://longwarindex.app/special_rules/linked_gates_craftworld_eldar/",
+   "text": "If, during deployment you opted to deploy your gate as 2 separate gates, they are considered Linked. During the Movement Phase, friendly Eldar models may embark on this model. The Eldar models may disembark per normal from any Webway Gate piece on the board. There is no limit to the number of type of models that may embark on a Webway Gate."
+  },
+  {
+   "id": "codex/craftworld_eldar/allegiances/alaitoc",
+   "name": "Allegiance: Alaitoc",
+   "kind": "allegiance",
+   "page": 37,
+   "url": "https://longwarindex.app/allegiances/alaitoc/",
+   "references": [
+    "universal_special_rules/zealot"
+   ],
+   "text": "All Craftworld Eldar units change their [Craftworld] keyword to Alaitoc. All units with the Alaitoc Keyword gain the Allegiance: Alaitoc special rule. The Allegiance: Alaitoc special rule consists of the following rules:\n\n- Rigid Path Walkers: Alaitoc units in your army gain the Zealot special rule.\n- Despondent Outcasts: Your army must include at least 1 Outcast unit per 1000pts unless restricted by a Rite of War.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/zealot",
+      "name": "Zealot",
+      "printed": "[[Zealot]]",
+      "url": "https://longwarindex.app/universal_special_rules/zealot/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/craftworld_eldar/allegiances/biel_tan",
+   "name": "Allegiance: Biel-Tan",
+   "kind": "allegiance",
+   "page": 37,
+   "url": "https://longwarindex.app/allegiances/biel_tan/",
+   "references": [
+    "universal_special_rules/hit_and_run"
+   ],
+   "text": "All Craftworld Eldar units change their [Craftworld] keyword to Biel-Tan. All units with the Biel-Tan Keyword gain the Allegiance: Biel-Tan special rule. The Allegiance: Biel-Tan special rule consists of the following rules:\n\n- The Swordwind: Biel-Tan units gain the Hit & Run special rule.\n- Preferred Hosts: If your army is using a Rite of War other than the Shrine Host, you do not gain the first listed Benefit of the Rite of War.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hit_and_run",
+      "name": "Hit & Run",
+      "printed": "[[Hit and Run|Hit & Run]]",
+      "url": "https://longwarindex.app/universal_special_rules/hit_and_run/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/craftworld_eldar/allegiances/iyanden",
+   "name": "Allegiance: Iyanden",
+   "kind": "allegiance",
+   "page": 37,
+   "url": "https://longwarindex.app/allegiances/iyanden/",
+   "references": [
+    "universal_special_rules/stubborn"
+   ],
+   "text": "All Craftworld Eldar units change their [Craftworld] keyword to Iyanden. All units with the Iyanden Keyword gain the Allegiance: Iyanden special rule. The Allegiance: Iyanden special rule consists of the following rules:\n\n- Stoic Endurance: Iyanden units gain the Stubborn special rule.\n- Preferred Hosts: If your army is using a Rite of War other than the Wraith Host, you do not gain the first listed Benefit of the Rite of War.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "printed": "[[Stubborn]]",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/craftworld_eldar/allegiances/mymeara",
+   "name": "Allegiance: Mymeara",
+   "kind": "allegiance",
+   "page": 37,
+   "url": "https://longwarindex.app/allegiances/mymeara/",
+   "text": "All Craftworld Eldar units change their [Craftworld] keyword to Mymeara. All units with the Mymeara Keyword gain the Allegiance: Mymeara special rule. The Allegiance: Mymeara special rule consists of the following rules:\n\n- Masterful Stealth: During the first Battle Round, all friendly Mymeara units gain the benefit of Heavy Cover. In addition, all Mymeara Aircraft units always gain the benefit of Light Cover, even if they would normally not.\n- Home of Lost Aspects: Your army must include at least 1 unit of Shadow Spectres per 1000pts."
+  },
+  {
+   "id": "codex/craftworld_eldar/allegiances/saim_hann",
+   "name": "Allegiance: Saim-Hann",
+   "kind": "allegiance",
+   "page": 37,
+   "url": "https://longwarindex.app/allegiances/saim_hann/",
+   "references": [
+    "universal_special_rules/furious_charge"
+   ],
+   "text": "All Craftworld Eldar units change their [Craftworld] keyword to Saim-Hann. All units with the Saim-Hann Keyword gain the Allegiance: Saim-Hann special rule. The Allegiance: Saim-Hann special rule consists of the following rules:\n\n- Wild Host: Saim-Hann units gain the Furious Charge special rule.\n- Preferred Hosts: If your army is using a Rite of War other than the Wind Rider Host, you do not gain the first listed Benefit of the Rite of War.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/furious_charge",
+      "name": "Furious Charge",
+      "printed": "[[Furious Charge]]",
+      "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/craftworld_eldar/allegiances/ulthwe",
+   "name": "Allegiance: Ulthwe",
+   "kind": "allegiance",
+   "page": 37,
+   "url": "https://longwarindex.app/allegiances/ulthwe/",
+   "text": "All Craftworld Eldar units change their [Craftworld] keyword to Ulthwe. All units with the Ulthwe Keyword gain the Allegiance: Ulthwe special rule. The Allegiance: Ulthwe special rule consists of the following rules:\n\n- Foresight of the Damned: After deployment is complete but before the first turn begins, you may select 1 Ulthwe unit in your army per 500pts to re-deploy as if it were the Deployment Step.\n- Militia Ranks: An Ulthwe army must include at least 2 Militia units per 1000pts unless restricted by a Rite of War."
+  }
+ ]
+}

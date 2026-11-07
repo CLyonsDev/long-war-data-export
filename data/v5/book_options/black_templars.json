@@ -1,0 +1,877 @@
+{
+ "data_version": "2384611d40e87242",
+ "format": 1,
+ "faction": "black_templars",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/ancient_breviary/",
+   "offered_by": {
+    "allegiance": "codex/black_templars/allegiances/allegiance_black_templars"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "any_of": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/character",
+         "name": "Character",
+         "url": "https://longwarindex.app/universal_special_rules/character/"
+        }
+       },
+       {
+        "rows": [
+         {
+          "datasheet": "codex/black_templars/roster/crusader_squad",
+          "profile": "Sword Brother"
+         },
+         {
+          "datasheet": "codex/black_templars/roster/crusader_bike_cavalry",
+          "profile": "Sword Brother Bike"
+         },
+         {
+          "datasheet": "codex/black_templars/roster/sword_brethren",
+          "profile": "Sword Brother"
+         },
+         {
+          "datasheet": "codex/black_templars/roster/sword_brethren_terminators",
+          "profile": "Terminator Sword Brother"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "ancient_breviary",
+     "name": "Ancient Breviary",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "ancient_breviary"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/ancient_breviary/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_crusader_helm",
+     "name": "The Crusader Helm",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_crusader_helm"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/the_crusader_helm/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_aurillian_shroud",
+     "name": "The Aurillian Shroud",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_aurillian_shroud"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/the_aurillian_shroud/",
+     "pricing": "flat"
+    },
+    {
+     "id": "skull_of_the_cacodominus",
+     "name": "Skull of the Cacodominus",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "skull_of_the_cacodominus"
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/skull_of_the_cacodominus/",
+     "pricing": "flat"
+    },
+    {
+     "id": "aquila_immortalis",
+     "name": "Aquila Immortalis",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "aquila_immortalis"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/aquila_immortalis/",
+     "pricing": "flat"
+    },
+    {
+     "id": "tannhausers_bones",
+     "name": "Tännhauser's Bones",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "tannhausers_bones"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/tannhausers_bones/",
+     "pricing": "flat"
+    },
+    {
+     "id": "thronelight_lantern",
+     "name": "Thronelight Lantern",
+     "points": 30,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "thronelight_lantern"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/thronelight_lantern/",
+     "pricing": "flat"
+    },
+    {
+     "id": "shackles_of_the_faithful",
+     "name": "Shackles of the Faithful",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "shackles_of_the_faithful"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/shackles_of_the_faithful/",
+     "pricing": "flat"
+    },
+    {
+     "id": "hands_of_the_pious",
+     "name": "Hands of the Pious",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "hands_of_the_pious"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/hands_of_the_pious/",
+     "pricing": "flat"
+    },
+    {
+     "id": "sceptre_of_fallen_empires",
+     "name": "Sceptre of Fallen Empires",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "sceptre_of_fallen_empires"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/sceptre_of_fallen_empires/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_sword_of_judgement",
+     "name": "The Sword of Judgement",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 15pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_sword_of_judgement"
+        }
+       ]
+      }
+     ],
+     "page": 6,
+     "url": "https://longwarindex.app/wargear/the_sword_of_judgement/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_breath_of_the_throne",
+     "name": "The Breath of the Throne",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Hand Flamer, Flamer or Combi-Flamer for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "hand_flamer",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "flamer",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "combi_flamer",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_breath_of_the_throne"
+        }
+       ],
+       "relic_gains": {
+        "when_removed": {
+         "kind": "weapon",
+         "id": "combi_flamer",
+         "faction": "space_marines"
+        },
+        "rules": [
+         {
+          "rule": "special_rules/combi",
+          "name": "Combi",
+          "url": "https://longwarindex.app/special_rules/combi/"
+         }
+        ],
+        "keeps_profiles": [
+         {
+          "kind": "weapon",
+          "id": "combi_flamer",
+          "faction": "space_marines",
+          "profile": "Combi Flamer (Boltgun)"
+         }
+        ]
+       }
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_breath_of_the_throne/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_sword_of_the_lost_crusader",
+     "name": "The Sword of the Lost Crusader",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 15pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_sword_of_the_lost_crusader"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_sword_of_the_lost_crusader/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_penitents_roar",
+     "name": "The Penitent's Roar",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_penitents_roar"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_penitents_roar/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 9,
+   "url": "https://longwarindex.app/codex/black_templars/warlord_traits/",
+   "offered_by": {
+    "allegiance": "codex/black_templars/allegiances/allegiance_black_templars"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "space_marines/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "epitome_of_piety",
+     "name": "Epitome of Piety",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/epitome_of_piety/",
+     "text": "A model with this Warlord trait gains the Priest (1) special rule. If the unit already has the Priest (x) special rule, increase the value of x by 1.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/priest",
+       "name": "Priest",
+       "param": "1",
+       "url": "https://longwarindex.app/universal_special_rules/priest/"
+      }
+     ]
+    },
+    {
+     "id": "master_of_arms",
+     "name": "Master of Arms",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/master_of_arms/",
+     "text": "A model with this Warlord trait gains +1 to their Weapon Skill (WS) and Attacks (A) characteristics. In addition, they gain the Martial Feats special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/black_templars/special_rules/martial_feats",
+       "name": "Martial Feats",
+       "url": "https://longwarindex.app/special_rules/martial_feats/"
+      }
+     ],
+     "stat_mods": [
+      {
+       "characteristic": "WS",
+       "delta": 1
+      },
+      {
+       "characteristic": "A",
+       "delta": 1
+      }
+     ]
+    },
+    {
+     "id": "oathkeeper",
+     "name": "Oathkeeper",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/oathkeeper/",
+     "text": "A model with this Warlord trait gains the Last Stand and Feel No Pain (6+) special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/last_stand",
+       "name": "Last Stand",
+       "url": "https://longwarindex.app/universal_special_rules/last_stand/"
+      },
+      {
+       "rule": "universal_special_rules/feel_no_pain",
+       "name": "Feel No Pain",
+       "param": "6+",
+       "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prayers",
+   "kind": "prayers",
+   "label": "All Black Templars Priests with the Priest (x) special rule may purchase the following Prayers:",
+   "printed": "All Black Templars Priests with the Priest (x) special rule may purchase the following Prayers:",
+   "page": 10,
+   "url": "https://longwarindex.app/codex/black_templars/powers/",
+   "offered_by": {
+    "allegiance": "codex/black_templars/allegiances/allegiance_black_templars"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/priest",
+       "name": "Priest",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/priest/"
+      }
+     },
+     {
+      "keyword": "Black Templars"
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/priest",
+     "name": "Priest",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/priest/"
+    }
+   ],
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "litany_of_focus",
+     "name": "Litany of Focus",
+     "page": 10,
+     "url": "https://longwarindex.app/powers/litany_of_focus_black_templars/",
+     "text": "When this Prayer is performed, the Priest and any attached unit has the Indomitable Spirit (4+) special rule until the start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_fury",
+     "name": "Litany of Fury",
+     "page": 10,
+     "url": "https://longwarindex.app/powers/litany_of_fury_black_templars/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gains the Fleet special rule until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_hatred",
+     "name": "Litany of Hatred",
+     "page": 10,
+     "url": "https://longwarindex.app/powers/litany_of_hatred_black_templars/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gain the Hatred special rule until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_resolve",
+     "name": "Litany of Resolve",
+     "page": 10,
+     "url": "https://longwarindex.app/powers/litany_of_resolve/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gain the Feel No Pain (5+) special rule until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_rage",
+     "name": "Litany of Rage",
+     "page": 25,
+     "url": "https://longwarindex.app/powers/litany_of_rage_space_marines/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gain the Fear (1) special rule until the start of your next Shooting Phase.",
+     "points": 5,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_strength",
+     "name": "Litany of Strength",
+     "page": 25,
+     "url": "https://longwarindex.app/powers/litany_of_strength_space_marines/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gain +1 to their Strength (S) characteristic until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "chaplain_dreadnought_upgrade",
+   "kind": "upgrade",
+   "label": "Any Black Templars Castraferrum Dreadnought may be upgraded to a Chaplain Dreadnought for 40pts.",
+   "printed": "Any Black Templars Castraferrum Dreadnought may be upgraded to a Chaplain Dreadnought for 40pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_eternal_crusade/",
+   "offered_by": {
+    "allegiance": "codex/black_templars/allegiances/allegiance_black_templars"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "datasheet": "codex/space_marines/roster/castraferrum_dreadnought"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "chaplain_dreadnought",
+     "name": "Chaplain Dreadnought",
+     "page": 4,
+     "url": "https://longwarindex.app/special_rules/chaplain_dreadnought/",
+     "text": "A unit with this upgrade gains the Priest (1), Hatred, Stubborn and Zealot special rules.\n\n- A Chaplain Dreadnought may exchange any of its Dreadnought Close Combat Weapons and Storm Bolter for one of the following:\n    - Hallowed Mace for 0pts.\n    - Blessed Spear for 0pts.",
+     "points": 40,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/black_templars/special_rules/chaplain_dreadnought",
+       "name": "Chaplain Dreadnought",
+       "url": "https://longwarindex.app/special_rules/chaplain_dreadnought/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_reliquary_bones",
+   "kind": "armoury",
+   "label": "Any Black Templars model may take Reliquary Bones for 1pts per model.",
+   "printed": "Any Black Templars model may take Reliquary Bones for 1pts per model.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_eternal_crusade/",
+   "offered_by": {
+    "allegiance": "codex/black_templars/allegiances/allegiance_black_templars"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Black Templars"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "reliquary_bones",
+     "name": "Reliquary Bones",
+     "points": 1,
+     "pricing": "per_model",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "reliquary_bones"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_character_wargear",
+   "kind": "armoury",
+   "label": "Any Black Templars unit with the Character special rule may:",
+   "printed": "Any Black Templars unit with the Character special rule may:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_eternal_crusade/",
+   "offered_by": {
+    "allegiance": "codex/black_templars/allegiances/allegiance_black_templars"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Black Templars"
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "crux_obsidian",
+     "name": "Crux Obsidian",
+     "printed": "Purchase a Crux Obsidian for 5pts.",
+     "points": 5,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "crux_obsidian"
+      }
+     ]
+    },
+    {
+     "id": "seal_of_sigsmund",
+     "name": "Seal of Sigsmund",
+     "printed": "Purchase a Seal of Sigsmund for 10pts.",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "seal_of_sigsmund"
+      }
+     ]
+    },
+    {
+     "id": "adamantine_mantle",
+     "name": "Adamantine Mantle",
+     "printed": "Purchase an Adamantine Mantle for 10pts.",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "adamantine_mantle"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_blessed_weapons",
+   "kind": "armoury",
+   "label": "Any Black Templars Space Marine Captain or Space Marine Lieutenant model may:",
+   "printed": "Any Black Templars Space Marine Captain or Space Marine Lieutenant model may:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_eternal_crusade/",
+   "offered_by": {
+    "allegiance": "codex/black_templars/allegiances/allegiance_black_templars"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Black Templars"
+     },
+     {
+      "any_of": [
+       {
+        "keyword": "Captain"
+       },
+       {
+        "keyword": "Lieutenant"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "blessed_blade",
+     "name": "Blessed Blade",
+     "printed": "Exchange their equipped Power Sword for a Blessed Blade for 5pts.",
+     "points": 5,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "blessed_blade"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "spear_of_the_faithful",
+     "name": "Spear of the Faithful",
+     "printed": "Exchange their equipped Power Lance for a Spear of the Faithful for 5pts.",
+     "points": 5,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_lance",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "spear_of_the_faithful"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "power_lance",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hallowed_mace",
+     "name": "Hallowed Mace",
+     "printed": "Exchange their equipped Power Maul for a Hallowed Mace for 5pts.",
+     "points": 5,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_maul",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "hallowed_mace"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "power_maul",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_witchseeker_boltgun",
+   "kind": "armoury",
+   "label": "Any Black Templars model may exchange their equipped Boltgun for a Witchseeker Boltgun for 1pt per model.",
+   "printed": "Any Black Templars model may exchange their equipped Boltgun for a Witchseeker Boltgun for 1pt per model.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_eternal_crusade/",
+   "offered_by": {
+    "allegiance": "codex/black_templars/allegiances/allegiance_black_templars"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Black Templars"
+     },
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "boltgun",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "witchseeker_boltgun",
+     "name": "Witchseeker Boltgun",
+     "points": 1,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "witchseeker_boltgun"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

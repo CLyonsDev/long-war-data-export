@@ -1,0 +1,1079 @@
+{
+ "data_version": "3e4bbe2080cec1d4",
+ "format": 1,
+ "faction": "renegades_and_heretics",
+ "special_rules": [
+  {
+   "id": "codex/renegades_and_heretics/special_rules/aura_of_chaos",
+   "name": "Aura of Chaos",
+   "kind": "datasheet",
+   "page": 103,
+   "url": "https://longwarindex.app/special_rules/aura_of_chaos_renegades_and_heretics/",
+   "text": "Friendly Chaos models within 12\" gain a 6+ Invulnerable save."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/blasphemous_oracle",
+   "name": "Blasphemous Oracle",
+   "kind": "datasheet",
+   "page": 58,
+   "url": "https://longwarindex.app/special_rules/blasphemous_oracle/",
+   "references": [
+    "universal_special_rules/priest"
+   ],
+   "text": "If your unit has this upgrade, the Champion model is considered to have the Priest (1) special rule while the Champion is alive."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/breach_the_veil",
+   "name": "Breach the Veil",
+   "kind": "datasheet",
+   "page": 68,
+   "url": "https://longwarindex.app/special_rules/breach_the_veil/",
+   "text": "When this power is successfully cast, you can select 1 of the following effects.\n\n1. Place 1 Warp Breach token (using a 25mm base token) within 12\" of the Psyker.\n2. Move 1 Warp Breach token D6\" in a direction of your choice.\n\nFriendly Daemon units may arrive from Reserves wholly within 6\" of a Warp Breach token. In addition, at the end of the Shooting Phase, each unit within 3\" of a Warp Breach token takes D6 Strength D6, APD6 automatic hits."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/cabal",
+   "name": "Cabal",
+   "kind": "datasheet",
+   "page": 68,
+   "url": "https://longwarindex.app/special_rules/cabal/",
+   "references": [
+    "universal_special_rules/character"
+   ],
+   "text": "If this unit includes more than 1 model, it may deployed as a single unit or each model in the unit may be treated as a separate unit for the rest of the game with the Character special rule."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/cocktail_of_excess",
+   "name": "Cocktail of Excess",
+   "kind": "datasheet",
+   "page": 58,
+   "url": "https://longwarindex.app/special_rules/cocktail_of_excess/",
+   "references": [
+    "universal_special_rules/sprint",
+    "universal_special_rules/sudden_strike"
+   ],
+   "text": "This unit gains the Sprint (1) and Sudden Strike (1) special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/sprint",
+      "name": "Sprint",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/sprint/"
+     },
+     {
+      "rule": "universal_special_rules/sudden_strike",
+      "name": "Sudden Strike",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/conversion",
+   "name": "Conversion",
+   "kind": "weapon",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/conversion_renegades_and_heretics/",
+   "text": "If the target of this weapon is not within half of the weapon's range when making an attack, the weapon gains +2 to its Strength characteristic."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/corrupted_blood",
+   "name": "Corrupted Blood",
+   "kind": "datasheet",
+   "page": 55,
+   "url": "https://longwarindex.app/special_rules/corrupted_blood/",
+   "text": "When a model with this special rule is removed from play, before it is removed from play all enemy units within 6\" take a number of automatic hits equal to the equipped model's Wounds (W) characteristic + 3. The Strength of the hits is equal to the equipped model's Toughness (T) characteristic. The AP of the hits are resolved at AP6. Saves may be taken as normal."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/cyber_familiar",
+   "name": "Cyber Familiar",
+   "kind": "datasheet",
+   "page": 52,
+   "url": "https://longwarindex.app/special_rules/cyber_familiar/",
+   "text": "A unit with this upgrade gains +1 to its Invulnerable Save. In addition, they can re-roll 1 Dice when performing the Leadership Test to perform a Machine Rite."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/daemon",
+   "name": "Daemon",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/daemon_renegades_and_heretics/",
+   "references": [
+    "universal_special_rules/fear"
+   ],
+   "text": "A unit with this rule gains the Daemon Keyword. The Daemon unit has a 5+ Invulnerable save and the Fear (1) special rule. Daemon units have +1\" to their Movement (M) characteristic. (This is included in unit data sheets that have the Daemon special rule by default)",
+   "effects": {
+    "keywords": [
+     "Daemon"
+    ],
+    "invulnerable_save": "5+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "M",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/daemonic_infusion",
+   "name": "Daemonic Infusion",
+   "kind": "datasheet",
+   "page": 47,
+   "url": "https://longwarindex.app/special_rules/daemonic_infusion/",
+   "references": [
+    "codex/renegades_and_heretics/special_rules/daemon"
+   ],
+   "text": "A Dark Master with this upgrade gains the Daemon special rule. In addition, the unit gains +1 to its Strength (S) and Toughness (T) characteristics.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "codex/renegades_and_heretics/special_rules/daemon",
+      "name": "Daemon",
+      "url": "https://longwarindex.app/special_rules/daemon_renegades_and_heretics/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": 1
+     },
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/daemonic_infusion_blessed_blades",
+   "name": "Daemonic Infusion",
+   "datasheet": "Blessed Blades",
+   "kind": "datasheet",
+   "page": 69,
+   "url": "https://longwarindex.app/special_rules/daemonic_infusion_blessed_blades/",
+   "references": [
+    "codex/renegades_and_heretics/special_rules/daemon"
+   ],
+   "text": "A unit with this upgrade gains the Daemon special rule. In addition, the unit gains +1 to its Strength (S) and Toughness (T) characteristics.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "codex/renegades_and_heretics/special_rules/daemon",
+      "name": "Daemon",
+      "url": "https://longwarindex.app/special_rules/daemon_renegades_and_heretics/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": 1
+     },
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/daemonic_lightning_rod",
+   "name": "Daemonic Lightning Rod",
+   "kind": "datasheet",
+   "page": 68,
+   "url": "https://longwarindex.app/special_rules/daemonic_lightning_rod/",
+   "text": "When a model in this unit is slain as a result of a Perils of the Warp, before removing the model, summon 1 Herald of Nurgle, Herald of Khorne, Herald of Slaanesh or Herald of Tzeentch within 3\" of this model. If the model had a Mark of Chaos, the summoned unit must also have the same Keywords."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/dark_overlord",
+   "name": "Dark Overlord",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/dark_overlord/",
+   "text": "A model with this special rule that is included in your army must be your Warlord.",
+   "effects": {
+    "list_building": {
+     "mandates_warlord": true
+    }
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/disciplined_commander",
+   "name": "Disciplined Commander",
+   "kind": "datasheet",
+   "page": 56,
+   "url": "https://longwarindex.app/special_rules/disciplined_commander/",
+   "references": [
+    "universal_special_rules/scout",
+    "universal_special_rules/outflank"
+   ],
+   "text": "During deployment, you may select a single friendly unit to gain the Scout or Outflank special rules."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/execution",
+   "name": "Execution",
+   "kind": "datasheet",
+   "page": 70,
+   "url": "https://longwarindex.app/special_rules/execution_renegades_and_heretics/",
+   "text": "When any attached unit would fail a Pinning or Panic test, you can opt to slay 1 friendly model from the attached unit. That is considered to have passed the Pinning and Panic test."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/extreme_mutations",
+   "name": "Extreme Mutations",
+   "kind": "datasheet",
+   "page": 67,
+   "url": "https://longwarindex.app/special_rules/extreme_mutations/",
+   "references": [
+    "special_rules/crushing",
+    "universal_special_rules/fly"
+   ],
+   "text": "At the start of the battle, during deployment but before the first turn begins, each unit in your army with this special rule must roll a D3:\n\n1. Crushing Limbs: The unit gains the Crushing (5+) special rule on its Hideous Mutations.\n2. Armored Hide: Models in this unit gain a 3+ Armor save.\n3. Wings forms: The unit gains the Fly special rule."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/fallen_noble",
+   "name": "Fallen Noble",
+   "kind": "datasheet",
+   "page": 47,
+   "url": "https://longwarindex.app/special_rules/fallen_noble/",
+   "references": [
+    "universal_special_rules/stubborn"
+   ],
+   "text": "A Dark Master with this special rule gains the Stubborn special rule. In addition, they gain +1 to their Weapon Skill (WS) characteristic.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "WS",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/field_piece",
+   "name": "Field Piece",
+   "kind": "datasheet",
+   "page": 76,
+   "url": "https://longwarindex.app/special_rules/field_piece_renegades_and_heretics/",
+   "text": "This unit may only embark on the Centaur Light Carrier and may only do so if the unit size is 1 model."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/firing_deck",
+   "name": "Firing Deck",
+   "kind": "datasheet",
+   "page": 97,
+   "url": "https://longwarindex.app/special_rules/firing_deck_renegades_and_heretics/",
+   "references": [
+    "universal_special_rules/assault_vehicle"
+   ],
+   "text": "This unit may transport up to 20 Infantry type models and gains the Transport keyword. The unit gains the Assault Vehicle special rule.",
+   "effects": {
+    "keywords": [
+     "Transport"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/assault_vehicle",
+      "name": "Assault Vehicle",
+      "url": "https://longwarindex.app/universal_special_rules/assault_vehicle/"
+     }
+    ],
+    "transport_capacity": {
+     "type": "shared",
+     "n": 20,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/flank_speed",
+   "name": "Flank Speed",
+   "kind": "datasheet",
+   "page": 42,
+   "url": "https://longwarindex.app/special_rules/flank_speed_renegades_and_heretics/",
+   "text": "When this unit performs an Advance move in the Movement Phase, it automatically adds 12\" to its Movement (M) characteristic."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/garrison",
+   "name": "Garrison",
+   "kind": "datasheet",
+   "page": 104,
+   "url": "https://longwarindex.app/special_rules/garrison_renegades_and_heretics/",
+   "text": "This model can garrison up to 22 Infantry models embarked within it. Models embarked within this Fortification may shoot in the shooting phase as normal, drawing all visibility and range from this unit's hull.",
+   "effects": {
+    "garrison_capacity": {
+     "n": 22,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/gore_tanks",
+   "name": "Gore Tanks",
+   "kind": "datasheet",
+   "page": 75,
+   "url": "https://longwarindex.app/special_rules/gore_tanks/",
+   "text": "In the Combat Phase this unit may activate its Gore Tanks. Select one of the following effects:\n\n- This unit gains +1 to its Attacks (A) characteristic until the end of the phase.\n- Or, once per game, Immediately summon 1 unit of Bloodletters from Codex - Chaos Daemons to add to your army. This summoned unit is placed within 8\" of this unit and may be placed in combat and may fight this Combat Phase. The Gore Monger unit is then immediately slain and removed from play."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/gory_demise",
+   "name": "Gory Demise",
+   "kind": "datasheet",
+   "page": 67,
+   "url": "https://longwarindex.app/special_rules/gory_demise/",
+   "text": "When a model with this special rule is slain in the combat phase and removed from play, enemy units within 3\" take 2 Strength 5, AP5 automatic hits. Wound rolls and save rolls are made as normal."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/hidden_entrances",
+   "name": "Hidden Entrances",
+   "kind": "datasheet",
+   "page": 104,
+   "url": "https://longwarindex.app/special_rules/hidden_entrances_renegades_and_heretics/",
+   "text": "When a unit with this special rule would be destroyed, Embarked units are not required to roll for models inside being slain (see Rule 10.2 in the core rules)."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/human_shields",
+   "name": "Human Shields",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/human_shields/",
+   "references": [
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "Each time a friendly Renegades & Heretics unit that is not the Knight or Titan type within 6\" would suffer a wound or penetrating hit but before saves are made, you may roll a D6. On a 6+ the wound may be allocated to a unit with this special rule instead. If the unit with this special rule contains 11 or more models, you may allocate wounds to it unit on a 5+. This unit may not make any saves against the wound nor Feel no Pain rolls. Wounds allocated in this manner do not cause Panic or Pinning tests."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/hyper_warp_field",
+   "name": "Hyper Warp Field",
+   "kind": "datasheet",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/hyper_warp_field_renegades_and_heretics/",
+   "text": "A model with this special rule has a 3+ Invulnerable Save.",
+   "effects": {
+    "invulnerable_save": "3+"
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/icarus_defences",
+   "name": "Icarus Defences",
+   "kind": "datasheet",
+   "page": 104,
+   "url": "https://longwarindex.app/special_rules/icarus_defences_renegades_and_heretics/",
+   "references": [
+    "special_rules/skyfire"
+   ],
+   "text": "Any Linked Autocannon or Linked Lascannon that the Bastion is equipped with gains the Skyfire special rule."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/infectious",
+   "name": "Infectious",
+   "kind": "datasheet",
+   "page": 63,
+   "url": "https://longwarindex.app/special_rules/infectious/",
+   "references": [
+    "special_rules/poison"
+   ],
+   "text": "All Melee weapons this unit is equipped with gain the Poison (4+) special rule.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/poison",
+      "name": "Poison",
+      "param": "4+",
+      "url": "https://longwarindex.app/special_rules/poison/",
+      "weapon_types": [
+       "Melee"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/infectious_diseases",
+   "name": "Infectious Diseases",
+   "kind": "datasheet",
+   "page": 58,
+   "url": "https://longwarindex.app/special_rules/infectious_diseases/",
+   "text": "Any enemy unit within 3\" gains -1 to their Toughness (T) characteristic."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/infernal_knight",
+   "name": "Infernal Knight",
+   "kind": "datasheet",
+   "page": 99,
+   "url": "https://longwarindex.app/special_rules/infernal_knight/",
+   "text": "This unit may be taken as the only option in an Allied Detachment for your army and is taken to have filled all requirements of the Allied Detachment Force Organization Chart. However, you cannot include any additional units in your Allied Detachment Force Organization Chart.",
+   "effects": {
+    "list_building": {
+     "sole_allied_unit": true
+    }
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/ion_deflector",
+   "name": "Ion Deflector",
+   "kind": "datasheet",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/ion_deflector_renegades_and_heretics/",
+   "text": "This unit confers a 5+ Invulnerable Save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/ion_shield",
+   "name": "Ion Shield",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/ion_shield_renegades_and_heretics/",
+   "text": "A model with this special rule has a 4+ Invulnerable save against all Shooting Attacks resolved against its Front Armour Value (FA). In addition, you gain the Rotate Ion Shields Reaction (see below).\n\nRotate Ion Shields (Reaction): Instead of Setting to Overwatch, this unit may set to Rotate Ion Shields in its Shooting Phase. If you do so, the unit may still shoot in the Shooting Phase but all attacks made by the unit are resolved as Snap Shots. At the end of your Opponent's Charge Phase, you may select one of your units Armour Facings (FA/SA/RA). The units 4+ Invulnerable save from the Ion Shields special rule now applies to Shooting Attacks resolved against the chosen Armour Facing."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/levitation",
+   "name": "Levitation",
+   "kind": "datasheet",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/levitation/",
+   "references": [
+    "universal_special_rules/hammer_of_wrath",
+    "universal_special_rules/fly"
+   ],
+   "text": "A model with this special rule increases their Movement (M) characteristic to 12\". It gains the Hammer of Wrath (1) and Fly special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     }
+    ],
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/locus_of_entropy",
+   "name": "Locus of Entropy",
+   "kind": "datasheet",
+   "page": 49,
+   "url": "https://longwarindex.app/special_rules/locus_of_entropy/",
+   "references": [
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "This unit and any attached unit gain a 5+ Invulnerable save. In addition, enemy units that arrive via Deep Strike within 12\" of this model suffer -1 to their roll when determining if they will arrive."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/master_of_the_blood_pact",
+   "name": "Master of the Blood Pact",
+   "kind": "warlord_trait",
+   "page": 56,
+   "url": "https://longwarindex.app/special_rules/master_of_the_blood_pact/",
+   "text": "If this unit is your Warlord, all Cultist Mob units in your army gain +1 to their Ballistic Skill (BS), Weapon Skill (WS), Attacks (A) and Leadership (LD) characteristics."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/mechadentrite_nest",
+   "name": "Mechadentrite Nest",
+   "kind": "datasheet",
+   "page": 52,
+   "url": "https://longwarindex.app/special_rules/mechadentrite_nest/",
+   "text": "A model with this upgrade gains +D6 to its Attacks (A) characteristic at the start of each Combat Phase."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/merchant_connections",
+   "name": "Merchant Connections",
+   "kind": "datasheet",
+   "page": 47,
+   "url": "https://longwarindex.app/special_rules/merchant_connections/",
+   "references": [
+    "special_rules/master_crafted"
+   ],
+   "text": "A Dark Master with this upgrade gains the Master-Crafted special rule on all weapons they are equipped with.\n\n- A Dark Master with this upgrade may exchange their Autopistol for one of the following:\n    - Fusion Pistol (+15pts)\n    - Shuriken Catapult (+2pts)\n    - Splinter Rifle (+2pts)\n    - Pulse Rifle (+3pts)\n    - Pulse Pistol (+1pts)\n- A Dark Master with this upgrade may take one of the following:\n    - Agonizer (+10pts)\n    - Dire Sword (+10pts)\n    - Plasma Sword (+5pts)",
+   "effects": {
+    "rules": [
+     {
+      "rule": "special_rules/master_crafted",
+      "name": "Master-Crafted",
+      "url": "https://longwarindex.app/special_rules/master_crafted/"
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "autopistol_exchange",
+     "label": "A Dark Master with this upgrade may exchange their Autopistol for one of the following:",
+     "printed": "A Dark Master with this upgrade may exchange their Autopistol for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "fusion_pistol",
+       "name": "Fusion Pistol",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "fusion_pistol_dark_master"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "shuriken_catapult",
+       "name": "Shuriken Catapult",
+       "points": 2,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "shuriken_catapult_dark_master"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "splinter_rifle",
+       "name": "Splinter Rifle",
+       "points": 2,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "splinter_rifle_dark_master"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "pulse_rifle",
+       "name": "Pulse Rifle",
+       "points": 3,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "pulse_rifle_dark_master"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "pulse_pistol",
+       "name": "Pulse Pistol",
+       "points": 1,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "pulse_pistol_dark_master"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "additional_weapon",
+     "label": "A Dark Master with this upgrade may take one of the following:",
+     "printed": "A Dark Master with this upgrade may take one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "agonizer",
+       "name": "Agonizer",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "agonizer"
+        }
+       ]
+      },
+      {
+       "id": "dire_sword",
+       "name": "Dire Sword",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "dire_sword"
+        }
+       ]
+      },
+      {
+       "id": "plasma_sword",
+       "name": "Plasma Sword",
+       "points": 5,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "plasma_sword"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/mind_control",
+   "name": "Mind Control",
+   "kind": "datasheet",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/mind_control/",
+   "text": "At the start of each of your phases and your opponent's Combat Phase, each Enslaver model in this unit can select one friendly unit in your army within 24\". The selected unit may use this unit's Weapon Skill (WS), Ballistic Skill (BS), Initiative (I) and Leadership (LD) characteristics."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/mindless",
+   "name": "Mindless",
+   "kind": "datasheet",
+   "page": 63,
+   "url": "https://longwarindex.app/special_rules/mindless/",
+   "text": "This unit automatically passes all Pinning tests. When this unit fails a Panic test, it takes D3 automatic wounds instead of performing a Fall Back move. Saves may be made as normal against these wounds."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/morale_officer",
+   "name": "Morale Officer",
+   "kind": "datasheet",
+   "page": 70,
+   "url": "https://longwarindex.app/special_rules/morale_officer_renegades_and_heretics/",
+   "references": [
+    "universal_special_rules/stubborn"
+   ],
+   "text": "This unit and any attached unit have the Stubborn special rule. This unit and any attached unit count as scoring 1 additional wound in the Combat Phase when determining who won combat.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/mutant_rabble",
+   "name": "Mutant Rabble",
+   "kind": "datasheet",
+   "page": 60,
+   "url": "https://longwarindex.app/special_rules/mutant_rabble/",
+   "references": [
+    "universal_special_rules/scout",
+    "universal_special_rules/fear"
+   ],
+   "text": "At the start of the battle, during deployment but before the first turn begins, each unit in your army with this special rule must roll a D3:\n\n1. Extra Appendages: The unit gains +1 to their Attacks (A) characteristic.\n2. Acute Senses: The unit gains the Scout special rule and immediately performs a Scout move.\n3. Horrific Disfiguration: The unit gains the Fear (2) special rule."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/ogryn_muscle",
+   "name": "Ogryn Muscle",
+   "kind": "datasheet",
+   "page": 70,
+   "url": "https://longwarindex.app/special_rules/ogryn_muscle/",
+   "references": [
+    "universal_special_rules/bulky",
+    "universal_special_rules/relentless",
+    "universal_special_rules/hammer_of_wrath",
+    "universal_special_rules/frenzy",
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "The unit gains the following special rule while it includes an Ogryn Muscle model; Bulky (4), Relentless, Hammer of Wrath (1), Frenzy, Feel no Pain (6+).",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "4",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/frenzy",
+      "name": "Frenzy",
+      "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+     },
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "6+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/overburdened_engine",
+   "name": "Overburdened Engine",
+   "kind": "datasheet",
+   "page": 31,
+   "url": "https://longwarindex.app/special_rules/overburdened_engine_renegades_and_heretics/",
+   "text": "When this unit suffers a Crew Injured Result, instead of halving this model's Movement (M) characteristic, it is instead reduced to 2\"."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/path_of_ascension",
+   "name": "Path of Ascension",
+   "kind": "datasheet",
+   "page": 47,
+   "url": "https://longwarindex.app/special_rules/path_of_ascension/",
+   "text": "Once per game, if the enemy Warlord would be slain and removed from play as a result of attacks made by this model, you may remove this model from the battlefield. Before removing the model, place a single Daemon Prince unit within 3\" of its location. Your Warlord counts as having been slain."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/plague_furnace",
+   "name": "Plague Furnace",
+   "kind": "datasheet",
+   "page": 57,
+   "url": "https://longwarindex.app/special_rules/plague_furnace/",
+   "references": [
+    "special_rules/poison"
+   ],
+   "text": "At the start of the Combat Phase, all enemy units within 3\" of this unit take D3+3 automatic hits. These hits are resolved at Strength 1, AP- with the Poison (4+) special rule. Saves may be taken as normal."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/poison_weapons",
+   "name": "Poison Weapons",
+   "kind": "datasheet",
+   "page": 58,
+   "url": "https://longwarindex.app/special_rules/poison_weapons/",
+   "references": [
+    "special_rules/poison"
+   ],
+   "text": "All melee type weapons the unit is equipped with gains the Poison (4+) special rule.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/poison",
+      "name": "Poison",
+      "param": "4+",
+      "url": "https://longwarindex.app/special_rules/poison/",
+      "weapon_types": [
+       "Melee"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/possessed",
+   "name": "Possessed",
+   "kind": "datasheet",
+   "page": 51,
+   "url": "https://longwarindex.app/special_rules/possessed/",
+   "references": [
+    "codex/renegades_and_heretics/special_rules/daemon"
+   ],
+   "text": "A unit with this upgrade gains the Daemon special rule and gains +1 to its Strength (S) characteristic.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "codex/renegades_and_heretics/special_rules/daemon",
+      "name": "Daemon",
+      "url": "https://longwarindex.app/special_rules/daemon_renegades_and_heretics/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/possessed_champion",
+   "name": "Possessed Champion",
+   "kind": "datasheet",
+   "page": 58,
+   "url": "https://longwarindex.app/special_rules/possessed_champion/",
+   "references": [
+    "codex/renegades_and_heretics/special_rules/daemon"
+   ],
+   "text": "If your unit has this upgrade, the Champion model gains +1 to its Strength (S) and Wounds (W) characteristic. In addition, the Champion model benefits from the Daemon special rule."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/putrid_explosion",
+   "name": "Putrid Explosion",
+   "kind": "datasheet",
+   "page": 65,
+   "url": "https://longwarindex.app/special_rules/putrid_explosion/",
+   "text": "When a Plague Ogryn model in this unit is slain and removed from play in any phase, all units within 6\" of this unit that do not have the Nurgle Keyword, take D6+2 Strength 5 automatic hits which are resolved at AP-. Wound rolls and Save rolls are made as normal against these hits."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/scrap_code_fragment",
+   "name": "Scrap Code Fragment",
+   "kind": "datasheet",
+   "page": 52,
+   "url": "https://longwarindex.app/special_rules/scrap_code_fragment/",
+   "references": [
+    "universal_special_rules/tank_hunters"
+   ],
+   "text": "A unit with this upgrade gains the Tank Hunter special rule. In addition, Vehicle, Knight, Aircraft and Titan type units which target a unit with this upgrade in the Shooting Phase always conduct their Attack as Snap Shots.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/tank_hunters",
+      "name": "Tank Hunters",
+      "url": "https://longwarindex.app/universal_special_rules/tank_hunters/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/scrap_code_roar",
+   "name": "Scrap Code Roar",
+   "kind": "datasheet",
+   "page": 27,
+   "url": "https://longwarindex.app/special_rules/scrap_code_roar/",
+   "text": "Vehicle, Walker and Automata units always resolve Shooting Attacks against this unit as Snap Shots if they are within 12\" of this unit."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/skewered",
+   "name": "Skewered",
+   "kind": "weapon",
+   "page": 75,
+   "url": "https://longwarindex.app/special_rules/skewered_renegades_and_heretics/",
+   "text": "After resolving a Shooting Attack with a weapon that has this special rule, the model equipped with this weapon may move D6\" towards the target (and may enter Engagement Range, ignoring the normal restrictions for ending a move within 3\" of a target). In addition, Monster, Walker, Automata, Knight and Titan units that suffer an unsaved wound from this unit may not make Retreat Moves in their next Movement Phase."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/sword_masters",
+   "name": "Sword Masters",
+   "kind": "datasheet",
+   "page": 69,
+   "url": "https://longwarindex.app/special_rules/sword_masters/",
+   "references": [
+    "special_rules/parry"
+   ],
+   "text": "A unit with this special rule gains the Parry special rule on all Melee weapons it is equipped with.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/parry",
+      "name": "Parry",
+      "url": "https://longwarindex.app/special_rules/parry/",
+      "weapon_types": [
+       "Melee"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/techno_heretic",
+   "name": "Techno-Heretic",
+   "kind": "datasheet",
+   "page": 58,
+   "url": "https://longwarindex.app/special_rules/techno_heretic/",
+   "references": [
+    "universal_special_rules/battle_smith"
+   ],
+   "text": "If your unit has this upgrade, the Champion model is considered to have the Battle Smith (1) special rule while the Champion is alive."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/transport_centaur_light_carrier",
+   "name": "Transport",
+   "datasheet": "Centaur Light Carrier",
+   "kind": "datasheet",
+   "page": 80,
+   "url": "https://longwarindex.app/special_rules/transport_centaur_light_carrier_renegades_and_heretics/",
+   "text": "This model can transport 6 Infantry models within it or 1 Earthshaker Carriage model.",
+   "effects": {
+    "transport_capacity": {
+     "type": "alternatives",
+     "options": [
+      {
+       "n": 6,
+       "unit_types": [
+        "Infantry"
+       ]
+      },
+      {
+       "n": 1,
+       "filters": [
+        {
+         "datasheet_names": [
+          "Earthshaker Carriage"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/transport_chimera_apc",
+   "name": "Transport",
+   "datasheet": "Chimera APC",
+   "kind": "datasheet",
+   "page": 77,
+   "url": "https://longwarindex.app/special_rules/transport_chimera_apc_renegades_and_heretics/",
+   "text": "This model can transport 12 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/transport_iron_crawler",
+   "name": "Transport",
+   "datasheet": "Iron Crawler",
+   "kind": "datasheet",
+   "page": 79,
+   "url": "https://longwarindex.app/special_rules/transport_iron_crawler_renegades_and_heretics/",
+   "text": "This unit can transport 12 Infantry type models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/transport_taurox_armoured_car",
+   "name": "Transport",
+   "datasheet": "Taurox Armoured Car",
+   "kind": "datasheet",
+   "page": 78,
+   "url": "https://longwarindex.app/special_rules/transport_taurox_armoured_car_renegades_and_heretics/",
+   "text": "This model can transport 10 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 10,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/unsanctioned",
+   "name": "Unsanctioned",
+   "kind": "datasheet",
+   "page": 68,
+   "url": "https://longwarindex.app/special_rules/unsanctioned/",
+   "text": "This unit always suffers a Perils of the Warp result on any result of a doubles when attempting to Cast Psychic Powers or Psychic Weapons."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/warp_infusion",
+   "name": "Warp Infusion",
+   "kind": "warlord_trait",
+   "page": 27,
+   "url": "https://longwarindex.app/special_rules/warp_infusion/",
+   "text": "If this unit is your Warlord, you may select 1 Daemon Engine within 6\" of Vashtorr at the beginning of the Shooting Phase or Combat Phase. In the Shooting Phase, all weapons the chosen unit are equipped with gain +1 to their Strength characteristic. In the Combat Phase, the Strength (S) characteristic of the chosen unit is increased by +1. These effects last until the end of the Phase."
+  },
+  {
+   "id": "codex/renegades_and_heretics/special_rules/witch",
+   "name": "Witch",
+   "kind": "datasheet",
+   "page": 58,
+   "url": "https://longwarindex.app/special_rules/witch/",
+   "references": [
+    "universal_special_rules/psyker"
+   ],
+   "text": "If your unit has this upgrade, the Champion model is considered to have the Psyker (1) special rule and the unit gains the Psyker keyword while the Champion is alive."
+  }
+ ]
+}

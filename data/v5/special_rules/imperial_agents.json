@@ -1,0 +1,1770 @@
+{
+ "data_version": "46db9ef2cfcdfcb0",
+ "format": 1,
+ "faction": "imperial_agents",
+ "special_rules": [
+  {
+   "id": "codex/imperial_agents/special_rules/ammo_compatible",
+   "name": "Ammo Compatible",
+   "kind": "weapon",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/ammo_compatible/",
+   "references": [
+    "codex/imperial_agents/special_rules/special_issue_ammunition"
+   ],
+   "text": "This weapon counts as Boltgun for the purposes of the Special Issue Ammunition special rule."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/ancient",
+   "name": "Ancient",
+   "kind": "datasheet",
+   "page": 77,
+   "url": "https://longwarindex.app/special_rules/ancient/",
+   "text": "A model upgrade gains a Chapter Banner.",
+   "effects": {
+    "items": [
+     {
+      "kind": "wargear",
+      "id": "chapter_banner"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/and_they_shall_know_no_fear",
+   "name": "And They Shall Know No Fear",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_imperial_agents/",
+   "text": "Space Marine units with this rule gain the following benefits:\n\n- Space Marine units automatically Rally at the start of your movement phase.\n- Space Marine units do not take any wounds when retreating from a model that performed a sweeping advance ending their sweeping advance within 3\" of the Space Marine model.\n- If a Space Marine would undertake a Fall Back Move after failing a Panic test which would cause it to move off the board, it stops 1\" away from the board edge and instead automatically rallies."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/apothecary",
+   "name": "Apothecary",
+   "kind": "datasheet",
+   "page": 77,
+   "url": "https://longwarindex.app/special_rules/apothecary/",
+   "text": "A model with this upgrade gains a Narthecium.",
+   "effects": {
+    "items": [
+     {
+      "kind": "wargear",
+      "id": "narthecium_medkit"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/arch_daemon_hunter",
+   "name": "Arch Daemon Hunter",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/arch_daemon_hunter/",
+   "references": [
+    "universal_special_rules/hatred",
+    "universal_special_rules/preferred_enemy"
+   ],
+   "text": "Kaldor Draigo has the Hatred (Daemons) and Preferred Enemy (Daemons) special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "param": "Daemons",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     },
+     {
+      "rule": "universal_special_rules/preferred_enemy",
+      "name": "Preferred Enemy",
+      "param": "Daemons",
+      "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/bio_meltdown",
+   "name": "Bio Meltdown",
+   "kind": "datasheet",
+   "page": 73,
+   "url": "https://longwarindex.app/special_rules/bio_meltdown/",
+   "text": "When this unit is slain and removed from play, before removing this unit from play, all units within 5\" take D3 Automatic wounds at AP5. Saves may taken as normal."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/champion",
+   "name": "Champion",
+   "kind": "datasheet",
+   "page": 77,
+   "url": "https://longwarindex.app/special_rules/champion/",
+   "references": [
+    "special_rules/precision_hits"
+   ],
+   "text": "A model with this upgrade gains +1 to its Weapon Skill (WS) and Attacks (A) characteristic. In addition, the model gains the Precision Hits special rule on all Melee type weapons it is equipped with.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/precision_hits",
+      "name": "Precision Hits",
+      "url": "https://longwarindex.app/special_rules/precision_hits/",
+      "weapon_types": [
+       "Melee"
+      ]
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "WS",
+      "delta": 1
+     },
+     {
+      "characteristic": "A",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/chaplain",
+   "name": "Chaplain",
+   "kind": "datasheet",
+   "page": 77,
+   "url": "https://longwarindex.app/special_rules/chaplain_imperial_agents/",
+   "references": [
+    "universal_special_rules/priest",
+    "universal_special_rules/zealot",
+    "universal_special_rules/stubborn",
+    "universal_special_rules/hatred"
+   ],
+   "text": "A model with this upgrade confers on the unit the Priest (1), Zealot, Stubborn and Hatred special rules so long as this model is alive.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/priest",
+      "name": "Priest",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/priest/"
+     },
+     {
+      "rule": "universal_special_rules/zealot",
+      "name": "Zealot",
+      "url": "https://longwarindex.app/universal_special_rules/zealot/"
+     },
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     },
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/compact",
+   "name": "Compact",
+   "kind": "datasheet",
+   "page": 90,
+   "url": "https://longwarindex.app/special_rules/compact_imperial_agents/",
+   "references": [
+    "universal_special_rules/bulky"
+   ],
+   "text": "This unit can be Transported by a Valkyrie Dropship. For the purposes of being transported and embarked, it has the Bulky (2) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/conversion",
+   "name": "Conversion",
+   "kind": "weapon",
+   "page": 46,
+   "url": "https://longwarindex.app/special_rules/conversion_imperial_agents/",
+   "text": "If the target of this weapon is not within half of the weapons range when making an attack, the weapon gains +2 to its Strength characteristic."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/daemon",
+   "name": "Daemon",
+   "kind": "datasheet",
+   "page": 71,
+   "url": "https://longwarindex.app/special_rules/daemon_imperial_agents/",
+   "references": [
+    "universal_special_rules/fear"
+   ],
+   "text": "A unit with this rule gains the Daemon Keyword. The Daemon unit has a 5+ Invulnerable save and the Fear (1) special rule. Daemon units have +1\" to their Movement (M) characteristic. (this is included in the above profile)",
+   "effects": {
+    "keywords": [
+     "Daemon"
+    ],
+    "invulnerable_save": "5+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "M",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/daemon_weapon",
+   "name": "Daemon Weapon",
+   "kind": "weapon",
+   "page": 37,
+   "url": "https://longwarindex.app/special_rules/daemon_weapon/",
+   "references": [
+    "special_rules/gets_hot"
+   ],
+   "text": "You may re-roll all to hit rolls with this weapon but the weapon is treated as having the Gets Hot Special rule."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/daemonic_host",
+   "name": "Daemonic Host",
+   "kind": "datasheet",
+   "page": 53,
+   "url": "https://longwarindex.app/special_rules/daemonic_host/",
+   "references": [
+    "universal_special_rules/deny_the_witch",
+    "universal_special_rules/psyker"
+   ],
+   "text": "While a Daemon Host model part of this unit is alive and, on the battlefield, this unit gains the Deny the Witch and Psyker (1) special rule and the Psyker keyword.",
+   "effects": {
+    "keywords": [
+     "Psyker"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/deny_the_witch",
+      "name": "Deny the Witch",
+      "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+     },
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/data_recording_machine",
+   "name": "Data Recording Machine",
+   "kind": "datasheet",
+   "page": 53,
+   "url": "https://longwarindex.app/special_rules/data_recording_machine/",
+   "references": [
+    "universal_special_rules/preferred_enemy"
+   ],
+   "text": "While an Auto Savant model part of this unit is alive and, on the battlefield, this unit gains the Preferred Enemy special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/preferred_enemy",
+      "name": "Preferred Enemy",
+      "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/deathwatch_chaplain",
+   "name": "Deathwatch Chaplain",
+   "kind": "datasheet",
+   "page": 66,
+   "url": "https://longwarindex.app/special_rules/deathwatch_chaplain/",
+   "references": [
+    "universal_special_rules/priest",
+    "universal_special_rules/stubborn",
+    "universal_special_rules/zealot"
+   ],
+   "text": "A model with this upgrade grants the unit the Priest (1), Stubborn, and Zealot Special rules while alive. In addition, the Chaplain exchanges their Close Combat Weapon for a Power Maul.\n\n- The Chaplain may become Priest (2) (+10pts)\n- The Chaplain may exchange their Power Armour, Bolt Pistol, Frag Grenades, Krak Grenades and Boltgun for Indomitus Terminator Armour and Storm Bolter (+10pts)",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/priest",
+      "name": "Priest",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/priest/"
+     },
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     },
+     {
+      "rule": "universal_special_rules/zealot",
+      "name": "Zealot",
+      "url": "https://longwarindex.app/universal_special_rules/zealot/"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "close_combat_weapons"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "power_maul"
+       }
+      ]
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "priest_2",
+     "label": "The Chaplain may become Priest (2) (+10pts)",
+     "printed": "The Chaplain may become Priest (2) (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "priest_2",
+       "name": "Priest (2)",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/priest",
+         "name": "Priest",
+         "param": "2",
+         "url": "https://longwarindex.app/universal_special_rules/priest/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "armour",
+     "label": "The Chaplain may exchange their Power Armour, Bolt Pistol, Frag Grenades, Krak Grenades and Boltgun for Indomitus Terminator Armour and Storm Bolter (+10pts)",
+     "printed": "The Chaplain may exchange their Power Armour, Bolt Pistol, Frag Grenades, Krak Grenades and Boltgun for Indomitus Terminator Armour and Storm Bolter (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "terminator_armour",
+       "name": "Exchange their Power Armour, Bolt Pistol, Frag Grenades, Krak Grenades and Boltgun for Indomitus Terminator Armour and Storm Bolter",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "power_armour"
+          },
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol"
+          },
+          {
+           "kind": "weapon",
+           "id": "frag_grenades"
+          },
+          {
+           "kind": "weapon",
+           "id": "krak_grenade"
+          },
+          {
+           "kind": "weapon",
+           "id": "boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "indomitus_terminator_armour"
+          },
+          {
+           "kind": "weapon",
+           "id": "storm_bolter"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/deathwatch_lexicanum",
+   "name": "Deathwatch Lexicanum",
+   "kind": "datasheet",
+   "page": 66,
+   "url": "https://longwarindex.app/special_rules/deathwatch_lexicanum/",
+   "references": [
+    "universal_special_rules/psyker",
+    "universal_special_rules/adamantium_will"
+   ],
+   "text": "A model with this upgrade grants the unit the Psyker (1) and Adamantium Will special rules while alive.\n\n- The Lexcicanum may exchange their Close Combat Weapon for a Force Sword, Force Axe or Force Stave (+10pts)\n- The Lexcicanum may become Psyker (2) (+10pts)\n- The Lexcicanum may exchange their Power Armour, Bolt Pistol, Frag Grenades, Krak Grenades and Boltgun for Indomitus Terminator Armour and Storm Bolter (+10pts)",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/"
+     },
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "force_weapon",
+     "label": "The Lexcicanum may exchange their Close Combat Weapon for a Force Sword, Force Axe or Force Stave (+10pts)",
+     "printed": "The Lexcicanum may exchange their Close Combat Weapon for a Force Sword, Force Axe or Force Stave (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "force_sword",
+       "name": "Force Sword",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapons"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_sword"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "force_axe",
+       "name": "Force Axe",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapons"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_axe"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "force_stave",
+       "name": "Force Stave",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapons"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_stave"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "psyker_2",
+     "label": "The Lexcicanum may become Psyker (2) (+10pts)",
+     "printed": "The Lexcicanum may become Psyker (2) (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "psyker_2",
+       "name": "Psyker (2)",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/psyker",
+         "name": "Psyker",
+         "param": "2",
+         "url": "https://longwarindex.app/universal_special_rules/psyker/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "armour",
+     "label": "The Lexcicanum may exchange their Power Armour, Bolt Pistol, Frag Grenades, Krak Grenades and Boltgun for Indomitus Terminator Armour and Storm Bolter (+10pts)",
+     "printed": "The Lexcicanum may exchange their Power Armour, Bolt Pistol, Frag Grenades, Krak Grenades and Boltgun for Indomitus Terminator Armour and Storm Bolter (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "terminator_armour",
+       "name": "Exchange their Power Armour, Bolt Pistol, Frag Grenades, Krak Grenades and Boltgun for Indomitus Terminator Armour and Storm Bolter",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "power_armour"
+          },
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol"
+          },
+          {
+           "kind": "weapon",
+           "id": "frag_grenades"
+          },
+          {
+           "kind": "weapon",
+           "id": "krak_grenade"
+          },
+          {
+           "kind": "weapon",
+           "id": "boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "indomitus_terminator_armour"
+          },
+          {
+           "kind": "weapon",
+           "id": "storm_bolter"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/deathwatch_tech_marine",
+   "name": "Deathwatch Tech-Marine",
+   "kind": "datasheet",
+   "page": 66,
+   "url": "https://longwarindex.app/special_rules/deathwatch_tech_marine/",
+   "references": [
+    "universal_special_rules/battle_smith",
+    "universal_special_rules/relentless",
+    "universal_special_rules/firing_protocols"
+   ],
+   "text": "A model with this upgrade grants the unit the Battle Smith (1) and Relentless special rules while its alive. The Tech-Marine gains an Omnissian Axe and Servo Arm.\n\n- The Tech-Marine may become Battle Smith (2) (+10pts)\n- The Tech-Marine may take an extra Servo Arm, Plasma Pistol, Flamer and Firing Protocols (3) special rule (+10pts)",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_smith",
+      "name": "Battle Smith",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+     },
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "battle_smith_2",
+     "label": "The Tech-Marine may become Battle Smith (2) (+10pts)",
+     "printed": "The Tech-Marine may become Battle Smith (2) (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "battle_smith_2",
+       "name": "Battle Smith (2)",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/battle_smith",
+         "name": "Battle Smith",
+         "param": "2",
+         "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "servo_harness",
+     "label": "The Tech-Marine may take an extra Servo Arm, Plasma Pistol, Flamer and Firing Protocols (3) special rule (+10pts)",
+     "printed": "The Tech-Marine may take an extra [[weapons/servo_arm_space_marines|Servo Arm]], Plasma Pistol, Flamer and Firing Protocols (3) special rule (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "servo_harness",
+       "name": "an extra Servo Arm, Plasma Pistol, Flamer and Firing Protocols (3) special rule",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "plasma_pistol"
+        },
+        {
+         "kind": "weapon",
+         "id": "flamer"
+        }
+       ],
+       "rules": [
+        {
+         "rule": "universal_special_rules/firing_protocols",
+         "name": "Firing Protocols",
+         "param": "3",
+         "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/devout_preacher",
+   "name": "Devout Preacher",
+   "kind": "datasheet",
+   "page": 53,
+   "url": "https://longwarindex.app/special_rules/devout_preacher/",
+   "references": [
+    "universal_special_rules/priest"
+   ],
+   "text": "While a Hexorcist model part of this unit is alive and, on the battlefield, this unit gains the Priest (1) special rule and Priest Keyword.",
+   "effects": {
+    "keywords": [
+     "Priest"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/priest",
+      "name": "Priest",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/priest/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/flagellant_protocols",
+   "name": "Flagellant Protocols",
+   "kind": "datasheet",
+   "page": 70,
+   "url": "https://longwarindex.app/special_rules/flagellant_protocols_imperial_agents/",
+   "references": [
+    "universal_special_rules/frenzy",
+    "universal_special_rules/rage",
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "Arco Flagellant models in this unit gain the benefit of the Frenzy, Rage and Feel No Pain (5+) special rules. However, Arco Flagellant models in this unit never benefit from the effects of Prayers.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/frenzy",
+      "name": "Frenzy",
+      "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+     },
+     {
+      "rule": "universal_special_rules/rage",
+      "name": "Rage",
+      "url": "https://longwarindex.app/universal_special_rules/rage/"
+     },
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/freeblade",
+   "name": "Freeblade",
+   "kind": "datasheet",
+   "page": 100,
+   "url": "https://longwarindex.app/special_rules/freeblade/",
+   "text": "This unit may be taken as the only option in an Allied Detachment for your army and is taken to have filled all requirements of the Allied Detachment Force Organization Chart. However, you cannot include any additional units in your Allied Detachment Force Organization Chart.",
+   "effects": {
+    "list_building": {
+     "sole_allied_unit": true
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/hunter_of_all_things_exotic",
+   "name": "Hunter of All Things Exotic",
+   "kind": "warlord_trait",
+   "page": 61,
+   "url": "https://longwarindex.app/special_rules/hunter_of_all_things_exotic/",
+   "text": "A model with this Warlord Trait can re-roll all hit rolls against Monster type units. In addition, this unit and any attached unit automatically pass Leadership Tests while within 12\" of an enemy Monster type unit."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/ion_deflector",
+   "name": "Ion Deflector",
+   "kind": "datasheet",
+   "page": 42,
+   "url": "https://longwarindex.app/special_rules/ion_deflector_imperial_agents/",
+   "text": "This unit confers a 5+ Invulnerable Save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/ion_shield",
+   "name": "Ion Shield",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/ion_shield_imperial_agents/",
+   "text": "A model with this special rule has a 4+ Invulnerable save against all Shooting Attacks resolved against its Front Armour Value (FA). In addition, you gain the Rotate Ion Shields Reaction (see below).\n\nRotate Ion Shields (Reaction): Instead of Setting to Overwatch, this unit may set to Rotate Ion Shields in its Shooting Phase. If you do so, the unit may still shoot in the Shooting Phase, but all attacks made by the unit are resolved as Snap Shots. At the end of your Opponent's Charge Phase, you may select one of your units Armour Facings (FA/SA/RA). The units 4+ Invulnerable save from the Ion Shields special rule now applies to Shooting Attacks resolved against the chosen Armour Facing."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/librarian",
+   "name": "Librarian",
+   "kind": "datasheet",
+   "page": 77,
+   "url": "https://longwarindex.app/special_rules/librarian_imperial_agents/",
+   "references": [
+    "universal_special_rules/psyker"
+   ],
+   "text": "A model with this upgrade confers on the unit the Psyker (1) special rule so long as this model is alive.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/life_drain",
+   "name": "Life Drain",
+   "kind": "datasheet",
+   "page": 75,
+   "url": "https://longwarindex.app/special_rules/life_drain/",
+   "text": "Each time this unit inflicts a wound in the Combat Phase, it Heals 1 lost wound. In addition, add 2 wounds to the number of wounds inflicted on enemy units in a Combat that involve this model for the purposes of determining who won combat that phase."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/lone_operative",
+   "name": "Lone Operative",
+   "kind": "datasheet",
+   "page": 72,
+   "url": "https://longwarindex.app/special_rules/lone_operative/",
+   "text": "This unit may be taken as the only option in an Allied Detachment for your army and is taken to have filled all requirements of the Allied Detachment Force Organization Chart. However, you cannot include any additional units in your Allied Detachment Force Organization Chart.",
+   "effects": {
+    "list_building": {
+     "sole_allied_unit": true
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/lore_master",
+   "name": "Lore Master",
+   "kind": "warlord_trait",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/lore_master/",
+   "text": "If this unit is your Warlord, they do not suffer any penalties to their Leadership when attempting to cast Psychic Powers or making a Psychic test."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/lost_in_the_warp",
+   "name": "Lost in the Warp",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/lost_in_the_warp/",
+   "references": [
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "This unit may never be your Warlord. In addition, this unit must begin the game in reserves, using the Deep Strike special rule. At the end of the fourth Battle Round, Kaldor Draigo is automatically removed from play, sucked back into the warp.",
+   "effects": {
+    "list_building": {
+     "warlord_forbidden": true
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/machine_spirit",
+   "name": "Machine Spirit",
+   "kind": "datasheet",
+   "page": 86,
+   "url": "https://longwarindex.app/special_rules/machine_spirit_imperial_agents/",
+   "text": "This unit may always set to Overwatch, even if it made a shooting attack in the Shooting phase."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/machine_spirit_land_raider",
+   "name": "Machine Spirit",
+   "datasheet": "Land Raider",
+   "kind": "datasheet",
+   "page": 94,
+   "url": "https://longwarindex.app/special_rules/machine_spirit_land_raider_imperial_agents/",
+   "text": "This unit may always set to Overwatch, even if it made a shooting attack in the Shooting phase. However, it may only perform the attack with one weapon it is equipped with if it did so."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/master_of_command",
+   "name": "Master of Command",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/master_of_command_imperial_agents/",
+   "text": "You may only field 1 model in your army with this special rule. If your army includes a model with this special rule, they must be your Warlord.",
+   "effects": {
+    "list_building": {
+     "max_units_per_army": 1,
+     "mandates_warlord": true
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/mindless_inquisitorial_acolytes",
+   "name": "Mindless",
+   "datasheet": "Inquisitorial Acolytes",
+   "kind": "datasheet",
+   "page": 53,
+   "url": "https://longwarindex.app/special_rules/mindless_inquisitorial_acolytes/",
+   "text": "If the only models remaining in this unit at the end of a Phase are an Auto Savant or Servitor model, the remaining models in the unit are removed from play and considered and slain."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/mixed_unit",
+   "name": "Mixed Unit",
+   "kind": "datasheet",
+   "page": 66,
+   "url": "https://longwarindex.app/special_rules/mixed_unit/",
+   "references": [
+    "universal_special_rules/bulky",
+    "universal_special_rules/deep_strike",
+    "universal_special_rules/outflank",
+    "universal_special_rules/relentless",
+    "universal_special_rules/infiltrate"
+   ],
+   "text": "This unit is always treated as an Infantry type unit unless the majority of models in the unit are equipped with Bikes. Models equipped with Bikes count as having the Bulky (3) special rule. This unit only gains the benefits of the Deep Strike, Outflank, Relentless and Infiltrate special rules of the majority of the models are equipped with Wargear that confers it.",
+   "effects": {
+    "unit_type_by_majority": {
+     "default": "Infantry",
+     "majority_item": {
+      "kind": "wargear",
+      "id": "bike",
+      "faction": "space_marines"
+     },
+     "unit_type": "Bike"
+    },
+    "model_rules": [
+     {
+      "holds": [
+       {
+        "kind": "wargear",
+        "id": "bike",
+        "faction": "space_marines"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/bulky",
+        "name": "Bulky",
+        "param": "3",
+        "url": "https://longwarindex.app/universal_special_rules/bulky/"
+       }
+      ]
+     }
+    ],
+    "rules_by_majority": [
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     },
+     {
+      "rule": "universal_special_rules/outflank",
+      "name": "Outflank",
+      "url": "https://longwarindex.app/universal_special_rules/outflank/"
+     },
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/infiltrate",
+      "name": "Infiltrate",
+      "url": "https://longwarindex.app/universal_special_rules/infiltrate/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/mystical_gifts",
+   "name": "Mystical Gifts",
+   "kind": "datasheet",
+   "page": 53,
+   "url": "https://longwarindex.app/special_rules/mystical_gifts/",
+   "references": [
+    "universal_special_rules/psyker"
+   ],
+   "text": "While a Mystic model part of this unit is alive and, on the battlefield, this unit gains the Psyker (1) special rule and the Psyker keyword.",
+   "effects": {
+    "keywords": [
+     "Psyker"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/neural_shred",
+   "name": "Neural Shred",
+   "kind": "weapon",
+   "page": 74,
+   "url": "https://longwarindex.app/special_rules/neural_shred/",
+   "text": "The Strength of this weapon is equal to the targets Leadership (LD) characteristic."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/nullification",
+   "name": "Nullification",
+   "kind": "weapon",
+   "page": 75,
+   "url": "https://longwarindex.app/special_rules/nullification/",
+   "parameter": {
+    "kind": "threshold",
+    "description": "the unmodified wound roll that always wounds a Psyker unit"
+   },
+   "text": "A weapon with this special rule always Wounds on a roll of a 2+ against a Psyker unit.",
+   "print_defect": "The heading prints \"Nullification (X)\" but the text gives a fixed wound roll of 2+, not a per-weapon value."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/paladins",
+   "name": "Paladins",
+   "kind": "datasheet",
+   "page": 77,
+   "url": "https://longwarindex.app/special_rules/paladins/",
+   "references": [
+    "universal_special_rules/adamantium_will"
+   ],
+   "text": "If the unit is upgraded to Paladins, it gains +1 to its Weapon Skill (WS) characteristic. In addition, the unit gains the Adamantium Will special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "WS",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/personal_teleporter",
+   "name": "Personal Teleporter",
+   "kind": "datasheet",
+   "page": 69,
+   "url": "https://longwarindex.app/special_rules/personal_teleporter/",
+   "references": [
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "A unit with this special rule gains the Deep Strike special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/polymorphine",
+   "name": "Polymorphine",
+   "kind": "datasheet",
+   "page": 74,
+   "url": "https://longwarindex.app/special_rules/polymorphine/",
+   "text": "This unit may Set to Morph instead of setting to Overwatch. This unit may begin the game set to Morph, even if placed in reserves. A unit Set to Morph gains a Morph token. A model with a Morph Token may not be targeted for attacks in the shooting phase. When a model with a Morph Token charges, enemy units cannot perform Overwatch or Reactions against this unit. Attacks against a model with a Morph Token in the Combat Phase are resolved at Weapon Skill (WS) 1. A model loses its Morph Token at the end of the Combat Phase after making any attacks."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/psychic_abomination",
+   "name": "Psychic Abomination",
+   "kind": "datasheet",
+   "page": 75,
+   "url": "https://longwarindex.app/special_rules/psychic_abomination/",
+   "text": "This unit cannot be targeted by Psychic Powers or Psychic Weapons of any kind. In addition, enemy units within 3\" of this model halve their Leadership (LD) characteristic."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/psyk_out",
+   "name": "Psyk-Out",
+   "kind": "weapon",
+   "page": 75,
+   "url": "https://longwarindex.app/special_rules/psyk_out_imperial_agents/",
+   "text": "Any time a Psyker unit suffers a hit from a weapon with this special rule, they automatically suffers a Perils of the Warp after the hit is resolved."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/purifiers",
+   "name": "Purifiers",
+   "kind": "datasheet",
+   "page": 69,
+   "url": "https://longwarindex.app/special_rules/purifiers/",
+   "text": "A unit with this upgrade gains +1 to their Weapon Skill (WS) characteristic. In addition, the unit gains the Purifying Flame Psychic Power below.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "WS",
+      "delta": 1
+     }
+    ],
+    "items": [
+     {
+      "kind": "weapon",
+      "id": "purifying_flame"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/puritanical_judge",
+   "name": "Puritanical Judge",
+   "kind": "warlord_trait",
+   "page": 58,
+   "url": "https://longwarindex.app/special_rules/puritanical_judge/",
+   "references": [
+    "universal_special_rules/adamantium_will",
+    "universal_special_rules/zealot"
+   ],
+   "text": "If this unit is your Warlord, all units in your army gain the Adamantium Will and Zealot special rules.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [],
+       "rule": {
+        "rule": "universal_special_rules/adamantium_will",
+        "name": "Adamantium Will",
+        "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+       },
+       "quote": "If this unit is your Warlord, all units in your army gain the Adamantium Will and Zealot special rules."
+      },
+      {
+       "filters": [],
+       "rule": {
+        "rule": "universal_special_rules/zealot",
+        "name": "Zealot",
+        "url": "https://longwarindex.app/universal_special_rules/zealot/"
+       },
+       "quote": "If this unit is your Warlord, all units in your army gain the Adamantium Will and Zealot special rules."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/puritanical_purging",
+   "name": "Puritanical Purging",
+   "kind": "warlord_trait",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/puritanical_purging/",
+   "references": [
+    "universal_special_rules/hatred"
+   ],
+   "text": "If this unit is your Warlord, all Deathwatch units gain Hatred (Tyranid, Eldar, T'au, Necron, Votann, Orks)",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Deathwatch"
+         ]
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/hatred",
+        "name": "Hatred",
+        "param": "Tyranid, Eldar, T'au, Necron, Votann, Orks",
+        "url": "https://longwarindex.app/universal_special_rules/hatred/"
+       },
+       "quote": "If this unit is your Warlord, all Deathwatch units gain Hatred (Tyranid, Eldar, T'au, Necron, Votann, Orks)"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/reign_of_confusion",
+   "name": "Reign of Confusion",
+   "kind": "datasheet",
+   "page": 74,
+   "url": "https://longwarindex.app/special_rules/reign_of_confusion/",
+   "references": [
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "A model with this special rule has the Deep Strike special rule and does not scatter when arriving from Deep Strike. If your army includes this model, your opponent has -1 to their reserve rolls.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/reliable_machine_spirit",
+   "name": "Reliable Machine Spirit",
+   "kind": "datasheet",
+   "page": 82,
+   "url": "https://longwarindex.app/special_rules/reliable_machine_spirit_imperial_agents/",
+   "text": "When a unit with this special rule would be destroyed. Embarked units are not required to roll for models inside being slain (see Rule 10.2 in the core rules)."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/self_driving_targeting",
+   "name": "Self-Driving Targeting",
+   "kind": "datasheet",
+   "page": 90,
+   "url": "https://longwarindex.app/special_rules/self_driving_targeting_imperial_agents/",
+   "text": "After deployment, each model in this unit is treated as its own separate unit. A unit with this special rule may never contest or hold an objective. This unit does not count for scoring objectives when it is slain and removed from play."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/shield_of_faith",
+   "name": "Shield of Faith",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/shield_of_faith_imperial_agents/",
+   "references": [
+    "universal_special_rules/adamantium_will"
+   ],
+   "text": "All Adeptus Sororitas units have a 6+ invulnerable save and the Adamantium Will special rule.",
+   "effects": {
+    "invulnerable_save": "6+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/shocktrooper_forces",
+   "name": "Shocktrooper Forces",
+   "kind": "warlord_trait",
+   "page": 57,
+   "url": "https://longwarindex.app/special_rules/shocktrooper_forces/",
+   "text": "If this unit is your Warlord, you may include 1 Tempestus Scion Squad unit in your army without taking up a Force Organization Slot.",
+   "effects": {
+    "list_building": {
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_agents/roster/tempestus_scion_squad"
+       }
+      ],
+      "count": 1
+     },
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/imperial_agents/roster/inquisitor_greyfax"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/special_issue_ammunition",
+   "name": "Special Issue Ammunition",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/special_issue_ammunition/",
+   "references": [
+    "special_rules/rending",
+    "special_rules/ignores_cover",
+    "special_rules/poison"
+   ],
+   "text": "A unit with this special rule when firing with an equipped Boltgun, Storm Bolter or Heavy Boltgun, Hurricane Bolter may apply one of the following special ammunition types. All models in the unit must use that same Ammo type during a Shooting Phase.\n\n- Kraken Rounds: The weapons gain the Rending (6+) special rule.\n- Dragonfire Rounds: The weapons gain the Ignores Cover special rule.\n- Hellfire Rounds: The weapons gain the Poison (4+) special rule this phase."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/spectral_armour",
+   "name": "Spectral Armour",
+   "kind": "datasheet",
+   "page": 71,
+   "url": "https://longwarindex.app/special_rules/spectral_armour/",
+   "text": "A unit with this special rule has a 3+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "3+"
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/spy_network",
+   "name": "Spy Network",
+   "kind": "warlord_trait",
+   "page": 59,
+   "url": "https://longwarindex.app/special_rules/spy_network/",
+   "text": "If this unit is in your army, enemy units with the Infiltration special rule cannot be placed in your Deployment Zone."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/stasis",
+   "name": "Stasis",
+   "kind": "weapon",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/stasis_imperial_agents/",
+   "text": "When a model is hit by a weapon with the Stasis special rule, its Weapon Skill (WS) and Initiative (I) characteristics are reduced by 1 until the start of your next shooting phase."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/student_of_orkicide",
+   "name": "Student of Orkicide",
+   "kind": "datasheet",
+   "page": 61,
+   "url": "https://longwarindex.app/special_rules/student_of_orkicide/",
+   "text": "If this unit is included in your army, you may select 1 friendly Imperial unit within 12\" of this unit. It gains the Precision Strikes special rules so long as they are targeting an Ork unit."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/suicide_unit",
+   "name": "Suicide Unit",
+   "kind": "datasheet",
+   "page": 90,
+   "url": "https://longwarindex.app/special_rules/suicide_unit_imperial_agents/",
+   "text": "All attacks from this unit in the Combat Phase, automatically hit. After a model with this special rule has made all of its attacks in the Combat Phase, it is removed from play. When this unit would be slain and removed in play in the Shooting Phase or Charge Phase, all units within 6\" of this model are hit with 6 automatic hits resolved using the Cyclops Demolitions weapon."
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/tech_marine",
+   "name": "Tech-Marine",
+   "kind": "datasheet",
+   "page": 77,
+   "url": "https://longwarindex.app/special_rules/tech_marine_imperial_agents/",
+   "references": [
+    "universal_special_rules/battle_smith"
+   ],
+   "text": "A model with this upgrade confers on the unit the Battle Smith (1) special rule so long as this model is alive.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_smith",
+      "name": "Battle Smith",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/the_aegis",
+   "name": "The Aegis",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/the_aegis/",
+   "references": [
+    "universal_special_rules/deny_the_witch",
+    "universal_special_rules/indomitable_spirit"
+   ],
+   "text": "A unit with this special rule gains the Deny the Witch and Indomitable Spirit (4+) special rules. In addition, the unit's range for Deny the Witch is 24\" instead of 18\".",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/deny_the_witch",
+      "name": "Deny the Witch",
+      "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+     },
+     {
+      "rule": "universal_special_rules/indomitable_spirit",
+      "name": "Indomitable Spirit",
+      "param": "4+",
+      "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/the_ward_save",
+   "name": "The Ward Save",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/the_ward_save/",
+   "references": [
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "Kaldor Draigo has the Feel No Pain (4+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "4+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/tracked_automata",
+   "name": "Tracked Automata",
+   "kind": "datasheet",
+   "page": 90,
+   "url": "https://longwarindex.app/special_rules/tracked_automata_imperial_agents/",
+   "text": "This model increases its Movement (M) Characteristic to 12\". In addition, this unit automatically passes all Pinning and Panic tests.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/transport_arvus_lighter",
+   "name": "Transport",
+   "datasheet": "Arvus Lighter",
+   "kind": "datasheet",
+   "page": 84,
+   "url": "https://longwarindex.app/special_rules/transport_arvus_lighter/",
+   "references": [
+    "universal_special_rules/bulky"
+   ],
+   "text": "This model can transport 12 Infantry models within it. It may not transport models with the Bulky (x) special rule.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ],
+     "filters": [
+      {
+       "not": true,
+       "any_rules": [
+        "universal_special_rules/bulky"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/transport_chimera_apc",
+   "name": "Transport",
+   "datasheet": "Chimera APC",
+   "kind": "datasheet",
+   "page": 80,
+   "url": "https://longwarindex.app/special_rules/transport_chimera_apc_imperial_agents/",
+   "text": "This model can transport 12 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/transport_corvus_blackstar",
+   "name": "Transport",
+   "datasheet": "Corvus Blackstar",
+   "kind": "datasheet",
+   "page": 87,
+   "url": "https://longwarindex.app/special_rules/transport_corvus_blackstar/",
+   "text": "This model can transport 12 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/transport_land_raider",
+   "name": "Transport",
+   "datasheet": "Land Raider",
+   "kind": "datasheet",
+   "page": 94,
+   "url": "https://longwarindex.app/special_rules/transport_land_raider_imperial_agents/",
+   "text": "This model can transport 10 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 10,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/transport_land_raider_crusader",
+   "name": "Transport",
+   "datasheet": "Land Raider Crusader",
+   "kind": "datasheet",
+   "page": 96,
+   "url": "https://longwarindex.app/special_rules/transport_land_raider_crusader_imperial_agents/",
+   "text": "This model can transport 16 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 16,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/transport_land_raider_redeemer",
+   "name": "Transport",
+   "datasheet": "Land Raider Redeemer",
+   "kind": "datasheet",
+   "page": 95,
+   "url": "https://longwarindex.app/special_rules/transport_land_raider_redeemer_imperial_agents/",
+   "text": "This model can transport 12 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/transport_razorback_ifv",
+   "name": "Transport",
+   "datasheet": "Razorback IFV",
+   "kind": "datasheet",
+   "page": 83,
+   "url": "https://longwarindex.app/special_rules/transport_razorback_ifv_imperial_agents/",
+   "references": [
+    "universal_special_rules/bulky"
+   ],
+   "text": "This unit can transport 6 Infantry models. It may not transport models with the Bulky (x) special rule.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ],
+     "filters": [
+      {
+       "not": true,
+       "any_rules": [
+        "universal_special_rules/bulky"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/transport_repressor_ifv",
+   "name": "Transport",
+   "datasheet": "Repressor IFV",
+   "kind": "datasheet",
+   "page": 92,
+   "url": "https://longwarindex.app/special_rules/transport_repressor_ifv/",
+   "references": [
+    "universal_special_rules/bulky"
+   ],
+   "text": "This unit can transport 6 Infantry models. It may not transport models with the Bulky (x) special rule.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ],
+     "filters": [
+      {
+       "not": true,
+       "any_rules": [
+        "universal_special_rules/bulky"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/transport_rhino_apc",
+   "name": "Transport",
+   "datasheet": "Rhino APC",
+   "kind": "datasheet",
+   "page": 82,
+   "url": "https://longwarindex.app/special_rules/transport_rhino_apc_imperial_agents/",
+   "references": [
+    "universal_special_rules/bulky"
+   ],
+   "text": "This unit can transport 11 Infantry models. It may not transport models with the Bulky (x) special rule.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 11,
+     "unit_types": [
+      "Infantry"
+     ],
+     "filters": [
+      {
+       "not": true,
+       "any_rules": [
+        "universal_special_rules/bulky"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/transport_stormraven_gunship",
+   "name": "Transport",
+   "datasheet": "Stormraven Gunship",
+   "kind": "datasheet",
+   "page": 86,
+   "url": "https://longwarindex.app/special_rules/transport_stormraven_gunship_imperial_agents/",
+   "text": "This model can transport 10 Infantry models. It may also Transport 1 Dreadnought model.",
+   "effects": {
+    "transport_capacity": {
+     "type": "per_unit_type",
+     "limits": [
+      {
+       "n": 10,
+       "unit_types": [
+        "Infantry"
+       ]
+      },
+      {
+       "n": 1,
+       "filters": [
+        {
+         "keywords": [
+          "Dreadnought"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/transport_taurox",
+   "name": "Transport",
+   "datasheet": "Taurox",
+   "kind": "datasheet",
+   "page": 81,
+   "url": "https://longwarindex.app/special_rules/transport_taurox/",
+   "text": "This model can transport 10 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 10,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/transport_taurox_prime_armoured_car",
+   "name": "Transport",
+   "datasheet": "Taurox Prime Armoured Car",
+   "kind": "datasheet",
+   "page": 88,
+   "url": "https://longwarindex.app/special_rules/transport_taurox_prime_armoured_car_imperial_agents/",
+   "text": "This model can transport 6 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/transport_valkyrie_dropship",
+   "name": "Transport",
+   "datasheet": "Valkyrie Dropship",
+   "kind": "datasheet",
+   "page": 85,
+   "url": "https://longwarindex.app/special_rules/transport_valkyrie_dropship_imperial_agents/",
+   "text": "This model can transport 12 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/unyielding_anvil",
+   "name": "Unyielding Anvil",
+   "kind": "warlord_trait",
+   "page": 38,
+   "url": "https://longwarindex.app/special_rules/unyielding_anvil/",
+   "references": [
+    "universal_special_rules/stubborn"
+   ],
+   "text": "If this unit is your warlord, all Grey Knight units in your army gain the Stubborn special rule.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Grey Knight"
+         ]
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/stubborn",
+        "name": "Stubborn",
+        "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+       },
+       "quote": "If this unit is your warlord, all Grey Knight units in your army gain the Stubborn special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_agents/special_rules/warding_aura",
+   "name": "Warding Aura",
+   "kind": "weapon",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/warding_aura/",
+   "text": "A model equipped with a weapon that has this special rule and its attached unit improve their Invulnerable save by 1 to a max of 3+ (i.e 5+ becomes 4+, no invul becomes 6+) if the equipped models unit Remained Stationary in their previous Movement Phase."
+  },
+  {
+   "id": "codex/imperial_agents/allegiances/ordo_hereticus",
+   "name": "Allegiance: Ordo Hereticus",
+   "kind": "allegiance",
+   "page": 47,
+   "url": "https://longwarindex.app/allegiances/ordo_hereticus/",
+   "references": [
+    "universal_special_rules/zealot"
+   ],
+   "text": "All Imperial Agent units in your army replace the [Ordo] keyword with the Ordo Hereticus keyword. Units with the Ordo Hereticus keyword in your army gain the following special rules:\n\n- The Enemy Within: All Ordo Hereticus units in your army gain the Zealot special rule.\n- Faith weeds doubt: Your army must include at least 1 unit with the Cult Ministorum Keyword."
+  },
+  {
+   "id": "codex/imperial_agents/allegiances/ordo_malleus",
+   "name": "Allegiance: Ordo Malleus",
+   "kind": "allegiance",
+   "page": 47,
+   "url": "https://longwarindex.app/allegiances/ordo_malleus/",
+   "references": [
+    "universal_special_rules/preferred_enemy"
+   ],
+   "text": "All Imperial Agents units in your army replace the [Ordo] keyword with the Ordo Malleus keyword. Units with the Ordo Malleus keyword in your army gain the following special rules:\n\n- The Enemy Beyond: All Ordo Malleus units gain the Preferred Enemy (Chaos) special rule.\n- Knowledge is the seed of corruption: If your army is Ordo Malleus you may not take any Allied Detachments or allied units in your army."
+  },
+  {
+   "id": "codex/imperial_agents/allegiances/ordo_of_xenos",
+   "name": "Allegiance: Ordo of Xenos",
+   "kind": "allegiance",
+   "page": 47,
+   "url": "https://longwarindex.app/allegiances/ordo_of_xenos/",
+   "references": [
+    "universal_special_rules/preferred_enemy"
+   ],
+   "text": "All Imperial Agent units in your army replace the [Ordo] keyword with the Ordo Xenos keyword. Units with the Ordo Xenos keyword in your army gain the following special rules:\n\n- The Enemy Without: All Ordo Xenos units in your army gain the Preferred Enemy (Tyranid, Eldar, T'au, Necron, Votann, Orks) special rule.\n- Vigilance Eternal: Your army must include at least 1 Infantry unit with the Deathwatch Keyword."
+  }
+ ]
+}

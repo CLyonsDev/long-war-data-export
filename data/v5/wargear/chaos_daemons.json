@@ -1,0 +1,455 @@
+{
+ "data_version": "c04d85a3005e24e2",
+ "format": 1,
+ "faction": "chaos_daemons",
+ "wargear": [
+  {
+   "id": "instruments_of_chaos",
+   "name": "Instruments of Chaos",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/instruments_of_chaos/",
+   "text": "A unit that includes a model equipped with this wargear gains the Sprint (1) special rule.",
+   "effects": {
+    "unit_rules": [
+     {
+      "rule": "universal_special_rules/sprint",
+      "name": "Sprint",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/sprint/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "daemonic_banner",
+   "name": "Daemonic Banner",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/daemonic_banner/",
+   "text": "A unit which includes a model equipped with this wargear counts as scoring 1 additional wound for the purposes of combat resolution. In addition, once per game, a unit that includes a model with this wargear may invoke it to return D3 slain models back to the unit in coherency. Further, friendly units which arrive from Deep Strike within 12\" of a model equipped with this wargear do not scatter."
+  },
+  {
+   "id": "brass_armour",
+   "name": "Brass Armour",
+   "section": "Armour",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/brass_armour/",
+   "text": "Sturdy Brass Armour which comes in many forms. It confers a 4+ Armour Save and the Adamantium Will special rule.",
+   "effects": {
+    "armour_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "warp_armour",
+   "name": "Warp Armour",
+   "section": "Armour",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/warp_armour_chaos_daemons/",
+   "text": "Armour forged within the immaterial realm. It confers a 3+ Armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "warp_scaled_hide",
+   "name": "Warp Scaled Hide",
+   "section": "Armour",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/warp_scaled_hide/",
+   "text": "Shifting warp powered scales. It a 4+ Armour save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "wings",
+   "name": "Wings",
+   "section": "Mobility",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/wings_chaos_daemons/",
+   "text": "A model with this wargear increases their Movement (M) characteristic to 12\". It gains the Hammer of Wrath (1), Fly and Deep strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "daemonic_steed",
+   "name": "Daemonic Steed",
+   "section": "Mobility",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/daemonic_steed_chaos_daemons/",
+   "text": "A unit that is equipped with a Daemonic Steed becomes a Cavalry type unit. In addition, it gains +1 Strength (S), Toughness (T) and Wounds (W) Characteristics.",
+   "effects": {
+    "unit_type": "Cavalry",
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": 1
+     },
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "daemonic_chariot",
+   "name": "Daemonic Chariot",
+   "section": "Mobility",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/daemonic_chariot/",
+   "text": "A unit with the Daemonic Chariot becomes a Cavalry type unit. In addition, it gains +2 to its Toughness (T), Attacks (A) and Wounds (W) characteristics.",
+   "effects": {
+    "unit_type": "Cavalry",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 2
+     },
+     {
+      "characteristic": "A",
+      "delta": 2
+     },
+     {
+      "characteristic": "W",
+      "delta": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_mark_of_chaos_undivided",
+   "name": "The Mark of Chaos Undivided",
+   "section": "Chaos Marks",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_mark_of_chaos_undivided_chaos_daemons/",
+   "text": "- A unit with this Mark gains the Undivided Keyword and may only be joined by units with the Undivided, Khorne, Tzeentch, Nurgle or Slaanesh keywords.\n- A unit with this Mark gains the Fear (1) special rule. If the unit already has the Fear (x) special rule, increase the value of X by 1.\n- In addition, if the unit would fail a Panic test, instead of Falling Back, the unit takes D3 wounds with no saves or mitigation rolls allowed.\n- A unit with this wargear gains access to the Lore of Slaanesh, Nurgle and Tzeentch Psychic Powers if they have the Psyker (x) special rule.\n\nDesigner note: The effects of the Marks of Chaos are included in the below unit profiles and data sheets.",
+   "effects": {
+    "keywords": [
+     "Undivided"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ],
+    "counts_as": [
+     {
+      "kind": "wargear",
+      "id": "the_mark_of_chaos_undivided",
+      "faction": "chaos_space_marines"
+     }
+    ],
+    "only_when_purchased": true
+   }
+  },
+  {
+   "id": "the_mark_of_khorne",
+   "name": "The Mark of Khorne",
+   "section": "Chaos Marks",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_mark_of_khorne_chaos_daemons/",
+   "text": "- A unit with this Mark gains the Khorne Keyword and may only join or be joined by units with the Khorne or Undivided Keywords.\n- A unit with this mark gains the Furious Charge special rule. If the unit already has the Furious Charge special rule it gains +1 to its Attack (A) characteristic.\n- A unit with the Psyker (x) special rule may not purchase this wargear.\n\nDesigner note: The effects of the Marks of Chaos are included in the below unit profiles and data sheets.",
+   "effects": {
+    "keywords": [
+     "Khorne"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/furious_charge",
+      "name": "Furious Charge",
+      "url": "https://longwarindex.app/universal_special_rules/furious_charge/",
+      "if_already_held": {
+       "characteristic": "A",
+       "delta": 1
+      }
+     }
+    ],
+    "counts_as": [
+     {
+      "kind": "wargear",
+      "id": "the_mark_of_khorne",
+      "faction": "chaos_space_marines"
+     }
+    ],
+    "only_when_purchased": true,
+    "purchase_restriction": {
+     "exclude": {
+      "any_rules": [
+       "universal_special_rules/psyker"
+      ]
+     },
+     "quote": "A unit with the Psyker (x) special rule may not purchase this wargear."
+    }
+   }
+  },
+  {
+   "id": "the_mark_of_tzeentch",
+   "name": "The Mark of Tzeentch",
+   "section": "Chaos Marks",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_mark_of_tzeentch_chaos_daemons/",
+   "text": "- A unit with this Mark gains the Tzeentch Keyword and may only join or be joined by units with the Tzeentch or Undivided Keywords.\n- A unit with this mark gains +1 to their Invulnerable saves (to a max of 3+). If they do not have an Invulnerable save, they gain a 6+ Invulnerable save.\n- In addition, A unit with this wargear and the Psyker (x) special rule may re-roll 1 dice when making a Psychic Test.\n- A unit with this wargear gains access to the Tzeentch Psychic Powers if they have the Psyker (x) special rule.\n\nDesigner note: The effects of the Marks of Chaos are included in the below unit profiles and data sheets.",
+   "effects": {
+    "invulnerable_save_improve": {
+     "by": 1,
+     "max": "3+",
+     "otherwise": "6+"
+    },
+    "keywords": [
+     "Tzeentch"
+    ],
+    "counts_as": [
+     {
+      "kind": "wargear",
+      "id": "the_mark_of_tzeentch",
+      "faction": "chaos_space_marines"
+     }
+    ],
+    "only_when_purchased": true
+   }
+  },
+  {
+   "id": "the_mark_of_nurgle",
+   "name": "The Mark of Nurgle",
+   "section": "Chaos Marks",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_mark_of_nurgle_chaos_daemons/",
+   "text": "- A unit with this Mark gains the Nurgle Keyword and may only join or be joined by units with the Nurgle or Undivided Keywords.\n- A unit with this mark gains the Feel no Pain (5+) special rule. If the unit does not have a Wounds (W) characteristic, it instead always gains the Benefits of Heavy Cover.\n- A unit with this wargear gains access to the Lore of Nurgle Psychic Powers if they have the Psyker (x) special rule.\n\nDesigner note: The effects of the Marks of Chaos are included in the below unit profiles and data sheets.",
+   "effects": {
+    "keywords": [
+     "Nurgle"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/",
+      "requires_characteristic": "W"
+     }
+    ],
+    "counts_as": [
+     {
+      "kind": "wargear",
+      "id": "the_mark_of_nurgle",
+      "faction": "chaos_space_marines"
+     }
+    ],
+    "only_when_purchased": true
+   }
+  },
+  {
+   "id": "the_mark_of_slaanesh",
+   "name": "The Mark of Slaanesh",
+   "section": "Chaos Marks",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_mark_of_slaanesh_chaos_daemons/",
+   "text": "- A unit with this Mark gains the Slaanesh Keyword and may only join or be joined by units with the Slaanesh or Undivided Keywords.\n- A unit with this mark gains +1 to their Initiative (I) characteristic.\n- A unit with this Mark gains the Sudden Strike special rule.\n- A unit with this wargear gains access to the Lore of Slaanesh Psychic Powers if they have the Psyker (x) special rule.\n\nDesigner note: The effects of the Marks of Chaos are included in the below unit profiles and data sheets.",
+   "effects": {
+    "keywords": [
+     "Slaanesh"
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "I",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/sudden_strike",
+      "name": "Sudden Strike",
+      "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+     }
+    ],
+    "counts_as": [
+     {
+      "kind": "wargear",
+      "id": "the_mark_of_slaanesh",
+      "faction": "chaos_space_marines"
+     }
+    ],
+    "only_when_purchased": true
+   }
+  },
+  {
+   "id": "rift_bringer",
+   "name": "Rift Bringer",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/rift_bringer/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. If your army includes a model with this wargear, during deployment, you may place down 1 Rift Marker (See Incursion Rite of War) anywhere on the battlefield."
+  },
+  {
+   "id": "warp_reserve",
+   "name": "Warp Reserve",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/warp_reserve/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. The first time a model with this wargear is slain and removed from play. Place it in reserves instead with D3 Wounds remaining. It may arrive at the start of your next turn via the Deep Strike special rule."
+  },
+  {
+   "id": "the_armour_of_scorn",
+   "name": "The Armour of Scorn",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_armour_of_scorn/",
+   "text": "One unit in your army with the Character special rule and Khorne Keyword that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this Relic gains a 3+ Armour Save. In addition, enemy units with a lower Leadership (LD) characteristic than the relic bearer suffer -1 to Wound Rolls against the Bearer.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "grotti_the_nurgling",
+   "name": "Grotti the Nurgling",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/grotti_the_nurgling/",
+   "text": "One unit in your army with the Character special rule and Nurgle Keyword that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Enemy units within 3\" of a model with this relic suffer -1 to their Toughness (T) characteristic."
+  },
+  {
+   "id": "the_doomsday_bell",
+   "name": "The Doomsday Bell",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_doomsday_bell/",
+   "text": "One unit in your army with the Character special rule and Nurgle Keyword that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. All enemy units on the battlefield suffer -1 to their Leadership (LD) characteristic so long as the bearer of this relic is alive and on the Battlefield."
+  },
+  {
+   "id": "the_endless_grimoire",
+   "name": "The Endless Grimoire",
+   "section": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/the_endless_grimoire/",
+   "text": "One unit in your army with the Character special rule and Tzeentch Keyword that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Once per game, a model with this relic can attempt to cast 1 Psychic Power or Psychic Weapon from any codex."
+  },
+  {
+   "id": "the_impossible_robe",
+   "name": "The Impossible Robe",
+   "section": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/the_impossible_robe/",
+   "text": "One unit in your army with the Character special rule and Tzeentch Keyword that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this Relic can re-roll Invulnerable Save rolls of 1."
+  },
+  {
+   "id": "sinistrious_hand",
+   "name": "Sinistrious Hand",
+   "section": "Datasheet",
+   "datasheet": "Keeper of Secrets",
+   "page": 31,
+   "url": "https://longwarindex.app/wargear/sinistrious_hand/",
+   "text": "If any wounds allocated from attacks made by this model would slay an enemy model during the Combat Phase. This unit Heals 1 wound at the end of the phase."
+  },
+  {
+   "id": "shining_aegis",
+   "name": "Shining Aegis",
+   "section": "Datasheet",
+   "datasheet": "Keeper of Secrets",
+   "page": 31,
+   "url": "https://longwarindex.app/wargear/shining_aegis/",
+   "text": "This unit gains a 4+ Armour save. In addition, enemy units have -1 to hit this unit in the Shooting Phase.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "disc",
+   "name": "Disc",
+   "section": "Datasheet",
+   "datasheet": "Herald of Tzeentch",
+   "page": 36,
+   "url": "https://longwarindex.app/wargear/disc/",
+   "text": "A model equipped with a Disc increases its Movement (M) characteristic to 13\" (This includes the bonus from the Daemon special rule) and gains the Hammer of Wrath (1) & Fly special rule.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 13
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chanting_horrors",
+   "name": "Chanting Horrors",
+   "section": "Datasheet",
+   "datasheet": "Herald of Tzeentch",
+   "page": 36,
+   "url": "https://longwarindex.app/wargear/chanting_horrors/",
+   "text": "A model equipped with Chanting Horrors gains the Deny the Witch special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/deny_the_witch",
+      "name": "Deny the Witch",
+      "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cloak_of_constrictions",
+   "name": "Cloak of Constrictions",
+   "section": "Datasheet",
+   "datasheet": "Shelaxi Hellbane",
+   "page": 39,
+   "url": "https://longwarindex.app/wargear/cloak_of_constrictions/",
+   "text": "At Initiative step 9 of the Combat Phase, you may select a single enemy model within 3\" to be constricted. That unit suffers -1 to its Initiative (I) characteristic this Combat Phase."
+  }
+ ]
+}

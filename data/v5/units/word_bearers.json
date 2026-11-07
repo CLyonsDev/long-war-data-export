@@ -1,0 +1,1381 @@
+{
+ "data_version": "114b05b7f2f596f4",
+ "format": 1,
+ "faction": "word_bearers",
+ "units": [
+  {
+   "id": "codex/word_bearers/roster/anointed",
+   "name": "Anointed",
+   "page": 16,
+   "url": "https://longwarindex.app/roster/anointed/",
+   "source": "Codex Supplement: Word Bearers",
+   "role": "Elites",
+   "points": 260,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "anointed",
+     "name": "Anointed",
+     "template": "unit",
+     "characteristics": {
+      "M": "7\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 5,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "combi_bolter",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "tainted_power_maul"
+      },
+      {
+       "kind": "wargear",
+       "id": "hexagramatic_wards"
+      },
+      {
+       "kind": "wargear",
+       "id": "indomitus_terminator_armour",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "anointed",
+     "count": 5
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/word_bearers/allegiances/allegiance_word_bearers",
+     "name": "Allegiance: Word Bearers",
+     "url": "https://longwarindex.app/allegiances/allegiance_word_bearers/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/word_bearers/special_rules/chosen_of_chaos",
+     "name": "Chosen of Chaos",
+     "url": "https://longwarindex.app/special_rules/chosen_of_chaos/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/daemon",
+     "name": "Daemon",
+     "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/priest",
+     "name": "Priest",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/priest/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limited: 1 Per Detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Word Bearers",
+    "Anointed",
+    "Veterans",
+    "Terminators",
+    "M31"
+   ],
+   "size": {
+    "min": 5,
+    "max": 10
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "The unit may include an additional 5 Anointed in Indomitus Armour (+41pts)",
+     "printed": "The unit may include an additional 5 Anointed in Indomitus Armour for 41pts.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "additional_anointed",
+       "name": "Anointed",
+       "points": 41,
+       "pricing": "flat",
+       "add_model": {
+        "profile": "anointed",
+        "count": 5
+       }
+      }
+     ]
+    },
+    {
+     "id": "combi_bolter_exchange",
+     "label": "One in every 5 Terminators may exchange their Combi-Bolter of the following:",
+     "printed": "One in every 5 Terminators may exchange their Combi-Bolter of the following:",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 5,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_flamer",
+       "name": "Heavy Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "reaper_autocannon",
+       "name": "Reaper Auto Cannon",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "reaper_autocannon",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "warp_fire_blaster",
+       "name": "Warp Flame Blaster",
+       "points": 13,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "warp_fire_blaster",
+           "printed": "Warp Flame Blaster"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "warp_fire_cannon",
+       "name": "Warp Flame Cannon",
+       "points": 23,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "warp_fire_cannon",
+           "printed": "Warp Flame Cannon"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "power_maul_exchange",
+     "label": "Any Terminator may replace their Power Maul for one of the following:",
+     "printed": "Any Terminator may replace their Power Maul for one of the following:",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "anointed"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "tainted_power_sword",
+       "name": "Tainted Power Sword",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "tainted_power_maul",
+           "printed": "Power Maul"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "tainted_power_sword"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "tainted_power_maul",
+           "printed": "Power Maul"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lightning_claw",
+       "name": "Lightning Claw",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "tainted_power_maul",
+           "printed": "Power Maul"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "tainted_power_maul",
+           "printed": "Power Maul"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "thunder_hammer",
+       "name": "Thunder Hammer",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "tainted_power_maul",
+           "printed": "Power Maul"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "thunder_hammer",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "chainfist",
+       "name": "Chainfist",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "tainted_power_maul",
+           "printed": "Power Maul"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chainfist",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "lightning_claws_pair",
+     "label": "Any Terminator may exchange their Power Maul and Combi Bolter for 2 Lightning Claws (+10pts)",
+     "printed": "Any Terminator may exchange their Power Maul and Combi Bolter for 2 Lightning Claws for 10pts.",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "anointed"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "lightning_claws",
+       "name": "Lightning Claws",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "tainted_power_maul",
+           "printed": "Power Maul"
+          },
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "chaos_space_marines",
+           "count": 2
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "mark",
+     "label": "The unit may take one of the following:",
+     "printed": "The unit may take one of the following:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "mark_khorne",
+       "name": "The Mark of Khorne",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "the_mark_of_khorne",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      },
+      {
+       "id": "mark_tzeentch",
+       "name": "The Mark of Tzeentch",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "the_mark_of_tzeentch",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      },
+      {
+       "id": "mark_nurgle",
+       "name": "The Mark of Nurgle",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "the_mark_of_nurgle",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      },
+      {
+       "id": "mark_slaanesh",
+       "name": "The Mark of Slaanesh",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "the_mark_of_slaanesh",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      },
+      {
+       "id": "mark_chaos_undivided",
+       "name": "The Mark of Chaos Undivided",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "the_mark_of_chaos_undivided",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/word_bearers/roster/ashen_circle",
+   "name": "Ashen Circle",
+   "page": 18,
+   "url": "https://longwarindex.app/roster/ashen_circle/",
+   "source": "Codex Supplement: Word Bearers",
+   "role": "Fast Attack",
+   "points": 185,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "ashen_circle",
+     "name": "Ashen Circle",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "jump_pack",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "hexagramatic_wards"
+      },
+      {
+       "kind": "weapon",
+       "id": "hand_flamer",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "chaos_runes",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "axe_rake"
+      }
+     ]
+    },
+    {
+     "id": "aspiring_champion",
+     "name": "Aspiring Champion",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 3,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "3+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "jump_pack",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "hexagramatic_wards"
+      },
+      {
+       "kind": "weapon",
+       "id": "hand_flamer",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "chaos_runes",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "axe_rake"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "ashen_circle",
+     "count": 4
+    },
+    {
+     "profile": "aspiring_champion",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/word_bearers/allegiances/allegiance_word_bearers",
+     "name": "Allegiance: Word Bearers",
+     "url": "https://longwarindex.app/allegiances/allegiance_word_bearers/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Word Bearers",
+    "Ashen Circle",
+    "Veterans",
+    "M31"
+   ],
+   "size": {
+    "min": 5,
+    "max": 10
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "The unit may include an additional 5 Ashen Circle models (+37pts)",
+     "printed": "The unit may include an additional 5 Ashen Circle models for 37pts.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "additional_ashen_circle",
+       "name": "Ashen Circle",
+       "points": 37,
+       "pricing": "flat",
+       "add_model": {
+        "profile": "ashen_circle",
+        "count": 5
+       }
+      }
+     ]
+    },
+    {
+     "id": "mark",
+     "label": "The unit may take one of the following:",
+     "printed": "The unit may take one of the following:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "mark_khorne",
+       "name": "The Mark of Khorne",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "the_mark_of_khorne",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      },
+      {
+       "id": "mark_tzeentch",
+       "name": "The Mark of Tzeentch",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "the_mark_of_tzeentch",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      },
+      {
+       "id": "mark_nurgle",
+       "name": "The Mark of Nurgle",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "the_mark_of_nurgle",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      },
+      {
+       "id": "mark_slaanesh",
+       "name": "The Mark of Slaanesh",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "the_mark_of_slaanesh",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      },
+      {
+       "id": "mark_chaos_undivided",
+       "name": "The Mark of Chaos Undivided",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "the_mark_of_chaos_undivided",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/word_bearers/roster/black_cardinal_kor_phaeron",
+   "name": "Black Cardinal Kor Phaeron",
+   "page": 15,
+   "url": "https://longwarindex.app/roster/black_cardinal_kor_phaeron/",
+   "source": "Codex Supplement: Word Bearers",
+   "role": "HQ",
+   "points": 120,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "black_cardinal_kor_phaeron",
+     "name": "Black Cardinal Kor Phaeron",
+     "template": "unit",
+     "characteristics": {
+      "M": "5\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 3,
+      "T": 3,
+      "W": 4,
+      "A": 4,
+      "I": 4,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "the_terminus_consolaris"
+      },
+      {
+       "kind": "weapon",
+       "id": "lightning_claws",
+       "faction": "chaos_space_marines",
+       "count": 2
+      },
+      {
+       "kind": "weapon",
+       "id": "digi_flamer"
+      },
+      {
+       "kind": "wargear",
+       "id": "chaos_sigil",
+       "faction": "chaos_space_marines",
+       "printed": "Sigil of Corruption"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_chaos_undivided",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "black_cardinal_kor_phaeron",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/word_bearers/allegiances/allegiance_word_bearers",
+     "name": "Allegiance: Word Bearers",
+     "url": "https://longwarindex.app/allegiances/allegiance_word_bearers/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/slow_and_purposeful",
+     "name": "Slow and Purposeful",
+     "printed": "Slow & Purposeful",
+     "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    },
+    {
+     "rule": "universal_special_rules/priest",
+     "name": "Priest",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/priest/"
+    },
+    {
+     "rule": "codex/word_bearers/special_rules/rivals_in_faith_kor_phaeron",
+     "name": "Rivals in Faith (Kor Phaeron)",
+     "printed": "Rivals in Faith",
+     "url": "https://longwarindex.app/special_rules/rivals_in_faith_kor_phaeron/"
+    },
+    {
+     "rule": "universal_special_rules/hatred",
+     "name": "Hatred",
+     "url": "https://longwarindex.app/universal_special_rules/hatred/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "universal_special_rules/adamantium_will",
+     "name": "Adamantium Will",
+     "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/word_bearers/warlord_traits/the_voice_of_lorgar",
+     "name": "The Voice of Lorgar",
+     "url": "https://longwarindex.app/warlord_traits/the_voice_of_lorgar/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marines",
+    "Word Bearers",
+    "Chaos Lord",
+    "Black Cardinal Kor Phaeron",
+    "Priest",
+    "Unique",
+    "M31"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/word_bearers/roster/high_apostle_erebus",
+   "name": "High Apostle Erebus",
+   "page": 14,
+   "url": "https://longwarindex.app/roster/high_apostle_erebus/",
+   "source": "Codex Supplement: Word Bearers",
+   "role": "HQ",
+   "points": 130,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "high_apostle_erebus",
+     "name": "High Apostle Erebus",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 4,
+      "Ld": 10,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "warp_fire_pistol",
+       "printed": "Warp Flame Pistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_maul",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "athame_dagger"
+      },
+      {
+       "kind": "wargear",
+       "id": "chaos_sigil",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "high_apostle_erebus",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/word_bearers/allegiances/allegiance_word_bearers",
+     "name": "Allegiance: Word Bearers",
+     "url": "https://longwarindex.app/allegiances/allegiance_word_bearers/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "universal_special_rules/priest",
+     "name": "Priest",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/priest/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "universal_special_rules/indomitable_spirit",
+     "name": "Indomitable Spirit",
+     "param": "4+",
+     "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+    },
+    {
+     "rule": "universal_special_rules/deny_the_witch",
+     "name": "Deny the Witch",
+     "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+    },
+    {
+     "rule": "universal_special_rules/hatred",
+     "name": "Hatred",
+     "url": "https://longwarindex.app/universal_special_rules/hatred/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "codex/word_bearers/special_rules/true_undivided",
+     "name": "True Undivided",
+     "url": "https://longwarindex.app/special_rules/true_undivided/"
+    },
+    {
+     "rule": "codex/word_bearers/special_rules/rivals_in_faith_erebus",
+     "name": "Rivals in Faith (Erebus)",
+     "printed": "Rivals in Faith",
+     "url": "https://longwarindex.app/special_rules/rivals_in_faith_erebus/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/word_bearers/special_rules/arch_heretic",
+     "name": "Arch Heretic",
+     "url": "https://longwarindex.app/special_rules/arch_heretic/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marines",
+    "Word Bearers",
+    "Chaos Lord",
+    "High Apostle Erebus",
+    "Psyker",
+    "Priest",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/word_bearers/roster/possessed_contemptor_dreadnought",
+   "name": "Possessed Contemptor Dreadnought",
+   "page": 17,
+   "url": "https://longwarindex.app/roster/possessed_contemptor_dreadnought/",
+   "source": "Codex Supplement: Word Bearers",
+   "role": "Elites",
+   "points": 140,
+   "unit_type": "Walker",
+   "profiles": [
+    {
+     "id": "possessed_contemptor_dreadnought",
+     "name": "Possessed Contemptor Dreadnought",
+     "template": "unit",
+     "characteristics": {
+      "M": "9\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 7,
+      "T": 7,
+      "W": 4,
+      "A": 3,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "dreadnought_close_combat_weapon",
+       "faction": "chaos_space_marines",
+       "count": 1
+      },
+      {
+       "kind": "weapon",
+       "id": "warp_fire_blaster",
+       "printed": "Warp Flame Blaster",
+       "count": 1
+      },
+      {
+       "kind": "weapon",
+       "id": "warp_fire_cannon"
+      },
+      {
+       "kind": "wargear",
+       "id": "daemon_enhanced_atomantic_shielding"
+      },
+      {
+       "kind": "wargear",
+       "id": "dreadnought_plate",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "possessed_contemptor_dreadnought",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/word_bearers/allegiances/allegiance_word_bearers",
+     "name": "Allegiance: Word Bearers",
+     "url": "https://longwarindex.app/allegiances/allegiance_word_bearers/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "6+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/daemon",
+     "name": "Daemon",
+     "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limit: 1 Per Detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Veteran",
+    "Word Bearers",
+    "Dreadnought",
+    "Contemptor",
+    "Daemon",
+    "Possessed Dreadnought",
+    "M31"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "close_combat_weapon_exchange",
+     "label": "A model may exchange its Dreadnought Close Combat Weapon for a Chainfist (+10pts)",
+     "printed": "A model may exchange its Dreadnought Close Combat Weapon for a Chainfist for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "chainfist",
+       "name": "Chainfist",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chainfist",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "mark",
+     "label": "The unit may take one of the following:",
+     "printed": "The unit may take one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "mark_khorne",
+       "name": "The Mark of Khorne",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "the_mark_of_khorne",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      },
+      {
+       "id": "mark_tzeentch",
+       "name": "The Mark of Tzeentch",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "the_mark_of_tzeentch",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      },
+      {
+       "id": "mark_nurgle",
+       "name": "The Mark of Nurgle",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "the_mark_of_nurgle",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      },
+      {
+       "id": "mark_slaanesh",
+       "name": "The Mark of Slaanesh",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "the_mark_of_slaanesh",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      },
+      {
+       "id": "mark_chaos_undivided",
+       "name": "The Mark of Chaos Undivided",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "the_mark_of_chaos_undivided",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

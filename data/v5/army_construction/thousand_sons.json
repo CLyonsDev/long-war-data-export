@@ -1,0 +1,893 @@
+{
+ "data_version": "a57d0f4a401ecd5b",
+ "format": 1,
+ "faction": "thousand_sons",
+ "codex": {
+  "id": "codex/thousand_sons",
+  "name": "Thousand Sons",
+  "page": 3,
+  "url": "https://longwarindex.app/codex/thousand_sons/",
+  "parent": "chaos_space_marines",
+  "army_rules": [
+   {
+    "rule": "codex/thousand_sons/special_rules/all_is_dust",
+    "name": "All is Dust",
+    "url": "https://longwarindex.app/special_rules/all_is_dust/"
+   },
+   {
+    "rule": "codex/thousand_sons/special_rules/armoury_of_the_15th_legion",
+    "name": "Armoury of the 15th Legion",
+    "url": "https://longwarindex.app/special_rules/armoury_of_the_15th_legion/"
+   }
+  ],
+  "allies": null,
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/thousand_sons/rites_of_war/sorcerer_coven",
+    "codex/thousand_sons/rites_of_war/guard_of_the_crimson_king",
+    "codex/thousand_sons/rites_of_war/changekin_of_tzeentch"
+   ],
+   "from_parent": [
+    "codex/chaos_space_marines/rites_of_war/heavy_mechanized_assault"
+   ],
+   "banned_from_parent": [
+    "codex/chaos_space_marines/rites_of_war/chosen_host",
+    "codex/chaos_space_marines/rites_of_war/daemonkin_host",
+    "codex/chaos_space_marines/rites_of_war/engine_horde",
+    "codex/chaos_space_marines/rites_of_war/raptor_assault"
+   ]
+  },
+  "unit_list": null,
+  "keyword_templates": [
+   {
+    "template": "<Legion>",
+    "printed": "All units have the <Legion> keyword. This is replaced with Thousand Sons Keyword.",
+    "substitution": {
+     "value": "Thousand Sons"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/thousand_sons/allegiances/allegiance_thousand_sons",
+   "name": "Allegiance: Thousand Sons",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_thousand_sons/",
+   "offered_by": {
+    "codex": "chaos_space_marines"
+   },
+   "keyword_substitution": {
+    "template": "<Legion>",
+    "value": "Thousand Sons"
+   },
+   "rule": {
+    "rule": "codex/thousand_sons/allegiances/allegiance_thousand_sons",
+    "name": "Allegiance: Thousand Sons",
+    "printed": "codex/thousand_sons/allegiances/allegiance_thousand_sons",
+    "url": "https://longwarindex.app/allegiances/allegiance_thousand_sons/"
+   },
+   "unit_list": {
+    "page": 14,
+    "url": "https://longwarindex.app/unit_list/thousand_sons_unit_list/",
+    "entries": [
+     {
+      "datasheet": "codex/chaos_space_marines/roster/daemon_prince",
+      "printed": "Daemon Prince",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_lord",
+      "printed": "Chaos Lord",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_champion",
+      "printed": "Chaos Champion",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/thousand_sons/roster/ahriman",
+      "printed": "Ahriman",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/thousand_sons/roster/magnus_the_red_daemon_primarch_of_the_thousand_sons",
+      "printed": "Magnus the Red, Daemon Primarch of the Thousand Sons",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/thousand_sons/roster/rubric_marines",
+      "printed": "Rubric Marines",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/thousand_sons/roster/scarab_occult",
+      "printed": "Scarab Occult",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/thousand_sons/roster/khenetai_occult",
+      "printed": "Khenetai Occult",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/thousand_sons/roster/sorcerer_disciples",
+      "printed": "Sorcerer Disciples",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/thousand_sons/roster/sekhetar_automata",
+      "printed": "Sekhetar Automata",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/thousand_sons/roster/castellax_achae_automata",
+      "printed": "Castellax-Achae Automata",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/castraferrum_dreadnought",
+      "printed": "Castraferrum Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/thousand_sons/roster/osirin_contemptor_dreadnought",
+      "printed": "Osirin Contemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/venom_crawler",
+      "printed": "Venom Crawler",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/rhino_apc",
+      "printed": "Rhino APC",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/land_raider",
+      "printed": "Land Raider",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/dreadclaw_drop_pod",
+      "printed": "Dreadclaw Drop Pod",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/kharybdis_assault_claw",
+      "printed": "Kharybdis Assault Claw",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/termite_assault_drill",
+      "printed": "Termite Assault Drill",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/heldrake",
+      "printed": "Heldrake",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/hell_blade",
+      "printed": "Hell Blade",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/hell_talon",
+      "printed": "Hell Talon",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/xiphon_interceptor",
+      "printed": "Xiphon Interceptor",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/storm_eagle_gunship",
+      "printed": "Storm Eagle Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_spawn",
+      "printed": "Chaos Spawn",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/sabre_strike_tank",
+      "printed": "Sabre Strike Tank",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/fiend_pack",
+      "printed": "Fiend Pack",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/defiler",
+      "printed": "Defiler",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/predator_mbt",
+      "printed": "Predator MBT",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/vindicator_siege_tank",
+      "printed": "Vindicator Siege Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/arquitor_bombard",
+      "printed": "Arquitor Bombard",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/fire_raptor_gunship",
+      "printed": "Fire Raptor Gunship",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/vindicator_laser_destroyer",
+      "printed": "Vindicator Laser Destroyer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/sicaran_heavy_tank",
+      "printed": "Sicaran Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/kratos_super_heavy_tank",
+      "printed": "Kratos Super Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/spartan_assault_tank",
+      "printed": "Spartan Assault Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/cerberus",
+      "printed": "Cerberus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/falchion",
+      "printed": "Falchion",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/fellblade",
+      "printed": "Fellblade",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/mastodon",
+      "printed": "Mastodon",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/typhon_siege_tank",
+      "printed": "Typhon Siege Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/thunderhawk_gunship",
+      "printed": "Thunderhawk Gunship",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/hammerfall_bunker",
+      "printed": "Hammerfall Bunker",
+      "role": "Fortification"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/noctolith_crown",
+      "printed": "Noctolith Crown",
+      "role": "Fortification"
+     }
+    ]
+   },
+   "restrictions": [
+    {
+     "id": "psychic_discipline_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/thousand_sons/",
+     "printed": "You must use the psychic discipline presented in this Supplement instead of those within the core Codex Chaos Space Marines.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "chaos_space_marines",
+        "group": "lore_of_nurgle_psychic_powers"
+       },
+       {
+        "book_options": "chaos_space_marines",
+        "group": "lore_of_slaanesh_psychic_powers"
+       },
+       {
+        "book_options": "chaos_space_marines",
+        "group": "lore_of_tzeentch_psychic_powers"
+       }
+      ]
+     }
+    },
+    {
+     "id": "rites_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/thousand_sons/",
+     "printed": "You must use the Rites of War presented in this Supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/chaos_space_marines/rites_of_war/raptor_assault",
+      "codex/chaos_space_marines/rites_of_war/engine_horde",
+      "codex/chaos_space_marines/rites_of_war/chosen_host",
+      "codex/chaos_space_marines/rites_of_war/daemonkin_host"
+     ]
+    },
+    {
+     "id": "warlord_traits_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/thousand_sons/",
+     "printed": "You must use the Warlord traits presented in this Supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "chaos_space_marines",
+        "group": "warlord_traits"
+       }
+      ]
+     }
+    },
+    {
+     "id": "no_core_relics",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/thousand_sons/",
+     "printed": "You must use the Relics presented in this supplement instead of the relic wargear in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "chaos_space_marines",
+        "group": "relics"
+       }
+      ]
+     }
+    },
+    {
+     "id": "unit_list_only",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/thousand_sons/",
+     "printed": "You may not field the units not listed on the Thousand Sons Unit list in this Codex Supplement.",
+     "scope": "detachment",
+     "unit_list": true
+    },
+    {
+     "id": "mark_of_tzeentch_or_keyword",
+     "printed": "All of your units must have the Mark of Tzeentch or Tzeentch Keyword.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "any_of": [
+         {
+          "holds": [
+           {
+            "kind": "wargear",
+            "id": "the_mark_of_tzeentch",
+            "faction": "chaos_space_marines"
+           }
+          ]
+         },
+         {
+          "keyword": "Tzeentch"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "allies_tzeentch_keyword",
+     "printed": "You may only include allied units that have the Tzeentch Keyword.",
+     "scope": "detachment",
+     "allies": {
+      "factions": [
+       {
+        "faction": "chaos_space_marines",
+        "conditions": [
+         {
+          "keyword": "Tzeentch"
+         }
+        ]
+       },
+       {
+        "faction": "chaos_daemons",
+        "conditions": [
+         {
+          "keyword": "Tzeentch"
+         }
+        ]
+       },
+       {
+        "faction": "renegades_and_heretics",
+        "conditions": [
+         {
+          "keyword": "Tzeentch"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "characters_must_be_psykers",
+     "printed": "All units in your army with the Character special rule must have the Psyker (x) special rule.",
+     "scope": "detachment",
+     "every_unit": {
+      "of": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/character",
+         "name": "Character",
+         "url": "https://longwarindex.app/universal_special_rules/character/"
+        }
+       }
+      ],
+      "must": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/psyker",
+         "name": "Psyker",
+         "param": "x",
+         "url": "https://longwarindex.app/universal_special_rules/psyker/"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "chaos_lord_excluded_upgrades",
+     "printed": "Chaos Lords in your army may not purchase the Master of Possessions or Lord Discordant upgrades.",
+     "scope": "detachment",
+     "excluded_choices": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_lord"
+       }
+      ],
+      "choices": [
+       {
+        "page": "codex/chaos_space_marines/roster/chaos_lord",
+        "path": "upgrades/master_of_possessions"
+       },
+       {
+        "page": "codex/chaos_space_marines/roster/chaos_lord",
+        "path": "upgrades/lord_discordant"
+       }
+      ]
+     }
+    },
+    {
+     "id": "chaos_champion_excluded_upgrades",
+     "printed": "Chaos Champions in your army may not purchase the Dark Apostle, Master of Executions or Warp Smith upgrades.",
+     "scope": "detachment",
+     "excluded_choices": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_champion"
+       }
+      ],
+      "choices": [
+       {
+        "page": "codex/chaos_space_marines/roster/chaos_champion",
+        "path": "upgrades/dark_apostle"
+       },
+       {
+        "page": "codex/chaos_space_marines/roster/chaos_champion",
+        "path": "upgrades/master_of_executions"
+       },
+       {
+        "page": "codex/chaos_space_marines/roster/chaos_champion",
+        "path": "upgrades/warp_smith"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "brotherhood_of_sorcerers_range",
+     "printed": "Thousand Sons units gain +6\" to the range of all Psychic Powers they know.",
+     "weapon_stat_mods": {
+      "conditions": [
+       {
+        "keyword": "Thousand Sons"
+       }
+      ],
+      "weapons": {
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "bolt_of_change",
+         "faction": "chaos_space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "plague_wind",
+         "faction": "chaos_space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "sensory_overload",
+         "faction": "chaos_space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "sonic_shockwave",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      },
+      "mods": [
+       {
+        "characteristic": "Range",
+        "delta": 6
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/thousand_sons/rites_of_war/sorcerer_coven",
+   "name": "Sorcerer Coven",
+   "page": 11,
+   "url": "https://longwarindex.app/rites_of_war/sorcerer_coven/",
+   "offered_by": {
+    "allegiance": "codex/thousand_sons/allegiances/allegiance_thousand_sons"
+   },
+   "text": "Requirements\n\n- Your army must include at least 2 Rubric Marine units.\n- Your army must include at least 1 Chaos Lord.\n- Your army must include at least 1 Sorcerer Disciples unit.\n\nBenefits\n\n- You may field Chaos Champions as Elite choices.\n- You may field Sorcerer Disciples as Troops choices, but they gain the Support Squad special rule.\n- After deployment, when determining who will take the First Turn, you may force both players to re-roll the roll-off.",
+   "restrictions": [
+    {
+     "id": "rubric_marine_units",
+     "printed": "Your army must include at least 2 Rubric Marine units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/thousand_sons/roster/rubric_marines"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "chaos_lord",
+     "printed": "Your army must include at least 1 Chaos Lord.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_lord"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "sorcerer_disciples_unit",
+     "printed": "Your army must include at least 1 Sorcerer Disciples unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/thousand_sons/roster/sorcerer_disciples"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "chaos_champions_elites",
+     "printed": "You may field Chaos Champions as Elite choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_champion"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "sorcerer_disciples_troops",
+     "printed": "You may field Sorcerer Disciples as Troops choices, but they gain the Support Squad special rule.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/thousand_sons/roster/sorcerer_disciples"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "sorcerer_disciples_troops_support_squad",
+     "printed": "You may field Sorcerer Disciples as Troops choices, but they gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/thousand_sons/roster/sorcerer_disciples"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "After deployment, when determining who will take the First Turn, you may force both players to re-roll the roll-off."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/thousand_sons/rites_of_war/guard_of_the_crimson_king",
+   "name": "Guard of the Crimson King",
+   "page": 12,
+   "url": "https://longwarindex.app/rites_of_war/guard_of_the_crimson_king/",
+   "offered_by": {
+    "allegiance": "codex/thousand_sons/allegiances/allegiance_thousand_sons"
+   },
+   "text": "Requirements\n\n- Your army must include at least 2 Scarab Occult units.\n- Your army may not include Ahriman.\n- If your army includes Magnus the Red, Daemon Primarch of the Thousand Sons, he must be your Warlord.\n\nBenefits\n\n- You may field Scarab Occult units as Troops choices.\n- You may select 1 Scarab Occult unit in your army to become Sekhmet Terminators. The chosen unit gains +1 to their Weapon Skill (WS) characteristic.\n- Magnus the Red, Daemon Primarch of the Thousand Sons in your army increases the range of the Firestorm of Tzeentch special rule to 18\".",
+   "restrictions": [
+    {
+     "id": "scarab_occult_units",
+     "printed": "Your army must include at least 2 Scarab Occult units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/thousand_sons/roster/scarab_occult"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "no_ahriman",
+     "printed": "Your army may not include Ahriman.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/thousand_sons/roster/ahriman"
+       }
+      ],
+      "max": 0
+     }
+    },
+    {
+     "id": "magnus_warlord_if_present",
+     "printed": "If your army includes Magnus the Red, Daemon Primarch of the Thousand Sons, he must be your Warlord.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/thousand_sons/roster/magnus_the_red_daemon_primarch_of_the_thousand_sons"
+       }
+      ],
+      "if_present": true
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "scarab_occult_troops",
+     "printed": "You may field Scarab Occult units as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/thousand_sons/roster/scarab_occult"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "sekhmet_terminators",
+     "printed": "You may select 1 Scarab Occult unit in your army to become Sekhmet Terminators. The chosen unit gains +1 to their Weapon Skill (WS) characteristic.",
+     "options": [
+      {
+       "book_options": "thousand_sons",
+       "group": "sekhmet_terminators"
+      }
+     ]
+    }
+   ],
+   "game_time": [
+    "Magnus the Red, Daemon Primarch of the Thousand Sons in your army increases the range of the Firestorm of Tzeentch special rule to 18\"."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/thousand_sons/rites_of_war/changekin_of_tzeentch",
+   "name": "Changekin of Tzeentch",
+   "page": 13,
+   "url": "https://longwarindex.app/rites_of_war/changekin_of_tzeentch/",
+   "offered_by": {
+    "allegiance": "codex/thousand_sons/allegiances/allegiance_thousand_sons"
+   },
+   "text": "Requirements\n\n- Your army must include at least 1 unit with the Daemon special rule.\n- Your army must include a Daemon Prince or Lord of Change.\n- Your army must include at least 1 Cultist Mob or Tzaangor unit.\n\nBenefits\n\n- You may field the following units from Codex – Renegades & Heretics with the Mark of Tzeentch as part of your Primary Detachment.\n- You may field the following units from Codex – Chaos Daemons with the Mark of Tzeentch as part of your Primary Detachment.\n- Once per Battle Round, you can change the dice result of any single roll made by you to either a 1 or a 6.",
+   "restrictions": [
+    {
+     "id": "daemon_unit",
+     "printed": "Your army must include at least 1 unit with the Daemon special rule.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "rule": {
+           "rule": "codex/chaos_space_marines/special_rules/daemon",
+           "name": "Daemon",
+           "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+          }
+         },
+         {
+          "rule": {
+           "rule": "codex/chaos_daemons/special_rules/daemon",
+           "name": "Daemon",
+           "url": "https://longwarindex.app/special_rules/daemon_chaos_daemons/"
+          }
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "daemon_prince_or_lord_of_change",
+     "printed": "Your army must include a Daemon Prince or Lord of Change.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/chaos_space_marines/roster/daemon_prince"
+         },
+         {
+          "datasheet": "codex/chaos_daemons/roster/daemon_prince"
+         },
+         {
+          "datasheet": "codex/chaos_daemons/roster/lord_of_change"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "cultist_mob_or_tzaangor",
+     "printed": "Your army must include at least 1 Cultist Mob or Tzaangor unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/renegades_and_heretics/roster/cultist_mob"
+         },
+         {
+          "datasheet": "codex/renegades_and_heretics/roster/tzaangors"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "opens_renegades_and_heretics",
+     "printed": "You may field the following units from Codex – Renegades & Heretics with the Mark of Tzeentch as part of your Primary Detachment.",
+     "opens": [
+      {
+       "faction": "renegades_and_heretics",
+       "conditions": [
+        {
+         "any_of": [
+          {
+           "holds": [
+            {
+             "kind": "wargear",
+             "id": "the_mark_of_tzeentch",
+             "faction": "chaos_space_marines"
+            },
+            {
+             "kind": "wargear",
+             "id": "the_mark_of_tzeentch",
+             "faction": "chaos_daemons"
+            }
+           ]
+          },
+          {
+           "keyword": "Tzeentch"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "opens_chaos_daemons",
+     "printed": "You may field the following units from Codex – Chaos Daemons with the Mark of Tzeentch as part of your Primary Detachment.",
+     "opens": [
+      {
+       "faction": "chaos_daemons",
+       "conditions": [
+        {
+         "any_of": [
+          {
+           "holds": [
+            {
+             "kind": "wargear",
+             "id": "the_mark_of_tzeentch",
+             "faction": "chaos_space_marines"
+            },
+            {
+             "kind": "wargear",
+             "id": "the_mark_of_tzeentch",
+             "faction": "chaos_daemons"
+            }
+           ]
+          },
+          {
+           "keyword": "Tzeentch"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "game_time": [
+    "Once per Battle Round, you can change the dice result of any single roll made by you to either a 1 or a 6."
+   ],
+   "unencoded": []
+  }
+ ]
+}

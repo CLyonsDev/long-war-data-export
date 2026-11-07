@@ -1,0 +1,1960 @@
+{
+ "data_version": "2c04ca75caef72fe",
+ "format": 1,
+ "faction": "night_lords",
+ "units": [
+  {
+   "id": "codex/night_lords/roster/atramentar_terminators",
+   "name": "Atramentar Terminators",
+   "page": 20,
+   "url": "https://longwarindex.app/roster/atramentar_terminators/",
+   "source": "Codex Supplement: Night Lords",
+   "role": "Elites",
+   "points": 150,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "atramentar_terminator",
+     "name": "Atramentar Terminator",
+     "template": "unit",
+     "characteristics": {
+      "M": "5\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "combi_bolter",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_sword",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "cataphractii_terminator_armour",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "atramentar_terminator",
+     "count": 3
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/night_lords/allegiances/allegiance_night_lords",
+     "name": "Allegiance: Night Lords",
+     "url": "https://longwarindex.app/allegiances/allegiance_night_lords/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/night_lords/special_rules/terror",
+     "name": "Terror",
+     "url": "https://longwarindex.app/special_rules/terror/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/slow_and_purposeful",
+     "name": "Slow and Purposeful",
+     "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limit: 1 Per Detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Night Lords",
+    "Atramentar Terminators",
+    "Veterans",
+    "Terminators",
+    "M31"
+   ],
+   "size": {
+    "min": 3,
+    "max": 9
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 6 models in this unit (+37pts each)",
+     "printed": "May include an additional 6 models in this unit (+37pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "atramentar_terminator",
+       "name": "Atramentar Terminator",
+       "points": 37,
+       "pricing": "each",
+       "max": 6,
+       "add_model": {
+        "profile": "atramentar_terminator",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "combi_bolter",
+     "label": "Any model in the unit may exchange their Combi-Bolter for one of the following:",
+     "printed": "Any model in the unit may exchange their Combi-Bolter for one of the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "combi_flamer",
+       "name": "Combi Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_flamer",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_plasma",
+       "name": "Combi Plasma",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_plasma",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_melta",
+       "name": "Combi Melta",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_melta",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lightning_claw",
+       "name": "Lightning Claw",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "power_sword",
+     "label": "Any model in the unit may exchange their Power Sword for one of the following:",
+     "printed": "Any model in the unit may exchange their Power Sword for one of the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_lance",
+       "name": "Power Lance",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_lance",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "chainblade",
+       "name": "Chainblade",
+       "points": 2,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chainblade"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "chain_glaive",
+       "name": "Chain Glaive",
+       "points": 8,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chain_glaive",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_maul",
+       "name": "Power Maul",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_maul",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lightning_claw",
+       "name": "Lightning Claw",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "escaton_power_claw",
+       "name": "Eskaton Power Claw",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "escaton_power_claw",
+           "printed": "Eskaton Power Claw"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "heavy_weapon",
+     "label": "1 in 3 models in the unit may exchange their Combi-Bolter for one of the following:",
+     "printed": "1 in 3 models in the unit may exchange their Combi-Bolter for one of the following:",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 3,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "reaper_autocannon",
+       "name": "Reaper Autocannon",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "reaper_autocannon",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "heavy_flamer",
+       "name": "Heavy Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/night_lords/roster/contekar_terminators",
+   "name": "Contekar Terminators",
+   "page": 19,
+   "url": "https://longwarindex.app/roster/contekar_terminators/",
+   "source": "Codex Supplement: Night Lords",
+   "role": "Elites",
+   "points": 205,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "contekar_terminator",
+     "name": "Contekar Terminator",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "heavy_flamer",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "chainblade"
+      },
+      {
+       "kind": "wargear",
+       "id": "tartaros_terminator_armour",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "contekar_terminator",
+     "count": 5
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/night_lords/allegiances/allegiance_night_lords",
+     "name": "Allegiance: Night Lords",
+     "url": "https://longwarindex.app/allegiances/allegiance_night_lords/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/night_lords/special_rules/mercenary_lords",
+     "name": "Mercenary Lords",
+     "url": "https://longwarindex.app/special_rules/mercenary_lords/"
+    },
+    {
+     "rule": "codex/night_lords/special_rules/prey_on_the_weak",
+     "name": "Prey on the Weak",
+     "url": "https://longwarindex.app/special_rules/prey_on_the_weak/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/sprint",
+     "name": "Sprint",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/sprint/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Night Lords",
+    "Contekar Terminators",
+    "Veterans",
+    "Terminators",
+    "M31"
+   ],
+   "size": {
+    "min": 5,
+    "max": 10
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 5 models in this unit (+39pts each)",
+     "printed": "May include an additional 5 models in this unit (+39pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "contekar_terminator",
+       "name": "Contekar Terminator",
+       "points": 39,
+       "pricing": "each",
+       "max": 5,
+       "add_model": {
+        "profile": "contekar_terminator",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "volkite_cavitor",
+     "label": "Any model in the unit may exchange their Heavy Flamer for a Volkite Cavitor (+5pts)",
+     "printed": "Any model in the unit may exchange their Heavy Flamer for a Volkite Cavitor (+5pts)",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "volkite_cavitor",
+       "name": "Volkite Cavitor",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "volkite_cavitor"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "chain_glaive",
+     "label": "Any model may exchange their Chain Blade for a Chain Glaive (+5pts)",
+     "printed": "Any model may exchange their Chain Blade for a Chain Glaive (+5pts)",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "chain_glaive",
+       "name": "Chain Glaive",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainblade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chain_glaive",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "escaton_power_claw",
+     "label": "One in every 5 models may exchange its Chain Blade for an Escaton Claw (+20pts)",
+     "printed": "One in every 5 models may exchange its Chain Blade for an Escaton Claw (+20pts)",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 5,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "escaton_power_claw",
+       "name": "Escaton Claw",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainblade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "escaton_power_claw",
+           "printed": "Escaton Claw"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/night_lords/roster/decimus_prophet_of_the_8th_legion",
+   "name": "Decimus, Prophet of the 8th Legion",
+   "page": 18,
+   "url": "https://longwarindex.app/roster/decimus_prophet_of_the_8th_legion/",
+   "source": "Codex Supplement: Night Lords",
+   "role": "HQ",
+   "points": 120,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "decimus_prophet_of_the_8th_legion",
+     "name": "Decimus, Prophet of the 8th Legion",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "warp_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "chaos_sigil",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "night_lords_storm_bolter"
+      },
+      {
+       "kind": "weapon",
+       "id": "aurum"
+      },
+      {
+       "kind": "wargear",
+       "id": "trophies_of_judgement"
+      },
+      {
+       "kind": "wargear",
+       "id": "cloak_of_flayed_skin"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "decimus_prophet_of_the_8th_legion",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/night_lords/allegiances/allegiance_night_lords",
+     "name": "Allegiance: Night Lords",
+     "url": "https://longwarindex.app/allegiances/allegiance_night_lords/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "codex/night_lords/special_rules/prophet_of_night",
+     "name": "Prophet of Night",
+     "url": "https://longwarindex.app/special_rules/prophet_of_night/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/night_lords/special_rules/prophet_of_the_8th_legion",
+     "name": "Prophet of the 8th Legion",
+     "url": "https://longwarindex.app/special_rules/prophet_of_the_8th_legion/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marines",
+    "Night Lords",
+    "Chaos Lord",
+    "Decimus, Prophet of the 8th Legion",
+    "Unique",
+    "M31"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/night_lords/roster/krieg_acerbus",
+   "name": "Krieg Acerbus",
+   "page": 15,
+   "url": "https://longwarindex.app/roster/krieg_acerbus/",
+   "source": "Codex Supplement: Night Lords",
+   "role": "HQ",
+   "points": 210,
+   "unit_type": "Monster",
+   "profiles": [
+    {
+     "id": "krieg_acerbus",
+     "name": "Krieg Acerbus",
+     "template": "unit",
+     "characteristics": {
+      "M": "8\"",
+      "WS": 7,
+      "BS": 6,
+      "S": 6,
+      "T": 6,
+      "W": 5,
+      "A": 5,
+      "I": 6,
+      "Ld": 10,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "malefic_talons",
+       "faction": "chaos_space_marines",
+       "count": 1
+      },
+      {
+       "kind": "weapon",
+       "id": "headsmen_axe",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "warp_bolter",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_chaos_undivided",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "krieg_acerbus",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/night_lords/allegiances/allegiance_night_lords",
+     "name": "Allegiance: Night Lords",
+     "url": "https://longwarindex.app/allegiances/allegiance_night_lords/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/daemon",
+     "name": "Daemon",
+     "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/furious_charge",
+     "name": "Furious Charge",
+     "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+    },
+    {
+     "rule": "codex/night_lords/special_rules/terror",
+     "name": "Terror",
+     "url": "https://longwarindex.app/special_rules/terror/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/night_lords/special_rules/the_axemaster",
+     "name": "The Axemaster",
+     "url": "https://longwarindex.app/special_rules/the_axemaster/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Daemon",
+    "Daemon Prince",
+    "Night Lords",
+    "Krieg Acerbus",
+    "Unique"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/night_lords/roster/night_raptors",
+   "name": "Night Raptors",
+   "page": 21,
+   "url": "https://longwarindex.app/roster/night_raptors/",
+   "source": "Codex Supplement: Night Lords",
+   "role": "Fast Attack",
+   "points": 100,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "night_raptor",
+     "name": "Night Raptor",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 1,
+      "A": 1,
+      "I": 4,
+      "Ld": 7,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "chainsword",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "jump_pack",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    },
+    {
+     "id": "aspiring_night_champion",
+     "name": "Aspiring Night Champion",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 1,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "chainsword",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "jump_pack",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "night_raptor",
+     "count": 4
+    },
+    {
+     "profile": "aspiring_night_champion",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/night_lords/allegiances/allegiance_night_lords",
+     "name": "Allegiance: Night Lords",
+     "url": "https://longwarindex.app/allegiances/allegiance_night_lords/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/hit_and_run",
+     "name": "Hit & Run",
+     "url": "https://longwarindex.app/universal_special_rules/hit_and_run/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Ravager",
+    "Night Lords",
+    "Night Raptors",
+    "Veterans",
+    "M31"
+   ],
+   "size": {
+    "min": 5,
+    "max": 10
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "The unit may include up to 5 more Raptors models (+18pts each)",
+     "printed": "The unit may include up to 5 more Raptors models (+18pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "night_raptor",
+       "name": "Night Raptor",
+       "points": 18,
+       "pricing": "each",
+       "max": 5,
+       "add_model": {
+        "profile": "night_raptor",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "flamer_or_plasma_pistols",
+     "label": "2 in every 5 models in the unit may exchange their Chainsword and Bolt Pistol for a Flamer (+0pts) or exchange their Bolt Pistols for Plasma Pistols (+5pts)",
+     "printed": "2 in every 5 models in the unit may exchange their Chainsword and Bolt Pistol for a Flamer (+0pts) or exchange their Bolt Pistols for Plasma Pistols (+5pts)",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 2,
+       "per": 5,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "flamer",
+       "name": "Flamer",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "flamer",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistols",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "aspiring_champion_chain_blade",
+     "label": "The Aspiring Champion may exchange their Chain Blade for one of the following:",
+     "printed": "The Aspiring Champion may exchange their Chain Blade for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "aspiring_night_champion"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_sword",
+       "name": "A Power sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines",
+           "printed": "Chain Blade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_axe",
+       "name": "A Power axe",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines",
+           "printed": "Chain Blade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_maul",
+       "name": "A Power Maul",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines",
+           "printed": "Chain Blade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_maul",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "A Power Fist",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines",
+           "printed": "Chain Blade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "thunder_hammer",
+       "name": "A Thunder Hammer",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines",
+           "printed": "Chain Blade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "thunder_hammer",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "escaton_power_claw",
+       "name": "A Escaton Claw",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines",
+           "printed": "Chain Blade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "escaton_power_claw",
+           "printed": "Escaton Claw"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "chain_glaive",
+       "name": "Chain Glaive",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines",
+           "printed": "Chain Blade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chain_glaive",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "aspiring_champion_bolt_pistol",
+     "label": "The Aspiring Champion may exchange its Bolt Pistol for a:",
+     "printed": "The Aspiring Champion may exchange its Bolt Pistol for a:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "aspiring_night_champion"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "hand_flamer",
+       "name": "Hand Flamer",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "hand_flamer",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grav_pistol",
+       "name": "Grav Pistol",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "grav_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "volkite_caliver",
+       "name": "Volkite Caliver",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "volkite_calivers",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "squad_sergeant_wargear",
+     "label": "A Squad Sergeant may take any number of the following:",
+     "printed": "A Squad Sergeant may take any number of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "aspiring_night_champion"
+      ]
+     },
+     "pick": {},
+     "choices": [
+      {
+       "id": "melta_bomb",
+       "name": "A Melta Bomb",
+       "points": 5,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "melta_bomb",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      },
+      {
+       "id": "auspex_scanner",
+       "name": "A Auspex Scanner",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "auspex_scanner",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/night_lords/roster/talos_valcoran_the_soul_hunter",
+   "name": "Talos Valcoran, The Soul Hunter",
+   "page": 17,
+   "url": "https://longwarindex.app/roster/talos_valcoran_the_soul_hunter/",
+   "source": "Codex Supplement: Night Lords",
+   "role": "HQ",
+   "points": 110,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "talos_valcoran_the_soul_hunter",
+     "name": "Talos Valcoran, The Soul Hunter",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "warp_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "chaos_sigil",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "night_lords_storm_bolter"
+      },
+      {
+       "kind": "weapon",
+       "id": "aurum"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "talos_valcoran_the_soul_hunter",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/night_lords/allegiances/allegiance_night_lords",
+     "name": "Allegiance: Night Lords",
+     "url": "https://longwarindex.app/allegiances/allegiance_night_lords/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "codex/night_lords/special_rules/prophet_of_night",
+     "name": "Prophet of Night",
+     "url": "https://longwarindex.app/special_rules/prophet_of_night/"
+    },
+    {
+     "rule": "codex/night_lords/special_rules/former_apothecary",
+     "name": "Former Apothecary",
+     "url": "https://longwarindex.app/special_rules/former_apothecary/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/night_lords/special_rules/the_soul_hunter",
+     "name": "The Soul Hunter",
+     "url": "https://longwarindex.app/special_rules/the_soul_hunter/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marines",
+    "Night Lords",
+    "Chaos Lord",
+    "Talos Valcoran, the Soul Hunter",
+    "Unique",
+    "M31"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/night_lords/roster/vandred_anrathi_the_exalted",
+   "name": "Vandred Anrathi, the Exalted",
+   "page": 16,
+   "url": "https://longwarindex.app/roster/vandred_anrathi_the_exalted/",
+   "source": "Codex Supplement: Night Lords",
+   "role": "HQ",
+   "points": 120,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "vandred_anrathi_the_exalted",
+     "name": "Vandred Anrathi, the Exalted",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 5,
+      "S": 5,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "warp_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "chaos_sigil",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "hideous_mutations",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "jump_pack",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "chainblade"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_tzeentch",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "vandred_anrathi_the_exalted",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/night_lords/allegiances/allegiance_night_lords",
+     "name": "Allegiance: Night Lords",
+     "url": "https://longwarindex.app/allegiances/allegiance_night_lords/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/daemon",
+     "name": "Daemon",
+     "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "codex/night_lords/special_rules/shadow_of_the_self",
+     "name": "Shadow of the Self",
+     "url": "https://longwarindex.app/special_rules/shadow_of_the_self/"
+    },
+    {
+     "rule": "codex/night_lords/special_rules/disregard_of_the_primarchs_vision",
+     "name": "Disregard of the Primarch's Vision",
+     "url": "https://longwarindex.app/special_rules/disregard_of_the_primarchs_vision/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/night_lords/special_rules/daemonic_strength",
+     "name": "Daemonic Strength",
+     "url": "https://longwarindex.app/special_rules/daemonic_strength/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marines",
+    "Night Lords",
+    "Chaos Lord",
+    "Vandred Anrathi, The Exalted",
+    "Unique",
+    "M31"
+   ],
+   "stocks": [],
+   "options": []
+  }
+ ]
+}

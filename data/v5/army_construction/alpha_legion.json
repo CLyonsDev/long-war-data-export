@@ -1,0 +1,1162 @@
+{
+ "data_version": "021d79ca07bf88a3",
+ "format": 1,
+ "faction": "alpha_legion",
+ "codex": {
+  "id": "codex/alpha_legion",
+  "name": "Alpha Legion",
+  "page": 3,
+  "url": "https://longwarindex.app/codex/alpha_legion/",
+  "parent": "chaos_space_marines",
+  "army_rules": [
+   {
+    "rule": "codex/alpha_legion/special_rules/armoury_of_the_20th_legion",
+    "name": "Armoury of the 20th Legion",
+    "url": "https://longwarindex.app/special_rules/armoury_of_the_20th_legion/"
+   }
+  ],
+  "allies": null,
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [
+   {
+    "id": "khorne_berzerkers_support_squad",
+    "page": 12,
+    "url": "https://longwarindex.app/unit_list/alpha_legion_unit_list/",
+    "printed": "All Plague Marines, Rubric Marines, Noise Marines and Khorne Berzerkers in your army gain the Support Squad special rule when not using the Allegiance of their respective Codex Supplement.",
+    "rules": {
+     "conditions": [
+      {
+       "datasheet": "codex/world_eaters/roster/khorne_berzerkers"
+      },
+      {
+       "not": {
+        "allegiance": "codex/world_eaters/allegiances/allegiance_world_eaters"
+       }
+      }
+     ],
+     "rules": [
+      {
+       "rule": "universal_special_rules/support_squad",
+       "name": "Support Squad",
+       "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+      }
+     ]
+    }
+   },
+   {
+    "id": "plague_marines_support_squad",
+    "page": 12,
+    "url": "https://longwarindex.app/unit_list/alpha_legion_unit_list/",
+    "printed": "All Plague Marines, Rubric Marines, Noise Marines and Khorne Berzerkers in your army gain the Support Squad special rule when not using the Allegiance of their respective Codex Supplement.",
+    "rules": {
+     "conditions": [
+      {
+       "datasheet": "codex/death_guard/roster/plague_marines"
+      },
+      {
+       "not": {
+        "allegiance": "codex/death_guard/allegiances/allegiance_death_guard"
+       }
+      }
+     ],
+     "rules": [
+      {
+       "rule": "universal_special_rules/support_squad",
+       "name": "Support Squad",
+       "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+      }
+     ]
+    }
+   },
+   {
+    "id": "noise_marines_support_squad",
+    "page": 12,
+    "url": "https://longwarindex.app/unit_list/alpha_legion_unit_list/",
+    "printed": "All Plague Marines, Rubric Marines, Noise Marines and Khorne Berzerkers in your army gain the Support Squad special rule when not using the Allegiance of their respective Codex Supplement.",
+    "rules": {
+     "conditions": [
+      {
+       "datasheet": "codex/emperors_children/roster/noise_marines"
+      },
+      {
+       "not": {
+        "allegiance": "codex/emperors_children/allegiances/allegiance_emperors_children"
+       }
+      }
+     ],
+     "rules": [
+      {
+       "rule": "universal_special_rules/support_squad",
+       "name": "Support Squad",
+       "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+      }
+     ]
+    }
+   },
+   {
+    "id": "rubric_marines_support_squad",
+    "page": 12,
+    "url": "https://longwarindex.app/unit_list/alpha_legion_unit_list/",
+    "printed": "All Plague Marines, Rubric Marines, Noise Marines and Khorne Berzerkers in your army gain the Support Squad special rule when not using the Allegiance of their respective Codex Supplement.",
+    "rules": {
+     "conditions": [
+      {
+       "datasheet": "codex/thousand_sons/roster/rubric_marines"
+      },
+      {
+       "not": {
+        "allegiance": "codex/thousand_sons/allegiances/allegiance_thousand_sons"
+       }
+      }
+     ],
+     "rules": [
+      {
+       "rule": "universal_special_rules/support_squad",
+       "name": "Support Squad",
+       "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+      }
+     ]
+    }
+   }
+  ],
+  "rites_of_war": {
+   "own": [
+    "codex/alpha_legion/rites_of_war/coils_of_the_hydra"
+   ],
+   "from_parent": [
+    "codex/chaos_space_marines/rites_of_war/raptor_assault",
+    "codex/chaos_space_marines/rites_of_war/daemonkin_host",
+    "codex/chaos_space_marines/rites_of_war/engine_horde",
+    "codex/chaos_space_marines/rites_of_war/heavy_mechanized_assault",
+    "codex/chaos_space_marines/rites_of_war/chosen_host"
+   ],
+   "banned_from_parent": []
+  },
+  "unit_list": {
+   "page": 12,
+   "url": "https://longwarindex.app/unit_list/alpha_legion_unit_list/",
+   "entries": [
+    {
+     "datasheet": "codex/chaos_space_marines/roster/daemon_prince",
+     "printed": "Daemon Prince",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/chaos_lord",
+     "printed": "Chaos Lord",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/chaos_champion",
+     "printed": "Chaos Champion",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/alpha_legion/roster/lord_arkos_the_faithless",
+     "printed": "Lord Arkos, the Faithless",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/alpha_legion/roster/solomon_akurra",
+     "printed": "Solomon Akurra",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/alpha_legion/roster/exodus",
+     "printed": "Exodus",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/inductii_squad",
+     "printed": "Inductii Squad",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/legionnaire_squad",
+     "printed": "Legionnaire Squad",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/world_eaters/roster/khorne_berzerkers",
+     "printed": "Khorne Berzerkers",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/death_guard/roster/plague_marines",
+     "printed": "Plague Marines",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/emperors_children/roster/noise_marines",
+     "printed": "Noise Marines",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/thousand_sons/roster/rubric_marines",
+     "printed": "Rubric Marines",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/alpha_legion/roster/legion_operatives",
+     "printed": "Legion Operatives",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/chosen",
+     "printed": "Chosen",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/possessed",
+     "printed": "Possessed",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/mutilators",
+     "printed": "Mutilators",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/castraferrum_dreadnought",
+     "printed": "Castraferrum Dreadnought",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/contemptor_dreadnought",
+     "printed": "Contemptor Dreadnought",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/venom_crawler",
+     "printed": "Venom Crawler",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/alpha_legion/roster/lernaean_terminators",
+     "printed": "Lernaean Terminators",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/alpha_legion/roster/legion_saboteur",
+     "printed": "Legion Saboteur",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/rhino_apc",
+     "printed": "Rhino APC",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/land_raider",
+     "printed": "Land Raider",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/dreadclaw_drop_pod",
+     "printed": "Dreadclaw Drop Pod",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/kharybdis_assault_claw",
+     "printed": "Kharybdis Assault Claw",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/termite_assault_drill",
+     "printed": "Termite Assault Drill",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/heldrake",
+     "printed": "Heldrake",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/hell_blade",
+     "printed": "Hell Blade",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/hell_talon",
+     "printed": "Hell Talon",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/xiphon_interceptor",
+     "printed": "Xiphon Interceptor",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/storm_eagle_gunship",
+     "printed": "Storm Eagle Gunship",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/chaos_bike_squad",
+     "printed": "Chaos Bike Squad",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/raptors",
+     "printed": "Raptors",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/warp_talons",
+     "printed": "Warp Talons",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/chaos_spawn",
+     "printed": "Chaos Spawn",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/proteus_land_speeder",
+     "printed": "Proteus Land Speeder",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/javelin_attack_speeder",
+     "printed": "Javelin Attack Speeder",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/sabre_strike_tank",
+     "printed": "Sabre Strike Tank",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/alpha_legion/roster/headhunters",
+     "printed": "Headhunters",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/havocs",
+     "printed": "Havocs",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/obliterators",
+     "printed": "Obliterators",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/rapier_battery",
+     "printed": "Rapier Battery",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/fiend_pack",
+     "printed": "Fiend Pack",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/defiler",
+     "printed": "Defiler",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/predator_mbt",
+     "printed": "Predator MBT",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/vindicator_siege_tank",
+     "printed": "Vindicator Siege Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/arquitor_bombard",
+     "printed": "Arquitor Bombard",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/deredeo_dreadnought",
+     "printed": "Deredeo Dreadnought",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/fire_raptor_gunship",
+     "printed": "Fire Raptor Gunship",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/vindicator_laser_destroyer",
+     "printed": "Vindicator Laser Destroyer",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/sicaran_heavy_tank",
+     "printed": "Sicaran Heavy Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/kratos_super_heavy_tank",
+     "printed": "Kratos Super Heavy Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/leviathan_dreadnought",
+     "printed": "Leviathan Dreadnought",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/spartan_assault_tank",
+     "printed": "Spartan Assault Tank",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/cerberus",
+     "printed": "Cerberus",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/falchion",
+     "printed": "Falchion",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/fellblade",
+     "printed": "Fellblade",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/mastodon",
+     "printed": "Mastodon",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/typhon_siege_tank",
+     "printed": "Typhon Siege Tank",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/thunderhawk_gunship",
+     "printed": "Thunderhawk Gunship",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/hammerfall_bunker",
+     "printed": "Hammerfall Bunker",
+     "role": "Fortification"
+    },
+    {
+     "datasheet": "codex/chaos_space_marines/roster/noctolith_crown",
+     "printed": "Noctolith Crown",
+     "role": "Fortification"
+    }
+   ]
+  },
+  "keyword_templates": [
+   {
+    "template": "<Legion>",
+    "printed": "All units have the <Legion> keyword. This is replaced with Alpha Legion Keyword.",
+    "substitution": {
+     "value": "Alpha Legion"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/alpha_legion/allegiances/allegiance_alpha_legion",
+   "name": "Allegiance: Alpha Legion",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_alpha_legion/",
+   "offered_by": {
+    "codex": "chaos_space_marines"
+   },
+   "keyword_substitution": {
+    "template": "<Legion>",
+    "value": "Alpha Legion"
+   },
+   "rule": {
+    "rule": "codex/alpha_legion/allegiances/allegiance_alpha_legion",
+    "name": "Allegiance: Alpha Legion",
+    "printed": "codex/alpha_legion/allegiances/allegiance_alpha_legion",
+    "url": "https://longwarindex.app/allegiances/allegiance_alpha_legion/"
+   },
+   "unit_list": {
+    "page": 12,
+    "url": "https://longwarindex.app/unit_list/alpha_legion_unit_list/",
+    "entries": [
+     {
+      "datasheet": "codex/chaos_space_marines/roster/daemon_prince",
+      "printed": "Daemon Prince",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_lord",
+      "printed": "Chaos Lord",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_champion",
+      "printed": "Chaos Champion",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/alpha_legion/roster/lord_arkos_the_faithless",
+      "printed": "Lord Arkos, the Faithless",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/alpha_legion/roster/solomon_akurra",
+      "printed": "Solomon Akurra",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/alpha_legion/roster/exodus",
+      "printed": "Exodus",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/inductii_squad",
+      "printed": "Inductii Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/legionnaire_squad",
+      "printed": "Legionnaire Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/world_eaters/roster/khorne_berzerkers",
+      "printed": "Khorne Berzerkers",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/death_guard/roster/plague_marines",
+      "printed": "Plague Marines",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/emperors_children/roster/noise_marines",
+      "printed": "Noise Marines",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/thousand_sons/roster/rubric_marines",
+      "printed": "Rubric Marines",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/alpha_legion/roster/legion_operatives",
+      "printed": "Legion Operatives",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chosen",
+      "printed": "Chosen",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/possessed",
+      "printed": "Possessed",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/mutilators",
+      "printed": "Mutilators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/castraferrum_dreadnought",
+      "printed": "Castraferrum Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/contemptor_dreadnought",
+      "printed": "Contemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/venom_crawler",
+      "printed": "Venom Crawler",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/alpha_legion/roster/lernaean_terminators",
+      "printed": "Lernaean Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/alpha_legion/roster/legion_saboteur",
+      "printed": "Legion Saboteur",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/rhino_apc",
+      "printed": "Rhino APC",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/land_raider",
+      "printed": "Land Raider",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/dreadclaw_drop_pod",
+      "printed": "Dreadclaw Drop Pod",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/kharybdis_assault_claw",
+      "printed": "Kharybdis Assault Claw",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/termite_assault_drill",
+      "printed": "Termite Assault Drill",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/heldrake",
+      "printed": "Heldrake",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/hell_blade",
+      "printed": "Hell Blade",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/hell_talon",
+      "printed": "Hell Talon",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/xiphon_interceptor",
+      "printed": "Xiphon Interceptor",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/storm_eagle_gunship",
+      "printed": "Storm Eagle Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_bike_squad",
+      "printed": "Chaos Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/raptors",
+      "printed": "Raptors",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/warp_talons",
+      "printed": "Warp Talons",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_spawn",
+      "printed": "Chaos Spawn",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/proteus_land_speeder",
+      "printed": "Proteus Land Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/javelin_attack_speeder",
+      "printed": "Javelin Attack Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/sabre_strike_tank",
+      "printed": "Sabre Strike Tank",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/alpha_legion/roster/headhunters",
+      "printed": "Headhunters",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/havocs",
+      "printed": "Havocs",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/obliterators",
+      "printed": "Obliterators",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/rapier_battery",
+      "printed": "Rapier Battery",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/fiend_pack",
+      "printed": "Fiend Pack",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/defiler",
+      "printed": "Defiler",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/predator_mbt",
+      "printed": "Predator MBT",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/vindicator_siege_tank",
+      "printed": "Vindicator Siege Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/arquitor_bombard",
+      "printed": "Arquitor Bombard",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/deredeo_dreadnought",
+      "printed": "Deredeo Dreadnought",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/fire_raptor_gunship",
+      "printed": "Fire Raptor Gunship",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/vindicator_laser_destroyer",
+      "printed": "Vindicator Laser Destroyer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/sicaran_heavy_tank",
+      "printed": "Sicaran Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/kratos_super_heavy_tank",
+      "printed": "Kratos Super Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/leviathan_dreadnought",
+      "printed": "Leviathan Dreadnought",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/spartan_assault_tank",
+      "printed": "Spartan Assault Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/cerberus",
+      "printed": "Cerberus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/falchion",
+      "printed": "Falchion",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/fellblade",
+      "printed": "Fellblade",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/mastodon",
+      "printed": "Mastodon",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/typhon_siege_tank",
+      "printed": "Typhon Siege Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/thunderhawk_gunship",
+      "printed": "Thunderhawk Gunship",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/hammerfall_bunker",
+      "printed": "Hammerfall Bunker",
+      "role": "Fortification"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/noctolith_crown",
+      "printed": "Noctolith Crown",
+      "role": "Fortification"
+     }
+    ]
+   },
+   "restrictions": [
+    {
+     "id": "warlord_traits_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/alpha_legion/",
+     "printed": "You must use the Warlord traits presented in this Supplement instead of those presented in the Core Codex Chaos Space Marines.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "chaos_space_marines",
+        "group": "warlord_traits"
+       }
+      ]
+     }
+    },
+    {
+     "id": "unit_list_only",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/alpha_legion/",
+     "printed": "You may not field the units not listed on the Alpha Legion Unit list in this Codex Supplement.",
+     "scope": "detachment",
+     "unit_list": true
+    },
+    {
+     "id": "no_core_relics",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/alpha_legion/",
+     "printed": "You may not purchase Relic wargear from Codex Chaos Space Marines and may only purchase relic wargear from this supplement.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "chaos_space_marines",
+        "group": "relics"
+       }
+      ]
+     }
+    },
+    {
+     "id": "psychic_discipline_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/alpha_legion/",
+     "printed": "You must use the Psychic Powers presented in this Supplement instead of those featured in the core Codex Chaos Space Marines.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "chaos_space_marines",
+        "group": "lore_of_nurgle_psychic_powers"
+       },
+       {
+        "book_options": "chaos_space_marines",
+        "group": "lore_of_slaanesh_psychic_powers"
+       },
+       {
+        "book_options": "chaos_space_marines",
+        "group": "lore_of_tzeentch_psychic_powers"
+       }
+      ]
+     }
+    },
+    {
+     "id": "no_marks_of_chaos",
+     "printed": "Alpha Legion units in your army may not take Marks of Chaos.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "items": [
+       {
+        "kind": "wargear",
+        "id": "the_mark_of_khorne",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "wargear",
+        "id": "the_mark_of_nurgle",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "wargear",
+        "id": "the_mark_of_slaanesh",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "wargear",
+        "id": "the_mark_of_tzeentch",
+        "faction": "chaos_space_marines"
+       },
+       {
+        "kind": "wargear",
+        "id": "the_mark_of_chaos_undivided",
+        "faction": "chaos_space_marines"
+       }
+      ]
+     }
+    },
+    {
+     "id": "more_infantry_than_vehicles",
+     "printed": "An Alpha Legion army must include more Infantry type units than Vehicle type units.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "unit_type": "Infantry"
+       }
+      ],
+      "than": [
+       [
+        {
+         "unit_type": "Vehicle"
+        }
+       ]
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "we_are_legion_infiltrate",
+     "printed": "Legionnaire Squads, Chosen Squads, Chaos Champions and Chaos Lords that do not have the Bulky (x) special rule, Bike type, Cavalry type or Terminator keyword gain the Infiltrate special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/chaos_space_marines/roster/legionnaire_squad"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/chosen"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/chaos_champion"
+         },
+         {
+          "datasheet": "codex/chaos_space_marines/roster/chaos_lord"
+         }
+        ]
+       },
+       {
+        "not": {
+         "rule": {
+          "rule": "universal_special_rules/bulky",
+          "name": "Bulky",
+          "param": "x",
+          "url": "https://longwarindex.app/universal_special_rules/bulky/"
+         }
+        }
+       },
+       {
+        "not": {
+         "unit_type": "Bike"
+        }
+       },
+       {
+        "not": {
+         "unit_type": "Cavalry"
+        }
+       },
+       {
+        "not": {
+         "keyword": "Terminator"
+        }
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/infiltrate",
+        "name": "Infiltrate",
+        "url": "https://longwarindex.app/universal_special_rules/infiltrate/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "When an Alpha Legion Warlord would be slain, immediately select another unit in your army with the Character special rule to become your Warlord. The new Warlord immediately generates a new Warlord Trait. You do not count as having your Warlord slain unless all eligible Alpha Legion units in your army have been slain."
+   ],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/alpha_legion/rites_of_war/coils_of_the_hydra",
+   "name": "Coils of the Hydra",
+   "page": 11,
+   "url": "https://longwarindex.app/rites_of_war/coils_of_the_hydra/",
+   "offered_by": {
+    "allegiance": "codex/alpha_legion/allegiances/allegiance_alpha_legion"
+   },
+   "text": "Requirements\n\n- Your army may not include a Daemon Prince.\n- Your army may not include an Allied Detachment.\n- Your army may not include units with the Unique Keyword unless they have the Alpha Legion Keyword.\n- Your army may not include the following units:\n    - Khorne Berzerkers.\n    - Plague Marines.\n    - Noise Marines.\n    - Rubric Marines.\n\nBenefits\n\n- Your army may include units from Codex - Space Marines in your Primary Detachment but all units taken from this Codex gain the Support Squad special rule.\n- Your army may include units from Codex - Imperial Guard in your Primary Detachment but all units taken from this Codex gain the Support Squad special rule.\n- Your army may include units from Codex - Adeptus Mechanicus in your Primary Detachment but all units taken from this Codex gain the Support Squad special rule.\n- All units taken from other Codex's gain the Chaos keyword.",
+   "restrictions": [
+    {
+     "id": "no_daemon_prince",
+     "printed": "Your army may not include a Daemon Prince.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/daemon_prince"
+       }
+      ],
+      "max": 0
+     }
+    },
+    {
+     "id": "no_allied_detachment",
+     "printed": "Your army may not include an Allied Detachment.",
+     "scope": "detachment",
+     "no_allied_detachment": true
+    },
+    {
+     "id": "unique_units_alpha_legion_only",
+     "printed": "Your army may not include units with the Unique Keyword unless they have the Alpha Legion Keyword.",
+     "scope": "detachment",
+     "every_unit": {
+      "of": [
+       {
+        "keyword": "Unique"
+       }
+      ],
+      "must": [
+       {
+        "keyword": "Alpha Legion"
+       }
+      ]
+     }
+    },
+    {
+     "id": "no_cross_legion_troops",
+     "printed": "Your army may not include the following units:",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/world_eaters/roster/khorne_berzerkers"
+         },
+         {
+          "datasheet": "codex/death_guard/roster/plague_marines"
+         },
+         {
+          "datasheet": "codex/emperors_children/roster/noise_marines"
+         },
+         {
+          "datasheet": "codex/thousand_sons/roster/rubric_marines"
+         }
+        ]
+       }
+      ],
+      "max": 0
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "opens_space_marines",
+     "printed": "Your army may include units from Codex - Space Marines in your Primary Detachment but all units taken from this Codex gain the Support Squad special rule.",
+     "opens": [
+      {
+       "faction": "space_marines"
+      }
+     ]
+    },
+    {
+     "id": "space_marines_support_squad",
+     "printed": "Your army may include units from Codex - Space Marines in your Primary Detachment but all units taken from this Codex gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "faction": "space_marines"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "opens_imperial_guard",
+     "printed": "Your army may include units from Codex - Imperial Guard in your Primary Detachment but all units taken from this Codex gain the Support Squad special rule.",
+     "opens": [
+      {
+       "faction": "imperial_guard"
+      }
+     ]
+    },
+    {
+     "id": "imperial_guard_support_squad",
+     "printed": "Your army may include units from Codex - Imperial Guard in your Primary Detachment but all units taken from this Codex gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "faction": "imperial_guard"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "opens_adeptus_mechanicus",
+     "printed": "Your army may include units from Codex - Adeptus Mechanicus in your Primary Detachment but all units taken from this Codex gain the Support Squad special rule.",
+     "opens": [
+      {
+       "faction": "adeptus_mechanicus"
+      }
+     ]
+    },
+    {
+     "id": "adeptus_mechanicus_support_squad",
+     "printed": "Your army may include units from Codex - Adeptus Mechanicus in your Primary Detachment but all units taken from this Codex gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "faction": "adeptus_mechanicus"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "other_codex_chaos_keyword",
+     "printed": "All units taken from other Codex's gain the Chaos keyword.",
+     "keywords": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "faction": "space_marines"
+         },
+         {
+          "faction": "imperial_guard"
+         },
+         {
+          "faction": "adeptus_mechanicus"
+         }
+        ]
+       }
+      ],
+      "add": [
+       "Chaos"
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

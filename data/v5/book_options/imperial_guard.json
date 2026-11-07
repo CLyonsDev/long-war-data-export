@@ -1,0 +1,639 @@
+{
+ "data_version": "f559a3a397c7d730",
+ "format": 1,
+ "faction": "imperial_guard",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule and Infantry type that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule and Infantry type that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_deathmask_of_ollanius/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "unit_type": "Infantry"
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "the_deathmask_of_ollanius",
+     "name": "The Deathmask of Ollanius",
+     "points": 35,
+     "printed": "One unit in your army with the Character special rule and Infantry type that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_deathmask_of_ollanius"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/the_deathmask_of_ollanius/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "unit_type": "Infantry"
+      }
+     ]
+    },
+    {
+     "id": "the_blade_of_conquest",
+     "name": "The Blade of Conquest",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule and Infantry type that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_blade_of_conquest"
+        }
+       ]
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/the_blade_of_conquest/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "unit_type": "Infantry"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 17,
+   "url": "https://longwarindex.app/codex/imperial_guard/warlord_traits/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "imperial_guard/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "draconian_disciplinarian",
+     "name": "Draconian Disciplinarian",
+     "page": 17,
+     "url": "https://longwarindex.app/warlord_traits/draconian_disciplinarian/",
+     "text": "Any unit that draws visibility to this unit or any unit it is attached to (including the Transport this unit is embarked in), may use this Warlord's Leadership (LD) characteristic for Pinning and Panic tests.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "grand_strategist",
+     "name": "Grand Strategist",
+     "page": 17,
+     "url": "https://longwarindex.app/warlord_traits/grand_strategist/",
+     "text": "If your army includes a model with this Warlord trait, during deployment you may give 2 units in your army the Outflank special rule.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "master_of_command",
+     "name": "Master of Command",
+     "page": 17,
+     "url": "https://longwarindex.app/warlord_traits/master_of_command/",
+     "text": "The Warlord gains the Officer (1) special rule. If the Warlord already has the Officer special rule, they increase the value of (X) by 1.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/imperial_guard/special_rules/officer",
+       "name": "Officer",
+       "param": "1",
+       "url": "https://longwarindex.app/special_rules/officer/",
+       "raise_by": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "psychic_powers",
+   "kind": "psychic_powers",
+   "label": "Any Imperial Guard unit with the Psyker (x) special rule may purchase the following Psychic Powers.",
+   "printed": "Any Imperial Guard unit with the Psyker (x) special rule may purchase the following Psychic Powers.",
+   "page": 18,
+   "url": "https://longwarindex.app/codex/imperial_guard/powers/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "assail",
+     "name": "Assail",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/assail/",
+     "text": "The Psyker is equipped with the following Psychic Weapon:\n\n- Assail",
+     "points": 5,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "assail"
+      }
+     ]
+    },
+    {
+     "id": "gaze_of_the_emperor",
+     "name": "Gaze of the Emperor",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/gaze_of_the_emperor/",
+     "text": "The Psyker is equipped with the following Psychic Weapon:\n\n- Gaze of the Emperor",
+     "points": 25,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "gaze_of_the_emperor"
+      }
+     ]
+    },
+    {
+     "id": "mind_shackle",
+     "name": "Mind Shackle",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/mind_shackle/",
+     "text": "When this power is cast, target 1 enemy unit within 18\" of the Psyker. That target unit is immediately Pinned until the start of your next Shooting Phase.",
+     "points": 20,
+     "pricing": "flat"
+    },
+    {
+     "id": "nightshroud",
+     "name": "Nightshroud",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/nightshroud/",
+     "text": "When this power is cast, the Psyker and any unit they are attached to gain the benefit of Heavy Cover until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "psychic_maelstrom",
+     "name": "Psychic Maelstrom",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/psychic_maelstrom/",
+     "text": "When this power is cast, place a single storm marker within 12\" of the Psyker. Each time this Psychic Power is cast, remove any existing storm markers from the battlefield and place a new one within 12\" of the Caster. When casting this Psychic Power, a Psyker can instead move the existing storm marker on a successful Psychic test instead of placing a new marker. The storm marker is moved 2D6\" on a successful Psychic test. Units within 6\" of the storm marker at the end of the Shooting Phase and each Movement Phase take 3D6, Strength 3, AP-, Automatic Hits.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "telekinetic_dome",
+     "name": "Telekinetic Dome",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/telekinetic_dome/",
+     "text": "When this power is cast, the Psyker and any unit they are attached to gain a 5+ Invulnerable save until the start of your next Shooting Phase. If the Psyker remained stationary in the previous Movement Phase, this becomes a 4+ Invulnerable save instead.",
+     "points": 15,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "prayers",
+   "kind": "prayers",
+   "label": "Any Imperial Guard unit with the Priest (x) special rule may purchase the following prayers:",
+   "printed": "Any Imperial Guard unit with the Priest (x) special rule may purchase the following prayers:",
+   "page": 18,
+   "url": "https://longwarindex.app/codex/imperial_guard/powers/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/priest",
+       "name": "Priest",
+       "url": "https://longwarindex.app/universal_special_rules/priest/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/priest",
+     "name": "Priest",
+     "url": "https://longwarindex.app/universal_special_rules/priest/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "litany_of_focus",
+     "name": "Litany of Focus",
+     "page": 19,
+     "url": "https://longwarindex.app/powers/litany_of_focus_imperial_guard/",
+     "text": "When this Prayer is performed, the Priest and any attached unit has the Indomitable Spirit (4+) special rule until the start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_hatred",
+     "name": "Litany of Hatred",
+     "page": 19,
+     "url": "https://longwarindex.app/powers/litany_of_hatred_imperial_guard/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gain the Hatred special rule until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "machine_rites",
+   "kind": "machine_rites",
+   "label": "Any Imperial Guard unit with the Battle Smith (x) special rule may purchase the following Rites:",
+   "printed": "Any Imperial Guard unit with the Battle Smith (x) special rule may purchase the following Rites:",
+   "page": 18,
+   "url": "https://longwarindex.app/codex/imperial_guard/powers/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/battle_smith",
+       "name": "Battle Smith",
+       "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/battle_smith",
+     "name": "Battle Smith",
+     "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "rite_of_immolation",
+     "name": "Rite of Immolation",
+     "page": 19,
+     "url": "https://longwarindex.app/powers/rite_of_immolation_imperial_guard/",
+     "text": "When this Rite is performed successfully, select 1 friendly Walker, Automata, Vehicle, Knight, Fortification or Aircraft unit within 6\" of the unit performing this Rite or the unit performing the Rite is embarked upon. That unit immediately suffers an Explodes result per the 10.1 - Vehicle Damage Chart, even if it would normally not.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_repair",
+     "name": "Rite of Repair",
+     "page": 19,
+     "url": "https://longwarindex.app/powers/rite_of_repair_imperial_guard/",
+     "text": "When this Rite is performed successfully, select one of the following effects:\n\n- Select 1 Walker or Automata unit either within 3\" or attached to the unit that is performing this rite. The target unit Heals 1 wound.\n- Select 1 Vehicle, Aircraft, Knight or Fortification either within 3\", attached to the unit performing this Rite or that this unit is embarked upon. Select 1 weapon that target unit is equipped with that has been destroyed. The chosen weapon is no longer destroyed.\n- Select 1 Vehicle or Knight either within 3\", attached to the unit performing this Rite or that this unit is embarked upon that is immobilized. That unit is no longer immobilized. If the unit has the Super Heavy special rule and was Limping, it is no longer considered to be Limping.",
+     "points": 10,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "infantry_company_krak_grenades",
+   "kind": "upgrade",
+   "label": "Guardsmen Squads in your army may purchase Krak Grenade for all models in the unit for 10pts.",
+   "printed": "Guardsmen Squads in your army may purchase Krak Grenade for all models in the unit for 10pts.",
+   "page": 20,
+   "url": "https://longwarindex.app/rites_of_war/infantry_company/",
+   "offered_by": {
+    "rite": "codex/imperial_guard/rites_of_war/infantry_company"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "datasheet": "codex/imperial_guard/roster/guardsmen_squad"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "krak_grenades",
+     "name": "Krak Grenade",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "weapon",
+       "id": "krak_grenade"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "infantry_company_breacher_charges",
+   "kind": "upgrade",
+   "label": "Veteran Squads in your army may purchase a Breacher Charge for all models in the unit for 10pts.",
+   "printed": "Veteran Squads in your army may purchase a Breacher Charge for all models in the unit for 10pts.",
+   "page": 20,
+   "url": "https://longwarindex.app/rites_of_war/infantry_company/",
+   "offered_by": {
+    "rite": "codex/imperial_guard/rites_of_war/infantry_company"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "datasheet": "codex/imperial_guard/roster/veteran_squad"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "breacher_charges",
+     "name": "Breacher Charge",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "weapon",
+       "id": "breacher_charge"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "airborne_company_grav_chutes",
+   "kind": "upgrade",
+   "label": "Any Infantry, Bike, Vehicle and Walker type units in your army may purchase Grav-Chute wargear for 10pts.",
+   "printed": "Any Infantry, Bike, Vehicle and Walker type units in your army may purchase Grav-Chute wargear for 10pts.",
+   "page": 24,
+   "url": "https://longwarindex.app/rites_of_war/airborne_company/",
+   "offered_by": {
+    "rite": "codex/imperial_guard/rites_of_war/airborne_company"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "any_of": [
+       {
+        "unit_type": "Infantry"
+       },
+       {
+        "unit_type": "Bike"
+       },
+       {
+        "unit_type": "Vehicle"
+       },
+       {
+        "unit_type": "Walker"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "grav_chutes",
+     "name": "Grav-Chute",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "grav_chute"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "airborne_company_tauros_grav_chutes",
+   "kind": "upgrade",
+   "label": "Tauros units may purchase Grav-Chutes for 10pts.",
+   "printed": "Tauros units may purchase Grav-Chutes for 10pts.",
+   "page": 24,
+   "url": "https://longwarindex.app/rites_of_war/airborne_company/",
+   "offered_by": {
+    "rite": "codex/imperial_guard/rites_of_war/airborne_company"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "datasheet": "codex/imperial_guard/roster/tauros"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "grav_chutes",
+     "name": "Grav-Chutes",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "grav_chute"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": [
+  {
+   "id": "training_doctrines",
+   "name": "Training Doctrines",
+   "printed": "select one of the following Training Doctrines for your army to gain",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/unremembered_regiment/",
+   "offered_by": {
+    "allegiance": "codex/imperial_guard/allegiances/unremembered_regiment"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": []
+   },
+   "pick": {
+    "min": 1,
+    "max": 1
+   },
+   "options": [
+    {
+     "id": "blitzkrieg",
+     "name": "Blitzkrieg",
+     "printed": "Vehicle, Bike and Cavalry units in your army gain the Scout special rule. Infantry units gain the Sprint (1) special rule. Infantry units within 6\" of a friendly Vehicle type unit gain the Sprint (2) special rule instead.",
+     "points": 0,
+     "pricing": "flat",
+     "grants": [
+      {
+       "conditions": [
+        {
+         "any_of": [
+          {
+           "unit_type": "Vehicle"
+          },
+          {
+           "unit_type": "Bike"
+          },
+          {
+           "unit_type": "Cavalry"
+          }
+         ]
+        }
+       ],
+       "rules": [
+        {
+         "rule": "universal_special_rules/scout",
+         "name": "Scout",
+         "url": "https://longwarindex.app/universal_special_rules/scout/"
+        }
+       ]
+      },
+      {
+       "conditions": [
+        {
+         "unit_type": "Infantry"
+        }
+       ],
+       "rules": [
+        {
+         "rule": "universal_special_rules/sprint",
+         "name": "Sprint",
+         "param": "1",
+         "url": "https://longwarindex.app/universal_special_rules/sprint/"
+        }
+       ]
+      }
+     ],
+     "game_time": [
+      "Infantry units within 6\" of a friendly Vehicle type unit gain the Sprint (2) special rule instead."
+     ]
+    },
+    {
+     "id": "buzzsaw",
+     "name": "Buzzsaw",
+     "printed": "Units in your army make 1 extra attack with Heavy Stubbers, Linked Heavy Stubbers, Punisher Gatling Cannons, Heavy Bolters and Linked Heavy Bolters they are equipped with.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "Units in your army make 1 extra attack with Heavy Stubbers, Linked Heavy Stubbers, Punisher Gatling Cannons, Heavy Bolters and Linked Heavy Bolters they are equipped with."
+     ]
+    },
+    {
+     "id": "jury_rig",
+     "name": "Jury Rig",
+     "printed": "Vehicle units in army gain the Battle Smith (1) special rule however, these units may only perform the Rite of Repair on themselves.",
+     "points": 0,
+     "pricing": "flat",
+     "grants": [
+      {
+       "conditions": [
+        {
+         "unit_type": "Vehicle"
+        }
+       ],
+       "rules": [
+        {
+         "rule": "universal_special_rules/battle_smith",
+         "name": "Battle Smith",
+         "param": "1",
+         "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+        }
+       ]
+      }
+     ],
+     "game_time": [
+      "these units may only perform the Rite of Repair on themselves."
+     ]
+    },
+    {
+     "id": "wave_tactics",
+     "name": "Wave Tactics",
+     "printed": "At the start of the Movement Phase, you can spend 1 Command Point to rally Conscripts around a squad. Select 1 Conscript Squad within 18\" of a unit with the Officer special rule or as if issuing a Combat Order. The target unit regains D3 slain Conscript models. A Conscript Squad unit may not be targeted by this effect more than once per turn.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "At the start of the Movement Phase, you can spend 1 Command Point to rally Conscripts around a squad. Select 1 Conscript Squad within 18\" of a unit with the Officer special rule or as if issuing a Combat Order. The target unit regains D3 slain Conscript models. A Conscript Squad unit may not be targeted by this effect more than once per turn."
+     ]
+    }
+   ]
+  }
+ ]
+}

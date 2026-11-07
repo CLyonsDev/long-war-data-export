@@ -1,0 +1,866 @@
+{
+ "data_version": "f383923d8e56428e",
+ "format": 1,
+ "faction": "white_scars",
+ "codex": {
+  "id": "codex/white_scars",
+  "name": "White Scars",
+  "page": 3,
+  "url": "https://longwarindex.app/codex/white_scars/",
+  "parent": "space_marines",
+  "army_rules": [
+   {
+    "rule": "codex/white_scars/special_rules/armoury_of_the_5th_legion",
+    "name": "Armoury of the 5th Legion",
+    "url": "https://longwarindex.app/special_rules/armoury_of_the_5th_legion/"
+   },
+   {
+    "rule": "codex/white_scars/special_rules/kharash",
+    "name": "Kharash",
+    "url": "https://longwarindex.app/special_rules/kharash/"
+   }
+  ],
+  "allies": null,
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/white_scars/rites_of_war/chogorian_brotherhood",
+    "codex/white_scars/rites_of_war/the_sagyar_mazan"
+   ],
+   "from_parent": [
+    "codex/space_marines/rites_of_war/drop_pod_assault",
+    "codex/space_marines/rites_of_war/mechanised_assault",
+    "codex/space_marines/rites_of_war/vanguard_support",
+    "codex/space_marines/rites_of_war/pride_of_the_chapter"
+   ],
+   "banned_from_parent": [
+    "codex/space_marines/rites_of_war/armoured_support",
+    "codex/space_marines/rites_of_war/grey_shields"
+   ]
+  },
+  "unit_list": null,
+  "keyword_templates": [
+   {
+    "template": "<Chapter>",
+    "printed": "All units have the <Chapter> keyword. This is replaced with White Scars Keyword.",
+    "substitution": {
+     "value": "White Scars"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/white_scars/allegiances/allegiance_white_scars",
+   "name": "Allegiance: White Scars",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_white_scars/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "keyword_substitution": {
+    "template": "<Chapter>",
+    "value": "White Scars"
+   },
+   "rule": {
+    "rule": "codex/white_scars/allegiances/allegiance_white_scars",
+    "name": "Allegiance: White Scars",
+    "printed": "codex/white_scars/allegiances/allegiance_white_scars",
+    "url": "https://longwarindex.app/allegiances/allegiance_white_scars/"
+   },
+   "unit_list": {
+    "page": 14,
+    "url": "https://longwarindex.app/unit_list/white_scars_unit_list/",
+    "entries": [
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_captain",
+      "printed": "Space Marine Captain",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/lieutenant",
+      "printed": "Lieutenant",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_command_squad",
+      "printed": "Space Marine Command Squad",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/damocles_command_rhino",
+      "printed": "Damocles Command Rhino",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/white_scars/roster/kor_sarro_khan_master_of_the_hunt",
+      "printed": "Kor'sarro Khan, Master of the Hunt",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/white_scars/roster/suboden_khan",
+      "printed": "Suboden Khan",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/white_scars/roster/saghari_chief_stormseer_of_the_white_scars",
+      "printed": "Saghari, Chief Stormseer of the White Scars",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/scouts",
+      "printed": "Scouts",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/tactical_squad",
+      "printed": "Tactical Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/infiltrator_squad",
+      "printed": "Infiltrator Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/veteran_squad",
+      "printed": "Veteran Squad",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/eliminator_squad",
+      "printed": "Eliminator Squad",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/centurions",
+      "printed": "Centurions",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/tactical_terminators",
+      "printed": "Tactical Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/assault_terminators",
+      "printed": "Assault Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/relic_terminators",
+      "printed": "Relic Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/castraferrum_dreadnought",
+      "printed": "Castraferrum Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/contemptor_dreadnought",
+      "printed": "Contemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/redemptor_dreadnought",
+      "printed": "Redemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invictor_tactical_warsuit",
+      "printed": "Invictor Tactical Warsuit",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/white_scars/roster/ebon_keshig_cohort",
+      "printed": "Ebon Keshig Cohort",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/white_scars/roster/falcons_claws",
+      "printed": "Falcon's Claws",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/rhino_apc",
+      "printed": "Rhino APC",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/razorback_ifv",
+      "printed": "Razorback IFV",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder_storm",
+      "printed": "Land Speeder Storm",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/drop_pod",
+      "printed": "Drop Pod",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/impulsor",
+      "printed": "Impulsor",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormhawk_interceptor",
+      "printed": "Stormhawk Interceptor",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormtalon_gunship",
+      "printed": "Stormtalon Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormraven_gunship",
+      "printed": "Stormraven Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_eagle_gunship",
+      "printed": "Storm Eagle Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/bike_squad",
+      "printed": "Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/scout_bike_squad",
+      "printed": "Scout Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/attack_bike_squad",
+      "printed": "Attack Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/assault_marine_squad",
+      "printed": "Assault Marine Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/reiver_squad",
+      "printed": "Reiver Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/incursor_squad",
+      "printed": "Incursor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/inceptor_squad",
+      "printed": "Inceptor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/suppressor_squad",
+      "printed": "Suppressor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invader_atv",
+      "printed": "Invader ATV",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder",
+      "printed": "Land Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_speeder",
+      "printed": "Storm Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/javelin_attack_speeder",
+      "printed": "Javelin Attack Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sabre_strike_tank",
+      "printed": "Sabre Strike Tank",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/white_scars/roster/karaoghlanlar",
+      "printed": "Karaoghlanlar",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/white_scars/roster/kyzagan_assault_speeder",
+      "printed": "Kyzagan Assault Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/devastator_squad",
+      "printed": "Devastator Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/weapon_support_squad",
+      "printed": "Weapon Support Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gravis_support_squad",
+      "printed": "Gravis Support Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/firestrike_servo_turret",
+      "printed": "Firestrike Servo Turret",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/predator_mbt",
+      "printed": "Predator MBT",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_siege_tank",
+      "printed": "Vindicator Siege Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/whirlwind_artillery_tank",
+      "printed": "Whirlwind artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hunter_artillery_tank",
+      "printed": "Hunter Artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stalker_aa_tank",
+      "printed": "Stalker AA Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gladiator_assault_tank",
+      "printed": "Gladiator Assault Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider",
+      "printed": "Land Raider",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_redeemer",
+      "printed": "Land Raider Redeemer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_crusader",
+      "printed": "Land Raider Crusader",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_hifv",
+      "printed": "Repulsor HIFV",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_executioner",
+      "printed": "Repulsor Executioner",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/deredeo_dreadnought",
+      "printed": "Deredeo Dreadnought",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fire_raptor_gunship",
+      "printed": "Fire Raptor Gunship",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_laser_destroyer",
+      "printed": "Vindicator Laser Destroyer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sicaran_heavy_tank",
+      "printed": "Sicaran Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/kratos_super_heavy_tank",
+      "printed": "Kratos Super Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/leviathan_dreadnought",
+      "printed": "Leviathan Dreadnought",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/spartan_assault_tank",
+      "printed": "Spartan Assault Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/astraeus",
+      "printed": "Astraeus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/cerberus",
+      "printed": "Cerberus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/falchion",
+      "printed": "Falchion",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fellblade",
+      "printed": "Fellblade",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/mastodon",
+      "printed": "Mastodon",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/typhon_siege_tank",
+      "printed": "Typhon Siege Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/thunderhawk_gunship",
+      "printed": "Thunderhawk Gunship",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hammerfall_bunker",
+      "printed": "Hammerfall Bunker",
+      "role": "Fortification"
+     }
+    ]
+   },
+   "restrictions": [
+    {
+     "id": "stormspeaker_discipline_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/white_scars/",
+     "printed": "You must use the Stormspeaker Psyker Discipline instead of the core Codex Space Marines Indomitus Psyker Discipline for Psykers in your army.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "psychic_powers"
+       }
+      ]
+     }
+    },
+    {
+     "id": "rites_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/white_scars/",
+     "printed": "You must use the Rites of War presented in this Supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/space_marines/rites_of_war/armoured_support",
+      "codex/space_marines/rites_of_war/grey_shields"
+     ]
+    },
+    {
+     "id": "warlord_traits_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/white_scars/",
+     "printed": "You must use the Warlord traits presented in this Supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "warlord_traits"
+       }
+      ]
+     }
+    },
+    {
+     "id": "unit_list_only",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/white_scars/",
+     "printed": "You may not field the units not listed on the White Scars Unit list in this Codex Supplement.",
+     "scope": "detachment",
+     "unit_list": true
+    },
+    {
+     "id": "relics_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/white_scars/",
+     "printed": "You may not use Relic Wargear from Codex Space Marines and must use the Relic wargear presented in this supplement.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "relics"
+       }
+      ]
+     }
+    },
+    {
+     "id": "more_fast_attack_than_heavy_support",
+     "printed": "Your army must include more Fast Attack choices than Heavy Support choices.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "unit_type": "Fast Attack"
+       }
+      ],
+      "than": [
+       [
+        {
+         "unit_type": "Heavy Support"
+        }
+       ]
+      ]
+     }
+    },
+    {
+     "id": "no_chaplain_librarian_lieutenant",
+     "printed": "Space Marine Lieutenants in your army may not purchase the Chaplain or Librarian options.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "choices": [
+       {
+        "page": "codex/space_marines/roster/lieutenant",
+        "path": "upgrades/chaplain"
+       },
+       {
+        "page": "codex/space_marines/roster/lieutenant",
+        "path": "upgrades/librarian"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "swift_death_hit_and_run",
+     "printed": "White Scars units gain the Hit & Run special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "White Scars"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/hit_and_run",
+        "name": "Hit & Run",
+        "url": "https://longwarindex.app/universal_special_rules/hit_and_run/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "swift_death_skilled_rider",
+     "printed": "White Scars units gain the Skilled Rider special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "White Scars"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/skilled_rider",
+        "name": "Skilled Rider",
+        "url": "https://longwarindex.app/universal_special_rules/skilled_rider/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "dreadnought_centurion_limited",
+     "printed": "All Dreadnought Keyword units and Centurion units gain the Limited: 1 Per Detachment special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "keyword": "Dreadnought"
+         },
+         {
+          "keyword": "Centurion"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "battlefield_roles/limited",
+        "name": "18.3 - Limited",
+        "param": "1 Per Detachment",
+        "printed": "Limited: 1 Per Detachment",
+        "url": "https://longwarindex.app/battlefield_roles/limited/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/white_scars/rites_of_war/chogorian_brotherhood",
+   "name": "Chogorian Brotherhood",
+   "page": 12,
+   "url": "https://longwarindex.app/rites_of_war/chogorian_brotherhood/",
+   "offered_by": {
+    "allegiance": "codex/white_scars/allegiances/allegiance_white_scars"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 2 units of Bike Squads.\n- Your Warlord must be a Space Marine Captain.\n- Devastator Squads, Weapon Support Squads and Gravis Support Squads become Limited: 1 Per Detachment.\n- You may not field Fire Strike Servo Turrets and Tech-Marines may not purchase Thunderfire Cannons.\n\nBenefits\n\n- You may field Bike Squads as Troops choices.\n- You may field 1 Attack Bike or Invader ATV unit per Bike Squad in your army without taking up a Force Organization Slot.\n- Veteran Squad units in your army instead of purchasing Jump Packs may purchase Bikes for 5pts per model.",
+   "restrictions": [
+    {
+     "id": "no_tech_marine_thunderfire_cannon",
+     "printed": "Tech-Marines may not purchase Thunderfire Cannons.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "choices": [
+       {
+        "page": "codex/space_marines/special_rules/tech_marine",
+        "path": "thunderfire_cannon/thunderfire_cannon"
+       }
+      ]
+     }
+    },
+    {
+     "id": "bike_squads_min",
+     "printed": "Your army must include at least 2 units of Bike Squads.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/bike_squad"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "warlord_space_marine_captain",
+     "printed": "Your Warlord must be a Space Marine Captain.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/space_marine_captain"
+       }
+      ]
+     }
+    },
+    {
+     "id": "no_firestrike_turret",
+     "printed": "You may not field Fire Strike Servo Turrets",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/firestrike_servo_turret"
+       }
+      ],
+      "max": 0
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "devastator_weapon_gravis_limited",
+     "printed": "Devastator Squads, Weapon Support Squads and Gravis Support Squads become Limited: 1 Per Detachment.",
+     "rules": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/space_marines/roster/devastator_squad"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/weapon_support_squad"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/gravis_support_squad"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "battlefield_roles/limited",
+        "name": "18.3 - Limited",
+        "param": "1 Per Detachment",
+        "printed": "Limited: 1 Per Detachment",
+        "url": "https://longwarindex.app/battlefield_roles/limited/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "bike_squads_troops",
+     "printed": "You may field Bike Squads as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/bike_squad"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "attack_bike_invader_atv_per_bike_squad",
+     "printed": "You may field 1 Attack Bike or Invader ATV unit per Bike Squad in your army without taking up a Force Organization Slot.",
+     "unslotted": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/space_marines/roster/attack_bike_squad"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/invader_atv"
+         }
+        ]
+       }
+      ],
+      "count": 1,
+      "per_unit": [
+       {
+        "datasheet": "codex/space_marines/roster/bike_squad"
+       }
+      ]
+     }
+    },
+    {
+     "id": "veteran_squad_bikes",
+     "printed": "Veteran Squad units in your army instead of purchasing Jump Packs may purchase Bikes for 5pts per model.",
+     "options": [
+      {
+       "book_options": "white_scars",
+       "group": "veteran_squad_bikes"
+      }
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/white_scars/rites_of_war/the_sagyar_mazan",
+   "name": "The Sagyar Mazan",
+   "page": 13,
+   "url": "https://longwarindex.app/rites_of_war/the_sagyar_mazan/",
+   "offered_by": {
+    "allegiance": "codex/white_scars/allegiances/allegiance_white_scars"
+   },
+   "text": "Restrictions\n\n- All units in your army must have the Kharash special rule.\n- Your army may not include a unit with the Captain Keyword.\n- No units in your army may be placed in Outflank or Deep Strike.\n\nBenefits\n\n- You may field Ebon Keshig Cohorts as Troops choices.\n- Any Infantry, Bike, Jetbike or Cavalry unit in your army may purchase the Kharash special rule for 10pts per unit.\n- Centurion units ignore the Limited: 1 Per Detachment special rule (see Core Traits).",
+   "restrictions": [
+    {
+     "id": "all_units_kharash",
+     "printed": "All units in your army must have the Kharash special rule.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "rule": {
+         "rule": "codex/white_scars/special_rules/kharash",
+         "name": "Kharash",
+         "url": "https://longwarindex.app/special_rules/kharash/"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "no_captain_keyword",
+     "printed": "Your army may not include a unit with the Captain Keyword.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Captain"
+       }
+      ],
+      "max": 0
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "ebon_keshig_cohorts_troops",
+     "printed": "You may field Ebon Keshig Cohorts as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/white_scars/roster/ebon_keshig_cohort"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "kharash_purchase",
+     "printed": "Any Infantry, Bike, Jetbike or Cavalry unit in your army may purchase the Kharash special rule for 10pts per unit.",
+     "options": [
+      {
+       "book_options": "white_scars",
+       "group": "sagyar_mazan_kharash"
+      }
+     ]
+    },
+    {
+     "id": "centurions_ignore_limited",
+     "printed": "Centurion units ignore the Limited: 1 Per Detachment special rule (see Core Traits).",
+     "suppress_rules": {
+      "conditions": [
+       {
+        "keyword": "Centurion"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "battlefield_roles/limited",
+        "name": "18.3 - Limited",
+        "param": "1 Per Detachment",
+        "printed": "Limited: 1 Per Detachment",
+        "url": "https://longwarindex.app/battlefield_roles/limited/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "No units in your army may be placed in Outflank or Deep Strike."
+   ],
+   "unencoded": []
+  }
+ ]
+}

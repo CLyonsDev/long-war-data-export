@@ -1,0 +1,2349 @@
+{
+ "data_version": "bfb5dd17c519753f",
+ "format": 1,
+ "faction": "emperors_children",
+ "units": [
+  {
+   "id": "codex/emperors_children/roster/flawless_blades",
+   "name": "Flawless Blades",
+   "page": 20,
+   "url": "https://longwarindex.app/roster/flawless_blades/",
+   "source": "Codex Supplement: Emperor's Children",
+   "role": "Elites",
+   "points": 160,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "flawless_blade",
+     "name": "Flawless Blade",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 5,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "blissblade"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_slaanesh",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    },
+    {
+     "id": "flawless_champion",
+     "name": "Flawless Champion",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 5,
+      "Ld": 9,
+      "Sv": "3+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "blissblade"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_slaanesh",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "flawless_blade",
+     "count": 2
+    },
+    {
+     "profile": "flawless_champion",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/emperors_children/allegiances/allegiance_emperors_children",
+     "name": "Allegiance: Emperor's Children",
+     "url": "https://longwarindex.app/allegiances/allegiance_emperors_children/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "universal_special_rules/sudden_strike",
+     "name": "Sudden Strike",
+     "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+    },
+    {
+     "rule": "codex/emperors_children/special_rules/perfect_form",
+     "name": "Perfect Form",
+     "url": "https://longwarindex.app/special_rules/perfect_form/"
+    },
+    {
+     "rule": "universal_special_rules/counter_attack",
+     "name": "Counter Attack",
+     "url": "https://longwarindex.app/universal_special_rules/counter_attack/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Emperor's Children",
+    "Flawless Blades",
+    "Veterans",
+    "Slaanesh",
+    "M31"
+   ],
+   "size": {
+    "min": 3,
+    "max": 10
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 7 Flawless Blade models in this unit (+43pts each)",
+     "printed": "You may include an additional 7 Flawless Blade models in this unit for 43pts each.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "flawless_blade",
+       "name": "Flawless Blade",
+       "points": 43,
+       "pricing": "each",
+       "max": 7,
+       "add_model": {
+        "profile": "flawless_blade",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "jump_packs",
+     "label": "The unit may take Jump Packs (+3pts per model)",
+     "printed": "The unit may take Jump Packs for 3pts per model.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "jump_packs",
+       "name": "Jump Packs",
+       "points": 3,
+       "pricing": "per_model",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "jump_pack",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "combat_drugs",
+     "label": "The unit may purchase Combat Drugs (+20pts)",
+     "printed": "The unit may purchase Combat Drugs for 20pts.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "combat_drugs",
+       "name": "Combat Drugs",
+       "points": 20,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "combat_drugs"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "blissblades",
+     "label": "Any model may exchange their Blissblades for one of the following:",
+     "printed": "Any model may exchange their Blissblades for one of the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "bliss_spear",
+       "name": "Bliss Spear",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "blissblade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "bliss_spear"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "blissblade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_maul",
+       "name": "Power Maul",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "blissblade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_maul",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "blissblade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "champion_bolt_pistol",
+     "label": "The Champion may exchange their Bolt Pistol for a Plasma Pistol (+5pts)",
+     "printed": "The Champion may exchange their Bolt Pistol for a Plasma Pistol for 5pts.",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "flawless_champion"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "champion_wargear",
+     "label": "The Champion may take any of the follow:",
+     "printed": "The Champion may take any of the follow:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "flawless_champion"
+      ]
+     },
+     "pick": {},
+     "choices": [
+      {
+       "id": "melta_bomb",
+       "name": "Melta Bomb",
+       "points": 5,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "melta_bomb",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      },
+      {
+       "id": "sonic_shrieker",
+       "name": "Sonic Shrieker",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "sonic_shrieker"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/emperors_children/roster/fulgrim_daemon_primarch_of_the_emperors_children",
+   "name": "Fulgrim, Daemon Primarch of the Emperor's Children",
+   "page": 18,
+   "url": "https://longwarindex.app/roster/fulgrim_daemon_primarch_of_the_emperors_children/",
+   "source": "Codex Supplement: Emperor's Children",
+   "role": "HQ",
+   "points": 335,
+   "unit_type": "Primarch",
+   "profiles": [
+    {
+     "id": "fulgrim_daemon_primarch_of_the_emperors_children",
+     "name": "Fulgrim, Daemon Primarch of the Emperor's Children",
+     "template": "unit",
+     "characteristics": {
+      "M": "13\"",
+      "WS": 8,
+      "BS": 6,
+      "S": 7,
+      "T": 7,
+      "W": 6,
+      "A": 6,
+      "I": 8,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "the_gilded_panoply"
+      },
+      {
+       "kind": "weapon",
+       "id": "blades_of_excess"
+      },
+      {
+       "kind": "weapon",
+       "id": "spear_of_slaanesh"
+      },
+      {
+       "kind": "weapon",
+       "id": "scything_tail"
+      },
+      {
+       "kind": "wargear",
+       "id": "wings",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_slaanesh",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "fulgrim_daemon_primarch_of_the_emperors_children",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/emperors_children/allegiances/allegiance_emperors_children",
+     "name": "Allegiance: Emperor's Children",
+     "url": "https://longwarindex.app/allegiances/allegiance_emperors_children/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "printed": "Master of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "4",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/battle_hardened",
+     "name": "Battle-Hardened",
+     "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/daemon",
+     "name": "Daemon",
+     "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/sudden_strike",
+     "name": "Sudden Strike",
+     "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "codex/emperors_children/special_rules/enthralling_hypnosis",
+     "name": "Enthralling Hypnosis",
+     "url": "https://longwarindex.app/special_rules/enthralling_hypnosis/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/emperors_children/special_rules/primarch_of_the_iii",
+     "name": "Primarch of the III",
+     "url": "https://longwarindex.app/special_rules/primarch_of_the_iii/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Emperor's Children",
+    "Daemon Prince",
+    "Daemon",
+    "Fulgrim, Daemon Primarch of the Emperor's Children",
+    "Primarch",
+    "Psyker",
+    "Unique",
+    "Slaanesh",
+    "M31"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "pain_whip",
+     "label": "Fulgrim may exchange his Spear of Slaanesh for The Pain Whip (+0pts)",
+     "printed": "Fulgrim may exchange his Spear of Slaanesh for The Pain Whip for 0pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "pain_whip",
+       "name": "The Pain Whip",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "spear_of_slaanesh"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "pain_whip"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/emperors_children/roster/lord_commander_eidolon_the_resurrected",
+   "name": "Lord Commander Eidolon, The Resurrected",
+   "page": 15,
+   "url": "https://longwarindex.app/roster/lord_commander_eidolon_the_resurrected/",
+   "source": "Codex Supplement: Emperor's Children",
+   "role": "HQ",
+   "points": 150,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "lord_commander_eidolon_the_resurrected",
+     "name": "Lord Commander Eidolon, the Resurrected",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 6,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 6,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "warp_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "jump_pack",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "glory_aeterna"
+      },
+      {
+       "kind": "wargear",
+       "id": "sonic_shrieker"
+      },
+      {
+       "kind": "wargear",
+       "id": "chaos_sigil",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_slaanesh",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "lord_commander_eidolon_the_resurrected",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/emperors_children/allegiances/allegiance_emperors_children",
+     "name": "Allegiance: Emperor's Children",
+     "url": "https://longwarindex.app/allegiances/allegiance_emperors_children/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "codex/emperors_children/special_rules/the_auric_hammer",
+     "name": "The Auric Hammer",
+     "url": "https://longwarindex.app/special_rules/the_auric_hammer/"
+    },
+    {
+     "rule": "codex/emperors_children/special_rules/perfect_form",
+     "name": "Perfect Form",
+     "url": "https://longwarindex.app/special_rules/perfect_form/"
+    },
+    {
+     "rule": "universal_special_rules/sudden_strike",
+     "name": "Sudden Strike",
+     "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/emperors_children/special_rules/euphoric_madness_of_pain",
+     "name": "Euphoric Madness of Pain",
+     "url": "https://longwarindex.app/special_rules/euphoric_madness_of_pain/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Emperor's Children",
+    "Chaos Lord",
+    "Lord Commander Eidolon, the Resurrected",
+    "Unique",
+    "Slaanesh",
+    "M31"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/emperors_children/roster/lucius_the_eternal",
+   "name": "Lucius The Eternal",
+   "page": 16,
+   "url": "https://longwarindex.app/roster/lucius_the_eternal/",
+   "source": "Codex Supplement: Emperor's Children",
+   "role": "HQ",
+   "points": 145,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "lucius_the_eternal",
+     "name": "Lucius The Eternal",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 7,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 6,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "armour_of_shrieking_souls"
+      },
+      {
+       "kind": "weapon",
+       "id": "duellists_sword"
+      },
+      {
+       "kind": "weapon",
+       "id": "lash_of_torment"
+      },
+      {
+       "kind": "weapon",
+       "id": "doom_siren"
+      },
+      {
+       "kind": "wargear",
+       "id": "chaos_sigil",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_slaanesh",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "lucius_the_eternal",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/emperors_children/allegiances/allegiance_emperors_children",
+     "name": "Allegiance: Emperor's Children",
+     "url": "https://longwarindex.app/allegiances/allegiance_emperors_children/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "universal_special_rules/sudden_strike",
+     "name": "Sudden Strike",
+     "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+    },
+    {
+     "rule": "codex/emperors_children/special_rules/perfect_form",
+     "name": "Perfect Form",
+     "url": "https://longwarindex.app/special_rules/perfect_form/"
+    },
+    {
+     "rule": "universal_special_rules/fear",
+     "name": "Fear",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/fear/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/emperors_children/special_rules/the_perfect_swordsman",
+     "name": "The Perfect Swordsman",
+     "url": "https://longwarindex.app/special_rules/the_perfect_swordsman/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Emperor's Children",
+    "Chaos Lord",
+    "Lucius the Eternal",
+    "Unique",
+    "Slaanesh",
+    "M31"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/emperors_children/roster/noise_marines",
+   "name": "Noise Marines",
+   "page": 19,
+   "url": "https://longwarindex.app/roster/noise_marines/",
+   "source": "Codex Supplement: Emperor's Children",
+   "role": "Troops",
+   "points": 90,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "noise_marine",
+     "name": "Noise Marine",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 1,
+      "A": 1,
+      "I": 5,
+      "Ld": 7,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "sonic_blaster"
+      },
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_slaanesh",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    },
+    {
+     "id": "aspiring_champion",
+     "name": "Aspiring Champion",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 1,
+      "A": 2,
+      "I": 5,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "chainsword",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_slaanesh",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "noise_marine",
+     "count": 4
+    },
+    {
+     "profile": "aspiring_champion",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/emperors_children/allegiances/allegiance_emperors_children",
+     "name": "Allegiance: Emperor's Children",
+     "url": "https://longwarindex.app/allegiances/allegiance_emperors_children/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "universal_special_rules/sudden_strike",
+     "name": "Sudden Strike",
+     "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Despoiler",
+    "Emperor's Children",
+    "Noise Marines",
+    "Slaanesh",
+    "M31"
+   ],
+   "size": {
+    "min": 5,
+    "max": 10
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 5 Noise Marine models in this unit (+16pts each)",
+     "printed": "You may include an additional 5 Noise Marine models in this unit for 16pts each.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "noise_marine",
+       "name": "Noise Marine",
+       "points": 16,
+       "pricing": "each",
+       "max": 5,
+       "add_model": {
+        "profile": "noise_marine",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "blastmaster",
+     "label": "1 in every 4 Noise Marine models may exchange their Sonic Blaster for a Blast Master (+15pts)",
+     "printed": "1 in every 4 Noise Marine models may exchange their Sonic Blaster for a Blast Master for 15pts.",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 4,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "blastmaster",
+       "name": "Blast Master",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "sonic_blaster"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "blastmaster"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "icon_of_chaos",
+     "label": "One model in the unit may take an Icon of Chaos (+10pts)",
+     "printed": "One model in the unit may take an Icon of Chaos for 10pts.",
+     "takers": {
+      "scope": "models",
+      "max": 1
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "icon_of_chaos",
+       "name": "Icon of Chaos",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "icon_of_chaos",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "champion_bolt_pistol",
+     "label": "The Champion may exchange their Bolt Pistol for one of the following:",
+     "printed": "The Champion may exchange their Bolt Pistol for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "aspiring_champion"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "screamer_pistol",
+       "name": "Screamer Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "screamer_pistol"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "champion_chainsword",
+     "label": "The Champion may exchange their Chainsword for one of the following:",
+     "printed": "The Champion may exchange their Chainsword for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "aspiring_champion"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_sword",
+       "name": "Power Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_lance",
+       "name": "Power Lance",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_lance",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_maul",
+       "name": "Power Maul",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_maul",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "champion_doom_siren",
+     "label": "The Champion may take a Doom Siren (+15pts)",
+     "printed": "The Champion may take a Doom Siren for 15pts.",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "aspiring_champion"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "doom_siren",
+       "name": "Doom Siren",
+       "points": 15,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "doom_siren"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/emperors_children/roster/sonic_castraferrum_dreadnought",
+   "name": "Sonic Castraferrum Dreadnought",
+   "page": 21,
+   "url": "https://longwarindex.app/roster/sonic_castraferrum_dreadnought/",
+   "source": "Codex Supplement: Emperor's Children",
+   "role": "Elites",
+   "points": 135,
+   "unit_type": "Walker",
+   "profiles": [
+    {
+     "id": "sonic_castraferrum_dreadnought",
+     "name": "Sonic Castraferrum Dreadnought",
+     "template": "unit",
+     "characteristics": {
+      "M": "8\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 6,
+      "T": 7,
+      "W": 4,
+      "A": 3,
+      "I": 5,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "dreadnought_close_combat_weapon",
+       "faction": "chaos_space_marines",
+       "count": 1
+      },
+      {
+       "kind": "weapon",
+       "id": "combi_bolter",
+       "faction": "chaos_space_marines",
+       "count": 1
+      },
+      {
+       "kind": "weapon",
+       "id": "linked_sonic_blaster"
+      },
+      {
+       "kind": "wargear",
+       "id": "dreadnought_plate",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "doom_siren"
+      },
+      {
+       "kind": "wargear",
+       "id": "sonic_shrieker"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_slaanesh",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "sonic_castraferrum_dreadnought",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/emperors_children/allegiances/allegiance_emperors_children",
+     "name": "Allegiance: Emperor's Children",
+     "url": "https://longwarindex.app/allegiances/allegiance_emperors_children/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/sudden_strike",
+     "name": "Sudden Strike",
+     "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+    },
+    {
+     "rule": "universal_special_rules/slow_and_purposeful",
+     "name": "Slow and Purposeful",
+     "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Despoiler",
+    "Emperor's Children",
+    "Sonic Dreadnought",
+    "Dreadnought",
+    "Slaanesh",
+    "M31"
+   ],
+   "stocks": [
+    {
+     "item": {
+      "kind": "weapon",
+      "id": "combi_bolter",
+      "faction": "chaos_space_marines"
+     },
+     "count": 1,
+     "groups": [
+      "flamer",
+      "meltagun",
+      "arm"
+     ]
+    }
+   ],
+   "options": [
+    {
+     "id": "flamer",
+     "label": "A Dreadnought may exchange any of its Combi Bolters for Flamers (+5pts)",
+     "printed": "A Dreadnought may exchange any of its Combi Bolters for Flamers for 5pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "flamer",
+       "name": "Flamers",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "flamer",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "combi_bolter",
+         "faction": "chaos_space_marines"
+        },
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "meltagun",
+     "label": "A Dreadnought may exchange any of its Combi Bolters for a Meltagun (+15pts)",
+     "printed": "A Dreadnought may exchange any of its Combi Bolters for a Meltagun for 15pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "meltagun",
+       "name": "Meltagun",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "meltagun",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "combi_bolter",
+         "faction": "chaos_space_marines"
+        },
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "arm",
+     "label": "A Dreadnought may exchange its Dreadnought Close Combat weapons & Combi Bolter for one of the following:",
+     "printed": "A Dreadnought may exchange its Dreadnought Close Combat weapons & Combi Bolter for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "assault_cannon",
+       "name": "An Assault Cannon",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "assault_cannon",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "combi_bolter",
+         "faction": "chaos_space_marines"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "multi_melta",
+       "name": "A Multi-Melta",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "multi_melta",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "combi_bolter",
+         "faction": "chaos_space_marines"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "cyclone_missile_launcher",
+       "name": "A Cyclone Missile Launcher",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "cyclone_missile_launcher",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "combi_bolter",
+         "faction": "chaos_space_marines"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "linked_lascannon",
+       "name": "A Linked lascannons",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "linked_lascannon",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "combi_bolter",
+         "faction": "chaos_space_marines"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "plasma_cannon",
+       "name": "A Plasma Cannon",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_cannon",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "combi_bolter",
+         "faction": "chaos_space_marines"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "linked_autocannon",
+       "name": "A Linked Autocannon",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "linked_autocannon",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "combi_bolter",
+         "faction": "chaos_space_marines"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "linked_heavy_bolter",
+       "name": "A Linked Heavy Bolter",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "linked_heavy_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "combi_bolter",
+         "faction": "chaos_space_marines"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "heavy_flamer",
+       "name": "A Heavy Flamer",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "combi_bolter",
+         "faction": "chaos_space_marines"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "chainfist_meltagun",
+       "name": "A Chainfist & Meltagun",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chainfist",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "meltagun",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "combi_bolter",
+         "faction": "chaos_space_marines"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "chainfist_flamer",
+       "name": "A Chainfist & Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chainfist",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "flamer",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "combi_bolter",
+         "faction": "chaos_space_marines"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "blastmaster",
+       "name": "A Blastmaster",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "blastmaster"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "combi_bolter",
+         "faction": "chaos_space_marines"
+        },
+        "count": 1
+       }
+      },
+      {
+       "id": "linked_sonic_blaster",
+       "name": "A Linked Sonic Blaster",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "linked_sonic_blaster"
+          }
+         ]
+        }
+       ],
+       "spends": {
+        "item": {
+         "kind": "weapon",
+         "id": "combi_bolter",
+         "faction": "chaos_space_marines"
+        },
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "blastmaster",
+     "label": "A Dreadnought can exchange its Linked Sonic Blaster for a Blastmaster (+15pts)",
+     "printed": "A Dreadnought can exchange its Linked Sonic Blaster for a Blastmaster for 15pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "blastmaster",
+       "name": "Blastmaster",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "linked_sonic_blaster"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "blastmaster"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/emperors_children/roster/the_doomrider",
+   "name": "The DOOMRIDER",
+   "page": 17,
+   "url": "https://longwarindex.app/roster/the_doomrider/",
+   "source": "Codex Supplement: Emperor's Children",
+   "role": "HQ",
+   "points": 230,
+   "unit_type": "Bike",
+   "profiles": [
+    {
+     "id": "the_doomrider",
+     "name": "The DOOMRIDER",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 6,
+      "BS": 6,
+      "S": 6,
+      "T": 6,
+      "W": 5,
+      "A": 5,
+      "I": 6,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "warp_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "daemonic_bike"
+      },
+      {
+       "kind": "weapon",
+       "id": "cruel_daemon_sword"
+      },
+      {
+       "kind": "weapon",
+       "id": "infernal_warp_bolters"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_slaanesh",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "the_doomrider",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/emperors_children/allegiances/allegiance_emperors_children",
+     "name": "Allegiance: Emperor's Children",
+     "url": "https://longwarindex.app/allegiances/allegiance_emperors_children/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "universal_special_rules/sudden_strike",
+     "name": "Sudden Strike",
+     "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/daemon",
+     "name": "Daemon",
+     "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/hit_and_run",
+     "name": "Hit & Run",
+     "url": "https://longwarindex.app/universal_special_rules/hit_and_run/"
+    },
+    {
+     "rule": "codex/emperors_children/special_rules/trails_of_screaming_fire",
+     "name": "Trails of Screaming Fire",
+     "url": "https://longwarindex.app/special_rules/trails_of_screaming_fire/"
+    },
+    {
+     "rule": "codex/emperors_children/special_rules/excess_of_speed",
+     "name": "Excess of Speed",
+     "url": "https://longwarindex.app/special_rules/excess_of_speed/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/emperors_children/special_rules/follow_the_doomrider",
+     "name": "Follow the DOOMRIDER",
+     "url": "https://longwarindex.app/special_rules/follow_the_doomrider/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Emperor's Children",
+    "Daemon",
+    "Daemon Prince",
+    "The DOOMRIDER",
+    "Unique",
+    "Slaanesh",
+    "M31"
+   ],
+   "stocks": [],
+   "options": []
+  }
+ ]
+}

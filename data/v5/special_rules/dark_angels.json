@@ -1,0 +1,745 @@
+{
+ "data_version": "5c4334c9d226a90e",
+ "format": 1,
+ "faction": "dark_angels",
+ "special_rules": [
+  {
+   "id": "codex/dark_angels/allegiances/allegiance_dark_angels",
+   "name": "Allegiance: Dark Angels",
+   "kind": "allegiance",
+   "page": 4,
+   "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/",
+   "references": [
+    "codex/dark_angels/special_rules/deathwing",
+    "codex/dark_angels/special_rules/ravenwing",
+    "universal_special_rules/character",
+    "codex/space_marines/special_rules/chapter_master"
+   ],
+   "text": "All units with the Dark Angels Keyword gain the Allegiance: Dark Angels special rule. The Allegiance: Dark Angels special rule consists of the following rules:\n\n- Intractable: Dark Angels units gain the following:\n    - Dark Angels Infantry, Vehicles & Walker units always count as controlling an Objective regardless of how many enemy models are contesting it.\n    - Dark Angels Veteran units gain the Deathwing special rule (see rules Appendix).\n    - Dark Angels Bike, Jetbike, Aircraft, Cavalry gain the Ravenwing special rule (see rules appendix).\n- The Unforgiven:\n    - A Dark Angels army may not include an Allied detachment. In addition, during deployment randomly select 1 enemy unit in your opponent's army with the Character special rule. If that model is slain in the Combat Phase by wound inflicted by a Dark Angels unit, the Dark Angels player gains D3 Victory points. If the chosen unit is slain by any other means or is not slain during the battle, the Dark Angels player loses D3 Victory Points.\n    - Dark Angels Space Marine Captains may not purchase the Chapter Master Upgrade."
+  },
+  {
+   "id": "codex/dark_angels/special_rules/deathwing",
+   "name": "Deathwing",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/deathwing/",
+   "references": [
+    "universal_special_rules/stubborn",
+    "special_rules/parry",
+    "codex/dark_angels/special_rules/inner_circle"
+   ],
+   "text": "A unit with this special rule gains the Stubborn special rule. In addition, the unit gains the Parry special rule on all Melee weapons it is equipped with. A unit with this special rule can only be joined by units with the Inner Circle or Deathwing special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     }
+    ],
+    "weapon_rules": [
+     {
+      "rule": "special_rules/parry",
+      "name": "Parry",
+      "url": "https://longwarindex.app/special_rules/parry/",
+      "weapon_types": [
+       "Melee"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/dark_angels/special_rules/inner_circle",
+   "name": "Inner Circle",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/inner_circle/",
+   "references": [
+    "universal_special_rules/hatred"
+   ],
+   "text": "A unit with this special can only be joined by other units with the Inner Circle special rule. A unit with this special rule has the Hatred (Chaos) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "param": "Chaos",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/dark_angels/special_rules/ravenwing",
+   "name": "Ravenwing",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/ravenwing/",
+   "references": [
+    "universal_special_rules/skilled_rider",
+    "universal_special_rules/crusader",
+    "codex/dark_angels/special_rules/inner_circle"
+   ],
+   "text": "A unit with this special gains the Skilled Riders & Crusader special rules. A unit with this special rule can only be joined by units with the Inner Circle or Ravenwing special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/skilled_rider",
+      "name": "Skilled Rider",
+      "url": "https://longwarindex.app/universal_special_rules/skilled_rider/"
+     },
+     {
+      "rule": "universal_special_rules/crusader",
+      "name": "Crusader",
+      "url": "https://longwarindex.app/universal_special_rules/crusader/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/dark_angels/special_rules/armoury_of_the_1st_legion",
+   "name": "Armoury of the 1st Legion",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_1st_legion/",
+   "references": [
+    "codex/dark_angels/allegiances/allegiance_dark_angels",
+    "codex/space_marines/special_rules/chapter_master",
+    "codex/dark_angels/special_rules/deathwing_strike_master",
+    "codex/dark_angels/special_rules/ravenwing_talon_master",
+    "codex/space_marines/special_rules/chaplain",
+    "codex/dark_angels/special_rules/interrogator_chaplain",
+    "codex/dark_angels/special_rules/deathwing",
+    "universal_special_rules/character"
+   ],
+   "text": "Units with Allegiance: Dark Angels have access to additional options presented in this supplement in addition to the Wargear presented in the core Codex - Space Marines.\n\nSpace Marine Captain Upgrades\n\nA Dark Angels Space Marine Captain may purchase one of the following instead of the Chapter Master upgrade:\n\n- Deathwing Strike Master for 35pts.\n- Ravenwing Talon Master for 40pts.\n\nSpace Marine Lieutenant Upgrades\n\nWhen a Dark Angels Space Marine Lieutenant purchases the Chaplain option and is upgraded to a Chaplain, it may instead be upgraded to an Interrogator Chaplain instead for 45pts.\n\nDreadnought Upgrades\n\nA Dark Angels Dreadnought may be upgraded to gain the Deathwing special rule for 10pts.\n\nVehicle Upgrades\n\nAny Dark Angels vehicle type unit with the Transport special rule may be upgraded to gain the Veteran keyword for 10pts.\n\nWargear\n\nAny Dark Angels Captain unit may take a Watcher in the Dark for 10pts.\n\nWeapons\n\nAny Dark Angels Captain unit may:\n\n- Exchange their equipped Power Sword for a Terranic Great Sword for 10pts.\n\nAny Dark Angels Captain unit may:\n\n- Exchange their equipped Frag Grenades for a Stasis Grenade for 10pts.\n\nAny Dark Angels Veteran Squad may exchange their Dragonfire Boltgun for an Astartes Shotgun (Stasis Shells) for 10pts.\n\nA Dark Angels Veteran Squad may exchange their equipped Plasma Gun for a Plasma Burner for 20pts.\n\nAny Dark Angels model with the Character special rule may:\n\n- Exchange their equipped Power Sword for a Calabanite Blade for 5pts."
+  },
+  {
+   "id": "codex/dark_angels/special_rules/deathwing_strike_master",
+   "name": "Deathwing Strike Master",
+   "kind": "datasheet",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/deathwing_strike_master/",
+   "references": [
+    "universal_special_rules/battle_hardened",
+    "codex/dark_angels/special_rules/inner_circle",
+    "codex/dark_angels/special_rules/deathwing"
+   ],
+   "text": "The Captain gains the Battle-Hardened, Inner Circle and Deathwing special rules. In addition, the Captain exchanges their Chainsword, Bolt Pistol, Frag Grenades, Krak Grenades and Power Armour for a Calabanite Blade, Indomitus Terminator Armour and Storm Bolter.\n\n- The Strike Master may exchange their Calabanite Blade for one of the following:\n    - Mace of Absolution for 10pts.\n    - Terranic Greatsword for 15pts.\n    - Relic Blade for 15pts.\n    - Thunder Hammer for 15pts.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     },
+     {
+      "rule": "codex/dark_angels/special_rules/inner_circle",
+      "name": "Inner Circle",
+      "url": "https://longwarindex.app/special_rules/inner_circle/"
+     },
+     {
+      "rule": "codex/dark_angels/special_rules/deathwing",
+      "name": "Deathwing",
+      "url": "https://longwarindex.app/special_rules/deathwing/"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "chainsword",
+        "faction": "space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "bolt_pistol",
+        "faction": "space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "frag_grenades",
+        "faction": "space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "krak_grenade",
+        "faction": "space_marines"
+       },
+       {
+        "kind": "wargear",
+        "id": "power_armour",
+        "faction": "space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "boltgun",
+        "faction": "space_marines"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "calabanite_blade"
+       },
+       {
+        "kind": "wargear",
+        "id": "indomitus_terminator_armour",
+        "faction": "space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "storm_bolter",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "printed": {
+    "exchanges": "In addition, the Captain exchanges their Chainsword, Bolt Pistol, Frag Grenades, Krak Grenades and Power Armour for a Calabanite Blade, Indomitus Terminator Armour and Storm Bolter."
+   },
+   "options": [
+    {
+     "id": "calabanite_blade",
+     "label": "The Strike Master may exchange their Calabanite Blade for one of the following:",
+     "printed": "The Strike Master may exchange their Calabanite Blade for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "mace_of_absolution",
+       "name": "Mace of Absolution",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "calabanite_blade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "mace_of_absolution"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "terranic_great_sword",
+       "name": "Terranic Greatsword",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "calabanite_blade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "terranic_great_sword"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "relic_blade",
+       "name": "Relic Blade",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "calabanite_blade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "relic_blade",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "thunder_hammer",
+       "name": "Thunder Hammer",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "calabanite_blade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "thunder_hammer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/dark_angels/special_rules/interrogator_chaplain",
+   "name": "Interrogator Chaplain",
+   "kind": "datasheet",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/interrogator_chaplain/",
+   "references": [
+    "universal_special_rules/priest",
+    "universal_special_rules/stubborn",
+    "universal_special_rules/fear",
+    "codex/dark_angels/special_rules/inner_circle",
+    "universal_special_rules/zealot"
+   ],
+   "text": "A model with this upgrade gains the Priest (1), Stubborn, Fear (1), Inner Circle and Zealot Special rules. In addition, the Chaplain exchanges their Close Combat Weapon for a Power Maul. If a model with this upgrade inflicted the wounds responsible for removing from play a unit designated under the Unforgiven special rule (see Dark Angels Core traits), you can re-roll the D3 to determine the number of victory points obtained.\n\n- The Interrogator Chaplain may become Priest (2) for 10pts.\n    - The Interrogator Chaplain may:\n        - Exchange their Power Armour, Bolt Pistol, Frag Grenades, Krak Grenades and Boltgun for Indomitus Terminator Armour and Storm Bolter for 10pts.\n        - Take a Bike for 10pts.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/priest",
+      "name": "Priest",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/priest/"
+     },
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     },
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     },
+     {
+      "rule": "codex/dark_angels/special_rules/inner_circle",
+      "name": "Inner Circle",
+      "url": "https://longwarindex.app/special_rules/inner_circle/"
+     },
+     {
+      "rule": "universal_special_rules/zealot",
+      "name": "Zealot",
+      "url": "https://longwarindex.app/universal_special_rules/zealot/"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "close_combat_weapon",
+        "faction": "space_marines"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "power_maul",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "priest_2",
+     "label": "The Interrogator Chaplain may become Priest (2) for 10pts.",
+     "printed": "The Interrogator Chaplain may become Priest (2) for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "priest_2",
+       "name": "Priest (2)",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/priest",
+         "name": "Priest",
+         "param": "2",
+         "url": "https://longwarindex.app/universal_special_rules/priest/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "armour",
+     "label": "The Interrogator Chaplain may:",
+     "printed": "The Interrogator Chaplain may:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "terminator_armour",
+       "name": "Exchange their Power Armour, Bolt Pistol, Frag Grenades, Krak Grenades and Boltgun for Indomitus Terminator Armour and Storm Bolter",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "power_armour",
+           "faction": "space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "frag_grenades",
+           "faction": "space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "krak_grenade",
+           "faction": "space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "boltgun",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "indomitus_terminator_armour",
+           "faction": "space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ],
+       "profile": {
+        "codex/space_marines/roster/lieutenant": "lieutenant_in_terminator_armour"
+       }
+      },
+      {
+       "id": "bike",
+       "name": "Take a Bike",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "bike",
+         "faction": "space_marines"
+        }
+       ],
+       "profile": {
+        "codex/space_marines/roster/lieutenant": "lieutenant_on_bike"
+       }
+      }
+     ],
+     "print_defect": "The book prints these lines nested under the Priest (2) upgrade of the Interrogator Chaplain. This data reads this as: every Interrogator Chaplain may take one of them."
+    }
+   ]
+  },
+  {
+   "id": "codex/dark_angels/special_rules/ravenwing_talon_master",
+   "name": "Ravenwing Talon Master",
+   "kind": "datasheet",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/ravenwing_talon_master/",
+   "references": [
+    "codex/dark_angels/special_rules/inner_circle",
+    "codex/dark_angels/special_rules/ravenwing"
+   ],
+   "text": "The Captain becomes the Jetbike type (gaining all relevant benefits) and may not purchase Jump Packs, Terminator Armor or a Bike. The Captain gains the Inner Circle and Ravenwing special rule. The Captain gains +1 to their Toughness (T) and Wounds (W) characteristic. The Captain also gains 1 Linked Heavy Bolter and 1 Linked Assault Cannon.\n\n- The Talon Masters may exchange their Linked Heavy Bolter and Linked Assault Cannon for a Raven Knight Bike. However, the unit does not gain the Toughness (T) and Wound (W) characteristic bonuses above and instead gains those listed under the Raven Knight Bike.",
+   "effects": {
+    "unit_type": "Jetbike",
+    "rules": [
+     {
+      "rule": "codex/dark_angels/special_rules/inner_circle",
+      "name": "Inner Circle",
+      "url": "https://longwarindex.app/special_rules/inner_circle/"
+     },
+     {
+      "rule": "codex/dark_angels/special_rules/ravenwing",
+      "name": "Ravenwing",
+      "url": "https://longwarindex.app/special_rules/ravenwing/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ],
+    "items": [
+     {
+      "kind": "weapon",
+      "id": "linked_heavy_bolter",
+      "faction": "space_marines"
+     },
+     {
+      "kind": "weapon",
+      "id": "linked_assault_cannon",
+      "faction": "space_marines"
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "raven_knight_bike",
+     "label": "The Talon Masters may exchange their Linked Heavy Bolter and Linked Assault Cannon for a Raven Knight Bike. However, the unit does not gain the Toughness (T) and Wound (W) characteristic bonuses above and instead gains those listed under the Raven Knight Bike.",
+     "printed": "The Talon Masters may exchange their Linked Heavy Bolter and Linked Assault Cannon for a Raven Knight Bike. However, the unit does not gain the Toughness (T) and Wound (W) characteristic bonuses above and instead gains those listed under the Raven Knight Bike.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "raven_knight_bike",
+       "name": "Raven Knight Bike",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "linked_heavy_bolter",
+           "faction": "space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "linked_assault_cannon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "raven_knight_bike"
+          }
+         ]
+        }
+       ],
+       "print_defect": "The book prints no price for this exchange. This data reads it as free.",
+       "stat_mods": [
+        {
+         "characteristic": "T",
+         "delta": -1
+        },
+        {
+         "characteristic": "W",
+         "delta": -1
+        }
+       ],
+       "unit_type": "Jetbike"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/dark_angels/special_rules/stasis",
+   "name": "Stasis",
+   "kind": "weapon",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/stasis_dark_angels/",
+   "text": "When a model is hit by a weapon with the Stasis special rule, its Weapon Skill (WS) and Initiative (I) characteristics are reduced by 1 until the start of your next shooting phase."
+  },
+  {
+   "id": "codex/dark_angels/special_rules/plasma_burn",
+   "name": "Plasma Burn",
+   "kind": "weapon",
+   "page": 8,
+   "url": "https://longwarindex.app/special_rules/plasma_burn/",
+   "text": "After making an Attack with a weapon that has this special rule, roll a D6. On a roll of a 1, the unit takes 1 Automatic Wound at AP-."
+  },
+  {
+   "id": "codex/dark_angels/special_rules/master_of_the_1st",
+   "name": "Master of the 1st",
+   "kind": "warlord_trait",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/master_of_the_1st/",
+   "text": "If this model is your warlord, the first time a Dark Angels unit would be called upon to make a Panic test each phase, it does automatically passes the test. This is in effect so long as this model is alive and on the battlefield."
+  },
+  {
+   "id": "codex/dark_angels/special_rules/a_dark_angel",
+   "name": "A Dark Angel",
+   "kind": "datasheet",
+   "page": 22,
+   "url": "https://longwarindex.app/special_rules/a_dark_angel/",
+   "references": [
+    "universal_special_rules/fear"
+   ],
+   "text": "When Asmodai is engaged with units that have the Chaos Keyword, he gains the Fear (2) special rule instead of the Fear (1) special rule."
+  },
+  {
+   "id": "codex/dark_angels/special_rules/master_of_repentance",
+   "name": "Master of Repentance",
+   "kind": "warlord_trait",
+   "page": 22,
+   "url": "https://longwarindex.app/special_rules/master_of_repentance/",
+   "references": [
+    "universal_special_rules/character",
+    "codex/dark_angels/allegiances/allegiance_dark_angels"
+   ],
+   "text": "If this model is your Warlord, you may designate 2 enemy units with the Character special rule as part of the Unforgiven trait (See Allegiance Dark Angels). In addition, when determining how many Victory Points are lost as a result of a failure, instead of D3, only 1 VP is lost."
+  },
+  {
+   "id": "codex/dark_angels/special_rules/mind_invasion",
+   "name": "Mind Invasion",
+   "kind": "weapon",
+   "page": 23,
+   "url": "https://longwarindex.app/special_rules/mind_invasion/",
+   "text": "This Psychic Weapon cannot harm Vehicle, Knight, Titan, Aircraft, Automata, Primarch, Drone or Fortification type units. The Strength Characteristic of this weapon is equal to the equipped models Leadership (LD) characteristic.",
+   "effects": {
+    "weapon_values_from_bearer": {
+     "strength": "Ld"
+    }
+   }
+  },
+  {
+   "id": "codex/dark_angels/special_rules/the_keeper_of_the_keys",
+   "name": "The Keeper of the Keys",
+   "kind": "datasheet",
+   "page": 23,
+   "url": "https://longwarindex.app/special_rules/the_keeper_of_the_keys/",
+   "text": "This model has a 4+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "codex/dark_angels/special_rules/the_mind_worm",
+   "name": "The Mind Worm",
+   "kind": "warlord_trait",
+   "page": 23,
+   "url": "https://longwarindex.app/special_rules/the_mind_worm/",
+   "text": "If this model is your Warlord, they know the Mind Worm (Psychic Weapon) in addition to the standard Librarius Psychic Discipline in Codex – Space Marines.",
+   "effects": {
+    "while_warlord": {
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "mind_worm_ezekiel"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/dark_angels/special_rules/master_of_the_deathwing",
+   "name": "Master of the Deathwing",
+   "kind": "datasheet",
+   "page": 24,
+   "url": "https://longwarindex.app/special_rules/master_of_the_deathwing/",
+   "text": "This model may only be taken as your Warlord if your army is using the Deathwing Strike Talon Rite of War.",
+   "effects": {
+    "list_building": {
+     "warlord_requires_rite": "codex/dark_angels/rites_of_war/deathwing_strike_talon"
+    }
+   }
+  },
+  {
+   "id": "codex/dark_angels/special_rules/lion_of_caliban",
+   "name": "Lion of Caliban",
+   "kind": "datasheet",
+   "page": 26,
+   "url": "https://longwarindex.app/special_rules/lion_of_caliban/",
+   "text": "While Lion El'Johnson has 3 wounds or less, he gains +1 to his Attacks (A) characteristic. While Lion El'Johnson has only 1 Wound remaining, he gains +2 to his Attacks (A) characteristics."
+  },
+  {
+   "id": "codex/dark_angels/special_rules/primarch_of_the_1st",
+   "name": "Primarch of the 1st",
+   "kind": "warlord_trait",
+   "page": 26,
+   "url": "https://longwarindex.app/special_rules/primarch_of_the_1st/",
+   "references": [
+    "codex/dark_angels/allegiances/allegiance_dark_angels"
+   ],
+   "text": "If this model is included in your army, it must be your Warlord. Friendly Dark Angels units that can draw visibility to this unit may use this units Leadership (LD) characteristic. While this unit is alive and, on the Battlefield, Dark Angels do not lose any Victory Points as a result of the Unforgiven trait (see Allegiance Dark Angels).",
+   "effects": {
+    "list_building": {
+     "mandates_warlord": true
+    }
+   }
+  },
+  {
+   "id": "codex/dark_angels/special_rules/bodyguard_circle",
+   "name": "Bodyguard Circle",
+   "kind": "datasheet",
+   "page": 29,
+   "url": "https://longwarindex.app/special_rules/bodyguard_circle/",
+   "references": [
+    "special_rules/precision_hits"
+   ],
+   "text": "When this unit is targeted for an attack, all wounds must be allocated to Deathwing Companion models first before any other models even if the weapon that cause the wound has the Precision Strikes special rule."
+  },
+  {
+   "id": "codex/dark_angels/special_rules/transport_land_raider_solemnus_aggressor",
+   "name": "Transport",
+   "datasheet": "Land Raider Solemnus Aggressor",
+   "kind": "datasheet",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/transport_land_raider_solemnus_aggressor/",
+   "text": "This model can transport 12 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  }
+ ]
+}

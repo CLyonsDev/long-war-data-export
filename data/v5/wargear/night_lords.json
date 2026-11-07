@@ -1,0 +1,141 @@
+{
+ "data_version": "ea1e89ae9639100e",
+ "format": 1,
+ "faction": "night_lords",
+ "wargear": [
+  {
+   "id": "anguish_engine",
+   "name": "Anguish Engine",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/anguish_engine/",
+   "text": "All enemy units within 18\" of a unit with this wargear suffer -1 to their Leadership (Ld) Characteristic."
+  },
+  {
+   "id": "trophies_of_judgement",
+   "name": "Trophies of Judgement",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/trophies_of_judgement/",
+   "text": "A model with this wargear gains the Terror special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "codex/night_lords/special_rules/terror",
+      "name": "Terror",
+      "url": "https://longwarindex.app/special_rules/terror/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_stormbolt_plate",
+   "name": "The Stormbolt Plate",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/the_stormbolt_plate/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic wargear gains a 2+ Armour Save. In addition, they and any attached unit gain the Infiltrate and Skirmisher special rules.",
+   "effects": {
+    "armour_save": "2+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/infiltrate",
+      "name": "Infiltrate",
+      "url": "https://longwarindex.app/universal_special_rules/infiltrate/"
+     },
+     {
+      "rule": "universal_special_rules/skirmisher",
+      "name": "Skirmisher",
+      "url": "https://longwarindex.app/universal_special_rules/skirmisher/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "curzes_orb",
+   "name": "Curze's Orb",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/curzes_orb/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic wargear and any attached unit can re-roll hit rolls of 1. In addition, After deployment is completed but before the First Turn begins, a model with this wargear and any attached unit may be re-deployed as if it were the Deployment step.",
+   "print_defect": "The book prints the name as \"Curze's orb\", without the usual relic title case."
+  },
+  {
+   "id": "scourging_chains",
+   "name": "Scourging Chains",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/scourging_chains/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic wargear gains the Hammer of Wrath (1) special rule, if they already have the Hammer of Wrath (x) special rule, increase the value of (x) by 1. All Hammer of Wrath Attacks are resolved as if they have the Shred special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "vox_daemonicus",
+   "name": "Vox Daemonicus",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/vox_daemonicus/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic wargear gains the Fear (1) special rule. If the unit already has the Fear (x) special rule, all enemy units within 24\" of the model bearing this relic are affected by the Fear (x) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "talons_of_the_night_terror",
+   "name": "Talons of the Night Terror",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/talons_of_the_night_terror/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic wargear gains gain the Hammer of Wrath (+D3) special rule. If the unit already has the Hammer of Wrath (x) special rule, the value of x becomes x+D3.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "D3",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/",
+      "mode": "raise_or_grant",
+      "by": "D3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "misery_of_the_meek",
+   "name": "Misery of the Meek",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/misery_of_the_meek/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Once per game at the end of one of your turns, a model equipped with this Relic Wargear may activate it, drinking the elixir. The unit may immediately take another turn, completing a Movement, Shooting, Charge and Combat Phase."
+  },
+  {
+   "id": "cloak_of_flayed_skin",
+   "name": "Cloak of Flayed Skin",
+   "section": "Datasheet",
+   "datasheet": "Decimus, Prophet of the 8th Legion",
+   "page": 18,
+   "url": "https://longwarindex.app/wargear/cloak_of_flayed_skin/",
+   "text": "Enemy units within 3\" do not gain the benefit of the Stubborn special rule."
+  }
+ ]
+}

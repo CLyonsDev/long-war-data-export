@@ -1,0 +1,757 @@
+{
+ "data_version": "8152e3717fca51db",
+ "format": 1,
+ "faction": "leagues_of_votann",
+ "codex": {
+  "id": "codex/leagues_of_votann",
+  "name": "Leagues of Votann",
+  "page": 1,
+  "url": "https://longwarindex.app/codex/leagues_of_votann/",
+  "parent": null,
+  "army_rules": [
+   {
+    "rule": "codex/leagues_of_votann/special_rules/hero_of_the_oathband",
+    "name": "Hero of the Oathband",
+    "url": "https://longwarindex.app/special_rules/hero_of_the_oathband/"
+   },
+   {
+    "rule": "codex/leagues_of_votann/special_rules/e_cog",
+    "name": "E-Cog",
+    "url": "https://longwarindex.app/special_rules/e_cog/"
+   },
+   {
+    "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+    "name": "Eye of the Ancestors",
+    "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+   }
+  ],
+  "allies": {
+   "printed": "The following factions listed in keywords may be taken as allies in an allied detachment if your battle plan allows the use of allied detachments:",
+   "page": 17,
+   "url": "https://longwarindex.app/allies/votann_allies/",
+   "factions": [
+    {
+     "faction": "imperial_guard"
+    },
+    {
+     "faction": "tau_empire"
+    },
+    {
+     "faction": "imperial_agents"
+    },
+    {
+     "faction": "orks"
+    }
+   ]
+  },
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/leagues_of_votann/rites_of_war/oathband",
+    "codex/leagues_of_votann/rites_of_war/cthonian_guild_crew",
+    "codex/leagues_of_votann/rites_of_war/brokhyr_construction_band",
+    "codex/leagues_of_votann/rites_of_war/pioneer_expedition"
+   ],
+   "from_parent": [],
+   "banned_from_parent": []
+  },
+  "unit_list": {
+   "page": 18,
+   "url": "https://longwarindex.app/unit_list/leagues_of_votann_unit_list/",
+   "entries": [
+    {
+     "datasheet": "codex/leagues_of_votann/roster/berehk_stornbrow",
+     "printed": "Berehk Stornbrow",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/brokhyr_iron_master",
+     "printed": "Brokhyr Iron-Master",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/buri_aegnirssen",
+     "printed": "Buri Aegnirssen",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/einhyr_champion",
+     "printed": "Einhyr Champion",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/grimnyr",
+     "printed": "Grimnyr",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/kahl",
+     "printed": "Kâhl",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/kahl_uthar_the_destined",
+     "printed": "Kâhl Uthar the Destined",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/hearthkyn_warriors",
+     "printed": "Hearthkyn Warriors",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/ironkin_steeljacks",
+     "printed": "Ironkin Steeljacks",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/arkanyst_evaluator",
+     "printed": "Arkanyst Evaluator",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/cthonian_beserks",
+     "printed": "Cthonian Beserks",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/einhyr_hearthguard",
+     "printed": "Einhyr Hearthguard",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/hernkyn_yaegirs",
+     "printed": "Hernkyn Yaegirs",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/memnyr_strategist",
+     "printed": "Memnyr Strategist",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/kapricus_carrier",
+     "printed": "Kapricus Carrier",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/sagutar_atv",
+     "printed": "Sagutar ATV",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/hernkyn_pioneers",
+     "printed": "Hernkyn Pioneers",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/kapricus_defender",
+     "printed": "Kapricus Defender",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/brokhyr_thunderkyn",
+     "printed": "Brokhyr Thunderkyn",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/cthonian_earthshakers",
+     "printed": "Cthonian Earthshakers",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/roster/hekaton_land_fortress",
+     "printed": "Hekaton Land Fortress",
+     "role": "Heavy Support"
+    }
+   ]
+  },
+  "keyword_templates": [
+   {
+    "template": "[League]",
+    "substitution": {
+     "by": "allegiance"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/leagues_of_votann/allegiances/greater_thurian_league",
+   "name": "Allegiance: Greater Thurian League",
+   "page": 17,
+   "url": "https://longwarindex.app/allegiances/greater_thurian_league/",
+   "offered_by": {
+    "codex": "leagues_of_votann"
+   },
+   "keyword_substitution": {
+    "template": "[League]",
+    "value": "Greater Thurian"
+   },
+   "rule": {
+    "rule": "codex/leagues_of_votann/allegiances/greater_thurian_league",
+    "name": "Greater Thurian League",
+    "printed": "codex/leagues_of_votann/allegiances/greater_thurian_league",
+    "url": "https://longwarindex.app/allegiances/greater_thurian_league/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [],
+   "game_time": [
+    "Greater Thurian units always count as controlling an objective regardless of how many models are contesting the objective."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/leagues_of_votann/allegiances/kronus_hegemony",
+   "name": "Allegiance: Kronus Hegemony",
+   "page": 17,
+   "url": "https://longwarindex.app/allegiances/kronus_hegemony/",
+   "offered_by": {
+    "codex": "leagues_of_votann"
+   },
+   "keyword_substitution": {
+    "template": "[League]",
+    "value": "Kronus Hegemony"
+   },
+   "rule": {
+    "rule": "codex/leagues_of_votann/allegiances/kronus_hegemony",
+    "name": "Kronus Hegemony",
+    "printed": "codex/leagues_of_votann/allegiances/kronus_hegemony",
+    "url": "https://longwarindex.app/allegiances/kronus_hegemony/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [],
+   "game_time": [
+    "Kronus Hegemony units must attempt to charge in the Charge Phase if there are any eligible units in Charge range."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/leagues_of_votann/allegiances/trans_hyperian_alliance",
+   "name": "Allegiance: Trans-Hyperian Alliance",
+   "page": 17,
+   "url": "https://longwarindex.app/allegiances/trans_hyperian_alliance/",
+   "offered_by": {
+    "codex": "leagues_of_votann"
+   },
+   "keyword_substitution": {
+    "template": "[League]",
+    "value": "Trans-Hyperian"
+   },
+   "rule": {
+    "rule": "codex/leagues_of_votann/allegiances/trans_hyperian_alliance",
+    "name": "Trans-Hyperian Alliance",
+    "printed": "codex/leagues_of_votann/allegiances/trans_hyperian_alliance",
+    "url": "https://longwarindex.app/allegiances/trans_hyperian_alliance/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [],
+   "game_time": [
+    "Trans-Hyperian units must re-roll all successful Pinning and Panic tests."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/leagues_of_votann/allegiances/urani_surtr_regulates",
+   "name": "Allegiance: Urani-Surtr Regulates",
+   "page": 17,
+   "url": "https://longwarindex.app/allegiances/urani_surtr_regulates/",
+   "offered_by": {
+    "codex": "leagues_of_votann"
+   },
+   "keyword_substitution": {
+    "template": "[League]",
+    "value": "URSR"
+   },
+   "rule": {
+    "rule": "codex/leagues_of_votann/allegiances/urani_surtr_regulates",
+    "name": "Urani-Surtr Regulates",
+    "printed": "codex/leagues_of_votann/allegiances/urani_surtr_regulates",
+    "url": "https://longwarindex.app/allegiances/urani_surtr_regulates/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [],
+   "game_time": [
+    "URSR units in your army may not perform Retreat Moves in the Movement Phase. In addition, when a URSR unit would lose combat and Panic, it does not perform a move and instead simply remains in locked in combat."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/leagues_of_votann/allegiances/ymyr_conglomerate",
+   "name": "Allegiance: YMYR Conglomerate",
+   "page": 17,
+   "url": "https://longwarindex.app/allegiances/ymyr_conglomerate/",
+   "offered_by": {
+    "codex": "leagues_of_votann"
+   },
+   "keyword_substitution": {
+    "template": "[League]",
+    "value": "YMYR Conglomerate"
+   },
+   "rule": {
+    "rule": "codex/leagues_of_votann/allegiances/ymyr_conglomerate",
+    "name": "YMYR Conglomerate",
+    "printed": "codex/leagues_of_votann/allegiances/ymyr_conglomerate",
+    "url": "https://longwarindex.app/allegiances/ymyr_conglomerate/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [
+    {
+     "id": "ymyr_conglomerate_hearthkyn_warriors_expendable",
+     "printed": "YMYR Conglomerate Hearthkyn Warrior units gain the Expendable special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "allegiance": "codex/leagues_of_votann/allegiances/ymyr_conglomerate"
+       },
+       {
+        "datasheet": "codex/leagues_of_votann/roster/hearthkyn_warriors"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/expendable",
+        "name": "Expendable",
+        "url": "https://longwarindex.app/universal_special_rules/expendable/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/leagues_of_votann/rites_of_war/oathband",
+   "name": "Oathband",
+   "page": 13,
+   "url": "https://longwarindex.app/rites_of_war/oathband/",
+   "offered_by": {
+    "codex": "leagues_of_votann"
+   },
+   "text": "Restrictions\n\n- Your army must include 1 Kâhl.\n- Your army must include at least 3 units of Hearthkyn Warriors.\n- Your army must have at least 1 Heavy Support Choice, 1 Fast Attack Choice and 1 Elites Choice.\n\nBenefits\n\n- During deployment, you may select a single enemy unit in your opponent's army. It gains a Grudge Token.\n- Hearthkyn Warriors gain the Counter Attack special rule.\n- You may field Hekaton Land Fortress as Dedicated Transports.",
+   "restrictions": [
+    {
+     "id": "oathband_kahl",
+     "printed": "Your army must include 1 Kâhl.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/kahl"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "oathband_hearthkyn_warriors",
+     "printed": "Your army must include at least 3 units of Hearthkyn Warriors.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/hearthkyn_warriors"
+       }
+      ],
+      "min": 3
+     }
+    },
+    {
+     "id": "oathband_heavy_support_choice",
+     "printed": "Your army must have at least 1 Heavy Support Choice, 1 Fast Attack Choice and 1 Elites Choice.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "role": "Heavy Support"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "oathband_fast_attack_choice",
+     "printed": "Your army must have at least 1 Heavy Support Choice, 1 Fast Attack Choice and 1 Elites Choice.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "role": "Fast Attack"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "oathband_elites_choice",
+     "printed": "Your army must have at least 1 Heavy Support Choice, 1 Fast Attack Choice and 1 Elites Choice.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "role": "Elites"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "oathband_hearthkyn_warriors_counter_attack",
+     "printed": "Hearthkyn Warriors gain the Counter Attack special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/hearthkyn_warriors"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/counter_attack",
+        "name": "Counter Attack",
+        "url": "https://longwarindex.app/universal_special_rules/counter_attack/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "oathband_hekaton_land_fortress_dedicated_transport",
+     "printed": "You may field Hekaton Land Fortress as Dedicated Transports.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/hekaton_land_fortress"
+       }
+      ],
+      "role": "Dedicated Transport",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "During deployment, you may select a single enemy unit in your opponent's army. It gains a Grudge Token."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/leagues_of_votann/rites_of_war/cthonian_guild_crew",
+   "name": "Cthonian Guild Crew",
+   "page": 14,
+   "url": "https://longwarindex.app/rites_of_war/cthonian_guild_crew/",
+   "offered_by": {
+    "codex": "leagues_of_votann"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 2 Cthonian Beserk units.\n- Your army must include at least 1 unit of Hernkyn Pioneers.\n- Your army may not include any Einhyr Hearthguard or Hearthkyn Warrior units.\n\nBenefits\n\n- You may field Cthonian Beserks as Troops choices.\n- Cthonian Beserk units in your army gain the Monster Hunter special rule.\n- You may field Cthonian Earthshakers as Elites choices.",
+   "restrictions": [
+    {
+     "id": "cthonian_guild_crew_beserks",
+     "printed": "Your army must include at least 2 Cthonian Beserk units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/cthonian_beserks"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "cthonian_guild_crew_hernkyn_pioneers",
+     "printed": "Your army must include at least 1 unit of Hernkyn Pioneers.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/hernkyn_pioneers"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "cthonian_guild_crew_forbidden_units",
+     "printed": "Your army may not include any Einhyr Hearthguard or Hearthkyn Warrior units.",
+     "scope": "detachment",
+     "forbidden_units": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/einhyr_hearthguard"
+       },
+       {
+        "datasheet": "codex/leagues_of_votann/roster/hearthkyn_warriors"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "cthonian_guild_crew_beserks_troops",
+     "printed": "You may field Cthonian Beserks as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/cthonian_beserks"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "cthonian_guild_crew_beserks_monster_hunter",
+     "printed": "Cthonian Beserk units in your army gain the Monster Hunter special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/cthonian_beserks"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/monster_hunter",
+        "name": "Monster Hunter",
+        "url": "https://longwarindex.app/universal_special_rules/monster_hunter/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "cthonian_guild_crew_earthshakers_elites",
+     "printed": "You may field Cthonian Earthshakers as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/cthonian_earthshakers"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/leagues_of_votann/rites_of_war/brokhyr_construction_band",
+   "name": "Brokhyr Construction Band",
+   "page": 15,
+   "url": "https://longwarindex.app/rites_of_war/brokhyr_construction_band/",
+   "offered_by": {
+    "codex": "leagues_of_votann"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 2 Brokhyr Thunderkyn units.\n- Your army must include at least 1 Brokhyr Iron-Master.\n- Your army must include at least 1 Hekaton Land Fortress.\n- You may not field the following units:\n    - Hearthkyn Warriors.\n    - Einhyr Hearthguard.\n    - Hernkyn Pioneers.\n    - Cthonian Beserks.\n\nBenefits\n\n- You may field Brokhyr Thunderkyn as Troops choices but gain the Support Squad special rule.\n- You may field Sagutar ATV as Fast Attack units.\n- During deployment, you may select a single piece of terrain on the battlefield to become a Fortification type unit with an Armour value of 10 on all sides. The terrain piece can be garrisoned by up to 15 Votann Infantry models.",
+   "restrictions": [
+    {
+     "id": "brokhyr_construction_band_thunderkyn",
+     "printed": "Your army must include at least 2 Brokhyr Thunderkyn units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/brokhyr_thunderkyn"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "brokhyr_construction_band_iron_master",
+     "printed": "Your army must include at least 1 Brokhyr Iron-Master.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/brokhyr_iron_master"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "brokhyr_construction_band_hekaton_land_fortress",
+     "printed": "Your army must include at least 1 Hekaton Land Fortress.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/hekaton_land_fortress"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "brokhyr_construction_band_forbidden_units",
+     "printed": "You may not field the following units:",
+     "scope": "detachment",
+     "forbidden_units": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/hearthkyn_warriors"
+       },
+       {
+        "datasheet": "codex/leagues_of_votann/roster/einhyr_hearthguard"
+       },
+       {
+        "datasheet": "codex/leagues_of_votann/roster/hernkyn_pioneers"
+       },
+       {
+        "datasheet": "codex/leagues_of_votann/roster/cthonian_beserks"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "brokhyr_construction_band_thunderkyn_troops",
+     "printed": "You may field Brokhyr Thunderkyn as Troops choices but gain the Support Squad special rule.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/brokhyr_thunderkyn"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "brokhyr_construction_band_thunderkyn_support_squad",
+     "printed": "You may field Brokhyr Thunderkyn as Troops choices but gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/brokhyr_thunderkyn"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "brokhyr_construction_band_sagutar_atv_fast_attack",
+     "printed": "You may field Sagutar ATV as Fast Attack units.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/sagutar_atv"
+       }
+      ],
+      "role": "Fast Attack",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "During deployment, you may select a single piece of terrain on the battlefield to become a Fortification type unit with an Armour value of 10 on all sides. The terrain piece can be garrisoned by up to 15 Votann Infantry models."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/leagues_of_votann/rites_of_war/pioneer_expedition",
+   "name": "Pioneer Expedition",
+   "page": 16,
+   "url": "https://longwarindex.app/rites_of_war/pioneer_expedition/",
+   "offered_by": {
+    "codex": "leagues_of_votann"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 2 unit of Hernkyn Pioneers.\n- Your army must include at least 1 unit of Hernkyn Yaegirs.\n- Units in your army except for Vehicles, Bike or Cavalry type units must begin the game in reserve and arrive via the Outflank special rule or begin the game embarked on a Transport unless they have the Infiltrate or Scout special rules.\n\nBenefits\n\n- You may field Hernkyn Yaegirs as Troops choices.\n- You may field Hernkyn Pioneers as Elites choices.\n- You may field Sagutar ATV's as Fast Attack choices.",
+   "restrictions": [
+    {
+     "id": "pioneer_expedition_hernkyn_pioneers",
+     "printed": "Your army must include at least 2 unit of Hernkyn Pioneers.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/hernkyn_pioneers"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "pioneer_expedition_hernkyn_yaegirs",
+     "printed": "Your army must include at least 1 unit of Hernkyn Yaegirs.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/hernkyn_yaegirs"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "pioneer_expedition_yaegirs_troops",
+     "printed": "You may field Hernkyn Yaegirs as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/hernkyn_yaegirs"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "pioneer_expedition_pioneers_elites",
+     "printed": "You may field Hernkyn Pioneers as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/hernkyn_pioneers"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "pioneer_expedition_sagutar_atv_fast_attack",
+     "printed": "You may field Sagutar ATV's as Fast Attack choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/leagues_of_votann/roster/sagutar_atv"
+       }
+      ],
+      "role": "Fast Attack",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "Units in your army except for Vehicles, Bike or Cavalry type units must begin the game in reserve and arrive via the Outflank special rule or begin the game embarked on a Transport unless they have the Infiltrate or Scout special rules."
+   ],
+   "unencoded": []
+  }
+ ]
+}

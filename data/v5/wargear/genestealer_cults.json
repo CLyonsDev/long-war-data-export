@@ -1,0 +1,417 @@
+{
+ "data_version": "9f478d8c1532cbf2",
+ "format": 1,
+ "faction": "genestealer_cults",
+ "wargear": [
+  {
+   "id": "refractor_field",
+   "name": "Refractor Field",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/refractor_field_genestealer_cults/",
+   "text": "A model with a refractor Field has a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "med_kit",
+   "name": "Med Kit",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/med_kit_genestealer_cults/",
+   "text": "A model with this Wargear and their attached unit gain Feel No Pain (5+) Special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bionics",
+   "name": "Bionics",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/bionics_genestealer_cults/",
+   "text": "A model with this wargear gains the Feel no Pain (6+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "6+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "camo_cloaks",
+   "name": "Camo Cloaks",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/camo_cloaks_genestealer_cults/",
+   "text": "A Model with a Camo Cloak gains the benefit of Light Cover even if they would not normally do so. In addition, if they are already benefiting from Light Cover, they receive Heavy Cover instead. A model with this wargear gains a 4+ Cover save if it is already receiving the benefit of Heavy cover."
+  },
+  {
+   "id": "cult_icon",
+   "name": "Cult Icon",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/cult_icon/",
+   "text": "A unit with a model equipped with this wargear may re-roll 1 dice when making Pinning and Panic tests."
+  },
+  {
+   "id": "flesh_hooks",
+   "name": "Flesh Hooks",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/flesh_hooks_genestealer_cults/",
+   "text": "If a unit includes 1 or more models equipped with this wargear, the unit ignores the penalties for Charging through Difficult Terrain."
+  },
+  {
+   "id": "melta_bomb",
+   "name": "Melta Bomb",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "melta_bomb"
+    }
+   ],
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/melta_bomb_genestealer_cults/",
+   "text": "In combat, a model with this wargear may forgo its attacks and instead make a single Strength 8, AP1 attack with the Melta Special rule at Initiative step 1.",
+   "print_defect": "The book gives this attack in the text of the wargear Melta Bomb. It prints no weapon profile."
+  },
+  {
+   "id": "auspex_scanner",
+   "name": "Auspex Scanner",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/auspex_scanner_genestealer_cults/",
+   "text": "Enemy units may not Infiltrate within 18\" of a model equipped with this wargear."
+  },
+  {
+   "id": "psychic_familiar",
+   "name": "Psychic Familiar",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/psychic_familiar/",
+   "text": "Once per game, a model with this wargear may automatically pass one Psychic test when attempting to cast a Psychic Power."
+  },
+  {
+   "id": "alchemicus_familiar",
+   "name": "Alchemicus Familiar",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/alchemicus_familiar/",
+   "text": "Once per game, at the start of a turn, a model with this wargear may grant 1 friendly Genestealer Cult unit within 12\" the Frenzy and Zealot special rules until the end of the turn."
+  },
+  {
+   "id": "sacred_cult_banner",
+   "name": "Sacred Cult Banner",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/sacred_cult_banner/",
+   "text": "Friendly Cult units within 18\" of a model equipped with this wargear may re-roll Leadership tests. In addition, friendly Genestealer Cult units within 18\" count as having scored 1 additional wound in combat for the purposes of determining the winner of a combat."
+  },
+  {
+   "id": "acid_maw",
+   "name": "Acid Maw",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/acid_maw_genestealer_cults/",
+   "text": "A model with this wargear gains the Sunder special rule on all Melee type weapons they are equipped with.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/sunder",
+      "name": "Sunder",
+      "url": "https://longwarindex.app/special_rules/sunder/",
+      "weapon_types": [
+       "Melee"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "mining_suit",
+   "name": "Mining Suit",
+   "section": "Armours",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/mining_suit/",
+   "text": "Basic Combat armour which can be sealed for hazardous environments. It provides a 5+ Armour Save. An equipped model may re-roll Armour Save rolls against weapons with the Poison special rule.",
+   "effects": {
+    "armour_save": "5+"
+   }
+  },
+  {
+   "id": "void_armour",
+   "name": "Void Armour",
+   "section": "Armours",
+   "page": 12,
+   "url": "https://longwarindex.app/planetary_traits/void_station/",
+   "text": "Void Armour confers a 4+ Armour save.",
+   "print_defect": "No page of the book defines Void Armour. The Planetary Trait Void Station names it and gives its save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "hardened_carapace",
+   "name": "Hardened Carapace",
+   "section": "Armours",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/hardened_carapace_genestealer_cults/",
+   "text": "Heavy Combat Armour. It confers a 4+ Armour save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "hardened_chitin",
+   "name": "Hardened Chitin",
+   "section": "Armours",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/hardened_chitin_genestealer_cults/",
+   "text": "Reinforced Chitin absorbs impacts. It confers a 5+ Armour Save.",
+   "effects": {
+    "armour_save": "5+"
+   }
+  },
+  {
+   "id": "flak_armour",
+   "name": "Flak Armour",
+   "section": "Armours",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/flak_armour_genestealer_cults/",
+   "text": "Basic Combat armour. It provides a 5+ Armour Save.",
+   "effects": {
+    "armour_save": "5+"
+   }
+  },
+  {
+   "id": "armoured_plate",
+   "name": "Armoured Plate",
+   "section": "Armours",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/armoured_plate_genestealer_cults/",
+   "text": "Heavy Armoured plating protects the armoured walking vehicles of the Cult. It confers a 3+ Armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "bike",
+   "name": "Bike",
+   "section": "Mobility Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/bike_genestealer_cults/",
+   "text": "A unit that is equipped with a Bike becomes the Bike type. In addition, the model gains +1 to its Toughness (T) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "quad_bike",
+   "name": "Quad Bike",
+   "section": "Mobility Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/quad_bike/",
+   "text": "A unit that is equipped with a Quad Bike becomes the Bike type. In addition, the model gains +1 to its Toughness (T) and Wounds (W) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "assault_launchers",
+   "name": "Assault Launchers",
+   "section": "Vehicle Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/assault_launchers_genestealer_cults/",
+   "text": "A model equipped with this Wargear can make 1 additional Hammer of Wrath Attack.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "searchlight",
+   "name": "Searchlight",
+   "section": "Vehicle Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/searchlight_genestealer_cults/",
+   "text": "A model with this special rule gains the Night Vision special rule. Any unit that it targets in the Shooting Phase no longer gains the benefit of Night Fighting. Any attacks against this unit are not affected by Night Fighting.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/night_vision",
+      "name": "Night Vision",
+      "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo_caches",
+   "name": "Demo Caches",
+   "section": "Vehicle Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/demo_caches/",
+   "text": "A model with this wargear always Explodes as if it had rolled on an Explosion result on the Vehicle damage chart when it is wrecked, destroyed or slain. In addition, you may choose to trigger the demo cache on a unit at Initiative Step 0 of a Combat in the Combat Phase. All units within 6\" of the model take 2D6 Strength 5, AP 5 hits."
+  },
+  {
+   "id": "smoke_launchers",
+   "name": "Smoke Launchers",
+   "section": "Vehicle Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/smoke_launchers_genestealer_cults/",
+   "text": "A model equipped with this Wargear can set to deploy smoke instead of setting to Overwatch. Until the start of its next turn, the model gains a 4+ Cover Save."
+  },
+  {
+   "id": "flare_launcher",
+   "name": "Flare Launcher",
+   "section": "Vehicle Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/flare_launcher/",
+   "text": "A model with this wargear gains a 4+ Cover save. In addition, all friendly units within 6\" of a model equipped with this wargear, including the equipped unit gain the Night Vision special rule.",
+   "effects": {
+    "cover_save": "4+"
+   }
+  },
+  {
+   "id": "amulet_of_the_voidwyrm",
+   "name": "The Amulet of the Voidwyrm",
+   "section": "Relics",
+   "page": 2,
+   "url": "https://longwarindex.app/wargear/amulet_of_the_voidwyrm/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains a 4+ Invulnerable save. In addition the equipped model never suffers Peril of the Warp results and gains the Indomitable Spirit (2+) special rule.",
+   "effects": {
+    "invulnerable_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/indomitable_spirit",
+      "name": "Indomitable Spirit",
+      "param": "2+",
+      "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "icon_of_the_cult_ascendant",
+   "name": "Icon of the Cult Ascendant",
+   "section": "Relics",
+   "page": 2,
+   "url": "https://longwarindex.app/wargear/icon_of_the_cult_ascendant/",
+   "text": "One unit in your army with the Character special rule and equipped with a Sacred Cult Banner that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. This relic counts as a Sacred Cult Banner. In addition, all friendly Genestealer Cult units within 12\" gain the Zealot special rule.",
+   "effects": {
+    "counts_as": [
+     {
+      "kind": "wargear",
+      "id": "sacred_cult_banner"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_crouchling",
+   "name": "The Crouchling",
+   "section": "Relics",
+   "page": 3,
+   "url": "https://longwarindex.app/wargear/the_crouchling/",
+   "text": "One unit in your army with the Character & Psyker (x) special rules that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. This relic counts as a Close Combat Weapon. In addition, the model with this relic can attempt to cast 1 additional Psychic Power each Shooting Phase beyond its Psyker (x) limit. However, any doubles rolled on the Psychic Test result in a Peril of the Warp. Instead of resolving the Peril of the Warp as normal however, this relic can no longer be used for the rest of the game (as the Crouchling suffers the Psychic feedback instead).",
+   "effects": {
+    "counts_as": [
+     {
+      "kind": "weapon",
+      "id": "close_combat_weapons"
+     }
+    ]
+   }
+  },
+  {
+   "id": "psychic_stimulus",
+   "name": "Psychic Stimulus",
+   "section": "Datasheet",
+   "datasheet": "Magus",
+   "page": 22,
+   "url": "https://longwarindex.app/wargear/psychic_stimulus/",
+   "text": "When this Psychic Power is cast, select a single friendly Genestealer Cult unit within 12\". That unit may use the Psyker's Weapon Skill (WS) and Ballistic Skill (BS) characteristic instead of their own until the start of your next Shooting Phase."
+  },
+  {
+   "id": "mindwyrm",
+   "name": "Mindwyrm",
+   "section": "Datasheet",
+   "datasheet": "Abominant",
+   "page": 28,
+   "url": "https://longwarindex.app/wargear/mindwyrm/",
+   "text": "This unit and its attached unit may re-roll charge rolls in the Charge Phase."
+  },
+  {
+   "id": "scrambler_array",
+   "name": "Scrambler Array",
+   "section": "Datasheet",
+   "datasheet": "Clamavus",
+   "page": 29,
+   "url": "https://longwarindex.app/wargear/scrambler_array/",
+   "text": "While this unit is alive and, on the battlefield, enemy units have -1 to their reserve rolls when determining if they arrive via Outflank or Deep Strike."
+  },
+  {
+   "id": "proclamator_hailer",
+   "name": "Proclamator Hailer",
+   "section": "Datasheet",
+   "datasheet": "Clamavus",
+   "page": 29,
+   "url": "https://longwarindex.app/wargear/proclamator_hailer/",
+   "text": "All friendly Cult units within 12\" of this unit may use its Leadership (LD) characteristic when making Pinning and Panic tests."
+  },
+  {
+   "id": "injector_goad",
+   "name": "Injector Goad",
+   "section": "Datasheet",
+   "datasheet": "Biophagus",
+   "page": 31,
+   "url": "https://longwarindex.app/wargear/injector_goad/",
+   "text": "Any unit that a model with this Wargear is attached to gains the Furious Charge special rule."
+  },
+  {
+   "id": "lasgun_array",
+   "name": "Lasgun Array",
+   "section": "Datasheet",
+   "datasheet": "Chimera APC",
+   "page": 36,
+   "url": "https://longwarindex.app/wargear/lasgun_array_genestealer_cults/",
+   "text": "If this unit is transporting Embarked models, it may make an additional 6 Attacks in the Combat Phase at its normal initiative with its Cult Crew Weapons."
+  }
+ ]
+}

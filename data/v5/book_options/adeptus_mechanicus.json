@@ -1,0 +1,707 @@
+{
+ "data_version": "075bdc38cd901692",
+ "format": 1,
+ "faction": "adeptus_mechanicus",
+ "groups": [
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected to be your Warlord. Your Warlord may purchase one of the following Warlord traits for free.",
+   "printed": "One unit in your army with the Character special rule may be selected to be your Warlord. Your Warlord may purchase one of the following Warlord traits for free.",
+   "page": 19,
+   "url": "https://longwarindex.app/codex/adeptus_mechanicus/warlord_traits/",
+   "offered_by": {
+    "codex": "adeptus_mechanicus"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "adeptus_mechanicus/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "machine_savant",
+     "name": "Machine Savant",
+     "page": 19,
+     "url": "https://longwarindex.app/warlord_traits/machine_savant/",
+     "text": "A unit with this Warlord trait gains the Battle Smith (1) special rule. If they already have the Battle Smith (x) special rule, improve the value of (x) by 1.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/battle_smith",
+       "name": "Battle Smith",
+       "param": "1",
+       "url": "https://longwarindex.app/universal_special_rules/battle_smith/",
+       "raise_by": 1
+      }
+     ]
+    },
+    {
+     "id": "necromechanic",
+     "name": "Necromechanic",
+     "page": 19,
+     "url": "https://longwarindex.app/warlord_traits/necromechanic/",
+     "text": "A Warlord with this Warlord trait may perform the Rite of Repair (see Machine Rites) any number of times in your Shooting Phase instead of only once.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "programmed_for_war",
+     "name": "Programmed for War",
+     "page": 19,
+     "url": "https://longwarindex.app/warlord_traits/programmed_for_war/",
+     "text": "A model with this trait and any attached unit gains the Preferred Enemy (x) special rule, selecting X during deployment.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/preferred_enemy",
+       "name": "Preferred Enemy",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/raiment_of_the_techno_martyr/",
+   "offered_by": {
+    "codex": "adeptus_mechanicus"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "raiment_of_the_techno_martyr",
+     "name": "Raiment of the Techno Martyr",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "raiment_of_the_techno_martyr"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/raiment_of_the_techno_martyr/",
+     "pricing": "flat"
+    },
+    {
+     "id": "pater_radium",
+     "name": "Pater Radium",
+     "points": 20,
+     "printed": "One Skitarii unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "pater_radium"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/pater_radium/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Skitarii"
+      }
+     ]
+    },
+    {
+     "id": "the_skull_of_elder_nikola",
+     "name": "The Skull of Elder Nikola",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_skull_of_elder_nikola"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_skull_of_elder_nikola/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_omniscient_mask",
+     "name": "The Omniscient Mask",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_omniscient_mask"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_omniscient_mask/",
+     "pricing": "flat"
+    },
+    {
+     "id": "anzions_pseudogenetor",
+     "name": "Anzion's Pseudogenetor",
+     "points": 20,
+     "printed": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "anzions_pseudogenetor"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/anzions_pseudogenetor/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Tech Priest"
+      }
+     ]
+    },
+    {
+     "id": "autocaduceus_of_arkhan_land",
+     "name": "Autocaduceus of Arkhan Land",
+     "points": 10,
+     "printed": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "autocaduceus_of_arkhan_land"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/autocaduceus_of_arkhan_land/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Tech Priest"
+      }
+     ]
+    },
+    {
+     "id": "mask_of_the_alpha_dominus",
+     "name": "Mask of the Alpha Dominus",
+     "points": 10,
+     "printed": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "mask_of_the_alpha_dominus"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/mask_of_the_alpha_dominus/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Tech Priest"
+      }
+     ]
+    },
+    {
+     "id": "the_scryskull_perspicatus",
+     "name": "The Scryskull Perspicatus",
+     "points": 20,
+     "printed": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_scryskull_perspicatus"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/the_scryskull_perspicatus/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Tech Priest"
+      }
+     ]
+    },
+    {
+     "id": "the_uncreator_gauntlet",
+     "name": "The Uncreator Gauntlet",
+     "points": 30,
+     "printed": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_uncreator_gauntlet"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/the_uncreator_gauntlet/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Tech Priest"
+      }
+     ]
+    },
+    {
+     "id": "momento_mortispex",
+     "name": "Momento-Mortispex",
+     "points": 20,
+     "printed": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "momento_mortispex"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/momento_mortispex/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Tech Priest"
+      }
+     ]
+    },
+    {
+     "id": "numinastas_casket_of_electromancy",
+     "name": "Numinasta's Casket of Electromancy",
+     "points": 10,
+     "printed": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "numinastas_casket_of_electromancy"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/numinastas_casket_of_electromancy/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Tech Priest"
+      }
+     ]
+    },
+    {
+     "id": "omnissiahs_grace",
+     "name": "Omnissiah's Grace",
+     "points": 5,
+     "printed": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "omnissiahs_grace"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/omnissiahs_grace/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Tech Priest"
+      }
+     ]
+    },
+    {
+     "id": "sacrifactum_autorepulsor",
+     "name": "Sacrifactum Autorepulsor",
+     "points": 10,
+     "printed": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "sacrifactum_autorepulsor"
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/sacrifactum_autorepulsor/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Tech Priest"
+      }
+     ]
+    },
+    {
+     "id": "saint_curias_autopurger",
+     "name": "Saint Curia's Autopurger",
+     "points": 25,
+     "printed": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "saint_curias_autopurger"
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/saint_curias_autopurger/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Tech Priest"
+      }
+     ]
+    },
+    {
+     "id": "phosphoenix",
+     "name": "Phosphoenix",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Phosphor Serpenta, Radium Pistol, or Archeotech Pistol for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "phosphor_serpenta"
+        },
+        {
+         "kind": "weapon",
+         "id": "radium_pistol"
+        },
+        {
+         "kind": "weapon",
+         "id": "archeotech_pistol"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "phosphoenix"
+        }
+       ]
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/phosphoenix/",
+     "pricing": "flat"
+    },
+    {
+     "id": "phase_taser",
+     "name": "Phase Taser",
+     "points": 15,
+     "printed": "One Skitarii unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Taser Goad for this relic for 15pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "taser_goad"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "phase_taser"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/phase_taser/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Skitarii"
+      }
+     ]
+    },
+    {
+     "id": "quantum_annihilator",
+     "name": "Quantum Annihilator",
+     "points": 15,
+     "printed": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Eradication Ray for this relic for 15pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "eradication_ray"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "quantum_annihilator"
+        }
+       ]
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/quantum_annihilator/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Tech Priest"
+      }
+     ]
+    },
+    {
+     "id": "pater_cog_tooth",
+     "name": "Pater Cog-Tooth",
+     "points": 10,
+     "printed": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Omnissian Axe for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "omnissian_axe"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "pater_cog_tooth"
+        }
+       ]
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/pater_cog_tooth/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Tech Priest"
+      }
+     ]
+    },
+    {
+     "id": "the_purgations_purity",
+     "name": "The Purgation's Purity",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Radium Pistol, Phosphor Serpenta or Archeotech Pistol for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "radium_pistol"
+        },
+        {
+         "kind": "weapon",
+         "id": "phosphor_serpenta"
+        },
+        {
+         "kind": "weapon",
+         "id": "archeotech_pistol"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_purgations_purity"
+        }
+       ]
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/the_purgations_purity/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "machine_rites",
+   "kind": "machine_rites",
+   "label": "Any Adeptus Mechanicus unit with the Battle Smith (x) special rule may purchase the following Rites:",
+   "printed": "Any Adeptus Mechanicus unit with the Battle Smith (x) special rule may purchase the following Rites:",
+   "page": 20,
+   "url": "https://longwarindex.app/codex/adeptus_mechanicus/powers/",
+   "offered_by": {
+    "codex": "adeptus_mechanicus"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/battle_smith",
+       "name": "Battle Smith",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/battle_smith",
+     "name": "Battle Smith",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "rite_of_consecration",
+     "name": "Rite of Consecration",
+     "page": 20,
+     "url": "https://longwarindex.app/powers/rite_of_consecration_adeptus_mechanicus/",
+     "text": "When this Rite is performed successfully, select 1 friendly Walker, Automata, Vehicle, Knight, Fortification or Aircraft unit within 6\" of the unit performing this Rite or the unit performing the Rite is embarked upon. That unit gains the Indomitable Spirit (6+) special rule until the start of your next Shooting Phase.",
+     "points": 5,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_destruction",
+     "name": "Rite of Destruction",
+     "page": 20,
+     "url": "https://longwarindex.app/powers/rite_of_destruction_adeptus_mechanicus/",
+     "text": "When this Rite is performed successfully, select 1 enemy Vehicle, Walker, Knight, Titan or Aircraft unit within 12\". The target unit takes D6, Strength 1, AP- automatic hits. These hits are resolved with the Haywire (4+) special rule. Only Invulnerable saves may be made against these attacks.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_immolation",
+     "name": "Rite of Immolation",
+     "page": 20,
+     "url": "https://longwarindex.app/powers/rite_of_immolation_adeptus_mechanicus/",
+     "text": "When this Rite is performed successfully, select 1 friendly Walker, Automata, Vehicle, Knight, Fortification or Aircraft unit within 6\" of the unit performing this Rite or the unit performing the Rite is embarked upon. That unit immediately suffers an Explodes result per the Vehicle Damage Chart, even if it would normally not.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_locomotion",
+     "name": "Rite of Locomotion",
+     "page": 20,
+     "url": "https://longwarindex.app/powers/rite_of_locomotion_adeptus_mechanicus/",
+     "text": "When this Rite is performed successfully, select a Vehicle, Automata, Walker or Aircraft unit within 3\" of the unit performing this Rite or a unit they embarked upon may immediately make a Normal Move. However, the selected unit may not Shoot in the Shooting Phase or Charge in the Charge Phase.",
+     "points": 20,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_reloading",
+     "name": "Rite of Reloading",
+     "page": 20,
+     "url": "https://longwarindex.app/powers/rite_of_reloading_adeptus_mechanicus/",
+     "text": "When this Rite is performed successfully, select 1 friendly Walker, Automata, Vehicle, Knight, Fortification or Aircraft unit within 6\" of the unit performing this Rite or the unit performing the Rite is embarked upon. That unit immediately makes a Shooting Attack with 1 weapon it is equipped with.",
+     "points": 20,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_repair",
+     "name": "Rite of Repair",
+     "page": 20,
+     "url": "https://longwarindex.app/powers/rite_of_repair_adeptus_mechanicus/",
+     "text": "When this Rite is performed successfully, select one of the following effects:\n\n- Select 1 Walker or Automata unit either within 3\" or attached to the unit that is performing this rite. The target unit Heals 1 wound.\n- Select 1 Vehicle, Aircraft, Knight or Fortification either within 3\", attached to the unit performing this Rite or that this unit is embarked upon. Select 1 weapon that target unit is equipped with that has been destroyed. The chosen weapon is no longer destroyed.\n- Select 1 Vehicle or Knight either within 3\", attached to the unit performing this Rite or that this unit is embarked upon that is immobilized. That unit is no longer immobilized. If the unit has the Super Heavy (x) special rule and was Limping, it is no longer considered to be Limping.",
+     "points": 10,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "battle_maniple_frag_grenades",
+   "kind": "upgrade",
+   "label": "Skitarii Infantry units in your army may purchase Frag Grenades for 5pts.",
+   "printed": "Skitarii Infantry units in your army may purchase Frag Grenades for 5pts.",
+   "page": 21,
+   "url": "https://longwarindex.app/rites_of_war/battle_maniple/",
+   "offered_by": {
+    "rite": "codex/adeptus_mechanicus/rites_of_war/battle_maniple"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Skitarii"
+     },
+     {
+      "unit_type": "Infantry"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "frag_grenades",
+     "name": "Frag Grenades",
+     "points": 5,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "legio_cybernetica_maniple_paragon_of_metal",
+   "kind": "upgrade",
+   "label": "You may select 1 Cybernetica unit in your army which contains only 1 model to be upgraded to a Paragon of Metal for 25pts.",
+   "printed": "You may select 1 Cybernetica unit in your army which contains only 1 model to be upgraded to a Paragon of Metal for 25pts.",
+   "page": 25,
+   "url": "https://longwarindex.app/rites_of_war/legio_cybernetica_maniple/",
+   "offered_by": {
+    "rite": "codex/adeptus_mechanicus/rites_of_war/legio_cybernetica_maniple"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Cybernetica"
+     },
+     {
+      "max_models": 1
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "paragon_of_metal",
+     "name": "Paragon of Metal",
+     "points": 25,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/adeptus_mechanicus/special_rules/paragon_of_metal",
+       "name": "Paragon of Metal",
+       "url": "https://longwarindex.app/special_rules/paragon_of_metal/"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

@@ -1,0 +1,1214 @@
+{
+ "data_version": "7175f5e9ca4aa49c",
+ "format": 1,
+ "faction": "sisters_of_battle",
+ "codex": {
+  "id": "codex/sisters_of_battle",
+  "name": "Sisters of Battle",
+  "page": 5,
+  "url": "https://longwarindex.app/codex/sisters_of_battle/",
+  "parent": null,
+  "army_rules": [
+   {
+    "rule": "codex/sisters_of_battle/special_rules/shield_of_faith",
+    "name": "Shield of Faith",
+    "url": "https://longwarindex.app/special_rules/shield_of_faith_sisters_of_battle/"
+   },
+   {
+    "rule": "codex/sisters_of_battle/special_rules/martyrdom",
+    "name": "Martyrdom",
+    "url": "https://longwarindex.app/special_rules/martyrdom/"
+   },
+   {
+    "rule": "codex/sisters_of_battle/special_rules/faith",
+    "name": "Faith",
+    "param": "X",
+    "url": "https://longwarindex.app/special_rules/faith/"
+   },
+   {
+    "rule": "codex/sisters_of_battle/acts_of_faith/acts_of_faith",
+    "name": "Acts of Faith",
+    "url": "https://longwarindex.app/codex/sisters_of_battle/acts_of_faith/"
+   },
+   {
+    "rule": "codex/sisters_of_battle/special_rules/decree_passive",
+    "name": "Decree Passive",
+    "url": "https://longwarindex.app/special_rules/decree_passive/"
+   }
+  ],
+  "allies": {
+   "printed": "The following factions listed in keywords may be taken as allies in an allied detachment if your battle plan allows the use of allied detachments:",
+   "page": 28,
+   "url": "https://longwarindex.app/allies/sisters_of_battle_allies/",
+   "factions": [
+    {
+     "faction": "imperial_guard"
+    },
+    {
+     "faction": "space_marines"
+    },
+    {
+     "faction": "imperial_agents"
+    },
+    {
+     "faction": "talons_of_the_emperor"
+    }
+   ]
+  },
+  "starting_pool": {
+   "rule": {
+    "rule": "codex/sisters_of_battle/special_rules/faith",
+    "name": "Faith",
+    "param": "X",
+    "url": "https://longwarindex.app/special_rules/faith/"
+   },
+   "printed": "At the start of the first battle round before the first turn begins, a unit with this special rule contributes a number of Faith Points equal to the value of (x) to your starting Faith Point Pool."
+  },
+  "restrictions": [
+   {
+    "id": "decree_passive",
+    "page": 5,
+    "url": "https://longwarindex.app/special_rules/decree_passive/",
+    "printed": "You may only include 1 unit with the Cult Ministorum keyword for every 3 Adeptus Sororitas units in your army.",
+    "scope": "detachment",
+    "ratio": {
+     "limited": [
+      {
+       "keyword": "Cult Ministorum"
+      }
+     ],
+     "per": 3,
+     "of": [
+      {
+       "keyword": "Adeptus Sororitas"
+      }
+     ],
+     "imposed_by": {
+      "rule": "codex/sisters_of_battle/special_rules/decree_passive",
+      "name": "Decree Passive",
+      "url": "https://longwarindex.app/special_rules/decree_passive/"
+     }
+    }
+   }
+  ],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/sisters_of_battle/rites_of_war/holy_mission",
+    "codex/sisters_of_battle/rites_of_war/holy_retinue",
+    "codex/sisters_of_battle/rites_of_war/purgation_mass",
+    "codex/sisters_of_battle/rites_of_war/redeemer_cohort",
+    "codex/sisters_of_battle/rites_of_war/the_undeniable_word",
+    "codex/sisters_of_battle/rites_of_war/zealous_congregation"
+   ],
+   "from_parent": [],
+   "banned_from_parent": []
+  },
+  "unit_list": {
+   "page": 27,
+   "url": "https://longwarindex.app/unit_list/sisters_of_battle_unit_list/",
+   "entries": [
+    {
+     "datasheet": "codex/sisters_of_battle/roster/arch_confessor_kyrinov",
+     "printed": "Arch Confessor Kyrinov",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/canoness",
+     "printed": "Canoness",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/intranzia_fraye_dogmata_superior",
+     "printed": "Intranzia Fraye, Dogmata Superior",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/junith_eruita",
+     "printed": "Junith Eruita",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/missionary",
+     "printed": "Missionary",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/morvenn_vahl",
+     "printed": "Morvenn Vahl",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/palatine",
+     "printed": "Palatine",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/saint_celestine_and_geminae_superia",
+     "printed": "Saint Celestine & Geminae Superia",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/sisters_command_squad",
+     "printed": "Sisters Command Squad",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/uriah_jacobus",
+     "printed": "Uriah Jacobus",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/sister_novitiates_squad",
+     "printed": "Sister Novitiates Squad",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/sisters_of_battle",
+     "printed": "Sisters of Battle",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/astred_thurga_and_agathae_dolan",
+     "printed": "Astred Thurga & Agathae Dolan",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/celestians",
+     "printed": "Celestians",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/cult_delegation",
+     "printed": "Cult Delegation",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/preacher",
+     "printed": "Preacher",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/sisters_repentia",
+     "printed": "Sisters Repentia",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/immolator_ifv",
+     "printed": "Immolator IFV",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/rhino_apc",
+     "printed": "Rhino APC",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/dominions",
+     "printed": "Dominions",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/mortifier",
+     "printed": "Mortifier",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/penitent_engines",
+     "printed": "Penitent Engines",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/repressor_ifv",
+     "printed": "Repressor IFV",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/seraphim",
+     "printed": "Seraphim",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/castigator_tank",
+     "printed": "Castigator Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/exorcist_tank",
+     "printed": "Exorcist Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/paragon_warsuit",
+     "printed": "Paragon Warsuit",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/retributors",
+     "printed": "Retributors",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/the_triumph_of_saint_katherine",
+     "printed": "The Triumph of Saint Katherine",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/iron_crawler",
+     "printed": "Iron Crawler",
+     "role": "Heavy Support",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/redemptionists",
+     "printed": "Redemptionists",
+     "role": "Elites",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/sisters_of_battle/roster/zealous_congregation",
+     "printed": "Zealous Congregation",
+     "role": "Troops",
+     "appendix": true
+    }
+   ]
+  },
+  "keyword_templates": [
+   {
+    "template": "[Order]",
+    "substitution": {
+     "by": "allegiance"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/sisters_of_battle/allegiances/argent_shroud",
+   "name": "Allegiance: Argent Shroud",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/argent_shroud/",
+   "offered_by": {
+    "codex": "sisters_of_battle"
+   },
+   "keyword_substitution": {
+    "template": "[Order]",
+    "value": "Argent Shroud"
+   },
+   "rule": {
+    "rule": "codex/sisters_of_battle/allegiances/argent_shroud",
+    "name": "Argent Shroud",
+    "printed": "codex/sisters_of_battle/allegiances/argent_shroud",
+    "url": "https://longwarindex.app/allegiances/argent_shroud/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [
+    {
+     "id": "devout_belief",
+     "printed": "Increase all Argent Shroud units' Invulnerable saves by 1 from Shield of Faith special rule to a max of 4+.",
+     "invulnerable_save": {
+      "conditions": [
+       {
+        "keyword": "Argent Shroud"
+       }
+      ],
+      "save": "5+"
+     }
+    },
+    {
+     "id": "deeds_not_words",
+     "printed": "If your army is Argent Shroud, you do not generate any Faith Points from units with the Faith special rule in your army during the first battle round unless obtained via Relic Wargear.",
+     "starting_pool": {
+      "from_wargear_only": true
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/sisters_of_battle/allegiances/bloody_rose",
+   "name": "Allegiance: Bloody Rose",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/bloody_rose/",
+   "offered_by": {
+    "codex": "sisters_of_battle"
+   },
+   "keyword_substitution": {
+    "template": "[Order]",
+    "value": "Bloody Rose"
+   },
+   "rule": {
+    "rule": "codex/sisters_of_battle/allegiances/bloody_rose",
+    "name": "Bloody Rose",
+    "printed": "codex/sisters_of_battle/allegiances/bloody_rose",
+    "url": "https://longwarindex.app/allegiances/bloody_rose/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [],
+   "game_time": [
+    "Bloody Rose units may not set to Overwatch."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/sisters_of_battle/allegiances/ebon_chalice",
+   "name": "Allegiance: Ebon Chalice",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/ebon_chalice/",
+   "offered_by": {
+    "codex": "sisters_of_battle"
+   },
+   "keyword_substitution": {
+    "template": "[Order]",
+    "value": "Ebon Chalice"
+   },
+   "rule": {
+    "rule": "codex/sisters_of_battle/allegiances/ebon_chalice",
+    "name": "Ebon Chalice",
+    "printed": "codex/sisters_of_battle/allegiances/ebon_chalice",
+    "url": "https://longwarindex.app/allegiances/ebon_chalice/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "first_of_the_brides",
+     "printed": "Ebon Chalice armies may not include Cult Ministorum units and may not use the Zealous Congregation Rite of War.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Cult Ministorum"
+       }
+      ],
+      "max": 0
+     },
+     "forbidden_rites": [
+      "codex/sisters_of_battle/rites_of_war/zealous_congregation"
+     ]
+    }
+   ],
+   "benefits": [
+    {
+     "id": "cleanse_with_fire",
+     "printed": "All Ebon Chalice units in your army gain the +1 to their Strength characteristic on all 'Flamer' weapons they are equipped with.",
+     "weapon_stat_mods": {
+      "conditions": [
+       {
+        "keyword": "Ebon Chalice"
+       }
+      ],
+      "weapons": {
+       "subtype": "Flamer Weapons"
+      },
+      "mods": [
+       {
+        "characteristic": "S",
+        "delta": 1
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/sisters_of_battle/allegiances/our_martyred_lady",
+   "name": "Allegiance: Our Martyred Lady",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/our_martyred_lady/",
+   "offered_by": {
+    "codex": "sisters_of_battle"
+   },
+   "keyword_substitution": {
+    "template": "[Order]",
+    "value": "Our Martyred Lady"
+   },
+   "rule": {
+    "rule": "codex/sisters_of_battle/allegiances/our_martyred_lady",
+    "name": "Our Martyred Lady",
+    "printed": "codex/sisters_of_battle/allegiances/our_martyred_lady",
+    "url": "https://longwarindex.app/allegiances/our_martyred_lady/"
+   },
+   "preset": true,
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [
+    {
+     "id": "blood_of_martyrs",
+     "printed": "All Our Martyred Lady Sisters of Battle, Dominions and Retributors units in your army gain the Martyrdom special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Our Martyred Lady"
+       },
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/sisters_of_battle/roster/sisters_of_battle"
+         },
+         {
+          "datasheet": "codex/sisters_of_battle/roster/dominions"
+         },
+         {
+          "datasheet": "codex/sisters_of_battle/roster/retributors"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "codex/sisters_of_battle/special_rules/martyrdom",
+        "name": "Martyrdom",
+        "url": "https://longwarindex.app/special_rules/martyrdom/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "Our Martyred Lady units may not perform Retreat moves in the Movement Phase."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/sisters_of_battle/allegiances/sacred_rose",
+   "name": "Allegiance: Sacred Rose",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/sacred_rose/",
+   "offered_by": {
+    "codex": "sisters_of_battle"
+   },
+   "keyword_substitution": {
+    "template": "[Order]",
+    "value": "Sacred Rose"
+   },
+   "rule": {
+    "rule": "codex/sisters_of_battle/allegiances/sacred_rose",
+    "name": "Sacred Rose",
+    "printed": "codex/sisters_of_battle/allegiances/sacred_rose",
+    "url": "https://longwarindex.app/allegiances/sacred_rose/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [],
+   "game_time": [
+    "Sacred Rose units have -2\" to all Charge rolls."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/sisters_of_battle/allegiances/valorous_heart",
+   "name": "Allegiance: Valorous Heart",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/valorous_heart/",
+   "offered_by": {
+    "codex": "sisters_of_battle"
+   },
+   "keyword_substitution": {
+    "template": "[Order]",
+    "value": "Valorous Heart"
+   },
+   "rule": {
+    "rule": "codex/sisters_of_battle/allegiances/valorous_heart",
+    "name": "Valorous Heart",
+    "printed": "codex/sisters_of_battle/allegiances/valorous_heart",
+    "url": "https://longwarindex.app/allegiances/valorous_heart/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [],
+   "game_time": [
+    "Valorous Heart units with the Martyrdom special rule must roll a D6 each time the last model is slain and removed from play. Only on a 4+ do you gain a Faith Point."
+   ],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/sisters_of_battle/rites_of_war/holy_mission",
+   "name": "Holy Mission",
+   "page": 18,
+   "url": "https://longwarindex.app/rites_of_war/holy_mission/",
+   "offered_by": {
+    "codex": "sisters_of_battle"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Canoness or Palatine who must be your Warlord.\n- Your army must include at least 2 Sisters of Battle Units.\n- Your army must include at least 1 Cult Ministorum unit.\n\nBenefits\n\n- You may include 1 Cult Ministorum unit in your army for each Adeptus Sororitas unit in your army instead of per 3 units as described in the Decree Passive special rule.\n- Generate 1 additional Faith Point at the start of the First Battle Round.\n- Sister Novitiate Squads in your army gain the Acts of Faith special rule.",
+   "restrictions": [
+    {
+     "id": "canoness_or_palatine_warlord",
+     "printed": "Your army must include at least 1 Canoness or Palatine who must be your Warlord.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/sisters_of_battle/roster/canoness"
+         },
+         {
+          "datasheet": "codex/sisters_of_battle/roster/palatine"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     },
+     "warlord": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/sisters_of_battle/roster/canoness"
+         },
+         {
+          "datasheet": "codex/sisters_of_battle/roster/palatine"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "sisters_of_battle_units",
+     "printed": "Your army must include at least 2 Sisters of Battle Units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/sisters_of_battle"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "cult_ministorum_unit",
+     "printed": "Your army must include at least 1 Cult Ministorum unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Cult Ministorum"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "cult_ministorum_ratio",
+     "printed": "You may include 1 Cult Ministorum unit in your army for each Adeptus Sororitas unit in your army instead of per 3 units as described in the Decree Passive special rule.",
+     "ratio_change": {
+      "restriction": {
+       "id": "decree_passive"
+      },
+      "per": 1
+     }
+    },
+    {
+     "id": "additional_faith_point",
+     "printed": "Generate 1 additional Faith Point at the start of the First Battle Round.",
+     "starting_pool": {
+      "add": 1
+     }
+    },
+    {
+     "id": "novitiate_acts_of_faith",
+     "printed": "Sister Novitiate Squads in your army gain the Acts of Faith special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/sister_novitiates_squad"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "codex/sisters_of_battle/acts_of_faith/acts_of_faith",
+        "name": "Acts of Faith",
+        "url": "https://longwarindex.app/codex/sisters_of_battle/acts_of_faith/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/sisters_of_battle/rites_of_war/holy_retinue",
+   "name": "Holy Retinue",
+   "page": 25,
+   "url": "https://longwarindex.app/rites_of_war/holy_retinue/",
+   "offered_by": {
+    "codex": "sisters_of_battle"
+   },
+   "text": "Restrictions\n\n- Your army must include a Canoness or Morvenn Vahl.\n- Your army must include 3 units with the Veteran Keyword.\n- If your Warlord is Slain, you lose D3 Victory Points at the end of the battle.\n\nBenefits\n\n- You may field Celestians as Troops Choices.\n- You may field Seraphim as Troops choices but they gain the Support Squad special rule.\n- You may field Paragon War Suits as Elite Choices.",
+   "restrictions": [
+    {
+     "id": "canoness_or_morvenn_vahl",
+     "printed": "Your army must include a Canoness or Morvenn Vahl.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/sisters_of_battle/roster/canoness"
+         },
+         {
+          "datasheet": "codex/sisters_of_battle/roster/morvenn_vahl"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "veteran_units",
+     "printed": "Your army must include 3 units with the Veteran Keyword.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Veteran"
+       }
+      ],
+      "min": 3
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "celestians_troops",
+     "printed": "You may field Celestians as Troops Choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/celestians"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "seraphim_troops",
+     "printed": "You may field Seraphim as Troops choices but they gain the Support Squad special rule.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/seraphim"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "seraphim_troops_support_squad",
+     "printed": "You may field Seraphim as Troops choices but they gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/seraphim"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "paragon_war_suits_elites",
+     "printed": "You may field Paragon War Suits as Elite Choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/paragon_warsuit"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "If your Warlord is Slain, you lose D3 Victory Points at the end of the battle."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/sisters_of_battle/rites_of_war/purgation_mass",
+   "name": "Purgation Mass",
+   "page": 23,
+   "url": "https://longwarindex.app/rites_of_war/purgation_mass/",
+   "offered_by": {
+    "codex": "sisters_of_battle"
+   },
+   "text": "Restrictions\n\n- Your army must include 1 Castigator Tanks.\n- Your army must include 2 Immolator IFV.\n- Your army must include more Vehicle type units than any other type.\n\nBenefits\n\n- You may field Immolator IFV's as Troops choices.\n- You may field Castigator Tanks as Elite choices.\n- 1 Castigator Tank in your army may be selected to be your Warlord and fielded as a HQ instead of its normal Slot. This unit gains the Character special rule and +1 to its Ballistic Skill (BS) Characteristic.",
+   "restrictions": [
+    {
+     "id": "castigator_tank",
+     "printed": "Your army must include 1 Castigator Tanks.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/castigator_tank"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "immolator_ifv",
+     "printed": "Your army must include 2 Immolator IFV.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/immolator_ifv"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "more_vehicles",
+     "printed": "Your army must include more Vehicle type units than any other type.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "unit_type": "Vehicle"
+       }
+      ],
+      "than": [
+       [
+        {
+         "unit_type": "Aircraft"
+        }
+       ],
+       [
+        {
+         "unit_type": "Automata"
+        }
+       ],
+       [
+        {
+         "unit_type": "Battlesuit"
+        }
+       ],
+       [
+        {
+         "unit_type": "Beast"
+        }
+       ],
+       [
+        {
+         "unit_type": "Bike"
+        }
+       ],
+       [
+        {
+         "unit_type": "Cavalry"
+        }
+       ],
+       [
+        {
+         "unit_type": "Drone"
+        }
+       ],
+       [
+        {
+         "unit_type": "Fortification"
+        }
+       ],
+       [
+        {
+         "unit_type": "Infantry"
+        }
+       ],
+       [
+        {
+         "unit_type": "Jetbike"
+        }
+       ],
+       [
+        {
+         "unit_type": "Knight"
+        }
+       ],
+       [
+        {
+         "unit_type": "Monster"
+        }
+       ],
+       [
+        {
+         "unit_type": "Primarch"
+        }
+       ],
+       [
+        {
+         "unit_type": "Swarm"
+        }
+       ],
+       [
+        {
+         "unit_type": "Titan"
+        }
+       ],
+       [
+        {
+         "unit_type": "Walker"
+        }
+       ]
+      ],
+      "each": true
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "immolator_troops",
+     "printed": "You may field Immolator IFV's as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/immolator_ifv"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "castigator_elites",
+     "printed": "You may field Castigator Tanks as Elite choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/castigator_tank"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "castigator_warlord",
+     "printed": "1 Castigator Tank in your army may be selected to be your Warlord and fielded as a HQ instead of its normal Slot.",
+     "options": [
+      {
+       "book_options": "sisters_of_battle",
+       "group": "purgation_mass_castigator_warlord"
+      }
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/sisters_of_battle/rites_of_war/redeemer_cohort",
+   "name": "Redeemer Cohort",
+   "page": 22,
+   "url": "https://longwarindex.app/rites_of_war/redeemer_cohort/",
+   "offered_by": {
+    "codex": "sisters_of_battle"
+   },
+   "text": "Restrictions\n\n- Your army must include a Missionary.\n- Your army must include 2 units of Sisters Repentia.\n- Your army may only include the following units:\n    - Sister Repentia.\n    - Preachers.\n    - Missionary.\n    - Rhino.\n    - Penitent Engine.\n    - Mortifiers.\n    - Sisters Novitiate Squad.\n\nBenefits\n\n- You may field Sisters Repentia as Troops Choices.\n- You may field Mortifiers as Elites choices.\n- Ignore the Decree Passive special rule on Preachers and Missionary units in your army.",
+   "restrictions": [
+    {
+     "id": "missionary",
+     "printed": "Your army must include a Missionary.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/missionary"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "sisters_repentia",
+     "printed": "Your army must include 2 units of Sisters Repentia.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/sisters_repentia"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "only_listed_units",
+     "printed": "Your army may only include the following units:",
+     "scope": "detachment",
+     "units_listed": {
+      "entries": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/sisters_repentia",
+        "printed": "Sister Repentia"
+       },
+       {
+        "datasheet": "codex/sisters_of_battle/roster/preacher",
+        "printed": "Preachers"
+       },
+       {
+        "datasheet": "codex/sisters_of_battle/roster/missionary",
+        "printed": "Missionary"
+       },
+       {
+        "datasheet": "codex/sisters_of_battle/roster/rhino_apc",
+        "printed": "Rhino"
+       },
+       {
+        "datasheet": "codex/sisters_of_battle/roster/penitent_engines",
+        "printed": "Penitent Engine"
+       },
+       {
+        "datasheet": "codex/sisters_of_battle/roster/mortifier",
+        "printed": "Mortifiers"
+       },
+       {
+        "datasheet": "codex/sisters_of_battle/roster/sister_novitiates_squad",
+        "printed": "Sisters Novitiate Squad"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "sisters_repentia_troops",
+     "printed": "You may field Sisters Repentia as Troops Choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/sisters_repentia"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "mortifiers_elites",
+     "printed": "You may field Mortifiers as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/mortifier"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "ignore_decree_passive",
+     "printed": "Ignore the Decree Passive special rule on Preachers and Missionary units in your army.",
+     "suppress_rules": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/sisters_of_battle/roster/preacher"
+         },
+         {
+          "datasheet": "codex/sisters_of_battle/roster/missionary"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "codex/sisters_of_battle/special_rules/decree_passive",
+        "name": "Decree Passive",
+        "url": "https://longwarindex.app/special_rules/decree_passive/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/sisters_of_battle/rites_of_war/the_undeniable_word",
+   "name": "The Undeniable Word",
+   "page": 24,
+   "url": "https://longwarindex.app/rites_of_war/the_undeniable_word/",
+   "offered_by": {
+    "codex": "sisters_of_battle"
+   },
+   "text": "Restrictions\n\n- Your army must include 2 units of Dominions.\n- Infantry units in your army must begin embarked in a Transport model or in reserve.\n- You may not include any Cult Ministorum units in your army.\n\nBenefits\n\n- You may field Dominions as Troops choices.\n- Immolator IFV may be fielded as Elite choices.\n- Transport units in your army gain the Scout special rule.",
+   "restrictions": [
+    {
+     "id": "dominions",
+     "printed": "Your army must include 2 units of Dominions.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/dominions"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "no_cult_ministorum",
+     "printed": "You may not include any Cult Ministorum units in your army.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Cult Ministorum"
+       }
+      ],
+      "max": 0
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "dominions_troops",
+     "printed": "You may field Dominions as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/dominions"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "immolator_elites",
+     "printed": "Immolator IFV may be fielded as Elite choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/immolator_ifv"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "transport_scout",
+     "printed": "Transport units in your army gain the Scout special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Transport"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/scout",
+        "name": "Scout",
+        "url": "https://longwarindex.app/universal_special_rules/scout/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "Infantry units in your army must begin embarked in a Transport model or in reserve."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/sisters_of_battle/rites_of_war/zealous_congregation",
+   "name": "Zealous Congregation",
+   "page": 19,
+   "url": "https://longwarindex.app/rites_of_war/zealous_congregation/",
+   "offered_by": {
+    "codex": "sisters_of_battle"
+   },
+   "text": "Restrictions\n\n- Your army may only include units with the Cult Ministorum keywords.\n- Your army must include at least 1 Missionary or Preacher unit.\n\nBenefits\n\n- You gain access to the Zealous Congregation unit below. This unit is a Troops choice.\n- You gain access to the Redemptionists unit below. This unit is an Elite choice.\n- You gain access to the Iron Crawler unit below. This unit is a Heavy Support choice.",
+   "restrictions": [
+    {
+     "id": "only_cult_ministorum",
+     "printed": "Your army may only include units with the Cult Ministorum keywords.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "keyword": "Cult Ministorum"
+       }
+      ]
+     }
+    },
+    {
+     "id": "missionary_or_preacher",
+     "printed": "Your army must include at least 1 Missionary or Preacher unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/sisters_of_battle/roster/missionary"
+         },
+         {
+          "datasheet": "codex/sisters_of_battle/roster/preacher"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "zealous_congregation_unit",
+     "printed": "You gain access to the Zealous Congregation unit below. This unit is a Troops choice.",
+     "unlocks": [
+      "codex/sisters_of_battle/roster/zealous_congregation"
+     ]
+    },
+    {
+     "id": "redemptionists_unit",
+     "printed": "You gain access to the Redemptionists unit below. This unit is an Elite choice.",
+     "unlocks": [
+      "codex/sisters_of_battle/roster/redemptionists"
+     ]
+    },
+    {
+     "id": "iron_crawler_unit",
+     "printed": "You gain access to the Iron Crawler unit below. This unit is a Heavy Support choice.",
+     "unlocks": [
+      "codex/sisters_of_battle/roster/iron_crawler"
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

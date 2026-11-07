@@ -1,0 +1,754 @@
+{
+ "data_version": "082ebe32c0c2fd4a",
+ "format": 1,
+ "faction": "adeptus_mechanicus",
+ "wargear": [
+  {
+   "id": "bionics",
+   "name": "Bionics",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/bionics_adeptus_mechanicus/",
+   "text": "A model equipped with this wargear gains the Feel No Pain (6+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "6+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "digital_weapons",
+   "name": "Digital Weapons",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/digital_weapons_adeptus_mechanicus/",
+   "text": "A model equipped with this wargear gains +1 to its Attacks (A) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "A",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "enhanced_bionics",
+   "name": "Enhanced Bionics",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/enhanced_bionics_adeptus_mechanicus/",
+   "text": "A model equipped with this wargear gains the Feel No Pain (5+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "data_tether",
+   "name": "Data Tether",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/data_tether/",
+   "text": "A unit which includes a model equipped with this wargear may re-roll Panic tests."
+  },
+  {
+   "id": "refractor_field",
+   "name": "Refractor Field",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/refractor_field_adeptus_mechanicus/",
+   "text": "This confers a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "broad_spectrum_data_tether",
+   "name": "Broad Spectrum Data Tether",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/broad_spectrum_data_tether/",
+   "text": "A unit with this wargear and all friendly Adeptus Mechanicus units within 12\" may re-roll Panic tests."
+  },
+  {
+   "id": "automedicae_bionics",
+   "name": "Automedicae Bionics",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/automedicae_bionics_adeptus_mechanicus/",
+   "text": "A model with this wargear has the Regeneration special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/regeneration",
+      "name": "Regeneration",
+      "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "omnispex",
+   "name": "Omnispex",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/omnispex/",
+   "text": "A unit with a model equipped with this wargear gains Ignores Cover on all weapons they are equipped with.",
+   "effects": {
+    "unit_weapon_rules": [
+     {
+      "rule": "special_rules/ignores_cover",
+      "name": "Ignores Cover",
+      "url": "https://longwarindex.app/special_rules/ignores_cover/",
+      "weapon_types": [
+       "Pistol",
+       "Rapid Fire",
+       "Assault",
+       "Heavy",
+       "Grenade",
+       "Melee"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "cyber_familiar",
+   "name": "Cyber familiar",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/cyber_familiar_adeptus_mechanicus/",
+   "text": "The equipped model gains +1 to any Invulnerable saves it has (to a max of 3+). In addition, the equipped model may re-roll 1 of the dice when performing the Leadership test for a Machine Rite.",
+   "effects": {
+    "invulnerable_save_improve": {
+     "by": 1,
+     "max": "3+"
+    }
+   }
+  },
+  {
+   "id": "data_spike",
+   "name": "Data Spike",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/data_spike/",
+   "text": "A model equipped with this wargear makes 1 additional, Strength User Attack at initiative Step 1 of the Combat Phase resolved as if it had the Haywire (2+) special rule."
+  },
+  {
+   "id": "mechadendrites",
+   "name": "Mechadendrites",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/mechadendrites/",
+   "text": "A model equipped with this wargear adds +D6 to its Attacks (A) characteristic in the Combat Phase."
+  },
+  {
+   "id": "melta_bomb",
+   "name": "Melta Bomb",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "melta_bomb"
+    }
+   ],
+   "section": "Wargear",
+   "page": 51,
+   "url": "https://longwarindex.app/wargear/melta_bomb_adeptus_mechanicus/",
+   "text": "In combat, a model with this wargear may forgo its attacks and instead make a single Strength 8, AP1 attack with the Melta Special rule at Initiative step 1.",
+   "print_defect": "The book names this wargear on a datasheet but prints no rules text. This data gives the text of Codex Imperial Guard."
+  },
+  {
+   "id": "skitarii_warplate",
+   "name": "Skitarii Warplate",
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/skitarii_warplate/",
+   "text": "This Heavy Warplate is used by the Skitarii and is quite effective at protecting the organic core of its wearer. It confers a 4+ Armour save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "kataphron_demi_plate",
+   "name": "Kataphron Demi-Plate",
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/kataphron_demi_plate/",
+   "text": "A lighter armour plating for Kataphrons using heavy weapons that provides some protection for the long ranged support servitors. It confers a 4+ Armour save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "artificer_armour",
+   "name": "Artificer Armour",
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/artificer_armour_adeptus_mechanicus/",
+   "text": "This ornate suit of powered armour is some of the finest of its type. It confers a 2+ Armour save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "kataphron_breacher_plate",
+   "name": "Kataphron Breacher Plate",
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/kataphron_breacher_plate/",
+   "text": "This heavy Fitted armour is used for Kataphrons dedicated to shock assaults where they are intended to soak heavy fire. It confers a 3+ Armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "light_battlehide",
+   "name": "Light Battlehide",
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/light_battlehide/",
+   "text": "Some smaller Automata designed to move fast have thinner battlehides with less plating. This confers a 3+ Armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "lorica_thallax",
+   "name": "Lorica Thallax",
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/lorica_thallax/",
+   "text": "A Powered armour for those who become Thallax, its near wholly machine body and limited biological organs means it is able to shrug heavy amounts of firepower. It confers a 3+ Armour save. It includes a Jump Pack. A model with this wargear gains +1 to its Toughness (T) and Wounds (W) characteristics. The equipped model gains the Bulky (2) and Relentless special rules.",
+   "effects": {
+    "armour_save": "3+",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     }
+    ],
+    "counts_as": [
+     {
+      "kind": "wargear",
+      "id": "jump_pack"
+     }
+    ]
+   }
+  },
+  {
+   "id": "heavy_battlehide",
+   "name": "Heavy Battlehide",
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/heavy_battlehide_adeptus_mechanicus/",
+   "text": "The armoured battlehide of Automata is thick and powerful, able to withstand great force. It confers a 2+ Armour save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "jump_pack",
+   "name": "Jump Pack",
+   "section": "Mobility Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/jump_pack_adeptus_mechanicus/",
+   "text": "A model that is equipped with a Jump Pack increases its wearer's Movement (M) Characteristic to 12\" and gains the Hammer of Wrath (1), Fly and Deep Strike Special rule.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "serberys_mount",
+   "name": "Serberys Mount",
+   "section": "Mobility Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/serberys_mount/",
+   "text": "A model that is equipped with a Serberys mount becomes the Cavalry type. In addition, the equipped model gains +1 to its Toughness (T) characteristic.",
+   "effects": {
+    "unit_type": "Cavalry",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "smoke_launchers",
+   "name": "Smoke Launchers",
+   "section": "Vehicle Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/smoke_launchers_adeptus_mechanicus/",
+   "text": "A model equipped with this Wargear can set to deploy smoke instead of setting to 8.1.1 - Overwatch. Until the start of its next turn, the model gains 4+ Cover Save."
+  },
+  {
+   "id": "chaff_launchers",
+   "name": "Chaff Launchers",
+   "section": "Vehicle Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/chaff_launchers/",
+   "text": "A model equipped with this Wargear can set to deploy Chaff instead of setting to 8.1.1 - Overwatch. Until the start of its next turn, the model gains 5+ Cover Save. The Cover save is increased to 4+ against 'Missile' weapons. This includes any weapons listed under the 'Missile' category of the weapon section in their codex."
+  },
+  {
+   "id": "flare_shields",
+   "name": "Flare Shields",
+   "section": "Vehicle Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/flare_shields_adeptus_mechanicus/",
+   "text": "A unit equipped with this wargear, reduces the Strength (S) characteristic of any weapons that resolve their hits against the Front Armour (FA) of the equipped unit by 1. If the Attack has the Blast (x) special rule, its strength is reduced by 2."
+  },
+  {
+   "id": "blessed_autosimulacra",
+   "name": "Blessed Autosimulacra",
+   "section": "Vehicle Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/blessed_autosimulacra_adeptus_mechanicus/",
+   "text": "A model equipped with this wargear gains the Regeneration Special rule. In addition, each time the unit suffers a wound or Penetrating hit, it can roll a D6. On a 5+ that wound or Penetrating hit is ignored.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/regeneration",
+      "name": "Regeneration",
+      "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "searchlight",
+   "name": "Searchlight",
+   "section": "Vehicle Wargear",
+   "page": 55,
+   "url": "https://longwarindex.app/wargear/searchlight_adeptus_mechanicus/",
+   "text": "A model with this special rule gains the Night Vision special rule. Any unit that it targets in the Shooting Phase no longer gains the benefit of Night Fighting. Any attacks against this unit are not affected by Night Fighting.",
+   "print_defect": "The book names this wargear on datasheets but prints no rules text. This data gives the text of Codex Imperial Guard.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/night_vision",
+      "name": "Night Vision",
+      "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "raiment_of_the_techno_martyr",
+   "name": "Raiment of the Techno Martyr",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/raiment_of_the_techno_martyr/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic and any attached unit may always set to 8.1.1 - Overwatch even if it made a Shooting attack in the Shooting Phase."
+  },
+  {
+   "id": "pater_radium",
+   "name": "Pater Radium",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/pater_radium/",
+   "text": "One Skitarii unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. At Initiative Step 1 of a Combat, all enemy units within 3\" of a model with this relic take D3 Automatic Wounds with no saves allowed."
+  },
+  {
+   "id": "the_skull_of_elder_nikola",
+   "name": "The Skull of Elder Nikola",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_skull_of_elder_nikola/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Once per game, a model with this Relic in the Shooting Phase can declare they will activate the skull. All enemy units within 18\" of the model equipped with the Relic take D6, Strength 6, AP3, Haywire (2+), Automatic hits."
+  },
+  {
+   "id": "the_omniscient_mask",
+   "name": "The Omniscient Mask",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_omniscient_mask/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this wargear and any attached unit gain the Zealot special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/zealot",
+      "name": "Zealot",
+      "url": "https://longwarindex.app/universal_special_rules/zealot/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "anzions_pseudogenetor",
+   "name": "Anzion's Pseudogenetor",
+   "printed": {
+    "name": "Anzion's Psuedogenetor"
+   },
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/anzions_pseudogenetor/",
+   "text": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this Relic gains +1D6 to its Attacks (A) characteristic."
+  },
+  {
+   "id": "autocaduceus_of_arkhan_land",
+   "name": "Autocaduceus of Arkhan Land",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/autocaduceus_of_arkhan_land/",
+   "text": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this Relic automatically succeeds when attempting to perform the Rite of Repair Machine Rite."
+  },
+  {
+   "id": "mask_of_the_alpha_dominus",
+   "name": "Mask of the Alpha Dominus",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/mask_of_the_alpha_dominus/",
+   "text": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Once per game, a model with this Relic may select a friendly Cybernetica unit within 12\" in the Shooting Phase or Combat Phase. Until the end of the Phase, the target unit gains +1 to its Ballistic Skill (BS) characteristic if it's the Shooting Phase or +1 to its Weapon Skill (WS) characteristic if it's the Combat Phase. This effect lasts until the end of the current Phase."
+  },
+  {
+   "id": "the_scryskull_perspicatus",
+   "name": "The Scryskull Perspicatus",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_scryskull_perspicatus/",
+   "text": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this Relic and any attached unit may re-roll Penetration rolls."
+  },
+  {
+   "id": "the_uncreator_gauntlet",
+   "name": "The Uncreator Gauntlet",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_uncreator_gauntlet/",
+   "text": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. When a model equipped with this Relic would fight at its Initiative Step in the Combat Phase, it can select a single enemy Vehicle, Knight, Titan or Aircraft unit within 3\". Immediately roll on the Vehicle Damage table for that target with +2 to the roll instead of conducting the equipped models' normal attacks."
+  },
+  {
+   "id": "momento_mortispex",
+   "name": "Momento-Mortispex",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/momento_mortispex/",
+   "text": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. At the start of each of your turns, a model with this Relic and any attached unit can gain one of the following special rules until the start of your next turn: Monster Hunter, Tank Hunter or Skyfire on all equipped Shooting weapons."
+  },
+  {
+   "id": "numinastas_casket_of_electromancy",
+   "name": "Numinasta's Casket of Electromancy",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/numinastas_casket_of_electromancy/",
+   "text": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this Relic gains the Hammer of Wrath (3) special rule. In addition, this model's Hammer of Wrath Attacks are resolved as if they had the Haywire (4+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "3",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "omnissiahs_grace",
+   "name": "Omnissiah's Grace",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/omnissiahs_grace/",
+   "text": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this Relic gains a 3+ Invulnerable Save.",
+   "effects": {
+    "invulnerable_save": "3+"
+   }
+  },
+  {
+   "id": "sacrifactum_autorepulsor",
+   "name": "Sacrifactum Autorepulsor",
+   "section": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/sacrifactum_autorepulsor/",
+   "text": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. All Charge Rolls against a model equipped with this Relic and any attached unit are resolved at -2. In addition, all charges against a unit equipped with this Relic are resolved as Disordered Charges."
+  },
+  {
+   "id": "saint_curias_autopurger",
+   "name": "Saint Curia's Autopurger",
+   "section": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/saint_curias_autopurger/",
+   "text": "One Tech Priest unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. At the end of each Combat Phase, all enemy units within 12\" of a model with this Relic take 2D6, Strength 1, AP-, Poison (4+) automatic hits."
+  },
+  {
+   "id": "mag_inverter_shield",
+   "name": "Mag Inverter Shield",
+   "section": "Datasheet",
+   "datasheet": "Secutarii Hoplites",
+   "page": 27,
+   "url": "https://longwarindex.app/wargear/mag_inverter_shield/",
+   "text": "Confers a 5+ Invulnerable Save. A unit with this wargear can never claim +1 Attacks for holding two weapons.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "kyropatris_field_generator",
+   "name": "Kyropatris Field Generator",
+   "section": "Datasheet",
+   "datasheet": "Secutarii Hoplites",
+   "page": 27,
+   "url": "https://longwarindex.app/wargear/kyropatris_field_generator/",
+   "text": "A unit with 5 or more models with this Wargear may re-roll failed Armor Saves of 1. In addition, a unit with 10 or more models with this Wargear reduce the strength of shooting attacks made against them by -1 (to a minimum of Strength 1)."
+  },
+  {
+   "id": "void_shields",
+   "name": "Void Shields",
+   "parameter": {
+    "kind": "count",
+    "description": "the number of Void Shield Tokens"
+   },
+   "section": "Datasheet",
+   "datasheet": "Warhound Scout Titan",
+   "page": 29,
+   "url": "https://longwarindex.app/wargear/void_shields_adeptus_mechanicus/",
+   "text": "A unit with this wargear gains a number of Void Shield Tokens equal to the value of (x). Each time this unit takes a Penetrating Hit, if it has a Void Shield Token, you spend a token to ignore that Penetrating Hit. At the start of each Battle Round, you regain 1 spent Void Shield Token. Instead of setting to Overwatch, you can set to Recharge Voids. A unit that Recharges Voids, regains all of its Void Shield Tokens."
+  },
+  {
+   "id": "abeyant",
+   "name": "Abeyant",
+   "section": "Datasheet",
+   "datasheet": "Tech-Priest Dominus",
+   "page": 34,
+   "url": "https://longwarindex.app/wargear/abeyant/",
+   "text": "A model equipped with an Abeyant gains +2\" to their Movement (M) Chrematistic. In addition, they gain +1 to their Toughness (T) and Wounds (W) Characteristic. A model equipped with an Abeyant cannot embark on a Transport and is considered to have the Bulky (4) special rule. The equipped model gains the Hammer of Wrath (1) special rule.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "M",
+      "delta": 2
+     },
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "4",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/",
+      "mode": "at_least",
+      "better": "higher"
+     },
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cybernetica_control_node",
+   "name": "Cybernetica Control Node",
+   "section": "Datasheet",
+   "datasheet": "Tech-Priest",
+   "page": 37,
+   "url": "https://longwarindex.app/wargear/cybernetica_control_node/",
+   "text": "A model with this wargear may join Automata type units even though it is not Automata type. Any Automata type unit that this model joins ignores the restrictions on Shooting and Charging the closest enemy unit. Attached Automata type units may use this models Ballistic Skill (BS) characteristic if it is higher than their own."
+  },
+  {
+   "id": "noosphere_control_node",
+   "name": "Noosphere Control Node",
+   "section": "Datasheet",
+   "datasheet": "Tech-Priest",
+   "page": 37,
+   "url": "https://longwarindex.app/wargear/noosphere_control_node/",
+   "text": "A Combat Servitor unit attached to this unit may use this units Weapon Skill (WS) and Ballistic Skill (BS) characteristic instead of their own."
+  },
+  {
+   "id": "techno_augur",
+   "name": "Techno-Augur",
+   "section": "Datasheet",
+   "datasheet": "Tech-Priest",
+   "page": 37,
+   "url": "https://longwarindex.app/wargear/techno_augur/",
+   "text": "This unit always counts as controlling an Objective, regardless of the number of the enemy models contesting the objective."
+  },
+  {
+   "id": "voltaghiest_field",
+   "name": "Voltaghiest Field",
+   "section": "Datasheet",
+   "datasheet": "Fulgurite Electro Priests",
+   "page": 45,
+   "url": "https://longwarindex.app/wargear/voltaghiest_field_adeptus_mechanicus/",
+   "text": "A model with this wargear has a 5+ Invulnerable save. A model with this special rule gains the Hammer of Wrath (1) special rule. The first time this unit would win Combat in the Combat Phase when calculating Combat Resolution, this unit's Invulnerable save increases to 4+ for the rest of the battle.",
+   "effects": {
+    "invulnerable_save": "5+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "shock_charger",
+   "name": "Shock Charger",
+   "section": "Datasheet",
+   "datasheet": "Myrmidons",
+   "page": 50,
+   "url": "https://longwarindex.app/wargear/shock_charger/",
+   "text": "A model equipped with this wargear treats its equipped Close Combat Weapon as being AP3 instead of AP-.",
+   "effects": {
+    "weapon_stat_mods": [
+     {
+      "weapons": {
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "close_combat_weapon"
+        }
+       ]
+      },
+      "mods": [
+       {
+        "characteristic": "AP",
+        "value": "3"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "incense_dispenser",
+   "name": "Incense Dispenser",
+   "section": "Datasheet",
+   "datasheet": "Sydonian Skatros",
+   "page": 49,
+   "url": "https://longwarindex.app/wargear/incense_dispenser/",
+   "text": "A model with this wargear always receives the benefit of Light Cover. If this unit is already receiving the benefits of Light Cover, they gain Heavy Cover. If a model with this wargear is already receiving Heaving Cover, it gains a 4+ Cover save."
+  },
+  {
+   "id": "repulsor_grid",
+   "name": "Repulsor Grid",
+   "section": "Datasheet",
+   "datasheet": "Kastelan Battle Automata",
+   "page": 52,
+   "url": "https://longwarindex.app/wargear/repulsor_grid/",
+   "text": "All attacks which target this unit in the Shooting Phase or as part of an Overwatch Attack are always resolved as the attacking models weapons have the Gets Hot! Special rule."
+  },
+  {
+   "id": "atomantic_shielding",
+   "name": "Atomantic Shielding",
+   "section": "Datasheet",
+   "datasheet": "Castellax Battle Automata",
+   "page": 53,
+   "url": "https://longwarindex.app/wargear/atomantic_shielding_adeptus_mechanicus/",
+   "text": "This confers a 5+ Invulnerable save. When a model with this wargear is slain and removed from play, the model suffers an Explodes result per the Vehicle damage chart before it is removed from play.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "rotor_jets",
+   "name": "Rotor Jets",
+   "section": "Datasheet",
+   "datasheet": "Vultarax Stratos Automata",
+   "page": 60,
+   "url": "https://longwarindex.app/wargear/rotor_jets_adeptus_mechanicus/",
+   "text": "A model with this wargear increases its wearer's Movement (M) Characteristic to 12\" and gains the Hammer of Wrath (1), Fly, and Deep Strike Special rule.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "emanatus_force_field",
+   "name": "Emanatus Force Field",
+   "section": "Datasheet",
+   "datasheet": "Onager Dune Crawler",
+   "page": 70,
+   "url": "https://longwarindex.app/wargear/emanatus_force_field/",
+   "text": "This confers a 6+ Invulnerable save. If another Onager Dune Crawler unit is within 12\", this increases to a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "6+"
+   }
+  }
+ ]
+}

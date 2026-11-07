@@ -1,0 +1,969 @@
+{
+ "data_version": "9c3a26b5d422b9fd",
+ "format": 1,
+ "faction": "iron_hands",
+ "codex": {
+  "id": "codex/iron_hands",
+  "name": "Iron Hands",
+  "page": 3,
+  "url": "https://longwarindex.app/codex/iron_hands/",
+  "parent": "space_marines",
+  "army_rules": [
+   {
+    "rule": "codex/iron_hands/special_rules/armoury_of_the_10th_legion",
+    "name": "Armoury of the 10th Legion",
+    "url": "https://longwarindex.app/special_rules/armoury_of_the_10th_legion/"
+   }
+  ],
+  "allies": null,
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/iron_hands/rites_of_war/ancient_bulwark",
+    "codex/iron_hands/rites_of_war/super_heavy_assault"
+   ],
+   "from_parent": [
+    "codex/space_marines/rites_of_war/drop_pod_assault",
+    "codex/space_marines/rites_of_war/armoured_support",
+    "codex/space_marines/rites_of_war/mechanised_assault",
+    "codex/space_marines/rites_of_war/vanguard_support"
+   ],
+   "banned_from_parent": [
+    "codex/space_marines/rites_of_war/pride_of_the_chapter",
+    "codex/space_marines/rites_of_war/grey_shields"
+   ]
+  },
+  "unit_list": null,
+  "keyword_templates": [
+   {
+    "template": "<Chapter>",
+    "printed": "All units have the <Chapter> keyword. This is replaced with Iron Hands Keyword.",
+    "substitution": {
+     "value": "Iron Hands"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/iron_hands/allegiances/allegiance_iron_hands",
+   "name": "Allegiance: Iron Hands",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_iron_hands/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "keyword_substitution": {
+    "template": "<Chapter>",
+    "value": "Iron Hands"
+   },
+   "rule": {
+    "rule": "codex/iron_hands/allegiances/allegiance_iron_hands",
+    "name": "Allegiance: Iron Hands",
+    "printed": "codex/iron_hands/allegiances/allegiance_iron_hands",
+    "url": "https://longwarindex.app/allegiances/allegiance_iron_hands/"
+   },
+   "unit_list": {
+    "page": 16,
+    "url": "https://longwarindex.app/unit_list/iron_hands_unit_list/",
+    "entries": [
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_captain",
+      "printed": "Space Marine Captain",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/lieutenant",
+      "printed": "Lieutenant",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_command_squad",
+      "printed": "Space Marine Command Squad",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/damocles_command_rhino",
+      "printed": "Damocles Command Rhino",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/iron_hands/roster/iron_father_kardan_stronos",
+      "printed": "Iron Father Kardan Stronos",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/iron_hands/roster/iron_father_malkaan_ferrios",
+      "printed": "Iron Father Malkaan Ferrios",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/iron_hands/roster/iron_captain_caanok_var",
+      "printed": "Iron Captain Caanok Var",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/iron_hands/roster/iron_father_vaylund_cal",
+      "printed": "Iron Father Vaylund Cal",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/scouts",
+      "printed": "Scouts",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/tactical_squad",
+      "printed": "Tactical Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/infiltrator_squad",
+      "printed": "Infiltrator Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/veteran_squad",
+      "printed": "Veteran Squad",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/eliminator_squad",
+      "printed": "Eliminator Squad",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/centurions",
+      "printed": "Centurions",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/tactical_terminators",
+      "printed": "Tactical Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/assault_terminators",
+      "printed": "Assault Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/castraferrum_dreadnought",
+      "printed": "Castraferrum Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/contemptor_dreadnought",
+      "printed": "Contemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/redemptor_dreadnought",
+      "printed": "Redemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invictor_tactical_warsuit",
+      "printed": "Invictor Tactical Warsuit",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/iron_hands/roster/morlocks",
+      "printed": "Morlocks",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/iron_hands/roster/helfathers",
+      "printed": "Helfathers",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/rhino_apc",
+      "printed": "Rhino APC",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/razorback_ifv",
+      "printed": "Razorback IFV",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder_storm",
+      "printed": "Land Speeder Storm",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/drop_pod",
+      "printed": "Drop Pod",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/impulsor",
+      "printed": "Impulsor",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormhawk_interceptor",
+      "printed": "Stormhawk Interceptor",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormtalon_gunship",
+      "printed": "Stormtalon Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormraven_gunship",
+      "printed": "Stormraven Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_eagle_gunship",
+      "printed": "Storm Eagle Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/bike_squad",
+      "printed": "Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/scout_bike_squad",
+      "printed": "Scout Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/attack_bike_squad",
+      "printed": "Attack Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/assault_marine_squad",
+      "printed": "Assault Marine Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/reiver_squad",
+      "printed": "Reiver Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/incursor_squad",
+      "printed": "Incursor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/inceptor_squad",
+      "printed": "Inceptor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/suppressor_squad",
+      "printed": "Suppressor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invader_atv",
+      "printed": "Invader ATV",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder",
+      "printed": "Land Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_speeder",
+      "printed": "Storm Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/javelin_attack_speeder",
+      "printed": "Javelin Attack Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sabre_strike_tank",
+      "printed": "Sabre Strike Tank",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/devastator_squad",
+      "printed": "Devastator Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/weapon_support_squad",
+      "printed": "Weapon Support Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gravis_support_squad",
+      "printed": "Gravis Support Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/firestrike_servo_turret",
+      "printed": "Firestrike Servo Turret",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/predator_mbt",
+      "printed": "Predator MBT",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_siege_tank",
+      "printed": "Vindicator Siege Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/whirlwind_artillery_tank",
+      "printed": "Whirlwind Artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hunter_artillery_tank",
+      "printed": "Hunter Artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stalker_aa_tank",
+      "printed": "Stalker AA Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gladiator_assault_tank",
+      "printed": "Gladiator Assault Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider",
+      "printed": "Land Raider",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_redeemer",
+      "printed": "Land Raider Redeemer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_crusader",
+      "printed": "Land Raider Crusader",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_hifv",
+      "printed": "Repulsor HIFV",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_executioner",
+      "printed": "Repulsor Executioner",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/deredeo_dreadnought",
+      "printed": "Deredeo Dreadnought",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fire_raptor_gunship",
+      "printed": "Fire Raptor Gunship",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_laser_destroyer",
+      "printed": "Vindicator Laser Destroyer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sicaran_heavy_tank",
+      "printed": "Sicaran Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/kratos_super_heavy_tank",
+      "printed": "Kratos Super Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/leviathan_dreadnought",
+      "printed": "Leviathan Dreadnought",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/spartan_assault_tank",
+      "printed": "Spartan Assault Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/astraeus",
+      "printed": "Astraeus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/cerberus",
+      "printed": "Cerberus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/falchion",
+      "printed": "Falchion",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fellblade",
+      "printed": "Fellblade",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/mastodon",
+      "printed": "Mastodon",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/typhon_siege_tank",
+      "printed": "Typhon Siege Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/thunderhawk_gunship",
+      "printed": "Thunderhawk Gunship",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hammerfall_bunker",
+      "printed": "Hammerfall Bunker",
+      "role": "Fortification"
+     }
+    ]
+   },
+   "restrictions": [
+    {
+     "id": "warlord_traits_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/iron_hands/",
+     "printed": "You must use the Warlord traits presented in this supplement instead of the those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "warlord_traits"
+       }
+      ]
+     }
+    },
+    {
+     "id": "rites_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/iron_hands/",
+     "printed": "You must use the Rites of War presented in this supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/space_marines/rites_of_war/pride_of_the_chapter",
+      "codex/space_marines/rites_of_war/grey_shields"
+     ]
+    },
+    {
+     "id": "unit_list_only",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/iron_hands/",
+     "printed": "You may not field the units not listed on the Iron Hands Unit list in this Codex Supplement.",
+     "scope": "detachment",
+     "unit_list": true
+    },
+    {
+     "id": "relics_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/iron_hands/",
+     "printed": "You may not use the Relics from Codex Space Marines and must use the Relic Wargear presented in this supplement.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "relics"
+       }
+      ]
+     }
+    },
+    {
+     "id": "psychic_powers_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/iron_hands/",
+     "printed": "You may not use the Psychic Powers from Codex Space Marines and must use the Psychic Powers presented in this supplement.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "psychic_powers"
+       }
+      ]
+     }
+    },
+    {
+     "id": "no_chapter_master",
+     "page": 3,
+     "url": "https://longwarindex.app/allegiances/allegiance_iron_hands/",
+     "printed": "Iron Hands Space Marine Captains may not purchase the Chapter Master upgrade.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "choices": [
+       {
+        "page": "codex/space_marines/roster/space_marine_captain",
+        "path": "chapter_master/chapter_master"
+       }
+      ]
+     }
+    },
+    {
+     "id": "no_chaplain",
+     "page": 3,
+     "url": "https://longwarindex.app/allegiances/allegiance_iron_hands/",
+     "printed": "Iron Hands Space Marine Lieutenants may not purchase the Chaplain upgrade.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "choices": [
+       {
+        "page": "codex/space_marines/roster/lieutenant",
+        "path": "upgrades/chaplain"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "flesh_is_weak_bionics",
+     "printed": "All Infantry, Bike, Walker and Cavalry type units gain the Bionics Wargear (which confers the Feel no Pain (6+) special rule).",
+     "weapons": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "unit_type": "Infantry"
+         },
+         {
+          "unit_type": "Bike"
+         },
+         {
+          "unit_type": "Walker"
+         },
+         {
+          "unit_type": "Cavalry"
+         }
+        ]
+       }
+      ],
+      "weapons": [
+       {
+        "kind": "wargear",
+        "id": "bionics",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    },
+    {
+     "id": "terminator_limit",
+     "printed": "An Iron Hands army gains the Limited: 1 per army special rule on the following units:",
+     "limit": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/space_marines/roster/tactical_terminators"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/assault_terminators"
+         }
+        ]
+       }
+      ],
+      "limit": 1,
+      "scope": "army"
+     }
+    }
+   ],
+   "game_time": [
+    "All Vehicle, Aircraft type units ignore any results of Crew Injury on the Vehicle damage table and treat it as a Superficial damage result instead."
+   ],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/iron_hands/rites_of_war/ancient_bulwark",
+   "name": "Ancient Bulwark",
+   "page": 13,
+   "url": "https://longwarindex.app/rites_of_war/ancient_bulwark/",
+   "offered_by": {
+    "allegiance": "codex/iron_hands/allegiances/allegiance_iron_hands"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Walker type unit per 1,000pts.\n- Your army must include at least 1 Firestrike Servo Turret or Space Marine Lieutenant upgraded to be a Tech-Marine with a Thunderfire cannon.\n- If you do not have a unit in your Deployment Zone at the end of the battle, you lose 1VP.\n\nBenefits\n\n- You may field Castaferrum Dreadnoughts as Troops choices, but they gain the Support Squad special rule.\n- You may field Redemptor Dreadnoughts as Troops choices, but they gain the Support Squad special rule.\n- You may field 1 Redemptor Dreadnought, Contemptor Dreadnought or Castraferrum Dreadnought in your army as a HQ choice. The unit gains the Character special rule and must be your Warlord.",
+   "restrictions": [
+    {
+     "id": "firestrike_or_thunderfire_tech_marine",
+     "printed": "Your army must include at least 1 Firestrike Servo Turret or Space Marine Lieutenant upgraded to be a Tech-Marine with a Thunderfire cannon.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/space_marines/roster/firestrike_servo_turret"
+         },
+         {
+          "holds": [
+           {
+            "kind": "weapon",
+            "id": "thunderfire_cannon",
+            "faction": "space_marines"
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "walker_per_1000",
+     "printed": "Your army must include at least 1 Walker type unit per 1,000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "unit_type": "Walker"
+       }
+      ],
+      "min": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "dreadnought_hq_warlord",
+     "printed": "The unit gains the Character special rule and must be your Warlord.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/space_marines/roster/redemptor_dreadnought"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/contemptor_dreadnought"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/castraferrum_dreadnought"
+         }
+        ]
+       },
+       {
+        "role": "HQ"
+       }
+      ],
+      "if_present": true
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "castraferrum_troops_role",
+     "printed": "You may field Castaferrum Dreadnoughts as Troops choices, but they gain the Support Squad special rule.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/castraferrum_dreadnought"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "castraferrum_troops_support_squad",
+     "printed": "You may field Castaferrum Dreadnoughts as Troops choices, but they gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/castraferrum_dreadnought"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "redemptor_troops_role",
+     "printed": "You may field Redemptor Dreadnoughts as Troops choices, but they gain the Support Squad special rule.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/redemptor_dreadnought"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "redemptor_troops_support_squad",
+     "printed": "You may field Redemptor Dreadnoughts as Troops choices, but they gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/redemptor_dreadnought"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "dreadnought_hq_role",
+     "printed": "You may field 1 Redemptor Dreadnought, Contemptor Dreadnought or Castraferrum Dreadnought in your army as a HQ choice. The unit gains the Character special rule and must be your Warlord.",
+     "role": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/space_marines/roster/redemptor_dreadnought"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/contemptor_dreadnought"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/castraferrum_dreadnought"
+         }
+        ]
+       }
+      ],
+      "role": "HQ",
+      "instead": false,
+      "max_units": 1
+     }
+    },
+    {
+     "id": "dreadnought_hq_character",
+     "printed": "You may field 1 Redemptor Dreadnought, Contemptor Dreadnought or Castraferrum Dreadnought in your army as a HQ choice. The unit gains the Character special rule and must be your Warlord.",
+     "rules": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/space_marines/roster/redemptor_dreadnought"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/contemptor_dreadnought"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/castraferrum_dreadnought"
+         }
+        ]
+       },
+       {
+        "role": "HQ"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/character",
+        "name": "Character",
+        "url": "https://longwarindex.app/universal_special_rules/character/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "If you do not have a unit in your Deployment Zone at the end of the battle, you lose 1VP."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/iron_hands/rites_of_war/super_heavy_assault",
+   "name": "Super Heavy Assault",
+   "page": 14,
+   "url": "https://longwarindex.app/rites_of_war/super_heavy_assault/",
+   "offered_by": {
+    "allegiance": "codex/iron_hands/allegiances/allegiance_iron_hands"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Vehicle with the Super Heavy (x) special rule.\n- Your army must include at least 1 Space Marine Lieutenant upgraded to be a Tech-Marine or a Space Marine Captain upgraded to be an Iron Father.\n- You must include 3 Infantry type units per vehicle in your Army with the Super Heavy (x) special rule.\n- You may not include Fortification type units in your army except for Drop Pods.\n\nBenefits\n\n- 'Sergeant' models in your Iron Hands units may purchase Indomitus Terminator Armor for 10pts per model.\n- 1 Vehicle unit in your army may purchase the Awakened Machine Spirit upgrade (see below) for 50pts.\n- You may field 1 of the following units as a HQ choice:\n    - Fellblade.\n    - Typhon.\n    - Astraeus.\n    - Cerberus.\n    - Falchion.",
+   "restrictions": [
+    {
+     "id": "tech_marine_or_iron_father",
+     "printed": "Your army must include at least 1 Space Marine Lieutenant upgraded to be a Tech-Marine or a Space Marine Captain upgraded to be an Iron Father.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "choice": {
+           "page": "codex/space_marines/roster/lieutenant",
+           "path": "upgrades/tech_marine"
+          }
+         },
+         {
+          "choice": {
+           "book_options": "iron_hands",
+           "path": "iron_father_upgrade/iron_father"
+          }
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "super_heavy_vehicle_required",
+     "printed": "Your army must include at least 1 Vehicle with the Super Heavy (x) special rule.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "unit_type": "Vehicle"
+       },
+       {
+        "rule": {
+         "rule": "universal_special_rules/super_heavy",
+         "name": "Super Heavy",
+         "param": "x",
+         "url": "https://longwarindex.app/universal_special_rules/super_heavy/"
+        }
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "infantry_per_super_heavy_vehicle",
+     "printed": "You must include 3 Infantry type units per vehicle in your Army with the Super Heavy (x) special rule.",
+     "scope": "detachment",
+     "ratio": {
+      "limited": [
+       {
+        "unit_type": "Infantry"
+       }
+      ],
+      "count": 3,
+      "per": 1,
+      "of": [
+       {
+        "unit_type": "Vehicle"
+       },
+       {
+        "rule": {
+         "rule": "universal_special_rules/super_heavy",
+         "name": "Super Heavy",
+         "param": "x",
+         "url": "https://longwarindex.app/universal_special_rules/super_heavy/"
+        }
+       }
+      ],
+      "minimum": true
+     }
+    },
+    {
+     "id": "no_fortifications_except_drop_pod",
+     "printed": "You may not include Fortification type units in your army except for Drop Pods.",
+     "scope": "detachment",
+     "every_unit": {
+      "of": [
+       {
+        "unit_type": "Fortification"
+       }
+      ],
+      "must": [
+       {
+        "datasheet": "codex/space_marines/roster/drop_pod"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "awakened_machine_spirit_option",
+     "printed": "1 Vehicle unit in your army may purchase the Awakened Machine Spirit upgrade (see below) for 50pts.",
+     "options": [
+      {
+       "book_options": "iron_hands",
+       "group": "awakened_machine_spirit_upgrade"
+      }
+     ]
+    },
+    {
+     "id": "sergeant_terminator_armour_option",
+     "printed": "'Sergeant' models in your Iron Hands units may purchase Indomitus Terminator Armor for 10pts per model.",
+     "options": [
+      {
+       "book_options": "iron_hands",
+       "group": "super_heavy_assault_sergeant_terminator_armour"
+      }
+     ]
+    },
+    {
+     "id": "super_heavy_hq_role",
+     "printed": "You may field 1 of the following units as a HQ choice:",
+     "role": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/space_marines/roster/fellblade"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/typhon_siege_tank"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/astraeus"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/cerberus"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/falchion"
+         }
+        ]
+       }
+      ],
+      "role": "HQ",
+      "instead": false,
+      "max_units": 1
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

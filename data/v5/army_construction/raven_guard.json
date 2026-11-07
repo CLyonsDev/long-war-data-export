@@ -1,0 +1,952 @@
+{
+ "data_version": "2b8bf2f431b0139d",
+ "format": 1,
+ "faction": "raven_guard",
+ "codex": {
+  "id": "codex/raven_guard",
+  "name": "Raven Guard",
+  "page": 3,
+  "url": "https://longwarindex.app/codex/raven_guard/",
+  "parent": "space_marines",
+  "army_rules": [
+   {
+    "rule": "codex/raven_guard/special_rules/shadow_master",
+    "name": "Shadow Master",
+    "url": "https://longwarindex.app/special_rules/shadow_master/"
+   },
+   {
+    "rule": "codex/raven_guard/special_rules/armoury_of_the_19th_legion",
+    "name": "Armoury of the 19th Legion",
+    "url": "https://longwarindex.app/special_rules/armoury_of_the_19th_legion/"
+   }
+  ],
+  "allies": null,
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/raven_guard/rites_of_war/the_decapitation_strike",
+    "codex/raven_guard/rites_of_war/the_liberation_strike_force"
+   ],
+   "from_parent": [
+    "codex/space_marines/rites_of_war/drop_pod_assault",
+    "codex/space_marines/rites_of_war/armoured_support",
+    "codex/space_marines/rites_of_war/mechanised_assault",
+    "codex/space_marines/rites_of_war/vanguard_support"
+   ],
+   "banned_from_parent": [
+    "codex/space_marines/rites_of_war/pride_of_the_chapter",
+    "codex/space_marines/rites_of_war/grey_shields"
+   ]
+  },
+  "unit_list": null,
+  "keyword_templates": [
+   {
+    "template": "<Chapter>",
+    "printed": "All units have the <Chapter> keyword. This is replaced with Raven Guard Keyword.",
+    "substitution": {
+     "value": "Raven Guard"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/raven_guard/allegiances/allegiance_raven_guard",
+   "name": "Allegiance: Raven Guard",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_raven_guard/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "keyword_substitution": {
+    "template": "<Chapter>",
+    "value": "Raven Guard"
+   },
+   "rule": {
+    "rule": "codex/raven_guard/allegiances/allegiance_raven_guard",
+    "name": "Allegiance: Raven Guard",
+    "printed": "codex/raven_guard/allegiances/allegiance_raven_guard",
+    "url": "https://longwarindex.app/allegiances/allegiance_raven_guard/"
+   },
+   "unit_list": {
+    "page": 11,
+    "url": "https://longwarindex.app/unit_list/raven_guard_unit_list/",
+    "entries": [
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_captain",
+      "printed": "Space Marine Captain",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/lieutenant",
+      "printed": "Lieutenant",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_command_squad",
+      "printed": "Space Marine Command Squad",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/damocles_command_rhino",
+      "printed": "Damocles Command Rhino",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/raven_guard/roster/master_of_shadows_aethon_shaan",
+      "printed": "Master of Shadows, Aethon Shaan",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/raven_guard/roster/kayvaan_shrike",
+      "printed": "Kayvaan Shrike",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/raven_guard/roster/shadow_captain_solaq",
+      "printed": "Shadow Captain Solaq",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/raven_guard/roster/shadow_master_korvydae",
+      "printed": "Shadow Master Korvydae",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/scouts",
+      "printed": "Scouts",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/tactical_squad",
+      "printed": "Tactical Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/infiltrator_squad",
+      "printed": "Infiltrator Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/veteran_squad",
+      "printed": "Veteran Squad",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/eliminator_squad",
+      "printed": "Eliminator Squad",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/centurions",
+      "printed": "Centurions",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/tactical_terminators",
+      "printed": "Tactical Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/assault_terminators",
+      "printed": "Assault Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/raven_guard/roster/dark_furies",
+      "printed": "Dark Furies",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/raven_guard/roster/mor_daythean_shadow_master",
+      "printed": "Mor Daythean Shadow Master",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/castraferrum_dreadnought",
+      "printed": "Castraferrum Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/contemptor_dreadnought",
+      "printed": "Contemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/redemptor_dreadnought",
+      "printed": "Redemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invictor_tactical_warsuit",
+      "printed": "Invictor Tactical Warsuit",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/rhino_apc",
+      "printed": "Rhino APC",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/razorback_ifv",
+      "printed": "Razorback IFV",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder_storm",
+      "printed": "Land Speeder Storm",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/drop_pod",
+      "printed": "Drop Pod",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/impulsor",
+      "printed": "Impulsor",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormhawk_interceptor",
+      "printed": "Stormhawk Interceptor",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormtalon_gunship",
+      "printed": "Stormtalon Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormraven_gunship",
+      "printed": "Stormraven Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_eagle_gunship",
+      "printed": "Storm Eagle Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/bike_squad",
+      "printed": "Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/scout_bike_squad",
+      "printed": "Scout Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/attack_bike_squad",
+      "printed": "Attack Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/assault_marine_squad",
+      "printed": "Assault Marine Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/reiver_squad",
+      "printed": "Reiver Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/incursor_squad",
+      "printed": "Incursor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/inceptor_squad",
+      "printed": "Inceptor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/suppressor_squad",
+      "printed": "Suppressor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invader_atv",
+      "printed": "Invader ATV",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder",
+      "printed": "Land Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_speeder",
+      "printed": "Storm Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/javelin_attack_speeder",
+      "printed": "Javelin Attack Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sabre_strike_tank",
+      "printed": "Sabre Strike Tank",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/devastator_squad",
+      "printed": "Devastator Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/weapon_support_squad",
+      "printed": "Weapon Support Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gravis_support_squad",
+      "printed": "Gravis Support Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/firestrike_servo_turret",
+      "printed": "Firestrike Servo Turret",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/predator_mbt",
+      "printed": "Predator MBT",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_siege_tank",
+      "printed": "Vindicator Siege Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/whirlwind_artillery_tank",
+      "printed": "Whirlwind Artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hunter_artillery_tank",
+      "printed": "Hunter Artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stalker_aa_tank",
+      "printed": "Stalker AA Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gladiator_assault_tank",
+      "printed": "Gladiator Assault Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider",
+      "printed": "Land Raider",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_redeemer",
+      "printed": "Land Raider Redeemer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_crusader",
+      "printed": "Land Raider Crusader",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_hifv",
+      "printed": "Repulsor HIFV",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_executioner",
+      "printed": "Repulsor Executioner",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/deredeo_dreadnought",
+      "printed": "Deredeo Dreadnought",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fire_raptor_gunship",
+      "printed": "Fire Raptor Gunship",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_laser_destroyer",
+      "printed": "Vindicator Laser Destroyer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sicaran_heavy_tank",
+      "printed": "Sicaran Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/kratos_super_heavy_tank",
+      "printed": "Kratos Super Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/raven_guard/roster/dark_wing_storm_eagle_gunship",
+      "printed": "Dark Wing Storm Eagle Gunship",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/leviathan_dreadnought",
+      "printed": "Leviathan Dreadnought",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/spartan_assault_tank",
+      "printed": "Spartan Assault Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/astraeus",
+      "printed": "Astraeus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/cerberus",
+      "printed": "Cerberus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/falchion",
+      "printed": "Falchion",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fellblade",
+      "printed": "Fellblade",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/mastodon",
+      "printed": "Mastodon",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/typhon_siege_tank",
+      "printed": "Typhon Siege Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/thunderhawk_gunship",
+      "printed": "Thunderhawk Gunship",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hammerfall_bunker",
+      "printed": "Hammerfall Bunker",
+      "role": "Fortification"
+     }
+    ]
+   },
+   "restrictions": [
+    {
+     "id": "rites_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/raven_guard/",
+     "printed": "You must use the Rites of War presented in this Supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/space_marines/rites_of_war/pride_of_the_chapter",
+      "codex/space_marines/rites_of_war/grey_shields"
+     ]
+    },
+    {
+     "id": "warlord_traits_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/raven_guard/",
+     "printed": "You must use the Warlord traits presented in this Supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "warlord_traits"
+       }
+      ]
+     }
+    },
+    {
+     "id": "relics_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/raven_guard/",
+     "printed": "You may only take Relics from this Supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "relics"
+       }
+      ]
+     }
+    },
+    {
+     "id": "unit_list_only",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/raven_guard/",
+     "printed": "You may not field the units not listed on the Raven Guard Unit list in this Codex Supplement.",
+     "scope": "detachment",
+     "unit_list": true
+    },
+    {
+     "id": "more_infantry_than_vehicles",
+     "printed": "A Raven Guard army must include more units with the Infantry type than the Vehicle or Walker type.",
+     "scope": "army",
+     "compare": {
+      "more": [
+       {
+        "unit_type": "Infantry"
+       }
+      ],
+      "than": [
+       [
+        {
+         "unit_type": "Vehicle"
+        }
+       ],
+       [
+        {
+         "unit_type": "Walker"
+        }
+       ]
+      ]
+     }
+    },
+    {
+     "id": "infiltrate_unit_required",
+     "printed": "Your army must include at least 1 unit with the Infiltrate special rule.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/infiltrate",
+         "name": "Infiltrate",
+         "url": "https://longwarindex.app/universal_special_rules/infiltrate/"
+        }
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "no_chapter_master",
+     "printed": "Raven Guard Space Marine Captains may not purchase the Chapter Master upgrade.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "choices": [
+       {
+        "page": "codex/space_marines/roster/space_marine_captain",
+        "path": "chapter_master/chapter_master"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "bulky_no_skirmisher",
+     "printed": "Raven Guard units with the Bulky (X) special rule gain the Hammer of Wrath (x) special rule instead of the Skirmisher special rule. If they already have Hammer of Wrath (x), increase the value of X by 1 (this is included in Raven Guard specific units).",
+     "suppress_rules": {
+      "conditions": [
+       {
+        "keyword": "Raven Guard"
+       },
+       {
+        "rule": {
+         "rule": "universal_special_rules/bulky",
+         "name": "Bulky",
+         "param": "x",
+         "url": "https://longwarindex.app/universal_special_rules/bulky/"
+        }
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/skirmisher",
+        "name": "Skirmisher",
+        "url": "https://longwarindex.app/universal_special_rules/skirmisher/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "bulky_hammer_of_wrath_grant",
+     "printed": "Raven Guard units with the Bulky (X) special rule gain the Hammer of Wrath (x) special rule instead of the Skirmisher special rule. If they already have Hammer of Wrath (x), increase the value of X by 1 (this is included in Raven Guard specific units).",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Raven Guard"
+       },
+       {
+        "rule": {
+         "rule": "universal_special_rules/bulky",
+         "name": "Bulky",
+         "param": "x",
+         "url": "https://longwarindex.app/universal_special_rules/bulky/"
+        }
+       },
+       {
+        "not": {
+         "rule": {
+          "rule": "universal_special_rules/hammer_of_wrath",
+          "name": "Hammer of Wrath",
+          "param": "x",
+          "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+         }
+        }
+       },
+       {
+        "not": {
+         "faction": "raven_guard"
+        }
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/hammer_of_wrath",
+        "name": "Hammer of Wrath",
+        "param": "1",
+        "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "bulky_hammer_of_wrath_raise",
+     "printed": "Raven Guard units with the Bulky (X) special rule gain the Hammer of Wrath (x) special rule instead of the Skirmisher special rule. If they already have Hammer of Wrath (x), increase the value of X by 1 (this is included in Raven Guard specific units).",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Raven Guard"
+       },
+       {
+        "rule": {
+         "rule": "universal_special_rules/bulky",
+         "name": "Bulky",
+         "param": "x",
+         "url": "https://longwarindex.app/universal_special_rules/bulky/"
+        }
+       },
+       {
+        "rule": {
+         "rule": "universal_special_rules/hammer_of_wrath",
+         "name": "Hammer of Wrath",
+         "param": "x",
+         "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+        }
+       },
+       {
+        "not": {
+         "faction": "raven_guard"
+        }
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/hammer_of_wrath",
+        "name": "Hammer of Wrath",
+        "param": "x",
+        "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/",
+        "raise_by": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "skirmisher_grant",
+     "printed": "Raven Guard units gain the Skirmisher special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Raven Guard"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/skirmisher",
+        "name": "Skirmisher",
+        "url": "https://longwarindex.app/universal_special_rules/skirmisher/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "incursors_troops",
+     "printed": "A Raven Guard army may field Incursors at Troops choices with the Support Squad special rule.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/incursor_squad"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "incursors_support_squad",
+     "printed": "A Raven Guard army may field Incursors at Troops choices with the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/incursor_squad"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "Raven Guard Aircraft type units gain the benefit of Light Cover. If it is already benefiting from Light Cover, it gains the benefit of Heavy Cover instead."
+   ],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/raven_guard/rites_of_war/the_decapitation_strike",
+   "name": "The Decapitation Strike",
+   "page": 9,
+   "url": "https://longwarindex.app/rites_of_war/the_decapitation_strike/",
+   "offered_by": {
+    "allegiance": "codex/raven_guard/allegiances/allegiance_raven_guard"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Assault Marine Squad or Dark Fury Squad.\n- Your army may not include any Vehicles, Fortifications or Walker type units.\n- If the enemy Warlord is alive at the end of the Battle, your opponent scores 1 additional VP.\n\nBenefits\n\n- You may field Reiver Squads as Troops choices.\n- You may field Stormtalon Gunships as Heavy Support choices.\n- Night Fighting is automatically in effect for this battle. You may select if it is Dusk or Dawn. This does not require your battle pack to have the Night Fighting special rule.",
+   "restrictions": [
+    {
+     "id": "assault_squad_or_dark_furies",
+     "printed": "Your army must include at least 1 Assault Marine Squad or Dark Fury Squad.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/space_marines/roster/assault_marine_squad"
+         },
+         {
+          "datasheet": "codex/raven_guard/roster/dark_furies"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "no_vehicles_fortifications_walkers",
+     "printed": "Your army may not include any Vehicles, Fortifications or Walker type units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "unit_type": "Vehicle"
+         },
+         {
+          "unit_type": "Fortification"
+         },
+         {
+          "unit_type": "Walker"
+         }
+        ]
+       }
+      ],
+      "max": 0
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "reiver_squads_troops",
+     "printed": "You may field Reiver Squads as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/reiver_squad"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "stormtalon_heavy_support",
+     "printed": "You may field Stormtalon Gunships as Heavy Support choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/stormtalon_gunship"
+       }
+      ],
+      "role": "Heavy Support",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "If the enemy Warlord is alive at the end of the Battle, your opponent scores 1 additional VP.",
+    "Night Fighting is automatically in effect for this battle. You may select if it is Dusk or Dawn. This does not require your battle pack to have the Night Fighting special rule."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/raven_guard/rites_of_war/the_liberation_strike_force",
+   "name": "The Liberation Strike Force",
+   "page": 10,
+   "url": "https://longwarindex.app/rites_of_war/the_liberation_strike_force/",
+   "offered_by": {
+    "allegiance": "codex/raven_guard/allegiances/allegiance_raven_guard"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Captain.\n- Your army must include at least 1 Mor Daythean Shadow Master unit or Veteran unit.\n- Your army must include at least 2 units from Codex - Imperial Guard for every 1000pts.\n\nBenefits\n\n- 1 in every 2 units in your army may be from Codex - Imperial Guard as part of your primary detachment.\n- Allied Imperial Guard units' in your Primary Detachment gain the Skirmisher special rule.\n- You may select a second friendly Imperial Character in your army to be your Warlord. They generate a Warlord trait from a relevant codex. Both Warlords must be slain for your opponent to score Slay the Warlord.",
+   "restrictions": [
+    {
+     "id": "captain_unit",
+     "printed": "Your army must include at least 1 Captain.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Captain"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "shadow_master_or_veteran",
+     "printed": "Your army must include at least 1 Mor Daythean Shadow Master unit or Veteran unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/raven_guard/roster/mor_daythean_shadow_master"
+         },
+         {
+          "keyword": "Veteran"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "imperial_guard_per_1000",
+     "printed": "Your army must include at least 2 units from Codex - Imperial Guard for every 1000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "faction": "imperial_guard"
+       }
+      ],
+      "min": 2,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "imperial_guard_half",
+     "printed": "1 in every 2 units in your army may be from Codex - Imperial Guard as part of your primary detachment.",
+     "scope": "detachment",
+     "ratio": {
+      "limited": [
+       {
+        "faction": "imperial_guard"
+       }
+      ],
+      "per": 1,
+      "of": [
+       {
+        "not": {
+         "faction": "imperial_guard"
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "second_imperial_warlord",
+     "printed": "You may select a second friendly Imperial Character in your army to be your Warlord. They generate a Warlord trait from a relevant codex.",
+     "additional_warlords": {
+      "conditions": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/character",
+         "name": "Character",
+         "url": "https://longwarindex.app/universal_special_rules/character/"
+        }
+       },
+       {
+        "keyword": "Imperium"
+       }
+      ],
+      "count": 1
+     }
+    },
+    {
+     "id": "opens_imperial_guard",
+     "printed": "1 in every 2 units in your army may be from Codex - Imperial Guard as part of your primary detachment.",
+     "opens": [
+      {
+       "faction": "imperial_guard"
+      }
+     ]
+    },
+    {
+     "id": "imperial_guard_skirmisher",
+     "printed": "Allied Imperial Guard units' in your Primary Detachment gain the Skirmisher special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "faction": "imperial_guard"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/skirmisher",
+        "name": "Skirmisher",
+        "url": "https://longwarindex.app/universal_special_rules/skirmisher/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "Both Warlords must be slain for your opponent to score Slay the Warlord."
+   ],
+   "unencoded": []
+  }
+ ]
+}

@@ -1,0 +1,797 @@
+{
+ "data_version": "7e1e6870ad1b9ca1",
+ "format": 1,
+ "faction": "chaos_space_marines",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/dimensional_key/",
+   "offered_by": {
+    "codex": "chaos_space_marines"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "dimensional_key",
+     "name": "Dimensional Key",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "dimensional_key"
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/dimensional_key/",
+     "pricing": "flat"
+    },
+    {
+     "id": "gorget_of_eternal_hate",
+     "name": "Gorget of Eternal Hate",
+     "points": 25,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "gorget_of_eternal_hate"
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/gorget_of_eternal_hate/",
+     "pricing": "flat"
+    },
+    {
+     "id": "scrolls_of_magnus",
+     "name": "Scrolls of Magnus",
+     "points": 35,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "scrolls_of_magnus"
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/scrolls_of_magnus/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_black_mace",
+     "name": "The Black Mace",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model may exchange their Power Maul or Daemonic Great Weapon for this Relic for 10pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "power_maul"
+        },
+        {
+         "kind": "weapon",
+         "id": "daemonic_great_weapon"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_black_mace"
+        }
+       ]
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/the_black_mace/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_blade_of_the_relentless",
+     "name": "The Blade of the Relentless",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model may exchange their Power Sword for this Relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_blade_of_the_relentless"
+        }
+       ]
+      }
+     ],
+     "page": 11,
+     "url": "https://longwarindex.app/wargear/the_blade_of_the_relentless/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_warps_malice",
+     "name": "The Warp's Malice",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model may exchange their Bolt Pistol for this Relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "bolt_pistol"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_warps_malice"
+        }
+       ]
+      }
+     ],
+     "page": 11,
+     "url": "https://longwarindex.app/wargear/the_warps_malice/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 21,
+   "url": "https://longwarindex.app/codex/chaos_space_marines/warlord_traits/",
+   "offered_by": {
+    "codex": "chaos_space_marines"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "chaos_space_marines/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "flames_of_spite",
+     "name": "Flames of Spite",
+     "page": 21,
+     "url": "https://longwarindex.app/warlord_traits/flames_of_spite/",
+     "text": "A model with this Warlord trait gains the Arcing (5+) and Deflagrate special rules on all Melee type weapons they are equipped with. If the Warlord weapon already has the Arcing (x) special rule, increase the value of X by 1 to a max of 3+.",
+     "points": 0,
+     "pricing": "flat",
+     "weapon_rules": [
+      {
+       "rule": {
+        "rule": "special_rules/arcing",
+        "name": "Arcing",
+        "param": "5+",
+        "url": "https://longwarindex.app/special_rules/arcing/",
+        "raise_by": 1,
+        "max": "3+"
+       },
+       "weapon_types": [
+        "Melee"
+       ]
+      },
+      {
+       "rule": {
+        "rule": "special_rules/deflagrate",
+        "name": "Deflagrate",
+        "url": "https://longwarindex.app/special_rules/deflagrate/"
+       },
+       "weapon_types": [
+        "Melee"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "the_gaze_of_the_gods",
+     "name": "The Gaze of the Gods",
+     "page": 21,
+     "url": "https://longwarindex.app/warlord_traits/the_gaze_of_the_gods/",
+     "text": "The Warlord may roll on the Chaos Boon table during deployment, even if it was not selected to receive a Chaos Boon. This Chaos Boon is in addition to any other Chaos Boons your army receives. If the Warlord was already selected to receive a Chaos Boon, they may roll again with this Warlord Trait and receive a second Boon (Max 2).",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "the_lord_of_terror",
+     "name": "The Lord of Terror",
+     "page": 21,
+     "url": "https://longwarindex.app/warlord_traits/the_lord_of_terror/",
+     "text": "Enemy units within 3\" of a model with this Warlord trait halve their Leadership (LD) characteristic.",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "lore_of_nurgle_psychic_powers",
+   "kind": "psychic_powers",
+   "label": "Any Chaos Space Marine unit with the Psyker (x) and Nurgle or Undivided keywords may purchase psychic powers from the following discipline:",
+   "printed": "Any Chaos Space Marine unit with the Psyker (x) and Nurgle or Undivided keywords may purchase psychic powers from the following discipline:",
+   "page": 22,
+   "url": "https://longwarindex.app/codex/chaos_space_marines/powers/",
+   "offered_by": {
+    "codex": "chaos_space_marines"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     },
+     {
+      "keyword": "Chaos Space Marine"
+     },
+     {
+      "any_of": [
+       {
+        "keyword": "Nurgle"
+       },
+       {
+        "keyword": "Undivided"
+       }
+      ]
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/the_soul_eater",
+     "name": "The Soul Eater",
+     "url": "https://longwarindex.app/special_rules/the_soul_eater/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "blades_of_putrefaction",
+     "name": "Blades of Putrefaction",
+     "page": 22,
+     "url": "https://longwarindex.app/powers/blades_of_putrefaction_chaos_space_marines/",
+     "text": "When this power is cast, the Psyker and any attached unit gain the Poison (4+) special rule on all Melee weapons they are equipped with until the start of your next Shooting Phase. If an effected model is equipped with a Melee type weapon with the Poison (x) special rule, it becomes Poison (2+) instead.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "curse_of_the_leper",
+     "name": "Curse of the Leper",
+     "page": 22,
+     "url": "https://longwarindex.app/powers/curse_of_the_leper_chaos_space_marines/",
+     "text": "When this power is cast, target 1 enemy unit within 18\" of the Psyker. The target unit suffers -1 to its Strength (S) & Toughness (T) characteristic until the start of your next Shooting Phase.",
+     "points": 20,
+     "pricing": "flat"
+    },
+    {
+     "id": "fleshy_abundance",
+     "name": "Fleshy Abundance",
+     "page": 22,
+     "url": "https://longwarindex.app/powers/fleshy_abundance_chaos_space_marines/",
+     "text": "When this power is cast, the Psyker or 1 friendly model within 24\" Heals 1 lost Wound.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "nurgles_rot",
+     "name": "Nurgle's Rot",
+     "page": 22,
+     "url": "https://longwarindex.app/powers/nurgles_rot_chaos_space_marines/",
+     "text": "When this power is cast, target 1 enemy unit within 12\" of the Psyker. The target unit takes 2D6, Strength 2, AP-, automatic hits.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "plague_wind",
+     "name": "Plague Wind",
+     "page": 22,
+     "url": "https://longwarindex.app/powers/plague_wind_chaos_space_marines/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Plague Wind",
+     "points": 5,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "plague_wind"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lore_of_slaanesh_psychic_powers",
+   "kind": "psychic_powers",
+   "label": "Any Chaos Space Marine unit with the Psyker (x) and Slaanesh or Undivided keywords may purchase Psychic Powers from the following Discipline:",
+   "printed": "Any Chaos Space Marine unit with the Psyker (x) and Slaanesh or Undivided keywords may purchase Psychic Powers from the following Discipline:",
+   "page": 22,
+   "url": "https://longwarindex.app/codex/chaos_space_marines/powers/",
+   "offered_by": {
+    "codex": "chaos_space_marines"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     },
+     {
+      "keyword": "Chaos Space Marine"
+     },
+     {
+      "any_of": [
+       {
+        "keyword": "Slaanesh"
+       },
+       {
+        "keyword": "Undivided"
+       }
+      ]
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/the_soul_eater",
+     "name": "The Soul Eater",
+     "url": "https://longwarindex.app/special_rules/the_soul_eater/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "delightful_agonies",
+     "name": "Delightful Agonies",
+     "page": 23,
+     "url": "https://longwarindex.app/powers/delightful_agonies_chaos_space_marines/",
+     "text": "When this power is cast, the Psyker and any attached unit gain the Feel no Pain (5+) special rule until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "hysterical_frenzy",
+     "name": "Hysterical Frenzy",
+     "page": 23,
+     "url": "https://longwarindex.app/powers/hysterical_frenzy_chaos_space_marines/",
+     "text": "When this power is cast, the Psyker and any attached unit gain the Arcing (6+) special rule on all melee weapons they are equipped with until the start of your next Shooting Phase. If the unit already has Arcing (x), improve Arcing (x) by 1 to a max of 3+.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "sensory_overload",
+     "name": "Sensory Overload",
+     "page": 23,
+     "url": "https://longwarindex.app/powers/sensory_overload_chaos_space_marines/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Sensory Overload",
+     "points": 15,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "sensory_overload"
+      }
+     ]
+    },
+    {
+     "id": "sonic_shockwave",
+     "name": "Sonic Shockwave",
+     "page": 23,
+     "url": "https://longwarindex.app/powers/sonic_shockwave_chaos_space_marines/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Sonic Shockwave",
+     "points": 10,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "sonic_shockwave"
+      }
+     ]
+    },
+    {
+     "id": "symphony_of_pain",
+     "name": "Symphony of Pain",
+     "page": 23,
+     "url": "https://longwarindex.app/powers/symphony_of_pain_chaos_space_marines/",
+     "text": "When this power is cast, target 1 enemy unit within 18\" of the Psyker. The target unit suffers -1 to their Weapon Skill (WS) and Ballistic Skill (BS) characteristic until the start of your next Shooting Phase.",
+     "points": 20,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "lore_of_tzeentch_psychic_powers",
+   "kind": "psychic_powers",
+   "label": "Any Chaos Space Marine unit with the Psyker (x) and Tzeentch or Undivided keywords may purchase Psychic Powers from the following Discipline:",
+   "printed": "Any Chaos Space Marine unit with the Psyker (x) and Tzeentch or Undivided keywords may purchase Psychic Powers from the following Discipline:",
+   "page": 22,
+   "url": "https://longwarindex.app/codex/chaos_space_marines/powers/",
+   "offered_by": {
+    "codex": "chaos_space_marines"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     },
+     {
+      "keyword": "Chaos Space Marine"
+     },
+     {
+      "any_of": [
+       {
+        "keyword": "Tzeentch"
+       },
+       {
+        "keyword": "Undivided"
+       }
+      ]
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/the_soul_eater",
+     "name": "The Soul Eater",
+     "url": "https://longwarindex.app/special_rules/the_soul_eater/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "baleful_devolution",
+     "name": "Baleful Devolution",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/baleful_devolution_chaos_space_marines/",
+     "text": "When this power is cast, target 1 enemy unit within 18\" of the Psyker. The target unit takes 2D6, Strength 4, AP4 Automatic Hits. If any models are slain in the target unit as a result of wounds inflicted by this Psychic Power, immediately summon a Chaos Spawn more than 3\" away from the targeted enemy unit.",
+     "points": 30,
+     "pricing": "flat",
+     "reference_cards": [
+      "codex/chaos_space_marines/roster/chaos_spawn"
+     ]
+    },
+    {
+     "id": "bolt_of_change",
+     "name": "Bolt of Change",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/bolt_of_change_chaos_space_marines/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Bolt of Change",
+     "points": 15,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "bolt_of_change"
+      }
+     ]
+    },
+    {
+     "id": "boon_of_change",
+     "name": "Boon of Change",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/boon_of_change_chaos_space_marines/",
+     "text": "When this power is cast, the Psyker and their attached unit must pick to gain one of the following until the start of your next Shooting Phase:\n\n- +1 to its Attack (A) characteristic.\n- +1 to its Strength (S) characteristic.\n- +1 to its Initiative (I) characteristic.\n\nThis power may be cast any number of times by a Psyker in the Shooting Phase if they can cast multiple times.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "siphon_magic",
+     "name": "Siphon Magic",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/siphon_magic_chaos_space_marines/",
+     "text": "When this power is cast, select 1 enemy unit with the Psyker (x) special rule within 18\" of the Psyker. The target unit may not cast any make any Psychic tests to cast Psychic Powers or Psychic Weapons until the start of your next Shooting Phase. In addition, if the target unit has any Psychic Powers or Psychic Weapons in effect, including Force, that effect is negated.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "treason_of_tzeentch",
+     "name": "Treason of Tzeentch",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/treason_of_tzeentch_chaos_space_marines/",
+     "text": "When this Power is cast, select 1 enemy unit within 24\" of the Psyker that is not an Automata or Drone Type. Immediately make a single Shooting Attack with the targeted unit as if it were your own. The unit is treated as your own for the purposes of determining friendly and enemy targets. The Shooting Attack by the controlled target unit are resolved as Snap Shots. The target unit is treated as an enemy unit immediately after its Shooting Attack is resolved.",
+     "points": 10,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "prayers",
+   "kind": "prayers",
+   "label": "Any Chaos Space marine unit with the Priest (x) special rule may purchase the following Prayers:",
+   "printed": "Any Chaos Space marine unit with the Priest (x) special rule may purchase the following Prayers:",
+   "page": 22,
+   "url": "https://longwarindex.app/codex/chaos_space_marines/powers/",
+   "offered_by": {
+    "codex": "chaos_space_marines"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/priest",
+       "name": "Priest",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/priest/"
+      }
+     },
+     {
+      "keyword": "Chaos Space Marine"
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/priest",
+     "name": "Priest",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/priest/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "benediction_of_darkness",
+     "name": "Benediction of Darkness",
+     "page": 25,
+     "url": "https://longwarindex.app/powers/benediction_of_darkness_chaos_space_marines/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gain the benefits of Light Cover until the start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_despair",
+     "name": "Litany of Despair",
+     "page": 25,
+     "url": "https://longwarindex.app/powers/litany_of_despair_chaos_space_marines/",
+     "text": "When this Prayer is performed, all enemy units within 3\" of the Priest and any attached unit suffer -1 to their Leadership (LD) characteristic until the start of your next Shooting Phase.",
+     "points": 5,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_hatred",
+     "name": "Litany of Hatred",
+     "page": 25,
+     "url": "https://longwarindex.app/powers/litany_of_hatred_chaos_space_marines/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gain the Hatred special rule until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "plea_of_restoration",
+     "name": "Plea of Restoration",
+     "page": 25,
+     "url": "https://longwarindex.app/powers/plea_of_restoration_chaos_space_marines/",
+     "text": "If this Prayer is answered, the Priest Heals 1 wound. If the Priest has no allocated wounds, you may heal 1 wound on an attached unit. If the attached unit has no allocated wounds but has slain models, you may return 1 model back to the unit with 1 wound remaining.",
+     "points": 10,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "machine_rites",
+   "kind": "machine_rites",
+   "label": "A Chaos Space Marine unit with the Battle Smith (x) special rules may purchase the following Machine Rites:",
+   "printed": "A Chaos Space Marine unit with the Battle Smith (x) special rules may purchase the following Machine Rites:",
+   "page": 22,
+   "url": "https://longwarindex.app/codex/chaos_space_marines/powers/",
+   "offered_by": {
+    "codex": "chaos_space_marines"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/battle_smith",
+       "name": "Battle Smith",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+      }
+     },
+     {
+      "keyword": "Chaos Space Marine"
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/battle_smith",
+     "name": "Battle Smith",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+    }
+   ],
+   "restricted": [
+    {
+     "offered_by": {
+      "rite": "codex/chaos_space_marines/rites_of_war/engine_horde"
+     },
+     "takers": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/defiler"
+       }
+      ]
+     },
+     "choices": [
+      "rite_of_corruption"
+     ]
+    },
+    {
+     "offered_by": {
+      "rite": "codex/chaos_space_marines/rites_of_war/heavy_mechanized_assault"
+     },
+     "takers": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/rhino_apc"
+       }
+      ]
+     },
+     "choices": [
+      "rite_of_repair"
+     ]
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "rite_of_corruption",
+     "name": "Rite of Corruption",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/rite_of_corruption_chaos_space_marines/",
+     "text": "When this Rite is performed successfully, select 1 enemy Vehicle, Aircraft, Automata, Drone, Battlesuit or Knight unit within 24\" of the unit performing this Rite. Select 1 weapon that unit is equipped with. It may only make Snap Shots with that weapon until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_iron_boons",
+     "name": "Rite of Iron Boons",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/rite_of_iron_boons_chaos_space_marines/",
+     "text": "When this Rite is performed successfully, select 1 friendly Vehicle, Aircraft, Automata, or Knight unit within 3\" of the unit performing this Rite. The target unit gains +1 to its Ballistic Skill (BS) until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_repair",
+     "name": "Rite of Repair",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/rite_of_repair_chaos_space_marines/",
+     "text": "When this Rite is performed successfully, select one of the following effects:\n\n- Select 1 Walker or Automata unit either within 3\" or attached to the unit that is performing this rite. The target unit Heals 1 wound.\n- Select 1 Vehicle, Aircraft, Knight or Fortification either within 3\", attached to the unit performing this Rite or that this unit is embarked upon. Select 1 weapon that target unit is equipped with that has been destroyed. The chosen weapon is no longer destroyed.\n- Select 1 Vehicle or Knight either within 3\", attached to the unit performing this Rite or that this unit is embarked upon that is immobilized. That unit is no longer immobilized. If the unit has the Super Heavy (x) special rule and was Limping, it is no longer considered to be Limping.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_scrap_code",
+     "name": "Rite of Scrap Code",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/rite_of_scrap_code_chaos_space_marines/",
+     "text": "When this Rite is performed successfully, select 1 enemy Vehicle, Aircraft, Automata, Drone, Battlesuit or Knight unit within 12\" of the unit performing this Rite. That target unit takes D6, Strength 1, AP-, Haywire (5+) Automatic Hits.",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "chosen_host_veteran",
+   "kind": "upgrade",
+   "label": "You can select one Chaos Space Marine Infantry or Cavalry unit that does not have the Veteran keyword to include in your army. It gains the Veteran keyword.",
+   "printed": "You can select one Chaos Space Marine Infantry or Cavalry unit that does not have the Veteran keyword to include in your army. It gains the Veteran keyword.",
+   "page": 31,
+   "url": "https://longwarindex.app/rites_of_war/chosen_host/",
+   "offered_by": {
+    "rite": "codex/chaos_space_marines/rites_of_war/chosen_host"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Chaos Space Marine"
+     },
+     {
+      "any_of": [
+       {
+        "unit_type": "Infantry"
+       },
+       {
+        "unit_type": "Cavalry"
+       }
+      ]
+     },
+     {
+      "not_keyword": "Veteran"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "veteran",
+     "name": "Veteran",
+     "points": 0,
+     "pricing": "flat",
+     "keywords": [
+      "Veteran"
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

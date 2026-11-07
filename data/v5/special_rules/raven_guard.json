@@ -1,0 +1,171 @@
+{
+ "data_version": "af865c103dda2e65",
+ "format": 1,
+ "faction": "raven_guard",
+ "special_rules": [
+  {
+   "id": "codex/raven_guard/allegiances/allegiance_raven_guard",
+   "name": "Allegiance: Raven Guard",
+   "kind": "allegiance",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_raven_guard/",
+   "references": [
+    "universal_special_rules/skirmisher",
+    "universal_special_rules/bulky",
+    "universal_special_rules/hammer_of_wrath",
+    "universal_special_rules/support_squad",
+    "codex/space_marines/special_rules/chapter_master",
+    "universal_special_rules/infiltrate"
+   ],
+   "text": "All units with the Raven Guard Keyword gain the Allegiance: Raven Guard special rule. The Allegiance: Raven Guard special rule consists of the following rules:\n\n- The Tri-Fold Path of Shadow:\n    - Raven Guard units gain the Skirmisher special rule. Raven Guard units with the Bulky (X) special rule gain the Hammer of Wrath (x) special rule instead of the Skirmisher special rule. If they already have Hammer of Wrath (x), increase the value of X by 1 (this is included in Raven Guard specific units).\n    - Raven Guard Aircraft type units gain the benefit of Light Cover. If it is already benefiting from Light Cover, it gains the benefit of Heavy Cover instead.\n    - A Raven Guard army may field Incursors at Troops choices with the Support Squad special rule.\n- Flesh over Steel:\n    - A Raven Guard army must include more units with the Infantry type than the Vehicle or Walker type.\n    - Raven Guard Space Marine Captains may not purchase the Chapter Master upgrade.\n    - Your army must include at least 1 unit with the Infiltrate special rule."
+  },
+  {
+   "id": "codex/raven_guard/special_rules/armoury_of_the_19th_legion",
+   "name": "Armoury of the 19th Legion",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_19th_legion/",
+   "references": [
+    "codex/raven_guard/allegiances/allegiance_raven_guard",
+    "universal_special_rules/character"
+   ],
+   "text": "Units with Allegiance: Raven Guard have access to additional wargear presented in this supplement in addition to the war gear presented in the core Codex Space Marines.\n\nWargear\n\nAny Raven Guard unit with the Character special rule may purchase a Shadow Masters Cloak for 10pts.\n\nAny Raven Guard unit may purchase a Shard of Istvaan for 1pt per model in the unit.\n\nAny Raven Guard unit may purchase a Corvia for 2pts per model in the unit.\n\nAny Raven Guard unit may purchase an Infravisor for 0pts per model in the unit.\n\nWeapons\n\nAny Raven Guard unit may exchange their equipped Bolt Pistol for a Silentus Bolt Pistol for 2pts per model.\n\nAny Raven Guard unit may exchange their equipped Boltgun or Heavy Boltgun for a:\n\n- Korvedari Boltgun for 1pt per model.\n- Korvedari Heavy Boltgun for 1pt per model."
+  },
+  {
+   "id": "codex/raven_guard/special_rules/shadow_master",
+   "name": "Shadow Master",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/shadow_master/",
+   "text": "A unit with this special rule may Set to Disappear instead of Setting to Overwatch. At the end of your opponent's Charge Phase, a unit that has Set to disappear may be removed from the battlefield and placed in Reserve. The unit may be removed even if enemy units are within 3\" of it. At the end of your next Movement Phase, you may place the unit anywhere on the Battlefield more than 9\" away from any enemy models."
+  },
+  {
+   "id": "codex/raven_guard/special_rules/master_of_ambush",
+   "name": "Master of Ambush",
+   "kind": "warlord_trait",
+   "page": 14,
+   "url": "https://longwarindex.app/special_rules/master_of_ambush/",
+   "references": [
+    "universal_special_rules/outflank"
+   ],
+   "text": "If this unit is your Warlord, you may select up to 2 friendly Raven Guard units to gain the Outflank special rule. Add +1 to the result when rolling to determine if a unit will arrive via Outflank.",
+   "effects": {
+    "while_warlord": {
+     "selects": {
+      "what": "units",
+      "count": 2,
+      "conditions": [
+       {
+        "keyword": "Raven Guard"
+       }
+      ],
+      "grants": [
+       {
+        "rule": "universal_special_rules/outflank",
+        "name": "Outflank",
+        "url": "https://longwarindex.app/universal_special_rules/outflank/"
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "codex/raven_guard/special_rules/master_of_the_tri_fold_path",
+   "name": "Master of the Tri-Fold Path",
+   "kind": "warlord_trait",
+   "page": 13,
+   "url": "https://longwarindex.app/special_rules/master_of_the_tri_fold_path/",
+   "references": [
+    "universal_special_rules/infiltrate",
+    "universal_special_rules/outflank"
+   ],
+   "text": "If this model is your Warlord, it and any attached unit gain the Infiltrate and Outflank special rules. In addition, the warlord and any attached unit may re-roll failed Charge Rolls in the Charge Phase.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/infiltrate",
+        "name": "Infiltrate",
+        "url": "https://longwarindex.app/universal_special_rules/infiltrate/"
+       },
+       "quote": "If this model is your Warlord, it and any attached unit gain the Infiltrate and Outflank special rules."
+      },
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/outflank",
+        "name": "Outflank",
+        "url": "https://longwarindex.app/universal_special_rules/outflank/"
+       },
+       "quote": "If this model is your Warlord, it and any attached unit gain the Infiltrate and Outflank special rules."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/raven_guard/special_rules/bloodied_hunter",
+   "name": "Bloodied Hunter",
+   "kind": "warlord_trait",
+   "page": 15,
+   "url": "https://longwarindex.app/special_rules/bloodied_hunter/",
+   "text": "If this model is you Warlord, select a single enemy unit in your opponent's army. This unit and any attached unit have +1 to Wound and Penetration Rolls against that unit."
+  },
+  {
+   "id": "codex/raven_guard/special_rules/initial_sabotage",
+   "name": "Initial Sabotage",
+   "kind": "warlord_trait",
+   "page": 16,
+   "url": "https://longwarindex.app/special_rules/initial_sabotage/",
+   "text": "If this model is you Warlord, during deployment, before either side deploys units, placed 3+D3 explosive sabotage markers anywhere on the battlefield. The first time any unit ends their Movement Phase within 6\" of one of these markers, they take D6 Strength 3, AP- Automatic Hits."
+  },
+  {
+   "id": "codex/raven_guard/special_rules/presence_unheeded",
+   "name": "Presence Unheeded",
+   "kind": "datasheet",
+   "page": 18,
+   "url": "https://longwarindex.app/special_rules/presence_unheeded/",
+   "references": [
+    "universal_special_rules/character"
+   ],
+   "text": "A unit with this ability may not join friendly units even though it has the Character special rule. This unit cannot be targeted for an attack unless by enemy units in the Shooting Phase unless it is the closest visible enemy unit."
+  },
+  {
+   "id": "codex/raven_guard/special_rules/shadow_bird_pilot",
+   "name": "Shadow Bird Pilot",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/shadow_bird_pilot/",
+   "text": "This unit may pivot 180 degrees at any point during its Movement instead of 90 degrees."
+  },
+  {
+   "id": "codex/raven_guard/special_rules/transport_dark_wing_storm_eagle_gunship",
+   "name": "Transport",
+   "datasheet": "Dark Wing Storm Eagle Gunship",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/transport_dark_wing_storm_eagle_gunship/",
+   "text": "This model can transport 22 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 22,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  }
+ ]
+}

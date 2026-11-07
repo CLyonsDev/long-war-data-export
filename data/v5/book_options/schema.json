@@ -1,0 +1,1185 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://longwarindex.app/data/v5/book_options/schema.json",
+ "title": "Long War Index book options export: the option lists that a book prints once (book_options/<faction>.json)",
+ "description": "The option lists of one book: relics, Warlord Traits, psychic powers, prayers, Machine Rites, allegiance armouries, Rite and allegiance upgrades, and army settings.",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "data_version",
+  "format",
+  "faction",
+  "groups",
+  "army_settings"
+ ],
+ "properties": {
+  "data_version": {
+   "type": "string"
+  },
+  "format": {
+   "const": 1
+  },
+  "faction": {
+   "type": "string",
+   "pattern": "^[a-z0-9_]+$"
+  },
+  "groups": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/group"
+   }
+  },
+  "army_settings": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/setting"
+   }
+  }
+ },
+ "$defs": {
+  "group": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "kind",
+    "label",
+    "printed",
+    "offered_by",
+    "takers",
+    "pick",
+    "choices"
+   ],
+   "properties": {
+    "id": {
+     "type": "string"
+    },
+    "kind": {
+     "enum": [
+      "relics",
+      "warlord_traits",
+      "psychic_powers",
+      "prayers",
+      "machine_rites",
+      "armoury",
+      "upgrade"
+     ]
+    },
+    "label": {
+     "type": "string"
+    },
+    "printed": {
+     "type": "string"
+    },
+    "page": {
+     "type": "integer"
+    },
+    "url": {
+     "type": "string",
+     "format": "uri"
+    },
+    "offered_by": {
+     "$ref": "#/$defs/offered_by"
+    },
+    "takers": {
+     "$ref": "#/$defs/takers"
+    },
+    "limits": {
+     "$ref": "#/$defs/limits"
+    },
+    "listed_by": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/rule_entry"
+     }
+    },
+    "joins": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "page",
+      "group"
+     ],
+     "properties": {
+      "page": {
+       "type": "string"
+      },
+      "group": {
+       "type": "string"
+      }
+     }
+    },
+    "restricted": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+       "offered_by": {
+        "$ref": "#/$defs/offered_by"
+       },
+       "takers": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+         "conditions": {
+          "type": "array",
+          "items": {
+           "$ref": "#/$defs/condition"
+          }
+         }
+        }
+       },
+       "choices": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "pick": {
+     "type": "object",
+     "additionalProperties": false,
+     "properties": {
+      "min": {
+       "type": "integer"
+      },
+      "max": {
+       "type": "integer"
+      },
+      "per": {
+       "enum": [
+        "model",
+        "unit"
+       ],
+       "description": "\"up to N of the following per model\" or \"for the unit\". Absent: for each taker."
+      }
+     },
+     "description": "How many choices one taker takes. {} is any number. {min: N, max: N} is exactly N (a choice may repeat up to N)."
+    },
+    "choices": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/choice"
+     }
+    },
+    "print_defect": {
+     "type": "string"
+    },
+    "automatic": {
+     "const": true,
+     "description": "Each taker has every choice of the group, free of cost and with no pick. The choices have points 0 and the pick is empty. A restriction that forbids the group also removes these choices."
+    }
+   }
+  },
+  "choice": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "name",
+    "points",
+    "pricing"
+   ],
+   "properties": {
+    "id": {
+     "type": "string"
+    },
+    "name": {
+     "type": "string"
+    },
+    "printed": {
+     "type": "string",
+     "description": "The book's sentence of this choice."
+    },
+    "page": {
+     "type": "integer"
+    },
+    "url": {
+     "type": "string",
+     "format": "uri"
+    },
+    "points": {
+     "type": "integer"
+    },
+    "pricing": {
+     "enum": [
+      "flat",
+      "per_model",
+      "each"
+     ]
+    },
+    "text": {
+     "type": "string",
+     "description": "The whole text of a trait, power, prayer or rite (plain text)."
+    },
+    "items": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/kit_item"
+     }
+    },
+    "exchanges": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "add"
+      ],
+      "properties": {
+       "remove": {
+        "type": "array",
+        "items": {
+         "$ref": "#/$defs/kit_item"
+        }
+       },
+       "remove_one_of": {
+        "type": "array",
+        "items": {
+         "$ref": "#/$defs/kit_item"
+        }
+       },
+       "add": {
+        "type": "array",
+        "items": {
+         "$ref": "#/$defs/kit_item"
+        }
+       },
+       "relic_gains": {
+        "type": "object",
+        "additionalProperties": false,
+        "description": "What the relic also holds when the model gives up the item when_removed (one item of remove_one_of) for it.",
+        "properties": {
+         "when_removed": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+           "kind",
+           "id"
+          ],
+          "properties": {
+           "kind": {
+            "enum": [
+             "weapon",
+             "wargear"
+            ]
+           },
+           "id": {
+            "type": "string"
+           },
+           "faction": {
+            "type": "string"
+           }
+          },
+          "description": "The item of remove_one_of whose exchange gives these gains."
+         },
+         "rules": {
+          "type": "array",
+          "items": {
+           "$ref": "#/$defs/rule_entry"
+          },
+          "description": "Rules that the relic gains."
+         },
+         "keeps_profiles": {
+          "type": "array",
+          "description": "Profiles of the removed weapon that stay as part of the relic.",
+          "items": {
+           "type": "object",
+           "additionalProperties": false,
+           "required": [
+            "kind",
+            "id",
+            "profile"
+           ],
+           "properties": {
+            "kind": {
+             "enum": [
+              "weapon"
+             ]
+            },
+            "id": {
+             "type": "string"
+            },
+            "faction": {
+             "type": "string"
+            },
+            "profile": {
+             "type": "string"
+            }
+           }
+          }
+         }
+        },
+        "required": [
+         "when_removed"
+        ]
+       }
+      }
+     }
+    },
+    "max": {
+     "type": "integer"
+    },
+    "profile": {
+     "type": [
+      "string",
+      "object"
+     ],
+     "additionalProperties": {
+      "type": "string"
+     },
+     "description": "The row that the model uses after the choice, or a map {from: to}."
+    },
+    "rules": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/rule_entry"
+     }
+    },
+    "loses_rules": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/rule_entry"
+     }
+    },
+    "removes_keywords": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "keywords": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "requires": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/condition"
+     }
+    },
+    "severity": {
+     "const": "warning"
+    },
+    "stat_mods": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "characteristic",
+       "delta"
+      ],
+      "properties": {
+       "characteristic": {
+        "enum": [
+         "M",
+         "WS",
+         "BS",
+         "S",
+         "T",
+         "W",
+         "A",
+         "I",
+         "Ld",
+         "Sv",
+         "Front",
+         "Side",
+         "Rear"
+        ]
+       },
+       "delta": {
+        "type": "integer"
+       }
+      }
+     }
+    },
+    "weapons": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/kit_item"
+     }
+    },
+    "weapon_rules": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/weapon_rule"
+     }
+    },
+    "mandates_warlord": {
+     "const": true
+    },
+    "role": {
+     "enum": [
+      "HQ",
+      "Troops",
+      "Elites",
+      "Fast Attack",
+      "Heavy Support",
+      "Dedicated Transport",
+      "Flyer",
+      "Lords of War",
+      "Fortification"
+     ]
+    },
+    "slot_changes": {
+     "type": "object",
+     "description": "A change to the force organisation chart while the Warlord holds the choice. {one_of: [roles], max: N}: the player selects one of these roles, and its maximum increases by N (Rites of Battle). {role: R, min_delta: N, max_delta: N}: the minimum or the maximum of the role changes by N, as the slots of a Rite benefit. Armoured Interdiction Cadre: {role: HQ, min_delta: -1}."
+    },
+    "instead_of": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/choice_path"
+     }
+    },
+    "selects": {
+     "type": "object",
+     "description": "A pick that the player makes when the army is mustered: {what, count, grants | grants_one_of, weapons_with_rules (with what: own_weapon)}."
+    },
+    "unencoded": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "print_defect": {
+     "type": "string"
+    },
+    "grants": {
+     "type": "array",
+     "description": "Rules that the choice gives to the units of the army that meet the conditions.",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "conditions",
+       "rules"
+      ],
+      "properties": {
+       "conditions": {
+        "type": "array",
+        "items": {
+         "$ref": "#/$defs/condition"
+        }
+       },
+       "rules": {
+        "type": "array",
+        "items": {
+         "$ref": "#/$defs/rule_entry"
+        }
+       }
+      }
+     }
+    },
+    "game_time": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "The sentences of the choice that act in play, as text."
+    },
+    "options": {
+     "type": "array",
+     "description": "Nested groups of the choice: a pick that the choice gives (Kunnin But Brutal: Scout or Outflank).",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "id",
+       "takers",
+       "pick",
+       "choices"
+      ],
+      "properties": {
+       "id": {
+        "type": "string"
+       },
+       "label": {
+        "type": "string"
+       },
+       "takers": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "scope"
+        ],
+        "properties": {
+         "scope": {
+          "enum": [
+           "model",
+           "unit",
+           "each_model"
+          ]
+         }
+        }
+       },
+       "pick": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+         "min": {
+          "type": "integer"
+         },
+         "max": {
+          "type": "integer"
+         }
+        }
+       },
+       "choices": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "additionalProperties": false,
+         "required": [
+          "id",
+          "name",
+          "points",
+          "pricing"
+         ],
+         "properties": {
+          "id": {
+           "type": "string"
+          },
+          "name": {
+           "type": "string"
+          },
+          "points": {
+           "type": "integer"
+          },
+          "pricing": {
+           "const": "flat"
+          },
+          "rules": {
+           "type": "array",
+           "items": {
+            "$ref": "#/$defs/rule_entry"
+           }
+          },
+          "stat_mods": {
+           "type": "array",
+           "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+             "characteristic",
+             "delta"
+            ],
+            "properties": {
+             "characteristic": {
+              "enum": [
+               "M",
+               "WS",
+               "BS",
+               "S",
+               "T",
+               "W",
+               "A",
+               "I",
+               "Ld",
+               "Sv",
+               "Front",
+               "Side",
+               "Rear"
+              ]
+             },
+             "delta": {
+              "type": "integer"
+             }
+            }
+           }
+          },
+          "list_building": {
+           "type": "object",
+           "description": "The list effects of the choice (a Warlord Trait): {benefits, while} in the special rules form."
+          },
+          "invulnerable_save": {
+           "type": "string",
+           "pattern": "^[2-6]\\+$",
+           "description": "The save of the model that takes the choice."
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    "knows": {
+     "type": "array",
+     "description": "Powers that the choice lets the model know, free of cost.",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "page",
+       "name"
+      ],
+      "properties": {
+       "page": {
+        "type": "string"
+       },
+       "name": {
+        "type": "string"
+       },
+       "url": {
+        "type": "string",
+        "format": "uri"
+       }
+      }
+     }
+    },
+    "reference_cards": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "The roster page ids (units export ids) of the datasheets of the units that the choice summons. An army list program can show each as a 0pt reference card."
+    },
+    "list_building": {
+     "type": "object",
+     "description": "The list effects of the choice (a Warlord Trait): {benefits, while} in the special rules form."
+    },
+    "invulnerable_save": {
+     "type": "string",
+     "pattern": "^[2-6]\\+$",
+     "description": "The save of the model that takes the choice."
+    },
+    "weapon_stat_mods": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "weapons",
+       "mods"
+      ],
+      "properties": {
+       "weapons": {
+        "type": "object",
+        "additionalProperties": false,
+        "description": "Every key given must hold.",
+        "properties": {
+         "weapon_types": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "except_weapon_types": {
+          "type": "array",
+          "items": {
+           "type": "string"
+          }
+         },
+         "with_rule": {
+          "$ref": "#/$defs/rule_entry"
+         },
+         "shooting": {
+          "const": true,
+          "description": "A profile that is not Melee."
+         },
+         "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+           "$ref": "#/$defs/kit_item"
+          },
+          "description": "Weapon references. The weapon is one of these."
+         }
+        }
+       },
+       "mods": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "additionalProperties": false,
+         "required": [
+          "characteristic"
+         ],
+         "properties": {
+          "characteristic": {
+           "enum": [
+            "S",
+            "Range",
+            "AP",
+            "Type"
+           ]
+          },
+          "delta": {
+           "type": "integer"
+          },
+          "value": {
+           "type": [
+            "string",
+            "integer"
+           ]
+          }
+         },
+         "description": "S, Range or AP with delta (added) or value (replaces), or Type with value only: the printed type with its shots, for example \"Assault 1\"."
+        }
+       }
+      }
+     },
+     "description": "Changes of the profiles of the weapons of the model that holds the choice, in the entry shape of the wargear effect weapon_stat_mods. Targeting Protocols: +6\" range on the shooting weapons of the Warlord, except Grenade weapons."
+    }
+   }
+  },
+  "setting": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "name",
+    "printed",
+    "offered_by",
+    "takers",
+    "pick",
+    "options"
+   ],
+   "properties": {
+    "id": {
+     "type": "string"
+    },
+    "name": {
+     "type": "string"
+    },
+    "printed": {
+     "type": "string"
+    },
+    "page": {
+     "type": "integer"
+    },
+    "url": {
+     "type": "string",
+     "format": "uri"
+    },
+    "offered_by": {
+     "$ref": "#/$defs/offered_by"
+    },
+    "takers": {
+     "$ref": "#/$defs/takers"
+    },
+    "pick": {
+     "type": "object",
+     "additionalProperties": false,
+     "properties": {
+      "min": {
+       "type": "integer"
+      },
+      "max": {
+       "type": "integer"
+      },
+      "per": {
+       "enum": [
+        "model",
+        "unit"
+       ],
+       "description": "\"up to N of the following per model\" or \"for the unit\". Absent: for each taker."
+      }
+     },
+     "description": "How many choices one taker takes. {} is any number. {min: N, max: N} is exactly N (a choice may repeat up to N)."
+    },
+    "options": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/choice"
+     }
+    },
+    "print_defect": {
+     "type": "string"
+    }
+   }
+  },
+  "condition": {
+   "type": "object",
+   "additionalProperties": false,
+   "minProperties": 1,
+   "maxProperties": 1,
+   "properties": {
+    "warlord": {
+     "const": true,
+     "description": "The unit is the Warlord."
+    },
+    "rule": {
+     "$ref": "#/$defs/rule_entry",
+     "description": "The unit has the rule, any value."
+    },
+    "keyword": {
+     "type": "string",
+     "description": "A red name: the unit has the keyword."
+    },
+    "not_keyword": {
+     "type": "string"
+    },
+    "datasheet": {
+     "type": "string",
+     "description": "A blue name: the unit is of this datasheet (page id)."
+    },
+    "rows": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "datasheet",
+       "profile"
+      ],
+      "properties": {
+       "datasheet": {
+        "type": "string"
+       },
+       "profile": {
+        "type": "string"
+       }
+      }
+     },
+     "description": "A quoted role in no colour ('Sergeant' model): the rows that it names."
+    },
+    "unit_type": {
+     "type": "string",
+     "description": "A unit type of §17.0."
+    },
+    "holds": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/kit_item"
+     }
+    },
+    "lacks": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/kit_item"
+     }
+    },
+    "can_take": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/kit_item"
+     },
+     "description": "The model holds one of the items, or the model is a taker of an option group of its datasheet that has a choice that gives one of the items (in items, in the add of exchanges, or by counts_as of a given item). The count limits of the group and the choices already taken do not change the result."
+    },
+    "choice": {
+     "$ref": "#/$defs/choice_path"
+    },
+    "not_choice": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/choice_path"
+     }
+    },
+    "transport": {
+     "const": true,
+     "description": "The unit has a Transport rule of any name or datasheet: a rule with effects.transport_capacity in special_rules."
+    },
+    "min_models": {
+     "type": "integer",
+     "minimum": 1,
+     "description": "The unit has at least this number of models (\"which contains 10 or more models\")."
+    },
+    "any_of": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/condition"
+     }
+    },
+    "max_models": {
+     "type": "integer",
+     "minimum": 1,
+     "description": "The unit has at most this number of models (\"which contains only 1 model\")."
+    },
+    "not": {
+     "$ref": "#/$defs/condition",
+     "description": "The condition does not hold."
+    }
+   }
+  },
+  "takers": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "scope",
+    "conditions"
+   ],
+   "properties": {
+    "scope": {
+     "enum": [
+      "model",
+      "unit",
+      "each_model"
+     ]
+    },
+    "conditions": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/condition"
+     }
+    }
+   }
+  },
+  "offered_by": {
+   "type": "object",
+   "additionalProperties": false,
+   "minProperties": 1,
+   "maxProperties": 1,
+   "properties": {
+    "codex": {
+     "type": "string",
+     "description": "Any army of the book (faction key)."
+    },
+    "allegiance": {
+     "type": "string",
+     "description": "A detachment that took the allegiance (page id)."
+    },
+    "rite": {
+     "type": "string",
+     "description": "An army that took the Rite of War (page id)."
+    },
+    "rule": {
+     "type": "string",
+     "description": "A unit that holds the rule (page id)."
+    }
+   }
+  },
+  "limits": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "units_per_choice": {
+     "type": "integer"
+    },
+    "units_per_group": {
+     "type": "integer"
+    },
+    "choices_per_unit": {
+     "type": "integer"
+    },
+    "pool": {
+     "type": "string",
+     "description": "A name that several groups share, across files."
+    },
+    "raised_by": {
+     "type": "object",
+     "additionalProperties": false,
+     "properties": {
+      "holds": {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/kit_item"
+       }
+      },
+      "choice": {
+       "$ref": "#/$defs/choice_path"
+      },
+      "choices_per_unit": {
+       "type": "integer"
+      }
+     }
+    },
+    "per_points": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "units",
+      "per"
+     ],
+     "properties": {
+      "units": {
+       "type": "integer"
+      },
+      "per": {
+       "type": "integer"
+      },
+      "exact": {
+       "type": "boolean"
+      }
+     },
+     "description": "Rounding: the number of steps is the army points divided by \"per\", rounded up, and at least 1. Example with per 1000: 0-1000pts gives 1 step, 1001-2000pts gives 2 steps."
+    }
+   }
+  },
+  "weapon_rule": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "rule"
+   ],
+   "properties": {
+    "rule": {
+     "$ref": "#/$defs/rule_entry"
+    },
+    "weapon_types": {
+     "type": "array",
+     "items": {
+      "enum": [
+       "Pistol",
+       "Rapid Fire",
+       "Assault",
+       "Heavy",
+       "Grenade",
+       "Melee"
+      ]
+     }
+    },
+    "weapons": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/kit_item"
+     }
+    },
+    "with_rule": {
+     "$ref": "#/$defs/rule_entry"
+    }
+   }
+  },
+  "choice_path": {
+   "oneOf": [
+    {
+     "type": "string",
+     "description": "\"<group id>/<choice id>\" of this file."
+    },
+    {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "page",
+      "path"
+     ],
+     "properties": {
+      "page": {
+       "type": "string"
+      },
+      "path": {
+       "type": "string"
+      }
+     },
+     "description": "A choice of another page: a datasheet or a rule of the units or special rules export."
+    }
+   ]
+  },
+  "rule_entry": {
+   "type": "object",
+   "additionalProperties": false,
+   "description": "A rule reference, as in the unit types export. A rule that has no rule page is {name} only.",
+   "required": [
+    "name"
+   ],
+   "properties": {
+    "rule": {
+     "type": "string",
+     "description": "The id of the rule in a special rules file."
+    },
+    "name": {
+     "type": "string"
+    },
+    "param": {
+     "type": "string"
+    },
+    "printed": {
+     "type": "string"
+    },
+    "url": {
+     "type": "string",
+     "format": "uri"
+    },
+    "raise_by": {
+     "type": "integer",
+     "description": "A unit that has the rule raises its value by this."
+    },
+    "max": {
+     "type": [
+      "integer",
+      "string"
+     ]
+    }
+   },
+   "dependentRequired": {
+    "rule": [
+     "url"
+    ]
+   }
+  },
+  "kit_item": {
+   "type": "object",
+   "additionalProperties": false,
+   "description": "An item reference of the weapon or wargear export, or {name} for an item that has no entry.",
+   "properties": {
+    "kind": {
+     "enum": [
+      "weapon",
+      "wargear"
+     ]
+    },
+    "id": {
+     "type": "string",
+     "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$"
+    },
+    "faction": {
+     "type": "string",
+     "description": "Present when the item is in the file of another faction."
+    },
+    "name": {
+     "type": "string",
+     "description": "Only for an item that has no weapon or wargear entry: the printed name."
+    },
+    "param": {
+     "type": "string",
+     "description": "The value of the item, for example \"3\" for Void Shields (3)."
+    },
+    "count": {
+     "type": "integer",
+     "minimum": 1,
+     "description": "The printed number. Not present means 1 (no number printed)."
+    },
+    "mount": {
+     "enum": [
+      "primary",
+      "secondary"
+     ],
+     "description": "(P) is a Primary weapon, (S) is a Secondary weapon (unit_types/vehicle.md)."
+    },
+    "note": {
+     "type": "string",
+     "description": "A printed note in brackets, for example \"This counts as two weapons\"."
+    },
+    "printed": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "The name that the book prints when it is another name than the item, for example \"Daemon Engine Plate\". null: the book does not print this item in this kit, but this data adds it."
+    }
+   },
+   "oneOf": [
+    {
+     "required": [
+      "kind",
+      "id"
+     ]
+    },
+    {
+     "required": [
+      "name"
+     ],
+     "not": {
+      "anyOf": [
+       {
+        "required": [
+         "kind"
+        ]
+       },
+       {
+        "required": [
+         "id"
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,737 @@
+{
+ "data_version": "b92ee733a24d6a84",
+ "format": 1,
+ "faction": "death_guard",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/poxwalker_hive/",
+   "offered_by": {
+    "allegiance": "codex/death_guard/allegiances/allegiance_death_guard"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "plague_skull_of_glothila",
+     "name": "Plague Skull of Glothila",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Blight Grenades for the Skull of Glothila.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "blight_grenades"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "plague_skull_of_glothila"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/plague_skull_of_glothila/",
+     "pricing": "flat"
+    },
+    {
+     "id": "poxwalker_hive",
+     "name": "Poxwalker Hive",
+     "points": 30,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "poxwalker_hive"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/poxwalker_hive/",
+     "pricing": "flat"
+    },
+    {
+     "id": "puscleaver",
+     "name": "Puscleaver",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Plague Knife or Close Combat Weapon for the Puscleaver for 5pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "plague_knife"
+        },
+        {
+         "kind": "weapon",
+         "id": "close_combat_weapon",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "puscleaver"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/puscleaver/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_suppurating_plate",
+     "name": "The Suppurating Plate",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange their Warp Armour for this wargear.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "wargear",
+         "id": "warp_armour",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "wargear",
+         "id": "the_suppurating_plate"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_suppurating_plate/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "not_choice": [
+        "chaos_lord_upgrades/lord_of_poxes"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "dolorous_knell",
+     "name": "Dolorous Knell",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "dolorous_knell"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/dolorous_knell/",
+     "pricing": "flat"
+    },
+    {
+     "id": "fugaris_helm",
+     "name": "Fugaris' Helm",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "fugaris_helm"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/fugaris_helm/",
+     "pricing": "flat"
+    },
+    {
+     "id": "plaguebringer",
+     "name": "Plaguebringer",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "plaguebringer"
+        }
+       ]
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/plaguebringer/",
+     "pricing": "flat"
+    },
+    {
+     "id": "reaper_of_glorious_entropy",
+     "name": "Reaper of Glorious Entropy",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Plague Reaper or Man Reaper for 15pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "plaguereaper"
+        },
+        {
+         "kind": "weapon",
+         "id": "manreaper"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "reaper_of_glorious_entropy"
+        }
+       ]
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/reaper_of_glorious_entropy/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_ague_stone",
+     "name": "The Ague Stone",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_ague_stone"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/the_ague_stone/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_epydemicyst_blade",
+     "name": "The Epydemicyst Blade",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_epydemicyst_blade"
+        }
+       ]
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/the_epydemicyst_blade/",
+     "pricing": "flat"
+    },
+    {
+     "id": "wormspitter",
+     "name": "Wormspitter",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Bolt Pistol for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "bolt_pistol",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "wormspitter"
+        }
+       ]
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/wormspitter/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "Units with Allegiance: Death Guard have access to the Warlord traits in this supplement. One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "Units with Allegiance: Death Guard have access to the Warlord traits in this supplement. One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 11,
+   "url": "https://longwarindex.app/codex/death_guard/warlord_traits/",
+   "offered_by": {
+    "allegiance": "codex/death_guard/allegiances/allegiance_death_guard"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "chaos_space_marines/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "arch_contaminator",
+     "name": "Arch Contaminator",
+     "page": 11,
+     "url": "https://longwarindex.app/warlord_traits/arch_contaminator/",
+     "text": "This Warlord and any attached unit gain the Poison (4+) special rule on all equipped Melee weapons. If a weapon already has the Poison (x) special rule, improve the value of (x) by 1 to a max of 2+.",
+     "points": 0,
+     "pricing": "flat",
+     "weapon_rules": [
+      {
+       "rule": {
+        "rule": "special_rules/poison",
+        "name": "Poison",
+        "param": "4+",
+        "url": "https://longwarindex.app/special_rules/poison/",
+        "raise_by": 1,
+        "max": "2+"
+       },
+       "weapon_types": [
+        "Melee"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "living_plague",
+     "name": "Living Plague",
+     "page": 11,
+     "url": "https://longwarindex.app/warlord_traits/living_plague/",
+     "text": "All enemy units within 3\" have -1 to their Toughness (T) characteristic.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "revoltingly_resilient",
+     "name": "Revoltingly Resilient",
+     "page": 11,
+     "url": "https://longwarindex.app/warlord_traits/revoltingly_resilient/",
+     "text": "A Warlord with this trait gains the Regeneration & Battle-Hardened special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/regeneration",
+       "name": "Regeneration",
+       "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+      },
+      {
+       "rule": "universal_special_rules/battle_hardened",
+       "name": "Battle-Hardened",
+       "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chaos_lord_upgrades",
+   "kind": "armoury",
+   "label": "A Death Guard Chaos Lord may purchase the following upgrade in addition to the others available:",
+   "printed": "A Death Guard Chaos Lord may purchase the following upgrade in addition to the others available:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_14th_legion/",
+   "offered_by": {
+    "allegiance": "codex/death_guard/allegiances/allegiance_death_guard"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Death Guard"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_lord"
+     }
+    ]
+   },
+   "joins": {
+    "page": "codex/chaos_space_marines/roster/chaos_lord",
+    "group": "upgrades"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "lord_of_contagion",
+     "name": "Lord of Contagion",
+     "printed": "Lord of Contagion for 25pts.",
+     "points": 25,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/death_guard/special_rules/lord_of_contagion",
+       "name": "Lord of Contagion",
+       "url": "https://longwarindex.app/special_rules/lord_of_contagion/"
+      }
+     ]
+    },
+    {
+     "id": "lord_of_poxes",
+     "name": "Lord of Poxes",
+     "printed": "Lord of Poxes for 20pts.",
+     "points": 20,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/death_guard/special_rules/lord_of_poxes",
+       "name": "Lord of Poxes",
+       "url": "https://longwarindex.app/special_rules/lord_of_poxes/"
+      }
+     ],
+     "requires": [
+      {
+       "not_choice": [
+        {
+         "page": "codex/chaos_space_marines/roster/chaos_lord",
+         "path": "mobility/jump_pack"
+        },
+        {
+         "page": "codex/chaos_space_marines/roster/chaos_lord",
+         "path": "mobility/bike"
+        },
+        {
+         "page": "codex/chaos_space_marines/roster/chaos_lord",
+         "path": "mobility/daemonic_steed"
+        },
+        {
+         "page": "codex/chaos_space_marines/roster/chaos_lord",
+         "path": "terminator_armour/indomitus_terminator_armour"
+        },
+        {
+         "page": "codex/chaos_space_marines/roster/chaos_lord",
+         "path": "terminator_armour/cataphractii_terminator_armour"
+        },
+        {
+         "page": "codex/chaos_space_marines/roster/chaos_lord",
+         "path": "terminator_armour/tartaros_terminator_armour"
+        },
+        "relics/the_suppurating_plate"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "lord_of_virulence",
+     "name": "Lord of Virulence",
+     "printed": "Lord of Virulence for 25pts.",
+     "points": 25,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/death_guard/special_rules/lord_of_virulence",
+       "name": "Lord of Virulence",
+       "url": "https://longwarindex.app/special_rules/lord_of_virulence/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chaos_champion_upgrades",
+   "kind": "armoury",
+   "label": "A Death Guard Chaos Champion may purchase the following upgrades in addition to the others available:",
+   "printed": "A Death Guard Chaos Champion may purchase the following upgrades in addition to the others available:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_14th_legion/",
+   "offered_by": {
+    "allegiance": "codex/death_guard/allegiances/allegiance_death_guard"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Death Guard"
+     },
+     {
+      "datasheet": "codex/chaos_space_marines/roster/chaos_champion"
+     }
+    ]
+   },
+   "joins": {
+    "page": "codex/chaos_space_marines/roster/chaos_champion",
+    "group": "upgrades"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "noxious_blightbringer",
+     "name": "Noxious Blightbringer",
+     "printed": "Noxious Blightbringer for 30pts.",
+     "points": 30,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/death_guard/special_rules/noxious_blightbringer",
+       "name": "Noxious Blightbringer",
+       "url": "https://longwarindex.app/special_rules/noxious_blightbringer/"
+      }
+     ]
+    },
+    {
+     "id": "plague_surgeon",
+     "name": "Plague Surgeon",
+     "printed": "Plague Surgeon for 10pts.",
+     "points": 10,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/death_guard/special_rules/plague_surgeon",
+       "name": "Plague Surgeon",
+       "url": "https://longwarindex.app/special_rules/plague_surgeon/"
+      }
+     ]
+    },
+    {
+     "id": "foul_blightspawn",
+     "name": "Foul Blightspawn",
+     "printed": "Foul Blightspawn for 15pts.",
+     "points": 15,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/death_guard/special_rules/foul_blightspawn",
+       "name": "Foul Blightspawn",
+       "url": "https://longwarindex.app/special_rules/foul_blightspawn/"
+      }
+     ]
+    },
+    {
+     "id": "biologus_putrifier",
+     "name": "Biologus Putrifier",
+     "printed": "Biologus Putrifier for 15pts.",
+     "points": 15,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/death_guard/special_rules/biologus_putrifier",
+       "name": "Biologus Putrifier",
+       "url": "https://longwarindex.app/special_rules/biologus_putrifier/"
+      }
+     ]
+    },
+    {
+     "id": "tallyman",
+     "name": "Tallyman",
+     "printed": "Tallyman for 55pts.",
+     "points": 55,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/death_guard/special_rules/tallyman",
+       "name": "Tallyman",
+       "url": "https://longwarindex.app/special_rules/tallyman/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plague_knife",
+   "kind": "armoury",
+   "label": "Any Death Guard model may exchange their equipped close combat weapon for a Plague Knife for 0pts.",
+   "printed": "Any Death Guard model may exchange their equipped close combat weapon for a Plague Knife for 0pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_14th_legion/",
+   "offered_by": {
+    "allegiance": "codex/death_guard/allegiances/allegiance_death_guard"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Death Guard"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "plague_knife",
+     "name": "Plague Knife",
+     "points": 0,
+     "pricing": "each",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "close_combat_weapon",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "plague_knife"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "manreaper",
+   "kind": "armoury",
+   "label": "Any Death Guard Chaos Lord or Chaos Champion may:",
+   "printed": "Any Death Guard Chaos Lord or Chaos Champion may:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_14th_legion/",
+   "offered_by": {
+    "allegiance": "codex/death_guard/allegiances/allegiance_death_guard"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Death Guard"
+     },
+     {
+      "any_of": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_lord"
+       },
+       {
+        "datasheet": "codex/chaos_space_marines/roster/chaos_champion"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "manreaper",
+     "name": "Manreaper",
+     "printed": "Exchange their equipped Power Lance for a Manreaper for 3pts.",
+     "points": 3,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_lance",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "manreaper"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blight_grenades",
+   "kind": "armoury",
+   "label": "Any Death Guard model may exchange their equipped Frag Grenades for Blight Grenades for 0pts.",
+   "printed": "Any Death Guard model may exchange their equipped Frag Grenades for Blight Grenades for 0pts",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_14th_legion/",
+   "offered_by": {
+    "allegiance": "codex/death_guard/allegiances/allegiance_death_guard"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Death Guard"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "blight_grenades",
+     "name": "Blight Grenades",
+     "points": 0,
+     "pricing": "each",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "frag_grenades",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "blight_grenades"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

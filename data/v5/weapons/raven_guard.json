@@ -1,0 +1,367 @@
+{
+ "data_version": "8c3abe6f40664906",
+ "format": 1,
+ "faction": "raven_guard",
+ "weapons": [
+  {
+   "id": "silentus_bolt_pistol",
+   "name": "Silentus Bolt Pistol",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 4,
+   "url": "https://longwarindex.app/weapons/silentus_bolt_pistol/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "18\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "korvedari_boltgun",
+   "name": "Korvedari Boltgun",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 4,
+   "url": "https://longwarindex.app/weapons/korvedari_boltgun/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "30\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "korvedari_heavy_boltgun",
+   "name": "Korvedari Heavy Boltgun",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 4,
+   "url": "https://longwarindex.app/weapons/korvedari_heavy_boltgun/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "36\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [],
+     "print_defect": "The book prints the same weapon type and strength as the Korvedari Boltgun. Only the range is different."
+    }
+   ]
+  },
+  {
+   "id": "ex_tenebris",
+   "name": "Ex-Tenebris",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/ex_tenebris/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Boltgun for this relic for 5pts.",
+   "profiles": [
+    {
+     "type": "Assault 3",
+     "range": "24\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      },
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nihilus",
+   "name": "Nihilus",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/nihilus/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Boltgun for this relic for 15pts.",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "6",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "2+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      },
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "param": "Infantry",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "swift_strike_and_murder",
+   "name": "Swift Strike & Murder",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/swift_strike_and_murder/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its 2 Lightning Claws for 2 of this relic for 10pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      },
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_ebon_claws",
+   "name": "The Ebon Claws",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/the_ebon_claws/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its 2 Lightning Claws for 2 of this relic for 10pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      },
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "claws_of_severax",
+   "name": "Claws of Severax",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/wargear/claws_of_severax/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ravens_talons",
+   "name": "Raven's Talons",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/wargear/ravens_talons/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      },
+      {
+       "rule": "special_rules/swift_strike",
+       "name": "Swift Strike",
+       "url": "https://longwarindex.app/special_rules/swift_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blackout",
+   "name": "Blackout",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/wargear/blackout/",
+   "profiles": [
+    {
+     "type": "Pistol 2",
+     "range": "18\"",
+     "strength": "4",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_hell_strike_launcher",
+   "name": "Linked Hell Strike Launcher",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/wargear/linked_hell_strike_launcher/",
+   "profiles": [
+    {
+     "type": "Heavy 2",
+     "range": "72\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vengeance_launcher",
+   "name": "Vengeance Launcher",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/wargear/vengeance_launcher_raven_guard/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "6",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/barrage",
+       "name": "Barrage",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/barrage/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

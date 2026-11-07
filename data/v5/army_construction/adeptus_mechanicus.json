@@ -1,0 +1,1284 @@
+{
+ "data_version": "b0dc4440d6799b21",
+ "format": 1,
+ "faction": "adeptus_mechanicus",
+ "codex": {
+  "id": "codex/adeptus_mechanicus",
+  "name": "Adeptus Mechanicus",
+  "page": 1,
+  "url": "https://longwarindex.app/codex/adeptus_mechanicus/",
+  "parent": null,
+  "army_rules": [
+   {
+    "rule": "codex/adeptus_mechanicus/special_rules/binaric_command",
+    "name": "Binaric Command",
+    "url": "https://longwarindex.app/special_rules/binaric_command/"
+   },
+   {
+    "rule": "codex/adeptus_mechanicus/special_rules/binaric_domination",
+    "name": "Binaric Domination",
+    "url": "https://longwarindex.app/special_rules/binaric_domination/"
+   }
+  ],
+  "allies": {
+   "printed": "The following factions listed in keywords may be taken as allies in an allied detachment if your battle plan allows the use of allied detachments:",
+   "page": 33,
+   "url": "https://longwarindex.app/allies/adeptus_mechanicus_allies/",
+   "factions": [
+    {
+     "faction": "imperial_guard"
+    },
+    {
+     "faction": "sisters_of_battle"
+    },
+    {
+     "faction": "adeptus_mechanicus"
+    },
+    {
+     "faction": "imperial_agents"
+    },
+    {
+     "faction": "talons_of_the_emperor"
+    }
+   ]
+  },
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/adeptus_mechanicus/rites_of_war/battle_maniple",
+    "codex/adeptus_mechanicus/rites_of_war/infiltration_clade",
+    "codex/adeptus_mechanicus/rites_of_war/rad_zone_corp",
+    "codex/adeptus_mechanicus/rites_of_war/armoured_maniple",
+    "codex/adeptus_mechanicus/rites_of_war/legio_cybernetica_maniple",
+    "codex/adeptus_mechanicus/rites_of_war/legio_titanica_elite_maniple"
+   ],
+   "from_parent": [],
+   "banned_from_parent": []
+  },
+  "unit_list": {
+   "page": 32,
+   "url": "https://longwarindex.app/unit_list/adeptus_mechanicus_unit_list/",
+   "entries": [
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/belisarius_cawl",
+     "printed": "Belisarius Cawl",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/skitarii_marshal",
+     "printed": "Skitarii Marshal",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/tech_priest",
+     "printed": "Tech-Priest",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/tech_priest_dominus",
+     "printed": "Tech-Priest Dominus",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/thulia_ghuld",
+     "printed": "Thulia Ghuld",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/combat_servitors",
+     "printed": "Combat Servitors",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/kataphron_battle_servitors",
+     "printed": "Kataphron Battle Servitors",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/skitarii_rangers",
+     "printed": "Skitarii Rangers",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/skitarii_vanguard",
+     "printed": "Skitarii Vanguard",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/castellax_battle_automata",
+     "printed": "Castellax Battle Automata",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/corpuscarii_electro_priests",
+     "printed": "Corpuscarii Electro Priests",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/domitar_battle_automata",
+     "printed": "Domitar Battle Automata",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/fulgurite_electro_priests",
+     "printed": "Fulgurite Electro Priests",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/kastelan_battle_automata",
+     "printed": "Kastelan Battle Automata",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/myrmidons",
+     "printed": "Myrmidons",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/sicarian_infiltrators",
+     "printed": "Sicarian Infiltrators",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/sicarian_ruststalkers",
+     "printed": "Sicarian Ruststalkers",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/sydonian_skatros",
+     "printed": "Sydonian Skatros",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/thallax_cohort",
+     "printed": "Thallax Cohort",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/skorpius_dunerider",
+     "printed": "Skorpius Dunerider",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/triaros_armoured_conveyor",
+     "printed": "Triaros Armoured Conveyor",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/archeopter_fusilave",
+     "printed": "Archeopter Fusilave",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/archeopter_stratoraptor",
+     "printed": "Archeopter Stratoraptor",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/archeopter_transvector",
+     "printed": "Archeopter Transvector",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/vultarax_stratos_automata",
+     "printed": "Vultarax Stratos Automata",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/ironstrider_ballistarii",
+     "printed": "Ironstrider Ballistarii",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/pteraxii",
+     "printed": "Pteraxii",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/serberys_raiders",
+     "printed": "Serberys Raiders",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/serberys_sulphurhounds",
+     "printed": "Serberys Sulphurhounds",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/sydonian_dragoon",
+     "printed": "Sydonian Dragoon",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/ursurax_cohort",
+     "printed": "Ursurax Cohort",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/vorax_battle_automata",
+     "printed": "Vorax Battle Automata",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/hastarii",
+     "printed": "Hastarii",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/karacnos_assault_tank",
+     "printed": "Karacnos Assault Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/krios_battle_tank",
+     "printed": "Krios Battle Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/onager_dune_crawler",
+     "printed": "Onager Dune Crawler",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/skorpius_disintegrator",
+     "printed": "Skorpius Disintegrator",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/thanatar_siege_automata",
+     "printed": "Thanatar Siege Automata",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/reaver_battle_titan",
+     "printed": "Reaver Battle Titan",
+     "role": "Lords of War",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/secutarii_hoplites",
+     "printed": "Secutarii Hoplites",
+     "role": "Troops",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/secutarii_peltasts",
+     "printed": "Secutarii Peltasts",
+     "role": "Troops",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/adeptus_mechanicus/roster/warhound_scout_titan",
+     "printed": "Warhound Scout Titan",
+     "role": "Lords of War",
+     "appendix": true
+    }
+   ]
+  },
+  "keyword_templates": [
+   {
+    "template": "[Forge World]",
+    "substitution": {
+     "by": "allegiance"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/adeptus_mechanicus/allegiances/mars",
+   "name": "Allegiance: Mars",
+   "page": 31,
+   "url": "https://longwarindex.app/allegiances/mars/",
+   "offered_by": {
+    "codex": "adeptus_mechanicus"
+   },
+   "keyword_substitution": {
+    "template": "[Forge World]",
+    "value": "Mars"
+   },
+   "rule": {
+    "rule": "codex/adeptus_mechanicus/allegiances/mars",
+    "name": "Mars",
+    "printed": "codex/adeptus_mechanicus/allegiances/mars",
+    "url": "https://longwarindex.app/allegiances/mars/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "mars_orthodox_priesthood",
+     "printed": "Your army must include at least 1 Tech-Priest Dominus.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/tech_priest_dominus"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "mars_cult_of_the_machine_god",
+     "printed": "All Mars units in your army gain the Zealot special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Mars"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/zealot",
+        "name": "Zealot",
+        "url": "https://longwarindex.app/universal_special_rules/zealot/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/adeptus_mechanicus/allegiances/ryza",
+   "name": "Allegiance: Ryza",
+   "page": 31,
+   "url": "https://longwarindex.app/allegiances/ryza/",
+   "offered_by": {
+    "codex": "adeptus_mechanicus"
+   },
+   "keyword_substitution": {
+    "template": "[Forge World]",
+    "value": "Ryza"
+   },
+   "rule": {
+    "rule": "codex/adeptus_mechanicus/allegiances/ryza",
+    "name": "Ryza",
+    "printed": "codex/adeptus_mechanicus/allegiances/ryza",
+    "url": "https://longwarindex.app/allegiances/ryza/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "ryza_beset_on_all_sides",
+     "printed": "Your army must include at least 1 Combat Servitor or Kataphron Battle Servitor unit per 1,000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/adeptus_mechanicus/roster/combat_servitors"
+         },
+         {
+          "datasheet": "codex/adeptus_mechanicus/roster/kataphron_battle_servitors"
+         }
+        ]
+       }
+      ],
+      "min": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    }
+   ],
+   "benefits": [],
+   "game_time": [
+    "Ryza units may re-roll Armour saves taken against wounds caused as a result of the Gets Hot! special rule."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/adeptus_mechanicus/allegiances/lucius",
+   "name": "Allegiance: Lucius",
+   "page": 31,
+   "url": "https://longwarindex.app/allegiances/lucius/",
+   "offered_by": {
+    "codex": "adeptus_mechanicus"
+   },
+   "keyword_substitution": {
+    "template": "[Forge World]",
+    "value": "Lucius"
+   },
+   "rule": {
+    "rule": "codex/adeptus_mechanicus/allegiances/lucius",
+    "name": "Lucius",
+    "printed": "codex/adeptus_mechanicus/allegiances/lucius",
+    "url": "https://longwarindex.app/allegiances/lucius/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "lucius_jealous_secrets",
+     "printed": "You may not include any allies or Allied detachment if your army is Lucius.",
+     "scope": "detachment",
+     "no_allied_detachment": true
+    }
+   ],
+   "benefits": [
+    {
+     "id": "lucius_pattern_solar_armour",
+     "printed": "Lucius units in your army gain a 6+ Invulnerable save. If they already have an Invulnerable save, this is increased by 1 to a max of 4+.",
+     "invulnerable_save_improve": {
+      "conditions": [
+       {
+        "keyword": "Lucius"
+       }
+      ],
+      "by": 1,
+      "max": "4+",
+      "otherwise": "6+"
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/adeptus_mechanicus/allegiances/agripinaa",
+   "name": "Allegiance: Agripinaa",
+   "page": 31,
+   "url": "https://longwarindex.app/allegiances/agripinaa/",
+   "offered_by": {
+    "codex": "adeptus_mechanicus"
+   },
+   "keyword_substitution": {
+    "template": "[Forge World]",
+    "value": "Agripinaa"
+   },
+   "rule": {
+    "rule": "codex/adeptus_mechanicus/allegiances/agripinaa",
+    "name": "Agripinaa",
+    "printed": "codex/adeptus_mechanicus/allegiances/agripinaa",
+    "url": "https://longwarindex.app/allegiances/agripinaa/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "agripinaa_servitor_reserves",
+     "printed": "Your army must include at least 2 units of Kataphron Battle Servitors.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/kataphron_battle_servitors"
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "agripinaa_pattern_auto_weapons",
+     "printed": "Agripinaa units equipped with Auto Weapons gain +6\" to their range. For the purposes of this special rule, an Auto Weapon is any weapon listed under the 'Auto' category.",
+     "weapon_stat_mods": {
+      "conditions": [
+       {
+        "keyword": "Agripinaa"
+       }
+      ],
+      "weapons": {
+       "subtype": "Auto Weapons"
+      },
+      "mods": [
+       {
+        "characteristic": "Range",
+        "delta": 6
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/adeptus_mechanicus/allegiances/graia",
+   "name": "Allegiance: Graia",
+   "page": 31,
+   "url": "https://longwarindex.app/allegiances/graia/",
+   "offered_by": {
+    "codex": "adeptus_mechanicus"
+   },
+   "keyword_substitution": {
+    "template": "[Forge World]",
+    "value": "Graia"
+   },
+   "rule": {
+    "rule": "codex/adeptus_mechanicus/allegiances/graia",
+    "name": "Graia",
+    "printed": "codex/adeptus_mechanicus/allegiances/graia",
+    "url": "https://longwarindex.app/allegiances/graia/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [
+    {
+     "id": "graia_pattern_cerebral_implants",
+     "printed": "Graia Skitarii units gain the Binaric Domination special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Graia"
+       },
+       {
+        "keyword": "Skitarii"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "codex/adeptus_mechanicus/special_rules/binaric_domination",
+        "name": "Binaric Domination",
+        "url": "https://longwarindex.app/special_rules/binaric_domination/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "Graia units may not perform Retreat Moves in the Movement phase unless they are within 6\" of a Tech-Priest unit."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/adeptus_mechanicus/allegiances/stygies_viii",
+   "name": "Allegiance: Stygies VIII",
+   "page": 31,
+   "url": "https://longwarindex.app/allegiances/stygies_viii/",
+   "offered_by": {
+    "codex": "adeptus_mechanicus"
+   },
+   "keyword_substitution": {
+    "template": "[Forge World]",
+    "value": "Stygies"
+   },
+   "rule": {
+    "rule": "codex/adeptus_mechanicus/allegiances/stygies_viii",
+    "name": "Stygies VIII",
+    "printed": "codex/adeptus_mechanicus/allegiances/stygies_viii",
+    "url": "https://longwarindex.app/allegiances/stygies_viii/"
+   },
+   "unit_list": null,
+   "allies": {
+    "remove": [
+     "adeptus_mechanicus",
+     "imperial_agents"
+    ],
+    "printed": "Stygies armies cannot take allies or allied detachments from Adeptus Mechanicus or Imperial Agent armies."
+   },
+   "restrictions": [],
+   "benefits": [],
+   "game_time": [
+    "Stygies units in your army always gain the benefit of Light Cover. If the unit is already benefiting from Light Cover, it gains the benefit of Heavy Cover."
+   ],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/adeptus_mechanicus/rites_of_war/battle_maniple",
+   "name": "Battle Maniple",
+   "page": 21,
+   "url": "https://longwarindex.app/rites_of_war/battle_maniple/",
+   "offered_by": {
+    "codex": "adeptus_mechanicus"
+   },
+   "text": "Restrictions\n\n- Your army must include a Skitarii Marshal.\n- Your army must include 2 units of either Skitarii Vanguard or Skitarii Rangers in any combination.\n- Your army must include at least 1 Kataphron Battle Servitor unit.\n- Your army must include at least 1 Kastelan Battle Automata unit.\n\nBenefits\n\n- A Skitarii Marshal may select 2 different units for the Doctrina Imperative special rule in your Movement Phase.\n- Kataphron Battle Servitors ignore the Support Squad special rule.\n- Skitarii Infantry units in your army may purchase Frag Grenades for 5pts.",
+   "restrictions": [
+    {
+     "id": "battle_maniple_skitarii_marshal",
+     "printed": "Your army must include a Skitarii Marshal.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/skitarii_marshal"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "battle_maniple_vanguard_or_rangers",
+     "printed": "Your army must include 2 units of either Skitarii Vanguard or Skitarii Rangers in any combination.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/adeptus_mechanicus/roster/skitarii_vanguard"
+         },
+         {
+          "datasheet": "codex/adeptus_mechanicus/roster/skitarii_rangers"
+         }
+        ]
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "battle_maniple_kataphron_battle_servitors",
+     "printed": "Your army must include at least 1 Kataphron Battle Servitor unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/kataphron_battle_servitors"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "battle_maniple_kastelan_battle_automata",
+     "printed": "Your army must include at least 1 Kastelan Battle Automata unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/kastelan_battle_automata"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "battle_maniple_ignore_support_squad",
+     "printed": "Kataphron Battle Servitors ignore the Support Squad special rule.",
+     "suppress_rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/kataphron_battle_servitors"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "battle_maniple_frag_grenades",
+     "printed": "Skitarii Infantry units in your army may purchase Frag Grenades for 5pts.",
+     "options": [
+      {
+       "book_options": "adeptus_mechanicus",
+       "group": "battle_maniple_frag_grenades"
+      }
+     ]
+    }
+   ],
+   "game_time": [
+    "A Skitarii Marshal may select 2 different units for the Doctrina Imperative special rule in your Movement Phase."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/adeptus_mechanicus/rites_of_war/infiltration_clade",
+   "name": "Infiltration Clade",
+   "page": 22,
+   "url": "https://longwarindex.app/rites_of_war/infiltration_clade/",
+   "offered_by": {
+    "codex": "adeptus_mechanicus"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 unit of Sicarian Infiltrators or Sicarian Ruststalkers.\n- Your army must include at least 1 Ironstrider Ballistarii.\n- Your army may not include any units with the Vehicle type.\n\nBenefits\n\n- You may field Sicarian Infiltrators as Troops choices.\n- You may field Sicarian Ruststalkers as Troops choices.\n- You may field Archeopter Transvectors as Dedicated Transports.",
+   "restrictions": [
+    {
+     "id": "infiltration_clade_infiltrators_or_ruststalkers",
+     "printed": "Your army must include at least 1 unit of Sicarian Infiltrators or Sicarian Ruststalkers.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/adeptus_mechanicus/roster/sicarian_infiltrators"
+         },
+         {
+          "datasheet": "codex/adeptus_mechanicus/roster/sicarian_ruststalkers"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "infiltration_clade_ironstrider_ballistarii",
+     "printed": "Your army must include at least 1 Ironstrider Ballistarii.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/ironstrider_ballistarii"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "infiltration_clade_no_vehicle",
+     "printed": "Your army may not include any units with the Vehicle type.",
+     "scope": "detachment",
+     "forbidden_units": {
+      "conditions": [
+       {
+        "unit_type": "Vehicle"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "infiltration_clade_infiltrators_troops",
+     "printed": "You may field Sicarian Infiltrators as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/sicarian_infiltrators"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "infiltration_clade_ruststalkers_troops",
+     "printed": "You may field Sicarian Ruststalkers as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/sicarian_ruststalkers"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "infiltration_clade_transvectors_dedicated_transport",
+     "printed": "You may field Archeopter Transvectors as Dedicated Transports.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/archeopter_transvector"
+       }
+      ],
+      "role": "Dedicated Transport",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/adeptus_mechanicus/rites_of_war/rad_zone_corp",
+   "name": "Rad Zone Corp",
+   "page": 23,
+   "url": "https://longwarindex.app/rites_of_war/rad_zone_corp/",
+   "offered_by": {
+    "codex": "adeptus_mechanicus"
+   },
+   "text": "Restrictions\n\n- Your army must include a Skitarii Marshal.\n- Your army must include at least 2 Skitarii Vanguard units.\n- Your army must include at least 1 unit of Serberys Sulphurhounds.\n\nBenefits\n\n- You may field Sydonian Dragoons as Elites choices.\n- All Skitarii Infantry and Cavalry type units in your army when targeted by a weapon with the Poison (x) special rule, have -1 to Wound them. (e.g. Poison (4+) becomes Poison (5+) for the purposes of wounding).\n- At the beginning of the game, during deployment, you may place down D3 Rad Bombardment Markers. All terrain (including open terrain) within 6\" of these markers is treated as Dangerous Terrain.",
+   "restrictions": [
+    {
+     "id": "rad_zone_corp_skitarii_marshal",
+     "printed": "Your army must include a Skitarii Marshal.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/skitarii_marshal"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "rad_zone_corp_skitarii_vanguard",
+     "printed": "Your army must include at least 2 Skitarii Vanguard units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/skitarii_vanguard"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "rad_zone_corp_serberys_sulphurhounds",
+     "printed": "Your army must include at least 1 unit of Serberys Sulphurhounds.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/serberys_sulphurhounds"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "rad_zone_corp_sydonian_dragoons_elites",
+     "printed": "You may field Sydonian Dragoons as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/sydonian_dragoon"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "All Skitarii Infantry and Cavalry type units in your army when targeted by a weapon with the Poison (x) special rule, have -1 to Wound them. (e.g. Poison (4+) becomes Poison (5+) for the purposes of wounding).",
+    "At the beginning of the game, during deployment, you may place down D3 Rad Bombardment Markers. All terrain (including open terrain) within 6\" of these markers is treated as Dangerous Terrain."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/adeptus_mechanicus/rites_of_war/armoured_maniple",
+   "name": "Armoured Maniple",
+   "page": 24,
+   "url": "https://longwarindex.app/rites_of_war/armoured_maniple/",
+   "offered_by": {
+    "codex": "adeptus_mechanicus"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 2 Skorpius Disintegrators.\n- For each Skitarii Infantry type unit in your army that does not have the Infiltrate, Outflank or Deep Strike special rule, you must include a Skorpius Dunerider.\n- Your army must include more Walker and Vehicle type units than Infantry type units.\n\nBenefits\n\n- When Mustering your Army, you may field 1 Skorpius Disintegrator as a HQ choice. This Skorpius Disintegrator chosen as your HQ choice must be your Warlord unless your army contains a Tech-Priest Dominus. The Skorpius Disintegrator gains +1 to its Ballistic Skill (BS), Attacks (A), and Leadership (LD) characteristic and the Character special rule.\n- You may field Skorpius Disintegrators as Fast Attack choices.\n- You may field Onager Dune Crawlers as Elites choices.",
+   "restrictions": [
+    {
+     "id": "armoured_maniple_skorpius_disintegrators",
+     "printed": "Your army must include at least 2 Skorpius Disintegrators.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/skorpius_disintegrator"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "armoured_maniple_dunerider_ratio",
+     "printed": "For each Skitarii Infantry type unit in your army that does not have the Infiltrate, Outflank or Deep Strike special rule, you must include a Skorpius Dunerider.",
+     "scope": "detachment",
+     "ratio": {
+      "limited": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/skorpius_dunerider"
+       }
+      ],
+      "per": 1,
+      "of": [
+       {
+        "keyword": "Skitarii"
+       },
+       {
+        "unit_type": "Infantry"
+       },
+       {
+        "not": {
+         "any_of": [
+          {
+           "rule": {
+            "rule": "universal_special_rules/infiltrate",
+            "name": "Infiltrate",
+            "url": "https://longwarindex.app/universal_special_rules/infiltrate/"
+           }
+          },
+          {
+           "rule": {
+            "rule": "universal_special_rules/outflank",
+            "name": "Outflank",
+            "url": "https://longwarindex.app/universal_special_rules/outflank/"
+           }
+          },
+          {
+           "rule": {
+            "rule": "universal_special_rules/deep_strike",
+            "name": "Deep Strike",
+            "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+           }
+          }
+         ]
+        }
+       }
+      ],
+      "minimum": true
+     }
+    },
+    {
+     "id": "armoured_maniple_disintegrator_warlord",
+     "printed": "This Skorpius Disintegrator chosen as your HQ choice must be your Warlord unless your army contains a Tech-Priest Dominus.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/skorpius_disintegrator"
+       },
+       {
+        "role": "HQ"
+       }
+      ],
+      "if_present": true,
+      "unless_army_includes": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/tech_priest_dominus"
+       }
+      ]
+     }
+    },
+    {
+     "id": "armoured_maniple_majority",
+     "printed": "Your army must include more Walker and Vehicle type units than Infantry type units.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "any_of": [
+         {
+          "unit_type": "Walker"
+         },
+         {
+          "unit_type": "Vehicle"
+         }
+        ]
+       }
+      ],
+      "than": [
+       [
+        {
+         "unit_type": "Infantry"
+        }
+       ]
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "armoured_maniple_disintegrator_hq",
+     "printed": "When Mustering your Army, you may field 1 Skorpius Disintegrator as a HQ choice.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/skorpius_disintegrator"
+       }
+      ],
+      "role": "HQ",
+      "instead": false,
+      "max_units": 1
+     }
+    },
+    {
+     "id": "armoured_maniple_disintegrator_stat_mods",
+     "printed": "The Skorpius Disintegrator gains +1 to its Ballistic Skill (BS), Attacks (A), and Leadership (LD) characteristic and the Character special rule.",
+     "stat_mods": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/skorpius_disintegrator"
+       },
+       {
+        "role": "HQ"
+       }
+      ],
+      "mods": [
+       {
+        "characteristic": "BS",
+        "delta": 1
+       },
+       {
+        "characteristic": "A",
+        "delta": 1
+       },
+       {
+        "characteristic": "Ld",
+        "delta": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "armoured_maniple_disintegrator_character",
+     "printed": "The Skorpius Disintegrator gains +1 to its Ballistic Skill (BS), Attacks (A), and Leadership (LD) characteristic and the Character special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/skorpius_disintegrator"
+       },
+       {
+        "role": "HQ"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/character",
+        "name": "Character",
+        "url": "https://longwarindex.app/universal_special_rules/character/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "armoured_maniple_disintegrator_fast_attack",
+     "printed": "You may field Skorpius Disintegrators as Fast Attack choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/skorpius_disintegrator"
+       }
+      ],
+      "role": "Fast Attack",
+      "instead": false
+     }
+    },
+    {
+     "id": "armoured_maniple_onager_elites",
+     "printed": "You may field Onager Dune Crawlers as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/onager_dune_crawler"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/adeptus_mechanicus/rites_of_war/legio_cybernetica_maniple",
+   "name": "Legio Cybernetica Maniple",
+   "page": 25,
+   "url": "https://longwarindex.app/rites_of_war/legio_cybernetica_maniple/",
+   "offered_by": {
+    "codex": "adeptus_mechanicus"
+   },
+   "text": "Restrictions\n\n- Your army must include 1 Tech-Priest Dominus with the Ordo Cybernetica upgrade.\n- Your army must include 1 Tech Priest upgraded to a Cybernetica Data Smith.\n- Every unit in your army must either have the Cybernetica Keyword or Tech-Priest Keyword.\n\nBenefits\n\n- Ignore the Limited: X special rule on all Cybernetica units.\n- You may field Castellax Battle Automata as Troops choices.\n- You may select 1 Cybernetica unit in your army which contains only 1 model to be upgraded to a Paragon of Metal for 25pts.\n\nParagon of Metal",
+   "restrictions": [
+    {
+     "id": "legio_cybernetica_maniple_dominus_ordo_cybernetica",
+     "printed": "Your army must include 1 Tech-Priest Dominus with the Ordo Cybernetica upgrade.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/tech_priest_dominus"
+       },
+       {
+        "choice": {
+         "page": "codex/adeptus_mechanicus/roster/tech_priest_dominus",
+         "path": "ordo/ordo_cybernetica"
+        }
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "legio_cybernetica_maniple_tech_priest_data_smith",
+     "printed": "Your army must include 1 Tech Priest upgraded to a Cybernetica Data Smith.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/tech_priest"
+       },
+       {
+        "choice": {
+         "page": "codex/adeptus_mechanicus/roster/tech_priest",
+         "path": "upgrade/cybernetica_data_smith"
+        }
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "legio_cybernetica_maniple_every_unit_keyword",
+     "printed": "Every unit in your army must either have the Cybernetica Keyword or Tech-Priest Keyword.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "any_of": [
+         {
+          "keyword": "Cybernetica"
+         },
+         {
+          "keyword": "Tech-Priest"
+         },
+         {
+          "keyword": "Tech Priest"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "legio_cybernetica_maniple_ignore_limited",
+     "printed": "Ignore the Limited: X special rule on all Cybernetica units.",
+     "limit": {
+      "conditions": [
+       {
+        "keyword": "Cybernetica"
+       }
+      ],
+      "limit": null
+     }
+    },
+    {
+     "id": "legio_cybernetica_maniple_castellax_troops",
+     "printed": "You may field Castellax Battle Automata as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/adeptus_mechanicus/roster/castellax_battle_automata"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "legio_cybernetica_maniple_paragon_of_metal",
+     "printed": "You may select 1 Cybernetica unit in your army which contains only 1 model to be upgraded to a Paragon of Metal for 25pts.",
+     "options": [
+      {
+       "book_options": "adeptus_mechanicus",
+       "group": "legio_cybernetica_maniple_paragon_of_metal"
+      }
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/adeptus_mechanicus/rites_of_war/legio_titanica_elite_maniple",
+   "name": "Legio Titanica Elite Maniple",
+   "page": 26,
+   "url": "https://longwarindex.app/rites_of_war/legio_titanica_elite_maniple/",
+   "offered_by": {
+    "codex": "adeptus_mechanicus"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Titan Type unit.\n- Your army must include at least 2 units of Secutarii Peltasts or Secutarii Hoplites.\n- You may not field Skitarii Ranger or Skitarii Vanguard units.\n\nBenefits\n\n- You gain access to the Secutarii Hoplites unit below.\n- You gain access to the Secutarii Peltasts unit below.\n- You can gain access to the Warhound Scout Titan unit below.\n- You can gain access to the Reaver Battle Titan unit below.",
+   "restrictions": [
+    {
+     "id": "legio_titanica_elite_maniple_titan",
+     "printed": "Your army must include at least 1 Titan Type unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "unit_type": "Titan"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "legio_titanica_elite_maniple_secutarii",
+     "printed": "Your army must include at least 2 units of Secutarii Peltasts or Secutarii Hoplites.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/adeptus_mechanicus/roster/secutarii_peltasts"
+         },
+         {
+          "datasheet": "codex/adeptus_mechanicus/roster/secutarii_hoplites"
+         }
+        ]
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "legio_titanica_elite_maniple_no_skitarii_ranger_vanguard",
+     "printed": "You may not field Skitarii Ranger or Skitarii Vanguard units.",
+     "scope": "detachment",
+     "forbidden_units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/adeptus_mechanicus/roster/skitarii_rangers"
+         },
+         {
+          "datasheet": "codex/adeptus_mechanicus/roster/skitarii_vanguard"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "legio_titanica_elite_maniple_secutarii_hoplites_unlock",
+     "printed": "You gain access to the Secutarii Hoplites unit below.",
+     "unlocks": [
+      "codex/adeptus_mechanicus/roster/secutarii_hoplites"
+     ]
+    },
+    {
+     "id": "legio_titanica_elite_maniple_secutarii_peltasts_unlock",
+     "printed": "You gain access to the Secutarii Peltasts unit below.",
+     "unlocks": [
+      "codex/adeptus_mechanicus/roster/secutarii_peltasts"
+     ]
+    },
+    {
+     "id": "legio_titanica_elite_maniple_warhound_unlock",
+     "printed": "You can gain access to the Warhound Scout Titan unit below.",
+     "unlocks": [
+      "codex/adeptus_mechanicus/roster/warhound_scout_titan"
+     ]
+    },
+    {
+     "id": "legio_titanica_elite_maniple_reaver_unlock",
+     "printed": "You can gain access to the Reaver Battle Titan unit below.",
+     "unlocks": [
+      "codex/adeptus_mechanicus/roster/reaver_battle_titan"
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

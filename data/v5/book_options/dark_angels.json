@@ -1,0 +1,837 @@
+{
+ "data_version": "0e868be28319c9b0",
+ "format": 1,
+ "faction": "dark_angels",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/the_lions_roar/",
+   "offered_by": {
+    "allegiance": "codex/dark_angels/allegiances/allegiance_dark_angels"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "the_lions_roar",
+     "name": "The Lion's Roar",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Boltgun for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_lions_roar"
+        }
+       ]
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/the_lions_roar/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_mace_of_redemption",
+     "name": "The Mace of Redemption",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 15pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_mace_of_redemption"
+        }
+       ]
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/the_mace_of_redemption/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_shroud_of_heroes",
+     "name": "The Shroud of Heroes",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_shroud_of_heroes"
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/the_shroud_of_heroes/",
+     "pricing": "flat"
+    },
+    {
+     "id": "monster_slayer_of_caliban",
+     "name": "Monster Slayer of Caliban",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "monster_slayer_of_caliban"
+        }
+       ]
+      }
+     ],
+     "page": 11,
+     "url": "https://longwarindex.app/wargear/monster_slayer_of_caliban/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_eye_unseen",
+     "name": "The Eye Unseen",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_eye_unseen"
+      }
+     ],
+     "page": 11,
+     "url": "https://longwarindex.app/wargear/the_eye_unseen/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_foe_smiter",
+     "name": "Foe-Smiter",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Boltgun for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_foe_smiter"
+        }
+       ]
+      }
+     ],
+     "page": 11,
+     "url": "https://longwarindex.app/wargear/the_foe_smiter/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "Units with Allegiance: Dark Angels have access to the Warlord traits in this supplement in place of the Traits found in Codex – Space Marines. One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "Units with Allegiance: Dark Angels have access to the Warlord traits in this supplement in place of the Traits found in Codex – Space Marines. One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 12,
+   "url": "https://longwarindex.app/codex/dark_angels/warlord_traits/",
+   "offered_by": {
+    "allegiance": "codex/dark_angels/allegiances/allegiance_dark_angels"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "space_marines/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "brilliant_strategist",
+     "name": "Brilliant Strategist",
+     "page": 12,
+     "url": "https://longwarindex.app/warlord_traits/brilliant_strategist/",
+     "text": "A model with this warlord trait and his attached unit may select to gain the benefit of one of the following special rules at the start of each Battle Round:\n\n- Sprint (1)\n- Preferred Enemy (Infantry).\n- Tank Hunter.\n- Siege Attacker.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "calabanite_knight",
+     "name": "Calabanite Knight",
+     "page": 12,
+     "url": "https://longwarindex.app/warlord_traits/calabanite_knight/",
+     "text": "A model with this Warlord trait and any attached unit gains the Monster Hunter special rule. While the Warlord is engaged in Combat with an enemy unit which contains a unit with the Character special rule, the first wound inflicted by this Warlord is treated as having the Precision Hits special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/monster_hunter",
+       "name": "Monster Hunter",
+       "url": "https://longwarindex.app/universal_special_rules/monster_hunter/"
+      }
+     ]
+    },
+    {
+     "id": "fury_of_the_lion",
+     "name": "Fury of the Lion",
+     "page": 12,
+     "url": "https://longwarindex.app/warlord_traits/fury_of_the_lion/",
+     "text": "Once per game at the start of the Charge Phase, you may declare that this unit will use the Fury of the Lion. All Dark Angels units in your army may re-roll charge rolls until the end of the phase if they can draw visibility to the warlord with this trait.",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "psychic_powers",
+   "kind": "psychic_powers",
+   "label": "Any Dark Angels unit with the Psyker (x) special rule may purchase Psychic Powers from the following Discipline:",
+   "printed": "Any Dark Angels unit with the Pysker (x) special rule may purchase Psychic Powers from the following Discipline:",
+   "page": 9,
+   "url": "https://longwarindex.app/codex/dark_angels/powers/",
+   "offered_by": {
+    "allegiance": "codex/dark_angels/allegiances/allegiance_dark_angels"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     },
+     {
+      "keyword": "Dark Angels"
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "mind_wipe",
+     "name": "Mind Wipe",
+     "page": 9,
+     "url": "https://longwarindex.app/powers/mind_wipe/",
+     "text": "When this power is cast, target 1 enemy unit within 12\" of the Psyker. The target enemy unit is treated as having a Leadership (LD) characteristic of 2 until the start of your next Shooting Phase.",
+     "points": 35,
+     "pricing": "flat"
+    },
+    {
+     "id": "mind_worm",
+     "name": "Mind Worm",
+     "page": 9,
+     "url": "https://longwarindex.app/powers/mind_worm/",
+     "text": "The Psyker gains the following Psychic Weapon:\n\n- Mind Worm",
+     "points": 10,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "mind_worm"
+      }
+     ]
+    },
+    {
+     "id": "righteous_repugnance",
+     "name": "Righteous Repugnance",
+     "page": 9,
+     "url": "https://longwarindex.app/powers/righteous_repugnance/",
+     "text": "When this power is cast, the Psyker and any attached unit gain the Rage special rule until the start of your next Shooting Phase.",
+     "points": 5,
+     "pricing": "flat"
+    },
+    {
+     "id": "seed_of_fear",
+     "name": "Seed of Fear",
+     "page": 9,
+     "url": "https://longwarindex.app/powers/seed_of_fear/",
+     "text": "When this power is cast, the Psyker gains the Fear (3) special rule until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "trephination",
+     "name": "Trephination",
+     "page": 9,
+     "url": "https://longwarindex.app/powers/trephination/",
+     "text": "When this power is cast, target 1 enemy model within 24\" of the Psyker. The target model must take a Leadership test. On a Pass, they take 1 automatic wound with no saves allowed. If they fail, they take D3+1 Wounds with no saves allowed.",
+     "points": 15,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "armoury_captain_upgrades",
+   "kind": "armoury",
+   "label": "A Dark Angels Space Marine Captain may purchase one of the following instead of the Chapter Master upgrade:",
+   "printed": "A Dark Angels Space Marine Captain may purchase one of the following instead of the Chapter Master upgrade:",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_1st_legion/",
+   "offered_by": {
+    "allegiance": "codex/dark_angels/allegiances/allegiance_dark_angels"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Dark Angels"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_captain"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "deathwing_strike_master",
+     "name": "Deathwing Strike Master",
+     "printed": "Deathwing Strike Master for 35pts.",
+     "points": 35,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/dark_angels/special_rules/deathwing_strike_master",
+       "name": "Deathwing Strike Master",
+       "url": "https://longwarindex.app/special_rules/deathwing_strike_master/"
+      }
+     ],
+     "profile": {
+      "codex/space_marines/roster/space_marine_captain": "captain_in_terminator_armour"
+     },
+     "instead_of": [
+      {
+       "page": "codex/space_marines/roster/space_marine_captain",
+       "path": "chapter_master/chapter_master"
+      }
+     ]
+    },
+    {
+     "id": "ravenwing_talon_master",
+     "name": "Ravenwing Talon Master",
+     "printed": "Ravenwing Talon Master for 40pts.",
+     "points": 40,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/dark_angels/special_rules/ravenwing_talon_master",
+       "name": "Ravenwing Talon Master",
+       "url": "https://longwarindex.app/special_rules/ravenwing_talon_master/"
+      }
+     ],
+     "instead_of": [
+      {
+       "page": "codex/space_marines/roster/space_marine_captain",
+       "path": "chapter_master/chapter_master"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_interrogator_chaplain",
+   "kind": "armoury",
+   "label": "When a Dark Angels Space Marine Lieutenant purchases the Chaplain option and is upgraded to a Chaplain, it may instead be upgraded to an Interrogator Chaplain instead for 45pts.",
+   "printed": "When a Dark Angels Space Marine Lieutenant purchases the Chaplain option and is upgraded to a Chaplain, it may instead be upgraded to an Interrogator Chaplain instead for 45pts.",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_1st_legion/",
+   "offered_by": {
+    "allegiance": "codex/dark_angels/allegiances/allegiance_dark_angels"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Dark Angels"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/lieutenant"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "interrogator_chaplain",
+     "name": "Interrogator Chaplain",
+     "points": 45,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/dark_angels/special_rules/interrogator_chaplain",
+       "name": "Interrogator Chaplain",
+       "url": "https://longwarindex.app/special_rules/interrogator_chaplain/"
+      }
+     ],
+     "instead_of": [
+      {
+       "page": "codex/space_marines/roster/lieutenant",
+       "path": "upgrades/chaplain"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_dreadnought_deathwing",
+   "kind": "armoury",
+   "label": "A Dark Angels Dreadnought may be upgraded to gain the Deathwing special rule for 10pts.",
+   "printed": "A Dark Angels Dreadnought may be upgraded to gain the Deathwing special rule for 10pts.",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_1st_legion/",
+   "offered_by": {
+    "allegiance": "codex/dark_angels/allegiances/allegiance_dark_angels"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Dark Angels"
+     },
+     {
+      "keyword": "Dreadnought"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "deathwing",
+     "name": "Deathwing",
+     "points": 10,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/dark_angels/special_rules/deathwing",
+       "name": "Deathwing",
+       "url": "https://longwarindex.app/special_rules/deathwing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_vehicle_veteran",
+   "kind": "armoury",
+   "label": "Any Dark Angels vehicle type unit with the Transport special rule may be upgraded to gain the Veteran keyword for 10pts.",
+   "printed": "Any Dark Angels vehicle type unit with the Transport special rule may be upgraded to gain the Veteran keyword for 10pts.",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_1st_legion/",
+   "offered_by": {
+    "allegiance": "codex/dark_angels/allegiances/allegiance_dark_angels"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Dark Angels"
+     },
+     {
+      "unit_type": "Vehicle"
+     },
+     {
+      "transport": true
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "veteran",
+     "name": "Veteran",
+     "points": 10,
+     "pricing": "flat",
+     "keywords": [
+      "Veteran"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_watcher_in_the_dark",
+   "kind": "armoury",
+   "label": "Any Dark Angels Captain unit may take a Watcher in the Dark for 10pts.",
+   "printed": "Any Dark Angels Captain unit may take a Watcher in the Dark for 10pts.",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_1st_legion/",
+   "offered_by": {
+    "allegiance": "codex/dark_angels/allegiances/allegiance_dark_angels"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Dark Angels"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_captain"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "watcher_in_the_dark",
+     "name": "Watcher in the Dark",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "watcher_in_the_dark"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_terranic_great_sword",
+   "kind": "armoury",
+   "label": "Any Dark Angels Captain unit may:",
+   "printed": "Any Dark Angels Captain unit may:",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_1st_legion/",
+   "offered_by": {
+    "allegiance": "codex/dark_angels/allegiances/allegiance_dark_angels"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Dark Angels"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_captain"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "terranic_great_sword",
+     "name": "Terranic Great Sword",
+     "printed": "Exchange their equipped Power Sword for a Terranic Great Sword for 10pts",
+     "points": 10,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "terranic_great_sword"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_stasis_grenade",
+   "kind": "armoury",
+   "label": "Any Dark Angels Captain unit may:",
+   "printed": "Any Dark Angels Captain unit may:",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_1st_legion/",
+   "offered_by": {
+    "allegiance": "codex/dark_angels/allegiances/allegiance_dark_angels"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Dark Angels"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_captain"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "stasis_grenade",
+     "name": "Stasis Grenade",
+     "printed": "Exchange their equipped Frag Grenades for a Stasis Grenade for 10pts",
+     "points": 10,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "frag_grenades",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "stasis_grenade"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_stasis_shells",
+   "kind": "armoury",
+   "label": "Any Dark Angels Veteran Squad may exchange their Dragonfire Boltgun for an Astartes Shotgun (Stasis Shells) for 10pts.",
+   "printed": "Any Dark Angels Veteran Squad may exchange their Dragonfire Boltgun for an Astartes Shotgun (Stasis Shells) for 10pts.",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_1st_legion/",
+   "offered_by": {
+    "allegiance": "codex/dark_angels/allegiances/allegiance_dark_angels"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Dark Angels"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/veteran_squad"
+     },
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "dragonfire_boltgun",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "astartes_shotgun_stasis_shells",
+     "name": "Astartes Shotgun (Stasis Shells)",
+     "points": 10,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "dragonfire_boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "astartes_shotgun_stasis_shells"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_plasma_burner",
+   "kind": "armoury",
+   "label": "A Dark Angels Veteran Squad may exchange their equipped Plasma Gun for a Plasma Burner for 20pts.",
+   "printed": "A Dark Angels Veteran Squad may exchange their equipped Plasma Gun for a Plasma Burner for 20pts.",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_1st_legion/",
+   "offered_by": {
+    "allegiance": "codex/dark_angels/allegiances/allegiance_dark_angels"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Dark Angels"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/veteran_squad"
+     },
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "plasma_gun",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "plasma_burner",
+     "name": "Plasma Burner",
+     "points": 20,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "plasma_gun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "plasma_burner"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_calabanite_blade",
+   "kind": "armoury",
+   "label": "Any Dark Angels model with the Character special rule may:",
+   "printed": "Any Dark Angels model with the Character special rule may:",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_1st_legion/",
+   "offered_by": {
+    "allegiance": "codex/dark_angels/allegiances/allegiance_dark_angels"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Dark Angels"
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "calabanite_blade",
+     "name": "Calabanite Blade",
+     "printed": "Exchange their equipped Power Sword for a Calabanite Blade for 5pts.",
+     "points": 5,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "calabanite_blade"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

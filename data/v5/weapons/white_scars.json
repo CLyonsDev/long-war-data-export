@@ -1,0 +1,460 @@
+{
+ "data_version": "41341b2e516fe8f2",
+ "format": 1,
+ "faction": "white_scars",
+ "weapons": [
+  {
+   "id": "chogorian_power_glaive",
+   "name": "Chogorian Power Glaive",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/chogorian_power_glaive/",
+   "profiles": [
+    {
+     "name": "Chogorian Power Glaive (One Handed)",
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      }
+     ]
+    },
+    {
+     "name": "Chogorian Power Glaive (Two-Handed)",
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      },
+      {
+       "rule": "special_rules/two_handed",
+       "name": "Two-Handed",
+       "url": "https://longwarindex.app/special_rules/two_handed/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "equis_bolt_pistol",
+   "name": "Equis Bolt Pistol",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/equis_bolt_pistol/",
+   "profiles": [
+    {
+     "type": "Pistol 2",
+     "range": "12\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "stormwrath_boltgun",
+   "name": "Stormwrath Boltgun",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/stormwrath_boltgun/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stormwrath_storm_bolter",
+   "name": "Stormwrath Storm Bolter",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/stormwrath_storm_bolter/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_stormwrath_boltgun",
+   "name": "Linked Stormwrath Boltgun",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/linked_stormwrath_boltgun/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "24\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "heavy_stormwrath_boltgun",
+   "name": "Heavy Stormwrath Boltgun",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/heavy_stormwrath_boltgun/",
+   "profiles": [
+    {
+     "type": "Rapid Fire 1",
+     "range": "30\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "heavy_stormwrath_bolter",
+   "name": "Heavy Stormwrath Bolter",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/heavy_stormwrath_bolter/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "36\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_heavy_stormwrath_bolter",
+   "name": "Linked Heavy Stormwrath Bolter",
+   "section": "armoury",
+   "subtype": "Weapons",
+   "page": 5,
+   "url": "https://longwarindex.app/weapons/linked_heavy_stormwrath_bolter/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "36\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/deflagrate",
+       "name": "Deflagrate",
+       "url": "https://longwarindex.app/special_rules/deflagrate/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_glaive_of_vengeance",
+   "name": "The Glaive of Vengeance",
+   "printed": {
+    "name": "The Glaive of Vengance"
+   },
+   "section": "other",
+   "subtype": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/the_glaive_of_vengeance/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Axe for this relic for 15pts.",
+   "profiles": [
+    {
+     "name": "The Glaive of Vengeance (One Handed)",
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      },
+      {
+       "rule": "special_rules/parry",
+       "name": "Parry",
+       "url": "https://longwarindex.app/special_rules/parry/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    },
+    {
+     "name": "The Glaive of Vengeance (Two-Handed)",
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+3",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/variable",
+       "name": "Variable",
+       "url": "https://longwarindex.app/special_rules/variable/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      },
+      {
+       "rule": "special_rules/two_handed",
+       "name": "Two-Handed",
+       "url": "https://longwarindex.app/special_rules/two_handed/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scimitar_of_the_great_khan",
+   "name": "Scimitar of the Great Khan",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/scimitar_of_the_great_khan/",
+   "print_defect": "The book prints two costs: +20pts in the heading and 15pts in the text. This data reads this as the cost of the heading.",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 15pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/swift_strike",
+       "name": "Swift Strike",
+       "url": "https://longwarindex.app/special_rules/swift_strike/"
+      },
+      {
+       "rule": "special_rules/parry",
+       "name": "Parry",
+       "url": "https://longwarindex.app/special_rules/parry/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "call_lightning",
+   "name": "Call Lightning",
+   "section": "other",
+   "subtype": "Psychic Powers",
+   "page": 8,
+   "url": "https://longwarindex.app/powers/call_lightning/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "30\"",
+     "strength": "7",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      },
+      {
+       "rule": "special_rules/indirect_fire",
+       "name": "Indirect Fire",
+       "url": "https://longwarindex.app/special_rules/indirect_fire/"
+      },
+      {
+       "rule": "special_rules/skyfire",
+       "name": "Skyfire",
+       "url": "https://longwarindex.app/special_rules/skyfire/"
+      },
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "moonfang",
+   "name": "Moonfang",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/moonfang/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sunstorm",
+   "name": "Sunstorm",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 18,
+   "url": "https://longwarindex.app/wargear/sunstorm/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      },
+      {
+       "rule": "special_rules/force",
+       "name": "Force",
+       "url": "https://longwarindex.app/special_rules/force/"
+      },
+      {
+       "rule": "special_rules/melta",
+       "name": "Melta",
+       "url": "https://longwarindex.app/special_rules/melta/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spirits_of_chogoris",
+   "name": "Spirits of Chogoris",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 18,
+   "url": "https://longwarindex.app/wargear/spirits_of_chogoris/",
+   "profiles": [
+    {
+     "type": "Assault 8",
+     "range": "30\"",
+     "strength": "2",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

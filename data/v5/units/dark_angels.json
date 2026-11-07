@@ -1,0 +1,4748 @@
+{
+ "data_version": "32006a1404794e5d",
+ "format": 1,
+ "faction": "dark_angels",
+ "units": [
+  {
+   "id": "codex/dark_angels/roster/asmodai",
+   "name": "Asmodai",
+   "page": 22,
+   "url": "https://longwarindex.app/roster/asmodai/",
+   "source": "Codex Supplement: Dark Angels",
+   "role": "HQ",
+   "points": 100,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "asmodai",
+     "name": "Asmodai",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 3,
+      "A": 3,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "rosarius",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_maul",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "blades_of_reason"
+      },
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "asmodai",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/dark_angels/allegiances/allegiance_dark_angels",
+     "name": "Allegiance: Dark Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/sub_commander",
+     "name": "Sub Commander",
+     "url": "https://longwarindex.app/special_rules/sub_commander/"
+    },
+    {
+     "rule": "universal_special_rules/priest",
+     "name": "Priest",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/priest/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "universal_special_rules/fear",
+     "name": "Fear",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/fear/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/inner_circle",
+     "name": "Inner Circle",
+     "url": "https://longwarindex.app/special_rules/inner_circle/"
+    },
+    {
+     "rule": "universal_special_rules/zealot",
+     "name": "Zealot",
+     "url": "https://longwarindex.app/universal_special_rules/zealot/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/a_dark_angel",
+     "name": "A Dark Angel",
+     "url": "https://longwarindex.app/special_rules/a_dark_angel/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/dark_angels/special_rules/master_of_repentance",
+     "name": "Master of Repentance",
+     "url": "https://longwarindex.app/special_rules/master_of_repentance/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Dark Angels",
+    "Lieutenant",
+    "Priest",
+    "Asmodai",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/dark_angels/roster/azrael_master_of_the_dark_angels",
+   "name": "Azrael, Master of the Dark Angels",
+   "page": 21,
+   "url": "https://longwarindex.app/roster/azrael_master_of_the_dark_angels/",
+   "source": "Codex Supplement: Dark Angels",
+   "role": "HQ",
+   "points": 150,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "azrael_master_of_the_dark_angels",
+     "name": "Azrael, Master of the Dark Angels",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "lions_wrath"
+      },
+      {
+       "kind": "weapon",
+       "id": "sword_of_secrets"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_lions_helm"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "azrael_master_of_the_dark_angels",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/dark_angels/allegiances/allegiance_dark_angels",
+     "name": "Allegiance: Dark Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/master_of_command",
+     "name": "Master of Command",
+     "url": "https://longwarindex.app/special_rules/master_of_command_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/battle_hardened",
+     "name": "Battle-Hardened",
+     "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/inner_circle",
+     "name": "Inner Circle",
+     "url": "https://longwarindex.app/special_rules/inner_circle/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/deathwing",
+     "name": "Deathwing",
+     "url": "https://longwarindex.app/special_rules/deathwing/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/ravenwing",
+     "name": "Ravenwing",
+     "url": "https://longwarindex.app/special_rules/ravenwing/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/dark_angels/special_rules/master_of_the_1st",
+     "name": "Master of the 1st",
+     "url": "https://longwarindex.app/special_rules/master_of_the_1st/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Dark Angels",
+    "Captain",
+    "Azrael, Master of the Dark Angels",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/dark_angels/roster/belial_master_of_the_deathwing",
+   "name": "Belial, Master of the Deathwing",
+   "page": 24,
+   "url": "https://longwarindex.app/roster/belial_master_of_the_deathwing/",
+   "source": "Codex Supplement: Dark Angels",
+   "role": "HQ",
+   "points": 130,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "belial_master_of_the_deathwing",
+     "name": "Belial, Master of the Deathwing",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 9,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "indomitus_terminator_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "storm_bolter",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "sword_of_silence"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "belial_master_of_the_deathwing",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/dark_angels/allegiances/allegiance_dark_angels",
+     "name": "Allegiance: Dark Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/inner_circle",
+     "name": "Inner Circle",
+     "url": "https://longwarindex.app/special_rules/inner_circle/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/deathwing",
+     "name": "Deathwing",
+     "url": "https://longwarindex.app/special_rules/deathwing/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/master_of_the_deathwing",
+     "name": "Master of the Deathwing",
+     "url": "https://longwarindex.app/special_rules/master_of_the_deathwing/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/dark_angels/warlord_traits/fury_of_the_lion",
+     "name": "Fury of the Lion",
+     "printed": "Lions Fury",
+     "url": "https://longwarindex.app/warlord_traits/fury_of_the_lion/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Dark Angels",
+    "Captain",
+    "Belial, Master of the Deathwing",
+    "Veteran",
+    "Unique",
+    "M42+"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/dark_angels/roster/dark_talon",
+   "name": "Dark Talon",
+   "page": 32,
+   "url": "https://longwarindex.app/roster/dark_talon/",
+   "source": "Codex Supplement: Dark Angels",
+   "role": "Flyer",
+   "points": 125,
+   "unit_type": "Aircraft",
+   "profiles": [
+    {
+     "id": "dark_talon",
+     "name": "Dark Talon",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "20-30\"",
+      "WS": 1,
+      "BS": 4,
+      "S": 6,
+      "Front": 11,
+      "Side": 11,
+      "Rear": 11,
+      "A": 0,
+      "I": 1,
+      "Ld": 8,
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "hurricane_bolter",
+       "faction": "space_marines",
+       "count": 1,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "rift_cannon",
+       "count": 1,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "stasis_bomb",
+       "mount": "secondary"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "dark_talon",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/dark_angels/allegiances/allegiance_dark_angels",
+     "name": "Allegiance: Dark Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/hover",
+     "name": "Hover",
+     "url": "https://longwarindex.app/universal_special_rules/hover/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/ravenwing",
+     "name": "Ravenwing",
+     "url": "https://longwarindex.app/special_rules/ravenwing/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Dark Angels",
+    "Dark Talon",
+    "M36"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/dark_angels/roster/deathwing_command_squad",
+   "name": "Deathwing Command Squad",
+   "page": 15,
+   "url": "https://longwarindex.app/roster/deathwing_command_squad/",
+   "source": "Codex Supplement: Dark Angels",
+   "role": "HQ",
+   "points": null,
+   "points_text": "varies",
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "champion",
+     "name": "Champion",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 3,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "indomitus_terminator_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "halberd_of_caliban"
+      }
+     ]
+    },
+    {
+     "id": "apothecary",
+     "name": "Apothecary",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "narthecium",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "indomitus_terminator_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "storm_bolter",
+       "faction": "space_marines"
+      }
+     ]
+    },
+    {
+     "id": "ancient",
+     "name": "Ancient",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "indomitus_terminator_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "chapter_banner",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "storm_bolter",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_fist",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "ancient",
+     "min": 0,
+     "max": 1
+    },
+    {
+     "profile": "champion",
+     "min": 0,
+     "max": 1
+    },
+    {
+     "profile": "apothecary",
+     "min": 0,
+     "max": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/dark_angels/allegiances/allegiance_dark_angels",
+     "name": "Allegiance: Dark Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/company_specialists",
+     "name": "Company Specialists",
+     "url": "https://longwarindex.app/special_rules/company_specialists/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/honour_duel",
+     "name": "Honour Duel",
+     "url": "https://longwarindex.app/special_rules/honour_duel_space_marines/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/inner_circle",
+     "name": "Inner Circle",
+     "url": "https://longwarindex.app/special_rules/inner_circle/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/deathwing",
+     "name": "Deathwing",
+     "url": "https://longwarindex.app/special_rules/deathwing/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limited: 1 per Detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Dark Angels",
+    "Deathwing Command Squad",
+    "Veterans",
+    "M31"
+   ],
+   "size": {
+    "min": 1,
+    "max": 3
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "members",
+     "label": "This unit must include at least 1 of the following:",
+     "printed": "This unit must include at least 1 of the following:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "min": 1
+     },
+     "choices": [
+      {
+       "id": "ancient",
+       "name": "Ancient",
+       "points": 45,
+       "pricing": "each",
+       "add_model": {
+        "profile": "ancient",
+        "count": 1
+       }
+      },
+      {
+       "id": "champion",
+       "name": "Champion",
+       "points": 55,
+       "pricing": "each",
+       "add_model": {
+        "profile": "champion",
+        "count": 1
+       }
+      },
+      {
+       "id": "apothecary",
+       "name": "Apothecary model",
+       "points": 47,
+       "pricing": "each",
+       "add_model": {
+        "profile": "apothecary",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "ancient_storm_bolter",
+     "label": "The Ancient may exchange their Storm Bolter for one of the following:",
+     "printed": "The Ancient may exchange their Storm Bolter for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "ancient"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "storm_shield",
+       "name": "Storm Shield",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "storm_shields",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lightning_claw",
+       "name": "Lightning Claw",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_flamer",
+       "name": "Combi-Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_plasma",
+       "name": "Combi Plasma",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_plasma",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_melta",
+       "name": "Combi-Melta",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_melta",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ancient_power_fist",
+     "label": "The Ancient may exchange their Power Fist for one of the following:",
+     "printed": "The Ancient may exchange their Power Fist for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "ancient"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "thunder_hammer",
+       "name": "Thunder Hammer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "thunder_hammer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lightning_claw",
+       "name": "Lightning Claw",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "chainfist",
+       "name": "Chainfist",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chainfist",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "calabanite_blade",
+       "name": "Calabanite Blade",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "calabanite_blade"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ancient_lightning_claws",
+     "label": "The Ancient may exchange its Storm Bolter and Power Fist for 2 Lightning Claws (+0pts)",
+     "printed": "The Ancient may exchange its Storm Bolter and Power Fist for 2 Lightning Claws for 0pts.",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "ancient"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "lightning_claws",
+       "name": "2 Lightning Claws",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines",
+           "count": 2
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/dark_angels/roster/deathwing_companions",
+   "name": "Deathwing Companions",
+   "page": 29,
+   "url": "https://longwarindex.app/roster/deathwing_companions/",
+   "source": "Codex Supplement: Dark Angels",
+   "role": "Elites",
+   "points": 160,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "deathwing_companion",
+     "name": "Deathwing Companion",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artificer_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "terranic_great_sword"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "deathwing_companion",
+     "count": 3
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/dark_angels/allegiances/allegiance_dark_angels",
+     "name": "Allegiance: Dark Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/combat_squads",
+     "name": "Combat Squads",
+     "url": "https://longwarindex.app/special_rules/combat_squads/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/inner_circle",
+     "name": "Inner Circle",
+     "url": "https://longwarindex.app/special_rules/inner_circle/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/bodyguard_circle",
+     "name": "Bodyguard Circle",
+     "url": "https://longwarindex.app/special_rules/bodyguard_circle/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/deathwing",
+     "name": "Deathwing",
+     "url": "https://longwarindex.app/special_rules/deathwing/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Dark Angels",
+    "Deathwing Companions",
+    "Veterans",
+    "M31"
+   ],
+   "size": {
+    "min": 3,
+    "max": 5
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "The unit may include an additional 2 Deathwing Companion models (+44pts each)",
+     "printed": "The unit may include an additional 2 Deathwing Companion models for 44pts each.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "deathwing_companion",
+       "name": "Deathwing Companion",
+       "points": 44,
+       "pricing": "each",
+       "max": 2,
+       "add_model": {
+        "profile": "deathwing_companion",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "chapter_banner",
+     "label": "One Deathwing Companion model in the unit may take a Chapter Banner (+10pts)",
+     "printed": "One Deathwing Companion model in the unit may take a Chapter Banner for 10pts.",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "deathwing_companion"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "chapter_banner",
+       "name": "Chapter Banner",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "chapter_banner",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/dark_angels/roster/deathwing_knights",
+   "name": "Deathwing Knights",
+   "page": 28,
+   "url": "https://longwarindex.app/roster/deathwing_knights/",
+   "source": "Codex Supplement: Dark Angels",
+   "role": "Elites",
+   "points": 220,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "deathwing_knights",
+     "name": "Deathwing Knights",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "indomitus_terminator_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "storm_shields",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "calabanite_blade"
+      }
+     ]
+    },
+    {
+     "id": "deathwing_knight_sergeant",
+     "name": "Deathwing Knight Sergeant",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "indomitus_terminator_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "storm_shields",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "calabanite_blade"
+      },
+      {
+       "kind": "wargear",
+       "id": "watcher_in_the_dark"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "deathwing_knights",
+     "count": 4
+    },
+    {
+     "profile": "deathwing_knight_sergeant",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/dark_angels/allegiances/allegiance_dark_angels",
+     "name": "Allegiance: Dark Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/combat_squads",
+     "name": "Combat Squads",
+     "url": "https://longwarindex.app/special_rules/combat_squads/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/inner_circle",
+     "name": "Inner Circle",
+     "url": "https://longwarindex.app/special_rules/inner_circle/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/deathwing",
+     "name": "Deathwing",
+     "url": "https://longwarindex.app/special_rules/deathwing/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limited: 1 Per Detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Dark Angels",
+    "Deathwing Knights",
+    "Veterans",
+    "M31"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "knight_calabanite_blade",
+     "label": "Any Deathwing Knight model in the unit may exchange their Clabanite Blade for a Mace of Absolution (+10pts)",
+     "printed": "Any Deathwing Knight model in the unit may exchange their Clabanite Blade for a Mace of Absolution for 10pts.",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "deathwing_knights"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "mace_of_absolution",
+       "name": "Mace of Absolution",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "calabanite_blade",
+           "printed": "Clabanite Blade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "mace_of_absolution"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sergeant_calabanite_blade",
+     "label": "Any Deathwing Knight Sergeant may exchange their Calabanite Blade for one of the following:",
+     "printed": "Any Deathwing Knight Sergeant may exchange their Calabanite Blade for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "deathwing_knight_sergeant"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "mace_of_absolution",
+       "name": "Mace of Absolution",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "calabanite_blade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "mace_of_absolution"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "flail_of_the_unforgiven",
+       "name": "Flail of the Unforgiven",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "calabanite_blade"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "flail_of_the_unforgiven"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/dark_angels/roster/deathwing_terminators",
+   "name": "Deathwing Terminators",
+   "page": 27,
+   "url": "https://longwarindex.app/roster/deathwing_terminators/",
+   "source": "Codex Supplement: Dark Angels",
+   "role": "Elites",
+   "points": 215,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "deathwing_terminator",
+     "name": "Deathwing Terminator",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "indomitus_terminator_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "storm_bolter",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_fist",
+       "faction": "space_marines"
+      }
+     ]
+    },
+    {
+     "id": "deathwing_terminator_sergeant",
+     "name": "Deathwing Terminator Sergeant",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "indomitus_terminator_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "storm_bolter",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_sword",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "deathwing_terminator",
+     "count": 4
+    },
+    {
+     "profile": "deathwing_terminator_sergeant",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/dark_angels/allegiances/allegiance_dark_angels",
+     "name": "Allegiance: Dark Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/combat_squads",
+     "name": "Combat Squads",
+     "url": "https://longwarindex.app/special_rules/combat_squads/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/inner_circle",
+     "name": "Inner Circle",
+     "url": "https://longwarindex.app/special_rules/inner_circle/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/deathwing",
+     "name": "Deathwing",
+     "url": "https://longwarindex.app/special_rules/deathwing/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Dark Angels",
+    "Deathwing Terminators",
+    "Veterans",
+    "M31"
+   ],
+   "size": {
+    "min": 5,
+    "max": 10
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "The unit may include an additional 5 Deathwing Terminator models (+43pts each)",
+     "printed": "The unit may include an additional 5 Deathwing Terminator models for 43pts each.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "deathwing_terminator",
+       "name": "Deathwing Terminator",
+       "points": 43,
+       "pricing": "each",
+       "max": 5,
+       "add_model": {
+        "profile": "deathwing_terminator",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "terminator_storm_bolter",
+     "label": "Any Deathwing Terminator model in the unit may exchange their Storm Bolter for one of the following:",
+     "printed": "Any Deathwing Terminator model in the unit may exchange their Storm Bolter for one of the following:",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "deathwing_terminator"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "storm_shield",
+       "name": "Storm Shield",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "storm_shields",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lightning_claw",
+       "name": "Lightning Claw",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_flamer",
+       "name": "Combi-Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_plasma",
+       "name": "Combi Plasma",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_plasma",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_melta",
+       "name": "Combi-Melta",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_melta",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "terminator_power_fist",
+     "label": "Any Deathwing Terminator model in the unit may exchange their Power Fist for one of the following:",
+     "printed": "Any Deathwing Terminator model in the unit may exchange their Power Fist for one of the following:",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "deathwing_terminator"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "thunder_hammer",
+       "name": "Thunder Hammer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "thunder_hammer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lightning_claw",
+       "name": "Lightning Claw",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "chainfist",
+       "name": "Chainfist",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chainfist",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "heavy_weapon",
+     "label": "One in every 4 Deathwing Terminator models may exchange their Storm Bolter for one of the following:",
+     "printed": "One in every 4 Deathwing Terminator models may exchange their Storm Bolter for one of the following:",
+     "takers": {
+      "scope": "models",
+      "profiles": [
+       "deathwing_terminator"
+      ],
+      "ratio": {
+       "take": 1,
+       "per": 4,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "assault_cannon",
+       "name": "Assault Cannon",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "assault_cannon",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "plasma_cannon",
+       "name": "Plasma Cannon",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_cannon",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "heavy_flamer",
+       "name": "Heavy Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "cyclone_missile_launcher",
+     "label": "One in every 4 Deathwing Terminator models may take a Cyclone Missile Launcher (+20pts)",
+     "printed": "One in every 4 Deathwing Terminator models may take a Cyclone Missile Launcher for 20pts.",
+     "takers": {
+      "scope": "models",
+      "profiles": [
+       "deathwing_terminator"
+      ],
+      "ratio": {
+       "take": 1,
+       "per": 4,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "cyclone_missile_launcher",
+       "name": "Cyclone Missile Launcher",
+       "points": 20,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "cyclone_missile_launcher",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sergeant_storm_bolter",
+     "label": "The Deathwing Terminator Sergeant may exchange their Storm Bolter for one of the following:",
+     "printed": "The Deathwing Terminator Sergeant may exchange their Storm Bolter for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "deathwing_terminator_sergeant"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "combi_flamer",
+       "name": "Combi-Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_plasma",
+       "name": "Combi Plasma",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_plasma",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_melta",
+       "name": "Combi-Melta",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_melta",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "storm_shield",
+       "name": "Storm Shield",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "storm_shields",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lightning_claw",
+       "name": "Lightning Claw",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sergeant_power_sword",
+     "label": "The Deathwing terminator Sergeant may exchange their Power Sword for one of the following:",
+     "printed": "The Deathwing terminator Sergeant may exchange their Power Sword for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "deathwing_terminator_sergeant"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "lightning_claw",
+       "name": "Lightning Claw",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lightning_claws",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "thunder_hammer",
+       "name": "Thunder Hammer",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "thunder_hammer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "chainfist",
+       "name": "Chainfist",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chainfist",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/dark_angels/roster/ezekiel",
+   "name": "Ezekiel",
+   "page": 23,
+   "url": "https://longwarindex.app/roster/ezekiel/",
+   "source": "Codex Supplement: Dark Angels",
+   "role": "HQ",
+   "points": 115,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "ezekiel",
+     "name": "Ezekiel",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 3,
+      "A": 3,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "deliverer"
+      },
+      {
+       "kind": "weapon",
+       "id": "traitors_bane"
+      },
+      {
+       "kind": "wargear",
+       "id": "psychic_hood",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "book_of_salvation"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "ezekiel",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/dark_angels/allegiances/allegiance_dark_angels",
+     "name": "Allegiance: Dark Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/sub_commander",
+     "name": "Sub Commander",
+     "url": "https://longwarindex.app/special_rules/sub_commander/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "universal_special_rules/deny_the_witch",
+     "name": "Deny the Witch",
+     "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/inner_circle",
+     "name": "Inner Circle",
+     "url": "https://longwarindex.app/special_rules/inner_circle/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/the_keeper_of_the_keys",
+     "name": "The Keeper of the Keys",
+     "printed": "Keeper of the Keys",
+     "url": "https://longwarindex.app/special_rules/the_keeper_of_the_keys/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/dark_angels/special_rules/the_mind_worm",
+     "name": "The Mind Worm",
+     "url": "https://longwarindex.app/special_rules/the_mind_worm/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Dark Angels",
+    "Lieutenant",
+    "Psyker",
+    "Ezekiel",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/dark_angels/roster/land_raider_ares",
+   "name": "Land Raider Ares",
+   "page": 35,
+   "url": "https://longwarindex.app/roster/land_raider_ares/",
+   "source": "Codex Supplement: Dark Angels",
+   "role": "Heavy Support",
+   "points": 190,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "land_raider_ares",
+     "name": "Land Raider Ares",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 8,
+      "Front": 14,
+      "Side": 14,
+      "Rear": 14,
+      "A": 4,
+      "I": 4,
+      "Ld": 8,
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "marine_crew_weapons",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "linked_assault_cannon",
+       "faction": "space_marines",
+       "count": 1,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "linked_heavy_flamer",
+       "faction": "space_marines",
+       "count": 2,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "demolisher_cannon",
+       "faction": "space_marines",
+       "mount": "primary"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "storm_bolter",
+       "faction": "space_marines",
+       "mount": "secondary"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "dozer_blades",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "land_raider_ares",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/dark_angels/allegiances/allegiance_dark_angels",
+     "name": "Allegiance: Dark Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/machine_spirit_land_raider",
+     "name": "Machine Spirit (Land Raider)",
+     "printed": "Machine Spirit",
+     "url": "https://longwarindex.app/special_rules/machine_spirit_land_raider_space_marines/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limit: 1 per detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Fire Support",
+    "Transport",
+    "[Chapter]",
+    "Land Raider Ares",
+    "Tank",
+    "M37+"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "storm_bolter",
+     "label": "The Land Raider may replace its Storm Bolter (S) with one of the following:",
+     "printed": "The Land Raider may replace its Storm Bolter (S) with one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "multi_melta",
+       "name": "Multi-Melta (S)",
+       "points": 25,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "multi_melta",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_flamer",
+       "name": "A Combi-Flamer (S)",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_flamer",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_plasma",
+       "name": "A Combi-Plasma (S)",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_plasma",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_melta",
+       "name": "A Combi Melta (S)",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_melta",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_grav",
+       "name": "A Combi Grav (S)",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_grav",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/dark_angels/roster/land_raider_solemnus_aggressor",
+   "name": "Land Raider Solemnus Aggressor",
+   "page": 36,
+   "url": "https://longwarindex.app/roster/land_raider_solemnus_aggressor/",
+   "source": "Codex Supplement: Dark Angels",
+   "role": "Heavy Support",
+   "points": 165,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "land_raider_solemnus_aggressor",
+     "name": "Land Raider Solemnus Aggressor",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 8,
+      "Front": 14,
+      "Side": 14,
+      "Rear": 14,
+      "A": 4,
+      "I": 4,
+      "Ld": 8,
+      "Transport Capacity": 12
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "marine_crew_weapons",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "linked_assault_cannon",
+       "faction": "space_marines",
+       "count": 1,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "hurricane_bolter",
+       "faction": "space_marines",
+       "count": 2,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_bolter",
+       "faction": "space_marines",
+       "count": 2,
+       "mount": "primary"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "assault_launchers",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "storm_bolter",
+       "faction": "space_marines",
+       "mount": "secondary"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "land_raider_solemnus_aggressor",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/machine_spirit_land_raider",
+     "name": "Machine Spirit (Land Raider)",
+     "printed": "Machine Spirit",
+     "url": "https://longwarindex.app/special_rules/machine_spirit_land_raider_space_marines/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/transport_land_raider_solemnus_aggressor",
+     "name": "Transport (Land Raider Solemnus Aggressor)",
+     "printed": "Transport",
+     "url": "https://longwarindex.app/special_rules/transport_land_raider_solemnus_aggressor/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limit: 1 per detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Fire Support",
+    "Transport",
+    "[Chapter]",
+    "Land Raider Solemnus Aggressor",
+    "Tank",
+    "M41"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "storm_bolter",
+     "label": "The Land Raider may replace its Storm Bolter (S) with one of the following:",
+     "printed": "The Land Raider may replace its Storm Bolter (S) with one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "multi_melta",
+       "name": "Multi-Melta (S)",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "multi_melta",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_flamer",
+       "name": "A Combi-Flamer (S)",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_flamer",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_plasma",
+       "name": "A Combi-Plasma (S)",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_plasma",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_melta",
+       "name": "A Combi Melta (S)",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_melta",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_grav",
+       "name": "A Combi Grav (S)",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_grav",
+           "faction": "space_marines",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/dark_angels/roster/land_speeder_vengeance",
+   "name": "Land Speeder Vengeance",
+   "page": 33,
+   "url": "https://longwarindex.app/roster/land_speeder_vengeance/",
+   "source": "Codex Supplement: Dark Angels",
+   "role": "Fast Attack",
+   "points": 95,
+   "unit_type": "Jetbike",
+   "profiles": [
+    {
+     "id": "land_speeder_vengeance",
+     "name": "Land Speeder Vengeance",
+     "template": "unit",
+     "characteristics": {
+      "M": "14\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 6,
+      "W": 3,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "heavy_bolter",
+       "faction": "space_marines",
+       "count": 1
+      },
+      {
+       "kind": "weapon",
+       "id": "plasma_storm_battery",
+       "count": 1
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "chainsword",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "land_speeder_vengeance",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/dark_angels/allegiances/allegiance_dark_angels",
+     "name": "Allegiance: Dark Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/ravenwing",
+     "name": "Ravenwing",
+     "url": "https://longwarindex.app/special_rules/ravenwing/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Close Support",
+    "Dark Angels",
+    "Land Speeder Vengeance",
+    "M31"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "heavy_bolter",
+     "label": "The unit may exchange its Heavy Bolter for an Assault Cannon (+5pts)",
+     "printed": "The Unit may exchange its Heavy Bolter for an Assault Cannon for 5pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "assault_cannon",
+       "name": "Assault Cannon",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "assault_cannon",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/dark_angels/roster/lion_el_johnson_primarch_of_the_dark_angels",
+   "name": "Lion El Johnson, Primarch of the Dark Angels",
+   "page": 26,
+   "url": "https://longwarindex.app/roster/lion_el_johnson_primarch_of_the_dark_angels/",
+   "source": "Codex Supplement: Dark Angels",
+   "role": "HQ",
+   "points": 285,
+   "unit_type": "Primarch",
+   "profiles": [
+    {
+     "id": "lion_el_johnson_primarch_of_the_dark_angels",
+     "name": "Lion El Johnson, Primarch of the Dark Angels",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 8,
+      "BS": 6,
+      "S": 6,
+      "T": 6,
+      "W": 5,
+      "A": 5,
+      "I": 6,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "the_armour_of_caliban"
+      },
+      {
+       "kind": "wargear",
+       "id": "shield_of_the_emperor"
+      },
+      {
+       "kind": "weapon",
+       "id": "fealty"
+      },
+      {
+       "kind": "weapon",
+       "id": "arma_luminous"
+      },
+      {
+       "kind": "weapon",
+       "id": "stasis_grenade"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "lion_el_johnson_primarch_of_the_dark_angels",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/dark_angels/allegiances/allegiance_dark_angels",
+     "name": "Allegiance: Dark Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/master_of_command",
+     "name": "Master of Command",
+     "url": "https://longwarindex.app/special_rules/master_of_command_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "4",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/battle_hardened",
+     "name": "Battle-Hardened",
+     "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/lion_of_caliban",
+     "name": "Lion of Caliban",
+     "url": "https://longwarindex.app/special_rules/lion_of_caliban/"
+    },
+    {
+     "rule": "universal_special_rules/monster_hunter",
+     "name": "Monster Hunter",
+     "url": "https://longwarindex.app/universal_special_rules/monster_hunter/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/dark_angels/special_rules/primarch_of_the_1st",
+     "name": "Primarch of the 1st",
+     "url": "https://longwarindex.app/special_rules/primarch_of_the_1st/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Dark Angels",
+    "Captain",
+    "Lion El Johnson, Primarch of the Dark Angels",
+    "Primarch",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/dark_angels/roster/nephilim_jet_fighter",
+   "name": "Nephilim Jet Fighter",
+   "page": 31,
+   "url": "https://longwarindex.app/roster/nephilim_jet_fighter/",
+   "source": "Codex Supplement: Dark Angels",
+   "role": "Flyer",
+   "points": 145,
+   "unit_type": "Aircraft",
+   "profiles": [
+    {
+     "id": "nephilim_jet_fighter",
+     "name": "Nephilim Jet Fighter",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "20-30\"",
+      "WS": 1,
+      "BS": 4,
+      "S": 6,
+      "Front": 11,
+      "Side": 11,
+      "Rear": 11,
+      "A": 0,
+      "I": 1,
+      "Ld": 8,
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "avenger_mega_bolter",
+       "count": 1,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "linked_heavy_bolter",
+       "faction": "space_marines",
+       "count": 1,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "black_sword_missile_launchers",
+       "count": 2,
+       "mount": "primary"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "nephilim_jet_fighter",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/dark_angels/allegiances/allegiance_dark_angels",
+     "name": "Allegiance: Dark Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/ravenwing",
+     "name": "Ravenwing",
+     "url": "https://longwarindex.app/special_rules/ravenwing/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Dark Angels",
+    "Nephilim Jet Fighter",
+    "M40"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "avenger_mega_bolter",
+     "label": "The Nephilim Jet Fighter can exchange its Avenger Mega Bolter (P) for a Linked Lascannon (P) (+10pts)",
+     "printed": "The Nephilim Jet Fighter can exchange its Avenger Mega Bolter (P) for a Linked Lascannon (P) for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "linked_lascannon",
+       "name": "Linked Lascannon (P)",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "avenger_mega_bolter",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "linked_lascannon",
+           "faction": "space_marines",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/dark_angels/roster/ravenwing_black_knights",
+   "name": "Ravenwing Black Knights",
+   "page": 30,
+   "url": "https://longwarindex.app/roster/ravenwing_black_knights/",
+   "source": "Codex Supplement: Dark Angels",
+   "role": "Elites",
+   "points": 130,
+   "unit_type": "Bike",
+   "profiles": [
+    {
+     "id": "ravenwing_knights",
+     "name": "Ravenwing Knights",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 5,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "raven_knight_bike",
+       "note": "Linked Plasma Gun"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    },
+    {
+     "id": "ravenwing_knight_sergeant",
+     "name": "Ravenwing Knight Sergeant",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 5,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "raven_knight_bike",
+       "note": "Linked Plasma Gun"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "ravenwing_knights",
+     "count": 2
+    },
+    {
+     "profile": "ravenwing_knight_sergeant",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/dark_angels/allegiances/allegiance_dark_angels",
+     "name": "Allegiance: Dark Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/combat_squads",
+     "name": "Combat Squads",
+     "url": "https://longwarindex.app/special_rules/combat_squads/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/inner_circle",
+     "name": "Inner Circle",
+     "url": "https://longwarindex.app/special_rules/inner_circle/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/ravenwing",
+     "name": "Ravenwing",
+     "url": "https://longwarindex.app/special_rules/ravenwing/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "2 Per Detachment",
+     "printed": "Limited: 2 Per Detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Dark Angels",
+    "Ravenwing Knights",
+    "M31"
+   ],
+   "size": {
+    "min": 3,
+    "max": 9
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include 6 additional Ravenwing Knight models in this unit (+43pts each)",
+     "printed": "You may include 6 additional Ravenwing Knight models in this unit for 43pts each.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "ravenwing_knight",
+       "name": "Ravenwing Knight",
+       "points": 43,
+       "pricing": "each",
+       "max": 6,
+       "add_model": {
+        "profile": "ravenwing_knights",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "corvus_hammer",
+     "label": "Any Ravenwing Knight model may exchange its close combat weapon for a Corvus Hammer (+5pts)",
+     "printed": "Any Ravenwing Knight model may exchange its close combat weapon for a Corvus Hammer for 5pts.",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "ravenwing_knights"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "corvus_hammer",
+       "name": "Corvus Hammer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "corvus_hammer"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "stasis_grenade_launcher",
+     "label": "1 in every 3 models in this unit may exchange its Plasma Gun as part of its Raven Knight Bike for a Stasis Grenade Launcher (+10pts)",
+     "printed": "1 in every 3 models in this unit may exchange its Plasma Gun as part of its Raven Knight Bike for a Stasis Grenade Launcher for 10pts.",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 3,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "stasis_grenade_launcher",
+       "name": "Stasis Grenade Launcher",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "linked_plasma_gun",
+           "printed": "Plasma Gun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "stasis_grenade_launcher"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "astartes_shotgun_stasis_shells",
+     "label": "1 in every 3 models in the unit may take a Astartes Shotgun (Stasis Shells) (+10pts)",
+     "printed": "1 in every 3 models in the unit may take a Astartes Shotgun (Stasis Shells) for 10pts.",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 3,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "astartes_shotgun_stasis_shells",
+       "name": "Astartes Shotgun (Stasis Shells)",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "astartes_shotgun_stasis_shells"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/dark_angels/roster/ravenwing_command_squad",
+   "name": "Ravenwing Command Squad",
+   "page": 17,
+   "url": "https://longwarindex.app/roster/ravenwing_command_squad/",
+   "source": "Codex Supplement: Dark Angels",
+   "role": "HQ",
+   "points": null,
+   "points_text": "varies",
+   "unit_type": "Bike",
+   "profiles": [
+    {
+     "id": "champion",
+     "name": "Champion",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 6,
+      "BS": 4,
+      "S": 4,
+      "T": 5,
+      "W": 2,
+      "A": 3,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "raven_knight_bike",
+       "note": "Plasma Gun"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "relic_blade",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    },
+    {
+     "id": "apothecary",
+     "name": "Apothecary",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 5,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "narthecium",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "raven_knight_bike",
+       "note": "Plasma Gun"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    },
+    {
+     "id": "ancient",
+     "name": "Ancient",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 5,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "raven_knight_bike",
+       "note": "Plasma Gun"
+      },
+      {
+       "kind": "wargear",
+       "id": "chapter_banner",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "ancient",
+     "min": 0,
+     "max": 1
+    },
+    {
+     "profile": "champion",
+     "min": 0,
+     "max": 1
+    },
+    {
+     "profile": "apothecary",
+     "min": 0,
+     "max": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/dark_angels/allegiances/allegiance_dark_angels",
+     "name": "Allegiance: Dark Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/company_specialists",
+     "name": "Company Specialists",
+     "url": "https://longwarindex.app/special_rules/company_specialists/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/honour_duel",
+     "name": "Honour Duel",
+     "url": "https://longwarindex.app/special_rules/honour_duel_space_marines/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/inner_circle",
+     "name": "Inner Circle",
+     "url": "https://longwarindex.app/special_rules/inner_circle/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limited: 1 per Detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Dark Angels",
+    "Ravenwing Command Squad",
+    "Veterans",
+    "M31"
+   ],
+   "size": {
+    "min": 1,
+    "max": 3
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "members",
+     "label": "This unit must include at least 1 of the following:",
+     "printed": "This unit must include at least 1 of the following:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "min": 1
+     },
+     "choices": [
+      {
+       "id": "ancient",
+       "name": "Ancient",
+       "points": 40,
+       "pricing": "each",
+       "add_model": {
+        "profile": "ancient",
+        "count": 1
+       }
+      },
+      {
+       "id": "champion",
+       "name": "Champion",
+       "points": 50,
+       "pricing": "each",
+       "add_model": {
+        "profile": "champion",
+        "count": 1
+       }
+      },
+      {
+       "id": "apothecary",
+       "name": "Apothecary model",
+       "points": 42,
+       "pricing": "each",
+       "add_model": {
+        "profile": "apothecary",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "ancient_bolt_pistol",
+     "label": "The Ancient may exchange their Bolt Pistol for one of the following:",
+     "printed": "The Ancient may exchange their Bolt Pistol for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "ancient"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "hand_flamer",
+       "name": "Hand Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "hand_flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grav_pistol",
+       "name": "Grav Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "grav_pistol",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "shotgun",
+       "name": "Shotgun",
+       "points": 2,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "astartes_shotgun",
+           "faction": "space_marines",
+           "printed": "Shotgun"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ancient_close_combat_weapon",
+     "label": "The Ancient may exchange their Close Combat Weapon for one of the following:",
+     "printed": "The Ancient may exchange their Close Combat Weapon for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "ancient"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "chainsword",
+       "name": "Chainsword",
+       "points": 2,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chainsword",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_sword",
+       "name": "Power Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "calabanite_blade",
+       "name": "Calbanite Blade",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "calabanite_blade",
+           "printed": "Calbanite Blade"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_lance",
+       "name": "Power Lance",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_lance",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_maul",
+       "name": "Power Maul",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_maul",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "thunder_hammer",
+       "name": "Thunder Hammer",
+       "points": 25,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "thunder_hammer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/dark_angels/roster/ravenwing_dark_shroud",
+   "name": "Ravenwing Dark Shroud",
+   "page": 34,
+   "url": "https://longwarindex.app/roster/ravenwing_dark_shroud/",
+   "source": "Codex Supplement: Dark Angels",
+   "role": "Fast Attack",
+   "points": 70,
+   "unit_type": "Jetbike",
+   "profiles": [
+    {
+     "id": "ravenwing_dark_shroud",
+     "name": "Ravenwing Dark Shroud",
+     "template": "unit",
+     "characteristics": {
+      "M": "14\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 6,
+      "W": 3,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "heavy_bolter",
+       "faction": "space_marines",
+       "count": 1
+      },
+      {
+       "kind": "wargear",
+       "id": "icon_of_old_caliban"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "chainsword",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "ravenwing_dark_shroud",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/dark_angels/allegiances/allegiance_dark_angels",
+     "name": "Allegiance: Dark Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/ravenwing",
+     "name": "Ravenwing",
+     "url": "https://longwarindex.app/special_rules/ravenwing/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limit: 1 Per Detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Close Support",
+    "Dark Angels",
+    "Land Speeder Vengeance",
+    "M31"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "heavy_bolter",
+     "label": "The unit may exchange its Heavy Bolter for an Assault Cannon (+5pts)",
+     "printed": "The Unit may exchange its Heavy Bolter for an Assault Cannon for 5pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "assault_cannon",
+       "name": "Assault Cannon",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "assault_cannon",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/dark_angels/roster/sammael_master_of_the_ravenwing",
+   "name": "Sammael, Master of the Ravenwing",
+   "page": 25,
+   "url": "https://longwarindex.app/roster/sammael_master_of_the_ravenwing/",
+   "source": "Codex Supplement: Dark Angels",
+   "role": "HQ",
+   "points": 120,
+   "unit_type": "Jetbike",
+   "profiles": [
+    {
+     "id": "sammael_master_of_the_ravenwing",
+     "name": "Sammael, Master of the Ravenwing",
+     "template": "unit",
+     "characteristics": {
+      "M": "14\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 4,
+      "T": 5,
+      "W": 4,
+      "A": 4,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "the_raven_sword"
+      },
+      {
+       "kind": "wargear",
+       "id": "corvex",
+       "note": "Storm Bolter & Plasma Cannon"
+      },
+      {
+       "kind": "wargear",
+       "id": "iron_halo",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades",
+       "faction": "space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "sammael_master_of_the_ravenwing",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/dark_angels/allegiances/allegiance_dark_angels",
+     "name": "Allegiance: Dark Angels",
+     "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/"
+    },
+    {
+     "rule": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+     "name": "And They Shall Know No Fear",
+     "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/inner_circle",
+     "name": "Inner Circle",
+     "url": "https://longwarindex.app/special_rules/inner_circle/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "codex/dark_angels/special_rules/ravenwing",
+     "name": "Ravenwing",
+     "url": "https://longwarindex.app/special_rules/ravenwing/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/dark_angels/warlord_traits/calabanite_knight",
+     "name": "Calabanite Knight",
+     "printed": "Knight of Caliban",
+     "url": "https://longwarindex.app/warlord_traits/calabanite_knight/"
+    }
+   ],
+   "keywords": [
+    "Imperium",
+    "Space Marine",
+    "Dark Angels",
+    "Lieutenant",
+    "Sammael, Master of the Ravenwing",
+    "Unique",
+    "M41"
+   ],
+   "stocks": [],
+   "options": []
+  }
+ ]
+}

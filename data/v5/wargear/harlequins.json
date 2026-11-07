@@ -1,0 +1,242 @@
+{
+ "data_version": "d8109d1aa168b402",
+ "format": 1,
+ "faction": "harlequins",
+ "wargear": [
+  {
+   "id": "holo_field",
+   "name": "Holo Field",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/holo_field/",
+   "text": "A model with this wargear gains a 4+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "flip_belt",
+   "name": "Flip Belt",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/flip_belt/",
+   "text": "A model equipped with this wargear gains the Fly and Move Through Cover special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/move_through_cover",
+      "name": "Move Through Cover",
+      "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "mirage_mask",
+   "name": "Mirage Mask",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/mirage_mask/",
+   "text": "A model equipped with this wargear has the Fear (1) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "melta_bomb",
+   "name": "Melta Bomb",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "melta_bomb"
+    }
+   ],
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/melta_bomb_harlequins/",
+   "text": "In combat, a model with this wargear may forgo its attacks and instead make a single Strength 8, AP1 attack with the Melta Special rule at Initiative step 1."
+  },
+  {
+   "id": "light_weight_plating",
+   "name": "Light Weight Plating",
+   "printed": {
+    "name": "Light Weight plating"
+   },
+   "section": "Armours",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/light_weight_plating_harlequins/",
+   "text": "Light Weight Plating used in many Eldar vehicles. It confers a 3+ Armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "wraithbone_plate",
+   "name": "Wraithbone Plate",
+   "printed": {
+    "name": "Wraithbone plate"
+   },
+   "section": "Armours",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/wraithbone_plate_harlequins/",
+   "text": "A living heavy organic armour plate. Confers a 2+ armour save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "skyweaver_jetbike",
+   "name": "Skyweaver Jetbike",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "shuriken_cannon"
+    }
+   ],
+   "section": "Mobility Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/skyweaver_jetbike/",
+   "text": "A model that is equipped with Jetbike becomes the Jetbike type. The Jetbike increases the model's Toughness (T) by 1. The Jetbike is equipped with a Shuriken Cannon.",
+   "effects": {
+    "unit_type": "Jetbike",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "jetbike",
+   "name": "Jetbike",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "linked_shuriken_catapult"
+    }
+   ],
+   "section": "Mobility Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/jetbike_harlequins/",
+   "text": "A model that is equipped with Jetbike becomes the Jetbike type. The Jetbike increases the model's Toughness (T) by 1. The Jetbike is equipped with a Linked Shuriken Catapult.",
+   "effects": {
+    "unit_type": "Jetbike",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "vectored_engines",
+   "name": "Vectored Engines",
+   "section": "Vehicle Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/vectored_engines_harlequins/",
+   "text": "A model with this wargear gains the Deep Strike special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "star_engines",
+   "name": "Star Engines",
+   "section": "Vehicle Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/star_engines_harlequins/",
+   "text": "Increase a model with this wargear's Movement (M) characteristic by 2\".",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "M",
+      "delta": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "starmist_raiment",
+   "name": "Starmist Raiment",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/starmist_raiment/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. All Attacks against a model bearing this Relic are resolved as if the Attacking model is affected by the Blind special rule."
+  },
+  {
+   "id": "the_laughing_gods_eye",
+   "name": "The Laughing God's Eye",
+   "printed": {
+    "name": "The Laughing God'ss Eye"
+   },
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/the_laughing_gods_eye/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this Wargear and any attached unit gain the Adamantium Will and Deny the Witch special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     },
+     {
+      "rule": "universal_special_rules/deny_the_witch",
+      "name": "Deny the Witch",
+      "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_mask_of_secrets",
+   "name": "The Mask of Secrets",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_mask_of_secrets/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this Relic Wargear increases their Fear (x) special rule to Fear (3).",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "3",
+      "url": "https://longwarindex.app/universal_special_rules/fear/",
+      "mode": "at_least",
+      "better": "higher",
+      "if_held": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "mirage_field",
+   "name": "Mirage Field",
+   "section": "Datasheet",
+   "datasheet": "Webway Gate",
+   "page": 33,
+   "url": "https://longwarindex.app/wargear/mirage_field_harlequins/",
+   "text": "This model may not be targeted for attacks unless the attacking model is within 6\". In addition, friendly Eldar units within 12\" of the Webway Gate receive the benefit of Light Cover. If they are already benefiting from Light Cover, they gain the Benefit of Heavy Cover instead."
+  }
+ ]
+}

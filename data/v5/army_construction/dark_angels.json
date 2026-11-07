@@ -1,0 +1,869 @@
+{
+ "data_version": "ac2dd7dfbd893c10",
+ "format": 1,
+ "faction": "dark_angels",
+ "codex": {
+  "id": "codex/dark_angels",
+  "name": "Dark Angels",
+  "page": 4,
+  "url": "https://longwarindex.app/codex/dark_angels/",
+  "parent": "space_marines",
+  "army_rules": [
+   {
+    "rule": "codex/dark_angels/special_rules/inner_circle",
+    "name": "Inner Circle",
+    "url": "https://longwarindex.app/special_rules/inner_circle/"
+   },
+   {
+    "rule": "codex/dark_angels/special_rules/deathwing",
+    "name": "Deathwing",
+    "url": "https://longwarindex.app/special_rules/deathwing/"
+   },
+   {
+    "rule": "codex/dark_angels/special_rules/ravenwing",
+    "name": "Ravenwing",
+    "url": "https://longwarindex.app/special_rules/ravenwing/"
+   },
+   {
+    "rule": "codex/dark_angels/special_rules/armoury_of_the_1st_legion",
+    "name": "Armoury of the 1st Legion",
+    "url": "https://longwarindex.app/special_rules/armoury_of_the_1st_legion/"
+   }
+  ],
+  "allies": null,
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/dark_angels/rites_of_war/deathwing_strike_talon",
+    "codex/dark_angels/rites_of_war/ravenwing_hunt_talon"
+   ],
+   "from_parent": [
+    "codex/space_marines/rites_of_war/drop_pod_assault",
+    "codex/space_marines/rites_of_war/armoured_support",
+    "codex/space_marines/rites_of_war/mechanised_assault",
+    "codex/space_marines/rites_of_war/vanguard_support"
+   ],
+   "banned_from_parent": [
+    "codex/space_marines/rites_of_war/pride_of_the_chapter",
+    "codex/space_marines/rites_of_war/grey_shields"
+   ]
+  },
+  "unit_list": null,
+  "keyword_templates": [
+   {
+    "template": "<Chapter>",
+    "printed": "All units have the <Chapter> keyword. This is replaced with Dark Angels Keyword.",
+    "substitution": {
+     "value": "Dark Angels"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/dark_angels/allegiances/allegiance_dark_angels",
+   "name": "Allegiance: Dark Angels",
+   "page": 4,
+   "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "keyword_substitution": {
+    "template": "<Chapter>",
+    "value": "Dark Angels"
+   },
+   "rule": {
+    "rule": "codex/dark_angels/allegiances/allegiance_dark_angels",
+    "name": "Allegiance: Dark Angels",
+    "printed": "codex/dark_angels/allegiances/allegiance_dark_angels",
+    "url": "https://longwarindex.app/allegiances/allegiance_dark_angels/"
+   },
+   "unit_list": {
+    "page": 19,
+    "url": "https://longwarindex.app/unit_list/dark_angels_unit_list/",
+    "entries": [
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_captain",
+      "printed": "Space Marine Captain",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/lieutenant",
+      "printed": "Lieutenant",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_command_squad",
+      "printed": "Space Marine Command Squad",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/damocles_command_rhino",
+      "printed": "Damocles Command Rhino",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/dark_angels/roster/azrael_master_of_the_dark_angels",
+      "printed": "Azrael, Master of the Dark Angels",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/dark_angels/roster/asmodai",
+      "printed": "Asmodai",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/dark_angels/roster/ezekiel",
+      "printed": "Ezekiel",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/dark_angels/roster/belial_master_of_the_deathwing",
+      "printed": "Belial, Master of the Deathwing",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/dark_angels/roster/sammael_master_of_the_ravenwing",
+      "printed": "Sammael, Master of the Ravenwing",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/dark_angels/roster/lion_el_johnson_primarch_of_the_dark_angels",
+      "printed": "Lion El Johnson, Primarch of the Dark Angels",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/scouts",
+      "printed": "Scouts",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/tactical_squad",
+      "printed": "Tactical Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/infiltrator_squad",
+      "printed": "Infiltrator Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/dark_angels/roster/deathwing_terminators",
+      "printed": "Deathwing Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/dark_angels/roster/deathwing_knights",
+      "printed": "Deathwing Knights",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/dark_angels/roster/deathwing_companions",
+      "printed": "Deathwing Companions",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/veteran_squad",
+      "printed": "Veteran Squad",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/eliminator_squad",
+      "printed": "Eliminator Squad",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/dark_angels/roster/ravenwing_black_knights",
+      "printed": "Ravenwing Black Knights",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/castraferrum_dreadnought",
+      "printed": "Castraferrum Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/contemptor_dreadnought",
+      "printed": "Contemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/redemptor_dreadnought",
+      "printed": "Redemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invictor_tactical_warsuit",
+      "printed": "Invictor Tactical Warsuit",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/rhino_apc",
+      "printed": "Rhino APC",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/razorback_ifv",
+      "printed": "Razorback IFV",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder_storm",
+      "printed": "Land Speeder Storm",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/drop_pod",
+      "printed": "Drop Pod",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/impulsor",
+      "printed": "Impulsor",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/dark_angels/roster/nephilim_jet_fighter",
+      "printed": "Nephilim Jet Fighter",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/dark_angels/roster/dark_talon",
+      "printed": "Dark Talon",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_eagle_gunship",
+      "printed": "Storm Eagle Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/bike_squad",
+      "printed": "Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/scout_bike_squad",
+      "printed": "Scout Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/attack_bike_squad",
+      "printed": "Attack Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/assault_marine_squad",
+      "printed": "Assault Marine Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/reiver_squad",
+      "printed": "Reiver Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/incursor_squad",
+      "printed": "Incursor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/inceptor_squad",
+      "printed": "Inceptor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/suppressor_squad",
+      "printed": "Suppressor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invader_atv",
+      "printed": "Invader ATV",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder",
+      "printed": "Land Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/dark_angels/roster/land_speeder_vengeance",
+      "printed": "Land Speeder Vengeance",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/dark_angels/roster/ravenwing_dark_shroud",
+      "printed": "Ravenwing Dark Shroud",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_speeder",
+      "printed": "Storm Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/javelin_attack_speeder",
+      "printed": "Javelin Attack Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sabre_strike_tank",
+      "printed": "Sabre Strike Tank",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/devastator_squad",
+      "printed": "Devastator Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/weapon_support_squad",
+      "printed": "Weapon Support Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gravis_support_squad",
+      "printed": "Gravis Support Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/firestrike_servo_turret",
+      "printed": "Firestrike Servo Turret",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/predator_mbt",
+      "printed": "Predator MBT",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_siege_tank",
+      "printed": "Vindicator Siege Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/whirlwind_artillery_tank",
+      "printed": "Whirlwind artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hunter_artillery_tank",
+      "printed": "Hunter Artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stalker_aa_tank",
+      "printed": "Stalker AA Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gladiator_assault_tank",
+      "printed": "Gladiator Assault Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider",
+      "printed": "Land Raider",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_redeemer",
+      "printed": "Land Raider Redeemer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_crusader",
+      "printed": "Land Raider Crusader",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_hifv",
+      "printed": "Repulsor HIFV",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_executioner",
+      "printed": "Repulsor Executioner",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/deredeo_dreadnought",
+      "printed": "Deredeo Dreadnought",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fire_raptor_gunship",
+      "printed": "Fire Raptor Gunship",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_laser_destroyer",
+      "printed": "Vindicator Laser Destroyer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sicaran_heavy_tank",
+      "printed": "Sicaran Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/kratos_super_heavy_tank",
+      "printed": "Kratos Super Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/dark_angels/roster/land_raider_ares",
+      "printed": "Land Raider Ares",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/dark_angels/roster/land_raider_solemnus_aggressor",
+      "printed": "Land Raider Solemnus Aggressor",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/leviathan_dreadnought",
+      "printed": "Leviathan Dreadnought",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/spartan_assault_tank",
+      "printed": "Spartan Assault Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/astraeus",
+      "printed": "Astraeus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/cerberus",
+      "printed": "Cerberus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/falchion",
+      "printed": "Falchion",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fellblade",
+      "printed": "Fellblade",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/mastodon",
+      "printed": "Mastodon",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/typhon_siege_tank",
+      "printed": "Typhon Siege Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/thunderhawk_gunship",
+      "printed": "Thunderhawk Gunship",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hammerfall_bunker",
+      "printed": "Hammerfall Bunker",
+      "role": "Fortification"
+     },
+     {
+      "datasheet": "codex/dark_angels/roster/deathwing_command_squad",
+      "printed": "Deathwing Command Squad",
+      "role": "HQ",
+      "appendix": true
+     },
+     {
+      "datasheet": "codex/dark_angels/roster/ravenwing_command_squad",
+      "printed": "Ravenwing Command Squad",
+      "role": "HQ",
+      "appendix": true
+     }
+    ]
+   },
+   "restrictions": [
+    {
+     "id": "rites_instead_of_core",
+     "page": 4,
+     "url": "https://longwarindex.app/codex/dark_angels/",
+     "printed": "You must use the Rites of War presented in this supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/space_marines/rites_of_war/pride_of_the_chapter",
+      "codex/space_marines/rites_of_war/grey_shields"
+     ]
+    },
+    {
+     "id": "unit_list_only",
+     "page": 4,
+     "url": "https://longwarindex.app/codex/dark_angels/",
+     "printed": "You may not field the units not listed on the Dark Angels Unit list in this Codex Supplement.",
+     "scope": "detachment",
+     "unit_list": true
+    },
+    {
+     "id": "warlord_traits_instead_of_core",
+     "page": 4,
+     "url": "https://longwarindex.app/codex/dark_angels/",
+     "printed": "You must use the Warlord traits presented in this supplement instead of the those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "warlord_traits"
+       }
+      ]
+     }
+    },
+    {
+     "id": "no_core_relics",
+     "page": 4,
+     "url": "https://longwarindex.app/codex/dark_angels/",
+     "printed": "You may not use the Relics from Codex Space Marines and must use the Relic Wargear presented in this supplement.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "relics"
+       }
+      ]
+     }
+    },
+    {
+     "id": "no_allied_detachment",
+     "printed": "A Dark Angels army may not include an Allied detachment.",
+     "scope": "detachment",
+     "no_allied_detachment": true
+    },
+    {
+     "id": "no_chapter_master",
+     "printed": "Dark Angels Space Marine Captains may not purchase the Chapter Master Upgrade.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "choices": [
+       {
+        "page": "codex/space_marines/roster/space_marine_captain",
+        "path": "chapter_master/chapter_master"
+       }
+      ]
+     }
+    },
+    {
+     "id": "ravenwing_talon_master_excluded_choices",
+     "page": 6,
+     "url": "https://longwarindex.app/special_rules/ravenwing_talon_master/",
+     "printed": "The Captain becomes the Jetbike type (gaining all relevant benefits) and may not purchase Jump Packs, Terminator Armor or a Bike.",
+     "scope": "detachment",
+     "excluded_choices": {
+      "conditions": [
+       {
+        "choice": {
+         "book_options": "dark_angels",
+         "path": "armoury_captain_upgrades/ravenwing_talon_master"
+        }
+       }
+      ],
+      "choices": [
+       {
+        "page": "codex/space_marines/roster/space_marine_captain",
+        "path": "mount/jump_pack"
+       },
+       {
+        "page": "codex/space_marines/roster/space_marine_captain",
+        "path": "mount/bike"
+       },
+       {
+        "page": "codex/space_marines/roster/space_marine_captain",
+        "path": "heavy_armour/indomitus_terminator_armour"
+       },
+       {
+        "page": "codex/space_marines/roster/space_marine_captain",
+        "path": "heavy_armour/cataphractii_terminator_armour"
+       },
+       {
+        "page": "codex/space_marines/roster/space_marine_captain",
+        "path": "heavy_armour/tartaros_terminator_armour"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "veteran_deathwing",
+     "printed": "Dark Angels Veteran units gain the Deathwing special rule (see rules Appendix).",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Dark Angels"
+       },
+       {
+        "keyword": "Veteran"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "codex/dark_angels/special_rules/deathwing",
+        "name": "Deathwing",
+        "url": "https://longwarindex.app/special_rules/deathwing/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "mounted_ravenwing",
+     "printed": "Dark Angels Bike, Jetbike, Aircraft, Cavalry gain the Ravenwing special rule (see rules appendix).",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Dark Angels"
+       },
+       {
+        "any_of": [
+         {
+          "unit_type": "Bike"
+         },
+         {
+          "unit_type": "Jetbike"
+         },
+         {
+          "unit_type": "Aircraft"
+         },
+         {
+          "unit_type": "Cavalry"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "codex/dark_angels/special_rules/ravenwing",
+        "name": "Ravenwing",
+        "url": "https://longwarindex.app/special_rules/ravenwing/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "Dark Angels Infantry, Vehicles & Walker units always count as controlling an Objective regardless of how many enemy models are contesting it.",
+    "In addition, during deployment randomly select 1 enemy unit in your opponent's army with the Character special rule. If that model is slain in the Combat Phase by wound inflicted by a Dark Angels unit, the Dark Angels player gains D3 Victory points. If the chosen unit is slain by any other means or is not slain during the battle, the Dark Angels player loses D3 Victory Points."
+   ],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/dark_angels/rites_of_war/deathwing_strike_talon",
+   "name": "Deathwing Strike Talon",
+   "page": 14,
+   "url": "https://longwarindex.app/rites_of_war/deathwing_strike_talon/",
+   "offered_by": {
+    "allegiance": "codex/dark_angels/allegiances/allegiance_dark_angels"
+   },
+   "text": "Restrictions\n\n- All units in your army must have the Veteran keyword or the Inner Circle special rule.\n- Your Warlord must be a Space Marine Captain upgraded to a Deathwing Strike Master or Belial, Master of the Deathwing.\n\nBenefits\n\n- You may field Deathwing Terminators as Troops choices.\n- Deathwing Knights become Limited: 2 per detachment.\n- You gain access to the following units (see below):\n    - Deathwing Command Squad.",
+   "restrictions": [
+    {
+     "id": "veteran_or_inner_circle",
+     "printed": "All units in your army must have the Veteran keyword or the Inner Circle special rule.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "any_of": [
+         {
+          "keyword": "Veteran"
+         },
+         {
+          "rule": {
+           "rule": "codex/dark_angels/special_rules/inner_circle",
+           "name": "Inner Circle",
+           "url": "https://longwarindex.app/special_rules/inner_circle/"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "warlord_strike_master_or_belial",
+     "printed": "Your Warlord must be a Space Marine Captain upgraded to a Deathwing Strike Master or Belial, Master of the Deathwing.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/dark_angels/roster/belial_master_of_the_deathwing"
+         },
+         {
+          "choice": {
+           "book_options": "dark_angels",
+           "path": "armoury_captain_upgrades/deathwing_strike_master"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "deathwing_terminators_troops",
+     "printed": "You may field Deathwing Terminators as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/dark_angels/roster/deathwing_terminators"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "deathwing_knights_limit",
+     "printed": "Deathwing Knights become Limited: 2 per detachment.",
+     "limit": {
+      "conditions": [
+       {
+        "datasheet": "codex/dark_angels/roster/deathwing_knights"
+       }
+      ],
+      "limit": 2,
+      "scope": "detachment"
+     }
+    },
+    {
+     "id": "deathwing_command_squad_access",
+     "printed": "You gain access to the following units (see below):",
+     "unlocks": [
+      "codex/dark_angels/roster/deathwing_command_squad"
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/dark_angels/rites_of_war/ravenwing_hunt_talon",
+   "name": "Ravenwing Hunt Talon",
+   "page": 16,
+   "url": "https://longwarindex.app/rites_of_war/ravenwing_hunt_talon/",
+   "offered_by": {
+    "allegiance": "codex/dark_angels/allegiances/allegiance_dark_angels"
+   },
+   "text": "Restrictions\n\n- Your army may only include Bike, Jetbike, Cavalry and Aircraft units.\n- Your warlord must be a Space Marine Captain upgraded to a Ravenwing Talon Master or Sammael, Master of the Ravenwing.\n\nBenefits\n\n- You may field Biker Squads as Troops choices.\n- You may field Nephilim Jet Fighters as Heavy Support Choices.\n- You may field Storm Speeders as Heavy Support choices.\n- You gain access to the following units (see below):\n    - Ravenwing Command Squad.",
+   "restrictions": [
+    {
+     "id": "only_mounted_units",
+     "printed": "Your army may only include Bike, Jetbike, Cavalry and Aircraft units.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "any_of": [
+         {
+          "unit_type": "Bike"
+         },
+         {
+          "unit_type": "Jetbike"
+         },
+         {
+          "unit_type": "Cavalry"
+         },
+         {
+          "unit_type": "Aircraft"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "warlord_talon_master_or_sammael",
+     "printed": "Your warlord must be a Space Marine Captain upgraded to a Ravenwing Talon Master or Sammael, Master of the Ravenwing.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/dark_angels/roster/sammael_master_of_the_ravenwing"
+         },
+         {
+          "choice": {
+           "book_options": "dark_angels",
+           "path": "armoury_captain_upgrades/ravenwing_talon_master"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "biker_squads_troops",
+     "printed": "You may field Biker Squads as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/bike_squad"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "nephilim_heavy_support",
+     "printed": "You may field Nephilim Jet Fighters as Heavy Support Choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/dark_angels/roster/nephilim_jet_fighter"
+       }
+      ],
+      "role": "Heavy Support",
+      "instead": false
+     }
+    },
+    {
+     "id": "storm_speeders_heavy_support",
+     "printed": "You may field Storm Speeders as Heavy Support choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/storm_speeder"
+       }
+      ],
+      "role": "Heavy Support",
+      "instead": false
+     }
+    },
+    {
+     "id": "ravenwing_command_squad_access",
+     "printed": "You gain access to the following units (see below):",
+     "unlocks": [
+      "codex/dark_angels/roster/ravenwing_command_squad"
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

@@ -1,0 +1,738 @@
+{
+ "data_version": "0e5a1287c8620e8b",
+ "format": 1,
+ "faction": "sisters_of_battle",
+ "special_rules": [
+  {
+   "id": "codex/sisters_of_battle/acts_of_faith/acts_of_faith",
+   "name": "Acts of Faith",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/codex/sisters_of_battle/acts_of_faith/",
+   "references": [
+    "codex/sisters_of_battle/special_rules/faith"
+   ],
+   "text": "At the start of the First battle round after deployment but before the first turn begins, your army will generate Faith Points (FP). To determine your initial pool of Faith Points (FP), generate a number of Faith Points equal to the value of (x) from all units with the Faith (X) special rule or any wargear, Warlord Traits or other abilities. All Faith Points from multiple units are cumulative.\n\nE.g if you have two units in your army with Faith (2), your starting pool is 4 Faith Points.\n\nFaith Points may be spent in any phase to enact an Act of Faith on a unit that has the Act of Faith special rule throughout the game.\n\nTo use an Act of Faith, spend 1 Faith Point from your pool of Faith Points. The unit making the Act of Faith may select one of the faith powers from the following list to perform. All Acts of Faith are declared at the start of a phase in either player turn and must be declared and resolved before the active player whose turn it is continues with their actions.\n\nA unit may be affected by multiple Acts of Faith, but each Act of Faith may only be used once on a unit per player turn."
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/decree_passive",
+   "name": "Decree Passive",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/decree_passive/",
+   "text": "You may only include 1 unit with the Cult Ministorum keyword for every 3 Adeptus Sororitas units in your army. Units with this special rule may not be your warlord unless there are no Adeptus Sororitas units in your army.",
+   "effects": {
+    "list_building": {
+     "warlord_forbidden_while": {
+      "keywords": [
+       "Adeptus Sororitas"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/faith",
+   "name": "Faith",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/faith/",
+   "parameter": {
+    "kind": "count",
+    "description": "the number of Faith Points that the unit generates"
+   },
+   "text": "At the start of the first battle round before the first turn begins, a unit with this special rule contributes a number of Faith Points equal to the value of (x) to your starting Faith Point Pool."
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/martyrdom",
+   "name": "Martyrdom",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/martyrdom/",
+   "references": [
+    "codex/sisters_of_battle/acts_of_faith/acts_of_faith"
+   ],
+   "text": "When all models in a unit with this special rule are slain and removed from play, you gain 1 Faith Point (see Acts of Faith section)."
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/shield_of_faith",
+   "name": "Shield of Faith",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/shield_of_faith_sisters_of_battle/",
+   "references": [
+    "universal_special_rules/adamantium_will"
+   ],
+   "text": "All Adeptus Sororitas units have a 6+ invulnerable save and the Adamantium will special rule.",
+   "effects": {
+    "invulnerable_save": "6+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/transport_iron_crawler",
+   "name": "Transport",
+   "datasheet": "Iron Crawler",
+   "kind": "datasheet",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/transport_iron_crawler_sisters_of_battle/",
+   "text": "This unit can transport 12 Infantry type models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/sisters_of_battle/allegiances/argent_shroud",
+   "name": "Allegiance: Argent Shroud",
+   "kind": "allegiance",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/argent_shroud/",
+   "references": [
+    "codex/sisters_of_battle/special_rules/shield_of_faith",
+    "universal_special_rules/deny_the_witch",
+    "codex/sisters_of_battle/special_rules/faith"
+   ],
+   "text": "All Adeptus Sororitas units change their [Order] keyword to Argent Shroud. All units with the Argent Shroud Keyword gain the Allegiance: Argent Shroud special rule. The Allegiance: Argent Shroud special rule consists of the following rules:\n\n- Devout Belief: Increase all Argent Shroud units' Invulnerable saves by 1 from Shield of Faith special rule to a max of 4+. In addition, Argent Shroud units gain the Deny the Witch special rule.\n- Deeds, Not Words: If your army is Argent Shroud, you do not generate any Faith Points from units with the Faith special rule in your army during the first battle round unless obtained via Relic Wargear.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/deny_the_witch",
+      "name": "Deny the Witch",
+      "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/sisters_of_battle/allegiances/bloody_rose",
+   "name": "Allegiance: Bloody Rose",
+   "kind": "allegiance",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/bloody_rose/",
+   "references": [
+    "universal_special_rules/frenzy"
+   ],
+   "text": "All Adeptus Sororitas units change their [Order] keyword to Bloody Rose. All units with the Bloody Rose Keyword gain the Allegiance: Bloody Rose special rule. The Allegiance: Bloody Rose special rule consists of the following rules:\n\n- Quick to Anger: Bloody Rose units gain the Frenzy special rules.\n- Impatient Fighters: Bloody Rose units may not set to Overwatch.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/frenzy",
+      "name": "Frenzy",
+      "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/sisters_of_battle/allegiances/ebon_chalice",
+   "name": "Allegiance: Ebon Chalice",
+   "kind": "allegiance",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/ebon_chalice/",
+   "text": "All Adeptus Sororitas units change their [Order] keyword to Ebon Chalice. All units with the Ebon Chalice Keyword gain the Allegiance: Ebon Chalice special rule. The Allegiance: Ebon Chalice special rule consists of the following rules:\n\n- Cleanse with Fire: All Ebon Chalice units in your army gain the +1 to their Strength characteristic on all 'Flamer' weapons they are equipped with. For the purposes of this special rule a 'Flamer' weapon is any weapon listed Flamer category of the weapon section.\n- First of the Brides: Ebon Chalice armies may not include Cult Ministorum units and may not use the Zealous Congregation Rite of War."
+  },
+  {
+   "id": "codex/sisters_of_battle/allegiances/our_martyred_lady",
+   "name": "Allegiance: Our Martyred Lady",
+   "kind": "allegiance",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/our_martyred_lady/",
+   "references": [
+    "codex/sisters_of_battle/special_rules/martyrdom"
+   ],
+   "text": "All Adeptus Sororitas units change their [Order] keyword to Our Martyred Lady. All units with the Our Martyred Lady Keyword gain the Allegiance: Our Martyred Lady special rule. The Allegiance: Our Martyred Lady special rule consists of the following rules:\n\n- Blood of Martyr's: All Our Martyred Lady Sisters of Battle, Dominions and Retributors units in your army gain the Martyrdom special rule.\n- Unto Death: Our Martyred Lady units may not perform Retreat moves in the Movement Phase."
+  },
+  {
+   "id": "codex/sisters_of_battle/allegiances/sacred_rose",
+   "name": "Allegiance: Sacred Rose",
+   "kind": "allegiance",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/sacred_rose/",
+   "references": [
+    "universal_special_rules/indomitable_spirit",
+    "universal_special_rules/stubborn"
+   ],
+   "text": "All Adeptus Sororitas units change their [Order] keyword to Sacred Rose. All units with the Sacred Rose Keyword gain the Allegiance: Sacred Rose special rule. The Allegiance: Sacred Rose special rule consists of the following rules:\n\n- Serene Grace: Sacred Rose units gain the Indomitable Spirit (4+) and Stubborn special rules.\n- Meditative State: Sacred Rose units have -2\" to all Charge rolls.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/indomitable_spirit",
+      "name": "Indomitable Spirit",
+      "param": "4+",
+      "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+     },
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/sisters_of_battle/allegiances/valorous_heart",
+   "name": "Allegiance: Valorous Heart",
+   "kind": "allegiance",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/valorous_heart/",
+   "references": [
+    "universal_special_rules/zealot",
+    "codex/sisters_of_battle/special_rules/martyrdom"
+   ],
+   "text": "All Adeptus Sororitas units change their [Order] keyword to Valorous Heart. All units with the Valorous Heart Keyword gain the Allegiance: Valorous Heart special rule. The Allegiance: Valorous Heart special rule consists of the following rules:\n\n- Blind Faith: Valorous Heart units gain the Zealot special rule.\n- Abandoned Light: Valorous Heart units with the Martyrdom special rule must roll a D6 each time the last model is slain and removed from play. Only on a 4+ do you gain a Faith Point.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/zealot",
+      "name": "Zealot",
+      "url": "https://longwarindex.app/universal_special_rules/zealot/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/canoness_superior",
+   "name": "Canoness Superior",
+   "kind": "datasheet",
+   "page": 29,
+   "url": "https://longwarindex.app/special_rules/canoness_superior/",
+   "text": "A Canoness Superior gains +1 to their Wounds (W), Attacks (A) and Leadership (LD) characteristic.\n\n- A Canoness Superior may exchange her Power Armour for Artificer Armour for 5pts.\n- A Canoness Superior may exchange her Power Sword for one of the following:\n    - Anointed Halberd for 10pts\n    - Hallowed Mace for 15pts\n    - Spear of the Faithful for 10pts",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "W",
+      "delta": 1
+     },
+     {
+      "characteristic": "A",
+      "delta": 1
+     },
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "artificer_armour",
+     "label": "A Canoness Superior may exchange her Power Armour for Artificer Armour for 5pts.",
+     "printed": "A Canoness Superior may exchange her Power Armour for Artificer Armour for 5pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "artificer_armour",
+       "name": "Artificer Armour",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "power_armour"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "artificer_armour"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "power_sword",
+     "label": "A Canoness Superior may exchange her Power Sword for one of the following:",
+     "printed": "A Canoness Superior may exchange her Power Sword for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "anointed_halberd",
+       "name": "Anointed Halberd",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "anointed_halberd"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "hallowed_mace",
+       "name": "Hallowed Mace",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "hallowed_mace"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "spear_of_the_faithful",
+       "name": "Spear of the Faithful",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "spear_of_the_faithful"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/dogmata",
+   "name": "Dogmata",
+   "kind": "datasheet",
+   "page": 30,
+   "url": "https://longwarindex.app/special_rules/dogmata/",
+   "references": [
+    "universal_special_rules/priest",
+    "universal_special_rules/hatred",
+    "universal_special_rules/stubborn",
+    "universal_special_rules/zealot"
+   ],
+   "text": "A unit with this upgrade gains the Priest (1), Hatred, Stubborn and Zealot special rules. In addition, the unit exchanges its Chainsword for a Hallowed Mace.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/priest",
+      "name": "Priest",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/priest/"
+     },
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     },
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     },
+     {
+      "rule": "universal_special_rules/zealot",
+      "name": "Zealot",
+      "url": "https://longwarindex.app/universal_special_rules/zealot/"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "chainsword"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "hallowed_mace"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/delegated_tasks",
+   "name": "Delegated Tasks",
+   "kind": "datasheet",
+   "page": 31,
+   "url": "https://longwarindex.app/special_rules/delegated_tasks/",
+   "references": [
+    "universal_special_rules/character"
+   ],
+   "text": "During deployment, instead of deploying this unit as 1 unit, each model in the unit may be deployed separately. Each model then counts as its own unit with the Character special rule."
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/daemon",
+   "name": "Daemon",
+   "kind": "datasheet",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/daemon_sisters_of_battle/",
+   "references": [
+    "universal_special_rules/fear"
+   ],
+   "text": "A unit with this rule gains the Daemon Keyword. The Daemon unit has a 5+ Invulnerable save and the Fear (1) special rule. Daemon units have +1\" to their Movement (M) characteristic. (This is included in unit data sheets that have the Daemon special rule by default)",
+   "effects": {
+    "keywords": [
+     "Daemon"
+    ],
+    "invulnerable_save": "5+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/healing_tears",
+   "name": "Healing Tears",
+   "kind": "datasheet",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/healing_tears/",
+   "text": "Once per game, you may return 1 Slain Geminae Superia model to this unit with 1 wound remaining."
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/miraculous_intervention",
+   "name": "Miraculous Intervention",
+   "kind": "datasheet",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/miraculous_intervention/",
+   "text": "The first time this unit would be slain and removed from play, it is not. The model instead removed from the battlefield and placed in ongoing reserves with D3 wounds remaining. If Saint Celestine would be placed in ongoing reserves as part of this special rule, any remaining Geminae Superia models in this unit are removed and placed in reserve with Celestine."
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/abbess_sanctorum",
+   "name": "Abbess Sanctorum",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/abbess_sanctorum/",
+   "text": "This unit may be taken on any Allegiance and gains the Allegiance: X special rule of the Order chosen for your Allegiance.",
+   "effects": {
+    "list_building": {
+     "gains_allegiance_rule": true
+    }
+   }
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/protector_of_the_faith",
+   "name": "Protector of the Faith",
+   "kind": "warlord_trait",
+   "page": 35,
+   "url": "https://longwarindex.app/special_rules/protector_of_the_faith/",
+   "references": [
+    "universal_special_rules/last_stand"
+   ],
+   "text": "If this unit is Warlord, it may re-roll failed Invulnerable Save rolls. In addition, this unit and any attached unit gain the Last Stand special rule.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/last_stand",
+        "name": "Last Stand",
+        "url": "https://longwarindex.app/universal_special_rules/last_stand/"
+       },
+       "quote": "In addition, this unit and any attached unit gain the Last Stand special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/booming_words",
+   "name": "Booming Words",
+   "kind": "datasheet",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/booming_words/",
+   "references": [
+    "codex/sisters_of_battle/acts_of_faith/acts_of_faith"
+   ],
+   "text": "Once per game, this unit can perform the Word of the Emperor Act of Faith even though it does not have the Act of Faith special rule. This Act of Faith does not cost a Faith Point."
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/icon_of_chiros",
+   "name": "Icon of Chiros",
+   "kind": "datasheet",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/icon_of_chiros/",
+   "text": "All friendly Imperium units within 12\" and visibility of this unit add 1 to the number of wounds they inflicted in a combat for the purposes of determining who won combat."
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/leader_of_the_faithful",
+   "name": "Leader of the Faithful",
+   "kind": "warlord_trait",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/leader_of_the_faithful/",
+   "text": "If Arch Confessor Kyrinov is your warlord, you may include 1 unit of Zealous Congregation without taking up a Force Organization Slot and even if you are not running the Zealous Congregation Rite of War. If your Army is using the Zealous Congregation Rite of War, instead, at the start of each of your Movement Phases, you can select a single Zealous Congregation unit in your army within 12\" of this unit. The selected unit regains D6 slain models.",
+   "effects": {
+    "list_building": {
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/sisters_of_battle/roster/zealous_congregation"
+       }
+      ],
+      "count": 1
+     },
+     "unlocks": [
+      "codex/sisters_of_battle/roster/zealous_congregation"
+     ],
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/sisters_of_battle/roster/arch_confessor_kyrinov"
+       }
+      },
+      {
+       "not_rite": "codex/sisters_of_battle/rites_of_war/zealous_congregation"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/righteous_hate",
+   "name": "Righteous Hate",
+   "kind": "warlord_trait",
+   "page": 37,
+   "url": "https://longwarindex.app/special_rules/righteous_hate/",
+   "references": [
+    "universal_special_rules/rage"
+   ],
+   "text": "If this unit is Warlord, it and all Infantry units in your army gain the Rage special rule.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/rage",
+        "name": "Rage",
+        "url": "https://longwarindex.app/universal_special_rules/rage/"
+       },
+       "quote": "If this unit is Warlord, it and all Infantry units in your army gain the Rage special rule."
+      },
+      {
+       "filters": [
+        {
+         "unit_types": [
+          "Infantry"
+         ]
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/rage",
+        "name": "Rage",
+        "url": "https://longwarindex.app/universal_special_rules/rage/"
+       },
+       "quote": "If this unit is Warlord, it and all Infantry units in your army gain the Rage special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/mistress_task_master",
+   "name": "Mistress Task Master",
+   "kind": "datasheet",
+   "page": 42,
+   "url": "https://longwarindex.app/special_rules/mistress_task_master/",
+   "references": [
+    "universal_special_rules/zealot",
+    "universal_special_rules/counter_attack"
+   ],
+   "text": "If this unit contains a Mistress Repentia model, it gains the Zealot and Counter Attack special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/zealot",
+      "name": "Zealot",
+      "url": "https://longwarindex.app/universal_special_rules/zealot/"
+     },
+     {
+      "rule": "universal_special_rules/counter_attack",
+      "name": "Counter Attack",
+      "url": "https://longwarindex.app/universal_special_rules/counter_attack/"
+     }
+    ],
+    "while_unit_has_profile": "Mistress Repentia"
+   }
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/flagellant_protocols",
+   "name": "Flagellant Protocols",
+   "kind": "datasheet",
+   "page": 43,
+   "url": "https://longwarindex.app/special_rules/flagellant_protocols_sisters_of_battle/",
+   "references": [
+    "universal_special_rules/frenzy",
+    "universal_special_rules/rage",
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "Arco Flagellant models in this unit gain the benefit of the Frenzy, Rage and Feel no Pain (5+) special rules. However, Arco Flagellant models in this unit never benefit from the effects of Prayers.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/frenzy",
+      "name": "Frenzy",
+      "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+     },
+     {
+      "rule": "universal_special_rules/rage",
+      "name": "Rage",
+      "url": "https://longwarindex.app/universal_special_rules/rage/"
+     },
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ],
+    "profiles": [
+     "Arco Flagellant"
+    ]
+   }
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/recount_the_deeds",
+   "name": "Recount the Deeds",
+   "kind": "datasheet",
+   "page": 45,
+   "url": "https://longwarindex.app/special_rules/recount_the_deeds/",
+   "text": "Once per game, at the start of your Movement Phase, you perform a Leadership test. If the Leadership test is passed, you gain 1 Faith Point to your faith pool. If the test is failed, nothing happens."
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/reliable_machine_spirit",
+   "name": "Reliable Machine Spirit",
+   "kind": "datasheet",
+   "page": 46,
+   "url": "https://longwarindex.app/special_rules/reliable_machine_spirit_sisters_of_battle/",
+   "text": "When a unit with this special rule would be destroyed. Embarked units are not required to roll for models inside being slain (see Rule 10.2 in the core rules)."
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/transport_rhino_apc",
+   "name": "Transport",
+   "datasheet": "Rhino APC",
+   "kind": "datasheet",
+   "page": 46,
+   "url": "https://longwarindex.app/special_rules/transport_rhino_apc_sisters_of_battle/",
+   "references": [
+    "universal_special_rules/bulky"
+   ],
+   "text": "This unit can transport 11 Infantry models. It may not transport models with the Bulky (x) special rule.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 11,
+     "unit_types": [
+      "Infantry"
+     ],
+     "filters": [
+      {
+       "not": true,
+       "any_rules": [
+        "universal_special_rules/bulky"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/transport_immolator_ifv",
+   "name": "Transport",
+   "datasheet": "Immolator IFV",
+   "kind": "datasheet",
+   "page": 47,
+   "url": "https://longwarindex.app/special_rules/transport_immolator_ifv/",
+   "references": [
+    "universal_special_rules/bulky"
+   ],
+   "text": "This unit can transport 6 Infantry models. It may not transport models with the Bulky (x) special rule.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ],
+     "filters": [
+      {
+       "not": true,
+       "any_rules": [
+        "universal_special_rules/bulky"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/sisters_of_battle/special_rules/sword_bearer",
+   "name": "Sword Bearer",
+   "kind": "datasheet",
+   "page": 57,
+   "url": "https://longwarindex.app/special_rules/sword_bearer/",
+   "text": "In the Combat Phase, at Initiative 4, this unit may make 3 additional Attacks with The Martyr's Sword. You may not make more than 3 attacks per Combat Phase with the Martyr's Sword."
+  }
+ ]
+}

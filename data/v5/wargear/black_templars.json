@@ -1,0 +1,205 @@
+{
+ "data_version": "00fbe1a851fd560f",
+ "format": 1,
+ "faction": "black_templars",
+ "wargear": [
+  {
+   "id": "reliquary_bones",
+   "name": "Reliquary Bones",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/reliquary_bones/",
+   "text": "A model equipped with this wargear gains the Adamantium Will special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "crux_obsidian",
+   "name": "Crux Obsidian",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/crux_obsidian/",
+   "text": "A model with this wargear may re-roll 1 failed Panic Test per Phase."
+  },
+  {
+   "id": "seal_of_sigsmund",
+   "name": "Seal of Sigsmund",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/seal_of_sigsmund/",
+   "text": "A model equipped with this wargear gains the Martial Feats special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "codex/black_templars/special_rules/martial_feats",
+      "name": "Martial Feats",
+      "url": "https://longwarindex.app/special_rules/martial_feats/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "adamantine_mantle",
+   "name": "Adamantine Mantle",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/adamantine_mantle/",
+   "text": "A model with this wargear may re-roll 1 failed Armour save roll per Phase."
+  },
+  {
+   "id": "ancient_breviary",
+   "name": "Ancient Breviary",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/ancient_breviary/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains the Priest (1) special rule. If the unit already has the Priest (x) special rule, they increase the value of X by 1."
+  },
+  {
+   "id": "the_crusader_helm",
+   "name": "The Crusader Helm",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/the_crusader_helm/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. all friendly Imperium units which can draw visibility to the model equipped with this Relic Wargear may re-roll Pinning and Panic Tests."
+  },
+  {
+   "id": "the_aurillian_shroud",
+   "name": "The Aurillian Shroud",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/the_aurillian_shroud/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic and any attached unit gain a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "skull_of_the_cacodominus",
+   "name": "Skull of the Cacodominus",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/skull_of_the_cacodominus/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Enemy units with the Psyker (x) special rule within 12\" of a model equipped with this Relic suffer -1 to their Leadership (LD) characteristic. In addition, if the enemy Psyker would roll any doubles while making a Psychic Test, they automatically suffer a Perils of the Warp."
+  },
+  {
+   "id": "aquila_immortalis",
+   "name": "Aquila Immortalis",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/aquila_immortalis/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this Relic gains the Battle-Hardened special rule and +1 to their Toughness (T) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "tannhausers_bones",
+   "name": "Tännhauser's Bones",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/tannhausers_bones/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this Relic may ignore the first Wound allocated to it per Phase."
+  },
+  {
+   "id": "thronelight_lantern",
+   "name": "Thronelight Lantern",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/thronelight_lantern/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Once per game, in your Shooting Phase, a model with this relic may select a single enemy unit within 12\", they take D3, Strength 10, AP1, Automatic hits."
+  },
+  {
+   "id": "shackles_of_the_faithful",
+   "name": "Shackles of the Faithful",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/shackles_of_the_faithful/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic never suffers any negative modifiers to their Initiative (I) characteristic and ignore the Unwieldy special rule."
+  },
+  {
+   "id": "hands_of_the_pious",
+   "name": "Hands of the Pious",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/hands_of_the_pious/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. When a model with this Relic performs the Litany of Hatred, all friendly Black Templar units wholly within 12\" are affected by the Prayer."
+  },
+  {
+   "id": "sceptre_of_fallen_empires",
+   "name": "Sceptre of Fallen Empires",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/sceptre_of_fallen_empires/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. When a model with this Relic gains the Fear (3) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "3",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "banner_of_the_fallen_crusader",
+   "name": "Banner of the Fallen Crusader",
+   "section": "Datasheet",
+   "datasheet": "Chaplain Grimaldus",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/banner_of_the_fallen_crusader/",
+   "text": "This unit and any attached unit add 3 additional wounds to the total number inflicted in the Combat Phase for resolving who won combat."
+  },
+  {
+   "id": "remnant_of_the_fallen_temple",
+   "name": "Remnant of the Fallen Temple",
+   "section": "Datasheet",
+   "datasheet": "Chaplain Grimaldus",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/remnant_of_the_fallen_temple/",
+   "text": "This unit and any attached unit may re-roll 1 failed Armour Save or Invulnerable save per phase."
+  },
+  {
+   "id": "sceptre_of_anointing",
+   "name": "Sceptre of Anointing",
+   "section": "Datasheet",
+   "datasheet": "Chaplain Grimaldus",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/sceptre_of_anointing/",
+   "text": "This unit may roll 3D6 for Leadership tests when attempting to chant a Prayer and take the best 2 results."
+  },
+  {
+   "id": "the_armour_of_faith",
+   "name": "The Armour of Faith",
+   "section": "Datasheet",
+   "datasheet": "The Emperor's Champion",
+   "page": 18,
+   "url": "https://longwarindex.app/wargear/the_armour_of_faith/",
+   "text": "A model with this wargear has a 2+ Armour save and a 4+ Invulnerable save.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "4+"
+   }
+  }
+ ]
+}

@@ -1,0 +1,487 @@
+{
+ "data_version": "4354d8488ab45d38",
+ "format": 1,
+ "faction": "sisters_of_battle",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_blade_of_admonition/",
+   "offered_by": {
+    "codex": "sisters_of_battle"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "the_blade_of_admonition",
+     "name": "The Blade of Admonition",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_blade_of_admonition"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_blade_of_admonition/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_blade_of_saint_ellynor",
+     "name": "The Blade of Saint Ellynor",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 15pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_blade_of_saint_ellynor"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_blade_of_saint_ellynor/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_book_of_saint_lucius",
+     "name": "The Book of Saint Lucius",
+     "points": 25,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_book_of_saint_lucius"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_book_of_saint_lucius/",
+     "pricing": "flat"
+    },
+    {
+     "id": "blade_of_the_worthy",
+     "name": "Blade of the Worthy",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "blade_of_the_worthy"
+        }
+       ]
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/blade_of_the_worthy/",
+     "pricing": "flat"
+    },
+    {
+     "id": "castigator",
+     "name": "Castigator",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Bolt Pistol for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "bolt_pistol"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "castigator"
+        }
+       ]
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/castigator/",
+     "pricing": "flat"
+    },
+    {
+     "id": "litanies_of_faith",
+     "name": "Litanies of Faith",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "litanies_of_faith"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/litanies_of_faith/",
+     "pricing": "flat"
+    },
+    {
+     "id": "mantle_of_ophelia",
+     "name": "Mantle of Ophelia",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "mantle_of_ophelia"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/mantle_of_ophelia/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_cloak_of_saint_aspira",
+     "name": "The Cloak of Saint Aspira",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_cloak_of_saint_aspira"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/the_cloak_of_saint_aspira/",
+     "pricing": "flat"
+    },
+    {
+     "id": "desvalles_holy_circle",
+     "name": "Desvalle's Holy Circle",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "desvalles_holy_circle"
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/desvalles_holy_circle/",
+     "pricing": "flat"
+    },
+    {
+     "id": "skull_of_petronella_the_pious",
+     "name": "Skull of Petronella the Pious",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "skull_of_petronella_the_pious"
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/skull_of_petronella_the_pious/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_font_of_fury",
+     "name": "The Font of Fury",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Frag Grenade for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "frag_grenades"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_font_of_fury"
+        }
+       ]
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/the_font_of_fury/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 16,
+   "url": "https://longwarindex.app/codex/sisters_of_battle/warlord_traits/",
+   "offered_by": {
+    "codex": "sisters_of_battle"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "sisters_of_battle/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "beacon_of_faith",
+     "name": "Beacon of Faith",
+     "page": 16,
+     "url": "https://longwarindex.app/warlord_traits/beacon_of_faith/",
+     "text": "A warlord with this trait gains the Acts of Faith & Faith (1) special rule (see Army rules). If the unit already has the Faith (x) special rule, increase the value of (x) by 1.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/sisters_of_battle/acts_of_faith/acts_of_faith",
+       "name": "Acts of Faith",
+       "url": "https://longwarindex.app/codex/sisters_of_battle/acts_of_faith/"
+      },
+      {
+       "rule": "codex/sisters_of_battle/special_rules/faith",
+       "name": "Faith",
+       "param": "1",
+       "url": "https://longwarindex.app/special_rules/faith/",
+       "raise_by": 1
+      }
+     ]
+    },
+    {
+     "id": "impervious_to_pain",
+     "name": "Impervious to Pain",
+     "page": 16,
+     "url": "https://longwarindex.app/warlord_traits/impervious_to_pain/",
+     "text": "The Warlord gains the Feel no Pain (5+) and Battle-Hardened special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/feel_no_pain",
+       "name": "Feel No Pain",
+       "param": "5+",
+       "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+      },
+      {
+       "rule": "universal_special_rules/battle_hardened",
+       "name": "Battle-Hardened",
+       "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+      }
+     ]
+    },
+    {
+     "id": "inspiring_orator",
+     "name": "Inspiring Orator",
+     "page": 16,
+     "url": "https://longwarindex.app/warlord_traits/inspiring_orator/",
+     "text": "All friendly units within 24\" of a model with this Warlord trait may use the Warlord Leadership (LD) characteristic instead of their own.",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "prayers",
+   "kind": "prayers",
+   "label": "All Imperium Adeptus Sororitas or Cult Ministorum Priests with the Priest (x) special rule may purchase the following Prayers:",
+   "printed": "All Imperium Adeptus Sororitas or Cult Ministorum Priests with the Priest (x) special rule may purchase the following Prayers:",
+   "page": 17,
+   "url": "https://longwarindex.app/codex/sisters_of_battle/powers/",
+   "offered_by": {
+    "codex": "sisters_of_battle"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/priest",
+       "name": "Priest",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/priest/"
+      }
+     },
+     {
+      "any_of": [
+       {
+        "keyword": "Adeptus Sororitas"
+       },
+       {
+        "keyword": "Cult Ministorum"
+       }
+      ]
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/priest",
+     "name": "Priest",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/priest/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "litany_of_blazing_piety",
+     "name": "Litany of Blazing Piety",
+     "page": 17,
+     "url": "https://longwarindex.app/powers/litany_of_blazing_piety/",
+     "text": "When this Prayer is performed, target 1 enemy model within 12\" of the Priest. The target model takes D3+3, Strength 6, AP5 automatic hits.",
+     "points": 20,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_enduring_faith",
+     "name": "Litany of Enduring Faith",
+     "page": 17,
+     "url": "https://longwarindex.app/powers/litany_of_enduring_faith/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gain the Feel no Pain (5+) special rule until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_focus",
+     "name": "Litany of Focus",
+     "page": 17,
+     "url": "https://longwarindex.app/powers/litany_of_focus_sisters_of_battle/",
+     "text": "When this Prayer is performed, the Priest and any attached unit has the Indomitable Spirit (4+) special rule until the start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_fury",
+     "name": "Litany of Fury",
+     "page": 17,
+     "url": "https://longwarindex.app/powers/litany_of_fury_sisters_of_battle/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gains the Fleet special rule until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_hatred",
+     "name": "Litany of Hatred",
+     "page": 17,
+     "url": "https://longwarindex.app/powers/litany_of_hatred_sisters_of_battle/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gain the Hatred special rule until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_holy_piety",
+     "name": "Litany of Holy Piety",
+     "page": 17,
+     "url": "https://longwarindex.app/powers/litany_of_holy_piety/",
+     "text": "When this Prayer is performed, gain 1 Faith Point and add it to your pool of Faith.",
+     "points": 30,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "purgation_mass_castigator_warlord",
+   "kind": "upgrade",
+   "label": "1 Castigator Tank in your army may be selected to be your Warlord and fielded as a HQ instead of its normal Slot. This unit gains the Character special rule and +1 to its Ballistic Skill (BS) Characteristic.",
+   "printed": "1 Castigator Tank in your army may be selected to be your Warlord and fielded as a HQ instead of its normal Slot. This unit gains the Character special rule and +1 to its Ballistic Skill (BS) Characteristic.",
+   "page": 23,
+   "url": "https://longwarindex.app/rites_of_war/purgation_mass/",
+   "offered_by": {
+    "rite": "codex/sisters_of_battle/rites_of_war/purgation_mass"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "datasheet": "codex/sisters_of_battle/roster/castigator_tank"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "castigator_warlord",
+     "name": "Castigator Warlord",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     ],
+     "stat_mods": [
+      {
+       "characteristic": "BS",
+       "delta": 1
+      }
+     ],
+     "mandates_warlord": true,
+     "role": "HQ"
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

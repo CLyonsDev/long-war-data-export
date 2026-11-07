@@ -1,0 +1,584 @@
+{
+ "data_version": "71abe4644a353e45",
+ "format": 1,
+ "faction": "ultramarines",
+ "codex": {
+  "id": "codex/ultramarines",
+  "name": "Ultramarines",
+  "page": 3,
+  "url": "https://longwarindex.app/codex/ultramarines/",
+  "parent": "space_marines",
+  "army_rules": [
+   {
+    "rule": "codex/ultramarines/special_rules/armoury_of_the_13th_legion",
+    "name": "Armoury of the 13th Legion",
+    "url": "https://longwarindex.app/special_rules/armoury_of_the_13th_legion/"
+   }
+  ],
+  "allies": null,
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [],
+   "from_parent": [
+    "codex/space_marines/rites_of_war/drop_pod_assault",
+    "codex/space_marines/rites_of_war/armoured_support",
+    "codex/space_marines/rites_of_war/mechanised_assault",
+    "codex/space_marines/rites_of_war/vanguard_support",
+    "codex/space_marines/rites_of_war/pride_of_the_chapter"
+   ],
+   "banned_from_parent": [
+    "codex/space_marines/rites_of_war/grey_shields"
+   ]
+  },
+  "unit_list": null,
+  "keyword_templates": [
+   {
+    "template": "<Chapter>",
+    "printed": "All units have the <Chapter> keyword. This is replaced with Ultramarines Keyword.",
+    "substitution": {
+     "value": "Ultramarines"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/ultramarines/allegiances/allegiance_ultramarines",
+   "name": "Allegiance: Ultramarines",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_ultramarines/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "keyword_substitution": {
+    "template": "<Chapter>",
+    "value": "Ultramarines"
+   },
+   "rule": {
+    "rule": "codex/ultramarines/allegiances/allegiance_ultramarines",
+    "name": "Allegiance: Ultramarines",
+    "printed": "codex/ultramarines/allegiances/allegiance_ultramarines",
+    "url": "https://longwarindex.app/allegiances/allegiance_ultramarines/"
+   },
+   "unit_list": {
+    "page": 9,
+    "url": "https://longwarindex.app/unit_list/ultramarines_unit_list/",
+    "entries": [
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_captain",
+      "printed": "Space Marine Captain",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/lieutenant",
+      "printed": "Lieutenant",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_command_squad",
+      "printed": "Space Marine Command Squad",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/damocles_command_rhino",
+      "printed": "Damocles Command Rhino",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/ultramarines/roster/marneus_calgar",
+      "printed": "Marneus Calgar",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/ultramarines/roster/chief_librarian_tigurius",
+      "printed": "Chief Librarian Tigurius",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/ultramarines/roster/chaplain_cassius",
+      "printed": "Chaplain Cassius",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/ultramarines/roster/captain_cato_sicarius",
+      "printed": "Captain Cato Sicarius",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/ultramarines/roster/sergeant_telion",
+      "printed": "Sergeant Telion",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/ultramarines/roster/sergeant_chronus",
+      "printed": "Sergeant Chronus",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/ultramarines/roster/captain_titus_master_of_the_watch",
+      "printed": "Captain Titus, Master of the Watch",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/ultramarines/roster/wardens_of_ultramar",
+      "printed": "Wardens of Ultramar",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/ultramarines/roster/roboute_guilliman_primarch_of_the_ultramarines",
+      "printed": "Roboute Guilliman, Primarch of the Ultramarines",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/scouts",
+      "printed": "Scouts",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/tactical_squad",
+      "printed": "Tactical Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/infiltrator_squad",
+      "printed": "Infiltrator Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/veteran_squad",
+      "printed": "Veteran Squad",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/eliminator_squad",
+      "printed": "Eliminator Squad",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/centurions",
+      "printed": "Centurions",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/tactical_terminators",
+      "printed": "Tactical Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/assault_terminators",
+      "printed": "Assault Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/relic_terminators",
+      "printed": "Relic Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/castraferrum_dreadnought",
+      "printed": "Castraferrum Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/contemptor_dreadnought",
+      "printed": "Contemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/redemptor_dreadnought",
+      "printed": "Redemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invictor_tactical_warsuit",
+      "printed": "Invictor Tactical Warsuit",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/ultramarines/roster/victrix_honour_guard",
+      "printed": "Victrix Honour Guard",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/ultramarines/roster/tyrannic_war_veterans",
+      "printed": "Tyrannic War Veterans",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/rhino_apc",
+      "printed": "Rhino APC",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/razorback_ifv",
+      "printed": "Razorback IFV",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder_storm",
+      "printed": "Land Speeder Storm",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/drop_pod",
+      "printed": "Drop Pod",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/impulsor",
+      "printed": "Impulsor",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormhawk_interceptor",
+      "printed": "Stormhawk Interceptor",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormtalon_gunship",
+      "printed": "Stormtalon Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormraven_gunship",
+      "printed": "Stormraven Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_eagle_gunship",
+      "printed": "Storm Eagle Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/bike_squad",
+      "printed": "Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/scout_bike_squad",
+      "printed": "Scout Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/attack_bike_squad",
+      "printed": "Attack Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/assault_marine_squad",
+      "printed": "Assault Marine Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/reiver_squad",
+      "printed": "Reiver Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/incursor_squad",
+      "printed": "Incursor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/inceptor_squad",
+      "printed": "Inceptor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/suppressor_squad",
+      "printed": "Suppressor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invader_atv",
+      "printed": "Invader ATV",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder",
+      "printed": "Land Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_speeder",
+      "printed": "Storm Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/javelin_attack_speeder",
+      "printed": "Javelin Attack Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sabre_strike_tank",
+      "printed": "Sabre Strike Tank",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/devastator_squad",
+      "printed": "Devastator Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/weapon_support_squad",
+      "printed": "Weapon Support Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gravis_support_squad",
+      "printed": "Gravis Support Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/firestrike_servo_turret",
+      "printed": "Firestrike Servo Turret",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/predator_mbt",
+      "printed": "Predator MBT",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_siege_tank",
+      "printed": "Vindicator Siege Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/whirlwind_artillery_tank",
+      "printed": "Whirlwind artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider",
+      "printed": "Land Raider",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_redeemer",
+      "printed": "Land Raider Redeemer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_crusader",
+      "printed": "Land Raider Crusader",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_hifv",
+      "printed": "Repulsor HIFV",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_executioner",
+      "printed": "Repulsor Executioner",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/deredeo_dreadnought",
+      "printed": "Deredeo Dreadnought",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fire_raptor_gunship",
+      "printed": "Fire Raptor Gunship",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hunter_artillery_tank",
+      "printed": "Hunter Artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stalker_aa_tank",
+      "printed": "Stalker AA Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gladiator_assault_tank",
+      "printed": "Gladiator Assault Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_laser_destroyer",
+      "printed": "Vindicator Laser Destroyer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sicaran_heavy_tank",
+      "printed": "Sicaran Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/kratos_super_heavy_tank",
+      "printed": "Kratos Super Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/leviathan_dreadnought",
+      "printed": "Leviathan Dreadnought",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/spartan_assault_tank",
+      "printed": "Spartan Assault Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/astraeus",
+      "printed": "Astraeus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/cerberus",
+      "printed": "Cerberus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/falchion",
+      "printed": "Falchion",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fellblade",
+      "printed": "Fellblade",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/mastodon",
+      "printed": "Mastodon",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/typhon_siege_tank",
+      "printed": "Typhon Siege Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/thunderhawk_gunship",
+      "printed": "Thunderhawk Gunship",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hammerfall_bunker",
+      "printed": "Hammerfall Bunker",
+      "role": "Fortification"
+     }
+    ]
+   },
+   "restrictions": [
+    {
+     "id": "rites_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/ultramarines/",
+     "printed": "You must use the Rites of War presented in this supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/space_marines/rites_of_war/grey_shields"
+     ]
+    },
+    {
+     "id": "ultramarines_warlord_traits",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/ultramarines/",
+     "printed": "You must use the Warlord traits presented in this supplement instead of the those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "warlord_traits"
+       }
+      ]
+     }
+    },
+    {
+     "id": "ultramarines_unit_list_only",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/ultramarines/",
+     "printed": "You may not field the units not listed on the Ultramarines Unit list in this Codex Supplement.",
+     "scope": "detachment",
+     "unit_list": true
+    },
+    {
+     "id": "ultramarines_relics",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/ultramarines/",
+     "printed": "You may not use Relic Wargear from Codex Space Marines and may only select Relic Wargear from this supplement.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "relics"
+       }
+      ]
+     }
+    },
+    {
+     "id": "codex_compliant",
+     "printed": "An Ultramarines army must include at least 1 HQ Choice, 2 Battle Line units, 1 Close Support unit and 1 Fire Support unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "role": "HQ"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "codex_compliant_battle_line",
+     "printed": "An Ultramarines army must include at least 1 HQ Choice, 2 Battle Line units, 1 Close Support unit and 1 Fire Support unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Battle Line"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "codex_compliant_close_support",
+     "printed": "An Ultramarines army must include at least 1 HQ Choice, 2 Battle Line units, 1 Close Support unit and 1 Fire Support unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Close Support"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "codex_compliant_fire_support",
+     "printed": "An Ultramarines army must include at least 1 HQ Choice, 2 Battle Line units, 1 Close Support unit and 1 Fire Support unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Fire Support"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [],
+   "game_time": [
+    "At the beginning of the first battle round, you may select one of the following codex approved Doctrines to be active for your army:",
+    "Assault Doctrine: If this Doctrine is active for your army, all Ultramarines units in your army gain the Furious Charge special rule.",
+    "Tactical Doctrine: If this Doctrine is active for your army, all Ultramarines units in your army gain the Fade & Fire special rule.",
+    "Devastator Doctrine: If this Doctrine is active for your army, all Ultramarines units in your army gain the Preferred Enemy special rule."
+   ],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": []
+}

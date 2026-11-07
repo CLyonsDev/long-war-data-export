@@ -1,0 +1,572 @@
+{
+ "data_version": "040674d7f001767f",
+ "format": 1,
+ "faction": "craftworld_eldar",
+ "wargear": [
+  {
+   "id": "force_field",
+   "name": "Force Field",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/force_field_craftworld_eldar/",
+   "text": "This wargear confers a 4+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "howling_banshee_mask",
+   "name": "Howling Banshee Mask",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/howling_banshee_mask/",
+   "text": "A unit which includes a model equipped with this wargear reduces the Initiative (I) of enemy units within 3\" by 1."
+  },
+  {
+   "id": "mandiblasters",
+   "name": "Mandiblasters",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/mandiblasters/",
+   "text": "A model equipped with this Wargear gains +1 to its Attacks (A) Characteristics.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "A",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "shimmer_shield",
+   "name": "Shimmer Shield",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/shimmer_shield/",
+   "text": "This wargear confers a 4+ Invulnerable save to the equipped model and their entire unit.",
+   "effects": {
+    "invulnerable_save": "4+",
+    "unit_invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "scatter_shield",
+   "name": "Scatter Shield",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/scatter_shield/",
+   "text": "This wargear confers a 4+ Invulnerable save and all charges against this unit are considered Disordered.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "camo_cloak",
+   "name": "Camo Cloak",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/camo_cloak/",
+   "text": "A model equipped with this wargear always receives the benefit of Light Cover. A model with this wargear already receiving the benefit of Light Cover, gains the benefit of Heavy Cover instead. If a model is already benefiting from Heavy Cover, it gains a 4+ Cover save."
+  },
+  {
+   "id": "wire_weave_net",
+   "name": "Wire Weave Net",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/wire_weave_net/",
+   "text": "A unit that contains a model equipped with this wargear always counts any charges made against it as Disordered."
+  },
+  {
+   "id": "melta_bomb",
+   "name": "Melta Bomb",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "melta_bomb"
+    }
+   ],
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/melta_bomb_craftworld_eldar/",
+   "text": "In combat, a model with this wargear may forgo its attacks and instead make a single Strength 8, AP1 attack with the Melta Special rule at Initiative step 1."
+  },
+  {
+   "id": "gloom_field",
+   "name": "Gloom Field",
+   "section": "Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/gloom_field/",
+   "text": "A unit that includes a model with this wargear always receives the benefit of Light Cover, If the unit is already benefiting from Light Cover, it gains the benefit of Heavy Cover instead."
+  },
+  {
+   "id": "aspect_armour",
+   "name": "Aspect Armour",
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/aspect_armour/",
+   "text": "A high protection but high mobility suit. Confers a 4+ armour save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "heavy_aspect_armour",
+   "name": "Heavy Aspect Armour",
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/heavy_aspect_armour/",
+   "text": "Heavy high protection but high mobility suit. Confers a 3+ armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "phoenix_armour",
+   "name": "Phoenix Armour",
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/phoenix_armour/",
+   "text": "An artifice suit of unique armour. Confers a 2+ armour save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "wraithbone_plate",
+   "name": "Wraithbone Plate",
+   "printed": {
+    "name": "Wraithbone plate"
+   },
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/wraithbone_plate_craftworld_eldar/",
+   "text": "A living heavy organic armour plate. Confers a 2+ armour save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "mesh_armour",
+   "name": "Mesh Armour",
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/mesh_armour/",
+   "text": "Tightfitting Mesh and plate armour. This confers a 5+ save.",
+   "effects": {
+    "armour_save": "5+"
+   }
+  },
+  {
+   "id": "rune_armour",
+   "name": "Rune Armour",
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/rune_armour/",
+   "text": "Light Armour fitted with protective runes. This confers a 4+ Invulnerable save and a 5+ Armour save.",
+   "effects": {
+    "armour_save": "5+",
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "light_weight_plating",
+   "name": "Light Weight Plating",
+   "printed": {
+    "name": "Light Weight plating"
+   },
+   "section": "Armours",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/light_weight_plating_craftworld_eldar/",
+   "text": "Light Weight plating used in many Eldar vehicles. It confers a 3+ Armour save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "swooping_hawk_wings",
+   "name": "Swooping Hawk Wings",
+   "section": "Mobility Wargear",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/swooping_hawk_wings/",
+   "text": "A model that is equipped with Wings increases its Movement (M) characteristic to 12\". The equipped unit gains the Hammer of Wrath (1), Fly and Deep Strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "jetbike",
+   "name": "Jetbike",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "linked_shuriken_catapult"
+    }
+   ],
+   "section": "Mobility Wargear",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/jetbike_craftworld_eldar/",
+   "text": "A model that is equipped with Jetbike becomes the Jetbike type. The Jetbike increases the models Toughness (T) by 1. The Jetbike is equipped with Linked Shuriken Catapults.",
+   "effects": {
+    "unit_type": "Jetbike",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "blink_pack",
+   "name": "Blink Pack",
+   "section": "Mobility Wargear",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/blink_pack/",
+   "text": "A model equipped with a Blink Pack increase their Movement (M) characteristic to 12\". In addition, the model gains the Deep Strike & Fly special rules. A unit entirely equipped with this wargear may Set to Blink instead of Overwatch in the Shooting Phase. If there are no enemy units within 3\" of the unit that Set to Blink at the end your opponent's Charge Phase, you may remove the unit from the board and place it back into ongoing reserves. The unit that is returns to reserves this way is not considered slain if it is not on the board by battle round 4.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "shroud_runner_jetbike",
+   "name": "Shroud Runner Jetbike",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "scatter_laser"
+    }
+   ],
+   "section": "Mobility Wargear",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/shroud_runner_jetbike/",
+   "text": "A model that is equipped with Shroud Runner Jetbike becomes the Jetbike type. The Shroud Runner Jetbike increases the models Toughness (T) by 1 and Wounds (W) characteristic by 1. The Shroud Runner Jetbike is equipped with Scatter Laser.",
+   "effects": {
+    "unit_type": "Jetbike",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "jump_pack",
+   "name": "Jump Pack",
+   "section": "Mobility Wargear",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/jump_pack_craftworld_eldar/",
+   "text": "A model equipped with a Jump Pack increases its Movement (M) characteristic to 12\". The equipped model gains the Hammer of Wrath (1), Fly and Deep Strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "spirit_stones",
+   "name": "Spirit Stones",
+   "section": "Vehicle Wargear",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/spirit_stones/",
+   "text": "When a model with this special rule suffers a Crew Injury result on the Vehicle Damage Table, it is instead treated as a Superficial Damage result."
+  },
+  {
+   "id": "star_engines",
+   "name": "Star Engines",
+   "section": "Vehicle Wargear",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/star_engines_craftworld_eldar/",
+   "text": "Increase a model with this wargear's Movement (M) characteristic by 2\".",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "M",
+      "delta": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "vectored_engines",
+   "name": "Vectored Engines",
+   "section": "Vehicle Wargear",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/vectored_engines_craftworld_eldar/",
+   "text": "A model with this wargear gains the Deep Strike special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_phoenix_gem",
+   "name": "The Phoenix Gem",
+   "section": "Relics",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/the_phoenix_gem/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. The first time a model with this wargear would be slain and removed from play, they are not. The model remains on the battlefield and removes all wounds allocated to it. All enemy units within 6\" of the equipped model take 2D6 Strength 5, AP5 automatic hits when the bearer of the Relic is Slain."
+  },
+  {
+   "id": "faolchus_wing",
+   "name": "Faolchú's Wing",
+   "section": "Relics",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/faolchus_wing/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains +12\" to their Movement (M) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "M",
+      "delta": 12
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_spirit_stone_of_anathlan",
+   "name": "The Spirit Stone of Anath'lan",
+   "section": "Relics",
+   "page": 18,
+   "url": "https://longwarindex.app/wargear/the_spirit_stone_of_anathlan/",
+   "text": "One unit in your army with the Character & Psyker (x) special rules that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic can roll 3 dice when making a Psychic test and discard the highest result before determining of the Psychic test is passed."
+  },
+  {
+   "id": "runesuit",
+   "name": "Runesuit",
+   "section": "Datasheet",
+   "datasheet": "Yvraine, Herald of Ynnead",
+   "page": 34,
+   "url": "https://longwarindex.app/wargear/runesuit_craftworld_eldar/",
+   "text": "A model equipped with this wargear has a 4+ Invulnerable Save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "gyrinx_familiar",
+   "name": "Gyrinx Familiar",
+   "section": "Datasheet",
+   "datasheet": "Yvraine, Herald of Ynnead",
+   "page": 34,
+   "url": "https://longwarindex.app/wargear/gyrinx_familiar_craftworld_eldar/",
+   "text": "Once per Battle Round, when this unit would suffer a Peril of the Warp, the Peril result is treated as having rolled a 1 on the chart."
+  },
+  {
+   "id": "ancient_warsuit",
+   "name": "Ancient Warsuit",
+   "section": "Datasheet",
+   "datasheet": "Visarch",
+   "page": 35,
+   "url": "https://longwarindex.app/wargear/ancient_warsuit_craftworld_eldar/",
+   "text": "A model equipped with this wargear has a 2+ Armour save and a 4+ Invulnerable Save.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "spirit_storm",
+   "name": "Spirit Storm",
+   "section": "Datasheet",
+   "datasheet": "The Yncarne, Avatar of Ynnead",
+   "page": 36,
+   "url": "https://longwarindex.app/wargear/spirit_storm_craftworld_eldar/",
+   "text": "This model has a 3+ Armour Save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "runes_of_witnessing",
+   "name": "Runes of Witnessing",
+   "section": "Datasheet",
+   "datasheet": "Farseer",
+   "page": 42,
+   "url": "https://longwarindex.app/wargear/runes_of_witnessing/",
+   "text": "Once per turn, when attempting to cast a Psychic Power, this unit may re-roll one or both dice for the Psychic test to determine if the power is successfully cast."
+  },
+  {
+   "id": "runes_of_witnessing_eldrad_ulthran",
+   "name": "Runes of Witnessing (Eldrad Ulthran)",
+   "section": "Datasheet",
+   "datasheet": "Eldrad Ulthran",
+   "page": 52,
+   "url": "https://longwarindex.app/wargear/runes_of_witnessing_eldrad_ulthran/",
+   "text": "Once per turn, when attempting to cast a Psychic Power, this unit may re-roll one or both dice for the Leadership test to determine if the power is successfully cast."
+  },
+  {
+   "id": "runes_of_warding",
+   "name": "Runes of Warding",
+   "section": "Datasheet",
+   "datasheet": "Farseer",
+   "page": 42,
+   "url": "https://longwarindex.app/wargear/runes_of_warding/",
+   "text": "The wargear confers the Indomitable Spirit (2+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/indomitable_spirit",
+      "name": "Indomitable Spirit",
+      "param": "2+",
+      "printed": "[[Indomitable Spirit (2+)]]",
+      "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "armour_of_the_last_runes",
+   "name": "Armour of the Last Runes",
+   "section": "Datasheet",
+   "datasheet": "Eldrad Ulthran",
+   "page": 52,
+   "url": "https://longwarindex.app/wargear/armour_of_the_last_runes/",
+   "text": "This model has a 4+ Invulnerable save. This model gains the Battle-Hardened special rule.",
+   "effects": {
+    "invulnerable_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "printed": "[[Battle-Hardened]]",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "wraith_shield",
+   "name": "Wraith Shield",
+   "section": "Datasheet",
+   "datasheet": "Wraith Seer",
+   "page": 66,
+   "url": "https://longwarindex.app/wargear/wraith_shield/",
+   "text": "This unit has a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "serpent_shield",
+   "name": "Serpent Shield",
+   "section": "Datasheet",
+   "datasheet": "Wave Serpent",
+   "page": 67,
+   "url": "https://longwarindex.app/wargear/serpent_shield/",
+   "text": "A model with this wargear gains the following benefits:\n- Once per Phase, ignore 1 Penetrating Hit that this unit suffers.\n- This unit's Hammer of Wrath Attacks have the Concussive special rule."
+  },
+  {
+   "id": "mindshock_pod",
+   "name": "Mindshock Pod",
+   "section": "Datasheet",
+   "datasheet": "Hemlock Wraithfighter",
+   "page": 69,
+   "url": "https://longwarindex.app/wargear/mindshock_pod/",
+   "text": "Enemy units within 18\" of this model (measuring from its base) suffer -1 to their Leadership (LD) characteristic."
+  },
+  {
+   "id": "molten_body",
+   "name": "Molten Body",
+   "section": "Datasheet",
+   "datasheet": "The Avatar of Khaine",
+   "page": 87,
+   "url": "https://longwarindex.app/wargear/molten_body/",
+   "text": "This confers a 2+ Armour save. A model with this wargear has a 4+ Invulnerable save against 'Flamer', 'Fusion', 'Melta', and 'Plasma' weapons. For the purposes of this special rule, any Flamer, Melta or Plasma weapon is any weapon listed under the Flamer, Melta and Plasma Categories in the wargear section of any Codex.",
+   "effects": {
+    "armour_save": "2+",
+    "conditional_invulnerable_saves": [
+     {
+      "save": "4+",
+      "against_weapon_subtypes": [
+       "Flamer Weapons",
+       "Fusion Weapons",
+       "Melta Weapons",
+       "Plasma Weapons"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "mirage_field",
+   "name": "Mirage Field",
+   "section": "Datasheet",
+   "datasheet": "Webway Gate",
+   "page": 93,
+   "url": "https://longwarindex.app/wargear/mirage_field_craftworld_eldar/",
+   "text": "This model may not be targeted for attacks unless the attacking model is within 6\". In addition, friendly Eldar units within 12\" of the Webway Gate receive the benefit of Light Cover. If they are already benefiting from Light Cover, they gain the Benefit of Heavy Cover instead."
+  }
+ ]
+}

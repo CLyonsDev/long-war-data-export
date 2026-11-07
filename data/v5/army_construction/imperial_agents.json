@@ -1,0 +1,1144 @@
+{
+ "data_version": "9b23d470136b4cd4",
+ "format": 1,
+ "faction": "imperial_agents",
+ "codex": {
+  "id": "codex/imperial_agents",
+  "name": "Imperial Agents",
+  "page": 1,
+  "url": "https://longwarindex.app/codex/imperial_agents/",
+  "parent": null,
+  "army_rules": [
+   {
+    "rule": "codex/imperial_agents/special_rules/and_they_shall_know_no_fear",
+    "name": "And They Shall Know No Fear",
+    "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_imperial_agents/"
+   },
+   {
+    "rule": "codex/imperial_agents/special_rules/ion_shield",
+    "name": "Ion Shield",
+    "url": "https://longwarindex.app/special_rules/ion_shield_imperial_agents/"
+   },
+   {
+    "rule": "codex/imperial_agents/special_rules/master_of_command",
+    "name": "Master of Command",
+    "url": "https://longwarindex.app/special_rules/master_of_command_imperial_agents/"
+   },
+   {
+    "rule": "codex/imperial_agents/special_rules/shield_of_faith",
+    "name": "Shield of Faith",
+    "url": "https://longwarindex.app/special_rules/shield_of_faith_imperial_agents/"
+   },
+   {
+    "rule": "codex/imperial_agents/special_rules/special_issue_ammunition",
+    "name": "Special Issue Ammunition",
+    "url": "https://longwarindex.app/special_rules/special_issue_ammunition/"
+   },
+   {
+    "rule": "codex/imperial_agents/special_rules/the_aegis",
+    "name": "The Aegis",
+    "url": "https://longwarindex.app/special_rules/the_aegis/"
+   }
+  ],
+  "allies": {
+   "printed": "The following factions listed in keywords may be taken as allies in an allied detachment if your battle plan allows the use of allied detachments:",
+   "page": 49,
+   "url": "https://longwarindex.app/allies/imperial_agents_allies/",
+   "factions": [
+    {
+     "faction": "space_marines"
+    },
+    {
+     "faction": "imperial_guard"
+    },
+    {
+     "faction": "sisters_of_battle"
+    },
+    {
+     "faction": "adeptus_mechanicus"
+    },
+    {
+     "faction": "imperial_agents"
+    }
+   ]
+  },
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/imperial_agents/rites_of_war/deathwatch_kill_force",
+    "codex/imperial_agents/rites_of_war/grey_knights_strike_force",
+    "codex/imperial_agents/rites_of_war/imperial_knight_household",
+    "codex/imperial_agents/rites_of_war/witch_hunter_convent"
+   ],
+   "from_parent": [],
+   "banned_from_parent": []
+  },
+  "unit_list": {
+   "page": 48,
+   "url": "https://longwarindex.app/unit_list/imperial_agents_unit_list/",
+   "entries": [
+    {
+     "datasheet": "codex/imperial_agents/roster/brother_captain",
+     "printed": "Brother Captain",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/inquisitor_coteaz",
+     "printed": "Inquisitor Coteaz",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/inquisitor_greyfax",
+     "printed": "Inquisitor Greyfax",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/inquisitor_karamazov_on_the_throne_of_judgement",
+     "printed": "Inquisitor Karamazov on the Throne of Judgement",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/inquisitor_kroyle",
+     "printed": "Inquisitor Kroyle",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/inquisitor_kyria_draxus",
+     "printed": "Inquisitor Kyria Draxus",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/inquisitorial_acolytes",
+     "printed": "Inquisitorial Acolytes",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/interrogator_prime",
+     "printed": "Interrogator Prime",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/watch_captain",
+     "printed": "Watch Captain",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/celestians",
+     "printed": "Celestians",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/deathwatch_kill_team",
+     "printed": "Deathwatch Kill Team",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/grey_knights_strike_squad",
+     "printed": "Grey Knights Strike Squad",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/navy_breachers",
+     "printed": "Navy Breachers",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/tempestus_scion_squad",
+     "printed": "Tempestus Scion Squad",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/voidsmen_at_arms",
+     "printed": "Voidsmen-at-Arms",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/arbite_enforcers",
+     "printed": "Arbite Enforcers",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/callidus_assassin",
+     "printed": "Callidus Assassin",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/culexus_assassin",
+     "printed": "Culexus Assassin",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/cult_delegation",
+     "printed": "Cult Delegation",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/deathwatch_blackshield_castraferrum_dreadnought",
+     "printed": "Deathwatch Blackshield Castraferrum Dreadnought",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/eversor_assassin",
+     "printed": "Eversor Assassin",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/grey_knight_castraferrum_dreadnought",
+     "printed": "Grey Knight Castraferrum Dreadnought",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/grey_knights_terminator_squad",
+     "printed": "Grey Knights Terminator Squad",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/legion_of_the_damned",
+     "printed": "Legion of the Damned",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/vindicare_assassin",
+     "printed": "Vindicare Assassin",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/arvus_lighter",
+     "printed": "Arvus Lighter",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/chimera_apc",
+     "printed": "Chimera APC",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/razorback_ifv",
+     "printed": "Razorback IFV",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/rhino_apc",
+     "printed": "Rhino APC",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/taurox_armoured_car",
+     "printed": "Taurox Armoured Car",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/corvus_blackstar",
+     "printed": "Corvus Blackstar",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/stormraven_gunship",
+     "printed": "Stormraven Gunship",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/valkyrie_dropship",
+     "printed": "Valkyrie Dropship",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/cyclops_demolition_vehicle",
+     "printed": "Cyclops Demolition Vehicle",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/dominions",
+     "printed": "Dominions",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/penitent_engines",
+     "printed": "Penitent Engines",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/repressor_ifv",
+     "printed": "Repressor IFV",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/taurox_prime_armoured_car",
+     "printed": "Taurox Prime Armoured Car",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/tempestus_scion_aquilon_squad",
+     "printed": "Tempestus Scion Aquilon Squad",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/grey_knights_purgation_squad",
+     "printed": "Grey Knights Purgation Squad",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/land_raider",
+     "printed": "Land Raider",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/land_raider_crusader",
+     "printed": "Land Raider Crusader",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/land_raider_redeemer",
+     "printed": "Land Raider Redeemer",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/nemesis_dreadknight",
+     "printed": "Nemesis Dreadknight",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/paragon_warsuit",
+     "printed": "Paragon Warsuit",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/knight_questoris",
+     "printed": "Knight Questoris",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/brother_captain_stern",
+     "printed": "Brother Captain Stern",
+     "role": "HQ",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/castellan_crowe",
+     "printed": "Castellan Crowe",
+     "role": "HQ",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/grand_master_voldus",
+     "printed": "Grand Master Voldus",
+     "role": "HQ",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/kaldor_draigo",
+     "printed": "Kaldor Draigo",
+     "role": "Lords of War",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/knight_acastus",
+     "printed": "Knight Acastus",
+     "role": "Lords of War",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/knight_armiger",
+     "printed": "Knight Armiger",
+     "role": "Fast Attack",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/knight_bellatus",
+     "printed": "Knight Bellatus",
+     "role": "Heavy Support",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/knight_cerastus",
+     "printed": "Knight Cerastus",
+     "role": "Elites",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/knight_dominus",
+     "printed": "Knight Dominus",
+     "role": "HQ",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/knight_house_guard",
+     "printed": "Knight House Guard",
+     "role": "Troops",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/redemptionists",
+     "printed": "Redemptionists",
+     "role": "Elites",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/watch_captain_artemis",
+     "printed": "Watch Captain Artemis",
+     "role": "HQ",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/imperial_agents/roster/zealous_congregation",
+     "printed": "Zealous Congregation",
+     "role": "Troops",
+     "appendix": true
+    }
+   ]
+  },
+  "keyword_templates": [
+   {
+    "template": "[Ordo]",
+    "substitution": {
+     "by": "allegiance"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/imperial_agents/allegiances/ordo_hereticus",
+   "name": "Allegiance: Ordo Hereticus",
+   "page": 47,
+   "url": "https://longwarindex.app/allegiances/ordo_hereticus/",
+   "offered_by": {
+    "codex": "imperial_agents"
+   },
+   "keyword_substitution": {
+    "template": "[Ordo]",
+    "value": "Ordo Hereticus"
+   },
+   "rule": {
+    "rule": "codex/imperial_agents/allegiances/ordo_hereticus",
+    "name": "Ordo Hereticus",
+    "printed": "codex/imperial_agents/allegiances/ordo_hereticus",
+    "url": "https://longwarindex.app/allegiances/ordo_hereticus/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "ordo_hereticus_cult_ministorum",
+     "printed": "Your army must include at least 1 unit with the Cult Ministorum Keyword.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Cult Ministorum"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "the_enemy_within",
+     "printed": "All Ordo Hereticus units in your army gain the Zealot special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Ordo Hereticus"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/zealot",
+        "name": "Zealot",
+        "url": "https://longwarindex.app/universal_special_rules/zealot/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_agents/allegiances/ordo_malleus",
+   "name": "Allegiance: Ordo Malleus",
+   "page": 47,
+   "url": "https://longwarindex.app/allegiances/ordo_malleus/",
+   "offered_by": {
+    "codex": "imperial_agents"
+   },
+   "keyword_substitution": {
+    "template": "[Ordo]",
+    "value": "Ordo Malleus"
+   },
+   "rule": {
+    "rule": "codex/imperial_agents/allegiances/ordo_malleus",
+    "name": "Ordo Malleus",
+    "printed": "codex/imperial_agents/allegiances/ordo_malleus",
+    "url": "https://longwarindex.app/allegiances/ordo_malleus/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "ordo_malleus_no_allies",
+     "printed": "If your army is Ordo Malleus you may not take any Allied Detachments or allied units in your army.",
+     "scope": "detachment",
+     "no_allied_detachment": true
+    }
+   ],
+   "benefits": [
+    {
+     "id": "the_enemy_beyond",
+     "printed": "All Ordo Malleus units gain the Preferred Enemy (Chaos) special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Ordo Malleus"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/preferred_enemy",
+        "name": "Preferred Enemy",
+        "param": "Chaos",
+        "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_agents/allegiances/ordo_of_xenos",
+   "name": "Allegiance: Ordo of Xenos",
+   "page": 47,
+   "url": "https://longwarindex.app/allegiances/ordo_of_xenos/",
+   "offered_by": {
+    "codex": "imperial_agents"
+   },
+   "keyword_substitution": {
+    "template": "[Ordo]",
+    "value": "Ordo Xenos"
+   },
+   "rule": {
+    "rule": "codex/imperial_agents/allegiances/ordo_of_xenos",
+    "name": "Ordo of Xenos",
+    "printed": "codex/imperial_agents/allegiances/ordo_of_xenos",
+    "url": "https://longwarindex.app/allegiances/ordo_of_xenos/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "ordo_xenos_deathwatch_infantry",
+     "printed": "Your army must include at least 1 Infantry unit with the Deathwatch Keyword.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "unit_type": "Infantry"
+       },
+       {
+        "keyword": "Deathwatch"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "the_enemy_without",
+     "printed": "All Ordo Xenos units in your army gain the Preferred Enemy (Tyranid, Eldar, T'au, Necron, Votann, Orks) special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Ordo Xenos"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/preferred_enemy",
+        "name": "Preferred Enemy",
+        "param": "Tyranid, Eldar, T'au, Necron, Votann, Orks",
+        "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/imperial_agents/rites_of_war/deathwatch_kill_force",
+   "name": "Deathwatch Kill Force",
+   "page": 31,
+   "url": "https://longwarindex.app/rites_of_war/deathwatch_kill_force/",
+   "offered_by": {
+    "codex": "imperial_agents"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 3 Deathwatch Kill Team unit.\n- Your army must include at least 1 Watch Captain unit.\n- Your army must be Allegiance: Ordo Xenos.\n\nBenefit\n\n- Ignore the Support Squad special rule on Deathwatch Kill Team units in your army.\n- Ignore the Support Squad special rule on Watch Captain units in your army.\n- You gain access to the below Warlord Traits instead of the standard Imperial Agents Warlord traits.\n- You gain access to the below Relic Wargear.\n- You gain access to the following units (see below):\n    - Watch Captain Artemis.\n\nRelic Wargear\n\n- The Spear of the First Vigil\n\nWarlord Traits\n\n- Castellan of the Black Vault\n- Paragon of their Chapter\n- The Ties that Bind",
+   "restrictions": [
+    {
+     "id": "deathwatch_kill_force_kill_team_min",
+     "printed": "Your army must include at least 3 Deathwatch Kill Team unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_agents/roster/deathwatch_kill_team"
+       }
+      ],
+      "min": 3
+     }
+    },
+    {
+     "id": "deathwatch_kill_force_watch_captain_min",
+     "printed": "Your army must include at least 1 Watch Captain unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_agents/roster/watch_captain"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "deathwatch_kill_force_allegiance",
+     "printed": "Your army must be Allegiance: Ordo Xenos.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "allegiance": "codex/imperial_agents/allegiances/ordo_of_xenos"
+       }
+      ]
+     }
+    },
+    {
+     "id": "deathwatch_kill_force_warlord_traits_forbidden",
+     "printed": "You gain access to the below Warlord Traits instead of the standard Imperial Agents Warlord traits.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "imperial_agents",
+        "group": "warlord_traits"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "deathwatch_kill_force_ignore_support_squad_kill_team",
+     "printed": "Ignore the Support Squad special rule on Deathwatch Kill Team units in your army.",
+     "suppress_rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_agents/roster/deathwatch_kill_team"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "deathwatch_kill_force_ignore_support_squad_watch_captain",
+     "printed": "Ignore the Support Squad special rule on Watch Captain units in your army.",
+     "suppress_rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_agents/roster/watch_captain"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "deathwatch_kill_force_warlord_traits",
+     "printed": "You gain access to the below Warlord Traits instead of the standard Imperial Agents Warlord traits.",
+     "options": [
+      {
+       "book_options": "imperial_agents",
+       "group": "deathwatch_warlord_traits"
+      }
+     ]
+    },
+    {
+     "id": "deathwatch_kill_force_relics",
+     "printed": "You gain access to the below Relic Wargear.",
+     "options": [
+      {
+       "book_options": "imperial_agents",
+       "group": "deathwatch_relics"
+      }
+     ]
+    },
+    {
+     "id": "deathwatch_kill_force_watch_captain_artemis",
+     "printed": "You gain access to the following units (see below):",
+     "unlocks": [
+      "codex/imperial_agents/roster/watch_captain_artemis"
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_agents/rites_of_war/grey_knights_strike_force",
+   "name": "Grey Knights Strike Force",
+   "page": 34,
+   "url": "https://longwarindex.app/rites_of_war/grey_knights_strike_force/",
+   "offered_by": {
+    "codex": "imperial_agents"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 2 Grey Knight Strike Squad units.\n- Your army must include a Brother Captain unit.\n- Your army must be Allegiance: Ordo Malleus.\n\nBenefit\n\n- Ignore the Support Squad special rule on Grey Knight Strike Squad units in your army.\n- Ignore the Support Squad special rule on Brother Captain units in your army.\n- You may field Grey Knight Terminators as Troops choices in your army but they gain the Support Squad special rule.\n- You gain access to the below Warlord Traits instead of the standard Imperial Agents Warlord traits.\n- You gain access to the below Relic Wargear.\n- You gain access to the following units (see below):\n    - Grand Master Voldus.\n    - Castellan Crowe.\n    - Brother Captain Stern.\n    - Kaldor Draigo.\n\nRelic Wargear\n\n- The Sanctic Shard\n\nWarlord Traits\n\n- Daemon Slayer\n- Nemesis Lord\n- Psychic Epitome",
+   "restrictions": [
+    {
+     "id": "grey_knights_strike_force_strike_squad_min",
+     "printed": "Your army must include at least 2 Grey Knight Strike Squad units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_agents/roster/grey_knights_strike_squad"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "grey_knights_strike_force_brother_captain_min",
+     "printed": "Your army must include a Brother Captain unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_agents/roster/brother_captain"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "grey_knights_strike_force_allegiance",
+     "printed": "Your army must be Allegiance: Ordo Malleus.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "allegiance": "codex/imperial_agents/allegiances/ordo_malleus"
+       }
+      ]
+     }
+    },
+    {
+     "id": "grey_knights_strike_force_warlord_traits_forbidden",
+     "printed": "You gain access to the below Warlord Traits instead of the standard Imperial Agents Warlord traits.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "imperial_agents",
+        "group": "warlord_traits"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "grey_knights_strike_force_ignore_support_squad_strike_squad",
+     "printed": "Ignore the Support Squad special rule on Grey Knight Strike Squad units in your army.",
+     "suppress_rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_agents/roster/grey_knights_strike_squad"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "grey_knights_strike_force_ignore_support_squad_brother_captain",
+     "printed": "Ignore the Support Squad special rule on Brother Captain units in your army.",
+     "suppress_rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_agents/roster/brother_captain"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "grey_knights_strike_force_terminators_troops",
+     "printed": "You may field Grey Knight Terminators as Troops choices in your army but they gain the Support Squad special rule.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_agents/roster/grey_knights_terminator_squad"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "grey_knights_strike_force_terminators_support_squad",
+     "printed": "You may field Grey Knight Terminators as Troops choices in your army but they gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_agents/roster/grey_knights_terminator_squad"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "grey_knights_strike_force_warlord_traits",
+     "printed": "You gain access to the below Warlord Traits instead of the standard Imperial Agents Warlord traits.",
+     "options": [
+      {
+       "book_options": "imperial_agents",
+       "group": "grey_knight_warlord_traits"
+      }
+     ]
+    },
+    {
+     "id": "grey_knights_strike_force_relics",
+     "printed": "You gain access to the below Relic Wargear.",
+     "options": [
+      {
+       "book_options": "imperial_agents",
+       "group": "grey_knight_relics"
+      }
+     ]
+    },
+    {
+     "id": "grey_knights_strike_force_units",
+     "printed": "You gain access to the following units (see below):",
+     "unlocks": [
+      "codex/imperial_agents/roster/grand_master_voldus",
+      "codex/imperial_agents/roster/castellan_crowe",
+      "codex/imperial_agents/roster/brother_captain_stern",
+      "codex/imperial_agents/roster/kaldor_draigo"
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_agents/rites_of_war/imperial_knight_household",
+   "name": "Imperial Knight Household",
+   "page": 40,
+   "url": "https://longwarindex.app/rites_of_war/imperial_knight_household/",
+   "offered_by": {
+    "codex": "imperial_agents"
+   },
+   "text": "Restrictions\n\n- Your army must contain at least 2 Knight type unit.\n- Your Warlord must be a Knight type model.\n- Your Army may not include:\n    - Interrogator Prime.\n    - Inquisitorial Acolytes.\n    - Tempestus Scion Squads.\n    - Tempestus Aquilon squads.\n    - Voidsmen-At-Arms.\n    - Navy Breachers.\n    - Arbite Enforcers.\n    - Taurox Prime Armoured Car.\n    - Stormraven Gunship.\n    - Land Raider.\n    - Land Raider Redeemer.\n    - Land Raider Crusader.\n\nBenefit\n\n- You gain access to Knight House Guard (see Below).\n- You gain access to Knight Armiger (see Below).\n- You gain access to Knight Dominus (see below).\n- You gain access to the Knight Cerastus (see below).\n- You gain access to the Knight Acastus (see below).\n- You gain access to the Knight Bellatus (see below).\n- You may field Knight Questoris as Heavy Support Choices or HQ choices.\n- You gain access to the below Warlord Traits instead of the standard Imperial Agents Warlord traits.\n\nWarlord Traits\n\n- Crown of Kings\n- Slayer of the Darkness\n- Throne of Ancestors",
+   "restrictions": [
+    {
+     "id": "imperial_knight_household_knight_min",
+     "printed": "Your army must contain at least 2 Knight type unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "unit_type": "Knight"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "imperial_knight_household_warlord_knight",
+     "printed": "Your Warlord must be a Knight type model.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "unit_type": "Knight"
+       }
+      ]
+     }
+    },
+    {
+     "id": "imperial_knight_household_forbidden_units",
+     "printed": "Your Army may not include:",
+     "scope": "detachment",
+     "forbidden_units": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_agents/roster/interrogator_prime"
+       },
+       {
+        "datasheet": "codex/imperial_agents/roster/inquisitorial_acolytes"
+       },
+       {
+        "datasheet": "codex/imperial_agents/roster/tempestus_scion_squad"
+       },
+       {
+        "datasheet": "codex/imperial_agents/roster/tempestus_scion_aquilon_squad"
+       },
+       {
+        "datasheet": "codex/imperial_agents/roster/voidsmen_at_arms"
+       },
+       {
+        "datasheet": "codex/imperial_agents/roster/navy_breachers"
+       },
+       {
+        "datasheet": "codex/imperial_agents/roster/arbite_enforcers"
+       },
+       {
+        "datasheet": "codex/imperial_agents/roster/taurox_prime_armoured_car"
+       },
+       {
+        "datasheet": "codex/imperial_agents/roster/stormraven_gunship"
+       },
+       {
+        "datasheet": "codex/imperial_agents/roster/land_raider"
+       },
+       {
+        "datasheet": "codex/imperial_agents/roster/land_raider_redeemer"
+       },
+       {
+        "datasheet": "codex/imperial_agents/roster/land_raider_crusader"
+       }
+      ]
+     }
+    },
+    {
+     "id": "imperial_knight_household_warlord_traits_forbidden",
+     "printed": "You gain access to the below Warlord Traits instead of the standard Imperial Agents Warlord traits.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "imperial_agents",
+        "group": "warlord_traits"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "imperial_knight_household_knight_house_guard",
+     "printed": "You gain access to Knight House Guard (see Below).",
+     "unlocks": [
+      "codex/imperial_agents/roster/knight_house_guard"
+     ]
+    },
+    {
+     "id": "imperial_knight_household_knight_armiger",
+     "printed": "You gain access to Knight Armiger (see Below).",
+     "unlocks": [
+      "codex/imperial_agents/roster/knight_armiger"
+     ]
+    },
+    {
+     "id": "imperial_knight_household_knight_dominus",
+     "printed": "You gain access to Knight Dominus (see below).",
+     "unlocks": [
+      "codex/imperial_agents/roster/knight_dominus"
+     ]
+    },
+    {
+     "id": "imperial_knight_household_knight_cerastus",
+     "printed": "You gain access to the Knight Cerastus (see below).",
+     "unlocks": [
+      "codex/imperial_agents/roster/knight_cerastus"
+     ]
+    },
+    {
+     "id": "imperial_knight_household_knight_acastus",
+     "printed": "You gain access to the Knight Acastus (see below).",
+     "unlocks": [
+      "codex/imperial_agents/roster/knight_acastus"
+     ]
+    },
+    {
+     "id": "imperial_knight_household_knight_bellatus",
+     "printed": "You gain access to the Knight Bellatus (see below).",
+     "unlocks": [
+      "codex/imperial_agents/roster/knight_bellatus"
+     ]
+    },
+    {
+     "id": "imperial_knight_household_knight_questoris_heavy_support",
+     "printed": "You may field Knight Questoris as Heavy Support Choices or HQ choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_agents/roster/knight_questoris"
+       }
+      ],
+      "role": "Heavy Support",
+      "instead": false
+     }
+    },
+    {
+     "id": "imperial_knight_household_knight_questoris_hq",
+     "printed": "You may field Knight Questoris as Heavy Support Choices or HQ choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_agents/roster/knight_questoris"
+       }
+      ],
+      "role": "HQ",
+      "instead": false
+     }
+    },
+    {
+     "id": "imperial_knight_household_warlord_traits",
+     "printed": "You gain access to the below Warlord Traits instead of the standard Imperial Agents Warlord traits.",
+     "options": [
+      {
+       "book_options": "imperial_agents",
+       "group": "imperial_knight_warlord_traits"
+      }
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_agents/rites_of_war/witch_hunter_convent",
+   "name": "Witch Hunter Convent",
+   "page": 28,
+   "url": "https://longwarindex.app/rites_of_war/witch_hunter_convent/",
+   "offered_by": {
+    "codex": "imperial_agents"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 3 Celestians units.\n- Your army must include at least 1 Interrogator Prime unit.\n- Your army must be Allegiance: Ordo Hereticus.\n\nBenefit\n\n- Ignore the Support Squad special rule on Celestians units in your army.\n- You gain access to the Zealous Congregation unit below.\n- You gain Access to the Redemptionists unit below.\n- You gain access to the below Relic Wargear.\n\nRelic Wargear\n\n- The Book of Emperor Ascendant",
+   "restrictions": [
+    {
+     "id": "witch_hunter_convent_celestians_min",
+     "printed": "Your army must include at least 3 Celestians units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_agents/roster/celestians"
+       }
+      ],
+      "min": 3
+     }
+    },
+    {
+     "id": "witch_hunter_convent_interrogator_prime_min",
+     "printed": "Your army must include at least 1 Interrogator Prime unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_agents/roster/interrogator_prime"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "witch_hunter_convent_allegiance",
+     "printed": "Your army must be Allegiance: Ordo Hereticus.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "allegiance": "codex/imperial_agents/allegiances/ordo_hereticus"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "witch_hunter_convent_ignore_support_squad_celestians",
+     "printed": "Ignore the Support Squad special rule on Celestians units in your army.",
+     "suppress_rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_agents/roster/celestians"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "witch_hunter_convent_zealous_congregation",
+     "printed": "You gain access to the Zealous Congregation unit below.",
+     "unlocks": [
+      "codex/imperial_agents/roster/zealous_congregation"
+     ]
+    },
+    {
+     "id": "witch_hunter_convent_redemptionists",
+     "printed": "You gain Access to the Redemptionists unit below.",
+     "unlocks": [
+      "codex/imperial_agents/roster/redemptionists"
+     ]
+    },
+    {
+     "id": "witch_hunter_convent_relics",
+     "printed": "You gain access to the below Relic Wargear.",
+     "options": [
+      {
+       "book_options": "imperial_agents",
+       "group": "witch_hunter_relics"
+      }
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

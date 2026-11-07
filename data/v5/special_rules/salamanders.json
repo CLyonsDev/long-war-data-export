@@ -1,0 +1,258 @@
+{
+ "data_version": "a2d990fc01ab64ea",
+ "format": 1,
+ "faction": "salamanders",
+ "special_rules": [
+  {
+   "id": "codex/salamanders/allegiances/allegiance_salamanders",
+   "name": "Allegiance: Salamanders",
+   "kind": "allegiance",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_salamanders/",
+   "references": [
+    "universal_special_rules/character",
+    "special_rules/master_crafted",
+    "battlefield_roles/limited"
+   ],
+   "text": "All units with the Salamanders Keyword gain the Allegiance: Salamanders special rule. The Allegiance: Salamanders special rule consists of the following rules:\n\n- Strength of Nocturne: All Salamanders units gain the following benefits:\n    - All Flamer, Acid, Plasma, Bio-Plasma, Melta, Fusion, Phosphor, and Volkite weapons have -1 to all Wound rolls against Salamanders units.\n    - Salamanders units with the Character special rule gain the Master-Crafted special rule on all weapons they are equipped with.\n\n- Cautious Pace:\n    - All Salamanders units have -1 to their Initiative (I) characteristic (This is included in Salamanders specific units).\n    - Salamanders Javelin Assault Speeders, Storm Speeders and Land Speeders gain Limited: 1 Per Detachment.\n    - Salamanders Tactical Terminators and Assault Terminators gain Limited: 1 Per Detachment."
+  },
+  {
+   "id": "codex/salamanders/special_rules/adherent_of_prophecy",
+   "name": "Adherent of Prophecy",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/adherent_of_prophecy/",
+   "text": "A unit with this special rule always counts as holding an objective regardless of the number of enemy models contesting the objective."
+  },
+  {
+   "id": "codex/salamanders/special_rules/armoury_of_the_18th_legion",
+   "name": "Armoury of the 18th Legion",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_18th_legion/",
+   "references": [
+    "codex/salamanders/allegiances/allegiance_salamanders",
+    "codex/salamanders/special_rules/forge_father",
+    "universal_special_rules/character"
+   ],
+   "text": "Units with Allegiance: Salamanders have access to additional wargear presented in this supplement in addition to the war gear presented in the core Codex Space Marines.\n\nSpace Marine Captain Upgrades\n\nOne Salamander Space Marine Captain in your army may be upgraded to an Iron Father for 55pts.\n\nWargear\n\nAny Salamander unit may purchase a Master-Crafted Weapon for 2pt per model in the unit.\n\nAny Salamander unit may purchase a Master-Crafted Promethean Armour for 1pt per model in the unit.\n\nAny Salamander unit with the Character special rule may take an Obsidian Aquila for 10pts.\n\nAny Salamander unit may exchange their Storm Shield or Relic Shield for a Drake Scale Shield for 5pts.\n\nWeapons\n\nAny Salamanders unit may exchange their equipped Chainsword for a Promethean Chainsword for 1pt per model.\n\nAny Salamander unit may exchange their equipped Boltgun or Heavy Boltgun for a:\n\n- Dragonrage Pattern Boltgun for 2pt per model.\n- Dragonrage Pattern Heavy Boltgun for 2pt per model.\n\nAny Salamanders unit may exchange:\n\n- Their equipped Hand Flamer for a Drake Hand Flamer for 2pts.\n- Their equipped Flamer for a Drake Flamer for 2pts.\n- Their equipped Heavy Flamer for a Drake Heavy Flamer for 2pts.\n- Their equipped Flamestorm Gauntlet for a Drake Flamestorm Guantlet for 2pts.\n- Their equipped Linked Heavy Flamer for a Drake Linked Heavy Flamer for 2pts.\n\nAny Salamanders unit may exchange their equipped Power Sword for a Drakeblade for 10pt per model."
+  },
+  {
+   "id": "codex/salamanders/special_rules/ashmantle",
+   "name": "Ashmantle",
+   "kind": "datasheet",
+   "page": 23,
+   "url": "https://longwarindex.app/special_rules/ashmantle/",
+   "text": "At the end of any Combat Phase in which this model is present, all units within 3\" that do not have the Salamander keyword take D6+1 Strength 3, AP6 automatic hits. Wound and save rolls are taken as normal."
+  },
+  {
+   "id": "codex/salamanders/special_rules/dragon_rage",
+   "name": "Dragon Rage",
+   "kind": "weapon",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/dragon_rage/",
+   "references": [
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "Wounds inflicted by a weapon with this special rule cannot be ignored with the Feel no Pain (x) special rule."
+  },
+  {
+   "id": "codex/salamanders/special_rules/forge_father",
+   "name": "Forge Father",
+   "kind": "datasheet",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/forge_father/",
+   "references": [
+    "universal_special_rules/battle_smith",
+    "codex/space_marines/special_rules/master_of_command"
+   ],
+   "text": "A unit with this upgrade gains +1 to their Ballistic Skill (BS), Weapon Skill (WS), Wounds (W), Attacks (A) and Leadership (LD) characteristics. Additionally, the unit gains the Battle Smith (1) and Master of Command special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_smith",
+      "name": "Battle Smith",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+     },
+     {
+      "rule": "codex/space_marines/special_rules/master_of_command",
+      "name": "Master of Command",
+      "url": "https://longwarindex.app/special_rules/master_of_command_space_marines/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "BS",
+      "delta": 1
+     },
+     {
+      "characteristic": "WS",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     },
+     {
+      "characteristic": "A",
+      "delta": 1
+     },
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/salamanders/special_rules/lord_of_fire",
+   "name": "Lord of Fire",
+   "kind": "warlord_trait",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/lord_of_fire/",
+   "references": [
+    "special_rules/shred"
+   ],
+   "text": "If this unit is your Warlord, this unit and any attached unit gain the Shred Special rule on all equipped Flamers, Drake Flamers, Hand Flamers, Drake Hand Flamers, Heavy Flamers, and Drake Heavy Flamers. This includes the Gauntlets of the Forge.",
+   "effects": {
+    "while_warlord": {
+     "weapon_rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/",
+       "weapons": [
+        {
+         "kind": "weapon",
+         "id": "flamer",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "drake_flamer"
+        },
+        {
+         "kind": "weapon",
+         "id": "hand_flamer",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "drake_hand_flamer"
+        },
+        {
+         "kind": "weapon",
+         "id": "heavy_flamer",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "drake_heavy_flamer"
+        },
+        {
+         "kind": "weapon",
+         "id": "gauntlets_of_the_forge"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/salamanders/special_rules/master_apothecary",
+   "name": "Master Apothecary",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/master_apothecary/",
+   "references": [
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "This model's equipped Narthecium provides the Feel no Pain (4+) special rule instead of the Feel no Pain (5+)."
+  },
+  {
+   "id": "codex/salamanders/special_rules/nocturnes_hammer",
+   "name": "Nocturnes Hammer",
+   "kind": "warlord_trait",
+   "page": 16,
+   "url": "https://longwarindex.app/special_rules/nocturnes_hammer/",
+   "references": [
+    "universal_special_rules/hammer_of_wrath"
+   ],
+   "text": "If this unit is your Warlord, it gains the Hammer of Wrath (3) special rule.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/hammer_of_wrath",
+        "name": "Hammer of Wrath",
+        "param": "3",
+        "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+       },
+       "quote": "If this unit is your Warlord, it gains the Hammer of Wrath (3) special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/salamanders/special_rules/sanctified_by_fire",
+   "name": "Sanctified by Fire",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/sanctified_by_fire/",
+   "text": "Instead of setting to Overwatch, a unit may set to Sanctify an Objective. A unit that sets to Sanctify may select a single Objective Marker within 6\" of it. That Objective Marker is removed from the battlefield and can no longer be used to score Victory Points."
+  },
+  {
+   "id": "codex/salamanders/special_rules/sword_master",
+   "name": "Sword Master",
+   "kind": "warlord_trait",
+   "page": 18,
+   "url": "https://longwarindex.app/special_rules/sword_master/",
+   "references": [
+    "special_rules/parry",
+    "universal_special_rules/preferred_enemy"
+   ],
+   "text": "If this unit is your Warlord, count this models Weapon Skill (WS) characteristic as 2 higher form the Parry special rule when being attacked. In addition, this model gains the Preferred Enemy special rule.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/preferred_enemy",
+        "name": "Preferred Enemy",
+        "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+       },
+       "quote": "In addition, this model gains the Preferred Enemy special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/salamanders/special_rules/the_dragon",
+   "name": "The Dragon",
+   "kind": "datasheet",
+   "page": 23,
+   "url": "https://longwarindex.app/special_rules/the_dragon/",
+   "references": [
+    "special_rules/melta",
+    "special_rules/haywire",
+    "special_rules/rending"
+   ],
+   "text": "This model ignores the effects of the Melta, Haywire (x), and Rending (x) special rules on weapons that target it for attacks."
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "data_version": "f528d1ac095cc6b2",
+ "format": 1,
+ "faction": "ultramarines",
+ "wargear": [
+  {
+   "id": "first_company_relic",
+   "name": "First Company Relic",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/first_company_relic/",
+   "text": "A model equipped with this wargear gains +1 to their Leadership (LD) characteristic when making a Panic test."
+  },
+  {
+   "id": "codex_astartes_copy",
+   "name": "Codex Astartes Copy",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/codex_astartes_copy/",
+   "text": "A model with this wargear may benefit from a Second Codex Doctrine per game, chosen before the first Battle Round begins."
+  },
+  {
+   "id": "agyrum_boarding_shield",
+   "name": "Agyrum Boarding Shield",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/agyrum_boarding_shield/",
+   "text": "A model equipped with this wargear gains a 4+ Invulnerable save. If at least 3 models in a unit are equipped with Agyrum Boarding Shields, all charges against the equipped unit are treated as Disordered Charges.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "the_helm_of_censure",
+   "name": "The Helm of Censure",
+   "section": "Relics",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/the_helm_of_censure/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic and any attached unit adds +1 to hit and Wound rolls."
+  },
+  {
+   "id": "the_sanctic_halo",
+   "name": "The Sanctic Halo",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/the_sanctic_halo/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains the Indomitable Spirit (2+) and Feel no Pain (6+) special rules. The equipped model also gains a 4+ Invulnerable Save.",
+   "effects": {
+    "invulnerable_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/indomitable_spirit",
+      "name": "Indomitable Spirit",
+      "param": "2+",
+      "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+     },
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "6+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "tarentian_cloak",
+   "name": "Tarentian Cloak",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/tarentian_cloak/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains the Battle-Hardened special rules and increase their Wounds (W) characteristic by +1.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "standard_of_macragge_inviolate",
+   "name": "Standard of Macragge Inviolate",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/standard_of_macragge_inviolate/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. All friendly Ultramarines units within 24\" of a model equipped with this Relic can re-roll Pinning and Panic tests. In addition, friendly Ultramarines units within 24\" of the model equipped with this Relic gain the Last Stand special rule and count as scoring 3 additional wounds in Combat for the purposes of determining who won combat."
+  },
+  {
+   "id": "the_armour_of_konor",
+   "name": "The Armour of Konor",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/the_armour_of_konor/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword is equipped with Terminator Armour (any type) and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains the +1 to their Toughness (T) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "armour_of_heraclus",
+   "name": "Armour of Heraclus",
+   "section": "Datasheet",
+   "datasheet": "Marneus Calgar",
+   "page": 11,
+   "url": "https://longwarindex.app/wargear/armour_of_heraclus/",
+   "text": "A model equipped with this wargear gains a 3+ Armour save. A model equipped with this wargear suffers -1 to its Movement (M) characteristic but gains +1 to its Toughness (T) characteristic. The equipped model may re-roll save rolls against wounds caused by weapons with the Blast (x) or Spray special rules.",
+   "effects": {
+    "armour_save": "3+",
+    "stat_mods": [
+     {
+      "characteristic": "M",
+      "delta": -1
+     },
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "armour_of_antilochus",
+   "name": "Armour of Antilochus",
+   "section": "Datasheet",
+   "datasheet": "Marneus Calgar",
+   "page": 11,
+   "url": "https://longwarindex.app/wargear/armour_of_antilochus/",
+   "text": "A model equipped with this wargear gains a 2+ Armour save and 5+ Invulnerable save. The unit also gains the Bulky (2), Relentless and Deep Strike special rules. However, the unit may not perform Sweeping Advances. The unit also gains the Terminator Keyword.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "5+",
+    "keywords": [
+     "Terminator"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "hellfire_hood",
+   "name": "Hellfire Hood",
+   "section": "Datasheet",
+   "datasheet": "Chief Librarian Tigurius",
+   "page": 12,
+   "url": "https://longwarindex.app/wargear/hellfire_hood/",
+   "text": "When an enemy Psyker would attempt to cast a Psychic power within 18\" of the model equipped with this wargear, they take 1 automatic Strength 4, AP6 hit. Wounds and saves are resolved as normal."
+  },
+  {
+   "id": "flak_armour",
+   "name": "Flak Armour",
+   "section": "Datasheet",
+   "datasheet": "Wardens of Ultramar",
+   "page": 18,
+   "url": "https://longwarindex.app/wargear/flak_armour_ultramarines/",
+   "text": "A model equipped with this wargear has a 5+ Armour Save.",
+   "effects": {
+    "armour_save": "5+"
+   }
+  },
+  {
+   "id": "carapace_armour",
+   "name": "Carapace Armour",
+   "section": "Datasheet",
+   "datasheet": "Wardens of Ultramar",
+   "page": 18,
+   "url": "https://longwarindex.app/wargear/carapace_armour_ultramarines/",
+   "text": "A model with this wargear has a 4+ Armour Save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "the_armour_of_fate",
+   "name": "The Armour of Fate",
+   "section": "Datasheet",
+   "datasheet": "Roboute Guilliman, Primarch of the Ultramarines",
+   "page": 20,
+   "url": "https://longwarindex.app/wargear/the_armour_of_fate/",
+   "text": "This wargear confers a 2+ Armour save and 4+ Invulnerable save. The first time this unit would be slain and removed from play, it is not. The model instead remains on the Battlefield and all remaining wounds to be allocated to it are negated. The model then remains in play with D3 wounds remaining.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "banner_of_macragge",
+   "name": "Banner of Macragge",
+   "section": "Datasheet",
+   "datasheet": "Victrix Honour Guard",
+   "page": 21,
+   "url": "https://longwarindex.app/wargear/banner_of_macragge/",
+   "text": "All friendly Ultramarines units within 24\" gain the Stubborn special rule and re-roll all Pinning and Panic Tests. In addition, all friendly Ultramarines units within 24\" count as scoring 2 additional wounds for the purposes of combat resolution and determining who won combat."
+  }
+ ]
+}

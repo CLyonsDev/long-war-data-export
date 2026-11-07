@@ -1,0 +1,197 @@
+{
+ "data_version": "75a1581668f4975c",
+ "format": 1,
+ "faction": "iron_hands",
+ "wargear": [
+  {
+   "id": "automedicae_bionics",
+   "name": "Automedicae Bionics",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/automedicae_bionics_iron_hands/",
+   "text": "A model with this wargear gains the Regeneration special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/regeneration",
+      "name": "Regeneration",
+      "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cyber_familiar",
+   "name": "Cyber Familiar",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/cyber_familiar_iron_hands/",
+   "text": "The equipped model gains +1 to any Invulnerable saves it has (to a max of 3+). In addition, the equipped model may re-roll 1 of the dice when performing the Leadership test for a Machine Rite.",
+   "effects": {
+    "invulnerable_save_improve": {
+     "by": 1,
+     "max": "3+"
+    }
+   }
+  },
+  {
+   "id": "enhanced_bionics",
+   "name": "Enhanced Bionics",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/enhanced_bionics_iron_hands/",
+   "text": "A model equipped with this wargear gains the Feel No Pain (5+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "boarding_shield",
+   "name": "Boarding Shield",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/boarding_shield_iron_hands/",
+   "text": "A model equipped with this wargear gains a 5+ Invulnerable save. If at least 3 models in a unit are equipped with Boarding Shields, all charges against the equipped unit are treated as 11.1.4 - Disordered Charges.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "blessed_autosimulacra",
+   "name": "Blessed Autosimulacra",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/blessed_autosimulacra_iron_hands/",
+   "text": "A model equipped with this wargear gains the Regeneration Special rule. In addition, each time the unit suffers a Wound or Penetrating hit, it can roll a D6. On a 5+ that Wound or Penetrating hit is ignored.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/regeneration",
+      "name": "Regeneration",
+      "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gorgon_terminator_armour",
+   "name": "Gorgon Terminator Armour",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/gorgon_terminator_armour/",
+   "text": "This wargear confers a 2+ Armour save and a 5+ Invulnerable save. The model gains the Relentless, Bulky (2) and Deep Strike special rules. A model equipped with this wargear may not perform Sweeping Advances. When a model with this wargear makes a Successful save in the Shooting Phase, all enemy units within 6\" of the model count as being hit by a weapon with the Blind special rule. The model gains the Terminator Keyword.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "5+",
+    "keywords": [
+     "Terminator"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "awakened_machine_spirit",
+   "name": "Awakened Machine Spirit",
+   "section": "Wargear",
+   "page": 14,
+   "url": "https://longwarindex.app/wargear/awakened_machine_spirit/",
+   "text": "A unit with this upgrade gains +1 to their Ballistic Skill (BS), Weapon Skill (WS), Attacks (A) and Leadership (LD) characteristics. The unit gains the Battle Smith (1) special rule.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "BS",
+      "delta": 1
+     },
+     {
+      "characteristic": "WS",
+      "delta": 1
+     },
+     {
+      "characteristic": "A",
+      "delta": 1
+     },
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_smith",
+      "name": "Battle Smith",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_iron_stone",
+   "name": "The Iron Stone",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_iron_stone/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. At the start of the equipped model Shooting Phase, select a single friendly Vehicle, Aircraft or Walker within 12\". Immediately apply 1 of the effects of the Rite of Repair (see Machine Rites) without performing a Machine Rite. This does not count towards the number of Machine Rites a unit can perform per Shooting Phase."
+  },
+  {
+   "id": "the_gorgons_chain",
+   "name": "The Gorgon's Chain",
+   "printed": {
+    "name": "The Gorgons Chain"
+   },
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_gorgons_chain/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Attacks against a model with this wargear is resolved at -1 Strength."
+  },
+  {
+   "id": "the_tempered_helm",
+   "name": "The Tempered Helm",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_tempered_helm/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this wargear may select a single friendly unit within 24\" at the start of the Movement Phase. That unit automatically passes all Pinning and Panic tests until the start of your next Movement Phase."
+  },
+  {
+   "id": "the_aegis_ferrum",
+   "name": "The Aegis Ferrum",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_aegis_ferrum/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this wargear ignores the first wound assigned to it per Phase."
+  },
+  {
+   "id": "broad_spectrum_enhanced_bionics",
+   "name": "Broad Spectrum Enhanced Bionics",
+   "section": "Datasheet",
+   "datasheet": "Iron Captain Caanok Var",
+   "page": 20,
+   "url": "https://longwarindex.app/wargear/broad_spectrum_enhanced_bionics/",
+   "print_defect": "The book prints no text under this name. The datasheet rule Broad Spectrum Data Tether says \"A unit with this wargear and all friendly Iron Hands units within 12\" may re-roll Panic tests.\""
+  }
+ ]
+}

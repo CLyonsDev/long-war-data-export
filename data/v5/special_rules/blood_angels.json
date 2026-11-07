@@ -1,0 +1,504 @@
+{
+ "data_version": "679a53f998e64871",
+ "format": 1,
+ "faction": "blood_angels",
+ "special_rules": [
+  {
+   "id": "codex/blood_angels/allegiances/allegiance_blood_angels",
+   "name": "Allegiance: Blood Angels",
+   "kind": "allegiance",
+   "page": 4,
+   "url": "https://longwarindex.app/allegiances/allegiance_blood_angels/",
+   "references": [
+    "universal_special_rules/rage",
+    "codex/blood_angels/special_rules/death_company",
+    "codex/space_marines/special_rules/chapter_master"
+   ],
+   "text": "All units with the Blood Angels Keyword gain the Allegiance: Blood Angels special rule. The Allegiance: Blood Angels special rule consists of the following rules:\n\n- The Red Thirst: Blood Angels units gain the following special rules:\n    - Blood Angels Infantry, Bike, Cavalry and Walker type units gain the Rage special rule.\n    - All Blood Angels units in your army must make a Leadership test at the start of each of Combat Phase if they are engaged with an enemy unit:\n        - If the Leadership test is passed, the Blood Angels unit automatically pass all Panic tests they would be required to make that phase.\n        - If the Blood Angels unit fails the Leadership test, the Blood Angels unit gains +1 to its Strength (S) characteristic until the end of the Phase.\n\n    Designer note: You may opt to fail a Leadership Test when called instead of rolling per the Core Rules. This includes the Red Thirst test.\n\n- The Black Rage:\n    - When mustering your army, you must select 1 Blood Angels Infantry or Walker type unit that does not have the Veteran Keyword per 1,000pts to gain the Death Company special rule.\n    - A Blood Angels army must include at least 1 Death Company unit for every 1000pts.\n    - Blood Angels Space Marine Captains may not purchase the Chapter Master upgrade."
+  },
+  {
+   "id": "codex/blood_angels/special_rules/angelic_visage",
+   "name": "Angelic Visage",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/angelic_visage/",
+   "text": "Enemy units within 3\" of a unit with this special rule suffer -1 to their Weapon Skill (WS) characteristic."
+  },
+  {
+   "id": "codex/blood_angels/special_rules/armoury_of_the_9th_legion",
+   "name": "Armoury of the 9th Legion",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_9th_legion/",
+   "references": [
+    "codex/blood_angels/allegiances/allegiance_blood_angels",
+    "codex/blood_angels/special_rules/furioso_dreadnought",
+    "codex/blood_angels/special_rules/librarian_dreadnought",
+    "universal_special_rules/character"
+   ],
+   "text": "Units with Allegiance: Blood Angels have access to additional wargear presented in this supplement in addition to the war gear presented in the core Codex Space Marines.\n\nSpace Marine Dreadnought Upgrades\n\nAny Blood Angels Castraferrum Dreadnoughts may be upgraded to one of the following:\n\n- Furioso Dreadnought for 20pts.\n- Librarian Dreadnought for 40pts.\n\nWargear\n\nOne Blood Angels 'Apothecary' model in your army may purchase a Blood Chalice for 10pts.\n\nWeapons\n\nAny Blood Angels Space Marine Captain or Space Marine Lieutenant model may:\n\n- Exchange their equipped Power Sword for a Blade of Perdition for 3pts.\n- Exchange their equipped Power Axe for a Axe of Perdition for 3pts.\n- Exchange their equipped Power Lance for a Spear of Perdition for 3pts.\n- Exchange their equipped Power Maul for a Maul of Perdition for 3pts.\n\nAny Blood Angels unit may exchange their equipped Frag Grenades for Fleshrender Grenades for 5pts.\n\nAny Blood Angels model in a Tactical Squad unit may:\n\n- Exchange their equipped Boltgun for a Quakebolt Boltgun for 1pts per model.\n\nAny Blood Angels unit with the Character special rule or 'Sergeant' model may exchange their Bolt Pistol for an Inferno Pistol for 15pts.\n\nAny Blood Angels unit with the Character special rule or 'Sergeant' model may exchange their Power Fist for an Eviscerator for 10pts.\n\nAny Blood Angels model equipped with Terminator Armour (any variant) may:\n\n- Exchange their equipped Power Fist for a Encarmine Sword for 0pts.\n- Exchange their equipped Power Fist for an Encarmine Spear for 0pts.\n- Exchange their equipped Power Fist for an Encarmine Axe for 0pts."
+  },
+  {
+   "id": "codex/blood_angels/special_rules/death_company",
+   "name": "Death Company",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/death_company/",
+   "references": [
+    "universal_special_rules/frenzy",
+    "codex/blood_angels/allegiances/allegiance_blood_angels",
+    "universal_special_rules/expendable"
+   ],
+   "text": "A unit with this special rule gains the following effects:\n\n- The unit gains the Frenzy special rule and is always considered to be affected by the Frenzy special rule even if it has suffered no wounds or casualties.\n- The unit with this special rule always counts as failing the Leadership test for the Red Thirst special rule (see Allegiance: Blood Angels).\n- The unit automatically passes all Panic tests.\n- The unit gains the Expendable special rule and does not count for Victory Points when Slain.\n- The unit gains the Death Company Keyword.\n- The unit cannot be joined by other units that do not have the Death Company Keyword.\n\nDesigner Note: The purchase of the Death Company special rule for a unit does not cost any points. It is free but mandatory.",
+   "effects": {
+    "keywords": [
+     "Death Company"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/frenzy",
+      "name": "Frenzy",
+      "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+     },
+     {
+      "rule": "universal_special_rules/expendable",
+      "name": "Expendable",
+      "url": "https://longwarindex.app/universal_special_rules/expendable/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/blood_angels/special_rules/furioso_dreadnought",
+   "name": "Furioso Dreadnought",
+   "kind": "datasheet",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/furioso_dreadnought/",
+   "text": "A unit with this upgrade exchanges its 2 Dreadnought Close Combat Weapons & Storm Bolters for a Blood Fist, Storm Bolter and Heavy Frag Cannon.\n\n- A Furioso Dreadnought may exchange its Smoke Launchers for a Magna Grapple for 10pts.\n- A Furioso Dreadnought may exchange any of its Storm Bolters for one of the following:\n    - Flamer for 5pts.\n    - Meltagun for 15pts.\n- A Furioso Dreadnought may exchange its Blood Fist or Heavy Frag Cannon for Blood Talons for 0pts each.",
+   "effects": {
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "dreadnought_close_combat_weapon",
+        "faction": "space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "dreadnought_close_combat_weapon",
+        "faction": "space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "storm_bolter",
+        "faction": "space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "storm_bolter",
+        "faction": "space_marines"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "bloodfist"
+       },
+       {
+        "kind": "weapon",
+        "id": "storm_bolter",
+        "faction": "space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "heavy_frag_cannon"
+       }
+      ]
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "magna_grapple",
+     "label": "A Furioso Dreadnought may exchange its Smoke Launchers for a Magna Grapple for 10pts.",
+     "printed": "A Furioso Dreadnought may exchange its Smoke Launchers for a Magna Grapple for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "magna_grapple",
+       "name": "Magna Grapple",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "smoke_launchers",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "magna_grapple"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "storm_bolter",
+     "label": "A Furioso Dreadnought may exchange any of its Storm Bolters for one of the following:",
+     "printed": "A Furioso Dreadnought may exchange any of its Storm Bolters for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "flamer",
+       "name": "Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "flamer",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "meltagun",
+       "name": "Meltagun",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "meltagun",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "blood_talons",
+     "label": "A Furioso Dreadnought may exchange its Blood Fist or Heavy Frag Cannon for Blood Talons for 0pts each.",
+     "printed": "A Furioso Dreadnought may exchange its Blood Fist or Heavy Frag Cannon for Blood Talons for 0pts each.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "blood_talons",
+       "name": "Blood Talons",
+       "points": 0,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove_one_of": [
+          {
+           "kind": "weapon",
+           "id": "bloodfist"
+          },
+          {
+           "kind": "weapon",
+           "id": "heavy_frag_cannon"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "blood_talon"
+          }
+         ]
+        }
+       ],
+       "max": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/blood_angels/special_rules/librarian_dreadnought",
+   "name": "Librarian Dreadnought",
+   "kind": "datasheet",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/librarian_dreadnought/",
+   "references": [
+    "universal_special_rules/psyker",
+    "universal_special_rules/adamantium_will"
+   ],
+   "text": "A unit with this upgrade gains the Psyker (2) and Adamantium Will special rules. The unit gains a Psychic Hood. The Librarian Dreadnought exchanges its 1 of its Dreadnought Close Combat Weapons & Storm Bolters for a Force Halberd.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/"
+     },
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     }
+    ],
+    "items": [
+     {
+      "kind": "wargear",
+      "id": "psychic_hood",
+      "faction": "space_marines"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "dreadnought_close_combat_weapon",
+        "faction": "space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "storm_bolter",
+        "faction": "space_marines"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "force_halberd"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/blood_angels/special_rules/masterwork",
+   "name": "Masterwork",
+   "kind": "weapon",
+   "page": 8,
+   "url": "https://longwarindex.app/special_rules/masterwork/",
+   "text": "A model can re-roll all hit rolls of 1 when attacking with a weapon that has this special rule."
+  },
+  {
+   "id": "codex/blood_angels/special_rules/heroic_bearing",
+   "name": "Heroic Bearing",
+   "kind": "warlord_trait",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/heroic_bearing/",
+   "text": "If this unit is your Warlord, friendly units within 12\" of Lord Commander Dante may re-roll failed Panic tests."
+  },
+  {
+   "id": "codex/blood_angels/special_rules/flesh_tearers",
+   "name": "Flesh Tearers",
+   "kind": "warlord_trait",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/flesh_tearers/",
+   "references": [
+    "universal_special_rules/frenzy"
+   ],
+   "text": "If this unit is your Warlord, all Blood Angels in your army gain the Frenzy special rule.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Blood Angels"
+         ]
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/frenzy",
+        "name": "Frenzy",
+        "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+       },
+       "quote": "If this unit is your Warlord, all Blood Angels in your army gain the Frenzy special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/blood_angels/special_rules/falling_angel",
+   "name": "Falling Angel",
+   "kind": "warlord_trait",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/falling_angel/",
+   "text": "If Tycho is your Warlord, he and any attached Blood Angels unit are always considered to have failed the Leadership Test for the Red Thirst at the start of the Combat Phase."
+  },
+  {
+   "id": "codex/blood_angels/special_rules/tycho_the_lost",
+   "name": "Tycho the Lost",
+   "kind": "datasheet",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/tycho_the_lost/",
+   "references": [
+    "codex/blood_angels/special_rules/death_company"
+   ],
+   "text": "During deployment, you may opt for this unit to gain the Death Company special rule. If you do so, he may not be your Warlord."
+  },
+  {
+   "id": "codex/blood_angels/special_rules/captain_of_the_1st_company",
+   "name": "Captain of the 1st Company",
+   "kind": "warlord_trait",
+   "page": 22,
+   "url": "https://longwarindex.app/special_rules/captain_of_the_1st_company/",
+   "references": [
+    "special_rules/pinning"
+   ],
+   "text": "If this unit is your Warlord, all Blood Angels Veteran units may re-roll Pinning tests."
+  },
+  {
+   "id": "codex/blood_angels/special_rules/the_redeemer",
+   "name": "The Redeemer",
+   "kind": "warlord_trait",
+   "page": 24,
+   "url": "https://longwarindex.app/special_rules/the_redeemer/",
+   "references": [
+    "universal_special_rules/expendable"
+   ],
+   "text": "If this unit is your Warlord, all Death Company units in your army no longer have the Expendable special rule.",
+   "effects": {
+    "while_warlord": {
+     "rule_suppressions": [
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Death Company"
+         ]
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/expendable",
+        "name": "Expendable",
+        "url": "https://longwarindex.app/universal_special_rules/expendable/"
+       },
+       "quote": "If this unit is your Warlord, all Death Company units in your army no longer have the Expendable special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/blood_angels/special_rules/lord_of_death",
+   "name": "Lord of Death",
+   "kind": "warlord_trait",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/lord_of_death/",
+   "references": [
+    "codex/blood_angels/allegiances/allegiance_blood_angels"
+   ],
+   "text": "if this unit is your Warlord, it does not take Leadership Tests for the Red Thirst (see Allegiance: Blood Angels). Instead, this unit may freely pick which effect they gain at the start of each Combat Phase."
+  },
+  {
+   "id": "codex/blood_angels/special_rules/foresight",
+   "name": "Foresight",
+   "kind": "datasheet",
+   "page": 26,
+   "url": "https://longwarindex.app/special_rules/foresight_blood_angels/",
+   "text": "After the Deployment Step is concluded but before the first turn begins, this unit, any attached unit and any Transport they are Embarked upon may re-deployed as if it were the Deployment Step."
+  },
+  {
+   "id": "codex/blood_angels/special_rules/high_medicae",
+   "name": "High Medicae",
+   "kind": "warlord_trait",
+   "page": 26,
+   "url": "https://longwarindex.app/special_rules/high_medicae/",
+   "references": [
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "If this unit is your Warlord, you may re-roll Feel no Pain rolls of 1 for this unit and attached units."
+  },
+  {
+   "id": "codex/blood_angels/special_rules/the_guardians_of_the_high_chaplain",
+   "name": "The Guardians of the High Chaplain",
+   "kind": "datasheet",
+   "page": 28,
+   "url": "https://longwarindex.app/special_rules/the_guardians_of_the_high_chaplain/",
+   "text": "This unit does not take up a Slot in the Force Organization Chart if your army includes Astorath as its Warlord.",
+   "effects": {
+    "list_building": {
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/blood_angels/roster/erelim"
+       }
+      ],
+      "count": 1
+     },
+     "while": [
+      {
+       "warlord": {
+        "keyword": "Astorath"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/blood_angels/special_rules/aid_from_beyond",
+   "name": "Aid from Beyond",
+   "kind": "datasheet",
+   "page": 30,
+   "url": "https://longwarindex.app/special_rules/aid_from_beyond/",
+   "references": [
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "This unit must start in reserve. You may re-roll dice when determining if this unit will arrive from Deep Strike."
+  },
+  {
+   "id": "codex/blood_angels/special_rules/avenging_angel",
+   "name": "Avenging Angel",
+   "kind": "warlord_trait",
+   "page": 30,
+   "url": "https://longwarindex.app/special_rules/avenging_angel/",
+   "text": "If this unit is your Warlord, Friendly Blood Angels units that can draw visibility to this unit may use this units Leadership (LD) characteristic. This unit automatically succeeds when making a Charge roll so long as the Charge target is within 9\" of this unit."
+  }
+ ]
+}

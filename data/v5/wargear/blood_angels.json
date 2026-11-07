@@ -1,0 +1,193 @@
+{
+ "data_version": "53c5f3a78618256c",
+ "format": 1,
+ "faction": "blood_angels",
+ "wargear": [
+  {
+   "id": "blood_chalice",
+   "name": "Blood Chalice",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/blood_chalice/",
+   "text": "At the start of your Movement Phase, the equipped model or any attached unit may Heal 1 wound. If the unit does not have any models that have suffered Wounds, you may return 1 Slain model to the unit with 1 Wound remaining."
+  },
+  {
+   "id": "death_mask",
+   "name": "Death Mask",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/death_mask/",
+   "text": "A model with this wargear gains the Fear (1) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "magna_grapple",
+   "name": "Magna Grapple",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/magna_grapple/",
+   "text": "Enemy Vehicle, Walker, Automata and Battlesuit units within 3\" of a unit equipped with this wargear may not make Retreat moves in the Movement phase.\n\nIf a Walker, Automata or Battlesuit unit in combat with this unit would fail a Panic test at the end of the Combat phase, the unit does not move and instead, simply takes 1 automatic wound.\n\nWhen a unit equipped with this wargear attempts to charge a unit that contains a Vehicle, Automata, Knight, Titan, Walker or Battlesuit type unit, this unit has +1 to its Charge roll."
+  },
+  {
+   "id": "the_angels_wing",
+   "name": "The Angel's Wing",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_angels_wing/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model may exchange its Jump Pack for this Relic wargear. The equipped model gains the Move Through Cover special rule and automatically arrives (counts as having rolled a 6) when arriving via Deep Strike. In addition, this wargear counts as a Jump Pack and confers all the benefits of one.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/move_through_cover",
+      "name": "Move Through Cover",
+      "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+     }
+    ],
+    "counts_as": [
+     {
+      "kind": "wargear",
+      "id": "jump_pack",
+      "faction": "space_marines"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_crown_angelic",
+   "name": "The Crown Angelic",
+   "section": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/the_crown_angelic/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this wargear gains the Fear (3) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "3",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_veritas_vitae",
+   "name": "The Veritas Vitae",
+   "section": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/the_veritas_vitae/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model with this wargear generates a Warlord trait from the Blood Angels Warlord Traits. If they are already your Warlord, they may generate an additional Warlord trait."
+  },
+  {
+   "id": "the_gleaming_pinions",
+   "name": "The Gleaming Pinions",
+   "section": "Relics",
+   "page": 11,
+   "url": "https://longwarindex.app/wargear/the_gleaming_pinions/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model may exchange its Jump Pack for this Relic wargear. The equipped model gains the Fade & Fire, Hit & Run and Sprint (1) special rules. In addition, this wargear counts as a Jump Pack and confers all the benefits of one.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fade_and_fire",
+      "name": "Fade & Fire",
+      "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+     },
+     {
+      "rule": "universal_special_rules/hit_and_run",
+      "name": "Hit & Run",
+      "url": "https://longwarindex.app/universal_special_rules/hit_and_run/"
+     },
+     {
+      "rule": "universal_special_rules/sprint",
+      "name": "Sprint",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/sprint/"
+     }
+    ],
+    "counts_as": [
+     {
+      "kind": "wargear",
+      "id": "jump_pack",
+      "faction": "space_marines"
+     }
+    ]
+   }
+  },
+  {
+   "id": "death_mask_of_sanguinius",
+   "name": "Death Mask of Sanguinius",
+   "section": "Datasheet",
+   "datasheet": "Lord Commander Dante",
+   "page": 19,
+   "url": "https://longwarindex.app/wargear/death_mask_of_sanguinius/",
+   "text": "A model with this wargear gains the Fear (2) and Sprint (1) special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     },
+     {
+      "rule": "universal_special_rules/sprint",
+      "name": "Sprint",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/sprint/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "halo_of_thorns",
+   "name": "Halo of Thorns",
+   "section": "Datasheet",
+   "datasheet": "Chapter Master Gabriel Seth",
+   "page": 20,
+   "url": "https://longwarindex.app/wargear/halo_of_thorns/",
+   "text": "A model with this wargear gains a 3+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "3+"
+   }
+  },
+  {
+   "id": "blood_mantle",
+   "name": "Blood Mantle",
+   "section": "Datasheet",
+   "datasheet": "Chapter Master Gabriel Seth",
+   "page": 20,
+   "url": "https://longwarindex.app/wargear/blood_mantle/",
+   "text": "Friendly Blood Angels units within 12\" gain +1 to their Leadership (LD) characteristic."
+  },
+  {
+   "id": "the_quickening",
+   "name": "The Quickening",
+   "section": "Datasheet",
+   "datasheet": "Chief Librarian Mephiston",
+   "page": 25,
+   "url": "https://longwarindex.app/wargear/the_quickening/",
+   "text": "When this power is cast, the Psyker counts as being Initiative (I) 9 until the end start of your next Shooting Phase."
+  },
+  {
+   "id": "the_red_grail",
+   "name": "The Red Grail",
+   "section": "Datasheet",
+   "datasheet": "High Priest Corbulo",
+   "page": 26,
+   "url": "https://longwarindex.app/wargear/the_red_grail/",
+   "text": "A model equipped with this wargear gains a 4+ Invulnerable save. In addition, any attached unit automatically passes Pinning and Panic tests.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  }
+ ]
+}

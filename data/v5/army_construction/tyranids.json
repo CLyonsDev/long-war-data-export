@@ -1,0 +1,1391 @@
+{
+ "data_version": "bedf53b193507dad",
+ "format": 1,
+ "faction": "tyranids",
+ "codex": {
+  "id": "codex/tyranids",
+  "name": "Tyranids",
+  "page": 5,
+  "url": "https://longwarindex.app/codex/tyranids/",
+  "parent": null,
+  "army_rules": [
+   {
+    "rule": "codex/tyranids/special_rules/synapse",
+    "name": "Synapse",
+    "url": "https://longwarindex.app/special_rules/synapse/"
+   },
+   {
+    "rule": "codex/tyranids/special_rules/the_swarm_descends",
+    "name": "The Swarm Descends",
+    "url": "https://longwarindex.app/special_rules/the_swarm_descends/"
+   },
+   {
+    "rule": "codex/tyranids/special_rules/brood_cluster",
+    "name": "Brood Cluster",
+    "url": "https://longwarindex.app/special_rules/brood_cluster/"
+   },
+   {
+    "rule": "codex/tyranids/special_rules/tail_weapon",
+    "name": "Tail Weapon",
+    "url": "https://longwarindex.app/special_rules/tail_weapon/"
+   }
+  ],
+  "allies": {
+   "printed": "The following factions listed in keywords may be taken as allies in an allied detachment if your battle plan allows the use of allied detachments:",
+   "page": 19,
+   "url": "https://longwarindex.app/allies/tyranid_allies/",
+   "factions": [
+    {
+     "faction": "genestealer_cults"
+    }
+   ]
+  },
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/tyranids/rites_of_war/assault_wave",
+    "codex/tyranids/rites_of_war/chitinous_armoured_spearhead",
+    "codex/tyranids/rites_of_war/feeder_wave",
+    "codex/tyranids/rites_of_war/sky_swarm_assault",
+    "codex/tyranids/rites_of_war/subterranean_attack_wave",
+    "codex/tyranids/rites_of_war/synaptic_nexus",
+    "codex/tyranids/rites_of_war/vanguard_wave"
+   ],
+   "from_parent": [],
+   "banned_from_parent": []
+  },
+  "unit_list": {
+   "page": 18,
+   "url": "https://longwarindex.app/unit_list/tyranid_unit_list/",
+   "entries": [
+    {
+     "datasheet": "codex/tyranids/roster/broodlord",
+     "printed": "Broodlord",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/deathleaper",
+     "printed": "Deathleaper",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/hive_tyrant",
+     "printed": "Hive Tyrant",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/neurotyrant",
+     "printed": "Neurotyrant",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/old_one_eye",
+     "printed": "Old One Eye",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/ravener_prime",
+     "printed": "Ravener Prime",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/tervigon",
+     "printed": "Tervigon",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/the_doom_of_malantai",
+     "printed": "The Doom of Malan'tai",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/the_nephilim_king",
+     "printed": "The Nephilim King",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/the_parasite_of_mortex",
+     "printed": "The Parasite of Mortex",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/the_red_terror",
+     "printed": "The Red Terror",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/tyranid_prime",
+     "printed": "Tyranid Prime",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/genestealer_brood",
+     "printed": "Genestealer Brood",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/hormagaunt_brood",
+     "printed": "Hormagaunt Brood",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/raveners",
+     "printed": "Raveners",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/ripper_swarms",
+     "printed": "Ripper Swarms",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/termagant_brood",
+     "printed": "Termagant Brood",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/tyranid_warriors",
+     "printed": "Tyranid Warriors",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/barbgaunt_brood",
+     "printed": "Barbgaunt Brood",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/biovore",
+     "printed": "Biovore",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/hive_guard",
+     "printed": "Hive Guard",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/lictor",
+     "printed": "Lictor",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/malanthrope",
+     "printed": "Malanthrope",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/psychophage",
+     "printed": "Psychophage",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/pyrovore",
+     "printed": "Pyrovore",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/tyrant_guard",
+     "printed": "Tyrant Guard",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/venomthropes",
+     "printed": "Venomthropes",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/von_ryans_leapers",
+     "printed": "Von Ryans Leapers",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/zoanthropes",
+     "printed": "Zoanthropes",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/tyrannocyte",
+     "printed": "Tyrannocyte",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/harpy_brood",
+     "printed": "Harpy Brood",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/hive_crone_brood",
+     "printed": "Hive Crone Brood",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/dimachaeron",
+     "printed": "Dimachaeron",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/gargoyle_brood",
+     "printed": "Gargoyle Brood",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/mawloc",
+     "printed": "Mawloc",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/mucolid_spores",
+     "printed": "Mucolid Spores",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/spore_mines",
+     "printed": "Spore Mines",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/trygon",
+     "printed": "Trygon",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/carnifex_brood",
+     "printed": "Carnifex Brood",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/exocrine",
+     "printed": "Exocrine",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/haruspex",
+     "printed": "Haruspex",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/maleceptor",
+     "printed": "Maleceptor",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/toxicrene",
+     "printed": "Toxicrene",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/tyrannofex",
+     "printed": "Tyrannofex",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/harridan",
+     "printed": "Harridan",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/hierodule_brood",
+     "printed": "Hierodule Brood",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/hierophant_bio_titan",
+     "printed": "Hierophant Bio-Titan",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/norn_assimilator",
+     "printed": "Norn Assimilator",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/norn_emissary",
+     "printed": "Norn Emissary",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/tyranids/roster/sporocyst",
+     "printed": "Sporocyst",
+     "role": "Fortification"
+    }
+   ]
+  },
+  "keyword_templates": [
+   {
+    "template": "[Hive Fleet]",
+    "substitution": {
+     "by": "allegiance"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/tyranids/allegiances/behemoth",
+   "name": "Allegiance: Behemoth",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/behemoth/",
+   "offered_by": {
+    "codex": "tyranids"
+   },
+   "keyword_substitution": {
+    "template": "[Hive Fleet]",
+    "value": "Behemoth"
+   },
+   "rule": {
+    "rule": "codex/tyranids/allegiances/behemoth",
+    "name": "Behemoth",
+    "printed": "codex/tyranids/allegiances/behemoth",
+    "url": "https://longwarindex.app/allegiances/behemoth/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "heavy_support_per_1000",
+     "printed": "A Behemoth Army must have at least 1 Heavy Support choice for every 1000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "role": "Heavy Support"
+       }
+      ],
+      "min": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    }
+   ],
+   "benefits": [],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/tyranids/allegiances/gorgon",
+   "name": "Allegiance: Gorgon",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/gorgon/",
+   "offered_by": {
+    "codex": "tyranids"
+   },
+   "keyword_substitution": {
+    "template": "[Hive Fleet]",
+    "value": "Gorgon"
+   },
+   "rule": {
+    "rule": "codex/tyranids/allegiances/gorgon",
+    "name": "Gorgon",
+    "printed": "codex/tyranids/allegiances/gorgon",
+    "url": "https://longwarindex.app/allegiances/gorgon/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [],
+   "game_time": [
+    "Once per game, at the start of the Battle Round, you may change which Adaptive Physiology your army benefits from (see army special rules).",
+    "If a Gorgon army does not slay more units than the opponent by the end of the game, you lose 1VP."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/tyranids/allegiances/hydra",
+   "name": "Allegiance: Hydra",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/hydra/",
+   "offered_by": {
+    "codex": "tyranids"
+   },
+   "keyword_substitution": {
+    "template": "[Hive Fleet]",
+    "value": "Hydra"
+   },
+   "rule": {
+    "rule": "codex/tyranids/allegiances/hydra",
+    "name": "Hydra",
+    "printed": "codex/tyranids/allegiances/hydra",
+    "url": "https://longwarindex.app/allegiances/hydra/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "troops_per_1000",
+     "printed": "A Hydra army must have 3 Troops choices for every 1000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "role": "Troops"
+       }
+      ],
+      "min": 3,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    }
+   ],
+   "benefits": [],
+   "game_time": [
+    "At the start of combat, at initiative step 10, if a Hydra Hormagaunt Brood, Ripper Swarm, or Termagant Brood unit has more models in its unit than enemy models in all engaged units, they gain +1 to their Weapon Skill (WS) characteristic. Ripper Swarms models count as 4 models for this special rule."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/tyranids/allegiances/jormangandr",
+   "name": "Allegiance: Jormangandr",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/jormangandr/",
+   "offered_by": {
+    "codex": "tyranids"
+   },
+   "keyword_substitution": {
+    "template": "[Hive Fleet]",
+    "value": "Jormangandr"
+   },
+   "rule": {
+    "rule": "codex/tyranids/allegiances/jormangandr",
+    "name": "Jormangandr",
+    "printed": "codex/tyranids/allegiances/jormangandr",
+    "url": "https://longwarindex.app/allegiances/jormangandr/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "more_elite_than_heavy_support",
+     "printed": "A Jourmangandr army must have more Elite choices than Heavy Support choices.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "role": "Elites"
+       }
+      ],
+      "than": [
+       [
+        {
+         "role": "Heavy Support"
+        }
+       ]
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "burrow_ambush_deep_strike",
+     "printed": "Jourmangandr Monster & Infantry units that are not equipped with Wings gain the Deep Strike special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Jormangandr"
+       },
+       {
+        "any_of": [
+         {
+          "unit_type": "Monster"
+         },
+         {
+          "unit_type": "Infantry"
+         }
+        ]
+       },
+       {
+        "lacks": [
+         {
+          "kind": "wargear",
+          "id": "wings"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/deep_strike",
+        "name": "Deep Strike",
+        "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "The turn a Jourmangandr unit without Wings arrives from Deep Strike, it gains the Sudden Strike special rule."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/tyranids/allegiances/kraken",
+   "name": "Allegiance: Kraken",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/kraken/",
+   "offered_by": {
+    "codex": "tyranids"
+   },
+   "keyword_substitution": {
+    "template": "[Hive Fleet]",
+    "value": "Kraken"
+   },
+   "rule": {
+    "rule": "codex/tyranids/allegiances/kraken",
+    "name": "Kraken",
+    "printed": "codex/tyranids/allegiances/kraken",
+    "url": "https://longwarindex.app/allegiances/kraken/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "more_fast_attack_than_heavy_support",
+     "printed": "A Kraken army must include more Fast Attack Choices than Heavy Support choices.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "role": "Fast Attack"
+       }
+      ],
+      "than": [
+       [
+        {
+         "role": "Heavy Support"
+        }
+       ]
+      ]
+     }
+    }
+   ],
+   "benefits": [],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/tyranids/allegiances/kronos",
+   "name": "Allegiance: Kronos",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/kronos/",
+   "offered_by": {
+    "codex": "tyranids"
+   },
+   "keyword_substitution": {
+    "template": "[Hive Fleet]",
+    "value": "Kronos"
+   },
+   "rule": {
+    "rule": "codex/tyranids/allegiances/kronos",
+    "name": "Kronos",
+    "printed": "codex/tyranids/allegiances/kronos",
+    "url": "https://longwarindex.app/allegiances/kronos/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [],
+   "game_time": [
+    "Kronos units must attempt to charge any units with the Psyker (x) rule or units with models with the Psyker (x) rule in them if they are eligible to charge in the charge Phase unless another unit is closer."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/tyranids/allegiances/leviathan",
+   "name": "Allegiance: Leviathan",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/leviathan/",
+   "offered_by": {
+    "codex": "tyranids"
+   },
+   "keyword_substitution": {
+    "template": "[Hive Fleet]",
+    "value": "Leviathan"
+   },
+   "rule": {
+    "rule": "codex/tyranids/allegiances/leviathan",
+    "name": "Leviathan",
+    "printed": "codex/tyranids/allegiances/leviathan",
+    "url": "https://longwarindex.app/allegiances/leviathan/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [],
+   "game_time": [
+    "Leviathan units in Synapse gain the Preferred Enemy special rule.",
+    "If a Leviathan unit with the Synapse special rule is slain, and removed from play, any Leviathan unit within 6\" of the slain unit not currently effected by Synapse must immediately make a Pinning test."
+   ],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/tyranids/rites_of_war/assault_wave",
+   "name": "Assault Wave",
+   "page": 18,
+   "url": "https://longwarindex.app/rites_of_war/assault_wave/",
+   "offered_by": {
+    "codex": "tyranids"
+   },
+   "text": "Restrictions\n\n- Your army must include more Assault keyword units than it does Feeder keyword units.\n- Your army must include at least 1 Command keyword units.\n- Your army must include 3 Assault keyword unit for every 1000pts.\n\nBenefits\n\n- At the start of each of your Movement Phases, Hormagaunt units in your army regain D3 lost models.\n- Tyranid Monster type units in your army gain the Outflank Special rule.\n- Once per game, you can summon 1 Spore Mine or Mucolid Spore unit. That unit arrives via the Deep Strike special rule automatically with no deviation.",
+   "restrictions": [
+    {
+     "id": "more_assault_than_feeder",
+     "printed": "Your army must include more Assault keyword units than it does Feeder keyword units.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "keyword": "Assault"
+       }
+      ],
+      "than": [
+       [
+        {
+         "keyword": "Feeder"
+        }
+       ]
+      ]
+     }
+    },
+    {
+     "id": "command_unit",
+     "printed": "Your army must include at least 1 Command keyword units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Command"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "assault_per_1000",
+     "printed": "Your army must include 3 Assault keyword unit for every 1000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Assault"
+       }
+      ],
+      "min": 3,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "monster_outflank",
+     "printed": "Tyranid Monster type units in your army gain the Outflank Special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Tyranid"
+       },
+       {
+        "unit_type": "Monster"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/outflank",
+        "name": "Outflank",
+        "url": "https://longwarindex.app/universal_special_rules/outflank/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "At the start of each of your Movement Phases, Hormagaunt units in your army regain D3 lost models.",
+    "Once per game, you can summon 1 Spore Mine or Mucolid Spore unit. That unit arrives via the Deep Strike special rule automatically with no deviation."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/tyranids/rites_of_war/chitinous_armoured_spearhead",
+   "name": "Chitinous Armoured Spearhead",
+   "page": 18,
+   "url": "https://longwarindex.app/rites_of_war/chitinous_armoured_spearhead/",
+   "offered_by": {
+    "codex": "tyranids"
+   },
+   "text": "Restrictions\n\n- Your army must include 2 Monster type units with the Assault Keyword for every 1000pts.\n- Your army must include at least 1 Carnifex Brood.\n- Your warlord must be a Hive Tyrant.\n\nBenefits\n\n- Your army may include Carnifex Broods as Troops choices.\n- You may field Maleceptors as Elites choices.\n- You may field Toxicrene as Elites choices.\n- You may field Haruspex as Elites choices.",
+   "restrictions": [
+    {
+     "id": "monster_assault_per_1000",
+     "printed": "Your army must include 2 Monster type units with the Assault Keyword for every 1000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "unit_type": "Monster"
+       },
+       {
+        "keyword": "Assault"
+       }
+      ],
+      "min": 2,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "carnifex_brood_unit",
+     "printed": "Your army must include at least 1 Carnifex Brood.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/carnifex_brood"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "warlord_hive_tyrant",
+     "printed": "Your warlord must be a Hive Tyrant.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/hive_tyrant"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "carnifex_brood_troops",
+     "printed": "Your army may include Carnifex Broods as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/carnifex_brood"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "maleceptor_elites",
+     "printed": "You may field Maleceptors as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/maleceptor"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "toxicrene_elites",
+     "printed": "You may field Toxicrene as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/toxicrene"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "haruspex_elites",
+     "printed": "You may field Haruspex as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/haruspex"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/tyranids/rites_of_war/feeder_wave",
+   "name": "Feeder Wave",
+   "page": 18,
+   "url": "https://longwarindex.app/rites_of_war/feeder_wave/",
+   "offered_by": {
+    "codex": "tyranids"
+   },
+   "text": "Restrictions\n\n- You cannot include Vanguard keywords in your army.\n- Your army must include more Feeder Keyword units than Assault Keyword units.\n- One Zoanthrope unit in your army must be upgraded with the Neurothrope upgrade.\n\nBenefits\n\n- You may include an additional Fortification Slot for every 1000pts.\n- You may include Malanthropes as HQ choices.\n- You may include Hive Guard as Troops choices in your army.\n- Sporocysts in your army may be deployed outside of your deployment zone.",
+   "restrictions": [
+    {
+     "id": "no_vanguard",
+     "printed": "You cannot include Vanguard keywords in your army.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Vanguard"
+       }
+      ],
+      "max": 0
+     }
+    },
+    {
+     "id": "more_feeder_than_assault",
+     "printed": "Your army must include more Feeder Keyword units than Assault Keyword units.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "keyword": "Feeder"
+       }
+      ],
+      "than": [
+       [
+        {
+         "keyword": "Assault"
+        }
+       ]
+      ]
+     }
+    },
+    {
+     "id": "zoanthrope_neurothrope",
+     "printed": "One Zoanthrope unit in your army must be upgraded with the Neurothrope upgrade.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "choice": {
+         "page": "codex/tyranids/roster/zoanthropes",
+         "path": "neurothrope/neurothrope"
+        }
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "fortification_slot_per_1000",
+     "printed": "You may include an additional Fortification Slot for every 1000pts.",
+     "slots": {
+      "role": "Fortification",
+      "max_delta": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "malanthrope_hq",
+     "printed": "You may include Malanthropes as HQ choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/malanthrope"
+       }
+      ],
+      "role": "HQ",
+      "instead": false
+     }
+    },
+    {
+     "id": "hive_guard_troops",
+     "printed": "You may include Hive Guard as Troops choices in your army.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/hive_guard"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "Sporocysts in your army may be deployed outside of your deployment zone."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/tyranids/rites_of_war/sky_swarm_assault",
+   "name": "Sky Swarm Assault",
+   "page": 18,
+   "url": "https://longwarindex.app/rites_of_war/sky_swarm_assault/",
+   "offered_by": {
+    "codex": "tyranids"
+   },
+   "text": "Restrictions\n\n- Your Army must include at least 1 Hive Tyrant with Wings.\n- Your army must include 1 Tyranid Warrior unit with Wings.\n- Your army must include 2 units of Gargoyles.\n- Your army must include more units with the Fly keyword than units without.\n\nBenefits\n\n- If the Battle Plan you are using has the Night Fighting rules, those rules are automatically in effect. You may select if the Night Fighting will be Dawn or Dusk.\n- You may field Harpy Broods as Heavy Support Choices.\n- You may field Gargoyles Broods as Troops Choices.",
+   "restrictions": [
+    {
+     "id": "hive_tyrant_with_wings",
+     "printed": "Your Army must include at least 1 Hive Tyrant with Wings.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/hive_tyrant"
+       },
+       {
+        "holds": [
+         {
+          "kind": "wargear",
+          "id": "wings"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "tyranid_warrior_with_wings",
+     "printed": "Your army must include 1 Tyranid Warrior unit with Wings.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/tyranid_warriors"
+       },
+       {
+        "holds": [
+         {
+          "kind": "wargear",
+          "id": "wings"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "gargoyle_units",
+     "printed": "Your army must include 2 units of Gargoyles.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/gargoyle_brood"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "more_fly_than_not",
+     "printed": "Your army must include more units with the Fly keyword than units without.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/fly",
+         "name": "Fly",
+         "url": "https://longwarindex.app/universal_special_rules/fly/"
+        }
+       }
+      ],
+      "than": [
+       [
+        {
+         "not": {
+          "rule": {
+           "rule": "universal_special_rules/fly",
+           "name": "Fly",
+           "url": "https://longwarindex.app/universal_special_rules/fly/"
+          }
+         }
+        }
+       ]
+      ]
+     },
+     "print_defect": "Fly is a special rule in the book, not a keyword. This value counts units with the Fly rule."
+    }
+   ],
+   "benefits": [
+    {
+     "id": "harpy_heavy_support",
+     "printed": "You may field Harpy Broods as Heavy Support Choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/harpy_brood"
+       }
+      ],
+      "role": "Heavy Support",
+      "instead": false
+     }
+    },
+    {
+     "id": "gargoyle_troops",
+     "printed": "You may field Gargoyles Broods as Troops Choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/gargoyle_brood"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "If the Battle Plan you are using has the Night Fighting rules, those rules are automatically in effect. You may select if the Night Fighting will be Dawn or Dusk."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/tyranids/rites_of_war/subterranean_attack_wave",
+   "name": "Subterranean Attack Wave",
+   "page": 18,
+   "url": "https://longwarindex.app/rites_of_war/subterranean_attack_wave/",
+   "offered_by": {
+    "codex": "tyranids"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 2 units of Raveners.\n- Your army must include at least 1 Trygon with the Trygon Prime upgrade.\n- Your army must include at least 1 Mawloc.\n\nBenefits\n\n- Trygon units in your army with the Trygon Prime upgrade are HQ choices instead of Fast Attack choices.\n- You may take Trygons as Elite choices instead of Fast Attack Choices.\n- The turn in which a Trygon, Mawloc or Raveners unit arrives from Deep Strike, it gains the benefit of a 4+ Cover Save until the start of the next turn.",
+   "restrictions": [
+    {
+     "id": "raveners_units",
+     "printed": "Your army must include at least 2 units of Raveners.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/raveners"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "trygon_prime",
+     "printed": "Your army must include at least 1 Trygon with the Trygon Prime upgrade.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/trygon"
+       },
+       {
+        "choice": {
+         "page": "codex/tyranids/roster/trygon",
+         "path": "trygon_prime/trygon_prime"
+        }
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "mawloc_unit",
+     "printed": "Your army must include at least 1 Mawloc.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/mawloc"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "trygon_prime_hq",
+     "printed": "Trygon units in your army with the Trygon Prime upgrade are HQ choices instead of Fast Attack choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/trygon"
+       }
+      ],
+      "role": "HQ",
+      "instead": true,
+      "requires": [
+       {
+        "choice": {
+         "page": "codex/tyranids/roster/trygon",
+         "path": "trygon_prime/trygon_prime"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "trygon_elites",
+     "printed": "You may take Trygons as Elite choices instead of Fast Attack Choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/trygon"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "The turn in which a Trygon, Mawloc or Raveners unit arrives from Deep Strike, it gains the benefit of a 4+ Cover Save until the start of the next turn."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/tyranids/rites_of_war/synaptic_nexus",
+   "name": "Synaptic Nexus",
+   "page": 18,
+   "url": "https://longwarindex.app/rites_of_war/synaptic_nexus/",
+   "offered_by": {
+    "codex": "tyranids"
+   },
+   "text": "Restrictions\n\n- You must include 2 Hormagaunt units with the Neurogaunt upgrade.\n- You must include 1 Neurotyrant which must be your Warlord.\n- You must include more units with the Synapse special rule than without.\n\nBenefits\n\n- You may field Zoanthropes as Troops choices.\n- You may field Maleceptor as Elites choices.\n- Neurotyrants in your army gain the Warp Blast (see Zoanthropes pg37).",
+   "restrictions": [
+    {
+     "id": "hormagaunt_neurogaunts",
+     "printed": "You must include 2 Hormagaunt units with the Neurogaunt upgrade.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/hormagaunt_brood"
+       },
+       {
+        "choice": {
+         "page": "codex/tyranids/roster/hormagaunt_brood",
+         "path": "neurogaunts/neurogaunts"
+        }
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "neurotyrant_unit",
+     "printed": "You must include 1 Neurotyrant which must be your Warlord.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/neurotyrant"
+       }
+      ],
+      "min": 1
+     },
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/neurotyrant"
+       }
+      ]
+     }
+    },
+    {
+     "id": "more_synapse_than_not",
+     "printed": "You must include more units with the Synapse special rule than without.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "rule": {
+         "rule": "codex/tyranids/special_rules/synapse",
+         "name": "Synapse",
+         "url": "https://longwarindex.app/special_rules/synapse/"
+        }
+       }
+      ],
+      "than": [
+       [
+        {
+         "not": {
+          "rule": {
+           "rule": "codex/tyranids/special_rules/synapse",
+           "name": "Synapse",
+           "url": "https://longwarindex.app/special_rules/synapse/"
+          }
+         }
+        }
+       ]
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "zoanthropes_troops",
+     "printed": "You may field Zoanthropes as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/zoanthropes"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "maleceptor_elites",
+     "printed": "You may field Maleceptor as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/maleceptor"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "neurotyrant_warp_blast",
+     "printed": "Neurotyrants in your army gain the Warp Blast (see Zoanthropes pg37).",
+     "weapons": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/neurotyrant"
+       }
+      ],
+      "weapons": [
+       {
+        "kind": "weapon",
+        "id": "warp_blast"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/tyranids/rites_of_war/vanguard_wave",
+   "name": "Vanguard Wave",
+   "page": 17,
+   "url": "https://longwarindex.app/rites_of_war/vanguard_wave/",
+   "offered_by": {
+    "codex": "tyranids"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 2 Genestealer Brood units.\n- Your army warlord must be a Broodlord.\n- Your army must include more Vanguard Keyword units than Assault or Feeder Keyword units.\n\nBenefits\n\n- You may take Von Ryans Leapers as Troops choices.\n- Genestealer Brood units gain the Deep Strike special rule.\n- You may include 1 Lictor in your army without taking up a Force Organization Slot for each Troops choice in your army.",
+   "restrictions": [
+    {
+     "id": "genestealer_brood_units",
+     "printed": "Your army must include at least 2 Genestealer Brood units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/genestealer_brood"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "warlord_broodlord",
+     "printed": "Your army warlord must be a Broodlord.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/broodlord"
+       }
+      ]
+     }
+    },
+    {
+     "id": "more_vanguard_than_assault_or_feeder",
+     "printed": "Your army must include more Vanguard Keyword units than Assault or Feeder Keyword units.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "keyword": "Vanguard"
+       }
+      ],
+      "than": [
+       [
+        {
+         "any_of": [
+          {
+           "keyword": "Assault"
+          },
+          {
+           "keyword": "Feeder"
+          }
+         ]
+        }
+       ]
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "von_ryans_leapers_troops",
+     "printed": "You may take Von Ryans Leapers as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/von_ryans_leapers"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "genestealer_brood_deep_strike",
+     "printed": "Genestealer Brood units gain the Deep Strike special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/genestealer_brood"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/deep_strike",
+        "name": "Deep Strike",
+        "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "lictor_per_troops",
+     "printed": "You may include 1 Lictor in your army without taking up a Force Organization Slot for each Troops choice in your army.",
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/tyranids/roster/lictor"
+       }
+      ],
+      "count": 1,
+      "per_role": "Troops"
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

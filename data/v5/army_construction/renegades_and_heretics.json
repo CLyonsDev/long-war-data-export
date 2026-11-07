@@ -1,0 +1,1025 @@
+{
+ "data_version": "81a17c7f5f546e90",
+ "format": 1,
+ "faction": "renegades_and_heretics",
+ "codex": {
+  "id": "codex/renegades_and_heretics",
+  "name": "Renegades & Heretics",
+  "page": 6,
+  "url": "https://longwarindex.app/codex/renegades_and_heretics/",
+  "parent": null,
+  "army_rules": [
+   {
+    "rule": "codex/renegades_and_heretics/special_rules/daemon",
+    "name": "Daemon",
+    "url": "https://longwarindex.app/special_rules/daemon_renegades_and_heretics/"
+   },
+   {
+    "rule": "codex/renegades_and_heretics/special_rules/dark_overlord",
+    "name": "Dark Overlord",
+    "url": "https://longwarindex.app/special_rules/dark_overlord/"
+   },
+   {
+    "rule": "codex/renegades_and_heretics/special_rules/human_shields",
+    "name": "Human Shields",
+    "url": "https://longwarindex.app/special_rules/human_shields/"
+   },
+   {
+    "rule": "codex/renegades_and_heretics/special_rules/ion_shield",
+    "name": "Ion Shield",
+    "url": "https://longwarindex.app/special_rules/ion_shield_renegades_and_heretics/"
+   }
+  ],
+  "allies": {
+   "printed": "The following factions listed in keywords may be taken as allies in an allied detachment if your battle plan allows the use of allied detachments:",
+   "page": 45,
+   "url": "https://longwarindex.app/allies/renegades_and_heretics_allies/",
+   "factions": [
+    {
+     "faction": "chaos_daemons"
+    },
+    {
+     "faction": "chaos_space_marines"
+    },
+    {
+     "faction": "renegades_and_heretics"
+    }
+   ]
+  },
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/renegades_and_heretics/rites_of_war/lost_and_the_damned",
+    "codex/renegades_and_heretics/rites_of_war/cult_of_the_arkifane",
+    "codex/renegades_and_heretics/rites_of_war/traitor_command",
+    "codex/renegades_and_heretics/rites_of_war/enslaver_hive",
+    "codex/renegades_and_heretics/rites_of_war/chaos_knight_dreadhold",
+    "codex/renegades_and_heretics/rites_of_war/chaos_legio_titanica_cohort"
+   ],
+   "from_parent": [],
+   "banned_from_parent": []
+  },
+  "unit_list": {
+   "page": 44,
+   "url": "https://longwarindex.app/unit_list/renegades_and_heretics_unit_list/",
+   "entries": [
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/archon_urlock_gaur",
+     "printed": "Archon Urlock Gaur",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/daemon_prince",
+     "printed": "Daemon Prince",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/dark_master",
+     "printed": "Dark Master",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/demagogue",
+     "printed": "Demagogue",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/heretek_priest",
+     "printed": "Heretek Priest",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/iconarch",
+     "printed": "Iconarch",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/mamon_the_transfigured",
+     "printed": "Mamon the Transfigured",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/mind_witch",
+     "printed": "Mind Witch",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/tzaangor_shaman",
+     "printed": "Tzaangor Shaman",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/vulgrar_thrice_cursed",
+     "printed": "Vulgrar Thrice Cursed",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/accursed_cultists",
+     "printed": "Accursed Cultists",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/beastmen",
+     "printed": "Beastmen",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/cultist_mob",
+     "printed": "Cultist Mob",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/pox_walker_mob",
+     "printed": "Pox Walker Mob",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/renegade_guardsmen",
+     "printed": "Renegade Guardsmen",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/apostate_preacher",
+     "printed": "Apostate Preacher",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/blessed_blades",
+     "printed": "Blessed Blades",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/earthshaker_carriage",
+     "printed": "Earthshaker Carriage",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/gore_mongers",
+     "printed": "Gore Mongers",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/hired_guns",
+     "printed": "Hired Guns",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/negavolt_cultists",
+     "printed": "Negavolt Cultists",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/ogryn_berserkers",
+     "printed": "Ogryn Berserkers",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/plague_ogryns",
+     "printed": "Plague Ogryns",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/renegade_enforcer",
+     "printed": "Renegade Enforcer",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/rogue_psyker_cabal",
+     "printed": "Rogue Psyker Cabal",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/slaangors",
+     "printed": "Slaangors",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/torments",
+     "printed": "Torments",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/tzaangors",
+     "printed": "Tzaangors",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/centaur_light_carrier",
+     "printed": "Centaur Light Carrier",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/chimera_apc",
+     "printed": "Chimera APC",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/iron_crawler",
+     "printed": "Iron Crawler",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/taurox_armoured_car",
+     "printed": "Taurox Armoured Car",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/chaos_spawn",
+     "printed": "Chaos Spawn",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/hell_hound_assault_tank",
+     "printed": "Hell Hound Assault Tank",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/sentinel",
+     "printed": "Sentinel",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/tzaangor_enlightened",
+     "printed": "Tzaangor Enlightened",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/basilisk_artillery_gun",
+     "printed": "Basilisk Artillery Gun",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/cultist_heavy_weapon_team",
+     "printed": "Cultist Heavy Weapon Team",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/giant_chaos_spawn",
+     "printed": "Giant Chaos Spawn",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/hydra_flak_tank",
+     "printed": "Hydra Flak Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/leman_russ_battle_tank",
+     "printed": "Leman Russ Battle Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/macharius_heavy_tank",
+     "printed": "Macharius Heavy Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/malcador_annihilator_tank",
+     "printed": "Malcador Annihilator Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/malcador_assault_tank",
+     "printed": "Malcador Assault Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/malcador_defender_tank",
+     "printed": "Malcador Defender Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/mutalith_vortex_beast",
+     "printed": "Mutalith Vortex Beast",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/soul_grinder",
+     "printed": "Soul Grinder",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/wyvern_suppression_tank",
+     "printed": "Wyvern Suppression Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/baneblade_super_heavy_tank",
+     "printed": "Baneblade Super Heavy Tank",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/greater_brass_scorpion",
+     "printed": "Greater Brass Scorpion",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/knight_despoiler",
+     "printed": "Knight Despoiler",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/lord_of_skulls",
+     "printed": "Lord of Skulls",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/chaos_bastion",
+     "printed": "Chaos Bastion",
+     "role": "Fortification"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/noctolith_crown",
+     "printed": "Noctolith Crown",
+     "role": "Fortification"
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/enslaver",
+     "printed": "Enslaver",
+     "role": "HQ",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/enslaver_behemoth",
+     "printed": "Enslaver Behemoth",
+     "role": "Heavy Support",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/knight_acastus",
+     "printed": "Knight Acastus",
+     "role": "Lords of War",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/knight_cerastus",
+     "printed": "Knight Cerastus",
+     "role": "Elites",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/knight_tyrant",
+     "printed": "Knight Tyrant",
+     "role": "HQ",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/knight_war_dog",
+     "printed": "Knight War Dog",
+     "role": "Fast Attack",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/reaver_battle_titan",
+     "printed": "Reaver Battle Titan",
+     "role": "Lords of War",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/renegade_command_squad",
+     "printed": "Renegade Command Squad",
+     "role": "HQ",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/renegade_malcador_command_tank",
+     "printed": "Renegade Malcador Command Tank",
+     "role": "HQ",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/vashtorr_the_arkifane",
+     "printed": "Vashtorr the Arkifane",
+     "role": "HQ",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/renegades_and_heretics/roster/warhound_scout_titan",
+     "printed": "Warhound Scout Titan",
+     "role": "Lords of War",
+     "appendix": true
+    }
+   ]
+  },
+  "keyword_templates": []
+ },
+ "allegiances": [],
+ "rites_of_war": [
+  {
+   "id": "codex/renegades_and_heretics/rites_of_war/lost_and_the_damned",
+   "name": "Lost & the Damned",
+   "page": 25,
+   "url": "https://longwarindex.app/rites_of_war/lost_and_the_damned/",
+   "offered_by": {
+    "codex": "renegades_and_heretics"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Dark Master.\n- Your army must include at least 2 Cultist Mobs.\n- Your army must include more Infantry than Vehicle units.\n\nBenefit\n\n- At the start of the battle, during the deployment step, you can select 1 Cultist Mob unit to be Marked for Sacrifice. When the last model in the unit would be slain and removed from play, summon 1 Bloodletter, Daemonette, Plaguebearer or Pink Horror unit within 12\" of the marked unit, more than 3\" away from any enemy models. After the chosen unit is slain, you may select another unit to be Marked for sacrifice.\n- Cultist Mob units in your army may purchase:\n    - Blasting Charges for 10pts for the whole unit.\n    - Frag Grenades for 5pts for the whole unit.\n- You may field 1 Accursed Cultist unit in your army without taking a Force Organization Slot for each Cultist Mob unit in your army.",
+   "restrictions": [
+    {
+     "id": "dark_master_min",
+     "printed": "Your army must include at least 1 Dark Master.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/renegades_and_heretics/roster/dark_master"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "cultist_mob_min",
+     "printed": "Your army must include at least 2 Cultist Mobs.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/renegades_and_heretics/roster/cultist_mob"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "more_infantry_than_vehicle",
+     "printed": "Your army must include more Infantry than Vehicle units.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "unit_type": "Infantry"
+       }
+      ],
+      "than": [
+       [
+        {
+         "unit_type": "Vehicle"
+        }
+       ]
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "cultist_mob_blasting_charges",
+     "printed": "Blasting Charges for 10pts for the whole unit.",
+     "options": [
+      {
+       "book_options": "renegades_and_heretics",
+       "group": "lost_and_the_damned_cultist_upgrades"
+      }
+     ]
+    },
+    {
+     "id": "accursed_cultists_unslotted",
+     "printed": "You may field 1 Accursed Cultist unit in your army without taking a Force Organization Slot for each Cultist Mob unit in your army.",
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/renegades_and_heretics/roster/accursed_cultists"
+       }
+      ],
+      "count": 1,
+      "per_unit": [
+       {
+        "datasheet": "codex/renegades_and_heretics/roster/cultist_mob"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "At the start of the battle, during the deployment step, you can select 1 Cultist Mob unit to be Marked for Sacrifice.",
+    "When the last model in the unit would be slain and removed from play, summon 1 Bloodletter, Daemonette, Plaguebearer or Pink Horror unit within 12\" of the marked unit, more than 3\" away from any enemy models.",
+    "After the chosen unit is slain, you may select another unit to be Marked for sacrifice."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/renegades_and_heretics/rites_of_war/cult_of_the_arkifane",
+   "name": "Cult of the Arkifane",
+   "page": 26,
+   "url": "https://longwarindex.app/rites_of_war/cult_of_the_arkifane/",
+   "offered_by": {
+    "codex": "renegades_and_heretics"
+   },
+   "text": "Restrictions\n\n- If your army includes Vashtorr the Arkifane, he must be your Warlord.\n- You may not include any units with Marks of Chaos except for the Mark of Chaos Undivided.\n- Your army may not include more Vehicle type units than it does Infantry type units.\n\nBenefit\n\n- You may include Fiend Packs from Codex – Chaos Space Marines as Elites choices in your primary detachment.\n- You may field Soul Grinders as Troops choices. These may not be your compulsory units.\n- You gain access to Vashtorr the Arkifane (see below).",
+   "restrictions": [
+    {
+     "id": "vashtorr_warlord",
+     "printed": "If your army includes Vashtorr the Arkifane, he must be your Warlord.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/renegades_and_heretics/roster/vashtorr_the_arkifane"
+       }
+      ],
+      "if_present": true
+     }
+    },
+    {
+     "id": "no_marks_except_undivided",
+     "printed": "You may not include any units with Marks of Chaos except for the Mark of Chaos Undivided.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "holds": [
+           {
+            "kind": "wargear",
+            "id": "the_mark_of_khorne"
+           }
+          ]
+         },
+         {
+          "holds": [
+           {
+            "kind": "wargear",
+            "id": "the_mark_of_nurgle"
+           }
+          ]
+         },
+         {
+          "holds": [
+           {
+            "kind": "wargear",
+            "id": "the_mark_of_slaanesh"
+           }
+          ]
+         },
+         {
+          "holds": [
+           {
+            "kind": "wargear",
+            "id": "the_mark_of_tzeentch"
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "max": 0
+     }
+    },
+    {
+     "id": "vehicle_not_more_than_infantry",
+     "printed": "Your army may not include more Vehicle type units than it does Infantry type units.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "unit_type": "Infantry"
+       }
+      ],
+      "than": [
+       [
+        {
+         "unit_type": "Vehicle"
+        }
+       ]
+      ],
+      "or_equal": true
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "fiend_pack_elites",
+     "printed": "You may include Fiend Packs from Codex – Chaos Space Marines as Elites choices in your primary detachment.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/chaos_space_marines/roster/fiend_pack"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "soul_grinder_troops",
+     "printed": "You may field Soul Grinders as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/renegades_and_heretics/roster/soul_grinder"
+       }
+      ],
+      "role": "Troops",
+      "instead": false,
+      "not_compulsory": true
+     }
+    },
+    {
+     "id": "vashtorr_access",
+     "printed": "You gain access to Vashtorr the Arkifane (see below).",
+     "unlocks": [
+      "codex/renegades_and_heretics/roster/vashtorr_the_arkifane"
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/renegades_and_heretics/rites_of_war/traitor_command",
+   "name": "Traitor Command",
+   "page": 28,
+   "url": "https://longwarindex.app/rites_of_war/traitor_command/",
+   "offered_by": {
+    "codex": "renegades_and_heretics"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 2 Renegade Guardsmen Squads for every 1000pts.\n- Your army may not include the following:\n    - Torments.\n    - Beastmen.\n    - Tzaangors.\n    - Tzaangor Enlightened.\n    - Slaangors.\n    - Negavolt Cultists.\n\nBenefit\n\n- You gain access to Renegade Command Squad (see below).\n- You gain access to the Renegade Malcador Command Tank (see below).\n- Renegade Guardsmen Squads and Renegade Command Squads in your army gains the Squad Tactics special rule (see below).\n\nSquad Tactics\n\nAt the start of each of your turns, each unit in your army may select one of the following Squad Tactics to implement that round. The unit gains the benefit of the chosen Squad Tactic until the start of your next turn.\n\n- Las Overcharge: An Infantry unit may adopt this Squad Tactic. A unit which adopts this Squad Tactic treats all Lasguns they are equipped with as being Heavy 1. However, the Lasguns are treated as being Strength 4, AP4 with the Gets Hot! special rule.\n- Grenade Volley: A unit which adopts this Squad Tactic gains the Barrage (x) special rule on all Grenade type weapons they are equipped with where (x) is equal to the number of models in the unit.\n- Breaching Move: A unit which adopts this Squad Tactic gains the Move Through Cover and Siege Attackers special rules.\n- Bayonet Wall: A unit which adopts this Squad Tactic gains the Counter Attack special rule. In addition, all Charges against a unit adopting this Squad Tactic are resolved as a Disordered Charges.\n- Suppressive Fire: Any unit may adopt this Squad Tactic. A unit which adopts this Squad Tactic gains the Pinning Special rule on all Shooting weapons they are equipped with.",
+   "restrictions": [
+    {
+     "id": "renegade_guardsmen_min",
+     "printed": "Your army must include at least 2 Renegade Guardsmen Squads for every 1000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/renegades_and_heretics/roster/renegade_guardsmen"
+       }
+      ],
+      "min": 2,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "forbidden_units",
+     "printed": "Your army may not include the following:",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/renegades_and_heretics/roster/torments"
+         },
+         {
+          "datasheet": "codex/renegades_and_heretics/roster/beastmen"
+         },
+         {
+          "datasheet": "codex/renegades_and_heretics/roster/tzaangors"
+         },
+         {
+          "datasheet": "codex/renegades_and_heretics/roster/tzaangor_enlightened"
+         },
+         {
+          "datasheet": "codex/renegades_and_heretics/roster/slaangors"
+         },
+         {
+          "datasheet": "codex/renegades_and_heretics/roster/negavolt_cultists"
+         }
+        ]
+       }
+      ],
+      "max": 0
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "renegade_command_squad_access",
+     "printed": "You gain access to Renegade Command Squad (see below).",
+     "unlocks": [
+      "codex/renegades_and_heretics/roster/renegade_command_squad"
+     ]
+    },
+    {
+     "id": "renegade_malcador_command_tank_access",
+     "printed": "You gain access to the Renegade Malcador Command Tank (see below).",
+     "unlocks": [
+      "codex/renegades_and_heretics/roster/renegade_malcador_command_tank"
+     ]
+    }
+   ],
+   "game_time": [
+    "Renegade Guardsmen Squads and Renegade Command Squads in your army gains the Squad Tactics special rule (see below).",
+    "At the start of each of your turns, each unit in your army may select one of the following Squad Tactics to implement that round.",
+    "The unit gains the benefit of the chosen Squad Tactic until the start of your next turn.",
+    "Las Overcharge: An Infantry unit may adopt this Squad Tactic. A unit which adopts this Squad Tactic treats all Lasguns they are equipped with as being Heavy 1. However, the Lasguns are treated as being Strength 4, AP4 with the Gets Hot! special rule.",
+    "Grenade Volley: A unit which adopts this Squad Tactic gains the Barrage (x) special rule on all Grenade type weapons they are equipped with where (x) is equal to the number of models in the unit.",
+    "Breaching Move: A unit which adopts this Squad Tactic gains the Move Through Cover and Siege Attackers special rules.",
+    "Bayonet Wall: A unit which adopts this Squad Tactic gains the Counter Attack special rule. In addition, all Charges against a unit adopting this Squad Tactic are resolved as a Disordered Charges.",
+    "Suppressive Fire: Any unit may adopt this Squad Tactic. A unit which adopts this Squad Tactic gains the Pinning Special rule on all Shooting weapons they are equipped with."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/renegades_and_heretics/rites_of_war/enslaver_hive",
+   "name": "Enslaver Hive",
+   "page": 32,
+   "url": "https://longwarindex.app/rites_of_war/enslaver_hive/",
+   "offered_by": {
+    "codex": "renegades_and_heretics"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Psyker unit per 1,000pts.\n- Your Warlord must be a Psyker.\n- You may not take any Marks of Chaos.\n- Your army may not include units with the Daemon keyword.\n\nBenefit\n\n- You gain access to the Enslaver (see below).\n- You gain access to the Enslaver Behemoth (see below).\n- You gain access to the Enslaver Psychic Discipline (see below).\n\nDrain Will (Psychic Power)\n\nWhen this power is cast, select 1 enemy unit within 24\" of the Psyker. The target halves its Leadership (LD) characteristic until the end of the phase.\n\nPsychic Shock (Psychic Weapon)\n\nA unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Psychic Shock",
+   "restrictions": [
+    {
+     "id": "psyker_per_1000",
+     "printed": "Your army must include at least 1 Psyker unit per 1,000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/psyker",
+         "name": "Psyker",
+         "param": "x",
+         "url": "https://longwarindex.app/universal_special_rules/psyker/"
+        }
+       }
+      ],
+      "min": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "warlord_psyker",
+     "printed": "Your Warlord must be a Psyker.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/psyker",
+         "name": "Psyker",
+         "param": "x",
+         "url": "https://longwarindex.app/universal_special_rules/psyker/"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "no_marks_of_chaos",
+     "printed": "You may not take any Marks of Chaos.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "items": [
+       {
+        "kind": "wargear",
+        "id": "the_mark_of_chaos_undivided"
+       },
+       {
+        "kind": "wargear",
+        "id": "the_mark_of_khorne"
+       },
+       {
+        "kind": "wargear",
+        "id": "the_mark_of_nurgle"
+       },
+       {
+        "kind": "wargear",
+        "id": "the_mark_of_slaanesh"
+       },
+       {
+        "kind": "wargear",
+        "id": "the_mark_of_tzeentch"
+       }
+      ]
+     }
+    },
+    {
+     "id": "no_daemon_units",
+     "printed": "Your army may not include units with the Daemon keyword.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "keyword": "Daemon"
+       }
+      ],
+      "max": 0
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "enslaver_access",
+     "printed": "You gain access to the Enslaver (see below).",
+     "unlocks": [
+      "codex/renegades_and_heretics/roster/enslaver"
+     ]
+    },
+    {
+     "id": "enslaver_behemoth_access",
+     "printed": "You gain access to the Enslaver Behemoth (see below).",
+     "unlocks": [
+      "codex/renegades_and_heretics/roster/enslaver_behemoth"
+     ]
+    },
+    {
+     "id": "enslaver_psychic_discipline_access",
+     "printed": "You gain access to the Enslaver Psychic Discipline (see below).",
+     "options": [
+      {
+       "book_options": "renegades_and_heretics",
+       "group": "enslaver_psychic_discipline"
+      }
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/renegades_and_heretics/rites_of_war/chaos_knight_dreadhold",
+   "name": "Chaos Knight Dreadhold",
+   "page": 35,
+   "url": "https://longwarindex.app/rites_of_war/chaos_knight_dreadhold/",
+   "offered_by": {
+    "codex": "renegades_and_heretics"
+   },
+   "text": "Restrictions\n\n- Your army must contain at least 2 Knight type unit.\n- Your Warlord must be a Knight type model.\n- Your Warlord may only select Traits from the Chaos Knights Warlord Traits.\n\nBenefit\n\n- You gain access to Knight War Dogs (see Below).\n- You gain access to Knight Tyrants (see below).\n- You gain access to the Knight Cerastus (see below).\n- You gain access to the Knight Acastus (see below).\n- You may field Knight Despoilers as Heavy Support Choices or HQ choices.\n- You gain access to the Warlord traits below.\n\nChaos Knight Warlord Traits\n\n- Aura of Dread\n- Infernal Quest\n- Warp-Haunted Hull",
+   "restrictions": [
+    {
+     "id": "knight_min",
+     "printed": "Your army must contain at least 2 Knight type unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "unit_type": "Knight"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "warlord_knight",
+     "printed": "Your Warlord must be a Knight type model.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "unit_type": "Knight"
+       }
+      ]
+     }
+    },
+    {
+     "id": "chaos_knight_warlord_traits_only",
+     "printed": "Your Warlord may only select Traits from the Chaos Knights Warlord Traits.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "renegades_and_heretics",
+        "group": "warlord_traits"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "knight_war_dog_access",
+     "printed": "You gain access to Knight War Dogs (see Below).",
+     "unlocks": [
+      "codex/renegades_and_heretics/roster/knight_war_dog"
+     ]
+    },
+    {
+     "id": "knight_tyrant_access",
+     "printed": "You gain access to Knight Tyrants (see below).",
+     "unlocks": [
+      "codex/renegades_and_heretics/roster/knight_tyrant"
+     ]
+    },
+    {
+     "id": "knight_cerastus_access",
+     "printed": "You gain access to the Knight Cerastus (see below).",
+     "unlocks": [
+      "codex/renegades_and_heretics/roster/knight_cerastus"
+     ]
+    },
+    {
+     "id": "knight_acastus_access",
+     "printed": "You gain access to the Knight Acastus (see below).",
+     "unlocks": [
+      "codex/renegades_and_heretics/roster/knight_acastus"
+     ]
+    },
+    {
+     "id": "knight_despoiler_heavy_support",
+     "printed": "You may field Knight Despoilers as Heavy Support Choices or HQ choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/renegades_and_heretics/roster/knight_despoiler"
+       }
+      ],
+      "role": "Heavy Support",
+      "instead": false
+     }
+    },
+    {
+     "id": "chaos_knight_warlord_traits_access",
+     "printed": "You gain access to the Warlord traits below.",
+     "options": [
+      {
+       "book_options": "renegades_and_heretics",
+       "group": "chaos_knight_warlord_traits"
+      }
+     ]
+    },
+    {
+     "id": "knight_despoiler_hq",
+     "printed": "You may field Knight Despoilers as Heavy Support Choices or HQ choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/renegades_and_heretics/roster/knight_despoiler"
+       }
+      ],
+      "role": "HQ",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/renegades_and_heretics/rites_of_war/chaos_legio_titanica_cohort",
+   "name": "Chaos Legio Titanica Cohort",
+   "page": 41,
+   "url": "https://longwarindex.app/rites_of_war/chaos_legio_titanica_cohort/",
+   "offered_by": {
+    "codex": "renegades_and_heretics"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Titan type unit.\n- Your army must include at least 2 Cultist Mob units.\n\nBenefit\n\n- You gain access to the Reaver Battle Titan (see below).\n- You gain access to the Warhound Scout Titan (see below).\n- 1 Titan in your army may be selected to gain the Character special rule.",
+   "restrictions": [
+    {
+     "id": "titan_min",
+     "printed": "Your army must include at least 1 Titan type unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "unit_type": "Titan"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "cultist_mob_min",
+     "printed": "Your army must include at least 2 Cultist Mob units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/renegades_and_heretics/roster/cultist_mob"
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "reaver_battle_titan_access",
+     "printed": "You gain access to the Reaver Battle Titan (see below).",
+     "unlocks": [
+      "codex/renegades_and_heretics/roster/reaver_battle_titan"
+     ]
+    },
+    {
+     "id": "warhound_scout_titan_access",
+     "printed": "You gain access to the Warhound Scout Titan (see below).",
+     "unlocks": [
+      "codex/renegades_and_heretics/roster/warhound_scout_titan"
+     ]
+    },
+    {
+     "id": "titan_character",
+     "printed": "1 Titan in your army may be selected to gain the Character special rule.",
+     "options": [
+      {
+       "book_options": "renegades_and_heretics",
+       "group": "chaos_legio_titanica_cohort_character"
+      }
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

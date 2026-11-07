@@ -1,0 +1,1279 @@
+{
+ "data_version": "df5ffc63060771e1",
+ "format": 1,
+ "faction": "imperial_agents",
+ "groups": [
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 22,
+   "url": "https://longwarindex.app/codex/imperial_agents/warlord_traits/",
+   "offered_by": {
+    "codex": "imperial_agents"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "imperial_agents/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "master_of_interrogation",
+     "name": "Master of Interrogation",
+     "page": 22,
+     "url": "https://longwarindex.app/warlord_traits/master_of_interrogation/",
+     "text": "If your army includes a model with this Warlord trait, your opponent may not deploy models via the Infiltration special rule during the deployment step and suffers -1 to all rolls when determining if a unit will arrive via Outflank.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "sanctic_will",
+     "name": "Sanctic Will",
+     "page": 22,
+     "url": "https://longwarindex.app/warlord_traits/sanctic_will/",
+     "text": "Your Warlord and any attached unit gain the Stubborn and Indomitable Spirit (2+) special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/stubborn",
+       "name": "Stubborn",
+       "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+      },
+      {
+       "rule": "universal_special_rules/indomitable_spirit",
+       "name": "Indomitable Spirit",
+       "param": "2+",
+       "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+      }
+     ]
+    },
+    {
+     "id": "xeno_tech_armoury",
+     "name": "Xeno-Tech Armoury",
+     "page": 22,
+     "url": "https://longwarindex.app/warlord_traits/xeno_tech_armoury/",
+     "text": "If your Warlord has this trait, units in your army may exchange their Boltgun for\n\n- A Shuriken Catapult for 0pts.\n- A Splinter Rifle for 1pts.\n- A Pulse Rifle for 2pts.\n- A Pulse Carbine for 2pts.\n- An Ion Blaster for 5pts.\n\nModels in your army may exchange their Power Sword for:\n\n- A Witchblade for 5pts.\n- A Dire Sword for 5pts.\n- An Agonizer for 10pts.\n- A Void Blade for 15pts.\n- A Plasma Axe for 10pts.",
+     "points": 0,
+     "pricing": "flat",
+     "list_building": {
+      "benefits": [
+       {
+        "id": "xeno_tech_boltgun",
+        "printed": "If your Warlord has this trait, units in your army may exchange their Boltgun for",
+        "options": [
+         {
+          "book_options": "imperial_agents",
+          "group": "xeno_tech_boltgun"
+         }
+        ]
+       },
+       {
+        "id": "xeno_tech_power_sword",
+        "printed": "Models in your army may exchange their Power Sword for:",
+        "options": [
+         {
+          "book_options": "imperial_agents",
+          "group": "xeno_tech_power_sword"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "deathwatch_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "You gain access to the below Warlord Traits instead of the standard Imperial Agents Warlord traits.",
+   "printed": "You gain access to the below Warlord Traits instead of the standard Imperial Agents Warlord traits.",
+   "page": 31,
+   "url": "https://longwarindex.app/rites_of_war/deathwatch_kill_force/",
+   "offered_by": {
+    "rite": "codex/imperial_agents/rites_of_war/deathwatch_kill_force"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "imperial_agents/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "castellan_of_the_black_vault",
+     "name": "Castellan of the Black Vault",
+     "page": 32,
+     "url": "https://longwarindex.app/warlord_traits/castellan_of_the_black_vault/",
+     "text": "If your Warlord has this trait, All \"Black Shield\" models and units with the Character special rule in your army gain the Master-Crafted special rule on all weapons they are equipped with.",
+     "points": 0,
+     "pricing": "flat",
+     "list_building": {
+      "benefits": [
+       {
+        "id": "black_vault_master_crafted",
+        "printed": "If your Warlord has this trait, All \"Black Shield\" models and units with the Character special rule in your army gain the Master-Crafted special rule on all weapons they are equipped with.",
+        "weapon_rules": {
+         "conditions": [
+          {
+           "any_of": [
+            {
+             "rows": [
+              {
+               "datasheet": "codex/imperial_agents/roster/deathwatch_kill_team",
+               "profile": "Black Shield"
+              }
+             ]
+            },
+            {
+             "datasheet": "codex/imperial_agents/roster/deathwatch_blackshield_castraferrum_dreadnought"
+            },
+            {
+             "rule": {
+              "rule": "universal_special_rules/character",
+              "name": "Character",
+              "url": "https://longwarindex.app/universal_special_rules/character/"
+             }
+            }
+           ]
+          }
+         ],
+         "rules": [
+          {
+           "rule": "special_rules/master_crafted",
+           "name": "Master-Crafted",
+           "url": "https://longwarindex.app/special_rules/master_crafted/"
+          }
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "paragon_of_their_chapter",
+     "name": "Paragon of their Chapter",
+     "page": 32,
+     "url": "https://longwarindex.app/warlord_traits/paragon_of_their_chapter/",
+     "text": "If this unit is your warlord, you gain one of the following (selected when mustering your army)\n\n- Your Warlord always counts as holding an Objective regardless of the number of enemy models contesting it.\n- Gain the Skilled Rider special rule.\n- Your Warlord may re-roll hit rolls of 1 with \"Bolt\" and \"Chain\" weapons.\n- Your Warlord gains the Night Vision special rule.\n- Your Warlord gains the Zealot special rule.\n- Your Warlord gains the Rage special rule.\n- Your Warlord gains the Relentless special rule.\n- Your Warlord gains the Fire & Fade special rule.\n- Your Warlord gains +1 to their Strength (S) characteristic.\n- Your Warlord gains the Skirmisher special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "options": [
+      {
+       "id": "paragon_effect",
+       "label": "selected when mustering your army",
+       "takers": {
+        "scope": "model"
+       },
+       "pick": {
+        "min": 1,
+        "max": 1
+       },
+       "choices": [
+        {
+         "id": "holds_objective",
+         "name": "Your Warlord always counts as holding an Objective regardless of the number of enemy models contesting it.",
+         "points": 0,
+         "pricing": "flat"
+        },
+        {
+         "id": "skilled_rider",
+         "name": "Skilled Rider",
+         "points": 0,
+         "pricing": "flat",
+         "rules": [
+          {
+           "rule": "universal_special_rules/skilled_rider",
+           "name": "Skilled Rider",
+           "url": "https://longwarindex.app/universal_special_rules/skilled_rider/"
+          }
+         ]
+        },
+        {
+         "id": "bolt_and_chain_rerolls",
+         "name": "Your Warlord may re-roll hit rolls of 1 with \"Bolt\" and \"Chain\" weapons.",
+         "points": 0,
+         "pricing": "flat"
+        },
+        {
+         "id": "night_vision",
+         "name": "Night Vision",
+         "points": 0,
+         "pricing": "flat",
+         "rules": [
+          {
+           "rule": "universal_special_rules/night_vision",
+           "name": "Night Vision",
+           "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+          }
+         ]
+        },
+        {
+         "id": "zealot",
+         "name": "Zealot",
+         "points": 0,
+         "pricing": "flat",
+         "rules": [
+          {
+           "rule": "universal_special_rules/zealot",
+           "name": "Zealot",
+           "url": "https://longwarindex.app/universal_special_rules/zealot/"
+          }
+         ]
+        },
+        {
+         "id": "rage",
+         "name": "Rage",
+         "points": 0,
+         "pricing": "flat",
+         "rules": [
+          {
+           "rule": "universal_special_rules/rage",
+           "name": "Rage",
+           "url": "https://longwarindex.app/universal_special_rules/rage/"
+          }
+         ]
+        },
+        {
+         "id": "relentless",
+         "name": "Relentless",
+         "points": 0,
+         "pricing": "flat",
+         "rules": [
+          {
+           "rule": "universal_special_rules/relentless",
+           "name": "Relentless",
+           "url": "https://longwarindex.app/universal_special_rules/relentless/"
+          }
+         ]
+        },
+        {
+         "id": "fade_and_fire",
+         "name": "Fire & Fade",
+         "points": 0,
+         "pricing": "flat",
+         "rules": [
+          {
+           "rule": "universal_special_rules/fade_and_fire",
+           "name": "Fade & Fire",
+           "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+          }
+         ]
+        },
+        {
+         "id": "strength",
+         "name": "+1 Strength (S)",
+         "points": 0,
+         "pricing": "flat",
+         "stat_mods": [
+          {
+           "characteristic": "S",
+           "delta": 1
+          }
+         ]
+        },
+        {
+         "id": "skirmisher",
+         "name": "Skirmisher",
+         "points": 0,
+         "pricing": "flat",
+         "rules": [
+          {
+           "rule": "universal_special_rules/skirmisher",
+           "name": "Skirmisher",
+           "url": "https://longwarindex.app/universal_special_rules/skirmisher/"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "the_ties_that_bind",
+     "name": "The Ties that Bind",
+     "page": 32,
+     "url": "https://longwarindex.app/warlord_traits/the_ties_that_bind/",
+     "text": "All models in your army gain +1 to their Leadership (LD) characteristic.",
+     "points": 0,
+     "pricing": "flat",
+     "list_building": {
+      "benefits": [
+       {
+        "id": "ties_that_bind_leadership",
+        "printed": "All models in your army gain +1 to their Leadership (LD) characteristic.",
+        "stat_mods": {
+         "conditions": [],
+         "mods": [
+          {
+           "characteristic": "Ld",
+           "delta": 1
+          }
+         ]
+        }
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "grey_knight_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "You gain access to the below Warlord Traits instead of the standard Imperial Agents Warlord traits.",
+   "printed": "You gain access to the below Warlord Traits instead of the standard Imperial Agents Warlord traits.",
+   "page": 34,
+   "url": "https://longwarindex.app/rites_of_war/grey_knights_strike_force/",
+   "offered_by": {
+    "rite": "codex/imperial_agents/rites_of_war/grey_knights_strike_force"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "imperial_agents/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "daemon_slayer",
+     "name": "Daemon Slayer",
+     "page": 35,
+     "url": "https://longwarindex.app/warlord_traits/daemon_slayer/",
+     "text": "Your Warlord gains the Monster Hunter and Hatred (Daemons) special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/monster_hunter",
+       "name": "Monster Hunter",
+       "url": "https://longwarindex.app/universal_special_rules/monster_hunter/"
+      },
+      {
+       "rule": "universal_special_rules/hatred",
+       "name": "Hatred",
+       "param": "Daemons",
+       "url": "https://longwarindex.app/universal_special_rules/hatred/"
+      }
+     ]
+    },
+    {
+     "id": "nemesis_lord",
+     "name": "Nemesis Lord",
+     "page": 35,
+     "url": "https://longwarindex.app/warlord_traits/nemesis_lord/",
+     "text": "Your Warlord gains the Precision Hits special rule on all Melee weapons they are equipped with. In addition, your Warlord gains +1 to their Weapon Skill (WS) characteristic.",
+     "points": 0,
+     "pricing": "flat",
+     "weapon_rules": [
+      {
+       "rule": {
+        "rule": "special_rules/precision_hits",
+        "name": "Precision Hits",
+        "url": "https://longwarindex.app/special_rules/precision_hits/"
+       },
+       "weapon_types": [
+        "Melee"
+       ]
+      }
+     ],
+     "stat_mods": [
+      {
+       "characteristic": "WS",
+       "delta": 1
+      }
+     ]
+    },
+    {
+     "id": "psychic_epitome",
+     "name": "Psychic Epitome",
+     "page": 35,
+     "url": "https://longwarindex.app/warlord_traits/psychic_epitome/",
+     "text": "Increase the Warlords Psyker (x) special rule by 1 to a max of 3. In addition, they may re-roll 1 dice when performing a Psychic test when attempting to activate the Force special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/",
+       "raise_by": 1,
+       "max": 3
+      }
+     ],
+     "game_time": [
+      "In addition, they may re-roll 1 dice when performing a Psychic test when attempting to activate the Force special rule."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "imperial_knight_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "You gain access to the below Warlord Traits instead of the standard Imperial Agents Warlord traits.",
+   "printed": "You gain access to the below Warlord Traits instead of the standard Imperial Agents Warlord traits.",
+   "page": 40,
+   "url": "https://longwarindex.app/rites_of_war/imperial_knight_household/",
+   "offered_by": {
+    "rite": "codex/imperial_agents/rites_of_war/imperial_knight_household"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "imperial_agents/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "crown_of_kings",
+     "name": "Crown of Kings",
+     "page": 40,
+     "url": "https://longwarindex.app/warlord_traits/crown_of_kings/",
+     "text": "All House Guard units that can visibility to a Warlord with this trait may re-roll Pinning and Panic tests.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "slayer_of_the_darkness",
+     "name": "Slayer of the Darkness",
+     "page": 40,
+     "url": "https://longwarindex.app/warlord_traits/slayer_of_the_darkness/",
+     "text": "A model with this Warlord trait gains the Monster Hunter and Tank Hunter special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/monster_hunter",
+       "name": "Monster Hunter",
+       "url": "https://longwarindex.app/universal_special_rules/monster_hunter/"
+      },
+      {
+       "rule": "universal_special_rules/tank_hunters",
+       "name": "Tank Hunters",
+       "printed": "Tank Hunter",
+       "url": "https://longwarindex.app/universal_special_rules/tank_hunters/"
+      }
+     ]
+    },
+    {
+     "id": "throne_of_ancestors",
+     "name": "Throne of Ancestors",
+     "page": 40,
+     "url": "https://longwarindex.app/warlord_traits/throne_of_ancestors/",
+     "text": "A model with this trait, at the start of each phase, select 1 weapon they are equipped with that was Destroyed as a result of a Weapon Destroyed result. That weapon counts as not being Destroyed and may be used but counts as having the Gets Hot Special rule until the end of the phase.",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "deathwatch_relics",
+   "kind": "relics",
+   "label": "You gain access to the below Relic Wargear.",
+   "printed": "You gain access to the below Relic Wargear.",
+   "page": 32,
+   "url": "https://longwarindex.app/wargear/the_spear_of_the_first_vigil/",
+   "offered_by": {
+    "rite": "codex/imperial_agents/rites_of_war/deathwatch_kill_force"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "the_spear_of_the_first_vigil",
+     "name": "The Spear of the First Vigil",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Lance for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_lance"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_spear_of_the_first_vigil"
+        }
+       ]
+      }
+     ],
+     "page": 32,
+     "url": "https://longwarindex.app/wargear/the_spear_of_the_first_vigil/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "grey_knight_relics",
+   "kind": "relics",
+   "label": "You gain access to the below Relic Wargear.",
+   "printed": "You gain access to the below Relic Wargear.",
+   "page": 35,
+   "url": "https://longwarindex.app/wargear/the_sanctic_shard/",
+   "offered_by": {
+    "rite": "codex/imperial_agents/rites_of_war/grey_knights_strike_force"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "the_sanctic_shard",
+     "name": "The Sanctic Shard",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_sanctic_shard"
+      }
+     ],
+     "page": 35,
+     "url": "https://longwarindex.app/wargear/the_sanctic_shard/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "witch_hunter_relics",
+   "kind": "relics",
+   "label": "You gain access to the below Relic Wargear.",
+   "printed": "You gain access to the below Relic Wargear.",
+   "page": 28,
+   "url": "https://longwarindex.app/wargear/the_book_of_emperor_ascendant/",
+   "offered_by": {
+    "rite": "codex/imperial_agents/rites_of_war/witch_hunter_convent"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "the_book_of_emperor_ascendant",
+     "name": "The Book of Emperor Ascendant",
+     "points": 50,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_book_of_emperor_ascendant"
+      }
+     ],
+     "page": 28,
+     "url": "https://longwarindex.app/wargear/the_book_of_emperor_ascendant/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "sanctic_psychic_powers",
+   "kind": "psychic_powers",
+   "label": "An Imperial Agent Ordo Hereticus or Ordo Malleus Psyker with the Psyker (x) special rule may purchase psychic Powers from the following Discipline:",
+   "printed": "An Imperial Agent Ordo Hereticus or Ordo Malleus Psyker with the Psyker (x) special rule may purchase psychic Powers from the following Discipline:",
+   "page": 24,
+   "url": "https://longwarindex.app/codex/imperial_agents/powers/",
+   "offered_by": {
+    "codex": "imperial_agents"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     },
+     {
+      "any_of": [
+       {
+        "keyword": "Ordo Hereticus"
+       },
+       {
+        "keyword": "Ordo Malleus"
+       }
+      ]
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "banishment",
+     "name": "Banishment",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/banishment/",
+     "text": "When this power is cast, Select 1 enemy unit within 12\" the Psyker with the Daemon special rule. That unit has -1 to its invulnerable Saves until the start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "gate_of_infinity",
+     "name": "Gate of Infinity",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/gate_of_infinity/",
+     "text": "When this power is cast, the Psyker and any attached unit are removed from the Battlefield. The unit may then be placed anywhere back on the Battlefield more than 9\" away from any enemy models. A unit which performs this Psychic Power and its attached unit this turn, may not declare a Charge in the Charge Phase.",
+     "points": 25,
+     "pricing": "flat"
+    },
+    {
+     "id": "hammerhand",
+     "name": "Hammerhand",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/hammerhand/",
+     "text": "A Psyker is equipped with the following Psychic weapon:\n\n- Hammerhand",
+     "points": 10,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "hammerhand"
+      }
+     ]
+    },
+    {
+     "id": "sanctuary",
+     "name": "Sanctuary",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/sanctuary/",
+     "text": "When this power is cast, the Psyker and al friendly units within 12\" gain a 6+ Invulnerable Save. Any unit that already has an Invulnerable Save gain +1 to their Invulnerable Save (to a Max of 3+). This lasts until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "vortex_of_doom",
+     "name": "Vortex of Doom",
+     "page": 24,
+     "url": "https://longwarindex.app/powers/vortex_of_doom/",
+     "text": "When this power is cast, place 1 Vortex Marker within 12\" of the Psyker. A Vortex Marker should be no larger than a 25mm Base. Only 1 Vortex of Doom can be cast at once. If another unit attempts to Cast this Psychic Power, the previous Vortex Marker is removed and a new once is placed down. If a Vortex marker has been placed down already, a unit that knows this Psychic Power can attempt to cast this Psychic Power again to either place a new Vortex marker or move the existing Marker 2D6\". All units that end their Movement Phase within 6\" of the Vortex marker take D6, Strength 10, AP1 automatic hits.",
+     "points": 35,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "xenopurge_psychic_powers",
+   "kind": "psychic_powers",
+   "label": "An Imperial Agent Ordo Xeno Psyker with the Psyker (x) special rule may purchase psychic Powers from the following Discipline:",
+   "printed": "An Imperial Agent Ordo Xeno Psyker with the Psyker (x) special rule may purchase psychic Powers from the following Discipline:",
+   "page": 24,
+   "url": "https://longwarindex.app/codex/imperial_agents/powers/",
+   "offered_by": {
+    "codex": "imperial_agents"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     },
+     {
+      "keyword": "Ordo Xenos"
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "fortified_with_contempt",
+     "name": "Fortified With Contempt",
+     "page": 25,
+     "url": "https://longwarindex.app/powers/fortified_with_contempt/",
+     "text": "When this power is cast, the Psyker and any attached unit gain the Feel No Pain (6+) special rule until the start of your next Shooting Phase.",
+     "points": 5,
+     "pricing": "flat"
+    },
+    {
+     "id": "mantle_of_shadow",
+     "name": "Mantle of Shadow",
+     "page": 25,
+     "url": "https://longwarindex.app/powers/mantle_of_shadow/",
+     "text": "When this power is cast, the Psyker and any attached unit cannot be targeted for Shooting Attacks in your opponents Shooting Phase unless they are the closest visible enemy unit. This lasts until the start of your next Shooting Phase.",
+     "points": 25,
+     "pricing": "flat"
+    },
+    {
+     "id": "neural_void",
+     "name": "Neural Void",
+     "page": 25,
+     "url": "https://longwarindex.app/powers/neural_void/",
+     "text": "When this power is cast, enemy units within 3\" of the Psyker or their attached unit halve their Leadership (LD) characteristic until the start of your next Shooting Phase.",
+     "points": 20,
+     "pricing": "flat"
+    },
+    {
+     "id": "psychic_cleanse",
+     "name": "Psychic Cleanse",
+     "page": 25,
+     "url": "https://longwarindex.app/powers/psychic_cleanse/",
+     "text": "When this power is cast, all enemy units within 6\" of the Psyker take 2D6 automatic hits resolved at Strength 4, AP4 with the Deflagrate special rule.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "severance",
+     "name": "Severance",
+     "page": 25,
+     "url": "https://longwarindex.app/powers/severance/",
+     "text": "When this power is cast, enemy model in an enemy unit within 12\" of the Psyker. The target enemy model's Leadership (LD) characteristic may not be used for Leadership tests that unit is called to make until the start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "prayers",
+   "kind": "prayers",
+   "label": "Any Imperial Agent unit with the Priest (x) special rule may purchase the following Prayers:",
+   "printed": "Any Imperial Agent unit with the Priest (x) special rule may purchase the following Prayers:",
+   "page": 24,
+   "url": "https://longwarindex.app/codex/imperial_agents/powers/",
+   "offered_by": {
+    "codex": "imperial_agents"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/priest",
+       "name": "Priest",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/priest/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/priest",
+     "name": "Priest",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/priest/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "litany_of_focus",
+     "name": "Litany of Focus",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/litany_of_focus_imperial_agents/",
+     "text": "When this Prayer is performed, the Priest and any attached unit has the Indomitable Spirit (4+) special rule until the start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_hatred",
+     "name": "Litany of Hatred",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/litany_of_hatred_imperial_agents/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gain the Hatred special rule until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_rage",
+     "name": "Litany of Rage",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/litany_of_rage_imperial_agents/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gain the Fear (1) special rule until the start of your next Shooting Phase.",
+     "points": 5,
+     "pricing": "flat"
+    },
+    {
+     "id": "litany_of_strength",
+     "name": "Litany of Strength",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/litany_of_strength_imperial_agents/",
+     "text": "When this Prayer is performed, the Priest and any attached unit gain +1 to their Strength (S) characteristic until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "machine_rites",
+   "kind": "machine_rites",
+   "label": "Any Imperial Agent unit with the Battle Smith (x) special rule may purchase the following Rites:",
+   "printed": "Any Imperial Agent unit with the Battle Smith (x) special rule may purchase the following Rites:",
+   "page": 24,
+   "url": "https://longwarindex.app/codex/imperial_agents/powers/",
+   "offered_by": {
+    "codex": "imperial_agents"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/battle_smith",
+       "name": "Battle Smith",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/battle_smith",
+     "name": "Battle Smith",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "rite_of_consecration",
+     "name": "Rite of Consecration",
+     "page": 27,
+     "url": "https://longwarindex.app/powers/rite_of_consecration_imperial_agents/",
+     "text": "When this Rite is performed successfully, select 1 friendly Walker, Automata, Vehicle, Knight, Fortification or Aircraft unit within 6\" of the unit performing this Rite or the unit performing the Rite is embarked upon. That unit gains the Indomitable Spirit (6+) special rule until the start of your next Shooting Phase.",
+     "points": 5,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_immolation",
+     "name": "Rite of Immolation",
+     "page": 27,
+     "url": "https://longwarindex.app/powers/rite_of_immolation_imperial_agents/",
+     "text": "When this Rite is performed successfully, select 1 friendly Walker, Automata, Vehicle, Knight, Fortification or Aircraft unit within 6\" of the unit performing this Rite or the unit performing the Rite is embarked upon. That unit immediately suffers an Explodes result per the Vehicle Damage Chart, even if it would normally not.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_reloading",
+     "name": "Rite of Reloading",
+     "page": 27,
+     "url": "https://longwarindex.app/powers/rite_of_reloading_imperial_agents/",
+     "text": "When this Rite is performed successfully, select 1 friendly Walker, Automata, Vehicle, Knight, Fortification or Aircraft unit within 6\" of the unit performing this Rite or the unit performing the Rite is embarked upon. That unit immediately makes a Shooting Attack with 1 weapon it is equipped with.",
+     "points": 20,
+     "pricing": "flat"
+    },
+    {
+     "id": "rite_of_repair",
+     "name": "Rite of Repair",
+     "page": 27,
+     "url": "https://longwarindex.app/powers/rite_of_repair_imperial_agents/",
+     "text": "When this Rite is performed successfully, select one of the following effects:\n\n- Select 1 Walker or Automata unit either within 3\" or attached to the unit that is performing this rite. The target unit Heals 1 wound.\n- Select 1 Vehicle, Aircraft, Knight or Fortification either within 3\", attached to the unit performing this Rite or that this unit is embarked upon. Select 1 weapon that target unit is equipped with that has been destroyed. The chosen weapon is no longer destroyed.\n- Select 1 Vehicle or Knight either within 3\", attached to the unit performing this Rite or that this unit is embarked upon that is immobilized. That unit is no longer immobilized. If the unit has the Super Heavy (x) special rule and was Limping, it is no longer considered to be Limping.",
+     "points": 10,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "xeno_tech_boltgun",
+   "kind": "armoury",
+   "label": "If your Warlord has this trait, units in your army may exchange their Boltgun for",
+   "printed": "If your Warlord has this trait, units in your army may exchange their Boltgun for",
+   "page": 22,
+   "url": "https://longwarindex.app/warlord_traits/xeno_tech_armoury/",
+   "offered_by": {
+    "rule": "codex/imperial_agents/warlord_traits/xeno_tech_armoury"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "boltgun"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "shuriken_catapult",
+     "name": "Shuriken Catapult",
+     "printed": "A Shuriken Catapult for 0pts.",
+     "points": 0,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "shuriken_catapult"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "splinter_rifle",
+     "name": "Splinter Rifle",
+     "printed": "A Splinter Rifle for 1pts.",
+     "points": 1,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "splinter_rifle"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pulse_rifle",
+     "name": "Pulse Rifle",
+     "printed": "A Pulse Rifle for 2pts.",
+     "points": 2,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "pulse_rifle"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pulse_carbine",
+     "name": "Pulse Carbine",
+     "printed": "A Pulse Carbine for 2pts.",
+     "points": 2,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "pulse_carbine"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ion_blaster",
+     "name": "Ion Blaster",
+     "printed": "An Ion Blaster for 5pts.",
+     "points": 5,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "ion_blaster"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "xeno_tech_power_sword",
+   "kind": "armoury",
+   "label": "Models in your army may exchange their Power Sword for:",
+   "printed": "Models in your army may exchange their Power Sword for:",
+   "page": 22,
+   "url": "https://longwarindex.app/warlord_traits/xeno_tech_armoury/",
+   "offered_by": {
+    "rule": "codex/imperial_agents/warlord_traits/xeno_tech_armoury"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "power_sword"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "witchblade",
+     "name": "Witchblade",
+     "printed": "A Witchblade for 5pts.",
+     "points": 5,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "witch_blade"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "dire_sword",
+     "name": "Dire Sword",
+     "printed": "A Dire Sword for 5pts.",
+     "points": 5,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "dire_sword"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "agonizer",
+     "name": "Agonizer",
+     "printed": "An Agonizer for 10pts.",
+     "points": 10,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "agonizer"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "void_blade",
+     "name": "Void Blade",
+     "printed": "A Void Blade for 15pts.",
+     "points": 15,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "void_blade"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "plasma_axe",
+     "name": "Plasma Axe",
+     "printed": "A Plasma Axe for 10pts.",
+     "points": 10,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "plasma_axe"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

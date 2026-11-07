@@ -1,0 +1,43 @@
+{
+ "data_version": "d43ee5d2ce1d7e7b",
+ "format": 1,
+ "faction": "world_eaters",
+ "wargear": [
+  {
+   "id": "the_talisman_of_burning_blood",
+   "name": "The Talisman of Burning Blood",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_talisman_of_burning_blood/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic wargear and any attached unit gain +3\" to their Movement (M) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "M",
+      "delta": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "brass_collar_of_borghaster",
+   "name": "Brass Collar of Borghaster",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/brass_collar_of_borghaster/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. When a model equipped with this Relic is targeted by a Psychic Power or Psychic Weapon, roll a D6. On a 4+ the Psyker targeting this unit suffers a Perils of the Warp."
+  },
+  {
+   "id": "the_armour_of_khorne",
+   "name": "The Armour of Khorne",
+   "section": "Datasheet",
+   "datasheet": "Angron, Daemon Primarch of the World Eaters",
+   "page": 20,
+   "url": "https://longwarindex.app/wargear/the_armour_of_khorne/",
+   "text": "This wargear confers a 2+ Armour save. The unit equipped with this Armour cannot be targeted by Psychic Power or Psychic Weapons.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  }
+ ]
+}

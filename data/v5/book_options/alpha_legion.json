@@ -1,0 +1,594 @@
+{
+ "data_version": "c5fea18870dc3585",
+ "format": 1,
+ "faction": "alpha_legion",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic.",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_mindveil/",
+   "offered_by": {
+    "allegiance": "codex/alpha_legion/allegiances/allegiance_alpha_legion"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "blade_of_the_hydra",
+     "name": "Blade of the Hydra",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Chainsword for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "chainsword",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "blade_of_the_hydra"
+        }
+       ]
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/blade_of_the_hydra/",
+     "pricing": "flat"
+    },
+    {
+     "id": "hydras_teeth",
+     "name": "Hydra's Teeth",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Boltgun for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "hydras_teeth"
+        }
+       ]
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/hydras_teeth/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_drakescale_plate",
+     "name": "The Drakescale Plate",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_drakescale_plate"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_drakescale_plate/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_icon_of_insurrection",
+     "name": "The Icon of Insurrection",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_icon_of_insurrection"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_icon_of_insurrection/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_mindveil",
+     "name": "The Mindveil",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this relic.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_mindveil"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_mindveil/",
+     "pricing": "flat"
+    },
+    {
+     "id": "vipers_bite",
+     "name": "Viper's Bite",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Boltgun for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "vipers_bite"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/vipers_bite/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "Units with Allegiance: Alpha Legion have access to the Warlord traits in this supplement. One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "Units with Allegiance: Alpha Legion have access to the Warlord traits in this supplement. One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 9,
+   "url": "https://longwarindex.app/codex/alpha_legion/warlord_traits/",
+   "offered_by": {
+    "allegiance": "codex/alpha_legion/allegiances/allegiance_alpha_legion"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "keyword": "Alpha Legion"
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "chaos_space_marines/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "alpha_strategist",
+     "name": "Alpha Strategist",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/alpha_strategist/",
+     "text": "Your Warlord and any attached unit gain the Outflank and Night Vision special rule. In addition, while your Warlord is alive and on the Battlefield, you may re-roll Outflank rolls and Deep Strike rolls.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/outflank",
+       "name": "Outflank",
+       "url": "https://longwarindex.app/universal_special_rules/outflank/"
+      },
+      {
+       "rule": "universal_special_rules/night_vision",
+       "name": "Night Vision",
+       "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+      }
+     ]
+    },
+    {
+     "id": "faceless_commander",
+     "name": "Faceless Commander",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/faceless_commander/",
+     "text": "At the end of the Combat Phase, a model with this Warlord trait can be removed from the Battlefield (detaching from its current unit) and may be placed back on the Battlefield attached to an eligible friendly unit.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "hidden_in_plain_sight",
+     "name": "Hidden in Plain Sight",
+     "page": 9,
+     "url": "https://longwarindex.app/warlord_traits/hidden_in_plain_sight/",
+     "text": "A model with this Warlord trait and any attached unit gains the Skirmisher special rule. In addition, enemy units have -1 to hit your Warlord and any attached unit with Shooting Attacks.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/skirmisher",
+       "name": "Skirmisher",
+       "url": "https://longwarindex.app/universal_special_rules/skirmisher/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "obfuscation_psychic_powers",
+   "kind": "psychic_powers",
+   "label": "All Alpha Legion units with the Character and Psyker (x) special rules may purchase the following psychic powers.",
+   "printed": "All Alpha Legion units with the Character and Psyker (x) special rules may purchase the following psychic powers.",
+   "page": 6,
+   "url": "https://longwarindex.app/codex/alpha_legion/powers/",
+   "offered_by": {
+    "allegiance": "codex/alpha_legion/allegiances/allegiance_alpha_legion"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Alpha Legion"
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "foreboding",
+     "name": "Foreboding",
+     "page": 6,
+     "url": "https://longwarindex.app/powers/foreboding/",
+     "text": "When this power is successfully cast, the Psyker and any attached unit immediately Set to Overwatch at the end of your Shooting Phase after resolving any Shooting Attacks this Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "invisibility",
+     "name": "Invisibility",
+     "page": 6,
+     "url": "https://longwarindex.app/powers/invisibility/",
+     "text": "When this power is successfully cast, the Psyker and any attached unit cannot be targeted for Shooting Attacks or Charges unless they are the closest visible enemy unit until the start of your next Shooting Phase.",
+     "points": 20,
+     "pricing": "flat"
+    },
+    {
+     "id": "mental_assault",
+     "name": "Mental Assault",
+     "page": 6,
+     "url": "https://longwarindex.app/powers/mental_assault/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Mental Assault",
+     "points": 15,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "mental_assault"
+      }
+     ]
+    },
+    {
+     "id": "mental_fortitude",
+     "name": "Mental Fortitude",
+     "page": 6,
+     "url": "https://longwarindex.app/powers/mental_fortitude/",
+     "text": "When this power is successfully cast, the Psyker and any attached unit automatically pass all Pinning and Panic tests until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "terrify",
+     "name": "Terrify",
+     "page": 6,
+     "url": "https://longwarindex.app/powers/terrify/",
+     "text": "When this power is successfully cast, the Psyker and any attached unit gain the Fear (3) special rule until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "banestrike_weapons",
+   "kind": "armoury",
+   "label": "Any Alpha Legion model may:",
+   "printed": "Any Alpha Legion model may:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_20th_legion/",
+   "offered_by": {
+    "allegiance": "codex/alpha_legion/allegiances/allegiance_alpha_legion"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Alpha Legion"
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "banestrike_boltgun",
+     "name": "Banestrike Boltgun",
+     "printed": "Exchange their equipped Boltgun for a Banestrike Boltgun for 3pts.",
+     "points": 3,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "banestrike_boltgun"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "combi_banestrike_bolter",
+     "name": "Combi Banestrike Bolter",
+     "printed": "Exchange their equipped Combi-Bolter for a Combi Banestrike Bolter for 3pts.",
+     "points": 3,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "combi_bolter",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "combi_banestrike_bolter"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "venom_weapons",
+   "kind": "armoury",
+   "label": "Any Alpha Legion model may:",
+   "printed": "Any Alpha Legion model may:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_20th_legion/",
+   "offered_by": {
+    "allegiance": "codex/alpha_legion/allegiances/allegiance_alpha_legion"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Alpha Legion"
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "venom_blade",
+     "name": "Venom Blade",
+     "printed": "Exchange their equipped Power Sword for a Venom Blade for 3pts.",
+     "points": 3,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "venom_blade"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "venom_lance",
+     "name": "Venom Lance",
+     "printed": "Exchange their equipped Power Lance for a Venom Lance for 3pts.",
+     "points": 3,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_lance",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "venom_spear",
+         "printed": "Venom Lance"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "venom_axe",
+     "name": "Venom Axe",
+     "printed": "Exchange their equipped Power Axe for a Venom Axe for 3pts.",
+     "points": 3,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_axe",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "venom_axe"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "venom_spheres",
+   "kind": "armoury",
+   "label": "Any Alpha Legion model may exchange their equipped Frag Grenades for Venom Spheres for 0pts.",
+   "printed": "Any Alpha Legion model may exchange their equipped Frag Grenades for Venom Spheres for 0pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_20th_legion/",
+   "offered_by": {
+    "allegiance": "codex/alpha_legion/allegiances/allegiance_alpha_legion"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Alpha Legion"
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "venom_spheres",
+     "name": "Venom Spheres",
+     "points": 0,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "frag_grenades",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "venom_sphere"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "power_dagger",
+   "kind": "armoury",
+   "label": "Any Alpha Legion model may exchange their Close Combat Weapon for a Power Dagger for 5pts.",
+   "printed": "Any Alpha Legion model may exchange their Close Combat Weapon for a Power Dagger for 5pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_20th_legion/",
+   "offered_by": {
+    "allegiance": "codex/alpha_legion/allegiances/allegiance_alpha_legion"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Alpha Legion"
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "power_dagger",
+     "name": "Power Dagger",
+     "points": 5,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "close_combat_weapon",
+         "faction": "chaos_space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "power_dagger"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

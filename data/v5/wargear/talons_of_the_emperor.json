@@ -1,0 +1,546 @@
+{
+ "data_version": "110c5697e0218c33",
+ "format": 1,
+ "faction": "talons_of_the_emperor",
+ "wargear": [
+  {
+   "id": "iron_halo",
+   "name": "Iron Halo",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/iron_halo_talons_of_the_emperor/",
+   "text": "A model with an Iron Halo has a 4+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "melta_bomb",
+   "name": "Melta Bomb",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "melta_bomb"
+    }
+   ],
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/melta_bomb_talons_of_the_emperor/",
+   "text": "In combat, a model with this wargear may forgo its attacks and instead make a single Strength 8, AP1 attack with the Melta Special rule at Initiative step 1.",
+   "print_defect": "The book gives this attack in the text of the wargear Melta Bomb. It prints no weapon profile."
+  },
+  {
+   "id": "storm_shield",
+   "name": "Storm Shield",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/storm_shield_talons_of_the_emperor/",
+   "text": "Storm Shields provide the model equipped with the Storm Shield a 4+ Invulnerable save. A model with a Storm Shield gains the Battle-Hardened special rule.",
+   "effects": {
+    "invulnerable_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "digital_weapons",
+   "name": "Digital Weapons",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/digital_weapons_talons_of_the_emperor/",
+   "text": "A model with Digital weapons gains +1 to their Attacks (A) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "A",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "refractor_field",
+   "name": "Refractor Field",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/refractor_field_talons_of_the_emperor/",
+   "text": "A model with a Refractor Field has a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "vexila_defensor",
+   "name": "Vexila Defensor",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/vexila_defensor/",
+   "text": "A model with this wargear and its unit may Set to Defend even if they make a Shooting Attack in the Shooting Phase. A unit that Sets to Defend treats all Charges against it as being Disordered Charges."
+  },
+  {
+   "id": "vexila_magnifica",
+   "name": "Vexila Magnifica",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/vexila_magnifica/",
+   "text": "A model with this wargear and its unit may re-roll failed Pinning and Panic tests. In addition, the unit counts as having scored 1 additional wound in the Combat Phase for the purposes of determining combat resolution."
+  },
+  {
+   "id": "vexila_imperius",
+   "name": "Vexila Imperius",
+   "section": "Wargear",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/vexila_imperius/",
+   "text": "A model with this Wargear and its unit may Set to Overwatch even if they made a Shooting Attack in the Shooting Phase. All Overwatch attacks made by the unit are resolved as if they have the Gets Hot! Special rule if the unit made a Shooting Attack in its previous Shooting Phase."
+  },
+  {
+   "id": "artificer_armour",
+   "name": "Artificer Armour",
+   "section": "Armour",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/artificer_armour_talons_of_the_emperor/",
+   "text": "This masterwork armour provides amongst the greatest protection. It grants a 2+ Armour save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "dreadnought_plate",
+   "name": "Dreadnought Plate",
+   "section": "Armour",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/dreadnought_plate_talons_of_the_emperor/",
+   "text": "These ancient and powerful mechanized war suit encompasses a sarcophagus where an ancient warrior lay entombed. When combined, the warrior may take to the field again with a new body. It confers a 2+ Armour save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "aquilon_terminator_armour",
+   "name": "Aquilon Terminator Armour",
+   "printed": {
+    "name": "Aquilon Terminator Armor"
+   },
+   "section": "Armour",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/aquilon_terminator_armour/",
+   "text": "An ancient heavier pattern of Terminator Armour rarely used. It provides a 2+ Armour save and a 3+ Invulnerable save. The Wearer gains the Relentless, Slow & Purposeful, Bulky (3), and Deep Strike special rules.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "3+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/slow_and_purposeful",
+      "name": "Slow and Purposeful",
+      "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+     },
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "3",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "allarus_terminator_armour",
+   "name": "Allarus Terminator Armour",
+   "section": "Armour",
+   "page": 5,
+   "url": "https://longwarindex.app/wargear/allarus_terminator_armour/",
+   "text": "A more mobile pattern of Terminator Armour rarely used. It provides a 2+ Armour Save and a 4+ Invulnerable save. The Wearer gains Relentless, Bulky (3), Deep Strike and Sprint (1) special rules.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "3",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     },
+     {
+      "rule": "universal_special_rules/sprint",
+      "name": "Sprint",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/sprint/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "jump_pack",
+   "name": "Jump Pack",
+   "section": "Mobility Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/jump_pack_talons_of_the_emperor/",
+   "text": "A unit that is equipped with a Jump Pack increases its Movement (M) characteristic to 12\". It gains the Hammer of Wrath (1), Fly and Deep Strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "dawn_eagle_jetbike",
+   "name": "Dawn Eagle Jetbike",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "hurricane_bolter"
+    }
+   ],
+   "section": "Mobility Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/dawn_eagle_jetbike/",
+   "text": "A unit that is equipped with a Jetbike becomes a Jetbike type unit. In addition, it gains +1 to its Toughness (T) & Wounds (W) Characteristics. A Dawn Eagle Jetbike is armed with a Hurricane Bolter.",
+   "effects": {
+    "unit_type": "Jetbike",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "gyrfalcon_jetbike",
+   "name": "Gyrfalcon Jetbike",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "lastrum_bolt_cannon"
+    }
+   ],
+   "section": "Mobility Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/gyrfalcon_jetbike/",
+   "text": "A unit that is equipped with a Jetbike becomes a Jetbike Type unit. In addition, it gains +1 its Toughness (T) & Wounds (W) Characteristics. A Gyrfalcon Jetbike is armed with a Lastrum Bolt Cannon.",
+   "effects": {
+    "unit_type": "Jetbike",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "smoke_launchers",
+   "name": "Smoke Launchers",
+   "section": "Vehicle Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/smoke_launchers_talons_of_the_emperor/",
+   "text": "A model equipped with this Wargear can set to smoke instead of Overwatching. Until the start of its next turn, the model gains a 4+ Cover Save."
+  },
+  {
+   "id": "searchlight",
+   "name": "Searchlight",
+   "section": "Vehicle Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/searchlight_talons_of_the_emperor/",
+   "text": "A model with this special rule gains the Night Vision special rule. Any unit that it targets in the Shooting Phase no longer gains the benefit of Night Fighting. Any attacks against this unit are not affected by Night Fighting.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/night_vision",
+      "name": "Night Vision",
+      "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "flare_shields",
+   "name": "Flare Shields",
+   "section": "Vehicle Wargear",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/flare_shields_talons_of_the_emperor/",
+   "text": "A unit equipped with this wargear, reduces the Strength (S) characteristic of any weapons that resolve their hits against the Front Armour (FA) of the equipped unit by 1. If the Attack has the Blast or Large Blast special rule, its strength is reduced by 2."
+  },
+  {
+   "id": "voidscale_cloak",
+   "name": "Voidscale Cloak",
+   "section": "Datasheet",
+   "datasheet": "Knight Centura",
+   "page": 25,
+   "url": "https://longwarindex.app/wargear/voidscale_cloak/",
+   "text": "A model with this wargear has a 5+ Invulnerable save and a 3+ Invulnerable save against wounds caused by weapons with the Blast or Spray special rules.",
+   "effects": {
+    "invulnerable_save": "5+",
+    "conditional_invulnerable_saves": [
+     {
+      "save": "3+",
+      "against_weapon_rules": [
+       {
+        "rule": "special_rules/blast",
+        "name": "Blast",
+        "param": "X",
+        "url": "https://longwarindex.app/special_rules/blast/"
+       },
+       {
+        "rule": "special_rules/spray",
+        "name": "Spray",
+        "url": "https://longwarindex.app/special_rules/spray/"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "distort_field",
+   "name": "Distort Field",
+   "section": "Datasheet",
+   "datasheet": "Silent Judge",
+   "page": 26,
+   "url": "https://longwarindex.app/wargear/distort_field/",
+   "text": "While this unit is attached to a friendly unit, wounds may not be allocated to this model and must be allocated to other models first, even if they have the Precision Strikes special rule."
+  },
+  {
+   "id": "spectra_cloak",
+   "name": "Spectra Cloak",
+   "section": "Datasheet",
+   "datasheet": "Silent Judge",
+   "page": 26,
+   "url": "https://longwarindex.app/wargear/spectra_cloak/",
+   "text": "A unit which includes a model with this wargear may not be targeted for attacks in the Shooting Phase unless it is the closest visible model."
+  },
+  {
+   "id": "excrutia_armatus",
+   "name": "Excrutia Armatus",
+   "section": "Datasheet",
+   "datasheet": "Silent Judge",
+   "page": 26,
+   "url": "https://longwarindex.app/wargear/excrutia_armatus/",
+   "text": "Enemy units within 3\" of this unit do not gain the benefit of the Stubborn special rule."
+  },
+  {
+   "id": "erinyes_jetbike",
+   "name": "Erinyes Jetbike",
+   "printed": {
+    "name": "Erinyes Jeybike"
+   },
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "snare_cannon"
+    }
+   ],
+   "section": "Datasheet",
+   "datasheet": "Silent Fury",
+   "page": 27,
+   "url": "https://longwarindex.app/wargear/erinyes_jetbike/",
+   "text": "A unit that is equipped with a Jetbike becomes a Jetbike Type unit. In addition, it gains +1 its Toughness (T) & Wounds (W) Characteristics. A Erinyes Jetbike is armed with a Snare Cannon.",
+   "effects": {
+    "unit_type": "Jetbike",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "narthecium",
+   "name": "Narthecium",
+   "section": "Datasheet",
+   "datasheet": "Null Maidens",
+   "page": 30,
+   "url": "https://longwarindex.app/wargear/narthecium_talons_of_the_emperor/",
+   "text": "A model with this wargear and its attached unit gain the Feel No Pain (5+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "atomantic_shielding",
+   "name": "Atomantic Shielding",
+   "section": "Datasheet",
+   "datasheet": "Custodes Contemptor Dreadnought",
+   "page": 33,
+   "url": "https://longwarindex.app/wargear/atomantic_shielding_talons_of_the_emperor/",
+   "text": "This confers a 5+ Invulnerable save. When a model with this wargear is slain and removed from play, the model suffers an Explodes result per the Vehicle damage chart before it is removed from play.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "galatus_shield",
+   "name": "Galatus Shield",
+   "section": "Datasheet",
+   "datasheet": "Custodes Contemptor Dreadnought",
+   "page": 33,
+   "url": "https://longwarindex.app/wargear/galatus_shield/",
+   "text": "All charges against a model equipped with this Wargear are considered Disordered Charges. A model with this wargear has a 4+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "voidsheen_cloak",
+   "name": "Voidsheen Cloak",
+   "section": "Datasheet",
+   "datasheet": "Oblivion Knights",
+   "page": 35,
+   "url": "https://longwarindex.app/wargear/voidsheen_cloak/",
+   "text": "A model with this wargear has a 5+ Invulnerable save and a 4+ Invulnerable save against wounds caused by weapons with the Blast, Large Blast or Spray special rules.",
+   "effects": {
+    "invulnerable_save": "5+",
+    "conditional_invulnerable_saves": [
+     {
+      "save": "4+",
+      "against_weapon_rules": [
+       {
+        "rule": "special_rules/blast",
+        "name": "Blast",
+        "param": "X",
+        "url": "https://longwarindex.app/special_rules/blast/"
+       },
+       {
+        "rule": "special_rules/blast",
+        "name": "Blast",
+        "param": "Large",
+        "url": "https://longwarindex.app/special_rules/blast/"
+       },
+       {
+        "rule": "special_rules/spray",
+        "name": "Spray",
+        "url": "https://longwarindex.app/special_rules/spray/"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "tarsus_buckler",
+   "name": "Tarsus Buckler",
+   "section": "Datasheet",
+   "datasheet": "Venatari Custodians",
+   "page": 41,
+   "url": "https://longwarindex.app/wargear/tarsus_buckler/",
+   "text": "A model equipped with this wargear has the Feel No Pain (5+) special rule in the Combat Phase.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/",
+      "phase": "Combat"
+     }
+    ]
+   }
+  },
+  {
+   "id": "spectra_distort_field",
+   "name": "Spectra Distort Field",
+   "section": "Datasheet",
+   "datasheet": "Kharon Pattern Acquisitor",
+   "page": 40,
+   "url": "https://longwarindex.app/wargear/spectra_distort_field/",
+   "text": "A unit which includes a model with this wargear may not be targeted for attacks in the Shooting Phase unless it is the closest visible model."
+  },
+  {
+   "id": "bionics",
+   "name": "Bionics",
+   "section": "Datasheet",
+   "datasheet": "Pursuers",
+   "page": 45,
+   "url": "https://longwarindex.app/wargear/bionics_talons_of_the_emperor/",
+   "text": "A model equipped with this Wargear has the Feel No Pain (6+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "6+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "reinforced_atomantic_shielding",
+   "name": "Reinforced Atomantic Shielding",
+   "section": "Datasheet",
+   "datasheet": "Telemon Heavy Dreadnought",
+   "page": 50,
+   "url": "https://longwarindex.app/wargear/reinforced_atomantic_shielding/",
+   "text": "This confers a 4+ Invulnerable save. When a model with this wargear is slain and removed from play, the model suffers an Explodes result per the Vehicle damage chart before it is removed from play.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  }
+ ]
+}

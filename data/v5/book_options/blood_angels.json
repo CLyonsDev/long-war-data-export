@@ -1,0 +1,1276 @@
+{
+ "data_version": "a3608381288adb8b",
+ "format": 1,
+ "faction": "blood_angels",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_angels_wing/",
+   "offered_by": {
+    "allegiance": "codex/blood_angels/allegiances/allegiance_blood_angels"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "the_angels_wing",
+     "name": "The Angel's Wing",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model may exchange its Jump Pack for this Relic wargear.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "wargear",
+         "id": "jump_pack",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "wargear",
+         "id": "the_angels_wing"
+        }
+       ]
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/the_angels_wing/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "wargear",
+         "id": "jump_pack",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "valors_edge",
+     "name": "Valor's Edge",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 15pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "valors_edge"
+        }
+       ]
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/valors_edge/",
+     "pricing": "flat"
+    },
+    {
+     "id": "archangels_shard",
+     "name": "Archangel's Shard",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "archangels_shard"
+        }
+       ]
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/archangels_shard/",
+     "pricing": "flat"
+    },
+    {
+     "id": "fury_of_baal",
+     "name": "Fury of Baal",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Plasma Pistol for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "plasma_pistol",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "fury_of_baal"
+        }
+       ]
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/fury_of_baal/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_crown_angelic",
+     "name": "The Crown Angelic",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_crown_angelic"
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/the_crown_angelic/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_veritas_vitae",
+     "name": "The Veritas Vitae",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_veritas_vitae"
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/the_veritas_vitae/",
+     "pricing": "flat"
+    },
+    {
+     "id": "decimator",
+     "name": "Decimator",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Boltgun, Storm Bolter or Heavy Boltgun for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "storm_bolter",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "heavy_boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "decimator"
+        }
+       ]
+      }
+     ],
+     "page": 11,
+     "url": "https://longwarindex.app/wargear/decimator/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_gleaming_pinions",
+     "name": "The Gleaming Pinions",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model may exchange its Jump Pack for this Relic wargear.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "wargear",
+         "id": "jump_pack",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "wargear",
+         "id": "the_gleaming_pinions"
+        }
+       ]
+      }
+     ],
+     "page": 11,
+     "url": "https://longwarindex.app/wargear/the_gleaming_pinions/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "wargear",
+         "id": "jump_pack",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "Units with Allegiance: Blood Angels have access to the Warlord traits in this supplement in addition to those found in codex Space Marines. One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "Units with Allegiance: Blood Angels have access to the Warlord traits in this supplement in addition to those found in codex Space Marines. One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 12,
+   "url": "https://longwarindex.app/codex/blood_angels/warlord_traits/",
+   "offered_by": {
+    "allegiance": "codex/blood_angels/allegiances/allegiance_blood_angels"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "any_of": [
+       {
+        "warlord": true
+       },
+       {
+        "holds": [
+         {
+          "kind": "wargear",
+          "id": "the_veritas_vitae"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "space_marines/warlord_traits",
+    "raised_by": {
+     "holds": [
+      {
+       "kind": "wargear",
+       "id": "the_veritas_vitae"
+      }
+     ],
+     "choices_per_unit": 2
+    }
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "artisan_of_war",
+     "name": "Artisan of War",
+     "page": 12,
+     "url": "https://longwarindex.app/warlord_traits/artisan_of_war/",
+     "text": "A model with this Warlord Trait can re-roll 1 failed Armour save (Armour only) per phase. All weapons the warlord is equipped with gain the Master-Crafted special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "weapon_rules": [
+      {
+       "rule": {
+        "rule": "special_rules/master_crafted",
+        "name": "Master-Crafted",
+        "url": "https://longwarindex.app/special_rules/master_crafted/"
+       }
+      }
+     ]
+    },
+    {
+     "id": "selfless_valour",
+     "name": "Selfless Valour",
+     "page": 12,
+     "url": "https://longwarindex.app/warlord_traits/selfless_valour/",
+     "text": "Once per game, a model with this Warlord Trait can Charge in your opponent's Charge Phase as if it were your Charge Phase. This is performed after all other Charges in that Phase have been resolved. If the model with this trait is attached to a unit, they detach from that unit if they successfully complete the charge. They may rejoin a new unit later.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "soul_warden",
+     "name": "Soul Warden",
+     "page": 12,
+     "url": "https://longwarindex.app/warlord_traits/soul_warden/",
+     "text": "A Warlord with this trait and any attached unit, automatically passes the Leadership test at the start of each Combat Phase when rolling for the Red Thirst (see Blood Angels Allegiance).",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "psychic_powers",
+   "kind": "psychic_powers",
+   "label": "A Blood Angels unit with the Psyker (x) special rule may purchase the following Psychic Powers:",
+   "printed": "A Blood Angels unit with the Psyker (x) special rule may purchase the following Psychic Powers:",
+   "page": 13,
+   "url": "https://longwarindex.app/codex/blood_angels/powers/",
+   "offered_by": {
+    "allegiance": "codex/blood_angels/allegiances/allegiance_blood_angels"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     },
+     {
+      "keyword": "Blood Angels"
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "blood_boil",
+     "name": "Blood Boil",
+     "page": 13,
+     "url": "https://longwarindex.app/powers/blood_boil/",
+     "text": "When this Psychic Power is cast, select 1 enemy unit within 24\" of the Psyker that does not have the Vehicle, Automata, Drone, Walker, Fortification or Aircraft type. The target unit suffers 1 Wound with no saves of any kind allowed and cannot be ignored by any means.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "blood_lance",
+     "name": "Blood Lance",
+     "page": 13,
+     "url": "https://longwarindex.app/powers/blood_lance/",
+     "text": "A Psyker with this Psychic Power is equipped with the following weapon:\n\n- Blood Lance",
+     "points": 15,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "blood_lance"
+      }
+     ]
+    },
+    {
+     "id": "shield_of_sanguinius",
+     "name": "Shield of Sanguinius",
+     "page": 13,
+     "url": "https://longwarindex.app/powers/shield_of_sanguinius/",
+     "text": "When this Psychic Power is cast, the Psyker and any attached unit gain a 5+ Invulnerable save until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "unleash_rage",
+     "name": "Unleash Rage",
+     "page": 13,
+     "url": "https://longwarindex.app/powers/unleash_rage/",
+     "text": "When this Psychic Power is cast, the Psyker and any attached unit gain the Rage special rule until the start of your next Shooting Phase. If a unit affected by this Psychic power already has the Rage special rule, when they opt to declare the Rage in the Combat Phase, they gain +2 Attacks instead of +1.",
+     "points": 5,
+     "pricing": "flat"
+    },
+    {
+     "id": "wings_of_sanguinius",
+     "name": "Wings of Sanguinius",
+     "page": 13,
+     "url": "https://longwarindex.app/powers/wings_of_sanguinius/",
+     "text": "When this Psychic Power is cast, the Psyker and any attached unit may immediately perform a Normal Move as if it were your Movement Phase.",
+     "points": 20,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "armoury_dreadnought_upgrades",
+   "kind": "armoury",
+   "label": "Any Blood Angels Castraferrum Dreadnoughts may be upgraded to one of the following:",
+   "printed": "Any Blood Angels Castraferrum Dreadnoughts may be upgraded to one of the following:",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_9th_legion/",
+   "offered_by": {
+    "allegiance": "codex/blood_angels/allegiances/allegiance_blood_angels"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Blood Angels"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/castraferrum_dreadnought"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "furioso_dreadnought",
+     "name": "Furioso Dreadnought",
+     "printed": "Furioso Dreadnought for 20pts.",
+     "points": 20,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/blood_angels/special_rules/furioso_dreadnought",
+       "name": "Furioso Dreadnought",
+       "url": "https://longwarindex.app/special_rules/furioso_dreadnought/"
+      }
+     ]
+    },
+    {
+     "id": "librarian_dreadnought",
+     "name": "Librarian Dreadnought",
+     "printed": "Librarian Dreadnought for 40pts.",
+     "points": 40,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/blood_angels/special_rules/librarian_dreadnought",
+       "name": "Librarian Dreadnought",
+       "url": "https://longwarindex.app/special_rules/librarian_dreadnought/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_blood_chalice",
+   "kind": "armoury",
+   "label": "One Blood Angels 'Apothecary' model in your army may purchase a Blood Chalice for 10pts.",
+   "printed": "One Blood Angels 'Apothecary' model in your army may purchase a Blood Chalice for 10pts.",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_9th_legion/",
+   "offered_by": {
+    "allegiance": "codex/blood_angels/allegiances/allegiance_blood_angels"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Blood Angels"
+     },
+     {
+      "rows": [
+       {
+        "datasheet": "codex/space_marines/roster/space_marine_command_squad",
+        "profile": "Apothecary"
+       }
+      ]
+     }
+    ]
+   },
+   "limits": {
+    "units_per_group": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "blood_chalice",
+     "name": "Blood Chalice",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "blood_chalice"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_perdition_weapons",
+   "kind": "armoury",
+   "label": "Any Blood Angels Space Marine Captain or Space Marine Lieutenant model may:",
+   "printed": "Any Blood Angels Space Marine Captain or Space Marine Lieutenant model may:",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_9th_legion/",
+   "offered_by": {
+    "allegiance": "codex/blood_angels/allegiances/allegiance_blood_angels"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Blood Angels"
+     },
+     {
+      "any_of": [
+       {
+        "datasheet": "codex/space_marines/roster/space_marine_captain"
+       },
+       {
+        "datasheet": "codex/space_marines/roster/lieutenant"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "blade_of_perdition",
+     "name": "Blade of Perdition",
+     "printed": "Exchange their equipped Power Sword for a Blade of Perdition for 3pts.",
+     "points": 3,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "blade_of_perdition"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "axe_of_perdition",
+     "name": "Axe of Perdition",
+     "printed": "Exchange their equipped Power Axe for a Axe of Perdition for 3pts.",
+     "points": 3,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_axe",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "axe_of_perdition"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "spear_of_perdition",
+     "name": "Spear of Perdition",
+     "printed": "Exchange their equipped Power Lance for a Spear of Perdition for 3pts.",
+     "points": 3,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_lance",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "spear_of_perdition"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "maul_of_perdition",
+     "name": "Maul of Perdition",
+     "printed": "Exchange their equipped Power Maul for a Maul of Perdition for 3pts.",
+     "points": 3,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_maul",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "maul_of_perdition"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_fleshrender_grenades",
+   "kind": "armoury",
+   "label": "Any Blood Angels unit may exchange their equipped Frag Grenades for Fleshrender Grenades for 5pts.",
+   "printed": "Any Blood Angels unit may exchange their equipped Frag Grenades for Fleshrender Grenades for 5pts.",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_9th_legion/",
+   "offered_by": {
+    "allegiance": "codex/blood_angels/allegiances/allegiance_blood_angels"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Blood Angels"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "fleshrender_grenades",
+     "name": "Fleshrender Grenades",
+     "points": 5,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "frag_grenades",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "fleshrender_grenades"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_quakebolt_boltgun",
+   "kind": "armoury",
+   "label": "Any Blood Angels model in a Tactical Squad unit may:",
+   "printed": "Any Blood Angels model in a Tactical Squad unit may:",
+   "page": 8,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_9th_legion/",
+   "offered_by": {
+    "allegiance": "codex/blood_angels/allegiances/allegiance_blood_angels"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Blood Angels"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/tactical_squad"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "quakebolt_boltgun",
+     "name": "Quakebolt Boltgun",
+     "printed": "Exchange their equipped Boltgun for a Quakebolt Boltgun for 1pts per model.",
+     "points": 1,
+     "pricing": "each",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "quakebolt_boltgun"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_inferno_pistol",
+   "kind": "armoury",
+   "label": "Any Blood Angels unit with the Character special rule or 'Sergeant' model may exchange their Bolt Pistol for an Inferno Pistol for 15pts.",
+   "printed": "Any Blood Angels unit with the Character special rule or 'Sergeant' model may exchange their Bolt Pistol for an Inferno Pistol for 15pts.",
+   "page": 8,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_9th_legion/",
+   "offered_by": {
+    "allegiance": "codex/blood_angels/allegiances/allegiance_blood_angels"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Blood Angels"
+     },
+     {
+      "any_of": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/character",
+         "name": "Character",
+         "url": "https://longwarindex.app/universal_special_rules/character/"
+        }
+       },
+       {
+        "rows": [
+         {
+          "datasheet": "codex/space_marines/roster/assault_marine_squad",
+          "profile": "Assault Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/assault_terminators",
+          "profile": "Terminator Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/bike_squad",
+          "profile": "Bike Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/centurions",
+          "profile": "Centurion Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/devastator_squad",
+          "profile": "Devastator Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/eliminator_squad",
+          "profile": "Eliminator Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/gravis_support_squad",
+          "profile": "Gravis Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/inceptor_squad",
+          "profile": "Inceptor Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/incursor_squad",
+          "profile": "Incursor Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/infiltrator_squad",
+          "profile": "Infiltrator Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/reiver_squad",
+          "profile": "Reiver Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/scout_bike_squad",
+          "profile": "Scout Bike Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/scouts",
+          "profile": "Scout Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/suppressor_squad",
+          "profile": "Suppressor Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/tactical_squad",
+          "profile": "Tactical Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/tactical_squad",
+          "profile": "Gravis Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/tactical_terminators",
+          "profile": "Terminator Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/veteran_squad",
+          "profile": "Veteran Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/weapon_support_squad",
+          "profile": "Support Sergeant"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "inferno_pistol",
+     "name": "Inferno Pistol",
+     "points": 15,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "bolt_pistol",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "inferno_pistol"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_eviscerator",
+   "kind": "armoury",
+   "label": "Any Blood Angels unit with the Character special rule or 'Sergeant' model may exchange their Power Fist for an Eviscerator for 10pts.",
+   "printed": "Any Blood Angels unit with the Character special rule or 'Sergeant' model may exchange their Power Fist for an Eviscerator for 10pts.",
+   "page": 8,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_9th_legion/",
+   "offered_by": {
+    "allegiance": "codex/blood_angels/allegiances/allegiance_blood_angels"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Blood Angels"
+     },
+     {
+      "any_of": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/character",
+         "name": "Character",
+         "url": "https://longwarindex.app/universal_special_rules/character/"
+        }
+       },
+       {
+        "rows": [
+         {
+          "datasheet": "codex/space_marines/roster/assault_marine_squad",
+          "profile": "Assault Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/assault_terminators",
+          "profile": "Terminator Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/bike_squad",
+          "profile": "Bike Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/centurions",
+          "profile": "Centurion Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/devastator_squad",
+          "profile": "Devastator Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/eliminator_squad",
+          "profile": "Eliminator Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/gravis_support_squad",
+          "profile": "Gravis Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/inceptor_squad",
+          "profile": "Inceptor Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/incursor_squad",
+          "profile": "Incursor Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/infiltrator_squad",
+          "profile": "Infiltrator Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/reiver_squad",
+          "profile": "Reiver Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/scout_bike_squad",
+          "profile": "Scout Bike Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/scouts",
+          "profile": "Scout Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/suppressor_squad",
+          "profile": "Suppressor Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/tactical_squad",
+          "profile": "Tactical Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/tactical_squad",
+          "profile": "Gravis Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/tactical_terminators",
+          "profile": "Terminator Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/veteran_squad",
+          "profile": "Veteran Sergeant"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/weapon_support_squad",
+          "profile": "Support Sergeant"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "eviscerator",
+     "name": "Eviscerator",
+     "points": 10,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_fist",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "eviscerator"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_encarmine_weapons",
+   "kind": "armoury",
+   "label": "Any Blood Angels model equipped with Terminator Armour (any variant) may:",
+   "printed": "Any Blood Angels model equipped with Terminator Armour (any variant) may:",
+   "page": 8,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_9th_legion/",
+   "offered_by": {
+    "allegiance": "codex/blood_angels/allegiances/allegiance_blood_angels"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Blood Angels"
+     },
+     {
+      "holds": [
+       {
+        "kind": "wargear",
+        "id": "indomitus_terminator_armour",
+        "faction": "space_marines"
+       },
+       {
+        "kind": "wargear",
+        "id": "cataphractii_terminator_armour",
+        "faction": "space_marines"
+       },
+       {
+        "kind": "wargear",
+        "id": "tartaros_terminator_armour",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "encarmine_sword",
+     "name": "Encarmine Sword",
+     "printed": "Exchange their equipped Power Fist for a Encramine Sword for 0pts.",
+     "points": 0,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_fist",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "encarmine_sword"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "encarmine_spear",
+     "name": "Encarmine Spear",
+     "printed": "Exchange their equipped Power Fist for an Encramine Spear for 0pts.",
+     "points": 0,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_fist",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "encarmine_spear"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "encarmine_axe",
+     "name": "Encarmine Axe",
+     "printed": "Exchange their equipped Power Fist for an Encarmine Axe for 0pts.",
+     "points": 0,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_fist",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "encarmine_axe"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_death_company",
+   "kind": "upgrade",
+   "label": "Any Infantry or Walker type units in your army that do not have the Veteran Keyword may be upgraded to have the Death Company special rule for 0pts.",
+   "printed": "Any Infantry or Walker type units in your army that do not have the Veteran Keyword may be upgraded to have the Death Company special rule for 0pts.",
+   "page": 16,
+   "url": "https://longwarindex.app/rites_of_war/the_death_company/",
+   "offered_by": {
+    "rite": "codex/blood_angels/rites_of_war/the_death_company"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "any_of": [
+       {
+        "unit_type": "Infantry"
+       },
+       {
+        "unit_type": "Walker"
+       }
+      ]
+     },
+     {
+      "not_keyword": "Veteran"
+     },
+     {
+      "not": {
+       "rule": {
+        "rule": "codex/blood_angels/special_rules/death_company",
+        "name": "Death Company",
+        "url": "https://longwarindex.app/special_rules/death_company/"
+       }
+      }
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "death_company",
+     "name": "Death Company",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/blood_angels/special_rules/death_company",
+       "name": "Death Company",
+       "url": "https://longwarindex.app/special_rules/death_company/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_black_rage",
+   "kind": "upgrade",
+   "label": "When mustering your army, you must select 1 Blood Angels Infantry or Walker type unit that does not have the Veteran Keyword per 1,000pts to gain the Death Company special rule.",
+   "printed": "When mustering your army, you must select 1 Blood Angels Infantry or Walker type unit that does not have the Veteran Keyword per 1,000pts to gain the Death Company special rule.",
+   "page": 4,
+   "url": "https://longwarindex.app/allegiances/allegiance_blood_angels/",
+   "offered_by": {
+    "allegiance": "codex/blood_angels/allegiances/allegiance_blood_angels"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Blood Angels"
+     },
+     {
+      "any_of": [
+       {
+        "unit_type": "Infantry"
+       },
+       {
+        "unit_type": "Walker"
+       }
+      ]
+     },
+     {
+      "not_keyword": "Veteran"
+     },
+     {
+      "not": {
+       "rule": {
+        "rule": "codex/blood_angels/special_rules/death_company",
+        "name": "Death Company",
+        "url": "https://longwarindex.app/special_rules/death_company/"
+       }
+      }
+     }
+    ]
+   },
+   "limits": {
+    "per_points": {
+     "units": 1,
+     "per": 1000,
+     "exact": true
+    }
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "death_company",
+     "name": "Death Company",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/blood_angels/special_rules/death_company",
+       "name": "Death Company",
+       "url": "https://longwarindex.app/special_rules/death_company/"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

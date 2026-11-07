@@ -1,0 +1,228 @@
+{
+ "data_version": "c3008e2ae2895ab2",
+ "format": 1,
+ "faction": "black_templars",
+ "special_rules": [
+  {
+   "id": "codex/black_templars/allegiances/allegiance_black_templars",
+   "name": "Allegiance: Black Templars",
+   "kind": "allegiance",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_black_templars/",
+   "references": [
+    "universal_special_rules/crusader",
+    "universal_special_rules/stubborn",
+    "universal_special_rules/indomitable_spirit",
+    "universal_special_rules/zealot",
+    "universal_special_rules/character",
+    "codex/space_marines/special_rules/librarian",
+    "universal_special_rules/psyker",
+    "codex/space_marines/special_rules/chapter_master"
+   ],
+   "text": "All units with the Black Templars Keyword gain the Allegiance: Black Templars special rule. The Allegiance: Black Templars special rule consists of the following rules:\n\n- Templars Vow: A Black Templars army must select 2 of the following Vows at the beginning of the Game, after deployment but before the first turn begins:\n    - \"Suffer not the Unclean to live\": All Black Templars gain the Crusader special rule.\n    - \"Uphold the honour of the Emperor\": All Black Templars gain the Stubborn special rule.\n    - \"Abhor the Witch, Deny the Witch\": All Black Templars gain the Indomitable Spirit (5+) special rule.\n    - \"Accept any challenge, no matter the odds\": All Black Templars gain the Zealot special rule.\n\n    In addition, 'Sword Brother' models in your army may purchase Relic Wargear as if they had the Character special rule.\n\n- Crusade Unending: The following restrictions apply to the bitter crusaders of the Black Templars:\n    - Black Templars units may never voluntarily Go to Ground.\n    - A Black Templars army must contain at least 1 unit of Crusader Squad for every 1000pts.\n    - Black Templars Space Marines Lieutenant may not purchase the Librarian option and no Black Templar unit in your army may have the Psyker (x) special rule.\n    - Black Templars Space Marines Captains may not purchase the Chapter Master option."
+  },
+  {
+   "id": "codex/black_templars/special_rules/armoury_of_the_eternal_crusade",
+   "name": "Armoury of the Eternal Crusade",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_eternal_crusade/",
+   "references": [
+    "codex/black_templars/allegiances/allegiance_black_templars",
+    "codex/black_templars/special_rules/chaplain_dreadnought",
+    "universal_special_rules/character"
+   ],
+   "text": "Units with Allegiance: Black Templars have access to additional wargear presented in this supplement in addition to the war gear presented in the core Codex Space Marines.\n\nSpace Marine Dreadnought Upgrades\n\nAny Black Templars Castraferrum Dreadnought may be upgraded to a Chaplain Dreadnought for 40pts.\n\nWargear\n\nAny Black Templars model may take Reliquary Bones for 1pts per model.\n\nAny Black Templars unit with the Character special rule may:\n\n- Purchase a Crux Obsidian for 5pts.\n- Purchase a Seal of Sigsmund for 10pts.\n- Purchase an Adamantine Mantle for 10pts.\n\nWeapons\n\nAny Black Templars Space Marine Captain or Space Marine Lieutenant model may:\n\n- Exchange their equipped Power Sword for a Blessed Blade for 5pts.\n- Exchange their equipped Power Lance for a Spear of the Faithful for 5pts.\n- Exchange their equipped Power Maul for a Hallowed Mace for 5pts.\n\nAny Black Templars model may exchange their equipped Boltgun for a Witchseeker Boltgun for 1pt per model."
+  },
+  {
+   "id": "codex/black_templars/special_rules/martial_feats",
+   "name": "Martial Feats",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/martial_feats/",
+   "references": [
+    "special_rules/gets_hot",
+    "universal_special_rules/feel_no_pain",
+    "special_rules/arcing"
+   ],
+   "text": "Each Combat Phase, at initiative Step 10 of a combat, a unit with this special rule may select one of the following Martial feats and gains the associated benefit until the end of the phase:\n\n- Riposte: Engaged enemy units gain the Gets Hot! special rule on all equipped Melee Weapons.\n- Block: The unit gains the Feel No Pain (6+) special rule.\n- Flurry of Blows: The unit gains the Arcing (6+) special rule on all equipped Melee Weapons.\n\nIf a unit with this special rule includes an attached unit with this special rule as well, the attached unit may select a different Martial Feat to the main unit."
+  },
+  {
+   "id": "codex/black_templars/special_rules/chaplain_dreadnought",
+   "name": "Chaplain Dreadnought",
+   "kind": "datasheet",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/chaplain_dreadnought/",
+   "references": [
+    "universal_special_rules/priest",
+    "universal_special_rules/hatred",
+    "universal_special_rules/stubborn",
+    "universal_special_rules/zealot"
+   ],
+   "text": "A unit with this upgrade gains the Priest (1), Hatred, Stubborn and Zealot special rules.\n\n- A Chaplain Dreadnought may exchange any of its Dreadnought Close Combat Weapons and Storm Bolter for one of the following:\n    - Hallowed Mace for 0pts.\n    - Blessed Spear for 0pts.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/priest",
+      "name": "Priest",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/priest/"
+     },
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     },
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     },
+     {
+      "rule": "universal_special_rules/zealot",
+      "name": "Zealot",
+      "url": "https://longwarindex.app/universal_special_rules/zealot/"
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "melee_weapon",
+     "label": "A Chaplain Dreadnought may exchange any of its Dreadnought Close Combat Weapons and Storm Bolter for one of the following:",
+     "printed": "A Chaplain Dreadnought may exchange any of its Dreadnought Close Combat Weapons and Storm Bolter for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hallowed_mace",
+       "name": "Hallowed Mace",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "hallowed_mace"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "blessed_spear",
+       "name": "Blessed Spear",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "dreadnought_close_combat_weapon",
+           "faction": "space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "spear_of_the_faithful",
+           "printed": "Blessed Spear"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/black_templars/special_rules/indomitable_resolve",
+   "name": "Indomitable Resolve",
+   "kind": "datasheet",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/indomitable_resolve/",
+   "references": [
+    "universal_special_rules/regeneration"
+   ],
+   "text": "This unit has the Regeneration special rule. The first time this model would be slain and removed from play, it is not. Instead it remains on the board with D3 wounds remaining.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/regeneration",
+      "name": "Regeneration",
+      "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/black_templars/special_rules/slave_minds",
+   "name": "Slave Minds",
+   "kind": "datasheet",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/slave_minds/",
+   "text": "This unit has 3 servitor models with it. These however are not part of this unit and are tokens representing the relics born by the unit."
+  },
+  {
+   "id": "codex/black_templars/special_rules/honour_duel",
+   "name": "Honour Duel",
+   "kind": "datasheet",
+   "page": 18,
+   "url": "https://longwarindex.app/special_rules/honour_duel_black_templars/",
+   "text": "The Emperor's Champion can issue a challenge to an engaged enemy model during the combat phase. Both must be allocated wounds from the other first before other models in the Combat."
+  },
+  {
+   "id": "codex/black_templars/special_rules/hero_of_helsreach",
+   "name": "Hero of Helsreach",
+   "kind": "warlord_trait",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/hero_of_helsreach/",
+   "references": [
+    "special_rules/pinning"
+   ],
+   "text": "If this unit is your Warlord, all friendly units within 24\" of Grimaldus may use this models Leadership (LD) characteristic instead of their own for Pinning and Panic tests."
+  },
+  {
+   "id": "codex/black_templars/special_rules/the_eternal_crusader",
+   "name": "The Eternal Crusader",
+   "kind": "warlord_trait",
+   "page": 16,
+   "url": "https://longwarindex.app/special_rules/the_eternal_crusader/",
+   "text": "Before the first Battle Round begins, after determining who will take the first turn, roll a D6 for each enemy unit on the battlefield. On a 6, they are hit by one of the guns from the orbiting Eternal Crusader and take D6+2, Strength 7, AP3 hits. If a unit is a Fortification, it is hit on a 5 or a 6 instead."
+  },
+  {
+   "id": "codex/black_templars/special_rules/true_champion",
+   "name": "True Champion",
+   "kind": "warlord_trait",
+   "page": 18,
+   "url": "https://longwarindex.app/special_rules/true_champion/",
+   "references": [
+    "codex/black_templars/special_rules/martial_feats"
+   ],
+   "text": "If this model is your Warlord, it gains the benefit of every Martial Feat option during the Combat Phase (see Martial Feats) instead of just 1."
+  }
+ ]
+}

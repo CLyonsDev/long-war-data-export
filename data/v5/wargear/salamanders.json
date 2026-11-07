@@ -1,0 +1,148 @@
+{
+ "data_version": "aa80929d56d7867d",
+ "format": 1,
+ "faction": "salamanders",
+ "wargear": [
+  {
+   "id": "master_crafted_weapon",
+   "name": "Master-Crafted Weapon",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/master_crafted_weapon/",
+   "text": "A model equipped with this wargear selects 1 weapon they are equipped with. It gains the Master-Crafted special rule. If a unit with this special rule has 2 more models and every unit has purchased this wargear, they can re-roll hit rolls of 1 instead with all Weapons they are equipped with."
+  },
+  {
+   "id": "drake_scale_shield",
+   "name": "Drake Scale Shield",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/drake_scale_shield/",
+   "text": "A model with this wargear may gains a 4+ Invulnerable Save and the Battle-Hardened special rule. In addition, the Invulnerable save is increased to 3+ against wounds caused by Flamer, Acid, Plasma, Bio-Plasma, Melta, Fusion, Las, Phosphor, and Volkite weapons.",
+   "effects": {
+    "invulnerable_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "master_crafted_promethean_armour",
+   "name": "Master-Crafted Promethean Armour",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/master_crafted_promethean_armour/",
+   "text": "A model equipped with this wargear may re-roll 1 Armour Save roll per Phase. If a unit with this special rule has 2 more models and every unit has purchased this wargear, they can re-roll Armour Save rolls of 1 instead."
+  },
+  {
+   "id": "obsidian_aquila",
+   "name": "Obsidian Aquila",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/obsidian_aquila/",
+   "text": "A model equipped with this wargear gains the Battle-Hardened special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_salamanders_mantle",
+   "name": "The Salamanders Mantle",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_salamanders_mantle/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains +2 to its Wounds (W) characteristic. In addition, enemy attacks against the model equipped with this Relic and its attached unit are resolved as if they had the Gets Hot! Special rule on their equipped Melee type weapons.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "W",
+      "delta": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_tome_of_vel_cona",
+   "name": "The Tome of Vel'Cona",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_tome_of_vel_cona/",
+   "text": "One unit in your army with the Character and Psyker (x) special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains +2 Strength on all equipped Psychic Weapons.",
+   "effects": {
+    "weapon_stat_mods": [
+     {
+      "weapons": {
+       "with_rule": {
+        "rule": "special_rules/psychic_weapon",
+        "name": "Psychic Weapon",
+        "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+       }
+      },
+      "mods": [
+       {
+        "characteristic": "S",
+        "delta": 2
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "vulcans_sigil",
+   "name": "Vulcan's Sigil",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/vulcans_sigil/",
+   "text": "One unit in your army with the Character & Priest (x) special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Once per game, a model with this Relic may hold the Sigil high. All Salamanders units that can draw visibility to the relic bearer gain +1 to their Attack (A) characteristic until the end of the current Phase."
+  },
+  {
+   "id": "helm_of_draklos",
+   "name": "Helm of Draklos",
+   "section": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/helm_of_draklos/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Friendly Salamanders models within 12\" of a model equipped with this relic wargear gain +1 to their Leadership (LD) characteristic. In addition, the equipped model gains the Fear (1) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "arridan_drakehide_cloak",
+   "name": "Arridan Drakehide Cloak",
+   "section": "Datasheet",
+   "datasheet": "Adrax Agatone",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/arridan_drakehide_cloak/",
+   "text": "A model with this wargear may negate and ignore 1 wound allocated to it per phase, after saves are made against the wound."
+  },
+  {
+   "id": "kesares_mantle",
+   "name": "Kesare's Mantle",
+   "section": "Datasheet",
+   "datasheet": "Vulkan He'stan",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/kesares_mantle/",
+   "text": "A model with this wargear has a 3+ Invulnerable save. A model with this wargear ignores Instant Death Wounds. When this model would take an Instant Death Wound it suffers D3 wounds instead.",
+   "effects": {
+    "invulnerable_save": "3+"
+   }
+  }
+ ]
+}

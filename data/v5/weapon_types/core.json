@@ -1,0 +1,66 @@
+{
+ "data_version": "824763ffddd15fd9",
+ "format": 1,
+ "weapon_types": [
+  {
+   "id": "weapon_types/pistol",
+   "name": "Pistol",
+   "page": 22,
+   "url": "https://longwarindex.app/weapon_types/pistol/",
+   "parameter": {
+    "kind": "count",
+    "description": "the number of shots"
+   },
+   "text": "Pistol weapons may:\n\n- Make Shooting Attacks against enemy units within 3\" at the models full Ballistic Skill (BS) characteristic.\n- Make Shooting Attacks even if the equipped model Advanced.\n- Make Shooting Attacks at full Ballistic Skill (BS) even if the equipped model Retreated or Fell Back. In addition, a model with a Pistol weapon can shoot in the Shooting phase and still declare a charge in the Charge Phase.\n\nA Model armed with Pistols may shoot with up to two of them when declaring a shooting attack."
+  },
+  {
+   "id": "weapon_types/rapid_fire",
+   "name": "Rapid Fire",
+   "page": 22,
+   "url": "https://longwarindex.app/weapon_types/rapid_fire/",
+   "parameter": {
+    "kind": "count",
+    "description": "the number of shots"
+   },
+   "text": "Rapid Fire weapons double the number of attacks they make if the target of the shooting attack is within half the range of the weapon. A model that fires a Rapid Fire weapon may not declare a charge in the Charge Phase."
+  },
+  {
+   "id": "weapon_types/assault",
+   "name": "Assault",
+   "page": 22,
+   "url": "https://longwarindex.app/weapon_types/assault/",
+   "parameter": {
+    "kind": "count",
+    "description": "the number of shots"
+   },
+   "text": "A model equipped with an Assault Weapon may shoot in the Shooting Phase and still declare a charge in the Charge Phase."
+  },
+  {
+   "id": "weapon_types/heavy",
+   "name": "Heavy",
+   "page": 22,
+   "url": "https://longwarindex.app/weapon_types/heavy/",
+   "parameter": {
+    "kind": "count",
+    "description": "the number of shots"
+   },
+   "text": "If a model with a Heavy Weapon moves in the Movement phase (see 6.1), shooting attacks with the Heavy weapon are made as Snap Shots. A unit with a model that makes a shooting attack with a Heavy Weapon in the shooting phase may not declare a charge in the Charge Phase."
+  },
+  {
+   "id": "weapon_types/grenade",
+   "name": "Grenade",
+   "page": 22,
+   "url": "https://longwarindex.app/weapon_types/grenade/",
+   "parameter": {
+    "kind": "count",
+    "description": "the number of shots"
+   },
+   "text": "Only 1 model in a unit can make a shooting attack with a Grenade weapon. In addition, a model with a Grenade weapon can shoot in the Shooting phase and still declare a charge in the Charge Phase. Grenade weapons may be used as melee weapons in the Combat Phase but only when targeting Vehicle, Fortification or Aircraft type units. However, only 1 model in the unit can make an attack with the Grenade weapon. Grenade weapons used in melee do not use the Blast or Large Blast special rule."
+  },
+  {
+   "id": "weapon_types/melee",
+   "name": "Melee",
+   "note": "The core rules define no Melee weapon type. §12.2 and §12.2.1 use the term."
+  }
+ ]
+}

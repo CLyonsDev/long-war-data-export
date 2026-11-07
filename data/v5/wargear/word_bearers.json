@@ -1,0 +1,186 @@
+{
+ "data_version": "30e5f04e744b9ae9",
+ "format": 1,
+ "faction": "word_bearers",
+ "wargear": [
+  {
+   "id": "hexagramatic_wards",
+   "name": "Hexagramatic Wards",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/hexagramatic_wards_word_bearers/",
+   "text": "A model with this wargear gains the Indomitable Spirit (5+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/indomitable_spirit",
+      "name": "Indomitable Spirit",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_malefic_tome",
+   "name": "The Malefic Tome",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_malefic_tome/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic wargear gains the Psyker (1) special rule but only knows Psychic Powers from the Ectomancy Psychic Powers. In addition, you may include 1 unit from Codex - Chaos Daemons as a part of your Primary Detachment.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/"
+     }
+    ],
+    "list_building": {
+     "opens": [
+      {
+       "faction": "chaos_daemons",
+       "max_units": 1
+      }
+     ]
+    },
+    "powers_only_from": [
+     {
+      "book_options": "word_bearers",
+      "group": "ectomancy_psychic_powers"
+     }
+    ]
+   }
+  },
+  {
+   "id": "baleful_icon",
+   "name": "Baleful Icon",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/baleful_icon/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Enemy units engaged in combat with a model equipped with this Relic wargear suffer -1 to their Strength (S) and Attacks (A) characteristics."
+  },
+  {
+   "id": "crown_of_the_blasphemer",
+   "name": "Crown of the Blasphemer",
+   "section": "Relics",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/crown_of_the_blasphemer/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic wargear gains a 4+ Invulnerable save. In addition they gain the Fear (1) and Adamantium Will special rules. If the model already has the Fear (x) special rule, increase the value of x by +1.",
+   "effects": {
+    "invulnerable_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/",
+      "mode": "raise_or_grant",
+      "by": 1
+     },
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_skull_of_monarchia",
+   "name": "The Skull of Monarchia",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_skull_of_monarchia/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. If your army includes a model equipped with this Relic, all Word Bearers units in your army gain the Hatred (Imperium) special rule. In addition, they can re-roll all Wound rolls against Ultramarines units.",
+   "effects": {
+    "while_fielded": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Word Bearers"
+         ]
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/hatred",
+        "name": "Hatred",
+        "param": "Imperium",
+        "url": "https://longwarindex.app/universal_special_rules/hatred/"
+       },
+       "quote": "If your army includes a model equipped with this Relic, all Word Bearers units in your army gain the Hatred (Imperium) special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "the_scripts_of_erebus",
+   "name": "The Scripts of Erebus",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_scripts_of_erebus/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Once per game, when your opponent would attempt to cast a Psychic Power within 18\" of a model equipped with this Relic, the Psychic Power automatically fails to cast and the caster suffers a Perils of the Warp."
+  },
+  {
+   "id": "book_of_the_reviler",
+   "name": "Book of the Reviler",
+   "section": "Relics",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/book_of_the_reviler/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. At the start of game, a model with this Relic immediately generates a Chaos Boon (see Codex - Chaos Space Marines)."
+  },
+  {
+   "id": "the_terminus_consolaris",
+   "name": "The Terminus Consolaris",
+   "section": "Datasheet",
+   "datasheet": "Black Cardinal Kor Phaeron",
+   "page": 15,
+   "url": "https://longwarindex.app/wargear/the_terminus_consolaris/",
+   "text": "This suit of ancient Cataphractii Armour designed for humans provides a 2+ Armour save and a 4+ Invulnerable save. The Wearer gains the Relentless, Bulky (2), Feel no Pain (5+), and Slow & Purposeful special rules. The wearers Movement (M) Characteristic is decreased by 1\". (This is included in the above profile)",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "4+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     },
+     {
+      "rule": "universal_special_rules/bulky",
+      "name": "Bulky",
+      "param": "2",
+      "url": "https://longwarindex.app/universal_special_rules/bulky/"
+     },
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     },
+     {
+      "rule": "universal_special_rules/slow_and_purposeful",
+      "name": "Slow and Purposeful",
+      "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "daemon_enhanced_atomantic_shielding",
+   "name": "Daemon Enhanced Atomantic Shielding",
+   "section": "Datasheet",
+   "datasheet": "Possessed Contemptor Dreadnought",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/daemon_enhanced_atomantic_shielding/",
+   "text": "This confers a 4+ Invulnerable save. When a model with this wargear is slain and removed from play, the model suffers an Explodes result per the Vehicle damage chart before it is removed from play.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  }
+ ]
+}

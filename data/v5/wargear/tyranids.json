@@ -1,0 +1,352 @@
+{
+ "data_version": "808e3188f87ba179",
+ "format": 1,
+ "faction": "tyranids",
+ "wargear": [
+  {
+   "id": "desiccator_larva",
+   "name": "Desiccator Larva",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/desiccator_larva/",
+   "text": "Select a unit equipped with Fleshborer or Fleshborer Hive to receive this wargear. It gains the Monster Hunter Special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/monster_hunter",
+      "name": "Monster Hunter",
+      "url": "https://longwarindex.app/universal_special_rules/monster_hunter/"
+     }
+    ],
+    "purchase_restriction": {
+     "exclude": {
+      "wargear": [
+       {
+        "kind": "weapon",
+        "id": "fleshborer"
+       },
+       {
+        "kind": "weapon",
+        "id": "fleshborer_hive"
+       }
+      ],
+      "not": true
+     },
+     "quote": "Select a unit equipped with Fleshborer or Fleshborer Hive to receive this wargear."
+    }
+   }
+  },
+  {
+   "id": "scorch_bugs",
+   "name": "Scorch Bugs",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/scorch_bugs/",
+   "text": "Models with this wargear that have Fleshborer's gain the Rending (6+) special rule. Fleshborer Hives also gain the Rending (6+) special rule.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/rending",
+      "name": "Rending",
+      "param": "6+",
+      "url": "https://longwarindex.app/special_rules/rending/",
+      "weapons": [
+       {
+        "kind": "weapon",
+        "id": "fleshborer"
+       },
+       {
+        "kind": "weapon",
+        "id": "fleshborer_hive"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "flesh_hooks",
+   "name": "Flesh Hooks",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/flesh_hooks_tyranids/",
+   "text": "If a unit includes 1 or more models equipped with this wargear, the unit ignores the penalties for Charging through Difficult Terrain."
+  },
+  {
+   "id": "electroshock_grubs",
+   "name": "ElectroShock Grubs",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/electroshock_grubs/",
+   "text": "Models with this wargear that have Fleshborer's gain the Haywire (6+) special rule. Fleshborer Hives also gain the Haywire (6+) special rule.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/haywire",
+      "name": "Haywire",
+      "param": "6+",
+      "url": "https://longwarindex.app/special_rules/haywire/",
+      "weapons": [
+       {
+        "kind": "weapon",
+        "id": "fleshborer"
+       },
+       {
+        "kind": "weapon",
+        "id": "fleshborer_hive"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "acid_maw",
+   "name": "Acid Maw",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/acid_maw_tyranids/",
+   "text": "A model with this wargear gains the Sunder special rule on all Melee type weapons they are equipped with.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/sunder",
+      "name": "Sunder",
+      "url": "https://longwarindex.app/special_rules/sunder/",
+      "weapon_types": [
+       "Melee"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "bio_plasma",
+   "name": "Bio Plasma",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/bio_plasma/",
+   "text": "A model with this wargear makes D3 Hammer of Wrath (x) attacks instead of (x). If the value of (x) is greater than 1 it makes D3+1."
+  },
+  {
+   "id": "spine_banks",
+   "name": "Spine Banks",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/spine_banks/",
+   "text": "The model with this Wargear gains +1 to the number of Hammer of Wrath Attacks it has.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "enhanced_senses",
+   "name": "Enhanced Senses",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/enhanced_senses/",
+   "text": "A model with this wargear gains +1 to its Ballistic Skill (BS) characteristic and the Firing Protocol (All) special rule.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "BS",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/firing_protocols",
+      "name": "Firing Protocols",
+      "param": "All",
+      "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "tusks",
+   "name": "Tusks",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/tusks/",
+   "text": "A model equipped with Tusks may re-roll Hammer of Wrath Attacks."
+  },
+  {
+   "id": "spore_cysts",
+   "name": "Spore Cysts",
+   "section": "Wargear",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/spore_cysts/",
+   "text": "A model with this wargear always gains the benefit of Light Cover, if the unit would already benefit from Light Cover, it gains the benefits of Heavy Cover."
+  },
+  {
+   "id": "chitin",
+   "name": "Chitin",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/chitin/",
+   "text": "Even the most basic Tyranid organisms have tough leathery hides and thin Armoured bone plates that afford them some protection against small arms fire. This confers a 6+ save.",
+   "effects": {
+    "armour_save": "6+"
+   }
+  },
+  {
+   "id": "reinforced_chitin",
+   "name": "Reinforced Chitin",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/reinforced_chitin/",
+   "text": "The plates of creatures with this kind of flesh exude a constant resin-like substance that hardens quickly creating a hardened layer of ablative Armour. This confers a 5+ save.",
+   "effects": {
+    "armour_save": "5+"
+   }
+  },
+  {
+   "id": "hardened_carapace",
+   "name": "Hardened Carapace",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/hardened_carapace_tyranids/",
+   "text": "The creature's Carapace is made of a thicker hardened chitin that is resistant to impacts and is far denser. It confers a 4+ save.",
+   "effects": {
+    "armour_save": "4+"
+   }
+  },
+  {
+   "id": "bonded_exoskeleton",
+   "name": "Bonded Exoskeleton",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/bonded_exoskeleton/",
+   "text": "The bone plates and chitin have fused with the bones of the creature to form a virtually impenetrable sheath. It confers a 3+ save.",
+   "effects": {
+    "armour_save": "3+"
+   }
+  },
+  {
+   "id": "armoured_shell",
+   "name": "Armoured Shell",
+   "section": "Armour",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/armoured_shell/",
+   "text": "The largest organisms akin to walking tanks have Armoured shells with a consistency to Armoured ceramite that absorb impacts and heat. It confers a 2+ save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "wings",
+   "name": "Wings",
+   "section": "Mobility",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/wings_tyranids/",
+   "text": "A model with this wargear increases their Movement (M) characteristic to 12\". It gains the Hammer of Wrath (1), Fly and Deep strike special rules.",
+   "effects": {
+    "stat_sets": [
+     {
+      "characteristic": "M",
+      "value": 12
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/hammer_of_wrath",
+      "name": "Hammer of Wrath",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+     },
+     {
+      "rule": "universal_special_rules/fly",
+      "name": "Fly",
+      "url": "https://longwarindex.app/universal_special_rules/fly/"
+     },
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_resonance_barb",
+   "name": "The Resonance Barb",
+   "section": "Relics",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/the_resonance_barb/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains the Psyker (1) special rule. If the unit already has the Psyker (x) special rule, increase the value of (x) by 1. In addition, when attempting to cast a Psychic Power, you can re-roll 1 of the D6 for your Psychic test.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/",
+      "mode": "raise_or_grant",
+      "by": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_norn_crown",
+   "name": "The Norn Crown",
+   "section": "Relics",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/the_norn_crown/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains the Synapse Special rule. If they already have the Synapse special rule, they gain +6\" to the range of Synapse.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "codex/tyranids/special_rules/synapse",
+      "name": "Synapse",
+      "url": "https://longwarindex.app/special_rules/synapse/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_maw_claws_of_thyrax",
+   "name": "The Maw-Claws of Thyrax",
+   "section": "Relics",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/the_maw_claws_of_thyrax/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. At the end of each Combat Phase, if the model with this Relic inflicted an unsaved Wound on an enemy model, it Heals 1 Wound."
+  },
+  {
+   "id": "gestation_sac",
+   "name": "Gestation Sac",
+   "section": "Relics",
+   "page": 18,
+   "url": "https://longwarindex.app/wargear/gestation_sac/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. Once per battle, a model equipped with this Relic can summon 1 unit of Ripper Swarms anywhere on the Battlefield within 3\" of this unit."
+  },
+  {
+   "id": "psychoclastic_torrent",
+   "name": "Psychoclastic Torrent",
+   "section": "Datasheet",
+   "datasheet": "Psychophage",
+   "page": 43,
+   "url": "https://longwarindex.app/wargear/psychoclastic_torrent/",
+   "text": "A model with this wargear and any friendly Tyranid unit within 12\" may not be targeted by enemy Psychic Powers or Psychic Weapons. This unit always gains the benefit of Light Cover. If it would already benefit from Light Cover, it gains the benefit of Heavy Cover instead."
+  },
+  {
+   "id": "spine_maw",
+   "name": "Spine Maw",
+   "section": "Datasheet",
+   "datasheet": "Dimachaeron",
+   "page": 56,
+   "url": "https://longwarindex.app/wargear/spine_maw/",
+   "text": "At the end of the Combat Phase, select a single enemy infantry type model within 1\" of this model. The chosen unit must make a Strength test. To make a Strength test, roll a D6 and compare the result to the model's Strength (S) characteristic. If the result is lower than the model's Strength (S) characteristic, the test is passed, and the model resists being placed in the maw. If the result is higher than the model's Strength (S) characteristic, the target model is slain. This counts as an Instant death wound."
+  }
+ ]
+}

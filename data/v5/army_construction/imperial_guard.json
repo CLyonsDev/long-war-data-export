@@ -1,0 +1,1942 @@
+{
+ "data_version": "596777d4c9d20186",
+ "format": 1,
+ "faction": "imperial_guard",
+ "codex": {
+  "id": "codex/imperial_guard",
+  "name": "Imperial Guard",
+  "page": 1,
+  "url": "https://longwarindex.app/codex/imperial_guard/",
+  "parent": null,
+  "army_rules": [
+   {
+    "rule": "codex/imperial_guard/special_rules/combat_orders",
+    "name": "Combat Orders",
+    "url": "https://longwarindex.app/special_rules/combat_orders/"
+   },
+   {
+    "rule": "codex/imperial_guard/special_rules/move_move_move",
+    "name": "Move! Move! Move!",
+    "url": "https://longwarindex.app/special_rules/move_move_move/"
+   },
+   {
+    "rule": "codex/imperial_guard/special_rules/fix_bayonet",
+    "name": "Fix Bayonet!",
+    "url": "https://longwarindex.app/special_rules/fix_bayonet/"
+   },
+   {
+    "rule": "codex/imperial_guard/special_rules/first_rank_fire_second_rank_fire",
+    "name": "First Rank Fire! Second Rank Fire!",
+    "url": "https://longwarindex.app/special_rules/first_rank_fire_second_rank_fire/"
+   },
+   {
+    "rule": "codex/imperial_guard/special_rules/incoming",
+    "name": "Incoming!",
+    "url": "https://longwarindex.app/special_rules/incoming/"
+   },
+   {
+    "rule": "codex/imperial_guard/special_rules/officer",
+    "name": "Officer",
+    "url": "https://longwarindex.app/special_rules/officer/"
+   },
+   {
+    "rule": "codex/imperial_guard/special_rules/section",
+    "name": "Section",
+    "url": "https://longwarindex.app/special_rules/section/"
+   },
+   {
+    "rule": "codex/imperial_guard/special_rules/auxiliary_troops",
+    "name": "Auxiliary Troops",
+    "url": "https://longwarindex.app/special_rules/auxiliary_troops/"
+   }
+  ],
+  "allies": {
+   "printed": "The following factions listed in keywords may be taken as allies in an allied detachment if your battle plan allows the use of allied detachments:",
+   "page": 30,
+   "url": "https://longwarindex.app/allies/imperial_guard_allies/",
+   "factions": [
+    {
+     "faction": "imperial_guard"
+    },
+    {
+     "faction": "space_marines"
+    },
+    {
+     "faction": "adeptus_mechanicus"
+    },
+    {
+     "faction": "talons_of_the_emperor"
+    },
+    {
+     "faction": "sisters_of_battle"
+    },
+    {
+     "faction": "imperial_agents"
+    },
+    {
+     "faction": "leagues_of_votann"
+    }
+   ]
+  },
+  "starting_pool": null,
+  "restrictions": [
+   {
+    "id": "auxiliary_troops_ratio",
+    "page": 7,
+    "url": "https://longwarindex.app/special_rules/auxiliary_troops/",
+    "printed": "You may only include 1 unit with this special rule for every 3 other units in your army that do not have this special rule.",
+    "scope": "army",
+    "ratio": {
+     "limited": [
+      {
+       "rule": {
+        "rule": "codex/imperial_guard/special_rules/auxiliary_troops",
+        "name": "Auxiliary Troops",
+        "url": "https://longwarindex.app/special_rules/auxiliary_troops/"
+       }
+      }
+     ],
+     "per": 3,
+     "of": [
+      {
+       "not": {
+        "rule": {
+         "rule": "codex/imperial_guard/special_rules/auxiliary_troops",
+         "name": "Auxiliary Troops",
+         "url": "https://longwarindex.app/special_rules/auxiliary_troops/"
+        }
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/imperial_guard/rites_of_war/infantry_company",
+    "codex/imperial_guard/rites_of_war/mechanized_company",
+    "codex/imperial_guard/rites_of_war/artillery_company",
+    "codex/imperial_guard/rites_of_war/armoured_company",
+    "codex/imperial_guard/rites_of_war/airborne_company",
+    "codex/imperial_guard/rites_of_war/tempestus_drop_force"
+   ],
+   "from_parent": [],
+   "banned_from_parent": []
+  },
+  "unit_list": {
+   "page": 29,
+   "url": "https://longwarindex.app/unit_list/imperial_guard_unit_list/",
+   "entries": [
+    {
+     "datasheet": "codex/imperial_guard/roster/colonel_iron_hand_straken",
+     "printed": "Colonel “Iron Hand” Straken",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/command_section",
+     "printed": "Command Section",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/commander_kubrik_chenkov",
+     "printed": "Commander Kubrik Chenkov",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/commissar_ciaphas_cain_and_jurgen",
+     "printed": "Commissar Ciaphas Cain & Jurgen",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/commissar_ibram_gaunt",
+     "printed": "Commissar Ibram Gaunt",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/commissar_thenia_graves",
+     "printed": "Commissar Thenia Graves",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/commissar_thenia_graves_on_vigilance",
+     "printed": "Commissar Thenia Graves on Vigilance",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/commissar_yarrick",
+     "printed": "Commissar Yarrick",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/company_command_squad",
+     "printed": "Company Command Squad",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/death_rider_command_squad",
+     "printed": "Death Rider Command Squad",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/knight_commander_pask_in_leman_russ_tank",
+     "printed": "Knight Commander Pask in Leman Russ Tank",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/leman_russ_tank_commander",
+     "printed": "Leman Russ Tank Commander",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/lord_castellan_creed_and_colour_sergeant_kell",
+     "printed": "Lord Castellan Creed & Colour Sergeant Kell",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/lord_castellan_ursula_creed",
+     "printed": "Lord Castellan Ursula Creed",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/lord_marshal_varnan_dreir",
+     "printed": "Lord Marshal Varnan Dreir",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/lord_solar_leontus",
+     "printed": "Lord Solar Leontus",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/marshal_karis_venner",
+     "printed": "Marshal Karis Venner",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/platoon_command_squad",
+     "printed": "Platoon Command Squad",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/rogal_dorn_heavy_tank_commander",
+     "printed": "Rogal Dorn Heavy Tank Commander",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/rough_rider_command_squad",
+     "printed": "Rough Rider Command Squad",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/scion_command_squad",
+     "printed": "Scion Command Squad",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/armageddon_storm_troopers",
+     "printed": "Armageddon Storm Troopers",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/attilan_rough_riders",
+     "printed": "Attilan Rough Riders",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/catachan_devils",
+     "printed": "Catachan Devils",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/conscript_squad",
+     "printed": "Conscript Squad",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/guardsmen_squad",
+     "printed": "Guardsmen Squad",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/infantry_section",
+     "printed": "Infantry Section",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/kasrkin_shock_troopers",
+     "printed": "Kasrkin Shock Troopers",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/krieg_combat_engineer_squad",
+     "printed": "Krieg Combat Engineer Squad",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/krieg_grenadier_squad",
+     "printed": "Krieg Grenadier Squad",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/mordian_honour_guard",
+     "printed": "Mordian Honour Guard",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/penal_squad",
+     "printed": "Penal Squad",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/veteran_squad",
+     "printed": "Veteran Squad",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/artillery_section",
+     "printed": "Artillery Section",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/company_preacher",
+     "printed": "Company Preacher",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/earthshaker_carriage",
+     "printed": "Earthshaker Carriage",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/elysian_pathfinder_squad",
+     "printed": "Elysian Pathfinder Squad",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/elysian_sniper_team",
+     "printed": "Elysian Sniper Team",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/field_battery",
+     "printed": "Field Battery",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/krieg_field_battery",
+     "printed": "Krieg Field Battery",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/krieg_quartermaster",
+     "printed": "Krieg Quartermaster",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/master_of_ordnance",
+     "printed": "Master of Ordnance",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/master_of_the_fleet",
+     "printed": "Master of the Fleet",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/ogryn_squad",
+     "printed": "Ogryn Squad",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/ratling_squad",
+     "printed": "Ratling Squad",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/regimental_commissar",
+     "printed": "Regimental Commissar",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/regimental_primaris_psyker",
+     "printed": "Regimental Primaris Psyker",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/regimental_tech_priest",
+     "printed": "Regimental Tech-Priest",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/special_weapon_squad",
+     "printed": "Special Weapon Squad",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/storm_trooper_section",
+     "printed": "Storm Trooper Section",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/taurox_prime_armoured_car",
+     "printed": "Taurox Prime Armoured Car",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/tempestus_scion_squad",
+     "printed": "Tempestus Scion Squad",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/wyrdvane_psykers",
+     "printed": "Wyrdvane Psykers",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/armageddon_pattern_centaur_rsv",
+     "printed": "Armageddon Pattern Centaur RSV",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/centaur_light_carrier",
+     "printed": "Centaur Light Carrier",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/chimera_apc",
+     "printed": "Chimera APC",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/gorgon_transport",
+     "printed": "Gorgon Transport",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/hades_breaching_drill",
+     "printed": "Hades Breaching Drill",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/taurox_armoured_car",
+     "printed": "Taurox Armoured Car",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/air_section",
+     "printed": "Air Section",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/marauder_bomber",
+     "printed": "Marauder Bomber",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/valkyrie_dropship",
+     "printed": "Valkyrie Dropship",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/vulture_gunship",
+     "printed": "Vulture Gunship",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/cyclops_demolition_vehicle",
+     "printed": "Cyclops Demolition Vehicle",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/griffon_mortar_carrier",
+     "printed": "Griffon Mortar Carrier",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/hell_hound_assault_tank",
+     "printed": "Hell Hound Assault Tank",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/hippogriff_afv",
+     "printed": "Hippogriff AFV",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/krieg_death_riders",
+     "printed": "Krieg Death Riders",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/recon_section",
+     "printed": "Recon Section",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/rough_rider_squad",
+     "printed": "Rough Rider Squad",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/salamander_scout_tank",
+     "printed": "Salamander Scout Tank",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/sentinel",
+     "printed": "Sentinel",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/tallarn_mukaali_riders",
+     "printed": "Tallarn Mukaali Riders",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/tauros",
+     "printed": "Tauros",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/tempestus_scion_aquilon_squad",
+     "printed": "Tempestus Scion Aquilon Squad",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/basilisk_artillery_gun",
+     "printed": "Basilisk Artillery Gun",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/colossus_bombard",
+     "printed": "Colossus Bombard",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/deathstrike_missile_launcher",
+     "printed": "Deathstrike Missile Launcher",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/heavy_weapon_squad",
+     "printed": "Heavy Weapon Squad",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/hydra_flak_tank",
+     "printed": "Hydra Flak Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/leman_russ_battle_tank",
+     "printed": "Leman Russ Battle Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/macharius_heavy_tank",
+     "printed": "Macharius Heavy Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/malcador_annihilator_tank",
+     "printed": "Malcador Annihilator Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/malcador_assault_tank",
+     "printed": "Malcador Assault Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/malcador_defender_tank",
+     "printed": "Malcador Defender Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/manticore_missile_launcher",
+     "printed": "Manticore Missile Launcher",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/mobile_artillery_section",
+     "printed": "Mobile Artillery Section",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/rogal_dorn_heavy_tank",
+     "printed": "Rogal Dorn Heavy Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/tank_section",
+     "printed": "Tank Section",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/tarantula_battery",
+     "printed": "Tarantula Battery",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/thunderer_siege_tank",
+     "printed": "Thunderer Siege Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/wyvern_suppression_tank",
+     "printed": "Wyvern Suppression Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/baneblade_super_heavy_tank",
+     "printed": "Baneblade Super Heavy Tank",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/sly_marbo",
+     "printed": "Sly Marbo",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/super_heavy_tank_section",
+     "printed": "Super Heavy Tank Section",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/aegis_defence_line",
+     "printed": "Aegis Defence Line",
+     "role": "Fortification"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/bastion",
+     "printed": "Bastion",
+     "role": "Fortification"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/firestorm_redoubt",
+     "printed": "Firestorm Redoubt",
+     "role": "Fortification"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/fortification_section",
+     "printed": "Fortification Section",
+     "role": "Fortification"
+    },
+    {
+     "datasheet": "codex/imperial_guard/roster/point_defence_turrets",
+     "printed": "Point Defence Turrets",
+     "role": "Fortification"
+    }
+   ]
+  },
+  "keyword_templates": [
+   {
+    "template": "[Regiment]",
+    "substitution": {
+     "by": "allegiance"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/imperial_guard/allegiances/armageddon_steel_legion",
+   "name": "Allegiance: Armageddon Steel Legion",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/armageddon_steel_legion/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "keyword_substitution": {
+    "template": "[Regiment]",
+    "value": "Armageddon Steel Legion"
+   },
+   "rule": {
+    "rule": "codex/imperial_guard/allegiances/armageddon_steel_legion",
+    "name": "Armageddon Steel Legion",
+    "printed": "codex/imperial_guard/allegiances/armageddon_steel_legion",
+    "url": "https://longwarindex.app/allegiances/armageddon_steel_legion/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "armageddon_steel_legion_tempestus_drop_force_ban",
+     "printed": "You may not take the Tempestus Drop Force Rite of War.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/imperial_guard/rites_of_war/tempestus_drop_force"
+     ]
+    }
+   ],
+   "benefits": [],
+   "game_time": [
+    "Armageddon Steel Legion Infantry units gain the Linked special rule during the turn they Disembark from a Transport. This does not apply to Emergency Disembarkation as a result of the Transport being destroyed.",
+    "If your army is not using the Mechanized Company Rite of War (See Rites of War section) you do not gain the first listed benefit under the Rite of War."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/attilan_rough_riders",
+   "name": "Allegiance: Attilan Rough Riders",
+   "page": 28,
+   "url": "https://longwarindex.app/allegiances/attilan_rough_riders/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "keyword_substitution": {
+    "template": "[Regiment]",
+    "value": "Attilan Rough Riders"
+   },
+   "rule": {
+    "rule": "codex/imperial_guard/allegiances/attilan_rough_riders",
+    "name": "Attilan Rough Riders",
+    "printed": "codex/imperial_guard/allegiances/attilan_rough_riders",
+    "url": "https://longwarindex.app/allegiances/attilan_rough_riders/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "attilan_rough_riders_mounted_regiment",
+     "printed": "Your army must include at least 3 Cavalry units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "unit_type": "Cavalry"
+       }
+      ],
+      "min": 3
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "light_horsemen",
+     "printed": "All Attilan Rough Rider Cavalry units gain the Sudden Strike special rules.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Attilan Rough Riders"
+       },
+       {
+        "unit_type": "Cavalry"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/sudden_strike",
+        "name": "Sudden Strike",
+        "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/cadian_shock_troopers",
+   "name": "Allegiance: Cadian Shock Troopers",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/cadian_shock_troopers/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "keyword_substitution": {
+    "template": "[Regiment]",
+    "value": "Cadian Shock Troopers"
+   },
+   "rule": {
+    "rule": "codex/imperial_guard/allegiances/cadian_shock_troopers",
+    "name": "Cadian Shock Troopers",
+    "printed": "codex/imperial_guard/allegiances/cadian_shock_troopers",
+    "url": "https://longwarindex.app/allegiances/cadian_shock_troopers/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [
+    {
+     "id": "disciplined_reserves",
+     "printed": "Cadian Shock Trooper Conscript Squads gain +1 to their Ballistic Skill (BS), Weapon Skill (WS), and Leadership (LD) characteristics. In addition, they gain the Preferred Enemy (Chaos) special rule.",
+     "stat_mods": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/conscript_squad"
+       }
+      ],
+      "mods": [
+       {
+        "characteristic": "BS",
+        "delta": 1
+       },
+       {
+        "characteristic": "WS",
+        "delta": 1
+       },
+       {
+        "characteristic": "Ld",
+        "delta": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "disciplined_reserves_preferred_enemy",
+     "printed": "Cadian Shock Trooper Conscript Squads gain +1 to their Ballistic Skill (BS), Weapon Skill (WS), and Leadership (LD) characteristics. In addition, they gain the Preferred Enemy (Chaos) special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/conscript_squad"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/preferred_enemy",
+        "name": "Preferred Enemy",
+        "param": "Chaos",
+        "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "If your opponent has any units with the Black Legion keyword in their army, you must play 1 additional battle round of the battle, regardless of scenario rules within the battle pack you are playing."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/catachan_jungle_fighters",
+   "name": "Allegiance: Catachan Jungle Fighters",
+   "page": 27,
+   "url": "https://longwarindex.app/allegiances/catachan_jungle_fighters/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "keyword_substitution": {
+    "template": "[Regiment]",
+    "value": "Catachan Jungle Fighters"
+   },
+   "rule": {
+    "rule": "codex/imperial_guard/allegiances/catachan_jungle_fighters",
+    "name": "Catachan Jungle Fighters",
+    "printed": "codex/imperial_guard/allegiances/catachan_jungle_fighters",
+    "url": "https://longwarindex.app/allegiances/catachan_jungle_fighters/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "catachan_jungle_fighters_tempestus_drop_force_ban",
+     "printed": "You may not take the Tempestus Drop Force Rite of War.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/imperial_guard/rites_of_war/tempestus_drop_force"
+     ]
+    }
+   ],
+   "benefits": [],
+   "game_time": [
+    "During deployment, you may place D3 Trap Markers on the board anywhere outside of your opponent's Deployment Zone. All Terrain, including open Terrain within 6\" of the Trap Marker is treated as Dangerous Terrain.",
+    "If your army is not using the Infantry Company Rite of War (See Rites of War section) you do not gain the first listed benefit under the Rite of War."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/death_korp_of_krieg",
+   "name": "Allegiance: Death Korp of Krieg",
+   "page": 27,
+   "url": "https://longwarindex.app/allegiances/death_korp_of_krieg/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "keyword_substitution": {
+    "template": "[Regiment]",
+    "value": "Death Korp of Krieg"
+   },
+   "rule": {
+    "rule": "codex/imperial_guard/allegiances/death_korp_of_krieg",
+    "name": "Death Korp of Krieg",
+    "printed": "codex/imperial_guard/allegiances/death_korp_of_krieg",
+    "url": "https://longwarindex.app/allegiances/death_korp_of_krieg/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "death_korp_of_krieg_tempestus_drop_force_ban",
+     "printed": "You may not take the Tempestus Drop Force Rite of War.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/imperial_guard/rites_of_war/tempestus_drop_force"
+     ]
+    }
+   ],
+   "benefits": [
+    {
+     "id": "suicidal_determination",
+     "printed": "Death Korp of Krieg Infantry & Cavalry units gain the Zealot special rules.",
+     "rules": {
+      "conditions": [
+       {
+        "rite": "codex/imperial_guard/rites_of_war/artillery_company"
+       },
+       {
+        "keyword": "Death Korp of Krieg"
+       },
+       {
+        "any_of": [
+         {
+          "unit_type": "Infantry"
+         },
+         {
+          "unit_type": "Cavalry"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/zealot",
+        "name": "Zealot",
+        "url": "https://longwarindex.app/universal_special_rules/zealot/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/elysian_drop_troops",
+   "name": "Allegiance: Elysian Drop Troops",
+   "page": 27,
+   "url": "https://longwarindex.app/allegiances/elysian_drop_troops/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "keyword_substitution": {
+    "template": "[Regiment]",
+    "value": "Elysian Drop Troops"
+   },
+   "rule": {
+    "rule": "codex/imperial_guard/allegiances/elysian_drop_troops",
+    "name": "Elysian Drop Troops",
+    "printed": "codex/imperial_guard/allegiances/elysian_drop_troops",
+    "url": "https://longwarindex.app/allegiances/elysian_drop_troops/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "elysian_drop_troops_tempestus_drop_force_ban",
+     "printed": "You may not take the Tempestus Drop Force Rite of War.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/imperial_guard/rites_of_war/tempestus_drop_force"
+     ]
+    }
+   ],
+   "benefits": [],
+   "game_time": [
+    "During the first battle round, all Elysian Drop Troops Infantry units gain a 4+ Cover Save. In addition, half of your units in reserve that have the Elysian Drop Troops Keyword may arrive during the first battle round.",
+    "If your army is not using the Airborne Company Rite of War (See Rites of War section) you do not gain the first listed benefit under the Rite of War."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/mordian_iron_guard",
+   "name": "Allegiance: Mordian Iron Guard",
+   "page": 27,
+   "url": "https://longwarindex.app/allegiances/mordian_iron_guard/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "keyword_substitution": {
+    "template": "[Regiment]",
+    "value": "Mordian Iron Guard"
+   },
+   "rule": {
+    "rule": "codex/imperial_guard/allegiances/mordian_iron_guard",
+    "name": "Mordian Iron Guard",
+    "printed": "codex/imperial_guard/allegiances/mordian_iron_guard",
+    "url": "https://longwarindex.app/allegiances/mordian_iron_guard/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "pride_of_mordian",
+     "printed": "Your army must include at least 1 unit of Mordian Honour Guard.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/mordian_honour_guard"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [],
+   "game_time": [
+    "Mordian Iron Guard Infantry units that have all models in the unit in base contact with each other, gain the Stubborn special rule."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/savlar_chem_dogs",
+   "name": "Allegiance: Savlar Chem Dogs",
+   "page": 28,
+   "url": "https://longwarindex.app/allegiances/savlar_chem_dogs/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "keyword_substitution": {
+    "template": "[Regiment]",
+    "value": "Savlar Chem Dogs"
+   },
+   "rule": {
+    "rule": "codex/imperial_guard/allegiances/savlar_chem_dogs",
+    "name": "Savlar Chem Dogs",
+    "printed": "codex/imperial_guard/allegiances/savlar_chem_dogs",
+    "url": "https://longwarindex.app/allegiances/savlar_chem_dogs/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "penal_battalions",
+     "printed": "Your army must include at least 2 units of Penal Squads.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/penal_squad"
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "penal_battalions_expendable",
+     "printed": "All units in your army gain the Expendable Keyword.",
+     "keywords": {
+      "applies_to": "army",
+      "add": [
+       "Expendable"
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "Savlar Chem Dogs units only make Panic tests in the Shooting Phase after suffering 50% casualties."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/tallarn_desert_fighters",
+   "name": "Allegiance: Tallarn Desert Fighters",
+   "page": 27,
+   "url": "https://longwarindex.app/allegiances/tallarn_desert_fighters/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "keyword_substitution": {
+    "template": "[Regiment]",
+    "value": "Tallarn Desert Fighters"
+   },
+   "rule": {
+    "rule": "codex/imperial_guard/allegiances/tallarn_desert_fighters",
+    "name": "Tallarn Desert Fighters",
+    "printed": "codex/imperial_guard/allegiances/tallarn_desert_fighters",
+    "url": "https://longwarindex.app/allegiances/tallarn_desert_fighters/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "tallarn_desert_fighters_tempestus_drop_force_ban",
+     "printed": "You may not take the Tempestus Drop Force Rite of War.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/imperial_guard/rites_of_war/tempestus_drop_force"
+     ]
+    }
+   ],
+   "benefits": [
+    {
+     "id": "armoured_fighters",
+     "printed": "Tallarn Desert Fighter Vehicle and Walker units gain the Hit & Run special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "rite": "codex/imperial_guard/rites_of_war/armoured_company"
+       },
+       {
+        "keyword": "Tallarn Desert Fighters"
+       },
+       {
+        "any_of": [
+         {
+          "unit_type": "Vehicle"
+         },
+         {
+          "unit_type": "Walker"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/hit_and_run",
+        "name": "Hit & Run",
+        "url": "https://longwarindex.app/universal_special_rules/hit_and_run/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/tanith_first_and_only",
+   "name": "Allegiance: Tanith First & Only",
+   "page": 28,
+   "url": "https://longwarindex.app/allegiances/tanith_first_and_only/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "keyword_substitution": {
+    "template": "[Regiment]",
+    "value": "Tanith First & Only"
+   },
+   "rule": {
+    "rule": "codex/imperial_guard/allegiances/tanith_first_and_only",
+    "name": "Tanith First & Only",
+    "printed": "codex/imperial_guard/allegiances/tanith_first_and_only",
+    "url": "https://longwarindex.app/allegiances/tanith_first_and_only/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "tanith_first_and_only_tempestus_drop_force_ban",
+     "printed": "You may not take the Tempestus Drop Force Rite of War.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/imperial_guard/rites_of_war/tempestus_drop_force"
+     ]
+    }
+   ],
+   "benefits": [
+    {
+     "id": "light_infantry_tactics",
+     "printed": "All Tanith First & Only Infantry and Walker units gain the Skirmisher special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "rite": "codex/imperial_guard/rites_of_war/infantry_company"
+       },
+       {
+        "keyword": "Tanith First & Only"
+       },
+       {
+        "any_of": [
+         {
+          "unit_type": "Infantry"
+         },
+         {
+          "unit_type": "Walker"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/skirmisher",
+        "name": "Skirmisher",
+        "url": "https://longwarindex.app/universal_special_rules/skirmisher/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/unremembered_regiment",
+   "name": "Allegiance: Unremembered Regiment",
+   "page": 26,
+   "url": "https://longwarindex.app/allegiances/unremembered_regiment/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "keyword_substitution": {
+    "template": "[Regiment]",
+    "value": "Unremembered"
+   },
+   "rule": {
+    "rule": "codex/imperial_guard/allegiances/unremembered_regiment",
+    "name": "Unremembered Regiment",
+    "printed": "codex/imperial_guard/allegiances/unremembered_regiment",
+    "url": "https://longwarindex.app/allegiances/unremembered_regiment/"
+   },
+   "admits_other_regiments": true,
+   "admitted_gain_allegiance_rule": false,
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [],
+   "game_time": [
+    "During the first Battle Round, your army does not generate any Command Points."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/valhallan_ice_warriors",
+   "name": "Allegiance: Valhallan Ice Warriors",
+   "page": 28,
+   "url": "https://longwarindex.app/allegiances/valhallan_ice_warriors/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "keyword_substitution": {
+    "template": "[Regiment]",
+    "value": "Valhallan Ice Warriors"
+   },
+   "rule": {
+    "rule": "codex/imperial_guard/allegiances/valhallan_ice_warriors",
+    "name": "Valhallan Ice Warriors",
+    "printed": "codex/imperial_guard/allegiances/valhallan_ice_warriors",
+    "url": "https://longwarindex.app/allegiances/valhallan_ice_warriors/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "valhallan_ice_warriors_tempestus_drop_force_ban",
+     "printed": "You may not take the Tempestus Drop Force Rite of War.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/imperial_guard/rites_of_war/tempestus_drop_force"
+     ]
+    }
+   ],
+   "benefits": [
+    {
+     "id": "against_the_odds_preferred_enemy",
+     "printed": "In addition, they gain the Preferred Enemy (Orks) special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "rite": "codex/imperial_guard/rites_of_war/artillery_company"
+       },
+       {
+        "keyword": "Valhallan Ice Warriors"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/preferred_enemy",
+        "name": "Preferred Enemy",
+        "param": "Orks",
+        "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "Valhallan Ice Warrior units do not suffer Movement Penalties in their next Movement Phase from Going to Ground or being Pinned.",
+    "If your army is not using the Artillery Company Rite of War (See Rites of War section) you do not gain the first listed benefit under the Rite of War."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_guard/allegiances/vostroyan_first_born",
+   "name": "Allegiance: Vostroyan First Born",
+   "page": 28,
+   "url": "https://longwarindex.app/allegiances/vostroyan_first_born/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "keyword_substitution": {
+    "template": "[Regiment]",
+    "value": "Vostroyan First Born"
+   },
+   "rule": {
+    "rule": "codex/imperial_guard/allegiances/vostroyan_first_born",
+    "name": "Vostroyan First Born",
+    "printed": "codex/imperial_guard/allegiances/vostroyan_first_born",
+    "url": "https://longwarindex.app/allegiances/vostroyan_first_born/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [
+    {
+     "id": "heirloom_weapons",
+     "printed": "All Vostroyan First Born units increase the Strength of their Las Guns and Las Pistols by 1.",
+     "weapon_stat_mods": {
+      "conditions": [
+       {
+        "keyword": "Vostroyan First Born"
+       }
+      ],
+      "weapons": {
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "las_gun"
+        },
+        {
+         "kind": "weapon",
+         "id": "las_pistol"
+        }
+       ]
+      },
+      "mods": [
+       {
+        "characteristic": "S",
+        "delta": 1
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "During the first battle round, units with the Officer special rule do not generate any Command Points."
+   ],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/imperial_guard/rites_of_war/infantry_company",
+   "name": "Infantry Company",
+   "page": 20,
+   "url": "https://longwarindex.app/rites_of_war/infantry_company/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 2 Infantry Section.\n- Your army must include at least 1 Company Command Squad.\n- Your army must include more Infantry type units than any other type.\n\nBenefit\n\n- You may replace Guardsmen Squads with Veteran Squads in any Infantry Section you include in your army.\n- Guardsmen Squads in your army may purchase Krak Grenade for all models in the unit for 10pts.\n- Veteran Squads in your army may purchase a Breacher Charge for all models in the unit for 10pts.",
+   "restrictions": [
+    {
+     "id": "infantry_company_infantry_section",
+     "printed": "Your army must include at least 2 Infantry Section.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/infantry_section"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "infantry_company_command_squad",
+     "printed": "Your army must include at least 1 Company Command Squad.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/company_command_squad"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "infantry_company_infantry_majority",
+     "printed": "Your army must include more Infantry type units than any other type.",
+     "scope": "detachment",
+     "majority": {
+      "unit_type": "Infantry"
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "infantry_company_krak_grenades",
+     "printed": "Guardsmen Squads in your army may purchase Krak Grenade for all models in the unit for 10pts.",
+     "options": [
+      {
+       "book_options": "imperial_guard",
+       "group": "infantry_company_krak_grenades"
+      }
+     ]
+    },
+    {
+     "id": "infantry_company_breacher_charges",
+     "printed": "Veteran Squads in your army may purchase a Breacher Charge for all models in the unit for 10pts.",
+     "options": [
+      {
+       "book_options": "imperial_guard",
+       "group": "infantry_company_breacher_charges"
+      }
+     ]
+    },
+    {
+     "id": "infantry_section_veteran_squads",
+     "printed": "You may replace Guardsmen Squads with Veteran Squads in any Infantry Section you include in your army.",
+     "section_substitution": {
+      "section": "codex/imperial_guard/roster/infantry_section",
+      "replace": "codex/imperial_guard/roster/guardsmen_squad",
+      "with": "codex/imperial_guard/roster/veteran_squad"
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_guard/rites_of_war/mechanized_company",
+   "name": "Mechanized Company",
+   "page": 21,
+   "url": "https://longwarindex.app/rites_of_war/mechanized_company/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Recon Section.\n- All Infantry type units in your army must begin the game in a Transport or in reserves.\n- Your army must include at least 2 Hippogriff AFV or Sentinels.\n\nBenefit\n\n- You may replace Rough Riders with Taurox Armoured Cars in any Recon Section you include in your army.\n- You may field Salamander Scout Tank units with the Salamander Command option as HQ choices.\n- You gain access to the Combined Fire Order below.\n\nCombined Fire",
+   "restrictions": [
+    {
+     "id": "mechanized_company_recon_section",
+     "printed": "Your army must include at least 1 Recon Section.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/recon_section"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "mechanized_company_hippogriff_sentinel",
+     "printed": "Your army must include at least 2 Hippogriff AFV or Sentinels.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/imperial_guard/roster/hippogriff_afv"
+         },
+         {
+          "datasheet": "codex/imperial_guard/roster/sentinel"
+         }
+        ]
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "mechanized_company_salamander_hq",
+     "printed": "You may field Salamander Scout Tank units with the Salamander Command option as HQ choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/salamander_scout_tank"
+       }
+      ],
+      "role": "HQ",
+      "instead": false,
+      "requires": [
+       {
+        "choice": {
+         "page": "codex/imperial_guard/roster/salamander_scout_tank",
+         "path": "salamander_command/salamander_command"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "recon_section_taurox",
+     "printed": "You may replace Rough Riders with Taurox Armoured Cars in any Recon Section you include in your army.",
+     "section_substitution": {
+      "section": "codex/imperial_guard/roster/recon_section",
+      "replace": "codex/imperial_guard/roster/rough_rider_squad",
+      "with": "codex/imperial_guard/roster/taurox_armoured_car"
+     }
+    }
+   ],
+   "game_time": [
+    "You gain access to the Combined Fire Order below.",
+    "All Infantry type units in your army must begin the game in a Transport or in reserves."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_guard/rites_of_war/artillery_company",
+   "name": "Artillery Company",
+   "page": 22,
+   "url": "https://longwarindex.app/rites_of_war/artillery_company/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Artillery Section or Mobile Artillery Section.\n- Your army must include at least 1 Company Command Squad.\n- For every 1000pts, your army must include an additional Artillery Section or Mobile Artillery Section.\n\nBenefit\n\n- You may field Artillery Section as Troops choices but it gains the Support Squad special rule.\n- or Mobile Artillery Section as Elites choices.\n- Master of Ordinance units do not take up a Force Organization Slot.",
+   "restrictions": [
+    {
+     "id": "artillery_company_artillery_section",
+     "printed": "Your army must include at least 1 Artillery Section or Mobile Artillery Section.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/imperial_guard/roster/artillery_section"
+         },
+         {
+          "datasheet": "codex/imperial_guard/roster/mobile_artillery_section"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "artillery_company_command_squad",
+     "printed": "Your army must include at least 1 Company Command Squad.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/company_command_squad"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "artillery_company_sections_per_1000",
+     "printed": "For every 1000pts, your army must include an additional Artillery Section or Mobile Artillery Section.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/imperial_guard/roster/artillery_section"
+         },
+         {
+          "datasheet": "codex/imperial_guard/roster/mobile_artillery_section"
+         }
+        ]
+       }
+      ],
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "master_of_ordnance_unslotted",
+     "printed": "Master of Ordinance units do not take up a Force Organization Slot.",
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/master_of_ordnance"
+       }
+      ]
+     }
+    },
+    {
+     "id": "artillery_section_troops",
+     "printed": "You may field Artillery Section as Troops choices but it gains the Support Squad special rule.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/artillery_section"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "artillery_section_troops_support_squad",
+     "printed": "You may field Artillery Section as Troops choices but it gains the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/artillery_section"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "mobile_artillery_section_elites",
+     "printed": "or Mobile Artillery Section as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/mobile_artillery_section"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_guard/rites_of_war/armoured_company",
+   "name": "Armoured Company",
+   "page": 23,
+   "url": "https://longwarindex.app/rites_of_war/armoured_company/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Tank Section.\n- Your army must include at least 1 Leman Russ Tank Commander or Rogal Dorn Heavy Tank Commander.\n- Your warlord must have the Vehicle type.\n\nBenefit\n\n- You may field Tank Sections as Elites choices.\n- You may field 1 Baneblade Super Heavy Battle Tank as a Heavy Support choice.\n- You gain access to the Take Aim! Order (see below)\n\nTake Aim!",
+   "restrictions": [
+    {
+     "id": "armoured_company_tank_section",
+     "printed": "Your army must include at least 1 Tank Section.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/tank_section"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "armoured_company_tank_commander",
+     "printed": "Your army must include at least 1 Leman Russ Tank Commander or Rogal Dorn Heavy Tank Commander.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/imperial_guard/roster/leman_russ_tank_commander"
+         },
+         {
+          "datasheet": "codex/imperial_guard/roster/rogal_dorn_heavy_tank_commander"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "armoured_company_warlord_vehicle",
+     "printed": "Your warlord must have the Vehicle type.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "unit_type": "Vehicle"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "tank_section_elites",
+     "printed": "You may field Tank Sections as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/tank_section"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "baneblade_heavy_support",
+     "printed": "You may field 1 Baneblade Super Heavy Battle Tank as a Heavy Support choice.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/baneblade_super_heavy_tank"
+       }
+      ],
+      "role": "Heavy Support",
+      "instead": false,
+      "max_units": 1
+     }
+    }
+   ],
+   "game_time": [
+    "You gain access to the Take Aim! Order (see below)"
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_guard/rites_of_war/airborne_company",
+   "name": "Airborne Company",
+   "page": 24,
+   "url": "https://longwarindex.app/rites_of_war/airborne_company/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Air Section.\n- At least half the Infantry units in your army may not begin the game on the battlefield and must begin the game in reserves or embarked in a Transport unless they have the Scout or Infiltrate special rules.\n- You may not field the following units:\n    - Tank keyword units.\n    - Artillery Keyword.\n    - Ogryn Squad unit.\n    - Ratling Squad units.\n    - Rough Rider units.\n\nBenefit\n\n- You may field Air Sections as Heavy Support choices.\n- Any Infantry, Bike, Vehicle and Walker type units in your army may purchase Grav-Chute wargear for 10pts.\n- Tauros units may purchase Grav-Chutes for 10pts.\n- Master of the Fleet units do not take up a Force Organization Slot.",
+   "restrictions": [
+    {
+     "id": "airborne_company_air_section",
+     "printed": "Your army must include at least 1 Air Section.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/air_section"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "airborne_company_forbidden_units",
+     "printed": "You may not field the following units:",
+     "scope": "detachment",
+     "forbidden_units": {
+      "conditions": [
+       {
+        "keyword": "Tank"
+       },
+       {
+        "keyword": "Artillery"
+       },
+       {
+        "datasheet": "codex/imperial_guard/roster/ogryn_squad"
+       },
+       {
+        "datasheet": "codex/imperial_guard/roster/ratling_squad"
+       },
+       {
+        "datasheet": "codex/imperial_guard/roster/rough_rider_squad"
+       },
+       {
+        "datasheet": "codex/imperial_guard/roster/rough_rider_command_squad"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "air_section_heavy_support",
+     "printed": "You may field Air Sections as Heavy Support choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/air_section"
+       }
+      ],
+      "role": "Heavy Support",
+      "instead": false
+     }
+    },
+    {
+     "id": "airborne_company_grav_chutes",
+     "printed": "Any Infantry, Bike, Vehicle and Walker type units in your army may purchase Grav-Chute wargear for 10pts.",
+     "options": [
+      {
+       "book_options": "imperial_guard",
+       "group": "airborne_company_grav_chutes"
+      }
+     ]
+    },
+    {
+     "id": "airborne_company_tauros_grav_chutes",
+     "printed": "Tauros units may purchase Grav-Chutes for 10pts.",
+     "options": [
+      {
+       "book_options": "imperial_guard",
+       "group": "airborne_company_tauros_grav_chutes"
+      }
+     ]
+    },
+    {
+     "id": "master_of_the_fleet_unslotted",
+     "printed": "Master of the Fleet units do not take up a Force Organization Slot.",
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/master_of_the_fleet"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "At least half the Infantry units in your army may not begin the game on the battlefield and must begin the game in reserves or embarked in a Transport unless they have the Scout or Infiltrate special rules."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/imperial_guard/rites_of_war/tempestus_drop_force",
+   "name": "Tempestus Drop Force",
+   "page": 25,
+   "url": "https://longwarindex.app/rites_of_war/tempestus_drop_force/",
+   "offered_by": {
+    "codex": "imperial_guard"
+   },
+   "text": "Restrictions\n\n- All units in your army must have the Tempestus Scion Keyword or Auxiliary Troops special rule.\n- Your army must include at least 1 Storm Trooper Section.\n- Your army must include at least 1 Command Section.\n\nBenefit\n\n- Ignore the Auxiliary Troops special rule.\n- You may field Storm Trooper Sections as Troops choices.\n- Valkyrie Dropships gain the Tempestus Scion Keyword and may be fielded as Dedicated Transports.\n- You may replace Company Command Squads with Scion Command Squads in any Command Section you include in your army.\n- You may replace Veteran Squads with Tempestus Scion Squads in any Command Section you include in your army.",
+   "restrictions": [
+    {
+     "id": "tempestus_drop_force_storm_trooper_section",
+     "printed": "Your army must include at least 1 Storm Trooper Section.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/storm_trooper_section"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "tempestus_drop_force_command_section",
+     "printed": "Your army must include at least 1 Command Section.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/command_section"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "tempestus_drop_force_keyword_or_auxiliary",
+     "printed": "All units in your army must have the Tempestus Scion Keyword or Auxiliary Troops special rule.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "any_of": [
+         {
+          "keyword": "Tempestus Scion"
+         },
+         {
+          "rule": {
+           "rule": "codex/imperial_guard/special_rules/auxiliary_troops",
+           "name": "Auxiliary Troops",
+           "url": "https://longwarindex.app/special_rules/auxiliary_troops/"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "ignore_auxiliary_troops",
+     "printed": "Ignore the Auxiliary Troops special rule.",
+     "suppress_rules": {
+      "conditions": [
+       {
+        "rule": {
+         "rule": "codex/imperial_guard/special_rules/auxiliary_troops",
+         "name": "Auxiliary Troops",
+         "url": "https://longwarindex.app/special_rules/auxiliary_troops/"
+        }
+       }
+      ],
+      "rules": [
+       {
+        "rule": "codex/imperial_guard/special_rules/auxiliary_troops",
+        "name": "Auxiliary Troops",
+        "url": "https://longwarindex.app/special_rules/auxiliary_troops/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "storm_trooper_section_troops",
+     "printed": "You may field Storm Trooper Sections as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/storm_trooper_section"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "valkyrie_tempestus_scion_keyword",
+     "printed": "Valkyrie Dropships gain the Tempestus Scion Keyword and may be fielded as Dedicated Transports.",
+     "keywords": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/valkyrie_dropship"
+       }
+      ],
+      "add": [
+       "Tempestus Scion"
+      ]
+     }
+    },
+    {
+     "id": "valkyrie_dedicated_transport",
+     "printed": "Valkyrie Dropships gain the Tempestus Scion Keyword and may be fielded as Dedicated Transports.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/imperial_guard/roster/valkyrie_dropship"
+       }
+      ],
+      "role": "Dedicated Transport",
+      "instead": false
+     }
+    },
+    {
+     "id": "command_section_scion_command_squad",
+     "printed": "You may replace Company Command Squads with Scion Command Squads in any Command Section you include in your army.",
+     "section_substitution": {
+      "section": "codex/imperial_guard/roster/command_section",
+      "replace": "codex/imperial_guard/roster/company_command_squad",
+      "with": "codex/imperial_guard/roster/scion_command_squad"
+     }
+    },
+    {
+     "id": "command_section_tempestus_scion_squads",
+     "printed": "You may replace Veteran Squads with Tempestus Scion Squads in any Command Section you include in your army.",
+     "section_substitution": {
+      "section": "codex/imperial_guard/roster/command_section",
+      "replace": "codex/imperial_guard/roster/veteran_squad",
+      "with": "codex/imperial_guard/roster/tempestus_scion_squad"
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

@@ -1,0 +1,532 @@
+{
+ "data_version": "6efc0fd25c9cf6c0",
+ "format": 1,
+ "faction": "tau_empire",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 16,
+   "url": "https://longwarindex.app/wargear/puretide_engram_neurochip/",
+   "offered_by": {
+    "codex": "tau_empire"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "puretide_engram_neurochip",
+     "name": "Puretide Engram Neurochip",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "puretide_engram_neurochip"
+      }
+     ],
+     "page": 16,
+     "url": "https://longwarindex.app/wargear/puretide_engram_neurochip/",
+     "pricing": "flat"
+    },
+    {
+     "id": "repulsor_impact_field",
+     "name": "Repulsor Impact Field",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "repulsor_impact_field"
+      }
+     ],
+     "page": 16,
+     "url": "https://longwarindex.app/wargear/repulsor_impact_field/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_fusion_blades",
+     "name": "Fusion Blades (Melee)",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange a Plasma Blasters for 2 Fusion Blades for 15pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "plasma_rifle"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_fusion_blades"
+        }
+       ]
+      }
+     ],
+     "page": 16,
+     "url": "https://longwarindex.app/wargear/the_fusion_blades/",
+     "pricing": "flat"
+    },
+    {
+     "id": "failsafe_detonator",
+     "name": "Failsafe Detonator",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "failsafe_detonator"
+      }
+     ],
+     "page": 17,
+     "url": "https://longwarindex.app/wargear/failsafe_detonator/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_onager_gauntlet",
+     "name": "Onager Gauntlet",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule and the Battlesuit type that does not have the Unique keyword and no other Relic Wargear may take this Relic for 30pts.",
+     "items": [
+      {
+       "kind": "weapon",
+       "id": "the_onager_gauntlet"
+      }
+     ],
+     "page": 17,
+     "url": "https://longwarindex.app/wargear/the_onager_gauntlet/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "unit_type": "Battlesuit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fire_warrior_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 29,
+   "url": "https://longwarindex.app/codex/tau_empire/warlord_traits/",
+   "offered_by": {
+    "codex": "tau_empire"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "tau_empire/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "master_of_montka",
+     "name": "Master of Mont'ka",
+     "page": 29,
+     "url": "https://longwarindex.app/warlord_traits/master_of_montka/",
+     "text": "If a model with this Warlord trait did not remain stationary in the Movement Phase, they may re-roll Wound and Penetration Rolls.",
+     "printed": "Fire Warrior Warlord Traits",
+     "points": 0,
+     "pricing": "flat",
+     "severity": "warning",
+     "requires": [
+      {
+       "keyword": "Fire Warrior"
+      }
+     ]
+    },
+    {
+     "id": "master_of_kauyon",
+     "name": "Master of Kauyon",
+     "page": 29,
+     "url": "https://longwarindex.app/warlord_traits/master_of_kauyon/",
+     "text": "A model with this trait gains the Infiltrate special rule. A model with this trait may perform Overwatch attacks at a range of 18\" instead of 12\" at the end of your opponent's Charge Phase if there are no enemy models within 3\".",
+     "printed": "Fire Warrior Warlord Traits",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/infiltrate",
+       "name": "Infiltrate",
+       "url": "https://longwarindex.app/universal_special_rules/infiltrate/"
+      }
+     ],
+     "severity": "warning",
+     "requires": [
+      {
+       "keyword": "Fire Warrior"
+      }
+     ]
+    },
+    {
+     "id": "master_of_rinyon",
+     "name": "Master of Rinyon",
+     "page": 29,
+     "url": "https://longwarindex.app/warlord_traits/master_of_rinyon/",
+     "text": "If your army includes a model with this Warlord Trait, you may give 1 T'au unit the Outflank Special rule during Deployment. In addition, while this Warlord is alive, you may re-roll the results for units arriving via Deep Strike or Outflank.",
+     "printed": "Fire Warrior Warlord Traits",
+     "points": 0,
+     "pricing": "flat",
+     "severity": "warning",
+     "requires": [
+      {
+       "keyword": "Fire Warrior"
+      }
+     ]
+    },
+    {
+     "id": "master_of_ripkya",
+     "name": "Master of Rip'kya",
+     "page": 29,
+     "url": "https://longwarindex.app/warlord_traits/master_of_ripkya/",
+     "text": "Once per game, this unit and its attached unit may make 1 additional attack with all 'Pulse' and 'Missile' weapons they are equipped with when performing a Shooting Attack in the Shooting Phase. This does not change the weapons type; they only make 1 extra attack when shooting with the weapon when performing an attack. A 'Pulse' or 'Missile' Weapon is any weapon listed under the 'Pulse' or 'Missile' category of the Wargear section.",
+     "printed": "Fire Warrior Warlord Traits",
+     "points": 0,
+     "pricing": "flat",
+     "severity": "warning",
+     "requires": [
+      {
+       "keyword": "Fire Warrior"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ethereal_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 29,
+   "url": "https://longwarindex.app/codex/tau_empire/warlord_traits/",
+   "offered_by": {
+    "codex": "tau_empire"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "tau_empire/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "water_caste_connections",
+     "name": "Water Caste Connections",
+     "page": 29,
+     "url": "https://longwarindex.app/warlord_traits/water_caste_connections/",
+     "text": "Once per game, an Ethereal model with this trait can summon 1 unit of Kroot Carnivores which arrive via Outflank or 1 unit of Vespid Stingwings which arrive via Deep Strike.",
+     "printed": "Ethereal Warlord Traits",
+     "points": 0,
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Ethereal"
+      }
+     ],
+     "reference_cards": [
+      "codex/tau_empire/roster/kroot_carnivores",
+      "codex/tau_empire/roster/vespid_stingwings"
+     ]
+    },
+    {
+     "id": "invoker_of_the_elements",
+     "name": "Invoker of the Elements",
+     "page": 29,
+     "url": "https://longwarindex.app/warlord_traits/invoker_of_the_elements/",
+     "text": "Once per game, an Ethereal model with this trait can summon 2 units of Tactical Drones which arrive via Outflank.",
+     "printed": "Ethereal Warlord Traits",
+     "points": 0,
+     "pricing": "flat",
+     "requires": [
+      {
+       "keyword": "Ethereal"
+      }
+     ],
+     "reference_cards": [
+      "codex/tau_empire/roster/tactical_drones"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kroot_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "You gain access to the Kroot Warlord traits below.",
+   "printed": "You gain access to the Kroot Warlord traits below.",
+   "page": 28,
+   "url": "https://longwarindex.app/rites_of_war/kroot_hunting_pack/",
+   "offered_by": {
+    "rite": "codex/tau_empire/rites_of_war/kroot_hunting_pack"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "keyword": "Kroot"
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "tau_empire/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "master_of_the_hunt",
+     "name": "Master of the Hunt",
+     "page": 28,
+     "url": "https://longwarindex.app/warlord_traits/master_of_the_hunt/",
+     "text": "If your army includes a Kroot unit with this Warlord Trait during deployment, you may redeploy up to 3 of your units after the Deployment Step is finished but before the first turn begins.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "flesh_hunger",
+     "name": "Flesh Hunger",
+     "page": 28,
+     "url": "https://longwarindex.app/warlord_traits/flesh_hunger/",
+     "text": "A Kroot model with this Warlord trait gains +1 to their Strength (S) and Toughness (T) characteristics. The Warlord gains the Battle-Hardened special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/battle_hardened",
+       "name": "Battle-Hardened",
+       "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+      }
+     ],
+     "stat_mods": [
+      {
+       "characteristic": "S",
+       "delta": 1
+      },
+      {
+       "characteristic": "T",
+       "delta": 1
+      }
+     ]
+    },
+    {
+     "id": "strange_blessings",
+     "name": "Strange Blessings",
+     "page": 28,
+     "url": "https://longwarindex.app/warlord_traits/strange_blessings/",
+     "text": "A Kroot model with this Warlord Trait gains the Adamantium Will and Indomitable Spirit (4+) special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/adamantium_will",
+       "name": "Adamantium Will",
+       "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+      },
+      {
+       "rule": "universal_special_rules/indomitable_spirit",
+       "name": "Indomitable Spirit",
+       "param": "4+",
+       "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vespid_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "You gain access to the Vespid Warlord Traits below.",
+   "printed": "You gain access to the Vespid Warlord Traits below.",
+   "page": 27,
+   "url": "https://longwarindex.app/rites_of_war/vespid_swarm/",
+   "offered_by": {
+    "rite": "codex/tau_empire/rites_of_war/vespid_swarm"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "keyword": "Vespid"
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "tau_empire/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "communion_vector",
+     "name": "Communion Vector",
+     "page": 27,
+     "url": "https://longwarindex.app/warlord_traits/communion_vector/",
+     "text": "A Vespid model with this Warlord trait and any attached unit gains the Stubborn special rule and +1 to their Leadership (LD) characteristics.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/stubborn",
+       "name": "Stubborn",
+       "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+      }
+     ],
+     "stat_mods": [
+      {
+       "characteristic": "Ld",
+       "delta": 1
+      }
+     ]
+    },
+    {
+     "id": "blood_wing",
+     "name": "Blood Wing",
+     "page": 27,
+     "url": "https://longwarindex.app/warlord_traits/blood_wing/",
+     "text": "A Vespid model with this Warlord trait gains the Rage special rule and increases their Strength (S) and Attacks (A) characteristic by 1.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/rage",
+       "name": "Rage",
+       "url": "https://longwarindex.app/universal_special_rules/rage/"
+      }
+     ],
+     "stat_mods": [
+      {
+       "characteristic": "S",
+       "delta": 1
+      },
+      {
+       "characteristic": "A",
+       "delta": 1
+      }
+     ]
+    },
+    {
+     "id": "swarm_caller",
+     "name": "Swarm Caller",
+     "page": 27,
+     "url": "https://longwarindex.app/warlord_traits/swarm_caller/",
+     "text": "At the start of your Movement Phase, you can select a single Vespid Stingwings unit that can draw visibility to this Vespid Warlord. The selected unit regains D3 lost models. These models must be placed within coherency of existing models in the unit.",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "armoured_interdiction_cadre_warlord",
+   "kind": "upgrade",
+   "label": "You may select a single Hammerhead Gunship in your army to be your Warlord. That unit may take a Warlord trait. It gains the Character special rule and +1 to its Ballistic Skill (BS), Attacks (A) and Leadership (LD) characteristics. If you do so, you do not require a HQ slot for your army.",
+   "printed": "You may select a single Hammerhead Gunship in your army to be your Warlord. That unit may take a Warlord trait. It gains the Character special rule and +1 to its Ballistic Skill (BS), Attacks (A) and Leadership (LD) characteristics. If you do so, you do not require a HQ slot for your army.",
+   "page": 28,
+   "url": "https://longwarindex.app/rites_of_war/armoured_interdiction_cadre/",
+   "offered_by": {
+    "rite": "codex/tau_empire/rites_of_war/armoured_interdiction_cadre"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "datasheet": "codex/tau_empire/roster/hammerhead_gunship"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "warlord",
+     "name": "Warlord",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     ],
+     "stat_mods": [
+      {
+       "characteristic": "BS",
+       "delta": 1
+      },
+      {
+       "characteristic": "A",
+       "delta": 1
+      },
+      {
+       "characteristic": "Ld",
+       "delta": 1
+      }
+     ],
+     "mandates_warlord": true,
+     "slot_changes": {
+      "role": "HQ",
+      "min_delta": -1
+     }
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

@@ -1,0 +1,1026 @@
+{
+ "data_version": "396119a9853ad619",
+ "format": 1,
+ "faction": "genestealer_cults",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 2,
+   "url": "https://longwarindex.app/wargear/amulet_of_the_voidwyrm/",
+   "offered_by": {
+    "codex": "genestealer_cults"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "amulet_of_the_voidwyrm",
+     "name": "The Amulet of the Voidwyrm",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "amulet_of_the_voidwyrm"
+      }
+     ],
+     "page": 2,
+     "url": "https://longwarindex.app/wargear/amulet_of_the_voidwyrm/",
+     "pricing": "flat"
+    },
+    {
+     "id": "icon_of_the_cult_ascendant",
+     "name": "Icon of the Cult Ascendant",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule and equipped with a Sacred Cult Banner that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "icon_of_the_cult_ascendant"
+      }
+     ],
+     "page": 2,
+     "url": "https://longwarindex.app/wargear/icon_of_the_cult_ascendant/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "wargear",
+         "id": "sacred_cult_banner"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "the_crouchling",
+     "name": "The Crouchling",
+     "points": 20,
+     "printed": "One unit in your army with the Character & Psyker (x) special rules that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_crouchling"
+      }
+     ],
+     "page": 3,
+     "url": "https://longwarindex.app/wargear/the_crouchling/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "rule": {
+        "rule": "universal_special_rules/psyker",
+        "name": "Psyker",
+        "param": "x",
+        "url": "https://longwarindex.app/universal_special_rules/psyker/"
+       }
+      }
+     ]
+    },
+    {
+     "id": "sword_of_the_void_eye",
+     "name": "Sword of the Void Eye",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword, Bonesword or Locus Blades for this relic for 15pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "power_sword"
+        },
+        {
+         "kind": "weapon",
+         "id": "bone_sword"
+        },
+        {
+         "kind": "weapon",
+         "id": "locus_blades"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "sword_of_the_void_eye"
+        }
+       ]
+      }
+     ],
+     "page": 2,
+     "url": "https://longwarindex.app/wargear/sword_of_the_void_eye/",
+     "pricing": "flat"
+    },
+    {
+     "id": "dagger_of_swift_sacrifice",
+     "name": "Dagger of Swift Sacrifice",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Close Combat Weapon for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "close_combat_weapons"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "dagger_of_swift_sacrifice"
+        }
+       ]
+      }
+     ],
+     "page": 2,
+     "url": "https://longwarindex.app/wargear/dagger_of_swift_sacrifice/",
+     "pricing": "flat"
+    },
+    {
+     "id": "stave_of_the_subterran_master",
+     "name": "Stave of the Subterran Master",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Force Stave for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "force_stave"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "stave_of_the_subterran_master"
+        }
+       ]
+      }
+     ],
+     "page": 3,
+     "url": "https://longwarindex.app/wargear/stave_of_the_subterran_master/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "patriarch_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected to be your Warlord. Your Warlord may select one of the following Warlord traits for free.",
+   "printed": "One unit in your army with the Character special rule may be selected to be your Warlord. Your Warlord may select one of the following Warlord traits for free.",
+   "page": 10,
+   "url": "https://longwarindex.app/codex/genestealer_cults/warlord_traits/",
+   "offered_by": {
+    "codex": "genestealer_cults"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "datasheet": "codex/genestealer_cults/roster/patriarch"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "cosmic_terror",
+     "name": "Cosmic Terror",
+     "page": 10,
+     "url": "https://longwarindex.app/warlord_traits/cosmic_terror/",
+     "text": "Enemy units within 3\" of a Warlord with this trait halve their Leadership (LD) characteristic.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "Enemy units within 3\" of a Warlord with this trait halve their Leadership (LD) characteristic."
+     ]
+    },
+    {
+     "id": "monstrous_form",
+     "name": "Monstrous Form",
+     "page": 10,
+     "url": "https://longwarindex.app/warlord_traits/monstrous_form/",
+     "text": "A model with this warlord trait gains +1 to its Strength (S), Toughness (T), and Wounds (W) characteristics. In addition, the Warlord gains the Battle-Hardened special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/battle_hardened",
+       "name": "Battle-Hardened",
+       "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+      }
+     ],
+     "stat_mods": [
+      {
+       "characteristic": "S",
+       "delta": 1
+      },
+      {
+       "characteristic": "T",
+       "delta": 1
+      },
+      {
+       "characteristic": "W",
+       "delta": 1
+      }
+     ]
+    },
+    {
+     "id": "psychic_conduit",
+     "name": "Psychic Conduit",
+     "page": 10,
+     "url": "https://longwarindex.app/warlord_traits/psychic_conduit/",
+     "text": "A model with this Warlord trait increases the value of (x) by 1 for its Psyker (x) special rule. In addition, it gains the Force special rule on its equipped Melee weapons.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/",
+       "raise_by": 1
+      }
+     ],
+     "weapon_rules": [
+      {
+       "rule": {
+        "rule": "special_rules/force",
+        "name": "Force",
+        "url": "https://longwarindex.app/special_rules/force/"
+       },
+       "weapon_types": [
+        "Melee"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "primus_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected to be your Warlord. Your Warlord may select one of the following Warlord traits for free.",
+   "printed": "One unit in your army with the Character special rule may be selected to be your Warlord. Your Warlord may select one of the following Warlord traits for free.",
+   "page": 10,
+   "url": "https://longwarindex.app/codex/genestealer_cults/warlord_traits/",
+   "offered_by": {
+    "codex": "genestealer_cults"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "datasheet": "codex/genestealer_cults/roster/primus"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "biomorph_adaptation",
+     "name": "Biomorph Adaptation",
+     "page": 10,
+     "url": "https://longwarindex.app/warlord_traits/biomorph_adaptation/",
+     "text": "A model with this Warlord trait gains +1 to its Attack (A) and Strength (S) characteristic.",
+     "points": 0,
+     "pricing": "flat",
+     "stat_mods": [
+      {
+       "characteristic": "A",
+       "delta": 1
+      },
+      {
+       "characteristic": "S",
+       "delta": 1
+      }
+     ]
+    },
+    {
+     "id": "inscrutable_cunning",
+     "name": "Inscrutable Cunning",
+     "page": 10,
+     "url": "https://longwarindex.app/warlord_traits/inscrutable_cunning/",
+     "text": "If your army includes a model with this Warlord trait, during deployment you may place 3 trap markers. The markers must be placed outside of your opponent's Deployment Zone. The area within 6\" of each marker is treated as Dangerous Terrain.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "If your army includes a model with this Warlord trait, during deployment you may place 3 trap markers. The markers must be placed outside of your opponent's Deployment Zone. The area within 6\" of each marker is treated as Dangerous Terrain."
+     ]
+    },
+    {
+     "id": "meticulous_planner",
+     "name": "Meticulous Planner",
+     "page": 10,
+     "url": "https://longwarindex.app/warlord_traits/meticulous_planner/",
+     "text": "Once per game, if your army includes a Warlord with this trait, you can summon 1 Neophyte Hybrid unit. The unit arrives via the Outflank special rule automatically.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "Once per game, if your army includes a Warlord with this trait, you can summon 1 Neophyte Hybrid unit. The unit arrives via the Outflank special rule automatically."
+     ],
+     "reference_cards": [
+      "codex/genestealer_cults/roster/neophyte_hybrids"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "magus_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected to be your Warlord. Your Warlord may select one of the following Warlord traits for free.",
+   "printed": "One unit in your army with the Character special rule may be selected to be your Warlord. Your Warlord may select one of the following Warlord traits for free.",
+   "page": 10,
+   "url": "https://longwarindex.app/codex/genestealer_cults/warlord_traits/",
+   "offered_by": {
+    "codex": "genestealer_cults"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "datasheet": "codex/genestealer_cults/roster/magus"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "gestalt_siphon",
+     "name": "Gestalt Siphon",
+     "page": 10,
+     "url": "https://longwarindex.app/warlord_traits/gestalt_siphon/",
+     "text": "A model with this warlord trait may roll 1 additional D6 when attempting to cast a Psychic power, picking the best 2 dice. The Warlord and their attached unit gain the Indomitable Spirit (4+) special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/indomitable_spirit",
+       "name": "Indomitable Spirit",
+       "param": "4+",
+       "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+      }
+     ],
+     "game_time": [
+      "A model with this warlord trait may roll 1 additional D6 when attempting to cast a Psychic power, picking the best 2 dice.",
+      "The Warlord and their attached unit gain the Indomitable Spirit (4+) special rule."
+     ]
+    },
+    {
+     "id": "prowling_agitant",
+     "name": "Prowling Agitant",
+     "page": 10,
+     "url": "https://longwarindex.app/warlord_traits/prowling_agitant/",
+     "text": "A model with this Warlord trait, when declared as the target of a Charge move in the Charge phase, the warlord may immediately move a number of inches equal to its Initiative (I) characteristic.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "A model with this Warlord trait, when declared as the target of a Charge move in the Charge phase, the warlord may immediately move a number of inches equal to its Initiative (I) characteristic."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "psychic_powers",
+   "kind": "psychic_powers",
+   "label": "A Cult unit with the Psyker (x) special rule may purchase powers from the following Psychic Discipline:",
+   "printed": "A Cult unit with the Psyker (x) special rule may purchase powers from the following Psychic Discipline:",
+   "page": 11,
+   "url": "https://longwarindex.app/codex/genestealer_cults/powers/",
+   "offered_by": {
+    "codex": "genestealer_cults"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "mass_hypnosis",
+     "name": "Mass Hypnosis",
+     "page": 11,
+     "url": "https://longwarindex.app/powers/mass_hypnosis/",
+     "text": "When this Power is cast, select up to D3 enemy units within 18\" of the Psyker. The target units have -1 to their Weapon Skill (WS), Ballistic Skill (BS) and Initiative (I) until the start of your next Shooting Phase. In addition, any Reactions those target units were set to are cancelled.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "mental_onslaught",
+     "name": "Mental Onslaught",
+     "page": 11,
+     "url": "https://longwarindex.app/powers/mental_onslaught/",
+     "text": "The Psyker gains the following Psychic weapon:\n\n- Mental Onslaught",
+     "points": 0,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "mental_onslaught"
+      }
+     ]
+    },
+    {
+     "id": "mind_control",
+     "name": "Mind Control",
+     "page": 11,
+     "url": "https://longwarindex.app/powers/mind_control/",
+     "text": "When this Power is cast, select 1 enemy unit within 24\" of the Psyker that is not an Automata or Drone Type. Immediately make a single Shooting Attack with the targeted unit as if it were your own. The unit is treated as your own for the purposes of determining friendly and enemy targets. The Shooting Attack by the controlled target unit is resolved as 8.2.1 - Snap Shots. The target unit is treated as an enemy unit immediately after its Shooting Attack is resolved.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "psionic_blast",
+     "name": "Psionic Blast",
+     "page": 11,
+     "url": "https://longwarindex.app/powers/psionic_blast/",
+     "text": "The Psyker gains the following Psychic weapon:\n\n- Psionic Blast",
+     "points": 10,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "psionic_blast"
+      }
+     ]
+    },
+    {
+     "id": "telepathic_summons",
+     "name": "Telepathic Summons",
+     "page": 11,
+     "url": "https://longwarindex.app/powers/telepathic_summons/",
+     "text": "When this Power is cast, summon 1 Metamorph Hybrid or Acolyte Hybrid unit wholly within 12\" of the Psyker and more than 3\" away from any enemy units. You can opt to summon 1 unit of Purestrain Genestealers instead, but the Psyker immediately suffers a Perils of the Warp regardless of their casting result.",
+     "points": 35,
+     "pricing": "flat",
+     "reference_cards": [
+      "codex/genestealer_cults/roster/metamorph_hybrids",
+      "codex/genestealer_cults/roster/acolyte_hybrids",
+      "codex/genestealer_cults/roster/purestrain_genestealer_brood"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "heart_of_the_cult_purestrain_genestealer_upgrades",
+   "kind": "upgrade",
+   "label": "1 Purestrain Genestealer Brood unit in your army may purchase: Flesh Hooks for 5pts. Acid Maws for 10pts.",
+   "printed": "1 Purestrain Genestealer Brood unit in your army may purchase: Flesh Hooks for 5pts. Acid Maws for 10pts.",
+   "page": 13,
+   "url": "https://longwarindex.app/rites_of_war/heart_of_the_cult/",
+   "offered_by": {
+    "rite": "codex/genestealer_cults/rites_of_war/heart_of_the_cult"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "datasheet": "codex/genestealer_cults/roster/purestrain_genestealer_brood"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "flesh_hooks",
+     "name": "Flesh Hooks",
+     "points": 5,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "flesh_hooks"
+      }
+     ]
+    },
+    {
+     "id": "acid_maws",
+     "name": "Acid Maws",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "acid_maw"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "jackal_pack_atalan_jackal_upgrades",
+   "kind": "upgrade",
+   "label": "All Atalan Jackal units in your army may purchase Blasting Charges for 5pts per unit.",
+   "printed": "All Atalan Jackal units in your army may purchase Blasting Charges for 5pts per unit.",
+   "page": 15,
+   "url": "https://longwarindex.app/rites_of_war/jackal_pack/",
+   "offered_by": {
+    "rite": "codex/genestealer_cults/rites_of_war/jackal_pack"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "datasheet": "codex/genestealer_cults/roster/atalan_jackals"
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "blasting_charges",
+     "name": "Blasting Charges",
+     "points": 5,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "weapon",
+       "id": "blasting_charge"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deliverance_blood_surge_vehicle_upgrades",
+   "kind": "upgrade",
+   "label": "All Vehicle and Walker type units in your army gain the Demo Caches for 5pts.",
+   "printed": "All Vehicle and Walker type units in your army gain the Demo Caches for 5pts.",
+   "page": 16,
+   "url": "https://longwarindex.app/rites_of_war/deliverance_blood_surge/",
+   "offered_by": {
+    "rite": "codex/genestealer_cults/rites_of_war/deliverance_blood_surge"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "any_of": [
+       {
+        "unit_type": "Vehicle"
+       },
+       {
+        "unit_type": "Walker"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "demo_caches",
+     "name": "Demo Caches",
+     "points": 5,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "demo_caches"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brood_brother_revolution_broodmind_discipline",
+   "kind": "psychic_powers",
+   "label": "All Imperial Guard Psykers in your army gain access to the Broodmind Discipline.",
+   "printed": "All Imperial Guard Psykers in your army gain access to the Broodmind Discipline.",
+   "page": 18,
+   "url": "https://longwarindex.app/rites_of_war/brood_brother_revolution/",
+   "offered_by": {
+    "rite": "codex/genestealer_cults/rites_of_war/brood_brother_revolution"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Imperial Guard"
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "mass_hypnosis",
+     "name": "Mass Hypnosis",
+     "page": 11,
+     "url": "https://longwarindex.app/powers/mass_hypnosis/",
+     "text": "When this Power is cast, select up to D3 enemy units within 18\" of the Psyker. The target units have -1 to their Weapon Skill (WS), Ballistic Skill (BS) and Initiative (I) until the start of your next Shooting Phase. In addition, any Reactions those target units were set to are cancelled.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "mental_onslaught",
+     "name": "Mental Onslaught",
+     "page": 11,
+     "url": "https://longwarindex.app/powers/mental_onslaught/",
+     "text": "The Psyker gains the following Psychic weapon:\n\n- Mental Onslaught",
+     "points": 0,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "mental_onslaught"
+      }
+     ]
+    },
+    {
+     "id": "mind_control",
+     "name": "Mind Control",
+     "page": 11,
+     "url": "https://longwarindex.app/powers/mind_control/",
+     "text": "When this Power is cast, select 1 enemy unit within 24\" of the Psyker that is not an Automata or Drone Type. Immediately make a single Shooting Attack with the targeted unit as if it were your own. The unit is treated as your own for the purposes of determining friendly and enemy targets. The Shooting Attack by the controlled target unit is resolved as 8.2.1 - Snap Shots. The target unit is treated as an enemy unit immediately after its Shooting Attack is resolved.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "psionic_blast",
+     "name": "Psionic Blast",
+     "page": 11,
+     "url": "https://longwarindex.app/powers/psionic_blast/",
+     "text": "The Psyker gains the following Psychic weapon:\n\n- Psionic Blast",
+     "points": 10,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "psionic_blast"
+      }
+     ]
+    },
+    {
+     "id": "telepathic_summons",
+     "name": "Telepathic Summons",
+     "page": 11,
+     "url": "https://longwarindex.app/powers/telepathic_summons/",
+     "text": "When this Power is cast, summon 1 Metamorph Hybrid or Acolyte Hybrid unit wholly within 12\" of the Psyker and more than 3\" away from any enemy units. You can opt to summon 1 unit of Purestrain Genestealers instead, but the Psyker immediately suffers a Perils of the Warp regardless of their casting result.",
+     "points": 35,
+     "pricing": "flat",
+     "reference_cards": [
+      "codex/genestealer_cults/roster/metamorph_hybrids",
+      "codex/genestealer_cults/roster/acolyte_hybrids",
+      "codex/genestealer_cults/roster/purestrain_genestealer_brood"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brood_brother_revolution_psykana_discipline",
+   "kind": "psychic_powers",
+   "label": "All Genestealer Cult Psykers units in your army gain access to the Psykana Psychic Discipline.",
+   "printed": "All Genestealer Cult Psykers units in your army gain access to the Psykana Psychic Discipline.",
+   "page": 18,
+   "url": "https://longwarindex.app/rites_of_war/brood_brother_revolution/",
+   "offered_by": {
+    "rite": "codex/genestealer_cults/rites_of_war/brood_brother_revolution"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Genestealer Cult"
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "assail",
+     "name": "Assail",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/assail/",
+     "text": "The Psyker is equipped with the following Psychic Weapon:\n\n- Assail",
+     "points": 5,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "assail",
+       "faction": "imperial_guard"
+      }
+     ]
+    },
+    {
+     "id": "gaze_of_the_emperor",
+     "name": "Gaze of the Emperor",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/gaze_of_the_emperor/",
+     "text": "The Psyker is equipped with the following Psychic Weapon:\n\n- Gaze of the Emperor",
+     "points": 25,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "gaze_of_the_emperor",
+       "faction": "imperial_guard"
+      }
+     ]
+    },
+    {
+     "id": "mind_shackle",
+     "name": "Mind Shackle",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/mind_shackle/",
+     "text": "When this power is cast, target 1 enemy unit within 18\" of the Psyker. That target unit is immediately Pinned until the start of your next Shooting Phase.",
+     "points": 20,
+     "pricing": "flat"
+    },
+    {
+     "id": "nightshroud",
+     "name": "Nightshroud",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/nightshroud/",
+     "text": "When this power is cast, the Psyker and any unit they are attached to gain the benefit of Heavy Cover until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "psychic_maelstrom",
+     "name": "Psychic Maelstrom",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/psychic_maelstrom/",
+     "text": "When this power is cast, place a single storm marker within 12\" of the Psyker. Each time this Psychic Power is cast, remove any existing storm markers from the battlefield and place a new one within 12\" of the Caster. When casting this Psychic Power, a Psyker can instead move the existing storm marker on a successful Psychic test instead of placing a new marker. The storm marker is moved 2D6\" on a successful Psychic test. Units within 6\" of the storm marker at the end of the Shooting Phase and each Movement Phase take 3D6, Strength 3, AP-, Automatic Hits.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "telekinetic_dome",
+     "name": "Telekinetic Dome",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/telekinetic_dome/",
+     "text": "When this power is cast, the Psyker and any unit they are attached to gain a 5+ Invulnerable save until the start of your next Shooting Phase. If the Psyker remained stationary in the previous Movement Phase, this becomes a 4+ Invulnerable save instead.",
+     "points": 15,
+     "pricing": "flat"
+    }
+   ]
+  }
+ ],
+ "army_settings": [
+  {
+   "id": "planetary_trait",
+   "name": "Planetary Trait",
+   "printed": "A Genestealer Cult army must select one of the following Planetary traits to represent the world upon which the Cult is active.",
+   "page": 12,
+   "url": "https://longwarindex.app/codex/genestealer_cults/planetary_traits/",
+   "offered_by": {
+    "codex": "genestealer_cults"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "any_of": [
+       {
+        "unit_type": "Infantry"
+       },
+       {
+        "unit_type": "Bike"
+       }
+      ]
+     },
+     {
+      "not_keyword": "Purestrain Genestealers"
+     },
+     {
+      "not_keyword": "Patriarch"
+     }
+    ]
+   },
+   "pick": {
+    "min": 1,
+    "max": 1
+   },
+   "options": [
+    {
+     "id": "agri_world",
+     "name": "Agri World",
+     "page": 12,
+     "url": "https://longwarindex.app/planetary_traits/agri_world/",
+     "text": "A Cult that is based on an Agri World gains the Skirmish special rule characteristic on all Infantry and Bike type units.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/skirmisher",
+       "name": "Skirmisher",
+       "printed": "Skirmish",
+       "url": "https://longwarindex.app/universal_special_rules/skirmisher/"
+      }
+     ]
+    },
+    {
+     "id": "death_world",
+     "name": "Death World",
+     "page": 12,
+     "url": "https://longwarindex.app/planetary_traits/death_world/",
+     "text": "A Cult that is based on a Death World gains the Move Through Cover special rule on all Infantry and Bike type units.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/move_through_cover",
+       "name": "Move Through Cover",
+       "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+      }
+     ]
+    },
+    {
+     "id": "forge_world",
+     "name": "Forge World",
+     "page": 12,
+     "url": "https://longwarindex.app/planetary_traits/forge_world/",
+     "text": "A Cult that is based on a Forge World gains the Bionics wargear (see Wargear section) on all Infantry and Bike type units in their army.",
+     "points": 0,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "bionics"
+      }
+     ]
+    },
+    {
+     "id": "hive_world",
+     "name": "Hive World",
+     "page": 12,
+     "url": "https://longwarindex.app/planetary_traits/hive_world/",
+     "text": "A Cult that is based on a Hive World Infantry and Bike type units gain the Frenzy special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/frenzy",
+       "name": "Frenzy",
+       "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+      }
+     ]
+    },
+    {
+     "id": "mining_world",
+     "name": "Mining World",
+     "page": 12,
+     "url": "https://longwarindex.app/planetary_traits/mining_world/",
+     "text": "A Cult that is based on a Mining World gains +1 to their Strength (S) characteristic on all Infantry and Bike type units.",
+     "points": 0,
+     "pricing": "flat",
+     "stat_mods": [
+      {
+       "characteristic": "S",
+       "delta": 1
+      }
+     ]
+    },
+    {
+     "id": "shrine_world",
+     "name": "Shrine World",
+     "page": 12,
+     "url": "https://longwarindex.app/planetary_traits/shrine_world/",
+     "text": "A Cult that is based on a Shrine World gains the Adamantium Will and Indomitable Spirit (5+) special rules on all Infantry and Bike type units.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/adamantium_will",
+       "name": "Adamantium Will",
+       "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+      },
+      {
+       "rule": "universal_special_rules/indomitable_spirit",
+       "name": "Indomitable Spirit",
+       "param": "5+",
+       "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+      }
+     ]
+    },
+    {
+     "id": "void_station",
+     "name": "Void Station",
+     "page": 12,
+     "url": "https://longwarindex.app/planetary_traits/void_station/",
+     "text": "A Cult that is based on a Void Station replaces their Mining Suits for Void Armour on all units in their army. Void Armour confers a 4+ Armour save.",
+     "points": 0,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "wargear",
+         "id": "mining_suit"
+        }
+       ],
+       "add": [
+        {
+         "kind": "wargear",
+         "id": "void_armour"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

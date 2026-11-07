@@ -1,0 +1,884 @@
+{
+ "data_version": "20bd6f419f3b8b30",
+ "format": 1,
+ "faction": "space_wolves",
+ "special_rules": [
+  {
+   "id": "codex/space_wolves/allegiances/allegiance_space_wolves",
+   "name": "Allegiance: Space Wolves",
+   "kind": "allegiance",
+   "page": 4,
+   "url": "https://longwarindex.app/allegiances/allegiance_space_wolves/",
+   "references": [
+    "universal_special_rules/night_vision",
+    "universal_special_rules/counter_attack",
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "All units with the Space Wolves Keyword gain the Allegiance: Space Wolves special rule. The Allegiance: Space Wolves special rule consists of the following rules:\n\n- Vlka Fenryka: Space Wolves units gain the following benefits:\n    - They gain the Night Vision special rule.\n    - They gain the Counter Attack special rule.\n- Lessons of Russ: The following restrictions apply to stalwart traditionalist space wolves who heed no master but Leman Russ:\n    - Space Wolves units may never voluntarily be placed in Deep Strike or use the Deep Strike special rule. This does not apply to Space Wolves Drop Pod units. Space Wolves units forced into Deep Strike reserves may arrive via Deep Strike.\n    - If your opponent is fielding Thousand Sons, you must play 1 additional Battle Round of the game, regardless of the rules in the Battlepack.\n    - You may not take Allies from Codex - Imperial Agents."
+  },
+  {
+   "id": "codex/space_wolves/special_rules/armoury_of_the_6th_legion",
+   "name": "Armoury of the 6th Legion",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_6th_legion/",
+   "references": [
+    "codex/space_wolves/allegiances/allegiance_space_wolves"
+   ],
+   "text": "Units with Allegiance: Space Wolves have access to additional options presented in this supplement in addition to the Wargear presented in the core Codex - Space Marines.\n\nWargear\n\nAny Space Wolves Castraferrum Dreadnought unit may exchange one of its Dreadnought Close Combat Weapons and Storm Bolter for a Blizzard Shield for 20pts.\n\nAny Space Wolves unit may take a Wolf Tail Talisman for 1pt per model.\n\nWeapons\n\nAny Space Wolves Castraferrum Dreadnought unit may exchange one of its Dreadnought Close Combat Weapons and Storm Bolter for a Helfrost Cannon for 10pts.\n\nAny Space Wolves model may:\n\n- Exchange their equipped Power Sword for a Frost Sword for 1pts\n- Exchange their equipped Power Axe for a Frost Axe for 1pts.\n- Exchange their equipped Lightning Claw for a Frost Claw for 1pts per claw.\n- Exchange their Dreadnought Close Combat Weapon & Storm Bolter for a Great Frost Axe for 5pts."
+  },
+  {
+   "id": "codex/space_wolves/special_rules/true_grit",
+   "name": "True Grit",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/true_grit/",
+   "text": "All Boltguns and Storm Bolters a unit with this special rule are equipped with are treated as Pistol 2 type while the equipped unit is within 3\" of an enemy unit."
+  },
+  {
+   "id": "codex/space_wolves/special_rules/curse_of_the_wulfen",
+   "name": "Curse of the Wulfen",
+   "kind": "army",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/curse_of_the_wulfen/",
+   "references": [
+    "universal_special_rules/frenzy"
+   ],
+   "text": "A unit with this special rule has +1 to its Strength (S) and Attacks (A) characteristics. In addition, it gains the Frenzy special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/frenzy",
+      "name": "Frenzy",
+      "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": 1
+     },
+     {
+      "characteristic": "A",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_wolves/special_rules/daemon_spirit_wolves",
+   "name": "Daemon",
+   "datasheet": "Spirit Wolves",
+   "kind": "datasheet",
+   "page": 10,
+   "url": "https://longwarindex.app/special_rules/daemon_spirit_wolves/",
+   "references": [
+    "universal_special_rules/fear"
+   ],
+   "text": "A unit with this rule gains the Daemon Keyword. The Daemon unit has a 5+ Invulnerable save and the Fear (1) special rule. Daemon units have +1\" to their Movement (M) characteristic. (This is included in unit data sheet)",
+   "effects": {
+    "keywords": [
+     "Daemon"
+    ],
+    "invulnerable_save": "5+",
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "M",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_wolves/special_rules/company_of_heroes",
+   "name": "Company of Heroes",
+   "kind": "datasheet",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/company_of_heroes/",
+   "references": [
+    "universal_special_rules/character"
+   ],
+   "text": "During deployment, you may opt to deploy this unit as 1 unit or instead, declare that the unit will disperse. Each model in the unit is treated as its own unit from then on and gains the Character special rule for the rest of the battle. If this unit is deployed as 1 unit, the unit is treated as Infantry type unless the majority of models are equipped with Bike or Thunderwolf options."
+  },
+  {
+   "id": "codex/space_wolves/special_rules/iron_priest",
+   "name": "Iron Priest",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/iron_priest/",
+   "references": [
+    "universal_special_rules/battle_smith"
+   ],
+   "text": "A model upgraded to be an Iron Priest gains the Battle Smith (1) special rule. In addition, they exchange their Power Armour, Boltgun, Bolt Pistol and Chainsword for Helfrost Pistol and Tempest Hammer.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_smith",
+      "name": "Battle Smith",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "wargear",
+        "id": "power_armour",
+        "faction": "space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "boltgun",
+        "faction": "space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "bolt_pistol",
+        "faction": "space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "chainsword",
+        "faction": "space_marines"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "helfrost_pistol"
+       },
+       {
+        "kind": "weapon",
+        "id": "tempest_hammer"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_wolves/special_rules/jarl",
+   "name": "Jarl",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/jarl/",
+   "references": [
+    "universal_special_rules/battle_hardened"
+   ],
+   "text": "Only 1 Theiygn Battle Leader in your army may be upgraded to be a Jarl. A model with this upgrade gains +1 to their Weapon Skill (WS), Ballistic Skill (BS), Wounds (W), Attacks (A), Initiative (I) and Leadership (LD) characteristics. The model also gains the Battle-Hardened special rule. The model gains a Belt of Russ. They gain the Jarl Keyword.",
+   "effects": {
+    "keywords": [
+     "Jarl"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "WS",
+      "delta": 1
+     },
+     {
+      "characteristic": "BS",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     },
+     {
+      "characteristic": "A",
+      "delta": 1
+     },
+     {
+      "characteristic": "I",
+      "delta": 1
+     },
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ],
+    "list_building": {
+     "max_units_per_army": 1
+    },
+    "items": [
+     {
+      "kind": "wargear",
+      "id": "belts_of_russ"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_wolves/special_rules/rune_priest_theiygn_battle_leader",
+   "name": "Rune Priest",
+   "datasheet": "Theiygn Battle Leader",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/rune_priest_theiygn_battle_leader/",
+   "references": [
+    "universal_special_rules/adamantium_will"
+   ],
+   "text": "A model upgraded to be a Rune Priest gains the Psyker (1) and Adamantium Will special rules. In addition, the model exchanges its Chainsword for a Force Stave.\n\n- The Rune Priest may exchange its Force Stave for one of the following:\n    - Runic Sword for 5pts.\n    - Runic Axe for 10pts.\n- The Rune Priest may take a Psychic Hood for 10pts.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/"
+     },
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "chainsword",
+        "faction": "space_marines"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "force_stave",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "force_stave_exchange",
+     "label": "The Rune Priest may exchange its Force Stave for one of the following:",
+     "printed": "The Rune Priest may exchange its Force Stave for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "runic_sword",
+       "name": "Runic Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "force_stave",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "runic_sword"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "runic_axe",
+       "name": "Runic Axe",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "force_stave",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "runic_axe"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "psychic_hood",
+     "label": "The Rune Priest may take a Psychic Hood for 10pts.",
+     "printed": "The Rune Priest may take a Psychic Hood for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "psychic_hood",
+       "name": "Psychic Hood",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "psychic_hood",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/space_wolves/special_rules/wolf_priest_theiygn_battle_leader",
+   "name": "Wolf Priest",
+   "datasheet": "Theiygn Battle Leader",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/wolf_priest_theiygn_battle_leader/",
+   "references": [
+    "universal_special_rules/priest",
+    "universal_special_rules/stubborn",
+    "universal_special_rules/hatred",
+    "universal_special_rules/zealot",
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "A model upgraded to be a Wolf Priest gains the Priest (1), Stubborn, Hatred and Zealot special rules. In addition, any attached unit gains the Feel no Pain (6+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/priest",
+      "name": "Priest",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/priest/"
+     },
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     },
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     },
+     {
+      "rule": "universal_special_rules/zealot",
+      "name": "Zealot",
+      "url": "https://longwarindex.app/universal_special_rules/zealot/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_wolves/special_rules/lone_wolf",
+   "name": "Lone Wolf",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/lone_wolf/",
+   "references": [
+    "universal_special_rules/last_stand",
+    "universal_special_rules/monster_hunter",
+    "universal_special_rules/expendable"
+   ],
+   "text": "A model upgraded to be a Lone Wolf gains the Last Stand, Monster Hunter and Expendable special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/last_stand",
+      "name": "Last Stand",
+      "url": "https://longwarindex.app/universal_special_rules/last_stand/"
+     },
+     {
+      "rule": "universal_special_rules/monster_hunter",
+      "name": "Monster Hunter",
+      "url": "https://longwarindex.app/universal_special_rules/monster_hunter/"
+     },
+     {
+      "rule": "universal_special_rules/expendable",
+      "name": "Expendable",
+      "url": "https://longwarindex.app/universal_special_rules/expendable/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_wolves/special_rules/hero_of_the_bloodclaws",
+   "name": "Hero of the Bloodclaws",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/hero_of_the_bloodclaws/",
+   "text": "This unit may only join Bloodclaws units. This unit may never be your Warlord.",
+   "effects": {
+    "list_building": {
+     "warlord_forbidden": true
+    }
+   }
+  },
+  {
+   "id": "codex/space_wolves/special_rules/wolf_brothers",
+   "name": "Wolf Brothers",
+   "kind": "datasheet",
+   "page": 22,
+   "url": "https://longwarindex.app/special_rules/wolf_brothers/",
+   "text": "The two Wolf Companions that accompany Ragnar Blackmane do not count towards the number of models that may be placed in a Transport and do not prevent him from embarking on a Transport."
+  },
+  {
+   "id": "codex/space_wolves/special_rules/the_last_laugh",
+   "name": "The Last Laugh",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/the_last_laugh/",
+   "text": "When this unit would be slain and removed from play in the Combat Phase, roll a D6. On a 4+, any units that were engaged in combat with this model or were attached to this unit are also slain and removed from play."
+  },
+  {
+   "id": "codex/space_wolves/special_rules/transport_stormwolf_gunship",
+   "name": "Transport",
+   "datasheet": "Stormwolf Gunship",
+   "kind": "datasheet",
+   "page": 40,
+   "url": "https://longwarindex.app/special_rules/transport_stormwolf_gunship/",
+   "text": "This model can transport 12 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_wolves/special_rules/champion_of_grimnar",
+   "name": "Champion of Grimnar",
+   "kind": "warlord_trait",
+   "page": 26,
+   "url": "https://longwarindex.app/special_rules/champion_of_grimnar/",
+   "references": [
+    "universal_special_rules/feel_no_pain",
+    "universal_special_rules/last_stand"
+   ],
+   "text": "If this unit is your Warlord, they gain the Feel no Pain (5+) and Last Stand special rules.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/feel_no_pain",
+        "name": "Feel No Pain",
+        "param": "5+",
+        "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+       },
+       "quote": "If this unit is your Warlord, they gain the Feel no Pain (5+) and Last Stand special rules."
+      },
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/last_stand",
+        "name": "Last Stand",
+        "url": "https://longwarindex.app/universal_special_rules/last_stand/"
+       },
+       "quote": "If this unit is your Warlord, they gain the Feel no Pain (5+) and Last Stand special rules."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_wolves/special_rules/champion_of_the_deathwolves",
+   "name": "Champion of the Deathwolves",
+   "kind": "warlord_trait",
+   "page": 27,
+   "url": "https://longwarindex.app/special_rules/champion_of_the_deathwolves/",
+   "references": [
+    "universal_special_rules/hit_and_run"
+   ],
+   "text": "If this unit is your Warlord, it inflicts +D6 Hammer or Wrath Hits at Initiative Step 10 in a turn in which it performed a successful charge. In addition, your Warlord gains the Hit & Run special rule.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/hit_and_run",
+        "name": "Hit & Run",
+        "printed": "Hit and Run",
+        "url": "https://longwarindex.app/universal_special_rules/hit_and_run/"
+       },
+       "quote": "In addition, your Warlord gains the Hit & Run special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_wolves/special_rules/chosen_student",
+   "name": "Chosen Student",
+   "kind": "warlord_trait",
+   "page": 29,
+   "url": "https://longwarindex.app/special_rules/chosen_student/",
+   "references": [
+    "universal_special_rules/character"
+   ],
+   "text": "During Deployment, select 1 Space Wolves unit in your army with the Character special rule that does not have the Unique Keyword. The selected unit gains +1 to its Weapon Skill (WS), Attacks (A), Initiative (I) and Leadership (LD) characteristics for the rest of the game as Ulriks chosen student."
+  },
+  {
+   "id": "codex/space_wolves/special_rules/jarl_of_the_blackmanes",
+   "name": "Jarl of the Blackmanes",
+   "kind": "warlord_trait",
+   "page": 22,
+   "url": "https://longwarindex.app/special_rules/jarl_of_the_blackmanes/",
+   "references": [
+    "universal_special_rules/furious_charge"
+   ],
+   "text": "If this unit is in your Warlord, once per game, you may declare a savage charge. If you do so, all Space Wolves units in your army gain the gain the Furious Charge special rule until the start of your next Movement Phase."
+  },
+  {
+   "id": "codex/space_wolves/special_rules/jarl_of_the_champions_of_fenris",
+   "name": "Jarl of the Champions of Fenris",
+   "kind": "warlord_trait",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/jarl_of_the_champions_of_fenris/",
+   "text": "If this unit is your Warlord, you may field Theiygn Battle Leaders without taking up a Force Organization Slot.",
+   "effects": {
+    "list_building": {
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/theiygn_battle_leader"
+       }
+      ]
+     },
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/space_wolves/roster/logan_grimnar_the_old_wolf"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_wolves/special_rules/jarl_of_the_deathwolves",
+   "name": "Jarl of the Deathwolves",
+   "kind": "warlord_trait",
+   "page": 24,
+   "url": "https://longwarindex.app/special_rules/jarl_of_the_deathwolves/",
+   "references": [
+    "universal_special_rules/support_squad"
+   ],
+   "text": "If this unit is your Warlord, you may field Fenrisian Wolves as Troops choices with the Support Squad special rule.",
+   "effects": {
+    "list_building": {
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/space_wolves/roster/harold_deathwolf"
+       }
+      }
+     ],
+     "benefits": [
+      {
+       "id": "fenrisian_wolves_troops",
+       "printed": "If this unit is your Warlord, you may field Fenrisian Wolves as Troops choices with the Support Squad special rule.",
+       "role": {
+        "conditions": [
+         {
+          "datasheet": "codex/space_wolves/roster/fenrisian_wolf_pack"
+         }
+        ],
+        "role": "Troops",
+        "instead": false
+       }
+      }
+     ]
+    },
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "datasheet_names": [
+          "Fenrisian Wolf Pack"
+         ]
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       },
+       "quote": "If this unit is your Warlord, you may field Fenrisian Wolves as Troops choices with the Support Squad special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_wolves/special_rules/jarl_of_the_drake_slayers",
+   "name": "Jarl of the Drake Slayers",
+   "kind": "warlord_trait",
+   "page": 23,
+   "url": "https://longwarindex.app/special_rules/jarl_of_the_drake_slayers/",
+   "references": [
+    "universal_special_rules/support_squad",
+    "battlefield_roles/limited"
+   ],
+   "text": "If this unit is your Warlord, Theiygn Guard units in your army may be taken as Troops choices but gain the Support Squad special rule and ignore the Limited: 1 Per Detachment special rule.",
+   "effects": {
+    "list_building": {
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/space_wolves/roster/krom_dragongaze"
+       }
+      }
+     ],
+     "benefits": [
+      {
+       "id": "theiygn_guard_troops",
+       "printed": "If this unit is your Warlord, Theiygn Guard units in your army may be taken as Troops choices but gain the Support Squad special rule and ignore the Limited: 1 Per Detachment special rule.",
+       "role": {
+        "conditions": [
+         {
+          "datasheet": "codex/space_wolves/roster/theiygn_guard"
+         }
+        ],
+        "role": "Troops",
+        "instead": false
+       }
+      },
+      {
+       "id": "theiygn_guard_no_limit",
+       "printed": "If this unit is your Warlord, Theiygn Guard units in your army may be taken as Troops choices but gain the Support Squad special rule and ignore the Limited: 1 Per Detachment special rule.",
+       "limit": {
+        "conditions": [
+         {
+          "datasheet": "codex/space_wolves/roster/theiygn_guard"
+         }
+        ],
+        "limit": null
+       }
+      }
+     ]
+    },
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "datasheet_names": [
+          "Theiygn Guard"
+         ]
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       },
+       "quote": "If this unit is your Warlord, Theiygn Guard units in your army may be taken as Troops choices but gain the Support Squad special rule and ignore the Limited: 1 Per Detachment special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_wolves/special_rules/jarl_of_the_redmaws",
+   "name": "Jarl of the Redmaws",
+   "kind": "warlord_trait",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/jarl_of_the_redmaws/",
+   "text": "If this unit is in your Warlord, you may field 1 Wulfen unit as a Fast Attack choice. In addition, all Space Wolves units in your army count as scoring 1 additional wound for the purposes of determining who won combat.",
+   "effects": {
+    "list_building": {
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/space_wolves/roster/bran_redmaw"
+       }
+      }
+     ],
+     "benefits": [
+      {
+       "id": "wulfen_fast_attack",
+       "printed": "If this unit is in your Warlord, you may field 1 Wulfen unit as a Fast Attack choice.",
+       "role": {
+        "conditions": [
+         {
+          "datasheet": "codex/space_wolves/roster/wulfen"
+         }
+        ],
+        "role": "Fast Attack",
+        "instead": false,
+        "max_units": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_wolves/special_rules/storm_caller",
+   "name": "Storm Caller",
+   "kind": "warlord_trait",
+   "page": 28,
+   "url": "https://longwarindex.app/special_rules/storm_caller/",
+   "text": "If this unit is your Warlord, all attacks in the Shooting Phase against this unit and any attached unit are resolved as Snap Shots."
+  },
+  {
+   "id": "codex/space_wolves/special_rules/tempests_wrath_njal_stormcaller",
+   "name": "Tempest's Wrath",
+   "datasheet": "Njal Stormcaller",
+   "kind": "datasheet",
+   "page": 28,
+   "url": "https://longwarindex.app/special_rules/tempests_wrath_njal_stormcaller/",
+   "text": "Each time Njal Stormcaller successfully casts a Psychic Power, all enemy units within 12\" take D6 Strength 3 automatic hits with no AP. Wound rolls must be made as normal. Saves may be taken as normal."
+  },
+  {
+   "id": "codex/space_wolves/special_rules/the_last_of_the_company_of_russ",
+   "name": "The Last of the Company of Russ",
+   "kind": "warlord_trait",
+   "page": 30,
+   "url": "https://longwarindex.app/special_rules/the_last_of_the_company_of_russ/",
+   "text": "If this unit is your Warlord, all friendly Space Wolves units that can draw visibility to this unit may re-roll failed Pinning and Panic tests. In addition, this unit counts as a Chapter Banner."
+  },
+  {
+   "id": "codex/space_wolves/sagas/saga_of_majesty",
+   "name": "Saga of Majesty",
+   "kind": "army",
+   "page": 9,
+   "url": "https://longwarindex.app/sagas/saga_of_majesty/",
+   "text": "A model with this Saga gains +1 to their Leadership (LD) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_wolves/sagas/saga_of_the_bear",
+   "name": "Saga of the Bear",
+   "kind": "army",
+   "page": 9,
+   "url": "https://longwarindex.app/sagas/saga_of_the_bear/",
+   "text": "A model with this Saga gains +1 to their Toughness (T) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_wolves/sagas/saga_of_the_beast_slayer",
+   "name": "Saga of the Beast Slayer",
+   "kind": "army",
+   "page": 9,
+   "url": "https://longwarindex.app/sagas/saga_of_the_beast_slayer/",
+   "references": [
+    "universal_special_rules/monster_hunter"
+   ],
+   "text": "A model with this Saga gains the Monster Hunter special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/monster_hunter",
+      "name": "Monster Hunter",
+      "url": "https://longwarindex.app/universal_special_rules/monster_hunter/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_wolves/sagas/saga_of_the_hunter",
+   "name": "Saga of the Hunter",
+   "kind": "army",
+   "page": 9,
+   "url": "https://longwarindex.app/sagas/saga_of_the_hunter/",
+   "references": [
+    "universal_special_rules/infiltrate"
+   ],
+   "text": "A model with this Saga gains the Infiltrate special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/infiltrate",
+      "name": "Infiltrate",
+      "url": "https://longwarindex.app/universal_special_rules/infiltrate/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_wolves/sagas/saga_of_the_warrior_born",
+   "name": "Saga of the Warrior Born",
+   "kind": "army",
+   "page": 9,
+   "url": "https://longwarindex.app/sagas/saga_of_the_warrior_born/",
+   "text": "A model with this Saga gains +1 to their Weapon Skill (WS) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "WS",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_wolves/sagas/saga_of_the_wolfkin",
+   "name": "Saga of the Wolfkin",
+   "kind": "army",
+   "page": 9,
+   "url": "https://longwarindex.app/sagas/saga_of_the_wolfkin/",
+   "text": "A model with this Saga may join Beast type units even if it is not the Beast type."
+  }
+ ]
+}

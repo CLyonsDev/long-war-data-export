@@ -1,0 +1,602 @@
+{
+ "data_version": "bb0848d48d1c2f39",
+ "format": 1,
+ "faction": "craftworld_eldar",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/the_phoenix_gem/",
+   "offered_by": {
+    "codex": "craftworld_eldar"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "the_phoenix_gem",
+     "name": "The Phoenix Gem",
+     "points": 30,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_phoenix_gem"
+      }
+     ],
+     "page": 17,
+     "url": "https://longwarindex.app/wargear/the_phoenix_gem/",
+     "pricing": "flat"
+    },
+    {
+     "id": "faolchus_wing",
+     "name": "Faolchú's Wing",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "faolchus_wing"
+      }
+     ],
+     "page": 17,
+     "url": "https://longwarindex.app/wargear/faolchus_wing/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_spirit_stone_of_anathlan",
+     "name": "The Spirit Stone of Anath'lan",
+     "points": 20,
+     "printed": "One unit in your army with the Character & Psyker (x) special rules that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_spirit_stone_of_anathlan"
+      }
+     ],
+     "page": 18,
+     "url": "https://longwarindex.app/wargear/the_spirit_stone_of_anathlan/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "rule": {
+        "rule": "universal_special_rules/psyker",
+        "name": "Psyker",
+        "param": "x",
+        "url": "https://longwarindex.app/universal_special_rules/psyker/"
+       }
+      }
+     ]
+    },
+    {
+     "id": "the_shard_of_anaris",
+     "name": "The Shard of Anaris",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 20pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_shard_of_anaris"
+        }
+       ]
+      }
+     ],
+     "page": 17,
+     "url": "https://longwarindex.app/wargear/the_shard_of_anaris/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_firesabre",
+     "name": "The Firesabre",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "the_firesabre"
+        }
+       ]
+      }
+     ],
+     "page": 17,
+     "url": "https://longwarindex.app/wargear/the_firesabre/",
+     "pricing": "flat"
+    },
+    {
+     "id": "kurnous_bow",
+     "name": "Kurnous' Bow",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Shuriken Pistol for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "shuriken_pistol"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "kurnous_bow"
+        }
+       ]
+      }
+     ],
+     "page": 18,
+     "url": "https://longwarindex.app/wargear/kurnous_bow/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "general_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 25,
+   "url": "https://longwarindex.app/codex/craftworld_eldar/warlord_traits/",
+   "offered_by": {
+    "codex": "craftworld_eldar"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "craftworld_eldar/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "ambush_of_blades",
+     "name": "Ambush of Blades",
+     "page": 25,
+     "url": "https://longwarindex.app/warlord_traits/ambush_of_blades/",
+     "text": "Once per game, the warlord and any attached unit gains the Rending (5+) special rule on all weapons they are equipped with.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "Once per game, the warlord and any attached unit gains the Rending (5+) special rule on all weapons they are equipped with."
+     ]
+    },
+    {
+     "id": "falcons_swiftness",
+     "name": "Falcon's Swiftness",
+     "page": 25,
+     "url": "https://longwarindex.app/warlord_traits/falcons_swiftness/",
+     "text": "The Warlord gains the Sudden Strike special rule and increases their Movement (M) characteristic by 2\".",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/sudden_strike",
+       "name": "Sudden Strike",
+       "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+      }
+     ],
+     "stat_mods": [
+      {
+       "characteristic": "M",
+       "delta": 2
+      }
+     ]
+    },
+    {
+     "id": "fates_messenger",
+     "name": "Fate's Messenger",
+     "page": 25,
+     "url": "https://longwarindex.app/warlord_traits/fates_messenger/",
+     "text": "The Warlord gains the Feel no Pain (5+) and Regeneration special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/feel_no_pain",
+       "name": "Feel No Pain",
+       "param": "5+",
+       "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+      },
+      {
+       "rule": "universal_special_rules/regeneration",
+       "name": "Regeneration",
+       "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ynnari_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "Your army gains access to the Ynnari Warlord Traits (see below).",
+   "printed": "Your army gains access to the Ynnari Warlord Traits (see below).",
+   "page": 33,
+   "url": "https://longwarindex.app/rites_of_war/ynnari_sect_craftworld_eldar/",
+   "offered_by": {
+    "rite": "codex/craftworld_eldar/rites_of_war/ynnari_sect"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1,
+    "pool": "craftworld_eldar/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "favoured_of_ynnead",
+     "name": "Favoured of Ynnead",
+     "page": 33,
+     "url": "https://longwarindex.app/warlord_traits/favoured_of_ynnead_craftworld_eldar/",
+     "text": "A unit with this Warlord Trait and any attached unit always count as gaining the benefit of the Strength from Death special rule.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "A unit with this Warlord Trait and any attached unit always count as gaining the benefit of the Strength from Death special rule."
+     ]
+    },
+    {
+     "id": "lord_of_rebirth",
+     "name": "Lord of Rebirth",
+     "page": 33,
+     "url": "https://longwarindex.app/warlord_traits/lord_of_rebirth_craftworld_eldar/",
+     "text": "A model with this trait gains the Regeneration and Feel no Pain (5+) special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/regeneration",
+       "name": "Regeneration",
+       "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+      },
+      {
+       "rule": "universal_special_rules/feel_no_pain",
+       "name": "Feel No Pain",
+       "param": "5+",
+       "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+      }
+     ]
+    },
+    {
+     "id": "master_of_death",
+     "name": "Master of Death",
+     "page": 33,
+     "url": "https://longwarindex.app/warlord_traits/master_of_death_craftworld_eldar/",
+     "text": "A model with this warlord trait gains the Murderous Strike (6+) on all weapons they are equipped with.",
+     "points": 0,
+     "pricing": "flat",
+     "weapon_rules": [
+      {
+       "rule": {
+        "rule": "special_rules/murderous_strike",
+        "name": "Murderous Strike",
+        "param": "6+",
+        "url": "https://longwarindex.app/special_rules/murderous_strike/"
+       },
+       "weapon_types": [
+        "Pistol",
+        "Rapid Fire",
+        "Assault",
+        "Heavy",
+        "Grenade",
+        "Melee"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "runes_of_fate_psychic_powers",
+   "kind": "psychic_powers",
+   "label": "An Eldar Farseer knows all of the Psychic powers from the Runes of Fate Discipline:",
+   "printed": "An Eldar Farseer knows all of the Psychic powers from the Runes of Fate Discipline:",
+   "page": 26,
+   "url": "https://longwarindex.app/codex/craftworld_eldar/powers/",
+   "offered_by": {
+    "codex": "craftworld_eldar"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Farseer"
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "doom",
+     "name": "Doom",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/doom/",
+     "text": "When this power is cast, select a single enemy unit within 24\" of the Psyker. All friendly Eldar units may re-roll to wound rolls and penetration rolls against that target until the start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "eldritch_storm",
+     "name": "Eldritch Storm",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/eldritch_storm/",
+     "text": "When this Power is Cast, select one of the following effects:\n\n1. Place a Storm Token within 18\" of the Caster.\n2. Move a Storm Token on the battlefield 2D6\".\n\nAt the end of the Caster's Shooting Phase, or at the end of opponent's Movement Phase, all enemy units within 5\" of the Storm Token take D6, Strength 6, AP4 Automatic Hits. Wounds and Saves are made as normal.\n\nOnly 1 Storm Token can be placed on the battlefield. If the Caster attempts to place a new Storm Token using this Psychic Power, the previous token is removed and no longer in effect.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "executioner",
+     "name": "Executioner",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/executioner/",
+     "text": "A Psyker is equipped with the following Psychic weapon:\n\n- Executioner",
+     "points": 0,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "executioner"
+      }
+     ]
+    },
+    {
+     "id": "fortune",
+     "name": "Fortune",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/fortune/",
+     "text": "When this power is cast, select a single friendly unit within 24\" of the Psyker. That unit gains the Feel no Pain (5+) special rule until the start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "guide",
+     "name": "Guide",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/guide/",
+     "text": "When this power is cast, select a single friendly unit within 24\" of the Psyker. That unit may re-roll all to hit rolls until the start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "mind_war",
+     "name": "Mind War",
+     "page": 26,
+     "url": "https://longwarindex.app/powers/mind_war/",
+     "text": "When this power is cast, select a single enemy model within 24\" of the Psyker. The target model must make a Leadership test. On a pass, the target model takes 1 Automatic Wound with no saves allowed. If the target failed, they take D3+1 Automatic Wounds instead with no saves allowed.",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ],
+   "automatic": true
+  },
+  {
+   "id": "runes_of_battle_psychic_powers",
+   "kind": "psychic_powers",
+   "label": "An Eldar Warlock may purchase Psychic powers from the Runes of Battle Discipline:",
+   "printed": "An Eldar Warlock may purchase Psychic powers from the Runes of Battle Discipline:",
+   "page": 26,
+   "url": "https://longwarindex.app/codex/craftworld_eldar/powers/",
+   "offered_by": {
+    "codex": "craftworld_eldar"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Warlock"
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "conceal",
+     "name": "Conceal",
+     "page": 27,
+     "url": "https://longwarindex.app/powers/conceal/",
+     "text": "When this power is cast, the Psyker and any attached unit gain the benefit of Heavy Cover until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "destructor",
+     "name": "Destructor",
+     "page": 27,
+     "url": "https://longwarindex.app/powers/destructor/",
+     "text": "A Psyker is equipped with the following Psychic weapon:\n\n- Destructor",
+     "points": 10,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "destructor"
+      }
+     ]
+    },
+    {
+     "id": "drain",
+     "name": "Drain",
+     "page": 27,
+     "url": "https://longwarindex.app/powers/drain/",
+     "text": "When this power is cast, select 1 enemy unit within 12\" of the Psyker. The target suffers -1 to their Weapon Skill (WS) characteristic until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "embolden",
+     "name": "Embolden",
+     "page": 27,
+     "url": "https://longwarindex.app/powers/embolden/",
+     "text": "When this power is cast, the Psyker and any attached unit automatically pass Pinning and Panic tests until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "empower",
+     "name": "Empower",
+     "page": 27,
+     "url": "https://longwarindex.app/powers/empower/",
+     "text": "When this power is cast, the Psyker and any attached unit gain +1 to their Strength (S) characteristic until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "enervate",
+     "name": "Enervate",
+     "page": 27,
+     "url": "https://longwarindex.app/powers/enervate/",
+     "text": "When this power is cast, select 1 enemy unit within 12\" of the Psyker. The target suffers -1 to their Strength (S) characteristic until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "enhance",
+     "name": "Enhance",
+     "page": 27,
+     "url": "https://longwarindex.app/powers/enhance/",
+     "text": "When this power is cast, the Psyker and any attached unit gain +1 to their Weapon Skill (WS) characteristic until the start of your next Shooting Phase.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "horrify",
+     "name": "Horrify",
+     "page": 27,
+     "url": "https://longwarindex.app/powers/horrify/",
+     "text": "When this power is cast, the Psyker and any attached unit gain the Fear (3) special rule until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "reveal",
+     "name": "Reveal",
+     "page": 27,
+     "url": "https://longwarindex.app/powers/reveal/",
+     "text": "When this power is cast, select 1 enemy unit within 24\" of the Psyker. The target unit cannot claim Cover Saves until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "revenant_discipline",
+   "kind": "psychic_powers",
+   "label": "Any Eldar unit in your army which gains access to the Runes of Fate Psychic Discipline instead must purchase the Psychic Powers listed on the Revenant Discipline (see below).",
+   "printed": "Any Eldar unit in your army which gains access to the Runes of Fate Psychic Discipline instead must purchase the Psychic Powers listed on the Revenant Discipline (see below).",
+   "page": 32,
+   "url": "https://longwarindex.app/rites_of_war/ynnari_sect_craftworld_eldar/",
+   "offered_by": {
+    "rite": "codex/craftworld_eldar/rites_of_war/ynnari_sect"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Farseer"
+     }
+    ]
+   },
+   "pick": {},
+   "choices": [
+    {
+     "id": "ancestors_grace",
+     "name": "Ancestors Grace",
+     "page": 32,
+     "url": "https://longwarindex.app/powers/ancestors_grace_craftworld_eldar/",
+     "text": "When this power is cast, select a single friendly unit within 24\" of the Psyker. That unit counts as gaining the benefit of the Strength from Death special rule until the start of your next Shooting Phase even if no units were slain and removed from play this turn.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "shield_of_ynnead",
+     "name": "Shield of Ynnead",
+     "page": 32,
+     "url": "https://longwarindex.app/powers/shield_of_ynnead_craftworld_eldar/",
+     "text": "When this power is cast, the Psyker and any attached unit gain a 4+ Invulnerable save until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "storm_of_whispers",
+     "name": "Storm of Whispers",
+     "page": 33,
+     "url": "https://longwarindex.app/powers/storm_of_whispers_craftworld_eldar/",
+     "text": "A Psyker is equipped with the following Psychic weapon:\n\n- Storm of Whispers",
+     "points": 10,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "storm_of_whispers"
+      }
+     ]
+    },
+    {
+     "id": "word_of_the_phoenix",
+     "name": "Word of the Phoenix",
+     "page": 32,
+     "url": "https://longwarindex.app/powers/word_of_the_phoenix_craftworld_eldar/",
+     "text": "When this power is cast, select a single friendly Infantry, Automata or Monster unit within 24\" of the Psyker. One model in the target unit heals 1 wound. If the unit has no wounds to be healed, the unit regains 1 lost model with 1 wound remaining.",
+     "points": 10,
+     "pricing": "flat"
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

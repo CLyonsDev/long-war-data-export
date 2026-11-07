@@ -1,0 +1,2315 @@
+{
+ "data_version": "4255a8128deae242",
+ "format": 1,
+ "faction": "death_guard",
+ "units": [
+  {
+   "id": "codex/death_guard/roster/blightlord_terminators",
+   "name": "Blightlord Terminators",
+   "page": 23,
+   "url": "https://longwarindex.app/roster/blightlord_terminators/",
+   "source": "Codex Supplement: Death Guard",
+   "role": "Elites",
+   "points": 225,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "blightlord_terminator",
+     "name": "Blightlord Terminator",
+     "template": "unit",
+     "characteristics": {
+      "M": "5\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "combi_bolter",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_sword",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "cataphractii_terminator_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_nurgle",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    },
+    {
+     "id": "blightlord_terminator_champion",
+     "name": "Blightlord Terminator Champion",
+     "template": "unit",
+     "characteristics": {
+      "M": "5\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "combi_bolter",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_sword",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "cataphractii_terminator_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_nurgle",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "blightlord_terminator",
+     "count": 4
+    },
+    {
+     "profile": "blightlord_terminator_champion",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/death_guard/allegiances/allegiance_death_guard",
+     "name": "Allegiance: Death Guard",
+     "url": "https://longwarindex.app/allegiances/allegiance_death_guard/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/death_guard/special_rules/aura_of_entropy",
+     "name": "Aura of Entropy",
+     "url": "https://longwarindex.app/special_rules/aura_of_entropy/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/slow_and_purposeful",
+     "name": "Slow and Purposeful",
+     "printed": "Slow & Purposeful",
+     "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Death Guard",
+    "Blightlord Terminators",
+    "Veterans",
+    "Terminators",
+    "Nurgle",
+    "M31"
+   ],
+   "size": {
+    "min": 5,
+    "max": 10
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 5 Blightlord Terminator models in this unit (+42pts each)",
+     "printed": "You may include an additional 5 Blightlord Terminator models in this unit for 42pts each.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "blightlord_terminator",
+       "name": "Blightlord Terminator",
+       "points": 42,
+       "pricing": "each",
+       "max": 5,
+       "add_model": {
+        "profile": "blightlord_terminator",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "power_axe",
+     "label": "Any model in the unit may exchange their Power Sword for a Power Axe (+5pts)",
+     "printed": "Any model in the unit may exchange their Power Sword for a Power Axe for 5pts.",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "combi_bolter",
+     "label": "Any model in the unit may exchange its Combi Bolter for one of the following:",
+     "printed": "Any model in the unit may exchange its Combi Bolter for one of the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "combi_flamer",
+       "name": "Combi-Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_flamer",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_plasma",
+       "name": "Combi-Plasma",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_plasma",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "combi_melta",
+       "name": "Combi-Melta",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "combi_melta",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "heavy_weapon",
+     "label": "One in every 4 Blightlord Terminator models in the unit may exchange their Combi Bolter for one of the following:",
+     "printed": "One in every 4 Blightlord Terminator models in the unit may exchange their Combi Bolter for one of the following:",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 4,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plague_spewer",
+       "name": "Plague Spewer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plague_spewer"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "reaper_autocannon",
+       "name": "Reaper Auto Cannon",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "reaper_autocannon",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "blight_launcher",
+       "name": "Blight Launcher",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "blight_launcher"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "flail_of_corruption",
+     "label": "One in every 4 Blightlords may exchange their Power Sword and Combi-Bolter for a Flail of Corruption (+10pts)",
+     "printed": "One in every 4 Blightlords may exchange their Power Sword and Combi-Bolter for a Flail of Corruption for 10pts.",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 4,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "flail_of_corruption",
+       "name": "Flail of Corruption",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_sword",
+           "faction": "chaos_space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "combi_bolter",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "flail_of_corruption"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/death_guard/roster/deathshroud_terminators",
+   "name": "Deathshroud Terminators",
+   "page": 24,
+   "url": "https://longwarindex.app/roster/deathshroud_terminators/",
+   "source": "Codex Supplement: Death Guard",
+   "role": "Elites",
+   "points": 145,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "deathshroud_terminator",
+     "name": "Deathshroud Terminator",
+     "template": "unit",
+     "characteristics": {
+      "M": "5\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 5,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "manreaper"
+      },
+      {
+       "kind": "weapon",
+       "id": "plague_spurt_gauntlets"
+      },
+      {
+       "kind": "wargear",
+       "id": "cataphractii_terminator_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_nurgle",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    },
+    {
+     "id": "deathshroud_terminator_champion",
+     "name": "Deathshroud Terminator Champion",
+     "template": "unit",
+     "characteristics": {
+      "M": "5\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 5,
+      "W": 2,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "manreaper"
+      },
+      {
+       "kind": "weapon",
+       "id": "plague_spurt_gauntlets",
+       "count": 2
+      },
+      {
+       "kind": "wargear",
+       "id": "cataphractii_terminator_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_nurgle",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "deathshroud_terminator",
+     "count": 2
+    },
+    {
+     "profile": "deathshroud_terminator_champion",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/death_guard/allegiances/allegiance_death_guard",
+     "name": "Allegiance: Death Guard",
+     "url": "https://longwarindex.app/allegiances/allegiance_death_guard/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/slow_and_purposeful",
+     "name": "Slow and Purposeful",
+     "printed": "Slow & Purposeful",
+     "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Death Guard",
+    "Deathshroud Terminators",
+    "Veterans",
+    "Terminators",
+    "Nurgle",
+    "M31"
+   ],
+   "size": {
+    "min": 3,
+    "max": 5
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 2 Deathshroud Terminator models in this unit (+49pts each)",
+     "printed": "You may include an additional 2 Deathshroud Terminator models in this unit for 49pts each.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "deathshroud_terminator",
+       "name": "Deathshroud Terminator",
+       "points": 49,
+       "pricing": "each",
+       "max": 2,
+       "add_model": {
+        "profile": "deathshroud_terminator",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "tartaros_terminator_armour",
+     "label": "All models in the unit may exchange their Cataphractii Terminator Armour for Tartaros Terminator Armour (+5pts)",
+     "printed": "All models in the unit may exchange their Cataphractii Terminator Armour for Tartaros Terminator Armour for 5pts.",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "tartaros_terminator_armour",
+       "name": "Tartaros Terminator Armour",
+       "points": 5,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "cataphractii_terminator_armour",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "tartaros_terminator_armour",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/death_guard/roster/foetid_bloat_drone",
+   "name": "Foetid Bloat Drone",
+   "page": 26,
+   "url": "https://longwarindex.app/roster/foetid_bloat_drone/",
+   "source": "Codex Supplement: Death Guard",
+   "role": "Fast Attack",
+   "points": 120,
+   "unit_type": "Monster",
+   "profiles": [
+    {
+     "id": "foetid_bloat_drone",
+     "name": "Foetid Bloat Drone",
+     "template": "unit",
+     "characteristics": {
+      "M": "13\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 5,
+      "T": 6,
+      "W": 3,
+      "A": 3,
+      "I": 4,
+      "Ld": 10,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "daemon_engine_armour",
+       "faction": "chaos_space_marines",
+       "printed": "Daemon Engine Plate"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "rotor_jets"
+      },
+      {
+       "kind": "weapon",
+       "id": "plague_spewer",
+       "count": 2
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_nurgle",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "foetid_bloat_drone",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/death_guard/allegiances/allegiance_death_guard",
+     "name": "Allegiance: Death Guard",
+     "url": "https://longwarindex.app/allegiances/allegiance_death_guard/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/daemon",
+     "name": "Daemon",
+     "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Death Guard",
+    "Daemon",
+    "Daemon Engine",
+    "Foetid Bloat Drone",
+    "Nurgle",
+    "M36"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "plague_spewers",
+     "label": "This unit may exchange its 2 Plague Spewers for one of the following:",
+     "printed": "This unit may exchange its 2 Plague Spewers for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "fleshmower",
+       "name": "Fleshmower",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "plague_spewer",
+           "count": 2
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "fleshmower"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "heavy_blight_launcher",
+       "name": "Heavy Blight Launcher",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "plague_spewer",
+           "count": 2
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_blight_launcher"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/death_guard/roster/mortarion_daemon_primarch_of_the_death_guard",
+   "name": "Mortarion, Daemon Primarch of the Death Guard",
+   "page": 21,
+   "url": "https://longwarindex.app/roster/mortarion_daemon_primarch_of_the_death_guard/",
+   "source": "Codex Supplement: Death Guard",
+   "role": "HQ",
+   "points": 325,
+   "unit_type": "Primarch",
+   "profiles": [
+    {
+     "id": "mortarion_daemon_primarch_of_the_death_guard",
+     "name": "Mortarion, Daemon Primarch of the Death Guard",
+     "template": "unit",
+     "characteristics": {
+      "M": "13\"",
+      "WS": 6,
+      "BS": 6,
+      "S": 7,
+      "T": 8,
+      "W": 6,
+      "A": 6,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "the_barbaran_plate"
+      },
+      {
+       "kind": "weapon",
+       "id": "silence"
+      },
+      {
+       "kind": "weapon",
+       "id": "phosphex_bombs"
+      },
+      {
+       "kind": "weapon",
+       "id": "the_lantern"
+      },
+      {
+       "kind": "wargear",
+       "id": "wings",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_nurgle",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "mortarion_daemon_primarch_of_the_death_guard",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/death_guard/allegiances/allegiance_death_guard",
+     "name": "Allegiance: Death Guard",
+     "url": "https://longwarindex.app/allegiances/allegiance_death_guard/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "4",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/battle_hardened",
+     "name": "Battle-Hardened",
+     "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/daemon",
+     "name": "Daemon",
+     "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "codex/death_guard/special_rules/shadow_of_death",
+     "name": "Shadow of Death",
+     "url": "https://longwarindex.app/special_rules/shadow_of_death/"
+    },
+    {
+     "rule": "codex/death_guard/special_rules/host_of_plagues",
+     "name": "Host of Plagues",
+     "url": "https://longwarindex.app/special_rules/host_of_plagues/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/death_guard/special_rules/primarch_of_the_xiv",
+     "name": "Primarch of the XIV",
+     "url": "https://longwarindex.app/special_rules/primarch_of_the_xiv/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Death Guard",
+    "Daemon Prince",
+    "Daemon",
+    "Mortarion, Daemon Primarch of the Death Guard",
+    "Primarch",
+    "Psyker",
+    "Unique",
+    "Nurgle",
+    "M31"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/death_guard/roster/myphitic_blight_hauler",
+   "name": "Myphitic Blight Hauler",
+   "page": 25,
+   "url": "https://longwarindex.app/roster/myphitic_blight_hauler/",
+   "source": "Codex Supplement: Death Guard",
+   "role": "Elites",
+   "points": 145,
+   "unit_type": "Monster",
+   "profiles": [
+    {
+     "id": "myphitic_blight_hauler",
+     "name": "Myphitic Blight Hauler",
+     "template": "unit",
+     "characteristics": {
+      "M": "9\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 5,
+      "T": 5,
+      "W": 3,
+      "A": 3,
+      "I": 4,
+      "Ld": 10,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "daemon_engine_armour",
+       "faction": "chaos_space_marines",
+       "printed": "Daemon Engine Plate"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bile_spurt"
+      },
+      {
+       "kind": "weapon",
+       "id": "missile_launcher",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "multi_melta",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_nurgle",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "myphitic_blight_hauler",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/death_guard/allegiances/allegiance_death_guard",
+     "name": "Allegiance: Death Guard",
+     "url": "https://longwarindex.app/allegiances/allegiance_death_guard/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/daemon",
+     "name": "Daemon",
+     "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Death Guard",
+    "Daemon",
+    "Daemon Engine",
+    "Myphitic Blight Hauler",
+    "Nurgle",
+    "M36"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/death_guard/roster/necrosius",
+   "name": "Necrosius",
+   "page": 20,
+   "url": "https://longwarindex.app/roster/necrosius/",
+   "source": "Codex Supplement: Death Guard",
+   "role": "HQ",
+   "points": 125,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "necrosius",
+     "name": "Necrosius",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "warp_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_lance",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "chaos_sigil",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_nurgle",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "necrosius",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/death_guard/allegiances/allegiance_death_guard",
+     "name": "Allegiance: Death Guard",
+     "url": "https://longwarindex.app/allegiances/allegiance_death_guard/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    },
+    {
+     "rule": "codex/death_guard/special_rules/necromantic_power",
+     "name": "Necromantic Power",
+     "url": "https://longwarindex.app/special_rules/necromantic_power/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/death_guard/warlord_traits/arch_contaminator",
+     "name": "Arch Contaminator",
+     "url": "https://longwarindex.app/warlord_traits/arch_contaminator/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Death Guard",
+    "Chaos Lord",
+    "Necrosius",
+    "Psyker",
+    "Unique",
+    "Nurgle",
+    "M31"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/death_guard/roster/plague_burst_crawler",
+   "name": "Plague Burst Crawler",
+   "page": 27,
+   "url": "https://longwarindex.app/roster/plague_burst_crawler/",
+   "source": "Codex Supplement: Death Guard",
+   "role": "Heavy Support",
+   "points": 155,
+   "unit_type": "Monster",
+   "profiles": [
+    {
+     "id": "plague_burst_crawler",
+     "name": "Plague Burst Crawler",
+     "template": "unit",
+     "characteristics": {
+      "M": "9\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 6,
+      "T": 7,
+      "W": 4,
+      "A": 3,
+      "I": 4,
+      "Ld": 10,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "daemon_engine_armour",
+       "faction": "chaos_space_marines",
+       "printed": "Daemon Engine Plate"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapon",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_stubber"
+      },
+      {
+       "kind": "weapon",
+       "id": "plague_burst_mortar"
+      },
+      {
+       "kind": "weapon",
+       "id": "plague_spewer",
+       "count": 2
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_nurgle",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "plague_burst_crawler",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/death_guard/allegiances/allegiance_death_guard",
+     "name": "Allegiance: Death Guard",
+     "url": "https://longwarindex.app/allegiances/allegiance_death_guard/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/daemon",
+     "name": "Daemon",
+     "url": "https://longwarindex.app/special_rules/daemon_chaos_space_marines/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Death Guard",
+    "Daemon",
+    "Daemon Engine",
+    "Plague Burst Crawler",
+    "Nurgle",
+    "M36"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "lascannons",
+     "label": "This unit may exchange its 2 Plague Spewers for 2 Lascannons (+30pts)",
+     "printed": "This unit may exchange its 2 Plague Spewers for 2 Lascannons for 30pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "lascannons",
+       "name": "2 Lascannons",
+       "points": 30,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "plague_spewer",
+           "count": 2
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lascannon",
+           "faction": "chaos_space_marines",
+           "count": 2
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/death_guard/roster/plague_marines",
+   "name": "Plague Marines",
+   "page": 22,
+   "url": "https://longwarindex.app/roster/plague_marines/",
+   "source": "Codex Supplement: Death Guard",
+   "role": "Troops",
+   "points": 85,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "plague_marine",
+     "name": "Plague Marine",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 1,
+      "A": 1,
+      "I": 4,
+      "Ld": 7,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "plague_knife"
+      },
+      {
+       "kind": "weapon",
+       "id": "boltgun",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "blight_grenades"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_nurgle",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    },
+    {
+     "id": "plague_champion",
+     "name": "Plague Champion",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 1,
+      "A": 2,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "plague_knife"
+      },
+      {
+       "kind": "weapon",
+       "id": "boltgun",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "power_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "blight_grenades"
+      },
+      {
+       "kind": "weapon",
+       "id": "krak_grenade",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_nurgle",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "plague_marine",
+     "count": 4
+    },
+    {
+     "profile": "plague_champion",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/death_guard/allegiances/allegiance_death_guard",
+     "name": "Allegiance: Death Guard",
+     "url": "https://longwarindex.app/allegiances/allegiance_death_guard/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Despoiler",
+    "Death Guard",
+    "Plague Marines",
+    "Nurgle",
+    "M31"
+   ],
+   "size": {
+    "min": 5,
+    "max": 15
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 10 Plague Marine models in this unit (+15pts each)",
+     "printed": "You may include an additional 10 Plague Marine models in this unit for 15pts each.",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plague_marine",
+       "name": "Plague Marine",
+       "points": 15,
+       "pricing": "each",
+       "max": 10,
+       "add_model": {
+        "profile": "plague_marine",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "special_weapon",
+     "label": "2 in every 4 Plague Marine models may exchange their Boltgun for one of the following:",
+     "printed": "2 in every 4 Plague Marine models may exchange their Boltgun for one of the following:",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 2,
+       "per": 4,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "blight_launcher",
+       "name": "Blight Launcher",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "boltgun",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "blight_launcher"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "plague_belcher",
+       "name": "Plague Belcher",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "boltgun",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plague_belcher"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "plasma_gun",
+       "name": "Plasma Gun",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "boltgun",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_gun",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "meltagun",
+       "name": "Melta Gun",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "boltgun",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "meltagun",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "boltgun",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_maul",
+       "name": "Power Maul",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "boltgun",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_maul",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "flail_of_corruption",
+       "name": "Flail of Corruption",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "boltgun",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "flail_of_corruption"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "great_plague_cleaver",
+       "name": "Great Plague Cleaver",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "boltgun",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "great_plague_cleaver"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "melee_weapon",
+     "label": "Any model may exchange its Boltgun for one of the following:",
+     "printed": "Any model may exchange its Boltgun for one of the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "boltgun",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_maul",
+       "name": "Power Maul",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "boltgun",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_maul",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "icon_of_chaos",
+     "label": "One model in the unit may take an Icon of Chaos (+10pts)",
+     "printed": "One model in the unit may take an Icon of Chaos for 10pts.",
+     "takers": {
+      "scope": "models",
+      "max": 1
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "icon_of_chaos",
+       "name": "Icon of Chaos",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "icon_of_chaos",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "plague_spewer",
+     "label": "For every 9 Plague Marine models in the unit, 1 model may exchange their Boltgun for one of the following:",
+     "printed": "For every 9 Plague Marine models in the unit, 1 model may exchange their Boltgun for one of the following:",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 9,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plague_spewer",
+       "name": "Plague Spewer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "boltgun",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plague_spewer"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "champion_power_sword",
+     "label": "The Champion may take a Power Sword (+5pts)",
+     "printed": "The Champion may take a Power Sword for 5pts.",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "plague_champion"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_sword",
+       "name": "Power Sword",
+       "points": 5,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "chaos_space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "champion_bolt_pistol",
+     "label": "The Champion may exchange their Bolt Pistol for one of the following:",
+     "printed": "The Champion may exchange their Bolt Pistol for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "plague_champion"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "plasma_gun",
+       "name": "Plasma Gun",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "chaos_space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_gun",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "champion_plague_knife",
+     "label": "The Champion may exchange their Plague Knife for one of the following:",
+     "printed": "The Champion may exchange their Plague Knife for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "plague_champion"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "plague_knife"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_maul",
+       "name": "Power Maul",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "plague_knife"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_maul",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "plague_knife"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "faction": "chaos_space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/death_guard/roster/typhus",
+   "name": "Typhus",
+   "page": 19,
+   "url": "https://longwarindex.app/roster/typhus/",
+   "source": "Codex Supplement: Death Guard",
+   "role": "HQ",
+   "points": 140,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "typhus",
+     "name": "Typhus",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 5,
+      "S": 4,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 5,
+      "Ld": 10,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "cataphractii_terminator_armour",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "manreaper"
+      },
+      {
+       "kind": "wargear",
+       "id": "chaos_sigil",
+       "faction": "chaos_space_marines"
+      },
+      {
+       "kind": "weapon",
+       "id": "the_destroyer_hive"
+      },
+      {
+       "kind": "wargear",
+       "id": "the_mark_of_nurgle",
+       "faction": "chaos_space_marines"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "typhus",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/death_guard/allegiances/allegiance_death_guard",
+     "name": "Allegiance: Death Guard",
+     "url": "https://longwarindex.app/allegiances/allegiance_death_guard/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/let_the_galaxy_burn",
+     "name": "Let the Galaxy Burn",
+     "url": "https://longwarindex.app/special_rules/let_the_galaxy_burn/"
+    },
+    {
+     "rule": "codex/chaos_space_marines/special_rules/lord_of_damnation",
+     "name": "Lord of Damnation",
+     "url": "https://longwarindex.app/special_rules/lord_of_damnation/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/slow_and_purposeful",
+     "name": "Slow and Purposeful",
+     "printed": "Slow & Purposeful",
+     "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/death_guard/special_rules/master_of_the_living_dead",
+     "name": "Master of the Living Dead",
+     "url": "https://longwarindex.app/special_rules/master_of_the_living_dead/"
+    }
+   ],
+   "keywords": [
+    "Chaos",
+    "Chaos Space Marine",
+    "Death Guard",
+    "Chaos Lord",
+    "Typhus",
+    "Psyker",
+    "Unique",
+    "Nurgle",
+    "M31"
+   ],
+   "stocks": [],
+   "options": []
+  }
+ ]
+}

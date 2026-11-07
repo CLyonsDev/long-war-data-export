@@ -1,0 +1,7966 @@
+{
+ "data_version": "a6e0c8b081844568",
+ "format": 1,
+ "faction": "genestealer_cults",
+ "units": [
+  {
+   "id": "codex/genestealer_cults/roster/aberrants",
+   "name": "Aberrants",
+   "page": 27,
+   "url": "https://longwarindex.app/roster/aberrants/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Elites",
+   "points": 115,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "aberrants",
+     "name": "Aberrants",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 1,
+      "S": 5,
+      "T": 5,
+      "W": 1,
+      "A": 2,
+      "I": 3,
+      "Ld": 6,
+      "Sv": "-"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "power_pick"
+      },
+      {
+       "kind": "weapon",
+       "id": "rending_claws"
+      }
+     ]
+    },
+    {
+     "id": "aberrant_hypermorph",
+     "name": "Aberrant Hypermorph",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 1,
+      "S": 5,
+      "T": 5,
+      "W": 2,
+      "A": 3,
+      "I": 3,
+      "Ld": 7,
+      "Sv": "-"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "power_pick"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "rending_claws"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "aberrants",
+     "count": 4
+    },
+    {
+     "profile": "aberrant_hypermorph",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/hyper_aggression_augmentation",
+     "name": "Hyper Aggression Augmentation",
+     "url": "https://longwarindex.app/special_rules/hyper_aggression_augmentation/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/enhanced_musculature_augmentation",
+     "name": "Enhanced Musculature Augmentation",
+     "url": "https://longwarindex.app/special_rules/enhanced_musculature_augmentation/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/hardened_exoskeleton_augmentation",
+     "name": "Hardened Exoskeleton Augmentation",
+     "url": "https://longwarindex.app/special_rules/hardened_exoskeleton_augmentation/"
+    }
+   ],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Aberrants",
+    "M35"
+   ],
+   "size": {
+    "min": 5,
+    "max": 15
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 10 Aberrant models in the unit (+23pts each)",
+     "printed": "You may include an additional 10 Aberrant models in the unit (+23pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "aberrant",
+       "name": "You may include an additional 10 Aberrant models in the unit",
+       "points": 23,
+       "pricing": "each",
+       "max": 10,
+       "add_model": {
+        "profile": "aberrants",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "heavy_power_hammer",
+     "label": "Any Aberrant or Aberrant Hypermorph may exchange their Power Pick for a Heavy Power Hammer (+5pts)",
+     "printed": "Any Aberrant or Aberrant Hypermorph may exchange their Power Pick for a Heavy Power Hammer (+5pts)",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_power_hammer",
+       "name": "Heavy Power Hammer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_pick"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_power_hammer"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "augmentation",
+     "label": "An Aberrant unit may purchase one of the following:",
+     "printed": "An Aberrant unit may purchase one of the following:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hyper_aggression_augmentation",
+       "name": "Hyper Aggression Augmentation",
+       "points": 2,
+       "pricing": "per_model",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/hyper_aggression_augmentation",
+         "name": "Hyper Aggression Augmentation",
+         "url": "https://longwarindex.app/special_rules/hyper_aggression_augmentation/"
+        }
+       ]
+      },
+      {
+       "id": "enhanced_musculature_augmentation",
+       "name": "Enhanced Musculature Augmentation",
+       "points": 3,
+       "pricing": "per_model",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/enhanced_musculature_augmentation",
+         "name": "Enhanced Musculature Augmentation",
+         "url": "https://longwarindex.app/special_rules/enhanced_musculature_augmentation/"
+        }
+       ]
+      },
+      {
+       "id": "hardened_exoskeleton_augmentation",
+       "name": "Hardened Exoskeleton Augmentation",
+       "points": 3,
+       "pricing": "per_model",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/hardened_exoskeleton_augmentation",
+         "name": "Hardened Exoskeleton Augmentation",
+         "url": "https://longwarindex.app/special_rules/hardened_exoskeleton_augmentation/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/abominant",
+   "name": "Abominant",
+   "page": 28,
+   "url": "https://longwarindex.app/roster/abominant/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Elites",
+   "points": 95,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "abominant",
+     "name": "Abominant",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 1,
+      "S": 5,
+      "T": 5,
+      "W": 3,
+      "A": 3,
+      "I": 3,
+      "Ld": 7,
+      "Sv": "-"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "rending_claws"
+      },
+      {
+       "kind": "wargear",
+       "id": "mindwyrm"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_power_hammer"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "abominant",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "universal_special_rules/feel_no_pain",
+     "name": "Feel No Pain",
+     "param": "5+",
+     "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+    },
+    {
+     "rule": "universal_special_rules/rage",
+     "name": "Rage",
+     "url": "https://longwarindex.app/universal_special_rules/rage/"
+    },
+    {
+     "rule": "universal_special_rules/frenzy",
+     "name": "Frenzy",
+     "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/prime_specimen",
+     "name": "Prime Specimen",
+     "url": "https://longwarindex.app/special_rules/prime_specimen/"
+    }
+   ],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Abominant",
+    "M35"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "prime_specimen",
+     "label": "You may upgrade 1 Abominant model in your army to a Prime Specimen (+25pts)",
+     "printed": "You may upgrade 1 Abominant model in your army to a Prime Specimen (+25pts)",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "abominant"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "prime_specimen",
+       "name": "Prime Specimen",
+       "points": 25,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/prime_specimen",
+         "name": "Prime Specimen",
+         "url": "https://longwarindex.app/special_rules/prime_specimen/"
+        }
+       ],
+       "unique_as": "codex/genestealer_cults/special_rules/prime_specimen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/achilles_ridge_runner",
+   "name": "Achilles Ridge Runner",
+   "page": 38,
+   "url": "https://longwarindex.app/roster/achilles_ridge_runner/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Fast Attack",
+   "points": 70,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "achilles_ridge_runner",
+     "name": "Achilles Ridge Runner",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 5,
+      "Front": 10,
+      "Side": 10,
+      "Rear": 10,
+      "A": 2,
+      "I": 3,
+      "Ld": 7,
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "cult_crew_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_mortar",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "linked_heavy_stubber",
+       "count": 1,
+       "mount": "secondary"
+      },
+      {
+       "kind": "wargear",
+       "id": "flare_launcher"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "achilles_ridge_runner",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "printed": "Fire & Fade",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+     "name": "Devoted Crew",
+     "url": "https://longwarindex.app/special_rules/devoted_crew/"
+    }
+   ],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Achilles Ridge Runner",
+    "M35"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "heavy_mortar",
+     "label": "The Ridge Runner may exchange its Heavy Mortar (P) for one of the following:",
+     "printed": "The Ridge Runner may exchange its Heavy Mortar (P) for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_mining_laser",
+       "name": "Heavy Mining Laser",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_mortar",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_mining_laser",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "missile_launcher",
+       "name": "Missile Launcher",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_mortar",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "missile_launcher",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "demo_caches",
+     "label": "The Ridge Runner may take Demo Caches (+5pts)",
+     "printed": "May take Demo Caches (+5pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "demo_caches",
+       "name": "Demo Caches",
+       "points": 5,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "demo_caches"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "devoted_crew",
+     "label": "You may purchase Devoted Crew (+10pts)",
+     "printed": "May purchase Devoted Crew (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "devoted_crew",
+       "name": "Devoted Crew",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+         "name": "Devoted Crew",
+         "url": "https://longwarindex.app/special_rules/devoted_crew/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/acolyte_hybrids",
+   "name": "Acolyte Hybrids",
+   "page": 24,
+   "url": "https://longwarindex.app/roster/acolyte_hybrids/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Troops",
+   "points": 40,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "acolyte_hybrid",
+     "name": "Acolyte Hybrid",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 3,
+      "S": 4,
+      "T": 3,
+      "W": 1,
+      "A": 1,
+      "I": 3,
+      "Ld": 6,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "rending_claws"
+      },
+      {
+       "kind": "weapon",
+       "id": "autopistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      },
+      {
+       "kind": "weapon",
+       "id": "blasting_charge"
+      }
+     ]
+    },
+    {
+     "id": "acolyte_leader",
+     "name": "Acolyte Leader",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 3,
+      "S": 4,
+      "T": 3,
+      "W": 1,
+      "A": 2,
+      "I": 2,
+      "Ld": 7,
+      "Sv": "5+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "rending_claws"
+      },
+      {
+       "kind": "weapon",
+       "id": "autopistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      },
+      {
+       "kind": "weapon",
+       "id": "blasting_charge"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "acolyte_hybrid",
+     "count": 4
+    },
+    {
+     "profile": "acolyte_leader",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+     "name": "Return to the Shadows",
+     "url": "https://longwarindex.app/special_rules/return_to_the_shadows/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Acolyte Hybrids",
+    "M35"
+   ],
+   "size": {
+    "min": 5,
+    "max": 15
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 10 Acolyte Hybrid models in the unit (+8pts each)",
+     "printed": "You may include an additional 10 Acolyte Hybrid models in the unit (+8pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "acolyte_hybrid",
+       "name": "You may include an additional 10 Acolyte Hybrid models in the unit",
+       "points": 8,
+       "pricing": "each",
+       "max": 10,
+       "add_model": {
+        "profile": "acolyte_hybrid",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "hand_flamer",
+     "label": "Any Acolyte Hybrid may exchange their Autopistol for a Hand Flamer (+5pts each)",
+     "printed": "Any Acolyte Hybrid may exchange their Autopistol for a Hand Flamer (+5pts each)",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "acolyte_hybrid"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hand_flamer",
+       "name": "Hand Flamer",
+       "points": 5,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "hand_flamer"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "cult_icon",
+     "label": "One Acolyte Hybrid may exchange their Autopistol for a Cult Icon (+5pts)",
+     "printed": "One Acolyte Hybrid may exchange their Autopistol for a Cult Icon (+5pts)",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "acolyte_hybrid"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "cult_icon",
+       "name": "Cult Icon",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "cult_icon"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "special_weapon",
+     "label": "For every 5 Acolyte models in the unit, up to 2 Acolyte Hybrid models may exchange their Autopistols for one of the following:",
+     "printed": "For every 5 Acolyte models in the unit, up to 2 Acolyte Hybrid models may exchange their Autopistols for one of the following:",
+     "takers": {
+      "scope": "models",
+      "profiles": [
+       "acolyte_hybrid"
+      ],
+      "ratio": {
+       "take": 2,
+       "per": 5,
+       "rounding": "down",
+       "counted": {
+        "profiles": [
+         "acolyte_hybrid",
+         "acolyte_leader"
+        ]
+       }
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "breacher_charge",
+       "name": "Breacher Charges",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "breacher_charge"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "heavy_rock_saw",
+       "name": "Heavy Rock Saw",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_rock_saw"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "heavy_rock_drill",
+       "name": "Heavy Rock Drill",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_rock_drill",
+           "printed": "Rock Drill"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "heavy_rock_cutter",
+       "name": "Heavy Rock Cutter",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_rock_cutter"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "leader_melee_weapon",
+     "label": "The Acolyte Leader may exchange their Close Combat weapon for one of the following:",
+     "printed": "The Acolyte Leader may exchange their Close Combat weapon for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "acolyte_leader"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "bone_sword",
+       "name": "Bone Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapons"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "bone_sword"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lash_whip",
+       "name": "Lash Whip",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapons"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lash_whip"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "leader_pistol",
+     "label": "The Acolyte Leader may exchange their Autopistol for one of the following:",
+     "printed": "The Acolyte Leader may exchange their Autopistol for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "acolyte_leader"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "bone_sword",
+       "name": "Bone Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "bone_sword"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lash_whip",
+       "name": "Lash Whip",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lash_whip"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/acolyte_iconward",
+   "name": "Acolyte Iconward",
+   "page": 31,
+   "url": "https://longwarindex.app/roster/acolyte_iconward/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Elites",
+   "points": 30,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "acolyte_iconward",
+     "name": "Acolyte Iconward",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 3,
+      "S": 4,
+      "T": 3,
+      "W": 2,
+      "A": 2,
+      "I": 3,
+      "Ld": 8,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "autopistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "rending_claws"
+      },
+      {
+       "kind": "weapon",
+       "id": "blasting_charge"
+      },
+      {
+       "kind": "wargear",
+       "id": "sacred_cult_banner"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "acolyte_iconward",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_specialists",
+     "name": "Cult Specialists",
+     "printed": "Cult Specialist",
+     "url": "https://longwarindex.app/special_rules/cult_specialists/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+     "name": "Return to the Shadows",
+     "url": "https://longwarindex.app/special_rules/return_to_the_shadows/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Acolyte Iconward",
+    "M35"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/genestealer_cults/roster/atalan_jackals",
+   "name": "Atalan Jackals",
+   "page": 39,
+   "url": "https://longwarindex.app/roster/atalan_jackals/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Fast Attack",
+   "points": 65,
+   "unit_type": "Bike",
+   "profiles": [
+    {
+     "id": "atalan_jackal",
+     "name": "Atalan Jackal",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 2,
+      "BS": 2,
+      "S": 3,
+      "T": 4,
+      "W": 1,
+      "A": 1,
+      "I": 3,
+      "Ld": 5,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "autopistol"
+      },
+      {
+       "kind": "wargear",
+       "id": "bike"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      },
+      {
+       "kind": "weapon",
+       "id": "blasting_charge"
+      }
+     ]
+    },
+    {
+     "id": "jackal_leader",
+     "name": "Jackal Leader",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 4,
+      "W": 1,
+      "A": 2,
+      "I": 3,
+      "Ld": 6,
+      "Sv": "5+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "autopistol"
+      },
+      {
+       "kind": "wargear",
+       "id": "bike"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      },
+      {
+       "kind": "weapon",
+       "id": "blasting_charge"
+      }
+     ]
+    },
+    {
+     "id": "wolf_quadbike",
+     "name": "Wolf Quadbike",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 2,
+      "BS": 2,
+      "S": 3,
+      "T": 4,
+      "W": 2,
+      "A": 1,
+      "I": 3,
+      "Ld": 5,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "autopistol"
+      },
+      {
+       "kind": "wargear",
+       "id": "quad_bike"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_stubber"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      },
+      {
+       "kind": "weapon",
+       "id": "blasting_charge"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "atalan_jackal",
+     "count": 3
+    },
+    {
+     "profile": "jackal_leader",
+     "count": 1
+    },
+    {
+     "profile": "wolf_quadbike",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/militant_training",
+     "name": "Militant Training",
+     "url": "https://longwarindex.app/special_rules/militant_training/"
+    }
+   ],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Atalan Jackals",
+    "M35"
+   ],
+   "size": {
+    "min": 5,
+    "max": 16
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_jackals",
+     "label": "You may include an additional 8 Atalan Jackal models in the unit (+10pts each)",
+     "printed": "May include an additional 8 Atalan Jackal models in the unit (+10pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "atalan_jackal",
+       "name": "Atalan Jackal",
+       "points": 10,
+       "pricing": "each",
+       "max": 8,
+       "add_model": {
+        "profile": "atalan_jackal",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "additional_wolf_quadbike",
+     "label": "You may include 1 additional Wolf Quadbike model for every 4 other models in this unit (+25pts)",
+     "printed": "May include 1 additional Wolf Quadbike model for every 4 other models in this unit (+25pts)",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 4,
+       "counted": {
+        "profiles": [
+         "atalan_jackal",
+         "jackal_leader"
+        ]
+       },
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "wolf_quadbike",
+       "name": "Wolf Quadbike",
+       "points": 25,
+       "pricing": "each",
+       "add_model": {
+        "profile": "wolf_quadbike",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "militant_training",
+     "label": "This unit may purchase Militant Training (+2pts per model)",
+     "printed": "This unit may purchase Militant Training (+2pts per model)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "militant_training",
+       "name": "Militant Training",
+       "points": 2,
+       "pricing": "per_model",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/militant_training",
+         "name": "Militant Training",
+         "url": "https://longwarindex.app/special_rules/militant_training/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "autopistol_shotgun",
+     "label": "Any Atalan Jackal may exchange their Autopistol for a Shotgun (+2pts each)",
+     "printed": "Any Atalan Jackal may exchange their Autopistol for a Shotgun (+2pts each)",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "atalan_jackal"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "shotgun",
+       "name": "Shotgun",
+       "points": 2,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "shotgun"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "close_combat_weapon",
+     "label": "Any Atalan Jackal may exchange their Close Combat weapons for one of the following:",
+     "printed": "Any Atalan Jackal may exchange their Close Combat weapons for one of the following:",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "atalan_jackal"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_sword",
+       "name": "Power Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapons"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapons"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_pick",
+       "name": "Power Pick",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapons"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_pick"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "grenade_launcher",
+     "label": "For every 4 models in this unit, 1 Atalan Jackal model or Wolf Quadbike model may take a Grenade Launcher (+15pts)",
+     "printed": "For every 4 models in this unit, 1 Atalan Jackal model or Wolf Quadbike model may take a Grenade Launcher (+15pts)",
+     "takers": {
+      "scope": "models",
+      "profiles": [
+       "atalan_jackal",
+       "wolf_quadbike"
+      ],
+      "ratio": {
+       "take": 1,
+       "per": 4,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "grenade_launcher",
+       "name": "Grenade Launcher",
+       "points": 15,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "grenade_launcher"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "wolf_quadbike_heavy_stubber",
+     "label": "A Wolf Quadbike model may exchange its Heavy Stubber for one of the following:",
+     "printed": "A Wolf Quadbike model may exchange its Heavy Stubber for one of the following:",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "wolf_quadbike"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "mining_laser",
+       "name": "Mining Laser",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_stubber"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "mining_laser"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "heavy_flamer",
+       "name": "Heavy Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_stubber"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "leader_melee_weapon",
+     "label": "The Leader may exchange their Close Combat Weapon for one of the following:",
+     "printed": "The Leader may exchange their Close Combat Weapon for one of the following:",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "jackal_leader"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "chainsword",
+       "name": "Chainsword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapons"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chain_sword"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_maul",
+       "name": "Power Maul",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapons"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_maul"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_pick",
+       "name": "Power Pick",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapons"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_pick"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "leader_pistol",
+     "label": "The Leader may exchange their Autopistol for one of the following:",
+     "printed": "The Leader may exchange their Autopistol for one of the following:",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "jackal_leader"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "bolt_pistol",
+       "name": "Bolt Pistol",
+       "points": 1,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "web_pistol",
+       "name": "Web Pistol",
+       "points": 2,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "web_pistol"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/basilisk_artillery_gun",
+   "name": "Basilisk Artillery Gun",
+   "page": 47,
+   "url": "https://longwarindex.app/roster/basilisk_artillery_gun_genestealer_cults/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Heavy Support",
+   "points": 120,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "basilisk_artillery_gun",
+     "name": "Basilisk Artillery Gun",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 6,
+      "Front": 12,
+      "Side": 10,
+      "Rear": 10,
+      "A": 3,
+      "I": 3,
+      "Ld": 7,
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "cult_crew_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "earthshaker_cannon",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_bolter",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_stubber",
+       "mount": "secondary"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "basilisk_artillery_gun",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "printed": "Fire & Fade",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+     "name": "Devoted Crew",
+     "url": "https://longwarindex.app/special_rules/devoted_crew/"
+    }
+   ],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Basilisk Artillery Gun",
+    "M35"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "heavy_bolter",
+     "label": "The Basilisk may exchange its Heavy Bolter for one of the following:",
+     "printed": "The Basilisk may exchange its Heavy Bolter for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_flamer",
+       "name": "Heavy Flamer",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "devoted_crew",
+     "label": "You may purchase Devoted Crew (+10pts)",
+     "printed": "May purchase Devoted Crew (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "devoted_crew",
+       "name": "Devoted Crew",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+         "name": "Devoted Crew",
+         "url": "https://longwarindex.app/special_rules/devoted_crew/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/benefictus",
+   "name": "Benefictus",
+   "page": 35,
+   "url": "https://longwarindex.app/roster/benefictus/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Elites",
+   "points": 55,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "benefictus",
+     "name": "Benefictus",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 4,
+      "S": 3,
+      "T": 3,
+      "W": 2,
+      "A": 2,
+      "I": 3,
+      "Ld": 7,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "force_stave"
+      },
+      {
+       "kind": "weapon",
+       "id": "warp_beam"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "benefictus",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_specialists",
+     "name": "Cult Specialists",
+     "printed": "Cult Specialist",
+     "url": "https://longwarindex.app/special_rules/cult_specialists/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+     "name": "Return to the Shadows",
+     "url": "https://longwarindex.app/special_rules/return_to_the_shadows/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/gestalt_warp_field",
+     "name": "Gestalt Warp Field",
+     "url": "https://longwarindex.app/special_rules/gestalt_warp_field/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Benefictus",
+    "Psyker",
+    "M35"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/genestealer_cults/roster/biophagus",
+   "name": "Biophagus",
+   "page": 31,
+   "url": "https://longwarindex.app/roster/biophagus/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Elites",
+   "points": 35,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "biophagus",
+     "name": "Biophagus",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 3,
+      "W": 2,
+      "A": 2,
+      "I": 3,
+      "Ld": 7,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "autopistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "wargear",
+       "id": "alchemicus_familiar"
+      },
+      {
+       "kind": "wargear",
+       "id": "injector_goad"
+      },
+      {
+       "kind": "wargear",
+       "id": "med_kit"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "biophagus",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_specialists",
+     "name": "Cult Specialists",
+     "printed": "Cult Specialist",
+     "url": "https://longwarindex.app/special_rules/cult_specialists/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+     "name": "Return to the Shadows",
+     "url": "https://longwarindex.app/special_rules/return_to_the_shadows/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Biophagus",
+    "M35"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/genestealer_cults/roster/chimera_apc",
+   "name": "Chimera APC",
+   "page": 36,
+   "url": "https://longwarindex.app/roster/chimera_apc_genestealer_cults/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Dedicated Transport",
+   "points": 75,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "chimera_apc",
+     "name": "Chimera APC",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 6,
+      "Front": 12,
+      "Side": 10,
+      "Rear": 10,
+      "A": 3,
+      "I": 3,
+      "Ld": 7,
+      "Transport Capacity": 12
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "cult_crew_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "multi_laser",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_bolter",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_stubber",
+       "mount": "secondary"
+      },
+      {
+       "kind": "wargear",
+       "id": "lasgun_array",
+       "mount": "secondary"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "chimera_apc",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "printed": "Fire & Fade",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/transport_chimera_apc",
+     "name": "Transport (Chimera APC)",
+     "printed": "Transport",
+     "url": "https://longwarindex.app/special_rules/transport_chimera_apc_genestealer_cults/"
+    },
+    {
+     "rule": "codex/genestealer_cults/wargear/lasgun_array",
+     "name": "Lasgun Array",
+     "url": "https://longwarindex.app/wargear/lasgun_array_genestealer_cults/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Chimera",
+    "Transport",
+    "M35"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "heavy_stubber",
+     "label": "The Chimera may exchange its Heavy Stubber for a Storm Bolter (S) (+0pts)",
+     "printed": "The Chimera may exchange its Heavy Stubber for a Storm Bolter (S) (+0pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "storm_bolter",
+       "name": "Storm Bolter",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_stubber"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "multi_laser",
+     "label": "The Chimera may exchange its Multi-Laser (P) for one of the following:",
+     "printed": "The Chimera may exchange its Multi-Laser (P) for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_flamer",
+       "name": "Heavy Flamer",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "multi_laser",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "linked_heavy_bolter",
+       "name": "Linked Heavy Bolter",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "multi_laser",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "linked_heavy_bolter",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "autocannon",
+       "name": "Autocannon",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "multi_laser",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "autocannon",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "heavy_bolter",
+     "label": "The Chimera may exchange its Heavy Bolter (P) for one of the following:",
+     "printed": "The Chimera may exchange its Heavy Bolter (P) for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_flamer",
+       "name": "Heavy Flamer",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "multi_melta",
+       "name": "Multi-Melta",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "multi_melta",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/clamavus",
+   "name": "Clamavus",
+   "page": 29,
+   "url": "https://longwarindex.app/roster/clamavus/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Elites",
+   "points": 40,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "clamavus",
+     "name": "Clamavus",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 3,
+      "W": 2,
+      "A": 2,
+      "I": 3,
+      "Ld": 7,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "autopistol"
+      },
+      {
+       "kind": "wargear",
+       "id": "scrambler_array"
+      },
+      {
+       "kind": "wargear",
+       "id": "proclamator_hailer"
+      },
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "clamavus",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_specialists",
+     "name": "Cult Specialists",
+     "printed": "Cult Specialist",
+     "url": "https://longwarindex.app/special_rules/cult_specialists/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+     "name": "Return to the Shadows",
+     "url": "https://longwarindex.app/special_rules/return_to_the_shadows/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "Psyker",
+    "[Origins]",
+    "Cult",
+    "Clamavus",
+    "M35"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/genestealer_cults/roster/goliath_rock_grinder",
+   "name": "Goliath Rock Grinder",
+   "page": 44,
+   "url": "https://longwarindex.app/roster/goliath_rock_grinder/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Heavy Support",
+   "points": 100,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "goliath_rock_grinder",
+     "name": "Goliath Rock Grinder",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 6,
+      "Front": 12,
+      "Side": 11,
+      "Rear": 10,
+      "A": 3,
+      "I": 3,
+      "Ld": 7,
+      "Transport Capacity": 6
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "cult_crew_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_stubber",
+       "mount": "secondary"
+      },
+      {
+       "kind": "weapon",
+       "id": "clearance_incinerator",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "drill_dozer_blade"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "goliath_rock_grinder",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "printed": "Fire & Fade",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/transport_goliath_rock_grinder",
+     "name": "Transport (Goliath Rock Grinder)",
+     "printed": "Transport",
+     "url": "https://longwarindex.app/special_rules/transport_goliath_rock_grinder/"
+    },
+    {
+     "rule": "universal_special_rules/assault_vehicle",
+     "name": "Assault Vehicle",
+     "url": "https://longwarindex.app/universal_special_rules/assault_vehicle/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+     "name": "Devoted Crew",
+     "url": "https://longwarindex.app/special_rules/devoted_crew/"
+    }
+   ],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Goliath Rock Grinder",
+    "Transport",
+    "M35"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "clearance_incinerator",
+     "label": "The Goliath Rock Grinder may exchange its Clearance Incinerator for one of the following:",
+     "printed": "The Goliath Rock Grinder may exchange its Clearance Incinerator for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_mining_laser",
+       "name": "Heavy Mining Laser",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "clearance_incinerator",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_mining_laser"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "heavy_seismic_cannon",
+       "name": "Heavy Seismic cannon",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "clearance_incinerator",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_seismic_cannon"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "devoted_crew",
+     "label": "You may purchase Devoted Crew (+10pts)",
+     "printed": "May purchase Devoted Crew (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "devoted_crew",
+       "name": "Devoted Crew",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+         "name": "Devoted Crew",
+         "url": "https://longwarindex.app/special_rules/devoted_crew/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "demo_caches",
+     "label": "The Goliath may take demo caches (+5pts)",
+     "printed": "The Goliath may take demo caches (+5pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "demo_caches",
+       "name": "Demo Caches",
+       "points": 5,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "demo_caches"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/goliath_truck",
+   "name": "Goliath Truck",
+   "page": 37,
+   "url": "https://longwarindex.app/roster/goliath_truck/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Dedicated Transport",
+   "points": 65,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "goliath",
+     "name": "Goliath",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 6,
+      "Front": 11,
+      "Side": 11,
+      "Rear": 10,
+      "A": 3,
+      "I": 3,
+      "Ld": 7,
+      "Transport Capacity": 15
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "cult_crew_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_stubber",
+       "mount": "secondary"
+      },
+      {
+       "kind": "weapon",
+       "id": "linked_autocannon",
+       "mount": "primary"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "goliath",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "printed": "Fire & Fade",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/transport_goliath_truck",
+     "name": "Transport (Goliath Truck)",
+     "printed": "Transport",
+     "url": "https://longwarindex.app/special_rules/transport_goliath_truck/"
+    },
+    {
+     "rule": "universal_special_rules/assault_vehicle",
+     "name": "Assault Vehicle",
+     "url": "https://longwarindex.app/universal_special_rules/assault_vehicle/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Goliath",
+    "Transport",
+    "M35"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/genestealer_cults/roster/hell_hound",
+   "name": "Hell Hound Assault Tank",
+   "page": 41,
+   "url": "https://longwarindex.app/roster/hell_hound/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Fast Attack",
+   "points": 90,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "hell_hound_assault_tank",
+     "name": "Hell Hound Assault Tank",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 6,
+      "Front": 12,
+      "Side": 12,
+      "Rear": 10,
+      "A": 3,
+      "I": 3,
+      "Ld": 7,
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "cult_crew_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "inferno_cannon",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_bolter",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_stubber",
+       "mount": "secondary"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "hell_hound_assault_tank",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "printed": "Fire & Fade",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+     "name": "Devoted Crew",
+     "url": "https://longwarindex.app/special_rules/devoted_crew/"
+    }
+   ],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Hell Hound",
+    "M35"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "heavy_stubber",
+     "label": "The Hell Hound may exchange its Heavy Stubber (S) for a Storm Bolter (S) (+0pts)",
+     "printed": "The Hell Hound may exchange its Heavy Stubber (S) for a Storm Bolter (S) (+0pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "storm_bolter",
+       "name": "Storm Bolter",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_stubber",
+           "mount": "secondary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "inferno_cannon",
+     "label": "The Hell Hound may exchange its Inferno Cannon (P) for one of the following:",
+     "printed": "The Hell Hound may exchange its Inferno Cannon (P) for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "chem_cannon",
+       "name": "Chem Cannon",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "inferno_cannon",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chem_cannon",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "melta_cannon",
+       "name": "Melta Cannon",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "inferno_cannon",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "melta_cannon",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "heavy_bolter",
+     "label": "The Hell Hound may exchange its Heavy Bolter (P) for one of the following:",
+     "printed": "The Hell Hound may exchange its Heavy Bolter (P) for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_flamer",
+       "name": "Heavy Flamer",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "multi_melta",
+       "name": "Multi-Melta",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "multi_melta",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hunter_killer_missile",
+     "label": "The Hell Hound may take a Hunter-Killer Missile (S) (+3pts)",
+     "printed": "The Hell Hound may take a Hunter-Killer Missile (S) (+3pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hunter_killer_missile",
+       "name": "Hunter-Killer Missile",
+       "points": 3,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "hunter_killer_missile",
+         "mount": "secondary"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "demo_caches",
+     "label": "The Hell Hound may take Demo Caches (+5pts)",
+     "printed": "The Hell Hound may take Demo Caches (+5pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "demo_caches",
+       "name": "Demo Caches",
+       "points": 5,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "demo_caches"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "devoted_crew",
+     "label": "You may purchase Devoted Crew (+10pts)",
+     "printed": "May purchase Devoted Crew (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "devoted_crew",
+       "name": "Devoted Crew",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+         "name": "Devoted Crew",
+         "url": "https://longwarindex.app/special_rules/devoted_crew/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/hydra_flak_tank",
+   "name": "Hydra Flak Tank",
+   "page": 45,
+   "url": "https://longwarindex.app/roster/hydra_flak_tank_genestealer_cults/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Heavy Support",
+   "points": 115,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "hydra_flak_tank",
+     "name": "Hydra Flak Tank",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 6,
+      "Front": 12,
+      "Side": 10,
+      "Rear": 10,
+      "A": 3,
+      "I": 3,
+      "Ld": 7,
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "cult_crew_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "hydra_quad_cannon",
+       "printed": "Hydra Quad Autocannon",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_bolter",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_stubber",
+       "mount": "secondary"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "hydra_flak_tank",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "printed": "Fire & Fade",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+     "name": "Devoted Crew",
+     "url": "https://longwarindex.app/special_rules/devoted_crew/"
+    }
+   ],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Hydra Flak Tank",
+    "Tank",
+    "M35"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "heavy_bolter",
+     "label": "The Hydra may exchange its Heavy Bolter for one of the following:",
+     "printed": "The Hydra may exchange its Heavy Bolter for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_flamer",
+       "name": "Heavy Flamer",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "devoted_crew",
+     "label": "You may purchase Devoted Crew (+10pts)",
+     "printed": "May purchase Devoted Crew (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "devoted_crew",
+       "name": "Devoted Crew",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+         "name": "Devoted Crew",
+         "url": "https://longwarindex.app/special_rules/devoted_crew/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/jackal_alphus",
+   "name": "Jackal Alphus",
+   "page": 32,
+   "url": "https://longwarindex.app/roster/jackal_alphus/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Elites",
+   "points": 45,
+   "unit_type": "Bike",
+   "profiles": [
+    {
+     "id": "jackal_alphus",
+     "name": "Jackal Alphus",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 5,
+      "S": 3,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 3,
+      "Ld": 7,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "autopistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "blasting_charge"
+      },
+      {
+       "kind": "weapon",
+       "id": "sniper_rifle"
+      },
+      {
+       "kind": "wargear",
+       "id": "bike"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "jackal_alphus",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_specialists",
+     "name": "Cult Specialists",
+     "printed": "Cult Specialist",
+     "url": "https://longwarindex.app/special_rules/cult_specialists/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+     "name": "Return to the Shadows",
+     "url": "https://longwarindex.app/special_rules/return_to_the_shadows/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/skilled_rider",
+     "name": "Skilled Rider",
+     "url": "https://longwarindex.app/universal_special_rules/skilled_rider/"
+    },
+    {
+     "rule": "universal_special_rules/preferred_enemy",
+     "name": "Preferred Enemy",
+     "param": "Infantry",
+     "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Jackal Alphus",
+    "M35"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/genestealer_cults/roster/kelermorph",
+   "name": "Kelermorph",
+   "page": 33,
+   "url": "https://longwarindex.app/roster/kelermorph/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Elites",
+   "points": 45,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "kelermorph",
+     "name": "Kelermorph",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 5,
+      "S": 3,
+      "T": 3,
+      "W": 2,
+      "A": 2,
+      "I": 3,
+      "Ld": 7,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "autopistol",
+       "count": 3
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "kelermorph",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_specialists",
+     "name": "Cult Specialists",
+     "printed": "Cult Specialist",
+     "url": "https://longwarindex.app/special_rules/cult_specialists/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+     "name": "Return to the Shadows",
+     "url": "https://longwarindex.app/special_rules/return_to_the_shadows/"
+    },
+    {
+     "rule": "universal_special_rules/hit_and_run",
+     "name": "Hit & Run",
+     "url": "https://longwarindex.app/universal_special_rules/hit_and_run/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "3",
+     "printed": "Firing Protocol (3)",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/gunslinger",
+     "name": "Gunslinger",
+     "url": "https://longwarindex.app/special_rules/gunslinger/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limit: 1 per Detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Kelermorph",
+    "M35"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/genestealer_cults/roster/leman_russ_battle_tank",
+   "name": "Leman Russ Battle Tank",
+   "page": 43,
+   "url": "https://longwarindex.app/roster/leman_russ_battle_tank_genestealer_cults/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Heavy Support",
+   "points": 120,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "leman_russ_battle_tank",
+     "name": "Leman Russ Battle Tank",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 8,
+      "Front": 14,
+      "Side": 13,
+      "Rear": 10,
+      "A": 4,
+      "I": 3,
+      "Ld": 7,
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "cult_crew_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "battle_cannon",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_bolter",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_stubber",
+       "mount": "secondary"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "leman_russ_battle_tank",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "printed": "Fire & Fade",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+     "name": "Devoted Crew",
+     "url": "https://longwarindex.app/special_rules/devoted_crew/"
+    }
+   ],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Leman Russ Battle Tank",
+    "Tank",
+    "M35"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "heavy_stubber",
+     "label": "The Tank may exchange their Heavy Stubber for a Storm Bolter (S) (+0pts)",
+     "printed": "The Tank may exchange their Heavy Stubber for a Storm Bolter (S) (+0pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "storm_bolter",
+       "name": "Storm Bolter",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_stubber"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "mount": "secondary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sponson",
+     "label": "The Tank may take one of the following Sponson weapons:",
+     "printed": "The Tank may take one of the following Sponson weapons:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_bolters",
+       "name": "Heavy Bolters",
+       "points": 20,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "heavy_bolter",
+         "count": 2,
+         "mount": "primary"
+        }
+       ]
+      },
+      {
+       "id": "heavy_flamers",
+       "name": "Heavy Flamers",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "heavy_flamer",
+         "count": 2,
+         "mount": "primary"
+        }
+       ]
+      },
+      {
+       "id": "multi_meltas",
+       "name": "Multi Meltas",
+       "points": 40,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "multi_melta",
+         "count": 2,
+         "mount": "primary"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "heavy_bolter",
+     "label": "The Tank may exchange its Heavy Bolter (P) for one of the following:",
+     "printed": "The Tank may exchange its Heavy Bolter (P) for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "lascannon",
+       "name": "Lascannon",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lascannon",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "heavy_flamer",
+       "name": "Heavy Flamer",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "battle_cannon",
+     "label": "The Tank may exchange its Battle Cannon (P) for one of the following:",
+     "printed": "The Tank may exchange its Battle Cannon (P) for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "vanquisher_battle_cannon",
+       "name": "Vanquisher Battle Cannon",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "battle_cannon",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "vanquisher_battle_cannon",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "eradicator_nova_cannon",
+       "name": "Eradicator Nova Cannon",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "battle_cannon",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "eradicator_nova_cannon",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "exterminator_autocannon",
+       "name": "Exterminator Autocannon",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "battle_cannon",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "exterminator_autocannon",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "punisher_gatling_cannon",
+       "name": "Punisher Gatling Cannon",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "battle_cannon",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "punisher_gatling_cannon",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "demolisher_cannon",
+       "name": "Demolisher Cannon",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "battle_cannon",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "demolisher_cannon",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hunter_killer_missile",
+     "label": "The Tank may take a Hunter-Killer Missile (S) (+3pts)",
+     "printed": "The Tank may take a Hunter-Killer Missile (S) (+3pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hunter_killer_missile",
+       "name": "Hunter-Killer Missile",
+       "points": 3,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "hunter_killer_missile",
+         "mount": "secondary"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "devoted_crew",
+     "label": "You may purchase Devoted Crew (+10pts)",
+     "printed": "May purchase Devoted Crew (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "devoted_crew",
+       "name": "Devoted Crew",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+         "name": "Devoted Crew",
+         "url": "https://longwarindex.app/special_rules/devoted_crew/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/locus",
+   "name": "Locus",
+   "page": 33,
+   "url": "https://longwarindex.app/roster/locus/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Elites",
+   "points": 45,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "locus",
+     "name": "Locus",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 3,
+      "S": 3,
+      "T": 3,
+      "W": 2,
+      "A": 2,
+      "I": 5,
+      "Ld": 7,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "locus_blades",
+       "count": 2
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "locus",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+     "name": "Return to the Shadows",
+     "url": "https://longwarindex.app/special_rules/return_to_the_shadows/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/preternatural_reflexes",
+     "name": "Preternatural Reflexes",
+     "url": "https://longwarindex.app/special_rules/preternatural_reflexes/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/bodyguard",
+     "name": "Bodyguard",
+     "url": "https://longwarindex.app/special_rules/bodyguard/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Locus",
+    "M35"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/genestealer_cults/roster/magus",
+   "name": "Magus",
+   "page": 22,
+   "url": "https://longwarindex.app/roster/magus/",
+   "source": "Codex: Genestealer Cults",
+   "role": "HQ",
+   "points": 55,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "magus",
+     "name": "Magus",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 4,
+      "S": 3,
+      "T": 3,
+      "W": 3,
+      "A": 3,
+      "I": 3,
+      "Ld": 8,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "force_stave"
+      },
+      {
+       "kind": "weapon",
+       "id": "autopistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "bio_dagger"
+      },
+      {
+       "kind": "wargear",
+       "id": "psychic_familiar"
+      },
+      {
+       "kind": "wargear",
+       "id": "refractor_field"
+      },
+      {
+       "kind": "wargear",
+       "id": "psychic_stimulus"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "magus",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+     "name": "Return to the Shadows",
+     "url": "https://longwarindex.app/special_rules/return_to_the_shadows/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limit: 1 Per detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "Psyker",
+    "[Origins]",
+    "Cult",
+    "Magus",
+    "M35"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/genestealer_cults/roster/malcador_annihilator_tank",
+   "name": "Malcador Annihilator Tank",
+   "page": 49,
+   "url": "https://longwarindex.app/roster/malcador_annihilator_tank_genestealer_cults/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Heavy Support",
+   "points": 160,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "malcador_annihilator_tank",
+     "name": "Malcador Annihilator Tank",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 8,
+      "Front": 14,
+      "Side": 13,
+      "Rear": 10,
+      "A": 6,
+      "I": 3,
+      "Ld": 7,
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "cult_crew_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "linked_lascannon",
+       "count": 1,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "demolisher_cannon",
+       "count": 1,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_stubber",
+       "count": 2,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_stubber",
+       "count": 1,
+       "mount": "secondary"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "malcador_annihilator_tank",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "printed": "Fire & Fade",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/overburdened_engine",
+     "name": "Overburdened Engine",
+     "url": "https://longwarindex.app/special_rules/overburdened_engine_genestealer_cults/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+     "name": "Devoted Crew",
+     "url": "https://longwarindex.app/special_rules/devoted_crew/"
+    }
+   ],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Malcador Annihilator Tank",
+    "Tank",
+    "M35"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "heavy_stubbers",
+     "label": "The Tank may exchange its 2 Heavy Stubbers (P) for one of the following:",
+     "printed": "The Tank may exchange its 2 Heavy Stubbers (P) for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "autocannons",
+       "name": "Autocannons",
+       "points": 30,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_stubber",
+           "count": 2,
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "autocannon",
+           "count": 2,
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lascannons",
+       "name": "Lascannons",
+       "points": 40,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_stubber",
+           "count": 2,
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lascannon",
+           "count": 2,
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hunter_killer_missile",
+     "label": "The Tank may take a Hunter-Killer Missile (S) (+3pts)",
+     "printed": "The Tank may take a Hunter-Killer Missile (S) (+3pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hunter_killer_missile",
+       "name": "Hunter-Killer Missile",
+       "points": 3,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "hunter_killer_missile",
+         "mount": "secondary"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "devoted_crew",
+     "label": "You may purchase Devoted Crew (+10pts)",
+     "printed": "May purchase Devoted Crew (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "devoted_crew",
+       "name": "Devoted Crew",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+         "name": "Devoted Crew",
+         "url": "https://longwarindex.app/special_rules/devoted_crew/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/malcador_assault_tank",
+   "name": "Malcador Assault Tank",
+   "page": 48,
+   "url": "https://longwarindex.app/roster/malcador_assault_tank_genestealer_cults/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Heavy Support",
+   "points": 135,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "malcador_assault_tank",
+     "name": "Malcador Assault Tank",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 8,
+      "Front": 14,
+      "Side": 13,
+      "Rear": 10,
+      "A": 6,
+      "I": 3,
+      "Ld": 7,
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "cult_crew_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "battle_cannon",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_bolter",
+       "count": 1,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_stubber",
+       "count": 2,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "storm_bolter",
+       "count": 1,
+       "mount": "secondary"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "malcador_assault_tank",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "printed": "Fire & Fade",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/overburdened_engine",
+     "name": "Overburdened Engine",
+     "url": "https://longwarindex.app/special_rules/overburdened_engine_genestealer_cults/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+     "name": "Devoted Crew",
+     "url": "https://longwarindex.app/special_rules/devoted_crew/"
+    }
+   ],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Malcador Assault Tank",
+    "Tank",
+    "M35"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "heavy_stubbers",
+     "label": "The Tank may exchange its 2 Heavy Stubbers (P) for one of the following:",
+     "printed": "The Tank may exchange its 2 Heavy Stubbers (P) for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "autocannons",
+       "name": "Autocannons",
+       "points": 30,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_stubber",
+           "count": 2,
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "autocannon",
+           "count": 2,
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lascannons",
+       "name": "Lascannons",
+       "points": 40,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_stubber",
+           "count": 2,
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lascannon",
+           "count": 2,
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hunter_killer_missile",
+     "label": "The Tank may take a Hunter-Killer Missile (S) (+3pts)",
+     "printed": "The Tank may take a Hunter-Killer Missile (S) (+3pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hunter_killer_missile",
+       "name": "Hunter-Killer Missile",
+       "points": 3,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "hunter_killer_missile",
+         "mount": "secondary"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "devoted_crew",
+     "label": "You may purchase Devoted Crew (+10pts)",
+     "printed": "May purchase Devoted Crew (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "devoted_crew",
+       "name": "Devoted Crew",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+         "name": "Devoted Crew",
+         "url": "https://longwarindex.app/special_rules/devoted_crew/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/malcador_defender_tank",
+   "name": "Malcador Defender Tank",
+   "page": 50,
+   "url": "https://longwarindex.app/roster/malcador_defender_tank_genestealer_cults/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Heavy Support",
+   "points": 185,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "malcador_defender_tank",
+     "name": "Malcador Defender Tank",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 8,
+      "Front": 14,
+      "Side": 13,
+      "Rear": 10,
+      "A": 6,
+      "I": 3,
+      "Ld": 7,
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "cult_crew_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_bolter",
+       "count": 5,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "demolisher_cannon",
+       "count": 1,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_stubber",
+       "count": 2,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_stubber",
+       "count": 1,
+       "mount": "secondary"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "malcador_defender_tank",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "printed": "Fire & Fade",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/overburdened_engine",
+     "name": "Overburdened Engine",
+     "url": "https://longwarindex.app/special_rules/overburdened_engine_genestealer_cults/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+     "name": "Devoted Crew",
+     "url": "https://longwarindex.app/special_rules/devoted_crew/"
+    }
+   ],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Malcador Defender Tank",
+    "Tank",
+    "M35"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "heavy_stubbers",
+     "label": "The Tank may exchange its 2 Heavy Stubbers (P) for one of the following:",
+     "printed": "The Tank may exchange its 2 Heavy Stubbers (P) for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "autocannons",
+       "name": "Autocannons",
+       "points": 30,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_stubber",
+           "count": 2,
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "autocannon",
+           "count": 2,
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lascannons",
+       "name": "Lascannons",
+       "points": 40,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_stubber",
+           "count": 2,
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lascannon",
+           "count": 2,
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "devoted_crew",
+     "label": "You may purchase Devoted Crew (+10pts)",
+     "printed": "May purchase Devoted Crew (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "devoted_crew",
+       "name": "Devoted Crew",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+         "name": "Devoted Crew",
+         "url": "https://longwarindex.app/special_rules/devoted_crew/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/metamorph_hybrids",
+   "name": "Metamorph Hybrids",
+   "page": 26,
+   "url": "https://longwarindex.app/roster/metamorph_hybrids/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Elites",
+   "points": 70,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "metamorph",
+     "name": "Metamorph",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 3,
+      "S": 4,
+      "T": 3,
+      "W": 1,
+      "A": 2,
+      "I": 4,
+      "Ld": 6,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "metamorph_talons"
+      },
+      {
+       "kind": "weapon",
+       "id": "autopistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      },
+      {
+       "kind": "weapon",
+       "id": "blasting_charge"
+      }
+     ]
+    },
+    {
+     "id": "metamorph_leader",
+     "name": "Metamorph Leader",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 3,
+      "S": 4,
+      "T": 3,
+      "W": 1,
+      "A": 2,
+      "I": 4,
+      "Ld": 7,
+      "Sv": "5+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "metamorph_talons"
+      },
+      {
+       "kind": "weapon",
+       "id": "autopistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      },
+      {
+       "kind": "weapon",
+       "id": "blasting_charge"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "metamorph",
+     "count": 4
+    },
+    {
+     "profile": "metamorph_leader",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+     "name": "Return to the Shadows",
+     "url": "https://longwarindex.app/special_rules/return_to_the_shadows/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Metamorph Hybrids",
+    "M35"
+   ],
+   "size": {
+    "min": 5,
+    "max": 15
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 10 Metamorph Hybrid models in the unit (+11pts each)",
+     "printed": "You may include an additional 10 Metamorph Hybrid models in the unit (+11pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "metamorph",
+       "name": "You may include an additional 10 Metamorph Hybrid models in the unit",
+       "points": 11,
+       "pricing": "each",
+       "max": 10,
+       "add_model": {
+        "profile": "metamorph",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "hand_flamer",
+     "label": "Any Metamorph Hybrid may exchange their Autopistol for a Hand Flamer (+5pts each)",
+     "printed": "Any Metamorph Hybrid may exchange their Autopistol for a Hand Flamer (+5pts each)",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "metamorph"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hand_flamer",
+       "name": "Hand Flamer",
+       "points": 5,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "hand_flamer"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "cult_icon",
+     "label": "One Metamorph Hybrid may exchange their Autopistol for a Cult Icon (+5pts)",
+     "printed": "One Metamorph Hybrid may exchange their Autopistol for a Cult Icon (+5pts)",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "metamorph"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "cult_icon",
+       "name": "Cult Icon",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "cult_icon"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "metamorph_talons",
+     "label": "Any Metamorph Hybrid may exchange their Metamorph Talons for:",
+     "printed": "Any Metamorph Hybrid may exchange their Metamorph Talons for:",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "metamorph"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "rending_claws",
+       "name": "Rending Claws",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "metamorph_talons"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "rending_claws"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "metamorph_claws",
+       "name": "Metamorph Claws",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "metamorph_talons"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "metamorph_claws"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "leader_melee_weapon",
+     "label": "The Metamorph Leader may exchange their Close Combat weapon for one of the following:",
+     "printed": "The Metamorph Leader may exchange their Close Combat weapon for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "metamorph_leader"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "bone_sword",
+       "name": "Bone Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapons"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "bone_sword"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lash_whip",
+       "name": "Lash Whip",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapons"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lash_whip"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "leader_pistol",
+     "label": "The Metamorph Leader may exchange their Autopistol for one of the following:",
+     "printed": "The Metamorph Leader may exchange their Autopistol for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "metamorph_leader"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "bone_sword",
+       "name": "Bone Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "bone_sword"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lash_whip",
+       "name": "Lash Whip",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lash_whip"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/neophyte_heavy_weapons_squad",
+   "name": "Neophyte Heavy Weapons Squad",
+   "page": 42,
+   "url": "https://longwarindex.app/roster/neophyte_heavy_weapons_squad/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Heavy Support",
+   "points": 70,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "neophyte_heavy_weapons_team",
+     "name": "Neophyte Heavy Weapons Team",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 2,
+      "BS": 2,
+      "S": 3,
+      "T": 3,
+      "W": 2,
+      "A": 2,
+      "I": 3,
+      "Ld": 5,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons",
+       "count": 2
+      },
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "autogun",
+       "count": 1
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_bolter",
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "neophyte_heavy_weapons_team",
+     "count": 3
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+     "name": "Return to the Shadows",
+     "url": "https://longwarindex.app/special_rules/return_to_the_shadows/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/heavy_arms_training",
+     "name": "Heavy Arms Training",
+     "url": "https://longwarindex.app/special_rules/heavy_arms_training/"
+    }
+   ],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Neophyte Heavy Weapons Squad",
+    "M35"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "heavy_bolter",
+     "label": "Any model in the unit may exchange its heavy Bolter for one of the following:",
+     "printed": "Any model in the unit may exchange its heavy Bolter for one of the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "mortar",
+       "name": "Mortar",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "mortar"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "autocannon",
+       "name": "Autocannon",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "autocannon"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "missile_launcher",
+       "name": "Missile Launcher",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "missile_launcher"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "heavy_arms_training",
+     "label": "The unit may purchase Heavy Arms Training (+15pts)",
+     "printed": "The unit may purchase Heavy Arms Training (+15pts)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_arms_training",
+       "name": "Heavy Arms Training",
+       "points": 15,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/heavy_arms_training",
+         "name": "Heavy Arms Training",
+         "url": "https://longwarindex.app/special_rules/heavy_arms_training/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/neophyte_hybrids",
+   "name": "Neophyte Hybrids",
+   "page": 23,
+   "url": "https://longwarindex.app/roster/neophyte_hybrids/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Troops",
+   "points": 50,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "neophyte_hybrid",
+     "name": "Neophyte Hybrid",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 2,
+      "BS": 2,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "A": 1,
+      "I": 3,
+      "Ld": 5,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "autogun"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      },
+      {
+       "kind": "weapon",
+       "id": "blasting_charge"
+      }
+     ]
+    },
+    {
+     "id": "neophyte_leader",
+     "name": "Neophyte Leader",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 3,
+      "W": 1,
+      "A": 2,
+      "I": 3,
+      "Ld": 6,
+      "Sv": "5+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "autogun"
+      },
+      {
+       "kind": "weapon",
+       "id": "autopistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      },
+      {
+       "kind": "weapon",
+       "id": "blasting_charge"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "neophyte_hybrid",
+     "count": 9
+    },
+    {
+     "profile": "neophyte_leader",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+     "name": "Return to the Shadows",
+     "url": "https://longwarindex.app/special_rules/return_to_the_shadows/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/militant_training",
+     "name": "Militant Training",
+     "url": "https://longwarindex.app/special_rules/militant_training/"
+    }
+   ],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Neophyte Hybrids",
+    "M35"
+   ],
+   "size": {
+    "min": 10,
+    "max": 30
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 20 Neophyte Hybrid models in the unit (+5pts each)",
+     "printed": "You may include an additional 20 Neophyte Hybrid models in the unit (+5pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "neophyte_hybrid",
+       "name": "You may include an additional 20 Neophyte Hybrid models in the unit",
+       "points": 5,
+       "pricing": "each",
+       "max": 20,
+       "add_model": {
+        "profile": "neophyte_hybrid",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "militant_training",
+     "label": "You may purchase Militant Training for this unit (+2pts per model)",
+     "printed": "You may purchase Militant Training for this unit (+2pts per model)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "militant_training",
+       "name": "Militant Training",
+       "points": 2,
+       "pricing": "per_model",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/militant_training",
+         "name": "Militant Training",
+         "url": "https://longwarindex.app/special_rules/militant_training/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shotgun",
+     "label": "Any Neophyte Hybrid may exchange their Autogun for a Shotgun (+2pts each)",
+     "printed": "Any Neophyte Hybrid may exchange their Autogun for a Shotgun (+2pts each)",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "neophyte_hybrid"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "shotgun",
+       "name": "Shotgun",
+       "points": 2,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autogun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "shotgun"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "cult_icon",
+     "label": "One Neophyte Hybrid may exchange their Autogun for a Cult Icon (+5pts)",
+     "printed": "One Neophyte Hybrid may exchange their Autogun for a Cult Icon (+5pts)",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "neophyte_hybrid"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "cult_icon",
+       "name": "Cult Icon",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autogun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "cult_icon"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "flak_armour",
+     "label": "The entire unit may exchange their Mining Suit and Autogun for Flak Armour and Lasgun (+0pts)",
+     "printed": "The entire unit may exchange their Mining Suit and Autogun for Flak Armour and Lasgun (+0pts)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "flak_armour",
+       "name": "Flak Armour and Lasgun",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "mining_suit"
+          },
+          {
+           "kind": "weapon",
+           "id": "autogun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "flak_armour"
+          },
+          {
+           "kind": "weapon",
+           "id": "lasgun"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "heavy_weapon",
+     "label": "For every 10 Neophyte Hybrid models in the unit, up to 2 Neophyte Hybrid models may exchange their Autoguns for one of the following:",
+     "printed": "For every 10 Neophyte Hybrid models in the unit, up to 2 Neophyte Hybrid models may exchange their Autoguns for one of the following:",
+     "takers": {
+      "scope": "models",
+      "profiles": [
+       "neophyte_hybrid"
+      ],
+      "ratio": {
+       "take": 2,
+       "per": 10,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_stubber",
+       "name": "Heavy Stubber",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autogun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_stubber"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "seismic_cannon",
+       "name": "Seismic Cannon",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autogun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "seismic_cannon"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "mining_laser",
+       "name": "Mining Laser",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autogun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "mining_laser"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "special_weapon",
+     "label": "For every 10 Neophyte models in the unit, up to 2 Neophyte Hybrid models may exchange their Autoguns for one of the following:",
+     "printed": "For every 10 Neophyte models in the unit, up to 2 Neophyte Hybrid models may exchange their Autoguns for one of the following:",
+     "takers": {
+      "scope": "models",
+      "profiles": [
+       "neophyte_hybrid"
+      ],
+      "ratio": {
+       "take": 2,
+       "per": 10,
+       "rounding": "down",
+       "counted": {
+        "profiles": [
+         "neophyte_hybrid",
+         "neophyte_leader"
+        ]
+       }
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "flamer",
+       "name": "Flamer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autogun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "flamer"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "grenade_launcher",
+       "name": "Grenade launcher",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autogun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "grenade_launcher"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "webber",
+       "name": "Webber",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autogun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "webber"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "leader_melee_weapon",
+     "label": "The Neophyte Leader may exchange their Autogun for one of the following:",
+     "printed": "The Neophyte Leader may exchange their Autogun for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "neophyte_leader"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "chainsword",
+       "name": "Chainsword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autogun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "chain_sword"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_maul",
+       "name": "Power Maul",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autogun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_maul"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_pick",
+       "name": "Power Pick",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autogun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_pick"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "leader_pistol",
+     "label": "The Neophyte Leader may exchange their Autopistol for one of the following:",
+     "printed": "The Neophyte Leader may exchange their Autopistol for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "neophyte_leader"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "laspistol",
+       "name": "Laspistol",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "laspistol"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "bolt_pistol",
+       "name": "Bolt Pistol",
+       "points": 1,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "web_pistol",
+       "name": "Web Pistol",
+       "points": 2,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "autopistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "web_pistol"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/nexos",
+   "name": "Nexos",
+   "page": 30,
+   "url": "https://longwarindex.app/roster/nexos/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Elites",
+   "points": 35,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "nexos",
+     "name": "Nexos",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 3,
+      "W": 2,
+      "A": 2,
+      "I": 3,
+      "Ld": 7,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "autopistol"
+      },
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "nexos",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_specialists",
+     "name": "Cult Specialists",
+     "printed": "Cult Specialist",
+     "url": "https://longwarindex.app/special_rules/cult_specialists/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+     "name": "Return to the Shadows",
+     "url": "https://longwarindex.app/special_rules/return_to_the_shadows/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/marshal_forces",
+     "name": "Marshal Forces",
+     "printed": "Marshal",
+     "url": "https://longwarindex.app/special_rules/marshal_forces/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/timed_strategy",
+     "name": "Timed Strategy",
+     "url": "https://longwarindex.app/special_rules/timed_strategy/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Nexos",
+    "M35"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/genestealer_cults/roster/patriarch",
+   "name": "Patriarch",
+   "page": 20,
+   "url": "https://longwarindex.app/roster/patriarch/",
+   "source": "Codex: Genestealer Cults",
+   "role": "HQ",
+   "points": 105,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "purestrain_patriarch",
+     "name": "Purestrain Patriarch",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 4,
+      "S": 5,
+      "T": 5,
+      "W": 4,
+      "A": 4,
+      "I": 6,
+      "Ld": 9,
+      "Sv": "4+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "monstrous_rending_claws",
+       "count": 2
+      },
+      {
+       "kind": "wargear",
+       "id": "hardened_carapace"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "purestrain_patriarch",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+     "name": "Return to the Shadows",
+     "url": "https://longwarindex.app/special_rules/return_to_the_shadows/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "universal_special_rules/furious_charge",
+     "name": "Furious Charge",
+     "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+    },
+    {
+     "rule": "universal_special_rules/sudden_strike",
+     "name": "Sudden Strike",
+     "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/lightning_fast_reaction",
+     "name": "Lightning-Fast Reaction",
+     "printed": "Lightning Fast Reactions",
+     "url": "https://longwarindex.app/special_rules/lightning_fast_reaction_genestealer_cults/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limit: 1 Per detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/toxin_sacs",
+     "name": "Toxin Sacs",
+     "url": "https://longwarindex.app/special_rules/toxin_sacs/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/adrenal_glands",
+     "name": "Adrenal Glands",
+     "url": "https://longwarindex.app/special_rules/adrenal_glands/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/caustic_blood",
+     "name": "Caustic Blood",
+     "url": "https://longwarindex.app/special_rules/caustic_blood/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/chameleon_skin",
+     "name": "Chameleon Skin",
+     "url": "https://longwarindex.app/special_rules/chameleon_skin/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/necrotic_regeneration",
+     "name": "Necrotic Regeneration",
+     "url": "https://longwarindex.app/special_rules/necrotic_regeneration/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/hive_fleet_trait",
+     "name": "Hive Fleet Trait",
+     "url": "https://longwarindex.app/special_rules/hive_fleet_trait/"
+    }
+   ],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "Psyker",
+    "Cult",
+    "Patriarch",
+    "M35"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "upgrades",
+     "label": "The unit may purchase any of the following:",
+     "printed": "The unit may purchase any of the following:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {},
+     "choices": [
+      {
+       "id": "toxin_sacs",
+       "name": "Toxin Sacs",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/toxin_sacs",
+         "name": "Toxin Sacs",
+         "url": "https://longwarindex.app/special_rules/toxin_sacs/"
+        }
+       ]
+      },
+      {
+       "id": "adrenal_glands",
+       "name": "Adrenal Glands",
+       "points": 5,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/adrenal_glands",
+         "name": "Adrenal Glands",
+         "url": "https://longwarindex.app/special_rules/adrenal_glands/"
+        }
+       ]
+      },
+      {
+       "id": "caustic_blood",
+       "name": "Caustic Blood",
+       "points": 5,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/caustic_blood",
+         "name": "Caustic Blood",
+         "url": "https://longwarindex.app/special_rules/caustic_blood/"
+        }
+       ]
+      },
+      {
+       "id": "chameleon_skin",
+       "name": "Chameleon Skin",
+       "points": 20,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/chameleon_skin",
+         "name": "Chameleon Skin",
+         "url": "https://longwarindex.app/special_rules/chameleon_skin/"
+        }
+       ]
+      },
+      {
+       "id": "necrotic_regeneration",
+       "name": "Necrotic Regeneration",
+       "points": 20,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/necrotic_regeneration",
+         "name": "Necrotic Regeneration",
+         "url": "https://longwarindex.app/special_rules/necrotic_regeneration/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "wargear",
+     "label": "The unit may take any of the following:",
+     "printed": "The unit may take any of the following:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {},
+     "choices": [
+      {
+       "id": "acid_maw",
+       "name": "Acid Maw",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "acid_maw"
+        }
+       ]
+      },
+      {
+       "id": "flesh_hooks",
+       "name": "Flesh Hooks",
+       "points": 5,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "flesh_hooks"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hive_fleet_trait",
+     "label": "You may purchase a Hive Fleet Trait (+10pts)",
+     "printed": "You may purchase a Hive Fleet Trait (+10pts)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hive_fleet_trait",
+       "name": "Hive Fleet Trait",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/hive_fleet_trait",
+         "name": "Hive Fleet Trait",
+         "url": "https://longwarindex.app/special_rules/hive_fleet_trait/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/primus",
+   "name": "Primus",
+   "page": 21,
+   "url": "https://longwarindex.app/roster/primus/",
+   "source": "Codex: Genestealer Cults",
+   "role": "HQ",
+   "points": 50,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "primus",
+     "name": "Primus",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 3,
+      "A": 3,
+      "I": 4,
+      "Ld": 8,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "bone_sword"
+      },
+      {
+       "kind": "weapon",
+       "id": "injector_claw",
+       "printed": "Toxin Injector Claw"
+      },
+      {
+       "kind": "weapon",
+       "id": "needle_pistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      },
+      {
+       "kind": "wargear",
+       "id": "refractor_field"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "primus",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+     "name": "Return to the Shadows",
+     "url": "https://longwarindex.app/special_rules/return_to_the_shadows/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_demagogue",
+     "name": "Cult Demagogue",
+     "url": "https://longwarindex.app/special_rules/cult_demagogue/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limit: 1 Per detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Primus",
+    "M35"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "melee_weapon",
+     "label": "You may exchange this model's Bonesword for one of the following:",
+     "printed": "You may exchange this model's Bonesword for one of the following:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_sword",
+       "name": "Power Sword",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bone_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_axe",
+       "name": "Power Axe",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bone_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_axe"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_maul",
+       "name": "Power Maul",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bone_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_maul"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bone_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pistol",
+     "label": "You may exchange this model's Needle Pistol for one of the following:",
+     "printed": "You may exchange this model's Needle Pistol for one of the following:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "bolt_pistol",
+       "name": "Bolt Pistol",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "needle_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "web_pistol",
+       "name": "Webber Pistol",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "needle_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "web_pistol",
+           "printed": "Webber Pistol"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "needle_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "injector_claw",
+     "label": "You may exchange this model's Toxin Injector Claw for a Rending Claw (+0pts)",
+     "printed": "You may exchange this model's Toxin Injector Claw for a Rending Claw (+0pts)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "rending_claw",
+       "name": "Rending Claw",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "injector_claw",
+           "printed": "Toxin Injector Claw"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "rending_claws"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/purestrain_genestealer_brood",
+   "name": "Purestrain Genestealer Brood",
+   "page": 25,
+   "url": "https://longwarindex.app/roster/purestrain_genestealer_brood/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Elites",
+   "points": 125,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "purestrain_genestealer",
+     "name": "Purestrain Genestealer",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 1,
+      "A": 2,
+      "I": 5,
+      "Ld": 8,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "rending_claws",
+       "count": 2
+      },
+      {
+       "kind": "wargear",
+       "id": "hardened_chitin"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "purestrain_genestealer",
+     "count": 5
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "universal_special_rules/infiltrate",
+     "name": "Infiltrate",
+     "printed": "Infiltration",
+     "url": "https://longwarindex.app/universal_special_rules/infiltrate/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/lightning_fast_reaction",
+     "name": "Lightning-Fast Reaction",
+     "url": "https://longwarindex.app/special_rules/lightning_fast_reaction_genestealer_cults/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/sprint",
+     "name": "Sprint",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/sprint/"
+    },
+    {
+     "rule": "universal_special_rules/sudden_strike",
+     "name": "Sudden Strike",
+     "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+    },
+    {
+     "rule": "universal_special_rules/skirmisher",
+     "name": "Skirmisher",
+     "url": "https://longwarindex.app/universal_special_rules/skirmisher/"
+    },
+    {
+     "rule": "universal_special_rules/hit_and_run",
+     "name": "Hit & Run",
+     "url": "https://longwarindex.app/universal_special_rules/hit_and_run/"
+    },
+    {
+     "rule": "universal_special_rules/fear",
+     "name": "Fear",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/fear/"
+    },
+    {
+     "rule": "universal_special_rules/crusader",
+     "name": "Crusader",
+     "url": "https://longwarindex.app/universal_special_rules/crusader/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Purestrain Genestealers",
+    "M35"
+   ],
+   "size": {
+    "min": 5,
+    "max": 20
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 15 Purestrain Genestealer models in the unit (+15pts each)",
+     "printed": "You may include an additional 15 Purestrain Genestealer models in the unit (+15pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "purestrain_genestealer",
+       "name": "You may include an additional 15 Purestrain Genestealer models in the unit",
+       "points": 15,
+       "pricing": "each",
+       "max": 15,
+       "add_model": {
+        "profile": "purestrain_genestealer",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "hardened_carapace",
+     "label": "The unit may exchange its Hardened Chitin for Hardened Carapace (+1pts per model)",
+     "printed": "The unit may exchange its Hardened Chitin for Hardened Carapace (+1pts per model)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hardened_carapace",
+       "name": "Hardened Carapace",
+       "points": 1,
+       "pricing": "per_model",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "hardened_chitin"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "hardened_carapace"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "scything_talons",
+     "label": "Any Genestealer may exchange its Rending Claws for Scything Talons (+0pts each)",
+     "printed": "Any Genestealer may exchange its Rending Claws for Scything Talons (+0pts each)",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "scything_talons",
+       "name": "Scything Talons",
+       "points": 0,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "rending_claws",
+           "count": 2
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "scything_talons"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/reductus_saboteur",
+   "name": "Reductus Saboteur",
+   "page": 34,
+   "url": "https://longwarindex.app/roster/reductus_saboteur/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Elites",
+   "points": 40,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "reductus_saboteur",
+     "name": "Reductus Saboteur",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 4,
+      "S": 3,
+      "T": 3,
+      "W": 2,
+      "A": 2,
+      "I": 3,
+      "Ld": 7,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "autopistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "blasting_charge"
+      },
+      {
+       "kind": "weapon",
+       "id": "breacher_charge"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "reductus_saboteur",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_specialists",
+     "name": "Cult Specialists",
+     "printed": "Cult Specialist",
+     "url": "https://longwarindex.app/special_rules/cult_specialists/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+     "name": "Return to the Shadows",
+     "url": "https://longwarindex.app/special_rules/return_to_the_shadows/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/remote_explosives",
+     "name": "Remote Explosives",
+     "url": "https://longwarindex.app/special_rules/remote_explosives/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Reductus Saboteur",
+    "M35"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/genestealer_cults/roster/sanctus",
+   "name": "Sanctus",
+   "page": 34,
+   "url": "https://longwarindex.app/roster/sanctus/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Elites",
+   "points": 40,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "sanctus",
+     "name": "Sanctus",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 3,
+      "T": 3,
+      "W": 2,
+      "A": 2,
+      "I": 3,
+      "Ld": 7,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "mining_suit"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "autopistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "bio_dagger"
+      },
+      {
+       "kind": "wargear",
+       "id": "camo_cloaks"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "sanctus",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_ambush",
+     "name": "Cult Ambush",
+     "url": "https://longwarindex.app/special_rules/cult_ambush/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/cult_specialists",
+     "name": "Cult Specialists",
+     "printed": "Cult Specialist",
+     "url": "https://longwarindex.app/special_rules/cult_specialists/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/return_to_the_shadows",
+     "name": "Return to the Shadows",
+     "url": "https://longwarindex.app/special_rules/return_to_the_shadows/"
+    },
+    {
+     "rule": "codex/genestealer_cults/special_rules/soul_sight",
+     "name": "Soul Sight",
+     "url": "https://longwarindex.app/special_rules/soul_sight/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Sanctus",
+    "M35"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "sniper_rifle",
+     "label": "The Sanctus may exchange its Bio Dagger for a Sniper Rifle (+5pts)",
+     "printed": "The Sanctus may exchange its Bio Dagger for a Sniper Rifle (+5pts)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "sniper_rifle",
+       "name": "Sniper Rifle",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bio_dagger"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "sniper_rifle"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/sentinel",
+   "name": "Sentinel",
+   "page": 40,
+   "url": "https://longwarindex.app/roster/sentinel_genestealer_cults/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Fast Attack",
+   "points": 65,
+   "unit_type": "Walker",
+   "profiles": [
+    {
+     "id": "scout_sentinel",
+     "name": "Scout Sentinel",
+     "template": "unit",
+     "characteristics": {
+      "M": "8\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 5,
+      "T": 5,
+      "W": 4,
+      "A": 1,
+      "I": 3,
+      "Ld": 7,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "armoured_plate"
+      },
+      {
+       "kind": "weapon",
+       "id": "multi_laser"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers"
+      },
+      {
+       "kind": "weapon",
+       "id": "cult_crew_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "sentinel_stomps"
+      }
+     ]
+    },
+    {
+     "id": "armoured_sentinel",
+     "name": "Armoured Sentinel",
+     "template": "unit",
+     "characteristics": {
+      "M": "8\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 5,
+      "T": 6,
+      "W": 4,
+      "A": 1,
+      "I": 3,
+      "Ld": 7,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "armoured_plate"
+      },
+      {
+       "kind": "weapon",
+       "id": "multi_laser"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers"
+      },
+      {
+       "kind": "weapon",
+       "id": "cult_crew_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "sentinel_stomps"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "scout_sentinel",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "universal_special_rules/scout",
+     "name": "Scout",
+     "url": "https://longwarindex.app/universal_special_rules/scout/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Sentinel",
+    "M35"
+   ],
+   "size": {
+    "min": 1,
+    "max": 3
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_sentinel",
+     "label": "You may include an additional 2 Scout Sentinel models in this unit (+55pts each)",
+     "printed": "May include an additional 2 Scout Sentinel models in this unit (+55pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "scout_sentinel",
+       "name": "Scout Sentinel",
+       "points": 55,
+       "pricing": "each",
+       "max": 2,
+       "add_model": {
+        "profile": "scout_sentinel",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "chainsword",
+     "label": "A Sentinel may take a Chainsword (+5pts)",
+     "printed": "A Sentinel may take a Chainsword (+5pts)",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "chainsword",
+       "name": "Chainsword",
+       "points": 5,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "chain_sword"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hunter_killer_missile",
+     "label": "A Sentinel may take a Hunter-Killer Missile (+3pts)",
+     "printed": "A Sentinel may take a Hunter-Killer Missile (+3pts)",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hunter_killer_missile",
+       "name": "Hunter-Killer Missile",
+       "points": 3,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "hunter_killer_missile"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "upgrade",
+     "label": "A Scout Sentinel may be upgraded to an Armoured Sentinel (+10pts)",
+     "printed": "A Scout Sentinel may be upgraded to an Armoured Sentinel (+10pts)",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "scout_sentinel"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "armoured_sentinel",
+       "name": "Armoured Sentinel",
+       "points": 10,
+       "pricing": "flat",
+       "profile": {
+        "scout_sentinel": "armoured_sentinel"
+       }
+      }
+     ]
+    },
+    {
+     "id": "multi_laser",
+     "label": "A Sentinel may exchange its Multi-Laser for one of the following:",
+     "printed": "A Sentinel may exchange its Multi-Laser for one of the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_flamer",
+       "name": "Heavy Flamer",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "multi_laser"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "autocannon",
+       "name": "Autocannon",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "multi_laser"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "autocannon"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "missile_launcher",
+       "name": "Missile Launcher",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "multi_laser"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "missile_launcher"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lascannon",
+       "name": "Lascannon",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "multi_laser"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lascannon"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "armoured_multi_laser",
+     "label": "An Armoured Sentinel may exchange its Multi-Laser for a Plasma Cannon (+20pts)",
+     "printed": "An Armoured Sentinel may exchange its Multi-Laser for a Plasma Cannon (+20pts)",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "armoured_sentinel"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_cannon",
+       "name": "Plasma Cannon",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "multi_laser"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_cannon"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/genestealer_cults/roster/wyvern_suppression_tank",
+   "name": "Wyvern Suppression Tank",
+   "page": 46,
+   "url": "https://longwarindex.app/roster/wyvern_suppression_tank_genestealer_cults/",
+   "source": "Codex: Genestealer Cults",
+   "role": "Heavy Support",
+   "points": 105,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "wyvern_suppression_tank",
+     "name": "Wyvern Suppression Tank",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 6,
+      "Front": 12,
+      "Side": 10,
+      "Rear": 10,
+      "A": 3,
+      "I": 3,
+      "Ld": 7,
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "cult_crew_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "wyvern_quad_stormshard_mortar",
+       "printed": "Wyvern Quad Shard Mortar",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_bolter",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_stubber",
+       "mount": "secondary"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "wyvern_suppression_tank",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "printed": "Fire & Fade",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+     "name": "Devoted Crew",
+     "url": "https://longwarindex.app/special_rules/devoted_crew/"
+    }
+   ],
+   "keywords": [
+    "Tyranids",
+    "Genestealer Cult",
+    "[Origins]",
+    "Cult",
+    "Wyvern Suppression Tank",
+    "Tank",
+    "M35"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "heavy_bolter",
+     "label": "The Wyvern may exchange its Heavy Bolter for one of the following:",
+     "printed": "The Wyvern may exchange its Heavy Bolter for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_flamer",
+       "name": "Heavy Flamer",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "devoted_crew",
+     "label": "You may purchase Devoted Crew (+10pts)",
+     "printed": "May purchase Devoted Crew (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "devoted_crew",
+       "name": "Devoted Crew",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/genestealer_cults/special_rules/devoted_crew",
+         "name": "Devoted Crew",
+         "url": "https://longwarindex.app/special_rules/devoted_crew/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

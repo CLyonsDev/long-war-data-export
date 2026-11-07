@@ -1,0 +1,1079 @@
+{
+ "data_version": "a65c06a2b02039ea",
+ "format": 1,
+ "faction": "harlequins",
+ "codex": {
+  "id": "codex/harlequins",
+  "name": "Harlequins",
+  "page": 1,
+  "url": "https://longwarindex.app/codex/harlequins/",
+  "parent": null,
+  "army_rules": [
+   {
+    "rule": "codex/harlequins/special_rules/rising_crescendo",
+    "name": "Rising Crescendo",
+    "url": "https://longwarindex.app/special_rules/rising_crescendo/"
+   },
+   {
+    "rule": "codex/harlequins/special_rules/she_who_thirsts",
+    "name": "She Who Thirsts",
+    "url": "https://longwarindex.app/special_rules/she_who_thirsts_harlequins/"
+   },
+   {
+    "rule": "codex/harlequins/special_rules/soloist",
+    "name": "Soloist",
+    "url": "https://longwarindex.app/special_rules/soloist/"
+   },
+   {
+    "rule": "codex/harlequins/special_rules/casting_call",
+    "name": "Casting Call",
+    "param": "X",
+    "url": "https://longwarindex.app/special_rules/casting_call/"
+   }
+  ],
+  "allies": {
+   "printed": "Eldar Harlequins may take Allies from the following armies:",
+   "page": 20,
+   "url": "https://longwarindex.app/allies/harlequin_allies/",
+   "factions": [
+    {
+     "faction": "craftworld_eldar"
+    },
+    {
+     "faction": "dark_eldar"
+    },
+    {
+     "faction": "harlequins"
+    }
+   ]
+  },
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/harlequins/rites_of_war/saedath_cegorachs_revenge",
+    "codex/harlequins/rites_of_war/saedath_cegorachs_jest",
+    "codex/harlequins/rites_of_war/saedath_the_heroes_path",
+    "codex/harlequins/rites_of_war/saedath_falchous_blade",
+    "codex/harlequins/rites_of_war/saedath_the_twilight_cavalcade"
+   ],
+   "from_parent": [],
+   "banned_from_parent": []
+  },
+  "unit_list": {
+   "page": 20,
+   "url": "https://longwarindex.app/unit_list/harlequin_unit_list/",
+   "entries": [
+    {
+     "datasheet": "codex/harlequins/roster/shadowseer",
+     "printed": "Shadowseer",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/harlequins/roster/troupe_master",
+     "printed": "Troupe Master",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/harlequins/roster/harlequin_troupe",
+     "printed": "Harlequin Troupe",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/harlequins/roster/mimes",
+     "printed": "Mimes",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/harlequins/roster/death_jester",
+     "printed": "Death Jester",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/harlequins/roster/harlequins_wraith_lord",
+     "printed": "Harlequins Wraith Lord",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/harlequins/roster/solitaire",
+     "printed": "Solitaire",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/harlequins/roster/war_weaver",
+     "printed": "War Weaver",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/harlequins/roster/star_weaver",
+     "printed": "Star Weaver",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/harlequins/roster/sky_spinners",
+     "printed": "Sky Spinners",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/harlequins/roster/sky_weavers",
+     "printed": "Sky Weavers",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/harlequins/roster/void_weaver",
+     "printed": "Void Weaver",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/harlequins/roster/webway_gate",
+     "printed": "Webway Gate",
+     "role": "Fortification"
+    }
+   ]
+  },
+  "keyword_templates": [
+   {
+    "template": "[Masque]",
+    "substitution": {
+     "by": "allegiance"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/harlequins/allegiances/veiled_path",
+   "name": "Allegiance: Veiled Path",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/veiled_path/",
+   "offered_by": {
+    "codex": "harlequins"
+   },
+   "keyword_substitution": {
+    "template": "[Masque]",
+    "value": "Veiled Path"
+   },
+   "rule": {
+    "rule": "codex/harlequins/allegiances/veiled_path",
+    "name": "Veiled Path",
+    "printed": "codex/harlequins/allegiances/veiled_path",
+    "url": "https://longwarindex.app/allegiances/veiled_path/"
+   },
+   "unit_list": null,
+   "allies": {
+    "remove": [
+     "dark_eldar"
+    ],
+    "printed": "Your army may not take allies from Codex – Dark Eldar."
+   },
+   "restrictions": [],
+   "benefits": [
+    {
+     "id": "veiled_tricksters_fear",
+     "printed": "Veiled Path units that have the Fear (x) special rule, increase the value of (x) by 1.",
+     "rules": {
+      "conditions": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/fear",
+         "name": "Fear",
+         "url": "https://longwarindex.app/universal_special_rules/fear/"
+        }
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/fear",
+        "name": "Fear",
+        "url": "https://longwarindex.app/universal_special_rules/fear/",
+        "raise_by": 1
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/harlequins/allegiances/twisted_path",
+   "name": "Allegiance: Twisted Path",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/twisted_path/",
+   "offered_by": {
+    "codex": "harlequins"
+   },
+   "keyword_substitution": {
+    "template": "[Masque]",
+    "value": "Twisted Path"
+   },
+   "rule": {
+    "rule": "codex/harlequins/allegiances/twisted_path",
+    "name": "Twisted Path",
+    "printed": "codex/harlequins/allegiances/twisted_path",
+    "url": "https://longwarindex.app/allegiances/twisted_path/"
+   },
+   "unit_list": null,
+   "allies": {
+    "add": [
+     "imperial_guard",
+     "tau_empire",
+     "orks"
+    ],
+    "printed": "Your army may take allies from Codex – Imperial Guard, Codex - T'au Empire and Codex – Orks."
+   },
+   "restrictions": [],
+   "benefits": [],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/harlequins/allegiances/frozen_stars",
+   "name": "Allegiance: Frozen Stars",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/frozen_stars/",
+   "offered_by": {
+    "codex": "harlequins"
+   },
+   "keyword_substitution": {
+    "template": "[Masque]",
+    "value": "Frozen Stars"
+   },
+   "rule": {
+    "rule": "codex/harlequins/allegiances/frozen_stars",
+    "name": "Frozen Stars",
+    "printed": "codex/harlequins/allegiances/frozen_stars",
+    "url": "https://longwarindex.app/allegiances/frozen_stars/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [
+    {
+     "id": "frozen_stars_casting_call_dark",
+     "printed": "All eligible Frozen Stars units with the Casting Call (x) special rule must select Casting Call (Dark).",
+     "forces_choice": {
+      "conditions": [
+       {
+        "rule": {
+         "rule": "codex/harlequins/special_rules/casting_call",
+         "name": "Casting Call",
+         "param": "x",
+         "url": "https://longwarindex.app/special_rules/casting_call/"
+        }
+       }
+      ],
+      "choice": {
+       "page": "codex/harlequins/special_rules/casting_call",
+       "path": "role/dark"
+      }
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/harlequins/allegiances/reapers_mirth",
+   "name": "Allegiance: Reapers Mirth",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/reapers_mirth/",
+   "offered_by": {
+    "codex": "harlequins"
+   },
+   "keyword_substitution": {
+    "template": "[Masque]",
+    "value": "Reapers Mirth"
+   },
+   "rule": {
+    "rule": "codex/harlequins/allegiances/reapers_mirth",
+    "name": "Reapers Mirth",
+    "printed": "codex/harlequins/allegiances/reapers_mirth",
+    "url": "https://longwarindex.app/allegiances/reapers_mirth/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [
+    {
+     "id": "deaths_court_role",
+     "printed": "A Reapers Mirth army may field Death Jester units as Troops choices, but they gain the Support Squad special rule.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/death_jester"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "deaths_court_support_squad",
+     "printed": "A Reapers Mirth army may field Death Jester units as Troops choices, but they gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/death_jester"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "reapers_mirth_casting_call_dark",
+     "printed": "All eligible Reapers Mirth units with the Casting Call (x) special rule must select Casting Call (Dark).",
+     "forces_choice": {
+      "conditions": [
+       {
+        "rule": {
+         "rule": "codex/harlequins/special_rules/casting_call",
+         "name": "Casting Call",
+         "param": "x",
+         "url": "https://longwarindex.app/special_rules/casting_call/"
+        }
+       }
+      ],
+      "choice": {
+       "page": "codex/harlequins/special_rules/casting_call",
+       "path": "role/dark"
+      }
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/harlequins/allegiances/soaring_spite",
+   "name": "Allegiance: Soaring Spite",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/soaring_spite/",
+   "offered_by": {
+    "codex": "harlequins"
+   },
+   "keyword_substitution": {
+    "template": "[Masque]",
+    "value": "Soaring Spite"
+   },
+   "rule": {
+    "rule": "codex/harlequins/allegiances/soaring_spite",
+    "name": "Soaring Spite",
+    "printed": "codex/harlequins/allegiances/soaring_spite",
+    "url": "https://longwarindex.app/allegiances/soaring_spite/"
+   },
+   "unit_list": null,
+   "allies": {
+    "remove": [
+     "dark_eldar"
+    ],
+    "printed": "Your army may not take allies from Codex – Dark Eldar."
+   },
+   "restrictions": [],
+   "benefits": [
+    {
+     "id": "aerial_performance",
+     "printed": "Soaring Spite Sky Spinner and Sky Weaver units gain the Furious Charge special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/harlequins/roster/sky_spinners"
+         },
+         {
+          "datasheet": "codex/harlequins/roster/sky_weavers"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/furious_charge",
+        "name": "Furious Charge",
+        "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/harlequins/allegiances/dreaming_sorrow",
+   "name": "Allegiance: Dreaming Sorrow",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/dreaming_sorrow/",
+   "offered_by": {
+    "codex": "harlequins"
+   },
+   "keyword_substitution": {
+    "template": "[Masque]",
+    "value": "Dreaming Sorrow"
+   },
+   "rule": {
+    "rule": "codex/harlequins/allegiances/dreaming_sorrow",
+    "name": "Dreaming Sorrow",
+    "printed": "codex/harlequins/allegiances/dreaming_sorrow",
+    "url": "https://longwarindex.app/allegiances/dreaming_sorrow/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [
+    {
+     "id": "duty_above_desire",
+     "printed": "Duty Above Desire: Dreaming Sorrow Mimes and Harlequins Troupes gain the Zealot special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/harlequins/roster/mimes"
+         },
+         {
+          "datasheet": "codex/harlequins/roster/harlequin_troupe"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/zealot",
+        "name": "Zealot",
+        "url": "https://longwarindex.app/universal_special_rules/zealot/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "dreaming_sorrow_casting_call_twilight",
+     "printed": "All eligible Dreaming Sorrow units with the Casting Call (x) special rule must select Casting Call (Twilight).",
+     "forces_choice": {
+      "conditions": [
+       {
+        "rule": {
+         "rule": "codex/harlequins/special_rules/casting_call",
+         "name": "Casting Call",
+         "param": "x",
+         "url": "https://longwarindex.app/special_rules/casting_call/"
+        }
+       }
+      ],
+      "choice": {
+       "page": "codex/harlequins/special_rules/casting_call",
+       "path": "role/twilight"
+      }
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/harlequins/allegiances/midnight_sorrow",
+   "name": "Allegiance: Midnight Sorrow",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/midnight_sorrow/",
+   "offered_by": {
+    "codex": "harlequins"
+   },
+   "keyword_substitution": {
+    "template": "[Masque]",
+    "value": "Midnight Sorrow"
+   },
+   "rule": {
+    "rule": "codex/harlequins/allegiances/midnight_sorrow",
+    "name": "Midnight Sorrow",
+    "printed": "codex/harlequins/allegiances/midnight_sorrow",
+    "url": "https://longwarindex.app/allegiances/midnight_sorrow/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [],
+   "game_time": [
+    "In a turn in which any unit dies (friend or foe), a unit with this special rule gains +1 to their Strength (S) and Toughness (T) characteristics until the start of the next turn.",
+    "If Night Fighting is in effect, it must be Dusk."
+   ],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/harlequins/rites_of_war/saedath_cegorachs_revenge",
+   "name": "Saedath: Cegorach's Revenge",
+   "page": 14,
+   "url": "https://longwarindex.app/rites_of_war/saedath_cegorachs_revenge/",
+   "offered_by": {
+    "codex": "harlequins"
+   },
+   "text": "Requirements:\n\n- Your army must include a Troupe Master.\n- Your Warlord must be a Troupe Master.\n- Your army must include at least 2 Harlequin Troupes.\n\nBenefits:\n\n- Troupe Masters in your army may take a second Warlord Trait.\n- Ignore the Support Squad special rule on Mimes.\n- Harlequin Troupe units can purchase an additional 5 models per unit for a max of 15 models per unit instead of 10.",
+   "restrictions": [
+    {
+     "id": "cegorachs_revenge_troupe_master",
+     "printed": "Your army must include a Troupe Master.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/troupe_master"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "cegorachs_revenge_warlord",
+     "printed": "Your Warlord must be a Troupe Master.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/troupe_master"
+       }
+      ]
+     }
+    },
+    {
+     "id": "cegorachs_revenge_harlequin_troupes",
+     "printed": "Your army must include at least 2 Harlequin Troupes.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/harlequin_troupe"
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "troupe_masters_second_warlord_trait",
+     "printed": "Troupe Masters in your army may take a second Warlord Trait.",
+     "extra_warlord_trait": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/troupe_master"
+       }
+      ],
+      "count": 1
+     }
+    },
+    {
+     "id": "cegorachs_revenge_ignore_support_squad",
+     "printed": "Ignore the Support Squad special rule on Mimes.",
+     "suppress_rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/mimes"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "cegorachs_revenge_harlequin_troupe_size",
+     "printed": "Harlequin Troupe units can purchase an additional 5 models per unit for a max of 15 models per unit instead of 10.",
+     "unit_size": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/harlequin_troupe"
+       }
+      ],
+      "max": 15
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/harlequins/rites_of_war/saedath_cegorachs_jest",
+   "name": "Saedath: Cegorach's Jest",
+   "page": 15,
+   "url": "https://longwarindex.app/rites_of_war/saedath_cegorachs_jest/",
+   "offered_by": {
+    "codex": "harlequins"
+   },
+   "text": "Requirements:\n\n- Your army must include a Troupe Master equipped with a Jetbike.\n- Your army may not include any War Weavers or Harlequin Wraith Lords.\n- Your army must include at least 2 Sky Spinners.\n\nBenefits:\n\n- Sky Spinners in your army may be fielded as Troops choices but they gain the Support Squad special rule.\n- You may field Sky Weavers as Elites choices.\n- During deployment, select a single enemy unit in your opponent's army to be the \"Prize\". If that unit is removed from play, being slain or wrecked as a result of the Harlequin players actions, score an additional D3 VP at the conclusion of the Battle.",
+   "restrictions": [
+    {
+     "id": "cegorachs_jest_troupe_master_jetbike",
+     "printed": "Your army must include a Troupe Master equipped with a Jetbike.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/troupe_master"
+       },
+       {
+        "choice": {
+         "page": "codex/harlequins/roster/troupe_master",
+         "path": "jetbike/jetbike"
+        }
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "cegorachs_jest_no_war_weavers_wraith_lords",
+     "printed": "Your army may not include any War Weavers or Harlequin Wraith Lords.",
+     "scope": "detachment",
+     "forbidden_units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/harlequins/roster/war_weaver"
+         },
+         {
+          "datasheet": "codex/harlequins/roster/harlequins_wraith_lord"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "cegorachs_jest_sky_spinners",
+     "printed": "Your army must include at least 2 Sky Spinners.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/sky_spinners"
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "cegorachs_jest_sky_spinners_role",
+     "printed": "Sky Spinners in your army may be fielded as Troops choices but they gain the Support Squad special rule.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/sky_spinners"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "cegorachs_jest_sky_spinners_support_squad",
+     "printed": "Sky Spinners in your army may be fielded as Troops choices but they gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/sky_spinners"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "cegorachs_jest_sky_weavers_role",
+     "printed": "You may field Sky Weavers as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/sky_weavers"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "During deployment, select a single enemy unit in your opponent's army to be the \"Prize\". If that unit is removed from play, being slain or wrecked as a result of the Harlequin players actions, score an additional D3 VP at the conclusion of the Battle."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/harlequins/rites_of_war/saedath_the_heroes_path",
+   "name": "Saedath: The Heroes Path",
+   "page": 16,
+   "url": "https://longwarindex.app/rites_of_war/saedath_the_heroes_path/",
+   "offered_by": {
+    "codex": "harlequins"
+   },
+   "text": "Requirements:\n\n- Your army must include a Death Jester.\n- Your army must include a Solitaire.\n- Your army may only include 1 Death Jester unit.\n- Your Death Jester and Solitaire must be your Warlord (see benefits).\n\nBenefits:\n\n- You may field Death Jesters as a HQ choice.\n- You may field Solitaire as a HQ choice.\n- Your mandatory Death Jester and Solitaire may both be selected to be your Warlord. They may both generate a Warlord Trait and your opponent cannot score Victory Points for slaying the Warlord while at least one of the models is alive and on the Battlefield.\n- Your Death Jester and Solitaire gain +1 to their Wounds (W) and Attacks (A) characteristic. In addition, they both gain the Battle-Hardened special rule.",
+   "restrictions": [
+    {
+     "id": "heroes_path_death_jester_warlord",
+     "printed": "Your Death Jester and Solitaire must be your Warlord (see benefits).",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/death_jester"
+       }
+      ]
+     }
+    },
+    {
+     "id": "heroes_path_solitaire_warlord",
+     "printed": "Your Death Jester and Solitaire must be your Warlord (see benefits).",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/solitaire"
+       }
+      ]
+     }
+    },
+    {
+     "id": "heroes_path_death_jester",
+     "printed": "Your army must include a Death Jester.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/death_jester"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "heroes_path_death_jester_maximum",
+     "printed": "Your army may only include 1 Death Jester unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/death_jester"
+       }
+      ],
+      "max": 1
+     }
+    },
+    {
+     "id": "heroes_path_solitaire",
+     "printed": "Your army must include a Solitaire.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/solitaire"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "heroes_path_death_jester_role",
+     "printed": "You may field Death Jesters as a HQ choice.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/death_jester"
+       }
+      ],
+      "role": "HQ",
+      "instead": false
+     }
+    },
+    {
+     "id": "heroes_path_solitaire_role",
+     "printed": "You may field Solitaire as a HQ choice.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/solitaire"
+       }
+      ],
+      "role": "HQ",
+      "instead": false
+     }
+    },
+    {
+     "id": "heroes_path_additional_warlords",
+     "printed": "Your mandatory Death Jester and Solitaire may both be selected to be your Warlord. They may both generate a Warlord Trait and your opponent cannot score Victory Points for slaying the Warlord while at least one of the models is alive and on the Battlefield.",
+     "additional_warlords": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/harlequins/roster/death_jester"
+         },
+         {
+          "datasheet": "codex/harlequins/roster/solitaire"
+         }
+        ]
+       }
+      ],
+      "count": 1
+     }
+    },
+    {
+     "id": "heroes_path_stat_mods",
+     "printed": "Your Death Jester and Solitaire gain +1 to their Wounds (W) and Attacks (A) characteristic.",
+     "stat_mods": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/harlequins/roster/death_jester"
+         },
+         {
+          "datasheet": "codex/harlequins/roster/solitaire"
+         }
+        ]
+       }
+      ],
+      "mods": [
+       {
+        "characteristic": "W",
+        "delta": 1
+       },
+       {
+        "characteristic": "A",
+        "delta": 1
+       }
+      ]
+     }
+    },
+    {
+     "id": "heroes_path_battle_hardened",
+     "printed": "In addition, they both gain the Battle-Hardened special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/harlequins/roster/death_jester"
+         },
+         {
+          "datasheet": "codex/harlequins/roster/solitaire"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/battle_hardened",
+        "name": "Battle-Hardened",
+        "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/harlequins/rites_of_war/saedath_falchous_blade",
+   "name": "Saedath: Falchou's Blade",
+   "page": 17,
+   "url": "https://longwarindex.app/rites_of_war/saedath_falchous_blade/",
+   "offered_by": {
+    "codex": "harlequins"
+   },
+   "text": "Requirements:\n\n- Every unit in your army must begin the game embarked in a Dedicated Transport.\n- Units in your army which cannot be placed in a Dedicated Transport must begin the game in Reserves.\n\nBenefits:\n\n- You may field Void Weavers as Elites choices.\n- You may field Star Weavers as Dedicated Transport or Fast Attack choices.\n- Harlequin Infantry units in your army gain the Feel no Pain (5+) special rule, the turn they Disembark from a Transport.",
+   "restrictions": [],
+   "benefits": [
+    {
+     "id": "falchous_blade_void_weaver_role",
+     "printed": "You may field Void Weavers as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/void_weaver"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "falchous_blade_star_weaver_role",
+     "printed": "You may field Star Weavers as Dedicated Transport or Fast Attack choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/star_weaver"
+       }
+      ],
+      "role": "Fast Attack",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "Every unit in your army must begin the game embarked in a Dedicated Transport.",
+    "Units in your army which cannot be placed in a Dedicated Transport must begin the game in Reserves.",
+    "Harlequin Infantry units in your army gain the Feel no Pain (5+) special rule, the turn they Disembark from a Transport."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/harlequins/rites_of_war/saedath_the_twilight_cavalcade",
+   "name": "Saedath: The Twilight Cavalcade",
+   "page": 18,
+   "url": "https://longwarindex.app/rites_of_war/saedath_the_twilight_cavalcade/",
+   "offered_by": {
+    "codex": "harlequins"
+   },
+   "text": "Requirements:\n\n- Your army must include at least 1 Troupe Master.\n- A Troupe Master must be your Warlord.\n- Your army must include at least 1 Solitaire.\n- Your army must include at least 2 Mimes units.\n\nBenefits:\n\n- Ignore the Support Squad special rule on Mimes units.\n- Ignore the Limited: 1 Per Detachment special rule on Solitaire units in your army.\n- Your Troupe Master gains +1 to their Weapon Skill (WS), Strength (S), Toughness (T), Wounds (W), Attacks (A) and Initiative (I) characteristics.",
+   "restrictions": [
+    {
+     "id": "twilight_cavalcade_troupe_master",
+     "printed": "Your army must include at least 1 Troupe Master.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/troupe_master"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "twilight_cavalcade_warlord",
+     "printed": "A Troupe Master must be your Warlord.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/troupe_master"
+       }
+      ]
+     }
+    },
+    {
+     "id": "twilight_cavalcade_solitaire",
+     "printed": "Your army must include at least 1 Solitaire.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/solitaire"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "twilight_cavalcade_mimes",
+     "printed": "Your army must include at least 2 Mimes units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/mimes"
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "twilight_cavalcade_ignore_support_squad",
+     "printed": "Ignore the Support Squad special rule on Mimes units.",
+     "suppress_rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/mimes"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "twilight_cavalcade_ignore_limited",
+     "printed": "Ignore the Limited: 1 Per Detachment special rule on Solitaire units in your army.",
+     "limit": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/solitaire"
+       }
+      ],
+      "limit": null
+     }
+    },
+    {
+     "id": "twilight_cavalcade_troupe_master_stat_mods",
+     "printed": "Your Troupe Master gains +1 to their Weapon Skill (WS), Strength (S), Toughness (T), Wounds (W), Attacks (A) and Initiative (I) characteristics.",
+     "stat_mods": {
+      "conditions": [
+       {
+        "datasheet": "codex/harlequins/roster/troupe_master"
+       }
+      ],
+      "mods": [
+       {
+        "characteristic": "WS",
+        "delta": 1
+       },
+       {
+        "characteristic": "S",
+        "delta": 1
+       },
+       {
+        "characteristic": "T",
+        "delta": 1
+       },
+       {
+        "characteristic": "W",
+        "delta": 1
+       },
+       {
+        "characteristic": "A",
+        "delta": 1
+       },
+       {
+        "characteristic": "I",
+        "delta": 1
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

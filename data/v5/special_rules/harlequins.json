@@ -1,0 +1,551 @@
+{
+ "data_version": "4dbf355c3e85b778",
+ "format": 1,
+ "faction": "harlequins",
+ "special_rules": [
+  {
+   "id": "codex/harlequins/special_rules/rising_crescendo",
+   "name": "Rising Crescendo",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/rising_crescendo/",
+   "text": "Units with this special rule can retreat in the Movement Phase and Charge in the Charge Phase."
+  },
+  {
+   "id": "codex/harlequins/special_rules/she_who_thirsts",
+   "name": "She Who Thirsts",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/she_who_thirsts_harlequins/",
+   "references": [
+    "universal_special_rules/hatred"
+   ],
+   "text": "Eldar units with this special rule have the Hatred (Slaanesh) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "param": "Slaanesh",
+      "printed": "[[Hatred (Slaanesh)]]",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/harlequins/special_rules/soloist",
+   "name": "Soloist",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/soloist/",
+   "text": "A model with this special rule cannot join any other units, even if they have the appropriate type."
+  },
+  {
+   "id": "codex/harlequins/special_rules/casting_call",
+   "name": "Casting Call",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/casting_call/",
+   "parameter": {
+    "kind": "target",
+    "description": "the role the model selects: Light, Twilight or Dark"
+   },
+   "references": [
+    "universal_special_rules/sudden_strike",
+    "universal_special_rules/character",
+    "universal_special_rules/fleet",
+    "universal_special_rules/rage"
+   ],
+   "text": "A model with this special rule must select when Mustering your Army one of the following roles as (x):\n\n- Light: The unit gains the Sudden Strike special rule and may only join units with the Casting Call (Light) special rule. If the unit is a Character, it may only take Warlord traits from the General Warlord Traits and Light Warlord Traits.\n- Twilight: The unit gains the Fleet special rule and may only join units with the Casting Call (Twilight) special rule. If the unit is a Character, it may only take Warlord traits from the General Warlord Traits and Twilight Warlord Traits.\n- Dark: The unit gains the Rage special rule and may only join units with the Casting Call (Dark) special rule. If the unit is a Character, it may only take Warlord traits from the General Warlord Traits and Dark Warlord Traits.",
+   "options": [
+    {
+     "id": "role",
+     "label": "A model with this special rule must select one of the following roles as (x):",
+     "printed": "A model with this special rule must select when Mustering your Army one of the following roles as (x):",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "min": 1,
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "light",
+       "name": "Light",
+       "points": 0,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/sudden_strike",
+         "name": "Sudden Strike",
+         "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+        }
+       ]
+      },
+      {
+       "id": "twilight",
+       "name": "Twilight",
+       "points": 0,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/fleet",
+         "name": "Fleet",
+         "url": "https://longwarindex.app/universal_special_rules/fleet/"
+        }
+       ]
+      },
+      {
+       "id": "dark",
+       "name": "Dark",
+       "points": 0,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/rage",
+         "name": "Rage",
+         "url": "https://longwarindex.app/universal_special_rules/rage/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/harlequins/special_rules/monofilament",
+   "name": "Monofilament",
+   "kind": "weapon",
+   "page": 9,
+   "url": "https://longwarindex.app/special_rules/monofilament_harlequins/",
+   "text": "When rolling to wound or penetrate against a target with this weapon, instead of using the targets Toughness (T) characteristic roll to wound by comparing the targets Initiative (I) characteristic to the weapons Strength (S) characteristic on the wound chart. Monofilament weapons are resolved against the AV of Vehicles, Fortifications, Titans, Knights and Aircraft type units as normal. For Instant Death, the weapon is Instant Death if its Strength (S) characteristic is double the targets Initiative (I) characteristic."
+  },
+  {
+   "id": "codex/harlequins/special_rules/the_queen_of_shards",
+   "name": "The Queen of Shards",
+   "kind": "datasheet",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/the_queen_of_shards/",
+   "text": "At Initiative Step 1 of the Combat Phase, all enemy units within 3\" of a model with this upgrade take D6+2 Strength 1, AP- Automatic hits."
+  },
+  {
+   "id": "codex/harlequins/special_rules/the_veiled_king",
+   "name": "The Veiled King",
+   "kind": "datasheet",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/the_veiled_king/",
+   "text": "A model with this upgrade gains +2 to their Weapon Skill (WS) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "WS",
+      "delta": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/harlequins/special_rules/the_prince_of_light",
+   "name": "The Prince of Light",
+   "kind": "datasheet",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/the_prince_of_light/",
+   "references": [
+    "special_rules/pinning"
+   ],
+   "text": "All friendly Harlequin units that can draw visibility to a unit with this upgrade may use this model's Leadership (LD) characteristic for Pinning and Panic tests instead of their own."
+  },
+  {
+   "id": "codex/harlequins/special_rules/the_great_harlequin",
+   "name": "The Great Harlequin",
+   "kind": "datasheet",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/the_great_harlequin/",
+   "references": [
+    "universal_special_rules/battle_hardened"
+   ],
+   "text": "A model with this upgrade gains +1 to their Wounds (W) characteristic and the Battle-Hardened special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "printed": "[[Battle-Hardened]]",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "W",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/harlequins/special_rules/agent_of_pandemonium",
+   "name": "Agent of Pandemonium",
+   "kind": "datasheet",
+   "page": 22,
+   "url": "https://longwarindex.app/special_rules/agent_of_pandemonium/",
+   "references": [
+    "special_rules/gets_hot"
+   ],
+   "text": "One Shadowseer model in your army may be upgraded to the Agent of Pandemonium. All units within 3\" of this unit in the Combat Phase gain the Gets Hot! special rule on all equipped Melee weapons.",
+   "effects": {
+    "list_building": {
+     "max_units_per_army": 1
+    }
+   }
+  },
+  {
+   "id": "codex/harlequins/special_rules/gloomspider",
+   "name": "Gloomspider",
+   "kind": "datasheet",
+   "page": 22,
+   "url": "https://longwarindex.app/special_rules/gloomspider/",
+   "references": [
+    "universal_special_rules/deny_the_witch"
+   ],
+   "text": "One Shadowseer model in your army may be upgraded to the Gloomspider. Enemy units affected by this unit's Deny the Witch special rule subtract 2 from their Leadership (LD) characteristic when making a Psychic Test.",
+   "effects": {
+    "list_building": {
+     "max_units_per_army": 1
+    }
+   }
+  },
+  {
+   "id": "codex/harlequins/special_rules/shadow_and_light",
+   "name": "Shadow & Light",
+   "kind": "datasheet",
+   "page": 22,
+   "url": "https://longwarindex.app/special_rules/shadow_and_light/",
+   "references": [
+    "codex/harlequins/special_rules/casting_call"
+   ],
+   "text": "This unit can only select Twilight or Dark for Casting Call (x).",
+   "effects": {
+    "list_building": {
+     "excluded_choices": [
+      {
+       "page": "codex/harlequins/special_rules/casting_call",
+       "path": "role/light"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/harlequins/special_rules/constant_performance",
+   "name": "Constant Performance",
+   "kind": "datasheet",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/constant_performance/",
+   "references": [
+    "special_rules/gets_hot"
+   ],
+   "text": "This unit always Sets to 8.1.1 - Overwatch at the end of the Shooting Phase, even if it made a Shooting attack in that phase. If it did so, its 8.1.1 - Overwatch Attacks are resolved as if they had the Gets Hot! special rule."
+  },
+  {
+   "id": "codex/harlequins/special_rules/harvester_of_souls",
+   "name": "Harvester of Souls",
+   "kind": "datasheet",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/harvester_of_souls/",
+   "references": [
+    "special_rules/arcing"
+   ],
+   "text": "A model with this upgrade gains the Arcing (4+) special rule on its equipped Shrieker Cannon (Shuriken) profile.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/arcing",
+      "name": "Arcing",
+      "param": "4+",
+      "url": "https://longwarindex.app/special_rules/arcing/",
+      "weapons": [
+       {
+        "kind": "weapon",
+        "id": "shrieker_cannon",
+        "profile": "Shrieker Cannon (Shuriken)"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/harlequins/special_rules/rift_ghoul",
+   "name": "Rift Ghoul",
+   "kind": "datasheet",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/rift_ghoul/",
+   "references": [
+    "special_rules/bane"
+   ],
+   "text": "A model with this upgrade gains the Bane special rule on its equipped Shrieker Cannon (Shrieker) profile.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/bane",
+      "name": "Bane",
+      "url": "https://longwarindex.app/special_rules/bane/",
+      "weapons": [
+       {
+        "kind": "weapon",
+        "id": "shrieker_cannon",
+        "profile": "Shrieker Cannon (Shrieker)"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/harlequins/special_rules/prince_of_sins",
+   "name": "Prince of Sins",
+   "kind": "datasheet",
+   "page": 28,
+   "url": "https://longwarindex.app/special_rules/prince_of_sins/",
+   "references": [
+    "universal_special_rules/hatred",
+    "universal_special_rules/preferred_enemy"
+   ],
+   "text": "One Solitaire model in your army may have this upgrade. The model gains the Hatred and Preferred Enemy special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "printed": "[[Hatred]]",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     },
+     {
+      "rule": "universal_special_rules/preferred_enemy",
+      "name": "Preferred Enemy",
+      "printed": "[[Preferred Enemy]]",
+      "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+     }
+    ],
+    "list_building": {
+     "max_units_per_army": 1
+    }
+   }
+  },
+  {
+   "id": "codex/harlequins/special_rules/spectre_of_despair",
+   "name": "Spectre of Despair",
+   "kind": "datasheet",
+   "page": 28,
+   "url": "https://longwarindex.app/special_rules/spectre_of_despair/",
+   "references": [
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "One Solitaire model in your army may have this upgrade. This model gains the Deep Strike special rule. In addition, enemy units within 3\" halve their Leadership (LD) characteristic.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/deep_strike",
+      "name": "Deep Strike",
+      "printed": "[[Deep Strike]]",
+      "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+     }
+    ],
+    "list_building": {
+     "max_units_per_army": 1
+    }
+   }
+  },
+  {
+   "id": "codex/harlequins/special_rules/thirsting_darkness",
+   "name": "Thirsting Darkness",
+   "kind": "datasheet",
+   "page": 28,
+   "url": "https://longwarindex.app/special_rules/thirsting_darkness/",
+   "references": [
+    "universal_special_rules/frenzy",
+    "universal_special_rules/furious_charge",
+    "universal_special_rules/rage"
+   ],
+   "text": "One Solitaire model in your army may have this upgrade. A model with this upgrade gains the Frenzy, Furious Charge and Rage special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/frenzy",
+      "name": "Frenzy",
+      "printed": "[[Frenzy]]",
+      "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+     },
+     {
+      "rule": "universal_special_rules/furious_charge",
+      "name": "Furious Charge",
+      "printed": "[[Furious Charge]]",
+      "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+     },
+     {
+      "rule": "universal_special_rules/rage",
+      "name": "Rage",
+      "printed": "[[Rage]]",
+      "url": "https://longwarindex.app/universal_special_rules/rage/"
+     }
+    ],
+    "list_building": {
+     "max_units_per_army": 1
+    }
+   }
+  },
+  {
+   "id": "codex/harlequins/special_rules/blitz",
+   "name": "Blitz",
+   "kind": "datasheet",
+   "page": 28,
+   "url": "https://longwarindex.app/special_rules/blitz/",
+   "text": "Once per game, at the start of your Movement Phase, you may declare that this unit will Blitz. At the end of your turn, if this unit is alive and on the Battlefield, it may conduct another turn with a Movement Phase, Shooting Phase, Charge Phase and Combat Phase. The opponent then begins their next turn as normal."
+  },
+  {
+   "id": "codex/harlequins/special_rules/transport_star_weaver",
+   "name": "Transport",
+   "datasheet": "Star Weaver",
+   "kind": "datasheet",
+   "page": 29,
+   "url": "https://longwarindex.app/special_rules/transport_star_weaver/",
+   "text": "This unit can transport 6 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/harlequins/special_rules/hidden_webways",
+   "name": "Hidden Webways",
+   "kind": "datasheet",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/hidden_webways_harlequins/",
+   "text": "The Webway Gate model is made of 2 pieces. During deployment, you may place both pieces together in contact in your deployment zone or you can place 1 in your deployment zone and the other anywhere on the board, more than 9\" away from any enemy models."
+  },
+  {
+   "id": "codex/harlequins/special_rules/linked_gates",
+   "name": "Linked Gates",
+   "kind": "datasheet",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/linked_gates_harlequins/",
+   "text": "If, during deployment you opted to deploy your gate as 2 separate gates, they are considered Linked. During the Movement Phase, friendly Eldar models may embark on this model. The Eldar models may disembark per normal from any Webway gate piece on the board. There is no limit to the number of type of models that may embark on a Webway Gate."
+  },
+  {
+   "id": "codex/harlequins/special_rules/gate_from_beyond",
+   "name": "Gate from Beyond",
+   "kind": "datasheet",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/gate_from_beyond_harlequins/",
+   "references": [
+    "universal_special_rules/outflank"
+   ],
+   "text": "When Eldar units arrive via Outflank, they may be placed wholly within 12\" of a Webway gate piece so long as they are more than 3\" from any enemy models."
+  },
+  {
+   "id": "codex/harlequins/allegiances/veiled_path",
+   "name": "Allegiance: Veiled Path",
+   "kind": "allegiance",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/veiled_path/",
+   "references": [
+    "universal_special_rules/fear"
+   ],
+   "text": "All Harlequin Eldar units change their [Masque] keyword to Veiled Path. All units with the Veiled Path Keyword gain the Allegiance: Veiled Path special rule. The Allegiance: Veiled Path special rule consists of the following rules:\n\n- Veiled tricksters: Veiled Path units that have the Fear (x) special rule, increase the value of (x) by 1.\n- Ire of Commorragh: Your army may not take allies from Codex – Dark Eldar."
+  },
+  {
+   "id": "codex/harlequins/allegiances/twisted_path",
+   "name": "Allegiance: Twisted Path",
+   "kind": "allegiance",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/twisted_path/",
+   "references": [
+    "universal_special_rules/hatred"
+   ],
+   "text": "All Harlequin Eldar units change their [Masque] keyword to Twisted Path. All units with the Twisted Path Keyword gain the Allegiance: Twisted Path special rule. The Allegiance: Twisted Path special rule consists of the following rules:\n\n- Vanishers: Your army may take allies from Codex – Imperial Guard, Codex - T'au Empire and Codex – Orks.\n- Defender of the Black Library: Twisted Path units gain the Hatred (Thousand Sons) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "param": "Thousand Sons",
+      "printed": "[[Hatred (Thousand Sons)]]",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/harlequins/allegiances/frozen_stars",
+   "name": "Allegiance: Frozen Stars",
+   "kind": "allegiance",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/frozen_stars/",
+   "references": [
+    "universal_special_rules/stubborn",
+    "codex/harlequins/special_rules/casting_call"
+   ],
+   "text": "All Harlequin Eldar units change their [Masque] keyword to Frozen Stars. All units with the Frozen Stars Keyword gain the Allegiance: Frozen Stars special rule. The Allegiance: Frozen Stars special rule consists of the following rules:\n\n- Hope of Eldar: Frozen Stars units gain the Stubborn special rule.\n- Malicious Amusement: All eligible Frozen Stars units with the Casting Call (x) special rule must select Casting Call (Dark).",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "printed": "[[Stubborn]]",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/harlequins/allegiances/reapers_mirth",
+   "name": "Allegiance: Reapers Mirth",
+   "kind": "allegiance",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/reapers_mirth/",
+   "references": [
+    "universal_special_rules/support_squad",
+    "codex/harlequins/special_rules/casting_call"
+   ],
+   "text": "All Harlequin Eldar units change their [Masque] keyword to Reapers Mirth. All units with the Reapers Mirth Keyword gain the Allegiance: Reapers Mirth special rule. The Allegiance: Reapers Mirth special rule consists of the following rules:\n\n- Death's Court: A Reapers Mirth army may field Death Jester units as Troops choices, but they gain the Support Squad special rule.\n- Cloaked in Darkness: All eligible Reapers Mirth units with the Casting Call (x) special rule must select Casting Call (Dark)."
+  },
+  {
+   "id": "codex/harlequins/allegiances/soaring_spite",
+   "name": "Allegiance: Soaring Spite",
+   "kind": "allegiance",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/soaring_spite/",
+   "references": [
+    "universal_special_rules/furious_charge"
+   ],
+   "text": "All Harlequin Eldar units change their [Masque] keyword to Soaring Spite. All units with the Soaring Spite Keyword gain the Allegiance: Soaring Spite special rule. The Allegiance: Soaring Spite special rule consists of the following rules:\n\n- Aerial Performance: Soaring Spite Sky Spinner and Sky Weaver units gain the Furious Charge special rule.\n- Reaver Rivalry: Your army may not take allies from Codex – Dark Eldar."
+  },
+  {
+   "id": "codex/harlequins/allegiances/dreaming_sorrow",
+   "name": "Allegiance: Dreaming Sorrow",
+   "kind": "allegiance",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/dreaming_sorrow/",
+   "references": [
+    "universal_special_rules/zealot",
+    "codex/harlequins/special_rules/casting_call"
+   ],
+   "text": "All Harlequin Eldar units change their [Masque] keyword to Dreaming Sorrow. All units with the Dreaming Sorrow Keyword gain the Allegiance: Dreaming Sorrow special rule. The Allegiance: Dreaming Sorrow special rule consists of the following rules:\n\n- Duty Above Desire: Dreaming Sorrow Mimes and Harlequins Troupes gain the Zealot special rule.\n- Caught in Twilight: All eligible Dreaming Sorrow units with the Casting Call (x) special rule must select Casting Call (Twilight)."
+  },
+  {
+   "id": "codex/harlequins/allegiances/midnight_sorrow",
+   "name": "Allegiance: Midnight Sorrow",
+   "kind": "allegiance",
+   "page": 19,
+   "url": "https://longwarindex.app/allegiances/midnight_sorrow/",
+   "text": "All Harlequin Eldar units change their [Masque] keyword to Midnight Sorrow. All units with the Veiled Path Keyword gain the Allegiance: Veiled Path special rule. The Allegiance: Veiled Path special rule consists of the following rules:\n\n- First Troupe of Ynnead: In a turn in which any unit dies (friend or foe), a unit with this special rule gains +1 to their Strength (S) and Toughness (T) characteristics until the start of the next turn.\n- Before Darkness Reigns: If Night Fighting is in effect, it must be Dusk."
+  }
+ ]
+}

@@ -1,0 +1,4370 @@
+{
+ "data_version": "167e48ae2f2647a0",
+ "format": 1,
+ "faction": "leagues_of_votann",
+ "units": [
+  {
+   "id": "codex/leagues_of_votann/roster/arkanyst_evaluator",
+   "name": "Arkanyst Evaluator",
+   "page": 31,
+   "url": "https://longwarindex.app/roster/arkanyst_evaluator/",
+   "source": "Codex: Leagues of Votann",
+   "role": "Elites",
+   "points": 80,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "arkanyst_evaluator",
+     "name": "Arkanyst Evaluator",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 4,
+      "S": 3,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 2,
+      "Ld": 7,
+      "Sv": "4+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "void_hardened_armour",
+       "printed": "Void Armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "transmatter_inverter"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "arkanyst_evaluator",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "codex/leagues_of_votann/special_rules/for_science",
+     "name": "For Science!",
+     "url": "https://longwarindex.app/special_rules/for_science/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "Arkanyst Evaluator"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/berehk_stornbrow",
+   "name": "Berehk Stornbrow",
+   "page": 24,
+   "url": "https://longwarindex.app/roster/berehk_stornbrow/",
+   "source": "Codex: Leagues of Votann",
+   "role": "HQ",
+   "points": 120,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "berehk_stornbrow",
+     "name": "Berehk Stornbrow",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 5,
+      "W": 3,
+      "A": 3,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "void_plate"
+      },
+      {
+       "kind": "wargear",
+       "id": "enhanced_bionics"
+      },
+      {
+       "kind": "wargear",
+       "id": "rampart_crest"
+      },
+      {
+       "kind": "weapon",
+       "id": "hammer_of_the_waaghbreaker",
+       "printed": "Hammer of Waaaghbreaker"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "berehk_stornbrow",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "universal_special_rules/rage",
+     "name": "Rage",
+     "url": "https://longwarindex.app/universal_special_rules/rage/"
+    },
+    {
+     "rule": "universal_special_rules/counter_attack",
+     "name": "Counter Attack",
+     "url": "https://longwarindex.app/universal_special_rules/counter_attack/"
+    },
+    {
+     "rule": "universal_special_rules/last_stand",
+     "name": "Last Stand",
+     "url": "https://longwarindex.app/universal_special_rules/last_stand/"
+    },
+    {
+     "rule": "universal_special_rules/hatred",
+     "name": "Hatred",
+     "param": "Orks",
+     "url": "https://longwarindex.app/universal_special_rules/hatred/"
+    },
+    {
+     "rule": "universal_special_rules/battle_hardened",
+     "name": "Battle-Hardened",
+     "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/the_waaghbreaker",
+     "name": "The Waaghbreaker",
+     "url": "https://longwarindex.app/special_rules/the_waaghbreaker/"
+    }
+   ],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "Grand Thurian",
+    "Kâhl Uthar the Destined",
+    "Unique"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/brokhyr_iron_master",
+   "name": "Brokhyr Iron-Master",
+   "page": 21,
+   "url": "https://longwarindex.app/roster/brokhyr_iron_master/",
+   "source": "Codex: Leagues of Votann",
+   "role": "HQ",
+   "points": 95,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "brokhyr_iron_master",
+     "name": "Brokhyr Iron-Master",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 5,
+      "S": 3,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 2,
+      "Ld": 7,
+      "Sv": "4+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "void_hardened_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "grav_gun"
+      },
+      {
+       "kind": "weapon",
+       "id": "grav_hammer"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "wargear",
+       "id": "multi_spectral_vizor"
+      },
+      {
+       "kind": "wargear",
+       "id": "huntr_module"
+      }
+     ]
+    },
+    {
+     "id": "ironkin_assistant",
+     "name": "Ironkin Assistant",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 4,
+      "W": 1,
+      "A": 1,
+      "I": 2,
+      "Ld": 7,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "ironkin_cladding"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "las_beam_cutter"
+      },
+      {
+       "kind": "wargear",
+       "id": "huntr_module"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "brokhyr_iron_master",
+     "count": 1
+    },
+    {
+     "profile": "ironkin_assistant",
+     "count": 1
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/wargear/e_cog_assistant",
+     "count": 3
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "universal_special_rules/battle_smith",
+     "name": "Battle Smith",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "universal_special_rules/support_squad",
+     "name": "Support Squad",
+     "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "Brokhyr Iron-Master",
+    "Brokhyr",
+    "Tech-Priest"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/brokhyr_thunderkyn",
+   "name": "Brokhyr Thunderkyn",
+   "page": 37,
+   "url": "https://longwarindex.app/roster/brokhyr_thunderkyn/",
+   "source": "Codex: Leagues of Votann",
+   "role": "Heavy Support",
+   "points": 95,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "thunderkyn",
+     "name": "Thunderkyn",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 5,
+      "W": 2,
+      "A": 1,
+      "I": 2,
+      "Ld": 7,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "exo_frame"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_bolter"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "wargear",
+       "id": "omni_vizors"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "thunderkyn",
+     "count": 3
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/slow_and_purposeful",
+     "name": "Slow and Purposeful",
+     "printed": "Slow & Purposeful",
+     "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+    },
+    {
+     "rule": "universal_special_rules/night_vision",
+     "name": "Night Vision",
+     "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "Brokhyr",
+    "Brokhyr Thunderkyn",
+    "Tech-Priest"
+   ],
+   "size": {
+    "min": 3,
+    "max": 9
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_thunderkyn",
+     "label": "You may include an additional 6 Brokhyr Thunderkyn models in this unit (+31pts each)",
+     "printed": "May include an additional 6 Brokhyr Thunderkyn models in this unit (+31pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "thunderkyn",
+       "name": "Thunderkyn",
+       "points": 31,
+       "pricing": "each",
+       "max": 6,
+       "add_model": {
+        "profile": "thunderkyn",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "heavy_bolter_exchange",
+     "label": "Any model in the unit may exchange their Heavy Bolter for one of the following:",
+     "printed": "Any model in the unit may exchange their Heavy Bolter for one of the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "sp_conversion_beamer",
+       "name": "SP Conversion Beamer",
+       "points": 20,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "conversion_beamer",
+           "printed": "SP Conversion Beamer"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "graviton_blast_cannon",
+       "name": "Graviton Blast Cannon",
+       "points": 10,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "graviton_blast_cannon"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/buri_aegnirssen",
+   "name": "Buri Aegnirssen",
+   "page": 23,
+   "url": "https://longwarindex.app/roster/buri_aegnirssen/",
+   "source": "Codex: Leagues of Votann",
+   "role": "HQ",
+   "points": 100,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "buri_aegnirssen",
+     "name": "Buri Aegnirssen",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 5,
+      "S": 3,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artifice_void_hardened_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "volkanite_disintegrator"
+      },
+      {
+       "kind": "wargear",
+       "id": "rampart_crest"
+      },
+      {
+       "kind": "wargear",
+       "id": "bionics"
+      },
+      {
+       "kind": "weapon",
+       "id": "bane"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "buri_aegnirssen",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "universal_special_rules/hatred",
+     "name": "Hatred",
+     "param": "Tyranids",
+     "url": "https://longwarindex.app/universal_special_rules/hatred/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/thrice_slain",
+     "name": "Thrice Slain",
+     "url": "https://longwarindex.app/special_rules/thrice_slain/"
+    }
+   ],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "Buri Aegnirssen",
+    "Unique"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/cthonian_beserks",
+   "name": "Cthonian Beserks",
+   "page": 30,
+   "url": "https://longwarindex.app/roster/cthonian_beserks/",
+   "source": "Codex: Leagues of Votann",
+   "role": "Elites",
+   "points": 135,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "cthonian_beserk",
+     "name": "Cthonian Beserk",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 4,
+      "W": 1,
+      "A": 1,
+      "I": 2,
+      "Ld": 7,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "void_plate"
+      },
+      {
+       "kind": "wargear",
+       "id": "bionics"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_plasma_axe"
+      }
+     ]
+    },
+    {
+     "id": "mortar_team",
+     "name": "Mortar Team",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 2,
+      "Ld": 7,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "void_plate"
+      },
+      {
+       "kind": "wargear",
+       "id": "bionics"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_plasma_axe"
+      },
+      {
+       "kind": "weapon",
+       "id": "mole_grenade_launcher"
+      },
+      {
+       "kind": "wargear",
+       "id": "huntr_module"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "cthonian_beserk",
+     "count": 6
+    },
+    {
+     "profile": "mortar_team",
+     "min": 0,
+     "max": 3
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "universal_special_rules/rage",
+     "name": "Rage",
+     "url": "https://longwarindex.app/universal_special_rules/rage/"
+    },
+    {
+     "rule": "universal_special_rules/counter_attack",
+     "name": "Counter Attack",
+     "url": "https://longwarindex.app/universal_special_rules/counter_attack/"
+    },
+    {
+     "rule": "universal_special_rules/last_stand",
+     "name": "Last Stand",
+     "url": "https://longwarindex.app/universal_special_rules/last_stand/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "Guild",
+    "Cthonian Beserks"
+   ],
+   "size": {
+    "min": 5,
+    "max": 16
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_beserks",
+     "label": "You may include an additional 10 Beserk models in this unit (+23pts each)",
+     "printed": "May include an additional 10 Beserk models in this unit (+23pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "cthonian_beserk",
+       "name": "Cthonian Beserk",
+       "points": 23,
+       "pricing": "each",
+       "max": 10,
+       "add_model": {
+        "profile": "cthonian_beserk",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "heavy_power_hammer_exchange",
+     "label": "Any model in the unit may exchange its Heavy Plasma Axe for a Heavy Power Hammer (+5pts)",
+     "printed": "Any model in the unit may exchange its Heavy Plasma Axe for a Heavy Power Hammer (+5pts)",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_power_hammer",
+       "name": "Heavy Power Hammer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_plasma_axe"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_power_hammer"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "power_fist_exchange",
+     "label": "1 model in every 5 may exchange its Heavy Plasma Axe for 2 Power Fists (+20pts)",
+     "printed": "1 model in every 5 may exchange its Heavy Plasma Axe for 2 Power Fists (+20pts)",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 5,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_fists",
+       "name": "2 Power Fists",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_plasma_axe"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist",
+           "count": 2
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "mortar_team_exchange",
+     "label": "2 in every 5 models may be exchanged for a Mortar Team (+15pts)",
+     "printed": "2 in every 5 models may be exchanged for a Mortar Team (+15pts)",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 5,
+       "rounding": "down",
+       "counted": {
+        "profiles": [
+         "cthonian_beserk"
+        ]
+       }
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "mortar_team",
+       "name": "Mortar Team",
+       "points": 15,
+       "pricing": "flat",
+       "add_model": {
+        "profile": "mortar_team",
+        "count": 1
+       },
+       "remove_models": {
+        "profile": "cthonian_beserk",
+        "count": 2
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/cthonian_earthshakers",
+   "name": "Cthonian Earthshakers",
+   "page": 38,
+   "url": "https://longwarindex.app/roster/cthonian_earthshakers/",
+   "source": "Codex: Leagues of Votann",
+   "role": "Heavy Support",
+   "points": 100,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "cthonian_earthshaker",
+     "name": "Cthonian Earthshaker",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 4,
+      "W": 4,
+      "A": 3,
+      "I": 2,
+      "Ld": 7,
+      "Sv": "5+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "void_plate"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "plasma_axe"
+      },
+      {
+       "kind": "wargear",
+       "id": "bionics"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_mole_launcher"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "cthonian_earthshaker",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "6",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/slow_and_purposeful",
+     "name": "Slow and Purposeful",
+     "printed": "Slow & Purposeful",
+     "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "Cthonian",
+    "Cthonian Earthshakers"
+   ],
+   "size": {
+    "min": 1,
+    "max": 3
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_earthshakers",
+     "label": "You may include an additional 2 Cthonian Earthshaker models in this unit (+95pts each)",
+     "printed": "May include an additional 2 Cthonian Earthshaker models in this unit (+95pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "cthonian_earthshaker",
+       "name": "Cthonian Earthshaker",
+       "points": 95,
+       "pricing": "each",
+       "max": 2,
+       "add_model": {
+        "profile": "cthonian_earthshaker",
+        "count": 1
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/einhyr_champion",
+   "name": "Einhyr Champion",
+   "page": 20,
+   "url": "https://longwarindex.app/roster/einhyr_champion/",
+   "source": "Codex: Leagues of Votann",
+   "role": "HQ",
+   "points": 60,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "einhyr_champion",
+     "name": "Einhyr Champion",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 5,
+      "BS": 4,
+      "S": 4,
+      "T": 5,
+      "W": 2,
+      "A": 2,
+      "I": 2,
+      "Ld": 7,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "exo_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_hammer"
+      },
+      {
+       "kind": "weapon",
+       "id": "linked_boltgun"
+      },
+      {
+       "kind": "wargear",
+       "id": "mass_driver_system"
+      },
+      {
+       "kind": "wargear",
+       "id": "huntr_module"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "einhyr_champion",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "universal_special_rules/last_stand",
+     "name": "Last Stand",
+     "url": "https://longwarindex.app/universal_special_rules/last_stand/"
+    },
+    {
+     "rule": "universal_special_rules/counter_attack",
+     "name": "Counter Attack",
+     "url": "https://longwarindex.app/universal_special_rules/counter_attack/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "universal_special_rules/support_squad",
+     "name": "Support Squad",
+     "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "Einhyr Champion"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "dark_star_axe",
+     "label": "The Champion may exchange its Power Hammer for a Dark Star Axe (+10pts)",
+     "printed": "The Champion may exchange its Power Hammer for a Dark Star Axe (+10pts)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "dark_star_axe",
+       "name": "Dark Star Axe",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_hammer"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "darkstar_axe"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "crest",
+     "label": "The Champion may take one of the following:",
+     "printed": "The Champion may take one of the following:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "teleport_crest",
+       "name": "Teleport Crest",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "teleport_crest"
+        }
+       ]
+      },
+      {
+       "id": "weavefield_crest",
+       "name": "Weavefield Crest",
+       "points": 15,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "weavefield_crest"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/einhyr_hearthguard",
+   "name": "Einhyr Hearthguard",
+   "page": 28,
+   "url": "https://longwarindex.app/roster/einhyr_hearthguard/",
+   "source": "Codex: Leagues of Votann",
+   "role": "Elites",
+   "points": 235,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "hearthguard",
+     "name": "Hearthguard",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 5,
+      "W": 1,
+      "A": 2,
+      "I": 2,
+      "Ld": 7,
+      "Sv": "2+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "exo_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "volkanite_disintegrator"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_fist"
+      },
+      {
+       "kind": "weapon",
+       "id": "exo_grenade_launcher"
+      }
+     ]
+    },
+    {
+     "id": "hesyr",
+     "name": "Hesyr",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 4,
+      "T": 5,
+      "W": 1,
+      "A": 2,
+      "I": 2,
+      "Ld": 8,
+      "Sv": "2+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "plasma_gun"
+      },
+      {
+       "kind": "wargear",
+       "id": "exo_armour"
+      },
+      {
+       "kind": "wargear",
+       "id": "weavefield_crest"
+      },
+      {
+       "kind": "weapon",
+       "id": "power_fist"
+      },
+      {
+       "kind": "weapon",
+       "id": "exo_grenade_launcher"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "hearthguard",
+     "count": 4
+    },
+    {
+     "profile": "hesyr",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "Einhyr Hearthguard"
+   ],
+   "size": {
+    "min": 5,
+    "max": 10
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_hearthguard",
+     "label": "You may include an additional 5 Hearthguard models in this unit (+47pts each)",
+     "printed": "May include an additional 5 Hearthguard models in this unit (+47pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hearthguard",
+       "name": "Hearthguard",
+       "points": 47,
+       "pricing": "each",
+       "max": 5,
+       "add_model": {
+        "profile": "hearthguard",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "volkanite_to_plasma_gun",
+     "label": "Any model in the unit may exchange their Volkanite Disintegrator for a Plasma Gun (+8pts)",
+     "printed": "Any model in the unit may exchange their Volkanite Disintegrator for a Plasma Gun (+8pts)",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "hearthguard"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_gun",
+       "name": "Plasma Gun",
+       "points": 8,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "volkanite_disintegrator"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_gun"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "power_fist_to_plasma_gauntlet",
+     "label": "Any model in the unit may exchange its Power Fist for a Plasma Gauntlet (+5pts)",
+     "printed": "Any model in the unit may exchange its Power Fist for a Plasma Gauntlet (+5pts)",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_gauntlet",
+       "name": "Plasma Gauntlet",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_fist"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_gauntlet"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hesyr_power_hammer",
+     "label": "The Hesyr may exchange their Power Fist for a Power Hammer (+5pts)",
+     "printed": "The Hesyr may exchange their Power Fist for a Power Hammer (+5pts)",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "hesyr"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "power_hammer",
+       "name": "Power Hammer",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "power_fist"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_hammer"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hesyr_teleport_crest",
+     "label": "The Hesyr may exchange their Weavefield Crest for a Teleport Crest (+10pts)",
+     "printed": "The Hesyr may exchange their Weavefield Crest for a Teleport Crest (+10pts)",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "hesyr"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "teleport_crest",
+       "name": "Teleport Crest",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "weavefield_crest"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "teleport_crest"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/grimnyr",
+   "name": "Grimnyr",
+   "page": 22,
+   "url": "https://longwarindex.app/roster/grimnyr/",
+   "source": "Codex: Leagues of Votann",
+   "role": "HQ",
+   "points": 80,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "grimnyr",
+     "name": "Grimnyr",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 3,
+      "T": 4,
+      "W": 3,
+      "A": 3,
+      "I": 2,
+      "Ld": 9,
+      "Sv": "4+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "void_hardened_armour"
+      },
+      {
+       "kind": "wargear",
+       "id": "ancestral_ward_crest"
+      },
+      {
+       "kind": "weapon",
+       "id": "force_stave"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "grimnyr",
+     "count": 1
+    },
+    {
+     "datasheet": "codex/leagues_of_votann/wargear/corv",
+     "count": 2
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    },
+    {
+     "rule": "universal_special_rules/deny_the_witch",
+     "name": "Deny the Witch",
+     "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+    },
+    {
+     "rule": "universal_special_rules/indomitable_spirit",
+     "name": "Indomitable Spirit",
+     "param": "3+",
+     "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "universal_special_rules/support_squad",
+     "name": "Support Squad",
+     "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "Grimnyr",
+    "Psyker"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/hearthkyn_warriors",
+   "name": "Hearthkyn Warriors",
+   "page": 26,
+   "url": "https://longwarindex.app/roster/hearthkyn_warriors/",
+   "source": "Codex: Leagues of Votann",
+   "role": "Troops",
+   "points": 80,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "hearthkyn",
+     "name": "Hearthkyn",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 4,
+      "W": 1,
+      "A": 1,
+      "I": 2,
+      "Ld": 6,
+      "Sv": "4+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "boltgun"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol"
+      },
+      {
+       "kind": "wargear",
+       "id": "void_hardened_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      }
+     ]
+    },
+    {
+     "id": "theyn",
+     "name": "Theyn",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 4,
+      "W": 1,
+      "A": 2,
+      "I": 2,
+      "Ld": 7,
+      "Sv": "4+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "boltgun"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol"
+      },
+      {
+       "kind": "wargear",
+       "id": "void_hardened_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      },
+      {
+       "kind": "wargear",
+       "id": "weavefield_crest"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "hearthkyn",
+     "count": 9
+    },
+    {
+     "profile": "theyn",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "Hearthkyn Warriors"
+   ],
+   "size": {
+    "min": 10,
+    "max": 20
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 10 Hearthkyn models in this unit (+5pts each)",
+     "printed": "May include an additional 10 Hearthkyn models in this unit (+5pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "hearthkyn",
+       "name": "Hearthkyn",
+       "points": 5,
+       "pricing": "each",
+       "max": 10,
+       "add_model": {
+        "profile": "hearthkyn",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "ion_blaster",
+     "label": "Any model in the unit may exchange their Boltgun for an Ion Blaster (+5pts each)",
+     "printed": "Any model in the unit may exchange their Boltgun for an Ion Blaster (+5pts each)",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "ion_blaster",
+       "name": "Ion Blaster",
+       "points": 5,
+       "pricing": "each",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "ion_blaster"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "heavy_weapon",
+     "label": "2 in every 9 Hearthkyn models in the unit may exchange its Boltgun for one of the following:",
+     "printed": "2 in every 9 Hearthkyn models in the unit may exchange its Boltgun for one of the following:",
+     "takers": {
+      "scope": "models",
+      "profiles": [
+       "hearthkyn"
+      ],
+      "ratio": {
+       "take": 2,
+       "per": 9,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "l7_missile_launcher",
+       "name": "L7 Missile Launcher",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "l7_missile_launcher"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "las_auto_rifle",
+       "name": "Las Auto Rifle",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "las_auto_rifle"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "las_rotary_cannon",
+       "name": "Las Rotary Cannon",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "las_rotary_cannon"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "plasma_beamer",
+       "name": "Plasma Beamer",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_beamer"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "rail_rifle",
+       "name": "Rail Rifle",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "rail_rifle"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "support_wargear",
+     "label": "Up to 3 different Hearthkyn models in the unit equipped with Boltgun or Ion Blaster can each take one of the following:",
+     "printed": "Up to 3 different Hearthkyn models in the unit equipped with Boltgun or Ion Blaster can each take one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 3,
+      "profiles": [
+       "hearthkyn"
+      ]
+     },
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "boltgun"
+        },
+        {
+         "kind": "weapon",
+         "id": "ion_blaster"
+        }
+       ]
+      }
+     ],
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "medipack",
+       "name": "Medipack",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "medipack"
+        }
+       ]
+      },
+      {
+       "id": "multiweave_comms_array",
+       "name": "Multiweave Comm's array",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "multiweave_comms_array"
+        }
+       ]
+      },
+      {
+       "id": "pan_spectral_scanner",
+       "name": "Pan Spectral Scanner",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "pan_spectral_scanner"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "theyn_pistol",
+     "label": "The Theyn may exchange their Bolt Pistol for one of the following:",
+     "printed": "The Theyn may exchange their Bolt Pistol for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "theyn"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_pistol",
+       "name": "Plasma Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_pistol"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "ion_pistol",
+       "name": "Ion Pistol",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "ion_pistol"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "theyn_melee",
+     "label": "The Theyn may exchange their Boltgun or Ion Blaster for one of the following:",
+     "printed": "The Theyn may exchange their Boltgun or Ion Blaster for one of the following:",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "theyn"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_sword",
+       "name": "Plasma Sword",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove_one_of": [
+          {
+           "kind": "weapon",
+           "id": "boltgun"
+          },
+          {
+           "kind": "weapon",
+           "id": "ion_blaster"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_sword"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "plasma_axe",
+       "name": "Plasma Axe",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove_one_of": [
+          {
+           "kind": "weapon",
+           "id": "boltgun"
+          },
+          {
+           "kind": "weapon",
+           "id": "ion_blaster"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_axe"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove_one_of": [
+          {
+           "kind": "weapon",
+           "id": "boltgun"
+          },
+          {
+           "kind": "weapon",
+           "id": "ion_blaster"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/hekaton_land_fortress",
+   "name": "Hekaton Land Fortress",
+   "page": 39,
+   "url": "https://longwarindex.app/roster/hekaton_land_fortress/",
+   "source": "Codex: Leagues of Votann",
+   "role": "Heavy Support",
+   "points": 170,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "hekaton_land_fortress",
+     "name": "Hekaton Land Fortress",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 8,
+      "Front": 13,
+      "Side": 14,
+      "Rear": 12,
+      "A": 6,
+      "I": 2,
+      "Ld": 7,
+      "Transport Capacity": "12/6"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "votann_crew_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_bolter",
+       "count": 4,
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "matr_heavy_stubber",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "cyclic_ion_cannon",
+       "mount": "primary"
+      },
+      {
+       "kind": "wargear",
+       "id": "pan_spectral_scanner"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers"
+      },
+      {
+       "kind": "wargear",
+       "id": "huntr_module"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "hekaton_land_fortress",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "codex/leagues_of_votann/special_rules/transport_hekaton_land_fortress",
+     "name": "Transport (Hekaton Land Fortress)",
+     "printed": "Transport",
+     "url": "https://longwarindex.app/special_rules/transport_hekaton_land_fortress/"
+    },
+    {
+     "rule": "codex/leagues_of_votann/special_rules/bastion_running",
+     "name": "Bastion Running",
+     "url": "https://longwarindex.app/special_rules/bastion_running/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "Hekaton Land Fortress"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "ion_beamer_exchange",
+     "label": "This model may take one of the following options:",
+     "printed": "May take one of the following options:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "ion_beamers_2",
+       "name": "2 Ion Beamers (P)",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "count": 2
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "ion_beamer",
+           "count": 2,
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "ion_beamers_4",
+       "name": "4 Ion Beamers (P)",
+       "points": 40,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "heavy_bolter",
+           "count": 4
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "ion_beamer",
+           "count": 4,
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "cyclic_ion_cannon_exchange",
+     "label": "This model may exchange its Cyclic Ion Cannon for one of the following:",
+     "printed": "May exchange its Cyclic Ion Cannon for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "heavy_conversion_beamer",
+       "name": "SP Heavy Conversion Beamer (P)",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "cyclic_ion_cannon"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_conversion_beamer",
+           "printed": "SP Heavy Conversion Beamer",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "rail_cannon",
+       "name": "Rail Cannon (P)",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "cyclic_ion_cannon"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "rail_cannon",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pan_spectral_scanner_exchange",
+     "label": "This model may exchange its Pan-Spectral Scanner for one the following:",
+     "printed": "May exchange its Pan-Spectral Scanner for one the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "mountain_breaker_warhead",
+       "name": "Mountain Breaker Warhead",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "pan_spectral_scanner"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "mountain_breaker_warhead"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "kins_wrath_warhead",
+       "name": "Kin's Wrath Warhead",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "pan_spectral_scanner"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "kins_wrath_warhead"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "ancestors_vengeance_warhead",
+       "name": "Ancestor's Vengeance Warhead",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "pan_spectral_scanner"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "ancestors_vengeance_warhead"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/hernkyn_pioneers",
+   "name": "Hernkyn Pioneers",
+   "page": 35,
+   "url": "https://longwarindex.app/roster/hernkyn_pioneers/",
+   "source": "Codex: Leagues of Votann",
+   "role": "Fast Attack",
+   "points": 65,
+   "unit_type": "Bike",
+   "profiles": [
+    {
+     "id": "pioneer",
+     "name": "Pioneer",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 5,
+      "W": 1,
+      "A": 1,
+      "I": 2,
+      "Ld": 7,
+      "Sv": "4+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "shotgun"
+      },
+      {
+       "kind": "wargear",
+       "id": "void_hardened_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "wargear",
+       "id": "trike",
+       "note": "Heavy Stubber"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      }
+     ]
+    },
+    {
+     "id": "pioneer_gunner",
+     "name": "Pioneer Gunner",
+     "template": "unit",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 5,
+      "W": 2,
+      "A": 2,
+      "I": 2,
+      "Ld": 7,
+      "Sv": "4+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol"
+      },
+      {
+       "kind": "weapon",
+       "id": "shotgun"
+      },
+      {
+       "kind": "wargear",
+       "id": "void_hardened_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "wargear",
+       "id": "trike",
+       "note": "Heavy Stubber"
+      },
+      {
+       "kind": "weapon",
+       "id": "las_rotary_cannon"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "pioneer",
+     "count": 2
+    },
+    {
+     "profile": "pioneer_gunner",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "Hernkyn Pioneers"
+   ],
+   "size": {
+    "min": 3,
+    "max": 9
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_pioneers",
+     "label": "You may include an additional 4 Pioneer models in this unit (+20pts each)",
+     "printed": "May include an additional 4 Pioneer models in this unit (+20pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "pioneer",
+       "name": "Pioneer",
+       "points": 20,
+       "pricing": "each",
+       "max": 4,
+       "add_model": {
+        "profile": "pioneer",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "additional_pioneer_gunners",
+     "label": "You may include 1 additional Pioneer Gunner models for every 2 additional Pioneer models in the unit (+25pts)",
+     "printed": "May include 1 additional Pioneer Gunner models for every 2 additional Pioneer models in the unit (+25pts)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "pioneer_gunner",
+       "name": "Pioneer Gunner",
+       "points": 25,
+       "pricing": "each",
+       "max": {
+        "per_choice": "additional_pioneers/pioneer",
+        "every": 2,
+        "count": 1
+       },
+       "add_model": {
+        "profile": "pioneer_gunner",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "ion_beamer_exchange",
+     "label": "Any Pioneer Gunner model may exchange its Las Rotary Cannon for an Ion Beamer (+15pts)",
+     "printed": "Any Pioneer Gunner model may exchange its Las Rotary Cannon for an Ion Beamer (+15pts)",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "pioneer_gunner"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "ion_beamer",
+       "name": "Ion Beamer",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "las_rotary_cannon"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "ion_beamer"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pioneer_gear",
+     "label": "Any Pioneer model in the unit that is not a Pioneer Gunner may purchase one of the following:",
+     "printed": "Any Pioneer model in the unit that is not a Pioneer Gunner may purchase one of the following:",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "pioneer"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "multiweave_comms_array",
+       "name": "Multi-weave comms array",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "multiweave_comms_array"
+        }
+       ]
+      },
+      {
+       "id": "pan_spectral_scanner",
+       "name": "Pan-Spectral Scanner",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "pan_spectral_scanner"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/hernkyn_yaegirs",
+   "name": "Hernkyn Yaegirs",
+   "page": 29,
+   "url": "https://longwarindex.app/roster/hernkyn_yaegirs/",
+   "source": "Codex: Leagues of Votann",
+   "role": "Elites",
+   "points": 55,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "yaegir",
+     "name": "Yaegir",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 3,
+      "T": 4,
+      "W": 1,
+      "A": 1,
+      "I": 2,
+      "Ld": 7,
+      "Sv": "4+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "shotgun"
+      },
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol"
+      },
+      {
+       "kind": "wargear",
+       "id": "void_hardened_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "frag_grenades"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "yaegir",
+     "count": 5
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "universal_special_rules/scout",
+     "name": "Scout",
+     "url": "https://longwarindex.app/universal_special_rules/scout/"
+    },
+    {
+     "rule": "universal_special_rules/infiltrate",
+     "name": "Infiltrate",
+     "url": "https://longwarindex.app/universal_special_rules/infiltrate/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "Hernkyn Yaegirs"
+   ],
+   "size": {
+    "min": 5,
+    "max": 10
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_yaegirs",
+     "label": "You may include an additional 5 models in this unit (+9pts each)",
+     "printed": "May include an additional 5 models in this unit (+9pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "yaegir",
+       "name": "Yaegir",
+       "points": 9,
+       "pricing": "each",
+       "max": 5,
+       "add_model": {
+        "profile": "yaegir",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "shotgun_exchange",
+     "label": "Any Yaegir may exchange their Shotgun for one of the following:",
+     "printed": "Any Yaegir may exchange their Shotgun for one of the following:",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "bolt_pistol",
+       "name": "Bolt Pistol",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shotgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "plasma_blade",
+       "name": "Plasma Blade",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shotgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_blade"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sniper_exchange",
+     "label": "One in every 5 Yaegir models in the unit may exchange their Shotgun and Bolt Pistol for one of the following:",
+     "printed": "One in every 5 Yaegir models in the unit may exchange their Shotgun and Bolt Pistol for one of the following:",
+     "takers": {
+      "scope": "models",
+      "ratio": {
+       "take": 1,
+       "per": 5,
+       "rounding": "down"
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "rail_sniper_rifle",
+       "name": "Rail Sniper Rifle",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shotgun"
+          },
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "rail_sniper_rifle"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "he_mine",
+       "name": "H.E Mine",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "shotgun"
+          },
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "he_mine"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/ironkin_steeljacks",
+   "name": "Ironkin Steeljacks",
+   "page": 27,
+   "url": "https://longwarindex.app/roster/ironkin_steeljacks/",
+   "source": "Codex: Leagues of Votann",
+   "role": "Troops",
+   "points": 115,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "ironkin_steeljacks",
+     "name": "Ironkin Steeljacks",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 5,
+      "T": 4,
+      "W": 2,
+      "A": 1,
+      "I": 2,
+      "Ld": 7,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "ironkin_cladding"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_volkanite_disintegrator"
+      },
+      {
+       "kind": "weapon",
+       "id": "plasma_blade"
+      },
+      {
+       "kind": "wargear",
+       "id": "bionics"
+      }
+     ]
+    },
+    {
+     "id": "hesyr_steeljack",
+     "name": "Hesyr Steeljack",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 3,
+      "S": 5,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 2,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "leader": true,
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "ironkin_cladding"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_volkanite_disintegrator"
+      },
+      {
+       "kind": "weapon",
+       "id": "plasma_blade"
+      },
+      {
+       "kind": "wargear",
+       "id": "bionics"
+      },
+      {
+       "kind": "wargear",
+       "id": "preymark_crest"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "ironkin_steeljacks",
+     "count": 2
+    },
+    {
+     "profile": "hesyr_steeljack",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "universal_special_rules/support_squad",
+     "name": "Support Squad",
+     "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "Ironkin Steeljacks"
+   ],
+   "size": {
+    "min": 3,
+    "max": 7
+   },
+   "stocks": [],
+   "options": [
+    {
+     "id": "additional_models",
+     "label": "You may include an additional 4 Steeljack models in this unit (+28pts each)",
+     "printed": "May include an additional 4 Steeljack models in this unit (+28pts each)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "ironkin_steeljacks",
+       "name": "Ironkin Steeljacks",
+       "points": 28,
+       "pricing": "each",
+       "max": 4,
+       "add_model": {
+        "profile": "ironkin_steeljacks",
+        "count": 1
+       }
+      }
+     ]
+    },
+    {
+     "id": "boltgun_plasma_sword",
+     "label": "Any Ironkin Steeljacks may exchange their Close Combat Weapon and Heavy Volkanite Disintegrator for a Boltgun and Plasma Sword (+5pts)",
+     "printed": "Any Ironkin Steeljacks may exchange their Close Combat Weapon and Heavy Volkanite Disintegrator for a Boltgun and Plasma Sword (+5pts)",
+     "takers": {
+      "scope": "each_model",
+      "profiles": [
+       "ironkin_steeljacks"
+      ]
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "boltgun_plasma_sword",
+       "name": "Boltgun and Plasma Sword",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapons"
+          },
+          {
+           "kind": "weapon",
+           "id": "heavy_volkanite_disintegrator"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "boltgun"
+          },
+          {
+           "kind": "weapon",
+           "id": "plasma_sword"
+          }
+         ]
+        }
+       ],
+       "options": [
+        {
+         "id": "power_fist",
+         "label": "A model may exchange its Plasma Sword for a Power Fist (+5pts)",
+         "printed": "A model may exchange its Plasma Sword for a Power Fist (+5pts)",
+         "takers": {
+          "scope": "model"
+         },
+         "requires": [
+          {
+           "holds": [
+            {
+             "kind": "weapon",
+             "id": "plasma_sword"
+            }
+           ]
+          }
+         ],
+         "pick": {
+          "max": 1
+         },
+         "choices": [
+          {
+           "id": "power_fist",
+           "name": "Power Fist",
+           "points": 5,
+           "pricing": "flat",
+           "exchanges": [
+            {
+             "remove": [
+              {
+               "kind": "weapon",
+               "id": "plasma_sword"
+              }
+             ],
+             "add": [
+              {
+               "kind": "weapon",
+               "id": "power_fist"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/kahl",
+   "name": "Kâhl",
+   "page": 19,
+   "url": "https://longwarindex.app/roster/kahl/",
+   "source": "Codex: Leagues of Votann",
+   "role": "HQ",
+   "points": 65,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "kahl",
+     "name": "Kâhl",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 3,
+      "T": 4,
+      "W": 3,
+      "A": 3,
+      "I": 3,
+      "Ld": 8,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artifice_void_hardened_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "storm_bolter"
+      },
+      {
+       "kind": "weapon",
+       "id": "plasma_sword"
+      },
+      {
+       "kind": "wargear",
+       "id": "rampart_crest"
+      },
+      {
+       "kind": "wargear",
+       "id": "huntr_module"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "kahl",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "codex/leagues_of_votann/special_rules/hero_of_the_oathband",
+     "name": "Hero of the Oathband",
+     "url": "https://longwarindex.app/special_rules/hero_of_the_oathband/"
+    },
+    {
+     "rule": "codex/leagues_of_votann/special_rules/appraising_glare_kahl",
+     "name": "Appraising Glare (Kâhl)",
+     "printed": "Appraising Glare",
+     "url": "https://longwarindex.app/special_rules/appraising_glare_kahl/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Detachment",
+     "printed": "Limit: 1 Per Detachment",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/high_kahl",
+     "name": "High Kâhl",
+     "url": "https://longwarindex.app/special_rules/high_kahl/"
+    }
+   ],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "Kâhl"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "high_kahl",
+     "label": "This unit may be upgraded to a High Kâhl (+20pts)",
+     "printed": "May be upgraded to a High Kâhl (+20pts)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "high_kahl",
+       "name": "High Kâhl",
+       "points": 20,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/leagues_of_votann/special_rules/high_kahl",
+         "name": "High Kâhl",
+         "url": "https://longwarindex.app/special_rules/high_kahl/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "volkanite_disintegrator",
+     "label": "The unit may exchange their Storm Bolter for a Volkanite Disintegrator (+2pts)",
+     "printed": "May exchange their Storm Bolter for a Volkanite Disintegrator (+2pts)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "volkanite_disintegrator",
+       "name": "Volkanite Disintegrator",
+       "points": 2,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "volkanite_disintegrator"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "melee_weapon",
+     "label": "The unit may exchange their Plasma Sword one of the following:",
+     "printed": "May exchange their Plasma Sword one of the following:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "plasma_axe",
+       "name": "Plasma Axe",
+       "points": 15,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "plasma_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "plasma_axe"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "power_fist",
+       "name": "Power Fist",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "plasma_sword"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "power_fist"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "teleport_crest",
+     "label": "The Kâhl may exchange their Rampart Crest for a Teleport Crest (+10pts)",
+     "printed": "May exchange their Rampart Crest for a Teleport Crest (+10pts)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "teleport_crest",
+       "name": "Teleport Crest",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "rampart_crest"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "teleport_crest"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "digital_weapons",
+     "label": "The unit may purchase Digital Weapons (+10pts)",
+     "printed": "May purchase Digital Weapons (+10pts)",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "digital_weapons",
+       "name": "Digital Weapons",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "digital_weapons"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/kahl_uthar_the_destined",
+   "name": "Kâhl Uthar the Destined",
+   "page": 25,
+   "url": "https://longwarindex.app/roster/kahl_uthar_the_destined/",
+   "source": "Codex: Leagues of Votann",
+   "role": "HQ",
+   "points": 115,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "kahl_uthar",
+     "name": "Kâhl Uthar",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 6,
+      "BS": 5,
+      "S": 3,
+      "T": 4,
+      "W": 4,
+      "A": 4,
+      "I": 4,
+      "Ld": 9,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "artifice_void_hardened_armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "volkanite_disintegrator"
+      },
+      {
+       "kind": "wargear",
+       "id": "rampart_crest"
+      },
+      {
+       "kind": "weapon",
+       "id": "sword_of_ancestors",
+       "printed": "Sword of the Ancestors"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "kahl_uthar",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/allegiances/greater_thurian_league",
+     "name": "Greater Thurian League",
+     "printed": "Allegiance: Grand Thurian",
+     "url": "https://longwarindex.app/allegiances/greater_thurian_league/"
+    },
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "codex/leagues_of_votann/special_rules/hero_of_the_oathband",
+     "name": "Hero of the Oathband",
+     "url": "https://longwarindex.app/special_rules/hero_of_the_oathband/"
+    },
+    {
+     "rule": "codex/leagues_of_votann/special_rules/appraising_glare_kahl_uthar_the_destined",
+     "name": "Appraising Glare (Kâhl Uthar the Destined)",
+     "printed": "Appraising Glare",
+     "url": "https://longwarindex.app/special_rules/appraising_glare_kahl_uthar_the_destined/"
+    },
+    {
+     "rule": "universal_special_rules/battle_hardened",
+     "name": "Battle-Hardened",
+     "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "battlefield_roles/limited",
+     "name": "18.3 - Limited",
+     "param": "1 Per Army",
+     "printed": "Limit: 1 Per Army",
+     "url": "https://longwarindex.app/battlefield_roles/limited/"
+    }
+   ],
+   "optional_rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/the_destined",
+     "name": "The Destined",
+     "url": "https://longwarindex.app/special_rules/the_destined/"
+    }
+   ],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "Grand Thurian",
+    "Kâhl Uthar the Destined",
+    "Unique"
+   ],
+   "preset_allegiance": "codex/leagues_of_votann/allegiances/greater_thurian_league",
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/kapricus_carrier",
+   "name": "Kapricus Carrier",
+   "page": 34,
+   "url": "https://longwarindex.app/roster/kapricus_carrier/",
+   "source": "Codex: Leagues of Votann",
+   "role": "Dedicated Transport",
+   "points": 50,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "kapricus_carrier",
+     "name": "Kapricus Carrier",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 5,
+      "Front": 10,
+      "Side": 11,
+      "Rear": 10,
+      "A": 2,
+      "I": 2,
+      "Ld": 7,
+      "Transport Capacity": "5/2"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "votann_crew_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "linked_heavy_stubber",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "heavy_stubber",
+       "mount": "primary"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers"
+      },
+      {
+       "kind": "wargear",
+       "id": "huntr_module"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "kapricus_carrier",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "codex/leagues_of_votann/special_rules/transport_kapricus_carrier",
+     "name": "Transport (Kapricus Carrier)",
+     "printed": "Transport",
+     "url": "https://longwarindex.app/special_rules/transport_kapricus_carrier/"
+    },
+    {
+     "rule": "universal_special_rules/scout",
+     "name": "Scout",
+     "url": "https://longwarindex.app/universal_special_rules/scout/"
+    },
+    {
+     "rule": "universal_special_rules/assault_vehicle",
+     "name": "Assault Vehicle",
+     "url": "https://longwarindex.app/universal_special_rules/assault_vehicle/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "Kapricus Carrier"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/kapricus_defender",
+   "name": "Kapricus Defender",
+   "page": 36,
+   "url": "https://longwarindex.app/roster/kapricus_defender/",
+   "source": "Codex: Leagues of Votann",
+   "role": "Fast Attack",
+   "points": 55,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "kapricus_defender",
+     "name": "Kapricus Defender",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 5,
+      "Front": 10,
+      "Side": 11,
+      "Rear": 10,
+      "A": 2,
+      "I": 2,
+      "Ld": 7,
+      "Transport Capacity": 0
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "votann_crew_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "linked_heavy_stubber",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "las_rotary_cannon",
+       "mount": "primary"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers"
+      },
+      {
+       "kind": "wargear",
+       "id": "huntr_module"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "kapricus_defender",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/scout",
+     "name": "Scout",
+     "url": "https://longwarindex.app/universal_special_rules/scout/"
+    },
+    {
+     "rule": "codex/leagues_of_votann/special_rules/transport_kapricus_defender",
+     "name": "Transport (Kapricus Defender)",
+     "printed": "Transport",
+     "url": "https://longwarindex.app/special_rules/transport_kapricus_defender/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "Kapricus Carrier"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "rail_cannon_exchange",
+     "label": "This unit may exchange its Las Rotary Cannon for a Rail Cannon (+20pts)",
+     "printed": "May exchange its Las Rotary Cannon for a Rail Cannon (+20pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "rail_cannon",
+       "name": "Rail Cannon",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "las_rotary_cannon"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "rail_cannon"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/memnyr_strategist",
+   "name": "Memnyr Strategist",
+   "page": 32,
+   "url": "https://longwarindex.app/roster/memnyr_strategist/",
+   "source": "Codex: Leagues of Votann",
+   "role": "Elites",
+   "points": 50,
+   "unit_type": "Infantry",
+   "profiles": [
+    {
+     "id": "memnyr_strategist",
+     "name": "Memnyr Strategist",
+     "template": "unit",
+     "characteristics": {
+      "M": "6\"",
+      "WS": 4,
+      "BS": 4,
+      "S": 3,
+      "T": 4,
+      "W": 2,
+      "A": 2,
+      "I": 2,
+      "Ld": 8,
+      "Sv": "4+"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "bolt_pistol"
+      },
+      {
+       "kind": "wargear",
+       "id": "void_hardened_armour",
+       "printed": "Void Armour"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "wargear",
+       "id": "kognitaar_mantle"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "memnyr_strategist",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "universal_special_rules/character",
+     "name": "Character",
+     "url": "https://longwarindex.app/universal_special_rules/character/"
+    },
+    {
+     "rule": "codex/leagues_of_votann/special_rules/master_of_strategy",
+     "name": "Master of Strategy",
+     "url": "https://longwarindex.app/special_rules/master_of_strategy/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "Memnyr Strategist"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/leagues_of_votann/roster/sagutar_atv",
+   "name": "Sagutar ATV",
+   "page": 33,
+   "url": "https://longwarindex.app/roster/sagutar_atv/",
+   "source": "Codex: Leagues of Votann",
+   "role": "Dedicated Transport",
+   "points": 65,
+   "unit_type": "Vehicle",
+   "profiles": [
+    {
+     "id": "sagutar_atv",
+     "name": "Sagutar ATV",
+     "template": "transport-vehicle",
+     "characteristics": {
+      "M": "12\"",
+      "WS": 3,
+      "BS": 3,
+      "S": 6,
+      "Front": 11,
+      "Side": 12,
+      "Rear": 10,
+      "A": 2,
+      "I": 2,
+      "Ld": 7,
+      "Transport Capacity": "6/4"
+     },
+     "wargear": [
+      {
+       "kind": "weapon",
+       "id": "votann_crew_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "linked_heavy_bolter",
+       "mount": "primary"
+      },
+      {
+       "kind": "weapon",
+       "id": "matr_heavy_stubber",
+       "mount": "primary"
+      },
+      {
+       "kind": "wargear",
+       "id": "searchlight"
+      },
+      {
+       "kind": "wargear",
+       "id": "smoke_launchers"
+      },
+      {
+       "kind": "wargear",
+       "id": "huntr_module"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "sagutar_atv",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/eye_of_the_ancestors",
+     "name": "Eye of the Ancestors",
+     "url": "https://longwarindex.app/special_rules/eye_of_the_ancestors/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "codex/leagues_of_votann/special_rules/transport_sagutar_atv",
+     "name": "Transport (Sagutar ATV)",
+     "printed": "Transport",
+     "url": "https://longwarindex.app/special_rules/transport_sagutar_atv/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squats",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "Sagutar ATV"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "heavy_stubber_exchange",
+     "label": "The Sagutar ATV may exchange its MATR Heavy Stubber (P) for one of the following:",
+     "printed": "The Sagutar ATV may exchange its MATR Heavy Stubber (P) for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "sagitaur_missile_launcher",
+       "name": "Sagitaur Missile Launcher (P)",
+       "points": 35,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "matr_heavy_stubber",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "sagitaur_missile_launcher",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "lascannon",
+       "name": "Lascannon (P)",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "matr_heavy_stubber",
+           "mount": "primary"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "lascannon",
+           "mount": "primary"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/leagues_of_votann/wargear/corv",
+   "name": "CORV",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/corv/",
+   "source": "Codex: Leagues of Votann",
+   "role": null,
+   "points": 10,
+   "unit_type": "Drone",
+   "profiles": [
+    {
+     "id": "corv",
+     "name": "CORV",
+     "template": "unit",
+     "characteristics": {
+      "M": "8\"",
+      "WS": 2,
+      "BS": 3,
+      "S": 4,
+      "T": 4,
+      "W": 1,
+      "A": 1,
+      "I": 4,
+      "Ld": 6,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "ironkin_cladding"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      },
+      {
+       "kind": "weapon",
+       "id": "boltgun"
+      },
+      {
+       "kind": "wargear",
+       "id": "huntr_module"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "corv",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/e_cog",
+     "name": "E-Cog",
+     "url": "https://longwarindex.app/special_rules/e_cog/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squat",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "CORV"
+   ],
+   "stocks": [],
+   "options": []
+  },
+  {
+   "id": "codex/leagues_of_votann/wargear/e_cog_assistant",
+   "name": "E-Cog Assistant",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/e_cog_assistant/",
+   "source": "Codex: Leagues of Votann",
+   "role": null,
+   "points": 10,
+   "unit_type": "Drone",
+   "profiles": [
+    {
+     "id": "e_cog_assistant",
+     "name": "E-Cog Assistant",
+     "template": "unit",
+     "characteristics": {
+      "M": "8\"",
+      "WS": 2,
+      "BS": 3,
+      "S": 4,
+      "T": 4,
+      "W": 1,
+      "A": 1,
+      "I": 4,
+      "Ld": 6,
+      "Sv": "3+"
+     },
+     "wargear": [
+      {
+       "kind": "wargear",
+       "id": "ironkin_cladding"
+      },
+      {
+       "kind": "weapon",
+       "id": "close_combat_weapons"
+      }
+     ]
+    }
+   ],
+   "composition": [
+    {
+     "profile": "e_cog_assistant",
+     "count": 1
+    }
+   ],
+   "rules": [
+    {
+     "rule": "codex/leagues_of_votann/special_rules/e_cog",
+     "name": "E-Cog",
+     "url": "https://longwarindex.app/special_rules/e_cog/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    }
+   ],
+   "optional_rules": [],
+   "keywords": [
+    "Squat",
+    "Leagues of Votann",
+    "Votann",
+    "[League]",
+    "E-Cog"
+   ],
+   "stocks": [],
+   "options": [
+    {
+     "id": "ranged_weapon",
+     "label": "Can take one of the following:",
+     "printed": "Can take one of the following:",
+     "takers": {
+      "scope": "unit"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "bolt_pistol",
+       "name": "Bolt Pistol",
+       "points": 5,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "bolt_pistol"
+        }
+       ]
+      },
+      {
+       "id": "plasma_torch",
+       "name": "Plasma Torch",
+       "points": 5,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "plasma_torch"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

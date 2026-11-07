@@ -1,0 +1,1196 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://longwarindex.app/data/v5/units/schema.json",
+ "title": "Long War Index units export: the datasheets of one faction, with their options (units/<faction>.json)",
+ "description": "The datasheets of the roster pages of the faction, with their options.",
+ "type": "object",
+ "required": [
+  "data_version",
+  "format",
+  "faction",
+  "units"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "data_version": {
+   "type": "string",
+   "description": "Hash of the file content. It changes only when the content changes."
+  },
+  "format": {
+   "const": 1
+  },
+  "faction": {
+   "type": "string",
+   "pattern": "^[a-z0-9_]+$",
+   "description": "Faction key. See factions/index.json."
+  },
+  "units": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/datasheet"
+   }
+  }
+ },
+ "$defs": {
+  "datasheet": {
+   "type": "object",
+   "required": [
+    "id",
+    "name",
+    "page",
+    "url",
+    "role",
+    "points",
+    "unit_type",
+    "profiles",
+    "composition",
+    "rules",
+    "optional_rules",
+    "keywords",
+    "stocks",
+    "options"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^codex/[a-z0-9_]+/(roster|wargear)/[a-z0-9_]+$",
+     "description": "The page id. Permanent: never changed or reused. A drone page is in the wargear folder."
+    },
+    "name": {
+     "type": "string"
+    },
+    "page": {
+     "type": "integer",
+     "description": "The printed page number."
+    },
+    "url": {
+     "type": "string",
+     "format": "uri"
+    },
+    "source": {
+     "type": "string",
+     "description": "The book, for example \"Codex: Space Marines\"."
+    },
+    "role": {
+     "enum": [
+      "HQ",
+      "Troops",
+      "Elites",
+      "Fast Attack",
+      "Heavy Support",
+      "Dedicated Transport",
+      "Flyer",
+      "Lords of War",
+      "Fortification",
+      null
+     ],
+     "description": "The Unit Category, with the role names of the unit filters. null for a drone: a model that a unit includes."
+    },
+    "points": {
+     "type": [
+      "integer",
+      "null"
+     ],
+     "description": "The cost. null when the page prints no number."
+    },
+    "points_text": {
+     "type": "string",
+     "description": "The printed cost when it is not a number, for example \"varies\". Not present when the page prints no Cost line."
+    },
+    "unit_type": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "The name of a unit type of unit_types/core.json. null only when the page prints no Unit Type."
+    },
+    "profiles": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/profile"
+     },
+     "description": "One item for each statline row, in row order."
+    },
+    "composition": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/composition_entry"
+     }
+    },
+    "rules": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/rule_entry"
+     },
+     "description": "The Special Rules line, in page order, then each unit special rule that a Wargear list of the page prints (the Motive Engine of the Salamander Scout Tank). A limit is a reference to Limited with the parameter \"<N> Per Army\" or \"<N> Per Detachment\", or \"<N> Per <unit>\" with count and per_unit."
+    },
+    "optional_rules": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/rule_entry"
+     },
+     "description": "The Optional Rules line, in page order. Empty when the page prints none."
+    },
+    "keywords": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "One string for each keyword, in page order, as printed. A placeholder is written [Chapter], [Legion], ..."
+    },
+    "unencoded": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "Printed sentences that the fields do not encode."
+    },
+    "game_time": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "Sentences of the page that act only during the game. Text to show; no list check."
+    },
+    "printed": {
+     "type": "object",
+     "additionalProperties": false,
+     "description": "The book's values where this data corrects the datasheet.",
+     "properties": {
+      "unit_type": {
+       "type": "string"
+      },
+      "keywords": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       },
+       "description": "All keywords as the book prints them."
+      },
+      "rules": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       },
+       "description": "All Special Rules as the book prints them."
+      },
+      "composition": {
+       "type": "string",
+       "description": "The Unit Composition line as the book prints it, where this data corrects a count of the composition."
+      }
+     }
+    },
+    "size": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "min",
+      "max"
+     ],
+     "properties": {
+      "min": {
+       "type": "integer",
+       "minimum": 0
+      },
+      "max": {
+       "type": "integer",
+       "minimum": 0
+      }
+     },
+     "description": "The range of models after every option. Present on each datasheet whose options add or remove models of its own profiles. The drones that a unit of other models takes are not counted (Codex: T'au Empire)."
+    },
+    "stocks": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/stock"
+     },
+     "description": "Item stocks that two groups, or one pool of choices, spend."
+    },
+    "options": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/option_group"
+     },
+     "description": "The option groups of the datasheet, in page order. Empty when the page prints none."
+    },
+    "preset_allegiance": {
+     "type": "string",
+     "description": "The allegiance page that the datasheet presets (§20.1.1)."
+    },
+    "substitutions": {
+     "type": "array",
+     "description": "The Regimental Adjustments of a Section: an allegiance changes, adds or forbids member datasheets.",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "allegiance",
+       "printed"
+      ],
+      "properties": {
+       "allegiance": {
+        "type": "string",
+        "description": "The allegiance page id."
+       },
+       "replace": {
+        "type": "string",
+        "description": "The member datasheet that the allegiance replaces."
+       },
+       "with": {
+        "type": "string",
+        "description": "The datasheet that the allegiance puts in its place."
+       },
+       "add": {
+        "type": "string",
+        "description": "A member datasheet that only the allegiance permits."
+       },
+       "points": {
+        "type": "integer",
+        "description": "The price of the added member in the Section."
+       },
+       "forbid": {
+        "type": "string",
+        "description": "A member datasheet that the allegiance does not permit in the Section."
+       },
+       "printed": {
+        "type": "string",
+        "description": "The sentence of the book."
+       }
+      },
+      "oneOf": [
+       {
+        "required": [
+         "replace",
+         "with"
+        ]
+       },
+       {
+        "required": [
+         "add",
+         "points"
+        ]
+       },
+       {
+        "required": [
+         "forbid"
+        ]
+       }
+      ]
+     }
+    },
+    "only_by_upgrade": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "page",
+      "path"
+     ],
+     "properties": {
+      "page": {
+       "type": "string"
+      },
+      "path": {
+       "type": "string"
+      }
+     },
+     "description": "The datasheet is fielded only by this option (group/choice) of a rule page, not alone."
+    }
+   }
+  },
+  "profile": {
+   "type": "object",
+   "required": [
+    "id",
+    "name",
+    "template",
+    "characteristics",
+    "wargear"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$",
+     "description": "The row name in snake case. Unique on the datasheet."
+    },
+    "name": {
+     "type": "string",
+     "description": "The row name, as printed."
+    },
+    "template": {
+     "enum": [
+      "unit",
+      "vehicle",
+      "transport",
+      "transport-vehicle"
+     ]
+    },
+    "characteristics": {
+     "type": "object",
+     "description": "One property for each column of the template. An integer stays an integer. \"-\" means that the model has no such characteristic. Other values are strings as printed: 6\", 3+, 4/5, 40/4. An empty capacity is null.",
+     "additionalProperties": {
+      "type": [
+       "integer",
+       "string",
+       "null"
+      ]
+     }
+    },
+    "printed": {
+     "type": "object",
+     "description": "The book's value of each characteristic that this data corrects.",
+     "additionalProperties": {
+      "type": [
+       "integer",
+       "string",
+       "null"
+      ]
+     }
+    },
+    "leader": {
+     "const": true,
+     "description": "Present on the row of the unit's leader only."
+    },
+    "wargear": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/kit_item"
+     },
+     "description": "The printed kit of this row. A variant row that an option makes has the kit after that option."
+    },
+    "counts_items": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/kit_item"
+     },
+     "description": "Items that the printed statline of this row already counts, not in its kit. A choice that adds one of these items changes no characteristic of this row."
+    }
+   }
+  },
+  "kit_item": {
+   "type": "object",
+   "additionalProperties": false,
+   "description": "An item reference of the weapon or wargear export, or {name} for an item that has no entry.",
+   "properties": {
+    "kind": {
+     "enum": [
+      "weapon",
+      "wargear"
+     ]
+    },
+    "id": {
+     "type": "string",
+     "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$"
+    },
+    "faction": {
+     "type": "string",
+     "description": "Present when the item is in the file of another faction."
+    },
+    "name": {
+     "type": "string",
+     "description": "Only for an item that has no weapon or wargear entry: the printed name."
+    },
+    "param": {
+     "type": "string",
+     "description": "The value of the item, for example \"3\" for Void Shields (3)."
+    },
+    "count": {
+     "type": "integer",
+     "minimum": 1,
+     "description": "The printed number. Not present means 1 (no number printed)."
+    },
+    "mount": {
+     "enum": [
+      "primary",
+      "secondary"
+     ],
+     "description": "(P) is a Primary weapon, (S) is a Secondary weapon (unit_types/vehicle.md)."
+    },
+    "note": {
+     "type": "string",
+     "description": "A printed note in brackets, for example \"This counts as two weapons\"."
+    },
+    "printed": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "The name that the book prints when it is another name than the item, for example \"Daemon Engine Plate\". null: the book does not print this item in this kit, but this data adds it."
+    }
+   },
+   "oneOf": [
+    {
+     "required": [
+      "kind",
+      "id"
+     ]
+    },
+    {
+     "required": [
+      "name"
+     ],
+     "not": {
+      "anyOf": [
+       {
+        "required": [
+         "kind"
+        ]
+       },
+       {
+        "required": [
+         "id"
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "composition_entry": {
+   "type": "object",
+   "additionalProperties": false,
+   "description": "{profile, count}, or min and max for a printed range or for a row that only an option adds. A model of a drone page gives datasheet, or kind and id (a wargear item), in place of profile. Each such model may take the options of its drone page. A member unit of a Section (Codex: Imperial Guard) gives unit, or units for one unit of one of several pages.",
+   "properties": {
+    "profile": {
+     "type": "string",
+     "description": "A profile id of this datasheet."
+    },
+    "datasheet": {
+     "type": "string",
+     "description": "The page id of a drone page: one model of that page in this unit."
+    },
+    "profiles": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "Profile ids of models in any combination: the total is from min to max."
+    },
+    "kind": {
+     "enum": [
+      "weapon",
+      "wargear"
+     ]
+    },
+    "id": {
+     "type": "string"
+    },
+    "faction": {
+     "type": "string"
+    },
+    "count": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "min": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "max": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "unit": {
+     "type": "string",
+     "description": "The page id of a roster page: a whole member unit of a Section, with its own composition and options."
+    },
+    "units": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "minItems": 2,
+     "description": "Roster page ids: one member unit of one of these pages (\"1 Leman Russ Battle Tank or Malcador Battle Tank\")."
+    }
+   },
+   "oneOf": [
+    {
+     "required": [
+      "count"
+     ]
+    },
+    {
+     "required": [
+      "min",
+      "max"
+     ]
+    }
+   ]
+  },
+  "rule_entry": {
+   "type": "object",
+   "additionalProperties": false,
+   "description": "A rule reference, as in the unit types export. A rule that has no rule page is {name} only.",
+   "required": [
+    "name"
+   ],
+   "properties": {
+    "rule": {
+     "type": "string",
+     "description": "The id of the rule in a special rules file."
+    },
+    "name": {
+     "type": "string"
+    },
+    "param": {
+     "type": "string"
+    },
+    "printed": {
+     "type": "string"
+    },
+    "url": {
+     "type": "string",
+     "format": "uri"
+    },
+    "count": {
+     "type": "integer",
+     "minimum": 1,
+     "description": "Limited only, with per_unit: the army may include this number of these units for each unit that matches per_unit."
+    },
+    "per_unit": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "keyword"
+      ],
+      "properties": {
+       "keyword": {
+        "type": "string",
+        "description": "The unit has the keyword."
+       }
+      }
+     },
+     "description": "Limited only, when the parameter is \"<N> Per <unit>\" (Limited: 1 Per Archon): the units that each permit count units of this datasheet. A unit that matches all conditions counts."
+    }
+   },
+   "dependentRequired": {
+    "rule": [
+     "url"
+    ]
+   }
+  },
+  "stock": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "item",
+    "count",
+    "groups"
+   ],
+   "properties": {
+    "item": {
+     "$ref": "#/$defs/kit_item"
+    },
+    "count": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "groups": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   },
+   "description": "count: the number of the item that one model holds. groups: the groups whose choices spend it."
+  },
+  "takers": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "scope"
+   ],
+   "properties": {
+    "scope": {
+     "enum": [
+      "unit",
+      "model",
+      "each_model",
+      "models"
+     ],
+     "description": "unit: the unit takes it once and every model has it. model: the only model of a one-model unit. each_model: any model (of profiles, or not of except_profiles). models: a counted number of models (max), or a ratio."
+    },
+    "max": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "profiles": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "except_profiles": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "ratio": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "take",
+      "per",
+      "rounding"
+     ],
+     "properties": {
+      "take": {
+       "type": "integer"
+      },
+      "per": {
+       "type": "integer"
+      },
+      "rounding": {
+       "enum": [
+        "up",
+        "down"
+       ],
+       "description": "Always down: only full groups of per models count. The value up is not used."
+      },
+      "counted": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "profiles": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "condition": {
+   "type": "object",
+   "additionalProperties": false,
+   "minProperties": 1,
+   "maxProperties": 1,
+   "properties": {
+    "holds": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/kit_item"
+     },
+     "description": "The model holds any of the items."
+    },
+    "lacks": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/kit_item"
+     },
+     "description": "The model holds none of the items."
+    },
+    "choice": {
+     "$ref": "#/$defs/choice_path",
+     "description": "This choice is taken: a choice of this datasheet (or rule), or of a book option list."
+    },
+    "not_choice": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/choice_path"
+     },
+     "description": "None of these choices is taken."
+    },
+    "unit_size": {
+     "type": "object",
+     "additionalProperties": false,
+     "properties": {
+      "min": {
+       "type": "integer"
+      },
+      "max": {
+       "type": "integer"
+      }
+     }
+    },
+    "keyword": {
+     "type": "string",
+     "description": "The model has the keyword (a red name)."
+    },
+    "not_keyword": {
+     "type": "string",
+     "description": "The model does not have the keyword."
+    }
+   }
+  },
+  "option_group": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "label",
+    "printed",
+    "takers",
+    "pick",
+    "choices"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "description": "Stable within the page."
+    },
+    "label": {
+     "type": "string",
+     "description": "The text of the sentence in this data."
+    },
+    "printed": {
+     "type": "string",
+     "description": "The book's sentence, with its subject and its price form."
+    },
+    "takers": {
+     "$ref": "#/$defs/takers"
+    },
+    "requires": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/condition"
+     },
+     "description": "All must hold."
+    },
+    "pick": {
+     "type": "object",
+     "additionalProperties": false,
+     "properties": {
+      "min": {
+       "type": "integer"
+      },
+      "max": {
+       "type": "integer"
+      },
+      "per": {
+       "enum": [
+        "model",
+        "unit",
+        "member_unit"
+       ],
+       "description": "\"up to N of the following per model\" or \"for the unit\". Absent: for each taker. member_unit: for each member unit of a Section."
+      }
+     },
+     "description": "How many choices one taker takes. {} is any number. {min: N, max: N} is exactly N. A choice repeats only up to its own max (absent means 1)."
+    },
+    "choices": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/option_choice"
+     }
+    },
+    "print_defect": {
+     "type": "string"
+    }
+   }
+  },
+  "option_choice": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "name",
+    "points",
+    "pricing"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "description": "Stable within the group."
+    },
+    "name": {
+     "type": "string",
+     "description": "The choice as the book prints it, without the price."
+    },
+    "points": {
+     "type": "integer"
+    },
+    "pricing": {
+     "enum": [
+      "flat",
+      "per_model",
+      "each"
+     ],
+     "description": "flat: one price. per_model: each model of the unit. each: each item or model that the choice adds."
+    },
+    "items": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/kit_item"
+     }
+    },
+    "exchanges": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "add"
+      ],
+      "properties": {
+       "remove": {
+        "type": "array",
+        "items": {
+         "$ref": "#/$defs/kit_item"
+        }
+       },
+       "remove_one_of": {
+        "type": "array",
+        "items": {
+         "$ref": "#/$defs/kit_item"
+        }
+       },
+       "add": {
+        "type": "array",
+        "items": {
+         "$ref": "#/$defs/kit_item"
+        }
+       }
+      }
+     }
+    },
+    "spends": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "item",
+      "count"
+     ],
+     "properties": {
+      "item": {
+       "$ref": "#/$defs/kit_item"
+      },
+      "count": {
+       "type": "integer"
+      }
+     }
+    },
+    "max": {
+     "oneOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "per",
+        "count"
+       ],
+       "properties": {
+        "per": {
+         "const": "member_unit"
+        },
+        "count": {
+         "type": "integer"
+        }
+       }
+      },
+      {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "per_choice",
+        "every",
+        "count"
+       ],
+       "properties": {
+        "per_choice": {
+         "type": "string",
+         "description": "A choice of the same page: <group id>/<choice id>."
+        },
+        "every": {
+         "type": "integer",
+         "minimum": 1
+        },
+        "count": {
+         "type": "integer",
+         "minimum": 1
+        }
+       }
+      }
+     ],
+     "description": "How many times one taker may take the choice. Absent means 1. {per: member_unit, count}: a limit for each member unit of the Section. {per_choice, every, count}: count of this choice for every `every` times the army list takes that choice of the same page."
+    },
+    "profile": {
+     "type": [
+      "string",
+      "object"
+     ],
+     "additionalProperties": {
+      "type": "string"
+     },
+     "description": "The row that the model uses after the choice, or a map {from: to}."
+    },
+    "add_model": {
+     "oneOf": [
+      {
+       "$ref": "#/$defs/model_entry"
+      },
+      {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/model_entry"
+       }
+      }
+     ],
+     "description": "Models that the choice adds. A list adds models of several kinds (the Enforcer and Plunder; a Piranha and 2 Gun Drones)."
+    },
+    "rules": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/rule_entry"
+     }
+    },
+    "loses_rules": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/rule_entry"
+     }
+    },
+    "removes_keywords": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "unique_as": {
+     "type": "string",
+     "description": "The page id of the Unique character that the choice makes."
+    },
+    "requires": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/condition"
+     }
+    },
+    "sets": {
+     "type": "object",
+     "description": "A unit property that the choice changes: transport_capacity."
+    },
+    "options": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/option_group"
+     }
+    },
+    "unencoded": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "print_defect": {
+     "type": "string"
+    },
+    "remove_models": {
+     "oneOf": [
+      {
+       "$ref": "#/$defs/model_entry"
+      },
+      {
+       "type": "array",
+       "items": {
+        "$ref": "#/$defs/model_entry"
+       }
+      }
+     ],
+     "description": "Models that the choice removes (drones exchanged for weapons)."
+    },
+    "add_unit": {
+     "oneOf": [
+      {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "datasheet",
+        "count"
+       ],
+       "properties": {
+        "datasheet": {
+         "type": "string",
+         "description": "A roster page id."
+        },
+        "count": {
+         "type": "integer"
+        }
+       }
+      },
+      {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "datasheet",
+         "count"
+        ],
+        "properties": {
+         "datasheet": {
+          "type": "string",
+          "description": "A roster page id."
+         },
+         "count": {
+          "type": "integer"
+         }
+        }
+       }
+      }
+     ],
+     "description": "Member units that the choice adds to a Section: whole units, not models."
+    },
+    "member_points": {
+     "type": [
+      "integer",
+      "null"
+     ],
+     "description": "The cost that the page of the added member unit prints. The choice points is the price in the Section."
+    },
+    "weapon_rules": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "rule"
+      ],
+      "properties": {
+       "rule": {
+        "$ref": "#/$defs/rule_entry"
+       },
+       "weapons": {
+        "type": "array",
+        "items": {
+         "$ref": "#/$defs/kit_item"
+        }
+       },
+       "weapon_types": {
+        "type": "array",
+        "items": {
+         "enum": [
+          "Pistol",
+          "Rapid Fire",
+          "Assault",
+          "Heavy",
+          "Grenade",
+          "Melee"
+         ]
+        }
+       },
+       "if_already_held": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "rule"
+        ],
+        "properties": {
+         "rule": {
+          "$ref": "#/$defs/rule_entry"
+         }
+        }
+       }
+      },
+      "oneOf": [
+       {
+        "required": [
+         "weapons"
+        ]
+       },
+       {
+        "required": [
+         "weapon_types"
+        ]
+       }
+      ]
+     },
+     "description": "A rule on named weapons of the model."
+    },
+    "stat_mods": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "characteristic",
+       "delta"
+      ],
+      "properties": {
+       "characteristic": {
+        "type": "string"
+       },
+       "delta": {
+        "type": "integer"
+       }
+      }
+     },
+     "description": "The changes of the characteristics of the model that the choice makes (the model that takes the choice and becomes the upgrade, for example Nork Deddog)."
+    },
+    "unit_type": {
+     "type": "string",
+     "description": "The unit type of the model that takes the choice. It replaces the unit type of each item that the choice adds and of each rule that the model holds. Apply it after the item effects."
+    }
+   }
+  },
+  "model_entry": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "count"
+   ],
+   "properties": {
+    "profile": {
+     "type": "string",
+     "description": "A row of this datasheet."
+    },
+    "datasheet": {
+     "type": "string",
+     "description": "A drone page."
+    },
+    "count": {
+     "type": "integer"
+    }
+   },
+   "oneOf": [
+    {
+     "required": [
+      "profile"
+     ]
+    },
+    {
+     "required": [
+      "datasheet"
+     ]
+    }
+   ]
+  },
+  "choice_path": {
+   "oneOf": [
+    {
+     "type": "string",
+     "description": "\"<group id>/<choice id>\" of the same page."
+    },
+    {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "book_options",
+      "path"
+     ],
+     "properties": {
+      "book_options": {
+       "type": "string",
+       "pattern": "^[a-z0-9_]+$"
+      },
+      "path": {
+       "type": "string"
+      }
+     },
+     "description": "A choice of a book option list: book_options/<faction>.json, \"<group id>/<choice id>\"."
+    }
+   ]
+  }
+ }
+}

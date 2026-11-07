@@ -1,0 +1,1992 @@
+{
+ "data_version": "5b7b9ef9ae44e885",
+ "format": 1,
+ "faction": "space_marines",
+ "special_rules": [
+  {
+   "id": "codex/space_marines/special_rules/and_they_shall_know_no_fear",
+   "name": "And They Shall Know No Fear",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/and_they_shall_know_no_fear_space_marines/",
+   "text": "Space Marine units with this rule gain the following benefits:\n\n- Space Marine units automatically Rally at the start of your movement phase.\n- Space Marine units do not take any wounds when retreating from a model that performed a sweeping advance ending their sweeping advance within 3\" of the Space Marine model.\n- If a Space Marine would undertake a Fall Back Move after failing a Panic test which would cause it to move off the board, it stops 1\" away from the board edge and instead automatically rallies."
+  },
+  {
+   "id": "codex/space_marines/special_rules/combat_squads",
+   "name": "Combat Squads",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/combat_squads/",
+   "text": "During Deployment, any Space marine unit of 10 models or 6 models with this rule with this special rule can split its squad in half, becoming two separate units. The unit must be split in half rounding up and are treated as separate units from that point on."
+  },
+  {
+   "id": "codex/space_marines/special_rules/master_of_command",
+   "name": "Master of Command",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/master_of_command_space_marines/",
+   "text": "You may only field 1 model in your army with this special rule. If your army includes a model with this special rule, they must be your Warlord.",
+   "effects": {
+    "list_building": {
+     "max_units_per_army": 1,
+     "mandates_warlord": true
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/conversion",
+   "name": "Conversion",
+   "kind": "weapon",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/conversion_space_marines/",
+   "text": "If the target of this weapon is not within half of the weapons range when making an attack, the weapon gains +2 to its Strength characteristic."
+  },
+  {
+   "id": "codex/space_marines/allegiances/blood_ravens",
+   "name": "Allegiance: Blood Ravens",
+   "kind": "allegiance",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/blood_ravens/",
+   "references": [
+    "universal_special_rules/stubborn",
+    "universal_special_rules/adamantium_will"
+   ],
+   "text": "All Space Marine units change their [Chapter] keyword to Blood Ravens. All units with the Blood Ravens Keyword gain the Allegiance: Blood Ravens special rule. The Allegiance: Blood Ravens special rule consists of the following rules:\n\n- None Wanting: All Blood Ravens units in your army have the Stubborn and Adamantium Will special rules.\n- Psyker Mutation: Blood Ravens armies must include at least 1 Lieutenant model upgraded to be a Librarian.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     },
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_marines/allegiances/carcharodon",
+   "name": "Allegiance: Carcharodon",
+   "kind": "allegiance",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/carcharodon/",
+   "references": [
+    "universal_special_rules/furious_charge"
+   ],
+   "text": "All Space Marine units change their [Chapter] keyword to Carcharodon. All units with the Carcharodon Keyword gain the Allegiance: Carcharodon special rule. The Allegiance: Carcharodon special rule consists of the following rules:\n\n- Blood in the Water: Carcharodon units are considered to have Furious Charge special rules when declaring a Charge against an enemy unit that has suffered an unsaved wound or casualty.\n- Return to the Void: A Carcharodon army gains the Expendable Keyword on all units at the start of the fifth battle round."
+  },
+  {
+   "id": "codex/space_marines/allegiances/crimson_fists",
+   "name": "Allegiance: Crimson Fists",
+   "kind": "allegiance",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/crimson_fists/",
+   "text": "All Space Marine units change their [Chapter] keyword to Crimson Fists. All units with the Crimson Fists Keyword gain the Allegiance: Crimson Fists special rule. The Allegiance: Crimson Fists special rule consists of the following rules:\n\n- An army of Heroes: You may field 2 Lieutenant units in every HQ slot instead of 1.\n- Oath of Rynn's world: Crimson Fist units may not Retreat in the Movement Phase."
+  },
+  {
+   "id": "codex/space_marines/allegiances/exorcists",
+   "name": "Allegiance: Exorcists",
+   "kind": "allegiance",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/exorcists/",
+   "references": [
+    "universal_special_rules/preferred_enemy",
+    "universal_special_rules/indomitable_spirit"
+   ],
+   "text": "All Space Marine units change their [Chapter] keyword to Exorcists. All units with the Exorcists Keyword gain the Allegiance: Exorcists special rule. The Allegiance: Exorcists special rule consists of the following rules:\n\n- Orisons Occult: Exorcists units with the exception of Scout Squads and Scout Bikes gain the Preferred Enemy (Daemons) and Indomitable Spirit (5+) special rules.\n- Twelve Companies: An Exorcists army must include at least 2 units of Scout Marines or Scout Bikes."
+  },
+  {
+   "id": "codex/space_marines/allegiances/minotaur",
+   "name": "Allegiance: Minotaur",
+   "kind": "allegiance",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/minotaur/",
+   "references": [
+    "universal_special_rules/preferred_enemy"
+   ],
+   "text": "All Space Marine units change their [Chapter] keyword to Minotaur. All units with the Minotaur Keyword gain the Allegiance: Minotaur special rule. The Allegiance: Minotaur special rule consists of the following rules:\n\n- Sanctioned Fratricide: Minotaur units gain the Preferred Enemy (Space Marines/ Chaos Space Marines). Enemy units engaged in combat with a Minotaur unit may not make Retreat Moves in the Movement Phase.\n- Forever Apart: Minotaur armies may not take any Allied Detachments except for Allies from Codex – Imperial Agents.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/preferred_enemy",
+      "name": "Preferred Enemy",
+      "param": "Space Marines/Chaos Space Marines",
+      "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_marines/allegiances/raptor",
+   "name": "Allegiance: Raptor",
+   "kind": "allegiance",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/raptor/",
+   "text": "All Space Marine units change their [Chapter] keyword to Raptor. All units with the Raptor Keyword gain the Allegiance: Raptor special rule. The Allegiance: Raptor special rule consists of the following rules:\n\n- Raptor Hunt: Raptor Vanguard units gain +1 to their Ballistic Skill (BS) Characteristic. Raptor units in your army when performing a Retreat Move in the Movement Phase, move an additional 3\".\n- Solitary Hunters: A Raptor army may not use the Pride of the Chapter Rite of War."
+  },
+  {
+   "id": "codex/space_marines/allegiances/red_scorpions",
+   "name": "Allegiance: Red Scorpions",
+   "kind": "allegiance",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/red_scorpions/",
+   "text": "All Space Marine units change their [Chapter] keyword to Red Scorpions. All units with the Red Scorpions Keyword gain the Allegiance: Red Scorpions special rule. The Allegiance: Red Scorpions special rule consists of the following rules:\n\n- Purity of Purpose: All Red Scorpion Lieutenants models in your army not equipped with Scout Armour or otherwise upgraded to a Chaplain, Librarian or Tech-Marine may purchase a Narthecium for 10pts.\n- Codex Dogma: A Red Scorpions army must include 1 Captain Keyword unit and then 3 Tactical Squads, 1 Assault Marine squad and 1 Devastator or Weapon Support Squad."
+  },
+  {
+   "id": "codex/space_marines/special_rules/sub_commander",
+   "name": "Sub Commander",
+   "kind": "datasheet",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/sub_commander/",
+   "text": "You may include 2 units with this special rule for each HQ slot in your army.",
+   "effects": {
+    "list_building": {
+     "shares_hq_slot": 2
+    }
+   },
+   "print_defect": "The revised Codex: Space Marines v5.0 names this rule on datasheets but prints no rule text. The text is from the first printing of the book."
+  },
+  {
+   "id": "codex/space_marines/special_rules/armoury_relic",
+   "name": "Armoury Relic",
+   "kind": "datasheet",
+   "page": 37,
+   "url": "https://longwarindex.app/special_rules/armoury_relic/",
+   "references": [
+    "special_rules/master_crafted"
+   ],
+   "text": "A model with this upgrade can select 1 weapon that this model is equipped with when mustering your army. The chosen weapon gains the Master-Crafted special rule.",
+   "effects": {
+    "selects": {
+     "what": "own_weapon",
+     "count": 1,
+     "grants": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/chapter_master",
+   "name": "Chapter Master",
+   "kind": "datasheet",
+   "page": 37,
+   "url": "https://longwarindex.app/special_rules/chapter_master/",
+   "references": [
+    "universal_special_rules/battle_hardened",
+    "codex/space_marines/special_rules/master_of_command"
+   ],
+   "text": "A model with this upgrade gains +1 to their Weapon Skill (WS), Attacks (A), Wounds (W), and Leadership (LD) characteristic. The model is equipped with an Orbital Bombardment and gains the Battle-Hardened and Master of Command special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_hardened",
+      "name": "Battle-Hardened",
+      "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+     },
+     {
+      "rule": "codex/space_marines/special_rules/master_of_command",
+      "name": "Master of Command",
+      "url": "https://longwarindex.app/special_rules/master_of_command_space_marines/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "WS",
+      "delta": 1
+     },
+     {
+      "characteristic": "A",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     },
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ],
+    "items": [
+     {
+      "kind": "weapon",
+      "id": "orbital_bombardment"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/chaplain",
+   "name": "Chaplain",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/chaplain_space_marines/",
+   "references": [
+    "universal_special_rules/priest",
+    "universal_special_rules/stubborn",
+    "universal_special_rules/zealot"
+   ],
+   "text": "A model with this upgrade gains the Priest (1), Stubborn, and Zealot Special rules. In addition, the Chaplain exchanges their Close Combat Weapon for a Power Maul and gains a Rosarius.\n\n- The Chaplain may become Priest (2) for 10pts.\n    - Exchange their Power Armour, Bolt Pistol, Frag Grenades, Krak Grenades and Boltgun for Indomitus Terminator Armour and Storm Bolter for 10pts.\n    - Exchange their Power Armour for Phobos Armour for 10pts.\n    - Exchange their Power Armour for Gravis Armour for 5pts.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/priest",
+      "name": "Priest",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/priest/"
+     },
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     },
+     {
+      "rule": "universal_special_rules/zealot",
+      "name": "Zealot",
+      "url": "https://longwarindex.app/universal_special_rules/zealot/"
+     }
+    ],
+    "items": [
+     {
+      "kind": "wargear",
+      "id": "rosarius"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "close_combat_weapon"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "power_maul"
+       }
+      ]
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "priest_2",
+     "label": "The Chaplain may become Priest (2) for 10pts.",
+     "printed": "The Chaplain may become Priest (2) for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "priest_2",
+       "name": "Priest (2)",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/priest",
+         "name": "Priest",
+         "param": "2",
+         "url": "https://longwarindex.app/universal_special_rules/priest/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "armour",
+     "label": "The Chaplain may take one of the following exchanges:",
+     "printed": "The Chaplain may become Priest (2) for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "terminator_armour",
+       "name": "Exchange their Power Armour, Bolt Pistol, Frag Grenades, Krak Grenades and Boltgun for Indomitus Terminator Armour and Storm Bolter",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "power_armour"
+          },
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol"
+          },
+          {
+           "kind": "weapon",
+           "id": "frag_grenades"
+          },
+          {
+           "kind": "weapon",
+           "id": "krak_grenade"
+          },
+          {
+           "kind": "weapon",
+           "id": "boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "indomitus_terminator_armour"
+          },
+          {
+           "kind": "weapon",
+           "id": "storm_bolter"
+          }
+         ]
+        }
+       ],
+       "profile": {
+        "codex/space_marines/roster/lieutenant": "lieutenant_in_terminator_armour"
+       }
+      },
+      {
+       "id": "phobos_armour",
+       "name": "Exchange their Power Armour for Phobos Armour",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "power_armour"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "phobos_armour"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "gravis_armour",
+       "name": "Exchange their Power Armour for Gravis Armour",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "power_armour"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "gravis_armour"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "print_defect": "The book prints the three exchanges as nested lines under \"The Chaplain may become Priest (2) for 10pts.\" It prints no line that introduces them. This data reads this as: every Chaplain may take one of the three exchanges."
+    }
+   ]
+  },
+  {
+   "id": "codex/space_marines/special_rules/librarian",
+   "name": "Librarian",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/librarian_space_marines/",
+   "references": [
+    "universal_special_rules/psyker",
+    "universal_special_rules/adamantium_will"
+   ],
+   "text": "A model with this upgrade gains the Psyker (1) and Adamantium Will special rules.\n\n- The Librarian may exchange their Close Combat Weapon for a Force Sword, Force Axe or Force Stave for 10pts.\n- The Librarian may become Psyker (2) for 10pts.\n- The Librarian may take a Psychic Hood for 5pts.\n- The Librarian may:\n    - Exchange their Power Armour, Bolt Pistol, Frag Grenades, Krak Grenades and Boltgun for Indomitus Terminator Armour and Storm Bolter for 10pts.\n    - Exchange their Power Armour for Phobos Armour for 10pts.\n    - Exchange their Power Armour for Gravis Armour for 5pts.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/"
+     },
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "force_weapon",
+     "label": "The Librarian may exchange their Close Combat Weapon for a Force Sword, Force Axe or Force Stave for 10pts.",
+     "printed": "The Librarian may exchange their Close Combat Weapon for a Force Sword, Force Axe or Force Stave for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "force_sword",
+       "name": "Force Sword",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_sword"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "force_axe",
+       "name": "Force Axe",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_axe"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "force_stave",
+       "name": "Force Stave",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "close_combat_weapon"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_stave"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "psyker_2",
+     "label": "The Librarian may become Psyker (2) for 10pts.",
+     "printed": "The Librarian may become Psyker (2) for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "psyker_2",
+       "name": "Psyker (2)",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/psyker",
+         "name": "Psyker",
+         "param": "2",
+         "url": "https://longwarindex.app/universal_special_rules/psyker/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "psychic_hood",
+     "label": "The Librarian may take a Psychic Hood for 5pts.",
+     "printed": "The Librarian may take a Psychic Hood for 5pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "psychic_hood",
+       "name": "Psychic Hood",
+       "points": 5,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "psychic_hood"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "armour",
+     "label": "The Librarian may:",
+     "printed": "The Librarian may:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "terminator_armour",
+       "name": "Exchange their Power Armour, Bolt Pistol, Frag Grenades, Krak Grenades and Boltgun for Indomitus Terminator Armour and Storm Bolter",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "power_armour"
+          },
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol"
+          },
+          {
+           "kind": "weapon",
+           "id": "frag_grenades"
+          },
+          {
+           "kind": "weapon",
+           "id": "krak_grenade"
+          },
+          {
+           "kind": "weapon",
+           "id": "boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "indomitus_terminator_armour"
+          },
+          {
+           "kind": "weapon",
+           "id": "storm_bolter"
+          }
+         ]
+        }
+       ],
+       "profile": {
+        "codex/space_marines/roster/lieutenant": "lieutenant_in_terminator_armour"
+       }
+      },
+      {
+       "id": "phobos_armour",
+       "name": "Exchange their Power Armour for Phobos Armour",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "power_armour"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "phobos_armour"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "gravis_armour",
+       "name": "Exchange their Power Armour for Gravis Armour",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "power_armour"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "gravis_armour"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/space_marines/special_rules/reiver_commando",
+   "name": "Reiver Commando",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/reiver_commando/",
+   "references": [
+    "universal_special_rules/fear",
+    "universal_special_rules/skirmisher",
+    "universal_special_rules/scout"
+   ],
+   "text": "A model with this upgrade exchanges its Power Armour for Phobos Armour and gains Shock Grenades. The model gains the Fear (1), Skirmisher and Scout special rules.\n\n- The Reiver Commando may take a Grapplehook for 10pts.\n- The Reiver Commando may take a Grav Chute for 10pts.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     },
+     {
+      "rule": "universal_special_rules/skirmisher",
+      "name": "Skirmisher",
+      "url": "https://longwarindex.app/universal_special_rules/skirmisher/"
+     },
+     {
+      "rule": "universal_special_rules/scout",
+      "name": "Scout",
+      "url": "https://longwarindex.app/universal_special_rules/scout/"
+     }
+    ],
+    "items": [
+     {
+      "kind": "weapon",
+      "id": "shock_grenades"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "wargear",
+        "id": "power_armour"
+       }
+      ],
+      "add": [
+       {
+        "kind": "wargear",
+        "id": "phobos_armour"
+       }
+      ]
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "grapplehook",
+     "label": "The Reiver Commando may take a Grapplehook for 10pts.",
+     "printed": "The Reiver Commando may take a Grapplehook for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "grapplehook",
+       "name": "Grapplehook",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "grapple_hooks"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "grav_chute",
+     "label": "The Reiver Commando may take a Grav Chute for 10pts.",
+     "printed": "The Reiver Commando may take a Grav Chute for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "grav_chute",
+       "name": "Grav Chute",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "grav_chute"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/space_marines/special_rules/tech_marine",
+   "name": "Tech-Marine",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/tech_marine_space_marines/",
+   "references": [
+    "universal_special_rules/battle_smith",
+    "universal_special_rules/relentless",
+    "universal_special_rules/firing_protocols",
+    "universal_special_rules/slow_and_purposeful"
+   ],
+   "text": "A model with this upgrade gains the Battle Smith (1) and Relentless special rules. The Tech-Marine exchanges its Close Combat Weapon for an Omnissian Axe and Servo Arm.\n\n- The Tech-Marine may become Battle Smith (2) for 10pts.\n- The Tech-Marine may take an extra Servo Arm, Plasma Pistol, Flamer and Firing Protocols (3) special rule for 10pts.\n- The Tech-Marine may take a Thunderfire Cannon and Slow & Purposeful special rule for 20pts.\n- A Tech-Marine may:\n    - Exchange their Power Armour, Bolt Pistol, Frag Grenades, Krak Grenades and Boltgun for Indomitus Terminator Armour and Storm Bolter for 10pts.\n    - Exchange their Power Armour for Gravis Armour for 5pts.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_smith",
+      "name": "Battle Smith",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+     },
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "close_combat_weapon"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "omnissian_axe"
+       },
+       {
+        "kind": "weapon",
+        "id": "servo_arm"
+       }
+      ]
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "battle_smith_2",
+     "label": "The Tech-Marine may become Battle Smith (2) for 10pts.",
+     "printed": "The Tech-Marine may become Battle Smith (2) for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "battle_smith_2",
+       "name": "Battle Smith (2)",
+       "points": 10,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "universal_special_rules/battle_smith",
+         "name": "Battle Smith",
+         "param": "2",
+         "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "servo_harness",
+     "label": "The Tech-Marine may take an extra Servo Arm, Plasma Pistol, Flamer and Firing Protocols (3) special rule for 10pts.",
+     "printed": "The Tech-Marine may take an extra Servo Arm, Plasma Pistol, Flamer and Firing Protocols (3) special rule for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "servo_harness",
+       "name": "an extra Servo Arm, Plasma Pistol, Flamer and Firing Protocols (3) special rule",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "servo_arm"
+        },
+        {
+         "kind": "weapon",
+         "id": "plasma_pistol"
+        },
+        {
+         "kind": "weapon",
+         "id": "flamer"
+        }
+       ],
+       "rules": [
+        {
+         "rule": "universal_special_rules/firing_protocols",
+         "name": "Firing Protocols",
+         "param": "3",
+         "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "thunderfire_cannon",
+     "label": "The Tech-Marine may take a Thunderfire Cannon and Slow & Purposeful special rule for 20pts.",
+     "printed": "The Tech-Marine may take a Thunderfire Cannon and Slow & Purposeful special rule for 20pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "thunderfire_cannon",
+       "name": "a Thunderfire Cannon and Slow & Purposeful special rule",
+       "points": 20,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "thunderfire_cannon"
+        }
+       ],
+       "rules": [
+        {
+         "rule": "universal_special_rules/slow_and_purposeful",
+         "name": "Slow and Purposeful",
+         "printed": "Slow & Purposeful",
+         "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "armour",
+     "label": "A Tech-Marine may:",
+     "printed": "A Tech-Marine may:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "terminator_armour",
+       "name": "Exchange their Power Armour, Bolt Pistol, Frag Grenades, Krak Grenades and Boltgun for Indomitus Terminator Armour and Storm Bolter",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "power_armour"
+          },
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol"
+          },
+          {
+           "kind": "weapon",
+           "id": "frag_grenades"
+          },
+          {
+           "kind": "weapon",
+           "id": "krak_grenade"
+          },
+          {
+           "kind": "weapon",
+           "id": "boltgun"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "indomitus_terminator_armour"
+          },
+          {
+           "kind": "weapon",
+           "id": "storm_bolter"
+          }
+         ]
+        }
+       ],
+       "profile": {
+        "codex/space_marines/roster/lieutenant": "lieutenant_in_terminator_armour"
+       }
+      },
+      {
+       "id": "gravis_armour",
+       "name": "Exchange their Power Armour for Gravis Armour",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "power_armour"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "gravis_armour"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/space_marines/special_rules/vanguard_operator",
+   "name": "Vanguard Operator",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/vanguard_operator/",
+   "references": [
+    "special_rules/precision_hits",
+    "universal_special_rules/skirmisher"
+   ],
+   "text": "A model with this upgrade gains the Precision Hits special rule on all weapons it is equipped with. The model also exchanges its Power Armour for Phobos Armour and Camo Cloak. The model gains the Skirmisher special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/skirmisher",
+      "name": "Skirmisher",
+      "url": "https://longwarindex.app/universal_special_rules/skirmisher/"
+     }
+    ],
+    "weapon_rules": [
+     {
+      "rule": "special_rules/precision_hits",
+      "name": "Precision Hits",
+      "url": "https://longwarindex.app/special_rules/precision_hits/",
+      "weapon_types": [
+       "Pistol",
+       "Rapid Fire",
+       "Assault",
+       "Heavy",
+       "Grenade",
+       "Melee"
+      ]
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "wargear",
+        "id": "power_armour"
+       }
+      ],
+      "add": [
+       {
+        "kind": "wargear",
+        "id": "phobos_armour"
+       },
+       {
+        "kind": "wargear",
+        "id": "camo_cloaks"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/company_specialists",
+   "name": "Company Specialists",
+   "kind": "datasheet",
+   "page": 41,
+   "url": "https://longwarindex.app/special_rules/company_specialists/",
+   "references": [
+    "universal_special_rules/character"
+   ],
+   "text": "During deployment, instead of deploying this unit as 1 unit, each model in the unit may be deployed separately. Each model then counts as its own unit with the Character special rule."
+  },
+  {
+   "id": "codex/space_marines/special_rules/honour_duel",
+   "name": "Honour Duel",
+   "kind": "datasheet",
+   "page": 41,
+   "url": "https://longwarindex.app/special_rules/honour_duel_space_marines/",
+   "text": "A Champion model can issue a challenge to an engaged enemy model during the combat phase. Both must be allocated wounds from the other first before other models in the Combat."
+  },
+  {
+   "id": "codex/space_marines/special_rules/command_uplink",
+   "name": "Command Uplink",
+   "kind": "datasheet",
+   "page": 43,
+   "url": "https://longwarindex.app/special_rules/command_uplink/",
+   "text": "If this unit is alive and, on the battlefield, you have +1 to the roll to determine if a unit in reserves will arrive."
+  },
+  {
+   "id": "codex/space_marines/special_rules/tactical_interface",
+   "name": "Tactical Interface",
+   "kind": "datasheet",
+   "page": 43,
+   "url": "https://longwarindex.app/special_rules/tactical_interface/",
+   "references": [
+    "universal_special_rules/scout"
+   ],
+   "text": "At the start of the game, after deployment but before the first turn begins, you can select 2 units to gain the Scout special rule."
+  },
+  {
+   "id": "codex/space_marines/special_rules/transport_damocles_command_rhino",
+   "name": "Transport",
+   "datasheet": "Damocles Command Rhino",
+   "kind": "datasheet",
+   "page": 43,
+   "url": "https://longwarindex.app/special_rules/transport_damocles_command_rhino/",
+   "references": [
+    "universal_special_rules/bulky"
+   ],
+   "text": "May not carry models with the Bulky Special rule. May transport 6 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ],
+     "filters": [
+      {
+       "not": true,
+       "any_rules": [
+        "universal_special_rules/bulky"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/defenders_of_rynns_world",
+   "name": "Defenders of Rynns World",
+   "kind": "datasheet",
+   "page": 44,
+   "url": "https://longwarindex.app/special_rules/defenders_of_rynns_world/",
+   "references": [
+    "universal_special_rules/hatred",
+    "special_rules/sweeping"
+   ],
+   "text": "This unit and any attached unit gains the Hatred (Orks) and the Sweeping (1) special rule on all Melee weapons they are equipped with.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "param": "Orks",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     }
+    ],
+    "weapon_rules": [
+     {
+      "rule": "special_rules/sweeping",
+      "name": "Sweeping",
+      "param": "1",
+      "url": "https://longwarindex.app/special_rules/sweeping/",
+      "weapon_types": [
+       "Melee"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/to_the_last",
+   "name": "To the Last",
+   "kind": "warlord_trait",
+   "page": 44,
+   "url": "https://longwarindex.app/special_rules/to_the_last/",
+   "references": [
+    "universal_special_rules/last_stand",
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "Pedro Kantor and all friendly Crimson Fists in your army gain the Last Stand special rule while Pedro Kantor is alive and on the Battlefield. Pedro Kantor gains the Feel no Pain (5+) special rule while there are more enemy models in a combat in the Combat Phase, than friendly models.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/last_stand",
+        "name": "Last Stand",
+        "url": "https://longwarindex.app/universal_special_rules/last_stand/"
+       },
+       "quote": "Pedro Kantor and all friendly Crimson Fists in your army gain the Last Stand special rule while Pedro Kantor is alive and on the Battlefield."
+      },
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Crimson Fists"
+         ]
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/last_stand",
+        "name": "Last Stand",
+        "url": "https://longwarindex.app/universal_special_rules/last_stand/"
+       },
+       "quote": "Pedro Kantor and all friendly Crimson Fists in your army gain the Last Stand special rule while Pedro Kantor is alive and on the Battlefield."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/interred",
+   "name": "Interred",
+   "kind": "datasheet",
+   "page": 45,
+   "url": "https://longwarindex.app/special_rules/interred/",
+   "text": "This unit may be upgraded to Carab Culln, the Risen for 120pts. Use the Carab Culln, the Risen profile on the following page instead of this profile. You may not field Carab Culln, the Risen normally without his upgrade.",
+   "options": [
+    {
+     "id": "carab_culln",
+     "label": "This unit may be upgraded to Carab Culln, the Risen for 120pts.",
+     "printed": "This unit may be upgraded to Carab Culln, the Risen for 120pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "carab_culln",
+       "name": "Carab Culln, the Risen",
+       "points": 120,
+       "pricing": "flat",
+       "unique_as": "codex/space_marines/roster/carab_culln_the_risen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/space_marines/special_rules/lord_commander",
+   "name": "Lord Commander",
+   "kind": "datasheet",
+   "page": 45,
+   "url": "https://longwarindex.app/special_rules/lord_commander/",
+   "text": "This unit may be upgraded to Lord Commander for 15pts. This unit increases its Weapon Skill (WS) and Leadership (LD) characteristics by 1. This unit exchanges the Sword of Vord for the Blade of the Scorpion.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "WS",
+      "delta": 1
+     },
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "sword_of_vord"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "sword_of_the_scorpion"
+       }
+      ]
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "lord_commander",
+     "label": "This unit may be upgraded to Lord Commander for 15pts.",
+     "printed": "This unit may be upgraded to Lord Commander for 15pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "lord_commander",
+       "name": "Lord Commander",
+       "points": 15,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/space_marines/special_rules/lord_commander",
+         "name": "Lord Commander",
+         "url": "https://longwarindex.app/special_rules/lord_commander/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/space_marines/special_rules/slayer_of_witches",
+   "name": "Slayer of Witches",
+   "kind": "warlord_trait",
+   "page": 47,
+   "url": "https://longwarindex.app/special_rules/slayer_of_witches/",
+   "references": [
+    "special_rules/force",
+    "universal_special_rules/hatred",
+    "special_rules/precision_hits"
+   ],
+   "text": "Once per game, Sevrin Loth can automatically pass the Psychic Test required to activate the Force special rule. In addition, Sevrin Loth gains the Hatred (Psykers) and while engaged in a combat with a unit which contains a Psyker, gains the Precision Hits special rule on his Force Axe but must allocate all hits to a target enemy Psyker first.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/hatred",
+        "name": "Hatred",
+        "param": "Psykers",
+        "url": "https://longwarindex.app/universal_special_rules/hatred/"
+       },
+       "quote": "In addition, Sevrin Loth gains the Hatred (Psykers)"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/split_command",
+   "name": "Split Command",
+   "kind": "warlord_trait",
+   "page": 48,
+   "url": "https://longwarindex.app/special_rules/split_command/",
+   "references": [
+    "universal_special_rules/character"
+   ],
+   "text": "This unit is purchased as a single option but during deployment is deployed as two separate units. The models are treated as two separate units with the Character special rule after deployment is concluded. If this unit is not your Warlord, it still gains the benefit of this Warlord Trait. Additionally, your Warlord does not count as being slain unless both models in this unit are slain and removed from play."
+  },
+  {
+   "id": "codex/space_marines/special_rules/into_the_fray",
+   "name": "Into the Fray",
+   "kind": "warlord_trait",
+   "page": 49,
+   "url": "https://longwarindex.app/special_rules/into_the_fray/",
+   "references": [
+    "universal_special_rules/hammer_of_wrath",
+    "universal_special_rules/hatred"
+   ],
+   "text": "Asterion Moloc gains the Hammer of Wrath (1) special rule. In addition, Asterion Moloc and all Minotaurs units gain the Hatred (Space Marines/Chaos Space Marines) special rule while Asterion is alive and on the Battlefield.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/hammer_of_wrath",
+        "name": "Hammer of Wrath",
+        "param": "1",
+        "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+       },
+       "quote": "Asterion Moloc gains the Hammer of Wrath (1) special rule."
+      },
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/hatred",
+        "name": "Hatred",
+        "param": "Space Marines/Chaos Space Marines",
+        "url": "https://longwarindex.app/universal_special_rules/hatred/"
+       },
+       "quote": "In addition, Asterion Moloc and all Minotaurs units gain the Hatred (Space Marines/Chaos Space Marines) special rule while Asterion is alive and on the Battlefield."
+      },
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Minotaurs"
+         ]
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/hatred",
+        "name": "Hatred",
+        "param": "Space Marines/Chaos Space Marines",
+        "url": "https://longwarindex.app/universal_special_rules/hatred/"
+       },
+       "quote": "In addition, Asterion Moloc and all Minotaurs units gain the Hatred (Space Marines/Chaos Space Marines) special rule while Asterion is alive and on the Battlefield."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/the_grim",
+   "name": "The Grim",
+   "kind": "warlord_trait",
+   "page": 50,
+   "url": "https://longwarindex.app/special_rules/the_grim/",
+   "text": "After deployment is concluded, any Infiltrator units have been placed down, if Lias Issodon is your warlord, you may redeploy up to 3 units in your army as if it were your deployment step. In addition, Lias Issodon may always Overwatch, even if his attached unit did not set to Overwatch."
+  },
+  {
+   "id": "codex/space_marines/special_rules/the_reaving",
+   "name": "The Reaving",
+   "kind": "warlord_trait",
+   "page": 51,
+   "url": "https://longwarindex.app/special_rules/the_reaving/",
+   "references": [
+    "universal_special_rules/frenzy"
+   ],
+   "text": "Once per game, if Tyberos the Red Wake is your Warlord, all Carcharodon units in your army gain the Frenzy special rule until the end of the battle."
+  },
+  {
+   "id": "codex/space_marines/special_rules/retribution",
+   "name": "Retribution",
+   "kind": "warlord_trait",
+   "page": 52,
+   "url": "https://longwarindex.app/special_rules/retribution/",
+   "text": "When this model is slain, before it is removed from play, all enemy units within 3\" take 4 automatic Strength 8 hits at AP2."
+  },
+  {
+   "id": "codex/space_marines/special_rules/keeper_of_vigils",
+   "name": "Keeper of Vigils",
+   "kind": "warlord_trait",
+   "page": 53,
+   "url": "https://longwarindex.app/special_rules/keeper_of_vigils/",
+   "references": [
+    "universal_special_rules/hatred"
+   ],
+   "text": "If this unit is your Warlord, all Exorcists units in your army gain the Hatred (Psykers) special rule.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Exorcists"
+         ]
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/hatred",
+        "name": "Hatred",
+        "param": "Psykers",
+        "url": "https://longwarindex.app/universal_special_rules/hatred/"
+       },
+       "quote": "If this unit is your Warlord, all Exorcists units in your army gain the Hatred (Psykers) special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/venerable",
+   "name": "Venerable",
+   "kind": "datasheet",
+   "page": 65,
+   "url": "https://longwarindex.app/special_rules/venerable/",
+   "references": [
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "This model gains +1 to its Ballistic Skill (BS) and Weapon Skill (WS) characteristics. In addition, this model gains the Feel no Pain (6+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "6+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "BS",
+      "delta": 1
+     },
+     {
+      "characteristic": "WS",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/pilot_backlash",
+   "name": "Pilot Backlash",
+   "kind": "datasheet",
+   "page": 67,
+   "url": "https://longwarindex.app/special_rules/pilot_backlash/",
+   "references": [
+    "universal_special_rules/furious_charge"
+   ],
+   "text": "Once per game, this unit may take 1 automatic wound with no saves allowed. The unit gains +1 Initiative (I) and Furious Charge until the start of your next turn."
+  },
+  {
+   "id": "codex/space_marines/special_rules/reliable_machine_spirit",
+   "name": "Reliable Machine Spirit",
+   "kind": "datasheet",
+   "page": 69,
+   "url": "https://longwarindex.app/special_rules/reliable_machine_spirit_space_marines/",
+   "text": "When a unit with this special rule would be destroyed. Embarked units are not required to roll for models inside being slain (see Rule 10.2 in the core rules)."
+  },
+  {
+   "id": "codex/space_marines/special_rules/transport_rhino_apc",
+   "name": "Transport",
+   "datasheet": "Rhino APC",
+   "kind": "datasheet",
+   "page": 69,
+   "url": "https://longwarindex.app/special_rules/transport_rhino_apc_space_marines/",
+   "references": [
+    "universal_special_rules/bulky"
+   ],
+   "text": "This unit can transport 11 Infantry models. It may not transport models with the Bulky (x) special rule.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 11,
+     "unit_types": [
+      "Infantry"
+     ],
+     "filters": [
+      {
+       "not": true,
+       "any_rules": [
+        "universal_special_rules/bulky"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/transport_razorback_ifv",
+   "name": "Transport",
+   "datasheet": "Razorback IFV",
+   "kind": "datasheet",
+   "page": 70,
+   "url": "https://longwarindex.app/special_rules/transport_razorback_ifv_space_marines/",
+   "references": [
+    "universal_special_rules/bulky"
+   ],
+   "text": "This unit can transport 6 Infantry models. It may not transport models with the Bulky (x) special rule.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ],
+     "filters": [
+      {
+       "not": true,
+       "any_rules": [
+        "universal_special_rules/bulky"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/transport_land_speeder_storm",
+   "name": "Transport",
+   "datasheet": "Land Speeder Storm",
+   "kind": "datasheet",
+   "page": 71,
+   "url": "https://longwarindex.app/special_rules/transport_land_speeder_storm/",
+   "text": "This unit can transport 6 Infantry models. It may only transport models in Scout Armour.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ],
+     "filters": [
+      {
+       "wargear": [
+        {
+         "kind": "wargear",
+         "id": "scout_armour"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/death_storm",
+   "name": "Death Storm",
+   "kind": "datasheet",
+   "page": 72,
+   "url": "https://longwarindex.app/special_rules/death_storm/",
+   "references": [
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "A Drop Pod upgraded to a Deathstorm Drop Pod inflicts D6 automatic Strength 6, AP3 hits on all visible units within 6\" after it has resolved its Deep Strike and been placed on the field."
+  },
+  {
+   "id": "codex/space_marines/special_rules/drop_pod_assault_drop_pod",
+   "name": "Drop Pod Assault",
+   "datasheet": "Drop Pod",
+   "kind": "datasheet",
+   "page": 72,
+   "url": "https://longwarindex.app/special_rules/drop_pod_assault_drop_pod/",
+   "references": [
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "Up to half the number of Drop Pods in your army can be deployed during the first turn. When arriving from Deep Strike, Drop Pods never scatter. A unit embarked on a Drop Pod must disembark the turn a Drop Pod arrives. A Drop Pod may not be garrisoned after it has arrived on the Battlefield."
+  },
+  {
+   "id": "codex/space_marines/special_rules/transport_drop_pod",
+   "name": "Transport",
+   "datasheet": "Drop Pod",
+   "kind": "datasheet",
+   "page": 72,
+   "url": "https://longwarindex.app/special_rules/transport_drop_pod/",
+   "text": "This unit can transport 10 Infantry models. It cannot Transport models in Terminator Armour (any kind) or Gravis Armour.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 10,
+     "unit_types": [
+      "Infantry"
+     ],
+     "filters": [
+      {
+       "not": true,
+       "wargear": [
+        {
+         "kind": "wargear",
+         "id": "indomitus_terminator_armour"
+        }
+       ]
+      },
+      {
+       "not": true,
+       "wargear": [
+        {
+         "kind": "wargear",
+         "id": "cataphractii_terminator_armour"
+        }
+       ]
+      },
+      {
+       "not": true,
+       "wargear": [
+        {
+         "kind": "wargear",
+         "id": "tartaros_terminator_armour"
+        }
+       ]
+      },
+      {
+       "not": true,
+       "wargear": [
+        {
+         "kind": "wargear",
+         "id": "gravis_armour"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/orbital_array",
+   "name": "Orbital Array",
+   "kind": "datasheet",
+   "page": 73,
+   "url": "https://longwarindex.app/special_rules/orbital_array/",
+   "text": "This unit is equipped with the Orbital bombardment weapon.",
+   "effects": {
+    "items": [
+     {
+      "kind": "weapon",
+      "id": "orbital_bombardment"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/shield_dome",
+   "name": "Shield Dome",
+   "kind": "datasheet",
+   "page": 73,
+   "url": "https://longwarindex.app/special_rules/shield_dome/",
+   "text": "This unit has a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/transport_impulsor",
+   "name": "Transport",
+   "datasheet": "Impulsor",
+   "kind": "datasheet",
+   "page": 73,
+   "url": "https://longwarindex.app/special_rules/transport_impulsor/",
+   "references": [
+    "universal_special_rules/bulky"
+   ],
+   "text": "This unit can transport 6 Space Marine Infantry models. It cannot Transport models with the Bulky (x) special rule.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ],
+     "filters": [
+      {
+       "keywords": [
+        "Space Marine"
+       ]
+      },
+      {
+       "not": true,
+       "any_rules": [
+        "universal_special_rules/bulky"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/air_intercept",
+   "name": "Air Intercept",
+   "kind": "datasheet",
+   "page": 74,
+   "url": "https://longwarindex.app/special_rules/air_intercept/",
+   "references": [
+    "special_rules/skyfire"
+   ],
+   "text": "This units weapons count as having the Skyfire special rule.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/skyfire",
+      "name": "Skyfire",
+      "url": "https://longwarindex.app/special_rules/skyfire/",
+      "weapon_types": [
+       "Pistol",
+       "Rapid Fire",
+       "Assault",
+       "Heavy",
+       "Grenade",
+       "Melee"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/machine_spirit",
+   "name": "Machine Spirit",
+   "kind": "datasheet",
+   "page": 76,
+   "url": "https://longwarindex.app/special_rules/machine_spirit_space_marines/",
+   "text": "This unit may always set to Overwatch, even if it made a shooting attack in the Shooting phase."
+  },
+  {
+   "id": "codex/space_marines/special_rules/transport_stormraven_gunship",
+   "name": "Transport",
+   "datasheet": "Stormraven Gunship",
+   "kind": "datasheet",
+   "page": 76,
+   "url": "https://longwarindex.app/special_rules/transport_stormraven_gunship_space_marines/",
+   "text": "This model can transport 10 Infantry models. It may also Transport 1 Dreadnought model.",
+   "effects": {
+    "transport_capacity": {
+     "type": "per_unit_type",
+     "limits": [
+      {
+       "n": 10,
+       "unit_types": [
+        "Infantry"
+       ]
+      },
+      {
+       "n": 1,
+       "filters": [
+        {
+         "keywords": [
+          "Dreadnought"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/transport_storm_eagle_gunship",
+   "name": "Transport",
+   "datasheet": "Storm Eagle Gunship",
+   "kind": "datasheet",
+   "page": 77,
+   "url": "https://longwarindex.app/special_rules/transport_storm_eagle_gunship/",
+   "text": "This model can transport 22 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 22,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/haywire_mine_plant",
+   "name": "Haywire Mine Plant",
+   "kind": "datasheet",
+   "page": 83,
+   "url": "https://longwarindex.app/special_rules/haywire_mine_plant/",
+   "text": "Instead of Setting to Overwatch, this unit may set to plant a Haywire Mine. After setting to plant mines, place a single Mine Marker within 3\" of the unit. Any enemy vehicle which begins or ends its Movement Phase within 6\" of the Mine Marker takes 1 automatic Penetrating Hit with no AP."
+  },
+  {
+   "id": "codex/space_marines/special_rules/machine_spirit_land_raider",
+   "name": "Machine Spirit",
+   "datasheet": "Land Raider",
+   "kind": "datasheet",
+   "page": 101,
+   "url": "https://longwarindex.app/special_rules/machine_spirit_land_raider_space_marines/",
+   "text": "This unit may always set to Overwatch, even if it made a shooting attack in the Shooting phase. However, it may only perform the attack with one weapon it is equipped with if it did so."
+  },
+  {
+   "id": "codex/space_marines/special_rules/transport_land_raider",
+   "name": "Transport",
+   "datasheet": "Land Raider",
+   "kind": "datasheet",
+   "page": 101,
+   "url": "https://longwarindex.app/special_rules/transport_land_raider_space_marines/",
+   "text": "This model can transport 10 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 10,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/transport_land_raider_redeemer",
+   "name": "Transport",
+   "datasheet": "Land Raider Redeemer",
+   "kind": "datasheet",
+   "page": 102,
+   "url": "https://longwarindex.app/special_rules/transport_land_raider_redeemer_space_marines/",
+   "text": "This model can transport 12 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/transport_land_raider_crusader",
+   "name": "Transport",
+   "datasheet": "Land Raider Crusader",
+   "kind": "datasheet",
+   "page": 103,
+   "url": "https://longwarindex.app/special_rules/transport_land_raider_crusader_space_marines/",
+   "text": "This model can transport 16 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 16,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/transport_repulsor_executioner",
+   "name": "Transport",
+   "datasheet": "Repulsor Executioner",
+   "kind": "datasheet",
+   "page": 105,
+   "url": "https://longwarindex.app/special_rules/transport_repulsor_executioner/",
+   "text": "This model can transport 6 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/transport_spartan_assault_tank",
+   "name": "Transport",
+   "datasheet": "Spartan Assault Tank",
+   "kind": "datasheet",
+   "page": 112,
+   "url": "https://longwarindex.app/special_rules/transport_spartan_assault_tank_space_marines/",
+   "text": "This model can transport 25 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 25,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/transport_mastodon",
+   "name": "Transport",
+   "datasheet": "Mastodon",
+   "kind": "datasheet",
+   "page": 117,
+   "url": "https://longwarindex.app/special_rules/transport_mastodon_space_marines/",
+   "text": "This model can transport 40 Infantry models or 4 Walker models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "alternatives",
+     "options": [
+      {
+       "n": 40,
+       "unit_types": [
+        "Infantry"
+       ]
+      },
+      {
+       "n": 4,
+       "unit_types": [
+        "Walker"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/space_marines/special_rules/transport_thunderhawk_gunship",
+   "name": "Transport",
+   "datasheet": "Thunderhawk Gunship",
+   "kind": "datasheet",
+   "page": 119,
+   "url": "https://longwarindex.app/special_rules/transport_thunderhawk_gunship_space_marines/",
+   "text": "This model can transport 30 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 30,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  }
+ ]
+}

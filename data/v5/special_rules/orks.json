@@ -1,0 +1,1125 @@
+{
+ "data_version": "c6731b6f55841033",
+ "format": 1,
+ "faction": "orks",
+ "special_rules": [
+  {
+   "id": "codex/orks/special_rules/beast_snagga",
+   "name": "Beast Snagga",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/beast_snagga/",
+   "references": [
+    "universal_special_rules/monster_hunter",
+    "universal_special_rules/preferred_enemy"
+   ],
+   "text": "Ork units in your army with this special rule have the Monster Hunter and Preferred Enemy (Beast) special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/monster_hunter",
+      "name": "Monster Hunter",
+      "url": "https://longwarindex.app/universal_special_rules/monster_hunter/"
+     },
+     {
+      "rule": "universal_special_rules/preferred_enemy",
+      "name": "Preferred Enemy",
+      "param": "Beast",
+      "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/beast_snagga_boyz",
+   "name": "Beast Snagga Boyz",
+   "kind": "datasheet",
+   "page": 50,
+   "url": "https://longwarindex.app/special_rules/beast_snagga_boyz/",
+   "references": [
+    "codex/orks/special_rules/beast_snagga"
+   ],
+   "text": "A unit with this upgrade gains the Beast Snagga special rule (see core rules).",
+   "effects": {
+    "rules": [
+     {
+      "rule": "codex/orks/special_rules/beast_snagga",
+      "name": "Beast Snagga",
+      "url": "https://longwarindex.app/special_rules/beast_snagga/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/big_mek",
+   "name": "Big Mek",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/big_mek/",
+   "references": [
+    "universal_special_rules/battle_smith",
+    "universal_special_rules/relentless"
+   ],
+   "text": "A model with this upgrade gains the Battle Smith (1) and Relentless special rules. They gain the Mek Keyword.\n\n- A model with this upgrade may take one of the following:\n    - A Kustom Force Field (+15pts)\n    - A Tellyporta Blaster (+20pts)\n    - A Shokk Attack Gun if it is not equipped with Mega Armour (+20pts)\n    - A Kustom Mega Kannon (+15pts)\n    - A Tracktor Kannon (+10pts)\n    - A Dakkarig (+50pts)\n- A Big Mek may take a Shokk-Boosta (+10pts)",
+   "effects": {
+    "keywords": [
+     "Mek"
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/battle_smith",
+      "name": "Battle Smith",
+      "param": "1",
+      "printed": "Battle-Smith (1)",
+      "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+     },
+     {
+      "rule": "universal_special_rules/relentless",
+      "name": "Relentless",
+      "url": "https://longwarindex.app/universal_special_rules/relentless/"
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "equipment",
+     "label": "A model with this upgrade may take one of the following:",
+     "printed": "A model with this upgrade may take one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "kustom_force_field",
+       "name": "Kustom Force Field",
+       "points": 15,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "kustom_force_field"
+        }
+       ]
+      },
+      {
+       "id": "tellyporta_blasta",
+       "name": "Tellyporta Blaster",
+       "points": 20,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "tellyporta_blasta"
+        }
+       ]
+      },
+      {
+       "id": "shokk_attack_gun",
+       "name": "Shokk Attack Gun",
+       "points": 20,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "shokk_attack_gun"
+        }
+       ],
+       "requires": [
+        {
+         "lacks": [
+          {
+           "kind": "wargear",
+           "id": "mega_armour"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "kustom_mega_kannon",
+       "name": "Kustom Mega Kannon",
+       "points": 15,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "kustom_mega_kannon"
+        }
+       ]
+      },
+      {
+       "id": "tracktor_kannon",
+       "name": "Tracktor Kannon",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "weapon",
+         "id": "tracktor_kannon"
+        }
+       ]
+      },
+      {
+       "id": "dakkarig",
+       "name": "Dakkarig",
+       "points": 50,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "dakkarig"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shokk_boosta",
+     "label": "A Big Mek may take a Shokk-Boosta (+10pts)",
+     "printed": "A Big Mek may take a Shokk-Boosta (+10pts)",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "shokk_boosta",
+       "name": "Shokk-Boosta",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "shokk_boosta"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/orks/special_rules/breaking_heads",
+   "name": "Breaking Heads",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/breaking_heads/",
+   "references": [
+    "special_rules/pinning"
+   ],
+   "text": "When an Ork unit with this special rule or any attached special rule would fail a Pinning or Panic test, you can inflict D3 wounds on the unit that failed the test. Saves may be taken against these wounds as normal (Armour & Invulnerable saves only). The unit is then considered to have passed the test."
+  },
+  {
+   "id": "codex/orks/special_rules/bubble",
+   "name": "Bubble",
+   "kind": "weapon",
+   "page": 13,
+   "url": "https://longwarindex.app/special_rules/bubble/",
+   "text": "When rolling to wound or penetrate with this weapon, this weapons Strength (S) characteristic is equal to the Targets Strength (S) characteristic. This Weapons AP is equal to the targets Armour Save."
+  },
+  {
+   "id": "codex/orks/special_rules/buzzgobs_dread_heads",
+   "name": "Buzzgobs Dread Heads",
+   "kind": "datasheet",
+   "page": 41,
+   "url": "https://longwarindex.app/special_rules/buzzgobs_dread_heads/",
+   "text": "If your army includes a model with this special rule, you may include one Killa Kan or Deff Dread unit in your army without taking up a Force Organization Slot.",
+   "effects": {
+    "list_building": {
+     "unslotted": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/orks/roster/killa_kans"
+         },
+         {
+          "datasheet": "codex/orks/roster/deff_dread"
+         }
+        ]
+       }
+      ],
+      "count": 1
+     }
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/da_biggest_and_da_strongest",
+   "name": "Da Biggest and Da Strongest",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/da_biggest_and_da_strongest/",
+   "text": "Your army may only include 1 unit with the Big Boss keyword.",
+   "effects": {
+    "list_building": {
+     "max_units_per_army": 1
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/da_red_gobbo_shall_return",
+   "name": "Da Red Gobbo Shall Return!",
+   "kind": "datasheet",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/da_red_gobbo_shall_return/",
+   "text": "When Da Red Gobbo is slain, select a single Grot model in a friendly Gretchin Mob unit you control. The Selected model is slain and a new Da Red Gobbo model is placed within 1\" of the slain model before it is removed from play. The new Da Red Gobbo may be elected to be Attached to a nearby eligible unit."
+  },
+  {
+   "id": "codex/orks/special_rules/dare_devil_leadership",
+   "name": "Dare Devil Leadership",
+   "kind": "warlord_trait",
+   "page": 44,
+   "url": "https://longwarindex.app/special_rules/dare_devil_leadership/",
+   "references": [
+    "universal_special_rules/move_through_cover"
+   ],
+   "text": "If this unit is your Warlord, this unit and any attached unit gain the Move Through Cover special rule.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/move_through_cover",
+        "name": "Move Through Cover",
+        "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+       },
+       "quote": "If this unit is your Warlord, this unit and any attached unit gain the Move Through Cover special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/dread_builder",
+   "name": "Dread Builder",
+   "kind": "warlord_trait",
+   "page": 41,
+   "url": "https://longwarindex.app/special_rules/dread_builder/",
+   "references": [
+    "special_rules/master_crafted"
+   ],
+   "text": "If this unit is Warlord, select a single Walker or Titan type unit in your army to be his latest custom job. The selected unit gains the Master-Crafted special rule on all weapons it is equipped with."
+  },
+  {
+   "id": "codex/orks/special_rules/drill_boss",
+   "name": "Drill Boss",
+   "kind": "warlord_trait",
+   "page": 42,
+   "url": "https://longwarindex.app/special_rules/drill_boss/",
+   "references": [
+    "universal_special_rules/sudden_strike",
+    "universal_special_rules/stubborn"
+   ],
+   "text": "If this unit is Warlord, all Storm Boyz units in your primary Detachment gain the Sudden Strike and Stubborn special rules.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Storm Boyz"
+         ],
+         "detachment": "primary"
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/sudden_strike",
+        "name": "Sudden Strike",
+        "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+       },
+       "quote": "If this unit is Warlord, all Storm Boyz units in your primary Detachment gain the Sudden Strike and Stubborn special rules."
+      },
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Storm Boyz"
+         ],
+         "detachment": "primary"
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/stubborn",
+        "name": "Stubborn",
+        "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+       },
+       "quote": "If this unit is Warlord, all Storm Boyz units in your primary Detachment gain the Sudden Strike and Stubborn special rules."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/flashiest_git",
+   "name": "Flashiest Git",
+   "kind": "warlord_trait",
+   "page": 28,
+   "url": "https://longwarindex.app/special_rules/flashiest_git/",
+   "text": "Once per game, a model with this warlord trait may treat its Da Ripper weapon as an Assault 9 weapon until the end of the Phase."
+  },
+  {
+   "id": "codex/orks/special_rules/gargantuan",
+   "name": "Gargantuan",
+   "kind": "datasheet",
+   "page": 85,
+   "url": "https://longwarindex.app/special_rules/gargantuan_orks/",
+   "references": [
+    "special_rules/force"
+   ],
+   "text": "When this unit would suffer an Instant Death Wound as a result of a weapon with the Force special rule, it suffers 3 wounds instead of standard Instant Death."
+  },
+  {
+   "id": "codex/orks/special_rules/gargantuan_stampede",
+   "name": "Gargantuan Stampede",
+   "kind": "datasheet",
+   "page": 85,
+   "url": "https://longwarindex.app/special_rules/gargantuan_stampede/",
+   "text": "At Initiative step 0 of a Combat that this unit is engaged in, this unit can make D6+3 attacks. These attacks are resolved as normal, including hit, wound, penetration and save rolls. These attacks are resolved at Strength 8, AP3."
+  },
+  {
+   "id": "codex/orks/special_rules/garrison",
+   "name": "Garrison",
+   "kind": "datasheet",
+   "page": 86,
+   "url": "https://longwarindex.app/special_rules/garrison_orks/",
+   "text": "Up to 10 Infantry models may embark in this fortification. Embarked Infantry models in this fortification can shoot and Fight in the shooting Phase and Combat Phase while embarked in this fortification as normal. All measurement and line of sight is measured from the fortifications hull.",
+   "effects": {
+    "garrison_capacity": {
+     "n": 10,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/gretchin_elite",
+   "name": "Gretchin Elite",
+   "kind": "warlord_trait",
+   "page": 46,
+   "url": "https://longwarindex.app/special_rules/gretchin_elite/",
+   "text": "If your army includes a model with this Warlord Trait, all Gretchin Mob, Killa Kan, Grot Tanks and Grot Mega Tank units in your army gain +1 to the Weapon Skill (WS) and Ballistic Skill (BS).",
+   "effects": {
+    "while_warlord": {
+     "stat_grants": [
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Gretchin Mob"
+         ]
+        }
+       ],
+       "characteristic": "WS",
+       "delta": 1,
+       "quote": "If your army includes a model with this Warlord Trait, all Gretchin Mob, Killa Kan, Grot Tanks and Grot Mega Tank units in your army gain +1 to the Weapon Skill (WS) and Ballistic Skill (BS)."
+      },
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Gretchin Mob"
+         ]
+        }
+       ],
+       "characteristic": "BS",
+       "delta": 1,
+       "quote": "If your army includes a model with this Warlord Trait, all Gretchin Mob, Killa Kan, Grot Tanks and Grot Mega Tank units in your army gain +1 to the Weapon Skill (WS) and Ballistic Skill (BS)."
+      },
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Killa Kans"
+         ]
+        }
+       ],
+       "characteristic": "WS",
+       "delta": 1,
+       "quote": "If your army includes a model with this Warlord Trait, all Gretchin Mob, Killa Kan, Grot Tanks and Grot Mega Tank units in your army gain +1 to the Weapon Skill (WS) and Ballistic Skill (BS)."
+      },
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Killa Kans"
+         ]
+        }
+       ],
+       "characteristic": "BS",
+       "delta": 1,
+       "quote": "If your army includes a model with this Warlord Trait, all Gretchin Mob, Killa Kan, Grot Tanks and Grot Mega Tank units in your army gain +1 to the Weapon Skill (WS) and Ballistic Skill (BS)."
+      },
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Grot Tank"
+         ]
+        }
+       ],
+       "characteristic": "WS",
+       "delta": 1,
+       "quote": "If your army includes a model with this Warlord Trait, all Gretchin Mob, Killa Kan, Grot Tanks and Grot Mega Tank units in your army gain +1 to the Weapon Skill (WS) and Ballistic Skill (BS)."
+      },
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Grot Tank"
+         ]
+        }
+       ],
+       "characteristic": "BS",
+       "delta": 1,
+       "quote": "If your army includes a model with this Warlord Trait, all Gretchin Mob, Killa Kan, Grot Tanks and Grot Mega Tank units in your army gain +1 to the Weapon Skill (WS) and Ballistic Skill (BS)."
+      },
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Grot Mega Tank"
+         ]
+        }
+       ],
+       "characteristic": "WS",
+       "delta": 1,
+       "quote": "If your army includes a model with this Warlord Trait, all Gretchin Mob, Killa Kan, Grot Tanks and Grot Mega Tank units in your army gain +1 to the Weapon Skill (WS) and Ballistic Skill (BS)."
+      },
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Grot Mega Tank"
+         ]
+        }
+       ],
+       "characteristic": "BS",
+       "delta": 1,
+       "quote": "If your army includes a model with this Warlord Trait, all Gretchin Mob, Killa Kan, Grot Tanks and Grot Mega Tank units in your army gain +1 to the Weapon Skill (WS) and Ballistic Skill (BS)."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/grot_mob",
+   "name": "Grot Mob",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/grot_mob/",
+   "text": "Units with this special rule never count for Victory Points when slain or wrecked."
+  },
+  {
+   "id": "codex/orks/special_rules/hero_of_the_grot_revolushun_kommitte",
+   "name": "Hero of the Grot Revolushun Kommitte",
+   "kind": "datasheet",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/hero_of_the_grot_revolushun_kommitte/",
+   "references": [
+    "codex/orks/special_rules/grot_mob",
+    "universal_special_rules/zealot",
+    "universal_special_rules/furious_charge"
+   ],
+   "text": "Any attached unit with the Grot Mob Special rule gains the Zealot and Furious Charge special rules."
+  },
+  {
+   "id": "codex/orks/special_rules/intimidating_motivation",
+   "name": "Intimidating Motivation",
+   "kind": "warlord_trait",
+   "page": 47,
+   "url": "https://longwarindex.app/special_rules/intimidating_motivation/",
+   "text": "Once per turn, when an Ork unit fails a Pinning or Panic test, it can be selected as a target for this ability. The selected Ork unit immediately passes the test."
+  },
+  {
+   "id": "codex/orks/special_rules/mob_leader",
+   "name": "Mob Leader",
+   "kind": "datasheet",
+   "page": 40,
+   "url": "https://longwarindex.app/special_rules/mob_leader/",
+   "references": [
+    "universal_special_rules/character"
+   ],
+   "text": "The Grot Tank Kommander may join other units of Grot Tanks as a Character even though the Grot Tank Kommander is a Vehicle type unit."
+  },
+  {
+   "id": "codex/orks/special_rules/pain_boss",
+   "name": "Pain Boss",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/pain_boss/",
+   "text": "A model with this upgrade exchanges their He'avy Armour, Big Choppa and Kustom Shoota for Power Klaw, Scrap Armour, Slugga and Fightin Juice.",
+   "effects": {
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "wargear",
+        "id": "heavy_armour"
+       },
+       {
+        "kind": "weapon",
+        "id": "big_choppa"
+       },
+       {
+        "kind": "weapon",
+        "id": "kustom_shoota"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "power_klaw"
+       },
+       {
+        "kind": "wargear",
+        "id": "scrap_armour"
+       },
+       {
+        "kind": "weapon",
+        "id": "slugga"
+       },
+       {
+        "kind": "wargear",
+        "id": "fightin_juice"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/prophet_of_gork_and_mork",
+   "name": "Prophet of Gork & Mork",
+   "kind": "warlord_trait",
+   "page": 49,
+   "url": "https://longwarindex.app/special_rules/prophet_of_gork_and_mork/",
+   "text": "Friendly Ork units that can draw visibility to this unit may use this units Leadership (LD) characteristic. While This unit is alive and, on the Battlefield, all Goff units in your army re-roll all to hit rolls in the Combat Phase."
+  },
+  {
+   "id": "codex/orks/special_rules/red_skull_kommandos",
+   "name": "Red Skull Kommandos",
+   "kind": "warlord_trait",
+   "page": 43,
+   "url": "https://longwarindex.app/special_rules/red_skull_kommandos/",
+   "references": [
+    "universal_special_rules/preferred_enemy"
+   ],
+   "text": "If this unit is your Warlord, all Kommando units in your primary Detachment gains the Preferred Enemy (Infantry) Special Rule.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Kommandos"
+         ],
+         "detachment": "primary"
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/preferred_enemy",
+        "name": "Preferred Enemy",
+        "param": "Infantry",
+        "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+       },
+       "quote": "If this unit is your Warlord, all Kommando units in your primary Detachment gains the Preferred Enemy (Infantry) Special Rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/skar_boyz",
+   "name": "Skar Boyz",
+   "kind": "datasheet",
+   "page": 50,
+   "url": "https://longwarindex.app/special_rules/skar_boyz/",
+   "text": "A unit with this upgrade increases the Strength (S) characteristic of all Boyz models in the unit by +1.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "S",
+      "delta": 1
+     }
+    ],
+    "while_unit_has_profile": "Boyz"
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/stampede",
+   "name": "Stampede",
+   "kind": "datasheet",
+   "page": 79,
+   "url": "https://longwarindex.app/special_rules/stampede/",
+   "text": "At Initiative step 0 of a Combat that this unit is engaged in, this unit can make D3+3 attacks. These attacks are resolved as normal, including hit, wound, penetration and save rolls. These attacks are resolved at Strength 6, AP3."
+  },
+  {
+   "id": "codex/orks/special_rules/super_turbo",
+   "name": "Super Turbo",
+   "kind": "datasheet",
+   "page": 48,
+   "url": "https://longwarindex.app/special_rules/super_turbo/",
+   "text": "Once per game, you can triple your Movement (M) characteristic of this model the start of your next Movement Phase."
+  },
+  {
+   "id": "codex/orks/special_rules/tellyported",
+   "name": "Tellyported",
+   "kind": "weapon",
+   "page": 13,
+   "url": "https://longwarindex.app/special_rules/tellyported/",
+   "text": "When a unit is hit by this weapon, after resolving all wounds, the unit is removed from the board and placed back down anywhere on the board, more than 3\" away from any enemy models."
+  },
+  {
+   "id": "codex/orks/special_rules/trackta_beam",
+   "name": "Trackta Beam",
+   "kind": "weapon",
+   "page": 13,
+   "url": "https://longwarindex.app/special_rules/trackta_beam/",
+   "text": "Instead of rolling to hit, after you have selected a target for this weapon, you may move that target unit anywhere on the board up to the target units Initiative (I) characteristic. After completing this move, the target must make a Dangerous Terrain test. Aircraft type units targeted by this weapon take an automatic Penetrating hit. The Penetrating hit is resolved with +2 to the dice roll on the vehicle damage chart."
+  },
+  {
+   "id": "codex/orks/special_rules/transport_battlewagon",
+   "name": "Transport",
+   "datasheet": "Battlewagon",
+   "kind": "datasheet",
+   "page": 68,
+   "url": "https://longwarindex.app/special_rules/transport_battlewagon/",
+   "text": "This model can transport 22 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 22,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/transport_big_trukk",
+   "name": "Transport",
+   "datasheet": "Big Trukk",
+   "kind": "datasheet",
+   "page": 66,
+   "url": "https://longwarindex.app/special_rules/transport_big_trukk/",
+   "text": "This model can transport 16 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 16,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/transport_chinork",
+   "name": "Transport",
+   "datasheet": "Chinork",
+   "kind": "datasheet",
+   "page": 67,
+   "url": "https://longwarindex.app/special_rules/transport_chinork/",
+   "text": "This unit can transport 12 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/transport_gargantuan_squiggoth",
+   "name": "Transport",
+   "datasheet": "Gargantuan Squiggoth",
+   "kind": "datasheet",
+   "page": 85,
+   "url": "https://longwarindex.app/special_rules/transport_gargantuan_squiggoth/",
+   "text": "This unit can transport 20 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 20,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/transport_gork_morkanaut",
+   "name": "Transport",
+   "datasheet": "Gork/Morkanaut",
+   "kind": "datasheet",
+   "page": 82,
+   "url": "https://longwarindex.app/special_rules/transport_gork_morkanaut/",
+   "text": "This unit can transport 6 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/transport_hunta_rig",
+   "name": "Transport",
+   "datasheet": "Hunta Rig",
+   "kind": "datasheet",
+   "page": 80,
+   "url": "https://longwarindex.app/special_rules/transport_hunta_rig/",
+   "text": "This unit can transport 15 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 15,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/transport_kill_rig",
+   "name": "Transport",
+   "datasheet": "Kill Rig",
+   "kind": "datasheet",
+   "page": 81,
+   "url": "https://longwarindex.app/special_rules/transport_kill_rig/",
+   "text": "This unit can transport 10 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 10,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/transport_kill_tank",
+   "name": "Transport",
+   "datasheet": "Kill Tank",
+   "kind": "datasheet",
+   "page": 84,
+   "url": "https://longwarindex.app/special_rules/transport_kill_tank/",
+   "text": "This unit can transport 6 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/transport_mek_stompa",
+   "name": "Transport",
+   "datasheet": "Mek Stompa",
+   "kind": "datasheet",
+   "page": 31,
+   "url": "https://longwarindex.app/special_rules/transport_mek_stompa/",
+   "text": "This unit can transport 15 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 15,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/transport_mekboy_junka",
+   "name": "Transport",
+   "datasheet": "Mekboy Junka",
+   "kind": "datasheet",
+   "page": 59,
+   "url": "https://longwarindex.app/special_rules/transport_mekboy_junka/",
+   "text": "This model can transport 5 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 5,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/transport_squiggoth",
+   "name": "Transport",
+   "datasheet": "Squiggoth",
+   "kind": "datasheet",
+   "page": 79,
+   "url": "https://longwarindex.app/special_rules/transport_squiggoth/",
+   "text": "This unit can transport 12 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/transport_stompa",
+   "name": "Transport",
+   "datasheet": "Stompa",
+   "kind": "datasheet",
+   "page": 30,
+   "url": "https://longwarindex.app/special_rules/transport_stompa/",
+   "text": "This unit can transport 15 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 15,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/transport_trukk",
+   "name": "Transport",
+   "datasheet": "Trukk",
+   "kind": "datasheet",
+   "page": 65,
+   "url": "https://longwarindex.app/special_rules/transport_trukk/",
+   "text": "This model can transport 12 Infantry models within it.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/vehicle_mob",
+   "name": "Vehicle Mob",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/vehicle_mob/",
+   "text": "Units with this special rule that include more than 1 model must be deployed within 3\" of each other at the beginning of the game during the Deployment step and are deployed as 1 unit. After Deployment, each model in Mob counts as its own individual unit."
+  },
+  {
+   "id": "codex/orks/special_rules/waaagh",
+   "name": "WAAAGH!",
+   "kind": "army",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/waaagh/",
+   "references": [
+    "universal_special_rules/stubborn",
+    "universal_special_rules/fleet",
+    "universal_special_rules/furious_charge"
+   ],
+   "text": "If this unit is your Warlord, you may declare a WAAAGH! Once per game at the start of your turn. This unit must be on the Battlefield or embarked on a Transport to activate this effect. Until the start of your next turn, all Ork [Klan] units gain the Stubborn, Fleet and Furious Charge special rules."
+  },
+  {
+   "id": "codex/orks/special_rules/waaagh_banner_nob",
+   "name": "Waaagh! Banner Nob",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/waaagh_banner_nob/",
+   "text": "A model with this upgrade gains a Power Stabba. All friendly Ork units within 12\" count as inflicting 1 additional Wound for the purposes of determining who won Combat.",
+   "effects": {
+    "items": [
+     {
+      "kind": "weapon",
+      "id": "powa_stabba"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/orks/special_rules/weapon_platform",
+   "name": "Weapon Platform",
+   "kind": "datasheet",
+   "page": 60,
+   "url": "https://longwarindex.app/special_rules/weapon_platform/",
+   "text": "This unit may not Embark on Transports."
+  },
+  {
+   "id": "codex/orks/special_rules/weird_boy",
+   "name": "Weird Boy",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/weird_boy/",
+   "references": [
+    "universal_special_rules/psyker",
+    "universal_special_rules/deny_the_witch",
+    "codex/orks/special_rules/beast_snagga"
+   ],
+   "text": "A model with this upgrade exchanges its He'avy Armour, Kustom Shoota, Stikkbombs and Big Choppa for a Weird Boy Stick. A model with this upgrade gains the Psyker (1) and Deny the Witch special rules.\n\n- A model with this upgrade may be a Wurr Boy (+5pts). They gain the Beast Snagga special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/"
+     },
+     {
+      "rule": "universal_special_rules/deny_the_witch",
+      "name": "Deny the Witch",
+      "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "wargear",
+        "id": "heavy_armour"
+       },
+       {
+        "kind": "weapon",
+        "id": "kustom_shoota"
+       },
+       {
+        "kind": "weapon",
+        "id": "stikk_bombs"
+       },
+       {
+        "kind": "weapon",
+        "id": "big_choppa"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "weird_boy_stick"
+       }
+      ]
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "wurr_boy",
+     "label": "A model with this upgrade may be a Wurr Boy (+5pts). They gain the Beast Snagga special rule.",
+     "printed": "A model with this upgrade may be a Wurr Boy (+5pts). They gain the Beast Snagga special rule.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "wurr_boy",
+       "name": "Wurr Boy",
+       "points": 5,
+       "pricing": "flat",
+       "rules": [
+        {
+         "rule": "codex/orks/special_rules/beast_snagga",
+         "name": "Beast Snagga",
+         "url": "https://longwarindex.app/special_rules/beast_snagga/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/orks/allegiances/bad_moons",
+   "name": "Allegiance: Bad Moons",
+   "kind": "allegiance",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/bad_moons/",
+   "references": [
+    "special_rules/arcing"
+   ],
+   "text": "All Ork units change their [Klan] keyword to Bad Moons. All units with the Bad Moons Keyword gain the Allegiance: Bad Moons special rule. The Allegiance: Bad Moons special rule consists of the following rules:\n\n- Armed to da Teef: All Bad Moons Infantry, Jetbike, Cavalry & Bike units gain the Arcing (6+) special rule in the Shooting Phase on all Shooting weapons they are equipped with while targeting an enemy within 12\".\n- Pretentchas Gitz: A Bad Moons army may not take any allied detachments."
+  },
+  {
+   "id": "codex/orks/allegiances/blood_axes",
+   "name": "Allegiance: Blood Axes",
+   "kind": "allegiance",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/blood_axes/",
+   "references": [
+    "universal_special_rules/skirmisher"
+   ],
+   "text": "All Ork units change their [Klan] keyword to Blood Axes. All units with the Blood Axes Keyword gain the Allegiance: Blood Axes special rule. The Allegiance: Blood Axes special rule consists of the following rules:\n\n- Smart Boyz: All Blood Axe Infantry, Jetbike, Cavalry & Bike units in your army gain the Skirmisher special rule.\n- Da Plan Ladz: Your army must include at least 1 unit of Kommandos for every 1000pts."
+  },
+  {
+   "id": "codex/orks/allegiances/death_skullz",
+   "name": "Allegiance: Death Skullz",
+   "kind": "allegiance",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/death_skullz/",
+   "references": [
+    "special_rules/pinning"
+   ],
+   "text": "All Ork units change their [Klan] keyword to Death Skullz. All units with the Death Skullz Keyword gain the Allegiance: Death Skullz special rule. The Allegiance: Death Skullz special rule consists of the following rules:\n\n- Lucky Blue Gitz: All Death Skullz Infantry, Jetbike, Cavalry & Bike units have a 6+ Invulnerable save.\n- Diz is ours! Zog off!: If a Death Skullz unit is contesting an objective. It may not make any 6.2 - Retreat moves. If the unit would Panic while within 6\" of an Objective marker, it instead does not, and is Pinned instead."
+  },
+  {
+   "id": "codex/orks/allegiances/evil_sunz",
+   "name": "Allegiance: Evil Sunz",
+   "kind": "allegiance",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/evil_sunz/",
+   "references": [
+    "universal_special_rules/skilled_rider",
+    "universal_special_rules/sprint"
+   ],
+   "text": "All Ork units change their [Klan] keyword to Evil Sunz. All units with the Evil Sunz Keyword gain the Allegiance: Evil Sunz special rule. The Allegiance: Evil Sunz special rule consists of the following rules:\n\n- Stunt Driva's!: Evil Sunz units with the Vehicle, Aircraft, Jetbike, Bike or Cavalry type gain the Skilled Rider special rule. All other Evil Sunz units gain the Sprint (1) special rule.\n- Gotta go Fasta: Your army must include more Bikes and Vehicles type units than Infantry type units."
+  },
+  {
+   "id": "codex/orks/allegiances/goffs",
+   "name": "Allegiance: Goffs",
+   "kind": "allegiance",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/goffs/",
+   "references": [
+    "universal_special_rules/hatred"
+   ],
+   "text": "All Ork units change their [Klan] keyword to Goffs. All units with the Goffs Keyword gain the Allegiance: Goffs special rule. The Allegiance: Goffs special rule consists of the following rules:\n\n- Rowdy Fighters: Goff Infantry, Jetbike, Cavalry & Bike units gain the Hatred special rule.\n- No Muckin About!: Goff units may never set to 8.1.1 - Overwatch or 8.1.2 - Smoke."
+  },
+  {
+   "id": "codex/orks/allegiances/snake_bites",
+   "name": "Allegiance: Snake Bites",
+   "kind": "allegiance",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/snake_bites/",
+   "references": [
+    "universal_special_rules/zealot"
+   ],
+   "text": "All Ork units change their [Klan] keyword to Snake Bites. All units with the Snake Bites Keyword gain the Allegiance: Snake Bites special rule. The Allegiance: Snake Bites special rule consists of the following rules:\n\n- Savage Ferocity: Snake Bites Infantry, Jetbike, Cavalry & Bike units gain the Zealot special rule.\n- Da Old Ways: Enemy units have +1 to all rolls to Penetrate Snake Bites Vehicles, Aircraft, Knights and Titan type units."
+  }
+ ]
+}

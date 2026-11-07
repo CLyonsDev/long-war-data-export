@@ -1,0 +1,161 @@
+{
+ "data_version": "3bdded05bfe366cf",
+ "format": 1,
+ "faction": "dark_angels",
+ "wargear": [
+  {
+   "id": "watcher_in_the_dark",
+   "name": "Watcher in the Dark",
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/watcher_in_the_dark/",
+   "text": "A model equipped with a Watcher in the Dark, may once per game, ignore a single Psychic Power or Psychic Weapon attack that targets the equipped unit. Watcher in the Darks are normally represented by Tokens which may be removed to track its use. Watchers in the Dark Tokens do not count for models slain or combat resolution."
+  },
+  {
+   "id": "raven_knight_bike",
+   "name": "Raven Knight Bike",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "linked_plasma_gun"
+    }
+   ],
+   "section": "Wargear",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/raven_knight_bike/",
+   "text": "A model equipped with this wargear becomes the Bike type, gaining all of the benefits of being Bike Type. The unit also gains +1 to its Toughness (T) characteristic and is equipped with a Linked Plasma Gun.",
+   "effects": {
+    "unit_type": "Bike",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_shroud_of_heroes",
+   "name": "The Shroud of Heroes",
+   "section": "Relics",
+   "page": 10,
+   "url": "https://longwarindex.app/wargear/the_shroud_of_heroes/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains +1 to their Invulnerable Saves (to a max of 3+). If the unit does not have an Invulnerable save, they gain a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save_improve": {
+     "by": 1,
+     "max": "3+",
+     "otherwise": "5+"
+    }
+   }
+  },
+  {
+   "id": "the_eye_unseen",
+   "name": "The Eye Unseen",
+   "section": "Relics",
+   "page": 11,
+   "url": "https://longwarindex.app/wargear/the_eye_unseen/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic and any attached unit gains the Fear (1) and Preferred Enemy special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     },
+     {
+      "rule": "universal_special_rules/preferred_enemy",
+      "name": "Preferred Enemy",
+      "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the_lions_helm",
+   "name": "The Lions Helm",
+   "section": "Datasheet",
+   "datasheet": "Azrael, Master of the Dark Angels",
+   "page": 21,
+   "url": "https://longwarindex.app/wargear/the_lions_helm/",
+   "text": "This model has a 4+ Invulnerable save and any attached unit has a 5+ Invulnerable save.",
+   "effects": {
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "book_of_salvation",
+   "name": "Book of Salvation",
+   "section": "Datasheet",
+   "datasheet": "Ezekiel",
+   "page": 23,
+   "url": "https://longwarindex.app/wargear/book_of_salvation/",
+   "text": "This model and any attached unit have the Adamantium Will special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "corvex",
+   "name": "Corvex",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "storm_bolter",
+     "faction": "space_marines"
+    },
+    {
+     "kind": "weapon",
+     "id": "plasma_cannon",
+     "faction": "space_marines"
+    }
+   ],
+   "section": "Datasheet",
+   "datasheet": "Sammael, Master of the Ravenwing",
+   "page": 25,
+   "url": "https://longwarindex.app/wargear/corvex/",
+   "text": "A model equipped with this wargear becomes the Jetbike type. They gain all the benefits of the Jetbike type. This model is also equipped with a Storm Bolter and Plasma Cannon.",
+   "effects": {
+    "unit_type": "Jetbike"
+   }
+  },
+  {
+   "id": "the_armour_of_caliban",
+   "name": "The Armour of Caliban",
+   "section": "Datasheet",
+   "datasheet": "Lion El Johnson, Primarch of the Dark Angels",
+   "page": 26,
+   "url": "https://longwarindex.app/wargear/the_armour_of_caliban/",
+   "text": "This wargear confers a 2+ Armour save and 4+ Invulnerable save. A model with this wargear may re-roll 1 failed save per Phase.",
+   "effects": {
+    "armour_save": "2+",
+    "invulnerable_save": "4+"
+   }
+  },
+  {
+   "id": "shield_of_the_emperor",
+   "name": "Shield of the Emperor",
+   "section": "Datasheet",
+   "datasheet": "Lion El Johnson, Primarch of the Dark Angels",
+   "page": 26,
+   "url": "https://longwarindex.app/wargear/shield_of_the_emperor/",
+   "text": "A model equipped with this wargear cannot be targeted by Psychic Powers or Psychic Weapons. All charges against a unit that include a model equipped with this wargear are Disordered Charges."
+  },
+  {
+   "id": "icon_of_old_caliban",
+   "name": "Icon of Old Caliban",
+   "section": "Datasheet",
+   "datasheet": "Ravenwing Dark Shroud",
+   "page": 34,
+   "url": "https://longwarindex.app/wargear/icon_of_old_caliban/",
+   "text": "All friendly Dark Angels units within 12\" of this unit gain the benefit of Light Cover. If the unit is already benefiting from Light Cover, they gain the benefit of Heavy Cover. Any enemy unit engaged with this unit in the Combat Phase halves its Leadership (LD) characteristic."
+  }
+ ]
+}

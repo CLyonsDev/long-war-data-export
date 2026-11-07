@@ -1,0 +1,910 @@
+{
+ "data_version": "b906dc29f330795c",
+ "format": 1,
+ "faction": "salamanders",
+ "codex": {
+  "id": "codex/salamanders",
+  "name": "Salamanders",
+  "page": 3,
+  "url": "https://longwarindex.app/codex/salamanders/",
+  "parent": "space_marines",
+  "army_rules": [
+   {
+    "rule": "codex/salamanders/special_rules/adherent_of_prophecy",
+    "name": "Adherent of Prophecy",
+    "url": "https://longwarindex.app/special_rules/adherent_of_prophecy/"
+   },
+   {
+    "rule": "codex/salamanders/special_rules/armoury_of_the_18th_legion",
+    "name": "Armoury of the 18th Legion",
+    "url": "https://longwarindex.app/special_rules/armoury_of_the_18th_legion/"
+   },
+   {
+    "rule": "codex/salamanders/special_rules/sanctified_by_fire",
+    "name": "Sanctified by Fire",
+    "url": "https://longwarindex.app/special_rules/sanctified_by_fire/"
+   }
+  ],
+  "allies": null,
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/salamanders/rites_of_war/the_covenant_of_fire",
+    "codex/salamanders/rites_of_war/the_reforged"
+   ],
+   "from_parent": [
+    "codex/space_marines/rites_of_war/drop_pod_assault",
+    "codex/space_marines/rites_of_war/armoured_support",
+    "codex/space_marines/rites_of_war/mechanised_assault",
+    "codex/space_marines/rites_of_war/vanguard_support"
+   ],
+   "banned_from_parent": [
+    "codex/space_marines/rites_of_war/pride_of_the_chapter",
+    "codex/space_marines/rites_of_war/grey_shields"
+   ]
+  },
+  "unit_list": null,
+  "keyword_templates": [
+   {
+    "template": "<Chapter>",
+    "printed": "All units have the <Chapter> keyword. This is replaced with Salamanders Keyword.",
+    "substitution": {
+     "value": "Salamanders"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/salamanders/allegiances/allegiance_salamanders",
+   "name": "Allegiance: Salamanders",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_salamanders/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "keyword_substitution": {
+    "template": "<Chapter>",
+    "value": "Salamanders"
+   },
+   "rule": {
+    "rule": "codex/salamanders/allegiances/allegiance_salamanders",
+    "name": "Allegiance: Salamanders",
+    "printed": "codex/salamanders/allegiances/allegiance_salamanders",
+    "url": "https://longwarindex.app/allegiances/allegiance_salamanders/"
+   },
+   "unit_list": {
+    "page": 14,
+    "url": "https://longwarindex.app/unit_list/salamanders_unit_list/",
+    "entries": [
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_captain",
+      "printed": "Space Marine Captain",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/lieutenant",
+      "printed": "Lieutenant",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_command_squad",
+      "printed": "Space Marine Command Squad",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/damocles_command_rhino",
+      "printed": "Damocles Command Rhino",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/salamanders/roster/adrax_agatone",
+      "printed": "Adrax Agatone",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/salamanders/roster/vulkan_hestan",
+      "printed": "Vulkan He'stan",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/salamanders/roster/pellas_mirsan",
+      "printed": "Pellas Mir'San",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/salamanders/roster/harath_shen",
+      "printed": "Harath Shen",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/scouts",
+      "printed": "Scouts",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/tactical_squad",
+      "printed": "Tactical Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/infiltrator_squad",
+      "printed": "Infiltrator Squad",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/salamanders/roster/sanctifiers",
+      "printed": "Sanctifiers",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/eliminator_squad",
+      "printed": "Eliminator Squad",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/centurions",
+      "printed": "Centurions",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/tactical_terminators",
+      "printed": "Tactical Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/assault_terminators",
+      "printed": "Assault Terminators",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/salamanders/roster/fire_drakes",
+      "printed": "Fire Drakes",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/castraferrum_dreadnought",
+      "printed": "Castraferrum Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/contemptor_dreadnought",
+      "printed": "Contemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/redemptor_dreadnought",
+      "printed": "Redemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invictor_tactical_warsuit",
+      "printed": "Invictor Tactical Warsuit",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/salamanders/roster/the_iron_dragon",
+      "printed": "The Iron Dragon",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/rhino_apc",
+      "printed": "Rhino APC",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/razorback_ifv",
+      "printed": "Razorback IFV",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder_storm",
+      "printed": "Land Speeder Storm",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/drop_pod",
+      "printed": "Drop Pod",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/impulsor",
+      "printed": "Impulsor",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormhawk_interceptor",
+      "printed": "Stormhawk Interceptor",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormtalon_gunship",
+      "printed": "Stormtalon Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stormraven_gunship",
+      "printed": "Stormraven Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_eagle_gunship",
+      "printed": "Storm Eagle Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/bike_squad",
+      "printed": "Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/scout_bike_squad",
+      "printed": "Scout Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/attack_bike_squad",
+      "printed": "Attack Bike Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/assault_marine_squad",
+      "printed": "Assault Marine Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/reiver_squad",
+      "printed": "Reiver Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/incursor_squad",
+      "printed": "Incursor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/inceptor_squad",
+      "printed": "Inceptor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/suppressor_squad",
+      "printed": "Suppressor Squad",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invader_atv",
+      "printed": "Invader ATV",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder",
+      "printed": "Land Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_speeder",
+      "printed": "Storm Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/javelin_attack_speeder",
+      "printed": "Javelin Attack Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sabre_strike_tank",
+      "printed": "Sabre Strike Tank",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/devastator_squad",
+      "printed": "Devastator Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/weapon_support_squad",
+      "printed": "Weapon Support Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gravis_support_squad",
+      "printed": "Gravis Support Squad",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/firestrike_servo_turret",
+      "printed": "Firestrike Servo Turret",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/predator_mbt",
+      "printed": "Predator MBT",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/salamanders/roster/predator_infernus",
+      "printed": "Predator Infernus",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_siege_tank",
+      "printed": "Vindicator Siege Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/whirlwind_artillery_tank",
+      "printed": "Whirlwind artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hunter_artillery_tank",
+      "printed": "Hunter Artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stalker_aa_tank",
+      "printed": "Stalker AA Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gladiator_assault_tank",
+      "printed": "Gladiator Assault Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider",
+      "printed": "Land Raider",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_redeemer",
+      "printed": "Land Raider Redeemer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_crusader",
+      "printed": "Land Raider Crusader",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_hifv",
+      "printed": "Repulsor HIFV",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_executioner",
+      "printed": "Repulsor Executioner",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/deredeo_dreadnought",
+      "printed": "Deredeo Dreadnought",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fire_raptor_gunship",
+      "printed": "Fire Raptor Gunship",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_laser_destroyer",
+      "printed": "Vindicator Laser Destroyer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sicaran_heavy_tank",
+      "printed": "Sicaran Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/kratos_super_heavy_tank",
+      "printed": "Kratos Super Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/leviathan_dreadnought",
+      "printed": "Leviathan Dreadnought",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/spartan_assault_tank",
+      "printed": "Spartan Assault Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/astraeus",
+      "printed": "Astraeus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/cerberus",
+      "printed": "Cerberus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/falchion",
+      "printed": "Falchion",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fellblade",
+      "printed": "Fellblade",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/mastodon",
+      "printed": "Mastodon",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/typhon_siege_tank",
+      "printed": "Typhon Siege Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/thunderhawk_gunship",
+      "printed": "Thunderhawk Gunship",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hammerfall_bunker",
+      "printed": "Hammerfall Bunker",
+      "role": "Fortification"
+     }
+    ]
+   },
+   "restrictions": [
+    {
+     "id": "psychic_discipline_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/salamanders/",
+     "printed": "You must use the Promethean Psyker Discipline instead of the core Codex Space Marines Indomitus Psyker Discipline for Psykers in your army.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "psychic_powers"
+       }
+      ]
+     }
+    },
+    {
+     "id": "rites_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/salamanders/",
+     "printed": "You must use the Rites of War presented in this Supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/space_marines/rites_of_war/pride_of_the_chapter",
+      "codex/space_marines/rites_of_war/grey_shields"
+     ]
+    },
+    {
+     "id": "warlord_traits_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/salamanders/",
+     "printed": "You must use the Warlord traits presented in this Supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "warlord_traits"
+       }
+      ]
+     }
+    },
+    {
+     "id": "relics_instead_of_core",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/salamanders/",
+     "printed": "You may only take Relics from this Supplement instead of those presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "relics"
+       }
+      ]
+     }
+    },
+    {
+     "id": "unit_list_only",
+     "page": 3,
+     "url": "https://longwarindex.app/codex/salamanders/",
+     "printed": "You may not field the units not listed on the Salamanders Unit list in this Codex Supplement.",
+     "scope": "detachment",
+     "unit_list": true
+    }
+   ],
+   "benefits": [
+    {
+     "id": "master_crafted_character_weapons",
+     "printed": "Salamanders units with the Character special rule gain the Master-Crafted special rule on all weapons they are equipped with.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Salamanders"
+       },
+       {
+        "rule": {
+         "rule": "universal_special_rules/character",
+         "name": "Character",
+         "url": "https://longwarindex.app/universal_special_rules/character/"
+        }
+       }
+      ],
+      "rules": [
+       {
+        "rule": "special_rules/master_crafted",
+        "name": "Master-Crafted",
+        "url": "https://longwarindex.app/special_rules/master_crafted/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "cautious_pace_initiative",
+     "printed": "All Salamanders units have -1 to their Initiative (I) characteristic (This is included in Salamanders specific units).",
+     "stat_mods": {
+      "conditions": [
+       {
+        "faction": "space_marines"
+       },
+       {
+        "not": {
+         "faction": "salamanders"
+        }
+       }
+      ],
+      "mods": [
+       {
+        "characteristic": "I",
+        "delta": -1
+       }
+      ]
+     }
+    },
+    {
+     "id": "speeders_limited",
+     "printed": "Salamanders Javelin Assault Speeders, Storm Speeders and Land Speeders gain Limited: 1 Per Detachment.",
+     "rules": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/space_marines/roster/javelin_attack_speeder"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/storm_speeder"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/land_speeder"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "battlefield_roles/limited",
+        "name": "18.3 - Limited",
+        "param": "1 Per Detachment",
+        "printed": "Limited: 1 Per Detachment",
+        "url": "https://longwarindex.app/battlefield_roles/limited/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "terminators_limited",
+     "printed": "Salamanders Tactical Terminators and Assault Terminators gain Limited: 1 Per Detachment.",
+     "rules": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/space_marines/roster/tactical_terminators"
+         },
+         {
+          "datasheet": "codex/space_marines/roster/assault_terminators"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "battlefield_roles/limited",
+        "name": "18.3 - Limited",
+        "param": "1 Per Detachment",
+        "printed": "Limited: 1 Per Detachment",
+        "url": "https://longwarindex.app/battlefield_roles/limited/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "All Flamer, Acid, Plasma, Bio-Plasma, Melta, Fusion, Phosphor, and Volkite weapons have -1 to all Wound rolls against Salamanders units."
+   ],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/salamanders/rites_of_war/the_covenant_of_fire",
+   "name": "The Covenant of Fire",
+   "page": 12,
+   "url": "https://longwarindex.app/rites_of_war/the_covenant_of_fire/",
+   "offered_by": {
+    "allegiance": "codex/salamanders/allegiances/allegiance_salamanders"
+   },
+   "text": "Restrictions\n\n- Your army must include a Space Marine Captain with the Forge Father upgrade.\n- Units in your army may not Deep Strike unless it is via a Drop Pod.\n- You may not include any Fortification type units in your army unless it is a Drop Pod.\n\nBenefits\n\n- You may field Gravis Support Squads as Elites choices.\n- You may field Weapon Support Squads as Troops choices, but they gain the Support Squad special rule.\n- Salamanders' units in your army with the Veteran Keyword gain the Sanctified by Fire special rule (see Special rules Appendix).",
+   "restrictions": [
+    {
+     "id": "captain_with_forge_father",
+     "printed": "Your army must include a Space Marine Captain with the Forge Father upgrade.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/space_marine_captain"
+       },
+       {
+        "rule": {
+         "rule": "codex/salamanders/special_rules/forge_father",
+         "name": "Forge Father",
+         "url": "https://longwarindex.app/special_rules/forge_father/"
+        }
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "no_fortifications_except_drop_pod",
+     "printed": "You may not include any Fortification type units in your army unless it is a Drop Pod.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "unit_type": "Fortification"
+       },
+       {
+        "not": {
+         "datasheet": "codex/space_marines/roster/drop_pod"
+        }
+       }
+      ],
+      "max": 0
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "gravis_support_squads_elites",
+     "printed": "You may field Gravis Support Squads as Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/gravis_support_squad"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "weapon_support_squads_troops",
+     "printed": "You may field Weapon Support Squads as Troops choices, but they gain the Support Squad special rule.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/weapon_support_squad"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "weapon_support_squads_support_squad",
+     "printed": "You may field Weapon Support Squads as Troops choices, but they gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_marines/roster/weapon_support_squad"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "veteran_sanctified_by_fire",
+     "printed": "Salamanders' units in your army with the Veteran Keyword gain the Sanctified by Fire special rule (see Special rules Appendix).",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Salamanders"
+       },
+       {
+        "keyword": "Veteran"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "codex/salamanders/special_rules/sanctified_by_fire",
+        "name": "Sanctified by Fire",
+        "url": "https://longwarindex.app/special_rules/sanctified_by_fire/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "Units in your army may not Deep Strike unless it is via a Drop Pod."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/salamanders/rites_of_war/the_reforged",
+   "name": "The Reforged",
+   "page": 13,
+   "url": "https://longwarindex.app/rites_of_war/the_reforged/",
+   "offered_by": {
+    "allegiance": "codex/salamanders/allegiances/allegiance_salamanders"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 1 Captain upgraded to a Forge Father or Vulkan He'stan.\n- Your Warlord must be a Forge Father or Vulkan He'stan.\n- Your army must include at least 2 HQ choice.\n\nBenefits\n\n- You may field Sanctifiers as Troops choices.\n- Salamanders' units in your army gain the Adherents to Prophecy special rule (See Special Rules Appendix).\n- You may select a second Salamanders Character unit in your army that is not Vulkan He'stan or a Forge Father to generate a Warlord Trait as if they were your Warlord.",
+   "restrictions": [
+    {
+     "id": "captain_forge_father_or_vulkan",
+     "printed": "Your army must include at least 1 Captain upgraded to a Forge Father or Vulkan He'stan.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "rule": {
+           "rule": "codex/salamanders/special_rules/forge_father",
+           "name": "Forge Father",
+           "url": "https://longwarindex.app/special_rules/forge_father/"
+          }
+         },
+         {
+          "datasheet": "codex/salamanders/roster/vulkan_hestan"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "warlord_forge_father_or_vulkan",
+     "printed": "Your Warlord must be a Forge Father or Vulkan He'stan.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "rule": {
+           "rule": "codex/salamanders/special_rules/forge_father",
+           "name": "Forge Father",
+           "url": "https://longwarindex.app/special_rules/forge_father/"
+          }
+         },
+         {
+          "datasheet": "codex/salamanders/roster/vulkan_hestan"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "at_least_two_hq",
+     "printed": "Your army must include at least 2 HQ choice.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "role": "HQ"
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "sanctifiers_troops",
+     "printed": "You may field Sanctifiers as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/salamanders/roster/sanctifiers"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "adherent_of_prophecy_grant",
+     "printed": "Salamanders' units in your army gain the Adherents to Prophecy special rule (See Special Rules Appendix).",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Salamanders"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "codex/salamanders/special_rules/adherent_of_prophecy",
+        "name": "Adherent of Prophecy",
+        "url": "https://longwarindex.app/special_rules/adherent_of_prophecy/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "second_character_warlord_trait",
+     "printed": "You may select a second Salamanders Character unit in your army that is not Vulkan He'stan or a Forge Father to generate a Warlord Trait as if they were your Warlord.",
+     "warlord_trait_access": {
+      "conditions": [
+       {
+        "rule": {
+         "rule": "universal_special_rules/character",
+         "name": "Character",
+         "url": "https://longwarindex.app/universal_special_rules/character/"
+        }
+       },
+       {
+        "keyword": "Salamanders"
+       },
+       {
+        "not": {
+         "datasheet": "codex/salamanders/roster/vulkan_hestan"
+        }
+       },
+       {
+        "not": {
+         "rule": {
+          "rule": "codex/salamanders/special_rules/forge_father",
+          "name": "Forge Father",
+          "url": "https://longwarindex.app/special_rules/forge_father/"
+         }
+        }
+       }
+      ],
+      "count": 1,
+      "groups": [
+       {
+        "book_options": "salamanders",
+        "group": "warlord_traits"
+       }
+      ],
+      "max_units": 1
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

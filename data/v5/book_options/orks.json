@@ -1,0 +1,438 @@
+{
+ "data_version": "3d122ca0024d4c20",
+ "format": 1,
+ "faction": "orks",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/the_super_cybork_body/",
+   "offered_by": {
+    "codex": "orks"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "the_super_cybork_body",
+     "name": "The Super Cybork Body",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_super_cybork_body"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/the_super_cybork_body/",
+     "pricing": "flat"
+    },
+    {
+     "id": "da_fixer_upperz",
+     "name": "Da Fixer Upperz",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "da_fixer_upperz"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/da_fixer_upperz/",
+     "pricing": "flat"
+    },
+    {
+     "id": "da_lucky_stikk",
+     "name": "Da Lucky Stikk",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "da_lucky_stikk"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/da_lucky_stikk/",
+     "pricing": "flat"
+    },
+    {
+     "id": "da_krushin_armour",
+     "name": "Da Krushin Armour",
+     "points": 25,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "da_krushin_armour"
+      }
+     ],
+     "page": 10,
+     "url": "https://longwarindex.app/wargear/da_krushin_armour/",
+     "pricing": "flat"
+    },
+    {
+     "id": "headwoppas_killchoppa",
+     "name": "Headwoppa's Killchoppa",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Big Choppa for this relic for 15pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "big_choppa"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "headwoppas_killchoppa"
+        }
+       ]
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/headwoppas_killchoppa/",
+     "pricing": "flat"
+    },
+    {
+     "id": "da_dead_shiny_shoota",
+     "name": "Da Dead Shiny Shoota",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Shoota or Kustom Shoota for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove_one_of": [
+        {
+         "kind": "weapon",
+         "id": "shoota"
+        },
+        {
+         "kind": "weapon",
+         "id": "kustom_shoota"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "da_dead_shiny_shoota"
+        }
+       ]
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/da_dead_shiny_shoota/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected to be your Warlord. Your Warlord may select one of the following Warlord traits for free.",
+   "printed": "One unit in your army with the Character special rule may be selected to be your Warlord. Your Warlord may select one of the following Warlord traits for free.",
+   "page": 16,
+   "url": "https://longwarindex.app/codex/orks/warlord_traits/",
+   "offered_by": {
+    "codex": "orks"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "follow_me_ladz",
+     "name": "Follow me Ladz!",
+     "page": 16,
+     "url": "https://longwarindex.app/warlord_traits/follow_me_ladz/",
+     "text": "Friendly Ork units which can draw line of sight to a model with this Warlord Trait may re-roll Pinning and Panic tests.",
+     "points": 0,
+     "pricing": "flat",
+     "game_time": [
+      "Friendly Ork units which can draw line of sight to a model with this Warlord Trait may re-roll Pinning and Panic tests."
+     ]
+    },
+    {
+     "id": "kunnin_but_brutal",
+     "name": "Kunnin But Brutal",
+     "page": 16,
+     "url": "https://longwarindex.app/warlord_traits/kunnin_but_brutal/",
+     "text": "The Warlord and any attached unit gains either the Scout or Outflank special rule. This is selected when mustering your army.",
+     "points": 0,
+     "pricing": "flat",
+     "options": [
+      {
+       "id": "scout_or_outflank",
+       "label": "This is selected when mustering your army.",
+       "takers": {
+        "scope": "model"
+       },
+       "pick": {
+        "min": 1,
+        "max": 1
+       },
+       "choices": [
+        {
+         "id": "scout",
+         "name": "Scout",
+         "points": 0,
+         "pricing": "flat",
+         "rules": [
+          {
+           "rule": "universal_special_rules/scout",
+           "name": "Scout",
+           "url": "https://longwarindex.app/universal_special_rules/scout/"
+          }
+         ]
+        },
+        {
+         "id": "outflank",
+         "name": "Outflank",
+         "points": 0,
+         "pricing": "flat",
+         "rules": [
+          {
+           "rule": "universal_special_rules/outflank",
+           "name": "Outflank",
+           "url": "https://longwarindex.app/universal_special_rules/outflank/"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "brutal_but_kunnin",
+     "name": "Brutal but Kunnin",
+     "page": 16,
+     "url": "https://longwarindex.app/warlord_traits/brutal_but_kunnin/",
+     "text": "The Warlord gains the Rage and Zealot special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/rage",
+       "name": "Rage",
+       "url": "https://longwarindex.app/universal_special_rules/rage/"
+      },
+      {
+       "rule": "universal_special_rules/zealot",
+       "name": "Zealot",
+       "url": "https://longwarindex.app/universal_special_rules/zealot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "waaagh_psychic_powers",
+   "kind": "psychic_powers",
+   "label": "Any Ork Psyker with the Psyker (x) special rule may purchase the following Psychic Powers:",
+   "printed": "Any Ork Psyker with the Psyker (x) special rule may purchase the following Psychic Powers:",
+   "page": 17,
+   "url": "https://longwarindex.app/codex/orks/powers/",
+   "offered_by": {
+    "codex": "orks"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "da_jump",
+     "name": "Da Jump",
+     "page": 17,
+     "url": "https://longwarindex.app/powers/da_jump/",
+     "text": "When this power is cast, the Psyker and any attached unit are immediately moved 24\" from their current location. The units count as having conducted a whatever type of move they conducted in the previous Movement Phase.",
+     "points": 25,
+     "pricing": "flat"
+    },
+    {
+     "id": "frazzle",
+     "name": "Frazzle",
+     "page": 17,
+     "url": "https://longwarindex.app/powers/frazzle/",
+     "text": "A Psyker is equipped with the following Psychic weapon:\n\n- Frazzle",
+     "points": 10,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "frazzle"
+      }
+     ]
+    },
+    {
+     "id": "kill_bolt",
+     "name": "Kill Bolt",
+     "page": 17,
+     "url": "https://longwarindex.app/powers/kill_bolt/",
+     "text": "A Psyker is equipped with the following Psychic weapon:\n\n- Kill Bolt",
+     "points": 20,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "kill_bolt"
+      }
+     ]
+    },
+    {
+     "id": "power_vomit",
+     "name": "Power Vomit",
+     "page": 17,
+     "url": "https://longwarindex.app/powers/power_vomit/",
+     "text": "A Psyker is equipped with the following Psychic weapon:\n\n- Power Vomit",
+     "points": 15,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "power_vomit"
+      }
+     ]
+    },
+    {
+     "id": "warpath",
+     "name": "Warpath",
+     "page": 17,
+     "url": "https://longwarindex.app/powers/warpath/",
+     "text": "When this power is cast, the Psyker and any attached unit gain +1 to their Attacks (A) characteristic until the start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "machine_rites",
+   "kind": "machine_rites",
+   "label": "An Ork unit with the Battle Smith (X) special rule may purchase the following Rites:",
+   "printed": "An Ork unit with the Battle Smith (X) special rule may purchase the following Rites:",
+   "page": 18,
+   "url": "https://longwarindex.app/codex/orks/powers/",
+   "offered_by": {
+    "codex": "orks"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/battle_smith",
+       "name": "Battle Smith",
+       "param": "1",
+       "printed": "Battle Smith (X)",
+       "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/battle_smith",
+     "name": "Battle Smith",
+     "param": "1",
+     "printed": "Battle Smith (X)",
+     "url": "https://longwarindex.app/universal_special_rules/battle_smith/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "dakka_dakka_dakka",
+     "name": "Dakka! Dakka! Dakka!",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/dakka_dakka_dakka/",
+     "text": "When this Rite is performed successfully, the unit performing this Rite, a Vehicle, Titan, Knight, Aircraft, or Walker unit within 3\" of the unit performing this Rite or a unit that unit performing unit is embarked upon. The target unit may select 1 weapon it is equipped with and make a second Shooting Attack with it this Phase.",
+     "points": 20,
+     "pricing": "flat"
+    },
+    {
+     "id": "i_can_fix_that",
+     "name": "I Can Fix That!",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/i_can_fix_that/",
+     "text": "When this Rite is performed successfully, select one of the following effects:\n\n- Select 1 Walker or Automata unit either within 3\" or attached to the unit that is performing this rite. The target unit Heals 1 wound.\n- Select 1 Vehicle, Aircraft, Knight or Fortification either within 3\", attached to the unit performing this Rite or that this unit is embarked upon. Select 1 weapon that target unit is equipped with that has been destroyed. The chosen weapon is no longer destroyed.\n- Select 1 Vehicle or Knight either within 3\", attached to the unit performing this Rite or that this unit is embarked upon that is immobilized. That unit is no longer immobilized. If the unit has the Super Heavy (x) special rule and was Limping, it is no longer considered to be Limping.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "smog_it",
+     "name": "Smog It!",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/smog_it/",
+     "text": "When this Rite is performed successfully, the unit performing this Rite, a Vehicle, Titan, Knight, Aircraft, or Walker unit within 3\" of the unit performing this Rite or a unit that unit performing unit is embarked upon. The target unit gains the benefit of Heavy Cover until the start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "turbo_charge",
+     "name": "Turbo Charge!",
+     "page": 18,
+     "url": "https://longwarindex.app/powers/turbo_charge/",
+     "text": "When this Rite is performed successfully, the unit performing this Rite, a Vehicle, Titan, Knight, Aircraft, or Walker unit within 3\" of the unit performing this Rite or a unit that unit performing unit is embarked upon may immediately make a 6.1 - Normal Move. However, the selected unit and any embarked unit may not Shoot in the Shooting Phase or Charge in the Charge Phase.",
+     "points": 15,
+     "pricing": "flat"
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

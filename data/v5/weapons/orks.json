@@ -1,0 +1,3009 @@
+{
+ "data_version": "5d81d288acadf4d6",
+ "format": 1,
+ "faction": "orks",
+ "weapons": [
+  {
+   "id": "grot_blaster",
+   "name": "Grot Blaster",
+   "section": "armoury",
+   "subtype": "Shoota Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/grot_blaster/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "12\"",
+     "strength": "3",
+     "ap": "6",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "slugga",
+   "name": "Slugga",
+   "section": "armoury",
+   "subtype": "Shoota Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/slugga/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "12\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "speshul_slugga",
+   "name": "Speshul Slugga",
+   "section": "armoury",
+   "subtype": "Shoota Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/speshul_slugga/",
+   "profiles": [
+    {
+     "type": "Pistol 2",
+     "range": "12\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "shoota",
+   "name": "Shoota",
+   "section": "armoury",
+   "subtype": "Shoota Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/shoota/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "18\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "kustom_shoota",
+   "name": "Kustom Shoota",
+   "section": "armoury",
+   "subtype": "Shoota Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/kustom_shoota/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "18\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "big_shoota",
+   "name": "Big Shoota",
+   "section": "armoury",
+   "subtype": "Shoota Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/big_shoota/",
+   "profiles": [
+    {
+     "type": "Assault 3",
+     "range": "36\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "supa_shoota",
+   "name": "Supa Shoota",
+   "section": "armoury",
+   "subtype": "Shoota Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/supa_shoota/",
+   "profiles": [
+    {
+     "type": "Assault 4",
+     "range": "36\"",
+     "strength": "6",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/skyfire",
+       "name": "Skyfire",
+       "url": "https://longwarindex.app/special_rules/skyfire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_big_shoota",
+   "name": "Linked Big Shoota",
+   "section": "armoury",
+   "subtype": "Shoota Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/linked_big_shoota/",
+   "profiles": [
+    {
+     "type": "Assault 3",
+     "range": "36\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scopd_big_shoota",
+   "name": "Scop'd Big Shoota",
+   "section": "armoury",
+   "subtype": "Shoota Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/scopd_big_shoota/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "36\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "speshul_ammo_shoota",
+   "name": "Speshul Ammo Shoota",
+   "section": "armoury",
+   "subtype": "Shoota Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/speshul_ammo_shoota/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "18\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deffgun",
+   "name": "Deffgun",
+   "section": "armoury",
+   "subtype": "Shoota Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/deffgun/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "48\"",
+     "strength": "7",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "snazz_gun",
+   "name": "Snazz Gun",
+   "section": "armoury",
+   "subtype": "Shoota Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/snazz_gun/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "24\"",
+     "strength": "6",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_supa_shoota",
+   "name": "Linked Supa Shoota",
+   "section": "armoury",
+   "subtype": "Shoota Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/linked_supa_shoota/",
+   "profiles": [
+    {
+     "type": "Assault 4",
+     "range": "36\"",
+     "strength": "6",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/skyfire",
+       "name": "Skyfire",
+       "url": "https://longwarindex.app/special_rules/skyfire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deff_storm_mega_shoota",
+   "name": "Deff Storm Mega Shoota",
+   "section": "armoury",
+   "subtype": "Shoota Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/deff_storm_mega_shoota/",
+   "profiles": [
+    {
+     "type": "Assault 10",
+     "range": "36\"",
+     "strength": "6",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kustom_mega_slugga",
+   "name": "Kustom Mega Slugga",
+   "section": "armoury",
+   "subtype": "Kustom Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/kustom_mega_slugga/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "12\"",
+     "strength": "7",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kustom_mega_blaster",
+   "name": "Kustom Mega Blaster",
+   "section": "armoury",
+   "subtype": "Kustom Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/kustom_mega_blaster/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "24\"",
+     "strength": "7",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kustom_mega_zappa",
+   "name": "Kustom Mega Zappa",
+   "section": "armoury",
+   "subtype": "Kustom Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/kustom_mega_zappa/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "36\"",
+     "strength": "7",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kustom_shokk_rifle",
+   "name": "Kustom Shokk Rifle",
+   "section": "armoury",
+   "subtype": "Kustom Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/kustom_shokk_rifle/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "24\"",
+     "strength": "7",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      },
+      {
+       "rule": "special_rules/ignores_cover",
+       "name": "Ignores Cover",
+       "url": "https://longwarindex.app/special_rules/ignores_cover/"
+      },
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kustom_mega_kannon",
+   "name": "Kustom Mega Kannon",
+   "section": "armoury",
+   "subtype": "Kustom Weapons",
+   "page": 11,
+   "url": "https://longwarindex.app/weapons/kustom_mega_kannon/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "36\"",
+     "strength": "7",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kannon",
+   "name": "Kannon",
+   "section": "armoury",
+   "subtype": "Booma Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/kannon/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kill_kannon",
+   "name": "Kill Kannon",
+   "section": "armoury",
+   "subtype": "Booma Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/kill_kannon/",
+   "profiles": [
+    {
+     "type": "Heavy 2",
+     "range": "36\"",
+     "strength": "9",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "supa_kannon",
+   "name": "Supa Kannon",
+   "section": "armoury",
+   "subtype": "Booma Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/supa_kannon/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "72\"",
+     "strength": "10",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/ordnance",
+       "name": "Ordnance",
+       "url": "https://longwarindex.app/special_rules/ordnance/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/macro",
+       "name": "Macro",
+       "url": "https://longwarindex.app/special_rules/macro/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grotzooka",
+   "name": "Grotzooka",
+   "section": "armoury",
+   "subtype": "Booma Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/grotzooka/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "18\"",
+     "strength": "6",
+     "ap": "4",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "squig_launcher",
+   "name": "Squig Launcher",
+   "section": "armoury",
+   "subtype": "Booma Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/squig_launcher/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "36\"",
+     "strength": "5",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/indirect_fire",
+       "name": "Indirect Fire",
+       "url": "https://longwarindex.app/special_rules/indirect_fire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lobba",
+   "name": "Lobba",
+   "section": "armoury",
+   "subtype": "Booma Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/lobba/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "36\"",
+     "strength": "5",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/indirect_fire",
+       "name": "Indirect Fire",
+       "url": "https://longwarindex.app/special_rules/indirect_fire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eavy_lobba",
+   "name": "'Eavy Lobba",
+   "section": "armoury",
+   "subtype": "Booma Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/eavy_lobba/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "5",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/indirect_fire",
+       "name": "Indirect Fire",
+       "url": "https://longwarindex.app/special_rules/indirect_fire/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "burna_bomb",
+   "name": "Burna Bomb",
+   "section": "armoury",
+   "subtype": "Booma Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/burna_bomb/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "Bombing Run",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/bombing_run",
+       "name": "Bombing Run",
+       "url": "https://longwarindex.app/special_rules/bombing_run/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/ammo",
+       "name": "Ammo",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/ammo/"
+      },
+      {
+       "rule": "special_rules/ignores_cover",
+       "name": "Ignores Cover",
+       "url": "https://longwarindex.app/special_rules/ignores_cover/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "boom_bombs",
+   "name": "Boom Bombs",
+   "section": "armoury",
+   "subtype": "Booma Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/boom_bombs/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "Bombing Run",
+     "strength": "7",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/ammo",
+       "name": "Ammo",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/ammo/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "thump_gun",
+   "name": "Thump Gun",
+   "section": "armoury",
+   "subtype": "Kin'ecik Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/thump_gun/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "18\"",
+     "strength": "5",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stikka_kannon",
+   "name": "Stikka Kannon",
+   "section": "armoury",
+   "subtype": "Kin'ecik Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/stikka_kannon/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "12\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rivet_kannon",
+   "name": "Rivet Kannon",
+   "section": "armoury",
+   "subtype": "Kin'ecik Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/rivet_kannon/",
+   "profiles": [
+    {
+     "type": "Assault 3",
+     "range": "24\"",
+     "strength": "7",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stikk_bombs",
+   "name": "Stikk bombs",
+   "section": "armoury",
+   "subtype": "Stikka Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/stikk_bombs/",
+   "profiles": [
+    {
+     "type": "Grenade 1",
+     "range": "12\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tankbusta_bomb",
+   "name": "Tankbusta Bomb",
+   "section": "armoury",
+   "subtype": "Stikka Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/tankbusta_bomb/",
+   "profiles": [
+    {
+     "type": "Grenade 1",
+     "range": "12\"",
+     "strength": "8",
+     "ap": "2",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "stickbomb_flinga",
+   "name": "Stickbomb Flinga",
+   "section": "armoury",
+   "subtype": "Stikka Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/stickbomb_flinga/",
+   "profiles": [
+    {
+     "type": "Grenade 1",
+     "range": "18\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bomb_squig",
+   "name": "Bomb Squig",
+   "section": "armoury",
+   "subtype": "Stikka Weapons",
+   "page": 12,
+   "url": "https://longwarindex.app/weapons/bomb_squig/",
+   "profiles": [
+    {
+     "type": "Grenade 1",
+     "range": "12\"",
+     "strength": "5",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/ammo",
+       "name": "Ammo",
+       "param": "1",
+       "url": "https://longwarindex.app/special_rules/ammo/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shokka_pistol",
+   "name": "Shokka Pistol",
+   "section": "armoury",
+   "subtype": "Za'zap Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/shokka_pistol/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "12\"",
+     "strength": "6",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      },
+      {
+       "rule": "special_rules/arcing",
+       "name": "Arcing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/arcing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zzap_gun",
+   "name": "Zzap Gun",
+   "section": "armoury",
+   "subtype": "Za'zap Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/zzap_gun/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "36\"",
+     "strength": "10",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      },
+      {
+       "rule": "special_rules/arcing",
+       "name": "Arcing",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/arcing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "skorcha",
+   "name": "Skorcha",
+   "section": "armoury",
+   "subtype": "Burna Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/skorcha/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "burna",
+   "name": "Burna",
+   "section": "armoury",
+   "subtype": "Burna Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/burna/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "8\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "smasha_gun",
+   "name": "Smasha Gun",
+   "section": "armoury",
+   "subtype": "Exo'ic Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/smasha_gun/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "8",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tracktor_kannon",
+   "name": "Tracktor Kannon",
+   "section": "armoury",
+   "subtype": "Exo'ic Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/tracktor_kannon/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "36\"",
+     "strength": "*",
+     "ap": "*",
+     "rules": [
+      {
+       "rule": "codex/orks/special_rules/trackta_beam",
+       "name": "Trackta Beam",
+       "url": "https://longwarindex.app/special_rules/trackta_beam/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shokk_attack_gun",
+   "name": "Shokk Attack Gun",
+   "section": "armoury",
+   "subtype": "Exo'ic Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/shokk_attack_gun/",
+   "profiles": [
+    {
+     "type": "Heavy D6+2",
+     "range": "48\"",
+     "strength": "2D6",
+     "ap": "D6",
+     "rules": [
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tellyporta_blasta",
+   "name": "Tellyporta Blasta",
+   "section": "armoury",
+   "subtype": "Exo'ic Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/tellyporta_blasta/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "24\"",
+     "strength": "8",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "codex/orks/special_rules/tellyported",
+       "name": "Tellyported",
+       "url": "https://longwarindex.app/special_rules/tellyported/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bubblechukka",
+   "name": "Bubblechukka",
+   "section": "armoury",
+   "subtype": "Exo'ic Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/bubblechukka/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "72\"",
+     "strength": "*",
+     "ap": "*",
+     "rules": [
+      {
+       "rule": "codex/orks/special_rules/bubble",
+       "name": "Bubble",
+       "url": "https://longwarindex.app/special_rules/bubble/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "powa_stabba",
+   "name": "Powa Stabba",
+   "section": "armoury",
+   "subtype": "Power Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/powa_stabba/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "3",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "power_klaw",
+   "name": "Power klaw",
+   "section": "armoury",
+   "subtype": "Power Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/power_klaw/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+4",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "weird_boy_stick",
+   "name": "Weird Boy Stick",
+   "section": "armoury",
+   "subtype": "Power Weapons",
+   "page": 13,
+   "url": "https://longwarindex.app/weapons/weird_boy_stick/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/force",
+       "name": "Force",
+       "url": "https://longwarindex.app/special_rules/force/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rokkit_pistol",
+   "name": "Rokkit Pistol",
+   "section": "armoury",
+   "subtype": "Rokkit Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/rokkit_pistol/",
+   "profiles": [
+    {
+     "type": "Pistol 1",
+     "range": "12\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "rokkits",
+   "name": "Rokkits",
+   "section": "armoury",
+   "subtype": "Rokkit Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/rokkits/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "36\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "rocket_kannon",
+   "name": "Rocket Kannon",
+   "section": "armoury",
+   "subtype": "Rokkit Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/rocket_kannon/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "36\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linked_rokkits",
+   "name": "Linked Rokkits",
+   "section": "armoury",
+   "subtype": "Rokkit Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/linked_rokkits/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "36\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wing_missiles",
+   "name": "Wing Missiles",
+   "section": "armoury",
+   "subtype": "Rokkit Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/wing_missiles/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "48\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/ammo",
+       "name": "Ammo",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/ammo/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tank_hammer",
+   "name": "Tank hammer",
+   "section": "armoury",
+   "subtype": "Rokkit Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/tank_hammer/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/ammo",
+       "name": "Ammo",
+       "param": "1",
+       "url": "https://longwarindex.app/special_rules/ammo/"
+      },
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      },
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      }
+     ],
+     "printed": {
+      "strength": "X2"
+     }
+    }
+   ]
+  },
+  {
+   "id": "squig_stikka",
+   "name": "Squig Stikka",
+   "section": "armoury",
+   "subtype": "Rokkit Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/squig_stikka/",
+   "profiles": [
+    {
+     "name": "Squig Stikka (shooting)",
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "6",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    },
+    {
+     "name": "Squig Stikka (Melee)",
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "close_combat_weapons",
+   "name": "Close Combat weapons",
+   "section": "armoury",
+   "subtype": "General Melee Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/close_combat_weapons_orks/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "-",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "ork_crew_weapons",
+   "name": "Ork Crew Weapons",
+   "section": "armoury",
+   "subtype": "General Melee Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/ork_crew_weapons/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "4",
+     "ap": "-",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "grot_crew_weapons",
+   "name": "Grot Crew Weapons",
+   "section": "armoury",
+   "subtype": "General Melee Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/grot_crew_weapons/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "3",
+     "ap": "-",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "grabba_stikk",
+   "name": "Grabba Stikk",
+   "section": "armoury",
+   "subtype": "General Melee Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/grabba_stikk/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grot_prod",
+   "name": "Grot Prod",
+   "section": "armoury",
+   "subtype": "General Melee Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/grot_prod/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/arcing",
+       "name": "Arcing",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/arcing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "breacha_ram",
+   "name": "Breacha Ram",
+   "section": "armoury",
+   "subtype": "General Melee Weapons",
+   "page": 14,
+   "url": "https://longwarindex.app/weapons/breacha_ram/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/cumbersome",
+       "name": "Cumbersome",
+       "url": "https://longwarindex.app/special_rules/cumbersome/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/two_handed",
+       "name": "Two-Handed",
+       "url": "https://longwarindex.app/special_rules/two_handed/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kan_klaws",
+   "name": "Kan Klaws",
+   "section": "armoury",
+   "subtype": "Kan and Rolla Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/kan_klaws/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "dread_saw",
+   "name": "Dread Saw",
+   "section": "armoury",
+   "subtype": "Kan and Rolla Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/dread_saw/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kill_saw",
+   "name": "Kill Saw",
+   "section": "armoury",
+   "subtype": "Kan and Rolla Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/kill_saw/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      },
+      {
+       "rule": "special_rules/shred",
+       "name": "Shred",
+       "url": "https://longwarindex.app/special_rules/shred/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      }
+     ],
+     "printed": {
+      "strength": "X2"
+     }
+    }
+   ]
+  },
+  {
+   "id": "wreckin_ball",
+   "name": "Wreckin Ball",
+   "section": "armoury",
+   "subtype": "Kan and Rolla Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/wreckin_ball/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/cumbersome",
+       "name": "Cumbersome",
+       "url": "https://longwarindex.app/special_rules/cumbersome/"
+      }
+     ],
+     "printed": {
+      "strength": "X2"
+     }
+    }
+   ]
+  },
+  {
+   "id": "deff_rolla",
+   "name": "Deff Rolla",
+   "section": "armoury",
+   "subtype": "Kan and Rolla Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/deff_rolla/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/cumbersome",
+       "name": "Cumbersome",
+       "url": "https://longwarindex.app/special_rules/cumbersome/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      }
+     ],
+     "printed": {
+      "strength": "X2"
+     }
+    }
+   ]
+  },
+  {
+   "id": "grabbin_klaw",
+   "name": "Grabbin Klaw",
+   "section": "armoury",
+   "subtype": "Kan and Rolla Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/grabbin_klaw/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "6",
+     "rules": [
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "klaw_of_gork_mork",
+   "name": "Klaw of Gork/Mork",
+   "section": "armoury",
+   "subtype": "Kan and Rolla Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/klaw_of_gork_mork/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      }
+     ],
+     "printed": {
+      "strength": "X2"
+     }
+    }
+   ]
+  },
+  {
+   "id": "choppa",
+   "name": "Choppa",
+   "section": "armoury",
+   "subtype": "Stabba Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/choppa/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "6",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "big_choppa",
+   "name": "Big Choppa",
+   "section": "armoury",
+   "subtype": "Stabba Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/big_choppa/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "5",
+     "rules": []
+    }
+   ]
+  },
+  {
+   "id": "uge_choppa",
+   "name": "Uge Choppa",
+   "section": "armoury",
+   "subtype": "Stabba Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/uge_choppa/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/two_handed",
+       "name": "Two-Handed",
+       "url": "https://longwarindex.app/special_rules/two_handed/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kombi_skorcha",
+   "name": "Kombi Skorcha",
+   "section": "armoury",
+   "subtype": "Kombi Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/kombi_skorcha/",
+   "profiles": [
+    {
+     "name": "Kombi Skorcha (Shoota)",
+     "type": "Assault 2",
+     "range": "18\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/combi",
+       "name": "Combi",
+       "url": "https://longwarindex.app/special_rules/combi/"
+      }
+     ]
+    },
+    {
+     "name": "Kombi Skorcha (Skorcha)",
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      },
+      {
+       "rule": "special_rules/ammo",
+       "name": "Ammo",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/ammo/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kombi_rokkit",
+   "name": "Kombi Rokkit",
+   "section": "armoury",
+   "subtype": "Kombi Weapons",
+   "page": 15,
+   "url": "https://longwarindex.app/weapons/kombi_rokkit/",
+   "profiles": [
+    {
+     "name": "Kombi Rokkit (Shoota)",
+     "type": "Assault 2",
+     "range": "18\"",
+     "strength": "4",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/combi",
+       "name": "Combi",
+       "url": "https://longwarindex.app/special_rules/combi/"
+      }
+     ]
+    },
+    {
+     "name": "Kombi Rokkit (Rokkit)",
+     "type": "Assault 1",
+     "range": "36\"",
+     "strength": "8",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/ammo",
+       "name": "Ammo",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/ammo/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "headwoppas_killchoppa",
+   "name": "Headwoppa's Killchoppa",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/headwoppas_killchoppa/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Big Choppa for this relic for 15pts.",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/swift_strike",
+       "name": "Swift Strike",
+       "url": "https://longwarindex.app/special_rules/swift_strike/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "da_dead_shiny_shoota",
+   "name": "Da Dead Shiny Shoota",
+   "section": "other",
+   "subtype": "Relics",
+   "page": 9,
+   "url": "https://longwarindex.app/wargear/da_dead_shiny_shoota/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Shoota or Kustom Shoota for this relic for 5pts.",
+   "profiles": [
+    {
+     "type": "Assault 6",
+     "range": "18\"",
+     "strength": "5",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "power_vomit",
+   "name": "Power Vomit",
+   "section": "other",
+   "subtype": "WAAAGH Psychic Powers",
+   "page": 17,
+   "url": "https://longwarindex.app/powers/power_vomit/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "12\"",
+     "strength": "User",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      },
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "frazzle",
+   "name": "Frazzle",
+   "section": "other",
+   "subtype": "WAAAGH Psychic Powers",
+   "page": 17,
+   "url": "https://longwarindex.app/powers/frazzle/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "24\"",
+     "strength": "6",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Small",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kill_bolt",
+   "name": "Kill Bolt",
+   "section": "other",
+   "subtype": "WAAAGH Psychic Powers",
+   "page": 17,
+   "url": "https://longwarindex.app/powers/kill_bolt/",
+   "profiles": [
+    {
+     "type": "Assault 1",
+     "range": "8\"",
+     "strength": "7",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/lance",
+       "name": "Lance",
+       "url": "https://longwarindex.app/special_rules/lance/"
+      },
+      {
+       "rule": "special_rules/spray",
+       "name": "Spray",
+       "url": "https://longwarindex.app/special_rules/spray/"
+      },
+      {
+       "rule": "special_rules/psychic_weapon",
+       "name": "Psychic Weapon",
+       "url": "https://longwarindex.app/special_rules/psychic_weapon/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mek_arms",
+   "name": "Mek Arms",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 41,
+   "url": "https://longwarindex.app/wargear/mek_arms/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blitz_missiles",
+   "name": "Blitz Missiles",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 42,
+   "url": "https://longwarindex.app/wargear/blitz_missiles/",
+   "profiles": [
+    {
+     "type": "Assault 2",
+     "range": "18\"",
+     "strength": "6",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/ammo",
+       "name": "Ammo",
+       "param": "2",
+       "url": "https://longwarindex.app/special_rules/ammo/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "da_vulcha_klaw",
+   "name": "Da Vulcha Klaw",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 42,
+   "url": "https://longwarindex.app/wargear/da_vulcha_klaw/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+4",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "morks_teeth",
+   "name": "Morks Teeth",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 43,
+   "url": "https://longwarindex.app/wargear/morks_teeth/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      },
+      {
+       "rule": "special_rules/precision_hits",
+       "name": "Precision Hits",
+       "url": "https://longwarindex.app/special_rules/precision_hits/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "da_pain_klaw",
+   "name": "Da Pain Klaw",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 44,
+   "url": "https://longwarindex.app/wargear/da_pain_klaw/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+4",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "param": "Monsters",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "big_chompas_jaws",
+   "name": "Big Chompa's Jaws",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 45,
+   "url": "https://longwarindex.app/wargear/big_chompas_jaws/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "7",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gutrippa",
+   "name": "Gutrippa",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 45,
+   "url": "https://longwarindex.app/wargear/gutrippa/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+4",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "da_grabzappa",
+   "name": "Da Grabzappa",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 46,
+   "url": "https://longwarindex.app/wargear/da_grabzappa/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+1",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/arcing",
+       "name": "Arcing",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/arcing/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kustom_blasta_x",
+   "name": "Kustom Blasta X",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 47,
+   "url": "https://longwarindex.app/wargear/kustom_blasta_x/",
+   "profiles": [
+    {
+     "type": "Assault 4",
+     "range": "24\"",
+     "strength": "6",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "moonchewa",
+   "name": "Moonchewa",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 47,
+   "url": "https://longwarindex.app/wargear/moonchewa/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ],
+     "printed": {
+      "strength": "X2"
+     }
+    }
+   ]
+  },
+  {
+   "id": "psyko_gatler",
+   "name": "Psyko-Gatler",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 48,
+   "url": "https://longwarindex.app/wargear/psyko_gatler/",
+   "profiles": [
+    {
+     "type": "Assault 9",
+     "range": "24\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/arcing",
+       "name": "Arcing",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/arcing/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grabba_dragga",
+   "name": "Grabba Dragga",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 48,
+   "url": "https://longwarindex.app/wargear/grabba_dragga/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "param": "Bike",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      }
+     ],
+     "printed": {
+      "strength": "X2"
+     }
+    }
+   ]
+  },
+  {
+   "id": "roar_of_mork",
+   "name": "Roar of Mork",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 49,
+   "url": "https://longwarindex.app/wargear/roar_of_mork/",
+   "profiles": [
+    {
+     "type": "Assault 9",
+     "range": "36\"",
+     "strength": "5",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/linked",
+       "name": "Linked",
+       "url": "https://longwarindex.app/special_rules/linked/"
+      },
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "klaw_of_gork",
+   "name": "Klaw of Gork",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 49,
+   "url": "https://longwarindex.app/wargear/klaw_of_gork/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      }
+     ],
+     "printed": {
+      "strength": "X2"
+     }
+    }
+   ]
+  },
+  {
+   "id": "powa_hamma",
+   "name": "Powa Hamma",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 76,
+   "url": "https://longwarindex.app/wargear/powa_hamma/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "krusha_fists",
+   "name": "Krusha Fists",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 76,
+   "url": "https://longwarindex.app/wargear/krusha_fists/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/specialist_weapon",
+       "name": "Specialist Weapon",
+       "url": "https://longwarindex.app/special_rules/specialist_weapon/"
+      },
+      {
+       "rule": "special_rules/concussive",
+       "name": "Concussive",
+       "url": "https://longwarindex.app/special_rules/concussive/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gorin_horns",
+   "name": "Gorin Horns",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 79,
+   "url": "https://longwarindex.app/wargear/gorin_horns/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      },
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "titanic_stomp",
+   "name": "Titanic Stomp",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 30,
+   "url": "https://longwarindex.app/wargear/titanic_stomp_orks/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "3+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/cumbersome",
+       "name": "Cumbersome",
+       "url": "https://longwarindex.app/special_rules/cumbersome/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mega_choppa",
+   "name": "Mega Choppa",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 30,
+   "url": "https://longwarindex.app/wargear/mega_choppa/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/sweeping",
+       "name": "Sweeping",
+       "param": "3",
+       "url": "https://longwarindex.app/special_rules/sweeping/"
+      },
+      {
+       "rule": "special_rules/macro",
+       "name": "Macro",
+       "url": "https://longwarindex.app/special_rules/macro/"
+      },
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deff_kannon",
+   "name": "Deff Kannon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 30,
+   "url": "https://longwarindex.app/wargear/deff_kannon/",
+   "profiles": [
+    {
+     "type": "Heavy 2",
+     "range": "72\"",
+     "strength": "14",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/sunder",
+       "name": "Sunder",
+       "url": "https://longwarindex.app/special_rules/sunder/"
+      },
+      {
+       "rule": "special_rules/ordnance",
+       "name": "Ordnance",
+       "url": "https://longwarindex.app/special_rules/ordnance/"
+      },
+      {
+       "rule": "special_rules/macro",
+       "name": "Macro",
+       "url": "https://longwarindex.app/special_rules/macro/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "supa_gatler",
+   "name": "Supa Gatler",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 30,
+   "url": "https://longwarindex.app/wargear/supa_gatler/",
+   "profiles": [
+    {
+     "type": "Heavy 10",
+     "range": "36\"",
+     "strength": "5",
+     "ap": "5",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "super_rokkits",
+   "name": "Super Rokkits",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 30,
+   "url": "https://longwarindex.app/wargear/super_rokkits/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "120\"",
+     "strength": "12",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/ammo",
+       "name": "Ammo",
+       "param": "1",
+       "url": "https://longwarindex.app/special_rules/ammo/"
+      },
+      {
+       "rule": "special_rules/macro",
+       "name": "Macro",
+       "url": "https://longwarindex.app/special_rules/macro/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gaze_of_mork",
+   "name": "Gaze of Mork",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 31,
+   "url": "https://longwarindex.app/wargear/gaze_of_mork/",
+   "profiles": [
+    {
+     "type": "Heavy 3",
+     "range": "120\"",
+     "strength": "16",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/gets_hot",
+       "name": "Gets Hot!",
+       "url": "https://longwarindex.app/special_rules/gets_hot/"
+      },
+      {
+       "rule": "special_rules/macro",
+       "name": "Macro",
+       "url": "https://longwarindex.app/special_rules/macro/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "belly_gun",
+   "name": "Belly Gun",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 31,
+   "url": "https://longwarindex.app/wargear/belly_gun/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "36\"",
+     "strength": "10",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/macro",
+       "name": "Macro",
+       "url": "https://longwarindex.app/special_rules/macro/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stompa_claw",
+   "name": "Stompa Claw",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 31,
+   "url": "https://longwarindex.app/wargear/stompa_claw/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/macro",
+       "name": "Macro",
+       "url": "https://longwarindex.app/special_rules/macro/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lifta_droppa",
+   "name": "Lifta-Droppa",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 31,
+   "url": "https://longwarindex.app/wargear/lifta_droppa/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "3",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/haywire",
+       "name": "Haywire",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/haywire/"
+      },
+      {
+       "rule": "special_rules/macro",
+       "name": "Macro",
+       "url": "https://longwarindex.app/special_rules/macro/"
+      },
+      {
+       "rule": "special_rules/reach",
+       "name": "Reach",
+       "url": "https://longwarindex.app/special_rules/reach/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "da_rippa",
+   "name": "Da Rippa",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 28,
+   "url": "https://longwarindex.app/wargear/da_rippa/",
+   "profiles": [
+    {
+     "type": "Assault 3",
+     "range": "24\"",
+     "strength": "6",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/master_crafted",
+       "name": "Master-Crafted",
+       "url": "https://longwarindex.app/special_rules/master_crafted/"
+      },
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sceptre_of_da_grc",
+   "name": "Sceptre of Da GRC",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 33,
+   "url": "https://longwarindex.app/wargear/sceptre_of_da_grc/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "-",
+     "rules": [
+      {
+       "rule": "special_rules/bane",
+       "name": "Bane",
+       "param": "Orks",
+       "url": "https://longwarindex.app/special_rules/bane/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "giga_shoota",
+   "name": "Giga Shoota",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 84,
+   "url": "https://longwarindex.app/wargear/giga_shoota/",
+   "profiles": [
+    {
+     "type": "Heavy 9",
+     "range": "36\"",
+     "strength": "7",
+     "ap": "4",
+     "rules": [
+      {
+       "rule": "special_rules/pinning",
+       "name": "Pinning",
+       "url": "https://longwarindex.app/special_rules/pinning/"
+      },
+      {
+       "rule": "special_rules/rending",
+       "name": "Rending",
+       "param": "5+",
+       "url": "https://longwarindex.app/special_rules/rending/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bursta_kannon",
+   "name": "Bursta Kannon",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 84,
+   "url": "https://longwarindex.app/wargear/bursta_kannon/",
+   "profiles": [
+    {
+     "type": "Heavy 1",
+     "range": "48\"",
+     "strength": "10",
+     "ap": "1",
+     "rules": [
+      {
+       "rule": "special_rules/blast",
+       "name": "Blast",
+       "param": "Large",
+       "url": "https://longwarindex.app/special_rules/blast/"
+      },
+      {
+       "rule": "special_rules/ordnance",
+       "name": "Ordnance",
+       "url": "https://longwarindex.app/special_rules/ordnance/"
+      },
+      {
+       "rule": "special_rules/macro",
+       "name": "Macro",
+       "url": "https://longwarindex.app/special_rules/macro/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gork_mork_stomps",
+   "name": "Gork/Mork Stomps",
+   "section": "other",
+   "subtype": "Weapons",
+   "page": 82,
+   "url": "https://longwarindex.app/wargear/gork_mork_stomps/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "User",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/crushing",
+       "name": "Crushing",
+       "param": "4+",
+       "url": "https://longwarindex.app/special_rules/crushing/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/cumbersome",
+       "name": "Cumbersome",
+       "url": "https://longwarindex.app/special_rules/cumbersome/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "data_version": "c2ea130b198ab756",
+ "format": 1,
+ "faction": "ultramarines",
+ "special_rules": [
+  {
+   "id": "codex/ultramarines/allegiances/allegiance_ultramarines",
+   "name": "Allegiance: Ultramarines",
+   "kind": "allegiance",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_ultramarines/",
+   "references": [
+    "universal_special_rules/furious_charge",
+    "universal_special_rules/fade_and_fire",
+    "universal_special_rules/preferred_enemy"
+   ],
+   "text": "All units with the Ultramarines Keyword gain the Allegiance: Ultramarines special rule. The Allegiance: Ultramarines special rule consists of the following rules:\n\n- Codex Doctrine: At the beginning of the first battle round, you may select one of the following codex approved Doctrines to be active for your army:\n    - Assault Doctrine: If this Doctrine is active for your army, all Ultramarines units in your army gain the Furious Charge special rule.\n    - Tactical Doctrine: If this Doctrine is active for your army, all Ultramarines units in your army gain the Fade & Fire special rule.\n    - Devastator Doctrine: If this Doctrine is active for your army, all Ultramarines units in your army gain the Preferred Enemy special rule.\n- Codex Compliant: An Ultramarines army must include at least 1 HQ Choice, 2 Battle Line units, 1 Close Support unit and 1 Fire Support unit."
+  },
+  {
+   "id": "codex/ultramarines/special_rules/armoury_of_the_13th_legion",
+   "name": "Armoury of the 13th Legion",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_13th_legion/",
+   "references": [
+    "codex/ultramarines/allegiances/allegiance_ultramarines",
+    "universal_special_rules/character"
+   ],
+   "text": "Units with Allegiance: Ultramarines have access to additional wargear presented in this supplement in addition to the war gear presented in the core Codex Space Marines.\n\nWargear\n\nAny Ultramarines Infantry, Bike or Walker unit may take a First Company Relic for 1pt per model in the unit.\n\nAny Ultramarines unit with the Character special rule may take a Codex Astartes Copy for 10pts.\n\nWeapons\n\nAny Ultramarines Space Marine Captain or Space Marine Lieutenant model may exchange their equipped Power Axe for an Axe of Ultramar for 5pts.\n\nAny Ultramarines unit may exchange their equipped Boltgun or Heavy Boltgun for a:\n\n- Bellicos Pattern Boltgun for 1pt per model.\n- Bellicos Pattern Heavy Boltgun for 1pt per model."
+  },
+  {
+   "id": "codex/ultramarines/special_rules/master_tactician",
+   "name": "Master Tactician",
+   "kind": "warlord_trait",
+   "page": 11,
+   "url": "https://longwarindex.app/special_rules/master_tactician/",
+   "references": [
+    "universal_special_rules/outflank",
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "If this unit is your Warlord, you may select 2 friendly units to gain the Outflank special rule. In addition, this unit and any attached unit may re-roll Deep Strike results."
+  },
+  {
+   "id": "codex/ultramarines/special_rules/waking_premonition",
+   "name": "Waking Premonition",
+   "kind": "warlord_trait",
+   "page": 12,
+   "url": "https://longwarindex.app/special_rules/waking_premonition/",
+   "text": "If this unit is in your army and your Warlord, at the start of the first turn, before the first turn begins, you may re-deploy one unit in your army as if it were the Deployment Step."
+  },
+  {
+   "id": "codex/ultramarines/special_rules/combi",
+   "name": "Combi",
+   "kind": "weapon",
+   "page": 13,
+   "url": "https://longwarindex.app/special_rules/combi_ultramarines/",
+   "replaces": "special_rules/combi",
+   "references": [
+    "universal_special_rules/firing_protocols"
+   ],
+   "text": "A weapon with this trait is made of two weapons. You do not require the Firing Protocols special rule to fire both weapons in a shooting phase however and are treated as one weapon for all other purposes."
+  },
+  {
+   "id": "codex/ultramarines/special_rules/inspired_retribution",
+   "name": "Inspired Retribution",
+   "kind": "warlord_trait",
+   "page": 13,
+   "url": "https://longwarindex.app/special_rules/inspired_retribution/",
+   "references": [
+    "special_rules/gets_hot"
+   ],
+   "text": "If this unit is your Warlord, any attacks against this unit or its attached unit in the Combat Phase are resolved as if they had the Gets Hot! Special rule."
+  },
+  {
+   "id": "codex/ultramarines/special_rules/captain_of_the_victrix_guard",
+   "name": "Captain of the Victrix Guard",
+   "kind": "datasheet",
+   "page": 14,
+   "url": "https://longwarindex.app/special_rules/captain_of_the_victrix_guard/",
+   "text": "if this unit is in your army, you may include 1 unit of Victrix Honour Guard without taking up a Force Organization Slot.",
+   "effects": {
+    "list_building": {
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/ultramarines/roster/victrix_honour_guard"
+       }
+      ],
+      "count": 1
+     }
+    }
+   }
+  },
+  {
+   "id": "codex/ultramarines/special_rules/paragon_of_war",
+   "name": "Paragon of War",
+   "kind": "warlord_trait",
+   "page": 14,
+   "url": "https://longwarindex.app/special_rules/paragon_of_war/",
+   "references": [
+    "special_rules/murderous_strike"
+   ],
+   "text": "If this unit is your Warlord, they gain the Murderous Strike (6+) special rule on their equipped Talassarian Tempest Blade.",
+   "effects": {
+    "while_warlord": {
+     "weapon_rules": [
+      {
+       "rule": "special_rules/murderous_strike",
+       "name": "Murderous Strike",
+       "param": "6+",
+       "url": "https://longwarindex.app/special_rules/murderous_strike/",
+       "weapons": [
+        {
+         "kind": "weapon",
+         "id": "the_talassarian_tempest_blade"
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/ultramarines/special_rules/teacher_of_heroes",
+   "name": "Teacher of Heroes",
+   "kind": "warlord_trait",
+   "page": 15,
+   "url": "https://longwarindex.app/special_rules/teacher_of_heroes/",
+   "text": "If this unit is Warlord, any Scout Squad units in your army gains +1 to their Ballistic Skill (BS) & Weapon Skill (WS) characteristics.",
+   "effects": {
+    "while_warlord": {
+     "stat_grants": [
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Scout Squad"
+         ]
+        }
+       ],
+       "characteristic": "BS",
+       "delta": 1,
+       "quote": "If this unit is Warlord, any Scout Squad units in your army gains +1 to their Ballistic Skill (BS) & Weapon Skill (WS) characteristics."
+      },
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Scout Squad"
+         ]
+        }
+       ],
+       "characteristic": "WS",
+       "delta": 1,
+       "quote": "If this unit is Warlord, any Scout Squad units in your army gains +1 to their Ballistic Skill (BS) & Weapon Skill (WS) characteristics."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/ultramarines/special_rules/righteous_fury",
+   "name": "Righteous Fury",
+   "kind": "datasheet",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/righteous_fury/",
+   "text": "Once per battle, at the start of any phase, this unit automatically wounds and penetrate on a roll of a 4+ regardless of the targets Toughness (T) characteristic or Armor Value (AV) characteristic. In addition, this unit heals all lost wounds when this special rule is activated."
+  },
+  {
+   "id": "codex/ultramarines/special_rules/bound_astropath",
+   "name": "Bound Astropath",
+   "kind": "datasheet",
+   "page": 18,
+   "url": "https://longwarindex.app/special_rules/bound_astropath/",
+   "references": [
+    "universal_special_rules/psyker",
+    "universal_special_rules/deny_the_witch",
+    "universal_special_rules/indomitable_spirit"
+   ],
+   "text": "While Dainal Kornelius is alive and part of this unit, the unit gains the Psyker (1), Deny the Witch and Indomitable Spirit (4+) special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/"
+     },
+     {
+      "rule": "universal_special_rules/deny_the_witch",
+      "name": "Deny the Witch",
+      "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+     },
+     {
+      "rule": "universal_special_rules/indomitable_spirit",
+      "name": "Indomitable Spirit",
+      "param": "4+",
+      "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+     }
+    ],
+    "while_unit_has_profile": "Dainal Kornelius"
+   }
+  },
+  {
+   "id": "codex/ultramarines/special_rules/command_of_titus",
+   "name": "Command of Titus",
+   "kind": "datasheet",
+   "page": 18,
+   "url": "https://longwarindex.app/special_rules/command_of_titus/",
+   "text": "This unit may only be included in your army if your army includes Captain Titus, Master of the Watch is in your army.",
+   "effects": {
+    "list_building": {
+     "requires_in_army": [
+      "codex/ultramarines/roster/captain_titus_master_of_the_watch"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/ultramarines/special_rules/fleet_command",
+   "name": "Fleet Command",
+   "kind": "datasheet",
+   "page": 18,
+   "url": "https://longwarindex.app/special_rules/fleet_command/",
+   "references": [
+    "universal_special_rules/outflank",
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "While Gaius Silva is alive and part of this unit, you may re-roll Outflank and Deep Strike Rolls for your army."
+  },
+  {
+   "id": "codex/ultramarines/special_rules/auxilia_legate",
+   "name": "Auxilia Legate",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/auxilia_legate/",
+   "text": "If Captain Titus, Master of the Watch is your Warlord, you may field units from Codex – Imperial Guard as part of your Primary attachment.",
+   "effects": {
+    "list_building": {
+     "opens": [
+      {
+       "faction": "imperial_guard"
+      }
+     ],
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/ultramarines/roster/captain_titus_master_of_the_watch"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/ultramarines/special_rules/practiced_diplomacy",
+   "name": "Practiced Diplomacy",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/practiced_diplomacy/",
+   "text": "If Captain Titus, Master of the Watch is your Warlord, you may field units from Codex – Sisters of Battle and Codex – Imperial Agents as part of your Primary attachment.",
+   "effects": {
+    "list_building": {
+     "opens": [
+      {
+       "faction": "sisters_of_battle"
+      },
+      {
+       "faction": "imperial_agents"
+      }
+     ],
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/ultramarines/roster/captain_titus_master_of_the_watch"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/ultramarines/special_rules/hyper_logistician",
+   "name": "Hyper Logistician",
+   "kind": "datasheet",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/hyper_logistician/",
+   "references": [
+    "special_rules/ammo"
+   ],
+   "text": "If this unit is included in your army, ignore the Ammo (x) rule on all weapons equipped by Ultramarines units.",
+   "effects": {
+    "suppresses_weapon_rules": {
+     "rules": [
+      {
+       "rule": "special_rules/ammo",
+       "name": "Ammo",
+       "url": "https://longwarindex.app/special_rules/ammo/"
+      }
+     ],
+     "filter": {
+      "keywords": [
+       "Ultramarines"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "codex/ultramarines/special_rules/primarch_of_the_xviii",
+   "name": "Primarch of the XVIII",
+   "kind": "warlord_trait",
+   "page": 20,
+   "url": "https://longwarindex.app/special_rules/primarch_of_the_xviii/",
+   "references": [
+    "codex/ultramarines/allegiances/allegiance_ultramarines"
+   ],
+   "text": "If this model is included in your army, it must be your Warlord. Friendly Ultramarines units that can draw visibility to this unit may use this units Leadership (LD) characteristic. While This unit is alive and, on the Battlefield, you may select 2 Doctrines to be active for the Codex Doctrine special rule (see Ultramarines allegiance).",
+   "effects": {
+    "list_building": {
+     "mandates_warlord": true
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,1346 @@
+{
+ "data_version": "e14e7bc35ae9bdc6",
+ "format": 1,
+ "faction": "necron_dynasties",
+ "codex": {
+  "id": "codex/necron_dynasties",
+  "name": "Necron Dynasties",
+  "page": 5,
+  "url": "https://longwarindex.app/codex/necron_dynasties/",
+  "parent": null,
+  "army_rules": [
+   {
+    "rule": "codex/necron_dynasties/special_rules/command_protocols",
+    "name": "Command Protocols",
+    "url": "https://longwarindex.app/special_rules/command_protocols/"
+   },
+   {
+    "rule": "codex/necron_dynasties/special_rules/destroyer_cult",
+    "name": "Destroyer Cult",
+    "url": "https://longwarindex.app/special_rules/destroyer_cult/"
+   },
+   {
+    "rule": "codex/necron_dynasties/special_rules/living_metal",
+    "name": "Living Metal",
+    "url": "https://longwarindex.app/special_rules/living_metal/"
+   },
+   {
+    "rule": "codex/necron_dynasties/special_rules/quantum_shielding",
+    "name": "Quantum Shielding",
+    "url": "https://longwarindex.app/special_rules/quantum_shielding/"
+   },
+   {
+    "rule": "codex/necron_dynasties/special_rules/reanimation_protocols",
+    "name": "Reanimation Protocols",
+    "url": "https://longwarindex.app/special_rules/reanimation_protocols/"
+   }
+  ],
+  "allies": {
+   "printed": "Necrons may take Allies from the following armies:",
+   "page": 22,
+   "url": "https://longwarindex.app/allies/necron_allies/",
+   "factions": [
+    {
+     "faction": "necron_dynasties"
+    }
+   ]
+  },
+  "starting_pool": null,
+  "restrictions": [
+   {
+    "id": "destroyer_cult_ratio",
+    "page": 5,
+    "url": "https://longwarindex.app/special_rules/destroyer_cult/",
+    "printed": "You may not include more units with Destroyer Cult keyword in your army than units with the Dynasty Keyword.",
+    "scope": "army",
+    "ratio": {
+     "limited": [
+      {
+       "keyword": "Destroyer Cult"
+      }
+     ],
+     "per": 1,
+     "of": [
+      {
+       "keyword": "[Dynasty]"
+      }
+     ]
+    }
+   }
+  ],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/necron_dynasties/rites_of_war/necron_decurion",
+    "codex/necron_dynasties/rites_of_war/cult_of_the_destroyer",
+    "codex/necron_dynasties/rites_of_war/hands_of_the_triarchy",
+    "codex/necron_dynasties/rites_of_war/the_tomb_guard",
+    "codex/necron_dynasties/rites_of_war/canoptek_guardians"
+   ],
+   "from_parent": [],
+   "banned_from_parent": []
+  },
+  "unit_list": {
+   "page": 21,
+   "url": "https://longwarindex.app/unit_list/necron_dynasties_unit_list/",
+   "entries": [
+    {
+     "datasheet": "codex/necron_dynasties/roster/anrakyr_the_traveller",
+     "printed": "Anrakyr the Traveller",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/cryptek",
+     "printed": "Cryptek",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/illuminor_szeras",
+     "printed": "Illuminor Szeras",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/imotekh_the_stormlord",
+     "printed": "Imotekh the Stormlord",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/kutlakh_the_world_killer",
+     "printed": "Kutlakh the World Killer",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/lokhust_destroyer_lord",
+     "printed": "Lokhust Destroyer Lord",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/necron_lord",
+     "printed": "Necron Lord",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/nekrosor_ammentar",
+     "printed": "Nekrosor Ammentar",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/nemesor_zahndrekh_and_vargard_obyron",
+     "printed": "Nemesor Zahndrekh & Vargard Obyron",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/orikan_the_diviner",
+     "printed": "Orikan the Diviner",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/royal_warden",
+     "printed": "Royal Warden",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/skorpekh_destroyer_lord",
+     "printed": "Skorpekh Destroyer Lord",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/toholk_the_blinded",
+     "printed": "Toholk the Blinded",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/trazyn_the_infinite",
+     "printed": "Trazyn the Infinite",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/canoptek_scarab_swarms",
+     "printed": "Canoptek Scarab Swarms",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/necron_warriors",
+     "printed": "Necron Warriors",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/canoptek_reanimator",
+     "printed": "Canoptek Reanimator",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/canoptek_spyder",
+     "printed": "Canoptek Spyder",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/canoptek_tomb_stalker",
+     "printed": "Canoptek Tomb Stalker",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/cryptothralls",
+     "printed": "Cryptothralls",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/hexmark_destroyer",
+     "printed": "Hexmark Destroyer",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/necron_deathmarks",
+     "printed": "Necron Deathmarks",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/necron_flayed_ones",
+     "printed": "Necron Flayed Ones",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/necron_immortals",
+     "printed": "Necron Immortals",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/necron_lychguard",
+     "printed": "Necron Lychguard",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/triarch_praetorians",
+     "printed": "Triarch Praetorians",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/ghost_ark",
+     "printed": "Ghost Ark",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/doom_scythe",
+     "printed": "Doom Scythe",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/night_scythe",
+     "printed": "Night Scythe",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/night_shroud",
+     "printed": "Night Shroud",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/canoptek_acanthrites",
+     "printed": "Canoptek Acanthrites",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/canoptek_tomb_sentinel",
+     "printed": "Canoptek Tomb Sentinel",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/canoptek_wraiths",
+     "printed": "Canoptek Wraiths",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/ophydian_destroyers",
+     "printed": "Ophydian Destroyers",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/tomb_blades",
+     "printed": "Tomb Blades",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/annihilation_barge",
+     "printed": "Annihilation Barge",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/canoptek_doomstalker",
+     "printed": "Canoptek Doomstalker",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/doomsday_ark",
+     "printed": "Doomsday Ark",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/lokhust_destroyer",
+     "printed": "Lokhust Destroyer",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/monolith",
+     "printed": "Monolith",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/skorpekh_destroyer",
+     "printed": "Skorpekh Destroyer",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/tesseract_ark",
+     "printed": "Tesseract Ark",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/triarch_stalker",
+     "printed": "Triarch Stalker",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/ctan_shard_of_the_deceiver",
+     "printed": "C'tan Shard of the Deceiver",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/ctan_shard_of_the_nightbringer",
+     "printed": "C'tan Shard of the Nightbringer",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/ctan_shard_of_the_void_dragon",
+     "printed": "C'tan Shard of the Void Dragon",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/seraptek_heavy_construct",
+     "printed": "Seraptek Heavy Construct",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/tesseract_vault",
+     "printed": "Tesseract Vault",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/the_silent_king",
+     "printed": "The Silent King",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/transcendent_ctan",
+     "printed": "Transcendent C'tan",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/convergence_of_dominion",
+     "printed": "Convergence of Dominion",
+     "role": "Fortification"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/gauss_pylon",
+     "printed": "Gauss Pylon",
+     "role": "Fortification"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/obelisk",
+     "printed": "Obelisk",
+     "role": "Fortification"
+    },
+    {
+     "datasheet": "codex/necron_dynasties/roster/sentry_pylon",
+     "printed": "Sentry Pylon",
+     "role": "Fortification"
+    }
+   ]
+  },
+  "keyword_templates": [
+   {
+    "template": "[Dynasty]",
+    "substitution": {
+     "by": "allegiance"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/necron_dynasties/allegiances/sautekh",
+   "name": "Allegiance: Sautekh",
+   "page": 20,
+   "url": "https://longwarindex.app/allegiances/sautekh/",
+   "offered_by": {
+    "codex": "necron_dynasties"
+   },
+   "keyword_substitution": {
+    "template": "[Dynasty]",
+    "value": "Sautekh"
+   },
+   "rule": {
+    "rule": "codex/necron_dynasties/allegiances/sautekh",
+    "name": "Sautekh",
+    "printed": "codex/necron_dynasties/allegiances/sautekh",
+    "url": "https://longwarindex.app/allegiances/sautekh/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "sautekh_stormlord_warlord",
+     "printed": "If Imotekh the Stormlord is in your army, he must be your Warlord.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/imotekh_the_stormlord"
+       }
+      ],
+      "if_present": true
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "sautekh_terror_of_the_storm_fear",
+     "printed": "Terror of the Storm: Sautekh units gain the Fear (1) special rule and may re-roll Living Metal rolls of 1.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Sautekh"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/fear",
+        "name": "Fear",
+        "param": "1",
+        "url": "https://longwarindex.app/universal_special_rules/fear/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "Terror of the Storm: Sautekh units gain the Fear (1) special rule and may re-roll Living Metal rolls of 1.",
+    "Sautekh units in your army with the Character special rule must declare a charge if there are any enemy units within charge range at the start of the Charge Phase."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/necron_dynasties/allegiances/szarekhan",
+   "name": "Allegiance: Szarekhan",
+   "page": 20,
+   "url": "https://longwarindex.app/allegiances/szarekhan/",
+   "offered_by": {
+    "codex": "necron_dynasties"
+   },
+   "keyword_substitution": {
+    "template": "[Dynasty]",
+    "value": "Szarekhan"
+   },
+   "rule": {
+    "rule": "codex/necron_dynasties/allegiances/szarekhan",
+    "name": "Szarekhan",
+    "printed": "codex/necron_dynasties/allegiances/szarekhan",
+    "url": "https://longwarindex.app/allegiances/szarekhan/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "szarekhan_silent_king_warlord",
+     "printed": "If your army includes the Silent King, he must be your Warlord.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/the_silent_king"
+       }
+      ],
+      "if_present": true
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "szarekhan_under_a_veil_of_silence",
+     "printed": "Under a Veil of Silence: Szarekhan units gain the Adamantium Will and Indomitable Spirit (5+) special rules.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Szarekhan"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/adamantium_will",
+        "name": "Adamantium Will",
+        "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+       },
+       {
+        "rule": "universal_special_rules/indomitable_spirit",
+        "name": "Indomitable Spirit",
+        "param": "5+",
+        "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "szarekhan_hatred_tyranids",
+     "printed": "All Szarekhan units in your army have the Hatred (Tyranids).",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Szarekhan"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/hatred",
+        "name": "Hatred",
+        "param": "Tyranids",
+        "url": "https://longwarindex.app/universal_special_rules/hatred/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/necron_dynasties/allegiances/maynarkh",
+   "name": "Allegiance: Maynarkh",
+   "page": 20,
+   "url": "https://longwarindex.app/allegiances/maynarkh/",
+   "offered_by": {
+    "codex": "necron_dynasties"
+   },
+   "keyword_substitution": {
+    "template": "[Dynasty]",
+    "value": "Maynarkh"
+   },
+   "rule": {
+    "rule": "codex/necron_dynasties/allegiances/maynarkh",
+    "name": "Maynarkh",
+    "printed": "codex/necron_dynasties/allegiances/maynarkh",
+    "url": "https://longwarindex.app/allegiances/maynarkh/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "maynarkh_curse_of_the_flayer",
+     "printed": "Your army must include at least 1 unit of Flayed Ones per 1000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/necron_flayed_ones"
+       }
+      ],
+      "min": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "maynarkh_blood_madness",
+     "printed": "Blood Madness: All Maynarkh units gain the Rage and Frenzy special rules.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Maynarkh"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/rage",
+        "name": "Rage",
+        "url": "https://longwarindex.app/universal_special_rules/rage/"
+       },
+       {
+        "rule": "universal_special_rules/frenzy",
+        "name": "Frenzy",
+        "url": "https://longwarindex.app/universal_special_rules/frenzy/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/necron_dynasties/allegiances/mephrit",
+   "name": "Allegiance: Mephrit",
+   "page": 20,
+   "url": "https://longwarindex.app/allegiances/mephrit/",
+   "offered_by": {
+    "codex": "necron_dynasties"
+   },
+   "keyword_substitution": {
+    "template": "[Dynasty]",
+    "value": "Mephrit"
+   },
+   "rule": {
+    "rule": "codex/necron_dynasties/allegiances/mephrit",
+    "name": "Mephrit",
+    "printed": "codex/necron_dynasties/allegiances/mephrit",
+    "url": "https://longwarindex.app/allegiances/mephrit/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "mephrit_star_destroyers",
+     "printed": "Star Destroyers: Your army must include more Heavy Support choices than Fast Attack choices.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "role": "Heavy Support"
+       }
+      ],
+      "than": [
+       [
+        {
+         "role": "Fast Attack"
+        }
+       ]
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "mephrit_unleashed_solar_fury",
+     "printed": "Unleashed Solar Fury: All Mephrit units increase the range of all Shooting weapons they are equipped with by 6\".",
+     "weapon_stat_mods": {
+      "conditions": [
+       {
+        "keyword": "Mephrit"
+       }
+      ],
+      "weapons": {
+       "shooting": true
+      },
+      "mods": [
+       {
+        "characteristic": "Range",
+        "delta": 6
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/necron_dynasties/allegiances/nepherkh",
+   "name": "Allegiance: Nepherkh",
+   "page": 20,
+   "url": "https://longwarindex.app/allegiances/nepherkh/",
+   "offered_by": {
+    "codex": "necron_dynasties"
+   },
+   "keyword_substitution": {
+    "template": "[Dynasty]",
+    "value": "Nepherkh"
+   },
+   "rule": {
+    "rule": "codex/necron_dynasties/allegiances/nepherkh",
+    "name": "Nepherkh",
+    "printed": "codex/necron_dynasties/allegiances/nepherkh",
+    "url": "https://longwarindex.app/allegiances/nepherkh/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "nepherkh_light_of_the_stars",
+     "printed": "The Light of the Stars: Your army must include more Fast Attack choices than Heavy Support choices.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "role": "Fast Attack"
+       }
+      ],
+      "than": [
+       [
+        {
+         "role": "Heavy Support"
+        }
+       ]
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "nepherkh_skins_of_living_gold_characters",
+     "printed": "Skins of living Gold: Nepherkh units with the Character special rule improve their Armour Save from Reinforced Necrodermis to a 2+ Armour Save (SV) Characteristic.",
+     "stat_mods": {
+      "conditions": [
+       {
+        "keyword": "Nepherkh"
+       },
+       {
+        "rule": {
+         "rule": "universal_special_rules/character",
+         "name": "Character",
+         "url": "https://longwarindex.app/universal_special_rules/character/"
+        }
+       },
+       {
+        "holds": [
+         {
+          "kind": "wargear",
+          "id": "reinforced_necrodermis"
+         }
+        ]
+       }
+      ],
+      "mods": [
+       {
+        "characteristic": "Sv",
+        "delta": -1
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "All other Nepherkh units may re-roll save rolls of 1 against Blast (x) and Spray weapons."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/necron_dynasties/allegiances/nihilakh",
+   "name": "Allegiance: Nihilakh",
+   "page": 20,
+   "url": "https://longwarindex.app/allegiances/nihilakh/",
+   "offered_by": {
+    "codex": "necron_dynasties"
+   },
+   "keyword_substitution": {
+    "template": "[Dynasty]",
+    "value": "Nihilakh"
+   },
+   "rule": {
+    "rule": "codex/necron_dynasties/allegiances/nihilakh",
+    "name": "Nihilakh",
+    "printed": "codex/necron_dynasties/allegiances/nihilakh",
+    "url": "https://longwarindex.app/allegiances/nihilakh/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [
+    {
+     "id": "nihilakh_treasures_of_opulence_characters",
+     "printed": "Treasures of Opulence: All Nihilakh units with the Character special rule gain the Master-Crafted special rule on all weapons they are equipped with.",
+     "weapon_rules": {
+      "conditions": [
+       {
+        "keyword": "Nihilakh"
+       },
+       {
+        "rule": {
+         "rule": "universal_special_rules/character",
+         "name": "Character",
+         "url": "https://longwarindex.app/universal_special_rules/character/"
+        }
+       }
+      ],
+      "rules": [
+       {
+        "rule": "special_rules/master_crafted",
+        "name": "Master-Crafted",
+        "url": "https://longwarindex.app/special_rules/master_crafted/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "All other Nihilakh units may re-roll Hit rolls of 1.",
+    "Arrogant and Proud: Nihilakh units with the Character special rule and their attached unit in your army may not make a Retreat move in the movement phase."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/necron_dynasties/allegiances/novokh",
+   "name": "Allegiance: Novokh",
+   "page": 20,
+   "url": "https://longwarindex.app/allegiances/novokh/",
+   "offered_by": {
+    "codex": "necron_dynasties"
+   },
+   "keyword_substitution": {
+    "template": "[Dynasty]",
+    "value": "Novokh"
+   },
+   "rule": {
+    "rule": "codex/necron_dynasties/allegiances/novokh",
+    "name": "Novokh",
+    "printed": "codex/necron_dynasties/allegiances/novokh",
+    "url": "https://longwarindex.app/allegiances/novokh/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [
+    {
+     "id": "novokh_martial_heritage",
+     "printed": "Martial Heritage: Novokh units gain +1 to their Weapon Skill (WS) Characteristic.",
+     "stat_mods": {
+      "conditions": [
+       {
+        "keyword": "Novokh"
+       }
+      ],
+      "mods": [
+       {
+        "characteristic": "WS",
+        "delta": 1
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "Codes of Combat: During deployment, select a single enemy unit with the Character special rule. If the chosen unit is not slain in the Combat Phase by the end of the game, the Necron player loses 1 Victory Point."
+   ],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/necron_dynasties/rites_of_war/necron_decurion",
+   "name": "Necron Decurion",
+   "page": 15,
+   "url": "https://longwarindex.app/rites_of_war/necron_decurion/",
+   "offered_by": {
+    "codex": "necron_dynasties"
+   },
+   "text": "Restrictions\n\n- Your army must include 1 Necron Lord who must be your Warlord.\n- Your army must include at least 2 Necron Warrior Units and 1 Necron Immortals unit.\n- Your army must include 1 Monolith.\n\nBenefits\n\n- Necron units with the Command Protocols special rule now affect friendly units within 6\" in addition to attached units. If the unit with the Command Protocol special rule is a Catacomb Command Barge, measure from the hull of the model.\n- For each Necron Lord in your Army, you may field 1 unit of Necron Immortals unit without taking up a Force Organization Slot.",
+   "restrictions": [
+    {
+     "id": "necron_decurion_lord_warlord",
+     "printed": "Your army must include 1 Necron Lord who must be your Warlord.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/necron_lord"
+       }
+      ],
+      "min": 1
+     },
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/necron_lord"
+       }
+      ]
+     }
+    },
+    {
+     "id": "necron_decurion_warriors",
+     "printed": "Your army must include at least 2 Necron Warrior Units and 1 Necron Immortals unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/necron_warriors"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "necron_decurion_immortals",
+     "printed": "Your army must include at least 2 Necron Warrior Units and 1 Necron Immortals unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/necron_immortals"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "necron_decurion_monolith",
+     "printed": "Your army must include 1 Monolith.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/monolith"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "necron_decurion_immortals_unslotted",
+     "printed": "For each Necron Lord in your Army, you may field 1 unit of Necron Immortals unit without taking up a Force Organization Slot.",
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/necron_immortals"
+       }
+      ],
+      "count": 1,
+      "per_unit": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/necron_lord"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "Necron units with the Command Protocols special rule now affect friendly units within 6\" in addition to attached units. If the unit with the Command Protocol special rule is a Catacomb Command Barge, measure from the hull of the model."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/necron_dynasties/rites_of_war/cult_of_the_destroyer",
+   "name": "Cult of the Destroyer",
+   "page": 16,
+   "url": "https://longwarindex.app/rites_of_war/cult_of_the_destroyer/",
+   "offered_by": {
+    "codex": "necron_dynasties"
+   },
+   "text": "Restrictions\n\n- You may only include units in your army with the Destroyer Cult Keyword.\n- You may not Purchase Relic Wargear for your army.\n\nBenefits\n\n- You are not required to field Dynasty units in your army as required by the Destroyer Cult special rule.\n- You may field Lokhust Destroyers as Troops choices.\n- You may field Skorpekh Destroyers as Elites Choices.",
+   "restrictions": [
+    {
+     "id": "cult_of_the_destroyer_only_destroyer_cult",
+     "printed": "You may only include units in your army with the Destroyer Cult Keyword.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "keyword": "Destroyer Cult"
+       }
+      ]
+     }
+    },
+    {
+     "id": "cult_of_the_destroyer_no_relics",
+     "printed": "You may not Purchase Relic Wargear for your army.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "necron_dynasties",
+        "group": "relics"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "cult_of_the_destroyer_no_dynasty_ratio",
+     "printed": "You are not required to field Dynasty units in your army as required by the Destroyer Cult special rule.",
+     "ratio_change": {
+      "restriction": {
+       "id": "destroyer_cult_ratio"
+      },
+      "removed": true
+     }
+    },
+    {
+     "id": "cult_of_the_destroyer_lokhust_destroyers_troops",
+     "printed": "You may field Lokhust Destroyers as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/lokhust_destroyer"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "cult_of_the_destroyer_skorpekh_destroyers_elites",
+     "printed": "You may field Skorpekh Destroyers as Elites Choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/skorpekh_destroyer"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/necron_dynasties/rites_of_war/hands_of_the_triarchy",
+   "name": "Hands of the Triarchy",
+   "page": 17,
+   "url": "https://longwarindex.app/rites_of_war/hands_of_the_triarchy/",
+   "offered_by": {
+    "codex": "necron_dynasties"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 2 units of Triarch Praetorians.\n- You may only include units in your army with the Triarch, Canoptek, Dynastic Agents keywords.\n- If the Silent King is in your army, he must be the Warlord.\n\nBenefits\n\n- Triarch Praetorians may be fielded as Troops Choices instead of Elite choices.\n- You may field the Silent King as a HQ choice instead of a Lord of War Choice.\n- The following units gain the Triarch Keyword:\n    - Ghost Ark\n    - Night Scythe\n    - Doom Scythe\n    - Monolith\n    - Tesseract Vault",
+   "restrictions": [
+    {
+     "id": "hands_of_the_triarchy_praetorians",
+     "printed": "Your army must include at least 2 units of Triarch Praetorians.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/triarch_praetorians"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "hands_of_the_triarchy_only_triarch_canoptek_dynastic_agents",
+     "printed": "You may only include units in your army with the Triarch, Canoptek, Dynastic Agents keywords.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "any_of": [
+         {
+          "keyword": "Triarch"
+         },
+         {
+          "keyword": "Canoptek"
+         },
+         {
+          "keyword": "Dynastic Agents"
+         }
+        ]
+       }
+      ],
+      "except": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/the_silent_king"
+       }
+      ]
+     }
+    },
+    {
+     "id": "hands_of_the_triarchy_silent_king_warlord",
+     "printed": "If the Silent King is in your army, he must be the Warlord.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/the_silent_king"
+       }
+      ],
+      "if_present": true
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "hands_of_the_triarchy_praetorians_troops",
+     "printed": "Triarch Praetorians may be fielded as Troops Choices instead of Elite choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/triarch_praetorians"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "hands_of_the_triarchy_silent_king_hq",
+     "printed": "You may field the Silent King as a HQ choice instead of a Lord of War Choice.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/the_silent_king"
+       }
+      ],
+      "role": "HQ",
+      "instead": true
+     }
+    },
+    {
+     "id": "hands_of_the_triarchy_triarch_keyword",
+     "printed": "The following units gain the Triarch Keyword:",
+     "keywords": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/necron_dynasties/roster/ghost_ark"
+         },
+         {
+          "datasheet": "codex/necron_dynasties/roster/night_scythe"
+         },
+         {
+          "datasheet": "codex/necron_dynasties/roster/doom_scythe"
+         },
+         {
+          "datasheet": "codex/necron_dynasties/roster/monolith"
+         },
+         {
+          "datasheet": "codex/necron_dynasties/roster/tesseract_vault"
+         }
+        ]
+       }
+      ],
+      "add": [
+       "Triarch"
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/necron_dynasties/rites_of_war/the_tomb_guard",
+   "name": "The Tomb Guard",
+   "page": 18,
+   "url": "https://longwarindex.app/rites_of_war/the_tomb_guard/",
+   "offered_by": {
+    "codex": "necron_dynasties"
+   },
+   "text": "Restrictions\n\n- Your army must include at least 2 units of Necron Lychguard.\n- Your army must include at least 1 Necron Lord and 1 Royal Warden units.\n- A Necron Lord must be your Warlord.\n\nBenefits\n\n- Necron Lychguard may be fielded as Troops Choices.\n- You may field 2 Crypteks and Royal Warden units per HQ Slot.\n- Necron Lychguard in your army may purchase Undying Necrodermis for 2pts per model.\n\nUndying Necrodermis",
+   "restrictions": [
+    {
+     "id": "the_tomb_guard_lychguard",
+     "printed": "Your army must include at least 2 units of Necron Lychguard.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/necron_lychguard"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "the_tomb_guard_lord",
+     "printed": "Your army must include at least 1 Necron Lord and 1 Royal Warden units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/necron_lord"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "the_tomb_guard_royal_warden",
+     "printed": "Your army must include at least 1 Necron Lord and 1 Royal Warden units.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/royal_warden"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "the_tomb_guard_lord_warlord",
+     "printed": "A Necron Lord must be your Warlord.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/necron_lord"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "the_tomb_guard_lychguard_troops",
+     "printed": "Necron Lychguard may be fielded as Troops Choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/necron_lychguard"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "the_tomb_guard_hq_slot_sharing",
+     "printed": "You may field 2 Crypteks and Royal Warden units per HQ Slot.",
+     "hq_slot_sharing": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/necron_dynasties/roster/cryptek"
+         },
+         {
+          "datasheet": "codex/necron_dynasties/roster/royal_warden"
+         }
+        ]
+       }
+      ],
+      "units_per_slot": 2
+     }
+    },
+    {
+     "id": "the_tomb_guard_undying_necrodermis_option",
+     "printed": "Necron Lychguard in your army may purchase Undying Necrodermis for 2pts per model.",
+     "options": [
+      {
+       "book_options": "necron_dynasties",
+       "group": "the_tomb_guard_undying_necrodermis"
+      }
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/necron_dynasties/rites_of_war/canoptek_guardians",
+   "name": "Canoptek Guardians",
+   "page": 19,
+   "url": "https://longwarindex.app/rites_of_war/canoptek_guardians/",
+   "offered_by": {
+    "codex": "necron_dynasties"
+   },
+   "text": "Restrictions\n\n- You must include at least 2 units of Canoptek Wraiths and at least 1 unit of Canoptek Spyders.\n- Your army must include at least 1 Cryptek unit who must be your Warlord.\n- Your army may only include units with the Canoptek keyword.\n\nBenefits\n\n- You may field Canoptek Spyders as Troops choices.\n- Ignore the Support Squad special rule on Cryptek units in your army.\n- Cryptek units in your army gain the Canoptek keyword.",
+   "restrictions": [
+    {
+     "id": "canoptek_guardians_wraiths",
+     "printed": "You must include at least 2 units of Canoptek Wraiths and at least 1 unit of Canoptek Spyders.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/canoptek_wraiths"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "canoptek_guardians_spyders",
+     "printed": "You must include at least 2 units of Canoptek Wraiths and at least 1 unit of Canoptek Spyders.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/canoptek_spyder"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "canoptek_guardians_cryptek_warlord",
+     "printed": "Your army must include at least 1 Cryptek unit who must be your Warlord.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/cryptek"
+       }
+      ],
+      "min": 1
+     },
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/cryptek"
+       }
+      ]
+     }
+    },
+    {
+     "id": "canoptek_guardians_only_canoptek",
+     "printed": "Your army may only include units with the Canoptek keyword.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "keyword": "Canoptek"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "canoptek_guardians_spyders_troops",
+     "printed": "You may field Canoptek Spyders as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/canoptek_spyder"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "canoptek_guardians_cryptek_support_squad",
+     "printed": "Ignore the Support Squad special rule on Cryptek units in your army.",
+     "suppress_rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/cryptek"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "canoptek_guardians_cryptek_keyword",
+     "printed": "Cryptek units in your army gain the Canoptek keyword.",
+     "keywords": {
+      "conditions": [
+       {
+        "datasheet": "codex/necron_dynasties/roster/cryptek"
+       }
+      ],
+      "add": [
+       "Canoptek"
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

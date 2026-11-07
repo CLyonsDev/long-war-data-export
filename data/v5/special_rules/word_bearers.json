@@ -1,0 +1,168 @@
+{
+ "data_version": "c4100d0157d99a4a",
+ "format": 1,
+ "faction": "word_bearers",
+ "special_rules": [
+  {
+   "id": "codex/word_bearers/special_rules/arch_heretic",
+   "name": "Arch Heretic",
+   "kind": "warlord_trait",
+   "page": 14,
+   "url": "https://longwarindex.app/special_rules/arch_heretic/",
+   "text": "If this unit is your Warlord, you may re-roll Psychic Tests when attempting to cast Psychic Powers from the Ectomancy Psychic Discipline. In addition, you may include units from Codex - Renegades & Heretics as part of your Primary Detachment.",
+   "effects": {
+    "list_building": {
+     "opens": [
+      {
+       "faction": "renegades_and_heretics"
+      }
+     ],
+     "while": [
+      {
+       "warlord": {
+        "datasheet": "codex/word_bearers/roster/high_apostle_erebus"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/word_bearers/allegiances/allegiance_word_bearers",
+   "name": "Allegiance: Word Bearers",
+   "kind": "allegiance",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_word_bearers/",
+   "references": [
+    "universal_special_rules/zealot"
+   ],
+   "text": "All units with the Word Bearers Keyword gain the Allegiance: Word Bearers special rule. The Allegiance: Word Bearers special rule consists of the following rules:\n\n- Warriors of Faith:\n    - All Word Bearers units gain the Zealot special rule.\n    - All Word Bearers units roll 3D6 for all Leadership Tests and take the two lowest results.\n    - Word Bearers units Leadership (Ld) characteristic may not be reduced below 6 as a result of any modifiers. (This trait is included in Word Bearers specific units.)\n- First in Devotion:\n    - Word Bearers units in your army must have a Mark of Chaos.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/zealot",
+      "name": "Zealot",
+      "url": "https://longwarindex.app/universal_special_rules/zealot/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/word_bearers/special_rules/armoury_of_the_17th_legion",
+   "name": "Armoury of the 17th Legion",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_17th_legion/",
+   "references": [
+    "codex/word_bearers/allegiances/allegiance_word_bearers",
+    "codex/word_bearers/special_rules/vor_negreth"
+   ],
+   "text": "Units with Allegiance: Word Bearers have access to additional wargear presented in this supplement in addition to the war gear presented in the core Codex Chaos Space Marines.\n\nChaos Champion Upgrades\n\nA Word Bearers Chaos Champion may purchase the following upgrade in addition to the others available:\n\n- Vor Negreth for 15pts.\n\nWargear\n\nAny Word Bearers unit may purchase Hexagramatic Wards for 2pts per model.\n\nWeapons\n\nAny Word Bearers Chaos Lord or Chaos Champion may:\n\n- Exchange their equipped Power Sword for a Tainted Power Sword for 2pts.\n- Exchange their equipped Power Maul for a Tainted Power Maul for 2pts.\n\nAny Word Bearers model may:\n\n- Exchange their equipped Plasma Pistol for a Warp Fire Pistol for 2pts.\n- Exchange their equipped Plasma Gun for a Warp Fire Gun for 2pts.\n- Exchange their equipped Plasma Blast Blaster for a Warp Fire Blaster for 2pts.\n- Exchange their equipped Plasma Cannon for a Warp Fire Cannon for 2pts."
+  },
+  {
+   "id": "codex/word_bearers/special_rules/chosen_of_chaos",
+   "name": "Chosen of Chaos",
+   "kind": "datasheet",
+   "page": 16,
+   "url": "https://longwarindex.app/special_rules/chosen_of_chaos/",
+   "references": [
+    "codex/chaos_space_marines/special_rules/chaos_boons"
+   ],
+   "text": "Each Anointed unit in your army always makes a roll on the Chaos Boon chart at the beginning of the battle. This does not count towards the number of Chaos Boons your army may have."
+  },
+  {
+   "id": "codex/word_bearers/special_rules/rivals_in_faith_erebus",
+   "name": "Rivals in Faith",
+   "datasheet": "Erebus",
+   "kind": "datasheet",
+   "page": 14,
+   "url": "https://longwarindex.app/special_rules/rivals_in_faith_erebus/",
+   "references": [
+    "universal_special_rules/hatred"
+   ],
+   "text": "You may not include the Black Cardinal Kor Phaeron in your army as part of any allied force. This unit has Hatred (Black Cardinal Kor Phaeron).",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "param": "Black Cardinal Kor Phaeron",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     }
+    ],
+    "list_building": {
+     "forbids_in_allied_detachment": [
+      {
+       "datasheet": "codex/word_bearers/roster/black_cardinal_kor_phaeron"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/word_bearers/special_rules/rivals_in_faith_kor_phaeron",
+   "name": "Rivals in Faith",
+   "datasheet": "Kor Phaeron",
+   "kind": "datasheet",
+   "page": 15,
+   "url": "https://longwarindex.app/special_rules/rivals_in_faith_kor_phaeron/",
+   "references": [
+    "universal_special_rules/hatred"
+   ],
+   "text": "You may not include the High Apostle Erebus in your army as part of any allied force. This unit has Hatred (High Apostle Erebus).",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/hatred",
+      "name": "Hatred",
+      "param": "High Apostle Erebus",
+      "url": "https://longwarindex.app/universal_special_rules/hatred/"
+     }
+    ],
+    "list_building": {
+     "forbids_in_allied_detachment": [
+      {
+       "datasheet": "codex/word_bearers/roster/high_apostle_erebus"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/word_bearers/special_rules/true_undivided",
+   "name": "True Undivided",
+   "kind": "datasheet",
+   "page": 14,
+   "url": "https://longwarindex.app/special_rules/true_undivided/",
+   "text": "At the beginning of each game, during the Deployment Step, you must select which of the following Marks of Chaos Erebus will benefit from that game. (The cost of the Mark is already included in the cost of this unit).\n\n- Mark of Chaos Undivided.\n- Mark of Khorne.\n- Mark of Nurgle.\n- Mark of Slaanesh.\n- Mark of Tzeentch."
+  },
+  {
+   "id": "codex/word_bearers/special_rules/vor_negreth",
+   "name": "Vor Negreth",
+   "kind": "datasheet",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/vor_negreth/",
+   "references": [
+    "universal_special_rules/feel_no_pain",
+    "universal_special_rules/preferred_enemy"
+   ],
+   "text": "A Chaos Champion with this upgrade gains a Narthecium which grants the equipped model and its attached unit the Feel no Pain (5+) special rule. The upgraded model also gains the Preferred Enemy (Space Marines).",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     },
+     {
+      "rule": "universal_special_rules/preferred_enemy",
+      "name": "Preferred Enemy",
+      "param": "Space Marines",
+      "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+     }
+    ]
+   }
+  }
+ ]
+}

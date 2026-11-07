@@ -1,0 +1,1573 @@
+{
+ "data_version": "05242fd9fce675a5",
+ "format": 1,
+ "faction": "orks",
+ "codex": {
+  "id": "codex/orks",
+  "name": "Orks",
+  "page": 1,
+  "url": "https://longwarindex.app/codex/orks/",
+  "parent": null,
+  "army_rules": [
+   {
+    "rule": "codex/orks/special_rules/da_biggest_and_da_strongest",
+    "name": "Da Biggest and Da Strongest",
+    "url": "https://longwarindex.app/special_rules/da_biggest_and_da_strongest/"
+   },
+   {
+    "rule": "codex/orks/special_rules/beast_snagga",
+    "name": "Beast Snagga",
+    "url": "https://longwarindex.app/special_rules/beast_snagga/"
+   },
+   {
+    "rule": "codex/orks/special_rules/breaking_heads",
+    "name": "Breaking Heads",
+    "url": "https://longwarindex.app/special_rules/breaking_heads/"
+   },
+   {
+    "rule": "codex/orks/special_rules/vehicle_mob",
+    "name": "Vehicle Mob",
+    "url": "https://longwarindex.app/special_rules/vehicle_mob/"
+   },
+   {
+    "rule": "codex/orks/special_rules/grot_mob",
+    "name": "Grot Mob",
+    "url": "https://longwarindex.app/special_rules/grot_mob/"
+   },
+   {
+    "rule": "codex/orks/special_rules/waaagh",
+    "name": "WAAAGH!",
+    "url": "https://longwarindex.app/special_rules/waaagh/"
+   }
+  ],
+  "allies": null,
+  "starting_pool": null,
+  "restrictions": [
+   {
+    "id": "da_biggest_and_da_strongest",
+    "page": 6,
+    "url": "https://longwarindex.app/special_rules/da_biggest_and_da_strongest/",
+    "printed": "Your army may only include 1 unit with the Big Boss keyword.",
+    "scope": "army",
+    "units": {
+     "conditions": [
+      {
+       "keyword": "Big Boss"
+      }
+     ],
+     "max": 1
+    }
+   }
+  ],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/orks/rites_of_war/dread_waaagh",
+    "codex/orks/rites_of_war/sneaky_gitz_mob",
+    "codex/orks/rites_of_war/kult_of_speed",
+    "codex/orks/rites_of_war/squigpede",
+    "codex/orks/rites_of_war/blitz_brigade",
+    "codex/orks/rites_of_war/freebooter_krew",
+    "codex/orks/rites_of_war/stompa_mob",
+    "codex/orks/rites_of_war/grotzkrieg"
+   ],
+   "from_parent": [],
+   "banned_from_parent": []
+  },
+  "unit_list": {
+   "page": 35,
+   "url": "https://longwarindex.app/unit_list/orks_unit_list/",
+   "entries": [
+    {
+     "datasheet": "codex/orks/roster/beast_boss",
+     "printed": "Beast Boss",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/orks/roster/boss_snikrot",
+     "printed": "Boss Snikrot",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/orks/roster/boss_zagstruk",
+     "printed": "Boss Zagstruk",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/orks/roster/ghazghkull_uruk_thraka",
+     "printed": "Ghazghkull Uruk Thraka",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/orks/roster/grot_tank_kommander",
+     "printed": "Grot Tank Kommander",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/orks/roster/mek_boss_buzzgob",
+     "printed": "Mek Boss Buzzgob",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/orks/roster/mozrog_skragbad",
+     "printed": "Mozrog Skragbad",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/orks/roster/nazdreg_ug_urdgrub",
+     "printed": "Nazdreg Ug Urdgrub",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/orks/roster/nob_war_leader",
+     "printed": "Nob War Leader",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/orks/roster/warboss",
+     "printed": "Warboss",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/orks/roster/wazdekka_gutsmek",
+     "printed": "Wazdekka Gutsmek",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/orks/roster/zhadsnark_da_rippa",
+     "printed": "Zhadsnark Da Rippa",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/orks/roster/zodgrod_wartsnagga",
+     "printed": "Zodgrod Wartsnagga",
+     "role": "HQ"
+    },
+    {
+     "datasheet": "codex/orks/roster/gretchin_mob",
+     "printed": "Gretchin Mob",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/orks/roster/nob_mob",
+     "printed": "Nob Mob",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/orks/roster/ork_boyz",
+     "printed": "Ork Boyz",
+     "role": "Troops"
+    },
+    {
+     "datasheet": "codex/orks/roster/burna_boyz",
+     "printed": "Burna Boyz",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/orks/roster/deff_dread",
+     "printed": "Deff Dread",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/orks/roster/flash_gitz",
+     "printed": "Flash Gitz",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/orks/roster/grot_tanks",
+     "printed": "Grot Tanks",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/orks/roster/killa_kans",
+     "printed": "Killa Kans",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/orks/roster/kommandos",
+     "printed": "Kommandos",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/orks/roster/lootas",
+     "printed": "Lootas",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/orks/roster/mega_dread",
+     "printed": "Mega Dread",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/orks/roster/mega_nobz",
+     "printed": "Mega Nobz",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/orks/roster/mek_guns",
+     "printed": "Mek Guns",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/orks/roster/mekboy_junka",
+     "printed": "Mekboy Junka",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/orks/roster/tank_bustas",
+     "printed": "Tank Bustas",
+     "role": "Elites"
+    },
+    {
+     "datasheet": "codex/orks/roster/battlewagon",
+     "printed": "Battlewagon",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/orks/roster/big_trukk",
+     "printed": "Big Trukk",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/orks/roster/chinork",
+     "printed": "Chinork",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/orks/roster/trukk",
+     "printed": "Trukk",
+     "role": "Dedicated Transport"
+    },
+    {
+     "datasheet": "codex/orks/roster/ork_jets",
+     "printed": "Ork Jets",
+     "role": "Flyer"
+    },
+    {
+     "datasheet": "codex/orks/roster/deff_koptas",
+     "printed": "Deff Koptas",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/orks/roster/ork_buggy",
+     "printed": "Ork Buggy",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/orks/roster/squig_hog_boyz",
+     "printed": "Squig Hog Boyz",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/orks/roster/storm_boyz",
+     "printed": "Storm Boyz",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/orks/roster/war_bikers",
+     "printed": "War Bikers",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/orks/roster/wartrakk",
+     "printed": "Wartrakk",
+     "role": "Fast Attack"
+    },
+    {
+     "datasheet": "codex/orks/roster/breaka_boyz",
+     "printed": "Breaka Boyz",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/orks/roster/grot_mega_tank",
+     "printed": "Grot Mega Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/orks/roster/hunta_rig",
+     "printed": "Hunta Rig",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/orks/roster/kill_rig",
+     "printed": "Kill Rig",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/orks/roster/looted_tank",
+     "printed": "Looted Tank",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/orks/roster/squiggoth",
+     "printed": "Squiggoth",
+     "role": "Heavy Support"
+    },
+    {
+     "datasheet": "codex/orks/roster/gargantuan_squiggoth",
+     "printed": "Gargantuan Squiggoth",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/orks/roster/gork_morkanaut",
+     "printed": "Gork/Morkanaut",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/orks/roster/kill_tank",
+     "printed": "Kill Tank",
+     "role": "Lords of War"
+    },
+    {
+     "datasheet": "codex/orks/roster/biged_boss_bunka",
+     "printed": "Big'ed Boss Bunka",
+     "role": "Fortification"
+    },
+    {
+     "datasheet": "codex/orks/roster/da_red_gobbo",
+     "printed": "Da Red Gobbo",
+     "role": "Lords of War",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/orks/roster/kaptain_badrukk",
+     "printed": "Kaptain Badrukk",
+     "role": "HQ",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/orks/roster/mek_stompa",
+     "printed": "Mek Stompa",
+     "role": "HQ",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/orks/roster/meka_dread",
+     "printed": "Meka Dread",
+     "role": "HQ",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/orks/roster/nob_war_bikers",
+     "printed": "Nob War Bikers",
+     "role": "Elites",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/orks/roster/squig_mob",
+     "printed": "Squig Mob",
+     "role": "Troops",
+     "appendix": true
+    },
+    {
+     "datasheet": "codex/orks/roster/stompa",
+     "printed": "Stompa",
+     "role": "Lords of War",
+     "appendix": true
+    }
+   ]
+  },
+  "keyword_templates": [
+   {
+    "template": "[Klan]",
+    "substitution": {
+     "by": "allegiance"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/orks/allegiances/goffs",
+   "name": "Allegiance: Goffs",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/goffs/",
+   "offered_by": {
+    "codex": "orks"
+   },
+   "keyword_substitution": {
+    "template": "[Klan]",
+    "value": "Goffs"
+   },
+   "rule": {
+    "rule": "codex/orks/allegiances/goffs",
+    "name": "Goffs",
+    "printed": "codex/orks/allegiances/goffs",
+    "url": "https://longwarindex.app/allegiances/goffs/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [
+    {
+     "id": "goffs_rowdy_fighters",
+     "printed": "Goff Infantry, Jetbike, Cavalry & Bike units gain the Hatred special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Goffs"
+       },
+       {
+        "any_of": [
+         {
+          "unit_type": "Infantry"
+         },
+         {
+          "unit_type": "Jetbike"
+         },
+         {
+          "unit_type": "Cavalry"
+         },
+         {
+          "unit_type": "Bike"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/hatred",
+        "name": "Hatred",
+        "url": "https://longwarindex.app/universal_special_rules/hatred/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "No Muckin About!: Goff units may never set to 8.1.1 - Overwatch or 8.1.2 - Smoke."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/orks/allegiances/bad_moons",
+   "name": "Allegiance: Bad Moons",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/bad_moons/",
+   "offered_by": {
+    "codex": "orks"
+   },
+   "keyword_substitution": {
+    "template": "[Klan]",
+    "value": "Bad Moons"
+   },
+   "rule": {
+    "rule": "codex/orks/allegiances/bad_moons",
+    "name": "Bad Moons",
+    "printed": "codex/orks/allegiances/bad_moons",
+    "url": "https://longwarindex.app/allegiances/bad_moons/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "bad_moons_pretentchas_gitz",
+     "printed": "A Bad Moons army may not take any allied detachments.",
+     "scope": "army",
+     "no_allied_detachment": true
+    }
+   ],
+   "benefits": [],
+   "game_time": [
+    "Armed to da Teef: All Bad Moons Infantry, Jetbike, Cavalry & Bike units gain the Arcing (6+) special rule in the Shooting Phase on all Shooting weapons they are equipped with while targeting an enemy within 12\"."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/orks/allegiances/evil_sunz",
+   "name": "Allegiance: Evil Sunz",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/evil_sunz/",
+   "offered_by": {
+    "codex": "orks"
+   },
+   "keyword_substitution": {
+    "template": "[Klan]",
+    "value": "Evil Sunz"
+   },
+   "rule": {
+    "rule": "codex/orks/allegiances/evil_sunz",
+    "name": "Evil Sunz",
+    "printed": "codex/orks/allegiances/evil_sunz",
+    "url": "https://longwarindex.app/allegiances/evil_sunz/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "evil_sunz_gotta_go_fasta",
+     "printed": "Your army must include more Bikes and Vehicles type units than Infantry type units.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "any_of": [
+         {
+          "unit_type": "Bike"
+         },
+         {
+          "unit_type": "Vehicle"
+         }
+        ]
+       }
+      ],
+      "than": [
+       [
+        {
+         "unit_type": "Infantry"
+        }
+       ]
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "evil_sunz_stunt_drivas_mobile",
+     "printed": "Evil Sunz units with the Vehicle, Aircraft, Jetbike, Bike or Cavalry type gain the Skilled Rider special rule. All other Evil Sunz units gain the Sprint (1) special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Evil Sunz"
+       },
+       {
+        "any_of": [
+         {
+          "unit_type": "Vehicle"
+         },
+         {
+          "unit_type": "Aircraft"
+         },
+         {
+          "unit_type": "Jetbike"
+         },
+         {
+          "unit_type": "Bike"
+         },
+         {
+          "unit_type": "Cavalry"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/skilled_rider",
+        "name": "Skilled Rider",
+        "url": "https://longwarindex.app/universal_special_rules/skilled_rider/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "evil_sunz_stunt_drivas_other",
+     "printed": "Evil Sunz units with the Vehicle, Aircraft, Jetbike, Bike or Cavalry type gain the Skilled Rider special rule. All other Evil Sunz units gain the Sprint (1) special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Evil Sunz"
+       },
+       {
+        "not": {
+         "any_of": [
+          {
+           "unit_type": "Vehicle"
+          },
+          {
+           "unit_type": "Aircraft"
+          },
+          {
+           "unit_type": "Jetbike"
+          },
+          {
+           "unit_type": "Bike"
+          },
+          {
+           "unit_type": "Cavalry"
+          }
+         ]
+        }
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/sprint",
+        "name": "Sprint",
+        "param": "1",
+        "url": "https://longwarindex.app/universal_special_rules/sprint/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/orks/allegiances/death_skullz",
+   "name": "Allegiance: Death Skullz",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/death_skullz/",
+   "offered_by": {
+    "codex": "orks"
+   },
+   "keyword_substitution": {
+    "template": "[Klan]",
+    "value": "Death Skullz"
+   },
+   "rule": {
+    "rule": "codex/orks/allegiances/death_skullz",
+    "name": "Death Skullz",
+    "printed": "codex/orks/allegiances/death_skullz",
+    "url": "https://longwarindex.app/allegiances/death_skullz/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [
+    {
+     "id": "death_skullz_lucky_blue_gitz",
+     "printed": "All Death Skullz Infantry, Jetbike, Cavalry & Bike units have a 6+ Invulnerable save.",
+     "invulnerable_save": {
+      "conditions": [
+       {
+        "keyword": "Death Skullz"
+       },
+       {
+        "any_of": [
+         {
+          "unit_type": "Infantry"
+         },
+         {
+          "unit_type": "Jetbike"
+         },
+         {
+          "unit_type": "Cavalry"
+         },
+         {
+          "unit_type": "Bike"
+         }
+        ]
+       }
+      ],
+      "save": "6+"
+     }
+    }
+   ],
+   "game_time": [
+    "Diz is ours! Zog off!: If a Death Skullz unit is contesting an objective. It may not make any 6.2 - Retreat moves. If the unit would Panic while within 6\" of an Objective marker, it instead does not, and is Pinned instead."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/orks/allegiances/snake_bites",
+   "name": "Allegiance: Snake Bites",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/snake_bites/",
+   "offered_by": {
+    "codex": "orks"
+   },
+   "keyword_substitution": {
+    "template": "[Klan]",
+    "value": "Snake Bites"
+   },
+   "rule": {
+    "rule": "codex/orks/allegiances/snake_bites",
+    "name": "Snake Bites",
+    "printed": "codex/orks/allegiances/snake_bites",
+    "url": "https://longwarindex.app/allegiances/snake_bites/"
+   },
+   "unit_list": null,
+   "restrictions": [],
+   "benefits": [
+    {
+     "id": "snake_bites_savage_ferocity",
+     "printed": "Snake Bites Infantry, Jetbike, Cavalry & Bike units gain the Zealot special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Snake Bites"
+       },
+       {
+        "any_of": [
+         {
+          "unit_type": "Infantry"
+         },
+         {
+          "unit_type": "Jetbike"
+         },
+         {
+          "unit_type": "Cavalry"
+         },
+         {
+          "unit_type": "Bike"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/zealot",
+        "name": "Zealot",
+        "url": "https://longwarindex.app/universal_special_rules/zealot/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "Da Old Ways: Enemy units have +1 to all rolls to Penetrate Snake Bites Vehicles, Aircraft, Knights and Titan type units."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/orks/allegiances/blood_axes",
+   "name": "Allegiance: Blood Axes",
+   "page": 34,
+   "url": "https://longwarindex.app/allegiances/blood_axes/",
+   "offered_by": {
+    "codex": "orks"
+   },
+   "keyword_substitution": {
+    "template": "[Klan]",
+    "value": "Blood Axes"
+   },
+   "rule": {
+    "rule": "codex/orks/allegiances/blood_axes",
+    "name": "Blood Axes",
+    "printed": "codex/orks/allegiances/blood_axes",
+    "url": "https://longwarindex.app/allegiances/blood_axes/"
+   },
+   "unit_list": null,
+   "restrictions": [
+    {
+     "id": "blood_axes_da_plan_ladz",
+     "printed": "Your army must include at least 1 unit of Kommandos for every 1000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/kommandos"
+       }
+      ],
+      "min": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "blood_axes_smart_boyz",
+     "printed": "All Blood Axe Infantry, Jetbike, Cavalry & Bike units in your army gain the Skirmisher special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Blood Axes"
+       },
+       {
+        "any_of": [
+         {
+          "unit_type": "Infantry"
+         },
+         {
+          "unit_type": "Jetbike"
+         },
+         {
+          "unit_type": "Cavalry"
+         },
+         {
+          "unit_type": "Bike"
+         }
+        ]
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/skirmisher",
+        "name": "Skirmisher",
+        "url": "https://longwarindex.app/universal_special_rules/skirmisher/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/orks/rites_of_war/dread_waaagh",
+   "name": "Dread WAAAGH!",
+   "page": 19,
+   "url": "https://longwarindex.app/rites_of_war/dread_waaagh/",
+   "offered_by": {
+    "codex": "orks"
+   },
+   "text": "Requirements\n\n- Your army must include at least 2 units of Killa Kans.\n- Your Warlord must have the Mek keyword.\n- Your army may only include Walker, Knight or Titan type units.\n\nBenefits\n\n- You may field Killa Kans & Deff Dreads as Troops choices instead of Elites choices.\n- You may field Gork/Morkanauts as Heavy Support choices instead of Lords of War choices.\n- You gain access to the Meka Dread unit (see below)",
+   "restrictions": [
+    {
+     "id": "dread_waaagh_killa_kans",
+     "printed": "Your army must include at least 2 units of Killa Kans.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/killa_kans"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "dread_waaagh_warlord_mek",
+     "printed": "Your Warlord must have the Mek keyword.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/orks/roster/meka_dread"
+         },
+         {
+          "datasheet": "codex/orks/roster/mek_boss_buzzgob"
+         },
+         {
+          "rule": {
+           "rule": "codex/orks/special_rules/big_mek",
+           "name": "Big Mek",
+           "url": "https://longwarindex.app/special_rules/big_mek/"
+          }
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "id": "dread_waaagh_walker_only",
+     "printed": "Your army may only include Walker, Knight or Titan type units.",
+     "scope": "detachment",
+     "every_unit": {
+      "must": [
+       {
+        "any_of": [
+         {
+          "unit_type": "Walker"
+         },
+         {
+          "unit_type": "Knight"
+         },
+         {
+          "unit_type": "Titan"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "dread_waaagh_killa_kans_troops",
+     "printed": "You may field Killa Kans & Deff Dreads as Troops choices instead of Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/killa_kans"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "dread_waaagh_deff_dread_troops",
+     "printed": "You may field Killa Kans & Deff Dreads as Troops choices instead of Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/deff_dread"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "dread_waaagh_gorkmorkanauts_heavy_support",
+     "printed": "You may field Gork/Morkanauts as Heavy Support choices instead of Lords of War choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/gork_morkanaut"
+       }
+      ],
+      "role": "Heavy Support",
+      "instead": false
+     }
+    },
+    {
+     "id": "dread_waaagh_meka_dread_access",
+     "printed": "You gain access to the Meka Dread unit (see below)",
+     "unlocks": [
+      "codex/orks/roster/meka_dread"
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/orks/rites_of_war/sneaky_gitz_mob",
+   "name": "Sneaky Gitz Mob",
+   "page": 21,
+   "url": "https://longwarindex.app/rites_of_war/sneaky_gitz_mob/",
+   "offered_by": {
+    "codex": "orks"
+   },
+   "text": "Requirements\n\n- Your army must include at least 2 units of Kommandos.\n- Your Warlord must have the Kunnin but Brutal Warlord trait.\n- Your army must include at least 2 Fast Attack choices.\n\nBenefits\n\n- You may field Kommandos as Troops choices instead of Elites choices.\n- Gretchin Mob units in your army gain the Infiltrate special rule.\n- While your Warlord is alive and, on the Battlefield, you may re-roll the result when determining if an Ork unit in your army will arrive via Outflank.",
+   "restrictions": [
+    {
+     "id": "sneaky_gitz_mob_kommandos",
+     "printed": "Your army must include at least 2 units of Kommandos.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/kommandos"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "sneaky_gitz_mob_warlord_trait",
+     "printed": "Your Warlord must have the Kunnin but Brutal Warlord trait.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "rule": {
+         "rule": "codex/orks/warlord_traits/kunnin_but_brutal",
+         "name": "Kunnin But Brutal",
+         "url": "https://longwarindex.app/warlord_traits/kunnin_but_brutal/"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "sneaky_gitz_mob_fast_attack",
+     "printed": "Your army must include at least 2 Fast Attack choices.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "role": "Fast Attack"
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "sneaky_gitz_mob_kommandos_troops",
+     "printed": "You may field Kommandos as Troops choices instead of Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/kommandos"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "sneaky_gitz_mob_gretchin_mob_infiltrate",
+     "printed": "Gretchin Mob units in your army gain the Infiltrate special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/gretchin_mob"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/infiltrate",
+        "name": "Infiltrate",
+        "url": "https://longwarindex.app/universal_special_rules/infiltrate/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "While your Warlord is alive and, on the Battlefield, you may re-roll the result when determining if an Ork unit in your army will arrive via Outflank."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/orks/rites_of_war/kult_of_speed",
+   "name": "Kult of Speed",
+   "page": 22,
+   "url": "https://longwarindex.app/rites_of_war/kult_of_speed/",
+   "offered_by": {
+    "codex": "orks"
+   },
+   "text": "Requirements\n\n- Your army must include at least 2 units of War Bikers.\n- Your Warlord must be the Bike type.\n- Your army may not include more Fast Attack choices than it does Heavy Support choices.\n\nBenefits\n\n- You may field War Bikers as Troops choices instead of Fast Attack choices.\n- You may field Ork Buggies as Elites choices instead of Fast Attack choices.\n- You gain access to the Nob War Bikers unit (see below).",
+   "restrictions": [
+    {
+     "id": "kult_of_speed_war_bikers",
+     "printed": "Your army must include at least 2 units of War Bikers.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/war_bikers"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "kult_of_speed_warlord_bike",
+     "printed": "Your Warlord must be the Bike type.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "unit_type": "Bike"
+       }
+      ]
+     }
+    },
+    {
+     "id": "kult_of_speed_fast_attack_not_more_than_heavy_support",
+     "printed": "Your army may not include more Fast Attack choices than it does Heavy Support choices.",
+     "scope": "detachment",
+     "compare": {
+      "more": [
+       {
+        "role": "Heavy Support"
+       }
+      ],
+      "than": [
+       [
+        {
+         "role": "Fast Attack"
+        }
+       ]
+      ],
+      "or_equal": true
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "kult_of_speed_war_bikers_troops",
+     "printed": "You may field War Bikers as Troops choices instead of Fast Attack choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/war_bikers"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "kult_of_speed_ork_buggies_elites",
+     "printed": "You may field Ork Buggies as Elites choices instead of Fast Attack choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/ork_buggy"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "kult_of_speed_nob_war_bikers_access",
+     "printed": "You gain access to the Nob War Bikers unit (see below).",
+     "unlocks": [
+      "codex/orks/roster/nob_war_bikers"
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/orks/rites_of_war/squigpede",
+   "name": "Squigpede",
+   "page": 24,
+   "url": "https://longwarindex.app/rites_of_war/squigpede/",
+   "offered_by": {
+    "codex": "orks"
+   },
+   "text": "Requirements\n\n- Your army must include at least 2 units of Squig Hog Boyz.\n- Your Warlord must have the Cavalry type.\n- Your army may not include Vehicle, Bike, Aircraft or Jetbike type units.\n\nBenefits\n\n- You may field Squig Hog Boyz as Troops choices instead of Fast Attack choices.\n- You may field Hunta Rigs as Dedicated Transport choices instead of Heavy Support choices.\n- You gain access to the Squig Mob unit (see below).",
+   "restrictions": [
+    {
+     "id": "squigpede_squig_hog_boyz",
+     "printed": "Your army must include at least 2 units of Squig Hog Boyz.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/squig_hog_boyz"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "squigpede_warlord_cavalry",
+     "printed": "Your Warlord must have the Cavalry type.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "unit_type": "Cavalry"
+       }
+      ]
+     }
+    },
+    {
+     "id": "squigpede_no_vehicle_bike_aircraft_jetbike",
+     "printed": "Your army may not include Vehicle, Bike, Aircraft or Jetbike type units.",
+     "scope": "detachment",
+     "forbidden_units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "unit_type": "Vehicle"
+         },
+         {
+          "unit_type": "Bike"
+         },
+         {
+          "unit_type": "Aircraft"
+         },
+         {
+          "unit_type": "Jetbike"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "squigpede_squig_hog_boyz_troops",
+     "printed": "You may field Squig Hog Boyz as Troops choices instead of Fast Attack choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/squig_hog_boyz"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "squigpede_hunta_rigs_dedicated_transport",
+     "printed": "You may field Hunta Rigs as Dedicated Transport choices instead of Heavy Support choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/hunta_rig"
+       }
+      ],
+      "role": "Dedicated Transport",
+      "instead": false
+     }
+    },
+    {
+     "id": "squigpede_squig_mob_access",
+     "printed": "You gain access to the Squig Mob unit (see below).",
+     "unlocks": [
+      "codex/orks/roster/squig_mob"
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/orks/rites_of_war/blitz_brigade",
+   "name": "Blitz Brigade",
+   "page": 26,
+   "url": "https://longwarindex.app/rites_of_war/blitz_brigade/",
+   "offered_by": {
+    "codex": "orks"
+   },
+   "text": "Requirements\n\n- Your army must include at least 2 units of Mekboy Junka.\n- You must include at least 1 Battlewagon unit in your army.\n- All Infantry units in your army must begin the game in a Transport or in reserves.\n\nBenefits\n\n- You may field Mekboy Junkas as Troops choices instead of Fast Attack choices.\n- You may field Looted Tanks as Elites choices instead of Heavy Support choices.\n- You may field Battlewagons as Heavy Support choices instead of Dedicated Transport choices.",
+   "restrictions": [
+    {
+     "id": "blitz_brigade_mekboy_junka",
+     "printed": "Your army must include at least 2 units of Mekboy Junka.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/mekboy_junka"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "blitz_brigade_battlewagon",
+     "printed": "You must include at least 1 Battlewagon unit in your army.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/battlewagon"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "blitz_brigade_mekboy_junka_troops",
+     "printed": "You may field Mekboy Junkas as Troops choices instead of Fast Attack choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/mekboy_junka"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "blitz_brigade_looted_tanks_elites",
+     "printed": "You may field Looted Tanks as Elites choices instead of Heavy Support choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/looted_tank"
+       }
+      ],
+      "role": "Elites",
+      "instead": false
+     }
+    },
+    {
+     "id": "blitz_brigade_battlewagons_heavy_support",
+     "printed": "You may field Battlewagons as Heavy Support choices instead of Dedicated Transport choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/battlewagon"
+       }
+      ],
+      "role": "Heavy Support",
+      "instead": false
+     }
+    }
+   ],
+   "game_time": [
+    "All Infantry units in your army must begin the game in a Transport or in reserves."
+   ],
+   "unencoded": []
+  },
+  {
+   "id": "codex/orks/rites_of_war/freebooter_krew",
+   "name": "Freebooter Krew",
+   "page": 27,
+   "url": "https://longwarindex.app/rites_of_war/freebooter_krew/",
+   "offered_by": {
+    "codex": "orks"
+   },
+   "text": "Requirements\n\n- Your army must include at least 2 units of Flash Gitz.\n- You must include at least 1 Warboss or Kaptain Badrukk unit in your army.\n- Ork units in your army lose the Klan keyword and you may not select an Allegiance.\n\nBenefits\n\n- You may field Flash Gitz as Troops choices instead of Elites choices.\n- All Ork units in your army gain the Stubborn special rule while within 6\" of an Objective.\n- You can access to Kaptain Badrukk (see below)",
+   "restrictions": [
+    {
+     "id": "freebooter_krew_flash_gitz",
+     "printed": "Your army must include at least 2 units of Flash Gitz.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/flash_gitz"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "freebooter_krew_warboss_or_kaptain_badrukk",
+     "printed": "You must include at least 1 Warboss or Kaptain Badrukk unit in your army.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/orks/roster/warboss"
+         },
+         {
+          "datasheet": "codex/orks/roster/kaptain_badrukk"
+         }
+        ]
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "freebooter_krew_no_allegiance",
+     "printed": "Ork units in your army lose the Klan keyword and you may not select an Allegiance.",
+     "scope": "army",
+     "no_allegiance": true
+    }
+   ],
+   "benefits": [
+    {
+     "id": "freebooter_krew_flash_gitz_troops",
+     "printed": "You may field Flash Gitz as Troops choices instead of Elites choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/flash_gitz"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "freebooter_krew_kaptain_badrukk_access",
+     "printed": "You can access to Kaptain Badrukk (see below)",
+     "unlocks": [
+      "codex/orks/roster/kaptain_badrukk"
+     ]
+    }
+   ],
+   "game_time": [
+    "All Ork units in your army gain the Stubborn special rule while within 6\" of an Objective."
+   ],
+   "unencoded": [],
+   "keyword_templates": [
+    {
+     "template": "[Klan]",
+     "printed": "Ork units in your army lose the Klan keyword and you may not select an Allegiance.",
+     "substitution": null
+    }
+   ]
+  },
+  {
+   "id": "codex/orks/rites_of_war/stompa_mob",
+   "name": "Stompa Mob",
+   "page": 29,
+   "url": "https://longwarindex.app/rites_of_war/stompa_mob/",
+   "offered_by": {
+    "codex": "orks"
+   },
+   "text": "Requirements\n\n- Your army must include a Stompa.\n- Your army must include at least 2 Morkanaut or Gorkanauts.\n- Your army may not include any Lord of War choices that are not a Stompa or Mek Stompa.\n\nBenefits\n\n- You may field Gork/Morkanauts as Heavy Support choices instead of Lords of War choices.\n- You can access to the Stompa unit (see below).\n- You can access to the Mek Stompa unit (see below).",
+   "restrictions": [
+    {
+     "id": "stompa_mob_stompa",
+     "printed": "Your army must include a Stompa.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/stompa"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "stompa_mob_gorkanauts_morkanauts",
+     "printed": "Your army must include at least 2 Morkanaut or Gorkanauts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/gork_morkanaut"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "stompa_mob_lords_of_war_stompa_or_mek_stompa",
+     "printed": "Your army may not include any Lord of War choices that are not a Stompa or Mek Stompa.",
+     "scope": "detachment",
+     "every_unit": {
+      "of": [
+       {
+        "role": "Lords of War"
+       }
+      ],
+      "must": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/orks/roster/stompa"
+         },
+         {
+          "datasheet": "codex/orks/roster/mek_stompa"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "stompa_mob_gorkmorkanauts_heavy_support",
+     "printed": "You may field Gork/Morkanauts as Heavy Support choices instead of Lords of War choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/gork_morkanaut"
+       }
+      ],
+      "role": "Heavy Support",
+      "instead": false
+     }
+    },
+    {
+     "id": "stompa_mob_stompa_access",
+     "printed": "You can access to the Stompa unit (see below).",
+     "unlocks": [
+      "codex/orks/roster/stompa"
+     ]
+    },
+    {
+     "id": "stompa_mob_mek_stompa_access",
+     "printed": "You can access to the Mek Stompa unit (see below).",
+     "unlocks": [
+      "codex/orks/roster/mek_stompa"
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/orks/rites_of_war/grotzkrieg",
+   "name": "Grotzkrieg",
+   "page": 33,
+   "url": "https://longwarindex.app/rites_of_war/grotzkrieg/",
+   "offered_by": {
+    "codex": "orks"
+   },
+   "text": "Requirements\n\n- Your army must include at least 1 Grot Tank Kommander in your army.\n- You must include at least 2 Grot Tank Units in your army.\n- Your army must include at least 1 Grot Mega Tank.\n- Your Army may not contain any units with the Klan Keyword.\n\nBenefits\n\n- You may field Grot Tanks as Troops choices instead of Elite choices.\n- The Grot Tank Kommander ignores the Support Squad special rule.\n- Once per game, you may summon Da Red Gobbo (see below). Da Red Gobbo arrives via Deep Strike and is considered to always arrive on target.",
+   "restrictions": [
+    {
+     "id": "grotzkrieg_grot_tank_kommander",
+     "printed": "Your army must include at least 1 Grot Tank Kommander in your army.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/grot_tank_kommander"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "grotzkrieg_grot_tanks",
+     "printed": "You must include at least 2 Grot Tank Units in your army.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/grot_tanks"
+       }
+      ],
+      "min": 2
+     }
+    },
+    {
+     "id": "grotzkrieg_grot_mega_tank",
+     "printed": "Your army must include at least 1 Grot Mega Tank.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/grot_mega_tank"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "grotzkrieg_no_klan_keyword",
+     "printed": "Your Army may not contain any units with the Klan Keyword.",
+     "scope": "detachment",
+     "forbidden_units": {
+      "conditions": [
+       {
+        "keyword": "[Klan]"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "grotzkrieg_grot_tanks_troops",
+     "printed": "You may field Grot Tanks as Troops choices instead of Elite choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/grot_tanks"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "grotzkrieg_grot_tank_kommander_support_squad",
+     "printed": "The Grot Tank Kommander ignores the Support Squad special rule.",
+     "suppress_rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/orks/roster/grot_tank_kommander"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "grotzkrieg_da_red_gobbo_access",
+     "printed": "Once per game, you may summon Da Red Gobbo (see below).",
+     "unlocks": [
+      "codex/orks/roster/da_red_gobbo"
+     ]
+    }
+   ],
+   "game_time": [
+    "Da Red Gobbo arrives via Deep Strike and is considered to always arrive on target."
+   ],
+   "unencoded": []
+  }
+ ]
+}

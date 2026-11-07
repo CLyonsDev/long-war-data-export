@@ -1,0 +1,578 @@
+{
+ "data_version": "56e68bb15bf7a45f",
+ "format": 1,
+ "faction": "tau_empire",
+ "special_rules": [
+  {
+   "id": "codex/tau_empire/special_rules/bonding_knife_ritual",
+   "name": "Bonding Knife Ritual",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/bonding_knife_ritual/",
+   "text": "A unit with this special rule must take 50% casualties before it must take a Panic test in the Shooting Phase instead of 25%."
+  },
+  {
+   "id": "codex/tau_empire/special_rules/chameleonic",
+   "name": "Chameleonic",
+   "kind": "datasheet",
+   "page": 66,
+   "url": "https://longwarindex.app/special_rules/chameleonic_tau_empire/",
+   "text": "This unit may not be targeted in the Shooting Phase for attacks unless it is the closest eligible unit."
+  },
+  {
+   "id": "codex/tau_empire/special_rules/crisis_suit_bodyguards",
+   "name": "Crisis Suit Bodyguards",
+   "kind": "datasheet",
+   "page": 30,
+   "url": "https://longwarindex.app/special_rules/crisis_suit_bodyguards/",
+   "text": "This unit can only join units of Crisis Suit Teams."
+  },
+  {
+   "id": "codex/tau_empire/special_rules/deploy_anchors",
+   "name": "Deploy Anchors",
+   "kind": "datasheet",
+   "page": 75,
+   "url": "https://longwarindex.app/special_rules/deploy_anchors/",
+   "text": "This unit may only attack with its Pulse Blast cannon or Pulse Driver Cannon if it remained stationary during its previous movement phase."
+  },
+  {
+   "id": "codex/tau_empire/special_rules/devour_grow_stronger",
+   "name": "Devour, Grow Stronger",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/devour_grow_stronger/",
+   "references": [
+    "universal_special_rules/preferred_enemy",
+    "universal_special_rules/monster_hunter"
+   ],
+   "text": "Units with this special rule gain the Preferred Enemy (Infantry, Monster & Cavalry) and Monster Hunter special rules.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/preferred_enemy",
+      "name": "Preferred Enemy",
+      "param": "Infantry, Monster & Cavalry",
+      "url": "https://longwarindex.app/universal_special_rules/preferred_enemy/"
+     },
+     {
+      "rule": "universal_special_rules/monster_hunter",
+      "name": "Monster Hunter",
+      "url": "https://longwarindex.app/universal_special_rules/monster_hunter/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/tau_empire/special_rules/drone_port",
+   "name": "Drone Port",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/drone_port/",
+   "references": [
+    "universal_special_rules/assault_vehicle"
+   ],
+   "text": "A unit with this special rule gains the following:\n\n- It may transport 2 Drone type models as if it were a Transport. Any Drones in this unit start docked during deployment.\n- Embarked Drone models in this transport can shoot and Fight in the shooting Phase and Combat Phase while embarked in this model as if the model had the Assault Vehicle special rule.\n- Drones purchased as part of a unit with this special rule may disembark but are part of the unit it was purchased with and must maintain coherency with the model with this special rule. If the Model with the Drone Port is destroyed, the Drones become their own unit.\n- When the model with this special rule is destroyed, the Drone models must perform an emergency disembarkation following the standard rules for doing so found in the core rules. If the embarked Drones were purchased as part of the unit which had this special rule, any surviving Drones after performing emergency disembarkation become their own unit and may not embark on another unit with this special rule.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 2,
+     "unit_types": [
+      "Drone"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/tau_empire/special_rules/fire_warrior_bodyguards",
+   "name": "Fire Warrior Bodyguards",
+   "kind": "datasheet",
+   "page": 32,
+   "url": "https://longwarindex.app/special_rules/fire_warrior_bodyguards/",
+   "text": "This unit can only join Fire Warrior Teams."
+  },
+  {
+   "id": "codex/tau_empire/special_rules/fire_warrior_leader",
+   "name": "Fire Warrior Leader",
+   "kind": "datasheet",
+   "page": 33,
+   "url": "https://longwarindex.app/special_rules/fire_warrior_leader/",
+   "text": "This unit can only join Fire Warrior Teams or Pathfinder teams."
+  },
+  {
+   "id": "codex/tau_empire/special_rules/flesh_shaper",
+   "name": "Flesh Shaper",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/flesh_shaper/",
+   "text": "If your army includes a unit with this upgrade, during deployment, select a single enemy unit in your opponent's army which is not a Vehicle, Aircraft, Automata, Fortification, Knight or Titan type. All Kroot units in your army can re-roll all to hit and wound rolls against the selected unit."
+  },
+  {
+   "id": "codex/tau_empire/special_rules/garrison",
+   "name": "Garrison",
+   "kind": "datasheet",
+   "page": 80,
+   "url": "https://longwarindex.app/special_rules/garrison_tau_empire/",
+   "text": "Up to 10 Infantry models may embark in this fortification. Embarked Infantry models in this fortification can shoot and Fight in the shooting Phase and Combat Phase while embarked in this fortification as normal. All measurement and line of sight is measured from the fortifications hull.",
+   "effects": {
+    "garrison_capacity": {
+     "n": 10,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/tau_empire/special_rules/hazard_strike",
+   "name": "Hazard Strike",
+   "kind": "datasheet",
+   "page": 42,
+   "url": "https://longwarindex.app/special_rules/hazard_strike/",
+   "text": "This units ranged weapons gain the Melee type and Range while within 3\" of an enemy unit in the Combat Phase."
+  },
+  {
+   "id": "codex/tau_empire/special_rules/helpless",
+   "name": "Helpless",
+   "kind": "datasheet",
+   "page": 77,
+   "url": "https://longwarindex.app/special_rules/helpless/",
+   "text": "If this unit is successfully charged, it is immediately removed from play and counts as having been slain."
+  },
+  {
+   "id": "codex/tau_empire/special_rules/icon_of_the_greater_good",
+   "name": "Icon of the Greater Good",
+   "kind": "datasheet",
+   "page": 32,
+   "url": "https://longwarindex.app/special_rules/icon_of_the_greater_good/",
+   "text": "If this unit is slain, your opponent gains 1 Victory Point."
+  },
+  {
+   "id": "codex/tau_empire/special_rules/inspiring_figure",
+   "name": "Inspiring Figure",
+   "kind": "datasheet",
+   "page": 32,
+   "url": "https://longwarindex.app/special_rules/inspiring_figure/",
+   "references": [
+    "universal_special_rules/stubborn"
+   ],
+   "text": "Friendly T'au units that do not have the Auxiliary keyword that can draw visibility to this unit gain the Stubborn Special Rule."
+  },
+  {
+   "id": "codex/tau_empire/special_rules/markerlight",
+   "name": "Markerlight",
+   "kind": "weapon",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/markerlight/",
+   "text": "Markerlight weapons do not inflict any wounds. After rolling to hit with a Markerlight weapon, the attack sequence ends. A unit hit by a markerlight weapon is now designated instead, place a Markerlight counter next to the target unit. All Tau units without the Auxiliary Keyword gain the following benefits when targeting a unit with Markerlight Counters on it based on the number of Marker. All Markerlight Counters are removed at the end of your Shooting Phase:\n\n- 1 Markerlight Counter: A unit gains +1 to its Ballistic Skill (BS) when targeting the Marker unit.\n- 2 Markerlight Counters: A unit with 2 Markerlight Counters has -1 to its Cover Saves.\n- 3 Markerlight Counters: A Seeker Missile or Destroyer unit may target a unit with 3 Markerlight Tokens at Ballistic Skill (BS) 5 without needing visibility to the target unit."
+  },
+  {
+   "id": "codex/tau_empire/special_rules/martial_legacy",
+   "name": "Martial Legacy",
+   "kind": "warlord_trait",
+   "page": 37,
+   "url": "https://longwarindex.app/special_rules/martial_legacy/",
+   "text": "If this unit is your Warlord, all Fire Warrior units in your army gain +1 to their Weapon Skill (WS) characteristic while your Warlord is alive. Your Warlord is not required to be on the battlefield for units to gain this effect.",
+   "effects": {
+    "while_warlord": {
+     "stat_grants": [
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Fire Warrior"
+         ]
+        }
+       ],
+       "characteristic": "WS",
+       "delta": 1,
+       "quote": "If this unit is your Warlord, all Fire Warrior units in your army gain +1 to their Weapon Skill (WS) characteristic while your Warlord is alive."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/tau_empire/special_rules/multi_spectral_eyes",
+   "name": "Multi Spectral Eyes",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/multi_spectral_eyes/",
+   "references": [
+    "universal_special_rules/night_vision"
+   ],
+   "text": "Vespid units with this special rule have the Night Vision Special Rule. In addition, Vespid ignore all negative modifiers to their Ballistic Skill (BS) characteristic and all Snap Shots are made at full Ballistic Skill (BS).",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/night_vision",
+      "name": "Night Vision",
+      "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/tau_empire/special_rules/nova_reactor",
+   "name": "Nova Reactor",
+   "kind": "datasheet",
+   "page": 68,
+   "url": "https://longwarindex.app/special_rules/nova_reactor/",
+   "references": [
+    "special_rules/gets_hot"
+   ],
+   "text": "At the start of each of your turns, you can activate the Nova Reactor. However, until the end of the turn, this unit gains the Gets Hot! Special rule on all weapons it is equipped with. Increase the Riptide shield generators invulnerable save to a 3+ until the start of your next turn."
+  },
+  {
+   "id": "codex/tau_empire/special_rules/pack_leader",
+   "name": "Pack Leader",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/pack_leader/",
+   "text": "This unit can only join units with the Kroot Keyword."
+  },
+  {
+   "id": "codex/tau_empire/special_rules/pathfinder_leader",
+   "name": "Pathfinder Leader",
+   "kind": "datasheet",
+   "page": 40,
+   "url": "https://longwarindex.app/special_rules/pathfinder_leader/",
+   "text": "This unit can only join Pathfinder teams."
+  },
+  {
+   "id": "codex/tau_empire/special_rules/rv_type_nova_reactor",
+   "name": "Rv-type Nova Reactor",
+   "kind": "datasheet",
+   "page": 69,
+   "url": "https://longwarindex.app/special_rules/rv_type_nova_reactor/",
+   "references": [
+    "special_rules/gets_hot",
+    "special_rules/blast",
+    "special_rules/barrage"
+   ],
+   "text": "At the start of each of your turns, you can activate the Nova Reactor. Until the end of the turn, you gain the Gets Hot! Special rule on all weapons the model is equipped with. The units equipped Pulse Submunitions Cannons gain the Blast (Large) & Barrage (2) special rules."
+  },
+  {
+   "id": "codex/tau_empire/special_rules/shas_o",
+   "name": "Shas'o",
+   "kind": "datasheet",
+   "page": 30,
+   "url": "https://longwarindex.app/special_rules/shas_o/",
+   "text": "A Crisis Suit Commander with this upgrade gains +1 to its Weapon Skill (WS), Wounds (W) and Attacks (A) characteristic.",
+   "effects": {
+    "stat_mods": [
+     {
+      "characteristic": "WS",
+      "delta": 1
+     },
+     {
+      "characteristic": "W",
+      "delta": 1
+     },
+     {
+      "characteristic": "A",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/tau_empire/special_rules/spiritual_will_of_the_tau_empire",
+   "name": "Spiritual Will of the T'au Empire",
+   "kind": "warlord_trait",
+   "page": 36,
+   "url": "https://longwarindex.app/special_rules/spiritual_will_of_the_tau_empire/",
+   "references": [
+    "universal_special_rules/last_stand"
+   ],
+   "text": "If this unit is your warlord, any attached Fire Warrior Team unit gains the +2 Ballistic Skill (BS) and the Last Stand special rule."
+  },
+  {
+   "id": "codex/tau_empire/special_rules/strain_lead",
+   "name": "Strain Lead",
+   "kind": "datasheet",
+   "page": 35,
+   "url": "https://longwarindex.app/special_rules/strain_lead/",
+   "text": "You may field 1 Vespid Strain Leader in your army without taking up a Force Organization Slot per 1 Vespid Stingwings or Vespid Swarmguard unit in your army.",
+   "effects": {
+    "list_building": {
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/vespid_strain_leader"
+       }
+      ],
+      "count": 1,
+      "per_unit": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/tau_empire/roster/vespid_stingwings"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/vespid_swarmguard"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "codex/tau_empire/special_rules/supporting_fire",
+   "name": "Supporting Fire",
+   "kind": "army",
+   "page": 7,
+   "url": "https://longwarindex.app/special_rules/supporting_fire/",
+   "references": [
+    "codex/tau_empire/special_rules/drone_port"
+   ],
+   "text": "All Drone type models in a unit always count as having set to Overwatch even if they made shooting attacks in the shooting phase. The rest of the models in the Drone's unit do not have to set to Overwatch, however if charged, only the Drone models within the unit may Overwatch unless the whole unit set to Overwatch in the shooting phase. This includes Drone models embarked on Vehicles with the Drone Port Special rule."
+  },
+  {
+   "id": "codex/tau_empire/special_rules/tactical_turret",
+   "name": "Tactical Turret",
+   "kind": "datasheet",
+   "page": 77,
+   "url": "https://longwarindex.app/special_rules/tactical_turret/",
+   "text": "You may include one of these units for every Strike Team or Breacher Team in your army without taking up a Fortification Slot. This model has a Movement (M) characteristic of 0\".",
+   "effects": {
+    "list_building": {
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/tau_empire/roster/ds8_tactical_support_turret"
+       }
+      ],
+      "count": 1,
+      "per_unit": [
+       {
+        "any_of": [
+         {
+          "datasheet": "codex/tau_empire/roster/fire_warrior_team"
+         },
+         {
+          "datasheet": "codex/tau_empire/roster/pathfinder_team"
+         }
+        ]
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "codex/tau_empire/special_rules/trail_shaper",
+   "name": "Trail Shaper",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/trail_shaper/",
+   "references": [
+    "universal_special_rules/outflank"
+   ],
+   "text": "A unit with this upgrade gains +1 to its Ballistic Skill (BS) characteristic and the Outflank special rule. In addition, this unit confers the Outflank special rule to any attached unit.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/outflank",
+      "name": "Outflank",
+      "url": "https://longwarindex.app/universal_special_rules/outflank/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "BS",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/tau_empire/special_rules/transport_devilfish_apc",
+   "name": "Transport",
+   "datasheet": "Devilfish APC",
+   "kind": "datasheet",
+   "page": 53,
+   "url": "https://longwarindex.app/special_rules/transport_devilfish_apc/",
+   "references": [
+    "codex/tau_empire/special_rules/drone_port"
+   ],
+   "text": "This model can transport 12 Infantry & Drone models within it. Drone units Transported under this way do not gain the benefit of the Drone Port special rule.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 12,
+     "unit_types": [
+      "Infantry",
+      "Drone"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/tau_empire/special_rules/transport_tiger_shark",
+   "name": "Transport",
+   "datasheet": "Tiger Shark",
+   "kind": "datasheet",
+   "page": 58,
+   "url": "https://longwarindex.app/special_rules/transport_tiger_shark/",
+   "text": "This unit may transport up to 14 Drone models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 14,
+     "unit_types": [
+      "Drone"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/tau_empire/special_rules/war_shaper",
+   "name": "War Shaper",
+   "kind": "datasheet",
+   "page": 34,
+   "url": "https://longwarindex.app/special_rules/war_shaper/",
+   "references": [
+    "universal_special_rules/stubborn"
+   ],
+   "text": "A unit with this upgrade gains +1 to their Wounds (W), Attacks (A) and Leadership (LD) characteristics. In addition, the unit gains the Stubborn special rule.\n\n- The War Shaper may exchange its Kroot Rifle for one of the following:\n    - Blade Stave & Prey Hook for 10pts.\n    - Dart Bow and Tri Blade for 10pts.\n- The War Shaper may exchange their Kroot Hide for Combat Armour for 3pts.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     }
+    ],
+    "stat_mods": [
+     {
+      "characteristic": "W",
+      "delta": 1
+     },
+     {
+      "characteristic": "A",
+      "delta": 1
+     },
+     {
+      "characteristic": "Ld",
+      "delta": 1
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "kroot_rifle",
+     "label": "The War Shaper may exchange its Kroot Rifle for one of the following:",
+     "printed": "The War Shaper may exchange its Kroot Rifle for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "blade_stave_prey_hook",
+       "name": "Blade Stave & Prey Hook",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "kroot_rifle"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "blade_stave"
+          },
+          {
+           "kind": "wargear",
+           "id": "prey_hook"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "dart_bow_tri_blade",
+       "name": "Dart Bow and Tri Blade",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "kroot_rifle"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "dart_bow"
+          },
+          {
+           "kind": "wargear",
+           "id": "tri_blade"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "combat_armour",
+     "label": "The War Shaper may exchange their Kroot Hide for Combat Armour for 3pts.",
+     "printed": "The War Shaper may exchange their Kroot Hide for Combat Armour for 3pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "combat_armour",
+       "name": "Combat Armour",
+       "points": 3,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "kroot_hide"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "combat_armour"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/tau_empire/special_rules/yv_type_nova_reactor",
+   "name": "Yv-type Nova Reactor",
+   "kind": "datasheet",
+   "page": 70,
+   "url": "https://longwarindex.app/special_rules/yv_type_nova_reactor/",
+   "references": [
+    "special_rules/gets_hot"
+   ],
+   "text": "At the start of each of your turns, you can activate the Nova Reactor. Until the end of the next turn, this unit gains the Gets Hot! Special rule on all weapons it is equipped with. This unit, after completing a Shooting Attack may move 12\". However, the unit may only perform the Movement after it makes a Shooting Attack."
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "data_version": "de3eef1e17b546ff",
+ "format": 1,
+ "faction": "iron_warriors",
+ "wargear": [
+  {
+   "id": "boarding_shield",
+   "name": "Boarding Shield",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/boarding_shield_iron_warriors/",
+   "text": "A model equipped with this wargear gains a 5+ Invulnerable save. If at least 3 models in a unit are equipped with Boarding Shields, all charges against the equipped unit are treated as Disordered Charges.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "techno_venomous_mechatendrils",
+   "name": "Techno-Venomous Mechatendrils",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/techno_venomous_mechatendrils/",
+   "text": "A model equipped with this wargear makes D3 additional Attacks at Initiative Step 1 of the Combat Phase. These Attacks are resolved at Strength 1, AP-, with the Haywire (6+) special rule."
+  },
+  {
+   "id": "enhanced_bionics",
+   "name": "Enhanced Bionics",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/enhanced_bionics_iron_warriors/",
+   "text": "A model with this wargear gains the Feel No Pain (5+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "nest_of_mechaserpents",
+   "name": "Nest of Mechaserpents",
+   "section": "Wargear",
+   "page": 4,
+   "url": "https://longwarindex.app/wargear/nest_of_mechaserpents/",
+   "text": "At Initiative Step 10 of the Combat Phase, select a single enemy model within 3\" of a model equipped with this wargear. The target model's Initiative (I) characteristic this Phase is treated the same as the model equipped with this Wargear after any modifiers."
+  },
+  {
+   "id": "fleshmetal_exoskeleton",
+   "name": "Fleshmetal Exoskeleton",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/fleshmetal_exoskeleton/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. A model equipped with this Relic gains +1 to their Toughness (T) characteristics. In addition, the wargear confers a 2+ Armour Save and both the Regeneration and Feel No Pain (4+) special rules.",
+   "effects": {
+    "armour_save": "2+",
+    "stat_mods": [
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ],
+    "rules": [
+     {
+      "rule": "universal_special_rules/regeneration",
+      "name": "Regeneration",
+      "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+     },
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "4+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cranium_malevolus",
+   "name": "Cranium Malevolus",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/cranium_malevolus/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. In your Shooting Phase, select a single enemy unit within 18\" of the bearer of this Relic. If that target has the Vehicle, Knight, Aircraft, Drone, Automata or Battlesuit type, it takes D6+1, Strength 1, AP-, Haywire (4+) automatic hits."
+  },
+  {
+   "id": "warpbreacher",
+   "name": "Warpbreacher",
+   "section": "Relics",
+   "page": 6,
+   "url": "https://longwarindex.app/wargear/warpbreacher/",
+   "text": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. At the start of each of your Shooting Phases, you can select a single friendly Vehicle type unit within 3\" of the bearer of this Relic. The target unit gains the Daemon special rule for the rest of the battle."
+  },
+  {
+   "id": "the_iron_mantle",
+   "name": "The Iron Mantle",
+   "section": "Datasheet",
+   "datasheet": "Kravek Morne",
+   "page": 17,
+   "url": "https://longwarindex.app/wargear/the_iron_mantle/",
+   "text": "A model with this wargear gains the benefit of Cataphractii Terminator Armour. In addition, the models Wounds (W) and Toughness (T) characteristics are increased by +1 (this is included in the above profile). Furthermore, the models 4+ Invulnerable save from the Chaos Sigil is increased to a 3+ Invulnerable Save.",
+   "effects": {
+    "invulnerable_save": "3+",
+    "stat_mods": [
+     {
+      "characteristic": "W",
+      "delta": 1
+     },
+     {
+      "characteristic": "T",
+      "delta": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "heavy_battlehide",
+   "name": "Heavy Battlehide",
+   "section": "Datasheet",
+   "datasheet": "Iron Legion Castellax Battle Automata",
+   "page": 20,
+   "url": "https://longwarindex.app/wargear/heavy_battlehide_iron_warriors/",
+   "text": "The armoured battlehide of Automata is thick and powerful, able to withstand great force. It confers a 2+ Armour save.",
+   "effects": {
+    "armour_save": "2+"
+   }
+  },
+  {
+   "id": "atomantic_shielding",
+   "name": "Atomantic Shielding",
+   "section": "Datasheet",
+   "datasheet": "Iron Legion Castellax Battle Automata",
+   "page": 20,
+   "url": "https://longwarindex.app/wargear/atomantic_shielding_iron_warriors/",
+   "text": "This confers a 5+ Invulnerable save. When a model with this wargear is slain and removed from play, the model suffers an Explodes result per the Vehicle damage chart before it is removed from play.",
+   "effects": {
+    "invulnerable_save": "5+"
+   }
+  },
+  {
+   "id": "sensor_relay",
+   "name": "Sensor Relay",
+   "section": "Datasheet",
+   "datasheet": "Bastion",
+   "page": 24,
+   "url": "https://longwarindex.app/wargear/sensor_relay_iron_warriors/",
+   "text": "Enemy units may not arrive from Deep Strike within 9\" of a model equipped with this Wargear."
+  },
+  {
+   "id": "hidden_entrances",
+   "name": "Hidden Entrances",
+   "section": "Datasheet",
+   "datasheet": "Bastion",
+   "page": 24,
+   "url": "https://longwarindex.app/wargear/hidden_entrances_iron_warriors/",
+   "text": "When a unit with this special rule would be destroyed. Embarked units are not required to roll for models inside being slain (see Rule 10.2 in the core rules)."
+  }
+ ]
+}

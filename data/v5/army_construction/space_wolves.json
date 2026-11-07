@@ -1,0 +1,935 @@
+{
+ "data_version": "841f96188c6704e7",
+ "format": 1,
+ "faction": "space_wolves",
+ "codex": {
+  "id": "codex/space_wolves",
+  "name": "Space Wolves",
+  "page": 4,
+  "url": "https://longwarindex.app/codex/space_wolves/",
+  "parent": "space_marines",
+  "army_rules": [
+   {
+    "rule": "codex/space_wolves/special_rules/armoury_of_the_6th_legion",
+    "name": "Armoury of the 6th Legion",
+    "url": "https://longwarindex.app/special_rules/armoury_of_the_6th_legion/"
+   },
+   {
+    "rule": "codex/space_wolves/special_rules/true_grit",
+    "name": "True Grit",
+    "url": "https://longwarindex.app/special_rules/true_grit/"
+   },
+   {
+    "rule": "codex/space_wolves/special_rules/curse_of_the_wulfen",
+    "name": "Curse of the Wulfen",
+    "url": "https://longwarindex.app/special_rules/curse_of_the_wulfen/"
+   }
+  ],
+  "allies": null,
+  "starting_pool": null,
+  "restrictions": [],
+  "benefits": [],
+  "rites_of_war": {
+   "own": [
+    "codex/space_wolves/rites_of_war/fenrisian_great_company",
+    "codex/space_wolves/rites_of_war/morkais_maw",
+    "codex/space_wolves/rites_of_war/the_last_hunt"
+   ],
+   "from_parent": [
+    "codex/space_marines/rites_of_war/drop_pod_assault",
+    "codex/space_marines/rites_of_war/mechanised_assault",
+    "codex/space_marines/rites_of_war/armoured_support"
+   ],
+   "banned_from_parent": []
+  },
+  "unit_list": null,
+  "keyword_templates": [
+   {
+    "template": "<Chapter>",
+    "printed": "All units have the <Chapter> keyword. This is replaced with Space Wolves Keyword.",
+    "substitution": {
+     "value": "Space Wolves"
+    }
+   }
+  ]
+ },
+ "allegiances": [
+  {
+   "id": "codex/space_wolves/allegiances/allegiance_space_wolves",
+   "name": "Allegiance: Space Wolves",
+   "page": 4,
+   "url": "https://longwarindex.app/allegiances/allegiance_space_wolves/",
+   "offered_by": {
+    "codex": "space_marines"
+   },
+   "keyword_substitution": {
+    "template": "<Chapter>",
+    "value": "Space Wolves"
+   },
+   "rule": {
+    "rule": "codex/space_wolves/allegiances/allegiance_space_wolves",
+    "name": "Allegiance: Space Wolves",
+    "printed": "codex/space_wolves/allegiances/allegiance_space_wolves",
+    "url": "https://longwarindex.app/allegiances/allegiance_space_wolves/"
+   },
+   "unit_list": {
+    "page": 17,
+    "url": "https://longwarindex.app/unit_list/space_wolves_unit_list/",
+    "entries": [
+     {
+      "datasheet": "codex/space_wolves/roster/theiygn_battle_leader",
+      "printed": "Theiygn Battle Leader",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/damocles_command_rhino",
+      "printed": "Damocles Command Rhino",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/logan_grimnar_the_old_wolf",
+      "printed": "Logan Grimnar, The Old Wolf",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/ragnar_blackmane",
+      "printed": "Ragnar Blackmane",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/krom_dragongaze",
+      "printed": "Krom Dragongaze",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/harold_deathwolf",
+      "printed": "Harold Deathwolf",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/bran_redmaw",
+      "printed": "Bran Redmaw",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/arjac_rockfist",
+      "printed": "Arjac Rockfist",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/canis_wolfborn",
+      "printed": "Canis Wolfborn",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/njal_stormcaller",
+      "printed": "Njal Stormcaller",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/ulrik_the_slayer",
+      "printed": "Ulrik the Slayer",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/bjorn_the_fell_handed",
+      "printed": "Bjorn the Fell Handed",
+      "role": "HQ"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/bloodclaws",
+      "printed": "Bloodclaws",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/grey_hunters",
+      "printed": "Grey Hunters",
+      "role": "Troops"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/theiygn_guard",
+      "printed": "Theiygn Guard",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/wolf_scouts",
+      "printed": "Wolf Scouts",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/hounds_of_morkai",
+      "printed": "Hounds of Morkai",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/wulfen",
+      "printed": "Wulfen",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/castraferrum_dreadnought",
+      "printed": "Castraferrum Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/contemptor_dreadnought",
+      "printed": "Contemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/redemptor_dreadnought",
+      "printed": "Redemptor Dreadnought",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invictor_tactical_warsuit",
+      "printed": "Invictor Tactical Warsuit",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/murderfang",
+      "printed": "Murderfang",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/lukas_the_trickster",
+      "printed": "Lukas the Trickster",
+      "role": "Elites"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/rhino_apc",
+      "printed": "Rhino APC",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/razorback_ifv",
+      "printed": "Razorback IFV",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder_storm",
+      "printed": "Land Speeder Storm",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/drop_pod",
+      "printed": "Drop Pod",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/impulsor",
+      "printed": "Impulsor",
+      "role": "Dedicated Transport"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/stormwolf_gunship",
+      "printed": "Stormwolf Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/stormfang_gunship",
+      "printed": "Stormfang Gunship",
+      "role": "Flyer"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/skyclaws",
+      "printed": "Skyclaws",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/swiftclaws",
+      "printed": "Swiftclaws",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/fenrisian_wolf_pack",
+      "printed": "Fenrisian Wolf Pack",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/invader_atv",
+      "printed": "Invader ATV",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_speeder",
+      "printed": "Land Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/storm_speeder",
+      "printed": "Storm Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/javelin_attack_speeder",
+      "printed": "Javelin Attack Speeder",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sabre_strike_tank",
+      "printed": "Sabre Strike Tank",
+      "role": "Fast Attack"
+     },
+     {
+      "datasheet": "codex/space_wolves/roster/long_fangs",
+      "printed": "Long Fangs",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/firestrike_servo_turret",
+      "printed": "Firestrike Servo Turret",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/predator_mbt",
+      "printed": "Predator MBT",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_siege_tank",
+      "printed": "Vindicator Siege Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/whirlwind_artillery_tank",
+      "printed": "Whirlwind Artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hunter_artillery_tank",
+      "printed": "Hunter Artillery Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/stalker_aa_tank",
+      "printed": "Stalker AA Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/gladiator_assault_tank",
+      "printed": "Gladiator Assault Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider",
+      "printed": "Land Raider",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_redeemer",
+      "printed": "Land Raider Redeemer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/land_raider_crusader",
+      "printed": "Land Raider Crusader",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_hifv",
+      "printed": "Repulsor HIFV",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/repulsor_executioner",
+      "printed": "Repulsor Executioner",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/deredeo_dreadnought",
+      "printed": "Deredeo Dreadnought",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fire_raptor_gunship",
+      "printed": "Fire Raptor Gunship",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/vindicator_laser_destroyer",
+      "printed": "Vindicator Laser Destroyer",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/sicaran_heavy_tank",
+      "printed": "Sicaran Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/kratos_super_heavy_tank",
+      "printed": "Kratos Super Heavy Tank",
+      "role": "Heavy Support"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/leviathan_dreadnought",
+      "printed": "Leviathan Dreadnought",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/spartan_assault_tank",
+      "printed": "Spartan Assault Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/astraeus",
+      "printed": "Astraeus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/cerberus",
+      "printed": "Cerberus",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/falchion",
+      "printed": "Falchion",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/fellblade",
+      "printed": "Fellblade",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/mastodon",
+      "printed": "Mastodon",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/typhon_siege_tank",
+      "printed": "Typhon Siege Tank",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/thunderhawk_gunship",
+      "printed": "Thunderhawk Gunship",
+      "role": "Lords of War"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/hammerfall_bunker",
+      "printed": "Hammerfall Bunker",
+      "role": "Fortification"
+     }
+    ]
+   },
+   "restrictions": [
+    {
+     "id": "psychic_powers_instead_of_core",
+     "page": 4,
+     "url": "https://longwarindex.app/codex/space_wolves/",
+     "printed": "Units in your army with the Psyker (x) special rule must use the Tempastus Discipline presented in this supplement instead of the Indomitus Discipline in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "psychic_powers"
+       }
+      ]
+     }
+    },
+    {
+     "id": "rites_instead_of_core",
+     "page": 4,
+     "url": "https://longwarindex.app/codex/space_wolves/",
+     "printed": "Your army must use the Rites of War presented in this Supplement instead of the Core Codex.",
+     "scope": "detachment",
+     "forbidden_rites": [
+      "codex/space_marines/rites_of_war/pride_of_the_chapter",
+      "codex/space_marines/rites_of_war/grey_shields",
+      "codex/space_marines/rites_of_war/vanguard_support"
+     ]
+    },
+    {
+     "id": "warlord_traits_instead_of_core",
+     "page": 4,
+     "url": "https://longwarindex.app/codex/space_wolves/",
+     "printed": "You must use the Warlord traits presented in this Supplement instead of those Presented in the Core Codex.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "warlord_traits"
+       }
+      ]
+     }
+    },
+    {
+     "id": "unit_list_only",
+     "page": 4,
+     "url": "https://longwarindex.app/codex/space_wolves/",
+     "printed": "You may not field the units not listed on the Space Wolves Unit list in this Codex Supplement.",
+     "scope": "detachment",
+     "unit_list": true
+    },
+    {
+     "id": "relics_instead_of_core",
+     "page": 4,
+     "url": "https://longwarindex.app/codex/space_wolves/",
+     "printed": "You may not use Relic Wargear from Codex Space Marines and must use the Relic wargear presented in this supplement.",
+     "scope": "detachment",
+     "forbidden_options": {
+      "groups": [
+       {
+        "book_options": "space_marines",
+        "group": "relics"
+       }
+      ]
+     }
+    },
+    {
+     "id": "no_imperial_agents_allies",
+     "printed": "You may not take Allies from Codex - Imperial Agents.",
+     "scope": "army",
+     "forbidden_units": {
+      "conditions": [
+       {
+        "faction": "imperial_agents"
+       }
+      ]
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "night_vision_grant",
+     "printed": "They gain the Night Vision special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Space Wolves"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/night_vision",
+        "name": "Night Vision",
+        "url": "https://longwarindex.app/universal_special_rules/night_vision/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "counter_attack_grant",
+     "printed": "They gain the Counter Attack special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Space Wolves"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/counter_attack",
+        "name": "Counter Attack",
+        "printed": "Counter-Attack",
+        "url": "https://longwarindex.app/universal_special_rules/counter_attack/"
+       }
+      ]
+     }
+    }
+   ],
+   "game_time": [
+    "Space Wolves units may never voluntarily be placed in Deep Strike or use the Deep Strike special rule. This does not apply to Space Wolves Drop Pod units. Space Wolves units forced into Deep Strike reserves may arrive via Deep Strike.",
+    "If your opponent is fielding Thousand Sons, you must play 1 additional Battle Round of the game, regardless of the rules in the Battlepack."
+   ],
+   "unencoded": []
+  }
+ ],
+ "rites_of_war": [
+  {
+   "id": "codex/space_wolves/rites_of_war/fenrisian_great_company",
+   "name": "Fenrisian Great Company",
+   "page": 14,
+   "url": "https://longwarindex.app/rites_of_war/fenrisian_great_company/",
+   "offered_by": {
+    "allegiance": "codex/space_wolves/allegiances/allegiance_space_wolves"
+   },
+   "text": "Restrictions:\n\n- Your Warlord must include at least 1 Theiygn Battle Leader upgraded to be a Jarl.\n- Your army must include at least 1 Bloodclaws unit and 1 Grey Hunter unit.\n- Your army must include at least 1 Theiygn Guard unit.\n\nBenefits:\n\n- All Space Wolves Infantry type units gain the Outflank special rule.\n- Theiygn Guard units in your army do not take up a Force Organization Slot.\n- Your Warlord may purchase one of the following if they do not have the Unique Keyword:\n    - Saga of the Warrior Born for 5pts.\n    - Saga of the Bear for 5pts.\n    - Saga of Majesty for 5pts.\n    - Saga of the Hunter for 10pts.\n    - Saga of the Wolfkin for 5pts.\n    - Saga of the Beast Slayer for 10pts.",
+   "restrictions": [
+    {
+     "id": "jarl_warlord",
+     "printed": "Your Warlord must include at least 1 Theiygn Battle Leader upgraded to be a Jarl.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/theiygn_battle_leader"
+       },
+       {
+        "rule": {
+         "rule": "codex/space_wolves/special_rules/jarl",
+         "name": "Jarl",
+         "url": "https://longwarindex.app/special_rules/jarl/"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "bloodclaws_and_grey_hunters_required",
+     "printed": "Your army must include at least 1 Bloodclaws unit and 1 Grey Hunter unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/bloodclaws"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "grey_hunters_required",
+     "printed": "Your army must include at least 1 Bloodclaws unit and 1 Grey Hunter unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/grey_hunters"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "theiygn_guard_required",
+     "printed": "Your army must include at least 1 Theiygn Guard unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/theiygn_guard"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "infantry_outflank",
+     "printed": "All Space Wolves Infantry type units gain the Outflank special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "keyword": "Space Wolves"
+       },
+       {
+        "unit_type": "Infantry"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/outflank",
+        "name": "Outflank",
+        "url": "https://longwarindex.app/universal_special_rules/outflank/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "theiygn_guard_unslotted",
+     "printed": "Theiygn Guard units in your army do not take up a Force Organization Slot.",
+     "unslotted": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/theiygn_guard"
+       }
+      ]
+     }
+    },
+    {
+     "id": "warlord_sagas",
+     "printed": "Your Warlord may purchase one of the following if they do not have the Unique Keyword:",
+     "options": [
+      {
+       "book_options": "space_wolves",
+       "group": "fenrisian_great_company_sagas"
+      }
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/space_wolves/rites_of_war/morkais_maw",
+   "name": "Morkai's Maw",
+   "page": 16,
+   "url": "https://longwarindex.app/rites_of_war/morkais_maw/",
+   "offered_by": {
+    "allegiance": "codex/space_wolves/allegiances/allegiance_space_wolves"
+   },
+   "text": "Restrictions:\n\n- Your army may not include Bloodclaws.\n- Your army may not include Grey Hunters.\n- Your army must include at least 1 unit of Wolf Scouts.\n- Your army must include at least 2 units of Hounds of Morkai.\n\nBenefits:\n\n- You may field Hounds of Morkai as Troops choices.\n- You may field Swiftclaws as Troops choices but gain the Support Squad special rule.\n- Your Warlord may exchange their Power Armour for:\n    - Scout Armour for 5pts.\n    - Phobos Armour for 10pts.\n- Any model in your army may exchange their:\n    - Bolt Pistol for a Morkai Bolt Pistol for 1pts.\n    - Boltgun for Morkai Boltgun for 1pt.",
+   "restrictions": [
+    {
+     "id": "no_bloodclaws",
+     "printed": "Your army may not include Bloodclaws.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/bloodclaws"
+       }
+      ],
+      "max": 0
+     }
+    },
+    {
+     "id": "no_grey_hunters",
+     "printed": "Your army may not include Grey Hunters.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/grey_hunters"
+       }
+      ],
+      "max": 0
+     }
+    },
+    {
+     "id": "wolf_scouts_required",
+     "printed": "Your army must include at least 1 unit of Wolf Scouts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/wolf_scouts"
+       }
+      ],
+      "min": 1
+     }
+    },
+    {
+     "id": "hounds_of_morkai_required",
+     "printed": "Your army must include at least 2 units of Hounds of Morkai.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/hounds_of_morkai"
+       }
+      ],
+      "min": 2
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "hounds_of_morkai_troops",
+     "printed": "You may field Hounds of Morkai as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/hounds_of_morkai"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "swiftclaws_troops",
+     "printed": "You may field Swiftclaws as Troops choices but gain the Support Squad special rule.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/swiftclaws"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "swiftclaws_support_squad",
+     "printed": "You may field Swiftclaws as Troops choices but gain the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/swiftclaws"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "warlord_armour_exchange",
+     "printed": "Your Warlord may exchange their Power Armour for:",
+     "options": [
+      {
+       "book_options": "space_wolves",
+       "group": "morkais_maw_warlord_armour"
+      }
+     ]
+    },
+    {
+     "id": "any_model_exchange",
+     "printed": "Any model in your army may exchange their:",
+     "options": [
+      {
+       "book_options": "space_wolves",
+       "group": "morkais_maw_bolt_pistol"
+      },
+      {
+       "book_options": "space_wolves",
+       "group": "morkais_maw_boltgun"
+      }
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  },
+  {
+   "id": "codex/space_wolves/rites_of_war/the_last_hunt",
+   "name": "The Last Hunt",
+   "page": 15,
+   "url": "https://longwarindex.app/rites_of_war/the_last_hunt/",
+   "offered_by": {
+    "allegiance": "codex/space_wolves/allegiances/allegiance_space_wolves"
+   },
+   "text": "Restrictions:\n\n- Your Warlord must include at least 1 Theiygn Battle Leader upgraded to be a Wolf Priest.\n- Your army must include at least 1 Theiygn Battle Leaders upgraded to be a Lone Wolf per 1,000pts.\n- Your army must include at least 1 Wulfen unit.\n\nBenefits:\n\n- You may field Theiygn Battle Leaders upgraded to be a Lone Wolf as Troops choices.\n- You may field Wulfen as Troops Choices with the Support Squad special rule.\n- Any unit in your army which is not your Warlord may purchase the Curse of the Wulfen special rule for 30pts.",
+   "restrictions": [
+    {
+     "id": "wolf_priest_warlord",
+     "printed": "Your Warlord must include at least 1 Theiygn Battle Leader upgraded to be a Wolf Priest.",
+     "scope": "detachment",
+     "warlord": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/theiygn_battle_leader"
+       },
+       {
+        "rule": {
+         "rule": "codex/space_wolves/special_rules/wolf_priest_theiygn_battle_leader",
+         "name": "Wolf Priest (Theiygn Battle Leader)",
+         "printed": "Wolf Priest",
+         "url": "https://longwarindex.app/special_rules/wolf_priest_theiygn_battle_leader/"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "lone_wolves_required",
+     "printed": "Your army must include at least 1 Theiygn Battle Leaders upgraded to be a Lone Wolf per 1,000pts.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/theiygn_battle_leader"
+       },
+       {
+        "rule": {
+         "rule": "codex/space_wolves/special_rules/lone_wolf",
+         "name": "Lone Wolf",
+         "url": "https://longwarindex.app/special_rules/lone_wolf/"
+        }
+       }
+      ],
+      "min": 1,
+      "per_points": {
+       "per": 1000,
+       "exact": false
+      }
+     }
+    },
+    {
+     "id": "wulfen_required",
+     "printed": "Your army must include at least 1 Wulfen unit.",
+     "scope": "detachment",
+     "units": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/wulfen"
+       }
+      ],
+      "min": 1
+     }
+    }
+   ],
+   "benefits": [
+    {
+     "id": "lone_wolves_troops",
+     "printed": "You may field Theiygn Battle Leaders upgraded to be a Lone Wolf as Troops choices.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/theiygn_battle_leader"
+       },
+       {
+        "rule": {
+         "rule": "codex/space_wolves/special_rules/lone_wolf",
+         "name": "Lone Wolf",
+         "url": "https://longwarindex.app/special_rules/lone_wolf/"
+        }
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "wulfen_troops",
+     "printed": "You may field Wulfen as Troops Choices with the Support Squad special rule.",
+     "role": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/wulfen"
+       }
+      ],
+      "role": "Troops",
+      "instead": false
+     }
+    },
+    {
+     "id": "wulfen_support_squad",
+     "printed": "You may field Wulfen as Troops Choices with the Support Squad special rule.",
+     "rules": {
+      "conditions": [
+       {
+        "datasheet": "codex/space_wolves/roster/wulfen"
+       },
+       {
+        "role": "Troops"
+       }
+      ],
+      "rules": [
+       {
+        "rule": "universal_special_rules/support_squad",
+        "name": "Support Squad",
+        "url": "https://longwarindex.app/universal_special_rules/support_squad/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "curse_of_the_wulfen_purchase",
+     "printed": "Any unit in your army which is not your Warlord may purchase the Curse of the Wulfen special rule for 30pts.",
+     "options": [
+      {
+       "book_options": "space_wolves",
+       "group": "the_last_hunt_curse_of_the_wulfen"
+      }
+     ]
+    }
+   ],
+   "game_time": [],
+   "unencoded": []
+  }
+ ]
+}

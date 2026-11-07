@@ -1,0 +1,354 @@
+{
+ "data_version": "8c5f1473c829f27a",
+ "format": 1,
+ "faction": "talons_of_the_emperor",
+ "special_rules": [
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/anathema",
+   "name": "Anathema",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/anathema/",
+   "references": [
+    "special_rules/psychic_weapon"
+   ],
+   "text": "A unit with this special rule gains the following effects:\n\n- The unit cannot be affected by Psychic powers.\n- Units with this special rule cannot be targeted by weapons with the Psychic Weapon special rule.\n- Enemy units within 3\" do not gain the benefits of any Psychic powers cast on them.\n- Units with this special rule may only be joined by units with the Sisters of Silence Keyword."
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/binding",
+   "name": "Binding",
+   "kind": "weapon",
+   "page": 12,
+   "url": "https://longwarindex.app/special_rules/binding_talons_of_the_emperor/",
+   "references": [
+    "special_rules/pinning"
+   ],
+   "text": "When a weapon gets hit with this special rule, it must make a Toughness test. If the test is passed, nothing happens. If the test is failed, the unit that was hit by a weapon with this special rule is automatically Pinned. This does not affect Vehicles, Aircraft, Walker, Titan, or Knight type units."
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/emperors_own",
+   "name": "Emperor's Own",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/emperors_own/",
+   "references": [
+    "universal_special_rules/stubborn"
+   ],
+   "text": "A unit with this special rule has the Stubborn special rule and automatically Rally at the start of your movement phase. In addition, when a unit with this special rule conducting a Fall Back Move would move off the Battlefield edge, they instead stop 1\" away and automatically rally.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/stubborn",
+      "name": "Stubborn",
+      "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/ex_oblivio",
+   "name": "Ex Oblivio",
+   "kind": "datasheet",
+   "page": 25,
+   "url": "https://longwarindex.app/special_rules/ex_oblivio/",
+   "references": [
+    "special_rules/bane"
+   ],
+   "text": "Enemy units within 3\" of this unit are treated as being -1 Weapon Skill (WS). In addition, all attacks made by this unit in the Combat Phase with Melee type weapons are resolved as if they had the Bane special rule."
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/heralding_rider",
+   "name": "Heralding Rider",
+   "kind": "datasheet",
+   "page": 27,
+   "url": "https://longwarindex.app/special_rules/heralding_rider/",
+   "references": [
+    "universal_special_rules/outflank"
+   ],
+   "text": "If this unit is alive and, on the Battlefield, friendly units may re-roll the roll when determining if they would arrive via Outflank."
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/machine_spirit_coronus_grav_carrier",
+   "name": "Machine Spirit",
+   "datasheet": "Coronus Grav-Carrier",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/machine_spirit_coronus_grav_carrier/",
+   "text": "This unit may always set to Overwatch, even if it made a shooting attack in the Shooting phase. However, it may only perform the attack with one weapon it is equipped with if it did so."
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/machine_spirit_orion_assault_dropship",
+   "name": "Machine Spirit",
+   "datasheet": "Orion Assault Dropship",
+   "kind": "datasheet",
+   "page": 52,
+   "url": "https://longwarindex.app/special_rules/machine_spirit_orion_assault_dropship/",
+   "text": "This unit may always set to Overwatch, even if it made a shooting attack in the Shooting phase."
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/marked_for_death",
+   "name": "Marked for Death",
+   "kind": "datasheet",
+   "page": 37,
+   "url": "https://longwarindex.app/special_rules/marked_for_death/",
+   "references": [
+    "special_rules/rending"
+   ],
+   "text": "At the beginning of the game, during deployment, select a single enemy unit in your opponent's army. Resolve all attacks against that unit with your equipped Nemesis Boltguns as if your Nemesis Boltguns had the Rending (5+) special rule."
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/psyk_out",
+   "name": "Psyk-Out",
+   "kind": "weapon",
+   "page": 9,
+   "url": "https://longwarindex.app/special_rules/psyk_out_talons_of_the_emperor/",
+   "text": "Any time a Psyker unit suffers a hit from a weapon with this special rule, they automatically suffer a Perils of the Warp after the hit is resolved."
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/raptor_cry",
+   "name": "Raptor Cry",
+   "kind": "datasheet",
+   "page": 45,
+   "url": "https://longwarindex.app/special_rules/raptor_cry/",
+   "references": [
+    "universal_special_rules/outflank"
+   ],
+   "text": "If this unit includes a Cyber Raptor, enemy units may not arrive from Outflank within 12\" of this unit."
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/relentless_tracker",
+   "name": "Relentless Tracker",
+   "kind": "datasheet",
+   "page": 45,
+   "url": "https://longwarindex.app/special_rules/relentless_tracker/",
+   "text": "If this unit includes a Cyber Mastiff model, it may move an additional D3\" when the unit Advances."
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/reliable_machine_spirit",
+   "name": "Reliable Machine Spirit",
+   "kind": "datasheet",
+   "page": 38,
+   "url": "https://longwarindex.app/special_rules/reliable_machine_spirit_talons_of_the_emperor/",
+   "text": "When a unit with this special rule would be destroyed. Embarked units are not required to roll for models inside being slain (see Rule 10.2 in the core rules)."
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/savage_fighter",
+   "name": "Savage Fighter",
+   "kind": "datasheet",
+   "page": 45,
+   "url": "https://longwarindex.app/special_rules/savage_fighter/",
+   "references": [
+    "universal_special_rules/furious_charge"
+   ],
+   "text": "If this unit includes a Cyber Mastiff, Cyber Felidae or Cyber Caiman, the unit gains the Furious Charge special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/furious_charge",
+      "name": "Furious Charge",
+      "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+     }
+    ],
+    "while_unit_has_profile": [
+     "Cyber Mastiff",
+     "Cyber Felidae",
+     "Cyber Caiman"
+    ]
+   }
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/the_captain_general_of_the_ten_thousand",
+   "name": "The Captain General of the Ten Thousand",
+   "kind": "warlord_trait",
+   "page": 28,
+   "url": "https://longwarindex.app/special_rules/the_captain_general_of_the_ten_thousand/",
+   "text": "Any friendly Imperium unit which can draw visibility to this unit adds 1 to the number of wounds inflicted in the Combat Phase for the purposes of combat resolution and determining who won combat."
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/the_sodality",
+   "name": "The Sodality",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/the_sodality/",
+   "text": "Coherency for units with this special rule is 3\" horizontal and 9\" vertical instead of 2\" horizontal and 6\" vertical. In addition, units with this special rule always count as outnumbering enemy models when contesting objectives regardless of the number of enemy models that are actually contesting the objective."
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/toughened_scale",
+   "name": "Toughened Scale",
+   "kind": "datasheet",
+   "page": 45,
+   "url": "https://longwarindex.app/special_rules/toughened_scale/",
+   "references": [
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "A Cyber Caiman model in this unit gains the benefit of the Feel No Pain (5+) special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     }
+    ],
+    "profiles": [
+     "Cyber Caiman"
+    ]
+   }
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/transport_coronus_grav_carrier",
+   "name": "Transport",
+   "datasheet": "Coronus Grav-Carrier",
+   "kind": "datasheet",
+   "page": 39,
+   "url": "https://longwarindex.app/special_rules/transport_coronus_grav_carrier/",
+   "text": "This model can transport 6 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 6,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/transport_kharon_pattern_acquisitor",
+   "name": "Transport",
+   "datasheet": "Kharon Pattern Acquisitor",
+   "kind": "datasheet",
+   "page": 40,
+   "url": "https://longwarindex.app/special_rules/transport_kharon_pattern_acquisitor/",
+   "references": [
+    "universal_special_rules/bulky"
+   ],
+   "text": "This unit can transport 16 Infantry models. It may not transport models with the Bulky (x) special rule.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 16,
+     "unit_types": [
+      "Infantry"
+     ],
+     "filters": [
+      {
+       "not": true,
+       "any_rules": [
+        "universal_special_rules/bulky"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/transport_land_raider",
+   "name": "Transport",
+   "datasheet": "Land Raider",
+   "kind": "datasheet",
+   "page": 48,
+   "url": "https://longwarindex.app/special_rules/transport_land_raider_talons_of_the_emperor/",
+   "text": "This model can transport 10 Infantry models.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 10,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/transport_null_maiden_rhino_apc",
+   "name": "Transport",
+   "datasheet": "Null Maiden Rhino APC",
+   "kind": "datasheet",
+   "page": 38,
+   "url": "https://longwarindex.app/special_rules/transport_null_maiden_rhino_apc/",
+   "references": [
+    "universal_special_rules/bulky"
+   ],
+   "text": "This unit can transport 11 Infantry models. It may not transport models with the Bulky (x) special rule.",
+   "effects": {
+    "transport_capacity": {
+     "type": "shared",
+     "n": 11,
+     "unit_types": [
+      "Infantry"
+     ],
+     "filters": [
+      {
+       "not": true,
+       "any_rules": [
+        "universal_special_rules/bulky"
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/transport_orion_assault_dropship",
+   "name": "Transport",
+   "datasheet": "Orion Assault Dropship",
+   "kind": "datasheet",
+   "page": 52,
+   "url": "https://longwarindex.app/special_rules/transport_orion_assault_dropship/",
+   "text": "This model can transport 10 Infantry models. It may also Transport 1 Dreadnought model.",
+   "effects": {
+    "transport_capacity": {
+     "type": "per_unit_type",
+     "limits": [
+      {
+       "n": 10,
+       "unit_types": [
+        "Infantry"
+       ]
+      },
+      {
+       "n": 1,
+       "unit_types": [
+        "Walker"
+       ],
+       "filters": [
+        {
+         "datasheet_names": [
+          "Custodes Contemptor Dreadnought",
+          "Telemon Heavy Dreadnought"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/twice_victor_of_the_blood_games",
+   "name": "Twice Victor of the Blood Games",
+   "kind": "datasheet",
+   "page": 28,
+   "url": "https://longwarindex.app/special_rules/twice_victor_of_the_blood_games/",
+   "references": [
+    "universal_special_rules/scout"
+   ],
+   "text": "This unit and any attached unit may make a Scout Move as if they had the Scout special rule."
+  },
+  {
+   "id": "codex/talons_of_the_emperor/special_rules/void_knights",
+   "name": "Void Knights",
+   "kind": "datasheet",
+   "page": 35,
+   "url": "https://longwarindex.app/special_rules/void_knights/",
+   "text": "All friendly units within 6\" of this unit cannot be targeted by Psychic Powers and or Psychic Weapons. In addition, enemy units within 3\" of allied units under this effect do not gain the benefit of Psychic Powers. Only one unit in your army may be upgraded to be Void Knights.",
+   "effects": {
+    "list_building": {
+     "max_units_per_army": 1
+    }
+   }
+  }
+ ]
+}

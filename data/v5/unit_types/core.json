@@ -1,0 +1,539 @@
+{
+ "data_version": "b888a83f53fb80c7",
+ "format": 1,
+ "faction": "core",
+ "unit_types": [
+  {
+   "id": "unit_types/aircraft",
+   "name": "Aircraft",
+   "page": 50,
+   "url": "https://longwarindex.app/unit_types/aircraft/",
+   "source": "Core Rules",
+   "movement": "20-30\"",
+   "rules": [
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    }
+   ],
+   "text": "Aircraft Types have the following:\n\n- A Movement (M) characteristic of 20-30\".\n- The Hammer of Wrath (1) special rule.\n- The Outflank special rule.\n- The Fleet special rule.\n- The Relentless special rule.\n- Firing Protocols (All).\n- Automatically Advance 6\".\n- The Fly special rule.\n- Aircraft units that Advance in their previous movement phase may re-roll any Cover saves they make.\n- Aircraft have Armour facings and use the Vehicle damage chart (see 10.1).\n- Aircraft are only ever hit on an unmodified 6 by Shooting attacks in the Shooting Phase. Aircraft cannot be hit by weapons with the Spray, Blast or Large Blast special rules.\n- Unless an Aircraft is Hovering, you may move within 3\" of an Aircraft model's base with a unit that does not have the Fly special rule and not be engaged.\n- Units which Disembark from an Aircraft that is not using the Hover special rule may do so but the Disembarking unit must make Dangerous Terrain tests.\n- Aircraft do not make Pinning tests.\n- Aircraft do not make Panic tests."
+  },
+  {
+   "id": "unit_types/automata",
+   "name": "Automata",
+   "page": 49,
+   "url": "https://longwarindex.app/unit_types/automata/",
+   "source": "Core Rules",
+   "movement": "5\"",
+   "rules": [
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/slow_and_purposeful",
+     "name": "Slow and Purposeful",
+     "printed": "Slow & Purposeful",
+     "url": "https://longwarindex.app/universal_special_rules/slow_and_purposeful/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "3",
+     "printed": "Firing Protocol (3)",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    }
+   ],
+   "text": "Automata types have the following:\n\n- A Movement (M) characteristic of 5\".\n- The Relentless Special rule.\n- The Slow & Purposeful special rule.\n- The Move through Cover special rule.\n- The Firing Protocol (3) special rule.\n- Automata must target the closest enemy unit within range and visibility when declaring a Shooting attack.\n- Automata may only declare a charge against the closest unit or units in the charge phase."
+  },
+  {
+   "id": "unit_types/battlesuit",
+   "name": "Battlesuit",
+   "page": 49,
+   "url": "https://longwarindex.app/unit_types/battlesuit/",
+   "source": "Core Rules",
+   "movement": "8\"",
+   "rules": [
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/deep_strike",
+     "name": "Deep Strike",
+     "url": "https://longwarindex.app/universal_special_rules/deep_strike/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "2",
+     "printed": "Firing Protocol (2)",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    }
+   ],
+   "text": "Battlesuits types have the following:\n\n- A Movement (M) characteristic of 8\".\n- The Hammer of Wrath (1) Special rule.\n- The Deep Strike special rule.\n- The Firing Protocol (2) special rule.\n- Battlesuit units with the Fly special rule Advance 6\"."
+  },
+  {
+   "id": "unit_types/beast",
+   "name": "Beast",
+   "page": 50,
+   "url": "https://longwarindex.app/unit_types/beast/",
+   "source": "Core Rules",
+   "movement": "10\"",
+   "rules": [
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/sprint",
+     "name": "Sprint",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/sprint/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    }
+   ],
+   "text": "Beast types have the following:\n\n- A Movement (M) characteristic of 10\".\n- The Hammer of Wrath (1) special rule.\n- The Sprint (1) special rule.\n- The Fleet special rule.\n- The Move Through Cover special rule."
+  },
+  {
+   "id": "unit_types/bike",
+   "name": "Bike",
+   "page": 49,
+   "url": "https://longwarindex.app/unit_types/bike/",
+   "source": "Core Rules",
+   "movement": "12\"",
+   "rules": [
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    }
+   ],
+   "text": "Bike types have the following:\n\n- A Movement (M) characteristic of 12\".\n- The Hammer of Wrath (1) special rule.\n- The Outflank special rule.\n- The Relentless Special rule.\n- The Fleet special rule.\n- The Fade & Fire Special rule.\n- Automatically Advance 6\".\n- Bike units that Advance in their previous movement phase may re-roll any Cover saves they make."
+  },
+  {
+   "id": "unit_types/cavalry",
+   "name": "Cavalry",
+   "page": 48,
+   "url": "https://longwarindex.app/unit_types/cavalry/",
+   "source": "Core Rules",
+   "movement": "12\"",
+   "rules": [
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    }
+   ],
+   "text": "Cavalry types have the following:\n\n- A Movement (M) characteristic of 12\".\n- The Hammer of Wrath (1) special rule.\n- The Outflank special rule.\n- The Fleet special rule.\n- The Relentless special rule.\n- The Fade & Fire special rule.\n- Automatically Advance 6\".\n- Cavalry units that Advance in their previous movement phase may re-roll any Cover saves they make."
+  },
+  {
+   "id": "unit_types/drone",
+   "name": "Drone",
+   "page": 48,
+   "url": "https://longwarindex.app/unit_types/drone/",
+   "source": "Core Rules",
+   "movement": "8\"",
+   "rules": [
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    }
+   ],
+   "text": "Drone types have the following:\n\n- A Movement (M) characteristic of 8\".\n- The Hammer of Wrath (1) Special rule.\n- The Relentless Special rule.\n- Drone units Advance 6\".\n- The Fly special rule.\n- Additional Rules for Drones can be found on Page 22 of Codex T'au Empire."
+  },
+  {
+   "id": "unit_types/fortification",
+   "name": "Fortification",
+   "page": 50,
+   "url": "https://longwarindex.app/unit_types/fortification/",
+   "source": "Core Rules",
+   "movement": "0\"",
+   "rules": [
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    }
+   ],
+   "text": "Fortification types have the following:\n\n- A Movement (M) characteristic of 0\".\n- The Firing Protocols (All) special rule.\n- Fortifications have Armour facings and use the Vehicle damage chart (see 10.1).\n- Fortifications do not make Pinning tests.\n- Fortifications do not make Panic tests.\n- Units within 3\" of a Fortification do not count as being locked in combat with a unit and may move freely with standard movement actions."
+  },
+  {
+   "id": "unit_types/infantry",
+   "name": "Infantry",
+   "page": 48,
+   "url": "https://longwarindex.app/unit_types/infantry/",
+   "source": "Core Rules",
+   "movement": "6\"",
+   "rules": [],
+   "text": "Infantry types have the following:\n\n- The Infantry type has a Movement (M) characteristic of 6\".\n- In the Shooting Phase, when an Infantry type unit that does not have the Slow & Purposeful or Bulky (x) special rule when selected as a target of an attack in that shooting phase, after all weapon targets have been declared, the Infantry unit may opt to go to ground. The Infantry unit gains the +1 to its Cover save (max of 4+) or gain the benefit of Light Cover. The unit is then Pinned."
+  },
+  {
+   "id": "unit_types/jetbike",
+   "name": "Jetbike",
+   "page": 49,
+   "url": "https://longwarindex.app/unit_types/jetbike/",
+   "source": "Core Rules",
+   "movement": "14\"",
+   "rules": [
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/outflank",
+     "name": "Outflank",
+     "url": "https://longwarindex.app/universal_special_rules/outflank/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/fleet",
+     "name": "Fleet",
+     "url": "https://longwarindex.app/universal_special_rules/fleet/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/fly",
+     "name": "Fly",
+     "url": "https://longwarindex.app/universal_special_rules/fly/"
+    }
+   ],
+   "text": "Jetbike types have the following:\n\n- A Movement (M) characteristic of 14\".\n- The Hammer of Wrath (1) special rule.\n- The Outflank special rule.\n- The Relentless special rule.\n- The Fleet special rule.\n- The Fade & Fire Special rule.\n- Automatically Advance 6\".\n- The Fly special rule.\n- Jetbike units that Advance in their previous movement phase may re-roll any Cover saves they make."
+  },
+  {
+   "id": "unit_types/knight",
+   "name": "Knight",
+   "page": 50,
+   "url": "https://longwarindex.app/unit_types/knight/",
+   "source": "Core Rules",
+   "movement": "10\"",
+   "rules": [
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "2",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    }
+   ],
+   "text": "The Knight type have the following:\n\n- A Movement (M) characteristic of 10\".\n- The Relentless special rule.\n- The Fade & Fire special rule.\n- Firing Protocols (All).\n- The Hammer of Wrath (2) special rule.\n- The Move Through Cover special rule.\n- Knights do not make Pinning tests.\n- Knights do not make Panic tests except as a result of the Gets Hot! Special rule.\n- Knights have Armour facings and use the Vehicle damage chart.\n- Knights may move across models that are Infantry, Battlesuit, Cavalry, Automata, Beast, Swarm, Bike, Jetbike or Drone units with less than 4 wounds. However, a knight cannot end a move overlapping a model's base.\n- Knights in close combat are hit on their front Armour by Titan, Primarch, Monster, Walker and Automata units with Wounds (W) characteristic equal or greater than 4."
+  },
+  {
+   "id": "unit_types/monster",
+   "name": "Monster",
+   "page": 48,
+   "url": "https://longwarindex.app/unit_types/monster/",
+   "source": "Core Rules",
+   "movement": "8\"",
+   "rules": [
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    }
+   ],
+   "text": "Monster types have the following:\n\n- A Movement (M) characteristic of 8\".\n- The Regeneration special rule.\n- The Hammer of Wrath (1) Special rule.\n- The Move through Cover special rule.\n- Monsters may fire Rapid Fire and Heavy Weapons and still declare a charge in the Charge phase."
+  },
+  {
+   "id": "unit_types/primarch",
+   "name": "Primarch",
+   "page": 50,
+   "url": "https://longwarindex.app/unit_types/primarch/",
+   "source": "Core Rules",
+   "movement": "6\"",
+   "rules": [
+    {
+     "rule": "universal_special_rules/bulky",
+     "name": "Bulky",
+     "param": "4",
+     "url": "https://longwarindex.app/universal_special_rules/bulky/"
+    },
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    },
+    {
+     "rule": "universal_special_rules/battle_hardened",
+     "name": "Battle-Hardened",
+     "printed": "Battle Hardened",
+     "url": "https://longwarindex.app/universal_special_rules/battle_hardened/"
+    },
+    {
+     "rule": "universal_special_rules/stubborn",
+     "name": "Stubborn",
+     "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    }
+   ],
+   "text": "Primarch types have the following:\n\n- A Movement (M) characteristic of 6\".\n- The Bulky (4) special rule.\n- The Relentless special rule.\n- The Regeneration special rule.\n- The Move Through Cover special rule.\n- The Battle Hardened special rule.\n- The Stubborn special rule.\n- Firing Protocols (3) special rule.\n- Primarchs Count as Infantry for the purposes of joining units unless they have the Daemon special rule.\n- Primarchs Automatically pass all Panic tests they are called to make.\n- Primarchs are not affected by Blind, Concussive and Pinning special rules."
+  },
+  {
+   "id": "unit_types/swarm",
+   "name": "Swarm",
+   "page": 49,
+   "url": "https://longwarindex.app/unit_types/swarm/",
+   "source": "Core Rules",
+   "movement": "8\"",
+   "rules": [
+    {
+     "rule": "universal_special_rules/regeneration",
+     "name": "Regeneration",
+     "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+    },
+    {
+     "rule": "universal_special_rules/hit_and_run",
+     "name": "Hit & Run",
+     "url": "https://longwarindex.app/universal_special_rules/hit_and_run/"
+    },
+    {
+     "rule": "universal_special_rules/move_through_cover",
+     "name": "Move Through Cover",
+     "url": "https://longwarindex.app/universal_special_rules/move_through_cover/"
+    }
+   ],
+   "text": "The Swarm type have the following:\n\n- A Movement (M) characteristic of 8\".\n- The Regeneration special rule.\n- The Hit & Run special rule.\n- The Move Through Cover special rule.\n- Swarms ignore Instant Death unless the weapon has the Spray, Blast or Large Blast special rules."
+  },
+  {
+   "id": "unit_types/titan",
+   "name": "Titan",
+   "page": 51,
+   "url": "https://longwarindex.app/unit_types/titan/",
+   "source": "Core Rules",
+   "movement": "12\"",
+   "rules": [
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "3",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    }
+   ],
+   "text": "A Titan type unit has the following features:\n\n- A Movement (M) characteristic of 12\".\n- The Relentless Special Rule.\n- The Hammer of Wrath (3) special rule.\n- Titan Type units cannot be Pinned except by rolling on the Vehicle damage chart.\n- Titan type units may shoot with all weapons they are equipped with in the Shooting Phase.\n- Titan type units may perform a Retreat move in the Movement phase and still Shoot and Charge in the Shooting and Charge Phase. A unit with this type may Retreat in the Movement Phase and shoot at its full Ballistic Skill (BS).\n- Titan Type units use the following Vehicle Damage Chart instead of the standard one found in the Core Rules:\n\nIf a weapon scores a successful penetration, roll on the Vehicle damage chart below. If the Weapon has AP2 add 1 to the roll. If the weapon has AP1 add 2 to the roll instead.\n\nD6\tResult\n1-2\tSuperficial damage: The attack bounces or only inflicts superficial damage to the vehicle.\n3-4\tCrew shaken or injured: The shot penetrates the armour and injures crew or shakes them. The Titan must take a leadership test. On a fail, the Titan is pinned.\n5-6\tWeapon destroyed: A Primary weapon on the Titan is destroyed. The Controlling player of the Titan determines which weapon is destroyed. That weapon cannot be used for the rest of the game unless repaired.\n7\tImmobilised: The Titan is immobilised and can no longer make move actions in the movement phase or charge rolls in the charge phase unless repaired. If the Titan is already Immobilised, this counts as a weapon destroyed result. If the Titan is Immobilised and the vehicle has no Primary or Secondary weapons left, it is crippled (see below).\n8\tCritical hit: roll an additional D3.\n\nD3\tResult\n1\tCrippled: The Titan is crippled and a wreck. It remains on the battlefield as Terrain and is no longer considered a unit and counts as having been slain.\n2\tExplodes: All models within 10\" of the Vehicle take 1 Strength 8, AP 5 hit. The Titan is then removed from play.\n3\tOut of Control: The owner of the Vehicle moves it D6\". Move the vehicle that many inches as far as it can go in any direction. All models within 10\" of the Vehicle take 1 Strength 8, AP 5 hit. The Titan is then removed from play. A Titan cannot perform the move if it was previously immobilised."
+  },
+  {
+   "id": "unit_types/vehicle",
+   "name": "Vehicle",
+   "page": 49,
+   "url": "https://longwarindex.app/unit_types/vehicle/",
+   "source": "Core Rules",
+   "movement": "12\"",
+   "rules": [
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/fade_and_fire",
+     "name": "Fade & Fire",
+     "url": "https://longwarindex.app/universal_special_rules/fade_and_fire/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    }
+   ],
+   "text": "Vehicle types have the following:\n\n- A Movement (M) characteristic of 12\".\n- The Relentless special rule.\n- The Hammer of Wrath (1) special rule.\n- The Fade & Fire Special rule.\n- Firing Protocols (All).\n- Automatically Advance 6\".\n- Vehicles may only perform Overwatch with Secondary weapons (S) they are equipped with.\n- Vehicles have Armour facings and use the Vehicle damage chart (see 10.1).\n- Vehicles do not Panic (see 12.3.3).\n- Vehicles do not make Pinning tests except as a result of the Gets Hot! Special rule."
+  },
+  {
+   "id": "unit_types/walker",
+   "name": "Walker",
+   "page": 48,
+   "url": "https://longwarindex.app/unit_types/walker/",
+   "source": "Core Rules",
+   "movement": "8\"",
+   "rules": [
+    {
+     "rule": "universal_special_rules/relentless",
+     "name": "Relentless",
+     "url": "https://longwarindex.app/universal_special_rules/relentless/"
+    },
+    {
+     "rule": "universal_special_rules/hammer_of_wrath",
+     "name": "Hammer of Wrath",
+     "param": "1",
+     "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+    },
+    {
+     "rule": "universal_special_rules/firing_protocols",
+     "name": "Firing Protocols",
+     "param": "All",
+     "url": "https://longwarindex.app/universal_special_rules/firing_protocols/"
+    }
+   ],
+   "text": "Walker types have the following:\n\n- A Movement (M) characteristic of 8\".\n- The Relentless special rule.\n- The Hammer of Wrath (1) Special rule.\n- The Firing Protocols (All) special rule."
+  }
+ ]
+}

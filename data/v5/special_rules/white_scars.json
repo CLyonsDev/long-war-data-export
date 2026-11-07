@@ -1,0 +1,389 @@
+{
+ "data_version": "cbda2b30e2dcbb31",
+ "format": 1,
+ "faction": "white_scars",
+ "special_rules": [
+  {
+   "id": "codex/white_scars/allegiances/allegiance_white_scars",
+   "name": "Allegiance: White Scars",
+   "kind": "allegiance",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_white_scars/",
+   "references": [
+    "universal_special_rules/hit_and_run",
+    "universal_special_rules/skilled_rider",
+    "battlefield_roles/limited"
+   ],
+   "text": "All units with the White Scars Keyword gain the Allegiance: White Scars special rule. The Allegiance: White Scars special rule consists of the following rules:\n\n- Swift Death: All White Scars units gain the following benefits:\n    - White Scars units gain the Hit & Run special rule.\n    - White Scars units gain the Skilled Rider special rule.\n- Way of the Khagan: The following apply to a White Scars Army:\n    - Your army must include more Fast Attack choices than Heavy Support choices.\n    - All Dreadnought Keyword units and Centurion units gain the Limited: 1 Per Detachment special rule.\n    - Space Marine Lieutenants in your army may not purchase the Chaplain or Librarian options."
+  },
+  {
+   "id": "codex/white_scars/special_rules/armoury_of_the_5th_legion",
+   "name": "Armoury of the 5th Legion",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_5th_legion/",
+   "references": [
+    "codex/white_scars/allegiances/allegiance_white_scars",
+    "codex/white_scars/special_rules/stormseer",
+    "codex/white_scars/special_rules/kharash"
+   ],
+   "text": "Units with Allegiance: White Scars have access to additional wargear presented in this supplement in addition to the Wargear presented in the core Codex Space Marines.\n\nLieutenant Upgrades\n\nA White Scars Space Marine Lieutenant may purchase the following upgrade in addition to the others available:\n\n- Stormseer for 40pts.\n\nWargear\n\nAny White Scars Space Marine Captain or Space Marine Lieutenant unit may:\n\n- Take Head Taker Trophies for 5pts.\n- Take a Cyber Eagle for 20pts.\n\nAny White Scars Vehicle, Bike or Aircraft unit may:\n\n- Take Chogorian Pattern Engine for 2pts per model in the unit.\n\nGeneral Upgrades\n\n- Any White Scars Infantry or Bike unit in your army may be part of the Kharash for 10pts. The unit gains the Kharash special rule.\n\nWeapons\n\nAny White Scars model with a Power Axe may exchange it for a Chogorian Power Glaive for 10pts.\n\nAny White Scars model may:\n\n- Exchange their Bolt Pistol for an Equis Bolt Pistol for 1pt per model.\n\nAll models in a White Scars unit may:\n\n- Exchange their Boltgun for a Stormwrath Boltgun for 2pts per model.\n- Exchange their Storm Bolter for a Stormwrath Storm Bolter for 2pts per model.\n- Exchange their Linked Boltgun for a Linked Stormwrath Boltgun for 2pts per model.\n- Exchange their Heavy Boltgun for a Heavy Stormwrath Boltgun for 2pts per model.\n- Exchange their Heavy Bolter for a Stormwrath Heavy Bolter for 2pts per model.\n- Exchange their Linked Heavy Bolter for a Linked Stormwrath Heavy Bolter for 2pts per model."
+  },
+  {
+   "id": "codex/white_scars/special_rules/kharash",
+   "name": "Kharash",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/kharash/",
+   "references": [
+    "universal_special_rules/feel_no_pain",
+    "universal_special_rules/expendable"
+   ],
+   "text": "A unit with this special rule gains the Feel no Pain (5+) special rule and the Expendable special rule. A unit with this special rule never counts towards Victory Points when slain. A unit with this special rule may only be joined by other units with this special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/feel_no_pain",
+      "name": "Feel No Pain",
+      "param": "5+",
+      "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+     },
+     {
+      "rule": "universal_special_rules/expendable",
+      "name": "Expendable",
+      "url": "https://longwarindex.app/universal_special_rules/expendable/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/white_scars/special_rules/khan_of_the_spearpoint_brotherhood",
+   "name": "Khan of the Spearpoint Brotherhood",
+   "kind": "warlord_trait",
+   "page": 17,
+   "url": "https://longwarindex.app/special_rules/khan_of_the_spearpoint_brotherhood/",
+   "references": [
+    "universal_special_rules/furious_charge"
+   ],
+   "text": "If this unit is your Warlord, all Veteran keyword units in your army gain the Furious Charge special rule. In addition, this unit may join Bike type units even though it is not Bike type.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Veteran"
+         ]
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/furious_charge",
+        "name": "Furious Charge",
+        "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+       },
+       "quote": "If this unit is your Warlord, all Veteran keyword units in your army gain the Furious Charge special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/white_scars/special_rules/master_of_the_hunt",
+   "name": "Master of the Hunt",
+   "kind": "warlord_trait",
+   "page": 16,
+   "url": "https://longwarindex.app/special_rules/master_of_the_hunt/",
+   "references": [
+    "universal_special_rules/character"
+   ],
+   "text": "If this unit is your Warlord, during the Deployment Step, select a single enemy unit with the Character special rule in your opponent's Army. This unit can re-roll all Hit Rolls and Wound Rolls of 1 against that unit."
+  },
+  {
+   "id": "codex/white_scars/special_rules/storm_wreathed_saghari",
+   "name": "Storm-Wreathed",
+   "datasheet": "Saghari",
+   "kind": "warlord_trait",
+   "page": 18,
+   "url": "https://longwarindex.app/special_rules/storm_wreathed_saghari/",
+   "references": [
+    "universal_special_rules/hammer_of_wrath"
+   ],
+   "text": "If this unit is your Warlord, it and any attached unit gain the Hammer of Wrath (1) special rule. In addition, you may re-roll to wound rolls from Hammer of Wrath hits.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "is_warlord": true
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/hammer_of_wrath",
+        "name": "Hammer of Wrath",
+        "param": "1",
+        "url": "https://longwarindex.app/universal_special_rules/hammer_of_wrath/"
+       },
+       "quote": "If this unit is your Warlord, it and any attached unit gain the Hammer of Wrath (1) special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/white_scars/special_rules/stormseer",
+   "name": "Stormseer",
+   "kind": "datasheet",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/stormseer/",
+   "references": [
+    "universal_special_rules/psyker",
+    "universal_special_rules/adamantium_will",
+    "universal_special_rules/indomitable_spirit"
+   ],
+   "text": "A Lieutenant with this upgrade gains the Psyker (1), Adamantium Will and Indomitable Spirit (4+) special rules. The Lieutenant exchanges their Chainsword for a Force Stave.\n\n- The Stormseer may exchange their Force Stave for one of the following:\n    - Force Sword for 0pts.\n    - Force Axe for 5pts.\n- The Stormseer may take a Psychic Hood for 10pts.\n- The Stormseer may exchange their Power Armour, Boltgun, Bolt Pistol, Frag Grenades, Krak Grenades for a Storm Bolter and Indomitus Terminator Armour for 10pts.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/psyker",
+      "name": "Psyker",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/psyker/"
+     },
+     {
+      "rule": "universal_special_rules/adamantium_will",
+      "name": "Adamantium Will",
+      "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+     },
+     {
+      "rule": "universal_special_rules/indomitable_spirit",
+      "name": "Indomitable Spirit",
+      "param": "4+",
+      "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/"
+     }
+    ],
+    "exchanges": [
+     {
+      "remove": [
+       {
+        "kind": "weapon",
+        "id": "chainsword",
+        "faction": "space_marines"
+       }
+      ],
+      "add": [
+       {
+        "kind": "weapon",
+        "id": "force_stave",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "force_weapon",
+     "label": "The Stormseer may exchange their Force Stave for one of the following:",
+     "printed": "The Stormseer may exchange their Force Stave for one of the following:",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "force_sword",
+       "name": "Force Sword",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "force_stave",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_sword",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "force_axe",
+       "name": "Force Axe",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "force_stave",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "force_axe",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "psychic_hood",
+     "label": "The Stormseer may take a Psychic Hood for 10pts.",
+     "printed": "The Stormseer may take a Psychic Hood for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "psychic_hood",
+       "name": "Psychic Hood",
+       "points": 10,
+       "pricing": "flat",
+       "items": [
+        {
+         "kind": "wargear",
+         "id": "psychic_hood",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "terminator_armour",
+     "label": "The Stormseer may exchange their Power Armour, Boltgun, Bolt Pistol, Frag Grenades, Krak Grenades for a Storm Bolter and Indomitus Terminator Armour for 10pts.",
+     "printed": "The Stormseer may exchange their Power Armour, Boltgun, Bolt Pistol, Frag Grenades, Krak Grenades for a Storm Bolter and Indomitus Terminator Armour for 10pts.",
+     "takers": {
+      "scope": "model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "indomitus_terminator_armour",
+       "name": "Storm Bolter and Indomitus Terminator Armour",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "wargear",
+           "id": "power_armour",
+           "faction": "space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "boltgun",
+           "faction": "space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "bolt_pistol",
+           "faction": "space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "frag_grenades",
+           "faction": "space_marines"
+          },
+          {
+           "kind": "weapon",
+           "id": "krak_grenade",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter",
+           "faction": "space_marines"
+          },
+          {
+           "kind": "wargear",
+           "id": "indomitus_terminator_armour",
+           "faction": "space_marines"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/white_scars/special_rules/stormseer_conclave",
+   "name": "Stormseer Conclave",
+   "kind": "datasheet",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/stormseer_conclave/",
+   "references": [
+    "codex/white_scars/special_rules/stormseer"
+   ],
+   "text": "This unit may only be included in an army that includes Space Marine Lieutenant upgraded to a Stormseer.",
+   "effects": {
+    "list_building": {
+     "requires_in_army": [
+      {
+       "choice": {
+        "book_options": "white_scars",
+        "path": "armoury_stormseer/stormseer"
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/white_scars/special_rules/invocation_of_raising_tempest",
+   "name": "Invocation of Raising Tempest",
+   "kind": "datasheet",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/invocation_of_raising_tempest/",
+   "references": [
+    "special_rules/sweeping"
+   ],
+   "text": "This unit gains the Sweeping (1) special rule on all Chainswords it is equipped with.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/sweeping",
+      "name": "Sweeping",
+      "param": "1",
+      "url": "https://longwarindex.app/special_rules/sweeping/",
+      "weapons": [
+       {
+        "kind": "weapon",
+        "id": "chainsword",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

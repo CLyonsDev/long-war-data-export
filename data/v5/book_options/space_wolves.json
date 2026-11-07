@@ -1,0 +1,1159 @@
+{
+ "data_version": "068d0f9fdea80ef9",
+ "format": 1,
+ "faction": "space_wolves",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 7,
+   "url": "https://longwarindex.app/wargear/the_armour_of_russ/",
+   "offered_by": {
+    "allegiance": "codex/space_wolves/allegiances/allegiance_space_wolves"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "the_armour_of_russ",
+     "name": "The Armour of Russ",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_armour_of_russ"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_armour_of_russ/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_helm_of_durfast",
+     "name": "The Helm of Durfast",
+     "points": 20,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_helm_of_durfast"
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/the_helm_of_durfast/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_wulfen_stone",
+     "name": "The Wulfen Stone",
+     "points": 30,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_wulfen_stone"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_wulfen_stone/",
+     "pricing": "flat"
+    },
+    {
+     "id": "pelt_of_the_balewolf",
+     "name": "Pelt of the Balewolf",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "pelt_of_the_balewolf"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/pelt_of_the_balewolf/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_mountain_breaker_helm",
+     "name": "The Mountain Breaker Helm",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_mountain_breaker_helm"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_mountain_breaker_helm/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_storms_eye",
+     "name": "The Storm's Eye",
+     "points": 5,
+     "printed": "One unit in your army with the Character & Psyker (x) special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_storms_eye"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/the_storms_eye/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "rule": {
+        "rule": "universal_special_rules/psyker",
+        "name": "Psyker",
+        "url": "https://longwarindex.app/universal_special_rules/psyker/"
+       }
+      }
+     ]
+    },
+    {
+     "id": "black_death",
+     "name": "Black Death",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Axe for this relic for 10pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_axe",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "black_death"
+        }
+       ]
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/black_death/",
+     "pricing": "flat"
+    },
+    {
+     "id": "fangsword_of_the_ice_wolf",
+     "name": "Fangsword of the Ice Wolf",
+     "points": 15,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Power Sword for this relic for 15pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "fangsword_of_the_ice_wolf"
+        }
+       ]
+      }
+     ],
+     "page": 7,
+     "url": "https://longwarindex.app/wargear/fangsword_of_the_ice_wolf/",
+     "pricing": "flat"
+    },
+    {
+     "id": "bite_of_fenris",
+     "name": "Bite of Fenris",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Boltgun for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "bite_of_fenris"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/bite_of_fenris/",
+     "pricing": "flat"
+    },
+    {
+     "id": "fireheart",
+     "name": "Fireheart",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Plasma Pistol for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "plasma_pistol",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "fireheart"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/fireheart/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 12,
+   "url": "https://longwarindex.app/codex/space_wolves/warlord_traits/",
+   "offered_by": {
+    "allegiance": "codex/space_wolves/allegiances/allegiance_space_wolves"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "cult_of_morkai",
+     "name": "Cult of Morkai",
+     "page": 12,
+     "url": "https://longwarindex.app/warlord_traits/cult_of_morkai/",
+     "text": "The Warlord gains the Adamantium Will and Deny the Witch special rules. In addition, if they have the Indomitable Spirit (X) special rule, improve the value of (x) by 1 (to a max of 2+).",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/adamantium_will",
+       "name": "Adamantium Will",
+       "url": "https://longwarindex.app/universal_special_rules/adamantium_will/"
+      },
+      {
+       "rule": "universal_special_rules/deny_the_witch",
+       "name": "Deny the Witch",
+       "url": "https://longwarindex.app/universal_special_rules/deny_the_witch/"
+      },
+      {
+       "rule": "universal_special_rules/indomitable_spirit",
+       "name": "Indomitable Spirit",
+       "param": "X",
+       "url": "https://longwarindex.app/universal_special_rules/indomitable_spirit/",
+       "raise_by": 1,
+       "max": "2+"
+      }
+     ]
+    },
+    {
+     "id": "howl_of_the_wolf",
+     "name": "Howl of the Wolf",
+     "page": 12,
+     "url": "https://longwarindex.app/warlord_traits/howl_of_the_wolf/",
+     "text": "Once per game, a Warlord with this trait may declare it will howl. For the rest of that turn, all Space Wolves units in your army gain the benefits of the Fear (1) and Sprint (2) special rule.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "rage_of_the_berserker",
+     "name": "Rage of the Berserker",
+     "page": 12,
+     "url": "https://longwarindex.app/warlord_traits/rage_of_the_berserker/",
+     "text": "This Warlord gains the Rage and Furious Charge special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/rage",
+       "name": "Rage",
+       "url": "https://longwarindex.app/universal_special_rules/rage/"
+      },
+      {
+       "rule": "universal_special_rules/furious_charge",
+       "name": "Furious Charge",
+       "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "psychic_powers",
+   "kind": "psychic_powers",
+   "label": "Any Space Wolves unit with the Psyker (x) special rule may purchase powers from the Tempestas Psychic Discipline.",
+   "printed": "Any Space Wolves unit with the Psyker (x) special rule may purchase powers from the Tempestas Psychic Discipline.",
+   "page": 10,
+   "url": "https://longwarindex.app/codex/space_wolves/powers/",
+   "offered_by": {
+    "allegiance": "codex/space_wolves/allegiances/allegiance_space_wolves"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "X",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "X",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {},
+   "choices": [
+    {
+     "id": "jaws_of_the_world_wolf",
+     "name": "Jaws of the World Wolf",
+     "page": 10,
+     "url": "https://longwarindex.app/powers/jaws_of_the_world_wolf/",
+     "text": "When this Psychic Power is cast, select a single enemy unit within 12\" of the Psyker. Each model in the unit must immediately make a Dangerous Terrain test. This Psychic Power may not target a unit with the Fly special rule.",
+     "points": 5,
+     "pricing": "flat"
+    },
+    {
+     "id": "living_lightning",
+     "name": "Living Lightning",
+     "page": 11,
+     "url": "https://longwarindex.app/powers/living_lightning/",
+     "text": "The Psyker is equipped with the following weapon:\n\n- Living Lightning",
+     "points": 15,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "living_lightning"
+      }
+     ]
+    },
+    {
+     "id": "murderous_hurricane",
+     "name": "Murderous Hurricane",
+     "page": 11,
+     "url": "https://longwarindex.app/powers/murderous_hurricane/",
+     "text": "The Psyker is equipped with the following weapon:\n\n- Murderous Hurricane",
+     "points": 10,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "murderous_hurricane"
+      }
+     ]
+    },
+    {
+     "id": "tempests_wrath",
+     "name": "Tempest's Wrath",
+     "page": 10,
+     "url": "https://longwarindex.app/powers/tempests_wrath/",
+     "text": "When this Psychic Power is cast, select a single enemy unit within 18\" of the Psyker. The target enemy unit has -1 to hits rolls until the start of your next Shooting Phase. In addition, units with the Fly special rule take D6, Strength 6, AP- Automatic Hits.",
+     "points": 10,
+     "pricing": "flat"
+    },
+    {
+     "id": "the_wolf_spirits",
+     "name": "The Wolf Spirits",
+     "page": 10,
+     "url": "https://longwarindex.app/powers/the_wolf_spirits/",
+     "text": "When this Psychic Power is cast, immediately summon 1 unit of Spirit Wolves (see below) within 12\" of the Psyker and more than 3\" away from any enemy models. Each time this power is cast, the previously summoned unit of Spirit Wolves is removed from play and a fresh unit is summoned instead following the rules above. Each Psyker in your army may only Summon 1 unit of Spirit Wolves at a time. Spirit Wolves never count for Victory Points.",
+     "points": 30,
+     "pricing": "flat",
+     "reference_cards": [
+      "codex/space_wolves/roster/spirit_wolves"
+     ]
+    },
+    {
+     "id": "thunderclap",
+     "name": "Thunderclap",
+     "page": 11,
+     "url": "https://longwarindex.app/powers/thunderclap/",
+     "text": "The Psyker is equipped with the following weapon:\n\n- Thunderclap",
+     "points": 5,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "thunderclap"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_wolf_tail_talisman",
+   "kind": "armoury",
+   "label": "Any Space Wolves unit may take a Wolf Tail Talisman for 1pt per model.",
+   "printed": "Any Space Wolves unit may take a Wolf Tail Talisman for 1pt per model.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_6th_legion/",
+   "offered_by": {
+    "allegiance": "codex/space_wolves/allegiances/allegiance_space_wolves"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Space Wolves"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "wolf_tail_talisman",
+     "name": "Wolf Tail Talisman",
+     "points": 1,
+     "pricing": "per_model",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "wolf_tail_talisman"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_blizzard_shield",
+   "kind": "armoury",
+   "label": "Any Space Wolves Castraferrum Dreadnought unit may exchange one of its Dreadnought Close Combat Weapons and Storm Bolter for a Blizzard Shield for 20pts.",
+   "printed": "Any Space Wolves Castraferrum Dreadnought unit may exchange one of its Dreadnought Close Combat Weapons and Storm Bolter for a Blizzard Shield for 20pts.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_6th_legion/",
+   "offered_by": {
+    "allegiance": "codex/space_wolves/allegiances/allegiance_space_wolves"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "datasheet": "codex/space_marines/roster/castraferrum_dreadnought"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "blizzard_shield",
+     "name": "Blizzard Shield",
+     "points": 20,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "dreadnought_close_combat_weapon",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "storm_bolter",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "wargear",
+         "id": "blizzard_shield"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_helfrost_cannon",
+   "kind": "armoury",
+   "label": "Any Space Wolves Castraferrum Dreadnought unit may exchange one of its Dreadnought Close Combat Weapons and Storm Bolter for a Helfrost Cannon for 10pts.",
+   "printed": "Any Space Wolves Castraferrum Dreadnought unit may exchange one of its Dreadnought Close Combat Weapons and Storm Bolter for a Helfrost Cannon for 10pts.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_6th_legion/",
+   "offered_by": {
+    "allegiance": "codex/space_wolves/allegiances/allegiance_space_wolves"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "datasheet": "codex/space_marines/roster/castraferrum_dreadnought"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "helfrost_cannon",
+     "name": "Helfrost Cannon",
+     "points": 10,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "dreadnought_close_combat_weapon",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "storm_bolter",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "helfrost_cannon"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_frost_sword",
+   "kind": "armoury",
+   "label": "Any Space Wolves model may exchange their equipped Power Sword for a Frost Sword for 1pts.",
+   "printed": "Any Space Wolves model may exchange their equipped Power Sword for a Frost Sword for 1pts.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_6th_legion/",
+   "offered_by": {
+    "allegiance": "codex/space_wolves/allegiances/allegiance_space_wolves"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Space Wolves"
+     },
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "power_sword",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "frost_sword",
+     "name": "Frost Sword",
+     "points": 1,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "frost_sword"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_frost_axe",
+   "kind": "armoury",
+   "label": "Any Space Wolves model may exchange their equipped Power Axe for a Frost Axe for 1pts.",
+   "printed": "Any Space Wolves model may exchange their equipped Power Axe for a Frost Axe for 1pts.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_6th_legion/",
+   "offered_by": {
+    "allegiance": "codex/space_wolves/allegiances/allegiance_space_wolves"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Space Wolves"
+     },
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "power_axe",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "frost_axe",
+     "name": "Frost Axe",
+     "points": 1,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_axe",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "frost_axe"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_frost_claw",
+   "kind": "armoury",
+   "label": "Any Space Wolves model may exchange their equipped Lightning Claw for a Frost Claw for 1pts per claw.",
+   "printed": "Any Space Wolves model may exchange their equipped Lightning Claw for a Frost Claw for 1pts per claw.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_6th_legion/",
+   "offered_by": {
+    "allegiance": "codex/space_wolves/allegiances/allegiance_space_wolves"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Space Wolves"
+     },
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "lightning_claws",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "frost_claw",
+     "name": "Frost Claw",
+     "points": 1,
+     "pricing": "each",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "lightning_claws",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "frost_claw"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_great_frost_axe",
+   "kind": "armoury",
+   "label": "Any Space Wolves model may exchange their Dreadnought Close Combat Weapon & Storm Bolter for a Great Frost Axe for 5pts.",
+   "printed": "Any Space Wolves model may exchange their Dreadnought Close Combat Weapon & Storm Bolter for a Great Frost Axe for 5pts.",
+   "page": 5,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_6th_legion/",
+   "offered_by": {
+    "allegiance": "codex/space_wolves/allegiances/allegiance_space_wolves"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Space Wolves"
+     },
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "dreadnought_close_combat_weapon",
+        "faction": "space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "storm_bolter",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "great_frost_axe",
+     "name": "Great Frost Axe",
+     "points": 5,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "dreadnought_close_combat_weapon",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "weapon",
+         "id": "storm_bolter",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "great_frost_axe"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fenrisian_great_company_sagas",
+   "kind": "upgrade",
+   "label": "Your Warlord may purchase one of the following if they do not have the Unique Keyword:",
+   "printed": "Your Warlord may purchase one of the following if they do not have the Unique Keyword:",
+   "page": 14,
+   "url": "https://longwarindex.app/rites_of_war/fenrisian_great_company/",
+   "offered_by": {
+    "rite": "codex/space_wolves/rites_of_war/fenrisian_great_company"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "saga_of_the_warrior_born",
+     "name": "Saga of the Warrior Born",
+     "points": 5,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/space_wolves/sagas/saga_of_the_warrior_born",
+       "name": "Saga of the Warrior Born",
+       "url": "https://longwarindex.app/sagas/saga_of_the_warrior_born/"
+      }
+     ]
+    },
+    {
+     "id": "saga_of_the_bear",
+     "name": "Saga of the Bear",
+     "points": 5,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/space_wolves/sagas/saga_of_the_bear",
+       "name": "Saga of the Bear",
+       "url": "https://longwarindex.app/sagas/saga_of_the_bear/"
+      }
+     ]
+    },
+    {
+     "id": "saga_of_majesty",
+     "name": "Saga of Majesty",
+     "points": 5,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/space_wolves/sagas/saga_of_majesty",
+       "name": "Saga of Majesty",
+       "url": "https://longwarindex.app/sagas/saga_of_majesty/"
+      }
+     ]
+    },
+    {
+     "id": "saga_of_the_hunter",
+     "name": "Saga of the Hunter",
+     "points": 10,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/space_wolves/sagas/saga_of_the_hunter",
+       "name": "Saga of the Hunter",
+       "url": "https://longwarindex.app/sagas/saga_of_the_hunter/"
+      }
+     ]
+    },
+    {
+     "id": "saga_of_the_wolfkin",
+     "name": "Saga of the Wolfkin",
+     "points": 5,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/space_wolves/sagas/saga_of_the_wolfkin",
+       "name": "Saga of the Wolfkin",
+       "url": "https://longwarindex.app/sagas/saga_of_the_wolfkin/"
+      }
+     ]
+    },
+    {
+     "id": "saga_of_the_beast_slayer",
+     "name": "Saga of the Beast Slayer",
+     "points": 10,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/space_wolves/sagas/saga_of_the_beast_slayer",
+       "name": "Saga of the Beast Slayer",
+       "url": "https://longwarindex.app/sagas/saga_of_the_beast_slayer/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "morkais_maw_warlord_armour",
+   "kind": "upgrade",
+   "label": "Your Warlord may exchange their Power Armour for:",
+   "printed": "Your Warlord may exchange their Power Armour for:",
+   "page": 16,
+   "url": "https://longwarindex.app/rites_of_war/morkais_maw/",
+   "offered_by": {
+    "rite": "codex/space_wolves/rites_of_war/morkais_maw"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "holds": [
+       {
+        "kind": "wargear",
+        "id": "power_armour",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "scout_armour",
+     "name": "Scout Armour",
+     "points": 5,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "wargear",
+         "id": "power_armour",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "wargear",
+         "id": "scout_armour",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "phobos_armour",
+     "name": "Phobos Armour",
+     "points": 10,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "wargear",
+         "id": "power_armour",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "wargear",
+         "id": "phobos_armour",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "morkais_maw_bolt_pistol",
+   "kind": "upgrade",
+   "label": "Bolt Pistol for a Morkai Bolt Pistol for 1pts.",
+   "printed": "Bolt Pistol for a Morkai Bolt Pistol for 1pts.",
+   "page": 16,
+   "url": "https://longwarindex.app/rites_of_war/morkais_maw/",
+   "offered_by": {
+    "rite": "codex/space_wolves/rites_of_war/morkais_maw"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "bolt_pistol",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "morkai_bolt_pistol",
+     "name": "Morkai Bolt Pistol",
+     "points": 1,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "bolt_pistol",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "morkai_bolt_pistol"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "morkais_maw_boltgun",
+   "kind": "upgrade",
+   "label": "Boltgun for Morkai Boltgun for 1pt.",
+   "printed": "Boltgun for Morkai Boltgun for 1pt.",
+   "page": 16,
+   "url": "https://longwarindex.app/rites_of_war/morkais_maw/",
+   "offered_by": {
+    "rite": "codex/space_wolves/rites_of_war/morkais_maw"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "boltgun",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "morkai_boltgun",
+     "name": "Morkai Boltgun",
+     "points": 1,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "morkai_boltgun"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "the_last_hunt_curse_of_the_wulfen",
+   "kind": "upgrade",
+   "label": "Any unit in your army which is not your Warlord may purchase the Curse of the Wulfen special rule for 30pts.",
+   "printed": "Any unit in your army which is not your Warlord may purchase the Curse of the Wulfen special rule for 30pts.",
+   "page": 15,
+   "url": "https://longwarindex.app/rites_of_war/the_last_hunt/",
+   "offered_by": {
+    "rite": "codex/space_wolves/rites_of_war/the_last_hunt"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Space Wolves"
+     },
+     {
+      "not": {
+       "warlord": true
+      }
+     },
+     {
+      "not": {
+       "rule": {
+        "rule": "codex/space_wolves/special_rules/curse_of_the_wulfen",
+        "name": "Curse of the Wulfen",
+        "url": "https://longwarindex.app/special_rules/curse_of_the_wulfen/"
+       }
+      }
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "curse_of_the_wulfen",
+     "name": "Curse of the Wulfen",
+     "points": 30,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/space_wolves/special_rules/curse_of_the_wulfen",
+       "name": "Curse of the Wulfen",
+       "url": "https://longwarindex.app/special_rules/curse_of_the_wulfen/"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

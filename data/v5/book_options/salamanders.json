@@ -1,0 +1,1081 @@
+{
+ "data_version": "05cb37674f708d96",
+ "format": 1,
+ "faction": "salamanders",
+ "groups": [
+  {
+   "id": "relics",
+   "kind": "relics",
+   "label": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+   "page": 8,
+   "url": "https://longwarindex.app/wargear/the_salamanders_mantle/",
+   "offered_by": {
+    "allegiance": "codex/salamanders/allegiances/allegiance_salamanders"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "not_keyword": "Unique"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "the_salamanders_mantle",
+     "name": "The Salamanders Mantle",
+     "points": 25,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_salamanders_mantle"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_salamanders_mantle/",
+     "pricing": "flat"
+    },
+    {
+     "id": "the_tome_of_vel_cona",
+     "name": "The Tome of Vel'Cona",
+     "points": 10,
+     "printed": "One unit in your army with the Character and Psyker (x) special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "the_tome_of_vel_cona"
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/the_tome_of_vel_cona/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "rule": {
+        "rule": "universal_special_rules/psyker",
+        "name": "Psyker",
+        "param": "x",
+        "url": "https://longwarindex.app/universal_special_rules/psyker/"
+       }
+      }
+     ]
+    },
+    {
+     "id": "vulcans_sigil",
+     "name": "Vulcan's Sigil",
+     "points": 15,
+     "printed": "One unit in your army with the Character & Priest (x) special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "vulcans_sigil"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/vulcans_sigil/",
+     "pricing": "flat",
+     "requires": [
+      {
+       "rule": {
+        "rule": "universal_special_rules/priest",
+        "name": "Priest",
+        "param": "x",
+        "url": "https://longwarindex.app/universal_special_rules/priest/"
+       }
+      }
+     ]
+    },
+    {
+     "id": "helm_of_draklos",
+     "name": "Helm of Draklos",
+     "points": 10,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear.",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "helm_of_draklos"
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/helm_of_draklos/",
+     "pricing": "flat"
+    },
+    {
+     "id": "drake_smitter",
+     "name": "Drake-Smitter",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Thunder Hammer for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "thunder_hammer",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "drake_smitter"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/drake_smitter/",
+     "pricing": "flat"
+    },
+    {
+     "id": "nocturnes_fury",
+     "name": "Nocturnes Fury",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Boltgun for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "nocturnes_fury"
+        }
+       ]
+      }
+     ],
+     "page": 8,
+     "url": "https://longwarindex.app/wargear/nocturnes_fury/",
+     "pricing": "flat"
+    },
+    {
+     "id": "wrath_of_prometheus",
+     "name": "Wrath of Prometheus",
+     "points": 5,
+     "printed": "One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may exchange its Boltgun for this relic for 5pts.",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "wrath_of_prometheus"
+        }
+       ]
+      }
+     ],
+     "page": 9,
+     "url": "https://longwarindex.app/wargear/wrath_of_prometheus/",
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 10,
+   "url": "https://longwarindex.app/codex/salamanders/warlord_traits/",
+   "offered_by": {
+    "allegiance": "codex/salamanders/allegiances/allegiance_salamanders"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1,
+    "pool": "space_marines/warlord_traits"
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "anvil_of_strength",
+     "name": "Anvil of Strength",
+     "page": 10,
+     "url": "https://longwarindex.app/warlord_traits/anvil_of_strength/",
+     "text": "A model with this Warlord trait gains +1 to its Strength (S) and Toughness (T) characteristics.",
+     "points": 0,
+     "pricing": "flat",
+     "stat_mods": [
+      {
+       "characteristic": "S",
+       "delta": 1
+      },
+      {
+       "characteristic": "T",
+       "delta": 1
+      }
+     ]
+    },
+    {
+     "id": "forge_master",
+     "name": "Forge Master",
+     "page": 10,
+     "url": "https://longwarindex.app/warlord_traits/forge_master/",
+     "text": "If your army includes a model with this Warlord Trait, select 1 weapon your Warlord is equipped with that has the Master-Crafted special rule. It gains one of the following special rules this game:\n\n- Rending (5+).\n- Arcing (5+).\n- Murderous Strike (5+).\n- Crushing (5+).\n- Shred.\n- Deflagrate.",
+     "points": 0,
+     "pricing": "flat",
+     "selects": {
+      "what": "own_weapon",
+      "count": 1,
+      "weapons_with_rules": [
+       {
+        "rule": "special_rules/master_crafted",
+        "name": "Master-Crafted",
+        "url": "https://longwarindex.app/special_rules/master_crafted/"
+       }
+      ],
+      "grants_one_of": [
+       {
+        "rule": "special_rules/rending",
+        "name": "Rending",
+        "param": "5+",
+        "url": "https://longwarindex.app/special_rules/rending/"
+       },
+       {
+        "rule": "special_rules/arcing",
+        "name": "Arcing",
+        "param": "5+",
+        "url": "https://longwarindex.app/special_rules/arcing/"
+       },
+       {
+        "rule": "special_rules/murderous_strike",
+        "name": "Murderous Strike",
+        "param": "5+",
+        "url": "https://longwarindex.app/special_rules/murderous_strike/"
+       },
+       {
+        "rule": "special_rules/crushing",
+        "name": "Crushing",
+        "param": "5+",
+        "url": "https://longwarindex.app/special_rules/crushing/"
+       },
+       {
+        "rule": "special_rules/shred",
+        "name": "Shred",
+        "url": "https://longwarindex.app/special_rules/shred/"
+       },
+       {
+        "rule": "special_rules/deflagrate",
+        "name": "Deflagrate",
+        "url": "https://longwarindex.app/special_rules/deflagrate/"
+       }
+      ]
+     }
+    },
+    {
+     "id": "never_give_up",
+     "name": "Never Give Up",
+     "page": 10,
+     "url": "https://longwarindex.app/warlord_traits/never_give_up/",
+     "text": "Your Warlord and all friendly Salamanders units within 18\" gain the Stubborn special rule and may re-roll Pinning tests.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/stubborn",
+       "name": "Stubborn",
+       "url": "https://longwarindex.app/universal_special_rules/stubborn/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "psychic_powers",
+   "kind": "psychic_powers",
+   "label": "All Salamanders units with the Character and Psyker (x) special rules may purchase Psychic Powers from the following discipline.",
+   "printed": "All Salamanders units with the Character and Psyker (x) special rules may purchase Psychic Powers from the following discipline.",
+   "page": 7,
+   "url": "https://longwarindex.app/codex/salamanders/powers/",
+   "offered_by": {
+    "allegiance": "codex/salamanders/allegiances/allegiance_salamanders"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/psyker",
+       "name": "Psyker",
+       "param": "x",
+       "url": "https://longwarindex.app/universal_special_rules/psyker/"
+      }
+     }
+    ]
+   },
+   "listed_by": [
+    {
+     "rule": "universal_special_rules/psyker",
+     "name": "Psyker",
+     "param": "x",
+     "url": "https://longwarindex.app/universal_special_rules/psyker/"
+    }
+   ],
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "fiery_form",
+     "name": "Fiery Form",
+     "page": 7,
+     "url": "https://longwarindex.app/powers/fiery_form/",
+     "text": "When this power is successfully cast, the Psyker gains an 4+ Invulnerable Save. In addition, the Psyker gains the Shred special rule on all Flamer, Melta and Plasma weapons they are equipped with. This effects the Molten Beam Psychic Weapon. The effects of this Psychic Power lasts until the start of your next Shooting Phase.",
+     "points": 15,
+     "pricing": "flat"
+    },
+    {
+     "id": "fire_shield",
+     "name": "Fire Shield",
+     "page": 7,
+     "url": "https://longwarindex.app/powers/fire_shield/",
+     "text": "When this power is successfully cast, All Charges declared against the Psyker and their attached unit are resolved as if the Charging unit was moving through Dangerous Terrain. This lasts until the start of your next Shooting Phase.",
+     "points": 0,
+     "pricing": "flat"
+    },
+    {
+     "id": "flame_breath",
+     "name": "Flame Breath",
+     "page": 7,
+     "url": "https://longwarindex.app/powers/flame_breath/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Flame Breath",
+     "points": 5,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "flame_breath"
+      }
+     ]
+    },
+    {
+     "id": "molten_beam",
+     "name": "Molten Beam",
+     "page": 7,
+     "url": "https://longwarindex.app/powers/molten_beam/",
+     "text": "A unit with this Psychic Power is equipped with the following Psychic Weapon:\n\n- Molten Beam",
+     "points": 15,
+     "pricing": "flat",
+     "weapons": [
+      {
+       "kind": "weapon",
+       "id": "molten_beam"
+      }
+     ]
+    },
+    {
+     "id": "spontaneous_combustion",
+     "name": "Spontaneous Combustion",
+     "page": 7,
+     "url": "https://longwarindex.app/powers/spontaneous_combustion/",
+     "text": "When this power is successfully cast, select 1 enemy model with 12\" the Psyker. The target enemy must make a Toughness Test. If they fail, the model is slain and removed from play. If they pass, they take D3 Automatic Wound with no saves allowed. This power cannot affect units without a Toughness (T) characteristic.",
+     "points": 25,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "armoury_iron_father",
+   "kind": "armoury",
+   "label": "One Salamander Space Marine Captain in your army may be upgraded to an Iron Father for 55pts.",
+   "printed": "One Salamander Space Marine Captain in your army may be upgraded to an Iron Father for 55pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_18th_legion/",
+   "offered_by": {
+    "allegiance": "codex/salamanders/allegiances/allegiance_salamanders"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Salamanders"
+     },
+     {
+      "datasheet": "codex/space_marines/roster/space_marine_captain"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "iron_father",
+     "name": "Iron Father",
+     "points": 55,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/salamanders/special_rules/forge_father",
+       "name": "Forge Father",
+       "printed": "Iron Father",
+       "url": "https://longwarindex.app/special_rules/forge_father/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_master_crafted_weapon",
+   "kind": "armoury",
+   "label": "Any Salamander unit may purchase a Master-Crafted Weapon for 2pt per model in the unit.",
+   "printed": "Any Salamander unit may purchase a Master-Crafted Weapon for 2pt per model in the unit.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_18th_legion/",
+   "offered_by": {
+    "allegiance": "codex/salamanders/allegiances/allegiance_salamanders"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Salamanders"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "master_crafted_weapon",
+     "name": "Master-Crafted Weapon",
+     "points": 2,
+     "pricing": "per_model",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "master_crafted_weapon"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_master_crafted_promethean_armour",
+   "kind": "armoury",
+   "label": "Any Salamander unit may purchase a Master-Crafted Promethean Armour for 1pt per model in the unit.",
+   "printed": "Any Salamander unit may purchase a Master-Crafted Promethean Armour for 1pt per model in the unit.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_18th_legion/",
+   "offered_by": {
+    "allegiance": "codex/salamanders/allegiances/allegiance_salamanders"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "keyword": "Salamanders"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "master_crafted_promethean_armour",
+     "name": "Master-Crafted Promethean Armour",
+     "points": 1,
+     "pricing": "per_model",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "master_crafted_promethean_armour"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_obsidian_aquila",
+   "kind": "armoury",
+   "label": "Any Salamander unit with the Character special rule may take an Obsidian Aquila for 10pts.",
+   "printed": "Any Salamander unit with the Character special rule may take an Obsidian Aquila for 10pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_18th_legion/",
+   "offered_by": {
+    "allegiance": "codex/salamanders/allegiances/allegiance_salamanders"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "keyword": "Salamanders"
+     },
+     {
+      "rule": {
+       "rule": "universal_special_rules/character",
+       "name": "Character",
+       "url": "https://longwarindex.app/universal_special_rules/character/"
+      }
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "obsidian_aquila",
+     "name": "Obsidian Aquila",
+     "points": 10,
+     "pricing": "flat",
+     "items": [
+      {
+       "kind": "wargear",
+       "id": "obsidian_aquila"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_drake_scale_shield",
+   "kind": "armoury",
+   "label": "Any Salamander unit may exchange their Storm Shield or Relic Shield for a Drake Scale Shield for 5pts.",
+   "printed": "Any Salamander unit may exchange their Storm Shield or Relic Shield for a Drake Scale Shield for 5pts.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_18th_legion/",
+   "offered_by": {
+    "allegiance": "codex/salamanders/allegiances/allegiance_salamanders"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Salamanders"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "drake_scale_shield_storm_shield",
+     "name": "Drake Scale Shield (from Storm Shield)",
+     "printed": "Exchange their Storm Shield for a Drake Scale Shield for 5pts.",
+     "points": 5,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "wargear",
+         "id": "storm_shields",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "wargear",
+         "id": "drake_scale_shield"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "wargear",
+         "id": "storm_shields",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "drake_scale_shield_relic_shield",
+     "name": "Drake Scale Shield (from Relic Shield)",
+     "printed": "Exchange their Relic Shield for a Drake Scale Shield for 5pts.",
+     "points": 5,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "wargear",
+         "id": "relic_shield",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "wargear",
+         "id": "drake_scale_shield"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "wargear",
+         "id": "relic_shield",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_promethean_chainsword",
+   "kind": "armoury",
+   "label": "Any Salamanders unit may exchange their equipped Chainsword for a Promethean Chainsword for 1pt per model.",
+   "printed": "Any Salamanders unit may exchange their equipped Chainsword for a Promethean Chainsword for 1pt per model.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_18th_legion/",
+   "offered_by": {
+    "allegiance": "codex/salamanders/allegiances/allegiance_salamanders"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Salamanders"
+     },
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "chainsword",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "promethean_chainsword",
+     "name": "Promethean Chainsword",
+     "points": 1,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "chainsword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "promethean_chainsword"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_dragonrage_boltguns",
+   "kind": "armoury",
+   "label": "Any Salamander unit may exchange their equipped Boltgun or Heavy Boltgun for a:",
+   "printed": "Any Salamander unit may exchange their equipped Boltgun or Heavy Boltgun for a:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_18th_legion/",
+   "offered_by": {
+    "allegiance": "codex/salamanders/allegiances/allegiance_salamanders"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Salamanders"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "dragonrage_pattern_boltgun",
+     "name": "Dragonrage Pattern Boltgun",
+     "printed": "Dragonrage Pattern Boltgun for 2pt per model.",
+     "points": 2,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "dragonrage_pattern_boltgun"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "boltgun",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "dragonrage_pattern_heavy_boltgun",
+     "name": "Dragonrage Pattern Heavy Boltgun",
+     "printed": "Dragonrage Pattern Heavy Boltgun for 2pt per model.",
+     "points": 2,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "heavy_boltgun",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "dragonrage_pattern_heavy_boltgun"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "heavy_boltgun",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_drake_flame_weapons",
+   "kind": "armoury",
+   "label": "Any Salamanders unit may exchange:",
+   "printed": "Any Salamanders unit may exchange:",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_18th_legion/",
+   "offered_by": {
+    "allegiance": "codex/salamanders/allegiances/allegiance_salamanders"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Salamanders"
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "drake_hand_flamer",
+     "name": "Drake Hand Flamer",
+     "printed": "Their equipped Hand Flamer for a Drake Hand Flamer for 2pts.",
+     "points": 2,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "hand_flamer",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "drake_hand_flamer"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "hand_flamer",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "drake_flamer",
+     "name": "Drake Flamer",
+     "printed": "Their equipped Flamer for a Drake Flamer for 2pts.",
+     "points": 2,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "flamer",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "drake_flamer"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "flamer",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "drake_heavy_flamer",
+     "name": "Drake Heavy Flamer",
+     "printed": "Their equipped Heavy Flamer for a Drake Heavy Flamer for 2pts.",
+     "points": 2,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "heavy_flamer",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "drake_heavy_flamer"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "heavy_flamer",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "drake_flamestorm_gauntlets",
+     "name": "Drake Flamestorm Guantlet",
+     "printed": "Their equipped Flamestorm Gauntlet for a Drake Flamestorm Guantlet for 2pts.",
+     "points": 2,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "flamestorm_gauntlets",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "drake_flamestorm_gauntlets",
+         "printed": "Drake Flamestorm Guantlet"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "flamestorm_gauntlets",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "drake_linked_heavy_flamer",
+     "name": "Drake Linked Heavy Flamer",
+     "printed": "Their equipped Linked Heavy Flamer for a Drake Linked Heavy Flamer for 2pts.",
+     "points": 2,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "linked_heavy_flamer",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "drake_linked_heavy_flamer"
+        }
+       ]
+      }
+     ],
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "weapon",
+         "id": "linked_heavy_flamer",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "armoury_drakeblade",
+   "kind": "armoury",
+   "label": "Any Salamanders unit may exchange their equipped Power Sword for a Drakeblade for 10pt per model.",
+   "printed": "Any Salamanders unit may exchange their equipped Power Sword for a Drakeblade for 10pt per model.",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_18th_legion/",
+   "offered_by": {
+    "allegiance": "codex/salamanders/allegiances/allegiance_salamanders"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "keyword": "Salamanders"
+     },
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "power_sword",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "drakeblade",
+     "name": "Drakeblade",
+     "points": 10,
+     "pricing": "per_model",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "power_sword",
+         "faction": "space_marines"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "drakeblade"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

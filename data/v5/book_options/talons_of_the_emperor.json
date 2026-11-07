@@ -1,0 +1,436 @@
+{
+ "data_version": "dcebcaffc5bc9746",
+ "format": 1,
+ "faction": "talons_of_the_emperor",
+ "groups": [
+  {
+   "id": "custodes_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 14,
+   "url": "https://longwarindex.app/codex/talons_of_the_emperor/warlord_traits/",
+   "offered_by": {
+    "codex": "talons_of_the_emperor"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "keyword": "Custodes"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "master_of_martial_strategy",
+     "name": "Master of Martial Strategy",
+     "page": 14,
+     "url": "https://longwarindex.app/warlord_traits/master_of_martial_strategy/",
+     "text": "A model with this Warlord Trait and their Attached unit gains the Counter Attack and Hit & Run special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/counter_attack",
+       "name": "Counter Attack",
+       "url": "https://longwarindex.app/universal_special_rules/counter_attack/"
+      },
+      {
+       "rule": "universal_special_rules/hit_and_run",
+       "name": "Hit & Run",
+       "url": "https://longwarindex.app/universal_special_rules/hit_and_run/"
+      }
+     ],
+     "game_time": [
+      "A model with this Warlord Trait and their Attached unit gains the Counter Attack and Hit & Run special rules."
+     ]
+    },
+    {
+     "id": "superior_creation",
+     "name": "Superior Creation",
+     "page": 14,
+     "url": "https://longwarindex.app/warlord_traits/superior_creation/",
+     "text": "A model with this Warlord trait gains the Regeneration special rule. A model with this trait is immune to Instant Death.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/regeneration",
+       "name": "Regeneration",
+       "url": "https://longwarindex.app/universal_special_rules/regeneration/"
+      }
+     ],
+     "game_time": [
+      "A model with this trait is immune to Instant Death."
+     ]
+    },
+    {
+     "id": "peerless_warrior",
+     "name": "Peerless Warrior",
+     "page": 14,
+     "url": "https://longwarindex.app/warlord_traits/peerless_warrior/",
+     "text": "A model with this Warlord trait treats all Melee type weapons they are equipped with as having the Precision Hits special rule. In addition, increase their Weapon Skill (WS) characteristic by 1.",
+     "points": 0,
+     "pricing": "flat",
+     "weapon_rules": [
+      {
+       "rule": {
+        "rule": "special_rules/precision_hits",
+        "name": "Precision Hits",
+        "url": "https://longwarindex.app/special_rules/precision_hits/"
+       },
+       "weapon_types": [
+        "Melee"
+       ]
+      }
+     ],
+     "stat_mods": [
+      {
+       "characteristic": "WS",
+       "delta": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sisters_of_silence_warlord_traits",
+   "kind": "warlord_traits",
+   "label": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "printed": "One unit in your army with the Character special rule may be selected as a warlord. A warlord may purchase a single Warlord Trait for free.",
+   "page": 14,
+   "url": "https://longwarindex.app/codex/talons_of_the_emperor/warlord_traits/",
+   "offered_by": {
+    "codex": "talons_of_the_emperor"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "warlord": true
+     },
+     {
+      "keyword": "Sisters of Silence"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1,
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "maiden_of_blood",
+     "name": "Maiden of Blood",
+     "page": 14,
+     "url": "https://longwarindex.app/warlord_traits/maiden_of_blood/",
+     "text": "A Warlord with this trait gains the Furious Charge and Sudden Strike special rules.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/furious_charge",
+       "name": "Furious Charge",
+       "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+      },
+      {
+       "rule": "universal_special_rules/sudden_strike",
+       "name": "Sudden Strike",
+       "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+      }
+     ]
+    },
+    {
+     "id": "maiden_of_resolve",
+     "name": "Maiden of Resolve",
+     "page": 14,
+     "url": "https://longwarindex.app/warlord_traits/maiden_of_resolve/",
+     "text": "A model with this Warlord trait gains the Feel No Pain (5+) special rule and increases their Leadership (LD) characteristic by 1.",
+     "points": 0,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/feel_no_pain",
+       "name": "Feel No Pain",
+       "param": "5+",
+       "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+      }
+     ],
+     "stat_mods": [
+      {
+       "characteristic": "Ld",
+       "delta": 1
+      }
+     ]
+    },
+    {
+     "id": "maiden_of_sorrow",
+     "name": "Maiden of Sorrow",
+     "page": 14,
+     "url": "https://longwarindex.app/warlord_traits/maiden_of_sorrow/",
+     "text": "Enemy units within 3\" of a Warlord with this trait halve their Leadership (LD) characteristic.",
+     "points": 0,
+     "pricing": "flat"
+    }
+   ]
+  },
+  {
+   "id": "hykanatoi_heteron_guard",
+   "kind": "upgrade",
+   "label": "One unit of Custodian Guard in your army may be upgraded to be Heteron Guard for 10pts per model in the unit. A unit of Heteron Guard increases their Weapon Skill (WS), Ballistic Skill (BS) and Initiative (I) characteristics by 1.",
+   "printed": "One unit of Custodian Guard in your army may be upgraded to be Heteron Guard for 10pts per model in the unit. A unit of Heteron Guard increases their Weapon Skill (WS), Ballistic Skill (BS) and Initiative (I) characteristics by 1.",
+   "page": 15,
+   "url": "https://longwarindex.app/rites_of_war/the_hykanatoi/",
+   "offered_by": {
+    "rite": "codex/talons_of_the_emperor/rites_of_war/the_hykanatoi"
+   },
+   "takers": {
+    "scope": "unit",
+    "conditions": [
+     {
+      "datasheet": "codex/talons_of_the_emperor/roster/custodian_guard"
+     }
+    ]
+   },
+   "limits": {
+    "units_per_choice": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "heteron_guard",
+     "name": "Heteron Guard",
+     "points": 10,
+     "pricing": "per_model",
+     "stat_mods": [
+      {
+       "characteristic": "WS",
+       "delta": 1
+      },
+      {
+       "characteristic": "BS",
+       "delta": 1
+      },
+      {
+       "characteristic": "I",
+       "delta": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hykanatoi_spear_exchange",
+   "kind": "upgrade",
+   "label": "Custodian Guard & Shield Captain units in your army may exchange their Guardian Spears for:",
+   "printed": "Custodian Guard & Shield Captain units in your army may exchange their Guardian Spears for:",
+   "page": 15,
+   "url": "https://longwarindex.app/rites_of_war/the_hykanatoi/",
+   "offered_by": {
+    "rite": "codex/talons_of_the_emperor/rites_of_war/the_hykanatoi"
+   },
+   "takers": {
+    "scope": "each_model",
+    "conditions": [
+     {
+      "any_of": [
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/custodian_guard"
+       },
+       {
+        "datasheet": "codex/talons_of_the_emperor/roster/shield_captain"
+       }
+      ]
+     },
+     {
+      "holds": [
+       {
+        "kind": "weapon",
+        "id": "guardian_spear"
+       }
+      ]
+     }
+    ]
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "adrasite_spear",
+     "name": "Adrasite Spear",
+     "printed": "An Adrasite Spear for 10pts (see below).",
+     "points": 10,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "guardian_spear"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "adrasite_spear"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pyrithite_spear",
+     "name": "Pyrithite Spear",
+     "printed": "A Pyrithite Spear for 15pts (see below).",
+     "points": 15,
+     "pricing": "flat",
+     "exchanges": [
+      {
+       "remove": [
+        {
+         "kind": "weapon",
+         "id": "guardian_spear"
+        }
+       ],
+       "add": [
+        {
+         "kind": "weapon",
+         "id": "pyrithite_spear"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chamber_of_judgement_second_warlord_trait",
+   "kind": "warlord_traits",
+   "label": "Both units may generate a Free Warlord trait and purchase a Second Warlord trait for 15pts.",
+   "printed": "Both units may generate a Free Warlord trait and purchase a Second Warlord trait for 15pts.",
+   "page": 21,
+   "url": "https://longwarindex.app/rites_of_war/chamber_of_judgement/",
+   "offered_by": {
+    "rite": "codex/talons_of_the_emperor/rites_of_war/chamber_of_judgement"
+   },
+   "takers": {
+    "scope": "model",
+    "conditions": [
+     {
+      "any_of": [
+       {
+        "choice": "sisters_of_silence_warlord_traits/maiden_of_blood"
+       },
+       {
+        "choice": "sisters_of_silence_warlord_traits/maiden_of_resolve"
+       },
+       {
+        "choice": "sisters_of_silence_warlord_traits/maiden_of_sorrow"
+       }
+      ]
+     }
+    ]
+   },
+   "limits": {
+    "choices_per_unit": 1
+   },
+   "pick": {
+    "max": 1
+   },
+   "choices": [
+    {
+     "id": "maiden_of_blood",
+     "name": "Maiden of Blood",
+     "page": 14,
+     "url": "https://longwarindex.app/warlord_traits/maiden_of_blood/",
+     "text": "A Warlord with this trait gains the Furious Charge and Sudden Strike special rules.",
+     "points": 15,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/furious_charge",
+       "name": "Furious Charge",
+       "url": "https://longwarindex.app/universal_special_rules/furious_charge/"
+      },
+      {
+       "rule": "universal_special_rules/sudden_strike",
+       "name": "Sudden Strike",
+       "url": "https://longwarindex.app/universal_special_rules/sudden_strike/"
+      }
+     ],
+     "requires": [
+      {
+       "not_choice": [
+        "sisters_of_silence_warlord_traits/maiden_of_blood"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "maiden_of_resolve",
+     "name": "Maiden of Resolve",
+     "page": 14,
+     "url": "https://longwarindex.app/warlord_traits/maiden_of_resolve/",
+     "text": "A model with this Warlord trait gains the Feel No Pain (5+) special rule and increases their Leadership (LD) characteristic by 1.",
+     "points": 15,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "universal_special_rules/feel_no_pain",
+       "name": "Feel No Pain",
+       "param": "5+",
+       "url": "https://longwarindex.app/universal_special_rules/feel_no_pain/"
+      }
+     ],
+     "stat_mods": [
+      {
+       "characteristic": "Ld",
+       "delta": 1
+      }
+     ],
+     "requires": [
+      {
+       "not_choice": [
+        "sisters_of_silence_warlord_traits/maiden_of_resolve"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "maiden_of_sorrow",
+     "name": "Maiden of Sorrow",
+     "page": 14,
+     "url": "https://longwarindex.app/warlord_traits/maiden_of_sorrow/",
+     "text": "Enemy units within 3\" of a Warlord with this trait halve their Leadership (LD) characteristic.",
+     "points": 15,
+     "pricing": "flat",
+     "requires": [
+      {
+       "not_choice": [
+        "sisters_of_silence_warlord_traits/maiden_of_sorrow"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "army_settings": []
+}

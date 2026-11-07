@@ -1,0 +1,304 @@
+{
+ "data_version": "2bb05b8362589ba0",
+ "format": 1,
+ "faction": "imperial_fists",
+ "special_rules": [
+  {
+   "id": "codex/imperial_fists/allegiances/allegiance_imperial_fists",
+   "name": "Allegiance: Imperial Fists",
+   "kind": "allegiance",
+   "page": 3,
+   "url": "https://longwarindex.app/allegiances/allegiance_imperial_fists/",
+   "references": [
+    "universal_special_rules/siege_attackers",
+    "universal_special_rules/feel_no_pain"
+   ],
+   "text": "All units with the Imperial Fists Keyword gain the Allegiance: Imperial Fists special rule. The Allegiance: Imperial Fists special rule consists of the following rules:\n\n- Chapter Drills: All Imperial Fists units in your army gain the following benefits:\n    - Imperial Fists units re-roll all to hit rolls of 1 with Bolt Pistol, Boltguns, Heavy Boltguns, Heavy Bolters, Linked Boltguns, Linked Heavy Bolters, Gatebreaker Boltguns and Chainswords.\n    - Imperial Fists units gain the Siege Attacker special rule.\n- Pain is a Lesson:\n    - All Imperial Fists army must re-roll successful Feel No Pain rolls made using the Feel No Pain Special rule.\n    - If your opponent is Iron Warriors, you must play 1 additional Battle Round of the battle regardless of the battlepack rules."
+  },
+  {
+   "id": "codex/imperial_fists/special_rules/armoury_of_the_7th_legion",
+   "name": "Armoury of the 7th Legion",
+   "kind": "army",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/armoury_of_the_7th_legion/",
+   "references": [
+    "codex/imperial_fists/allegiances/allegiance_imperial_fists",
+    "codex/imperial_fists/special_rules/terror_scouts",
+    "universal_special_rules/character"
+   ],
+   "text": "Units with Allegiance: Imperial Fists have access to additional wargear presented in this supplement in addition to the war gear presented in the core Codex Space Marines.\n\nSpace Marine Scout Squad Upgrades\n\nAny Imperial Fists Scout Squad may be upgraded to a Terror Scout Squad for 15pts.\n\nWargear\n\nAny Imperial Fists 'Tactical Marine' or 'Sergeant ' model in a Tactical Squad unit may:\n\n- Take a Boarding Shield for 3pts per model.\n\nAny Imperial Fists Infantry, Bike or Walker unit may take an Auric Aquila for 1pt per model in the unit.\n\nAny Imperial Fists unit with the Character special rule may take Wardens Cuirass for 10pts.\n\nWeapons\n\nAny Imperial Fists Space Marine Captain or Space Marine Lieutenant model may exchange their equipped Power Fist for a Fist of Terra for 6pts.\n\nAny Imperial Fists model may exchange their equipped Boltgun or Astartes Shotgun for a Ferromag Shotgun for 3pts.\n\nAny Imperial Fists 'Tactical Marine', 'Veteran', 'Sergeant' or 'Veteran Sergeant' model in a Tactical Squad or Veterans Squad unit may:\n\n- Exchange their equipped Boltgun for a Gatebreaker Boltgun for 2pts per model.\n- Exchange their equipped Dragonfire Boltgun for a Gatebreaker Boltgun for 1pts per model."
+  },
+  {
+   "id": "codex/imperial_fists/special_rules/emplaced_automata",
+   "name": "Emplaced Automata",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/emplaced_automata_imperial_fists/",
+   "references": [
+    "special_rules/pinning"
+   ],
+   "text": "This unit automatically passes all Pinning and Panic tests. Its Movement (M) characteristic is reduced to 0\"."
+  },
+  {
+   "id": "codex/imperial_fists/special_rules/garrison",
+   "name": "Garrison",
+   "kind": "datasheet",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/garrison_imperial_fists/",
+   "text": "This model can garrison up to 22 Infantry models embarked within it. Models embarked within this Fortification may shoot in the shooting phase as normal, drawing all visibility and range from this unit's hull.",
+   "effects": {
+    "garrison_capacity": {
+     "n": 22,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_fists/special_rules/garrison_firestorm_redoubt",
+   "name": "Garrison",
+   "datasheet": "Firestorm Redoubt",
+   "kind": "datasheet",
+   "page": 23,
+   "url": "https://longwarindex.app/special_rules/garrison_firestorm_redoubt_imperial_fists/",
+   "text": "This model can garrison up to 42 Infantry models embarked within it. Models embarked within this Fortification may shoot in the shooting phase as normal, drawing all visibility and range from this unit's hull.",
+   "effects": {
+    "garrison_capacity": {
+     "n": 42,
+     "unit_types": [
+      "Infantry"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_fists/special_rules/hammer_strike",
+   "name": "Hammer Strike",
+   "kind": "warlord_trait",
+   "page": 14,
+   "url": "https://longwarindex.app/special_rules/hammer_strike/",
+   "references": [
+    "universal_special_rules/deep_strike"
+   ],
+   "text": "If this unit is your Warlord, it and any attached unit are treated as having rolled a Minor Deviation when arriving via Deep Strike. In addition, Lysander and any attached unit may re-roll charge the rolls the turn they arrive from Deep Strike or Disembark from a Transport"
+  },
+  {
+   "id": "codex/imperial_fists/special_rules/icarus_defences",
+   "name": "Icarus Defences",
+   "kind": "datasheet",
+   "page": 21,
+   "url": "https://longwarindex.app/special_rules/icarus_defences_imperial_fists/",
+   "references": [
+    "special_rules/skyfire"
+   ],
+   "text": "Any Linked Autocannon or Linked Lascannon that the Bastion is equipped with gains the Skyfire special rule.",
+   "effects": {
+    "weapon_rules": [
+     {
+      "rule": "special_rules/skyfire",
+      "name": "Skyfire",
+      "url": "https://longwarindex.app/special_rules/skyfire/",
+      "weapons": [
+       {
+        "kind": "weapon",
+        "id": "linked_autocannon",
+        "faction": "space_marines"
+       },
+       {
+        "kind": "weapon",
+        "id": "linked_lascannon",
+        "faction": "space_marines"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_fists/special_rules/only_in_death",
+   "name": "Only in Death",
+   "kind": "weapon",
+   "page": 6,
+   "url": "https://longwarindex.app/special_rules/only_in_death/",
+   "references": [
+    "universal_special_rules/last_stand"
+   ],
+   "text": "A model equipped with this wargear gains the Last Stand special rule.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/last_stand",
+      "name": "Last Stand",
+      "url": "https://longwarindex.app/universal_special_rules/last_stand/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "codex/imperial_fists/special_rules/shared_burden",
+   "name": "Shared Burden",
+   "kind": "datasheet",
+   "page": 16,
+   "url": "https://longwarindex.app/special_rules/shared_burden/",
+   "references": [
+    "universal_special_rules/character"
+   ],
+   "text": "This unit does not have the Character special rule but may be selected as your Warlord. If you do so, each model in the unit is considered your Warlord and gains the benefit any Warlord traits.",
+   "effects": {
+    "list_building": {
+     "warlord_eligible": true
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_fists/special_rules/terror_scouts",
+   "name": "Terror Scouts",
+   "kind": "datasheet",
+   "page": 4,
+   "url": "https://longwarindex.app/special_rules/terror_scouts/",
+   "references": [
+    "universal_special_rules/fear",
+    "universal_special_rules/crusader"
+   ],
+   "text": "A unit with this upgrade gains the Fear (1) and Crusader special rule. In addition, they gain Shock Grenades.\n\n- A Terror Scout unit may exchange their Astartes Shotguns for Ferromag Shotguns for 1pt per model.",
+   "effects": {
+    "rules": [
+     {
+      "rule": "universal_special_rules/fear",
+      "name": "Fear",
+      "param": "1",
+      "url": "https://longwarindex.app/universal_special_rules/fear/"
+     },
+     {
+      "rule": "universal_special_rules/crusader",
+      "name": "Crusader",
+      "url": "https://longwarindex.app/universal_special_rules/crusader/"
+     }
+    ],
+    "items": [
+     {
+      "kind": "weapon",
+      "id": "shock_grenades",
+      "faction": "space_marines"
+     }
+    ]
+   },
+   "options": [
+    {
+     "id": "ferromag_shotgun",
+     "label": "A Terror Scout unit may exchange their Astartes Shotguns for Ferromag Shotguns for 1pt per model.",
+     "printed": "A Terror Scout unit may exchange their Astartes Shotguns for Ferromag Shotguns for 1pt per model.",
+     "takers": {
+      "scope": "each_model"
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "ferromag_shotgun",
+       "name": "Ferromag Shotgun",
+       "points": 1,
+       "pricing": "per_model",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "astartes_shotgun",
+           "faction": "space_marines"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "ferromag_shotgun"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "codex/imperial_fists/special_rules/the_sentinels_of_terra",
+   "name": "The Sentinels of Terra",
+   "kind": "warlord_trait",
+   "page": 15,
+   "url": "https://longwarindex.app/special_rules/the_sentinels_of_terra/",
+   "references": [
+    "universal_special_rules/last_stand"
+   ],
+   "text": "If this unit is your Warlord, all Imperial Fists Infantry, Bike and Walker type units in your army gain the Last Stand special rule.",
+   "effects": {
+    "while_warlord": {
+     "rule_grants": [
+      {
+       "filters": [
+        {
+         "keywords": [
+          "Imperial Fists"
+         ],
+         "unit_types": [
+          "Infantry",
+          "Bike",
+          "Walker"
+         ]
+        }
+       ],
+       "rule": {
+        "rule": "universal_special_rules/last_stand",
+        "name": "Last Stand",
+        "url": "https://longwarindex.app/universal_special_rules/last_stand/"
+       },
+       "quote": "If this unit is your Warlord, all Imperial Fists Infantry, Bike and Walker type units in your army gain the Last Stand special rule."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex/imperial_fists/special_rules/wardens_of_knowledge",
+   "name": "Wardens of Knowledge",
+   "kind": "datasheet",
+   "page": 16,
+   "url": "https://longwarindex.app/special_rules/wardens_of_knowledge/",
+   "references": [
+    "universal_special_rules/character"
+   ],
+   "text": "During deployment, if this unit is composed of multiple models, you may opt to deploy it as a single unit or instead, deploy each model in the unit as a separate unit with the Character special rule."
+  },
+  {
+   "id": "codex/imperial_fists/special_rules/weapon_battery",
+   "name": "Weapon Battery",
+   "kind": "datasheet",
+   "page": 19,
+   "url": "https://longwarindex.app/special_rules/weapon_battery_imperial_fists/",
+   "text": "For each unit in your army with this special rule, you may include 2 additional units with the Tarantula Battery keyword in your army without taking up a Force Organization Slot.",
+   "effects": {
+    "list_building": {
+     "unslotted": {
+      "conditions": [
+       {
+        "keyword": "Tarantula Battery"
+       }
+      ],
+      "count": 2,
+      "per_unit": [
+       {
+        "rule": {
+         "rule": "codex/imperial_fists/special_rules/weapon_battery",
+         "name": "Weapon Battery",
+         "url": "https://longwarindex.app/special_rules/weapon_battery_imperial_fists/"
+        }
+       }
+      ]
+     }
+    }
+   }
+  }
+ ]
+}
