@@ -1,6 +1,8 @@
-# Long War data export
+# Long War Data Export
 
 This repository has the data export of The Long War Index, https://longwarindex.app/ converted into JSON. This repo will automatically update whenever the index's exported data does.
+
+**NOTE:** This project is fanmade and the contents contained herein are not reviewed or endorsed by the developers of the ruleset.
 
 ## Contents
 
