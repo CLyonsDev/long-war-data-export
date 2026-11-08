@@ -1,5 +1,5 @@
 {
- "data_version": "46db9ef2cfcdfcb0",
+ "data_version": "b279c3ae3d2b0f78",
  "format": 1,
  "faction": "imperial_agents",
  "special_rules": [
@@ -631,6 +631,18 @@
       "name": "Relentless",
       "url": "https://longwarindex.app/universal_special_rules/relentless/"
      }
+    ],
+    "items": [
+     {
+      "kind": "weapon",
+      "id": "omnissian_axe",
+      "faction": "space_marines"
+     },
+     {
+      "kind": "weapon",
+      "id": "servo_arm",
+      "faction": "space_marines"
+     }
     ]
    },
    "options": [
@@ -678,6 +690,11 @@
        "points": 10,
        "pricing": "flat",
        "items": [
+        {
+         "kind": "weapon",
+         "id": "servo_arm",
+         "faction": "space_marines"
+        },
         {
          "kind": "weapon",
          "id": "plasma_pistol"
