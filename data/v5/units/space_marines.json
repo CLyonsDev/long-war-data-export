@@ -1,5 +1,5 @@
 {
- "data_version": "d9184bb19bf5c79e",
+ "data_version": "68cc3c5825580a99",
  "format": 1,
  "faction": "space_marines",
  "units": [
@@ -25159,7 +25159,13 @@
       "ratio": {
        "take": 1,
        "per": 5,
-       "rounding": "down"
+       "rounding": "down",
+       "counted": {
+        "profiles": [
+         "veteran_marine",
+         "veteran_sergeant"
+        ]
+       }
       }
      },
      "requires": [

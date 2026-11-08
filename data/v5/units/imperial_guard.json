@@ -1,5 +1,5 @@
 {
- "data_version": "ea7610487aab31e1",
+ "data_version": "255e46b720591dd7",
  "format": 1,
  "faction": "imperial_guard",
  "units": [
@@ -12487,7 +12487,13 @@
       "ratio": {
        "take": 2,
        "per": 5,
-       "rounding": "down"
+       "rounding": "down",
+       "counted": {
+        "profiles": [
+         "death_rider",
+         "death_rider_sergeant"
+        ]
+       }
       }
      },
      "pick": {
@@ -21588,7 +21594,13 @@
       "ratio": {
        "take": 2,
        "per": 5,
-       "rounding": "down"
+       "rounding": "down",
+       "counted": {
+        "profiles": [
+         "rider",
+         "rider_sergeant"
+        ]
+       }
       }
      },
      "pick": {
@@ -24385,7 +24397,13 @@
       "ratio": {
        "take": 3,
        "per": 5,
-       "rounding": "down"
+       "rounding": "down",
+       "counted": {
+        "profiles": [
+         "mukaali_rider",
+         "mukaali_rider_sergeant"
+        ]
+       }
       }
      },
      "pick": {

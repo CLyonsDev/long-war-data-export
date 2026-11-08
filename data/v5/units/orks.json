@@ -1,5 +1,5 @@
 {
- "data_version": "73eb7c2ae4869c64",
+ "data_version": "2aa2bed2d5ac2277",
  "format": 1,
  "faction": "orks",
  "units": [
@@ -1459,7 +1459,13 @@
       "ratio": {
        "take": 2,
        "per": 5,
-       "rounding": "down"
+       "rounding": "down",
+       "counted": {
+        "profiles": [
+         "breaka_boy",
+         "breaka_nob"
+        ]
+       }
       }
      },
      "pick": {
@@ -1506,7 +1512,13 @@
       "ratio": {
        "take": 1,
        "per": 5,
-       "rounding": "down"
+       "rounding": "down",
+       "counted": {
+        "profiles": [
+         "breaka_boy",
+         "breaka_nob"
+        ]
+       }
       }
      },
      "pick": {

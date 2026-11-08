@@ -1,5 +1,5 @@
 {
- "data_version": "a6e0c8b081844568",
+ "data_version": "c23924b082fd89ea",
  "format": 1,
  "faction": "genestealer_cults",
  "units": [
@@ -5924,7 +5924,13 @@
       "ratio": {
        "take": 2,
        "per": 10,
-       "rounding": "down"
+       "rounding": "down",
+       "counted": {
+        "profiles": [
+         "neophyte_hybrid",
+         "neophyte_leader"
+        ]
+       }
       }
      },
      "pick": {

@@ -1,5 +1,5 @@
 {
- "data_version": "396c383776678a1c",
+ "data_version": "ca552641ece10938",
  "format": 1,
  "faction": "salamanders",
  "units": [
@@ -1713,7 +1713,13 @@
       "ratio": {
        "take": 1,
        "per": 5,
-       "rounding": "down"
+       "rounding": "down",
+       "counted": {
+        "profiles": [
+         "sanctifier_marine",
+         "sanctifier_sergeant"
+        ]
+       }
       }
      },
      "requires": [
