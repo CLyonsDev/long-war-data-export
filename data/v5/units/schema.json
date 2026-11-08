@@ -739,7 +739,7 @@
     },
     "label": {
      "type": "string",
-     "description": "The text of the sentence in this data."
+     "description": "The text of the sentence in this data. If the group has a print_defect, the label can be a corrected sentence, and printed keeps the sentence of the book."
     },
     "printed": {
      "type": "string",
