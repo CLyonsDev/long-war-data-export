@@ -427,6 +427,10 @@
       "Fortification"
      ]
     },
+    "role_replaces": {
+     "const": "all",
+     "description": "The role of the choice replaces each other role of the unit: the printed role and each role that a Rite gives. If this field is absent, the role replaces only the printed role."
+    },
     "slot_changes": {
      "type": "object",
      "description": "A change to the force organisation chart while the Warlord holds the choice. {one_of: [roles], max: N}: the player selects one of these roles, and its maximum increases by N (Rites of Battle). {role: R, min_delta: N, max_delta: N}: the minimum or the maximum of the role changes by N, as the slots of a Rite benefit. Armoured Interdiction Cadre: {role: HQ, min_delta: -1}."

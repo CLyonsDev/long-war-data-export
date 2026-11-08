@@ -1131,6 +1131,10 @@
       "not_compulsory": {
        "type": "boolean",
        "description": "true: the units fill a slot of the role but do not count towards its compulsory minimum."
+      },
+      "role_replaces": {
+       "const": "all",
+       "description": "The role replaces each other role of the unit: the printed role and each other role that a Rite gives. If this field is absent, an instead role replaces only the printed role."
       }
      }
     },
