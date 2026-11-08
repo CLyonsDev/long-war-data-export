@@ -1,5 +1,5 @@
 {
- "data_version": "f9a9b305945ddc21",
+ "data_version": "ca3502fedaa88033",
  "format": 1,
  "faction": "imperial_fists",
  "units": [
@@ -2108,7 +2108,9 @@
       },
       {
        "kind": "weapon",
-       "id": "multi_laser"
+       "id": "linked_multi_laser",
+       "faction": "imperial_guard",
+       "note": "The book prints Multi-Laser in the kit. This data reads this as Linked Multi-Laser."
       },
       {
        "kind": "wargear",
@@ -2223,17 +2225,43 @@
      },
      "choices": [
       {
-       "id": "multi_melta",
-       "name": "Multi-Melta",
-       "points": 20,
-       "pricing": "per_model",
+       "id": "linked_heavy_bolter",
+       "name": "Linked Heavy Bolter",
+       "points": 0,
+       "pricing": "flat",
        "exchanges": [
         {
          "remove": [
           {
            "kind": "weapon",
+           "id": "linked_multi_laser",
+           "faction": "imperial_guard"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
            "id": "linked_heavy_bolter",
            "faction": "space_marines"
+          }
+         ]
+        }
+       ],
+       "print_defect": "The book does not print this choice. This data gives it for 0pts.",
+       "unprinted": true
+      },
+      {
+       "id": "multi_melta",
+       "name": "Multi-Melta",
+       "points": 20,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "linked_multi_laser",
+           "faction": "imperial_guard"
           }
          ],
          "add": [
@@ -2250,14 +2278,14 @@
        "id": "linked_lascannon",
        "name": "Linked Las Cannon",
        "points": 15,
-       "pricing": "per_model",
+       "pricing": "flat",
        "exchanges": [
         {
          "remove": [
           {
            "kind": "weapon",
-           "id": "linked_heavy_bolter",
-           "faction": "space_marines"
+           "id": "linked_multi_laser",
+           "faction": "imperial_guard"
           }
          ],
          "add": [
@@ -2274,14 +2302,14 @@
        "id": "missile_launchers",
        "name": "Missile Launchers",
        "points": 25,
-       "pricing": "per_model",
+       "pricing": "flat",
        "exchanges": [
         {
          "remove": [
           {
            "kind": "weapon",
-           "id": "linked_heavy_bolter",
-           "faction": "space_marines"
+           "id": "linked_multi_laser",
+           "faction": "imperial_guard"
           }
          ],
          "add": [
@@ -2299,7 +2327,8 @@
         }
        ]
       }
-     ]
+     ],
+     "print_defect": "The book prints \"its Linked Heavy Bolter\", but the Tarantula Gun holds no Linked Heavy Bolter. This data reads this as its Linked Multi-Laser, and gives a Linked Heavy Bolter as one more choice for 0pts."
     },
     {
      "id": "air_defence_tarantula",

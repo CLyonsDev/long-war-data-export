@@ -1,5 +1,5 @@
 {
- "data_version": "255e46b720591dd7",
+ "data_version": "c844ffbb7f63b9d4",
  "format": 1,
  "faction": "imperial_guard",
  "units": [
@@ -25028,7 +25028,8 @@
       },
       {
        "kind": "weapon",
-       "id": "multi_laser"
+       "id": "linked_multi_laser",
+       "note": "The book prints Multi-Laser in the kit. This data reads this as Linked Multi-Laser."
       },
       {
        "kind": "wargear",
@@ -25146,6 +25147,30 @@
      },
      "choices": [
       {
+       "id": "linked_heavy_bolter",
+       "name": "Linked Heavy Bolter",
+       "points": 0,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "linked_multi_laser"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "linked_heavy_bolter"
+          }
+         ]
+        }
+       ],
+       "print_defect": "The book does not print this choice. This data gives it for 0pts.",
+       "unprinted": true
+      },
+      {
        "id": "multi_melta",
        "name": "Multi-Melta",
        "points": 20,
@@ -25155,7 +25180,7 @@
          "remove": [
           {
            "kind": "weapon",
-           "id": "linked_heavy_bolter"
+           "id": "linked_multi_laser"
           }
          ],
          "add": [
@@ -25177,7 +25202,7 @@
          "remove": [
           {
            "kind": "weapon",
-           "id": "linked_heavy_bolter"
+           "id": "linked_multi_laser"
           }
          ],
          "add": [
@@ -25199,7 +25224,7 @@
          "remove": [
           {
            "kind": "weapon",
-           "id": "linked_heavy_bolter"
+           "id": "linked_multi_laser"
           }
          ],
          "add": [
@@ -25212,7 +25237,8 @@
         }
        ]
       }
-     ]
+     ],
+     "print_defect": "The book prints \"its Linked Heavy Bolter\", but the Tarantula Gun holds no Linked Heavy Bolter. This data reads this as its Linked Multi-Laser, and gives a Linked Heavy Bolter as one more choice for 0pts."
     },
     {
      "id": "air_defence_tarantula",

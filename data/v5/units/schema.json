@@ -409,7 +409,7 @@
     },
     "note": {
      "type": "string",
-     "description": "A printed note in brackets, for example \"This counts as two weapons\"."
+     "description": "A printed note in brackets, for example \"This counts as two weapons\". A correction of the kit gives a note that tells the printed item or count."
     },
     "printed": {
      "type": [
@@ -985,6 +985,10 @@
     },
     "print_defect": {
      "type": "string"
+    },
+    "unprinted": {
+     "const": true,
+     "description": "The page does not print this choice. The choice matches no line of the page. Its print_defect tells why it is present."
     },
     "remove_models": {
      "oneOf": [
