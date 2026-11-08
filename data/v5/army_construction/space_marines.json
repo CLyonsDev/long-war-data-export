@@ -1,5 +1,5 @@
 {
- "data_version": "737c0f5a0065bb89",
+ "data_version": "ffda790aa3f7225a",
  "format": 1,
  "faction": "space_marines",
  "codex": {
@@ -1001,10 +1001,17 @@
      "units": {
       "conditions": [
        {
-        "choice": {
-         "page": "codex/space_marines/roster/lieutenant",
-         "path": "upgrades/tech_marine"
-        }
+        "any_of": [
+         {
+          "choice": {
+           "page": "codex/space_marines/roster/lieutenant",
+           "path": "upgrades/tech_marine"
+          }
+         },
+         {
+          "keyword": "Tech-Priest"
+         }
+        ]
        }
       ],
       "min": 1,
@@ -1013,7 +1020,7 @@
        "exact": false
       }
      },
-     "print_defect": "No unit of the book has the Tech-Priest keyword. This data reads this as a Lieutenant with the Tech-Marine upgrade."
+     "print_defect": "No unit of Codex Space Marines has the Tech-Priest keyword. This data reads this as a unit with the Tech-Priest keyword, or a Lieutenant with the Tech-Marine upgrade."
     }
    ],
    "benefits": [
