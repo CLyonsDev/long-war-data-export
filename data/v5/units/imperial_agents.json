@@ -1,5 +1,5 @@
 {
- "data_version": "27d57407a81c3706",
+ "data_version": "065042d570255bf5",
  "format": 1,
  "faction": "imperial_agents",
  "units": [
@@ -19508,6 +19508,20 @@
      "takers": {
       "scope": "unit"
      },
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "wargear",
+         "id": "power_armour"
+        },
+        {
+         "kind": "wargear",
+         "id": "artificer_armour"
+        }
+       ]
+      }
+     ],
      "pick": {
       "max": 1
      },
@@ -20272,6 +20286,18 @@
      },
      "requires": [
       {
+       "holds": [
+        {
+         "kind": "wargear",
+         "id": "power_armour"
+        },
+        {
+         "kind": "wargear",
+         "id": "artificer_armour"
+        }
+       ]
+      },
+      {
        "not_choice": [
         "mount/jump_pack",
         "mount/bike"
@@ -20474,7 +20500,8 @@
      "requires": [
       {
        "not_choice": [
-        "mount/bike"
+        "mount/bike",
+        "terminator_armour/gravis_armour"
        ]
       }
      ],
@@ -20489,14 +20516,14 @@
        "pricing": "flat",
        "exchanges": [
         {
-         "remove": [
+         "remove_one_of": [
           {
            "kind": "weapon",
            "id": "boltgun"
           },
           {
            "kind": "weapon",
-           "id": "chainsword"
+           "id": "storm_bolter"
           }
          ],
          "add": [
@@ -20507,6 +20534,19 @@
            "count": 2
           }
          ]
+        },
+        {
+         "remove_one_of": [
+          {
+           "kind": "weapon",
+           "id": "chainsword"
+          },
+          {
+           "kind": "weapon",
+           "id": "power_sword"
+          }
+         ],
+         "add": []
         }
        ]
       }
