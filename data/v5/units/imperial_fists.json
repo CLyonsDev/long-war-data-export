@@ -1,5 +1,5 @@
 {
- "data_version": "a320c17c905f85cc",
+ "data_version": "249185f7b6f20c5f",
  "format": 1,
  "faction": "imperial_fists",
  "units": [
@@ -2108,9 +2108,7 @@
       },
       {
        "kind": "weapon",
-       "id": "linked_multi_laser",
-       "faction": "imperial_guard",
-       "note": "The book prints Multi-Laser in the kit. This data reads this as Linked Multi-Laser."
+       "id": "multi_laser"
       },
       {
        "kind": "wargear",
@@ -2215,7 +2213,7 @@
    "options": [
     {
      "id": "weapon_exchange",
-     "label": "Any model in the unit may exchange its Linked Multi-Laser for one of the following:",
+     "label": "Any model in the unit may exchange its Multi-Laser for one of the following:",
      "printed": "Any model in the unit may exchange its Linked Heavy Bolter for one of the following:",
      "takers": {
       "scope": "each_model"
@@ -2234,8 +2232,7 @@
          "remove": [
           {
            "kind": "weapon",
-           "id": "linked_multi_laser",
-           "faction": "imperial_guard"
+           "id": "multi_laser"
           }
          ],
          "add": [
@@ -2260,8 +2257,7 @@
          "remove": [
           {
            "kind": "weapon",
-           "id": "linked_multi_laser",
-           "faction": "imperial_guard"
+           "id": "multi_laser"
           }
          ],
          "add": [
@@ -2284,8 +2280,7 @@
          "remove": [
           {
            "kind": "weapon",
-           "id": "linked_multi_laser",
-           "faction": "imperial_guard"
+           "id": "multi_laser"
           }
          ],
          "add": [
@@ -2308,8 +2303,7 @@
          "remove": [
           {
            "kind": "weapon",
-           "id": "linked_multi_laser",
-           "faction": "imperial_guard"
+           "id": "multi_laser"
           }
          ],
          "add": [
@@ -2328,7 +2322,7 @@
        ]
       }
      ],
-     "print_defect": "The book prints a Multi-Laser in the kit of the Tarantula Gun, and \"its Linked Heavy Bolter\" in this option. The Tarantula Gun holds no Linked Heavy Bolter. This data reads the Multi-Laser as a Linked Multi-Laser, and reads \"its Linked Heavy Bolter\" as its Linked Multi-Laser. This data also gives a Linked Heavy Bolter as one more choice for 0pts."
+     "print_defect": "The book prints \"its Linked Heavy Bolter\" in this option, but the Tarantula Gun holds a Multi-Laser. This data reads \"its Linked Heavy Bolter\" as its Multi-Laser. This data also gives a Linked Heavy Bolter as one more choice for 0pts. Codex Imperial Guard prints the same option in this form."
     },
     {
      "id": "air_defence_tarantula",

@@ -1,5 +1,5 @@
 {
- "data_version": "77f99526d03c3826",
+ "data_version": "be90c4b76ca82bf7",
  "format": 1,
  "faction": "imperial_guard",
  "units": [
@@ -255,7 +255,7 @@
       {
        "id": "field_ambulance",
        "name": "Field Ambulance",
-       "points": 25,
+       "points": 35,
        "pricing": "flat",
        "rules": [
         {
@@ -25028,8 +25028,7 @@
       },
       {
        "kind": "weapon",
-       "id": "linked_multi_laser",
-       "note": "The book prints Multi-Laser in the kit. This data reads this as Linked Multi-Laser."
+       "id": "multi_laser"
       },
       {
        "kind": "wargear",
@@ -25136,9 +25135,9 @@
    "stocks": [],
    "options": [
     {
-     "id": "linked_heavy_bolter",
-     "label": "Any model in the unit may exchange its Linked Multi-Laser for one of the following:",
-     "printed": "Any model in the unit may exchange its Linked Heavy Bolter for one of the following:",
+     "id": "multi_laser",
+     "label": "Any model in the unit may exchange its Multi-Laser for one of the following:",
+     "printed": "Any model in the unit may exchange its Multi-Laser for one of the following:",
      "takers": {
       "scope": "each_model"
      },
@@ -25156,7 +25155,7 @@
          "remove": [
           {
            "kind": "weapon",
-           "id": "linked_multi_laser"
+           "id": "multi_laser"
           }
          ],
          "add": [
@@ -25166,9 +25165,7 @@
           }
          ]
         }
-       ],
-       "print_defect": "The book does not print this choice. This data gives it for 0pts.",
-       "unprinted": true
+       ]
       },
       {
        "id": "multi_melta",
@@ -25180,7 +25177,7 @@
          "remove": [
           {
            "kind": "weapon",
-           "id": "linked_multi_laser"
+           "id": "multi_laser"
           }
          ],
          "add": [
@@ -25202,7 +25199,7 @@
          "remove": [
           {
            "kind": "weapon",
-           "id": "linked_multi_laser"
+           "id": "multi_laser"
           }
          ],
          "add": [
@@ -25224,7 +25221,7 @@
          "remove": [
           {
            "kind": "weapon",
-           "id": "linked_multi_laser"
+           "id": "multi_laser"
           }
          ],
          "add": [
@@ -25237,8 +25234,7 @@
         }
        ]
       }
-     ],
-     "print_defect": "The book prints a Multi-Laser in the kit of the Tarantula Gun, and \"its Linked Heavy Bolter\" in this option. The Tarantula Gun holds no Linked Heavy Bolter. This data reads the Multi-Laser as a Linked Multi-Laser, and reads \"its Linked Heavy Bolter\" as its Linked Multi-Laser. This data also gives a Linked Heavy Bolter as one more choice for 0pts."
+     ]
     },
     {
      "id": "air_defence_tarantula",

@@ -1,5 +1,5 @@
 {
- "data_version": "76e7a0b5923016f6",
+ "data_version": "7a0823efc3b12d54",
  "format": 1,
  "faction": "imperial_agents",
  "weapons": [
@@ -2843,6 +2843,65 @@
        "url": "https://longwarindex.app/special_rules/poison/"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "omnissian_axe",
+   "name": "Omnissian Axe",
+   "section": "armoury",
+   "subtype": "Exotic Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/omnissian_axe_imperial_agents/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "+2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      },
+      {
+       "rule": "special_rules/two_handed",
+       "name": "Two-Handed",
+       "url": "https://longwarindex.app/special_rules/two_handed/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "servo_arm",
+   "name": "Servo Arm",
+   "section": "armoury",
+   "subtype": "Exotic Weapons",
+   "page": 19,
+   "url": "https://longwarindex.app/weapons/servo_arm_imperial_agents/",
+   "profiles": [
+    {
+     "type": "Melee",
+     "range": "Melee",
+     "strength": "x2",
+     "ap": "2",
+     "rules": [
+      {
+       "rule": "special_rules/cumbersome",
+       "name": "Cumbersome",
+       "url": "https://longwarindex.app/special_rules/cumbersome/"
+      },
+      {
+       "rule": "special_rules/unwieldy",
+       "name": "Unwieldy",
+       "url": "https://longwarindex.app/special_rules/unwieldy/"
+      }
+     ],
+     "printed": {
+      "strength": "X2"
+     }
     }
    ]
   },

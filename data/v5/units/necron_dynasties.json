@@ -1,5 +1,5 @@
 {
- "data_version": "c2d254772970e11d",
+ "data_version": "1e8d3366766113d9",
  "format": 1,
  "faction": "necron_dynasties",
  "units": [
@@ -848,8 +848,8 @@
    "options": [
     {
      "id": "wargear",
-     "label": "A Canoptek Spyder may take any number of the following:",
-     "printed": "A Canoptek Spyder may take any number of the following:",
+     "label": "A Canoptek Spyder may take any of the following:",
+     "printed": "A Canoptek Spyder may take any of the following:",
      "takers": {
       "scope": "unit"
      },
@@ -863,7 +863,8 @@
        "items": [
         {
          "kind": "weapon",
-         "id": "particle_shredder"
+         "id": "particle_shredder",
+         "count": 1
         }
        ]
       },
@@ -875,7 +876,8 @@
        "items": [
         {
          "kind": "wargear",
-         "id": "fabricator_claw_array"
+         "id": "fabricator_claw_array",
+         "count": 1
         }
        ]
       },
@@ -887,7 +889,8 @@
        "items": [
         {
          "kind": "wargear",
-         "id": "gloom_prism"
+         "id": "gloom_prism",
+         "count": 1
         }
        ]
       }
