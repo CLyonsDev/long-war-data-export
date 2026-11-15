@@ -1,5 +1,5 @@
 {
- "data_version": "41b235c0bb2248b7",
+ "data_version": "8d3ed8700beb06d9",
  "format": 1,
  "faction": "core",
  "glossary": [
@@ -29,6 +29,34 @@
    "url": "https://longwarindex.app/crusade_battle_pack/night_fighting/",
    "source": "Core Rules",
    "text": "No unit on the battlefield is considered visible for the purposes of shooting attacks unless they are within 18\" during Night Fighting. When a Mission contains this rule, before deployment each player rolls 1d6. Add the results together and consult the table below:\n\nTotal\tResult\n2-4\tDawn\n5-9\tDay\n10-12\tDusk\n\nDawn\n\nThis results in Night Fighting Applying in Battle Round 1 and 2 of the game.\n\nDay\n\nThe Night Fighting Rule will not be used.\n\nDusk\n\nThe Night Fighting Rule will be used in Battle Round 4 and 5 (and beyond if needed) of the game."
+  },
+  {
+   "id": "shooting_phase/overwatch",
+   "name": "Overwatch",
+   "page": 20,
+   "url": "https://longwarindex.app/shooting_phase/overwatch/",
+   "source": "Core Rules",
+   "text": "Any unit may be set to Overwatch. A unit that sets to overwatch gives up its shooting phase, and cannot make any ranged attack. This allows the unit to make an overwatch attack during the opponent's next charge phase. If a unit that is Set to Overwatch is declared the target of a charge, that unit may immediately make an Overwatch attack against the charging unit.\n\nThis attack is resolved as a shooting attack following the shooting attack sequence. Overwatch attacks do not cause Panic tests. A unit may only make 1 Overwatch attack during a turn. A unit may not make an Overwatch attack if there are any enemy models within 3\" of it.\n\nAt the end of the opponent's charge phase, if there are no enemy units within 3\" of a unit that is set to Overwatch, then that unit may make a shooting attack against an enemy unit that is within 12\" of it and not within 3\" of any other friendly units.\n\nWeapons with the Blast & Large Blast special rules may not be used in Overwatch attacks."
+  },
+  {
+   "id": "vehicles_aircraft_fortification_damage/vehicle_damage_chart",
+   "name": "Vehicle Damage Chart",
+   "page": 27,
+   "url": "https://longwarindex.app/vehicles_aircraft_fortification_damage/vehicle_damage_chart/",
+   "source": "Core Rules",
+   "text": "If a weapon scores a successful penetration, roll on the Vehicle damage chart below.\n\nIf the Weapon has AP2 add 1 to the roll.\n\nIf the weapon has AP1 add 2 to the roll instead.\n\n- AP \"-\": -1 on chart\n- AP 3-6: +0 on chart\n- AP 2: +1 on chart\n- AP 1: +2 on chart\n\nThe AP bonus can stack with other modifiers from effects and special rules.\n\nA Fortification can only suffer an Explodes or Crippled result on a Critical Hit! roll. If Out of Control is rolled change it to a Wrecked Result instead.\n\nIf, at any point, the vehicle / Knight / Aircraft / Fortification has no weapons left and is already immobilised, it is automatically Crippled and a wreck (see result 7).\n\nWrecks are automatically treated as Difficult Terrain (see 7.3.3).\n\nD6\tResult\n1\tSuperficial damage: The attack bounces or only inflicts superficial damage of a kind to the vehicle/Knight/Aircraft/Fortification.\n2\tCrew shaken or injured: The shot penetrates the armour and injures crew or shakes them. The vehicle/Aircraft/Fortification is Pinned (see Pinning). No test is required. The unit is Automatically Pinned.\n3\tCrew shaken or injured: See above.\n4\tWeapon destroyed: A Primary weapon on the vehicle/Knight/Aircraft/Fortification is destroyed. The Controlling player of the vehicle/Knight/Aircraft/Fortification determines which weapon is destroyed. That weapon cannot be used for the rest of the game unless repaired. If a vehicle/Knight/Aircraft/Fortification has no Primary weapons left to be destroyed, all Secondary weapons the vehicle/Knight/Aircraft/Fortification is equipped with are destroyed. If the vehicle/Knight/Aircraft/Fortification has no Secondary weapons left, this result becomes an immobilised result.\n5\tWeapon destroyed: See above.\n6\tImmobilised: The Vehicle is immobilised and can no longer make move actions in the movement phase, charge rolls in the charge phase, Pile-In or Sweeping Advance unless repaired. If the Vehicle is already Immobilised, this counts as a weapon destroyed result (see result 5). If the Vehicle is Immobilised and the vehicle has no Primary or Secondary weapons left, it is crippled (see result 7). If the target is an Aircraft and suffers an Immobilised result it is treated as having rolled an explode on a Critical hit result (see result 7).\n7\tCritical hit: Roll an additional D3 and consult the sub chart.\n\nD3\tResult\n1\tCrippled: The Vehicle is crippled and a wreck. It remains on the battlefield as Terrain and is no longer considered a unit and counts as having been slain.\n2\tExplodes: All models within 5\" of the Vehicle take 1 Strength 5, AP 5 hit. The Vehicle is then treated as a Wreck (see above). Aircraft measure this explosion from their base.\n3\tOut of Control: The owner of the Vehicle moves it D6\". Move the vehicle that many inches as far as it can go in any direction. All models within 5\" of the Vehicle take 1 Strength 5, AP 5 hit. A Vehicle cannot perform the move if it was previously immobilised. Aircraft measure this explosion from their base. The Vehicle is then treated as a Wreck (see above)."
+  },
+  {
+   "id": "combat_phase/panic_tests",
+   "name": "Panic Tests",
+   "page": 34,
+   "url": "https://longwarindex.app/combat_phase/panic_tests/",
+   "source": "Core Rules",
+   "text": "Each unit belonging to the player whose side lost the combat must make a Panic test. Roll 2D6. If the roll is equal to or less than the Leadership (LD) characteristic then the test is passed, the unit may remain in combat and the combat ends. If the roll is higher than their Leadership (LD) characteristic, the test is failed and the unit must immediately perform a Fall Back move (see 6.5).",
+   "other_spellings": [
+    "Panic Test",
+    "Panic"
+   ]
   }
  ]
 }
