@@ -1,5 +1,5 @@
 {
- "data_version": "8d3ed8700beb06d9",
+ "data_version": "621caaddf0c885fd",
  "format": 1,
  "faction": "core",
  "glossary": [
@@ -36,7 +36,10 @@
    "page": 20,
    "url": "https://longwarindex.app/shooting_phase/overwatch/",
    "source": "Core Rules",
-   "text": "Any unit may be set to Overwatch. A unit that sets to overwatch gives up its shooting phase, and cannot make any ranged attack. This allows the unit to make an overwatch attack during the opponent's next charge phase. If a unit that is Set to Overwatch is declared the target of a charge, that unit may immediately make an Overwatch attack against the charging unit.\n\nThis attack is resolved as a shooting attack following the shooting attack sequence. Overwatch attacks do not cause Panic tests. A unit may only make 1 Overwatch attack during a turn. A unit may not make an Overwatch attack if there are any enemy models within 3\" of it.\n\nAt the end of the opponent's charge phase, if there are no enemy units within 3\" of a unit that is set to Overwatch, then that unit may make a shooting attack against an enemy unit that is within 12\" of it and not within 3\" of any other friendly units.\n\nWeapons with the Blast & Large Blast special rules may not be used in Overwatch attacks."
+   "text": "Any unit may be set to Overwatch. A unit that sets to overwatch gives up its shooting phase, and cannot make any ranged attack. This allows the unit to make an overwatch attack during the opponent's next charge phase. If a unit that is Set to Overwatch is declared the target of a charge, that unit may immediately make an Overwatch attack against the charging unit.\n\nThis attack is resolved as a shooting attack following the shooting attack sequence. Overwatch attacks do not cause Panic tests. A unit may only make 1 Overwatch attack during a turn. A unit may not make an Overwatch attack if there are any enemy models within 3\" of it.\n\nAt the end of the opponent's charge phase, if there are no enemy units within 3\" of a unit that is set to Overwatch, then that unit may make a shooting attack against an enemy unit that is within 12\" of it and not within 3\" of any other friendly units.\n\nWeapons with the Blast & Large Blast special rules may not be used in Overwatch attacks.",
+   "other_spellings": [
+    "Overwatching"
+   ]
   },
   {
    "id": "vehicles_aircraft_fortification_damage/vehicle_damage_chart",
@@ -55,7 +58,273 @@
    "text": "Each unit belonging to the player whose side lost the combat must make a Panic test. Roll 2D6. If the roll is equal to or less than the Leadership (LD) characteristic then the test is passed, the unit may remain in combat and the combat ends. If the roll is higher than their Leadership (LD) characteristic, the test is failed and the unit must immediately perform a Fall Back move (see 6.5).",
    "other_spellings": [
     "Panic Test",
-    "Panic"
+    "Panic",
+    "Panicked"
+   ]
+  },
+  {
+   "id": "movement_phase/fall_back_move",
+   "name": "Fall Back Move",
+   "page": 16,
+   "url": "https://longwarindex.app/movement_phase/fall_back_move/",
+   "source": "Core Rules",
+   "text": "A Fall Back move is a special Movement Action made when a unit fails a Panic test or a Rallying test. A Fall Back move is usually 2d6\" and is made toward the nearest board edge. The unit must move the full distance rolled and is not slowed by Difficult or Dangerous Terrain. When making a Fall Back move, models must make the most direct movement possible toward the board edge. Models must stay 3\" away from enemy models, and cannot move through allied models. If it is impossible to move a model away from an enemy more than 3\" then that model is slain. If a unit is trapped and cannot move without having to move through enemy or ally models, the unit is slain and removed from play. When performing a Fall Back move, a unit that is moving to avoid contact or being within 3\" of an enemy model may result in it moving further away from a board edge temporarily. A unit that performs a Fall Back move can only shoot Snap Shots in the shooting phase, and cannot Embark a vehicle or building, nor can it charge in the charge phase. If a unit that is performing a Fall Back move is charged in the Charge Phase, the unit takes a number of automatic wounds (with no saves allowed) as if they were caught in a Sweeping Advance (see 12.1 step 9).",
+   "other_spellings": [
+    "Fall Back",
+    "Falling Back",
+    "Falls Back",
+    "Fell Back"
+   ]
+  },
+  {
+   "id": "combat_phase/sweeping_advance",
+   "name": "Sweeping Advance",
+   "page": 34,
+   "url": "https://longwarindex.app/combat_phase/sweeping_advance/",
+   "source": "Core Rules",
+   "text": "After resolving any Panic tests, each unit belonging to the player whose side won the combat may make a Sweeping Advance so long as there are no enemy models within 3\" of them. When making a Sweeping Advance, a unit may move a number of inches equal to their Initiative (I) characteristic +D6\". A unit which performs a Sweeping Advance may not end their movement within 3\" of any enemy units unless that unit performed a Fall Back move (see 6.5) that turn. If a unit ends its Sweeping Advance within 3\" of a unit that performed a Fall Back move that turn, the unit that performed the Fall Back move takes a number of automatic wounds with no saves allowed equal to the number of models within 3\" of them. The unit that performed the Fall Back move is now considered engaged against the unit that performed the Sweeping Advance if any models are still alive and is considered to have automatically passed a Rally test (see 6.6)."
+  },
+  {
+   "id": "wounds/instant_death",
+   "name": "Instant Death",
+   "page": 25,
+   "url": "https://longwarindex.app/wounds/instant_death/",
+   "source": "Core Rules",
+   "text": "When allocating wounds, if the weapon that dealt a wound has a Strength characteristic that was double the Toughness of the model you are allocating that wound to, it is an Instant Death wound. The model is removed from play and slain regardless of how many wounds it has remaining. Instant Death Wounds may be ignored through abilities the same as regular wounds."
+  },
+  {
+   "id": "movement/dangerous_terrain_type",
+   "name": "Dangerous Terrain Type",
+   "page": 18,
+   "url": "https://longwarindex.app/movement/dangerous_terrain_type/",
+   "source": "Core Rules",
+   "text": "Sometimes a Terrain piece or area might be designated as Dangerous terrain. This could be because of landmines, lava or some other effect that could harm warriors. Any model without the Fly rule that enters, goes through, or exits Dangerous Terrain must make a Dangerous Terrain test (see 7.3.5).",
+   "other_spellings": [
+    "Dangerous Terrain",
+    "Dangerous Terrain Test"
+   ]
+  },
+  {
+   "id": "movement/difficult_terrain_type",
+   "name": "Difficult Terrain Type",
+   "page": 18,
+   "url": "https://longwarindex.app/movement/difficult_terrain_type/",
+   "source": "Core Rules",
+   "text": "Some terrain may be labelled as Difficult terrain by various effects or players may agree to treat certain terrain as Difficult terrain during setup. Any area of Difficult terrain should be clearly defined between you and your opponent. When a model moves through, would end on, or begins in difficult terrain, it subtracts -2\" to its Movement (M) characteristic. Any charge through difficult terrain is considered a disordered charge (see 11.1). Some specific units may be forced to take a Dangerous Terrain test (See 7.3.5) in addition from moving through Difficult terrain.",
+   "other_spellings": [
+    "Difficult Terrain"
+   ]
+  },
+  {
+   "id": "shooting_phase/cover_saves",
+   "name": "Cover Saves",
+   "page": 23,
+   "url": "https://longwarindex.app/shooting_phase/cover_saves/",
+   "source": "Core Rules",
+   "text": "If any part of a model is obscured when determining visibility for the weapons attack (except by models in its own unit), the target model gains the benefits of Cover. Cover confers a special kind of Save known as a Cover save. Cover Saves ignore the AP Characteristics of weapons and may be used instead of the target's normal Armour Save (SV) Characteristic.\n\nThere are two levels of Cover:\n\n- Light Cover: If a target is more than 25% obscured when determining visibility the target gains the benefit of Light Cover. Light Cover confers a Cover save of 6+.\n- Heavy Cover: If a target is more than 50% obscured when determining visibility, the target gains the benefit of Heavy Cover. Heavy Cover confers a Cover save of 5+.",
+   "other_spellings": [
+    "Cover Save"
+   ]
+  },
+  {
+   "id": "shooting_phase/invulnerable_saves",
+   "name": "Invulnerable Saves",
+   "page": 24,
+   "url": "https://longwarindex.app/shooting_phase/invulnerable_saves/",
+   "source": "Core Rules",
+   "text": "Some units have Invulnerable saves. Invulnerable saves are saves that may be taken instead of Armour saves or Cover Saves. Invulnerable saves are never affected by AP and may always be taken (unless stated otherwise by a Special rule).",
+   "other_spellings": [
+    "Invulnerable Save"
+   ]
+  },
+  {
+   "id": "deployment/reserve_units",
+   "name": "Reserve Units",
+   "page": 13,
+   "url": "https://longwarindex.app/deployment/reserve_units/",
+   "source": "Core Rules",
+   "text": "Sometimes, a rule will allow you to set up a unit in a location other than the battlefield in reserve.\n\nWhen you set up a reserve unit, either during deployment or once the battle is underway, you must tell your opponent that the unit is in reserve and keep it to one side instead of placing it on the battlefield. At the start of the fourth battle round, units that are still in reserve that have not yet arrived at the battlefield are destroyed. Units cannot cast Psychic Powers or use special rules while they are in reserves unless specifically noted in the Psychic Power or Special Rule.\n\nNo more than 50% of your army may be placed in reserves during Deployment.",
+   "other_spellings": [
+    "Reserves",
+    "Reserve"
+   ]
+  },
+  {
+   "id": "movement_phase/embarking_and_disembarking",
+   "name": "Embarking and Disembarking",
+   "page": 15,
+   "url": "https://longwarindex.app/movement_phase/embarking_and_disembarking/",
+   "source": "Core Rules",
+   "text": "As part of a normal move, a unit that is embarked inside another unit with the Transport Keyword may Disembark from the model a distance equal or less than their Movement (M) characteristic in inches measuring the distance they can travel from the unit they are disembarking from.\n\nA unit may not Disembark if the Transport Advances, but units may disembark at any point in the movement phase if the Transport only made a Normal Move or remained stationary. If the Transport made a Normal Move, the unit embarked may only Disembark if the Transport moved less than half of its Movement (M) characteristic or Minimum Movement (M) characteristic.\n\nA unit that ends a Normal Move wholly within 3\" of a Transport model may Embark. Remove the unit from play while it is inside the transport (see 1.2.2). A unit cannot Embark the turn it Disembarks from a Transport and vice versa. If all the models from a unit are not within 3\" when embarking, the unit may not Embark at all. Transports may not carry other units with the Transport keyword. The type of models a Transport can carry is listed under its transport rule.\n\nFor Transports with the Fly special rule, measure to the hull of the model. If the Transport is an Aircraft type unit measured from the model base (unless it is Hovering).",
+   "other_spellings": [
+    "Embark",
+    "Embarked",
+    "Embarks",
+    "Embarking",
+    "Disembark",
+    "Disembarked",
+    "Disembarks",
+    "Disembarking"
+   ]
+  },
+  {
+   "id": "movement_phase/rallying",
+   "name": "Rallying",
+   "page": 16,
+   "url": "https://longwarindex.app/movement_phase/rallying/",
+   "source": "Core Rules",
+   "text": "At the start of your Movement Phase, any unit in your army that failed a Panic Test in the previous turn and is Falling Back must make a Leadership Test. Roll 2D6. If the result is equal to or below the unit's Leadership (LD) characteristic, the test is passed. If the roll is greater than the unit's Leadership (LD) characteristic, the test is failed. If the test is passed, the unit is no longer panicked and may move a number of inches equal to its Initiative (I) characteristic, counting as the unit's movement this movement phase. The unit counts as having completed a normal move but may not embark on a transport after completing the move. If the unit fails the Leadership test, it must perform a Fall Back move that phase (see 6.5).",
+   "other_spellings": [
+    "Rally",
+    "Rallies",
+    "Rallied"
+   ]
+  },
+  {
+   "id": "combat_phase/combat_resolution",
+   "name": "Combat Resolution",
+   "page": 34,
+   "url": "https://longwarindex.app/combat_phase/combat_resolution/",
+   "source": "Core Rules",
+   "text": "At the conclusion of Initiative step 0 in the Initiative order, combat resolution takes place. The players must determine who won the combat.\n\nAfter the combat has been resolved, players proceed to resolve the next active combat in the Combat Phase until no further combats remain."
+  },
+  {
+   "id": "charge_phase/disordered_charges",
+   "name": "Disordered Charges",
+   "page": 30,
+   "url": "https://longwarindex.app/charge_phase/disordered_charges/",
+   "source": "Core Rules",
+   "text": "A disordered charge occurs when a unit:\n\n- Charges through difficult terrain.\n- Charges through dangerous terrain.\n- Charges an aircraft.\n- Charges multiple targets.\n- Any other special rule or effect would impose a disordered charge.\n\nA unit that conducts a Disordered charge does not gain the benefit of +1 to its Attacks the turn it charges for completing a successful charge.",
+   "other_spellings": [
+    "Disordered Charge"
+   ]
+  },
+  {
+   "id": "shooting_phase/reactions",
+   "name": "Reactions",
+   "page": 20,
+   "url": "https://longwarindex.app/shooting_phase/reactions/",
+   "source": "Core Rules",
+   "text": "Reactions are a special action that are usually set up in anticipation of a future condition. Reactions are declared in the Shooting phase, by selecting the unit and declaring you \"Set to X\" where X is the Reaction. Most actions usually require you to give up something during your turn to act in the opponent's turn.\n\nSome armies have specific Reactions they can take. Some reactions may also be tied to special rules or wargear.\n\nUnits with the Slow & Purposeful special rule may not use reactions, except for Setting to Smoke.\n\nA unit that completes a charge in the charge phase (see 11.0), is Pinned (see 16.0) or fails a Panic test and conducts a Fall Back move has any Reactions it is currently set to cancelled. You may enter into a Reaction even if engaged in ongoing Combat.",
+   "other_spellings": [
+    "Reaction"
+   ]
+  },
+  {
+   "id": "movement_phase/retreat",
+   "name": "Retreat",
+   "page": 15,
+   "url": "https://longwarindex.app/movement_phase/retreat/",
+   "source": "Core Rules",
+   "text": "When you pick a unit to Retreat, you can move each model in that unit a distance in inches equal to your unit's Movement (M) characteristic. The unit must end the move more than 3\" away from all enemy units. A unit that makes a Retreat Move in the Movement Phase may still Shoot in the Shooting Phase, but all attacks by the unit that Retreated are resolved as Snap Shots (8.2.1) unless made with Pistol type weapons (see 8.4.1). Units that Retreat cannot declare a Charge in the Charge Phase.",
+   "other_spellings": [
+    "Retreated"
+   ]
+  },
+  {
+   "id": "movement_phase/advance",
+   "name": "Advance",
+   "page": 15,
+   "url": "https://longwarindex.app/movement_phase/advance/",
+   "source": "Core Rules",
+   "text": "When you pick a unit to Advance, you increase its Movement (M) characteristic by a number of inches equal to the model's Initiative (I) characteristic. You can then move each model in that unit a distance in inches equal to or less than the modified Movement (M) characteristic. No part of an advance can be within 3\" of an enemy unit. A unit that makes an advance move cannot shoot in the shooting phase or attempt to charge in the charge phase of that turn, regardless of the actual distance moved.",
+   "other_spellings": [
+    "Advanced"
+   ]
+  },
+  {
+   "id": "shooting_phase/smoke",
+   "name": "Smoke",
+   "page": 20,
+   "url": "https://longwarindex.app/shooting_phase/smoke/",
+   "source": "Core Rules",
+   "text": "A unit with the Smoke Launcher Wargear may set to smoke in the shooting phase. A unit that sets to Smoke gives up its shooting phase and cannot make any ranged attacks. This grants the Smoked unit a 4+ Cover save until the start of its controlling player's next movement phase."
+  },
+  {
+   "id": "core_concepts/rerolls",
+   "name": "Re-Rolls",
+   "page": 11,
+   "url": "https://longwarindex.app/core_concepts/rerolls/",
+   "source": "Core Rules",
+   "text": "Some rules refer to re-rolls. To make a re-roll, roll the dice again. A dice can never be re-rolled more than once. If a rule allows you to re-roll an xD6 roll, you must re-roll all of the dice used for that roll.",
+   "other_spellings": [
+    "Re-Roll"
+   ]
+  },
+  {
+   "id": "core_concepts/rolling_off",
+   "name": "Rolling Off",
+   "page": 11,
+   "url": "https://longwarindex.app/core_concepts/rolling_off/",
+   "source": "Core Rules",
+   "text": "Sometimes a rule may require the players to roll off. To roll off, each player rolls a dice, and whoever rolls highest wins. If a roll is tied, roll off again.",
+   "other_spellings": [
+    "Roll Off",
+    "Roll-off"
+   ]
+  },
+  {
+   "id": "core_concepts/unit_coherency",
+   "name": "Unit Coherency",
+   "page": 9,
+   "url": "https://longwarindex.app/core_concepts/unit_coherency/",
+   "source": "Core Rules",
+   "text": "Units must be set up, and must finish every move, as a single Coherent group. Each model in a unit (except Vehicle models) is coherent if it is within 2\" horizontally and 6\" vertically of at least 1 other model in the unit. If a friendly unit is not coherent at the start of your movement phase, it must end that movement phase in coherency (see 7.1). If a unit cannot end a turn in coherency, the controlling player removes models from play until the remaining models are in coherency or can physically make a move that would end in coherency.\n\nNote: Some Vehicles can be purchased in units. However, after deployment, each model in a Vehicle unit is treated as its own unit and is not subject to coherency.",
+   "other_spellings": [
+    "Coherency"
+   ]
+  },
+  {
+   "id": "movement_phase/normal_move",
+   "name": "Normal Move",
+   "page": 14,
+   "url": "https://longwarindex.app/movement_phase/normal_move/",
+   "source": "Core Rules",
+   "text": "When you pick a unit to make a Normal Move, you can move each model in that unit a distance in inches equal to or less than the Movement (M) characteristic shown on the unit's data sheet. Units cannot move within 3\" of enemy units when making normal moves."
+  },
+  {
+   "id": "charge_phase/charge_moves",
+   "name": "Charge Moves",
+   "page": 29,
+   "url": "https://longwarindex.app/charge_phase/charge_moves/",
+   "source": "Core Rules",
+   "text": "You must declare which unit is attempting a charge, and then an eligible target(s) (see 11.0.1). Resolve a Charge Move in the following steps:\n\n1. Select a valid unit to charge and one or more valid charge targets.\n2. Roll 2D6 for the charging unit. You can then make a charge move with each model in that unit by moving the model a distance in inches equal to or less than the charge roll.\n    1. Some special rules or terrain effects may modify the charge distance.\n3. The first model you move when attempting a charge must finish the move within ½\" of the targeted enemy unit. All models after the first can move anywhere after that, attempting to charge other declared targets. This is a successful charge.\n    1. A unit that successfully performs a charge gains the Charge Bonus (see 11.1.5).\n\nAs you perform charge moves, you may end up moving within 3\" of other enemy models that are not the charge target. These units have also been charged, and the charge counts as a Disordered Charge.\n\nIf it is impossible to move any charging models within ½\" of a targeted enemy, you can still move the models a distance equal in inches to the charging models Initiative (I) characteristic but must remain more than 3\" away from the enemy unit and cannot fight in the Combat phase. The charge is then considered to be failed.",
+   "other_spellings": [
+    "Charge Move"
+   ]
+  },
+  {
+   "id": "movement_phase/remaining_stationary",
+   "name": "Remaining Stationary",
+   "page": 15,
+   "url": "https://longwarindex.app/movement_phase/remaining_stationary/",
+   "source": "Core Rules",
+   "text": "A unit with models that do not have a Minimum Movement (see 6.1.1) may opt to remain stationary instead of conducting a movement action.\n\nIf the unit elected to conduct a Normal Move in the Movement Phase but an individual model did not move as part of the Movement Action, that model is considered to have remained stationary for the purposes of shooting but is otherwise subject to all other effects as a result of the unit declaring a move.",
+   "other_spellings": [
+    "Remain Stationary",
+    "Remained Stationary"
+   ]
+  },
+  {
+   "id": "deployment/summoned_units",
+   "name": "Summoned Units",
+   "page": 13,
+   "url": "https://longwarindex.app/deployment/summoned_units/",
+   "source": "Core Rules",
+   "text": "A unit added to your army once the battle is underway is called a summoned unit. A summoned unit will always specify the manner in which it arrives to the battle in the rule responsible for summoning it. Summoned units count as having made a Normal Movement for the purposes of determining if they have moved that round and may not move further than as allowed by its arrival method. A summoned unit automatically arrives via Outflank without needing to roll and is always considered as having rolled a Minor Deviation when arriving via Deep Strike. Summoned units may arrive during your first turn Movement Phase. Summoned units do not count for Victory Points in scenarios unless specifically stated. Summoned units do not have any wargear options beyond the base loadout noted on their data sheet. Summoned units added to your army are conferred your army Keywords and may gain your army Allegiance if eligible.",
+   "other_spellings": [
+    "Summoned Unit"
+   ]
+  },
+  {
+   "id": "objectives/objective_markers",
+   "name": "Objective Markers",
+   "page": 35,
+   "url": "https://longwarindex.app/objectives/objective_markers/",
+   "source": "Core Rules",
+   "text": "The battle plan being used for a battle will show and explain how objectives are placed. When measuring distances to and from objectives, always measure to and from the centre of the objective marker. If an objective is placed on the border between two territories, it is considered to be in both of them.",
+   "other_spellings": [
+    "Objective Marker"
    ]
   }
  ]
