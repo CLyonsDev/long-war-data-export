@@ -140,6 +140,15 @@
      "type": "string",
      "description": "What the book does not print, for example the text of a rule that its datasheets name. The text then comes from another printing, and the sentence says which."
     },
+    "other_spellings": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "minLength": 1
+     },
+     "minItems": 1,
+     "description": "Other spellings of the rule name that the books print, for example \"Pinned\" for Pinning. Same form as other_spellings of a glossary term."
+    },
     "options": {
      "type": "array",
      "items": {

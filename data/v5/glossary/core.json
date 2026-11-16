@@ -1,5 +1,5 @@
 {
- "data_version": "621caaddf0c885fd",
+ "data_version": "790fc15cd7b73a35",
  "format": 1,
  "faction": "core",
  "glossary": [
@@ -123,7 +123,9 @@
    "source": "Core Rules",
    "text": "If any part of a model is obscured when determining visibility for the weapons attack (except by models in its own unit), the target model gains the benefits of Cover. Cover confers a special kind of Save known as a Cover save. Cover Saves ignore the AP Characteristics of weapons and may be used instead of the target's normal Armour Save (SV) Characteristic.\n\nThere are two levels of Cover:\n\n- Light Cover: If a target is more than 25% obscured when determining visibility the target gains the benefit of Light Cover. Light Cover confers a Cover save of 6+.\n- Heavy Cover: If a target is more than 50% obscured when determining visibility, the target gains the benefit of Heavy Cover. Heavy Cover confers a Cover save of 5+.",
    "other_spellings": [
-    "Cover Save"
+    "Cover Save",
+    "Light Cover",
+    "Heavy Cover"
    ]
   },
   {
@@ -325,6 +327,18 @@
    "text": "The battle plan being used for a battle will show and explain how objectives are placed. When measuring distances to and from objectives, always measure to and from the centre of the objective marker. If an objective is placed on the border between two territories, it is considered to be in both of them.",
    "other_spellings": [
     "Objective Marker"
+   ]
+  },
+  {
+   "id": "vehicles_aircraft_fortification_damage/primary_and_secondary_weapons",
+   "name": "Primary & Secondary Weapons",
+   "page": 28,
+   "url": "https://longwarindex.app/vehicles_aircraft_fortification_damage/primary_and_secondary_weapons/",
+   "source": "Core Rules",
+   "text": "Vehicle weapons are designated as either Primary or Secondary.\n\nPrimary weapons are destroyed by the weapon destroyed result on the Vehicle damage chart. If no Primary weapons can be destroyed on the roll of a weapon destroyed result, all Secondary weapons are destroyed instead.\n\nAny weapons not marked with either primary or Secondary cannot be destroyed at all.\n\nSecondary Weapons may target enemy units within 3\" of the unit with no penalty.\n\nPrimary Weapons may not target enemy units within 3\" unless they are Melee type weapons.",
+   "other_spellings": [
+    "Primary Weapon",
+    "Secondary Weapon"
    ]
   }
  ]

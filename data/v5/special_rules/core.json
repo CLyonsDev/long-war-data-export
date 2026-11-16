@@ -1,5 +1,5 @@
 {
- "data_version": "491f543c38ef1064",
+ "data_version": "6abfce348fd44abd",
  "format": 1,
  "faction": "core",
  "special_rules": [
@@ -245,7 +245,10 @@
    "references": [
     "universal_special_rules/fly"
    ],
-   "text": "An Aircraft with this Special rule must declare at the start of its movement phase if it will Hover or Fly. If the unit Hovers, it gains +1 to its Ballistic Skill (BS) characteristic and its Movement (M) characteristic becomes 12\". Hovering Aircraft units can be charged by units without the Fly special rule, measuring distances to the Aircraft's base. An Aircraft unit that is Hovering does not automatically explode when immobilised. A unit Hovering is no longer hit on 6+ by enemy shooting attacks. An Aircraft is treated as a Vehicle type while the unit is Hovering."
+   "text": "An Aircraft with this Special rule must declare at the start of its movement phase if it will Hover or Fly. If the unit Hovers, it gains +1 to its Ballistic Skill (BS) characteristic and its Movement (M) characteristic becomes 12\". Hovering Aircraft units can be charged by units without the Fly special rule, measuring distances to the Aircraft's base. An Aircraft unit that is Hovering does not automatically explode when immobilised. A unit Hovering is no longer hit on 6+ by enemy shooting attacks. An Aircraft is treated as a Vehicle type while the unit is Hovering.",
+   "other_spellings": [
+    "Hovering"
+   ]
   },
   {
    "id": "universal_special_rules/infiltrate",
@@ -749,7 +752,10 @@
    "kind": "weapon",
    "page": 46,
    "url": "https://longwarindex.app/special_rules/pinning/",
-   "text": "A unit that is hit by a weapon with this special rule must make a Pinning test in step 5 of the shooting attack sequence in addition to a panic test:\n\nTo make the Pinning test, Roll 2D6. If the roll is equal to or lower than the target units Leadership Characteristic, the test is passed and the attack sequence ends. If the test is failed, place a Pinned marker on the unit.\n\nA pinned unit:\n\n- Halves its Movement (M) characteristic.\n- Has -1 to hit rolls with all Shooting attacks.\n- May not make Reactions in the Charge phase and any currently set reactions are cancelled.\n\nRemove the Pinned Marker from a unit at the end of units controller's next turn. Regardless of the number of tests failed, a unit can only ever have 1 Pinned marker. A unit only ever makes 1 Pinning test per unit shooting attack in step 5 of the attack sequence.\n\n(Example: A unit with 5 Heavy Bolters targets a Guardsman squad. The Guard make 1 Pinning test after all Heavy Bolter shots have been resolved. In the same phase, the next unit targets the same Guardsman squad with 2 pinning weapons. After all shooing attacks are resolved, the guard squad makes 1 Pinning test.)"
+   "text": "A unit that is hit by a weapon with this special rule must make a Pinning test in step 5 of the shooting attack sequence in addition to a panic test:\n\nTo make the Pinning test, Roll 2D6. If the roll is equal to or lower than the target units Leadership Characteristic, the test is passed and the attack sequence ends. If the test is failed, place a Pinned marker on the unit.\n\nA pinned unit:\n\n- Halves its Movement (M) characteristic.\n- Has -1 to hit rolls with all Shooting attacks.\n- May not make Reactions in the Charge phase and any currently set reactions are cancelled.\n\nRemove the Pinned Marker from a unit at the end of units controller's next turn. Regardless of the number of tests failed, a unit can only ever have 1 Pinned marker. A unit only ever makes 1 Pinning test per unit shooting attack in step 5 of the attack sequence.\n\n(Example: A unit with 5 Heavy Bolters targets a Guardsman squad. The Guard make 1 Pinning test after all Heavy Bolter shots have been resolved. In the same phase, the next unit targets the same Guardsman squad with 2 pinning weapons. After all shooing attacks are resolved, the guard squad makes 1 Pinning test.)",
+   "other_spellings": [
+    "Pinned"
+   ]
   },
   {
    "id": "special_rules/reach",
