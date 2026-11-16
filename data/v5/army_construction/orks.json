@@ -1,5 +1,5 @@
 {
- "data_version": "05242fd9fce675a5",
+ "data_version": "e4ab1901c577d34a",
  "format": 1,
  "faction": "orks",
  "codex": {
@@ -400,7 +400,7 @@
    "benefits": [
     {
      "id": "goffs_rowdy_fighters",
-     "printed": "Goff Infantry, Jetbike, Cavalry & Bike units gain the Hatred special rule.",
+     "printed": "Goff Infantry, Walker, Jetbike, Cavalry & Bike units gain the Hatred special rule.",
      "rules": {
       "conditions": [
        {
@@ -410,6 +410,9 @@
         "any_of": [
          {
           "unit_type": "Infantry"
+         },
+         {
+          "unit_type": "Walker"
          },
          {
           "unit_type": "Jetbike"
@@ -467,7 +470,7 @@
    ],
    "benefits": [],
    "game_time": [
-    "Armed to da Teef: All Bad Moons Infantry, Jetbike, Cavalry & Bike units gain the Arcing (6+) special rule in the Shooting Phase on all Shooting weapons they are equipped with while targeting an enemy within 12\"."
+    "Armed to da Teef: All Bad Moons Infantry, Walker, Jetbike, Cavalry & Bike units gain the Arcing (6+) special rule in the Shooting Phase on all Shooting weapons they are equipped with while targeting an enemy within 12\"."
    ],
    "unencoded": []
   },
@@ -623,7 +626,7 @@
    "benefits": [
     {
      "id": "death_skullz_lucky_blue_gitz",
-     "printed": "All Death Skullz Infantry, Jetbike, Cavalry & Bike units have a 6+ Invulnerable save.",
+     "printed": "All Death Skullz Infantry, Walker, Jetbike, Cavalry & Bike units have a 6+ Invulnerable save.",
      "invulnerable_save": {
       "conditions": [
        {
@@ -633,6 +636,9 @@
         "any_of": [
          {
           "unit_type": "Infantry"
+         },
+         {
+          "unit_type": "Walker"
          },
          {
           "unit_type": "Jetbike"

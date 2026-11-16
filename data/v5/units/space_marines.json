@@ -1,5 +1,5 @@
 {
- "data_version": "dd1b99ec99c22a05",
+ "data_version": "c2fe1c92286bf1a6",
  "format": 1,
  "faction": "space_marines",
  "units": [
@@ -23613,8 +23613,8 @@
     },
     {
      "id": "heavy_weapon",
-     "label": "One in every 5 Terminators may take one of the Following:",
-     "printed": "One in every 5 Terminators may take one of the Following:",
+     "label": "One in every 5 Terminators may exchange their Storm Bolter for one of the following:",
+     "printed": "One in every 5 Terminators may exchange their Storm Bolter for one of the following:",
      "takers": {
       "scope": "models",
       "ratio": {
@@ -23632,10 +23632,20 @@
        "name": "Heavy Flamer",
        "points": 5,
        "pricing": "flat",
-       "items": [
+       "exchanges": [
         {
-         "kind": "weapon",
-         "id": "heavy_flamer"
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "heavy_flamer"
+          }
+         ]
         }
        ]
       },
@@ -23644,10 +23654,20 @@
        "name": "Assault Cannon",
        "points": 10,
        "pricing": "flat",
-       "items": [
+       "exchanges": [
         {
-         "kind": "weapon",
-         "id": "assault_cannon"
+         "remove": [
+          {
+           "kind": "weapon",
+           "id": "storm_bolter"
+          }
+         ],
+         "add": [
+          {
+           "kind": "weapon",
+           "id": "assault_cannon"
+          }
+         ]
         }
        ]
       }

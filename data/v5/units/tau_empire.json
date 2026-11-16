@@ -1,5 +1,5 @@
 {
- "data_version": "782ccbd4462d2f74",
+ "data_version": "3ea4df4055a8e4cc",
  "format": 1,
  "faction": "tau_empire",
  "units": [
@@ -11430,8 +11430,8 @@
     },
     {
      "id": "linked_plasma_rifles",
-     "label": "The Broadside may exchange its Linked Smart Missile System for 2 Linked Plasma Rifles (+10pts)",
-     "printed": "The Broadside may exchange its Linked Smart Missile System for 2 Linked Plasma Rifles for 10pts.",
+     "label": "The Broadside may exchange its Linked Smart Missile System for 1 Linked Plasma Rifle (+10pts)",
+     "printed": "The Broadside may exchange its Linked Smart Missile System for 1 Linked Plasma Rifle for 10pts.",
      "takers": {
       "scope": "each_model",
       "profiles": [
@@ -11445,7 +11445,7 @@
      "choices": [
       {
        "id": "linked_plasma_rifles",
-       "name": "2 Linked Plasma Rifles",
+       "name": "1 Linked Plasma Rifle",
        "points": 10,
        "pricing": "flat",
        "exchanges": [
@@ -11459,8 +11459,7 @@
          "add": [
           {
            "kind": "weapon",
-           "id": "linked_plasma_rifle",
-           "count": 2
+           "id": "linked_plasma_rifle"
           }
          ]
         }
@@ -11470,10 +11469,14 @@
     },
     {
      "id": "seeker_missile",
-     "label": "The unit may take a single Seeker Missile (+5pts)",
-     "printed": "The unit may take a single Seeker Missile for 5pts.",
+     "label": "Each model in the unit may take a single Seeker Missile (+5pts)",
+     "printed": "Each model in the unit may take a single Seeker Missile for 5pts.",
      "takers": {
-      "scope": "unit"
+      "scope": "each_model",
+      "profiles": [
+       "xv88_broadside_suit_shasui",
+       "xv88_broadside_suit_shasvre"
+      ]
      },
      "pick": {
       "max": 1
@@ -11604,14 +11607,14 @@
     },
     {
      "id": "drones",
-     "label": "The unit may purchase up to 2 of the following:",
-     "printed": "The unit may purchase up to 2 of the following:",
+     "label": "The unit may purchase up to 2 of the following per Broadside model in the unit:",
+     "printed": "The unit may purchase up to 2 of the following per Broadside model in the unit:",
      "takers": {
       "scope": "unit"
      },
      "pick": {
       "max": 2,
-      "per": "unit"
+      "per": "model"
      },
      "choices": [
       {

@@ -1,5 +1,5 @@
 {
- "data_version": "e1b3a8ab3b5ab5ff",
+ "data_version": "2835ed103fae83b9",
  "format": 1,
  "faction": "dark_angels",
  "groups": [
@@ -391,6 +391,26 @@
        "path": "chapter_master/chapter_master"
       }
      ]
+    },
+    {
+     "id": "inner_circle",
+     "name": "Inner Circle",
+     "printed": "Inner Circle for 5pts.",
+     "points": 5,
+     "pricing": "flat",
+     "rules": [
+      {
+       "rule": "codex/dark_angels/special_rules/inner_circle",
+       "name": "Inner Circle",
+       "url": "https://longwarindex.app/special_rules/inner_circle/"
+      }
+     ],
+     "instead_of": [
+      {
+       "page": "codex/space_marines/roster/space_marine_captain",
+       "path": "chapter_master/chapter_master"
+      }
+     ]
     }
    ]
   },
@@ -443,8 +463,8 @@
   {
    "id": "armoury_dreadnought_deathwing",
    "kind": "armoury",
-   "label": "A Dark Angels Dreadnought may be upgraded to gain the Deathwing special rule for 10pts.",
-   "printed": "A Dark Angels Dreadnought may be upgraded to gain the Deathwing special rule for 10pts.",
+   "label": "A Dark Angels Dreadnought may be upgraded to gain the Deathwing & Inner Circle special rule for 15pts.",
+   "printed": "A Dark Angels Dreadnought may be upgraded to gain the Deathwing & Inner Circle special rule for 15pts.",
    "page": 6,
    "url": "https://longwarindex.app/special_rules/armoury_of_the_1st_legion/",
    "offered_by": {
@@ -467,14 +487,19 @@
    "choices": [
     {
      "id": "deathwing",
-     "name": "Deathwing",
-     "points": 10,
+     "name": "Deathwing & Inner Circle",
+     "points": 15,
      "pricing": "flat",
      "rules": [
       {
        "rule": "codex/dark_angels/special_rules/deathwing",
        "name": "Deathwing",
        "url": "https://longwarindex.app/special_rules/deathwing/"
+      },
+      {
+       "rule": "codex/dark_angels/special_rules/inner_circle",
+       "name": "Inner Circle",
+       "url": "https://longwarindex.app/special_rules/inner_circle/"
       }
      ]
     }
@@ -483,8 +508,8 @@
   {
    "id": "armoury_vehicle_veteran",
    "kind": "armoury",
-   "label": "Any Dark Angels vehicle type unit with the Transport special rule may be upgraded to gain the Veteran keyword for 10pts.",
-   "printed": "Any Dark Angels vehicle type unit with the Transport special rule may be upgraded to gain the Veteran keyword for 10pts.",
+   "label": "Any Dark Angels vehicle type unit with the Transport special rule may be upgraded to gain the Veteran keyword for 5pts.",
+   "printed": "Any Dark Angels vehicle type unit with the Transport special rule may be upgraded to gain the Veteran keyword for 5pts.",
    "page": 6,
    "url": "https://longwarindex.app/special_rules/armoury_of_the_1st_legion/",
    "offered_by": {
@@ -511,7 +536,7 @@
     {
      "id": "veteran",
      "name": "Veteran",
-     "points": 10,
+     "points": 5,
      "pricing": "flat",
      "keywords": [
       "Veteran"

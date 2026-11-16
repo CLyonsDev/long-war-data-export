@@ -1,5 +1,5 @@
 {
- "data_version": "4133678c0646b968",
+ "data_version": "4346b86ee568713b",
  "format": 1,
  "faction": "talons_of_the_emperor",
  "wargear": [
@@ -129,8 +129,7 @@
    "section": "Armour",
    "page": 5,
    "url": "https://longwarindex.app/wargear/aquilon_terminator_armour/",
-   "text": "An ancient heavier pattern of Terminator Armour rarely used. It provides a 2+ Armour save and a 3+ Invulnerable save. The Wearer gains the Relentless, Slow & Purposeful, Bulky (3), and Deep Strike special rules.",
-   "print_defect": "The book prints no keyword for this wargear. This data reads this as giving the Terminator keyword, as the other patterns of Terminator Armour do.",
+   "text": "An ancient heavier pattern of Terminator Armour rarely used. It provides a 2+ Armour save and a 3+ Invulnerable save. The Wearer gains the Relentless, Slow & Purposeful, Bulky (3), and Deep Strike special rules. It also grants the Terminator Keyword.",
    "effects": {
     "armour_save": "2+",
     "invulnerable_save": "3+",
@@ -165,11 +164,16 @@
   {
    "id": "allarus_terminator_armour",
    "name": "Allarus Terminator Armour",
+   "weapons": [
+    {
+     "kind": "weapon",
+     "id": "balistus_grenade_launcher"
+    }
+   ],
    "section": "Armour",
    "page": 5,
    "url": "https://longwarindex.app/wargear/allarus_terminator_armour/",
-   "text": "A more mobile pattern of Terminator Armour rarely used. It provides a 2+ Armour Save and a 4+ Invulnerable save. The Wearer gains Relentless, Bulky (3), Deep Strike and Sprint (1) special rules.",
-   "print_defect": "The book prints no keyword for this wargear. This data reads this as giving the Terminator keyword, as the other patterns of Terminator Armour do.",
+   "text": "A more mobile pattern of Terminator Armour rarely used. It provides a 2+ Armour Save and a 4+ Invulnerable save. The Wearer gains Relentless, Bulky (3), Deep Strike and Sprint (1) special rules. The wearer is equipped with a Balistus Grenade Launcher. It also grants the Terminator Keyword.",
    "effects": {
     "armour_save": "2+",
     "invulnerable_save": "4+",
