@@ -1,5 +1,5 @@
 {
- "data_version": "604fa0839410101e",
+ "data_version": "77ab499c19ec939d",
  "format": 1,
  "faction": "dark_eldar",
  "units": [
@@ -6590,7 +6590,11 @@
      "label": "The Solarite may exchange its Shard Carbine with one of the following:",
      "printed": "The Solarite may exchange its [[Shard Carbine]] with one of the following:",
      "takers": {
-      "scope": "unit"
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "solarite"
+      ]
      },
      "pick": {
       "max": 1
@@ -6647,7 +6651,11 @@
      "label": "The Solarite may take one of the following:",
      "printed": "The Solarite may take one of the following:",
      "takers": {
-      "scope": "unit"
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "solarite"
+      ]
      },
      "pick": {
       "max": 1
@@ -6696,7 +6704,11 @@
      "label": "The Solarite may take a Phantasm Grenade (+5pts)",
      "printed": "The Solarite may take a [[Phantasm Grenade]] (+5pts)",
      "takers": {
-      "scope": "unit"
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "solarite"
+      ]
      },
      "pick": {
       "max": 1
