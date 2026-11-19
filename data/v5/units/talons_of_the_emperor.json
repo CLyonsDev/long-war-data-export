@@ -1,5 +1,5 @@
 {
- "data_version": "a94055b8fa79dff5",
+ "data_version": "0ae538a54efeefac",
  "format": 1,
  "faction": "talons_of_the_emperor",
  "units": [
@@ -412,13 +412,10 @@
     },
     {
      "id": "guardian_spear",
-     "label": "Any Allarus Terminator Custodian model in the unit may exchange their Guardian Spear for a Castellan Axe (+10pts)",
-     "printed": "Any Allarus Terminator Custodian model in the unit may exchange their [[Guardian Spear]] for a [[Castellan Axe]] (+10pts)",
+     "label": "Any model in the unit may exchange their Guardian Spear for a Castellan Axe (+10pts)",
+     "printed": "Any model in the unit may exchange their [[Guardian Spear]] for a [[Castellan Axe]] (+10pts)",
      "takers": {
-      "scope": "each_model",
-      "profiles": [
-       "allarus_terminator_custodian"
-      ]
+      "scope": "each_model"
      },
      "pick": {
       "max": 1
@@ -2118,13 +2115,10 @@
     },
     {
      "id": "guardian_spear",
-     "label": "Any Custodian Guard model in the unit may exchange their Guardian Spear for one of the following:",
-     "printed": "Any Custodian Guard model in the unit may exchange their [[Guardian Spear]] for one of the following:",
+     "label": "Any model in the unit may exchange their Guardian Spear for one of the following:",
+     "printed": "Any model in the unit may exchange their [[Guardian Spear]] for one of the following:",
      "takers": {
-      "scope": "each_model",
-      "profiles": [
-       "custodian_guard"
-      ]
+      "scope": "each_model"
      },
      "pick": {
       "max": 1
