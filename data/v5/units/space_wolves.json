@@ -1,5 +1,5 @@
 {
- "data_version": "3e2b6594602bd312",
+ "data_version": "29148978d20ac07d",
  "format": 1,
  "faction": "space_wolves",
  "units": [
@@ -8124,8 +8124,7 @@
      "label": "A Theiygn Battle Leader equipped with Power Armour or Runic Armour may one of the following:",
      "printed": "A Theiygn Battle Leader equipped with Power Armour or Runic Armour may one of the following:",
      "takers": {
-      "scope": "models",
-      "max": 1,
+      "scope": "each_model",
       "profiles": [
        "theiygn_guard"
       ]
@@ -8174,15 +8173,15 @@
        ],
        "profile": "theiygn_on_thunderwolf"
       }
-     ]
+     ],
+     "print_defect": "The book prints \"A Theiygn Battle Leader\" and \"may one of the following\". This unit has no Theiygn Battle Leader. This data reads this as \"A Theiygn Guard ... may take one of the following\". Each model may take each option of the unit."
     },
     {
      "id": "terminator_exchange",
      "label": "A Theiygn Guard may exchange his Bolt Pistol, Bolt Gun, Frag Grenades, Krak Grenades, Chainsword and Power Armour for one of the following:",
      "printed": "May exchange his Bolt Pistol, Bolt Gun, Frag Grenades, Krak Grenades, Chainsword and Power Armour for one of the following:",
      "takers": {
-      "scope": "models",
-      "max": 1,
+      "scope": "each_model",
       "profiles": [
        "theiygn_guard"
       ]
@@ -8441,8 +8440,7 @@
      "label": "A Theiygn Guard may exchange their Boltgun/Storm Bolter/Heavy Bolt Rifle for one of the following:",
      "printed": "May exchange their [[Boltgun]]/[[Storm Bolter]]/[[Heavy Boltgun|Heavy Bolt Rifle]] for one of the following:",
      "takers": {
-      "scope": "models",
-      "max": 1,
+      "scope": "each_model",
       "profiles": [
        "theiygn_guard"
       ]
@@ -8981,8 +8979,7 @@
      "label": "A Theiygn Guard in Power Armour or Runic Armour not equipped with a Jump Pack, Thunderwolf or Bike may exchange their Boltgun and Chainsword for one of the following:",
      "printed": "A Theiygn Guard in Power Armour or Runic Armour not equipped with a Jump Pack, Thunderwolf or Bike may exchange their Boltgun and Chainsword for one of the following:",
      "takers": {
-      "scope": "models",
-      "max": 1,
+      "scope": "each_model",
       "profiles": [
        "theiygn_guard"
       ]
@@ -9202,8 +9199,7 @@
      "label": "A Theiygn Guard not equipped with a Bike or Gravis Armour may exchange their Boltgun/Storm Bolter and Chainsword/Power Sword for 2 Frost Claws (+15pts)",
      "printed": "A Theiygn Guard not equipped with a Bike or Gravis Armour may exchange their Boltgun/Storm Bolter and Chainsword/Power Sword for 2 Frost Claws (+15pts)",
      "takers": {
-      "scope": "models",
-      "max": 1,
+      "scope": "each_model",
       "profiles": [
        "theiygn_guard"
       ]
@@ -9248,8 +9244,7 @@
      "label": "A Theiygn Guard equipped with Gravis Armour may exchange its Chainsword or Heavy Boltgun for one of the following:",
      "printed": "A Theiygn Guard equipped with Gravis Armour may exchange its Chainsword or Heavy Boltgun for one of the following:",
      "takers": {
-      "scope": "models",
-      "max": 1,
+      "scope": "each_model",
       "profiles": [
        "theiygn_guard"
       ]
@@ -9324,8 +9319,7 @@
      "label": "A Theiygn Guard may exchange its Bolt Pistol for a:",
      "printed": "May exchange its Bolt Pistol for a:",
      "takers": {
-      "scope": "models",
-      "max": 1,
+      "scope": "each_model",
       "profiles": [
        "theiygn_guard"
       ]
@@ -9413,8 +9407,7 @@
      "label": "A Theiygn Guard may exchange their Chainsword for one of the following:",
      "printed": "May exchange their Chainsword for one of the following:",
      "takers": {
-      "scope": "models",
-      "max": 1,
+      "scope": "each_model",
       "profiles": [
        "theiygn_guard"
       ]
@@ -9618,8 +9611,7 @@
      "label": "A Theiygn Guard in Terminator Armour may exchange their Frost Sword for one of the following:",
      "printed": "A Theiygn Guard in Terminator Armour may exchange their Frost Sword for one of the following:",
      "takers": {
-      "scope": "models",
-      "max": 1,
+      "scope": "each_model",
       "profiles": [
        "theiygn_guard"
       ]
@@ -9771,8 +9763,7 @@
      "label": "A Theiygn Guard may take any of the following:",
      "printed": "May take any of the following:",
      "takers": {
-      "scope": "models",
-      "max": 1,
+      "scope": "each_model",
       "profiles": [
        "theiygn_guard"
       ]
