@@ -1,5 +1,5 @@
 {
- "data_version": "5eb686e7e85f6069",
+ "data_version": "df98a801f5d3d3ff",
  "format": 1,
  "faction": "imperial_agents",
  "special_rules": [
@@ -1451,13 +1451,22 @@
    "kind": "datasheet",
    "page": 80,
    "url": "https://longwarindex.app/special_rules/transport_chimera_apc_imperial_agents/",
-   "text": "This model can transport 12 Infantry models within it.",
+   "text": "This model can transport 12 Infantry models within it. It may not transport Space Marine units.",
    "effects": {
     "transport_capacity": {
      "type": "shared",
      "n": 12,
      "unit_types": [
       "Infantry"
+     ],
+     "filters": [
+      {
+       "not": true,
+       "any_keywords": [
+        "Space Marine",
+        "Space Marines"
+       ]
+      }
      ]
     }
    }
@@ -1660,13 +1669,22 @@
    "kind": "datasheet",
    "page": 81,
    "url": "https://longwarindex.app/special_rules/transport_taurox/",
-   "text": "This model can transport 10 Infantry models within it.",
+   "text": "This model can transport 10 Infantry models within it. It may not transport Space Marine units.",
    "effects": {
     "transport_capacity": {
      "type": "shared",
      "n": 10,
      "unit_types": [
       "Infantry"
+     ],
+     "filters": [
+      {
+       "not": true,
+       "any_keywords": [
+        "Space Marine",
+        "Space Marines"
+       ]
+      }
      ]
     }
    }

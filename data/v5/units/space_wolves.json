@@ -1,5 +1,5 @@
 {
- "data_version": "29148978d20ac07d",
+ "data_version": "953a941c73944864",
  "format": 1,
  "faction": "space_wolves",
  "units": [
@@ -8121,8 +8121,8 @@
     },
     {
      "id": "mount_options",
-     "label": "A Theiygn Battle Leader equipped with Power Armour or Runic Armour may one of the following:",
-     "printed": "A Theiygn Battle Leader equipped with Power Armour or Runic Armour may one of the following:",
+     "label": "A Theiygn Guard equipped with Power Armour or Runic Armour may one of the following:",
+     "printed": "A Theiygn Guard equipped with Power Armour or Runic Armour may one of the following:",
      "takers": {
       "scope": "each_model",
       "profiles": [
@@ -8174,7 +8174,7 @@
        "profile": "theiygn_on_thunderwolf"
       }
      ],
-     "print_defect": "The book prints \"A Theiygn Battle Leader\" and \"may one of the following\". This unit has no Theiygn Battle Leader. This data reads this as \"A Theiygn Guard ... may take one of the following\". Each model may take each option of the unit."
+     "print_defect": "The book prints \"may one of the following\". This data reads this as \"may take one of the following\"."
     },
     {
      "id": "terminator_exchange",
@@ -8183,7 +8183,8 @@
      "takers": {
       "scope": "each_model",
       "profiles": [
-       "theiygn_guard"
+       "theiygn_guard",
+       "theiygn_on_thunderwolf"
       ]
      },
      "pick": {
@@ -8442,7 +8443,8 @@
      "takers": {
       "scope": "each_model",
       "profiles": [
-       "theiygn_guard"
+       "theiygn_guard",
+       "theiygn_on_thunderwolf"
       ]
      },
      "pick": {
@@ -8981,9 +8983,44 @@
      "takers": {
       "scope": "each_model",
       "profiles": [
-       "theiygn_guard"
+       "theiygn_guard",
+       "theiygn_on_thunderwolf"
       ]
      },
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "wargear",
+         "id": "power_armour",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "wargear",
+         "id": "runic_armour"
+        }
+       ]
+      },
+      {
+       "lacks": [
+        {
+         "kind": "wargear",
+         "id": "jump_pack",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "wargear",
+         "id": "thunderwolf_cavalry",
+         "printed": "Thunderwolf"
+        },
+        {
+         "kind": "wargear",
+         "id": "bike",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ],
      "pick": {
       "max": 1
      },
@@ -9201,9 +9238,26 @@
      "takers": {
       "scope": "each_model",
       "profiles": [
-       "theiygn_guard"
+       "theiygn_guard",
+       "theiygn_on_thunderwolf"
       ]
      },
+     "requires": [
+      {
+       "lacks": [
+        {
+         "kind": "wargear",
+         "id": "bike",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "wargear",
+         "id": "gravis_armour",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ],
      "pick": {
       "max": 1
      },
@@ -9246,7 +9300,8 @@
      "takers": {
       "scope": "each_model",
       "profiles": [
-       "theiygn_guard"
+       "theiygn_guard",
+       "theiygn_on_thunderwolf"
       ]
      },
      "requires": [
@@ -9321,7 +9376,8 @@
      "takers": {
       "scope": "each_model",
       "profiles": [
-       "theiygn_guard"
+       "theiygn_guard",
+       "theiygn_on_thunderwolf"
       ]
      },
      "pick": {
@@ -9409,7 +9465,8 @@
      "takers": {
       "scope": "each_model",
       "profiles": [
-       "theiygn_guard"
+       "theiygn_guard",
+       "theiygn_on_thunderwolf"
       ]
      },
      "pick": {
@@ -9613,9 +9670,31 @@
      "takers": {
       "scope": "each_model",
       "profiles": [
-       "theiygn_guard"
+       "theiygn_guard",
+       "theiygn_on_thunderwolf"
       ]
      },
+     "requires": [
+      {
+       "holds": [
+        {
+         "kind": "wargear",
+         "id": "indomitus_terminator_armour",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "wargear",
+         "id": "cataphractii_terminator_armour",
+         "faction": "space_marines"
+        },
+        {
+         "kind": "wargear",
+         "id": "tartaros_terminator_armour",
+         "faction": "space_marines"
+        }
+       ]
+      }
+     ],
      "pick": {
       "max": 1
      },
@@ -9765,7 +9844,8 @@
      "takers": {
       "scope": "each_model",
       "profiles": [
-       "theiygn_guard"
+       "theiygn_guard",
+       "theiygn_on_thunderwolf"
       ]
      },
      "pick": {},
@@ -9838,7 +9918,35 @@
         }
        ],
        "max": 1
-      },
+      }
+     ]
+    },
+    {
+     "id": "wolf_companion",
+     "label": "A Theiygn Guard may take any of the following:",
+     "printed": "May take any of the following:",
+     "takers": {
+      "scope": "models",
+      "profiles": [
+       "theiygn_guard",
+       "theiygn_on_thunderwolf"
+      ],
+      "ratio": {
+       "take": 1,
+       "per": 1,
+       "rounding": "down",
+       "counted": {
+        "profiles": [
+         "theiygn_guard",
+         "theiygn_on_thunderwolf"
+        ]
+       }
+      }
+     },
+     "pick": {
+      "max": 1
+     },
+     "choices": [
       {
        "id": "wolf_companion",
        "name": "Wolf Companion",
