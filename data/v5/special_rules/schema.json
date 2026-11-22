@@ -1604,11 +1604,11 @@
     },
     "label": {
      "type": "string",
-     "description": "The text of the sentence in this data."
+     "description": "The text of the sentence in this data, without its price."
     },
     "printed": {
      "type": "string",
-     "description": "The book's sentence, with its subject and its price form."
+     "description": "The book's sentence, with its subject, without its price. The points of each choice give the price."
     },
     "takers": {
      "$ref": "#/$defs/takers"
