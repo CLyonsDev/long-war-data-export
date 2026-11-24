@@ -1,5 +1,5 @@
 {
- "data_version": "03f6f7e0b68b229a",
+ "data_version": "6ee50204afb71de4",
  "format": 1,
  "faction": "word_bearers",
  "groups": [
@@ -377,7 +377,7 @@
     "allegiance": "codex/word_bearers/allegiances/allegiance_word_bearers"
    },
    "takers": {
-    "scope": "each_model",
+    "scope": "unit",
     "conditions": [
      {
       "keyword": "Word Bearers"
@@ -393,7 +393,7 @@
      "name": "Hexagramatic Wards",
      "printed": "Hexagramatic Wards for 2pts per model.",
      "points": 2,
-     "pricing": "each",
+     "pricing": "per_model",
      "items": [
       {
        "kind": "wargear",
