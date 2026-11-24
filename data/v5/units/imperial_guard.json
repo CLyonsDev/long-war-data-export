@@ -1,5 +1,5 @@
 {
- "data_version": "6ddc68152a382e27",
+ "data_version": "2e01aefa886ba4cc",
  "format": 1,
  "faction": "imperial_guard",
  "units": [
@@ -6154,44 +6154,52 @@
           }
          ]
         }
-       ],
-       "options": [
+       ]
+      }
+     ]
+    },
+    {
+     "id": "brute_shield",
+     "label": "An Ogryn Bodyguard may exchange their Slab Shield for a Brute Shield",
+     "printed": "An Ogryn Bodyguard may exchange their Slab Shield for a Brute Shield",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "ogryn_bodyguard"
+      ]
+     },
+     "requires": [
+      {
+       "holds": [
         {
-         "id": "brute_shield",
-         "label": "Bullgryn Plate, Grenadier Gauntlet and Slab Shield",
-         "printed": "An Ogryn Bodyguard may exchange their Slab Shield for a Brute Shield",
-         "takers": {
-          "scope": "models",
-          "max": 1,
-          "profiles": [
-           "ogryn_bodyguard"
-          ]
-         },
-         "pick": {
-          "max": 1
-         },
-         "choices": [
+         "kind": "wargear",
+         "id": "slab_shield"
+        }
+       ]
+      }
+     ],
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "brute_shield",
+       "name": "Brute Shield",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
           {
-           "id": "brute_shield",
-           "name": "Brute Shield",
-           "points": 10,
-           "pricing": "flat",
-           "exchanges": [
-            {
-             "remove": [
-              {
-               "kind": "wargear",
-               "id": "slab_shield"
-              }
-             ],
-             "add": [
-              {
-               "kind": "wargear",
-               "id": "brute_shield"
-              }
-             ]
-            }
-           ]
+           "kind": "wargear",
+           "id": "slab_shield"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "brute_shield"
           }
          ]
         }
@@ -17963,40 +17971,48 @@
           }
          ]
         }
-       ],
-       "options": [
+       ]
+      }
+     ]
+    },
+    {
+     "id": "brute_shield_swap",
+     "label": "A model may exchange their Slab Shield for a Brute Shield",
+     "printed": "A model may exchange their Slab Shield for a Brute Shield",
+     "takers": {
+      "scope": "model"
+     },
+     "requires": [
+      {
+       "holds": [
         {
-         "id": "brute_shield_swap",
-         "label": "Bullgryn Plate, Grenadier Gauntlet and Slab Shield",
-         "printed": "A model may exchange their Slab Shield for a Brute Shield",
-         "takers": {
-          "scope": "model"
-         },
-         "pick": {
-          "max": 1
-         },
-         "choices": [
+         "kind": "wargear",
+         "id": "slab_shield"
+        }
+       ]
+      }
+     ],
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "brute_shield",
+       "name": "A model may exchange their Slab Shield for a Brute Shield",
+       "points": 10,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
           {
-           "id": "brute_shield",
-           "name": "A model may exchange their Slab Shield for a Brute Shield",
-           "points": 10,
-           "pricing": "flat",
-           "exchanges": [
-            {
-             "remove": [
-              {
-               "kind": "wargear",
-               "id": "slab_shield"
-              }
-             ],
-             "add": [
-              {
-               "kind": "wargear",
-               "id": "brute_shield"
-              }
-             ]
-            }
-           ]
+           "kind": "wargear",
+           "id": "slab_shield"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "brute_shield"
           }
          ]
         }
@@ -23146,44 +23162,52 @@
           }
          ]
         }
-       ],
-       "options": [
+       ]
+      }
+     ]
+    },
+    {
+     "id": "brute_shield",
+     "label": "An Ogryn Bodyguard may exchange their Slab Shield for a Brute Shield",
+     "printed": "An Ogryn Bodyguard may exchange their Slab Shield for a Brute Shield",
+     "takers": {
+      "scope": "models",
+      "max": 1,
+      "profiles": [
+       "ogryn_bodyguard"
+      ]
+     },
+     "requires": [
+      {
+       "holds": [
         {
-         "id": "brute_shield",
-         "label": "Bullgryn Plate, Grenadier Gauntlet and Slab Shield",
-         "printed": "An Ogryn Bodyguard may exchange their Slab Shield for a Brute Shield",
-         "takers": {
-          "scope": "models",
-          "max": 1,
-          "profiles": [
-           "ogryn_bodyguard"
-          ]
-         },
-         "pick": {
-          "max": 1
-         },
-         "choices": [
+         "kind": "wargear",
+         "id": "slab_shield"
+        }
+       ]
+      }
+     ],
+     "pick": {
+      "max": 1
+     },
+     "choices": [
+      {
+       "id": "brute_shield",
+       "name": "Brute Shield",
+       "points": 5,
+       "pricing": "flat",
+       "exchanges": [
+        {
+         "remove": [
           {
-           "id": "brute_shield",
-           "name": "Brute Shield",
-           "points": 5,
-           "pricing": "flat",
-           "exchanges": [
-            {
-             "remove": [
-              {
-               "kind": "wargear",
-               "id": "slab_shield"
-              }
-             ],
-             "add": [
-              {
-               "kind": "wargear",
-               "id": "brute_shield"
-              }
-             ]
-            }
-           ]
+           "kind": "wargear",
+           "id": "slab_shield"
+          }
+         ],
+         "add": [
+          {
+           "kind": "wargear",
+           "id": "brute_shield"
           }
          ]
         }
