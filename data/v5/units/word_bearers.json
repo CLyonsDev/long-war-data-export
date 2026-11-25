@@ -1,5 +1,5 @@
 {
- "data_version": "0312032f1b3c5cfd",
+ "data_version": "af5bfb459ee8432b",
  "format": 1,
  "faction": "word_bearers",
  "units": [
@@ -139,13 +139,15 @@
        "id": "additional_anointed",
        "name": "Anointed",
        "points": 41,
-       "pricing": "flat",
+       "pricing": "each",
+       "max": 5,
        "add_model": {
         "profile": "anointed",
-        "count": 5
+        "count": 1
        }
       }
-     ]
+     ],
+     "print_defect": "The book prints \"an additional 5 Anointed in Indomitus Armour\" with one price. This data reads this as up to 5 additional models for 41pts each."
     },
     {
      "id": "combi_bolter_exchange",
@@ -726,13 +728,15 @@
        "id": "additional_ashen_circle",
        "name": "Ashen Circle",
        "points": 37,
-       "pricing": "flat",
+       "pricing": "each",
+       "max": 5,
        "add_model": {
         "profile": "ashen_circle",
-        "count": 5
+        "count": 1
        }
       }
-     ]
+     ],
+     "print_defect": "The book prints \"an additional 5 Ashen Circle models\" with one price. This data reads this as up to 5 additional models for 37pts each."
     },
     {
      "id": "mark",
