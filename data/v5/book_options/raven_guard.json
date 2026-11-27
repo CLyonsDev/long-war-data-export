@@ -1,5 +1,5 @@
 {
- "data_version": "edb27a2d5a2846a2",
+ "data_version": "1cc3904ff6edbc56",
  "format": 1,
  "faction": "raven_guard",
  "groups": [
@@ -493,9 +493,7 @@
      }
     ]
    },
-   "pick": {
-    "max": 1
-   },
+   "pick": {},
    "choices": [
     {
      "id": "korvedari_boltgun",
@@ -520,6 +518,9 @@
        ]
       }
      ],
+     "max": {
+      "per": "held"
+     },
      "requires": [
       {
        "holds": [
@@ -555,6 +556,9 @@
        ]
       }
      ],
+     "max": {
+      "per": "held"
+     },
      "requires": [
       {
        "holds": [

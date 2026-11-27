@@ -1,5 +1,5 @@
 {
- "data_version": "6ee50204afb71de4",
+ "data_version": "de1f3ef65ff24363",
  "format": 1,
  "faction": "word_bearers",
  "groups": [
@@ -431,9 +431,7 @@
      }
     ]
    },
-   "pick": {
-    "max": 1
-   },
+   "pick": {},
    "choices": [
     {
      "id": "tainted_power_sword",
@@ -457,7 +455,10 @@
         }
        ]
       }
-     ]
+     ],
+     "max": {
+      "per": "held"
+     }
     },
     {
      "id": "tainted_power_maul",
@@ -481,7 +482,10 @@
         }
        ]
       }
-     ]
+     ],
+     "max": {
+      "per": "held"
+     }
     }
    ]
   },
@@ -503,9 +507,7 @@
      }
     ]
    },
-   "pick": {
-    "max": 1
-   },
+   "pick": {},
    "choices": [
     {
      "id": "warp_fire_pistol",
@@ -529,7 +531,10 @@
         }
        ]
       }
-     ]
+     ],
+     "max": {
+      "per": "held"
+     }
     },
     {
      "id": "warp_fire_gun",
@@ -553,7 +558,10 @@
         }
        ]
       }
-     ]
+     ],
+     "max": {
+      "per": "held"
+     }
     },
     {
      "id": "warp_fire_blaster",
@@ -578,7 +586,10 @@
         }
        ]
       }
-     ]
+     ],
+     "max": {
+      "per": "held"
+     }
     },
     {
      "id": "warp_fire_cannon",
@@ -602,7 +613,10 @@
         }
        ]
       }
-     ]
+     ],
+     "max": {
+      "per": "held"
+     }
     }
    ]
   },

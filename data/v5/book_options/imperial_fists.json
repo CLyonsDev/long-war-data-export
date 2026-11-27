@@ -1,5 +1,5 @@
 {
- "data_version": "64f4c29cd5fb267c",
+ "data_version": "bcea560125f95e04",
  "format": 1,
  "faction": "imperial_fists",
  "groups": [
@@ -686,9 +686,7 @@
      }
     ]
    },
-   "pick": {
-    "max": 1
-   },
+   "pick": {},
    "choices": [
     {
      "id": "gatebreaker_boltgun_from_boltgun",
@@ -713,6 +711,9 @@
        ]
       }
      ],
+     "max": {
+      "per": "held"
+     },
      "requires": [
       {
        "holds": [
@@ -748,6 +749,9 @@
        ]
       }
      ],
+     "max": {
+      "per": "held"
+     },
      "requires": [
       {
        "holds": [

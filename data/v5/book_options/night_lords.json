@@ -1,5 +1,5 @@
 {
- "data_version": "0bdee38b041d2cd0",
+ "data_version": "1ba6230e94f5b8c4",
  "format": 1,
  "faction": "night_lords",
  "groups": [
@@ -413,9 +413,7 @@
      }
     ]
    },
-   "pick": {
-    "max": 1
-   },
+   "pick": {},
    "choices": [
     {
      "id": "chainblade",
@@ -439,7 +437,10 @@
         }
        ]
       }
-     ]
+     ],
+     "max": {
+      "per": "held"
+     }
     },
     {
      "id": "flay_whip",
@@ -463,7 +464,10 @@
         }
        ]
       }
-     ]
+     ],
+     "max": {
+      "per": "held"
+     }
     }
    ]
   },

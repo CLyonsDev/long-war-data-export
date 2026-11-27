@@ -325,7 +325,28 @@
      }
     },
     "max": {
-     "type": "integer"
+     "oneOf": [
+      {
+       "type": "integer",
+       "minimum": 1
+      },
+      {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "per"
+       ],
+       "properties": {
+        "per": {
+         "enum": [
+          "held"
+         ]
+        }
+       },
+       "description": "The model may take the choice 1 time for each copy of the remove item of the choice that it holds before the first application of the choice."
+      }
+     ],
+     "description": "How many times one taker may take this choice. An integer, or {per: held}."
     },
     "profile": {
      "type": [
