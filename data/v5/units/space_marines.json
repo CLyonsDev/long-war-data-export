@@ -1,5 +1,5 @@
 {
- "data_version": "ee97ea47df5bec15",
+ "data_version": "cceddcd77ea25304",
  "format": 1,
  "faction": "space_marines",
  "units": [
@@ -24573,7 +24573,8 @@
      "takers": {
       "scope": "each_model",
       "profiles": [
-       "veteran_marine"
+       "veteran_marine",
+       "veteran_sergeant"
       ]
      },
      "pick": {
@@ -24998,7 +24999,8 @@
         }
        ]
       }
-     ]
+     ],
+     "print_defect": "The book prints \"Any Veteran model\". This data reads this as each Veteran and the Veteran Sergeant."
     },
     {
      "id": "close_combat_weapon",
@@ -25383,7 +25385,8 @@
      "takers": {
       "scope": "each_model",
       "profiles": [
-       "veteran_marine"
+       "veteran_marine",
+       "veteran_sergeant"
       ]
      },
      "pick": {
@@ -25434,7 +25437,8 @@
         }
        ]
       }
-     ]
+     ],
+     "print_defect": "The book prints \"Any Veteran model\". This data reads this as each Veteran and the Veteran Sergeant."
     },
     {
      "id": "sergeant_close_combat_weapon",

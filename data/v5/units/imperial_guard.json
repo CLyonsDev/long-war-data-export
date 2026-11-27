@@ -1,5 +1,5 @@
 {
- "data_version": "2e01aefa886ba4cc",
+ "data_version": "2cc672bfb930157e",
  "format": 1,
  "faction": "imperial_guard",
  "units": [
@@ -17891,7 +17891,7 @@
      "label": "A model in the unit may exchange their Ripper Gun, Bayonet and Flak Armour for one of the following:",
      "printed": "A model in the unit may exchange their Ripper Gun, Bayonet and Flak Armour for one of the following:",
      "takers": {
-      "scope": "model"
+      "scope": "each_model"
      },
      "pick": {
       "max": 1
@@ -17973,14 +17973,15 @@
         }
        ]
       }
-     ]
+     ],
+     "print_defect": "The book prints \"A model in the unit\". This data reads this as each model in the unit."
     },
     {
      "id": "brute_shield_swap",
      "label": "A model may exchange their Slab Shield for a Brute Shield",
      "printed": "A model may exchange their Slab Shield for a Brute Shield",
      "takers": {
-      "scope": "model"
+      "scope": "each_model"
      },
      "requires": [
       {
@@ -18018,7 +18019,8 @@
         }
        ]
       }
-     ]
+     ],
+     "print_defect": "The book prints \"A model\". This data reads this as each model that has a Slab Shield."
     }
    ]
   },
