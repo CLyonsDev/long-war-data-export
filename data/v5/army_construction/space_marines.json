@@ -1,5 +1,5 @@
 {
- "data_version": "ffda790aa3f7225a",
+ "data_version": "8b8336d4adebe729",
  "format": 1,
  "faction": "space_marines",
  "codex": {
@@ -1354,11 +1354,19 @@
      "units": {
       "conditions": [
        {
-        "datasheet": "codex/space_marines/roster/veteran_squad"
+        "any_of": [
+         {
+          "datasheet": "codex/space_marines/roster/veteran_squad"
+         },
+         {
+          "datasheet": "codex/ultramarines/roster/tyrannic_war_veterans"
+         }
+        ]
        }
       ],
       "min": 2
-     }
+     },
+     "print_defect": "The book does not name Tyrannic War Veterans in this rule. This data reads a Tyrannic War Veterans unit as a Veteran Squad unit."
     },
     {
      "id": "troops_terminator_or_veteran",
